@@ -105,7 +105,7 @@ function createBarOption(subscales, subscaleReports) {
 
   const colors = subscales.map((s) => {
     const report = reportMap[s.id]
-    return report ? getSeverityColor(report.level) : '#6366f1'
+    return report ? getSeverityColor(report.level) : '#3b82f6'
   })
 
   // Determine max axis value
@@ -250,14 +250,14 @@ function createRadarOption(subscales, subscaleReports) {
             value: values,
             name: '\u5F97\u5206',
             areaStyle: {
-              color: 'rgba(99, 102, 241, 0.2)',
+              color: 'rgba(59, 130, 246, 0.2)',
             },
             lineStyle: {
-              color: '#6366f1',
+              color: '#3b82f6',
               width: 2,
             },
             itemStyle: {
-              color: '#6366f1',
+              color: '#3b82f6',
               borderColor: '#fff',
               borderWidth: 2,
             },

@@ -302,7 +302,7 @@ onBeforeUnmount(() => {
 /* Instruction */
 .instruction-banner {
   padding: var(--spacing-3) var(--spacing-4);
-  background-color: rgba(99, 102, 241, 0.05);
+  background-color: rgba(59, 130, 246, 0.05);
   border-radius: var(--border-radius-sm);
   border-left: 3px solid var(--color-primary);
   margin-bottom: var(--spacing-4);
@@ -407,10 +407,10 @@ onBeforeUnmount(() => {
 
 @keyframes pulse-glow {
   0%, 100% {
-    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.4);
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
   }
   50% {
-    box-shadow: 0 0 0 8px rgba(99, 102, 241, 0);
+    box-shadow: 0 0 0 8px rgba(59, 130, 246, 0);
   }
 }
 
@@ -449,7 +449,7 @@ onBeforeUnmount(() => {
 
 .dot.current {
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
 }
 
 .dot.current.answered {

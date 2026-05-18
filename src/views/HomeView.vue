@@ -18,9 +18,9 @@ onMounted(() => {
     <!-- Hero Section -->
     <section class="hero">
       <div class="container">
-        <h1 class="hero-title">心理测评</h1>
+        <h1 class="hero-title">心灵探索</h1>
         <p class="hero-subtitle">
-          选择感兴趣的标签，探索适合你的心理量表
+          探索内心世界，了解真实的自己
         </p>
       </div>
     </section>

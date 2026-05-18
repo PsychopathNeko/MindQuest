@@ -19,7 +19,6 @@ function navigateToScale() {
   <article class="scale-card card" @click="navigateToScale" role="button" tabindex="0" @keydown.enter="navigateToScale">
     <div class="card-header">
       <span class="short-name-badge">{{ scale.shortName }}</span>
-      <span class="license-badge">{{ scale.license }}</span>
     </div>
     <h3 class="card-title">{{ scale.name }}</h3>
     <p class="card-description">{{ scale.description }}</p>
@@ -81,17 +80,11 @@ function navigateToScale() {
   font-size: var(--font-size-xs);
   font-weight: 700;
   color: var(--color-primary);
-  background-color: rgba(99, 102, 241, 0.08);
+  background-color: rgba(59, 130, 246, 0.08);
   border-radius: var(--border-radius-full);
   letter-spacing: 0.02em;
 }
 
-.license-badge {
-  font-size: 10px;
-  color: var(--color-text-secondary);
-  opacity: 0.6;
-  font-weight: 500;
-}
 
 .card-title {
   font-size: var(--font-size-base);
@@ -118,7 +111,7 @@ function navigateToScale() {
   font-size: 11px;
   font-weight: 500;
   color: var(--color-secondary);
-  background-color: rgba(139, 92, 246, 0.08);
+  background-color: rgba(37, 99, 235, 0.08);
   border-radius: var(--border-radius-full);
 }
 

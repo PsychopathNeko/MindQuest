@@ -77,7 +77,7 @@ function select(value) {
 
 .choice-card:hover {
   border-color: var(--color-primary-light);
-  background-color: rgba(99, 102, 241, 0.04);
+  background-color: rgba(59, 130, 246, 0.04);
 }
 
 .choice-card:active {
@@ -86,7 +86,7 @@ function select(value) {
 
 .choice-card.selected {
   border-color: var(--color-primary);
-  background-color: rgba(99, 102, 241, 0.08);
+  background-color: rgba(59, 130, 246, 0.08);
   box-shadow: 0 0 0 1px var(--color-primary);
 }
 

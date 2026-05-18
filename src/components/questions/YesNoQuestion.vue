@@ -75,7 +75,7 @@ function select(value) {
 
 .yesno-btn:hover {
   border-color: var(--color-primary-light);
-  background-color: rgba(99, 102, 241, 0.04);
+  background-color: rgba(59, 130, 246, 0.04);
 }
 
 .yesno-btn:active {
@@ -84,7 +84,7 @@ function select(value) {
 
 .yesno-btn.selected {
   border-color: var(--color-primary);
-  background-color: rgba(99, 102, 241, 0.08);
+  background-color: rgba(59, 130, 246, 0.08);
   color: var(--color-primary-dark);
   box-shadow: 0 0 0 1px var(--color-primary);
 }

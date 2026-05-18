@@ -77,10 +77,7 @@ function estimateTime(questionCount) {
               <span class="meta-label">预计时间</span>
               <span class="meta-value">{{ estimateTime(scale.questions.length) }} 分钟</span>
             </div>
-            <div class="meta-item">
-              <span class="meta-label">许可</span>
-              <span class="meta-value">{{ scale.meta.license }}</span>
-            </div>
+
           </div>
 
           <!-- Reference -->
@@ -146,7 +143,7 @@ function estimateTime(questionCount) {
   font-size: var(--font-size-xs);
   font-weight: 600;
   color: var(--color-primary);
-  background-color: rgba(99, 102, 241, 0.1);
+  background-color: rgba(59, 130, 246, 0.1);
   border-radius: var(--border-radius-full);
   letter-spacing: 0.5px;
 }
@@ -203,7 +200,7 @@ function estimateTime(questionCount) {
 
 .instruction-box {
   padding: var(--spacing-4);
-  background-color: rgba(99, 102, 241, 0.05);
+  background-color: rgba(59, 130, 246, 0.05);
   border-radius: var(--border-radius-sm);
   border-left: 3px solid var(--color-primary);
 }

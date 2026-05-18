@@ -10,7 +10,7 @@ import { RouterLink } from 'vue-router'
           <path d="M12 2a7 7 0 0 1 7 7c0 3-2 5.5-4 7.5L12 20l-3-3.5C7 14.5 5 12 5 9a7 7 0 0 1 7-7z"/>
           <circle cx="12" cy="9" r="2.5"/>
         </svg>
-        <span class="logo-text">PsychoScale</span>
+        <span class="logo-text">MindQuest</span>
       </RouterLink>
       <nav class="header-nav">
         <RouterLink to="/history" class="nav-link">
@@ -87,7 +87,7 @@ import { RouterLink } from 'vue-router'
 
 .nav-link:hover {
   color: var(--color-primary);
-  background-color: rgba(99, 102, 241, 0.06);
+  background-color: rgba(59, 130, 246, 0.06);
 }
 
 .nav-icon {

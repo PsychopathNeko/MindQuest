@@ -5,7 +5,7 @@
         本站量表仅供自我了解参考，不构成医学诊断。如有心理健康困扰，请咨询专业人士。
       </p>
       <p class="footer-copyright">
-        &copy; {{ new Date().getFullYear() }} PsychoScale
+        &copy; {{ new Date().getFullYear() }} MindQuest
       </p>
     </div>
   </footer>

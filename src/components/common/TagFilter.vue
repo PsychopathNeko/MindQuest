@@ -77,7 +77,7 @@ const emit = defineEmits(['toggle', 'clear'])
 .tag-chip:hover {
   border-color: var(--color-primary-light);
   color: var(--color-primary);
-  background-color: rgba(99, 102, 241, 0.04);
+  background-color: rgba(59, 130, 246, 0.04);
 }
 
 .tag-chip.active {
