@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "id": "dass-21",
+    "name": "DASS-21 抑郁焦虑压力量表",
+    "fullName": "Depression Anxiety Stress Scales-21",
+    "description": "DASS-21 是一份包含 21 个条目的自评量表，可同时评估抑郁、焦虑和压力三个负性情绪维度的严重程度。它是 DASS-42 的简版，广泛应用于临床筛查和科研。",
+    "author": "Lovibond & Lovibond (1995)",
+    "license": "Public Domain",
+    "reference": "Lovibond SH, Lovibond PF. Manual for the Depression Anxiety Stress Scales. 2nd ed. Sydney: Psychology Foundation; 1995.",
+    "instruction": "请阅读以下每一条陈述，选出在过去一周内最符合你情况的选项。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "完全不符合" },
+    { "value": 1, "label": "有时符合" },
+    { "value": 2, "label": "常常符合" },
+    { "value": 3, "label": "总是符合" }
+  ],
+  "questions": [
+    { "index": 0,  "text": "我觉得很难让自己安静下来", "type": "likert" },
+    { "index": 1,  "text": "我感到口干舌燥", "type": "likert" },
+    { "index": 2,  "text": "我好像一点也没有积极的感觉", "type": "likert" },
+    { "index": 3,  "text": "我感到呼吸困难（例如呼吸过速、气喘）", "type": "likert" },
+    { "index": 4,  "text": "我觉得做什么事都很难起劲", "type": "likert" },
+    { "index": 5,  "text": "我对事情往往会反应过度", "type": "likert" },
+    { "index": 6,  "text": "我感到身体某部分（如腿或手）在发抖", "type": "likert" },
+    { "index": 7,  "text": "我觉得自己消耗了很多精神", "type": "likert" },
+    { "index": 8,  "text": "我担心自己在某些场合会恐慌或出丑", "type": "likert" },
+    { "index": 9,  "text": "我觉得自己没有什么可期待的", "type": "likert" },
+    { "index": 10, "text": "我发觉自己容易感到不安", "type": "likert" },
+    { "index": 11, "text": "我觉得很难放松", "type": "likert" },
+    { "index": 12, "text": "我感到情绪低落和沮丧", "type": "likert" },
+    { "index": 13, "text": "我无法容忍任何阻碍我正在做的事情", "type": "likert" },
+    { "index": 14, "text": "我感到快要恐慌了", "type": "likert" },
+    { "index": 15, "text": "我对任何事情都无法产生热情", "type": "likert" },
+    { "index": 16, "text": "我觉得自己不太有价值", "type": "likert" },
+    { "index": 17, "text": "我觉得自己很容易被触怒", "type": "likert" },
+    { "index": 18, "text": "我虽然没有明显的体力活动但能感到心脏的跳动（如心跳加速）", "type": "likert" },
+    { "index": 19, "text": "我无缘无故地感到害怕", "type": "likert" },
+    { "index": 20, "text": "我觉得生活没有意义", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 63,
+    "maxItemScore": 3,
+    "multiplier": 2,
+    "subscales": [
+      {
+        "id": "depression",
+        "name": "抑郁",
+        "items": [2, 4, 9, 12, 15, 16, 20],
+        "maxScore": 21
+      },
+      {
+        "id": "anxiety",
+        "name": "焦虑",
+        "items": [1, 3, 6, 8, 14, 18, 19],
+        "maxScore": 21
+      },
+      {
+        "id": "stress",
+        "name": "压力",
+        "items": [0, 5, 7, 10, 11, 13, 17],
+        "maxScore": 21
+      }
+    ]
+  },
+  "interpretation": {
+    "multiplier": 2,
+    "ranges": [
+      {
+        "min": 0,
+        "max": 30,
+        "level": "normal",
+        "label": "正常范围",
+        "description": "您的抑郁、焦虑和压力综合评分处于正常范围。",
+        "suggestions": [
+          "继续保持良好的心理状态",
+          "保持健康的生活习惯和应对策略"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 60,
+        "level": "mild",
+        "label": "轻度困扰",
+        "description": "您的综合评分显示存在一定程度的情绪困扰。",
+        "suggestions": [
+          "关注各分量表得分，了解主要困扰来源",
+          "学习压力管理和情绪调节技巧"
+        ]
+      },
+      {
+        "min": 61,
+        "max": 126,
+        "level": "moderate",
+        "label": "中度及以上困扰",
+        "description": "您的综合评分较高，建议关注各分量表具体得分并寻求专业帮助。",
+        "suggestions": [
+          "建议咨询心理健康专业人士",
+          "查看各分量表得分，确定需要重点关注的领域"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "depression": [
+        {
+          "min": 0, "max": 9,
+          "level": "normal",
+          "label": "正常",
+          "description": "抑郁维度得分处于正常范围。"
+        },
+        {
+          "min": 10, "max": 13,
+          "level": "mild",
+          "label": "轻度抑郁",
+          "description": "存在轻度抑郁症状，建议关注情绪变化。"
+        },
+        {
+          "min": 14, "max": 20,
+          "level": "moderate",
+          "label": "中度抑郁",
+          "description": "抑郁症状明显，建议寻求专业帮助。"
+        },
+        {
+          "min": 21, "max": 27,
+          "level": "severe",
+          "label": "重度抑郁",
+          "description": "抑郁症状严重，强烈建议尽快就医。"
+        },
+        {
+          "min": 28, "max": 42,
+          "level": "extremely_severe",
+          "label": "极重度抑郁",
+          "description": "抑郁症状非常严重，请立即寻求专业帮助。"
+        }
+      ],
+      "anxiety": [
+        {
+          "min": 0, "max": 7,
+          "level": "normal",
+          "label": "正常",
+          "description": "焦虑维度得分处于正常范围。"
+        },
+        {
+          "min": 8, "max": 9,
+          "level": "mild",
+          "label": "轻度焦虑",
+          "description": "存在轻度焦虑症状，建议练习放松技巧。"
+        },
+        {
+          "min": 10, "max": 14,
+          "level": "moderate",
+          "label": "中度焦虑",
+          "description": "焦虑症状明显，建议寻求专业帮助。"
+        },
+        {
+          "min": 15, "max": 19,
+          "level": "severe",
+          "label": "重度焦虑",
+          "description": "焦虑症状严重，强烈建议尽快就医。"
+        },
+        {
+          "min": 20, "max": 42,
+          "level": "extremely_severe",
+          "label": "极重度焦虑",
+          "description": "焦虑症状非常严重，请立即寻求专业帮助。"
+        }
+      ],
+      "stress": [
+        {
+          "min": 0, "max": 14,
+          "level": "normal",
+          "label": "正常",
+          "description": "压力维度得分处于正常范围。"
+        },
+        {
+          "min": 15, "max": 18,
+          "level": "mild",
+          "label": "轻度压力",
+          "description": "存在轻度压力症状，建议学习压力管理技巧。"
+        },
+        {
+          "min": 19, "max": 25,
+          "level": "moderate",
+          "label": "中度压力",
+          "description": "压力症状明显，建议调整生活节奏并寻求帮助。"
+        },
+        {
+          "min": 26, "max": 33,
+          "level": "severe",
+          "label": "重度压力",
+          "description": "压力症状严重，强烈建议寻求专业支持。"
+        },
+        {
+          "min": 34, "max": 42,
+          "level": "extremely_severe",
+          "label": "极重度压力",
+          "description": "压力症状非常严重，请立即寻求专业帮助。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["depression", "anxiety", "stress"],
+      "maxDisplayScore": 42
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "抑郁", "max": 42 },
+        { "name": "焦虑", "max": 42 },
+        { "name": "压力", "max": 42 }
+      ]
+    }
+  }
+}

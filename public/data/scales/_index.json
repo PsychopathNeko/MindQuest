@@ -1,0 +1,69 @@
+{
+  "tags": [
+    { "id": "depression", "label": "抑郁" },
+    { "id": "anxiety", "label": "焦虑" },
+    { "id": "stress", "label": "压力" },
+    { "id": "emotion", "label": "情绪" },
+    { "id": "sleep", "label": "睡眠" },
+    { "id": "personality", "label": "人格" },
+    { "id": "selfesteem", "label": "自尊" },
+    { "id": "relationship", "label": "人际关系" },
+    { "id": "wellbeing", "label": "幸福感" },
+    { "id": "trauma", "label": "创伤" },
+    { "id": "career", "label": "职业" },
+    { "id": "cognition", "label": "认知" },
+    { "id": "mentalhealth", "label": "心理健康" }
+  ],
+  "scales": [
+    {
+      "id": "phq-9",
+      "name": "PHQ-9 患者健康问卷",
+      "shortName": "PHQ-9",
+      "description": "快速评估抑郁症状严重程度的9题问卷",
+      "tags": ["depression"],
+      "questionCount": 9,
+      "estimatedMinutes": 3,
+      "license": "Public Domain"
+    },
+    {
+      "id": "gad-7",
+      "name": "GAD-7 广泛性焦虑量表",
+      "shortName": "GAD-7",
+      "description": "评估焦虑症状严重程度的7题问卷",
+      "tags": ["anxiety"],
+      "questionCount": 7,
+      "estimatedMinutes": 3,
+      "license": "Public Domain"
+    },
+    {
+      "id": "dass-21",
+      "name": "DASS-21 抑郁焦虑压力量表",
+      "shortName": "DASS-21",
+      "description": "同时评估抑郁、焦虑和压力三个维度的21题问卷",
+      "tags": ["depression", "anxiety", "stress"],
+      "questionCount": 21,
+      "estimatedMinutes": 5,
+      "license": "Public Domain"
+    },
+    {
+      "id": "rosenberg",
+      "name": "Rosenberg 自尊量表",
+      "shortName": "RSES",
+      "description": "评估个体自我价值感和自我接纳程度的10题量表",
+      "tags": ["selfesteem"],
+      "questionCount": 10,
+      "estimatedMinutes": 3,
+      "license": "Public Domain"
+    },
+    {
+      "id": "tipi",
+      "name": "TIPI 十项人格量表",
+      "shortName": "TIPI",
+      "description": "快速评估大五人格特质的10题简版量表",
+      "tags": ["personality"],
+      "questionCount": 10,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    }
+  ]
+}
