@@ -7,7 +7,7 @@
     "author": "Gosling, Rentfrow & Swann (2003)",
     "license": "Free to use",
     "reference": "Gosling SD, Rentfrow PJ, Swann WB Jr. A very brief measure of the Big-Five personality domains. J Res Pers. 2003;37(6):504-528.",
-    "instruction": "请根据下面的特质描述在多大程度上适用于你来评分，即使其中一个特质比另一个更适用。我认为自己是："
+    "instruction": "每道题包含一对性格特质，请凭直觉判断它在多大程度上符合你。不需要纠结于完美匹配，选最接近的就好。我觉得自己是——"
   },
   "commonChoices": [
     { "value": 1, "label": "非常不同意" },

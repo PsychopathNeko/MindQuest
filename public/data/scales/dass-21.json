@@ -7,7 +7,7 @@
     "author": "Lovibond & Lovibond (1995)",
     "license": "Public Domain",
     "reference": "Lovibond SH, Lovibond PF. Manual for the Depression Anxiety Stress Scales. 2nd ed. Sydney: Psychology Foundation; 1995.",
-    "instruction": "请阅读以下每一条陈述，选出在过去一周内最符合你情况的选项。"
+    "instruction": "以下描述了一些情绪感受，请回想过去一周，选出最贴近你实际状态的选项。不必过度思考，凭第一感觉作答即可。"
   },
   "commonChoices": [
     { "value": 0, "label": "完全不符合" },

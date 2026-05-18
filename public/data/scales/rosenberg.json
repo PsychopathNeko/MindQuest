@@ -7,7 +7,7 @@
     "author": "Rosenberg (1965)",
     "license": "Public Domain",
     "reference": "Rosenberg M. Society and the Adolescent Self-Image. Princeton, NJ: Princeton University Press; 1965.",
-    "instruction": "以下是关于你对自己总体感受的一些陈述，请根据你的实际感受选择最符合的选项。"
+    "instruction": "以下是一些关于自我感受的描述，请根据你平时对自己的真实看法来选择，答案没有好坏之分。"
   },
   "commonChoices": [
     { "value": 1, "label": "非常不同意" },

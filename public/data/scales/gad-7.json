@@ -7,7 +7,7 @@
     "author": "Spitzer, Kroenke, Williams & Löwe (2006)",
     "license": "Public Domain",
     "reference": "Spitzer RL, Kroenke K, Williams JBW, Löwe B. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. 2006;166(10):1092-1097.",
-    "instruction": "在过去两周里，以下问题困扰你的频率是？"
+    "instruction": "回想一下过去两周，以下这些感受出现的频率如何？请根据你的真实体验来选择。"
   },
   "commonChoices": [
     { "value": 0, "label": "完全没有" },

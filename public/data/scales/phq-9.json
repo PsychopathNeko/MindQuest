@@ -7,7 +7,7 @@
     "author": "Kroenke, Spitzer & Williams (2001)",
     "license": "Public Domain",
     "reference": "Kroenke K, Spitzer RL, Williams JBW. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001;16(9):606-613.",
-    "instruction": "在过去两周里，以下问题困扰你的频率是？"
+    "instruction": "回想一下过去两周的生活，以下这些感受出现的频率如何？请放心作答，没有对错之分。"
   },
   "commonChoices": [
     { "value": 0, "label": "完全没有" },
