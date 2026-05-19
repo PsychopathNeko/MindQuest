@@ -15,7 +15,9 @@
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
+    "@vitejs/plugin-legacy": "^8.0.2",
     "@vitejs/plugin-vue": "^6.0.6",
+    "terser": "^5.47.1",
     "vite": "^8.0.8",
     "vite-plugin-vue-devtools": "^8.1.1"
   },
