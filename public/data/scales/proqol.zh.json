@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "id": "proqol",
+    "name": "ProQOL 专业生活质量量表",
+    "fullName": "专业生活质量量表第五版",
+    "description": "ProQOL是一份30题量表，评估助人职业者的同情满足感、倦怠和继发性创伤应激三个维度。",
+    "author": "Stamm BH (2010)",
+    "license": "Free to use",
+    "reference": "Stamm BH. The Concise ProQOL Manual. 2nd ed. Pocatello, ID: ProQOL.org; 2010.",
+    "instruction": "以下问题关于您作为助人者的经历。请考虑过去30天内每个问题对您的适用程度。"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "从不"
+    },
+    {
+      "value": 2,
+      "label": "很少"
+    },
+    {
+      "value": 3,
+      "label": "有时"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "非常频繁"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我感到快乐。",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我对别人的创伤经历感到担忧。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "能够帮助他人令我感到满足。",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我觉得与他人失去了联系。",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "因为工作中的创伤经历，我会突然受到惊吓。",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我对工作充满活力。",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我发现自己像我帮助的人一样在经历他们的创伤。",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我对自己的工作不满意。",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "因为我的助人工作，我感到恐惧。",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我觉得自己被工作中的负担压垮了。",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我因为工作感到困在里面。",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我喜欢我的工作带给我的感受。",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我因为工作而感到抑郁。",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我觉得自己不像以前那样受到我帮助过的人所经历的创伤经历的影响。",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我对自己的技能/技巧有冲突。",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我对自己能成为一名助人者感到高兴。",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "我对我帮助的人所经历的创伤事件有侵入性的想法。",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "我觉得自己正在失去生命力。",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "我发现自己避开某些活动或情境，因为它们让我想起了我帮助过的人的可怕经历。",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "我对自己的工作感到自豪。",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "由于工作，我感到被困住了。",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "我认为自己是一个成功的助人者。",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "我对自己的工作感到骄傲。",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "由于工作，我对各种事情感到紧张。",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "作为助人者的工作让我觉得世界更有意义。",
+      "type": "likert"
+    },
+    {
+      "index": 25,
+      "text": "我关于帮助他人遭遇创伤的思绪使我难以入睡。",
+      "type": "likert"
+    },
+    {
+      "index": 26,
+      "text": "我相信自己通过工作能够有所作为。",
+      "type": "likert"
+    },
+    {
+      "index": 27,
+      "text": "我因为身为助人者而精力充沛。",
+      "type": "likert"
+    },
+    {
+      "index": 28,
+      "text": "我对在工作中必须避免受到极端压力影响感到无能为力。",
+      "type": "likert"
+    },
+    {
+      "index": 29,
+      "text": "我对自己作为助人者所取得的成就感到满意。",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "maxTotal": 150,
+    "maxItemScore": 5,
+    "reverseItems": [
+      0,
+      7,
+      27
+    ],
+    "subscales": [
+      {
+        "id": "compassion_satisfaction",
+        "name": "同情满足",
+        "items": [
+          2,
+          5,
+          11,
+          15,
+          17,
+          19,
+          21,
+          23,
+          26,
+          29
+        ],
+        "maxScore": 50
+      },
+      {
+        "id": "burnout",
+        "name": "倦怠",
+        "items": [
+          0,
+          3,
+          7,
+          9,
+          14,
+          16,
+          18,
+          20,
+          25,
+          27
+        ],
+        "maxScore": 50
+      },
+      {
+        "id": "secondary_trauma",
+        "name": "继发性创伤",
+        "items": [
+          1,
+          4,
+          6,
+          8,
+          10,
+          12,
+          13,
+          22,
+          24,
+          28
+        ],
+        "maxScore": 50
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": null,
+    "subscaleRanges": {
+      "compassion_satisfaction": [
+        {
+          "min": 10,
+          "max": 22,
+          "level": "low",
+          "label": "低",
+          "description": "同情满足感较低，可能对助人工作缺乏成就感。"
+        },
+        {
+          "min": 23,
+          "max": 41,
+          "level": "moderate",
+          "label": "中等",
+          "description": "中等水平的同情满足感。"
+        },
+        {
+          "min": 42,
+          "max": 50,
+          "level": "high",
+          "label": "高",
+          "description": "同情满足感高，从助人工作中获得较多正面回报。"
+        }
+      ],
+      "burnout": [
+        {
+          "min": 10,
+          "max": 22,
+          "level": "low",
+          "label": "低",
+          "description": "倦怠水平较低。"
+        },
+        {
+          "min": 23,
+          "max": 41,
+          "level": "moderate",
+          "label": "中等",
+          "description": "中等倦怠水平，建议关注工作压力管理。"
+        },
+        {
+          "min": 42,
+          "max": 50,
+          "level": "high",
+          "label": "高",
+          "description": "倦怠水平高，建议寻求专业支持。"
+        }
+      ],
+      "secondary_trauma": [
+        {
+          "min": 10,
+          "max": 22,
+          "level": "low",
+          "label": "低",
+          "description": "继发性创伤应激水平较低。"
+        },
+        {
+          "min": 23,
+          "max": 41,
+          "level": "moderate",
+          "label": "中等",
+          "description": "中等继发性创伤应激水平。"
+        },
+        {
+          "min": 42,
+          "max": 50,
+          "level": "high",
+          "label": "高",
+          "description": "继发性创伤应激水平高，建议立即寻求帮助。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "compassion_satisfaction",
+        "burnout",
+        "secondary_trauma"
+      ],
+      "maxDisplayScore": 50
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "同情满足",
+          "max": 50
+        },
+        {
+          "name": "倦怠",
+          "max": 50
+        },
+        {
+          "name": "继发性创伤",
+          "max": 50
+        }
+      ]
+    }
+  }
+}

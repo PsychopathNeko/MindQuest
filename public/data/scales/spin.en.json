@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "id": "spin",
+    "name": "SPIN Social Phobia Inventory",
+    "fullName": "Social Phobia Inventory",
+    "description": "The SPIN is a 17-item self-report scale measuring three dimensions of social anxiety: fear, avoidance, and physiological symptoms.",
+    "author": "Connor KM, et al. (2000)",
+    "license": "Free to use",
+    "reference": "Connor KM, et al. Psychometric properties of the Social Phobia Inventory (SPIN). Br J Psychiatry. 2000;176:379-386.",
+    "instruction": "Please indicate how much the following problems have bothered you during the past week."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "A little bit"
+    },
+    {
+      "value": 2,
+      "label": "Somewhat"
+    },
+    {
+      "value": 3,
+      "label": "Very much"
+    },
+    {
+      "value": 4,
+      "label": "Extremely"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I am afraid of people in authority.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I am bothered by blushing in front of people.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Parties and social events scare me.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I avoid talking to people I don't know.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Being criticized scares me a lot.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Fear of embarrassment causes me to avoid doing things or speaking to people.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Sweating in front of people causes me distress.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I avoid going to parties.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I avoid activities in which I am the center of attention.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Talking to strangers scares me.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I avoid having to give speeches.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I would do anything to avoid being criticized.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Heart palpitations bother me when I am around people.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I am afraid of doing things when people might be watching.",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Being embarrassed or looking stupid are among my worst fears.",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I avoid speaking to anyone in authority.",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Trembling or shaking in front of others is distressing to me.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 68,
+    "maxItemScore": 4,
+    "reverseItems": [],
+    "subscales": [
+      {
+        "id": "fear",
+        "name": "Fear",
+        "items": [
+          1,
+          2,
+          4,
+          5,
+          8,
+          9,
+          11,
+          12,
+          14
+        ],
+        "maxScore": 36
+      },
+      {
+        "id": "avoidance",
+        "name": "Avoidance",
+        "items": [
+          3,
+          6,
+          7,
+          10,
+          15
+        ],
+        "maxScore": 20
+      },
+      {
+        "id": "physiological",
+        "name": "Physiological",
+        "items": [
+          0,
+          13,
+          16
+        ],
+        "maxScore": 12
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 20,
+        "level": "none",
+        "label": "No Social Anxiety",
+        "description": "Your social anxiety level is within the normal range.",
+        "suggestions": [
+          "Maintain active social engagement",
+          "Continue your confident social style"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "Mild Social Anxiety",
+        "description": "You have mild social anxiety symptoms.",
+        "suggestions": [
+          "Gradually expose yourself to social situations that cause discomfort",
+          "Practice relaxation techniques",
+          "Challenge negative social thoughts"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "moderate",
+        "label": "Moderate Social Anxiety",
+        "description": "You have moderate social anxiety symptoms that may affect social functioning.",
+        "suggestions": [
+          "Consider consulting a mental health professional",
+          "Cognitive Behavioral Therapy is highly effective for social anxiety",
+          "Consider joining a social skills training group"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 50,
+        "level": "severe",
+        "label": "Severe Social Anxiety",
+        "description": "You have severe social anxiety symptoms.",
+        "suggestions": [
+          "Professional psychological treatment is strongly recommended",
+          "Medication may be helpful as an adjunct",
+          "Exposure therapy is a well-supported treatment approach"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 68,
+        "level": "very_severe",
+        "label": "Very Severe Social Anxiety",
+        "description": "You have very severe social anxiety symptoms significantly affecting daily life.",
+        "suggestions": [
+          "Seek help from a psychiatrist or mental health professional as soon as possible",
+          "A combined treatment approach may be most effective",
+          "Do not let social anxiety prevent you from seeking help"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "fear",
+        "avoidance",
+        "physiological"
+      ],
+      "maxDisplayScore": 36
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Fear",
+          "max": 36
+        },
+        {
+          "name": "Avoidance",
+          "max": 20
+        },
+        {
+          "name": "Physiological",
+          "max": 12
+        }
+      ]
+    }
+  }
+}

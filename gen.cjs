@@ -1,0 +1,1 @@
+const fs=require("fs");const D="C:/Users/23583/testweb/public/data/scales";const data=JSON.parse(fs.readFileSync("C:/Users/23583/testweb/scale_data.json","utf8"));for(const[n,d]of Object.entries(data)){fs.writeFileSync(D+"/"+n,JSON.stringify(d,null,2));console.log(n);}console.log("Done");

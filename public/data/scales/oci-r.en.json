@@ -1,0 +1,438 @@
+{
+  "meta": {
+    "id": "oci-r",
+    "name": "OCI-R Obsessive-Compulsive Inventory - Revised",
+    "fullName": "Obsessive-Compulsive Inventory - Revised",
+    "description": "The OCI-R is an 18-item self-report scale measuring OCD symptoms across six dimensions.",
+    "author": "Foa, Huppert, Leiberg, et al. (2002)",
+    "license": "Free to use",
+    "reference": "Foa EB, et al. Psychol Assess. 2002;14(4):485-496.",
+    "instruction": "For each statement, indicate how much it has distressed or bothered you during the past month."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "A little"
+    },
+    {
+      "value": 2,
+      "label": "Moderately"
+    },
+    {
+      "value": 3,
+      "label": "A lot"
+    },
+    {
+      "value": 4,
+      "label": "Extremely"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I have saved up so many things that they get in the way",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I check things more often than necessary",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I get upset if objects are not arranged properly",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I feel compelled to count while I am doing things",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I find it difficult to touch an object when I know it has been touched by strangers",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I find it difficult to control my own thoughts",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I collect things I do not need",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I repeatedly check doors, windows, drawers, etc.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I get upset if others change the way I have arranged things",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I feel I have to repeat certain numbers",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I sometimes have to wash or clean myself simply because I feel contaminated",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I am upset by unpleasant thoughts that come into my mind against my will",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I avoid throwing things away because I am afraid I might need them later",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I repeatedly check gas and water taps and light switches after turning them off",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I need things to be arranged in a particular way",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I feel that there are good and bad numbers",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "I wash my hands more often and longer than necessary",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "I frequently get nasty thoughts and have difficulty getting rid of them",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 72,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "hoarding",
+        "name": "Hoarding",
+        "items": [
+          0,
+          6,
+          12
+        ],
+        "maxScore": 12
+      },
+      {
+        "id": "checking",
+        "name": "Checking",
+        "items": [
+          1,
+          7,
+          13
+        ],
+        "maxScore": 12
+      },
+      {
+        "id": "ordering",
+        "name": "Ordering",
+        "items": [
+          2,
+          8,
+          14
+        ],
+        "maxScore": 12
+      },
+      {
+        "id": "neutralizing",
+        "name": "Neutralizing",
+        "items": [
+          3,
+          9,
+          15
+        ],
+        "maxScore": 12
+      },
+      {
+        "id": "washing",
+        "name": "Washing",
+        "items": [
+          4,
+          10,
+          16
+        ],
+        "maxScore": 12
+      },
+      {
+        "id": "obsessing",
+        "name": "Obsessing",
+        "items": [
+          5,
+          11,
+          17
+        ],
+        "maxScore": 12
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 20,
+        "level": "minimal",
+        "label": "Non-Clinical Range",
+        "description": "Your score is within the non-clinical range.",
+        "suggestions": [
+          "Continue maintaining healthy routines",
+          "Practice mindfulness"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "Mild OCD Symptoms",
+        "description": "Your score suggests mild OCD symptoms. Clinical cutoff is around 21.",
+        "suggestions": [
+          "Monitor symptoms",
+          "Learn about OCD",
+          "Practice response prevention",
+          "Consider consulting a professional"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "moderate",
+        "label": "Moderate OCD Symptoms",
+        "description": "Moderate OCD symptoms causing distress.",
+        "suggestions": [
+          "Seek professional assessment",
+          "ERP is gold standard treatment",
+          "Avoid reassurance-seeking",
+          "Consider medication"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 72,
+        "level": "severe",
+        "label": "Severe OCD Symptoms",
+        "description": "Severe OCD symptoms impairing daily functioning.",
+        "suggestions": [
+          "Seek specialized treatment",
+          "ERP therapy most effective",
+          "SSRIs first-line medication",
+          "Join support group",
+          "OCD is treatable"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "hoarding": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Minimal hoarding."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate hoarding."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "High",
+          "description": "Significant hoarding."
+        }
+      ],
+      "checking": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Minimal checking."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate checking."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "High",
+          "description": "Significant checking."
+        }
+      ],
+      "ordering": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Minimal ordering need."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate ordering need."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "High",
+          "description": "Strong ordering need."
+        }
+      ],
+      "neutralizing": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Minimal neutralizing."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate neutralizing."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "High",
+          "description": "Significant neutralizing."
+        }
+      ],
+      "washing": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Minimal washing."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate washing."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "High",
+          "description": "Significant washing."
+        }
+      ],
+      "obsessing": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Minimal obsessing."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate obsessing."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "High",
+          "description": "Significant obsessing."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar",
+      "radar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 72
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "hoarding",
+        "checking",
+        "ordering",
+        "neutralizing",
+        "washing",
+        "obsessing"
+      ],
+      "maxDisplayScore": 12
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Hoarding",
+          "max": 12
+        },
+        {
+          "name": "Checking",
+          "max": 12
+        },
+        {
+          "name": "Ordering",
+          "max": 12
+        },
+        {
+          "name": "Neutralizing",
+          "max": 12
+        },
+        {
+          "name": "Washing",
+          "max": 12
+        },
+        {
+          "name": "Obsessing",
+          "max": 12
+        }
+      ]
+    }
+  }
+}

@@ -1,24 +1,29 @@
 :root {
-  /* Colors */
-  --color-primary: #3b82f6;
-  --color-primary-light: #60a5fa;
-  --color-primary-dark: #2563eb;
-  --color-secondary: #2563eb;
+  /* Colors - Soft Pink-Blue Theme */
+  --color-primary: #7da2f7;          /* soft cornflower blue */
+  --color-primary-light: #a5bfff;    /* lighter blue */
+  --color-primary-dark: #5f87e5;     /* slightly deeper blue */
+  --color-secondary: #e8a0bf;        /* dusty rose pink */
+  --color-accent: #f5c6d8;           /* soft pink for bg tints */
   --color-success: #10b981;
+  --color-success-light: #ecfdf5;
+  --color-success-border: #a7f3d0;
+  --color-success-dark: #065f46;
+  --color-success-text: #047857;
   --color-warning: #f59e0b;
   --color-danger: #ef4444;
 
-  /* Backgrounds & Surfaces */
-  --color-background: #f8fafc;
+  /* Warmer Backgrounds */
+  --color-background: #faf8fc;       /* very faint lavender tint */
   --color-surface: #ffffff;
 
   /* Text */
-  --color-text-primary: #1e293b;
-  --color-text-secondary: #64748b;
+  --color-text-primary: #2d2640;     /* slightly warmer dark */
+  --color-text-secondary: #6b6183;   /* warmer gray */
   --color-text-inverse: #ffffff;
 
-  /* Borders */
-  --color-border: #e2e8f0;
+  /* Warmer Border */
+  --color-border: #e8e2ed;           /* warm lavender border */
   --border-radius: 12px;
   --border-radius-sm: 8px;
   --border-radius-full: 9999px;
@@ -27,6 +32,7 @@
   --font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
     Arial, 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   --font-size-xs: 0.75rem;
+  --font-size-2xs: 0.6875rem;
   --font-size-sm: 0.875rem;
   --font-size-base: 1rem;
   --font-size-lg: 1.125rem;
@@ -45,13 +51,17 @@
   --spacing-12: 48px;
 
   /* Shadows */
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-sm: 0 1px 2px 0 rgba(125, 100, 160, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(125, 100, 160, 0.1), 0 2px 4px -2px rgba(125, 100, 160, 0.08);
+  --shadow-lg: 0 10px 15px -3px rgba(125, 100, 160, 0.1), 0 4px 6px -4px rgba(125, 100, 160, 0.08);
 
   /* Layout */
   --max-width: 1200px;
 
   /* Transitions */
   --transition: 0.2s ease;
+
+  /* Sidebar */
+  --sidebar-width: 280px;
+  --header-height: 60px;
 }

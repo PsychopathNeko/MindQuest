@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "id": "isi",
+    "name": "ISI Insomnia Severity Index",
+    "fullName": "Insomnia Severity Index",
+    "description": "The ISI is a 7-item self-report measure that assesses the nature, severity, and impact of insomnia.",
+    "author": "Morin CM (1993)",
+    "license": "Free for clinical use",
+    "reference": "Bastien CH, Vallieres A, Morin CM. Validation of the Insomnia Severity Index as an outcome measure for insomnia research. Sleep Med. 2001;2(4):297-307.",
+    "instruction": "Please rate the current (i.e., last 2 weeks) severity of your insomnia problem(s)."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "None"
+    },
+    {
+      "value": 1,
+      "label": "Mild"
+    },
+    {
+      "value": 2,
+      "label": "Moderate"
+    },
+    {
+      "value": 3,
+      "label": "Severe"
+    },
+    {
+      "value": 4,
+      "label": "Very severe"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Difficulty falling asleep",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Difficulty staying asleep",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Problem waking up too early",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "How satisfied/dissatisfied are you with your current sleep pattern",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "To what extent do you consider your sleep problem to interfere with your daily functioning (e.g., daytime fatigue, ability to function at work/daily chores, concentration, memory, mood)",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "How noticeable to others do you think your sleep problem is in terms of impairing the quality of your life",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "How worried/distressed are you about your current sleep problem",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 28,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 7,
+        "level": "minimal",
+        "label": "No Clinically Significant Insomnia",
+        "description": "Your insomnia severity is very low.",
+        "suggestions": [
+          "Continue maintaining good sleep habits",
+          "Keep a regular sleep-wake schedule"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 14,
+        "level": "mild",
+        "label": "Subthreshold Insomnia",
+        "description": "You have mild insomnia that may slightly affect daily life.",
+        "suggestions": [
+          "Improve sleep hygiene habits",
+          "Avoid screens before bedtime",
+          "Reduce caffeine and alcohol intake"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 21,
+        "level": "moderate",
+        "label": "Clinical Insomnia (Moderate)",
+        "description": "You have moderate insomnia that likely affects daily functioning.",
+        "suggestions": [
+          "Consult a sleep medicine professional",
+          "Consider cognitive behavioral therapy for insomnia (CBT-I)",
+          "Maintain a regular sleep schedule"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 28,
+        "level": "severe",
+        "label": "Clinical Insomnia (Severe)",
+        "description": "You have severe insomnia significantly affecting daily functioning.",
+        "suggestions": [
+          "Seek medical evaluation from a sleep specialist promptly",
+          "Pharmacotherapy combined with psychotherapy may be needed"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 28
+    }
+  }
+}

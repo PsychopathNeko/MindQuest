@@ -1,68 +1,2987 @@
 {
   "tags": [
-    { "id": "depression", "label": "抑郁" },
-    { "id": "anxiety", "label": "焦虑" },
-    { "id": "stress", "label": "压力" },
-    { "id": "emotion", "label": "情绪" },
-    { "id": "sleep", "label": "睡眠" },
-    { "id": "personality", "label": "人格" },
-    { "id": "selfesteem", "label": "自尊" },
-    { "id": "relationship", "label": "人际关系" },
-    { "id": "wellbeing", "label": "幸福感" },
-    { "id": "trauma", "label": "创伤" },
-    { "id": "career", "label": "职业" },
-    { "id": "cognition", "label": "认知" },
-    { "id": "mentalhealth", "label": "心理健康" }
+    {
+      "id": "depression",
+      "label": {
+        "zh": "抑郁",
+        "en": "Depression"
+      }
+    },
+    {
+      "id": "anxiety",
+      "label": {
+        "zh": "焦虑",
+        "en": "Anxiety"
+      }
+    },
+    {
+      "id": "stress",
+      "label": {
+        "zh": "压力",
+        "en": "Stress"
+      }
+    },
+    {
+      "id": "emotion",
+      "label": {
+        "zh": "情绪",
+        "en": "Emotion"
+      }
+    },
+    {
+      "id": "sleep",
+      "label": {
+        "zh": "睡眠",
+        "en": "Sleep"
+      }
+    },
+    {
+      "id": "personality",
+      "label": {
+        "zh": "人格",
+        "en": "Personality"
+      }
+    },
+    {
+      "id": "selfesteem",
+      "label": {
+        "zh": "自尊",
+        "en": "Self-esteem"
+      }
+    },
+    {
+      "id": "relationship",
+      "label": {
+        "zh": "人际关系",
+        "en": "Relationships"
+      }
+    },
+    {
+      "id": "wellbeing",
+      "label": {
+        "zh": "幸福感",
+        "en": "Well-being"
+      }
+    },
+    {
+      "id": "trauma",
+      "label": {
+        "zh": "创伤",
+        "en": "Trauma"
+      }
+    },
+    {
+      "id": "career",
+      "label": {
+        "zh": "职业",
+        "en": "Career"
+      }
+    },
+    {
+      "id": "cognition",
+      "label": {
+        "zh": "认知",
+        "en": "Cognition"
+      }
+    },
+    {
+      "id": "mentalhealth",
+      "label": {
+        "zh": "心理健康",
+        "en": "Mental Health"
+      }
+    },
+    {
+      "id": "substance",
+      "label": {
+        "zh": "物质使用",
+        "en": "Substance Use"
+      }
+    },
+    {
+      "id": "resilience",
+      "label": {
+        "zh": "心理韧性",
+        "en": "Resilience"
+      }
+    },
+    {
+      "id": "mindfulness",
+      "label": {
+        "zh": "正念",
+        "en": "Mindfulness"
+      }
+    },
+    {
+      "id": "burnout",
+      "label": {
+        "zh": "倦怠",
+        "en": "Burnout"
+      }
+    },
+    {
+      "id": "eating",
+      "label": {
+        "zh": "饮食",
+        "en": "Eating"
+      }
+    },
+    {
+      "id": "bodyimage",
+      "label": {
+        "zh": "身体意象",
+        "en": "Body Image"
+      }
+    },
+    {
+      "id": "ptsd",
+      "label": {
+        "zh": "创伤后应激",
+        "en": "PTSD"
+      }
+    },
+    {
+      "id": "ocd",
+      "label": {
+        "zh": "强迫",
+        "en": "OCD"
+      }
+    },
+    {
+      "id": "socialanxiety",
+      "label": {
+        "zh": "社交焦虑",
+        "en": "Social Anxiety"
+      }
+    },
+    {
+      "id": "addiction",
+      "label": {
+        "zh": "行为成瘾",
+        "en": "Behavioral Addiction"
+      }
+    },
+    {
+      "id": "procrastination",
+      "label": {
+        "zh": "拖延",
+        "en": "Procrastination"
+      }
+    },
+    {
+      "id": "perfectionism",
+      "label": {
+        "zh": "完美主义",
+        "en": "Perfectionism"
+      }
+    },
+    {
+      "id": "anger",
+      "label": {
+        "zh": "愤怒",
+        "en": "Anger"
+      }
+    },
+    {
+      "id": "autism",
+      "label": {
+        "zh": "自闭症谱系",
+        "en": "Autism Spectrum"
+      }
+    },
+    {
+      "id": "impulsivity",
+      "label": {
+        "zh": "冲动性",
+        "en": "Impulsivity"
+      }
+    },
+    {
+      "id": "fatigue",
+      "label": {
+        "zh": "疲劳",
+        "en": "Fatigue"
+      }
+    },
+    {
+      "id": "functioning",
+      "label": {
+        "zh": "功能评估",
+        "en": "Functioning"
+      }
+    },
+    {
+      "id": "empathy",
+      "label": {
+        "zh": "共情",
+        "en": "Empathy"
+      }
+    },
+    {
+      "id": "pain",
+      "label": {
+        "zh": "疼痛",
+        "en": "Pain"
+      }
+    },
+    {
+      "id": "aggression",
+      "label": {
+        "zh": "攻击性",
+        "en": "Aggression"
+      }
+    },
+    {
+      "id": "health_anxiety",
+      "label": {
+        "zh": "健康焦虑",
+        "en": "Health Anxiety"
+      }
+    },
+    {
+      "id": "hope",
+      "label": {
+        "zh": "希望感",
+        "en": "Hope"
+      }
+    }
   ],
   "scales": [
     {
       "id": "phq-9",
-      "name": "PHQ-9 患者健康问卷",
+      "name": {
+        "zh": "PHQ-9 患者健康问卷",
+        "en": "PHQ-9 Patient Health Questionnaire"
+      },
       "shortName": "PHQ-9",
-      "description": "快速评估抑郁症状严重程度的9题问卷",
-      "tags": ["depression"],
+      "description": {
+        "zh": "快速评估抑郁症状严重程度的9题问卷",
+        "en": "A 9-item questionnaire for rapid assessment of depression severity"
+      },
+      "tags": [
+        "depression"
+      ],
       "questionCount": 9,
       "estimatedMinutes": 3,
       "license": "Public Domain"
     },
     {
       "id": "gad-7",
-      "name": "GAD-7 广泛性焦虑量表",
+      "name": {
+        "zh": "GAD-7 广泛性焦虑量表",
+        "en": "GAD-7 Generalized Anxiety Disorder Scale"
+      },
       "shortName": "GAD-7",
-      "description": "评估焦虑症状严重程度的7题问卷",
-      "tags": ["anxiety"],
+      "description": {
+        "zh": "评估焦虑症状严重程度的7题问卷",
+        "en": "A 7-item questionnaire for assessing anxiety symptom severity"
+      },
+      "tags": [
+        "anxiety"
+      ],
       "questionCount": 7,
       "estimatedMinutes": 3,
       "license": "Public Domain"
     },
     {
       "id": "dass-21",
-      "name": "DASS-21 抑郁焦虑压力量表",
+      "name": {
+        "zh": "DASS-21 抑郁焦虑压力量表",
+        "en": "DASS-21 Depression Anxiety Stress Scales"
+      },
       "shortName": "DASS-21",
-      "description": "同时评估抑郁、焦虑和压力三个维度的21题问卷",
-      "tags": ["depression", "anxiety", "stress"],
+      "description": {
+        "zh": "同时评估抑郁、焦虑和压力三个维度的21题问卷",
+        "en": "A 21-item questionnaire assessing depression, anxiety, and stress simultaneously"
+      },
+      "tags": [
+        "depression",
+        "anxiety",
+        "stress"
+      ],
       "questionCount": 21,
       "estimatedMinutes": 5,
       "license": "Public Domain"
     },
     {
       "id": "rosenberg",
-      "name": "Rosenberg 自尊量表",
+      "name": {
+        "zh": "Rosenberg 自尊量表",
+        "en": "Rosenberg Self-Esteem Scale"
+      },
       "shortName": "RSES",
-      "description": "评估个体自我价值感和自我接纳程度的10题量表",
-      "tags": ["selfesteem"],
+      "description": {
+        "zh": "评估个体自我价值感和自我接纳程度的10题量表",
+        "en": "A 10-item scale measuring self-worth and self-acceptance"
+      },
+      "tags": [
+        "selfesteem"
+      ],
       "questionCount": 10,
       "estimatedMinutes": 3,
       "license": "Public Domain"
     },
     {
       "id": "tipi",
-      "name": "TIPI 十项人格量表",
+      "name": {
+        "zh": "TIPI 十项人格量表",
+        "en": "TIPI Ten-Item Personality Inventory"
+      },
       "shortName": "TIPI",
-      "description": "快速评估大五人格特质的10题简版量表",
-      "tags": ["personality"],
+      "description": {
+        "zh": "快速评估大五人格特质的10题简版量表",
+        "en": "A 10-item brief measure of the Big Five personality traits"
+      },
+      "tags": [
+        "personality"
+      ],
       "questionCount": 10,
       "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "phq-2",
+      "name": {
+        "zh": "PHQ-2 患者健康问卷简版",
+        "en": "PHQ-2 Patient Health Questionnaire"
+      },
+      "shortName": "PHQ-2",
+      "description": {
+        "zh": "用于快速筛查抑郁症状的2题超简版问卷",
+        "en": "A 2-item ultra-brief screening tool for depression"
+      },
+      "tags": [
+        "depression"
+      ],
+      "questionCount": 2,
+      "estimatedMinutes": 1,
+      "license": "Public Domain"
+    },
+    {
+      "id": "phq-4",
+      "name": {
+        "zh": "PHQ-4 患者健康问卷",
+        "en": "PHQ-4 Patient Health Questionnaire"
+      },
+      "shortName": "PHQ-4",
+      "description": {
+        "zh": "快速筛查抑郁和焦虑症状的4题简版问卷",
+        "en": "A 4-item brief screening tool for depression and anxiety"
+      },
+      "tags": [
+        "depression",
+        "anxiety"
+      ],
+      "questionCount": 4,
+      "estimatedMinutes": 1,
+      "license": "Public Domain"
+    },
+    {
+      "id": "phq-15",
+      "name": {
+        "zh": "PHQ-15 身体症状严重度量表",
+        "en": "PHQ-15 Somatic Symptom Severity Scale"
+      },
+      "shortName": "PHQ-15",
+      "description": {
+        "zh": "评估躯体化症状严重程度的15题问卷",
+        "en": "A 15-item questionnaire for assessing somatic symptom severity"
+      },
+      "tags": [
+        "mentalhealth"
+      ],
+      "questionCount": 15,
+      "estimatedMinutes": 5,
+      "license": "Public Domain"
+    },
+    {
+      "id": "gad-2",
+      "name": {
+        "zh": "GAD-2 焦虑筛查简版",
+        "en": "GAD-2 Generalized Anxiety Disorder Brief"
+      },
+      "shortName": "GAD-2",
+      "description": {
+        "zh": "用于快速筛查焦虑症状的2题超简版问卷",
+        "en": "A 2-item ultra-brief screening tool for anxiety"
+      },
+      "tags": [
+        "anxiety"
+      ],
+      "questionCount": 2,
+      "estimatedMinutes": 1,
+      "license": "Public Domain"
+    },
+    {
+      "id": "ces-d",
+      "name": {
+        "zh": "CES-D 流调学研究中心抑郁量表",
+        "en": "CES-D Center for Epidemiologic Studies Depression Scale"
+      },
+      "shortName": "CES-D",
+      "description": {
+        "zh": "广泛用于流行病学研究的20题抑郁自评量表",
+        "en": "A 20-item self-report depression scale widely used in epidemiological research"
+      },
+      "tags": [
+        "depression"
+      ],
+      "questionCount": 20,
+      "estimatedMinutes": 8,
+      "license": "Public Domain"
+    },
+    {
+      "id": "sds",
+      "name": {
+        "zh": "SDS 抑郁自评量表",
+        "en": "SDS Zung Self-Rating Depression Scale"
+      },
+      "shortName": "SDS",
+      "description": {
+        "zh": "评估抑郁症状及其严重程度的20题自评量表",
+        "en": "A 20-item self-rating scale for assessing depression symptoms and severity"
+      },
+      "tags": [
+        "depression"
+      ],
+      "questionCount": 20,
+      "estimatedMinutes": 8,
+      "license": "Public Domain"
+    },
+    {
+      "id": "sas",
+      "name": {
+        "zh": "SAS 焦虑自评量表",
+        "en": "SAS Zung Self-Rating Anxiety Scale"
+      },
+      "shortName": "SAS",
+      "description": {
+        "zh": "评估焦虑症状及其严重程度的20题自评量表",
+        "en": "A 20-item self-rating scale for assessing anxiety symptoms and severity"
+      },
+      "tags": [
+        "anxiety"
+      ],
+      "questionCount": 20,
+      "estimatedMinutes": 8,
+      "license": "Public Domain"
+    },
+    {
+      "id": "epds",
+      "name": {
+        "zh": "EPDS 爱丁堡产后抑郁量表",
+        "en": "Edinburgh Postnatal Depression Scale"
+      },
+      "shortName": "EPDS",
+      "description": {
+        "zh": "用于筛查产后抑郁症状的10题问卷",
+        "en": "A 10-item questionnaire for screening postnatal depression"
+      },
+      "tags": [
+        "depression"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "gds-15",
+      "name": {
+        "zh": "GDS-15 老年抑郁量表",
+        "en": "GDS-15 Geriatric Depression Scale"
+      },
+      "shortName": "GDS-15",
+      "description": {
+        "zh": "专为老年人设计的15题抑郁筛查量表",
+        "en": "A 15-item depression screening scale designed specifically for older adults"
+      },
+      "tags": [
+        "depression"
+      ],
+      "questionCount": 15,
+      "estimatedMinutes": 6,
+      "license": "Public Domain"
+    },
+    {
+      "id": "pss-10",
+      "name": {
+        "zh": "PSS-10 知觉压力量表",
+        "en": "PSS-10 Perceived Stress Scale"
+      },
+      "shortName": "PSS-10",
+      "description": {
+        "zh": "评估个体主观压力感受程度的10题量表",
+        "en": "A 10-item scale measuring subjective perception of stress"
+      },
+      "tags": [
+        "stress"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "pss-4",
+      "name": {
+        "zh": "PSS-4 知觉压力量表简版",
+        "en": "PSS-4 Perceived Stress Scale Brief"
+      },
+      "shortName": "PSS-4",
+      "description": {
+        "zh": "快速评估主观压力感受的4题简版量表",
+        "en": "A 4-item brief scale for rapid assessment of perceived stress"
+      },
+      "tags": [
+        "stress"
+      ],
+      "questionCount": 4,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "who-5",
+      "name": {
+        "zh": "WHO-5 世界卫生组织幸福指数",
+        "en": "WHO-5 Well-Being Index"
+      },
+      "shortName": "WHO-5",
+      "description": {
+        "zh": "世卫组织开发的5题幸福感自评量表",
+        "en": "A 5-item well-being self-assessment scale developed by the WHO"
+      },
+      "tags": [
+        "wellbeing"
+      ],
+      "questionCount": 5,
+      "estimatedMinutes": 2,
+      "license": "Public Domain"
+    },
+    {
+      "id": "swls",
+      "name": {
+        "zh": "SWLS 生活满意度量表",
+        "en": "SWLS Satisfaction With Life Scale"
+      },
+      "shortName": "SWLS",
+      "description": {
+        "zh": "评估个体对整体生活满意程度的5题量表",
+        "en": "A 5-item scale assessing overall life satisfaction"
+      },
+      "tags": [
+        "wellbeing"
+      ],
+      "questionCount": 5,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "k10",
+      "name": {
+        "zh": "K10 凯斯勒心理困扰量表",
+        "en": "K10 Kessler Psychological Distress Scale"
+      },
+      "shortName": "K10",
+      "description": {
+        "zh": "评估非特异性心理困扰程度的10题量表",
+        "en": "A 10-item scale measuring non-specific psychological distress"
+      },
+      "tags": [
+        "mentalhealth"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Public Domain"
+    },
+    {
+      "id": "k6",
+      "name": {
+        "zh": "K6 凯斯勒心理困扰简版",
+        "en": "K6 Kessler Psychological Distress Scale Brief"
+      },
+      "shortName": "K6",
+      "description": {
+        "zh": "快速筛查心理困扰程度的6题简版量表",
+        "en": "A 6-item brief scale for rapid screening of psychological distress"
+      },
+      "tags": [
+        "mentalhealth"
+      ],
+      "questionCount": 6,
+      "estimatedMinutes": 3,
+      "license": "Public Domain"
+    },
+    {
+      "id": "ghq-12",
+      "name": {
+        "zh": "GHQ-12 一般健康问卷",
+        "en": "GHQ-12 General Health Questionnaire"
+      },
+      "shortName": "GHQ-12",
+      "description": {
+        "zh": "用于筛查心理健康状况的12题问卷",
+        "en": "A 12-item questionnaire for screening general mental health status"
+      },
+      "tags": [
+        "mentalhealth"
+      ],
+      "questionCount": 12,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "pcl-5",
+      "name": {
+        "zh": "PCL-5 创伤后应激障碍检查表",
+        "en": "PCL-5 PTSD Checklist for DSM-5"
+      },
+      "shortName": "PCL-5",
+      "description": {
+        "zh": "评估创伤后应激障碍症状严重程度的20题自评量表",
+        "en": "A 20-item self-report scale for assessing PTSD symptom severity"
+      },
+      "tags": [
+        "ptsd",
+        "trauma"
+      ],
+      "questionCount": 20,
+      "estimatedMinutes": 8,
+      "license": "Public Domain"
+    },
+    {
+      "id": "ies-r",
+      "name": {
+        "zh": "IES-R 事件影响量表修订版",
+        "en": "IES-R Impact of Event Scale - Revised"
+      },
+      "shortName": "IES-R",
+      "description": {
+        "zh": "评估创伤性事件对个体心理影响的22题量表",
+        "en": "A 22-item scale measuring the psychological impact of traumatic events"
+      },
+      "tags": [
+        "trauma"
+      ],
+      "questionCount": 22,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "ace",
+      "name": {
+        "zh": "ACE 童年不良经历问卷",
+        "en": "ACE Adverse Childhood Experiences Questionnaire"
+      },
+      "shortName": "ACE",
+      "description": {
+        "zh": "筛查童年期不良经历的10题问卷",
+        "en": "A 10-item questionnaire screening for adverse childhood experiences"
+      },
+      "tags": [
+        "trauma"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 5,
+      "license": "Public Domain"
+    },
+    {
+      "id": "isi",
+      "name": {
+        "zh": "ISI 失眠严重指数",
+        "en": "ISI Insomnia Severity Index"
+      },
+      "shortName": "ISI",
+      "description": {
+        "zh": "评估失眠症状严重程度的7题量表",
+        "en": "A 7-item scale measuring insomnia symptom severity"
+      },
+      "tags": [
+        "sleep"
+      ],
+      "questionCount": 7,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "ess",
+      "name": {
+        "zh": "ESS 爱普沃斯嗜睡量表",
+        "en": "ESS Epworth Sleepiness Scale"
+      },
+      "shortName": "ESS",
+      "description": {
+        "zh": "评估日间嗜睡程度的8题量表",
+        "en": "An 8-item scale measuring daytime sleepiness levels"
+      },
+      "tags": [
+        "sleep"
+      ],
+      "questionCount": 8,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "psqi",
+      "name": {
+        "zh": "PSQI 匹兹堡睡眠质量指数",
+        "en": "PSQI Pittsburgh Sleep Quality Index"
+      },
+      "shortName": "PSQI",
+      "description": {
+        "zh": "全面评估睡眠质量的19题量表",
+        "en": "A 19-item comprehensive assessment of sleep quality"
+      },
+      "tags": [
+        "sleep"
+      ],
+      "questionCount": 9,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "audit",
+      "name": {
+        "zh": "AUDIT 酒精使用障碍识别测试",
+        "en": "AUDIT Alcohol Use Disorders Identification Test"
+      },
+      "shortName": "AUDIT",
+      "description": {
+        "zh": "识别危险饮酒和酒精使用障碍的10题筛查工具",
+        "en": "A 10-item screening tool for identifying hazardous drinking and alcohol use disorders"
+      },
+      "tags": [
+        "substance"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Public Domain"
+    },
+    {
+      "id": "audit-c",
+      "name": {
+        "zh": "AUDIT-C 酒精筛查简版",
+        "en": "AUDIT-C Alcohol Use Brief Screen"
+      },
+      "shortName": "AUDIT-C",
+      "description": {
+        "zh": "快速筛查危险饮酒的3题简版工具",
+        "en": "A 3-item brief screening tool for hazardous alcohol use"
+      },
+      "tags": [
+        "substance"
+      ],
+      "questionCount": 3,
+      "estimatedMinutes": 1,
+      "license": "Public Domain"
+    },
+    {
+      "id": "cage",
+      "name": {
+        "zh": "CAGE 酒精筛查问卷",
+        "en": "CAGE Alcohol Screening Questionnaire"
+      },
+      "shortName": "CAGE",
+      "description": {
+        "zh": "用于筛查酒精依赖问题的4题简版问卷",
+        "en": "A 4-item brief questionnaire for screening alcohol dependence"
+      },
+      "tags": [
+        "substance"
+      ],
+      "questionCount": 4,
+      "estimatedMinutes": 1,
+      "license": "Public Domain"
+    },
+    {
+      "id": "dast-10",
+      "name": {
+        "zh": "DAST-10 药物滥用筛查测试",
+        "en": "DAST-10 Drug Abuse Screening Test"
+      },
+      "shortName": "DAST-10",
+      "description": {
+        "zh": "筛查药物滥用问题的10题自评工具",
+        "en": "A 10-item self-report tool for screening drug abuse problems"
+      },
+      "tags": [
+        "substance"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Public Domain"
+    },
+    {
+      "id": "crafft",
+      "name": {
+        "zh": "CRAFFT 青少年物质使用筛查",
+        "en": "CRAFFT Adolescent Substance Use Screen"
+      },
+      "shortName": "CRAFFT",
+      "description": {
+        "zh": "专为青少年设计的6题物质使用筛查工具",
+        "en": "A 6-item substance use screening tool designed specifically for adolescents"
+      },
+      "tags": [
+        "substance"
+      ],
+      "questionCount": 6,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "pswq",
+      "name": {
+        "zh": "PSWQ 宾州担忧问卷",
+        "en": "PSWQ Penn State Worry Questionnaire"
+      },
+      "shortName": "PSWQ",
+      "description": {
+        "zh": "评估担忧特质和广泛性焦虑的16题量表",
+        "en": "A 16-item scale assessing worry traits and generalized anxiety"
+      },
+      "tags": [
+        "anxiety"
+      ],
+      "questionCount": 16,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "spin",
+      "name": {
+        "zh": "SPIN 社交恐惧量表",
+        "en": "SPIN Social Phobia Inventory"
+      },
+      "shortName": "SPIN",
+      "description": {
+        "zh": "评估社交焦虑症状严重程度的17题量表",
+        "en": "A 17-item scale measuring social anxiety symptom severity"
+      },
+      "tags": [
+        "socialanxiety"
+      ],
+      "questionCount": 17,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "lsas-sr",
+      "name": {
+        "zh": "LSAS-SR 利博维茨社交焦虑量表",
+        "en": "LSAS-SR Liebowitz Social Anxiety Scale"
+      },
+      "shortName": "LSAS-SR",
+      "description": {
+        "zh": "全面评估社交焦虑和回避行为的24题自评量表",
+        "en": "A 24-item self-report scale comprehensively assessing social anxiety and avoidance behavior"
+      },
+      "tags": [
+        "socialanxiety"
+      ],
+      "questionCount": 24,
+      "estimatedMinutes": 10,
+      "license": "Free to use"
+    },
+    {
+      "id": "pdss-sr",
+      "name": {
+        "zh": "PDSS-SR 惊恐障碍严重度量表",
+        "en": "PDSS-SR Panic Disorder Severity Scale"
+      },
+      "shortName": "PDSS-SR",
+      "description": {
+        "zh": "评估惊恐障碍症状严重程度的7题自评量表",
+        "en": "A 7-item self-report scale measuring panic disorder symptom severity"
+      },
+      "tags": [
+        "anxiety"
+      ],
+      "questionCount": 7,
+      "estimatedMinutes": 3,
+      "license": "Public Domain"
+    },
+    {
+      "id": "oci-r",
+      "name": {
+        "zh": "OCI-R 强迫症量表修订版",
+        "en": "OCI-R Obsessive-Compulsive Inventory - Revised"
+      },
+      "shortName": "OCI-R",
+      "description": {
+        "zh": "评估强迫症状严重程度的18题自评量表",
+        "en": "An 18-item self-report scale measuring obsessive-compulsive symptom severity"
+      },
+      "tags": [
+        "ocd"
+      ],
+      "questionCount": 18,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "wemwbs",
+      "name": {
+        "zh": "WEMWBS 华威爱丁堡心理幸福感量表",
+        "en": "WEMWBS Warwick-Edinburgh Mental Well-Being Scale"
+      },
+      "shortName": "WEMWBS",
+      "description": {
+        "zh": "评估积极心理幸福感的14题量表",
+        "en": "A 14-item scale measuring positive mental well-being"
+      },
+      "tags": [
+        "wellbeing"
+      ],
+      "questionCount": 14,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "panas",
+      "name": {
+        "zh": "PANAS 积极与消极情绪量表",
+        "en": "PANAS Positive and Negative Affect Schedule"
+      },
+      "shortName": "PANAS",
+      "description": {
+        "zh": "评估积极和消极情绪体验的20题量表",
+        "en": "A 20-item scale measuring positive and negative emotional experiences"
+      },
+      "tags": [
+        "emotion"
+      ],
+      "questionCount": 20,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "mhc-sf",
+      "name": {
+        "zh": "MHC-SF 心理健康连续体简版",
+        "en": "MHC-SF Mental Health Continuum Short Form"
+      },
+      "shortName": "MHC-SF",
+      "description": {
+        "zh": "评估情绪、心理和社会幸福感的14题量表",
+        "en": "A 14-item scale assessing emotional, psychological, and social well-being"
+      },
+      "tags": [
+        "wellbeing"
+      ],
+      "questionCount": 14,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "fs",
+      "name": {
+        "zh": "FS 繁荣量表",
+        "en": "FS Flourishing Scale"
+      },
+      "shortName": "FS",
+      "description": {
+        "zh": "评估社会心理繁荣程度的8题量表",
+        "en": "An 8-item scale measuring psychosocial flourishing"
+      },
+      "tags": [
+        "wellbeing"
+      ],
+      "questionCount": 8,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "lot-r",
+      "name": {
+        "zh": "LOT-R 生活取向测验",
+        "en": "LOT-R Life Orientation Test - Revised"
+      },
+      "shortName": "LOT-R",
+      "description": {
+        "zh": "评估个体乐观与悲观倾向的10题量表",
+        "en": "A 10-item scale measuring dispositional optimism and pessimism"
+      },
+      "tags": [
+        "wellbeing"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "gq-6",
+      "name": {
+        "zh": "GQ-6 感恩问卷",
+        "en": "GQ-6 Gratitude Questionnaire"
+      },
+      "shortName": "GQ-6",
+      "description": {
+        "zh": "评估个体感恩倾向的6题量表",
+        "en": "A 6-item scale measuring dispositional gratitude"
+      },
+      "tags": [
+        "wellbeing"
+      ],
+      "questionCount": 6,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "bfi-10",
+      "name": {
+        "zh": "BFI-10 大五人格量表简版",
+        "en": "BFI-10 Big Five Inventory-10"
+      },
+      "shortName": "BFI-10",
+      "description": {
+        "zh": "快速评估大五人格维度的10题简版量表",
+        "en": "A 10-item brief measure of the Big Five personality dimensions"
+      },
+      "tags": [
+        "personality"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "npi-16",
+      "name": {
+        "zh": "NPI-16 自恋人格量表",
+        "en": "NPI-16 Narcissistic Personality Inventory"
+      },
+      "shortName": "NPI-16",
+      "description": {
+        "zh": "评估自恋人格特质的16题量表",
+        "en": "A 16-item scale measuring narcissistic personality traits"
+      },
+      "tags": [
+        "personality"
+      ],
+      "questionCount": 16,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "scs-sf",
+      "name": {
+        "zh": "SCS-SF 自我关怀量表简版",
+        "en": "SCS-SF Self-Compassion Scale Short Form"
+      },
+      "shortName": "SCS-SF",
+      "description": {
+        "zh": "评估自我关怀水平的12题简版量表",
+        "en": "A 12-item brief scale measuring self-compassion"
+      },
+      "tags": [
+        "selfesteem"
+      ],
+      "questionCount": 12,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "grit-s",
+      "name": {
+        "zh": "Grit-S 坚毅力量表简版",
+        "en": "Grit-S Short Grit Scale"
+      },
+      "shortName": "Grit-S",
+      "description": {
+        "zh": "评估毅力和长期目标坚持的8题量表",
+        "en": "An 8-item scale measuring perseverance and passion for long-term goals"
+      },
+      "tags": [
+        "personality",
+        "resilience"
+      ],
+      "questionCount": 8,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "ders-sf",
+      "name": {
+        "zh": "DERS-SF 情绪调节困难量表简版",
+        "en": "DERS-SF Difficulties in Emotion Regulation Scale"
+      },
+      "shortName": "DERS-SF",
+      "description": {
+        "zh": "评估情绪调节困难程度的18题量表",
+        "en": "An 18-item scale measuring difficulties in emotion regulation"
+      },
+      "tags": [
+        "emotion"
+      ],
+      "questionCount": 18,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "erq",
+      "name": {
+        "zh": "ERQ 情绪调节问卷",
+        "en": "ERQ Emotion Regulation Questionnaire"
+      },
+      "shortName": "ERQ",
+      "description": {
+        "zh": "评估认知重评和表达抑制两种情绪调节策略的10题量表",
+        "en": "A 10-item scale measuring cognitive reappraisal and expressive suppression strategies"
+      },
+      "tags": [
+        "emotion"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "rrs",
+      "name": {
+        "zh": "RRS 反刍思维量表",
+        "en": "RRS Ruminative Response Scale"
+      },
+      "shortName": "RRS",
+      "description": {
+        "zh": "评估抑郁相关反刍思维倾向的22题量表",
+        "en": "A 22-item scale measuring depressive rumination tendencies"
+      },
+      "tags": [
+        "depression",
+        "cognition"
+      ],
+      "questionCount": 22,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "cerq-short",
+      "name": {
+        "zh": "CERQ-Short 认知情绪调节问卷简版",
+        "en": "CERQ-Short Cognitive Emotion Regulation Questionnaire"
+      },
+      "shortName": "CERQ-Short",
+      "description": {
+        "zh": "评估认知情绪调节策略的18题简版量表",
+        "en": "An 18-item brief scale measuring cognitive emotion regulation strategies"
+      },
+      "tags": [
+        "emotion",
+        "cognition"
+      ],
+      "questionCount": 18,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "ffmq-15",
+      "name": {
+        "zh": "FFMQ-15 五因素正念量表简版",
+        "en": "FFMQ-15 Five Facet Mindfulness Questionnaire"
+      },
+      "shortName": "FFMQ-15",
+      "description": {
+        "zh": "评估正念五个方面的15题简版量表",
+        "en": "A 15-item brief scale measuring five facets of mindfulness"
+      },
+      "tags": [
+        "mindfulness"
+      ],
+      "questionCount": 15,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "maas",
+      "name": {
+        "zh": "MAAS 正念注意觉知量表",
+        "en": "MAAS Mindful Attention Awareness Scale"
+      },
+      "shortName": "MAAS",
+      "description": {
+        "zh": "评估日常正念注意和觉知水平的15题量表",
+        "en": "A 15-item scale measuring mindful attention and awareness in daily life"
+      },
+      "tags": [
+        "mindfulness"
+      ],
+      "questionCount": 15,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "aaq-ii",
+      "name": {
+        "zh": "AAQ-II 接纳与行动问卷",
+        "en": "AAQ-II Acceptance and Action Questionnaire"
+      },
+      "shortName": "AAQ-II",
+      "description": {
+        "zh": "评估心理灵活性和经验性回避的7题量表",
+        "en": "A 7-item scale measuring psychological flexibility and experiential avoidance"
+      },
+      "tags": [
+        "mindfulness"
+      ],
+      "questionCount": 7,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "ucla-loneliness",
+      "name": {
+        "zh": "UCLA 孤独感量表",
+        "en": "UCLA Loneliness Scale"
+      },
+      "shortName": "UCLA",
+      "description": {
+        "zh": "评估主观孤独感受程度的20题量表",
+        "en": "A 20-item scale measuring subjective feelings of loneliness"
+      },
+      "tags": [
+        "relationship"
+      ],
+      "questionCount": 20,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "mspss",
+      "name": {
+        "zh": "MSPSS 多维社会支持量表",
+        "en": "MSPSS Multidimensional Scale of Perceived Social Support"
+      },
+      "shortName": "MSPSS",
+      "description": {
+        "zh": "评估来自家人、朋友和重要他人的社会支持感知的12题量表",
+        "en": "A 12-item scale measuring perceived social support from family, friends, and significant others"
+      },
+      "tags": [
+        "relationship"
+      ],
+      "questionCount": 12,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "ecr-rs",
+      "name": {
+        "zh": "ECR-RS 亲密关系体验量表简版",
+        "en": "ECR-RS Experiences in Close Relationships - Short"
+      },
+      "shortName": "ECR-RS",
+      "description": {
+        "zh": "评估依恋焦虑和依恋回避的12题关系量表",
+        "en": "A 12-item scale measuring attachment anxiety and avoidance in close relationships"
+      },
+      "tags": [
+        "relationship"
+      ],
+      "questionCount": 12,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "iri",
+      "name": {
+        "zh": "IRI 人际反应指数",
+        "en": "IRI Interpersonal Reactivity Index"
+      },
+      "shortName": "IRI",
+      "description": {
+        "zh": "评估共情能力多个维度的28题量表",
+        "en": "A 28-item scale measuring multiple dimensions of empathy"
+      },
+      "tags": [
+        "relationship"
+      ],
+      "questionCount": 28,
+      "estimatedMinutes": 10,
+      "license": "Free to use"
+    },
+    {
+      "id": "cbi",
+      "name": {
+        "zh": "CBI 哥本哈根倦怠量表",
+        "en": "CBI Copenhagen Burnout Inventory"
+      },
+      "shortName": "CBI",
+      "description": {
+        "zh": "评估个人、工作和客户相关倦怠的19题量表",
+        "en": "A 19-item scale measuring personal, work-related, and client-related burnout"
+      },
+      "tags": [
+        "burnout",
+        "career"
+      ],
+      "questionCount": 19,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "olbi",
+      "name": {
+        "zh": "OLBI 奥尔登堡倦怠量表",
+        "en": "OLBI Oldenburg Burnout Inventory"
+      },
+      "shortName": "OLBI",
+      "description": {
+        "zh": "评估倦怠和工作脱离的16题量表",
+        "en": "A 16-item scale measuring exhaustion and disengagement from work"
+      },
+      "tags": [
+        "burnout",
+        "career"
+      ],
+      "questionCount": 16,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "uwes-9",
+      "name": {
+        "zh": "UWES-9 工作投入量表",
+        "en": "UWES-9 Utrecht Work Engagement Scale"
+      },
+      "shortName": "UWES-9",
+      "description": {
+        "zh": "评估工作活力、奉献和专注程度的9题量表",
+        "en": "A 9-item scale measuring vigor, dedication, and absorption at work"
+      },
+      "tags": [
+        "career"
+      ],
+      "questionCount": 9,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "eat-26",
+      "name": {
+        "zh": "EAT-26 进食态度测试",
+        "en": "EAT-26 Eating Attitudes Test"
+      },
+      "shortName": "EAT-26",
+      "description": {
+        "zh": "筛查异常进食态度和行为的26题量表",
+        "en": "A 26-item scale screening for abnormal eating attitudes and behaviors"
+      },
+      "tags": [
+        "eating"
+      ],
+      "questionCount": 26,
+      "estimatedMinutes": 10,
+      "license": "Free to use"
+    },
+    {
+      "id": "scoff",
+      "name": {
+        "zh": "SCOFF 进食障碍筛查",
+        "en": "SCOFF Eating Disorder Screen"
+      },
+      "shortName": "SCOFF",
+      "description": {
+        "zh": "快速筛查进食障碍风险的5题问卷",
+        "en": "A 5-item questionnaire for rapid screening of eating disorder risk"
+      },
+      "tags": [
+        "eating"
+      ],
+      "questionCount": 5,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "bas-2",
+      "name": {
+        "zh": "BAS-2 身体欣赏量表",
+        "en": "BAS-2 Body Appreciation Scale"
+      },
+      "shortName": "BAS-2",
+      "description": {
+        "zh": "评估个体对身体的积极态度和欣赏程度的10题量表",
+        "en": "A 10-item scale measuring positive body image and body appreciation"
+      },
+      "tags": [
+        "bodyimage"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "tas-20",
+      "name": {
+        "zh": "TAS-20 多伦多述情障碍量表",
+        "en": "TAS-20 Toronto Alexithymia Scale"
+      },
+      "shortName": "TAS-20",
+      "description": {
+        "zh": "评估述情障碍的20题量表",
+        "en": "A 20-item scale measuring alexithymia (difficulty identifying and expressing emotions)"
+      },
+      "tags": [
+        "emotion",
+        "cognition"
+      ],
+      "questionCount": 20,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "aq-10",
+      "name": {
+        "zh": "AQ-10 自闭症谱系商数简版",
+        "en": "AQ-10 Autism Spectrum Quotient"
+      },
+      "shortName": "AQ-10",
+      "description": {
+        "zh": "快速筛查自闭症谱系特征的10题量表",
+        "en": "A 10-item scale for rapid screening of autism spectrum traits"
+      },
+      "tags": [
+        "cognition"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "asrs",
+      "name": {
+        "zh": "ASRS 成人ADHD自评量表",
+        "en": "ASRS Adult ADHD Self-Report Scale"
+      },
+      "shortName": "ASRS",
+      "description": {
+        "zh": "筛查成人注意缺陷多动障碍的6题量表",
+        "en": "A 6-item scale screening for adult attention-deficit/hyperactivity disorder"
+      },
+      "tags": [
+        "cognition"
+      ],
+      "questionCount": 6,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "brs",
+      "name": {
+        "zh": "BRS 简短心理韧性量表",
+        "en": "BRS Brief Resilience Scale"
+      },
+      "shortName": "BRS",
+      "description": {
+        "zh": "评估个体从压力中恢复能力的6题量表",
+        "en": "A 6-item scale measuring the ability to bounce back from stress"
+      },
+      "tags": [
+        "resilience"
+      ],
+      "questionCount": 6,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "cd-risc-2",
+      "name": {
+        "zh": "CD-RISC-2 心理韧性量表超简版",
+        "en": "CD-RISC-2 Connor-Davidson Resilience Scale"
+      },
+      "shortName": "CD-RISC-2",
+      "description": {
+        "zh": "快速评估心理韧性核心特质的2题量表",
+        "en": "A 2-item scale for rapid assessment of core resilience traits"
+      },
+      "tags": [
+        "resilience"
+      ],
+      "questionCount": 2,
+      "estimatedMinutes": 1,
+      "license": "Free to use"
+    },
+    {
+      "id": "sdq",
+      "name": {
+        "zh": "SDQ 长处和困难问卷",
+        "en": "SDQ Strengths and Difficulties Questionnaire"
+      },
+      "shortName": "SDQ",
+      "description": {
+        "zh": "评估儿童青少年情绪和行为问题的25题量表",
+        "en": "A 25-item scale assessing emotional and behavioral problems in children and adolescents"
+      },
+      "tags": [
+        "mentalhealth"
+      ],
+      "questionCount": 25,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "psc-17",
+      "name": {
+        "zh": "PSC-17 儿科症状检查表",
+        "en": "PSC-17 Pediatric Symptom Checklist"
+      },
+      "shortName": "PSC-17",
+      "description": {
+        "zh": "筛查儿童心理社会问题的17题量表",
+        "en": "A 17-item scale screening for psychosocial problems in children"
+      },
+      "tags": [
+        "mentalhealth"
+      ],
+      "questionCount": 17,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "mdq",
+      "name": {
+        "zh": "MDQ 心境障碍问卷",
+        "en": "MDQ Mood Disorder Questionnaire"
+      },
+      "shortName": "MDQ",
+      "description": {
+        "zh": "筛查双相情感障碍的15题问卷",
+        "en": "A 15-item questionnaire screening for bipolar disorder"
+      },
+      "tags": [
+        "mentalhealth"
+      ],
+      "questionCount": 13,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "qids-sr16",
+      "name": {
+        "zh": "QIDS-SR16 快速抑郁症状问卷",
+        "en": "QIDS-SR16 Quick Inventory of Depressive Symptomatology"
+      },
+      "shortName": "QIDS-SR16",
+      "description": {
+        "zh": "详细评估抑郁症状的16题自评量表",
+        "en": "A 16-item self-report scale for detailed assessment of depressive symptoms"
+      },
+      "tags": [
+        "depression"
+      ],
+      "questionCount": 16,
+      "estimatedMinutes": 6,
+      "license": "Public Domain"
+    },
+    {
+      "id": "smfq",
+      "name": {
+        "zh": "SMFQ 简短情绪与感受问卷",
+        "en": "SMFQ Short Mood and Feelings Questionnaire"
+      },
+      "shortName": "SMFQ",
+      "description": {
+        "zh": "评估儿童青少年抑郁症状的13题量表",
+        "en": "A 13-item scale measuring depressive symptoms in children and adolescents"
+      },
+      "tags": [
+        "depression"
+      ],
+      "questionCount": 13,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "perma",
+      "name": {
+        "zh": "PERMA 幸福量表",
+        "en": "PERMA Profiler"
+      },
+      "shortName": "PERMA",
+      "description": {
+        "zh": "基于积极心理学PERMA模型的23题幸福感量表",
+        "en": "A 23-item well-being scale based on the PERMA model of positive psychology"
+      },
+      "tags": [
+        "wellbeing"
+      ],
+      "questionCount": 23,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "proqol",
+      "name": {
+        "zh": "ProQOL 专业生活质量量表",
+        "en": "ProQOL Professional Quality of Life Scale"
+      },
+      "shortName": "ProQOL",
+      "description": {
+        "zh": "评估助人职业的同情满足、倦怠和继发性创伤的30题量表",
+        "en": "A 30-item scale measuring compassion satisfaction, burnout, and secondary traumatic stress in helping professions"
+      },
+      "tags": [
+        "burnout",
+        "career"
+      ],
+      "questionCount": 30,
+      "estimatedMinutes": 10,
+      "license": "Free to use"
+    },
+    {
+      "id": "phq-a",
+      "name": {
+        "zh": "PHQ-A 青少年抑郁筛查问卷",
+        "en": "PHQ-A Adolescent Depression Screen"
+      },
+      "shortName": "PHQ-A",
+      "description": {
+        "zh": "专为青少年设计的11题抑郁筛查问卷",
+        "en": "An 11-item depression screening questionnaire designed for adolescents"
+      },
+      "tags": [
+        "depression"
+      ],
+      "questionCount": 11,
+      "estimatedMinutes": 4,
+      "license": "Public Domain"
+    },
+    {
+      "id": "rcads-25",
+      "name": {
+        "zh": "RCADS-25 儿童焦虑抑郁量表简版",
+        "en": "RCADS-25 Revised Child Anxiety and Depression Scale"
+      },
+      "shortName": "RCADS-25",
+      "description": {
+        "zh": "评估儿童青少年焦虑和抑郁的25题量表",
+        "en": "A 25-item scale assessing anxiety and depression in children and adolescents"
+      },
+      "tags": [
+        "anxiety",
+        "depression"
+      ],
+      "questionCount": 25,
+      "estimatedMinutes": 10,
+      "license": "Free to use"
+    },
+    {
+      "id": "pas",
+      "name": {
+        "zh": "PAS 惊恐和广场恐惧量表",
+        "en": "PAS Panic and Agoraphobia Scale"
+      },
+      "shortName": "PAS",
+      "description": {
+        "zh": "评估惊恐发作和广场恐惧症状的13题量表",
+        "en": "A 13-item scale measuring panic attacks and agoraphobia symptoms"
+      },
+      "tags": [
+        "anxiety"
+      ],
+      "questionCount": 13,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "docs",
+      "name": {
+        "zh": "DOCS 强迫症维度量表",
+        "en": "DOCS Dimensional Obsessive-Compulsive Scale"
+      },
+      "shortName": "DOCS",
+      "description": {
+        "zh": "评估强迫症状四个维度的20题量表",
+        "en": "A 20-item scale measuring four dimensions of obsessive-compulsive symptoms"
+      },
+      "tags": [
+        "ocd"
+      ],
+      "questionCount": 20,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "bsq-8c",
+      "name": {
+        "zh": "BSQ-8C 身体形态问卷简版",
+        "en": "BSQ-8C Body Shape Questionnaire Brief"
+      },
+      "shortName": "BSQ-8C",
+      "description": {
+        "zh": "评估对身体形态关注和不满的8题量表",
+        "en": "An 8-item scale measuring body shape concerns and dissatisfaction"
+      },
+      "tags": [
+        "bodyimage"
+      ],
+      "questionCount": 8,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "ncs-6",
+      "name": {
+        "zh": "NCS-6 认知需求量表简版",
+        "en": "NCS-6 Need for Cognition Scale Brief"
+      },
+      "shortName": "NCS-6",
+      "description": {
+        "zh": "评估个体思考和认知参与倾向的6题量表",
+        "en": "A 6-item scale measuring tendency to engage in and enjoy thinking"
+      },
+      "tags": [
+        "cognition"
+      ],
+      "questionCount": 6,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "rq",
+      "name": {
+        "zh": "RQ 关系问卷",
+        "en": "RQ Relationship Questionnaire"
+      },
+      "shortName": "RQ",
+      "description": {
+        "zh": "评估成人依恋类型的4题量表",
+        "en": "A 4-item scale measuring adult attachment styles"
+      },
+      "tags": [
+        "relationship"
+      ],
+      "questionCount": 4,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "jss-9",
+      "name": {
+        "zh": "JSS-9 工作满意度调查简版",
+        "en": "JSS-9 Job Satisfaction Survey Brief"
+      },
+      "shortName": "JSS-9",
+      "description": {
+        "zh": "评估工作满意度的9题简版量表",
+        "en": "A 9-item brief scale measuring job satisfaction"
+      },
+      "tags": [
+        "career"
+      ],
+      "questionCount": 9,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "lec-5",
+      "name": {
+        "zh": "LEC-5 生活事件检查表",
+        "en": "LEC-5 Life Events Checklist for DSM-5"
+      },
+      "shortName": "LEC-5",
+      "description": {
+        "zh": "筛查创伤性生活事件暴露情况的17题检查表",
+        "en": "A 17-item checklist screening for exposure to traumatic life events"
+      },
+      "tags": [
+        "trauma"
+      ],
+      "questionCount": 17,
+      "estimatedMinutes": 6,
+      "license": "Public Domain"
+    },
+    {
+      "id": "igds-sf9",
+      "name": {
+        "zh": "IGDS-SF9 网络游戏障碍量表",
+        "en": "IGDS-SF9 Internet Gaming Disorder Scale"
+      },
+      "shortName": "IGDS-SF9",
+      "description": {
+        "zh": "基于DSM-5标准评估游戏成瘾严重程度的9题量表",
+        "en": "A 9-item scale assessing gaming addiction severity based on DSM-5 criteria"
+      },
+      "tags": [
+        "addiction"
+      ],
+      "questionCount": 9,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "bsmas",
+      "name": {
+        "zh": "BSMAS 卑尔根社交媒体成瘾量表",
+        "en": "BSMAS Bergen Social Media Addiction Scale"
+      },
+      "shortName": "BSMAS",
+      "description": {
+        "zh": "评估社交媒体使用问题的6题简短量表",
+        "en": "A 6-item brief scale assessing problematic social media use"
+      },
+      "tags": [
+        "addiction"
+      ],
+      "questionCount": 6,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "sas-sv",
+      "name": {
+        "zh": "SAS-SV 智能手机成瘾量表简版",
+        "en": "SAS-SV Smartphone Addiction Scale"
+      },
+      "shortName": "SAS-SV",
+      "description": {
+        "zh": "评估智能手机过度使用和成瘾倾向的10题量表",
+        "en": "A 10-item scale assessing smartphone overuse and addiction tendency"
+      },
+      "tags": [
+        "addiction"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "gps",
+      "name": {
+        "zh": "GPS 一般拖延量表",
+        "en": "GPS General Procrastination Scale"
+      },
+      "shortName": "GPS",
+      "description": {
+        "zh": "评估日常拖延行为倾向的20题量表",
+        "en": "A 20-item scale measuring procrastination tendencies in everyday life"
+      },
+      "tags": [
+        "procrastination"
+      ],
+      "questionCount": 20,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "pps",
+      "name": {
+        "zh": "PPS 纯粹拖延量表",
+        "en": "PPS Pure Procrastination Scale"
+      },
+      "shortName": "PPS",
+      "description": {
+        "zh": "聚焦评估纯粹拖延行为的12题量表",
+        "en": "A 12-item scale focused on measuring pure procrastination behavior"
+      },
+      "tags": [
+        "procrastination"
+      ],
+      "questionCount": 12,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "saps",
+      "name": {
+        "zh": "SAPS 简版近乎完美量表",
+        "en": "SAPS Short Almost Perfect Scale"
+      },
+      "shortName": "SAPS",
+      "description": {
+        "zh": "评估完美主义高标准和差距感两个维度的8题量表",
+        "en": "An 8-item scale measuring perfectionism across Standards and Discrepancy dimensions"
+      },
+      "tags": [
+        "perfectionism",
+        "personality"
+      ],
+      "questionCount": 8,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "dar-5",
+      "name": {
+        "zh": "DAR-5 愤怒反应维度量表",
+        "en": "DAR-5 Dimensions of Anger Reactions"
+      },
+      "shortName": "DAR-5",
+      "description": {
+        "zh": "从五个维度快速评估愤怒情绪问题的5题量表",
+        "en": "A 5-item scale rapidly assessing anger problems across five dimensions"
+      },
+      "tags": [
+        "anger",
+        "emotion"
+      ],
+      "questionCount": 5,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "raads-14",
+      "name": {
+        "zh": "RAADS-14 自闭症谱系筛查量表",
+        "en": "RAADS-14 Autism Spectrum Screening Scale"
+      },
+      "shortName": "RAADS-14",
+      "description": {
+        "zh": "评估成人自闭症谱系特征的14题筛查量表",
+        "en": "A 14-item screening scale for assessing autism spectrum traits in adults"
+      },
+      "tags": [
+        "autism",
+        "cognition"
+      ],
+      "questionCount": 14,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "gse",
+      "name": {
+        "zh": "GSE 一般自我效能感量表",
+        "en": "GSE General Self-Efficacy Scale"
+      },
+      "shortName": "GSE",
+      "description": {
+        "zh": "评估应对困难情境能力信心的10题量表",
+        "en": "A 10-item scale measuring confidence in coping with difficult situations"
+      },
+      "tags": [
+        "selfesteem",
+        "resilience"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "asrm",
+      "name": {
+        "zh": "ASRM 奥特曼躁狂自评量表",
+        "en": "ASRM Altman Self-Rating Mania Scale"
+      },
+      "shortName": "ASRM",
+      "description": {
+        "zh": "筛查和评估躁狂症状的5题简短量表",
+        "en": "A 5-item brief scale for screening and assessing manic symptoms"
+      },
+      "tags": [
+        "mentalhealth"
+      ],
+      "questionCount": 5,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "oasis",
+      "name": {
+        "zh": "OASIS 整体焦虑严重程度和损害量表",
+        "en": "OASIS Overall Anxiety Severity and Impairment Scale"
+      },
+      "shortName": "OASIS",
+      "description": {
+        "zh": "评估整体焦虑频率、强度和功能损害的5题量表",
+        "en": "A 5-item scale measuring overall anxiety frequency, intensity, and functional impairment"
+      },
+      "tags": [
+        "anxiety"
+      ],
+      "questionCount": 5,
+      "estimatedMinutes": 2,
+      "license": "Public Domain"
+    },
+    {
+      "id": "odsis",
+      "name": {
+        "zh": "ODSIS 整体抑郁严重程度和损害量表",
+        "en": "ODSIS Overall Depression Severity and Impairment Scale"
+      },
+      "shortName": "ODSIS",
+      "description": {
+        "zh": "评估整体抑郁频率、强度和功能损害的5题量表",
+        "en": "A 5-item scale measuring overall depression frequency, intensity, and functional impairment"
+      },
+      "tags": [
+        "depression"
+      ],
+      "questionCount": 5,
+      "estimatedMinutes": 2,
+      "license": "Public Domain"
+    },
+    {
+      "id": "wsas",
+      "name": {
+        "zh": "WSAS 工作与社会适应量表",
+        "en": "WSAS Work and Social Adjustment Scale"
+      },
+      "shortName": "WSAS",
+      "description": {
+        "zh": "评估心理问题对五个功能领域影响的5题量表",
+        "en": "A 5-item scale measuring impact of mental health on five functional domains"
+      },
+      "tags": [
+        "functioning",
+        "mentalhealth"
+      ],
+      "questionCount": 5,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "fss-9",
+      "name": {
+        "zh": "FSS 疲劳严重度量表",
+        "en": "FSS Fatigue Severity Scale"
+      },
+      "shortName": "FSS",
+      "description": {
+        "zh": "评估疲劳对日常功能影响程度的9题量表",
+        "en": "A 9-item scale measuring the impact of fatigue on daily functioning"
+      },
+      "tags": [
+        "fatigue",
+        "mentalhealth"
+      ],
+      "questionCount": 9,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "mlq",
+      "name": {
+        "zh": "MLQ 生命意义感问卷",
+        "en": "MLQ Meaning in Life Questionnaire"
+      },
+      "shortName": "MLQ",
+      "description": {
+        "zh": "评估生命意义存在感和寻求感两个维度的10题量表",
+        "en": "A 10-item scale measuring Presence of and Search for meaning in life"
+      },
+      "tags": [
+        "wellbeing"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "iat-20",
+      "name": {
+        "zh": "IAT 网络成瘾测试",
+        "en": "IAT Internet Addiction Test"
+      },
+      "shortName": "IAT",
+      "description": {
+        "zh": "评估网络使用对日常生活影响的20题量表",
+        "en": "A 20-item questionnaire measuring internet use impact on daily life"
+      },
+      "tags": [
+        "addiction"
+      ],
+      "questionCount": 20,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "djgls",
+      "name": {
+        "zh": "DJGLS 孤独感量表",
+        "en": "DJGLS De Jong Gierveld Loneliness Scale"
+      },
+      "shortName": "DJGLS",
+      "description": {
+        "zh": "评估情感孤独和社交孤独的6题简短量表",
+        "en": "A 6-item brief scale measuring emotional and social loneliness"
+      },
+      "tags": [
+        "relationship"
+      ],
+      "questionCount": 6,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "bis-15",
+      "name": {
+        "zh": "BIS-15 冲动性量表简版",
+        "en": "BIS-15 Barratt Impulsiveness Scale"
+      },
+      "shortName": "BIS-15",
+      "description": {
+        "zh": "评估注意力、运动和无计划三个维度冲动性的15题量表",
+        "en": "A 15-item scale measuring impulsivity across attentional, motor, and non-planning dimensions"
+      },
+      "tags": [
+        "impulsivity",
+        "personality"
+      ],
+      "questionCount": 15,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "sd3",
+      "name": {
+        "zh": "SD3 暗黑人格三联征量表",
+        "en": "SD3 Short Dark Triad"
+      },
+      "shortName": "SD3",
+      "description": {
+        "zh": "评估马基雅维利主义、自恋和精神病态三个暗黑人格维度的27题量表",
+        "en": "A 27-item scale assessing three dark personality dimensions: Machiavellianism, Narcissism, and Psychopathy"
+      },
+      "tags": [
+        "personality"
+      ],
+      "questionCount": 27,
+      "estimatedMinutes": 10,
+      "license": "Free to use"
+    },
+    {
+      "id": "teq",
+      "name": {
+        "zh": "TEQ 多伦多共情问卷",
+        "en": "TEQ Toronto Empathy Questionnaire"
+      },
+      "shortName": "TEQ",
+      "description": {
+        "zh": "评估个体对他人情感状态理解和共享能力的16题量表",
+        "en": "A 16-item scale measuring the ability to understand and share others' emotional states"
+      },
+      "tags": [
+        "empathy",
+        "relationship"
+      ],
+      "questionCount": 16,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "ptq",
+      "name": {
+        "zh": "PTQ 持续性思维问卷",
+        "en": "PTQ Perseverative Thinking Questionnaire"
+      },
+      "shortName": "PTQ",
+      "description": {
+        "zh": "跨诊断评估反复消极思维倾向的15题量表",
+        "en": "A 15-item transdiagnostic scale measuring repetitive negative thinking tendencies"
+      },
+      "tags": [
+        "cognition",
+        "anxiety"
+      ],
+      "questionCount": 15,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "msi-bpd",
+      "name": {
+        "zh": "MSI-BPD 边缘型人格障碍筛查量表",
+        "en": "MSI-BPD McLean Screening Instrument"
+      },
+      "shortName": "MSI-BPD",
+      "description": {
+        "zh": "筛查边缘型人格障碍核心特征的10题简短量表",
+        "en": "A 10-item brief screening tool for core features of Borderline Personality Disorder"
+      },
+      "tags": [
+        "personality",
+        "mentalhealth"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "pcs",
+      "name": {
+        "zh": "PCS 疼痛灾难化量表",
+        "en": "PCS Pain Catastrophizing Scale"
+      },
+      "shortName": "PCS",
+      "description": {
+        "zh": "评估疼痛相关灾难化思维三个维度的13题量表",
+        "en": "A 13-item scale measuring three dimensions of pain-related catastrophic thinking"
+      },
+      "tags": [
+        "pain",
+        "cognition"
+      ],
+      "questionCount": 13,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "core-10",
+      "name": {
+        "zh": "CORE-10 临床结果常规评估",
+        "en": "CORE-10 Clinical Outcomes in Routine Evaluation"
+      },
+      "shortName": "CORE-10",
+      "description": {
+        "zh": "评估心理困扰总体水平的10题临床常规监测量表",
+        "en": "A 10-item clinical routine monitoring scale for overall psychological distress"
+      },
+      "tags": [
+        "mentalhealth",
+        "functioning"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "ahs",
+      "name": {
+        "zh": "AHS 成人希望感量表",
+        "en": "AHS Adult Hope Scale"
+      },
+      "shortName": "AHS",
+      "description": {
+        "zh": "评估路径思维和动力思维两个希望感维度的12题量表",
+        "en": "A 12-item scale measuring Pathways and Agency dimensions of hope"
+      },
+      "tags": [
+        "hope",
+        "wellbeing"
+      ],
+      "questionCount": 12,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "wleis",
+      "name": {
+        "zh": "WLEIS 情商量表",
+        "en": "WLEIS Emotional Intelligence Scale"
+      },
+      "shortName": "WLEIS",
+      "description": {
+        "zh": "评估情绪智力四个维度的16题量表",
+        "en": "A 16-item scale measuring four dimensions of emotional intelligence"
+      },
+      "tags": [
+        "emotion"
+      ],
+      "questionCount": 16,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "bpaq-sf",
+      "name": {
+        "zh": "BPAQ-SF 攻击性问卷简版",
+        "en": "BPAQ-SF Aggression Questionnaire Short Form"
+      },
+      "shortName": "BPAQ-SF",
+      "description": {
+        "zh": "评估身体攻击、言语攻击、愤怒和敌意四个维度的12题量表",
+        "en": "A 12-item scale measuring Physical Aggression, Verbal Aggression, Anger, and Hostility"
+      },
+      "tags": [
+        "aggression",
+        "anger"
+      ],
+      "questionCount": 12,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "wi",
+      "name": {
+        "zh": "WI 怀特利指数",
+        "en": "WI Whiteley Index"
+      },
+      "shortName": "WI",
+      "description": {
+        "zh": "评估健康焦虑（疑病症）严重程度的14题经典量表",
+        "en": "A 14-item classic scale measuring health anxiety (hypochondriasis) severity"
+      },
+      "tags": [
+        "health_anxiety",
+        "anxiety"
+      ],
+      "questionCount": 14,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "shs",
+      "name": {
+        "zh": "SHS 主观幸福感量表",
+        "en": "SHS Subjective Happiness Scale"
+      },
+      "shortName": "SHS",
+      "description": {
+        "zh": "测量个体整体主观幸福感水平的4题简短量表",
+        "en": "A 4-item brief scale measuring overall subjective happiness"
+      },
+      "tags": [
+        "wellbeing"
+      ],
+      "questionCount": 4,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "sias",
+      "name": {
+        "zh": "SIAS 社交互动焦虑量表",
+        "en": "SIAS Social Interaction Anxiety Scale"
+      },
+      "shortName": "SIAS",
+      "description": {
+        "zh": "评估社交互动情境中焦虑水平的20题量表",
+        "en": "A 20-item scale assessing anxiety in social interaction situations"
+      },
+      "tags": [
+        "socialanxiety"
+      ],
+      "questionCount": 20,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "ces-d-10",
+      "name": {
+        "zh": "CES-D-10 流调中心抑郁量表简版",
+        "en": "CES-D-10 Depression Scale Short Form"
+      },
+      "shortName": "CES-D-10",
+      "description": {
+        "zh": "快速筛查抑郁症状的10题简版量表",
+        "en": "A 10-item short form for rapid screening of depressive symptoms"
+      },
+      "tags": [
+        "depression"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Public Domain"
+    },
+    {
+      "id": "pc-ptsd-5",
+      "name": {
+        "zh": "PC-PTSD-5 初级保健PTSD筛查量表",
+        "en": "PC-PTSD-5 Primary Care PTSD Screen"
+      },
+      "shortName": "PC-PTSD-5",
+      "description": {
+        "zh": "用于初级保健环境中快速筛查PTSD的5题问卷",
+        "en": "A 5-item screening tool for identifying probable PTSD in primary care settings"
+      },
+      "tags": [
+        "ptsd",
+        "trauma"
+      ],
+      "questionCount": 5,
+      "estimatedMinutes": 2,
+      "license": "Public Domain"
+    },
+    {
+      "id": "ssosh",
+      "name": {
+        "zh": "SSOSH 求助自我污名量表",
+        "en": "SSOSH Self-Stigma of Seeking Help Scale"
+      },
+      "shortName": "SSOSH",
+      "description": {
+        "zh": "评估与寻求心理帮助相关的自我污名的10题量表",
+        "en": "A 10-item scale measuring self-stigma associated with seeking psychological help"
+      },
+      "tags": [
+        "mentalhealth"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "ders-16",
+      "name": {
+        "zh": "DERS-16 情绪调节困难量表简版",
+        "en": "DERS-16 Difficulties in Emotion Regulation Scale"
+      },
+      "shortName": "DERS-16",
+      "description": {
+        "zh": "从五个维度评估情绪调节困难的16题简版量表",
+        "en": "A 16-item brief scale assessing emotion regulation difficulties across five dimensions"
+      },
+      "tags": [
+        "emotion"
+      ],
+      "questionCount": 16,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "brcs",
+      "name": {
+        "zh": "BRCS 简短心理弹性应对量表",
+        "en": "BRCS Brief Resilient Coping Scale"
+      },
+      "shortName": "BRCS",
+      "description": {
+        "zh": "评估适应性应对压力能力的4题简短量表",
+        "en": "A 4-item brief scale measuring resilient coping tendencies"
+      },
+      "tags": [
+        "resilience"
+      ],
+      "questionCount": 4,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "ede-qs",
+      "name": {
+        "zh": "EDE-QS 进食障碍检查问卷简版",
+        "en": "EDE-QS Eating Disorder Examination Questionnaire Short"
+      },
+      "shortName": "EDE-QS",
+      "description": {
+        "zh": "评估进食障碍心理病理的12题简版问卷",
+        "en": "A 12-item short form assessing eating disorder psychopathology"
+      },
+      "tags": [
+        "eating"
+      ],
+      "questionCount": 12,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "stai-6",
+      "name": {
+        "zh": "STAI-6 状态焦虑量表简版",
+        "en": "STAI-6 State Anxiety Inventory Short Form"
+      },
+      "shortName": "STAI-6",
+      "description": {
+        "zh": "快速评估当前焦虑状态的6题简版量表",
+        "en": "A 6-item short form for rapid assessment of current state anxiety"
+      },
+      "tags": [
+        "anxiety"
+      ],
+      "questionCount": 6,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "ius-12",
+      "name": {
+        "zh": "IUS-12 无法忍受不确定性量表简版",
+        "en": "IUS-12 Intolerance of Uncertainty Scale Short Form"
+      },
+      "shortName": "IUS-12",
+      "description": {
+        "zh": "评估对不确定性容忍程度的12题简版量表",
+        "en": "A 12-item short form measuring intolerance of uncertainty"
+      },
+      "tags": [
+        "anxiety"
+      ],
+      "questionCount": 12,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "rpa",
+      "name": {
+        "zh": "RPA 积极情感反应量表",
+        "en": "RPA Responses to Positive Affect Scale"
+      },
+      "shortName": "RPA",
+      "description": {
+        "zh": "评估个体在体验积极情绪时反应方式的17题量表",
+        "en": "A 17-item scale measuring response styles when experiencing positive emotions"
+      },
+      "tags": [
+        "emotion"
+      ],
+      "questionCount": 17,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "whodas-12",
+      "name": {
+        "zh": "WHODAS 2.0 世卫组织残疾评定量表",
+        "en": "WHODAS 2.0 WHO Disability Assessment Schedule"
+      },
+      "shortName": "WHODAS-12",
+      "description": {
+        "zh": "评估六个领域健康相关残疾程度的12题量表",
+        "en": "A 12-item scale assessing health-related disability across six domains"
+      },
+      "tags": [
+        "functioning"
+      ],
+      "questionCount": 12,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "cage-aid",
+      "name": {
+        "zh": "CAGE-AID 药物滥用筛查问卷",
+        "en": "CAGE-AID Substance Abuse Screening"
+      },
+      "shortName": "CAGE-AID",
+      "description": {
+        "zh": "在经典CAGE问卷基础上改编的4题筛查工具，同时涵盖酒精和药物使用问题",
+        "en": "A 4-item screening tool adapted from the CAGE questionnaire to include both alcohol and drug use"
+      },
+      "tags": [
+        "substance"
+      ],
+      "questionCount": 4,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "cd-risc-10",
+      "name": {
+        "zh": "CD-RISC-10 心理弹性量表",
+        "en": "CD-RISC-10 Connor-Davidson Resilience Scale"
+      },
+      "shortName": "CD-RISC-10",
+      "description": {
+        "zh": "评估个体应对压力、逆境和变化能力的10题心理弹性量表",
+        "en": "A 10-item scale measuring the ability to cope with stress, adversity, and change"
+      },
+      "tags": [
+        "resilience"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "cfs",
+      "name": {
+        "zh": "CFS 查德尔疲劳量表",
+        "en": "CFS Chalder Fatigue Scale"
+      },
+      "shortName": "CFS",
+      "description": {
+        "zh": "测量躯体疲劳和精神疲劳严重程度的11题问卷",
+        "en": "An 11-item questionnaire measuring the severity of physical and mental fatigue"
+      },
+      "tags": [
+        "fatigue"
+      ],
+      "questionCount": 11,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "dbas-16",
+      "name": {
+        "zh": "DBAS-16 睡眠功能失调信念和态度量表",
+        "en": "DBAS-16 Dysfunctional Beliefs About Sleep"
+      },
+      "shortName": "DBAS-16",
+      "description": {
+        "zh": "评估与睡眠相关的功能失调信念、态度和期望的16题量表",
+        "en": "A 16-item scale assessing dysfunctional beliefs, attitudes, and expectations about sleep"
+      },
+      "tags": [
+        "sleep",
+        "cognition"
+      ],
+      "questionCount": 16,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "dts",
+      "name": {
+        "zh": "DTS 痛苦忍受量表",
+        "en": "DTS Distress Tolerance Scale"
+      },
+      "shortName": "DTS",
+      "description": {
+        "zh": "评估个体感知的忍受情绪痛苦能力的15题量表",
+        "en": "A 15-item scale assessing perceived ability to tolerate emotional distress"
+      },
+      "tags": [
+        "emotion",
+        "stress"
+      ],
+      "questionCount": 15,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "essi",
+      "name": {
+        "zh": "ESSI 社会支持简评量表",
+        "en": "ESSI ENRICHD Social Support Instrument"
+      },
+      "shortName": "ESSI",
+      "description": {
+        "zh": "评估个体感知到的社会支持水平的6题简短量表",
+        "en": "A 6-item brief measure of perceived social support availability"
+      },
+      "tags": [
+        "relationship"
+      ],
+      "questionCount": 6,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "fmi-14",
+      "name": {
+        "zh": "FMI-14 弗莱堡正念量表",
+        "en": "FMI-14 Freiburg Mindfulness Inventory"
+      },
+      "shortName": "FMI-14",
+      "description": {
+        "zh": "测量日常生活中当下觉察和非评判态度的14题正念量表",
+        "en": "A 14-item scale measuring mindfulness as present-moment awareness and non-judgment in daily life"
+      },
+      "tags": [
+        "mindfulness"
+      ],
+      "questionCount": 14,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "fomo",
+      "name": {
+        "zh": "FoMO 错失恐惧量表",
+        "en": "FoMO Fear of Missing Out Scale"
+      },
+      "shortName": "FoMO",
+      "description": {
+        "zh": "评估对错过他人有价值体验的普遍性担忧的10题量表",
+        "en": "A 10-item scale measuring the pervasive apprehension of missing out on rewarding experiences"
+      },
+      "tags": [
+        "addiction",
+        "anxiety"
+      ],
+      "questionCount": 10,
+      "estimatedMinutes": 4,
+      "license": "Free to use"
+    },
+    {
+      "id": "phq-8",
+      "name": {
+        "zh": "PHQ-8 患者健康问卷8项版",
+        "en": "PHQ-8 Patient Health Questionnaire-8"
+      },
+      "shortName": "PHQ-8",
+      "description": {
+        "zh": "不含自杀意念条目的8题抑郁症状自评量表，适用于一般人群研究",
+        "en": "An 8-item depression measure identical to PHQ-9 without the suicidality item, suitable for population studies"
+      },
+      "tags": [
+        "depression"
+      ],
+      "questionCount": 8,
+      "estimatedMinutes": 3,
+      "license": "Public Domain"
+    },
+    {
+      "id": "rs-14",
+      "name": {
+        "zh": "RS-14 心理弹性量表",
+        "en": "RS-14 Resilience Scale"
+      },
+      "shortName": "RS-14",
+      "description": {
+        "zh": "评估自我依赖、意义感、坚持不懈等积极人格特质的14题心理弹性量表",
+        "en": "A 14-item resilience scale assessing self-reliance, meaning, perseverance, and equanimity"
+      },
+      "tags": [
+        "resilience"
+      ],
+      "questionCount": 14,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "sbq-r",
+      "name": {
+        "zh": "SBQ-R 自杀行为问卷修订版",
+        "en": "SBQ-R Suicidal Behaviors Questionnaire"
+      },
+      "shortName": "SBQ-R",
+      "description": {
+        "zh": "评估终生自杀意念、近期频率、威胁和未来可能性的4题筛查工具",
+        "en": "A 4-item screening tool assessing lifetime suicidal ideation, recent frequency, threats, and future likelihood"
+      },
+      "tags": [
+        "mentalhealth"
+      ],
+      "questionCount": 4,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "scs-13",
+      "name": {
+        "zh": "SCS-13 自我控制量表简版",
+        "en": "SCS-13 Self-Control Scale"
+      },
+      "shortName": "SCS-13",
+      "description": {
+        "zh": "测量个体在自我控制方面差异的13题量表，评估抑制冲动和改变行为的能力",
+        "en": "A 13-item scale measuring individual differences in self-control and impulse regulation"
+      },
+      "tags": [
+        "selfesteem",
+        "mindfulness"
+      ],
+      "questionCount": 13,
+      "estimatedMinutes": 5,
+      "license": "Free for research use"
+    },
+    {
+      "id": "spane",
+      "name": {
+        "zh": "SPANE 积极与消极体验量表",
+        "en": "SPANE Scale of Positive and Negative Experience"
+      },
+      "shortName": "SPANE",
+      "description": {
+        "zh": "评估过去四周积极和消极情绪体验的12题主观幸福感量表",
+        "en": "A 12-item subjective well-being measure assessing positive and negative feelings over the past four weeks"
+      },
+      "tags": [
+        "emotion",
+        "wellbeing"
+      ],
+      "questionCount": 12,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "swemwbs",
+      "name": {
+        "zh": "SWEMWBS 华威爱丁堡心理幸福感量表简版",
+        "en": "SWEMWBS Short Warwick-Edinburgh Mental Well-Being Scale"
+      },
+      "shortName": "SWEMWBS",
+      "description": {
+        "zh": "侧重心理功能评估的7题心理幸福感简版量表",
+        "en": "A 7-item short scale measuring mental well-being with a focus on psychological functioning"
+      },
+      "tags": [
+        "wellbeing"
+      ],
+      "questionCount": 7,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "asi-3",
+      "name": {
+        "zh": "ASI-3 焦虑敏感性指数",
+        "en": "ASI-3 Anxiety Sensitivity Index"
+      },
+      "shortName": "ASI-3",
+      "description": {
+        "zh": "评估身体、认知和社会三个维度焦虑敏感性的18题量表",
+        "en": "An 18-item scale measuring anxiety sensitivity across physical, cognitive, and social dimensions"
+      },
+      "tags": [
+        "anxiety"
+      ],
+      "questionCount": 18,
+      "estimatedMinutes": 7,
+      "license": "Free to use"
+    },
+    {
+      "id": "bfne-s",
+      "name": {
+        "zh": "BFNE-S 简版负面评价恐惧量表",
+        "en": "BFNE-S Brief Fear of Negative Evaluation Scale"
+      },
+      "shortName": "BFNE-S",
+      "description": {
+        "zh": "评估社交情境中对负面评价恐惧程度的8题量表",
+        "en": "An 8-item scale measuring fear of negative evaluation in social situations"
+      },
+      "tags": [
+        "socialanxiety"
+      ],
+      "questionCount": 8,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "brief-cope",
+      "name": {
+        "zh": "Brief-COPE 简明应对方式问卷",
+        "en": "Brief-COPE Coping Inventory"
+      },
+      "shortName": "Brief-COPE",
+      "description": {
+        "zh": "评估14种应对策略的28题量表",
+        "en": "A 28-item scale measuring 14 coping strategies"
+      },
+      "tags": [
+        "stress",
+        "resilience"
+      ],
+      "questionCount": 28,
+      "estimatedMinutes": 10,
+      "license": "Free to use"
+    },
+    {
+      "id": "cfq",
+      "name": {
+        "zh": "CFQ 认知失败问卷",
+        "en": "CFQ Cognitive Failures Questionnaire"
+      },
+      "shortName": "CFQ",
+      "description": {
+        "zh": "评估日常认知失误频率的25题量表",
+        "en": "A 25-item questionnaire measuring frequency of everyday cognitive failures"
+      },
+      "tags": [
+        "cognition"
+      ],
+      "questionCount": 25,
+      "estimatedMinutes": 8,
+      "license": "Free to use"
+    },
+    {
+      "id": "hads",
+      "name": {
+        "zh": "HADS 医院焦虑抑郁量表",
+        "en": "HADS Hospital Anxiety and Depression Scale"
+      },
+      "shortName": "HADS",
+      "description": {
+        "zh": "在综合医院环境中同时评估焦虑和抑郁的14题量表",
+        "en": "A 14-item scale measuring anxiety and depression in general hospital settings"
+      },
+      "tags": [
+        "anxiety",
+        "depression"
+      ],
+      "questionCount": 14,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "ies-6",
+      "name": {
+        "zh": "IES-6 事件影响量表-6",
+        "en": "IES-6 Impact of Event Scale-6"
+      },
+      "shortName": "IES-6",
+      "description": {
+        "zh": "快速评估创伤事件心理影响的6题简版量表",
+        "en": "A 6-item brief scale for rapid assessment of psychological impact of traumatic events"
+      },
+      "tags": [
+        "trauma",
+        "ptsd"
+      ],
+      "questionCount": 6,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "lsns-6",
+      "name": {
+        "zh": "LSNS-6 Lubben社会网络量表",
+        "en": "LSNS-6 Lubben Social Network Scale"
+      },
+      "shortName": "LSNS-6",
+      "description": {
+        "zh": "评估家庭和朋友社会网络规模的6题量表",
+        "en": "A 6-item scale measuring family and friends social network size"
+      },
+      "tags": [
+        "relationship"
+      ],
+      "questionCount": 6,
+      "estimatedMinutes": 2,
+      "license": "Free to use"
+    },
+    {
+      "id": "prmq",
+      "name": {
+        "zh": "PRMQ 前瞻性与回溯性记忆问卷",
+        "en": "PRMQ Prospective and Retrospective Memory Questionnaire"
+      },
+      "shortName": "PRMQ",
+      "description": {
+        "zh": "评估前瞻性记忆和回溯性记忆问题的16题量表",
+        "en": "A 16-item scale measuring prospective and retrospective memory problems"
+      },
+      "tags": [
+        "cognition"
+      ],
+      "questionCount": 16,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "psas",
+      "name": {
+        "zh": "PSAS 睡前唤醒量表",
+        "en": "PSAS Pre-Sleep Arousal Scale"
+      },
+      "shortName": "PSAS",
+      "description": {
+        "zh": "评估睡前认知和躯体唤醒水平的16题量表",
+        "en": "A 16-item scale measuring cognitive and somatic pre-sleep arousal"
+      },
+      "tags": [
+        "sleep"
+      ],
+      "questionCount": 16,
+      "estimatedMinutes": 6,
+      "license": "Free to use"
+    },
+    {
+      "id": "pwi",
+      "name": {
+        "zh": "PWI 个人幸福指数",
+        "en": "PWI Personal Wellbeing Index"
+      },
+      "shortName": "PWI",
+      "description": {
+        "zh": "评估七个生活领域满意度的幸福感量表",
+        "en": "A 7-item scale measuring satisfaction across seven life domains"
+      },
+      "tags": [
+        "wellbeing"
+      ],
+      "questionCount": 7,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "soc-13",
+      "name": {
+        "zh": "SOC-13 心理一致感量表",
+        "en": "SOC-13 Sense of Coherence Scale"
+      },
+      "shortName": "SOC-13",
+      "description": {
+        "zh": "评估可理解感、可管理感和有意义感三个维度的13题量表",
+        "en": "A 13-item scale measuring comprehensibility, manageability, and meaningfulness"
+      },
+      "tags": [
+        "resilience",
+        "wellbeing"
+      ],
+      "questionCount": 13,
+      "estimatedMinutes": 5,
       "license": "Free to use"
     }
   ]

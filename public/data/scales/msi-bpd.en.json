@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "id": "msi-bpd",
+    "name": "MSI-BPD McLean Screening Instrument",
+    "fullName": "McLean Screening Instrument for Borderline Personality Disorder",
+    "description": "The MSI-BPD is a brief 10-item screening tool designed to assess the core features of Borderline Personality Disorder (BPD). Based on DSM-IV BPD diagnostic criteria, it uses a cutoff score of 7 for screening and demonstrates good sensitivity and specificity.",
+    "author": "Zanarini, Vujanovic, Parachini, Boulanger, Frankenburg & Hennen (2003)",
+    "license": "Free for research use",
+    "reference": "Zanarini MC, Vujanovic AA, Parachini EA, Boulanger JL, Frankenburg FR, Hennen J. A screening measure for BPD: the McLean Screening Instrument for Borderline Personality Disorder (MSI-BPD). J Pers Disord. 2003;17(6):568-573.",
+    "instruction": "The following questions describe experiences you may have had. Please answer Yes or No."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "No"
+    },
+    {
+      "value": 1,
+      "label": "Yes"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Have you often been concerned about being abandoned in relationships and tried desperately to avoid it",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Have you had at least two intense and unstable close relationships",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Have you been confused about your identity or unsure of who you really are",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Have you impulsively done at least two things that could have harmed you (e.g., binge eating, substance misuse, reckless driving, spending sprees, risky sex)",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Have you repeatedly had suicidal thoughts or engaged in self-harm",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Do your emotions change very quickly (usually lasting a few hours, rarely more than a few days)",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Do you often feel empty",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Do you often have difficulty controlling your anger or have frequent outbursts",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Under stress, do you temporarily become suspicious of others or feel disconnected from reality",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Have you shifted between extremely idealizing and extremely devaluing someone",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 10,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "minimal",
+        "label": "Low Risk",
+        "description": "Your score is in the low-risk range and does not indicate significant features of Borderline Personality Disorder.",
+        "suggestions": [
+          "Continue maintaining healthy emotional regulation strategies",
+          "Nurture stable interpersonal relationships"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 4,
+        "level": "mild",
+        "label": "Moderate Risk",
+        "description": "Your score suggests some features associated with BPD may be present, but it is below the clinical screening threshold.",
+        "suggestions": [
+          "Be mindful of your emotional fluctuations and relationship patterns",
+          "Learn emotion regulation skills",
+          "If these features affect your daily life, consider seeking a professional assessment"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 6,
+        "level": "moderate",
+        "label": "Elevated Risk",
+        "description": "Your score is elevated and may indicate several features associated with Borderline Personality Disorder.",
+        "suggestions": [
+          "Consider seeking a professional mental health assessment",
+          "Learn Dialectical Behavior Therapy (DBT) skills",
+          "Focus on emotion regulation and relationship management",
+          "Avoid impulsive behaviors and develop safe coping strategies"
+        ]
+      },
+      {
+        "min": 7,
+        "max": 10,
+        "level": "severe",
+        "label": "High Risk",
+        "description": "Your score meets or exceeds the clinical screening threshold (>=7). This suggests possible Borderline Personality Disorder. Please note this is only a screening tool; a diagnosis requires professional clinical assessment.",
+        "suggestions": [
+          "Strongly recommended to seek evaluation from a psychiatrist or clinical psychologist",
+          "Dialectical Behavior Therapy (DBT) is an effective treatment for BPD",
+          "If you have thoughts of self-harm or suicide, please contact a crisis helpline immediately",
+          "Build a safe support network",
+          "This result does not constitute a diagnosis; do not self-diagnose"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 10
+    }
+  }
+}

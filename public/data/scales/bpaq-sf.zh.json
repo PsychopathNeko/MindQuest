@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "id": "bpaq-sf",
+    "name": "BPAQ-SF 攻击性问卷简版",
+    "fullName": "Buss-Perry Aggression Questionnaire Short Form",
+    "description": "BPAQ-SF 是一份包含 12 个条目的自评量表，用于评估攻击性的四个维度：身体攻击、言语攻击、愤怒和敌意。它是 BPAQ-29 的简版，简洁高效，适用于快速筛查攻击性水平。",
+    "author": "Bryant & Smith (2001)",
+    "license": "Free for research use",
+    "reference": "Bryant FB, Smith BD. Refining the architecture of aggression: a measurement model for the Buss-Perry Aggression Questionnaire. J Res Pers. 2001;35(2):138-167.",
+    "instruction": "请根据你的日常行为和感受选择最符合的选项。"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常不符合"
+    },
+    {
+      "value": 2,
+      "label": "不太符合"
+    },
+    {
+      "value": 3,
+      "label": "一般"
+    },
+    {
+      "value": 4,
+      "label": "比较符合"
+    },
+    {
+      "value": 5,
+      "label": "非常符合"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "如果被挑衅，我可能会打人",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "如果有人打了我，我会还手",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "面对威胁时我曾使用暴力来保护自己的权利",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "当别人不同意我的时候，我忍不住和他们争论",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我的朋友说我有点爱争论",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我经常发现自己在和别人争辩",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "有时候我会无缘无故感到烦躁",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我很难控制自己的脾气",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "有时候我觉得自己就像一个即将爆炸的火药桶",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我有时候会觉得生活对我不公平",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "当别人对我特别好时，我会怀疑他们想要什么",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我有时候会很嫉妒别人的好运",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 60,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "physical",
+        "name": "身体攻击",
+        "items": [
+          0,
+          1,
+          2
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "verbal",
+        "name": "言语攻击",
+        "items": [
+          3,
+          4,
+          5
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "anger",
+        "name": "愤怒",
+        "items": [
+          6,
+          7,
+          8
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "hostility",
+        "name": "敌意",
+        "items": [
+          9,
+          10,
+          11
+        ],
+        "maxScore": 15
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 24,
+        "level": "minimal",
+        "label": "低攻击性",
+        "description": "您的攻击性水平较低，能够较好地控制攻击性冲动。",
+        "suggestions": [
+          "继续保持良好的情绪管理和冲突解决能力",
+          "您的低攻击性有助于建立和谐的人际关系"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "normal",
+        "label": "中等攻击性",
+        "description": "您的攻击性处于中等水平，属于大多数人的正常范围。",
+        "suggestions": [
+          "关注各维度得分，了解自己的攻击性模式",
+          "学习更有效的沟通和冲突解决技巧",
+          "练习情绪调节和愤怒管理"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "mild",
+        "label": "较高攻击性",
+        "description": "您的攻击性水平较高，可能在某些情况下难以控制攻击性行为。",
+        "suggestions": [
+          "学习愤怒管理和冲突解决技巧",
+          "练习深呼吸和放松技术来缓解愤怒",
+          "考虑寻求心理咨询帮助",
+          "关注攻击性行为对人际关系的影响"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "moderate",
+        "label": "高攻击性",
+        "description": "您的攻击性水平很高，这可能对人际关系和社会适应造成显著影响。",
+        "suggestions": [
+          "建议寻求专业心理帮助",
+          "愤怒管理训练可能对您有很大帮助",
+          "避免高冲突环境，学习冷静策略",
+          "关注攻击性行为可能带来的法律和社会后果"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "physical": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "低",
+          "description": "身体攻击倾向较低。"
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "mild",
+          "label": "中等",
+          "description": "身体攻击倾向中等。"
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "moderate",
+          "label": "较高",
+          "description": "身体攻击倾向较高。"
+        },
+        {
+          "min": 13,
+          "max": 15,
+          "level": "severe",
+          "label": "高",
+          "description": "身体攻击倾向很高。"
+        }
+      ],
+      "verbal": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "低",
+          "description": "言语攻击倾向较低。"
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "mild",
+          "label": "中等",
+          "description": "言语攻击倾向中等。"
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "moderate",
+          "label": "较高",
+          "description": "言语攻击倾向较高。"
+        },
+        {
+          "min": 13,
+          "max": 15,
+          "level": "severe",
+          "label": "高",
+          "description": "言语攻击倾向很高。"
+        }
+      ],
+      "anger": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "低",
+          "description": "愤怒水平较低。"
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "mild",
+          "label": "中等",
+          "description": "愤怒水平中等。"
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "moderate",
+          "label": "较高",
+          "description": "愤怒水平较高。"
+        },
+        {
+          "min": 13,
+          "max": 15,
+          "level": "severe",
+          "label": "高",
+          "description": "愤怒水平很高。"
+        }
+      ],
+      "hostility": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "低",
+          "description": "敌意水平较低。"
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "mild",
+          "label": "中等",
+          "description": "敌意水平中等。"
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "moderate",
+          "label": "较高",
+          "description": "敌意水平较高。"
+        },
+        {
+          "min": 13,
+          "max": 15,
+          "level": "severe",
+          "label": "高",
+          "description": "敌意水平很高。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "physical",
+        "verbal",
+        "anger",
+        "hostility"
+      ],
+      "maxDisplayScore": 15
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "身体攻击",
+          "max": 15
+        },
+        {
+          "name": "言语攻击",
+          "max": 15
+        },
+        {
+          "name": "愤怒",
+          "max": 15
+        },
+        {
+          "name": "敌意",
+          "max": 15
+        }
+      ]
+    }
+  }
+}

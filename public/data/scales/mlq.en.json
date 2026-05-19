@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "id": "mlq",
+    "name": "MLQ Meaning in Life Questionnaire",
+    "fullName": "Meaning in Life Questionnaire",
+    "description": "The MLQ is a 10-item scale measuring two dimensions of meaning in life: Presence (currently felt meaning) and Search (actively seeking meaning).",
+    "author": "Steger et al. (2006)",
+    "license": "Free to use",
+    "reference": "Steger MF, et al. The Meaning in Life Questionnaire: Assessing the presence of and search for meaning in life. Journal of Counseling Psychology. 2006;53(1):80-93.",
+    "instruction": "Please rate how true each statement is for you."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Absolutely Untrue" },
+    { "value": 2, "label": "Mostly Untrue" },
+    { "value": 3, "label": "Somewhat Untrue" },
+    { "value": 4, "label": "Can't Say True or False" },
+    { "value": 5, "label": "Somewhat True" },
+    { "value": 6, "label": "Mostly True" },
+    { "value": 7, "label": "Absolutely True" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I understand my life's meaning", "type": "likert" },
+    { "index": 1, "text": "I am looking for something that makes my life feel meaningful", "type": "likert" },
+    { "index": 2, "text": "I am always looking to find my life's purpose", "type": "likert" },
+    { "index": 3, "text": "My life has a clear sense of purpose", "type": "likert" },
+    { "index": 4, "text": "I have a good sense of what makes my life meaningful", "type": "likert" },
+    { "index": 5, "text": "I have discovered a satisfying life purpose", "type": "likert" },
+    { "index": 6, "text": "I am always searching for something that makes my life feel significant", "type": "likert" },
+    { "index": 7, "text": "I am seeking a purpose or mission for my life", "type": "likert" },
+    { "index": 8, "text": "My life has no clear purpose", "type": "likert" },
+    { "index": 9, "text": "I am searching for meaning in my life", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "maxTotal": 70,
+    "maxItemScore": 7,
+    "reverseItems": [8],
+    "subscales": [
+      { "id": "presence", "name": "Presence", "items": [0, 3, 4, 5, 8], "maxScore": 35 },
+      { "id": "search", "name": "Search", "items": [1, 2, 6, 7, 9], "maxScore": 35 }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 30,
+        "level": "mild",
+        "label": "Low Meaning in Life",
+        "description": "You currently have relatively low levels of both perceived and sought meaning in life.",
+        "suggestions": [
+          "Try exploring your personal values and interests",
+          "Engage in volunteering or community activities",
+          "Share your thoughts and feelings with people important to you"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 50,
+        "level": "normal",
+        "label": "Moderate Meaning in Life",
+        "description": "You have a moderate sense of meaning and are somewhat engaged in exploring life's purpose.",
+        "suggestions": [
+          "Continue exploring what matters to you",
+          "Reflect on and document your core values",
+          "Set goals that align with your values"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 70,
+        "level": "minimal",
+        "label": "High Meaning in Life",
+        "description": "You have a clear understanding of your life's meaning and actively pursue purpose.",
+        "suggestions": [
+          "Continue living a meaningful lifestyle",
+          "Help others discover meaning in their lives",
+          "Continue exploring and growing in new areas"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "presence": [
+        {
+          "min": 5,
+          "max": 15,
+          "level": "severe",
+          "label": "Low Presence",
+          "description": "You currently feel little sense of meaning in your life."
+        },
+        {
+          "min": 16,
+          "max": 25,
+          "level": "mild",
+          "label": "Moderate Presence",
+          "description": "You have some sense of meaning in your life."
+        },
+        {
+          "min": 26,
+          "max": 35,
+          "level": "minimal",
+          "label": "High Presence",
+          "description": "You clearly feel that your life is meaningful."
+        }
+      ],
+      "search": [
+        {
+          "min": 5,
+          "max": 15,
+          "level": "minimal",
+          "label": "Low Search",
+          "description": "You are not actively searching for meaning in life."
+        },
+        {
+          "min": 16,
+          "max": 25,
+          "level": "normal",
+          "label": "Moderate Search",
+          "description": "You are moderately exploring the meaning of life."
+        },
+        {
+          "min": 26,
+          "max": 35,
+          "level": "mild",
+          "label": "High Search",
+          "description": "You are actively searching for and exploring the meaning of life."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["presence", "search"],
+      "maxDisplayScore": 35
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "Presence", "max": 35 },
+        { "name": "Search", "max": 35 }
+      ]
+    }
+  }
+}

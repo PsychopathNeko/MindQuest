@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "id": "olbi",
+    "name": "OLBI Burnout Inventory",
+    "fullName": "Oldenburg Burnout Inventory",
+    "description": "The OLBI is a 16-item measure assessing two core dimensions of burnout: exhaustion and disengagement from work.",
+    "author": "Demerouti E, et al. (2003)",
+    "license": "Free for research use",
+    "reference": "Demerouti E, et al. J Vocat Behav. 2003;62(3):473-488.",
+    "instruction": "Please indicate how much you agree with each statement about your work."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Strongly agree"
+    },
+    {
+      "value": 2,
+      "label": "Agree"
+    },
+    {
+      "value": 3,
+      "label": "Disagree"
+    },
+    {
+      "value": 4,
+      "label": "Strongly disagree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I always find new and interesting aspects in my work.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "There are days when I feel tired before I arrive at work.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "It happens more and more often that I talk about my work in a negative way.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "After work, I tend to need more time than in the past in order to relax and feel better.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I can tolerate the pressure of my work very well.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Lately, I tend to think less at work and do my job almost mechanically.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I find my work to be a positive challenge.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "During my work, I often feel emotionally drained.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Over time, one can become disconnected from this type of work.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "After working, I have enough energy for my leisure activities.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Sometimes I feel sickened by my work tasks.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "After my work, I usually feel worn out and weary.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "This is the only type of work that I can imagine myself doing.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Usually, I can manage the amount of my work well.",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I feel more and more engaged in my work.",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "When I work, I usually feel energized.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "maxTotal": 64,
+    "maxItemScore": 4,
+    "reverseItems": [
+      0,
+      4,
+      6,
+      9,
+      12,
+      13,
+      14,
+      15
+    ],
+    "subscales": [
+      {
+        "id": "exhaustion",
+        "name": "Exhaustion",
+        "items": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15
+        ],
+        "maxScore": 32
+      },
+      {
+        "id": "disengagement",
+        "name": "Disengagement",
+        "items": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "maxScore": 32
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 32,
+        "level": "minimal",
+        "label": "Low Burnout",
+        "description": "Low levels of burnout.",
+        "suggestions": [
+          "Maintain healthy work habits",
+          "Continue current coping strategies"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 48,
+        "level": "mild",
+        "label": "Moderate Burnout",
+        "description": "Moderate burnout levels.",
+        "suggestions": [
+          "Monitor your energy levels",
+          "Consider workload adjustments"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 64,
+        "level": "severe",
+        "label": "High Burnout",
+        "description": "High levels of burnout.",
+        "suggestions": [
+          "Seek professional support",
+          "Evaluate your work situation seriously"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "exhaustion": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "normal",
+          "label": "Low",
+          "description": "Low exhaustion."
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate exhaustion."
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "severe",
+          "label": "High",
+          "description": "High exhaustion."
+        }
+      ],
+      "disengagement": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "normal",
+          "label": "Low",
+          "description": "Low disengagement."
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate disengagement."
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "severe",
+          "label": "High",
+          "description": "High disengagement."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "exhaustion",
+        "disengagement"
+      ],
+      "maxDisplayScore": 32
+    }
+  }
+}

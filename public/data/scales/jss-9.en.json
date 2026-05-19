@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "id": "jss-9",
+    "name": "JSS-9 Job Satisfaction Survey Brief",
+    "fullName": "Job Satisfaction Survey - 9 Item Brief Version",
+    "description": "The JSS-9 is a brief version of the Job Satisfaction Survey that measures overall job satisfaction across key facets including pay, promotion, supervision, benefits, recognition, procedures, coworkers, meaningfulness, and communication.",
+    "author": "Spector PE (1985, adapted)",
+    "license": "Free to use",
+    "reference": "Spector PE. Measurement of human service staff satisfaction: Development of the Job Satisfaction Survey. Am J Community Psychol. 1985;13(6):693-713.",
+    "instruction": "Please indicate your level of agreement with each statement about your current job."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Disagree very much" },
+    { "value": 2, "label": "Disagree moderately" },
+    { "value": 3, "label": "Disagree slightly" },
+    { "value": 4, "label": "Agree slightly" },
+    { "value": 5, "label": "Agree moderately" },
+    { "value": 6, "label": "Agree very much" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I feel I am being paid a fair amount for the work I do", "type": "likert" },
+    { "index": 1, "text": "There is really too little chance for promotion on my job", "type": "likert" },
+    { "index": 2, "text": "My supervisor is quite competent in doing his/her job", "type": "likert" },
+    { "index": 3, "text": "I am not satisfied with the benefits I receive", "type": "likert" },
+    { "index": 4, "text": "When I do a good job, I receive the recognition for it that I should receive", "type": "likert" },
+    { "index": 5, "text": "Many of our rules and procedures make doing a good job difficult", "type": "likert" },
+    { "index": 6, "text": "I like the people I work with", "type": "likert" },
+    { "index": 7, "text": "I sometimes feel my job is meaningless", "type": "likert" },
+    { "index": 8, "text": "Communications seem good within this organization", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 54,
+    "maxItemScore": 6,
+    "reverseItems": [1, 3, 5, 7],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 9,
+        "max": 21,
+        "level": "severe",
+        "label": "Very Dissatisfied",
+        "description": "Your score indicates strong dissatisfaction with your job across multiple areas. This level of dissatisfaction may significantly impact your well-being and performance.",
+        "suggestions": [
+          "Identify the specific aspects of your job causing the most dissatisfaction",
+          "Consider discussing concerns with your supervisor or HR department",
+          "Explore whether a role change or job transition might be beneficial",
+          "Seek support from a career counselor",
+          "Take care of your mental health, as job dissatisfaction can affect overall well-being"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 31,
+        "level": "mild",
+        "label": "Dissatisfied",
+        "description": "Your score suggests moderate job dissatisfaction. Some aspects of your work are not meeting your expectations.",
+        "suggestions": [
+          "Identify which specific facets (pay, recognition, supervision) need the most attention",
+          "Have an open conversation with your supervisor about your concerns",
+          "Explore training or development opportunities that could improve your situation",
+          "Build stronger connections with supportive coworkers"
+        ]
+      },
+      {
+        "min": 32,
+        "max": 43,
+        "level": "normal",
+        "label": "Ambivalent",
+        "description": "Your score reflects mixed feelings about your job. You may be satisfied with some aspects and dissatisfied with others.",
+        "suggestions": [
+          "Identify which aspects you find most and least satisfying",
+          "Focus on building on the positive elements of your job",
+          "Address areas of concern proactively with your employer",
+          "Consider professional development to expand your options"
+        ]
+      },
+      {
+        "min": 44,
+        "max": 54,
+        "level": "minimal",
+        "label": "Satisfied",
+        "description": "Your score indicates overall satisfaction with your job. You feel positively about most aspects of your work environment.",
+        "suggestions": [
+          "Continue engaging in activities that contribute to your job satisfaction",
+          "Share your positive experiences to help create a better workplace for others",
+          "Stay aware of potential burnout even when satisfied",
+          "Continue seeking growth and development opportunities"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 9, "max": 54 }
+  }
+}

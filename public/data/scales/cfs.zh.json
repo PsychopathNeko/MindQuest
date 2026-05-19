@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "id": "cfs",
+    "name": "CFS 查德尔疲劳量表",
+    "fullName": "Chalder Fatigue Scale",
+    "description": "查德尔疲劳量表是一份包含 11 个条目的问卷，用于测量躯体疲劳和精神疲劳的严重程度。广泛应用于临床和研究领域，评估各类人群的疲劳状况。",
+    "author": "Chalder, Berelowitz, Pawlikowska, Watts, Wessely, Wright & Wallace (1993)",
+    "license": "Free to use",
+    "reference": "Chalder T, et al. Development of a fatigue scale. J Psychosom Res. 1993;37(2):147-153.",
+    "instruction": "我们想了解您在过去一个月中是否存在疲倦、虚弱或精力不足的问题。请回答所有问题，选择最符合您情况的选项。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "比平时好" },
+    { "value": 1, "label": "和平时一样" },
+    { "value": 2, "label": "比平时差" },
+    { "value": 3, "label": "比平时差很多" }
+  ],
+  "questions": [
+    { "index": 0, "text": "您是否有疲倦的问题？", "type": "likert" },
+    { "index": 1, "text": "您是否需要更多的休息？", "type": "likert" },
+    { "index": 2, "text": "您是否感到困倦或昏昏欲睡？", "type": "likert" },
+    { "index": 3, "text": "您是否在开始做事时有困难？", "type": "likert" },
+    { "index": 4, "text": "您是否感到精力不足？", "type": "likert" },
+    { "index": 5, "text": "您的肌肉力量是否减弱了？", "type": "likert" },
+    { "index": 6, "text": "您是否感到虚弱？", "type": "likert" },
+    { "index": 7, "text": "您是否有注意力难以集中的问题？", "type": "likert" },
+    { "index": 8, "text": "您是否有思维不清晰的问题？", "type": "likert" },
+    { "index": 9, "text": "您说话时是否会说错话？", "type": "likert" },
+    { "index": 10, "text": "您的记忆力怎么样？", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 33,
+    "maxItemScore": 3,
+    "subscales": [
+      {
+        "id": "physical",
+        "name": "躯体疲劳",
+        "items": [0, 1, 2, 3, 4, 5, 6],
+        "maxScore": 21
+      },
+      {
+        "id": "mental",
+        "name": "精神疲劳",
+        "items": [7, 8, 9, 10],
+        "maxScore": 12
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 10,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的疲劳水平处于正常范围，未检测到明显的疲劳问题。",
+        "suggestions": [
+          "继续保持良好的睡眠习惯和规律的体育活动",
+          "保持均衡饮食，充分饮水",
+          "如发现精力变化，请注意监测"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 16,
+        "level": "mild",
+        "label": "轻度疲劳",
+        "description": "您正在经历轻度疲劳，可能对日常功能有轻微影响。",
+        "suggestions": [
+          "确保充足的睡眠（每晚7-9小时）",
+          "检查日程安排，寻找休息机会",
+          "考虑轻度运动以提高精力水平",
+          "如疲劳持续，请咨询医生"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 24,
+        "level": "moderate",
+        "label": "中度疲劳",
+        "description": "您正在经历中度疲劳，可能影响工作、社交活动和整体生活质量。",
+        "suggestions": [
+          "咨询医生以排除医学原因",
+          "在一天中优先安排休息和精力管理",
+          "考虑活动节奏管理策略",
+          "检查可能导致疲劳的药物和生活方式因素"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 33,
+        "level": "severe",
+        "label": "重度疲劳",
+        "description": "您正在经历重度疲劳，可能严重影响日常功能和生活质量。",
+        "suggestions": [
+          "尽快就医以查明潜在原因",
+          "与医生讨论治疗方案",
+          "严格进行精力保存和活动节奏管理",
+          "如疲劳与情绪或压力有关，考虑心理支持"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "physical": [
+        {
+          "min": 0,
+          "max": 5,
+          "level": "minimal",
+          "label": "躯体疲劳正常",
+          "description": "您的躯体疲劳处于正常范围。"
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "mild",
+          "label": "轻度躯体疲劳",
+          "description": "您正在经历轻度躯体疲劳，请确保充足的休息和适当运动。"
+        },
+        {
+          "min": 11,
+          "max": 16,
+          "level": "moderate",
+          "label": "中度躯体疲劳",
+          "description": "您正在经历明显的躯体疲劳，建议咨询医生。"
+        },
+        {
+          "min": 17,
+          "max": 21,
+          "level": "severe",
+          "label": "重度躯体疲劳",
+          "description": "您正在经历重度躯体疲劳，建议进行医学评估。"
+        }
+      ],
+      "mental": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "minimal",
+          "label": "精神疲劳正常",
+          "description": "您的精神疲劳处于正常范围。"
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "level": "mild",
+          "label": "轻度精神疲劳",
+          "description": "您正在经历轻度精神疲劳，请确保适当的休息和认知放松。"
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "moderate",
+          "label": "中度精神疲劳",
+          "description": "您正在经历明显的精神疲劳，可能影响注意力和记忆力。"
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "severe",
+          "label": "重度精神疲劳",
+          "description": "您正在经历重度精神疲劳，建议寻求专业评估。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["physical", "mental"],
+      "maxDisplayScore": 21
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "躯体疲劳", "max": 21 },
+        { "name": "精神疲劳", "max": 12 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "id": "fss-9",
+    "name": "FSS 疲劳严重度量表",
+    "fullName": "Fatigue Severity Scale",
+    "description": "FSS 是一份9题量表，评估疲劳对日常功能的影响程度，广泛用于各种临床和研究场景。",
+    "author": "Krupp et al. (1989)",
+    "license": "Free to use",
+    "reference": "Krupp LB, et al. The fatigue severity scale. Application to patients with multiple sclerosis and systemic lupus erythematosus. Archives of Neurology. 1989;46(10):1121-1123.",
+    "instruction": "请选择最符合你过去一周感受的选项。1表示非常不同意，7表示非常同意。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "非常不同意" },
+    { "value": 2, "label": "不同意" },
+    { "value": 3, "label": "有点不同意" },
+    { "value": 4, "label": "中立" },
+    { "value": 5, "label": "有点同意" },
+    { "value": 6, "label": "同意" },
+    { "value": 7, "label": "非常同意" }
+  ],
+  "questions": [
+    { "index": 0, "text": "疲劳时我的动力变低", "type": "likert" },
+    { "index": 1, "text": "运动会使我感到疲劳", "type": "likert" },
+    { "index": 2, "text": "我很容易感到疲劳", "type": "likert" },
+    { "index": 3, "text": "疲劳影响了我的身体功能", "type": "likert" },
+    { "index": 4, "text": "疲劳经常给我带来困扰", "type": "likert" },
+    { "index": 5, "text": "疲劳妨碍了我持续进行体力活动", "type": "likert" },
+    { "index": 6, "text": "疲劳影响了我履行某些职责和责任", "type": "likert" },
+    { "index": 7, "text": "疲劳是我最致残的症状之一", "type": "likert" },
+    { "index": 8, "text": "疲劳干扰了我的工作、家庭或社交生活", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 63,
+    "maxItemScore": 7,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 9,
+        "max": 27,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的疲劳程度处于正常范围。",
+        "suggestions": [
+          "继续保持良好的生活习惯",
+          "保证充足的睡眠和规律的运动"
+        ]
+      },
+      {
+        "min": 28,
+        "max": 36,
+        "level": "mild",
+        "label": "轻度疲劳",
+        "description": "您可能存在一些疲劳问题，但对生活影响较小。",
+        "suggestions": [
+          "注意规律作息",
+          "适当增加体育锻炼",
+          "注意营养均衡",
+          "如持续疲劳建议排查躯体疾病"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 49,
+        "level": "moderate",
+        "label": "中度疲劳",
+        "description": "您的疲劳已经对日常活动产生了明显影响。",
+        "suggestions": [
+          "建议就医排查潜在的躯体原因",
+          "学习能量管理技巧（如活动-休息循环）",
+          "注意睡眠卫生",
+          "考虑是否存在心理因素（如抑郁、焦虑）"
+        ]
+      },
+      {
+        "min": 50,
+        "max": 63,
+        "level": "severe",
+        "label": "重度疲劳",
+        "description": "您的疲劳非常严重，显著影响日常功能，需要专业评估。",
+        "suggestions": [
+          "建议尽快就医进行全面评估",
+          "可能需要多学科合作治疗",
+          "学习节省精力的策略",
+          "寻求社会支持和帮助"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 9, "max": 63 }
+  }
+}

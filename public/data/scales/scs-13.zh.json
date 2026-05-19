@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "id": "scs-13",
+    "name": "SCS-13 自我控制量表简版",
+    "shortName": "SCS-13",
+    "fullName": "Brief Self-Control Scale",
+    "description": "SCS-13 是自我控制量表的13题简版，用于测量个体在自我控制方面的差异。它评估个体克服或改变内心反应、中断不良行为倾向以及抑制冲动的能力。",
+    "author": "Tangney, Baumeister & Boone (2004)",
+    "questionCount": 13,
+    "estimatedMinutes": 3,
+    "license": "Free for research use",
+    "reference": "Tangney JP, Baumeister RF, Boone AL. High self-control predicts good adjustment, less pathology, better grades, and interpersonal success. J Pers. 2004;72(2):271-324.",
+    "instruction": "请根据以下描述与您日常表现的符合程度进行评分。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "完全不像我" },
+    { "value": 2, "label": "有点像我" },
+    { "value": 3, "label": "比较像我" },
+    { "value": 4, "label": "大部分像我" },
+    { "value": 5, "label": "非常像我" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我善于抵制诱惑。", "type": "likert" },
+    { "index": 1, "text": "我很难改掉坏习惯。", "type": "likert" },
+    { "index": 2, "text": "我很懒。", "type": "likert" },
+    { "index": 3, "text": "我会说一些不恰当的话。", "type": "likert" },
+    { "index": 4, "text": "如果某些事情很有趣，即使对我有害，我也会去做。", "type": "likert" },
+    { "index": 5, "text": "我会拒绝对我不好的事物。", "type": "likert" },
+    { "index": 6, "text": "我希望自己有更多的自律能力。", "type": "likert" },
+    { "index": 7, "text": "别人会说我有钢铁般的自律能力。", "type": "likert" },
+    { "index": 8, "text": "享乐和玩耍有时会让我无法完成工作。", "type": "likert" },
+    { "index": 9, "text": "我很难集中注意力。", "type": "likert" },
+    { "index": 10, "text": "我能够有效地朝着长期目标努力。", "type": "likert" },
+    { "index": 11, "text": "有时候即使我知道是错的，我也无法阻止自己去做某些事情。", "type": "likert" },
+    { "index": 12, "text": "我经常不经过充分考虑就采取行动。", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 65,
+    "maxItemScore": 5,
+    "reverseItems": [1, 2, 3, 4, 6, 8, 9, 11, 12],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 13,
+        "max": 26,
+        "level": "severe",
+        "label": "自我控制力低",
+        "description": "您的自我控制得分较低，表明在调节冲动、习惯和行为方面存在较大困难。",
+        "suggestions": [
+          "从小目标开始，逐步培养自律能力",
+          "使用执行意图（如果-那么计划）来管理冲动",
+          "尽可能减少环境中的诱惑因素",
+          "考虑与心理咨询师合作制定行为改变策略"
+        ]
+      },
+      {
+        "min": 27,
+        "max": 39,
+        "level": "moderate",
+        "label": "自我控制力偏低",
+        "description": "您的自我控制力低于平均水平，在某些方面可能难以克制冲动和保持自律。",
+        "suggestions": [
+          "识别削弱自我控制的具体触发因素",
+          "在日常小决定中练习延迟满足",
+          "建立一致的日常作息以减少对意志力的依赖",
+          "保证充足睡眠，因为疲劳会消耗自我控制资源"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 52,
+        "level": "mild",
+        "label": "自我控制力中上",
+        "description": "您的自我控制力高于平均水平，通常能够很好地管理冲动并专注于目标。",
+        "suggestions": [
+          "继续加强自我调节习惯",
+          "注意自我控制可能被消耗的情境",
+          "在自律与自我关怀之间保持平衡",
+          "利用自我控制优势追求有意义的长期目标"
+        ]
+      },
+      {
+        "min": 53,
+        "max": 65,
+        "level": "minimal",
+        "label": "自我控制力高",
+        "description": "您的自我控制力很高，在抵制诱惑、改掉坏习惯和保持自律方面表现出色。",
+        "suggestions": [
+          "继续保持强大的自我调节能力",
+          "确保生活中也有灵活性和自发性",
+          "将您的自我控制力作为榜样帮助他人培养健康习惯",
+          "记住控制与放松之间的平衡非常重要"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 13, "max": 65 }
+  }
+}

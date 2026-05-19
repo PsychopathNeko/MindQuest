@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "bfi-10",
+    "name": "BFI-10 大五人格量表简版",
+    "fullName": "Big Five Inventory-10",
+    "description": "BFI-10 是大五人格量表（BFI-44）的超简版，仅用10个条目快速评估五个人格维度：外向性、宜人性、尽责性、神经质和开放性。每个维度由2个条目组成（1正1反），适用于时间有限的研究场景。",
+    "author": "Rammstedt & John (2007)",
+    "license": "Free to use",
+    "reference": "Rammstedt B, John OP. Measuring personality in one minute or less: A 10-item short version of the Big Five Inventory in English and German. J Res Pers. 2007;41(1):203-212.",
+    "instruction": "请根据以下描述与您自身的符合程度进行评分。我认为自己是一个——"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "非常不同意" },
+    { "value": 2, "label": "比较不同意" },
+    { "value": 3, "label": "既不同意也不反对" },
+    { "value": 4, "label": "比较同意" },
+    { "value": 5, "label": "非常同意" }
+  ],
+  "questions": [
+    { "index": 0, "text": "外向的、善于交际的", "type": "likert" },
+    { "index": 1, "text": "容易挑剔别人毛病的", "type": "likert" },
+    { "index": 2, "text": "可靠的、自律的", "type": "likert" },
+    { "index": 3, "text": "焦虑的、容易烦躁的", "type": "likert" },
+    { "index": 4, "text": "对新体验持开放态度的、兴趣广泛的", "type": "likert" },
+    { "index": 5, "text": "保守的、安静的", "type": "likert" },
+    { "index": 6, "text": "有同情心的、热心的", "type": "likert" },
+    { "index": 7, "text": "无组织的、粗心的", "type": "likert" },
+    { "index": 8, "text": "冷静的、情绪稳定的", "type": "likert" },
+    { "index": 9, "text": "传统的、缺乏创造力的", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "maxTotal": null,
+    "maxItemScore": 5,
+    "reverseItems": [1, 3, 5, 7, 9],
+    "subscales": [
+      {
+        "id": "extraversion",
+        "name": "外向性",
+        "items": [0, 5],
+        "reverseItems": [5],
+        "maxScore": 10
+      },
+      {
+        "id": "agreeableness",
+        "name": "宜人性",
+        "items": [1, 6],
+        "reverseItems": [1],
+        "maxScore": 10
+      },
+      {
+        "id": "conscientiousness",
+        "name": "尽责性",
+        "items": [2, 7],
+        "reverseItems": [7],
+        "maxScore": 10
+      },
+      {
+        "id": "neuroticism",
+        "name": "神经质",
+        "items": [3, 8],
+        "reverseItems": [8],
+        "maxScore": 10
+      },
+      {
+        "id": "openness",
+        "name": "开放性",
+        "items": [4, 9],
+        "reverseItems": [9],
+        "maxScore": 10
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": null,
+    "subscaleRanges": {
+      "extraversion": [
+        { "min": 2, "max": 4, "level": "severe", "label": "低", "description": "外向性较低，倾向于内向和安静，偏好独处。" },
+        { "min": 5, "max": 7, "level": "normal", "label": "中等", "description": "外向性处于中等水平，能在社交与独处之间保持平衡。" },
+        { "min": 8, "max": 10, "level": "minimal", "label": "高", "description": "外向性高，热情外向，善于社交，享受群体活动。" }
+      ],
+      "agreeableness": [
+        { "min": 2, "max": 4, "level": "severe", "label": "低", "description": "宜人性较低，倾向于独立思考和竞争，可能较为批判。" },
+        { "min": 5, "max": 7, "level": "normal", "label": "中等", "description": "宜人性中等，能在合作与坚持自我之间保持平衡。" },
+        { "min": 8, "max": 10, "level": "minimal", "label": "高", "description": "宜人性高，富有同情心，善于合作，值得信赖。" }
+      ],
+      "conscientiousness": [
+        { "min": 2, "max": 4, "level": "severe", "label": "低", "description": "尽责性较低，倾向于灵活随意，不太拘泥于计划和细节。" },
+        { "min": 5, "max": 7, "level": "normal", "label": "中等", "description": "尽责性中等，能在有序与灵活之间保持平衡。" },
+        { "min": 8, "max": 10, "level": "minimal", "label": "高", "description": "尽责性高，做事可靠、自律、有条理，目标明确。" }
+      ],
+      "neuroticism": [
+        { "min": 2, "max": 4, "level": "minimal", "label": "低（情绪稳定）", "description": "神经质较低，情绪稳定，不易焦虑和烦躁。" },
+        { "min": 5, "max": 7, "level": "normal", "label": "中等", "description": "神经质中等，大多数时候能较好地管理情绪。" },
+        { "min": 8, "max": 10, "level": "severe", "label": "高", "description": "神经质较高，较容易体验焦虑、紧张和情绪波动。" }
+      ],
+      "openness": [
+        { "min": 2, "max": 4, "level": "severe", "label": "低", "description": "开放性较低，偏好传统和务实，不太热衷新奇体验。" },
+        { "min": 5, "max": 7, "level": "normal", "label": "中等", "description": "开放性中等，能在探索新事物与保持稳定之间平衡。" },
+        { "min": 8, "max": 10, "level": "minimal", "label": "高", "description": "开放性高，富有好奇心和创造力，乐于接受新观点。" }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["radar", "bar"],
+    "radarConfig": {
+      "indicators": [
+        { "name": "外向性", "max": 10 },
+        { "name": "宜人性", "max": 10 },
+        { "name": "尽责性", "max": 10 },
+        { "name": "神经质", "max": 10 },
+        { "name": "开放性", "max": 10 }
+      ]
+    },
+    "barConfig": {
+      "subscaleIds": ["extraversion", "agreeableness", "conscientiousness", "neuroticism", "openness"],
+      "maxDisplayScore": 10
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "id": "rpa",
+    "name": "RPA Responses to Positive Affect Scale",
+    "fullName": "Responses to Positive Affect Scale",
+    "description": "The RPA is a 17-item self-report measure that assesses how individuals typically respond when they experience positive emotions. It captures three response styles: Dampening (diminishing positive feelings), Self-focused positive rumination (focusing on oneself), and Emotion-focused positive rumination (focusing on the emotional experience). The scale is useful for understanding individual differences in savoring or dampening positive emotions.",
+    "author": "Feldman, Joormann & Johnson (2008)",
+    "license": "Free to use",
+    "reference": "Feldman GC, Joormann J, Johnson SL. Responses to positive affect: A self-report measure of rumination and dampening. Cogn Ther Res. 2008;32(4):507-525.",
+    "instruction": "Think about times when you feel happy or are in a good mood. Please indicate what you generally do when you feel happy or are in a good mood."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Almost never"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes"
+    },
+    {
+      "value": 3,
+      "label": "Often"
+    },
+    {
+      "value": 4,
+      "label": "Almost always"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Think \"I don't deserve this.\"",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Think about things that have not gone well for you.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Think \"This is too good to be true.\"",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Think about things that could go wrong.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Think \"I don't deserve to feel this good.\"",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Remind yourself these feelings won't last.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Think \"People will think I'm bragging.\"",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Think about ways in which things could go better.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Think about how happy you feel.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Think about how strong you feel.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Think about how proud you are of yourself.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Think \"I am achieving everything.\"",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Savor the moment.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Think about how lucky you are.",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Think about the good things that have happened to you.",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Feel like you can do everything.",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Notice how you feel full of energy.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 68,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "dampening",
+        "name": "Dampening",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "maxScore": 32
+      },
+      {
+        "id": "self_focused",
+        "name": "Self-focused Positive Rumination",
+        "items": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "maxScore": 16
+      },
+      {
+        "id": "emotion_focused",
+        "name": "Emotion-focused Positive Rumination",
+        "items": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "maxScore": 20
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 17,
+        "max": 33,
+        "level": "minimal",
+        "label": "Low Overall Response",
+        "description": "Your overall response to positive affect is low across all domains. You may not strongly engage with positive emotions in any particular way.",
+        "suggestions": [
+          "Review your subscale scores for a more meaningful interpretation",
+          "Consider whether you tend to notice and engage with positive emotions",
+          "Practice paying attention to pleasant experiences as they occur"
+        ]
+      },
+      {
+        "min": 34,
+        "max": 50,
+        "level": "moderate",
+        "label": "Moderate Overall Response",
+        "description": "You show a moderate overall level of response to positive emotions. Check subscale scores to see your balance of dampening versus savoring.",
+        "suggestions": [
+          "Focus on the subscale breakdown for personalized insights",
+          "If dampening is high relative to positive rumination, practice savoring exercises",
+          "Cultivate awareness of how you respond when feeling good"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 68,
+        "level": "high",
+        "label": "High Overall Response",
+        "description": "You show a high level of engagement with positive emotions. Check subscale scores to determine whether this reflects healthy savoring or excessive dampening.",
+        "suggestions": [
+          "Review subscale scores carefully to understand your response pattern",
+          "If dampening is elevated, work on allowing yourself to fully enjoy positive moments",
+          "If positive rumination is high, continue nurturing this adaptive response style"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "dampening": [
+        {
+          "min": 8,
+          "max": 14,
+          "level": "minimal",
+          "label": "Low Dampening",
+          "description": "You rarely dampen your positive emotions. You tend to allow yourself to fully experience and enjoy positive feelings."
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "moderate",
+          "label": "Moderate Dampening",
+          "description": "You sometimes dampen your positive emotions by thinking about negatives or discounting good feelings."
+        },
+        {
+          "min": 21,
+          "max": 26,
+          "level": "high",
+          "label": "High Dampening",
+          "description": "You frequently dampen positive emotions. This tendency may reduce your ability to benefit from positive experiences."
+        },
+        {
+          "min": 27,
+          "max": 32,
+          "level": "severe",
+          "label": "Very High Dampening",
+          "description": "You very often dampen your positive emotions. This pattern is associated with vulnerability to depression and reduced well-being."
+        }
+      ],
+      "self_focused": [
+        {
+          "min": 4,
+          "max": 7,
+          "level": "minimal",
+          "label": "Low",
+          "description": "You rarely focus on yourself (e.g., pride, strength, achievement) when feeling positive."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You sometimes reflect on your personal strengths and accomplishments during positive moments."
+        },
+        {
+          "min": 11,
+          "max": 13,
+          "level": "high",
+          "label": "High",
+          "description": "You often focus on personal pride and achievement when experiencing positive emotions."
+        },
+        {
+          "min": 14,
+          "max": 16,
+          "level": "severe",
+          "label": "Very High",
+          "description": "You very frequently engage in self-focused positive rumination, strongly connecting positive feelings to personal worth."
+        }
+      ],
+      "emotion_focused": [
+        {
+          "min": 5,
+          "max": 9,
+          "level": "minimal",
+          "label": "Low",
+          "description": "You rarely savor or focus on the positive emotional experience itself."
+        },
+        {
+          "min": 10,
+          "max": 13,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You sometimes savor the moment and focus on your positive emotional experiences."
+        },
+        {
+          "min": 14,
+          "max": 17,
+          "level": "high",
+          "label": "High",
+          "description": "You often savor positive moments and actively engage with your positive emotional experiences."
+        },
+        {
+          "min": 18,
+          "max": 20,
+          "level": "severe",
+          "label": "Very High",
+          "description": "You very frequently savor and immerse yourself in positive emotional experiences. This is an adaptive response style."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "dampening",
+        "self_focused",
+        "emotion_focused"
+      ],
+      "maxDisplayScore": 32
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Dampening",
+          "max": 32
+        },
+        {
+          "name": "Self-focused",
+          "max": 16
+        },
+        {
+          "name": "Emotion-focused",
+          "max": 20
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "id": "ces-d",
+    "name": "CES-D Center for Epidemiologic Studies Depression Scale",
+    "fullName": "Center for Epidemiologic Studies Depression Scale",
+    "description": "The CES-D is a 20-item self-report depression scale developed for use in the general population. It measures the frequency of depressive symptoms experienced during the past week and is one of the most widely used instruments in epidemiological research on depression.",
+    "author": "Radloff (1977)",
+    "license": "Public Domain",
+    "reference": "Radloff LS. The CES-D Scale: A self-report depression scale for research in the general population. Appl Psychol Meas. 1977;1(3):385-401.",
+    "instruction": "Below is a list of ways you might have felt or behaved. Please indicate how often you have felt this way during the past week."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Rarely or none of the time (less than 1 day)" },
+    { "value": 1, "label": "Some or a little of the time (1-2 days)" },
+    { "value": 2, "label": "Occasionally or a moderate amount of time (3-4 days)" },
+    { "value": 3, "label": "Most or all of the time (5-7 days)" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I was bothered by things that usually don't bother me", "type": "likert" },
+    { "index": 1, "text": "I did not feel like eating; my appetite was poor", "type": "likert" },
+    { "index": 2, "text": "I felt that I could not shake off the blues even with help from my family or friends", "type": "likert" },
+    { "index": 3, "text": "I felt that I was just as good as other people", "type": "likert" },
+    { "index": 4, "text": "I had trouble keeping my mind on what I was doing", "type": "likert" },
+    { "index": 5, "text": "I felt depressed", "type": "likert" },
+    { "index": 6, "text": "I felt that everything I did was an effort", "type": "likert" },
+    { "index": 7, "text": "I felt hopeful about the future", "type": "likert" },
+    { "index": 8, "text": "I thought my life had been a failure", "type": "likert" },
+    { "index": 9, "text": "I felt fearful", "type": "likert" },
+    { "index": 10, "text": "My sleep was restless", "type": "likert" },
+    { "index": 11, "text": "I was happy", "type": "likert" },
+    { "index": 12, "text": "I talked less than usual", "type": "likert" },
+    { "index": 13, "text": "I felt lonely", "type": "likert" },
+    { "index": 14, "text": "People were unfriendly", "type": "likert" },
+    { "index": 15, "text": "I enjoyed life", "type": "likert" },
+    { "index": 16, "text": "I had crying spells", "type": "likert" },
+    { "index": 17, "text": "I felt sad", "type": "likert" },
+    { "index": 18, "text": "I felt that people disliked me", "type": "likert" },
+    { "index": 19, "text": "I could not get \"going\"", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 60,
+    "maxItemScore": 3,
+    "reverseItems": [3, 7, 11, 15],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 15,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your score is within the normal range. No significant depressive symptoms detected.",
+        "suggestions": [
+          "Continue maintaining a healthy lifestyle",
+          "Keep up regular social activities and exercise",
+          "Occasional mood fluctuations are a normal part of life"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 20,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "Your score suggests mild depressive symptoms. These may be affecting your daily life to some extent.",
+        "suggestions": [
+          "Pay attention to your emotional well-being",
+          "Maintain regular sleep, exercise, and social routines",
+          "Try talking to a trusted friend or family member",
+          "If symptoms persist for more than two weeks, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 25,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "Your score indicates moderate depressive symptoms that may be significantly affecting your daily functioning.",
+        "suggestions": [
+          "Consider consulting a mental health professional",
+          "Maintain a structured daily routine",
+          "Engage in regular physical activity",
+          "Avoid isolation; stay connected with supportive people",
+          "Consider psychotherapy (e.g., cognitive behavioral therapy)"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 60,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "Your score suggests severe depressive symptoms. Professional help is strongly recommended.",
+        "suggestions": [
+          "Seek consultation with a mental health professional as soon as possible",
+          "If you have thoughts of self-harm, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "Do not stay alone; inform a trusted person about your situation",
+          "Professional treatment, including therapy and/or medication, can be very effective"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 60 }
+  }
+}

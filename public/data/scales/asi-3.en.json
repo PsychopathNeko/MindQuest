@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "id": "asi-3",
+    "name": "ASI-3 Anxiety Sensitivity Index",
+    "fullName": "Anxiety Sensitivity Index-3",
+    "description": "The ASI-3 is an 18-item self-report scale measuring anxiety sensitivity, which is the fear of anxiety-related sensations based on beliefs that these sensations have harmful consequences. It assesses three dimensions: physical, cognitive, and social concerns.",
+    "author": "Taylor et al. (2007)",
+    "license": "Free to use",
+    "reference": "Taylor S, Zvolensky MJ, Cox BJ, Deacon B, Heimberg RG, Ledley DR, Abramowitz JS, Holaway RM, Sandin B, Stewart SH, Coles M, Eng W, Daly ES, Arrindell WA, Bouvard M, Cardenas SJ. Robust dimensions of anxiety sensitivity: development and initial validation of the Anxiety Sensitivity Index-3. Psychol Assess. 2007;19(2):176-188.",
+    "instruction": "Please indicate the degree to which you agree with each item by selecting the most appropriate option."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Very little"
+    },
+    {
+      "value": 1,
+      "label": "A little"
+    },
+    {
+      "value": 2,
+      "label": "Some"
+    },
+    {
+      "value": 3,
+      "label": "Much"
+    },
+    {
+      "value": 4,
+      "label": "Very much"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "It is important for me not to appear nervous",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "When I cannot keep my mind on a task, I worry that I might be going crazy",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "It scares me when my heart beats rapidly",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "When my stomach is upset, I worry that I might be seriously ill",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "It scares me when I am unable to keep my mind on a task",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "When I tremble in the presence of others, I fear what people might think of me",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "When my chest feels tight, I get scared that I will not be able to breathe properly",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "When I feel pain in my chest, I worry that I am going to have a heart attack",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I worry that other people will notice my anxiety",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "When I feel spacey or spaced out I worry that I may be mentally ill",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "It scares me when I blush in front of people",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "When I notice my heart skipping a beat, I worry that there is something seriously wrong with me",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "When I begin to sweat in a social situation, I fear people will think negatively of me",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "When my thoughts seem to speed up, I worry that I might be going crazy",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "When my throat feels tight, I worry that I could choke to death",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "When I have trouble thinking clearly, I worry that there is something wrong with me",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "I think it would be horrible for me to faint in public",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "When my mind goes blank, I worry there is something terribly wrong with me",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 72,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "physical",
+        "name": "Physical Concerns",
+        "items": [
+          2,
+          3,
+          6,
+          7,
+          11,
+          14
+        ],
+        "maxScore": 24
+      },
+      {
+        "id": "cognitive",
+        "name": "Cognitive Concerns",
+        "items": [
+          1,
+          4,
+          9,
+          13,
+          15,
+          17
+        ],
+        "maxScore": 24
+      },
+      {
+        "id": "social",
+        "name": "Social Concerns",
+        "items": [
+          0,
+          5,
+          8,
+          10,
+          12,
+          16
+        ],
+        "maxScore": 24
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 18,
+        "level": "low",
+        "label": "Low Anxiety Sensitivity",
+        "description": "Your overall anxiety sensitivity is low. You are generally not overly concerned about anxiety-related sensations.",
+        "suggestions": [
+          "Continue maintaining your balanced perspective on bodily sensations",
+          "Your low anxiety sensitivity is a protective factor"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 36,
+        "level": "moderate",
+        "label": "Moderate Anxiety Sensitivity",
+        "description": "You have a moderate level of anxiety sensitivity. Some anxiety-related sensations may cause you concern.",
+        "suggestions": [
+          "Learn about the nature of anxiety and its physical symptoms",
+          "Practice relaxation techniques to manage physical sensations",
+          "Challenge catastrophic interpretations of bodily sensations"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 54,
+        "level": "high",
+        "label": "High Anxiety Sensitivity",
+        "description": "Your anxiety sensitivity is high. You may frequently misinterpret normal bodily sensations as dangerous.",
+        "suggestions": [
+          "Consider consulting a mental health professional",
+          "Interoceptive exposure therapy can be very effective",
+          "Cognitive restructuring can help change fearful beliefs about sensations"
+        ]
+      },
+      {
+        "min": 55,
+        "max": 72,
+        "level": "very_high",
+        "label": "Very High Anxiety Sensitivity",
+        "description": "Your anxiety sensitivity is very high. This level is strongly associated with panic disorder and other anxiety conditions.",
+        "suggestions": [
+          "Strongly recommended to seek professional help",
+          "Evidence-based treatments are highly effective for anxiety sensitivity",
+          "Discuss cognitive behavioral therapy options with a professional"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "physical": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low",
+          "description": "Low concern about physical anxiety sensations."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate concern about physical anxiety sensations."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "High",
+          "description": "High concern about physical anxiety sensations."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high concern about physical anxiety sensations."
+        }
+      ],
+      "cognitive": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low",
+          "description": "Low concern about cognitive anxiety symptoms."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate concern about cognitive anxiety symptoms."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "High",
+          "description": "High concern about cognitive anxiety symptoms."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high concern about cognitive anxiety symptoms."
+        }
+      ],
+      "social": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low",
+          "description": "Low concern about social consequences of anxiety."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate concern about social consequences of anxiety."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "High",
+          "description": "High concern about social consequences of anxiety."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high concern about social consequences of anxiety."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "physical",
+        "cognitive",
+        "social"
+      ],
+      "maxDisplayScore": 24
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Physical Concerns",
+          "max": 24
+        },
+        {
+          "name": "Cognitive Concerns",
+          "max": 24
+        },
+        {
+          "name": "Social Concerns",
+          "max": 24
+        }
+      ]
+    }
+  }
+}

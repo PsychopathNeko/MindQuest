@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "id": "ptq",
+    "name": "PTQ Perseverative Thinking Questionnaire",
+    "fullName": "Perseverative Thinking Questionnaire",
+    "description": "The PTQ is a 15-item self-report scale that assesses an individual’s tendency toward repetitive negative thinking, including rumination and worry. It is a transdiagnostic measure not limited to any specific psychological disorder.",
+    "author": "Ehring, Zetsche, Weidacker, Wahl, Schönfeld & Ehlers (2011)",
+    "license": "Free for research use",
+    "reference": "Ehring T, Zetsche U, Weidacker K, Wahl K, Schönfeld S, Ehlers A. The Perseverative Thinking Questionnaire (PTQ): validation of a content-independent measure of repetitive negative thinking. J Behav Ther Exp Psychiatry. 2011;42(2):225-232.",
+    "instruction": "Think about how you typically think when you experience negative events or problems."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Never"
+    },
+    {
+      "value": 1,
+      "label": "Rarely"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes"
+    },
+    {
+      "value": 3,
+      "label": "Often"
+    },
+    {
+      "value": 4,
+      "label": "Almost Always"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "The same thoughts keep going through my mind again and again",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I think about my problems over and over without finding a solution",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Thoughts intrude into my mind related to unpleasant experiences",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I can’t stop dwelling on my experiences",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I repeatedly think about things that make me unhappy",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I keep asking myself questions without finding an answer",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "My mind is always occupied with my problems",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I keep thinking about my failures, shortcomings, and mistakes",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I keep thinking about negative things endlessly",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "My thoughts prevent me from focusing on other things",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "These thoughts interrupt what I am doing",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I can’t stop myself from thinking about them",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I keep thinking about what would have happened if I had done something differently",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Thinking about these problems or experiences causes me distress",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "These thoughts make me feel exhausted and worn out",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 60,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 15,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your level of perseverative negative thinking is low. You can recover well from negative events.",
+        "suggestions": [
+          "Continue maintaining healthy thinking habits",
+          "Keep up mindfulness practices to sustain psychological resilience"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 30,
+        "level": "mild",
+        "label": "Mild Rumination",
+        "description": "You have some degree of repetitive negative thinking and may occasionally get caught in cycles of overthinking.",
+        "suggestions": [
+          "Learn mindfulness meditation to reduce ruminative thinking",
+          "Try shifting your attention to positive activities",
+          "Practice acceptance and letting-go techniques",
+          "Maintain regular physical exercise"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 45,
+        "level": "moderate",
+        "label": "Moderate Rumination",
+        "description": "Your perseverative negative thinking level is elevated. This may affect your daily functioning and emotional well-being.",
+        "suggestions": [
+          "Consider learning cognitive-behavioral techniques to break the rumination cycle",
+          "Consider seeking professional counseling",
+          "Practice mindfulness and relaxation techniques",
+          "Share your concerns with someone you trust"
+        ]
+      },
+      {
+        "min": 46,
+        "max": 60,
+        "level": "severe",
+        "label": "Severe Rumination",
+        "description": "Your perseverative negative thinking level is very high. This may significantly affect your mental health and daily life.",
+        "suggestions": [
+          "Strongly recommended to seek professional psychological help",
+          "Cognitive-behavioral therapy is very effective in reducing ruminative thinking",
+          "Avoid spending time alone overthinking; engage more with others",
+          "Monitor for co-occurring depression or anxiety symptoms"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 60
+    }
+  }
+}

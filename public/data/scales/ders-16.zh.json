@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "id": "ders-16",
+    "name": "DERS-16 情绪调节困难量表简版",
+    "fullName": "Difficulties in Emotion Regulation Scale - 16 Item Version",
+    "description": "DERS-16 是情绪调节困难量表的16题简版，从五个维度评估情绪调节困难：情绪清晰度不足、目标导向行为困难、冲动控制困难、情绪不接纳和策略不足。它提供了一种全面而高效的情绪失调测量方式。",
+    "author": "Bjureberg et al. (2016)",
+    "license": "Free to use",
+    "reference": "Bjureberg J, Ljotsson B, Tull MT, et al. Development and validation of a brief version of the Difficulties in Emotion Regulation Scale: The DERS-16. J Psychopathol Behav Assess. 2016;38(2):284-296.",
+    "instruction": "请指出以下陈述适用于您的频率。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "几乎从不 (0-10%)" },
+    { "value": 2, "label": "有时 (11-35%)" },
+    { "value": 3, "label": "大约一半时间 (36-65%)" },
+    { "value": 4, "label": "大多数时间 (66-90%)" },
+    { "value": 5, "label": "几乎总是 (91-100%)" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我很难理解自己的感受", "type": "likert" },
+    { "index": 1, "text": "当我心烦时，我很难控制自己的行为", "type": "likert" },
+    { "index": 2, "text": "当我心烦时，我很难完成工作", "type": "likert" },
+    { "index": 3, "text": "当我心烦时，我会因为自己有这种感觉而对自己感到恼火", "type": "likert" },
+    { "index": 4, "text": "当我心烦时，我开始对自己感觉很糟糕", "type": "likert" },
+    { "index": 5, "text": "当我心烦时，我很难想到其他事情", "type": "likert" },
+    { "index": 6, "text": "我很难理解自己的情绪", "type": "likert" },
+    { "index": 7, "text": "当我心烦时，我很难把注意力集中在其他事情上", "type": "likert" },
+    { "index": 8, "text": "当我心烦时，我感觉失控", "type": "likert" },
+    { "index": 9, "text": "当我心烦时，我为自己有这种感觉而感到羞愧", "type": "likert" },
+    { "index": 10, "text": "当我心烦时，我觉得沉浸其中是我唯一能做的事", "type": "likert" },
+    { "index": 11, "text": "当我心烦时，我需要很长时间才能好起来", "type": "likert" },
+    { "index": 12, "text": "当我心烦时，我变得无法控制自己", "type": "likert" },
+    { "index": 13, "text": "当我心烦时，我为自己有这种感觉而感到内疚", "type": "likert" },
+    { "index": 14, "text": "当我心烦时，我很难集中注意力", "type": "likert" },
+    { "index": 15, "text": "当我心烦时，我完全不知道自己最终会有什么感觉", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 80,
+    "maxItemScore": 5,
+    "reverseItems": [],
+    "subscales": [
+      { "id": "clarity", "name": "情绪清晰度不足", "items": [0, 6], "maxScore": 10 },
+      { "id": "goals", "name": "目标导向行为困难", "items": [2, 7, 11], "maxScore": 15 },
+      { "id": "impulse", "name": "冲动控制困难", "items": [1, 8, 12], "maxScore": 15 },
+      { "id": "nonacceptance", "name": "情绪不接纳", "items": [3, 9, 13], "maxScore": 15 },
+      { "id": "strategies", "name": "策略不足", "items": [4, 5, 10, 14, 15], "maxScore": 25 }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      { "min": 16, "max": 32, "level": "minimal", "label": "低度困难", "description": "您的情绪调节困难程度较低。您通常能有效地管理自己的情绪。", "suggestions": ["继续保持您的情绪调节能力", "您的情绪韧性是日常生活中的宝贵资源"] },
+      { "min": 33, "max": 48, "level": "mild", "label": "中度困难", "description": "您有中度的情绪调节困难。有时可能难以有效地管理强烈情绪。", "suggestions": ["练习正念以提高情绪觉察力", "了解认知重评策略", "规律运动有助于改善情绪调节", "考虑写日记以更好地了解您的情绪模式"] },
+      { "min": 49, "max": 64, "level": "moderate", "label": "高度困难", "description": "您有较高程度的情绪调节困难。强烈的情绪可能会显著干扰您的日常功能和幸福感。", "suggestions": ["建议寻求心理治疗师的专业支持", "辩证行为疗法（DBT）的技巧会非常有帮助", "在强烈情绪时练习痛苦耐受技巧", "建立一个可以在不堪重负时求助的支持网络"] },
+      { "min": 65, "max": 80, "level": "severe", "label": "极高困难", "description": "您有极高程度的情绪调节困难。这种程度的困难可能会严重影响您的人际关系、工作和整体生活质量。", "suggestions": ["强烈建议寻求专业心理治疗", "DBT或情绪聚焦疗法效果显著", "制定极端情绪困扰时期的安全计划", "持续的治疗性支持可以带来显著改善"] }
+    ],
+    "subscaleRanges": {
+      "clarity": [
+        { "min": 2, "max": 4, "level": "minimal", "label": "高清晰度", "description": "对自身情绪有良好的理解。" },
+        { "min": 5, "max": 7, "level": "normal", "label": "一般", "description": "有时难以理清自己的感受。" },
+        { "min": 8, "max": 10, "level": "severe", "label": "低清晰度", "description": "在理解自身情绪方面有显著困难。" }
+      ],
+      "goals": [
+        { "min": 3, "max": 6, "level": "minimal", "label": "低影响", "description": "情绪对目标导向行为影响较小。" },
+        { "min": 7, "max": 10, "level": "normal", "label": "中等影响", "description": "情绪有时会干扰完成任务。" },
+        { "min": 11, "max": 15, "level": "severe", "label": "高影响", "description": "情绪严重损害任务完成和专注力。" }
+      ],
+      "impulse": [
+        { "min": 3, "max": 6, "level": "minimal", "label": "良好控制", "description": "心烦时能保持行为控制。" },
+        { "min": 7, "max": 10, "level": "normal", "label": "一般控制", "description": "心烦时有时难以控制行为。" },
+        { "min": 11, "max": 15, "level": "severe", "label": "控制不佳", "description": "情绪激动时在控制行为方面有显著困难。" }
+      ],
+      "nonacceptance": [
+        { "min": 3, "max": 6, "level": "minimal", "label": "高度接纳", "description": "能够不带自我评判地接受情绪反应。" },
+        { "min": 7, "max": 10, "level": "normal", "label": "一般接纳", "description": "有时对情绪反应持自我批评态度。" },
+        { "min": 11, "max": 15, "level": "severe", "label": "低度接纳", "description": "对自身情绪有强烈的继发性负面反应。" }
+      ],
+      "strategies": [
+        { "min": 5, "max": 10, "level": "minimal", "label": "策略丰富", "description": "拥有多种有效的情绪调节策略。" },
+        { "min": 11, "max": 17, "level": "normal", "label": "一般策略", "description": "有一些策略可用，但有时可能感到束手无策。" },
+        { "min": 18, "max": 25, "level": "severe", "label": "策略有限", "description": "在情绪困扰时缺乏有效的应对策略。" }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["clarity", "goals", "impulse", "nonacceptance", "strategies"],
+      "maxDisplayScore": 25
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "情绪清晰度不足", "max": 10 },
+        { "name": "目标导向行为困难", "max": 15 },
+        { "name": "冲动控制困难", "max": 15 },
+        { "name": "情绪不接纳", "max": 15 },
+        { "name": "策略不足", "max": 25 }
+      ]
+    }
+  }
+}

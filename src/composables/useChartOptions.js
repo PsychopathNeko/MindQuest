@@ -1,10 +1,14 @@
 import { getSeverityColor } from '@/engine/reportEngine'
+import { useLocale } from './useLocale'
 
-/**
- * Composable for generating ECharts option objects.
- */
 export function useChartOptions() {
-  return { createGaugeOption, createBarOption, createRadarOption }
+  const { t } = useLocale()
+  return {
+    createGaugeOption,
+    createBarOption: (subscales, subscaleReports) => createBarOption(subscales, subscaleReports, t),
+    createRadarOption: (subscales, subscaleReports) => createRadarOption(subscales, subscaleReports, t),
+    createTimelineOption: (dataPoints, maxScore, minScore) => createTimelineOption(dataPoints, maxScore, minScore, t),
+  }
 }
 
 /**
@@ -12,7 +16,7 @@ export function useChartOptions() {
  *
  * @param {number} score     - Current score value
  * @param {number} maxScore  - Maximum possible score
- * @param {string} label     - Severity label text (e.g. "轻度抑郁")
+ * @param {string} label     - Severity label text
  * @param {string} color     - CSS color for the gauge
  * @param {number} [minScore=0] - Minimum score (for scales like Rosenberg starting > 0)
  * @returns {Object} ECharts option
@@ -85,9 +89,10 @@ function createGaugeOption(score, maxScore, label, color, minScore = 0) {
  *
  * @param {Array<{id, name, score, maxScore}>} subscales - Subscale data
  * @param {Array<{id, name, score, displayScore, maxScore, level, label}>} subscaleReports
+ * @param {Function} t - Translation function
  * @returns {Object} ECharts option
  */
-function createBarOption(subscales, subscaleReports) {
+function createBarOption(subscales, subscaleReports, t) {
   const reportMap = {}
   if (subscaleReports) {
     subscaleReports.forEach((r) => {
@@ -105,7 +110,7 @@ function createBarOption(subscales, subscaleReports) {
 
   const colors = subscales.map((s) => {
     const report = reportMap[s.id]
-    return report ? getSeverityColor(report.level) : '#3b82f6'
+    return report ? getSeverityColor(report.level) : '#7da2f7'
   })
 
   // Determine max axis value
@@ -128,7 +133,7 @@ function createBarOption(subscales, subscaleReports) {
         const realIdx = subscales.length - 1 - idx
         const report = reportMap[subscales[realIdx].id]
         const labelStr = report ? report.label : ''
-        return `${p.name}<br/>\u5F97\u5206: ${p.value}${labelStr ? ' (' + labelStr + ')' : ''}`
+        return `${p.name}<br/>${t('chart.scoreColon', { value: p.value })}${labelStr ? ' (' + labelStr + ')' : ''}`
       },
     },
     grid: {
@@ -193,9 +198,10 @@ function createBarOption(subscales, subscaleReports) {
  *
  * @param {Array<{id, name, score, maxScore}>} subscales - Subscale data
  * @param {Array<{id, name, score, displayScore, maxScore, level, label}>} subscaleReports
+ * @param {Function} t - Translation function
  * @returns {Object} ECharts option
  */
-function createRadarOption(subscales, subscaleReports) {
+function createRadarOption(subscales, subscaleReports, t) {
   const reportMap = {}
   if (subscaleReports) {
     subscaleReports.forEach((r) => {
@@ -248,16 +254,16 @@ function createRadarOption(subscales, subscaleReports) {
         data: [
           {
             value: values,
-            name: '\u5F97\u5206',
+            name: t('chart.score'),
             areaStyle: {
-              color: 'rgba(59, 130, 246, 0.2)',
+              color: 'rgba(125, 162, 247, 0.2)',
             },
             lineStyle: {
-              color: '#3b82f6',
+              color: '#7da2f7',
               width: 2,
             },
             itemStyle: {
-              color: '#3b82f6',
+              color: '#7da2f7',
               borderColor: '#fff',
               borderWidth: 2,
             },
@@ -268,5 +274,136 @@ function createRadarOption(subscales, subscaleReports) {
         animationDuration: 800,
       },
     ],
+  }
+}
+
+/**
+ * Create a timeline line chart for historical score trends.
+ *
+ * @param {Array<{ date: string, total: number, level: string, subscales?: Array<{ name: string, score: number }> }>} dataPoints
+ * @param {number} maxScore
+ * @param {number} minScore
+ * @param {Function} t - Translation function
+ * @returns {Object} ECharts option
+ */
+function createTimelineOption(dataPoints, maxScore, minScore, t) {
+  const dates = dataPoints.map((d) => d.date)
+  const totals = dataPoints.map((d) => d.total)
+
+  // Collect all subscale names from dataPoints
+  const subscaleNames = []
+  const subscaleMap = {}
+  dataPoints.forEach((d) => {
+    if (d.subscales) {
+      d.subscales.forEach((sub) => {
+        if (!subscaleMap[sub.name]) {
+          subscaleMap[sub.name] = []
+          subscaleNames.push(sub.name)
+        }
+      })
+    }
+  })
+  // Fill subscale data arrays
+  subscaleNames.forEach((name) => {
+    subscaleMap[name] = dataPoints.map((d) => {
+      const sub = d.subscales?.find((s) => s.name === name)
+      return sub ? sub.score : null
+    })
+  })
+
+  const subscaleColors = ['#e8a0bf', '#a5bfff', '#f5c6d8', '#8dd1c1', '#c4b5fd', '#fbbf24']
+
+  const series = [
+    {
+      name: t('timeline.total'),
+      type: 'line',
+      data: totals.map((val, i) => ({
+        value: val,
+        itemStyle: { color: getSeverityColor(dataPoints[i].level) },
+      })),
+      smooth: true,
+      lineStyle: { color: '#7da2f7', width: 3 },
+      itemStyle: { color: '#7da2f7', borderColor: '#fff', borderWidth: 2 },
+      symbol: 'circle',
+      symbolSize: 10,
+      areaStyle: {
+        color: {
+          type: 'linear',
+          x: 0, y: 0, x2: 0, y2: 1,
+          colorStops: [
+            { offset: 0, color: 'rgba(125, 162, 247, 0.2)' },
+            { offset: 1, color: 'rgba(125, 162, 247, 0.02)' },
+          ],
+        },
+      },
+      z: 10,
+    },
+  ]
+
+  subscaleNames.forEach((name, i) => {
+    series.push({
+      name: name,
+      type: 'line',
+      data: subscaleMap[name],
+      smooth: true,
+      lineStyle: { color: subscaleColors[i % subscaleColors.length], width: 2, type: 'dashed' },
+      itemStyle: { color: subscaleColors[i % subscaleColors.length], borderColor: '#fff', borderWidth: 1 },
+      symbol: 'circle',
+      symbolSize: 6,
+    })
+  })
+
+  return {
+    tooltip: {
+      trigger: 'axis',
+      backgroundColor: 'rgba(255,255,255,0.96)',
+      borderColor: '#e8e2ed',
+      borderWidth: 1,
+      textStyle: { color: '#2d2640', fontSize: 13 },
+      formatter: (params) => {
+        let html = `<div style="font-weight:600;margin-bottom:4px">${params[0].axisValue}</div>`
+        params.forEach((p) => {
+          if (p.value != null) {
+            html += `<div style="display:flex;align-items:center;gap:6px;margin:2px 0">`
+            html += `<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${p.color}"></span>`
+            html += `<span>${p.seriesName}: <b>${p.value}</b></span></div>`
+          }
+        })
+        return html
+      },
+    },
+    legend: {
+      show: subscaleNames.length > 0,
+      bottom: 0,
+      textStyle: { color: '#6b6183', fontSize: 12 },
+      itemWidth: 16,
+      itemHeight: 8,
+    },
+    grid: {
+      left: 12,
+      right: 20,
+      top: 16,
+      bottom: subscaleNames.length > 0 ? 40 : 12,
+      containLabel: true,
+    },
+    xAxis: {
+      type: 'category',
+      data: dates,
+      axisLine: { lineStyle: { color: '#e8e2ed' } },
+      axisTick: { show: false },
+      axisLabel: { color: '#6b6183', fontSize: 12 },
+    },
+    yAxis: {
+      type: 'value',
+      min: minScore,
+      max: maxScore,
+      axisLine: { show: false },
+      axisTick: { show: false },
+      axisLabel: { color: '#6b6183', fontSize: 12 },
+      splitLine: { lineStyle: { color: '#f1f0f4', type: 'dashed' } },
+    },
+    series: series,
+    animationDuration: 800,
+    animationEasing: 'cubicOut',
   }
 }

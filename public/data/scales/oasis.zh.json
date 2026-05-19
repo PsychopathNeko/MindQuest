@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "id": "oasis",
+    "name": "OASIS 整体焦虑严重程度和损害量表",
+    "fullName": "Overall Anxiety Severity and Impairment Scale",
+    "description": "OASIS 是一份5题简短量表，评估整体焦虑的频率、强度和功能损害，适用于所有焦虑障碍类型。",
+    "author": "Norman et al. (2006)",
+    "license": "Public Domain",
+    "reference": "Norman SB, et al. Development and validation of an Overall Anxiety Severity and Impairment Scale (OASIS). Depression and Anxiety. 2006;23(4):245-249.",
+    "instruction": "请回答过去一周内你的焦虑情况。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "没有/从不" },
+    { "value": 1, "label": "很少/轻微" },
+    { "value": 2, "label": "有时/中等" },
+    { "value": 3, "label": "经常/严重" },
+    { "value": 4, "label": "持续/极其严重" }
+  ],
+  "questions": [
+    { "index": 0, "text": "在过去一周中，你有多频繁地感到焦虑", "type": "likert" },
+    { "index": 1, "text": "当你感到焦虑时，焦虑的程度有多强烈", "type": "likert" },
+    { "index": 2, "text": "你有多频繁因为焦虑而回避某些情境、场所或活动", "type": "likert" },
+    { "index": 3, "text": "焦虑在多大程度上干扰了你完成工作、学业或家务的能力", "type": "likert" },
+    { "index": 4, "text": "焦虑在多大程度上干扰了你的社交生活和人际关系", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 20,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的焦虑水平处于正常范围内，未发现明显的焦虑困扰。",
+        "suggestions": [
+          "继续保持当前的心理健康状态",
+          "坚持规律的运动和放松习惯",
+          "保持良好的社交支持网络"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "轻度焦虑",
+        "description": "您的得分提示轻度焦虑，可能偶尔会感到紧张或担忧，但对日常功能影响较小。",
+        "suggestions": [
+          "学习并练习深呼吸和渐进性肌肉放松",
+          "保持规律的体育锻炼",
+          "注意识别和应对焦虑触发因素",
+          "如焦虑持续加重，考虑咨询专业人士"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "中度焦虑",
+        "description": "您的得分提示中度焦虑，焦虑可能已经对您的工作、社交或日常活动产生了明显的干扰。",
+        "suggestions": [
+          "建议寻求心理咨询师或精神科医生的帮助",
+          "系统地学习焦虑管理技巧，如认知行为策略",
+          "避免过度使用咖啡因和酒精",
+          "建立规律的作息和放松时间"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 20,
+        "level": "severe",
+        "label": "重度焦虑",
+        "description": "您的得分提示严重焦虑，焦虑可能已经严重影响了您的工作能力、社交功能和生活质量。",
+        "suggestions": [
+          "建议尽快就医，寻求专业的心理治疗或药物治疗",
+          "告知家人或朋友您的状况以获得支持",
+          "避免回避行为，尝试在安全环境中逐步面对焦虑情境",
+          "如有紧急情况，请拨打心理危机热线"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 20 }
+  }
+}

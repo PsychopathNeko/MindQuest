@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "id": "gds-15",
+    "name": "GDS-15 老年抑郁量表",
+    "fullName": "Geriatric Depression Scale-15",
+    "description": "GDS-15 是一份专为老年人设计的15题抑郁筛查量表，采用简单的是/否回答方式，便于老年受访者填写。该量表侧重于非躯体性抑郁症状，减少了与躯体疾病的混淆。",
+    "author": "Yesavage et al. (1982)",
+    "license": "Public Domain",
+    "reference": "Yesavage JA, Brink TL, Rose TL, et al. Development and validation of a geriatric depression screening scale: a preliminary report. J Psychiatr Res. 1982-83;17(1):37-49.",
+    "instruction": "请根据您过去一周的感受，选择最佳答案。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "是" },
+    { "value": 0, "label": "否" }
+  ],
+  "questions": [
+    { "index": 0, "text": "您对自己的生活基本上感到满意吗？", "type": "yesno" },
+    { "index": 1, "text": "您是否放弃了许多以前的活动和兴趣？", "type": "yesno" },
+    { "index": 2, "text": "您是否觉得生活空虚？", "type": "yesno" },
+    { "index": 3, "text": "您是否经常感到厌烦？", "type": "yesno" },
+    { "index": 4, "text": "您是否大部分时间都精神愉快？", "type": "yesno" },
+    { "index": 5, "text": "您是否害怕有什么不好的事情会发生在自己身上？", "type": "yesno" },
+    { "index": 6, "text": "您是否大部分时间都感到快乐？", "type": "yesno" },
+    { "index": 7, "text": "您是否经常感到无助？", "type": "yesno" },
+    { "index": 8, "text": "比起外出做新的事情，您是否更喜欢待在家里？", "type": "yesno" },
+    { "index": 9, "text": "您是否觉得自己比大多数人有更多的记忆问题？", "type": "yesno" },
+    { "index": 10, "text": "您是否觉得现在活着是一件很好的事？", "type": "yesno" },
+    { "index": 11, "text": "您是否觉得自己现在活着很没有价值？", "type": "yesno" },
+    { "index": 12, "text": "您是否觉得自己精力充沛？", "type": "yesno" },
+    { "index": 13, "text": "您是否觉得自己的处境没有希望？", "type": "yesno" },
+    { "index": 14, "text": "您是否觉得大多数人的境况都比自己好？", "type": "yesno" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 15,
+    "maxItemScore": 1,
+    "reverseItems": [0, 4, 6, 10, 12],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "normal",
+        "label": "正常",
+        "description": "您的得分处于正常范围，未发现明显的抑郁症状。",
+        "suggestions": [
+          "继续参与社交和体育活动",
+          "保持规律的作息和兴趣爱好",
+          "与家人和朋友保持联系"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 8,
+        "level": "mild",
+        "label": "轻度抑郁",
+        "description": "您的得分提示轻度抑郁症状，可能影响您的生活质量。",
+        "suggestions": [
+          "与您的医生谈谈最近的感受",
+          "保持身体活动，即使是短距离散步也有帮助",
+          "保持社交联系，参与让您感到愉快的活动",
+          "考虑参加老年社区团体或活动"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 11,
+        "level": "moderate",
+        "label": "中度抑郁",
+        "description": "您的得分提示中度抑郁症状，建议进行专业评估。",
+        "suggestions": [
+          "建议咨询医疗保健人员进行全面评估",
+          "心理治疗和/或药物治疗在任何年龄都有效",
+          "尽量保持日常规律和规律的睡眠",
+          "接受家人和朋友的支持"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 15,
+        "level": "severe",
+        "label": "重度抑郁",
+        "description": "您的得分提示严重的抑郁症状，请尽快寻求专业帮助。",
+        "suggestions": [
+          "请尽快向医疗保健人员寻求帮助",
+          "老年抑郁是完全可以治疗的，不要犹豫寻求帮助",
+          "如有自伤想法，请立即拨打心理危机热线：400-161-9995",
+          "告知家人或信任的人您的感受"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 15 }
+  }
+}

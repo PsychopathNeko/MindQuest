@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "id": "sds",
+    "name": "SDS Zung Self-Rating Depression Scale",
+    "fullName": "Zung Self-Rating Depression Scale",
+    "description": "The SDS is a 20-item self-report scale developed by William W.K. Zung to assess the severity of depression. It covers affective, psychological, and somatic symptoms of depression and is widely used in clinical and research settings.",
+    "author": "Zung (1965)",
+    "license": "Public Domain",
+    "reference": "Zung WWK. A self-rating depression scale. Arch Gen Psychiatry. 1965;12:63-70.",
+    "instruction": "Please read each statement and decide how much of the time the statement describes how you have been feeling during the past several days."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "A little of the time" },
+    { "value": 2, "label": "Some of the time" },
+    { "value": 3, "label": "Good part of the time" },
+    { "value": 4, "label": "Most or all of the time" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I feel down-hearted and blue", "type": "likert" },
+    { "index": 1, "text": "Morning is when I feel the best", "type": "likert" },
+    { "index": 2, "text": "I have crying spells or feel like it", "type": "likert" },
+    { "index": 3, "text": "I have trouble sleeping at night", "type": "likert" },
+    { "index": 4, "text": "I eat as much as I used to", "type": "likert" },
+    { "index": 5, "text": "I still enjoy sex", "type": "likert" },
+    { "index": 6, "text": "I notice that I am losing weight", "type": "likert" },
+    { "index": 7, "text": "I have trouble with constipation", "type": "likert" },
+    { "index": 8, "text": "My heart beats faster than usual", "type": "likert" },
+    { "index": 9, "text": "I get tired for no reason", "type": "likert" },
+    { "index": 10, "text": "My mind is as clear as it used to be", "type": "likert" },
+    { "index": 11, "text": "I find it easy to do the things I used to", "type": "likert" },
+    { "index": 12, "text": "I am restless and can't keep still", "type": "likert" },
+    { "index": 13, "text": "I feel hopeful about the future", "type": "likert" },
+    { "index": 14, "text": "I am more irritable than usual", "type": "likert" },
+    { "index": 15, "text": "I find it easy to make decisions", "type": "likert" },
+    { "index": 16, "text": "I feel that I am useful and needed", "type": "likert" },
+    { "index": 17, "text": "My life is pretty full", "type": "likert" },
+    { "index": 18, "text": "I feel that others would be better off if I were dead", "type": "likert" },
+    { "index": 19, "text": "I still enjoy the things I used to do", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 80,
+    "maxItemScore": 4,
+    "reverseItems": [1, 4, 5, 10, 11, 13, 15, 16, 17, 19],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 44,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your score is within the normal range. No clinically significant depressive symptoms detected.",
+        "suggestions": [
+          "Continue maintaining a healthy lifestyle",
+          "Keep up regular exercise and social activities",
+          "Practice good sleep hygiene"
+        ]
+      },
+      {
+        "min": 45,
+        "max": 59,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "Your score suggests mild depressive symptoms that may be affecting your daily life.",
+        "suggestions": [
+          "Pay attention to changes in your mood and energy levels",
+          "Maintain regular exercise and social engagement",
+          "Try relaxation techniques such as deep breathing or meditation",
+          "Consider consulting a healthcare professional if symptoms persist"
+        ]
+      },
+      {
+        "min": 60,
+        "max": 69,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "Your score indicates moderate depressive symptoms. These may significantly affect your daily functioning.",
+        "suggestions": [
+          "Consult a mental health professional for evaluation",
+          "Consider psychotherapy (e.g., cognitive behavioral therapy)",
+          "Maintain a structured daily routine",
+          "Avoid alcohol and other substances that may worsen depression"
+        ]
+      },
+      {
+        "min": 70,
+        "max": 80,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "Your score suggests severe depressive symptoms. Immediate professional help is strongly recommended.",
+        "suggestions": [
+          "Seek immediate consultation with a psychiatrist",
+          "If you have thoughts of self-harm, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "Do not stay alone; inform family or friends of your situation",
+          "Professional treatment including medication and therapy is essential"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 20, "max": 80 }
+  }
+}

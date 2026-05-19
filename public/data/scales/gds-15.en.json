@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "id": "gds-15",
+    "name": "GDS-15 Geriatric Depression Scale",
+    "fullName": "Geriatric Depression Scale-15",
+    "description": "The GDS-15 is a 15-item self-report scale specifically designed for screening depression in older adults. It uses a simple yes/no format that is easier for elderly respondents to complete, and focuses on non-somatic symptoms of depression to reduce confounding with physical illness.",
+    "author": "Yesavage et al. (1982)",
+    "license": "Public Domain",
+    "reference": "Yesavage JA, Brink TL, Rose TL, et al. Development and validation of a geriatric depression screening scale: a preliminary report. J Psychiatr Res. 1982-83;17(1):37-49.",
+    "instruction": "Choose the best answer for how you have felt over the past week."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Yes" },
+    { "value": 0, "label": "No" }
+  ],
+  "questions": [
+    { "index": 0, "text": "Are you basically satisfied with your life?", "type": "yesno" },
+    { "index": 1, "text": "Have you dropped many of your activities and interests?", "type": "yesno" },
+    { "index": 2, "text": "Do you feel that your life is empty?", "type": "yesno" },
+    { "index": 3, "text": "Do you often get bored?", "type": "yesno" },
+    { "index": 4, "text": "Are you in good spirits most of the time?", "type": "yesno" },
+    { "index": 5, "text": "Are you afraid that something bad is going to happen to you?", "type": "yesno" },
+    { "index": 6, "text": "Do you feel happy most of the time?", "type": "yesno" },
+    { "index": 7, "text": "Do you often feel helpless?", "type": "yesno" },
+    { "index": 8, "text": "Do you prefer to stay at home, rather than going out and doing new things?", "type": "yesno" },
+    { "index": 9, "text": "Do you feel you have more problems with memory than most?", "type": "yesno" },
+    { "index": 10, "text": "Do you think it is wonderful to be alive now?", "type": "yesno" },
+    { "index": 11, "text": "Do you feel pretty worthless the way you are now?", "type": "yesno" },
+    { "index": 12, "text": "Do you feel full of energy?", "type": "yesno" },
+    { "index": 13, "text": "Do you feel that your situation is hopeless?", "type": "yesno" },
+    { "index": 14, "text": "Do you think that most people are better off than you are?", "type": "yesno" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 15,
+    "maxItemScore": 1,
+    "reverseItems": [0, 4, 6, 10, 12],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your score is within the normal range. No significant depressive symptoms detected.",
+        "suggestions": [
+          "Continue engaging in social and physical activities",
+          "Maintain regular routines and hobbies",
+          "Stay connected with family and friends"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 8,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "Your score suggests mild depressive symptoms. These may be affecting your quality of life.",
+        "suggestions": [
+          "Talk to your doctor about how you have been feeling",
+          "Stay physically active; even short walks can help",
+          "Maintain social connections and engage in enjoyable activities",
+          "Consider joining a senior community group or activity"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 11,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "Your score indicates moderate depressive symptoms. Professional evaluation is recommended.",
+        "suggestions": [
+          "Consult your healthcare provider for a comprehensive evaluation",
+          "Psychotherapy and/or medication can be effective at any age",
+          "Try to maintain daily routines and regular sleep patterns",
+          "Accept support from family and friends"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 15,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "Your score suggests severe depressive symptoms. Please seek professional help promptly.",
+        "suggestions": [
+          "Seek medical attention from your healthcare provider as soon as possible",
+          "Depression in older adults is very treatable; do not hesitate to seek help",
+          "If you have thoughts of self-harm, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "Inform a family member or trusted person about your feelings"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 15 }
+  }
+}

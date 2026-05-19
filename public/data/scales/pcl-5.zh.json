@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "id": "pcl-5",
+    "name": "PCL-5 创伤后应激障碍检查表",
+    "fullName": "PTSD Checklist for DSM-5",
+    "description": "PCL-5 是一份包含 20 个条目的自评量表，用于评估 DSM-5 定义的创伤后应激障碍（PTSD）症状的严重程度，包括侵入、回避、认知和情绪的负性改变以及唤醒和反应性的改变四个症状群。",
+    "author": "Weathers et al. (2013)",
+    "license": "Public Domain",
+    "reference": "Weathers FW, Litz BT, Keane TM, Palmieri PA, Marx BP, Schnurr PP. The PTSD Checklist for DSM-5 (PCL-5). National Center for PTSD; 2013.",
+    "instruction": "以下是人们在经历压力性经历后有时会出现的问题。请阅读每个问题，然后根据过去一个月内该问题困扰您的程度作答。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "有一点"
+    },
+    {
+      "value": 2,
+      "label": "中等程度"
+    },
+    {
+      "value": 3,
+      "label": "相当多"
+    },
+    {
+      "value": 4,
+      "label": "非常严重"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "反复出现关于压力性经历的令人不安的记忆、想法或画面",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "反复做关于压力性经历的令人不安的梦",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "突然感觉或表现得好像压力性经历正在再次发生（好像您又回到了那个场景中）",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "当某些事物提醒您压力性经历时，感到非常不安",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "当某些事物提醒您压力性经历时，出现强烈的身体反应（如心跳加速、呼吸困难、出汗）",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "回避关于压力性经历的记忆、想法或感受",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "回避那些提醒您压力性经历的外部事物（如人、地点、对话、活动、物品或情境）",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "难以记住压力性经历的重要部分",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "对自己、他人或世界持有强烈的负面信念（如我很坏没有人可以信任世界是完全危险的）",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "为压力性经历或之后发生的事情而责备自己或他人",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "持续存在强烈的负面情绪（如恐惧、恐怖、愤怒、内疚或羞耻）",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "对您曾经喜欢的活动失去兴趣",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "感觉与他人疏远或隔绝",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "难以体验积极情绪（如无法感到快乐，或对亲人没有爱的感觉）",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "易怒的行为、愤怒的爆发或对人或物的攻击行为",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "过度冒险或做可能伤害自己的事情",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "过度警觉",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "容易受惊",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "难以集中注意力",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "入睡或保持睡眠困难",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 80,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "intrusion",
+        "name": "侵入",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "maxScore": 20
+      },
+      {
+        "id": "avoidance",
+        "name": "回避",
+        "items": [
+          5,
+          6
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "cognition_mood",
+        "name": "认知和情绪负性改变",
+        "items": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "arousal",
+        "name": "唤醒和反应性改变",
+        "items": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "maxScore": 24
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 19,
+        "level": "minimal",
+        "label": "低于PTSD诊断阈值",
+        "description": "您的PTSD症状得分较低，未达到临床诊断阈值。",
+        "suggestions": [
+          "如果您仍然感到困扰，可以寻求专业帮助",
+          "继续保持健康的应对方式",
+          "关注自己的情绪变化"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 32,
+        "level": "mild",
+        "label": "轻度PTSD症状",
+        "description": "您存在一些PTSD症状，接近或达到临床意义水平。",
+        "suggestions": [
+          "建议咨询心理健康专业人士进行评估",
+          "练习放松和接地技术",
+          "保持社会支持网络"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 52,
+        "level": "moderate",
+        "label": "中度PTSD症状",
+        "description": "您的PTSD症状达到中度水平，可能明显影响日常功能。PCL-5的建议临床诊断切分点为33分。",
+        "suggestions": [
+          "强烈建议寻求创伤专业治疗师的帮助",
+          "考虑循证创伤治疗（如CPT、PE或EMDR）",
+          "保持规律的日常作息",
+          "避免使用酒精或药物来应对症状"
+        ]
+      },
+      {
+        "min": 53,
+        "max": 80,
+        "level": "severe",
+        "label": "重度PTSD症状",
+        "description": "您的PTSD症状严重，可能显著影响日常功能和生活质量。",
+        "suggestions": [
+          "请立即寻求专业创伤治疗",
+          "如处于危机中，请拨打心理援助热线：400-161-9995",
+          "制定安全计划以应对强烈痛苦",
+          "严格遵循专业治疗建议"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "intrusion": [
+        {
+          "min": 0,
+          "max": 5,
+          "level": "minimal",
+          "label": "低",
+          "description": "侵入症状较低。"
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "mild",
+          "label": "轻度",
+          "description": "存在一些侵入症状。"
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "moderate",
+          "label": "中度",
+          "description": "侵入症状明显。"
+        },
+        {
+          "min": 16,
+          "max": 20,
+          "level": "severe",
+          "label": "严重",
+          "description": "侵入症状严重。"
+        }
+      ],
+      "avoidance": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "低",
+          "description": "回避症状较低。"
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "轻度",
+          "description": "存在一些回避症状。"
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "中度",
+          "description": "回避症状明显。"
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "严重",
+          "description": "回避症状严重。"
+        }
+      ],
+      "cognition_mood": [
+        {
+          "min": 0,
+          "max": 7,
+          "level": "minimal",
+          "label": "低",
+          "description": "认知和情绪负性改变较低。"
+        },
+        {
+          "min": 8,
+          "max": 14,
+          "level": "mild",
+          "label": "轻度",
+          "description": "存在一些认知和情绪负性改变。"
+        },
+        {
+          "min": 15,
+          "max": 21,
+          "level": "moderate",
+          "label": "中度",
+          "description": "认知和情绪负性改变明显。"
+        },
+        {
+          "min": 22,
+          "max": 28,
+          "level": "severe",
+          "label": "严重",
+          "description": "认知和情绪负性改变严重。"
+        }
+      ],
+      "arousal": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "minimal",
+          "label": "低",
+          "description": "唤醒症状较低。"
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "mild",
+          "label": "轻度",
+          "description": "存在一些唤醒症状。"
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "moderate",
+          "label": "中度",
+          "description": "唤醒症状明显。"
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "severe",
+          "label": "严重",
+          "description": "唤醒症状严重。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar",
+      "radar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 80
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "intrusion",
+        "avoidance",
+        "cognition_mood",
+        "arousal"
+      ],
+      "maxDisplayScore": 28
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "侵入",
+          "max": 20
+        },
+        {
+          "name": "回避",
+          "max": 8
+        },
+        {
+          "name": "认知和情绪负性改变",
+          "max": 28
+        },
+        {
+          "name": "唤醒和反应性改变",
+          "max": 24
+        }
+      ]
+    }
+  }
+}

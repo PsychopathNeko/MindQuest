@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "id": "gq-6",
+    "name": "GQ-6 Gratitude Questionnaire",
+    "fullName": "Gratitude Questionnaire-6",
+    "description": "The GQ-6 is a 6-item self-report measure of the grateful disposition.",
+    "author": "McCullough, Emmons & Tsang (2002)",
+    "license": "Free for research use",
+    "reference": "McCullough ME, Emmons RA, Tsang JA. The grateful disposition: a conceptual and empirical topography. J Pers Soc Psychol. 2002;82(1):112-127.",
+    "instruction": "Using the scale below, indicate how much you agree with each statement."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Strongly disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Slightly disagree"
+    },
+    {
+      "value": 4,
+      "label": "Neutral"
+    },
+    {
+      "value": 5,
+      "label": "Slightly agree"
+    },
+    {
+      "value": 6,
+      "label": "Agree"
+    },
+    {
+      "value": 7,
+      "label": "Strongly agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I have so much in life to be thankful for",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "If I had to list everything that I felt grateful for, it would be a very long list",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "When I look at the world, I do not see much to be grateful for",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am grateful to a wide variety of people",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "As I get older I find myself more able to appreciate the people, events, and situations that have been part of my life history",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Long amounts of time can go by before I feel grateful to something or someone",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 42,
+    "maxItemScore": 7,
+    "reverseItems": [
+      2,
+      5
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 18,
+        "level": "severe",
+        "label": "Low Gratitude",
+        "description": "Your gratitude disposition is low.",
+        "suggestions": [
+          "Record 3 things you are grateful for each day",
+          "Write a gratitude letter to someone who helped you"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 30,
+        "level": "moderate",
+        "label": "Moderate Gratitude",
+        "description": "Your gratitude disposition is moderate.",
+        "suggestions": [
+          "Continue cultivating gratitude habits",
+          "Express appreciation to others more often"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 42,
+        "level": "minimal",
+        "label": "High Gratitude",
+        "description": "Your gratitude disposition is high.",
+        "suggestions": [
+          "Continue maintaining your grateful mindset",
+          "Share your gratitude with others"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 42
+    }
+  }
+}

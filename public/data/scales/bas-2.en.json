@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "id": "bas-2",
+    "name": "BAS-2 Body Appreciation Scale",
+    "fullName": "Body Appreciation Scale-2",
+    "description": "The BAS-2 is a 10-item scale assessing positive body image, measuring acceptance, respect, and protection of one's body. Unlike measures focused solely on dissatisfaction, it captures positive body image across diverse genders and cultural backgrounds.",
+    "author": "Tylka & Wood-Barcalow (2015)",
+    "license": "Free to use",
+    "reference": "Tylka TL, Wood-Barcalow NL. The Body Appreciation Scale-2: item refinement and psychometric evaluation. Body Image. 2015;12:53-67.",
+    "instruction": "Please indicate how often the following statements are true for you."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Never" },
+    { "value": 2, "label": "Seldom" },
+    { "value": 3, "label": "Sometimes" },
+    { "value": 4, "label": "Often" },
+    { "value": 5, "label": "Always" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I respect my body", "type": "likert" },
+    { "index": 1, "text": "I feel good about my body", "type": "likert" },
+    { "index": 2, "text": "On the whole, I am satisfied with my body", "type": "likert" },
+    { "index": 3, "text": "Despite its imperfections, I still like my body", "type": "likert" },
+    { "index": 4, "text": "I feel that my body has at least some good qualities", "type": "likert" },
+    { "index": 5, "text": "I take a positive attitude towards my body", "type": "likert" },
+    { "index": 6, "text": "I appreciate the different and unique characteristics of my body", "type": "likert" },
+    { "index": 7, "text": "I feel comfortable in my body", "type": "likert" },
+    { "index": 8, "text": "I am attentive to my body's needs", "type": "likert" },
+    { "index": 9, "text": "I feel like I am beautiful even if I am different from media images of attractive people", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 50,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20,
+        "level": "severe",
+        "label": "Low Body Appreciation",
+        "description": "Your body appreciation and acceptance is low. You may have a negative body image.",
+        "suggestions": [
+          "Focus on your body's functionality rather than appearance",
+          "Practice self-compassion and body gratitude",
+          "Reduce exposure to appearance-related social media content",
+          "If body image concerns significantly affect your life, consider seeking professional help"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "moderate",
+        "label": "Below Average Body Appreciation",
+        "description": "Your body appreciation is below average. You may be dissatisfied with some aspects of your body.",
+        "suggestions": [
+          "Try writing down one positive thing about your body each day",
+          "Choose activities and clothing that make your body feel comfortable",
+          "Reduce comparisons with others' appearances",
+          "Cultivate gratitude for your body's functions"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "mild",
+        "label": "Moderate Body Appreciation",
+        "description": "You have a moderate level of body appreciation and acceptance, with a generally positive attitude.",
+        "suggestions": [
+          "Continue cultivating a positive attitude toward your body",
+          "Maintain regular physical activity and enjoy the pleasure of movement",
+          "Practice intuitive eating and listen to your body's needs"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 50,
+        "level": "minimal",
+        "label": "High Body Appreciation",
+        "description": "You have a high level of body appreciation and acceptance, with a positive body image.",
+        "suggestions": [
+          "Continue maintaining your positive attitude toward your body",
+          "Your body appreciation can serve as a positive example for others",
+          "Continue caring for and respecting your body's needs"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 10, "max": 50 }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "id": "epds",
+    "name": "Edinburgh Postnatal Depression Scale",
+    "fullName": "Edinburgh Postnatal Depression Scale",
+    "description": "The EPDS is a 10-item self-report scale designed to screen for postnatal depression. It focuses on the cognitive and affective features of depression rather than somatic symptoms, making it particularly suitable for the postpartum period. It can also be used during pregnancy and in non-postnatal populations.",
+    "author": "Cox, Holden & Sagovsky (1987)",
+    "license": "Free to use",
+    "reference": "Cox JL, Holden JM, Sagovsky R. Detection of postnatal depression: Development of the 10-item Edinburgh Postnatal Depression Scale. Br J Psychiatry. 1987;150:782-786.",
+    "instruction": "As you are pregnant or have recently had a baby, we would like to know how you are feeling. Please select the answer that comes closest to how you have felt in the past 7 days, not just how you feel today."
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "I have been able to laugh and see the funny side of things",
+      "type": "likert",
+      "choices": [
+        { "value": 0, "label": "As much as I always could" },
+        { "value": 1, "label": "Not quite so much now" },
+        { "value": 2, "label": "Definitely not so much now" },
+        { "value": 3, "label": "Not at all" }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "I have looked forward with enjoyment to things",
+      "type": "likert",
+      "choices": [
+        { "value": 0, "label": "As much as I ever did" },
+        { "value": 1, "label": "Rather less than I used to" },
+        { "value": 2, "label": "Definitely less than I used to" },
+        { "value": 3, "label": "Hardly at all" }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "I have blamed myself unnecessarily when things went wrong",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "Yes, most of the time" },
+        { "value": 2, "label": "Yes, some of the time" },
+        { "value": 1, "label": "Not very often" },
+        { "value": 0, "label": "No, never" }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "I have been anxious or worried for no good reason",
+      "type": "likert",
+      "choices": [
+        { "value": 0, "label": "No, not at all" },
+        { "value": 1, "label": "Hardly ever" },
+        { "value": 2, "label": "Yes, sometimes" },
+        { "value": 3, "label": "Yes, very often" }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "I have felt scared or panicky for no very good reason",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "Yes, quite a lot" },
+        { "value": 2, "label": "Yes, sometimes" },
+        { "value": 1, "label": "No, not much" },
+        { "value": 0, "label": "No, not at all" }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "Things have been getting on top of me",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "Yes, most of the time I haven't been able to cope at all" },
+        { "value": 2, "label": "Yes, sometimes I haven't been coping as well as usual" },
+        { "value": 1, "label": "No, most of the time I have coped quite well" },
+        { "value": 0, "label": "No, I have been coping as well as ever" }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "I have been so unhappy that I have had difficulty sleeping",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "Yes, most of the time" },
+        { "value": 2, "label": "Yes, sometimes" },
+        { "value": 1, "label": "Not very often" },
+        { "value": 0, "label": "No, not at all" }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "I have felt sad or miserable",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "Yes, most of the time" },
+        { "value": 2, "label": "Yes, quite often" },
+        { "value": 1, "label": "Not very often" },
+        { "value": 0, "label": "No, not at all" }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "I have been so unhappy that I have been crying",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "Yes, most of the time" },
+        { "value": 2, "label": "Yes, quite often" },
+        { "value": 1, "label": "Only occasionally" },
+        { "value": 0, "label": "No, never" }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "The thought of harming myself has occurred to me",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "Yes, quite often" },
+        { "value": 2, "label": "Sometimes" },
+        { "value": 1, "label": "Hardly ever" },
+        { "value": 0, "label": "Never" }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 30,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 8,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your score is within the normal range. No significant depressive symptoms detected.",
+        "suggestions": [
+          "Continue taking care of yourself and your baby",
+          "Maintain social connections and support networks",
+          "Rest when possible and accept help from others"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 11,
+        "level": "mild",
+        "label": "Possible Depression",
+        "description": "Your score suggests possible depression. Monitoring and further evaluation may be beneficial.",
+        "suggestions": [
+          "Talk to your healthcare provider about how you are feeling",
+          "Reach out to family or friends for support",
+          "Ensure you are getting adequate rest",
+          "Consider repeating this screening in 2-4 weeks"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 13,
+        "level": "moderate",
+        "label": "Fairly High Possibility of Depression",
+        "description": "Your score indicates a fairly high possibility of depression. Professional evaluation is recommended.",
+        "suggestions": [
+          "Consult your healthcare provider or a mental health professional",
+          "Postnatal depression is treatable and common; seeking help is a sign of strength",
+          "Maintain daily routines as much as possible",
+          "Accept help with baby care to ensure you have time for self-care"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 30,
+        "level": "severe",
+        "label": "Probable Depression",
+        "description": "Your score suggests probable depression. Please seek professional help promptly.",
+        "suggestions": [
+          "Seek professional help from your healthcare provider as soon as possible",
+          "If you have thoughts of harming yourself or your baby, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "Do not feel ashamed; postnatal depression is a medical condition, not a personal failing",
+          "Effective treatments including therapy and medication are available"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 30 }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "id": "bsmas",
+    "name": "BSMAS 卑尔根社交媒体成瘾量表",
+    "fullName": "Bergen Social Media Addiction Scale",
+    "description": "BSMAS 是一份 6 题简短量表，基于成瘾的核心成分（显著性、情绪调节、耐受性、戒断、冲突、复发）评估社交媒体使用问题。",
+    "author": "Andreassen et al. (2016)",
+    "license": "Free to use",
+    "reference": "Andreassen CS, et al. Development of a Facebook Addiction Scale. Psychological Reports. 2012;110(2):501-517.",
+    "instruction": "请根据过去一年内你使用社交媒体（如微信、抖音、微博、小红书等）的情况来回答。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "非常少" },
+    { "value": 2, "label": "偶尔" },
+    { "value": 3, "label": "有时" },
+    { "value": 4, "label": "经常" },
+    { "value": 5, "label": "非常频繁" }
+  ],
+  "questions": [
+    { "index": 0, "text": "花大量时间思考社交媒体或计划如何使用社交媒体", "type": "likert" },
+    { "index": 1, "text": "感到越来越强烈地想要更多使用社交媒体的冲动", "type": "likert" },
+    { "index": 2, "text": "使用社交媒体来忘记个人烦恼", "type": "likert" },
+    { "index": 3, "text": "试图减少社交媒体的使用但未能成功", "type": "likert" },
+    { "index": 4, "text": "如果被禁止使用社交媒体会感到不安或烦躁", "type": "likert" },
+    { "index": 5, "text": "大量使用社交媒体以至于对学业/工作产生了负面影响", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 30,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 12,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的社交媒体使用处于健康范围。",
+        "suggestions": [
+          "继续保持适度的社交媒体使用习惯",
+          "注意屏幕时间管理"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 18,
+        "level": "mild",
+        "label": "轻度风险",
+        "description": "您可能存在一些不健康的社交媒体使用模式。",
+        "suggestions": [
+          "设定每日社交媒体使用时间限制",
+          "关闭不必要的推送通知",
+          "培养线下社交和兴趣爱好"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "moderate",
+        "label": "中度风险",
+        "description": "社交媒体使用可能已经对您的日常生活和人际关系产生影响。",
+        "suggestions": [
+          "建议进行\"数字断联\"尝试",
+          "使用屏幕时间管理工具",
+          "反思社交媒体对你情绪的影响",
+          "如感到困扰，建议咨询专业人士"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "level": "severe",
+        "label": "高度风险",
+        "description": "您的社交媒体使用模式已达到问题性水平，可能严重影响日常功能。",
+        "suggestions": [
+          "强烈建议咨询心理健康专业人士",
+          "制定详细的使用限制计划",
+          "寻找替代性的放松方式",
+          "考虑暂时卸载最常用的社交媒体应用"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 6, "max": 30 }
+  }
+}

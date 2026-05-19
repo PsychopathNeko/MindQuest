@@ -1,12 +1,14 @@
 /**
  * Scoring Engine — pure functions for scoring psychological assessments.
  *
- * Supports five scoring methods:
- *   "sum"                 — simple sum of answer values
- *   "sum_with_reverse"    — sum with reverse-scored items
- *   "subscale"            — multiple subscales, each a sum of specific items
+ * Supports eight scoring methods:
+ *   "sum"                   — simple sum of answer values (supports scoredItems filter)
+ *   "sum_with_reverse"      — sum with reverse-scored items (supports scoredItems filter)
+ *   "subscale"              — multiple subscales, each a sum of specific items
  *   "subscale_with_reverse" — subscales + reverse-scored items
- *   "mean_subscale"       — mean of items per subscale (used by TIPI Big Five)
+ *   "mean_subscale"         — mean of items per subscale (used by TIPI Big Five)
+ *   "special_aq10"          — AQ-10 agree/disagree binary scoring
+ *   "domain_max"            — sum of per-domain max scores (used by QIDS-SR16)
  */
 
 /**
@@ -50,16 +52,22 @@ function buildItemDetails(answers, reverseItems = [], maxItemScore = 0) {
 /*  Scoring method implementations                                    */
 /* ------------------------------------------------------------------ */
 
-function scoreSum(answers) {
+function scoreSum(answers, scoring = {}) {
   const { items } = buildItemDetails(answers)
-  const total = items.reduce((sum, item) => sum + item.scored, 0)
+  const scoredSet = scoring.scoredItems ? new Set(scoring.scoredItems) : null
+  const total = items
+    .filter(item => !scoredSet || scoredSet.has(item.index))
+    .reduce((sum, item) => sum + item.scored, 0)
   return { total, subscales: null, items }
 }
 
 function scoreSumWithReverse(answers, scoring) {
   const { reverseItems = [], maxItemScore = 0 } = scoring
   const { items } = buildItemDetails(answers, reverseItems, maxItemScore)
-  const total = items.reduce((sum, item) => sum + item.scored, 0)
+  const scoredSet = scoring.scoredItems ? new Set(scoring.scoredItems) : null
+  const total = items
+    .filter(item => !scoredSet || scoredSet.has(item.index))
+    .reduce((sum, item) => sum + item.scored, 0)
   return { total, subscales: null, items }
 }
 
@@ -135,6 +143,38 @@ function scoreMeanSubscale(answers, scoring) {
   return { total, subscales, items: allItems }
 }
 
+function scoreAQ10(answers, scoring) {
+  const { items } = buildItemDetails(answers)
+  const agreeSet = new Set(scoring.agreeItems || [])
+  const disagreeSet = new Set(scoring.disagreeItems || [])
+
+  let total = 0
+  for (const item of items) {
+    if (agreeSet.has(item.index)) {
+      // Score 1 if "Definitely agree" (0) or "Slightly agree" (1)
+      if (item.raw <= 1) total += 1
+    } else if (disagreeSet.has(item.index)) {
+      // Score 1 if "Slightly disagree" (2) or "Definitely disagree" (3)
+      if (item.raw >= 2) total += 1
+    }
+  }
+
+  return { total, subscales: null, items }
+}
+
+function scoreDomainMax(answers, scoring) {
+  const { items } = buildItemDetails(answers)
+  const scoredMap = Object.fromEntries(items.map(i => [i.index, i.scored]))
+
+  let total = 0
+  for (const group of scoring.domainGroups) {
+    const domainMax = Math.max(...group.map(idx => scoredMap[idx] ?? 0))
+    total += domainMax
+  }
+
+  return { total, subscales: null, items }
+}
+
 /* ------------------------------------------------------------------ */
 /*  Public API                                                        */
 /* ------------------------------------------------------------------ */
@@ -149,7 +189,7 @@ function scoreMeanSubscale(answers, scoring) {
 export function calculateScores(answers, scoring) {
   switch (scoring.method) {
     case 'sum':
-      return scoreSum(answers)
+      return scoreSum(answers, scoring)
     case 'sum_with_reverse':
       return scoreSumWithReverse(answers, scoring)
     case 'subscale':
@@ -158,8 +198,12 @@ export function calculateScores(answers, scoring) {
       return scoreSubscaleWithReverse(answers, scoring)
     case 'mean_subscale':
       return scoreMeanSubscale(answers, scoring)
+    case 'special_aq10':
+      return scoreAQ10(answers, scoring)
+    case 'domain_max':
+      return scoreDomainMax(answers, scoring)
     default:
       console.warn(`Unknown scoring method: "${scoring.method}", falling back to sum`)
-      return scoreSum(answers)
+      return scoreSum(answers, scoring)
   }
 }

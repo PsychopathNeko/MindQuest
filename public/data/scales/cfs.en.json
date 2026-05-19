@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "id": "cfs",
+    "name": "CFS Chalder Fatigue Scale",
+    "fullName": "Chalder Fatigue Scale",
+    "description": "The Chalder Fatigue Scale is an 11-item questionnaire measuring the severity of physical and mental fatigue. It is widely used in clinical and research settings to assess fatigue in various populations.",
+    "author": "Chalder, Berelowitz, Pawlikowska, Watts, Wessely, Wright & Wallace (1993)",
+    "license": "Free to use",
+    "reference": "Chalder T, Berelowitz G, Pawlikowska T, Watts L, Wessely S, Wright D, Wallace EP. Development of a fatigue scale. J Psychosom Res. 1993;37(2):147-153.",
+    "instruction": "We would like to know more about any problems you have had with feeling tired, weak, or lacking in energy in the last month. Please answer ALL the questions by selecting the answer which applies to you most closely."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Better than usual" },
+    { "value": 1, "label": "No worse than usual" },
+    { "value": 2, "label": "Worse than usual" },
+    { "value": 3, "label": "Much worse than usual" }
+  ],
+  "questions": [
+    { "index": 0, "text": "Do you have problems with tiredness?", "type": "likert" },
+    { "index": 1, "text": "Do you need to rest more?", "type": "likert" },
+    { "index": 2, "text": "Do you feel sleepy or drowsy?", "type": "likert" },
+    { "index": 3, "text": "Do you have problems starting things?", "type": "likert" },
+    { "index": 4, "text": "Do you lack energy?", "type": "likert" },
+    { "index": 5, "text": "Do you have less strength in your muscles?", "type": "likert" },
+    { "index": 6, "text": "Do you feel weak?", "type": "likert" },
+    { "index": 7, "text": "Do you have difficulty concentrating?", "type": "likert" },
+    { "index": 8, "text": "Do you have problems thinking clearly?", "type": "likert" },
+    { "index": 9, "text": "Do you make slips of the tongue when speaking?", "type": "likert" },
+    { "index": 10, "text": "How is your memory?", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 33,
+    "maxItemScore": 3,
+    "subscales": [
+      {
+        "id": "physical",
+        "name": "Physical Fatigue",
+        "items": [0, 1, 2, 3, 4, 5, 6],
+        "maxScore": 21
+      },
+      {
+        "id": "mental",
+        "name": "Mental Fatigue",
+        "items": [7, 8, 9, 10],
+        "maxScore": 12
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 10,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your fatigue levels are within the normal range. No significant fatigue concerns detected.",
+        "suggestions": [
+          "Continue maintaining good sleep hygiene and regular physical activity",
+          "Keep a balanced diet and stay hydrated",
+          "Monitor your energy levels if you notice changes"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 16,
+        "level": "mild",
+        "label": "Mild Fatigue",
+        "description": "You are experiencing mild fatigue that may slightly impact your daily functioning.",
+        "suggestions": [
+          "Ensure you are getting adequate sleep (7-9 hours per night)",
+          "Review your daily schedule for opportunities to rest",
+          "Consider light exercise to boost energy levels",
+          "If fatigue persists, consult a healthcare provider"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 24,
+        "level": "moderate",
+        "label": "Moderate Fatigue",
+        "description": "You are experiencing moderate fatigue that may be affecting your work, social activities, and overall quality of life.",
+        "suggestions": [
+          "Consult a healthcare provider to rule out medical causes",
+          "Prioritize rest and energy management throughout the day",
+          "Consider pacing strategies to manage your activities",
+          "Review medications and lifestyle factors that may contribute to fatigue"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 33,
+        "level": "severe",
+        "label": "Severe Fatigue",
+        "description": "You are experiencing severe fatigue that likely significantly impacts your daily functioning and quality of life.",
+        "suggestions": [
+          "Seek medical evaluation promptly to identify underlying causes",
+          "Discuss treatment options with your healthcare provider",
+          "Practice strict energy conservation and pacing",
+          "Consider psychological support if fatigue is linked to mood or stress"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "physical": [
+        {
+          "min": 0,
+          "max": 5,
+          "level": "minimal",
+          "label": "Normal Physical Fatigue",
+          "description": "Your physical fatigue is within the normal range."
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "mild",
+          "label": "Mild Physical Fatigue",
+          "description": "You are experiencing mild physical fatigue. Ensure adequate rest and physical activity."
+        },
+        {
+          "min": 11,
+          "max": 16,
+          "level": "moderate",
+          "label": "Moderate Physical Fatigue",
+          "description": "You are experiencing notable physical fatigue. Consider consulting a healthcare provider."
+        },
+        {
+          "min": 17,
+          "max": 21,
+          "level": "severe",
+          "label": "Severe Physical Fatigue",
+          "description": "You are experiencing severe physical fatigue. Medical evaluation is recommended."
+        }
+      ],
+      "mental": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "minimal",
+          "label": "Normal Mental Fatigue",
+          "description": "Your mental fatigue is within the normal range."
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "level": "mild",
+          "label": "Mild Mental Fatigue",
+          "description": "You are experiencing mild mental fatigue. Ensure adequate rest and cognitive breaks."
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "moderate",
+          "label": "Moderate Mental Fatigue",
+          "description": "You are experiencing notable mental fatigue that may affect concentration and memory."
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "severe",
+          "label": "Severe Mental Fatigue",
+          "description": "You are experiencing severe mental fatigue. Consider seeking professional evaluation."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["physical", "mental"],
+      "maxDisplayScore": 21
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "Physical Fatigue", "max": 21 },
+        { "name": "Mental Fatigue", "max": 12 }
+      ]
+    }
+  }
+}

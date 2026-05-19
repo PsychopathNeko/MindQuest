@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "id": "qids-sr16",
+    "name": "QIDS-SR16 Quick Inventory of Depressive Symptomatology",
+    "fullName": "Quick Inventory of Depressive Symptomatology - Self-Report 16-Item",
+    "description": "The QIDS-SR16 is a 16-item self-report scale that provides a detailed assessment of the nine DSM-defined symptom domains of depression: sad mood, concentration, self-criticism, suicidal ideation, interest, energy, sleep, appetite, and psychomotor changes.",
+    "author": "Rush AJ, et al. (2003)",
+    "license": "Public Domain",
+    "reference": "Rush AJ, et al. The 16-Item Quick Inventory of Depressive Symptomatology (QIDS), clinician rating (QIDS-C), and self-report (QIDS-SR): a psychometric evaluation in patients with chronic major depression. Biol Psychiatry. 2003;54(5):573-583.",
+    "instruction": "Please select the response for each item that best describes you for the past seven days."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "None/Not applicable"
+    },
+    {
+      "value": 1,
+      "label": "Mild"
+    },
+    {
+      "value": 2,
+      "label": "Moderate"
+    },
+    {
+      "value": 3,
+      "label": "Severe"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Falling asleep: How long does it take you to fall asleep?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Sleep during the night: Do you wake up during the night (not counting trips to the bathroom)?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Waking up too early: Do you wake up before your planned wake-up time?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Sleeping too much: How much do you sleep each day (including naps)?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Feeling sad: How often and how intensely do you feel sad?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Decreased appetite: Has your appetite decreased?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Increased appetite: Has your appetite increased?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Weight decrease: Have you lost weight recently (not from dieting)?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Weight increase: Have you gained weight recently?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Concentration/Decision making: How is your ability to concentrate or make decisions?",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Self-view: How do you view yourself?",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Thoughts of death or suicide: Do you have thoughts of death or suicide?",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "General interest: What is your level of interest in activities or people?",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Energy level: What is your energy level?",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Psychomotor slowing: Do you feel slowed down in movements or speech?",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Psychomotor agitation: Do you feel restless or need to move around?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "domain_max",
+    "maxTotal": 27,
+    "maxItemScore": 3,
+    "domainGroups": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ],
+      [
+        11
+      ],
+      [
+        12
+      ],
+      [
+        13
+      ],
+      [
+        14,
+        15
+      ]
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "none",
+        "label": "No Depression",
+        "description": "Your depressive symptom score is within the normal range.",
+        "suggestions": [
+          "Maintain healthy lifestyle habits",
+          "Continue engaging in social relationships and activities"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "You have mild depressive symptoms.",
+        "suggestions": [
+          "Increase physical activity and outdoor time",
+          "Maintain a regular sleep schedule",
+          "Stay connected with friends and family"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 15,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "You have moderate depressive symptoms. Further evaluation is recommended.",
+        "suggestions": [
+          "Consult a mental health professional",
+          "Consider psychotherapy such as Cognitive Behavioral Therapy",
+          "Focus on self-care and ensuring basic needs are met"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 20,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "You have severe depressive symptoms requiring professional intervention.",
+        "suggestions": [
+          "Seek psychiatric evaluation as soon as possible",
+          "Medication combined with psychotherapy may be needed",
+          "Ensure you have a safety support network"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 27,
+        "level": "very_severe",
+        "label": "Very Severe Depression",
+        "description": "Your depressive symptoms are very severe. Seek help immediately.",
+        "suggestions": [
+          "Contact a psychiatrist or emergency services immediately",
+          "If having suicidal thoughts, call a crisis hotline",
+          "Do not be alone; inform family or friends of your condition"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 27
+    }
+  }
+}

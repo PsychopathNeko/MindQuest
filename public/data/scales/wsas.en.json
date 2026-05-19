@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "id": "wsas",
+    "name": "WSAS Work and Social Adjustment Scale",
+    "fullName": "Work and Social Adjustment Scale",
+    "description": "The WSAS is a 5-item brief scale measuring the impact of mental health problems on functioning across five domains: work, home management, social leisure, private leisure, and relationships.",
+    "author": "Mundt et al. (2002)",
+    "license": "Free to use",
+    "reference": "Mundt JC, et al. The Work and Social Adjustment Scale: a simple measure of impairment in functioning. British Journal of Psychiatry. 2002;180:461-464.",
+    "instruction": "Please rate how much your current mental health problems impair each area. 0 means not at all, 8 means very severely."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "0 - Not at all" },
+    { "value": 1, "label": "1" },
+    { "value": 2, "label": "2 - Slightly" },
+    { "value": 3, "label": "3" },
+    { "value": 4, "label": "4 - Moderately" },
+    { "value": 5, "label": "5" },
+    { "value": 6, "label": "6 - Markedly" },
+    { "value": 7, "label": "7" },
+    { "value": 8, "label": "8 - Very severely" }
+  ],
+  "questions": [
+    { "index": 0, "text": "My problems impair my ability to work or study", "type": "likert" },
+    { "index": 1, "text": "My problems impair my home management (cleaning, shopping, cooking, looking after home/family)", "type": "likert" },
+    { "index": 2, "text": "My problems impair my social leisure activities (going out, visiting friends, etc.)", "type": "likert" },
+    { "index": 3, "text": "My problems impair my private leisure activities (reading, walking, exercising, etc.)", "type": "likert" },
+    { "index": 4, "text": "My problems impair my ability to form and maintain close relationships with others", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 40,
+    "maxItemScore": 8,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your mental health problems have minimal impact on your daily functioning.",
+        "suggestions": [
+          "Continue maintaining your good functional status",
+          "Stay aware of early signs of psychological distress"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 19,
+        "level": "mild",
+        "label": "Mild Functional Impairment",
+        "description": "Your mental health problems have some impact on daily functioning, but it remains manageable.",
+        "suggestions": [
+          "Pay attention to the areas most affected",
+          "Try proactive coping and adjustment strategies",
+          "If symptoms persist, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 29,
+        "level": "moderate",
+        "label": "Moderate Functional Impairment",
+        "description": "Your mental health problems are noticeably affecting your daily functioning. Seeking help is recommended.",
+        "suggestions": [
+          "Consider consulting a mental health professional",
+          "Prioritize the most severely affected areas",
+          "Build a social support network"
+        ]
+      },
+      {
+        "min": 30,
+        "max": 40,
+        "level": "severe",
+        "label": "Severe Functional Impairment",
+        "description": "Your mental health problems are severely affecting your daily functioning. Professional help is strongly recommended.",
+        "suggestions": [
+          "Strongly recommended to seek professional help immediately",
+          "A comprehensive treatment plan may be needed",
+          "Ensure you have a safe and supportive environment"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 40 }
+  }
+}

@@ -28,6 +28,11 @@ const router = createRouter({
       name: 'history',
       component: () => import('@/views/HistoryView.vue'),
     },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      redirect: '/',
+    },
   ],
   scrollBehavior() {
     return { top: 0 }

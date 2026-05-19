@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "id": "bfne-s",
+    "name": "BFNE-S 简版负面评价恐惧量表",
+    "fullName": "Brief Fear of Negative Evaluation Scale - Straightforward Items",
+    "description": "BFNE-S 是一份包含 8 个条目的自评量表，测量对负面评价的恐惧，这是社交焦虑的核心特征。它仅使用原始 12 条目 BFNE 中的正向计分条目，具有更优的心理测量学特性。",
+    "author": "Rodebaugh et al. (2004)",
+    "license": "Free to use",
+    "reference": "Rodebaugh TL, Woods CM, Thissen DM, Heimberg RG, Chambless DL, Rapee RM. More information from fewer questions: the factor structure and item properties of the original and Brief Fear of Negative Evaluation Scale. Psychol Assess. 2004;16(2):169-181.",
+    "instruction": "请仔细阅读以下每个描述，并选择最符合您特征的选项。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全不符合"
+    },
+    {
+      "value": 1,
+      "label": "有点符合"
+    },
+    {
+      "value": 2,
+      "label": "中等符合"
+    },
+    {
+      "value": 3,
+      "label": "很符合"
+    },
+    {
+      "value": 4,
+      "label": "完全符合"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "即使我知道这无关紧要，我仍然担心别人会怎么看我",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我经常害怕别人会注意到我的缺点",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我害怕别人不认可我",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我害怕别人会挑我的毛病",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "当我和别人交谈时，我担心他们可能在想什么关于我的事",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我通常会担心自己给别人留下什么样的印象",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "有时我觉得自己太在意别人对我的看法了",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我经常担心自己会说错话或做错事",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 32,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 8,
+        "level": "low",
+        "label": "低负面评价恐惧",
+        "description": "您对负面评价的恐惧程度较低，通常不会过分在意他人的评判。",
+        "suggestions": [
+          "继续保持您对社交评价的健康态度",
+          "您在社交场合中的自信是一种优势"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 16,
+        "level": "moderate",
+        "label": "中等负面评价恐惧",
+        "description": "您对被他人负面评价有一定程度的担忧。",
+        "suggestions": [
+          "当担心他人意见时练习自我关怀",
+          "挑战关于社交评价的消极想法",
+          "考虑您的担忧是否与实际情况相称"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 24,
+        "level": "high",
+        "label": "高负面评价恐惧",
+        "description": "您对负面评价的恐惧程度较高，可能影响社交功能。",
+        "suggestions": [
+          "建议咨询心理健康专业人员",
+          "认知行为疗法（CBT）对社交焦虑非常有效",
+          "练习逐步暴露于令人恐惧的社交情境"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 32,
+        "level": "very_high",
+        "label": "非常高的负面评价恐惧",
+        "description": "您对负面评价的恐惧程度非常高，可能已经严重影响日常生活和社交互动。",
+        "suggestions": [
+          "强烈建议寻求专业帮助",
+          "社交焦虑可以通过循证疗法有效治疗",
+          "与专业人士讨论治疗和药物方案"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 32
+    }
+  }
+}

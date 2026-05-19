@@ -1,15 +1,24 @@
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, watch } from 'vue'
 import { useScaleLoader } from '@/composables/useScaleLoader'
 import { useTagFilter } from '@/composables/useTagFilter'
+import { useLocale } from '@/composables/useLocale'
+import { useQueue } from '@/composables/useQueue'
 import TagFilter from '@/components/common/TagFilter.vue'
 import ScaleCard from '@/components/common/ScaleCard.vue'
 
 const { scales, tags, loading, error, loadIndex } = useScaleLoader()
 const { selectedTags, filteredScales, toggleTag, clearTags } = useTagFilter(scales)
+const { t, locale } = useLocale()
+const { updateQueueNames } = useQueue()
 
 onMounted(() => {
   loadIndex()
+})
+
+watch(locale, async () => {
+  await loadIndex()
+  updateQueueNames(scales.value)
 })
 </script>
 
@@ -18,9 +27,9 @@ onMounted(() => {
     <!-- Hero Section -->
     <section class="hero">
       <div class="container">
-        <h1 class="hero-title">心灵探索</h1>
+        <h1 class="hero-title">{{ t('home.title') }}</h1>
         <p class="hero-subtitle">
-          探索内心世界，了解真实的自己
+          {{ t('home.subtitle') }}
         </p>
       </div>
     </section>
@@ -30,13 +39,13 @@ onMounted(() => {
       <!-- Loading State -->
       <div v-if="loading" class="loading-state">
         <div class="spinner"></div>
-        <p>加载中...</p>
+        <p>{{ t('home.loading') }}</p>
       </div>
 
       <!-- Error State -->
       <div v-else-if="error" class="error-state">
-        <p>加载失败: {{ error }}</p>
-        <button class="btn btn-primary" @click="loadIndex()">重试</button>
+        <p>{{ t('home.loadError') }}: {{ error }}</p>
+        <button class="btn btn-primary" @click="loadIndex()">{{ t('home.retry') }}</button>
       </div>
 
       <!-- Content -->
@@ -52,7 +61,7 @@ onMounted(() => {
 
         <!-- Count -->
         <p class="scale-count">
-          共 {{ filteredScales.length }} 个量表
+          {{ t('home.scaleCount', { count: filteredScales.length }) }}
         </p>
 
         <!-- Scale Grid -->
@@ -66,8 +75,8 @@ onMounted(() => {
 
         <!-- Empty State -->
         <div v-if="filteredScales.length === 0 && scales.length > 0" class="empty-state">
-          <p>没有匹配的量表</p>
-          <button class="btn btn-outline" @click="clearTags">清除筛选</button>
+          <p>{{ t('home.noMatch') }}</p>
+          <button class="btn btn-outline" @click="clearTags">{{ t('home.clearFilter') }}</button>
         </div>
       </template>
     </section>
@@ -75,113 +84,24 @@ onMounted(() => {
 </template>
 
 <style scoped>
-.hero {
-  text-align: center;
-  padding: var(--spacing-12) 0 var(--spacing-8);
-}
-
-.hero-title {
-  font-size: var(--font-size-4xl);
-  font-weight: 800;
-  color: var(--color-text-primary);
-  letter-spacing: -0.03em;
-  margin-bottom: var(--spacing-3);
-}
-
-.hero-subtitle {
-  font-size: var(--font-size-lg);
-  color: var(--color-text-secondary);
-  max-width: 480px;
-  margin: 0 auto;
-  line-height: 1.6;
-}
-
+.hero { text-align: center; padding: var(--spacing-12) 0 var(--spacing-8); background: linear-gradient(180deg, rgba(125,162,247,0.06) 0%, rgba(232,160,191,0.04) 100%); }
+.hero-title { font-size: var(--font-size-4xl); font-weight: 700; color: var(--color-text-primary); letter-spacing: -0.03em; margin-bottom: var(--spacing-3); }
+.hero-subtitle { font-size: var(--font-size-lg); color: var(--color-text-secondary); max-width: 480px; margin: 0 auto; line-height: 1.6; font-weight: 400; letter-spacing: 0.02em; }
 @media (max-width: 640px) {
-  .hero {
-    padding: var(--spacing-8) 0 var(--spacing-6);
-  }
-
-  .hero-title {
-    font-size: var(--font-size-3xl);
-  }
-
-  .hero-subtitle {
-    font-size: var(--font-size-base);
-  }
+  .hero { padding: var(--spacing-8) 0 var(--spacing-6); }
+  .hero-title { font-size: var(--font-size-3xl); }
+  .hero-subtitle { font-size: var(--font-size-base); }
 }
-
-.main-content {
-  padding-bottom: var(--spacing-12);
-}
-
-.scale-count {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  margin: var(--spacing-4) 0;
-}
-
-.scale-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--spacing-4);
-}
-
-@media (min-width: 640px) {
-  .scale-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .scale-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Loading State */
-.loading-state {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--spacing-4);
-  padding: var(--spacing-12) 0;
-  color: var(--color-text-secondary);
-}
-
-.spinner {
-  width: 36px;
-  height: 36px;
-  border: 3px solid var(--color-border);
-  border-top-color: var(--color-primary);
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* Error State */
-.error-state {
-  text-align: center;
-  padding: var(--spacing-12) 0;
-  color: var(--color-danger);
-}
-
-.error-state .btn {
-  margin-top: var(--spacing-4);
-}
-
-/* Empty State */
-.empty-state {
-  text-align: center;
-  padding: var(--spacing-12) 0;
-  color: var(--color-text-secondary);
-}
-
-.empty-state .btn {
-  margin-top: var(--spacing-4);
-}
+.main-content { padding-bottom: var(--spacing-12); }
+.scale-count { font-size: var(--font-size-sm); color: var(--color-text-secondary); margin: var(--spacing-4) 0; }
+.scale-grid { display: grid; grid-template-columns: 1fr; gap: var(--spacing-4); }
+@media (min-width: 640px) { .scale-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .scale-grid { grid-template-columns: repeat(3, 1fr); } }
+.loading-state { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-4); padding: var(--spacing-12) 0; color: var(--color-text-secondary); }
+.spinner { width: 36px; height: 36px; border: 3px solid var(--color-border); border-top-color: var(--color-primary); border-radius: 50%; animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.error-state { text-align: center; padding: var(--spacing-12) 0; color: var(--color-danger); }
+.error-state .btn { margin-top: var(--spacing-4); }
+.empty-state { text-align: center; padding: var(--spacing-12) 0; color: var(--color-text-secondary); }
+.empty-state .btn { margin-top: var(--spacing-4); }
 </style>

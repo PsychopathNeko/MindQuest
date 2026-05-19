@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "id": "ncs-6",
+    "name": "NCS-6 认知需求量表简版",
+    "fullName": "Need for Cognition Scale - 6 Item Short Form",
+    "description": "NCS-6 是认知需求量表的简版，用于测量个体参与和享受深度思考的倾向。得分越高，表示个体越有内在动力去深入思考复杂问题。",
+    "author": "Cacioppo JT, Petty RE (1984)",
+    "license": "Free to use",
+    "reference": "Cacioppo JT, Petty RE, Kao CF. The efficient assessment of need for cognition. J Pers Assess. 1984;48(3):306-307.",
+    "instruction": "以下是一些关于思考习惯的描述，请根据每条描述与你自身的符合程度进行评分。请凭第一感觉作答，没有对错之分。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "非常不符合" },
+    { "value": 2, "label": "比较不符合" },
+    { "value": 3, "label": "不确定" },
+    { "value": 4, "label": "比较符合" },
+    { "value": 5, "label": "非常符合" }
+  ],
+  "questions": [
+    { "index": 0, "text": "比起简单的问题，我更喜欢复杂的问题", "type": "likert" },
+    { "index": 1, "text": "我喜欢承担需要大量思考的任务", "type": "likert" },
+    { "index": 2, "text": "思考对我来说不是一件有趣的事", "type": "likert" },
+    { "index": 3, "text": "比起那些肯定会挑战我思考能力的事，我更愿意做不太需要动脑的事", "type": "likert" },
+    { "index": 4, "text": "我非常享受需要想出新解决方案的任务", "type": "likert" },
+    { "index": 5, "text": "我希望我的生活中充满需要解决的谜题", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 30,
+    "maxItemScore": 5,
+    "reverseItems": [2, 3],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 12,
+        "level": "severe",
+        "label": "认知需求较低",
+        "description": "您倾向于选择认知负荷较低的任务，可能觉得复杂思考不太有吸引力。",
+        "suggestions": [
+          "尝试从小型、有趣的谜题或脑筋急转弯开始培养思考乐趣",
+          "将复杂任务分解为更小、更易管理的步骤",
+          "探索自己真正感兴趣的话题，让思考变得更有回报",
+          "认知参与能力是可以通过练习培养的"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 18,
+        "level": "mild",
+        "label": "中等认知需求",
+        "description": "您对认知参与的倾向处于平均水平，有时享受深度思考，但有时也偏好简单任务。",
+        "suggestions": [
+          "尝试用新的学习机会挑战自己",
+          "参与需要批判性思维的讨论",
+          "阅读多样化的材料以拓展智力好奇心"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "normal",
+        "label": "认知需求较高",
+        "description": "您通常享受深度思考，并从智力挑战中获得满足感。您倾向于主动寻找认知要求较高的活动。",
+        "suggestions": [
+          "继续追求智力刺激性活动",
+          "通过教学或指导与他人分享思考的乐趣",
+          "在认知参与和休息放松之间保持平衡"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "level": "minimal",
+        "label": "认知需求很高",
+        "description": "您非常享受深度思考，对复杂认知活动有很强的内在动力，从智力挑战中获得极大的满足感。",
+        "suggestions": [
+          "继续拥抱对学习和思考的热爱",
+          "寻找能够拓展能力边界的挑战性问题",
+          "对偏好较少认知负荷的人保持耐心和理解"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 6, "max": 30 }
+  }
+}

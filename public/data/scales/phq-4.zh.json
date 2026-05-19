@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "id": "phq-4",
+    "name": "PHQ-4 患者健康问卷",
+    "fullName": "Patient Health Questionnaire-4",
+    "description": "PHQ-4 是一份超简版的4题筛查工具，结合了 PHQ-2（抑郁）和 GAD-2（焦虑），能够快速评估抑郁和焦虑症状。适用于初级医疗和一般人群的初步筛查。",
+    "author": "Kroenke, Spitzer, Williams & Löwe (2009)",
+    "license": "Public Domain",
+    "reference": "Kroenke K, Spitzer RL, Williams JBW, Löwe B. An ultra-brief screening scale for anxiety and depression: the PHQ-4. Psychosomatics. 2009;50(6):613-621.",
+    "instruction": "回想一下过去两周的生活，以下这些感受出现的频率如何？请放心作答，没有对错之分。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "完全没有" },
+    { "value": 1, "label": "好几天" },
+    { "value": 2, "label": "一半以上天数" },
+    { "value": 3, "label": "几乎每天" }
+  ],
+  "questions": [
+    { "index": 0, "text": "做事时提不起劲或没有兴趣", "type": "likert" },
+    { "index": 1, "text": "感到心情低落、沮丧或绝望", "type": "likert" },
+    { "index": 2, "text": "感觉紧张、焦虑或烦躁", "type": "likert" },
+    { "index": 3, "text": "不能够停止或控制担忧", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 12,
+    "maxItemScore": 3,
+    "subscales": [
+      {
+        "id": "depression",
+        "name": "抑郁",
+        "items": [0, 1],
+        "maxScore": 6
+      },
+      {
+        "id": "anxiety",
+        "name": "焦虑",
+        "items": [2, 3],
+        "maxScore": 6
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "normal",
+        "label": "正常",
+        "description": "您的总分处于正常范围，未发现明显的心理困扰。",
+        "suggestions": [
+          "继续保持健康的生活方式",
+          "保持规律的运动和社交活动",
+          "练习放松技巧以维持身心健康"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "mild",
+        "label": "轻度困扰",
+        "description": "您可能正在经历轻度的心理困扰，请查看分量表得分以获取更具体的信息。",
+        "suggestions": [
+          "关注自己的情绪健康",
+          "练习压力管理技巧",
+          "保持规律的作息和运动习惯",
+          "如症状持续，建议咨询专业人士"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "level": "moderate",
+        "label": "中度困扰",
+        "description": "您的得分提示中度心理困扰，建议完成完整版 PHQ-9 和/或 GAD-7 以进行更详细的评估。",
+        "suggestions": [
+          "建议完成完整版 PHQ-9 和 GAD-7 评估",
+          "咨询医疗专业人员进行进一步评估",
+          "每天练习放松和压力管理",
+          "保持社交联系和支持网络"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 12,
+        "level": "severe",
+        "label": "重度困扰",
+        "description": "您的得分提示严重的心理困扰，强烈建议进行专业评估和寻求支持。",
+        "suggestions": [
+          "尽快咨询心理健康专业人士",
+          "完成完整版 PHQ-9 和 GAD-7 以获取详细评估",
+          "确保身边有可信赖的支持者",
+          "不要犹豫寻求帮助，治疗是有效的"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "depression": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "normal",
+          "label": "正常",
+          "description": "抑郁分量表得分处于正常范围。"
+        },
+        {
+          "min": 3,
+          "max": 6,
+          "level": "moderate",
+          "label": "可能存在抑郁",
+          "description": "得分提示可能存在抑郁，建议完成完整版 PHQ-9 进行详细评估。"
+        }
+      ],
+      "anxiety": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "normal",
+          "label": "正常",
+          "description": "焦虑分量表得分处于正常范围。"
+        },
+        {
+          "min": 3,
+          "max": 6,
+          "level": "moderate",
+          "label": "可能存在焦虑",
+          "description": "得分提示可能存在焦虑，建议完成完整版 GAD-7 进行详细评估。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["gauge", "bar"],
+    "gaugeConfig": { "min": 0, "max": 12 },
+    "barConfig": {
+      "subscaleIds": ["depression", "anxiety"],
+      "maxDisplayScore": 6
+    }
+  }
+}

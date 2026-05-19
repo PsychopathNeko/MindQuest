@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "id": "ies-r",
+    "name": "IES-R 事件影响量表修订版",
+    "fullName": "Impact of Event Scale - Revised",
+    "description": "IES-R 是一份包含 22 个条目的自评量表，用于评估创伤事件引起的主观痛苦，测量创伤后应激的三个维度：侵入、回避和高唤醒。",
+    "author": "Weiss & Marmar (1997)",
+    "license": "Free to use",
+    "reference": "Weiss DS, Marmar CR. The Impact of Event Scale-Revised. In: Wilson JP, Keane TM, eds. Assessing Psychological Trauma and PTSD. New York: Guilford Press; 1997:399-411.",
+    "instruction": "以下是人们在经历压力性生活事件后有时会遇到的困难。请阅读每个条目，然后针对您经历的事件，评估过去7天内每种困难对您造成的困扰程度。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "有一点"
+    },
+    {
+      "value": 2,
+      "label": "中等程度"
+    },
+    {
+      "value": 3,
+      "label": "相当多"
+    },
+    {
+      "value": 4,
+      "label": "非常严重"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "任何提醒都会唤起与之相关的感受",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我难以保持睡眠",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "其他事情总让我想起它",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我感到烦躁和愤怒",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "当我想到它或被提醒时，我避免让自己感到不安",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我不经意地就想到了它",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我觉得好像这件事没有发生过或不是真实的",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我远离与之相关的事物",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "关于它的画面会闪入我的脑海",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我容易受惊、过度警觉",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我尽量不去想它",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我知道自己对此仍有很多感受，但我没有去处理",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我对此的感受有些麻木",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我发现自己表现或感觉像是回到了那个时候",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我难以入睡",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我会有一阵阵强烈的关于它的感受",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "我试图把它从记忆中抹去",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "我难以集中注意力",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "与之相关的提醒会引起身体反应，如出汗、呼吸困难、恶心或心跳加速",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "我做了关于它的梦",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "我感到警觉和戒备",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "我尽量不谈论它",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 88,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "intrusion",
+        "name": "侵入",
+        "items": [
+          0,
+          1,
+          2,
+          5,
+          8,
+          13,
+          15,
+          19
+        ],
+        "maxScore": 32
+      },
+      {
+        "id": "avoidance",
+        "name": "回避",
+        "items": [
+          4,
+          6,
+          7,
+          10,
+          11,
+          12,
+          16,
+          21
+        ],
+        "maxScore": 32
+      },
+      {
+        "id": "hyperarousal",
+        "name": "高唤醒",
+        "items": [
+          3,
+          9,
+          14,
+          17,
+          18,
+          20
+        ],
+        "maxScore": 24
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 23,
+        "level": "normal",
+        "label": "正常范围",
+        "description": "您的得分在正常范围内，该事件未造成显著的持续心理困扰。",
+        "suggestions": [
+          "继续保持健康的应对策略",
+          "允许自己按照自己的节奏处理这段经历",
+          "保持与支持性的人的联系"
+        ]
+      },
+      {
+        "min": 24,
+        "max": 32,
+        "level": "mild",
+        "label": "轻度影响",
+        "description": "您的得分表明存在一定程度的创伤后困扰。",
+        "suggestions": [
+          "监测接下来几周的症状",
+          "练习压力管理和自我照顾",
+          "与信任的人谈谈您的经历",
+          "如症状持续，考虑咨询心理健康专业人士"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 36,
+        "level": "moderate",
+        "label": "中度影响",
+        "description": "您的得分表明中度创伤后困扰，该事件对您的身心健康产生了明显影响。",
+        "suggestions": [
+          "建议寻求心理健康专业人士的支持",
+          "练习放松和接地技术",
+          "保持规律的睡眠和日常作息",
+          "避免孤立自己，保持社交联系"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 88,
+        "level": "severe",
+        "label": "严重影响",
+        "description": "您的得分表明严重的创伤后困扰，显著影响了您的心理健康和日常功能。",
+        "suggestions": [
+          "请寻求专业创伤治疗师的帮助",
+          "如处于危机中，请拨打心理援助热线：400-161-9995",
+          "制定管理强烈痛苦的安全计划",
+          "严格遵循专业治疗建议"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "intrusion": [
+        {
+          "min": 0,
+          "max": 8,
+          "level": "normal",
+          "label": "低",
+          "description": "侵入症状在正常范围内。"
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "level": "mild",
+          "label": "轻度",
+          "description": "存在一些与事件相关的侵入性想法、记忆或梦。"
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "moderate",
+          "label": "中度",
+          "description": "明显的侵入症状，可能干扰日常生活。"
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "severe",
+          "label": "严重",
+          "description": "严重的侵入症状，显著影响功能。"
+        }
+      ],
+      "avoidance": [
+        {
+          "min": 0,
+          "max": 8,
+          "level": "normal",
+          "label": "低",
+          "description": "回避症状在正常范围内。"
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "level": "mild",
+          "label": "轻度",
+          "description": "存在一些对事件相关提醒的回避。"
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "moderate",
+          "label": "中度",
+          "description": "明显的回避模式，可能限制活动。"
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "severe",
+          "label": "严重",
+          "description": "严重的回避，显著限制日常生活。"
+        }
+      ],
+      "hyperarousal": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "normal",
+          "label": "低",
+          "description": "高唤醒症状在正常范围内。"
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "mild",
+          "label": "轻度",
+          "description": "存在一些高唤醒症状，如难以入睡或易怒。"
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "moderate",
+          "label": "中度",
+          "description": "明显的高唤醒影响日常功能。"
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "severe",
+          "label": "严重",
+          "description": "严重的高唤醒症状。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar",
+      "radar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 88
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "intrusion",
+        "avoidance",
+        "hyperarousal"
+      ],
+      "maxDisplayScore": 32
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "侵入",
+          "max": 32
+        },
+        {
+          "name": "回避",
+          "max": 32
+        },
+        {
+          "name": "高唤醒",
+          "max": 24
+        }
+      ]
+    }
+  }
+}

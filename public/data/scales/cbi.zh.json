@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "id": "cbi",
+    "name": "CBI 哥本哈根倦怠量表",
+    "fullName": "哥本哈根倦怠量表",
+    "description": "CBI 是一份包含19个条目的量表，评估三个领域的倦怠程度。",
+    "author": "Kristensen TS, et al. (2005)",
+    "license": "Free for research use",
+    "reference": "Kristensen TS, et al. Work & Stress. 2005;19(3):192-207.",
+    "instruction": "请根据过去几周的感受，选择最符合您情况的选项。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "从不/几乎从不"
+    },
+    {
+      "value": 1,
+      "label": "很少"
+    },
+    {
+      "value": 2,
+      "label": "有时"
+    },
+    {
+      "value": 3,
+      "label": "经常"
+    },
+    {
+      "value": 4,
+      "label": "总是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "您多久感到疲倦一次？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "您多久感到身体疲惫一次？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "您多久感到情绪耗竭一次？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "您多久会想：我再也受不了了？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您多久感到筋疲力尽一次？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "您多久感到虚弱且容易生病一次？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "您的工作在情感上令您感到疲惫吗？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "您是否因为工作而感到倦怠？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "您的工作让您感到沮丧吗？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "在工作日结束时，您是否感到筋疲力尽？",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "早上一想到又要上班，您是否感到精疲力竭？",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "您是否觉得工作的每一个小时都很累？",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "您在休息时间是否有足够的精力留给家人和朋友？",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "您觉得与来访者/患者一起工作困难吗？",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "您觉得与来访者/患者一起工作令人沮丧吗？",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "与来访者/患者一起工作是否消耗您的精力？",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "您是否觉得在与来访者/患者工作时付出多于收获？",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "您是否厌倦了与来访者/患者一起工作？",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "您是否有时在想自己还能继续与来访者/患者工作多久？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 76,
+    "maxItemScore": 4,
+    "reverseItems": [
+      12
+    ],
+    "subscales": [
+      {
+        "id": "personal",
+        "name": "个人倦怠",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "maxScore": 24
+      },
+      {
+        "id": "work",
+        "name": "工作倦怠",
+        "items": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "client",
+        "name": "来访者相关倦怠",
+        "items": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "maxScore": 24
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 25,
+        "level": "minimal",
+        "label": "倦怠程度低",
+        "description": "您的整体倦怠水平较低。",
+        "suggestions": [
+          "保持当前的工作生活平衡",
+          "继续健康的应对策略"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 50,
+        "level": "mild",
+        "label": "中度倦怠",
+        "description": "您表现出中度倦怠迹象。",
+        "suggestions": [
+          "识别主要的倦怠来源",
+          "在工作和个人生活之间设定界限"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 76,
+        "level": "severe",
+        "label": "严重倦怠",
+        "description": "您在多个领域表现出显著倦怠。",
+        "suggestions": [
+          "寻求专业支持",
+          "考虑改变您的工作状况"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "personal": [
+        {
+          "min": 0,
+          "max": 8,
+          "level": "normal",
+          "label": "低",
+          "description": "个人倦怠程度较低。"
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "level": "mild",
+          "label": "中等",
+          "description": "存在中度个人倦怠。"
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "severe",
+          "label": "高",
+          "description": "个人倦怠程度严重。"
+        }
+      ],
+      "work": [
+        {
+          "min": 0,
+          "max": 9,
+          "level": "normal",
+          "label": "低",
+          "description": "工作倦怠程度较低。"
+        },
+        {
+          "min": 10,
+          "max": 19,
+          "level": "mild",
+          "label": "中等",
+          "description": "存在中度工作倦怠。"
+        },
+        {
+          "min": 20,
+          "max": 28,
+          "level": "severe",
+          "label": "高",
+          "description": "工作倦怠程度严重。"
+        }
+      ],
+      "client": [
+        {
+          "min": 0,
+          "max": 8,
+          "level": "normal",
+          "label": "低",
+          "description": "来访者相关倦怠程度较低。"
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "level": "mild",
+          "label": "中等",
+          "description": "存在中度来访者相关倦怠。"
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "severe",
+          "label": "高",
+          "description": "来访者相关倦怠程度严重。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar",
+      "radar"
+    ],
+    "gaugeConfig": {
+      "maxScore": 76
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "personal",
+        "work",
+        "client"
+      ],
+      "maxDisplayScore": 28
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "个人倦怠",
+          "max": 24
+        },
+        {
+          "name": "工作倦怠",
+          "max": 28
+        },
+        {
+          "name": "来访者相关倦怠",
+          "max": 24
+        }
+      ]
+    }
+  }
+}

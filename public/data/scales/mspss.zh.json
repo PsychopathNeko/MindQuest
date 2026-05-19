@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "id": "mspss",
+    "name": "MSPSS 多维感知社会支持量表",
+    "fullName": "Multidimensional Scale of Perceived Social Support",
+    "description": "MSPSS 是一份包含 12 个条目的自评量表，评估个体从家庭、朋友和重要他人三个来源感知到的社会支持水平。",
+    "author": "Zimet et al. (1988)",
+    "license": "Free for research use",
+    "reference": "Zimet GD, Dahlem NW, Zimet SG, Farley GK. The Multidimensional Scale of Perceived Social Support. J Pers Assess. 1988;52(1):30-41.",
+    "instruction": "请仔细阅读以下每个陈述，并根据您的感受选择最符合的选项。"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "中立"
+    },
+    {
+      "value": 5,
+      "label": "有点同意"
+    },
+    {
+      "value": 6,
+      "label": "同意"
+    },
+    {
+      "value": 7,
+      "label": "非常同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "当我需要帮助时，有一个特别的人在我身边",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "有一个特别的人可以和我分享快乐和悲伤",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我的家人真的会尽力帮助我",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我从家人那里得到我需要的情感帮助和支持",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "有一个特别的人是我真正的安慰来源",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我的朋友们真的会尽力帮助我",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "当事情出差错时，我可以依靠我的朋友",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我可以和家人谈论我的问题",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我有朋友可以和他们分享快乐和悲伤",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "在我生活中有一个特别的人关心我的感受",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我的家人愿意帮助我做决定",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我可以和朋友谈论我的问题",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 84,
+    "maxItemScore": 7,
+    "subscales": [
+      {
+        "id": "family",
+        "name": "家庭支持",
+        "items": [
+          2,
+          3,
+          7,
+          11
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "friends",
+        "name": "朋友支持",
+        "items": [
+          5,
+          6,
+          8,
+          9
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "significant_other",
+        "name": "重要他人支持",
+        "items": [
+          0,
+          1,
+          4,
+          10
+        ],
+        "maxScore": 28
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 36,
+        "level": "severe",
+        "label": "社会支持较低",
+        "description": "您感知到的社会支持水平较低。",
+        "suggestions": [
+          "尝试主动与家人和朋友建立更多联系",
+          "考虑加入兴趣团体或社区组织",
+          "如感到孤独或无助，建议咨询专业人士"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 60,
+        "level": "moderate",
+        "label": "社会支持中等",
+        "description": "您感知到的社会支持水平中等。",
+        "suggestions": [
+          "查看各维度得分，了解哪方面支持较弱",
+          "主动加强与家人、朋友的联系",
+          "表达对他人支持的感激"
+        ]
+      },
+      {
+        "min": 61,
+        "max": 84,
+        "level": "minimal",
+        "label": "社会支持较高",
+        "description": "您感知到的社会支持水平较高。",
+        "suggestions": [
+          "继续维护良好的社会关系网络",
+          "在需要时不要犹豫寻求帮助",
+          "也为他人提供支持"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "family": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "severe",
+          "label": "低",
+          "description": "家庭支持感知较低。"
+        },
+        {
+          "min": 13,
+          "max": 20,
+          "level": "moderate",
+          "label": "中",
+          "description": "家庭支持感知中等。"
+        },
+        {
+          "min": 21,
+          "max": 28,
+          "level": "minimal",
+          "label": "高",
+          "description": "家庭支持感知较高。"
+        }
+      ],
+      "friends": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "severe",
+          "label": "低",
+          "description": "朋友支持感知较低。"
+        },
+        {
+          "min": 13,
+          "max": 20,
+          "level": "moderate",
+          "label": "中",
+          "description": "朋友支持感知中等。"
+        },
+        {
+          "min": 21,
+          "max": 28,
+          "level": "minimal",
+          "label": "高",
+          "description": "朋友支持感知较高。"
+        }
+      ],
+      "significant_other": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "severe",
+          "label": "低",
+          "description": "重要他人支持感知较低。"
+        },
+        {
+          "min": 13,
+          "max": 20,
+          "level": "moderate",
+          "label": "中",
+          "description": "重要他人支持感知中等。"
+        },
+        {
+          "min": 21,
+          "max": 28,
+          "level": "minimal",
+          "label": "高",
+          "description": "重要他人支持感知较高。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "family",
+        "friends",
+        "significant_other"
+      ],
+      "maxDisplayScore": 28
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "家庭支持",
+          "max": 28
+        },
+        {
+          "name": "朋友支持",
+          "max": 28
+        },
+        {
+          "name": "重要他人支持",
+          "max": 28
+        }
+      ]
+    }
+  }
+}

@@ -1,18 +1,14 @@
 import { ref } from 'vue'
 import { getAssessments, deleteAssessment } from '@/utils/storage'
+import { useLocale } from './useLocale'
 
 const STORAGE_PREFIX = 'assessment_'
 
-/**
- * Composable for managing assessment history records.
- */
 export function useHistory() {
+  const { locale } = useLocale()
   const records = ref([])
   const loading = ref(false)
 
-  /**
-   * Load all assessment records from localStorage, newest first.
-   */
   function loadRecords() {
     loading.value = true
     try {
@@ -25,19 +21,11 @@ export function useHistory() {
     }
   }
 
-  /**
-   * Delete a single assessment record by storage key.
-   *
-   * @param {string} key
-   */
   function removeRecord(key) {
     deleteAssessment(key)
     loadRecords()
   }
 
-  /**
-   * Clear all assessment records from localStorage.
-   */
   function clearAll() {
     const keysToRemove = []
     for (let i = 0; i < localStorage.length; i++) {
@@ -50,15 +38,15 @@ export function useHistory() {
     records.value = []
   }
 
-  /**
-   * Format a timestamp into a human-readable Chinese date string.
-   *
-   * @param {number} timestamp
-   * @returns {string}
-   */
   function formatDate(timestamp) {
     if (!timestamp) return ''
     const d = new Date(timestamp)
+    if (locale.value === 'en') {
+      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+      const hours = String(d.getHours()).padStart(2, '0')
+      const minutes = String(d.getMinutes()).padStart(2, '0')
+      return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()} ${hours}:${minutes}`
+    }
     const year = d.getFullYear()
     const month = d.getMonth() + 1
     const day = d.getDate()

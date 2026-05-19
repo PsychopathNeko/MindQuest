@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "id": "stai-6",
+    "name": "STAI-6 状态焦虑量表简版",
+    "fullName": "State-Trait Anxiety Inventory 6-Item Short Form",
+    "description": "STAI-6 是 Spielberger 状态-特质焦虑量表（STAI）状态分量表的6题简版。它能够快速、可靠地测量状态焦虑，适用于反复评估和时间有限的场景，同时保持良好的心理测量学特性。",
+    "author": "Marteau & Bekker (1992)",
+    "license": "Free to use",
+    "reference": "Marteau TM, Bekker H. The development of a six-item short-form of the state scale of the Spielberger State-Trait Anxiety Inventory (STAI). Br J Clin Psychol. 1992;31(3):301-306.",
+    "instruction": "以下是一些人们用来描述自身感受的陈述。请阅读每个陈述，然后选择最合适的选项来表示您此刻、现在的感受。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "完全没有" },
+    { "value": 2, "label": "有些" },
+    { "value": 3, "label": "中等程度" },
+    { "value": 4, "label": "非常" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我感到平静", "type": "likert" },
+    { "index": 1, "text": "我感到紧张", "type": "likert" },
+    { "index": 2, "text": "我感到心烦意乱", "type": "likert" },
+    { "index": 3, "text": "我感到放松", "type": "likert" },
+    { "index": 4, "text": "我感到满足", "type": "likert" },
+    { "index": 5, "text": "我感到担忧", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 24,
+    "maxItemScore": 4,
+    "reverseItems": [0, 3, 4],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 10,
+        "level": "minimal",
+        "label": "低焦虑",
+        "description": "您当前的状态焦虑水平较低，此刻处于平静和放松的状态。",
+        "suggestions": [
+          "继续保持当前的平静状态",
+          "定期练习放松技巧以维持良好状态",
+          "记录有助于保持平静的策略，以备将来参考"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 14,
+        "level": "mild",
+        "label": "轻度焦虑",
+        "description": "您正在经历轻度的状态焦虑，这是大多数人在日常情境中常见的水平。",
+        "suggestions": [
+          "尝试深呼吸或渐进式肌肉放松",
+          "识别当前的压力源并尽可能应对",
+          "进行简短的正念练习"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 18,
+        "level": "moderate",
+        "label": "中度焦虑",
+        "description": "您当前的焦虑水平为中度，可能需要使用应对策略来管理紧张状态。",
+        "suggestions": [
+          "练习接地技巧（如5-4-3-2-1感官练习）",
+          "如果可能，暂时离开引起焦虑的情境",
+          "考虑与他人谈谈您的感受",
+          "使用结构化的放松练习"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "severe",
+        "label": "高焦虑",
+        "description": "您当前的状态焦虑水平较高，正在经历显著的紧张和担忧，这可能会影响您的正常功能。",
+        "suggestions": [
+          "立即向信任的人或专业人士寻求支持",
+          "练习缓慢的深呼吸等镇静策略",
+          "如果安全的话，离开令人不堪重负的情境",
+          "如果这种焦虑水平持续存在，建议咨询心理健康专业人士"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 6, "max": 24 }
+  }
+}

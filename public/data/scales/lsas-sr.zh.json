@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "id": "lsas-sr",
+    "name": "LSAS-SR 利博维茨社交焦虑量表",
+    "fullName": "Liebowitz Social Anxiety Scale - Self-Report",
+    "description": "LSAS-SR 是一份包含 24 个条目的自评量表，全面评估在各种社交和表现情境中的恐惧和焦虑程度，是评估社交焦虑障碍严重程度最广泛使用的工具之一。",
+    "author": "Liebowitz (1987)",
+    "license": "Free to use",
+    "reference": "Liebowitz MR. Social phobia. Mod Probl Pharmacopsychiatry. 1987;22:141-173.",
+    "instruction": "以下列出了一些社交场景，请评估在每种情境中您会感受到的恐惧或焦虑程度，选择最符合您通常反应的选项。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "没有" },
+    { "value": 1, "label": "轻度" },
+    { "value": 2, "label": "中度" },
+    { "value": 3, "label": "重度" }
+  ],
+  "questions": [
+    { "index": 0, "text": "在公共场合打电话", "type": "likert" },
+    { "index": 1, "text": "参加小组活动", "type": "likert" },
+    { "index": 2, "text": "在公共场合吃东西", "type": "likert" },
+    { "index": 3, "text": "在公共场合与他人一起喝酒", "type": "likert" },
+    { "index": 4, "text": "与权威人士交谈", "type": "likert" },
+    { "index": 5, "text": "在观众面前表演、演出或发言", "type": "likert" },
+    { "index": 6, "text": "参加聚会", "type": "likert" },
+    { "index": 7, "text": "在被人观察时工作", "type": "likert" },
+    { "index": 8, "text": "在被人观察时写字", "type": "likert" },
+    { "index": 9, "text": "给不太熟悉的人打电话", "type": "likert" },
+    { "index": 10, "text": "与不太熟悉的人交谈", "type": "likert" },
+    { "index": 11, "text": "与陌生人见面", "type": "likert" },
+    { "index": 12, "text": "在公共卫生间如厕", "type": "likert" },
+    { "index": 13, "text": "进入一个别人已经就座的房间", "type": "likert" },
+    { "index": 14, "text": "成为众人关注的焦点", "type": "likert" },
+    { "index": 15, "text": "在会议上发言", "type": "likert" },
+    { "index": 16, "text": "参加笔试", "type": "likert" },
+    { "index": 17, "text": "向不太熟悉的人表达不同意见", "type": "likert" },
+    { "index": 18, "text": "与不太熟悉的人进行眼神接触", "type": "likert" },
+    { "index": 19, "text": "向一群人做报告", "type": "likert" },
+    { "index": 20, "text": "试图与某人搭讪", "type": "likert" },
+    { "index": 21, "text": "去商店退货", "type": "likert" },
+    { "index": 22, "text": "举办聚会", "type": "likert" },
+    { "index": 23, "text": "拒绝强势推销员", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 72,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 29,
+        "level": "minimal",
+        "label": "无社交焦虑",
+        "description": "您的得分表明没有明显的社交焦虑，在社交场合中总体感觉自在。",
+        "suggestions": [
+          "继续保持社交自信",
+          "持续参与您喜欢的社交活动"
+        ]
+      },
+      {
+        "min": 30,
+        "max": 49,
+        "level": "mild",
+        "label": "中度社交焦虑",
+        "description": "您的得分表明存在中度社交焦虑，在某些社交场合中可能会感到明显不适。",
+        "suggestions": [
+          "练习逐步暴露于令您恐惧的社交情境",
+          "学习放松技巧，如深呼吸训练",
+          "考虑参加社交技能训练团体",
+          "挑战关于社会评价的消极想法"
+        ]
+      },
+      {
+        "min": 50,
+        "max": 64,
+        "level": "moderate",
+        "label": "显著社交焦虑",
+        "description": "您的得分表明存在显著的社交焦虑，社交情境可能给您带来严重困扰并影响日常功能。",
+        "suggestions": [
+          "建议寻求有社交焦虑治疗经验的专业心理咨询师帮助",
+          "认知行为疗法（CBT）对社交焦虑有充分的循证支持",
+          "在专业指导下进行系统脱敏训练",
+          "建立一个理解和支持您的朋友或家人圈子"
+        ]
+      },
+      {
+        "min": 65,
+        "max": 72,
+        "level": "severe",
+        "label": "重度社交焦虑",
+        "description": "您的得分表明存在重度社交焦虑，社交情境令您极度痛苦，可能严重影响日常生活。",
+        "suggestions": [
+          "强烈建议寻求专业治疗",
+          "心理治疗与药物联合治疗可能最为有效",
+          "考虑专门针对社交焦虑障碍设计的CBT治疗",
+          "不要自我封闭，积极寻求支持",
+          "请记住，在适当的帮助下社交焦虑是可以有效治疗的"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 72 }
+  }
+}

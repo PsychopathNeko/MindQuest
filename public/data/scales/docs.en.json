@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "id": "docs",
+    "name": "DOCS Dimensional Obsessive-Compulsive Scale",
+    "fullName": "Dimensional Obsessive-Compulsive Scale",
+    "description": "The DOCS is a 20-item self-report scale that assesses obsessive-compulsive symptom severity across four dimensions: contamination, responsibility for harm, unacceptable thoughts, and symmetry/ordering.",
+    "author": "Abramowitz JS, Deacon BJ, Olatunji BO, et al. (2010)",
+    "license": "Free to use",
+    "reference": "Abramowitz JS, Deacon BJ, Olatunji BO, et al. Assessment of obsessive-compulsive symptom dimensions. Psychol Assess. 2010;22(1):180-198.",
+    "instruction": "The following questions ask about four different types of concerns. Rate the degree to which you have experienced each aspect over the past month."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "No symptoms / Not at all"
+    },
+    {
+      "value": 1,
+      "label": "A little / Occasionally"
+    },
+    {
+      "value": 2,
+      "label": "Moderate / Sometimes"
+    },
+    {
+      "value": 3,
+      "label": "Much / Often"
+    },
+    {
+      "value": 4,
+      "label": "Extreme / Constantly"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "How much time have you spent thinking about contamination (dirt, germs, chemicals) or feeling contaminated?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "To what extent have you avoided situations to prevent contamination concerns?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "If you had contamination thoughts but could not wash/clean, how distressed would you become?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "To what extent has your daily routine been disrupted by contamination concerns and washing/cleaning?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "How difficult has it been to disregard contamination thoughts and refrain from washing/cleaning?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "How much time have you spent thinking you might be responsible for something terrible happening?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "To what extent have you avoided situations to prevent being responsible for harm?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "If unable to check or get reassurance about potential harm, how distressed would you become?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "To what extent has your daily routine been disrupted by harm thoughts and checking/reassurance-seeking?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "How difficult has it been to disregard harm-responsibility thoughts and refrain from checking?",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "How much time have you spent on unwanted intrusive thoughts (violent, sexual, immoral)?",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "To what extent have you avoided situations to prevent unwanted intrusive thoughts?",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "When you had unacceptable thoughts and could not perform a ritual, how distressed did you become?",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "To what extent has your daily routine been disrupted by unacceptable thoughts and related rituals?",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "How difficult has it been to disregard unacceptable thoughts and refrain from rituals?",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "How much time have you spent on the need for symmetry, order, or balance?",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "To what extent have you avoided situations to prevent symmetry/order concerns?",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "If unable to arrange things to achieve symmetry, how distressed would you become?",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "To what extent has your daily routine been disrupted by symmetry concerns and ordering?",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "How difficult has it been to disregard symmetry thoughts and refrain from ordering?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 80,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "contamination",
+        "name": "Contamination",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "maxScore": 20
+      },
+      {
+        "id": "responsibility",
+        "name": "Responsibility for Harm",
+        "items": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "maxScore": 20
+      },
+      {
+        "id": "unacceptable_thoughts",
+        "name": "Unacceptable Thoughts",
+        "items": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "maxScore": 20
+      },
+      {
+        "id": "symmetry",
+        "name": "Symmetry/Ordering",
+        "items": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "maxScore": 20
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 15,
+        "level": "minimal",
+        "label": "Minimal OCD Symptoms",
+        "description": "Your score indicates minimal obsessive-compulsive symptoms within the normal range.",
+        "suggestions": [
+          "No clinical concern at this time",
+          "Continue maintaining healthy thought patterns"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 30,
+        "level": "mild",
+        "label": "Mild OCD Symptoms",
+        "description": "Mild obsessive-compulsive symptoms that may cause some distress but are manageable.",
+        "suggestions": [
+          "Learn about OCD and intrusive thoughts",
+          "Practice accepting thoughts without rituals",
+          "Consider CBT-based self-help resources"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 45,
+        "level": "moderate",
+        "label": "Moderate OCD Symptoms",
+        "description": "Moderate symptoms likely affecting your daily functioning.",
+        "suggestions": [
+          "Seek evaluation from an OCD specialist",
+          "Exposure and Response Prevention (ERP) is gold-standard treatment",
+          "Review subscale scores to identify problematic dimensions"
+        ]
+      },
+      {
+        "min": 46,
+        "max": 80,
+        "level": "severe",
+        "label": "Severe OCD Symptoms",
+        "description": "Severe symptoms causing significant impairment in daily life, work, and relationships.",
+        "suggestions": [
+          "Please seek professional treatment as soon as possible",
+          "ERP therapy combined with medication may be most effective",
+          "OCD is a highly treatable condition"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "contamination": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "No significant contamination concerns."
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Mild contamination-related obsessions or compulsions."
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate contamination concerns affecting daily life."
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe contamination obsessions and washing compulsions."
+        }
+      ],
+      "responsibility": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "No significant harm-related concerns."
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Mild checking or reassurance-seeking behaviors."
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate responsibility and checking concerns."
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe harm obsessions and checking compulsions."
+        }
+      ],
+      "unacceptable_thoughts": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "No significant intrusive thought concerns."
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Mild distress from unwanted intrusive thoughts."
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate distress from unacceptable thoughts."
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe distress from intrusive thoughts."
+        }
+      ],
+      "symmetry": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "No significant symmetry concerns."
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Mild need for symmetry or ordering."
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate symmetry concerns affecting daily life."
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe symmetry obsessions and ordering compulsions."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar",
+      "radar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 80
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "contamination",
+        "responsibility",
+        "unacceptable_thoughts",
+        "symmetry"
+      ],
+      "maxDisplayScore": 20
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Contamination",
+          "max": 20
+        },
+        {
+          "name": "Responsibility",
+          "max": 20
+        },
+        {
+          "name": "Unacceptable Thoughts",
+          "max": 20
+        },
+        {
+          "name": "Symmetry",
+          "max": 20
+        }
+      ]
+    }
+  }
+}

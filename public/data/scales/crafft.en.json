@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "id": "crafft",
+    "name": "CRAFFT Adolescent Substance Use Screen",
+    "fullName": "CRAFFT Screening Tool",
+    "description": "The CRAFFT is a brief screening tool designed specifically for adolescents to identify substance use, substance-related driving risk, and substance use disorders. The acronym stands for Car, Relax, Alone, Forget, Friends, Trouble.",
+    "author": "Knight et al. (1999)",
+    "license": "Free to use",
+    "reference": "Knight JR, Sherritt L, Shrier LA, Harris SK, Chang G. Validity of the CRAFFT substance abuse screening test among adolescent clinic patients. Arch Pediatr Adolesc Med. 2002;156(6):607-614.",
+    "instruction": "Please answer each question honestly with Yes or No. These questions ask about your experiences with alcohol and drugs."
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "Have you ever ridden in a CAR driven by someone (including yourself) who was \"high\" or had been using alcohol or drugs?",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "Do you ever use alcohol or drugs to RELAX, feel better about yourself, or fit in?",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "Do you ever use alcohol or drugs while you are by yourself, or ALONE?",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "Do you ever FORGET things you did while using alcohol or drugs?",
+      "type": "yesno"
+    },
+    {
+      "index": 4,
+      "text": "Do your FAMILY or friends ever tell you that you should cut down on your drinking or drug use?",
+      "type": "yesno"
+    },
+    {
+      "index": 5,
+      "text": "Have you ever gotten into TROUBLE while you were using alcohol or drugs?",
+      "type": "yesno"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 6,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 1,
+        "level": "minimal",
+        "label": "Low Risk",
+        "description": "Your responses suggest low risk for substance-related problems. Continue making healthy choices.",
+        "suggestions": [
+          "Continue making safe and healthy choices regarding substance use",
+          "Learn about the risks associated with alcohol and drug use",
+          "Know how to say no in peer pressure situations",
+          "Talk to a trusted adult if you have questions about substance use"
+        ]
+      },
+      {
+        "min": 2,
+        "max": 6,
+        "level": "severe",
+        "label": "High Risk",
+        "description": "Your responses suggest a high risk for substance-related problems. A score of 2 or more indicates a need for further assessment.",
+        "suggestions": [
+          "Talk to a trusted adult, school counselor, or healthcare provider about your substance use",
+          "Consider seeking a professional assessment",
+          "Never ride with a driver who has been using alcohol or drugs",
+          "Explore healthier ways to cope with stress and social pressure",
+          "Learn about local resources for young people with substance use concerns"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 6 }
+  }
+}

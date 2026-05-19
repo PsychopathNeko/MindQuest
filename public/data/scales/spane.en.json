@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "id": "spane",
+    "name": "SPANE Scale of Positive and Negative Experience",
+    "fullName": "Scale of Positive and Negative Experience",
+    "description": "The SPANE is a 12-item measure of subjective well-being that assesses positive and negative feelings experienced over the past four weeks. It provides separate scores for positive experiences, negative experiences, and an overall affect balance.",
+    "author": "Diener, Wirtz, Tov, Kim-Prieto, Choi, Oishi & Biswas-Diener (2010)",
+    "license": "Free to use",
+    "reference": "Diener E, Wirtz D, Tov W, Kim-Prieto C, Choi D, Oishi S, Biswas-Diener R. New well-being measures: Short scales to assess flourishing and positive and negative feelings. Social Indicators Research. 2010;97(2):143-156.",
+    "instruction": "Please think about what you have been doing and experiencing during the past four weeks. Then report how much you experienced each of the following feelings, using the scale below."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Very Rarely or Never" },
+    { "value": 2, "label": "Rarely" },
+    { "value": 3, "label": "Sometimes" },
+    { "value": 4, "label": "Often" },
+    { "value": 5, "label": "Very Often or Always" }
+  ],
+  "questions": [
+    { "index": 0, "text": "Positive", "type": "likert" },
+    { "index": 1, "text": "Negative", "type": "likert" },
+    { "index": 2, "text": "Good", "type": "likert" },
+    { "index": 3, "text": "Bad", "type": "likert" },
+    { "index": 4, "text": "Pleasant", "type": "likert" },
+    { "index": 5, "text": "Unpleasant", "type": "likert" },
+    { "index": 6, "text": "Happy", "type": "likert" },
+    { "index": 7, "text": "Sad", "type": "likert" },
+    { "index": 8, "text": "Afraid", "type": "likert" },
+    { "index": 9, "text": "Joyful", "type": "likert" },
+    { "index": 10, "text": "Angry", "type": "likert" },
+    { "index": 11, "text": "Contented", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 60,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "positive",
+        "name": "Positive Feelings",
+        "items": [0, 2, 4, 6, 9, 11],
+        "maxScore": 30
+      },
+      {
+        "id": "negative",
+        "name": "Negative Feelings",
+        "items": [1, 3, 5, 7, 8, 10],
+        "maxScore": 30
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 24,
+        "level": "severe",
+        "label": "Low Well-Being",
+        "description": "Your overall emotional experience suggests low well-being. Negative feelings may be dominating your daily experience.",
+        "suggestions": [
+          "Consider speaking with a mental health professional",
+          "Try to engage in activities that bring you joy or satisfaction",
+          "Reach out to supportive friends or family members",
+          "Practice small daily acts of self-care"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "moderate",
+        "label": "Below Average Well-Being",
+        "description": "Your emotional experience is below average. You may be experiencing more negative feelings than positive ones.",
+        "suggestions": [
+          "Identify activities and situations that boost your positive emotions",
+          "Consider stress management techniques such as mindfulness or exercise",
+          "Monitor your emotional patterns over time",
+          "If feelings persist, consider consulting a counselor"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "mild",
+        "label": "Above Average Well-Being",
+        "description": "Your emotional experience is above average, indicating a generally positive outlook with a good balance of feelings.",
+        "suggestions": [
+          "Continue engaging in activities that bring positive experiences",
+          "Maintain your social connections and supportive relationships",
+          "Practice gratitude to reinforce positive emotional patterns"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "minimal",
+        "label": "High Well-Being",
+        "description": "Your emotional experience indicates high well-being. You frequently experience positive feelings and rarely experience negative ones.",
+        "suggestions": [
+          "Keep up your healthy lifestyle and coping strategies",
+          "Share your positivity with others",
+          "Continue to nurture the relationships and activities that support your well-being"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "positive": [
+        {
+          "min": 6,
+          "max": 12,
+          "level": "severe",
+          "label": "Low Positive Feelings",
+          "description": "You rarely experience positive emotions. Consider seeking ways to introduce more enjoyable activities into your life."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "moderate",
+          "label": "Moderate Positive Feelings",
+          "description": "You sometimes experience positive emotions but there is room for improvement."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "mild",
+          "label": "High Positive Feelings",
+          "description": "You frequently experience positive emotions, indicating good emotional health."
+        },
+        {
+          "min": 25,
+          "max": 30,
+          "level": "minimal",
+          "label": "Very High Positive Feelings",
+          "description": "You very frequently experience positive emotions, reflecting excellent emotional well-being."
+        }
+      ],
+      "negative": [
+        {
+          "min": 6,
+          "max": 12,
+          "level": "minimal",
+          "label": "Low Negative Feelings",
+          "description": "You rarely experience negative emotions, indicating good emotional health."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "mild",
+          "label": "Moderate Negative Feelings",
+          "description": "You sometimes experience negative emotions, which is within the normal range."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "moderate",
+          "label": "High Negative Feelings",
+          "description": "You frequently experience negative emotions. Consider strategies to manage stress and difficult feelings."
+        },
+        {
+          "min": 25,
+          "max": 30,
+          "level": "severe",
+          "label": "Very High Negative Feelings",
+          "description": "You very frequently experience negative emotions. Professional support is recommended."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["positive", "negative"],
+      "maxDisplayScore": 30
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "Positive Feelings", "max": 30 },
+        { "name": "Negative Feelings", "max": 30 }
+      ]
+    }
+  }
+}

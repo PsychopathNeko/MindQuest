@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "id": "dar-5",
+    "name": "DAR-5 Dimensions of Anger Reactions",
+    "fullName": "Dimensions of Anger Reactions-5",
+    "description": "The DAR-5 is a 5-item ultra-brief scale that rapidly assesses anger problems across five dimensions: frequency, intensity, duration, aggression, and interference.",
+    "author": "Forbes et al. (2014)",
+    "license": "Free to use",
+    "reference": "Forbes D, et al. A new measure of anger: The DAR-5. Journal of Clinical Psychology. 2014;70(8):781-789.",
+    "instruction": "Over the last 4 weeks, to what extent have you experienced the following?"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Not at all" },
+    { "value": 1, "label": "A little" },
+    { "value": 2, "label": "Moderately" },
+    { "value": 3, "label": "Quite a lot" },
+    { "value": 4, "label": "Very much" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I often find myself getting angry at people or situations", "type": "likert" },
+    { "index": 1, "text": "When I get angry, I get really mad", "type": "likert" },
+    { "index": 2, "text": "When I get angry, I stay angry", "type": "likert" },
+    { "index": 3, "text": "When I get angry at someone, I want to hit or clobber the person", "type": "likert" },
+    { "index": 4, "text": "My anger prevents me from getting along with people as well as I'd like to", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 20,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your anger level is within the normal range.",
+        "suggestions": [
+          "Continue maintaining good emotional management skills",
+          "Consider learning stress management techniques as prevention"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 8,
+        "level": "mild",
+        "label": "Mild",
+        "description": "You may occasionally experience excessive anger.",
+        "suggestions": [
+          "Learn to recognize early warning signs of anger",
+          "Practice deep breathing and relaxation techniques",
+          "Try the 'pause' strategy — give yourself a few seconds to cool down before reacting"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 13,
+        "level": "moderate",
+        "label": "Moderate",
+        "description": "Your anger is notable and may be affecting your relationships and daily life.",
+        "suggestions": [
+          "Consider learning anger management strategies",
+          "Cognitive reappraisal — re-examine the thoughts triggering your anger",
+          "Regular exercise can help reduce anger",
+          "If anger problems persist, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 20,
+        "level": "severe",
+        "label": "Severe",
+        "description": "Your anger problems are significant and may substantially affect your relationships, work, and quality of life.",
+        "suggestions": [
+          "Strongly recommended to seek professional psychological help",
+          "Anger management group therapy or individual therapy can be very effective",
+          "Learn nonviolent communication skills",
+          "If you have violent tendencies, please seek help immediately"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 20 }
+  }
+}

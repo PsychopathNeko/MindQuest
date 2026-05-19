@@ -1,5 +1,6 @@
 <script setup>
 import { computed } from 'vue'
+import { useLocale } from '@/composables/useLocale'
 
 const props = defineProps({
   current: {
@@ -12,6 +13,8 @@ const props = defineProps({
   },
 })
 
+const { t } = useLocale()
+
 const percentage = computed(() => {
   if (props.total <= 0) return 0
   return Math.round((props.current / props.total) * 100)
@@ -21,7 +24,7 @@ const percentage = computed(() => {
 <template>
   <div class="progress-bar-wrapper">
     <div class="progress-info">
-      <span class="progress-text">第 {{ current }} / {{ total }} 题</span>
+      <span class="progress-text">{{ t('progress.questionOf', { current, total }) }}</span>
       <span class="progress-percentage">{{ percentage }}%</span>
     </div>
     <div class="progress-track">

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "id": "asrm",
+    "name": "ASRM 奥特曼躁狂自评量表",
+    "fullName": "Altman Self-Rating Mania Scale",
+    "description": "ASRM 是一份5题简短自评量表，用于筛查和评估躁狂症状的严重程度。",
+    "author": "Altman et al. (1997)",
+    "license": "Free to use",
+    "reference": "Altman EG, et al. The Altman Self-Rating Mania Scale. Biological Psychiatry. 1997;42(10):948-955.",
+    "instruction": "请选择最符合你过去一周状态的选项。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "完全没有" },
+    { "value": 1, "label": "偶尔/轻微" },
+    { "value": 2, "label": "有时/中等" },
+    { "value": 3, "label": "经常/较多" },
+    { "value": 4, "label": "几乎总是/严重" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我感到比平时更加快乐或开心（不仅仅是感觉良好）", "type": "likert" },
+    { "index": 1, "text": "我感到比平时更加自信", "type": "likert" },
+    { "index": 2, "text": "我的睡眠需求比平时减少了", "type": "likert" },
+    { "index": 3, "text": "我说话比平时更多，或者说话速度更快", "type": "likert" },
+    { "index": 4, "text": "我比平时更加活跃，做了更多的事情", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 20,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的得分在正常范围内，未提示明显的躁狂症状。",
+        "suggestions": [
+          "保持规律的作息和睡眠习惯",
+          "继续维持健康的生活方式",
+          "如有情绪波动可定期自评监测"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "mild",
+        "label": "轻度躁狂倾向",
+        "description": "您的得分提示可能存在轻度躁狂倾向（得分≥6为筛查临界值）。您可能正经历情绪高涨、精力增加或睡眠需求减少。",
+        "suggestions": [
+          "注意监测自己的情绪变化和睡眠模式",
+          "避免过度刺激和冒险行为",
+          "保持规律的日常作息",
+          "建议咨询精神科医生进一步评估"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 15,
+        "level": "moderate",
+        "label": "中度躁狂",
+        "description": "您的得分提示中度躁狂症状，可能正经历明显的情绪高涨、过度活跃和睡眠减少。",
+        "suggestions": [
+          "建议尽快咨询精神科医生",
+          "避免重大决策和冲动行为",
+          "告知信任的家人或朋友您的状态",
+          "保持规律的睡眠时间，避免刺激性物质"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 20,
+        "level": "severe",
+        "label": "重度躁狂",
+        "description": "您的得分提示严重的躁狂症状，可能存在显著的情绪极端高涨、严重的睡眠减少和行为失控。",
+        "suggestions": [
+          "建议立即就医，寻求精神科专业治疗",
+          "请家人或朋友陪同就医",
+          "避免任何重大决策和高风险行为",
+          "如正在接受治疗，请立即联系主治医生"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 20 }
+  }
+}

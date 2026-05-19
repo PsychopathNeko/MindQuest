@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "id": "pwi",
+    "name": "PWI 个人幸福指数",
+    "fullName": "Personal Wellbeing Index",
+    "description": "PWI 是一份包含7个条目的量表，在七个生活质量领域测量主观幸福感。每个条目采用0到10的11点量表评分。",
+    "author": "International Wellbeing Group (2013)",
+    "license": "Free to use",
+    "reference": "International Wellbeing Group. Personal Wellbeing Index. 5th Edition. Melbourne: Australian Centre on Quality of Life, Deakin University; 2013.",
+    "instruction": "以下问题询问您对生活各方面的满意程度，请在0到10的范围内选择。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "0 (完全不满意)"
+    },
+    {
+      "value": 1,
+      "label": "1"
+    },
+    {
+      "value": 2,
+      "label": "2"
+    },
+    {
+      "value": 3,
+      "label": "3"
+    },
+    {
+      "value": 4,
+      "label": "4"
+    },
+    {
+      "value": 5,
+      "label": "5 (中立)"
+    },
+    {
+      "value": 6,
+      "label": "6"
+    },
+    {
+      "value": 7,
+      "label": "7"
+    },
+    {
+      "value": 8,
+      "label": "8"
+    },
+    {
+      "value": 9,
+      "label": "9"
+    },
+    {
+      "value": 10,
+      "label": "10 (完全满意)"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "您对自己的生活水平满意吗？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "您对自己的健康状况满意吗？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "您对自己在生活中的成就满意吗？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "您对自己的人际关系满意吗？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您对自己的安全感满意吗？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "您对自己的社区归属感满意吗？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "您对自己的未来安全保障满意吗？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 70,
+    "maxItemScore": 10,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 17,
+        "level": "severe",
+        "label": "幸福感很低",
+        "description": "您的个人幸福感得分很低。",
+        "suggestions": [
+          "考虑寻求心理咨询师的专业支持",
+          "找出导致最大不满的生活领域",
+          "关注基本的自我照顾",
+          "设定小的、可实现的目标"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 35,
+        "level": "moderate",
+        "label": "幸福感较低",
+        "description": "您的幸福感得分低于平均水平。",
+        "suggestions": [
+          "反思哪些生活领域最需要关注",
+          "制定行动计划来解决不满意的领域",
+          "加强社交联系并寻求支持"
+        ]
+      },
+      {
+        "min": 36,
+        "max": 52,
+        "level": "mild",
+        "label": "中等幸福感",
+        "description": "您的幸福感处于中等水平。",
+        "suggestions": [
+          "继续培养您最感满意的领域",
+          "确定需要改善的具体领域并设定目标",
+          "练习感恩并关注积极方面"
+        ]
+      },
+      {
+        "min": 53,
+        "max": 70,
+        "level": "minimal",
+        "label": "高幸福感",
+        "description": "您的幸福感得分较高。",
+        "suggestions": [
+          "继续保持支持您幸福感的习惯和关系",
+          "与他人分享您的积极经验和策略",
+          "持续参与社区活动和个人目标"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 70
+    }
+  }
+}

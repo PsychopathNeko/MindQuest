@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "id": "epds",
+    "name": "EPDS 爱丁堡产后抑郁量表",
+    "fullName": "Edinburgh Postnatal Depression Scale",
+    "description": "EPDS 是一份10题的产后抑郁筛查自评量表，侧重于抑郁的认知和情感特征而非躯体症状，特别适用于产后期。也可用于孕期及非产后人群的抑郁筛查。",
+    "author": "Cox, Holden & Sagovsky (1987)",
+    "license": "Free to use",
+    "reference": "Cox JL, Holden JM, Sagovsky R. Detection of postnatal depression: Development of the 10-item Edinburgh Postnatal Depression Scale. Br J Psychiatry. 1987;150:782-786.",
+    "instruction": "由于您正在怀孕或最近刚生了宝宝，我们想了解您的感受。请选择最接近您过去7天感受的选项，而不仅仅是您今天的感受。"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "我能看到事物有趣的一面，并笑得开心",
+      "type": "likert",
+      "choices": [
+        { "value": 0, "label": "同以前一样" },
+        { "value": 1, "label": "没有以前那么多" },
+        { "value": 2, "label": "肯定比以前少了" },
+        { "value": 3, "label": "完全不能" }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "我欣然期待未来的一切",
+      "type": "likert",
+      "choices": [
+        { "value": 0, "label": "同以前一样" },
+        { "value": 1, "label": "没有以前那么多" },
+        { "value": 2, "label": "肯定比以前少了" },
+        { "value": 3, "label": "几乎不能" }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "当事情出错时，我会不必要地责备自己",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "是的，大多数时候如此" },
+        { "value": 2, "label": "是的，有些时候如此" },
+        { "value": 1, "label": "不太经常" },
+        { "value": 0, "label": "不，从来没有" }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "我无缘无故感到焦虑和担心",
+      "type": "likert",
+      "choices": [
+        { "value": 0, "label": "不，一点也没有" },
+        { "value": 1, "label": "几乎没有" },
+        { "value": 2, "label": "是的，有时候" },
+        { "value": 3, "label": "是的，经常如此" }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "我无缘无故感到害怕和惊慌",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "是的，相当多" },
+        { "value": 2, "label": "是的，有时候" },
+        { "value": 1, "label": "不，不太多" },
+        { "value": 0, "label": "不，一点也没有" }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "很多事情冲着我来，使我透不过气",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "是的，大多数时候我都无法应对" },
+        { "value": 2, "label": "是的，有时我不能像平常那样应对" },
+        { "value": 1, "label": "不，大多数时候我都应对得很好" },
+        { "value": 0, "label": "不，我一直都应对得很好" }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "我很不开心，以至于失眠",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "是的，大多数时候如此" },
+        { "value": 2, "label": "是的，有时候如此" },
+        { "value": 1, "label": "不太经常" },
+        { "value": 0, "label": "不，一点也没有" }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "我感到悲伤或难受",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "是的，大多数时候如此" },
+        { "value": 2, "label": "是的，相当经常" },
+        { "value": 1, "label": "不太经常" },
+        { "value": 0, "label": "不，一点也没有" }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "我很不开心以至于哭泣",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "是的，大多数时候如此" },
+        { "value": 2, "label": "是的，相当经常" },
+        { "value": 1, "label": "偶尔如此" },
+        { "value": 0, "label": "不，从来没有" }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "我有伤害自己的念头",
+      "type": "likert",
+      "choices": [
+        { "value": 3, "label": "是的，相当经常" },
+        { "value": 2, "label": "有时候" },
+        { "value": 1, "label": "几乎没有" },
+        { "value": 0, "label": "从来没有" }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 30,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 8,
+        "level": "normal",
+        "label": "正常",
+        "description": "您的得分处于正常范围，未发现明显的抑郁症状。",
+        "suggestions": [
+          "继续照顾好自己和宝宝",
+          "保持社交联系和支持网络",
+          "尽可能多休息，接受他人的帮助"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 11,
+        "level": "mild",
+        "label": "可能存在抑郁",
+        "description": "您的得分提示可能存在抑郁，建议监测并进一步评估。",
+        "suggestions": [
+          "与您的医疗保健人员谈谈您的感受",
+          "向家人或朋友寻求支持",
+          "确保获得足够的休息",
+          "考虑在2-4周后再次进行此筛查"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 13,
+        "level": "moderate",
+        "label": "较大可能存在抑郁",
+        "description": "您的得分提示较大可能存在抑郁，建议进行专业评估。",
+        "suggestions": [
+          "咨询您的医疗保健人员或心理健康专业人士",
+          "产后抑郁是可治疗的常见问题，寻求帮助是勇敢的表现",
+          "尽量保持日常规律",
+          "接受宝宝护理方面的帮助，确保有时间照顾自己"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 30,
+        "level": "severe",
+        "label": "很可能存在抑郁",
+        "description": "您的得分提示很可能存在抑郁，请尽快寻求专业帮助。",
+        "suggestions": [
+          "请尽快向医疗保健人员寻求专业帮助",
+          "如有伤害自己或宝宝的想法，请立即拨打心理危机热线：400-161-9995",
+          "不要感到羞耻，产后抑郁是一种医学状况，不是个人的失败",
+          "有效的治疗方法（包括心理治疗和药物治疗）可以帮助您康复"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 30 }
+  }
+}

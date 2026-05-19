@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "id": "phq-8",
+    "name": "PHQ-8 患者健康问卷8项版",
+    "fullName": "Patient Health Questionnaire-8",
+    "description": "PHQ-8 是一份包含 8 个条目的抑郁症状自评量表，与 PHQ-9 相同但不包含自杀意念条目。广泛用于一般人群研究和不适合评估自伤的场景。",
+    "author": "Kroenke, Strine, Spitzer, Williams, Berry & Mokdad (2009)",
+    "license": "Public Domain",
+    "reference": "Kroenke K, et al. The PHQ-8 as a measure of current depression in the general population. J Affect Disord. 2009;114(1-3):163-173.",
+    "instruction": "回想一下过去两周的生活，以下这些感受出现的频率如何？请放心作答，没有对错之分。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "完全没有" },
+    { "value": 1, "label": "好几天" },
+    { "value": 2, "label": "一半以上天数" },
+    { "value": 3, "label": "几乎每天" }
+  ],
+  "questions": [
+    { "index": 0, "text": "做事时提不起劲或没有兴趣", "type": "likert" },
+    { "index": 1, "text": "感到心情低落、沮丧或绝望", "type": "likert" },
+    { "index": 2, "text": "入睡困难、睡不安稳或睡眠过多", "type": "likert" },
+    { "index": 3, "text": "感觉疲倦或没有活力", "type": "likert" },
+    { "index": 4, "text": "食欲不振或吃太多", "type": "likert" },
+    { "index": 5, "text": "觉得自己很糟糕——或觉得自己很失败，或让自己或家人失望", "type": "likert" },
+    { "index": 6, "text": "对事物专注有困难，例如阅读报纸或看电视时", "type": "likert" },
+    { "index": 7, "text": "动作或说话速度缓慢到别人已经察觉？或正好相反——坐不住，比平常更烦躁或坐立不安", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 24,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的抑郁症状评分处于正常范围，当前未表现出明显的抑郁困扰。",
+        "suggestions": [
+          "继续保持健康的生活方式",
+          "保持规律的运动和社交活动",
+          "如有情绪波动属于正常现象，可适当放松"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "轻度抑郁",
+        "description": "您可能正在经历一些轻度的抑郁症状，这些症状可能对日常生活有轻微影响。",
+        "suggestions": [
+          "注意自我关爱，保持规律的作息和运动",
+          "尝试与信任的朋友或家人倾诉",
+          "学习一些放松和减压技巧",
+          "如症状持续，建议咨询专业人士"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "中度抑郁",
+        "description": "您的抑郁症状处于中等水平，可能对工作、社交和日常生活产生一定影响。",
+        "suggestions": [
+          "建议尽快咨询心理咨询师或精神科医生",
+          "保持规律的生活作息",
+          "尝试体育锻炼，每周至少3次",
+          "避免酒精和不良应对方式",
+          "可考虑心理治疗（如认知行为疗法）"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 19,
+        "level": "severe",
+        "label": "中重度抑郁",
+        "description": "您的抑郁症状较为严重，日常功能可能受到显著影响，建议尽快寻求专业帮助。",
+        "suggestions": [
+          "强烈建议尽快就医，咨询精神科医生",
+          "可能需要考虑药物治疗结合心理治疗",
+          "确保身边有可信赖的支持者",
+          "避免独处，保持与他人的联系"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 24,
+        "level": "severe",
+        "label": "重度抑郁",
+        "description": "您的抑郁症状非常严重，可能严重影响日常功能和生活质量，请立即寻求专业帮助。",
+        "suggestions": [
+          "请立即联系精神科医生或前往医院就诊",
+          "如有自伤想法，请立即拨打心理危机热线：400-161-9995",
+          "不要独处，告知家人或朋友你的状况",
+          "规范治疗，遵医嘱用药"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 24 }
+  }
+}

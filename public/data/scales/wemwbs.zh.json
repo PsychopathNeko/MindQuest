@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "id": "wemwbs",
+    "name": "WEMWBS 华威爱丁堡心理幸福感量表",
+    "fullName": "Warwick-Edinburgh Mental Well-Being Scale",
+    "description": "WEMWBS 是一份包含 14 个条目的量表，评估积极心理幸福感。",
+    "author": "Tennant et al. (2007)",
+    "license": "Free to use",
+    "reference": "Tennant R, et al. Health Qual Life Outcomes. 2007;5:63.",
+    "instruction": "以下是一些关于感受和想法的描述，请选择最符合您过去两周体验的选项。"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "没有"
+    },
+    {
+      "value": 2,
+      "label": "很少"
+    },
+    {
+      "value": 3,
+      "label": "有些时候"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "总是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我一直对未来感到乐观",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我一直觉得自己有用",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我一直感觉放松",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我一直对他人感兴趣",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我一直精力充沛",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我一直能很好地处理问题",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我一直思路清晰",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我一直对自己感觉良好",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我一直觉得与他人亲近",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我一直感到自信",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我一直能自己做决定",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我一直感到被爱",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我一直对新事物感兴趣",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我一直感到愉快",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 70,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 14,
+        "max": 31,
+        "level": "severe",
+        "label": "幸福感很低",
+        "description": "您的心理幸福感得分很低。",
+        "suggestions": [
+          "考虑寻求专业支持",
+          "关注基本自我照顾",
+          "向信任的人倾诉",
+          "日常小活动可逐步改善"
+        ]
+      },
+      {
+        "min": 32,
+        "max": 40,
+        "level": "mild",
+        "label": "幸福感偏低",
+        "description": "您的心理幸福感低于平均水平。",
+        "suggestions": [
+          "找到带来快乐的活动",
+          "加强社交联系",
+          "练习感恩",
+          "考虑心理咨询"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 44,
+        "level": "normal",
+        "label": "幸福感中等",
+        "description": "您的心理幸福感处于平均范围。",
+        "suggestions": [
+          "继续保持积极习惯",
+          "与他人保持联系",
+          "参与有意义的活动"
+        ]
+      },
+      {
+        "min": 45,
+        "max": 70,
+        "level": "minimal",
+        "label": "幸福感良好",
+        "description": "您的心理幸福感高于平均水平。",
+        "suggestions": [
+          "继续当前的积极做法",
+          "与他人分享幸福策略",
+          "保持参与有意义的活动"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 14,
+      "max": 70
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "id": "asrs",
+    "name": "ASRS 成人ADHD自评量表",
+    "fullName": "Adult ADHD Self-Report Scale v1.1 Screener",
+    "description": "ASRS v1.1 筛查量表是世界卫生组织（WHO）开发的成人注意缺陷多动障碍（ADHD）自评筛查工具的Part A部分，包含6个最具预测性的条目。该量表基于DSM-IV-TR标准，用于快速识别可能患有ADHD的成人。",
+    "author": "Kessler et al. (2005)",
+    "license": "Free to use",
+    "reference": "Kessler RC, Adler L, Ames M, et al. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychol Med. 2005;35(2):245-256.",
+    "instruction": "请回想过去6个月的情况，以下症状出现的频率如何？"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "从不" },
+    { "value": 1, "label": "很少" },
+    { "value": 2, "label": "有时" },
+    { "value": 3, "label": "经常" },
+    { "value": 4, "label": "非常频繁" }
+  ],
+  "questions": [
+    { "index": 0, "text": "当一项工作中最具挑战性的部分已经完成后，你将最后的细节收尾工作做好的频率如何？", "type": "likert" },
+    { "index": 1, "text": "当你必须做一项需要组织规划的任务时，你把事情安排得井井有条的频率如何？", "type": "likert" },
+    { "index": 2, "text": "你记住约会或承诺的频率如何？", "type": "likert" },
+    { "index": 3, "text": "当你有一项需要大量思考的任务时，你会拖延或避免开始的频率如何？", "type": "likert" },
+    { "index": 4, "text": "当你必须长时间坐着时，你会坐立不安或手脚不停的频率如何？", "type": "likert" },
+    { "index": 5, "text": "你感觉自己过度活跃，好像被马达驱动一样停不下来的频率如何？", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 24,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "正常范围",
+        "description": "您的ADHD症状筛查得分在正常范围内，不太可能存在成人ADHD。",
+        "suggestions": [
+          "目前不需要进一步ADHD评估",
+          "如果仍有注意力或活动方面的困扰，可以尝试时间管理技巧",
+          "保持健康的生活方式有助于集中注意力"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 13,
+        "level": "mild",
+        "label": "可能存在ADHD",
+        "description": "您的得分提示可能存在ADHD症状，建议进一步评估。",
+        "suggestions": [
+          "建议咨询专业人士进行更全面的ADHD评估",
+          "了解ADHD的相关知识，帮助自我理解",
+          "尝试使用计划表和提醒工具辅助日常组织",
+          "规律运动有助于改善注意力和多动症状"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 24,
+        "level": "moderate",
+        "label": "很可能存在ADHD",
+        "description": "您的得分较高，很可能存在ADHD症状，强烈建议进行专业评估。",
+        "suggestions": [
+          "强烈建议尽快寻求精神科医生或心理学家的专业评估",
+          "ADHD是可以有效治疗的疾病，药物和行为干预都可以提供帮助",
+          "在等待专业评估期间，可以学习ADHD应对策略",
+          "建立外部提醒和组织系统来辅助日常生活",
+          "确保充足的睡眠和规律的运动"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 24 }
+  }
+}

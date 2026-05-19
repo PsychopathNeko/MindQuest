@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "id": "dar-5",
+    "name": "DAR-5 愤怒反应维度量表",
+    "fullName": "Dimensions of Anger Reactions-5",
+    "description": "DAR-5 是一份 5 题超短量表，从频率、强度、持续时间、攻击性和干扰五个维度快速评估愤怒情绪问题。",
+    "author": "Forbes et al. (2014)",
+    "license": "Free to use",
+    "reference": "Forbes D, et al. A new measure of anger: The DAR-5. Journal of Clinical Psychology. 2014;70(8):781-789.",
+    "instruction": "请根据你过去四周的感受，选择最符合你情况的选项。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "完全没有" },
+    { "value": 1, "label": "有一点" },
+    { "value": 2, "label": "中等程度" },
+    { "value": 3, "label": "相当多" },
+    { "value": 4, "label": "非常多" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我经常发现自己在对别人或某些事情发脾气", "type": "likert" },
+    { "index": 1, "text": "当我生气的时候，我真的会非常愤怒", "type": "likert" },
+    { "index": 2, "text": "当我生气的时候，我会持续愤怒很长时间", "type": "likert" },
+    { "index": 3, "text": "当我对某人生气时，我想打人或伤害对方", "type": "likert" },
+    { "index": 4, "text": "我的愤怒妨碍了我与他人的关系", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 20,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的愤怒情绪水平处于正常范围。",
+        "suggestions": [
+          "继续保持良好的情绪管理能力",
+          "适当学习压力管理技巧"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 8,
+        "level": "mild",
+        "label": "轻度",
+        "description": "您可能偶尔会有过度愤怒的情况。",
+        "suggestions": [
+          "学习识别愤怒的早期信号",
+          "练习深呼吸和放松技巧",
+          "尝试用\"暂停\"策略——在发怒前给自己几秒钟冷静"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 13,
+        "level": "moderate",
+        "label": "中度",
+        "description": "您的愤怒情绪较为明显，可能影响人际关系和日常生活。",
+        "suggestions": [
+          "建议学习愤怒管理策略",
+          "认知重评——重新审视引发愤怒的想法",
+          "规律运动有助于缓解愤怒情绪",
+          "如果愤怒问题持续，建议咨询专业人士"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 20,
+        "level": "severe",
+        "label": "重度",
+        "description": "您的愤怒情绪问题较为严重，可能显著影响人际关系、工作和生活质量。",
+        "suggestions": [
+          "强烈建议寻求专业心理帮助",
+          "愤怒管理团体治疗或个体治疗都很有效",
+          "学习非暴力沟通技巧",
+          "如有暴力倾向请立即寻求帮助"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 20 }
+  }
+}

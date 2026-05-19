@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "id": "ahs",
+    "name": "AHS 成人希望感量表",
+    "fullName": "Adult Hope Scale",
+    "description": "AHS 是一份包含 12 个条目的自评量表（8项计分，4项填充），用于评估个体的希望感水平。希望感包括两个维度：路径思维（找到实现目标的方法）和动力思维（追求目标的动力），是积极心理学的核心概念之一。",
+    "author": "Snyder, Harris, Anderson, Holleran, Irving, Sigmon, et al. (1991)",
+    "license": "Free for research use",
+    "reference": "Snyder CR, Harris C, Anderson JR, et al. The will and the ways: development and validation of an individual-differences measure of hope. J Pers Soc Psychol. 1991;60(4):570-585.",
+    "instruction": "请阅读每个条目并选择最符合你目前想法的选项。"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "完全不同意"
+    },
+    {
+      "value": 2,
+      "label": "大部分不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "稍微不同意"
+    },
+    {
+      "value": 5,
+      "label": "稍微同意"
+    },
+    {
+      "value": 6,
+      "label": "有点同意"
+    },
+    {
+      "value": 7,
+      "label": "大部分同意"
+    },
+    {
+      "value": 8,
+      "label": "完全同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我能想到很多办法来摆脱困境",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我精力充沛地追求自己的目标",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我感到疲惫",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "对任何问题都有很多解决方法",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我很容易在争论中被打败",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我能想到很多方法来实现对我重要的事情",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我担心自己的健康",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "即使别人气馁了，我知道我仍然能找到解决问题的办法",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我过去的经历很好地为我的未来做了准备",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我在生活中一直很成功",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我通常发现自己在为一些事情烦恼",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我能实现自己设定的目标",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 64,
+    "maxItemScore": 8,
+    "scoredItems": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      8,
+      9,
+      11
+    ],
+    "fillerItems": [
+      2,
+      4,
+      6,
+      10
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 8,
+        "max": 24,
+        "level": "severe",
+        "label": "低希望感",
+        "description": "您的希望感水平较低，可能在面对困难时缺乏信心和解决问题的路径。",
+        "suggestions": [
+          "尝试设定小的、可实现的目标来建立信心",
+          "学习问题解决技巧",
+          "与积极乐观的人交往",
+          "考虑寻求心理咨询以提升希望感"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 40,
+        "level": "mild",
+        "label": "中等偏低希望感",
+        "description": "您的希望感处于中等偏低水平，在追求目标时可能偶尔感到缺乏动力或方向。",
+        "suggestions": [
+          "练习设定具体、可衡量的目标",
+          "回顾过去成功的经验以增强信心",
+          "探索实现目标的多种途径",
+          "培养积极的自我对话"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 56,
+        "level": "normal",
+        "label": "中等偏高希望感",
+        "description": "您的希望感处于中等偏高水平，能够较好地设定目标并找到实现途径。",
+        "suggestions": [
+          "继续保持积极的目标导向思维",
+          "在面对挑战时运用您的希望感作为动力",
+          "帮助他人培养希望感"
+        ]
+      },
+      {
+        "min": 57,
+        "max": 64,
+        "level": "minimal",
+        "label": "高希望感",
+        "description": "您的希望感水平很高，在面对困难时能够保持积极心态并找到多种解决途径。",
+        "suggestions": [
+          "您的高希望感是宝贵的心理资源",
+          "继续设定有挑战性的目标",
+          "利用您的积极心态帮助和鼓励他人"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 8,
+      "max": 64
+    }
+  }
+}

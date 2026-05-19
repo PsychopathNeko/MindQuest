@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "id": "phq-9",
+    "name": "PHQ-9 Patient Health Questionnaire",
+    "fullName": "Patient Health Questionnaire-9",
+    "description": "The PHQ-9 is a brief, reliable self-report screening tool for depressive symptoms, consisting of 9 items corresponding to the 9 DSM-IV diagnostic criteria for major depressive episodes, used to assess the severity of depressive symptoms over the past two weeks.",
+    "author": "Kroenke, Spitzer & Williams (2001)",
+    "license": "Public Domain",
+    "reference": "Kroenke K, Spitzer RL, Williams JBW. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001;16(9):606-613.",
+    "instruction": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Not at all" },
+    { "value": 1, "label": "Several days" },
+    { "value": 2, "label": "More than half the days" },
+    { "value": 3, "label": "Nearly every day" }
+  ],
+  "questions": [
+    { "index": 0, "text": "Little interest or pleasure in doing things", "type": "likert" },
+    { "index": 1, "text": "Feeling down, depressed, or hopeless", "type": "likert" },
+    { "index": 2, "text": "Trouble falling or staying asleep, or sleeping too much", "type": "likert" },
+    { "index": 3, "text": "Feeling tired or having little energy", "type": "likert" },
+    { "index": 4, "text": "Poor appetite or overeating", "type": "likert" },
+    { "index": 5, "text": "Feeling bad about yourself \u2014 or that you are a failure or have let yourself or your family down", "type": "likert" },
+    { "index": 6, "text": "Trouble concentrating on things, such as reading the newspaper or watching television", "type": "likert" },
+    { "index": 7, "text": "Moving or speaking so slowly that other people could have noticed? Or the opposite \u2014 being so fidgety or restless that you have been moving around a lot more than usual", "type": "likert" },
+    { "index": 8, "text": "Thoughts that you would be better off dead or of hurting yourself in some way", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 27,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your depression score is within the normal range. No significant depressive symptoms detected.",
+        "suggestions": [
+          "Continue maintaining a healthy lifestyle",
+          "Keep up regular exercise and social activities",
+          "Occasional mood fluctuations are normal; allow yourself time to relax"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "You may be experiencing some mild depressive symptoms that may slightly affect daily life.",
+        "suggestions": [
+          "Practice self-care and maintain a regular sleep schedule and exercise routine",
+          "Try talking to a trusted friend or family member",
+          "Learn some relaxation and stress-reduction techniques",
+          "If symptoms persist, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "Your depressive symptoms are at a moderate level and may affect work, social life, and daily activities.",
+        "suggestions": [
+          "Consider consulting a counselor or psychiatrist soon",
+          "Maintain a regular daily routine",
+          "Try physical exercise at least 3 times per week",
+          "Avoid alcohol and unhealthy coping strategies",
+          "Consider psychotherapy (e.g., cognitive behavioral therapy)"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 19,
+        "level": "severe",
+        "label": "Moderately Severe Depression",
+        "description": "Your depressive symptoms are quite severe. Daily functioning may be significantly affected. Please seek professional help.",
+        "suggestions": [
+          "Strongly recommended to seek medical attention from a psychiatrist",
+          "Medication combined with psychotherapy may be needed",
+          "Ensure you have a trusted support person nearby",
+          "Avoid being alone; stay connected with others"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 27,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "Your depressive symptoms are very severe and may seriously affect daily functioning and quality of life. Please seek immediate professional help.",
+        "suggestions": [
+          "Please contact a psychiatrist or visit a hospital immediately",
+          "If you have thoughts of self-harm or suicide, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "Do not stay alone; inform family or friends of your situation",
+          "Follow professional treatment plans and take medications as prescribed"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 27 }
+  }
+}

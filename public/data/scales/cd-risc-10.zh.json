@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "id": "cd-risc-10",
+    "name": "CD-RISC-10 心理弹性量表",
+    "fullName": "Connor-Davidson Resilience Scale 10-Item",
+    "description": "CD-RISC-10 是一份简短的10题自评量表，用于评估个体的心理弹性（韧性）。该量表评估个体应对压力、逆境和变化的能力。由原始25题CD-RISC量表精简而来，10题版本具有良好的心理测量学特性，广泛应用于临床、社区和研究环境。",
+    "author": "Campbell-Sills & Stein (2007)",
+    "license": "Free to use",
+    "reference": "Campbell-Sills L, Stein MB. Psychometric analysis and refinement of the Connor-Davidson Resilience Scale (CD-RISC): Validation of a 10-item measure of resilience. J Trauma Stress. 2007;20(6):1019-1028.",
+    "instruction": "请根据过去一个月的实际情况，选择最符合您的选项。如果某种情况最近没有发生，请根据您认为自己会如何应对来作答。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "完全不是" },
+    { "value": 1, "label": "很少如此" },
+    { "value": 2, "label": "有时如此" },
+    { "value": 3, "label": "经常如此" },
+    { "value": 4, "label": "几乎总是如此" }
+  ],
+  "questions": [
+    { "index": 0, "text": "当变化发生时，我能够适应", "type": "likert" },
+    { "index": 1, "text": "无论遇到什么，我都能应对", "type": "likert" },
+    { "index": 2, "text": "面对问题时，我会试着看到事情幽默的一面", "type": "likert" },
+    { "index": 3, "text": "应对压力能使我变得更强大", "type": "likert" },
+    { "index": 4, "text": "经历疾病、受伤或其他困难后，我往往能很快恢复", "type": "likert" },
+    { "index": 5, "text": "即使遇到障碍，我也相信自己能实现目标", "type": "likert" },
+    { "index": 6, "text": "在压力下，我能保持专注、思路清晰", "type": "likert" },
+    { "index": 7, "text": "我不会轻易被失败所打击", "type": "likert" },
+    { "index": 8, "text": "面对生活的挑战和困难时，我认为自己是一个坚强的人", "type": "likert" },
+    { "index": 9, "text": "我能够处理不愉快或痛苦的情绪，如悲伤、恐惧和愤怒", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 40,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 10,
+        "level": "severe",
+        "label": "心理弹性低",
+        "description": "您的心理弹性得分较低，表明在应对压力和逆境方面存在较大困难。您可能容易被挑战压倒，难以从挫折中恢复。",
+        "suggestions": [
+          "建议寻求心理健康专业人士的支持",
+          "通过小而可控的挑战逐步建立韧性",
+          "在日常情境中练习解决问题的技能",
+          "建立规律的自我照顾习惯，包括锻炼和充足睡眠",
+          "与能够在困难时期帮助您的支持性人群建立联系"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 20,
+        "level": "moderate",
+        "label": "心理弹性中等",
+        "description": "您的心理弹性处于中等水平。您能应对一些挑战，但在面对更大的压力或持续的逆境时可能会感到困难。",
+        "suggestions": [
+          "继续建立您的应对策略和压力管理技能",
+          "练习以更积极的方式重新审视消极情况",
+          "定期进行体育锻炼以增强心理韧性",
+          "加强您的社会支持网络",
+          "设定切实可行的目标并庆祝小成就"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "心理弹性较高",
+        "description": "您的心理弹性较高。您通常能够很好地应对挑战，并能从大多数挫折中恢复。",
+        "suggestions": [
+          "继续保持您有效的应对策略",
+          "通过新的经历挑战自己，进一步增强韧性",
+          "与可能受益的人分享您的韧性策略",
+          "保持充足休息和适当娱乐的均衡生活方式"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "minimal",
+        "label": "心理弹性高",
+        "description": "您的心理弹性得分很高，表明您具有很强的适应能力、应对压力的能力和从逆境中恢复的能力。",
+        "suggestions": [
+          "继续保持您优秀的韧性练习",
+          "考虑帮助他人建立心理弹性",
+          "以您的韧性为基础追求更高的目标",
+          "记住也要允许自己感受和处理困难的情绪"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 40 }
+  }
+}

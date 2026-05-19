@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "id": "asrs",
+    "name": "ASRS Adult ADHD Self-Report Scale",
+    "fullName": "Adult ADHD Self-Report Scale v1.1 Screener",
+    "description": "The ASRS v1.1 Screener is the Part A of the Adult ADHD Self-Report Scale developed by the World Health Organization (WHO), containing 6 of the most predictive items. Based on DSM-IV-TR criteria, it is used for rapid identification of adults who may have ADHD.",
+    "author": "Kessler et al. (2005)",
+    "license": "Free to use",
+    "reference": "Kessler RC, Adler L, Ames M, et al. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychol Med. 2005;35(2):245-256.",
+    "instruction": "Please answer the questions below, rating yourself on each of the criteria shown using the scale. As you answer each question, select the option that best describes how you have felt and conducted yourself over the past 6 months."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Never" },
+    { "value": 1, "label": "Rarely" },
+    { "value": 2, "label": "Sometimes" },
+    { "value": 3, "label": "Often" },
+    { "value": 4, "label": "Very Often" }
+  ],
+  "questions": [
+    { "index": 0, "text": "How often do you have trouble wrapping up the final details of a project, once the challenging parts have been done?", "type": "likert" },
+    { "index": 1, "text": "How often do you have difficulty getting things in order when you have to do a task that requires organization?", "type": "likert" },
+    { "index": 2, "text": "How often do you have problems remembering appointments or obligations?", "type": "likert" },
+    { "index": 3, "text": "When you have a task that requires a lot of thought, how often do you avoid or delay getting started?", "type": "likert" },
+    { "index": 4, "text": "How often do you fidget or squirm with your hands or feet when you have to sit down for a long time?", "type": "likert" },
+    { "index": 5, "text": "How often do you feel overly active and compelled to do things, like you were driven by a motor?", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 24,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "Normal Range",
+        "description": "Your ADHD screening score is within the normal range. Adult ADHD is unlikely.",
+        "suggestions": [
+          "No further ADHD assessment is currently needed",
+          "If you still have attention or activity concerns, try time management techniques",
+          "Maintaining a healthy lifestyle helps with focus and concentration"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 13,
+        "level": "mild",
+        "label": "Possible ADHD",
+        "description": "Your score suggests possible ADHD symptoms. Further evaluation is recommended.",
+        "suggestions": [
+          "Consider consulting a professional for a comprehensive ADHD evaluation",
+          "Learn about ADHD to improve self-understanding",
+          "Try using planners and reminder tools for daily organization",
+          "Regular exercise can help improve attention and hyperactivity symptoms"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 24,
+        "level": "moderate",
+        "label": "Likely ADHD",
+        "description": "Your score is elevated and ADHD symptoms are likely present. Professional evaluation is strongly recommended.",
+        "suggestions": [
+          "Strongly recommended to seek evaluation from a psychiatrist or psychologist",
+          "ADHD is a treatable condition — both medication and behavioral interventions can help",
+          "While awaiting evaluation, learn ADHD coping strategies",
+          "Build external reminder and organizational systems for daily life",
+          "Ensure adequate sleep and regular exercise"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 24 }
+  }
+}

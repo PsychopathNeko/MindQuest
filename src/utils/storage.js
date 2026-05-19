@@ -61,3 +61,16 @@ export function getAssessment(key) {
 export function deleteAssessment(key) {
   localStorage.removeItem(key)
 }
+
+
+/**
+ * Get all assessments for a specific scale, sorted by timestamp ascending (oldest first).
+ *
+ * @param {string} scaleId
+ * @returns {Array<{ key: string, data: Object }>}
+ */
+export function getAssessmentsForScale(scaleId) {
+  return getAssessments()
+    .filter((item) => item.data.scaleId === scaleId)
+    .sort((a, b) => (a.data.timestamp || 0) - (b.data.timestamp || 0))
+}

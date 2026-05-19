@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "pas",
+    "name": "PAS Panic and Agoraphobia Scale",
+    "fullName": "Panic and Agoraphobia Scale",
+    "description": "The PAS is a 13-item self-report scale designed to assess the severity of panic disorder with or without agoraphobia. It covers five domains: panic attacks, agoraphobic avoidance, anticipatory anxiety, disability, and health concerns.",
+    "author": "Bandelow B (1995)",
+    "license": "Free to use",
+    "reference": "Bandelow B. Assessing the efficacy of treatments for panic disorder and agoraphobia. II. The Panic and Agoraphobia Scale. Int Clin Psychopharmacol. 1995;10(2):73-81.",
+    "instruction": "Please rate how much the following problems have bothered you during the past week."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Not at all" },
+    { "value": 1, "label": "Mildly" },
+    { "value": 2, "label": "Moderately" },
+    { "value": 3, "label": "Severely" },
+    { "value": 4, "label": "Very severely" }
+  ],
+  "questions": [
+    { "index": 0, "text": "How many panic attacks did you have in the past week?", "type": "likert" },
+    { "index": 1, "text": "How severe were your panic attacks (considering intensity of symptoms)?", "type": "likert" },
+    { "index": 2, "text": "How long did your panic attacks last on average?", "type": "likert" },
+    { "index": 3, "text": "Did you have fear or worry about having another panic attack?", "type": "likert" },
+    { "index": 4, "text": "Did you avoid certain places or situations because of fear of having a panic attack?", "type": "likert" },
+    { "index": 5, "text": "Did you avoid being alone because of fear of having a panic attack?", "type": "likert" },
+    { "index": 6, "text": "Did you avoid crowded places (e.g., shops, public transport, cinemas)?", "type": "likert" },
+    { "index": 7, "text": "Did you avoid traveling long distances from home?", "type": "likert" },
+    { "index": 8, "text": "Were you restricted in your daily activities because of your panic or anxiety?", "type": "likert" },
+    { "index": 9, "text": "Were you restricted in your social life or leisure activities?", "type": "likert" },
+    { "index": 10, "text": "Were you restricted in your work or household duties?", "type": "likert" },
+    { "index": 11, "text": "Were you worried about your health because of the physical symptoms during panic?", "type": "likert" },
+    { "index": 12, "text": "Were you worried that you might have a serious illness (e.g., heart disease)?", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 52,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 8,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your score indicates no significant panic or agoraphobia symptoms. You are functioning well in this area.",
+        "suggestions": [
+          "Continue maintaining healthy coping strategies",
+          "Practice regular relaxation and stress management"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 18,
+        "level": "mild",
+        "label": "Mild Panic/Agoraphobia",
+        "description": "You are experiencing mild symptoms of panic or agoraphobia. These symptoms may cause some discomfort but are not significantly impairing.",
+        "suggestions": [
+          "Learn about panic disorder and its symptoms",
+          "Practice breathing exercises and grounding techniques",
+          "Gradually expose yourself to feared situations with support",
+          "Consider consulting a mental health professional if symptoms persist"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 28,
+        "level": "moderate",
+        "label": "Moderate Panic/Agoraphobia",
+        "description": "You are experiencing moderate panic or agoraphobia symptoms that are likely affecting your daily functioning.",
+        "suggestions": [
+          "Seek evaluation from a mental health professional",
+          "Cognitive behavioral therapy (CBT) is highly effective for panic disorder",
+          "Practice regular relaxation techniques",
+          "Avoid caffeine and other stimulants that may worsen symptoms"
+        ]
+      },
+      {
+        "min": 29,
+        "max": 39,
+        "level": "severe",
+        "label": "Severe Panic/Agoraphobia",
+        "description": "Your symptoms are severe and likely causing significant impairment in multiple areas of life.",
+        "suggestions": [
+          "Strongly recommended to seek professional treatment promptly",
+          "Consider a combination of medication and psychotherapy",
+          "Reach out to your support network for help",
+          "Do not attempt to face feared situations alone without professional guidance"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 52,
+        "level": "severe",
+        "label": "Very Severe Panic/Agoraphobia",
+        "description": "Your symptoms are very severe. Panic attacks and avoidance behavior are likely dominating your daily life. Immediate professional help is strongly recommended.",
+        "suggestions": [
+          "Please contact a mental health professional or visit a hospital immediately",
+          "Medication may be necessary to reduce acute symptoms",
+          "Ensure you have a safety plan and support person available",
+          "Remember that panic disorder is highly treatable with proper care"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 52 }
+  }
+}

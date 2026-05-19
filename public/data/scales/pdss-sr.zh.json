@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "id": "pdss-sr",
+    "name": "PDSS-SR 惊恐障碍严重度量表",
+    "fullName": "Panic Disorder Severity Scale - Self-Report",
+    "description": "PDSS-SR 是一份包含 7 个条目的自评量表，全面评估惊恐障碍的严重程度，包括惊恐发作频率、痛苦程度、预期焦虑、回避行为和功能损害。",
+    "author": "Houck, Spiegel, Shear & Rucci (2002)",
+    "license": "Public Domain",
+    "reference": "Houck PR, Spiegel DA, Shear MK, Rucci P. Reliability of the self-report version of the Panic Disorder Severity Scale. Depress Anxiety. 2002;15(4):183-185.",
+    "instruction": "请根据您过去一周的体验，对以下每个条目进行评分，选择最符合您情况的选项。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "没有" },
+    { "value": 1, "label": "轻度" },
+    { "value": 2, "label": "中度" },
+    { "value": 3, "label": "重度" },
+    { "value": 4, "label": "极重度" }
+  ],
+  "questions": [
+    { "index": 0, "text": "过去一周，您发生了多少次惊恐发作？", "type": "likert" },
+    { "index": 1, "text": "如果过去一周有惊恐发作，发作时您感到多痛苦？", "type": "likert" },
+    { "index": 2, "text": "过去一周，您对下一次惊恐发作的担忧或焦虑程度有多大？", "type": "likert" },
+    { "index": 3, "text": "过去一周，是否有因为害怕惊恐发作而回避或害怕的场所或情境？", "type": "likert" },
+    { "index": 4, "text": "过去一周，是否有因为让您联想到惊恐发作而回避的活动、感觉或体验？", "type": "likert" },
+    { "index": 5, "text": "过去一周，惊恐及相关症状在多大程度上干扰了您的工作或履行职责的能力？", "type": "likert" },
+    { "index": 6, "text": "过去一周，惊恐及相关症状在多大程度上干扰了您的社交生活？", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 28,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "minimal",
+        "label": "惊恐症状极轻",
+        "description": "您的得分表明惊恐障碍症状极轻或无明显症状。",
+        "suggestions": [
+          "继续保持健康的应对策略",
+          "定期练习压力管理技巧"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 13,
+        "level": "mild",
+        "label": "轻度至中度惊恐",
+        "description": "您的得分表明存在轻度至中度惊恐障碍症状，可能正在经历与惊恐发作相关的困扰。",
+        "suggestions": [
+          "了解惊恐发作的本质及其无害性",
+          "练习呼吸调节和放松技巧",
+          "考虑使用认知行为方法来管理焦虑",
+          "记录惊恐日记以识别触发因素"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 20,
+        "level": "moderate",
+        "label": "中度至重度惊恐",
+        "description": "您的得分表明存在中度至重度惊恐障碍症状，可能已影响到您的日常生活。",
+        "suggestions": [
+          "强烈建议寻求专业治疗",
+          "认知行为疗法（CBT）对惊恐障碍疗效显著",
+          "与精神科医生讨论药物治疗方案",
+          "避免使用维持惊恐循环的安全行为"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 28,
+        "level": "severe",
+        "label": "重度惊恐",
+        "description": "您的得分表明存在重度惊恐障碍症状，功能损害明显。",
+        "suggestions": [
+          "请尽快寻求专业帮助",
+          "CBT联合药物治疗对重度惊恐通常最为有效",
+          "不要因恐惧而回避场景，这会强化惊恐循环",
+          "建立支持系统，告知信任的人您的状况",
+          "请记住惊恐障碍是可以高效治疗的"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 28 }
+  }
+}

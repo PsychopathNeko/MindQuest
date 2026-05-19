@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "id": "who-5",
+    "name": "WHO-5 世界卫生组织幸福指数",
+    "fullName": "WHO-5 Well-Being Index",
+    "description": "WHO-5 是由世界卫生组织开发的5题幸福感自评简表，由5个积极措辞的条目组成，评估过去两周内的主观幸福感。也可用作抑郁筛查工具，低分提示需要进一步评估。",
+    "author": "WHO (1998)",
+    "license": "Public Domain",
+    "reference": "Topp CW, Østergaard SD, Søndergaard S, Bech P. The WHO-5 Well-Being Index: a systematic review of the literature. Psychother Psychosom. 2015;84(3):167-176.",
+    "instruction": "请根据以下五项描述，选择最接近您在过去两周内感受的选项。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "没有" },
+    { "value": 1, "label": "偶尔" },
+    { "value": 2, "label": "不到一半时间" },
+    { "value": 3, "label": "超过一半时间" },
+    { "value": 4, "label": "大部分时间" },
+    { "value": 5, "label": "所有时间" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我感到心情愉快、精神良好", "type": "likert" },
+    { "index": 1, "text": "我感到平静和放松", "type": "likert" },
+    { "index": 2, "text": "我感到精力充沛、充满活力", "type": "likert" },
+    { "index": 3, "text": "我醒来时感到神清气爽、休息充分", "type": "likert" },
+    { "index": 4, "text": "我的日常生活充满了让我感兴趣的事情", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 25,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 7,
+        "level": "severe",
+        "label": "幸福感很低",
+        "description": "您的幸福感得分很低，可能表明存在显著的情绪困扰或可能的抑郁。建议进一步评估。",
+        "suggestions": [
+          "建议咨询医疗专业人员进行抑郁筛查",
+          "向您信任的朋友、家人或咨询师倾诉",
+          "尝试参与以前让您感到快乐的活动",
+          "优先保证基本的自我照顾：睡眠、营养和适度活动"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 12,
+        "level": "moderate",
+        "label": "幸福感偏低",
+        "description": "您的幸福感得分低于平均水平，您可能正在经历积极情绪和精力的减退。",
+        "suggestions": [
+          "建议进行更详细的心理健康评估",
+          "增加参与令人愉快和有意义的活动",
+          "保持规律的体育锻炼",
+          "维持社交联系，与他人分享您的感受"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 17,
+        "level": "mild",
+        "label": "中等幸福感",
+        "description": "您的幸福感处于中等水平，在整体幸福感方面仍有提升空间。",
+        "suggestions": [
+          "继续培养积极的日常习惯",
+          "练习感恩和正念练习",
+          "保证充足的睡眠和体育活动",
+          "参与社交活动，维护支持性的人际关系"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "level": "normal",
+        "label": "幸福感良好",
+        "description": "您的幸福感得分较高，您正在体验良好的积极情绪、精力和对生活的投入。",
+        "suggestions": [
+          "继续保持积极的生活方式",
+          "与他人分享您的幸福秘诀",
+          "持续参与让您感到满足的活动",
+          "练习韧性建设以维持您的幸福感"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 25 }
+  }
+}

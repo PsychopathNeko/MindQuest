@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "id": "soc-13",
+    "name": "SOC-13 心理一致感量表",
+    "fullName": "Sense of Coherence Scale-13",
+    "description": "SOC-13 是一份包含13个条目的自评量表，用于评估个体的心理一致感——即一个人在多大程度上认为生活是可理解的、可管理的和有意义的。",
+    "author": "Antonovsky (1987)",
+    "license": "Free to use",
+    "reference": "Antonovsky A. Unraveling the mystery of health: How people manage stress and stay well. San Francisco: Jossey-Bass; 1987.",
+    "instruction": "请指出您对以下每个陈述的同意程度。没有对错之分。"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "1 (非常不同意)"
+    },
+    {
+      "value": 2,
+      "label": "2"
+    },
+    {
+      "value": 3,
+      "label": "3"
+    },
+    {
+      "value": 4,
+      "label": "4 (中立)"
+    },
+    {
+      "value": 5,
+      "label": "5"
+    },
+    {
+      "value": 6,
+      "label": "6"
+    },
+    {
+      "value": 7,
+      "label": "7 (非常同意)"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "你是否感觉你并不真正关心周围发生的事？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "你是否曾对你以为很了解的人的行为感到惊讶？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "你所依赖的人是否曾让你失望？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "到目前为止你的人生：（1=完全没有明确目标，7=有非常明确的目标）",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "你是否感觉自己被不公平对待？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "你是否感觉自己处于不熟悉的情境中不知所措？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "你每天做的事情是：（1=痛苦和无聊的来源，7=愉悦和满足的来源）",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "你是否有非常混乱的感受和想法？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "你是否有不想感受的内心感觉？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "许多人有时觉得自己是失败者。你多久有这种感觉？",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "当事情发生时，你是否通常能正确看待事情的重要性？（1=高估或低估，7=正确看待）",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "你多久会觉得日常所做之事没什么意义？",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "你多久会有不确定能否控制住的感觉？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 91,
+    "maxItemScore": 7,
+    "reverseItems": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 13,
+        "max": 31,
+        "level": "severe",
+        "label": "心理一致感很低",
+        "description": "您的心理一致感水平很低。",
+        "suggestions": [
+          "考虑寻求心理咨询师的专业支持",
+          "从小的、可管理的目标开始",
+          "找到能给您带来意义感的活动",
+          "建立支持性的社交联系"
+        ]
+      },
+      {
+        "min": 32,
+        "max": 52,
+        "level": "moderate",
+        "label": "心理一致感较低",
+        "description": "您的心理一致感低于平均水平。",
+        "suggestions": [
+          "反思您的个人价值观和赋予生活意义的事物",
+          "培养解决问题的能力",
+          "面对挑战时寻求社会支持"
+        ]
+      },
+      {
+        "min": 53,
+        "max": 71,
+        "level": "mild",
+        "label": "中等心理一致感",
+        "description": "您的心理一致感处于中等水平。",
+        "suggestions": [
+          "继续建立在现有应对策略之上",
+          "加强社交纽带和社区联系",
+          "练习感恩并反思积极的经历"
+        ]
+      },
+      {
+        "min": 72,
+        "max": 91,
+        "level": "minimal",
+        "label": "强心理一致感",
+        "description": "您的心理一致感很强。",
+        "suggestions": [
+          "继续保持您积极的人生观和应对策略",
+          "与可能受益的他人分享您的韧性技能"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 13,
+      "max": 91
+    }
+  }
+}

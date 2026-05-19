@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "id": "saps",
+    "name": "SAPS 简版近乎完美量表",
+    "fullName": "Short Almost Perfect Scale",
+    "description": "SAPS 是一份 8 题简短量表，评估完美主义的两个核心维度：高标准（对自身要求高）和差距感（感觉自己达不到标准），帮助区分适应性和非适应性完美主义。",
+    "author": "Rice, Richardson & Tueller (2014)",
+    "license": "Free to use",
+    "reference": "Rice SP, Richardson CME, Tueller S. The Short Form of the Revised Almost Perfect Scale. Journal of Personality Assessment. 2014;96(3):368-379.",
+    "instruction": "请根据你的真实想法和感受，选择最符合你情况的选项。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "非常不同意" },
+    { "value": 2, "label": "不同意" },
+    { "value": 3, "label": "有点不同意" },
+    { "value": 4, "label": "中立" },
+    { "value": 5, "label": "有点同意" },
+    { "value": 6, "label": "同意" },
+    { "value": 7, "label": "非常同意" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我对自己在工作或学业上的表现有很高的标准", "type": "likert" },
+    { "index": 1, "text": "我是一个做事有条理的人", "type": "likert" },
+    { "index": 2, "text": "整洁对我来说很重要", "type": "likert" },
+    { "index": 3, "text": "我对自己期望很高", "type": "likert" },
+    { "index": 4, "text": "我经常因为无法达成自己的目标而感到沮丧", "type": "likert" },
+    { "index": 5, "text": "我觉得自己做到最好也还是不够好", "type": "likert" },
+    { "index": 6, "text": "我很少能达到自己的高标准", "type": "likert" },
+    { "index": 7, "text": "我对自己的成就从不满意", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 56,
+    "maxItemScore": 7,
+    "subscales": [
+      { "id": "standards", "name": "高标准", "items": [0, 1, 2, 3], "maxScore": 28 },
+      { "id": "discrepancy", "name": "差距感", "items": [4, 5, 6, 7], "maxScore": 28 }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 8,
+        "max": 28,
+        "level": "minimal",
+        "label": "非完美主义",
+        "description": "您的完美主义倾向较低，对自身要求不高。",
+        "suggestions": [
+          "适当提高对自己的期望可以促进成长",
+          "设定具体可衡量的目标"
+        ]
+      },
+      {
+        "min": 29,
+        "max": 42,
+        "level": "normal",
+        "label": "适应性完美主义",
+        "description": "您有较高的标准，但差距感较低，这是一种健康的完美主义形式。",
+        "suggestions": [
+          "继续保持高标准与自我接纳的平衡",
+          "注意避免标准逐渐变得不切实际"
+        ]
+      },
+      {
+        "min": 43,
+        "max": 56,
+        "level": "moderate",
+        "label": "非适应性完美主义",
+        "description": "您不仅有高标准，还经常感觉自己达不到这些标准，这可能导致焦虑、自我批评和拖延。",
+        "suggestions": [
+          "学习区分\"足够好\"和\"完美\"",
+          "练习自我关怀，减少自我批评",
+          "关注进步而非完美",
+          "如果完美主义严重影响生活，建议咨询心理专业人士"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "standards": [
+        {
+          "min": 4,
+          "max": 14,
+          "level": "mild",
+          "label": "标准较低",
+          "description": "您对自己的要求不高。"
+        },
+        {
+          "min": 15,
+          "max": 21,
+          "level": "normal",
+          "label": "标准中等",
+          "description": "您有合理的自我要求。"
+        },
+        {
+          "min": 22,
+          "max": 28,
+          "level": "minimal",
+          "label": "标准很高",
+          "description": "您对自己有很高的期望和要求。"
+        }
+      ],
+      "discrepancy": [
+        {
+          "min": 4,
+          "max": 11,
+          "level": "minimal",
+          "label": "差距感低",
+          "description": "您能较好地接受自己的表现。"
+        },
+        {
+          "min": 12,
+          "max": 19,
+          "level": "mild",
+          "label": "差距感中等",
+          "description": "您有时觉得自己的表现不够好。"
+        },
+        {
+          "min": 20,
+          "max": 28,
+          "level": "moderate",
+          "label": "差距感高",
+          "description": "您经常感觉自己达不到标准，这可能带来情绪困扰。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["standards", "discrepancy"],
+      "maxDisplayScore": 28
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "高标准", "max": 28 },
+        { "name": "差距感", "max": 28 }
+      ]
+    }
+  }
+}

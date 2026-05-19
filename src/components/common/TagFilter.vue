@@ -1,4 +1,6 @@
 <script setup>
+import { useLocale } from '@/composables/useLocale'
+
 defineProps({
   tags: {
     type: Array,
@@ -11,6 +13,7 @@ defineProps({
 })
 
 const emit = defineEmits(['toggle', 'clear'])
+const { t } = useLocale()
 </script>
 
 <template>
@@ -20,7 +23,7 @@ const emit = defineEmits(['toggle', 'clear'])
       :class="{ active: selectedTags.length === 0 }"
       @click="emit('clear')"
     >
-      全部
+      {{ t('filter.all') }}
     </button>
     <button
       v-for="tag in tags"
@@ -77,7 +80,7 @@ const emit = defineEmits(['toggle', 'clear'])
 .tag-chip:hover {
   border-color: var(--color-primary-light);
   color: var(--color-primary);
-  background-color: rgba(59, 130, 246, 0.04);
+  background-color: rgba(125, 162, 247, 0.04);
 }
 
 .tag-chip.active {

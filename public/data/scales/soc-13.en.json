@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "id": "soc-13",
+    "name": "SOC-13 Sense of Coherence Scale",
+    "fullName": "Sense of Coherence Scale-13",
+    "description": "The SOC-13 is a 13-item self-report measure that assesses an individual’s sense of coherence - the extent to which one perceives life as comprehensible, manageable, and meaningful. A strong sense of coherence is associated with better health outcomes and effective coping with stress.",
+    "author": "Antonovsky (1987)",
+    "license": "Free to use",
+    "reference": "Antonovsky A. Unraveling the mystery of health: How people manage stress and stay well. San Francisco: Jossey-Bass; 1987.",
+    "instruction": "Please indicate how much you agree with each of the following statements. There are no right or wrong answers."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "1 (Strongly disagree)"
+    },
+    {
+      "value": 2,
+      "label": "2"
+    },
+    {
+      "value": 3,
+      "label": "3"
+    },
+    {
+      "value": 4,
+      "label": "4 (Neutral)"
+    },
+    {
+      "value": 5,
+      "label": "5"
+    },
+    {
+      "value": 6,
+      "label": "6"
+    },
+    {
+      "value": 7,
+      "label": "7 (Strongly agree)"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Do you have the feeling that you don’t really care about what goes on around you?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Has it happened that you were surprised by the behavior of people whom you thought you knew well?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Has it happened that people whom you counted on disappointed you?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Until now your life has had: (1 = no clear goals or purpose, 7 = very clear goals and purpose)",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Do you have the feeling that you’re being treated unfairly?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Do you have the feeling that you are in an unfamiliar situation and don’t know what to do?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Doing the things you do every day is: (1 = a source of pain and boredom, 7 = a source of pleasure and satisfaction)",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Do you have very mixed-up feelings and ideas?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Does it happen that you have feelings inside you would rather not feel?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Many people sometimes feel like losers. How often have you felt this way?",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "When something happened, have you generally found that you saw things in the right proportion? (1 = over/underestimated, 7 = right proportion)",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "How often do you have the feeling that there’s little meaning in the things you do in your daily life?",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "How often do you have feelings that you’re not sure you can keep under control?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 91,
+    "maxItemScore": 7,
+    "reverseItems": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 13,
+        "max": 31,
+        "level": "severe",
+        "label": "Very Low Coherence",
+        "description": "Your sense of coherence is very low. You may find it difficult to see the world as comprehensible, manageable, and meaningful.",
+        "suggestions": [
+          "Consider seeking professional support from a counselor or psychologist",
+          "Start with small, manageable goals to build a sense of control",
+          "Identify activities that give you a sense of meaning and purpose",
+          "Build supportive social connections"
+        ]
+      },
+      {
+        "min": 32,
+        "max": 52,
+        "level": "moderate",
+        "label": "Low Coherence",
+        "description": "Your sense of coherence is below average. You may sometimes struggle to find meaning, predictability, or manageability in life events.",
+        "suggestions": [
+          "Reflect on your personal values and what gives your life meaning",
+          "Develop problem-solving skills to enhance feelings of manageability",
+          "Seek social support when facing challenges",
+          "Engage in activities that provide structure and routine"
+        ]
+      },
+      {
+        "min": 53,
+        "max": 71,
+        "level": "mild",
+        "label": "Moderate Coherence",
+        "description": "Your sense of coherence is at a moderate level. You generally find life comprehensible and manageable, with room for strengthening your sense of meaning.",
+        "suggestions": [
+          "Continue building on your existing coping strategies",
+          "Seek new experiences that challenge and engage you",
+          "Strengthen social bonds and community connections",
+          "Practice gratitude and reflect on positive experiences"
+        ]
+      },
+      {
+        "min": 72,
+        "max": 91,
+        "level": "minimal",
+        "label": "Strong Coherence",
+        "description": "Your sense of coherence is strong. You tend to see life as comprehensible, manageable, and meaningful, which supports effective stress management.",
+        "suggestions": [
+          "Continue maintaining your positive outlook and coping strategies",
+          "Share your resilience skills with others who may benefit",
+          "Stay engaged with meaningful activities and relationships"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 13,
+      "max": 91
+    }
+  }
+}

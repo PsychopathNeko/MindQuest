@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "id": "sias",
+    "name": "SIAS Social Interaction Anxiety Scale",
+    "fullName": "Social Interaction Anxiety Scale",
+    "description": "The SIAS is a 20-item self-report scale that specifically assesses anxiety in social interaction situations. It focuses on anxiety experienced when communicating and interacting with others, complementing the Social Phobia Scale (SPS) which measures scrutiny fears. It is one of the most widely used instruments in social anxiety research and clinical assessment.",
+    "author": "Mattick & Clarke (1998)",
+    "license": "Free to use",
+    "reference": "Mattick RP, Clarke JC. Development and validation of measures of social phobia scrutiny fear and social interaction anxiety. Behav Res Ther. 1998;36(4):455-470.",
+    "instruction": "For each item, please indicate the degree to which you feel the statement is characteristic or true of you."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Not at all" },
+    { "value": 1, "label": "Slightly" },
+    { "value": 2, "label": "Moderately" },
+    { "value": 3, "label": "Very" },
+    { "value": 4, "label": "Extremely" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I get nervous if I have to speak with someone in authority (teacher, boss, etc.)", "type": "likert" },
+    { "index": 1, "text": "I have difficulty making eye contact with others", "type": "likert" },
+    { "index": 2, "text": "I become tense if I have to talk about myself or my feelings", "type": "likert" },
+    { "index": 3, "text": "I find it difficult to mix comfortably with the people I work with", "type": "likert" },
+    { "index": 4, "text": "I find it easy to make friends my own age", "type": "likert" },
+    { "index": 5, "text": "I tense up if I meet an acquaintance in the street", "type": "likert" },
+    { "index": 6, "text": "When mixing socially, I am uncomfortable", "type": "likert" },
+    { "index": 7, "text": "I feel tense if I am alone with just one other person", "type": "likert" },
+    { "index": 8, "text": "I am at ease meeting people at parties, etc.", "type": "likert" },
+    { "index": 9, "text": "I have difficulty talking with other people", "type": "likert" },
+    { "index": 10, "text": "I find it easy to think of things to talk about", "type": "likert" },
+    { "index": 11, "text": "I worry about expressing myself in case I appear awkward", "type": "likert" },
+    { "index": 12, "text": "I find it difficult to disagree with another's point of view", "type": "likert" },
+    { "index": 13, "text": "I have difficulty talking to attractive persons of the opposite sex", "type": "likert" },
+    { "index": 14, "text": "I find myself worrying that I won't know what to say in social situations", "type": "likert" },
+    { "index": 15, "text": "I am nervous mixing with people I don't know well", "type": "likert" },
+    { "index": 16, "text": "I feel I'll say something embarrassing when talking", "type": "likert" },
+    { "index": 17, "text": "When mixing in a group, I find myself worrying I will be ignored", "type": "likert" },
+    { "index": 18, "text": "I get tense when I speak in front of other people", "type": "likert" },
+    { "index": 19, "text": "I doubt whether others really like me", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 80,
+    "maxItemScore": 4,
+    "reverseItems": [4, 8, 10],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 19,
+        "level": "minimal",
+        "label": "No/Low Social Anxiety",
+        "description": "Your social interaction anxiety level is low. You generally do not experience significant anxiety or discomfort in social situations.",
+        "suggestions": [
+          "Continue maintaining your good social interaction skills",
+          "Actively participate in various social activities",
+          "Occasional social discomfort is normal and nothing to worry about"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 33,
+        "level": "moderate",
+        "label": "Moderate Social Anxiety",
+        "description": "Your social interaction anxiety is at a moderate level. You may feel uncomfortable or nervous in certain social situations.",
+        "suggestions": [
+          "Try gradually approaching social situations that make you anxious",
+          "Learn social skills and relaxation techniques",
+          "Challenge negative thoughts about social situations",
+          "If social anxiety is affecting your daily life, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 34,
+        "max": 52,
+        "level": "severe",
+        "label": "High Social Anxiety",
+        "description": "Your social interaction anxiety level is high, exceeding the clinical screening cutoff (34). Social situations likely cause you significant distress.",
+        "suggestions": [
+          "It is recommended to consult a mental health professional for assessment",
+          "Cognitive Behavioral Therapy (CBT) is highly effective for social anxiety",
+          "Avoid completely withdrawing from social situations; gradual exposure is an effective strategy",
+          "Learn relaxation and mindfulness techniques to manage anxiety symptoms",
+          "Consider joining a social anxiety support group"
+        ]
+      },
+      {
+        "min": 53,
+        "max": 80,
+        "level": "very_severe",
+        "label": "Very High Social Anxiety",
+        "description": "Your social interaction anxiety level is very high. Social situations are very likely to severely affect your daily functioning and quality of life.",
+        "suggestions": [
+          "Strongly recommended to seek professional mental health treatment",
+          "Medication combined with psychotherapy may be needed",
+          "Cognitive Behavioral Therapy (CBT) and exposure therapy are evidence-based treatments",
+          "Do not let shame or embarrassment delay seeking help",
+          "Inform trusted family members or friends about your difficulties and seek their support"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 80 }
+  }
+}

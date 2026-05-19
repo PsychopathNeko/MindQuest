@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "id": "spane",
+    "name": "SPANE 积极与消极体验量表",
+    "fullName": "Scale of Positive and Negative Experience",
+    "description": "SPANE 是一份包含 12 个条目的主观幸福感量表，评估过去四周内体验到的积极和消极感受，提供积极体验、消极体验和整体情感平衡的得分。",
+    "author": "Diener, Wirtz, Tov, Kim-Prieto, Choi, Oishi & Biswas-Diener (2010)",
+    "license": "Free to use",
+    "reference": "Diener E, et al. New well-being measures: Short scales to assess flourishing and positive and negative feelings. Social Indicators Research. 2010;97(2):143-156.",
+    "instruction": "请回想过去四周中您的活动和体验，然后使用以下量表报告您体验到以下各种感受的程度。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "很少或从不" },
+    { "value": 2, "label": "偶尔" },
+    { "value": 3, "label": "有时" },
+    { "value": 4, "label": "经常" },
+    { "value": 5, "label": "总是或非常频繁" }
+  ],
+  "questions": [
+    { "index": 0, "text": "积极的", "type": "likert" },
+    { "index": 1, "text": "消极的", "type": "likert" },
+    { "index": 2, "text": "好的", "type": "likert" },
+    { "index": 3, "text": "坏的", "type": "likert" },
+    { "index": 4, "text": "愉快的", "type": "likert" },
+    { "index": 5, "text": "不愉快的", "type": "likert" },
+    { "index": 6, "text": "快乐的", "type": "likert" },
+    { "index": 7, "text": "悲伤的", "type": "likert" },
+    { "index": 8, "text": "害怕的", "type": "likert" },
+    { "index": 9, "text": "喜悦的", "type": "likert" },
+    { "index": 10, "text": "愤怒的", "type": "likert" },
+    { "index": 11, "text": "满足的", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 60,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "positive",
+        "name": "积极感受",
+        "items": [0, 2, 4, 6, 9, 11],
+        "maxScore": 30
+      },
+      {
+        "id": "negative",
+        "name": "消极感受",
+        "items": [1, 3, 5, 7, 8, 10],
+        "maxScore": 30
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 24,
+        "level": "severe",
+        "label": "幸福感低",
+        "description": "您的整体情绪体验表明幸福感较低，消极感受可能在日常生活中占主导地位。",
+        "suggestions": [
+          "建议咨询心理健康专业人士",
+          "尝试参与能带来快乐或满足感的活动",
+          "向支持您的朋友或家人寻求帮助",
+          "每天进行小小的自我关爱"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "moderate",
+        "label": "幸福感低于平均",
+        "description": "您的情绪体验低于平均水平，可能消极感受多于积极感受。",
+        "suggestions": [
+          "识别能提升积极情绪的活动和情境",
+          "考虑正念或运动等压力管理技巧",
+          "长期监测自己的情绪模式",
+          "如感受持续，建议咨询心理咨询师"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "mild",
+        "label": "幸福感高于平均",
+        "description": "您的情绪体验高于平均水平，总体上保持积极的心态和良好的情绪平衡。",
+        "suggestions": [
+          "继续参与带来积极体验的活动",
+          "维持社交联系和支持性关系",
+          "练习感恩以巩固积极的情绪模式"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "minimal",
+        "label": "幸福感高",
+        "description": "您的情绪体验表明幸福感很高，经常体验积极感受，很少体验消极感受。",
+        "suggestions": [
+          "继续保持健康的生活方式和应对策略",
+          "将积极情绪与他人分享",
+          "继续培养支持幸福感的关系和活动"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "positive": [
+        {
+          "min": 6,
+          "max": 12,
+          "level": "severe",
+          "label": "积极感受低",
+          "description": "您很少体验到积极情绪，建议寻找更多能带来愉悦的活动。"
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "moderate",
+          "label": "积极感受中等",
+          "description": "您有时体验到积极情绪，但仍有改善空间。"
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "mild",
+          "label": "积极感受高",
+          "description": "您经常体验到积极情绪，表明情绪健康状况良好。"
+        },
+        {
+          "min": 25,
+          "max": 30,
+          "level": "minimal",
+          "label": "积极感受很高",
+          "description": "您非常频繁地体验到积极情绪，反映出极佳的情绪幸福感。"
+        }
+      ],
+      "negative": [
+        {
+          "min": 6,
+          "max": 12,
+          "level": "minimal",
+          "label": "消极感受低",
+          "description": "您很少体验到消极情绪，表明情绪健康状况良好。"
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "mild",
+          "label": "消极感受中等",
+          "description": "您有时体验到消极情绪，属于正常范围。"
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "moderate",
+          "label": "消极感受高",
+          "description": "您经常体验到消极情绪，建议学习压力和情绪管理策略。"
+        },
+        {
+          "min": 25,
+          "max": 30,
+          "level": "severe",
+          "label": "消极感受很高",
+          "description": "您非常频繁地体验到消极情绪，建议寻求专业支持。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["positive", "negative"],
+      "maxDisplayScore": 30
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "积极感受", "max": 30 },
+        { "name": "消极感受", "max": 30 }
+      ]
+    }
+  }
+}

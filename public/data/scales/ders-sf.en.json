@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "id": "ders-sf",
+    "name": "DERS-SF Difficulties in Emotion Regulation Scale",
+    "fullName": "Difficulties in Emotion Regulation Scale-Short Form",
+    "description": "The DERS-SF is an 18-item short form assessing difficulties in emotion regulation across 6 dimensions: nonacceptance of emotional responses, difficulties engaging in goal-directed behavior, impulse control difficulties, lack of emotional awareness, limited access to emotion regulation strategies, and lack of emotional clarity.",
+    "author": "Kaufman et al. (2016)",
+    "license": "Free to use",
+    "reference": "Kaufman EA, Xia M, Fosco G, et al. The Difficulties in Emotion Regulation Scale Short Form (DERS-SF). J Psychopathol Behav Assess. 2016;38(3):443-455.",
+    "instruction": "Please indicate how often the following statements apply to you."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Almost never (0-10%)"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes (11-35%)"
+    },
+    {
+      "value": 3,
+      "label": "About half the time (36-65%)"
+    },
+    {
+      "value": 4,
+      "label": "Most of the time (66-90%)"
+    },
+    {
+      "value": 5,
+      "label": "Almost always (91-100%)"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I pay attention to how I feel",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I have no idea how I am feeling",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I have difficulty making sense out of my feelings",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I care about what I am feeling",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I am confused about how I feel",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "When I am upset, I feel guilty for feeling that way",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "When I am upset, I become embarrassed for feeling that way",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "When I am upset, I have difficulty getting work done",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "When I am upset, I become out of control",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "When I am upset, I believe that I will end up feeling very depressed",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "When I am upset, I become angry with myself for feeling that way",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "When I am upset, I have difficulty focusing on other things",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "When I am upset, I have difficulty controlling my behaviors",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "When I am upset, I believe there is nothing I can do to make myself feel better",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "When I am upset, I become irritated with myself for feeling that way",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "When I am upset, I start to feel very bad about myself",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "When I am upset, I have difficulty thinking about anything else",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "When I am upset, my emotions feel overwhelming",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 90,
+    "maxItemScore": 5,
+    "reverseItems": [
+      0,
+      1,
+      3,
+      9
+    ],
+    "subscales": [
+      {
+        "id": "awareness",
+        "name": "Lack of Awareness",
+        "items": [
+          0,
+          3
+        ],
+        "reverseItems": [
+          0,
+          3
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "clarity",
+        "name": "Lack of Clarity",
+        "items": [
+          1,
+          2,
+          4
+        ],
+        "reverseItems": [
+          1
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "nonacceptance",
+        "name": "Nonacceptance",
+        "items": [
+          5,
+          6,
+          10
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "goals",
+        "name": "Goals",
+        "items": [
+          7,
+          11,
+          16
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "impulse",
+        "name": "Impulse",
+        "items": [
+          8,
+          12,
+          17
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "strategies",
+        "name": "Strategies",
+        "items": [
+          9,
+          13,
+          14,
+          15
+        ],
+        "reverseItems": [
+          9
+        ],
+        "maxScore": 20
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 18,
+        "max": 36,
+        "level": "minimal",
+        "label": "Good Emotion Regulation",
+        "description": "Your emotion regulation abilities are at a good level.",
+        "suggestions": [
+          "Continue maintaining your emotion regulation skills"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 54,
+        "level": "mild",
+        "label": "Mild Difficulties",
+        "description": "You have some mild difficulties in emotion regulation.",
+        "suggestions": [
+          "Learn emotion regulation techniques",
+          "Practice mindfulness to enhance emotional awareness"
+        ]
+      },
+      {
+        "min": 55,
+        "max": 72,
+        "level": "moderate",
+        "label": "Moderate Difficulties",
+        "description": "You have moderate difficulties in emotion regulation.",
+        "suggestions": [
+          "Consider seeking counseling",
+          "Learn DBT emotion regulation skills"
+        ]
+      },
+      {
+        "min": 73,
+        "max": 90,
+        "level": "severe",
+        "label": "Severe Difficulties",
+        "description": "You have severe difficulties in emotion regulation.",
+        "suggestions": [
+          "Strongly recommended to seek professional therapy",
+          "DBT is highly effective for emotion regulation difficulties"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "awareness": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "minimal",
+          "label": "High Awareness",
+          "description": "Good awareness of emotional states."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "Average emotional awareness."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "severe",
+          "label": "Low Awareness",
+          "description": "May tend to ignore emotional states."
+        }
+      ],
+      "clarity": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "High Clarity",
+          "description": "Good understanding of emotions."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "normal",
+          "label": "Average",
+          "description": "Average emotional clarity."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "severe",
+          "label": "Low Clarity",
+          "description": "Difficulty identifying emotions."
+        }
+      ],
+      "nonacceptance": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "High Acceptance",
+          "description": "Can accept emotional reactions."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "normal",
+          "label": "Average",
+          "description": "Average emotional acceptance."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "severe",
+          "label": "Low Acceptance",
+          "description": "Secondary negative reactions to emotions."
+        }
+      ],
+      "goals": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "Low Impact",
+          "description": "Emotions minimally affect goal behavior."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "normal",
+          "label": "Average",
+          "description": "Sometimes affects goal behavior."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "severe",
+          "label": "High Impact",
+          "description": "Severely affects task completion."
+        }
+      ],
+      "impulse": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "Good Control",
+          "description": "Maintains behavioral control when upset."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "normal",
+          "label": "Average",
+          "description": "Average impulse control."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "severe",
+          "label": "Poor Control",
+          "description": "Difficulty controlling behavior when upset."
+        }
+      ],
+      "strategies": [
+        {
+          "min": 4,
+          "max": 8,
+          "level": "minimal",
+          "label": "Rich Strategies",
+          "description": "Multiple effective strategies available."
+        },
+        {
+          "min": 9,
+          "max": 14,
+          "level": "normal",
+          "label": "Average",
+          "description": "Average strategy access."
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "Limited Strategies",
+          "description": "Lacks effective coping strategies."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "awareness",
+        "clarity",
+        "nonacceptance",
+        "goals",
+        "impulse",
+        "strategies"
+      ],
+      "maxDisplayScore": 20
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Lack of Awareness",
+          "max": 10
+        },
+        {
+          "name": "Lack of Clarity",
+          "max": 15
+        },
+        {
+          "name": "Nonacceptance",
+          "max": 15
+        },
+        {
+          "name": "Goals",
+          "max": 15
+        },
+        {
+          "name": "Impulse",
+          "max": 15
+        },
+        {
+          "name": "Strategies",
+          "max": 20
+        }
+      ]
+    }
+  }
+}

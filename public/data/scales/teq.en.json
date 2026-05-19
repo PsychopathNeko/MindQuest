@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "id": "teq",
+    "name": "TEQ Toronto Empathy Questionnaire",
+    "fullName": "Toronto Empathy Questionnaire",
+    "description": "The TEQ is a 16-item self-report scale that assesses an individual’s empathy. It measures the ability to understand and share the emotional states of others, serving as a concise and effective empathy measurement tool.",
+    "author": "Spreng, McKinnon, Mar & Levine (2009)",
+    "license": "Free for research use",
+    "reference": "Spreng RN, McKinnon MC, Mar RA, Levine B. The Toronto Empathy Questionnaire: scale development and initial validation of a factor-analytic solution to multiple empathy measures. J Pers Assess. 2009;91(1):62-71.",
+    "instruction": "Please rate each statement based on your true feelings."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Never"
+    },
+    {
+      "value": 1,
+      "label": "Rarely"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes"
+    },
+    {
+      "value": 3,
+      "label": "Often"
+    },
+    {
+      "value": 4,
+      "label": "Always"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "When someone else is excited, I tend to get excited too",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Other people’s misfortunes do not disturb me a great deal",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "It upsets me to see someone being treated disrespectfully",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am not really affected by other people’s positive emotions",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I enjoy making other people feel better when they’re down",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I am rarely moved by what happens to other people",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I get angry when I see someone being taken advantage of",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Sometimes I don’t feel very sorry for other people",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "When I see someone being hurt, I want to protect them",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Other people’s feelings matter to me",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "When I see someone in an emergency, I feel helpless",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I consider other people’s feelings before making decisions",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "When someone else cries, I feel like crying too",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I don’t really care about other people’s needs",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Seeing others treated unfairly doesn’t bother me much",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I think showing compassion is a sign of weakness",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 64,
+    "maxItemScore": 4,
+    "reverseItems": [
+      1,
+      3,
+      5,
+      7,
+      10,
+      13,
+      14,
+      15
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 16,
+        "level": "severe",
+        "label": "Low Empathy",
+        "description": "Your empathy score is low, indicating potential difficulty in understanding and feeling others’ emotions.",
+        "suggestions": [
+          "Try to actively pay attention to others’ emotional expressions",
+          "Practice perspective-taking by imagining yourself in others’ situations",
+          "Consider seeking counseling to enhance empathy skills",
+          "Read books about emotional intelligence and empathy"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 32,
+        "level": "mild",
+        "label": "Below Average Empathy",
+        "description": "Your empathy is at a below-average level. You may sometimes find it difficult to fully feel others’ emotions.",
+        "suggestions": [
+          "Engage in more social activities to improve understanding of others",
+          "Practice active listening skills",
+          "Pay attention to nonverbal cues like facial expressions and body language",
+          "Try volunteering to strengthen compassion"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 48,
+        "level": "normal",
+        "label": "Above Average Empathy",
+        "description": "Your empathy is at an above-average level. You can generally understand and respond well to others’ emotions.",
+        "suggestions": [
+          "Continue maintaining sensitivity to others’ feelings",
+          "Practice self-regulation while being empathetic",
+          "Use your empathy to build deeper interpersonal relationships"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 64,
+        "level": "minimal",
+        "label": "High Empathy",
+        "description": "Your empathy score is very high. You can deeply understand and feel others’ emotions.",
+        "suggestions": [
+          "Your empathy is a valuable social resource",
+          "Be mindful of protecting your own emotional health while empathizing with others",
+          "Set appropriate psychological boundaries to avoid empathy fatigue"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 64
+    }
+  }
+}

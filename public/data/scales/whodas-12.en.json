@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "id": "whodas-12",
+    "name": "WHODAS 2.0 WHO Disability Assessment Schedule",
+    "fullName": "WHO Disability Assessment Schedule 2.0 (12-item version)",
+    "description": "The WHODAS 2.0 is a 12-item self-report measure developed by the World Health Organization to assess health-related disability across six domains: Cognition, Mobility, Self-care, Getting along, Life activities, and Participation. It provides a standardized, cross-cultural assessment of functioning and disability regardless of medical diagnosis.",
+    "author": "World Health Organization (2010)",
+    "license": "Free to use",
+    "reference": "Ustun TB, Kostanjesek N, Chatterji S, Rehm J. Measuring health and disability: Manual for WHO Disability Assessment Schedule (WHODAS 2.0). World Health Organization. 2010.",
+    "instruction": "In the last 30 days, how much difficulty did you have in the following activities? Please select the most appropriate response for each item."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "None"
+    },
+    {
+      "value": 1,
+      "label": "Mild"
+    },
+    {
+      "value": 2,
+      "label": "Moderate"
+    },
+    {
+      "value": 3,
+      "label": "Severe"
+    },
+    {
+      "value": 4,
+      "label": "Extreme/Cannot do"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Concentrating on doing something for ten minutes?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Remembering to do important things?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Standing for long periods such as 30 minutes?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Walking a long distance such as a kilometre?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Washing your whole body?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Getting dressed?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Dealing with people you do not know?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Maintaining a friendship?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Your day-to-day work/school?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "How much of a problem did you have in doing your most important day-to-day activities well?",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "How much have you been emotionally affected by your health condition?",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Joining in community activities in the same way as anyone else can?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 48,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "cognition",
+        "name": "Cognition",
+        "items": [
+          0,
+          1
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "mobility",
+        "name": "Mobility",
+        "items": [
+          2,
+          3
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "self_care",
+        "name": "Self-care",
+        "items": [
+          4,
+          5
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "getting_along",
+        "name": "Getting Along",
+        "items": [
+          6,
+          7
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "life_activities",
+        "name": "Life Activities",
+        "items": [
+          8,
+          9
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "participation",
+        "name": "Participation",
+        "items": [
+          10,
+          11
+        ],
+        "maxScore": 8
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 12,
+        "level": "minimal",
+        "label": "No Disability",
+        "description": "Your total score indicates no significant disability. You are functioning well across the assessed domains.",
+        "suggestions": [
+          "Continue maintaining your current level of functioning",
+          "Engage in health-promoting activities to preserve your well-being",
+          "Monitor any changes in your functioning over time"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 24,
+        "level": "mild",
+        "label": "Mild Disability",
+        "description": "Your total score indicates mild disability. Some areas of daily functioning may be affected to a limited degree.",
+        "suggestions": [
+          "Identify the domains where you experience the most difficulty",
+          "Consider adaptive strategies or tools to support daily activities",
+          "Discuss any concerns with your healthcare provider",
+          "Maintain physical activity appropriate to your abilities"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "moderate",
+        "label": "Moderate Disability",
+        "description": "Your total score indicates moderate disability. Several areas of daily functioning are notably affected.",
+        "suggestions": [
+          "Consult with healthcare professionals about rehabilitation options",
+          "Explore assistive devices or environmental modifications",
+          "Seek support services for areas of greatest difficulty",
+          "Review your subscale scores to prioritize intervention areas"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "severe",
+        "label": "Severe Disability",
+        "description": "Your total score indicates severe disability. Many areas of daily functioning are significantly impaired and require professional support.",
+        "suggestions": [
+          "Seek comprehensive assessment from a multidisciplinary team",
+          "Explore available disability support services and programs",
+          "Discuss treatment and rehabilitation options with your healthcare provider",
+          "Consider applying for relevant support and assistance programs"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "cognition": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "None",
+          "description": "No significant difficulty with cognition."
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Mild difficulty with concentration and memory."
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate cognitive difficulties affecting daily tasks."
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe cognitive difficulties significantly impairing daily functioning."
+        }
+      ],
+      "mobility": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "None",
+          "description": "No significant difficulty with mobility."
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Mild difficulty with standing and walking."
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate mobility limitations affecting daily activities."
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe mobility difficulties significantly limiting movement."
+        }
+      ],
+      "self_care": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "None",
+          "description": "No significant difficulty with self-care."
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Mild difficulty with washing and dressing."
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate self-care difficulties requiring some assistance."
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe self-care difficulties requiring substantial assistance."
+        }
+      ],
+      "getting_along": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "None",
+          "description": "No significant difficulty getting along with others."
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Mild difficulty in social interactions and relationships."
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate difficulty maintaining relationships and interacting with others."
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe difficulty in social interactions significantly impairing relationships."
+        }
+      ],
+      "life_activities": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "None",
+          "description": "No significant difficulty with life activities."
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Mild difficulty with day-to-day work and important activities."
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate difficulty performing work and daily activities effectively."
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe difficulty with daily activities and work, requiring significant support."
+        }
+      ],
+      "participation": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "None",
+          "description": "No significant difficulty with participation."
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Mild emotional impact and limited difficulty participating in community activities."
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate emotional impact and participation restrictions."
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe emotional impact and major participation restrictions in community life."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "cognition",
+        "mobility",
+        "self_care",
+        "getting_along",
+        "life_activities",
+        "participation"
+      ],
+      "maxDisplayScore": 8
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Cognition",
+          "max": 8
+        },
+        {
+          "name": "Mobility",
+          "max": 8
+        },
+        {
+          "name": "Self-care",
+          "max": 8
+        },
+        {
+          "name": "Getting Along",
+          "max": 8
+        },
+        {
+          "name": "Life Activities",
+          "max": 8
+        },
+        {
+          "name": "Participation",
+          "max": 8
+        }
+      ]
+    }
+  }
+}

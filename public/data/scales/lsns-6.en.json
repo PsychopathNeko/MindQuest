@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "id": "lsns-6",
+    "name": "LSNS-6 Lubben Social Network Scale",
+    "fullName": "Lubben Social Network Scale-6",
+    "description": "The LSNS-6 is a 6-item self-report scale designed to assess social isolation in older adults by measuring the size and closeness of their family and friendship networks. A total score below 12 is considered to indicate social isolation risk.",
+    "author": "Lubben et al. (2006)",
+    "license": "Free to use",
+    "reference": "Lubben J, Blozik E, Gillmann G, Iliffe S, von Renteln Kruse W, Beck JC, Stuck AE. Performance of an abbreviated version of the Lubben Social Network Scale among three European community-dwelling older adult populations. Gerontologist. 2006;46(4):503-513.",
+    "instruction": "The following questions are about your social network. Please answer each question as accurately as possible."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "None"
+    },
+    {
+      "value": 1,
+      "label": "One"
+    },
+    {
+      "value": 2,
+      "label": "Two"
+    },
+    {
+      "value": 3,
+      "label": "Three or four"
+    },
+    {
+      "value": 4,
+      "label": "Five thru eight"
+    },
+    {
+      "value": 5,
+      "label": "Nine or more"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "How many relatives do you see or hear from at least once a month?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "How many relatives do you feel at ease with that you can talk about private matters?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "How many relatives do you feel close to such that you could call on them for help?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "How many friends do you see or hear from at least once a month?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "How many friends do you feel at ease with that you can talk about private matters?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "How many friends do you feel close to such that you could call on them for help?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 30,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "family",
+        "name": "Family",
+        "items": [
+          0,
+          1,
+          2
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "friends",
+        "name": "Friends",
+        "items": [
+          3,
+          4,
+          5
+        ],
+        "maxScore": 15
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 11,
+        "level": "at_risk",
+        "label": "At Risk for Social Isolation",
+        "description": "Your total score suggests you may be at risk for social isolation. Limited social networks can impact both mental and physical health.",
+        "suggestions": [
+          "Consider reaching out to family or friends more regularly",
+          "Look for community activities or groups to join",
+          "Talk to a healthcare provider about resources for social engagement",
+          "Volunteering can be a great way to build social connections"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 17,
+        "level": "moderate",
+        "label": "Moderate Social Network",
+        "description": "You have a moderate level of social engagement. There may be room to strengthen your social connections.",
+        "suggestions": [
+          "Continue nurturing your existing relationships",
+          "Consider expanding your social network",
+          "Maintain regular contact with family and friends"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 30,
+        "level": "strong",
+        "label": "Strong Social Network",
+        "description": "You have a strong social network with good connections to both family and friends.",
+        "suggestions": [
+          "Continue maintaining your strong social connections",
+          "Your social network is a valuable resource for well-being",
+          "Consider supporting others who may be socially isolated"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "family": [
+        {
+          "min": 0,
+          "max": 5,
+          "level": "at_risk",
+          "label": "At Risk",
+          "description": "Your family network is limited. You may benefit from strengthening family connections."
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You have a moderate family network."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "strong",
+          "label": "Strong",
+          "description": "You have a strong and supportive family network."
+        }
+      ],
+      "friends": [
+        {
+          "min": 0,
+          "max": 5,
+          "level": "at_risk",
+          "label": "At Risk",
+          "description": "Your friend network is limited. You may benefit from building more friendships."
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You have a moderate friend network."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "strong",
+          "label": "Strong",
+          "description": "You have a strong and supportive friend network."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "family",
+        "friends"
+      ],
+      "maxDisplayScore": 15
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Family",
+          "max": 15
+        },
+        {
+          "name": "Friends",
+          "max": 15
+        }
+      ]
+    }
+  }
+}

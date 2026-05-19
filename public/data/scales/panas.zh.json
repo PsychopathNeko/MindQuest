@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "id": "panas",
+    "name": "PANAS 积极与消极情绪量表",
+    "fullName": "Positive and Negative Affect Schedule",
+    "description": "PANAS 是一份 20 个条目的量表，评估积极情绪和消极情绪两个维度。",
+    "author": "Watson, Clark & Tellegen (1988)",
+    "license": "Free to use",
+    "reference": "Watson D, et al. J Pers Soc Psychol. 1988;54(6):1063-1070.",
+    "instruction": "以下列出了描述不同感受和情绪的词语。请选择过去一周内您体验到该感受的程度。"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常轻微或没有"
+    },
+    {
+      "value": 2,
+      "label": "有一点"
+    },
+    {
+      "value": 3,
+      "label": "中等程度"
+    },
+    {
+      "value": 4,
+      "label": "相当多"
+    },
+    {
+      "value": 5,
+      "label": "极其"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "感兴趣的",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "苦恼的",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "兴奋的",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "心烦的",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "坚强的",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "内疚的",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "恐惧的",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "敌意的",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "热情的",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "自豪的",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "易怒的",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "警觉的",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "羞愧的",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "受启发的",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "紧张的",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "坚定的",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "专注的",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "不安的",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "活跃的",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "害怕的",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 100,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "positive_affect",
+        "name": "积极情绪",
+        "items": [
+          0,
+          2,
+          4,
+          8,
+          9,
+          11,
+          13,
+          15,
+          16,
+          18
+        ],
+        "maxScore": 50
+      },
+      {
+        "id": "negative_affect",
+        "name": "消极情绪",
+        "items": [
+          1,
+          3,
+          5,
+          6,
+          7,
+          10,
+          12,
+          14,
+          17,
+          19
+        ],
+        "maxScore": 50
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 50,
+        "level": "mild",
+        "label": "整体情绪较低",
+        "description": "积极和消极情绪均较低。",
+        "suggestions": [
+          "查看分量表得分",
+          "参与提升积极情绪的活动"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 100,
+        "level": "normal",
+        "label": "中等至较高情绪",
+        "description": "整体情绪中等至较高。",
+        "suggestions": [
+          "查看PA和NA的平衡",
+          "保持积极情绪活动"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "positive_affect": [
+        {
+          "min": 10,
+          "max": 20,
+          "level": "severe",
+          "label": "积极情绪低",
+          "description": "积极情绪较低。"
+        },
+        {
+          "min": 21,
+          "max": 30,
+          "level": "mild",
+          "label": "积极情绪中等",
+          "description": "积极情绪中等。"
+        },
+        {
+          "min": 31,
+          "max": 50,
+          "level": "minimal",
+          "label": "积极情绪高",
+          "description": "积极情绪较高。"
+        }
+      ],
+      "negative_affect": [
+        {
+          "min": 10,
+          "max": 15,
+          "level": "minimal",
+          "label": "消极情绪很低",
+          "description": "消极情绪很低。"
+        },
+        {
+          "min": 16,
+          "max": 25,
+          "level": "normal",
+          "label": "消极情绪中等",
+          "description": "消极情绪中等。"
+        },
+        {
+          "min": 26,
+          "max": 50,
+          "level": "severe",
+          "label": "消极情绪高",
+          "description": "消极情绪较高。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "positive_affect",
+        "negative_affect"
+      ],
+      "maxDisplayScore": 50
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "积极情绪",
+          "max": 50
+        },
+        {
+          "name": "消极情绪",
+          "max": 50
+        }
+      ]
+    }
+  }
+}

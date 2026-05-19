@@ -119,6 +119,17 @@ export function useAssessment(scale) {
     }
   }
 
+  /**
+   * Clean up any pending auto-advance timer.
+   * Should be called when the component unmounts.
+   */
+  function cleanup() {
+    if (autoAdvanceTimer) {
+      clearTimeout(autoAdvanceTimer)
+      autoAdvanceTimer = null
+    }
+  }
+
   // Cleanup timer when scale changes (component unmount scenario)
   watch(scale, () => {
     if (autoAdvanceTimer) {
@@ -142,5 +153,6 @@ export function useAssessment(scale) {
     goPrev,
     goTo,
     getResults,
+    cleanup,
   }
 }

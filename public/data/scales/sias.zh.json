@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "id": "sias",
+    "name": "SIAS 社交互动焦虑量表",
+    "fullName": "Social Interaction Anxiety Scale",
+    "description": "SIAS 是一份20题的自评量表，专门评估个体在社交互动情境中的焦虑水平。它关注的是与他人交流和互动时的焦虑体验，与社交恐惧中的被审视恐惧量表(SPS)互补，是社交焦虑研究和临床评估中最常用的工具之一。",
+    "author": "Mattick & Clarke (1998)",
+    "license": "Free to use",
+    "reference": "Mattick RP, Clarke JC. Development and validation of measures of social phobia scrutiny fear and social interaction anxiety. Behav Res Ther. 1998;36(4):455-470.",
+    "instruction": "以下每个陈述描述了你在与他人互动时可能的感受。请根据每个陈述对你的适用程度选择相应选项。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "完全不符合" },
+    { "value": 1, "label": "有一点符合" },
+    { "value": 2, "label": "中等程度符合" },
+    { "value": 3, "label": "非常符合" },
+    { "value": 4, "label": "极其符合" }
+  ],
+  "questions": [
+    { "index": 0, "text": "如果必须和权威人士说话，我会感到紧张", "type": "likert" },
+    { "index": 1, "text": "我很难与他人进行眼神接触", "type": "likert" },
+    { "index": 2, "text": "如果必须谈论自己或自己的感受，我会变得紧张", "type": "likert" },
+    { "index": 3, "text": "我发现很难和工作中的人自在地相处", "type": "likert" },
+    { "index": 4, "text": "我觉得和同龄人交朋友很容易", "type": "likert" },
+    { "index": 5, "text": "在街上遇到熟人时，我会变得紧张", "type": "likert" },
+    { "index": 6, "text": "在社交场合中混在人群里时，我感到不自在", "type": "likert" },
+    { "index": 7, "text": "如果只有我和另一个人单独在一起，我会感到紧张", "type": "likert" },
+    { "index": 8, "text": "在聚会等场合认识新朋友时，我感到很自在", "type": "likert" },
+    { "index": 9, "text": "我很难和其他人交谈", "type": "likert" },
+    { "index": 10, "text": "我觉得想到聊天的话题很容易", "type": "likert" },
+    { "index": 11, "text": "我担心表达自己时会显得笨拙", "type": "likert" },
+    { "index": 12, "text": "我发现很难不同意别人的观点", "type": "likert" },
+    { "index": 13, "text": "我很难和异性中有吸引力的人交谈", "type": "likert" },
+    { "index": 14, "text": "我发现自己在社交场合会担心不知道该说什么", "type": "likert" },
+    { "index": 15, "text": "和不太熟悉的人在一起时，我会感到紧张", "type": "likert" },
+    { "index": 16, "text": "我觉得在说话时会说出令人尴尬的话", "type": "likert" },
+    { "index": 17, "text": "在一群人中，我会担心自己被忽视", "type": "likert" },
+    { "index": 18, "text": "当我在别人面前讲话时，我会感到紧张", "type": "likert" },
+    { "index": 19, "text": "我怀疑别人是否真的喜欢我", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 80,
+    "maxItemScore": 4,
+    "reverseItems": [4, 8, 10],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 19,
+        "level": "minimal",
+        "label": "无/低社交焦虑",
+        "description": "您的社交互动焦虑水平很低，在社交情境中基本不会感到明显的焦虑或不适。",
+        "suggestions": [
+          "继续保持良好的社交互动能力",
+          "积极参与各种社交活动",
+          "如有偶尔的社交不适属于正常现象"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 33,
+        "level": "moderate",
+        "label": "中度社交焦虑",
+        "description": "您的社交互动焦虑处于中等水平，在某些社交情境中可能会感到不适或紧张。",
+        "suggestions": [
+          "尝试逐步接触让你感到焦虑的社交情境",
+          "学习社交技巧和放松技术",
+          "挑战关于社交场合的消极想法",
+          "如果社交焦虑影响了日常生活，建议咨询专业人士"
+        ]
+      },
+      {
+        "min": 34,
+        "max": 52,
+        "level": "severe",
+        "label": "高社交焦虑",
+        "description": "您的社交互动焦虑水平较高，已超过临床筛查切点（34分），社交情境可能给您带来显著的困扰。",
+        "suggestions": [
+          "建议尽快咨询心理健康专业人士进行评估",
+          "认知行为疗法（CBT）对社交焦虑有很好的疗效",
+          "避免完全回避社交情境，逐步暴露是有效的治疗策略",
+          "学习放松和正念技术来管理焦虑症状",
+          "考虑加入社交焦虑支持小组"
+        ]
+      },
+      {
+        "min": 53,
+        "max": 80,
+        "level": "very_severe",
+        "label": "非常高的社交焦虑",
+        "description": "您的社交互动焦虑水平非常高，社交情境很可能严重影响您的日常功能和生活质量。",
+        "suggestions": [
+          "强烈建议寻求专业的心理健康治疗",
+          "可能需要药物治疗联合心理治疗",
+          "认知行为疗法（CBT）和暴露疗法是循证有效的治疗方法",
+          "不要因为羞耻感而延迟就医",
+          "告知信任的家人或朋友您的困扰，寻求支持"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 80 }
+  }
+}

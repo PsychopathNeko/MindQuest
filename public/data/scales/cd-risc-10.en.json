@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "id": "cd-risc-10",
+    "name": "CD-RISC-10 Connor-Davidson Resilience Scale",
+    "fullName": "Connor-Davidson Resilience Scale 10-Item",
+    "description": "The CD-RISC-10 is a brief 10-item self-report measure of psychological resilience. It assesses the ability to cope with stress, adversity, and change. Derived from the original 25-item CD-RISC, the 10-item version demonstrates strong psychometric properties and is widely used in clinical, community, and research settings.",
+    "author": "Campbell-Sills & Stein (2007)",
+    "license": "Free to use",
+    "reference": "Campbell-Sills L, Stein MB. Psychometric analysis and refinement of the Connor-Davidson Resilience Scale (CD-RISC): Validation of a 10-item measure of resilience. J Trauma Stress. 2007;20(6):1019-1028.",
+    "instruction": "Please indicate how much each statement has been true for you over the past month. If a particular situation has not arisen recently, answer according to how you think you would have dealt with it."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Not true at all" },
+    { "value": 1, "label": "Rarely true" },
+    { "value": 2, "label": "Sometimes true" },
+    { "value": 3, "label": "Often true" },
+    { "value": 4, "label": "True nearly all the time" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I am able to adapt when changes occur", "type": "likert" },
+    { "index": 1, "text": "I can deal with whatever comes my way", "type": "likert" },
+    { "index": 2, "text": "I try to see the humorous side of things when I am faced with problems", "type": "likert" },
+    { "index": 3, "text": "Having to cope with stress can make me stronger", "type": "likert" },
+    { "index": 4, "text": "I tend to bounce back after illness, injury, or other hardships", "type": "likert" },
+    { "index": 5, "text": "I believe I can achieve my goals, even if there are obstacles", "type": "likert" },
+    { "index": 6, "text": "Under pressure, I stay focused and think clearly", "type": "likert" },
+    { "index": 7, "text": "I am not easily discouraged by failure", "type": "likert" },
+    { "index": 8, "text": "I think of myself as a strong person when dealing with life's challenges and difficulties", "type": "likert" },
+    { "index": 9, "text": "I am able to handle unpleasant or painful feelings like sadness, fear, and anger", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 40,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 10,
+        "level": "severe",
+        "label": "Low Resilience",
+        "description": "Your resilience score is low, suggesting significant difficulty coping with stress and adversity. You may feel overwhelmed by challenges and struggle to recover from setbacks.",
+        "suggestions": [
+          "Consider seeking support from a mental health professional",
+          "Start building resilience through small, manageable challenges",
+          "Practice problem-solving skills in daily situations",
+          "Develop a regular self-care routine including exercise and adequate sleep",
+          "Connect with supportive people who can help you through difficult times"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 20,
+        "level": "moderate",
+        "label": "Moderate Resilience",
+        "description": "Your resilience is at a moderate level. You can handle some challenges but may struggle with more significant stressors or prolonged adversity.",
+        "suggestions": [
+          "Continue building your coping strategies and stress management skills",
+          "Practice reframing negative situations in a more positive light",
+          "Engage in regular physical activity to boost mental toughness",
+          "Strengthen your social support network",
+          "Set realistic goals and celebrate small achievements"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "Moderately High Resilience",
+        "description": "Your resilience is moderately high. You generally cope well with challenges and can bounce back from most setbacks.",
+        "suggestions": [
+          "Continue maintaining your effective coping strategies",
+          "Challenge yourself with new experiences to further build resilience",
+          "Share your resilience strategies with others who may benefit",
+          "Maintain a balanced lifestyle with adequate rest and recreation"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "minimal",
+        "label": "High Resilience",
+        "description": "Your resilience score is high. You demonstrate strong ability to adapt, cope with stress, and recover from adversity.",
+        "suggestions": [
+          "Continue your excellent resilience practices",
+          "Consider mentoring others in building resilience",
+          "Use your resilience as a foundation for pursuing ambitious goals",
+          "Remember to also allow yourself to feel and process difficult emotions"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 40 }
+  }
+}

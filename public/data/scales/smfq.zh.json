@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "id": "smfq",
+    "name": "SMFQ 简短情绪与感受问卷",
+    "fullName": "简短情绪与感受问卷",
+    "description": "SMFQ是一份13题的量表，用于评估儿童和青少年（6-17岁）的抑郁症状。",
+    "author": "Angold A, et al. (1995)",
+    "license": "Free to use",
+    "reference": "Angold A, et al. Development of a short questionnaire for use in epidemiological studies of depression in children and adolescents. Int J Methods Psychiatr Res. 1995;5:237-249.",
+    "instruction": "以下句子描述了人们可能有的感受或行为。请根据你过去两周的感受，选择最符合你的选项。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "不符合"
+    },
+    {
+      "value": 1,
+      "label": "有时符合"
+    },
+    {
+      "value": 2,
+      "label": "完全符合"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我感到痛苦或不开心。",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我对什么都提不起兴趣。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我觉得自己没有以前那么开心了。",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我感到非常坐立不安。",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我觉得自己不如别人好。",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我为每件事情哭泣。",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我发现自己很难集中注意力。",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我讨厌自己。",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我觉得自己是个坏人。",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我觉得自己很孤独。",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我觉得没有人真正喜欢我。",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我觉得自己永远都做不好任何事。",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我觉得做什么事都不能让我开心。",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 26,
+    "maxItemScore": 2,
+    "reverseItems": [],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 7,
+        "level": "normal",
+        "label": "正常范围",
+        "description": "您的抑郁症状在正常范围内。",
+        "suggestions": [
+          "继续保持积极的心态",
+          "与朋友和家人保持联系"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 11,
+        "level": "mild",
+        "label": "轻度抑郁",
+        "description": "您可能有轻度抑郁症状，建议关注。",
+        "suggestions": [
+          "与信任的人谈谈你的感受",
+          "增加户外活动和社交",
+          "保持规律的作息"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 26,
+        "level": "significant",
+        "label": "抑郁症状显著",
+        "description": "您的抑郁症状较为显著（得分>=12为临界值），建议寻求专业帮助。",
+        "suggestions": [
+          "建议咨询心理健康专业人员进行评估",
+          "不要独自承受，告诉父母或老师",
+          "抑郁是可以治疗的，越早寻求帮助越好"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 26
+    }
+  }
+}

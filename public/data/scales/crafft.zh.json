@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "id": "crafft",
+    "name": "CRAFFT 青少年物质使用筛查",
+    "fullName": "CRAFFT筛查工具",
+    "description": "CRAFFT是一份专为青少年设计的简短筛查工具，用于识别物质使用、与物质相关的驾驶风险和物质使用障碍。缩写代表：汽车(Car)、放松(Relax)、独处(Alone)、遗忘(Forget)、朋友(Friends)、麻烦(Trouble)。",
+    "author": "Knight et al. (1999)",
+    "license": "Free to use",
+    "reference": "Knight JR, Sherritt L, Shrier LA, Harris SK, Chang G. Validity of the CRAFFT substance abuse screening test among adolescent clinic patients. Arch Pediatr Adolesc Med. 2002;156(6):607-614.",
+    "instruction": "请如实回答以下每个问题，选择「是」或「否」。这些问题涉及您使用酒精和药物的经历。"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "您是否曾搭乘由处于「嗨」的状态或使用了酒精/药物的人（包括您自己）驾驶的汽车？",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "您是否曾使用酒精或药物来放松、让自己感觉更好或融入群体？",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "您是否曾在独处时使用酒精或药物？",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "您是否曾忘记在使用酒精或药物时做过的事情？",
+      "type": "yesno"
+    },
+    {
+      "index": 4,
+      "text": "您的家人或朋友是否曾告诉您应该减少饮酒或药物使用？",
+      "type": "yesno"
+    },
+    {
+      "index": 5,
+      "text": "您是否曾在使用酒精或药物时惹上麻烦？",
+      "type": "yesno"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 6,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 1,
+        "level": "minimal",
+        "label": "低风险",
+        "description": "您的回答提示物质相关问题的风险较低。继续做出健康的选择。",
+        "suggestions": [
+          "继续在物质使用方面做出安全健康的选择",
+          "了解酒精和药物使用的相关风险",
+          "学会在同伴压力下说不",
+          "如果您对物质使用有疑问，可以与信任的成年人交谈"
+        ]
+      },
+      {
+        "min": 2,
+        "max": 6,
+        "level": "severe",
+        "label": "高风险",
+        "description": "您的回答提示物质相关问题的风险较高。得分2分或以上表示需要进一步评估。",
+        "suggestions": [
+          "与信任的成年人、学校心理辅导员或医疗保健提供者谈谈您的物质使用情况",
+          "考虑进行专业评估",
+          "永远不要搭乘使用了酒精或药物的司机的车",
+          "探索更健康的方式来应对压力和社交压力",
+          "了解当地为有物质使用问题的青少年提供的资源"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 6 }
+  }
+}

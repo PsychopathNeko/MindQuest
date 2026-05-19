@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "id": "ces-d-10",
+    "name": "CES-D-10 流调中心抑郁量表简版",
+    "fullName": "Center for Epidemiologic Studies Depression Scale-10",
+    "description": "CES-D-10 是CES-D的10题简版，用于快速筛查抑郁症状。该量表从原始20题版本中精选而来，保持了良好的信效度，特别适用于大规模流行病学调查和初级保健筛查。评估过去一周内抑郁相关症状的出现频率。",
+    "author": "Andresen, Malmgren, Carter & Patrick (1994)",
+    "license": "Public Domain",
+    "reference": "Andresen EM, Malmgren JA, Carter WB, Patrick DL. Screening for depression in well older adults: evaluation of a short form of the CES-D. Am J Prev Med. 1994;10(2):77-84.",
+    "instruction": "以下是人们可能有过的一些感受或行为。请指出在过去一周内，您有以下感受或行为的频率。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "很少或没有（不到1天）" },
+    { "value": 1, "label": "有时（1-2天）" },
+    { "value": 2, "label": "经常（3-4天）" },
+    { "value": 3, "label": "几乎一直（5-7天）" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我被一些通常不会困扰我的事情所困扰", "type": "likert" },
+    { "index": 1, "text": "我难以集中精力做事", "type": "likert" },
+    { "index": 2, "text": "我感到心情抑郁", "type": "likert" },
+    { "index": 3, "text": "我觉得做每件事都很费力", "type": "likert" },
+    { "index": 4, "text": "我对未来充满希望", "type": "likert" },
+    { "index": 5, "text": "我感到害怕", "type": "likert" },
+    { "index": 6, "text": "我睡眠不安稳", "type": "likert" },
+    { "index": 7, "text": "我感到快乐", "type": "likert" },
+    { "index": 8, "text": "我感到孤独", "type": "likert" },
+    { "index": 9, "text": "我觉得自己无法继续下去了", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 30,
+    "maxItemScore": 3,
+    "reverseItems": [4, 7],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "无抑郁症状",
+        "description": "您的得分低于筛查切点（10分），未提示存在显著的抑郁症状。",
+        "suggestions": [
+          "继续保持健康的生活方式",
+          "维持规律的运动和社交活动",
+          "注意情绪变化，偶尔的情绪低落属于正常现象"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "mild",
+        "label": "轻度抑郁症状",
+        "description": "您的得分达到了筛查切点（≥10分），提示存在有临床意义的抑郁症状。",
+        "suggestions": [
+          "注意自我关爱，保持规律的作息",
+          "增加体育锻炼和社交活动",
+          "尝试与信任的人倾诉",
+          "建议咨询心理健康专业人士进行进一步评估"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 21,
+        "level": "moderate",
+        "label": "中度抑郁症状",
+        "description": "您的抑郁症状处于中等水平，可能对日常生活和社会功能产生影响。",
+        "suggestions": [
+          "建议尽快咨询心理咨询师或精神科医生",
+          "保持规律的日常作息",
+          "坚持体育锻炼，每周至少3次",
+          "避免酒精和不良应对方式",
+          "考虑心理治疗（如认知行为疗法）"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 30,
+        "level": "severe",
+        "label": "重度抑郁症状",
+        "description": "您的抑郁症状较为严重，很可能对日常功能造成显著影响，请尽快寻求专业帮助。",
+        "suggestions": [
+          "请尽快就医，咨询精神科医生",
+          "可能需要药物治疗结合心理治疗",
+          "如有自伤或自杀想法，请立即拨打心理危机热线：400-161-9995",
+          "不要独处，告知家人或朋友你的状况",
+          "确保身边有可信赖的支持者"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 30 }
+  }
+}

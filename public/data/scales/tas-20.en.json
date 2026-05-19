@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "id": "tas-20",
+    "name": "TAS-20 Toronto Alexithymia Scale",
+    "fullName": "Toronto Alexithymia Scale-20",
+    "description": "The TAS-20 is a 20-item self-report scale measuring three dimensions of alexithymia: difficulty identifying feelings, difficulty describing feelings, and externally-oriented thinking.",
+    "author": "Bagby RM, Parker JDA, Taylor GJ (1994)",
+    "license": "Free to use",
+    "reference": "Bagby RM, Parker JDA, Taylor GJ. The twenty-item Toronto Alexithymia Scale: I. Item selection and cross-validation of the factor structure. J Psychosom Res. 1994;38(1):23-32.",
+    "instruction": "Please indicate how much you agree or disagree with each of the following statements based on how you generally feel."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Strongly disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Neither agree nor disagree"
+    },
+    {
+      "value": 4,
+      "label": "Agree"
+    },
+    {
+      "value": 5,
+      "label": "Strongly agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I am often confused about what emotion I am feeling.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "It is difficult for me to find the right words for my feelings.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I have physical sensations that even doctors don't understand.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am able to describe my feelings easily.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I prefer to analyze problems rather than just describe them.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "When I am upset, I don't know if I am sad, frightened, or angry.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I am often puzzled by sensations in my body.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I prefer to just let things happen rather than to understand why they turned out that way.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I have feelings that I can't quite identify.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Being in touch with emotions is essential.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I find it hard to describe how I feel about people.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "People tell me to describe my feelings more.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I don't know what's going on inside me.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I often don't know why I am angry.",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I prefer talking to people about their daily activities rather than their feelings.",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I prefer watching light entertainment shows rather than psychological dramas.",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "It is difficult for me to reveal my innermost feelings, even to close friends.",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "I can feel close to someone, even in moments of silence.",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "I find examination of my feelings useful in solving personal problems.",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "Looking for hidden meanings in movies or plays distracts from their enjoyment.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "maxTotal": 100,
+    "maxItemScore": 5,
+    "reverseItems": [
+      3,
+      6,
+      9,
+      13,
+      14,
+      17
+    ],
+    "subscales": [
+      {
+        "id": "difficulty_identifying",
+        "name": "Difficulty Identifying Feelings",
+        "items": [
+          0,
+          2,
+          5,
+          8,
+          10,
+          12,
+          18
+        ],
+        "maxScore": 35
+      },
+      {
+        "id": "difficulty_describing",
+        "name": "Difficulty Describing Feelings",
+        "items": [
+          1,
+          3,
+          6,
+          11,
+          16
+        ],
+        "maxScore": 25
+      },
+      {
+        "id": "externally_oriented",
+        "name": "Externally-Oriented Thinking",
+        "items": [
+          4,
+          7,
+          9,
+          13,
+          14,
+          15,
+          17,
+          19
+        ],
+        "maxScore": 40
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 51,
+        "level": "none",
+        "label": "No Alexithymia",
+        "description": "Your ability to identify and express emotions is within the normal range.",
+        "suggestions": [
+          "Continue maintaining good emotional awareness",
+          "Sharing feelings with others supports mental health"
+        ]
+      },
+      {
+        "min": 52,
+        "max": 60,
+        "level": "possible",
+        "label": "Possible Alexithymia",
+        "description": "You may have some degree of alexithymia.",
+        "suggestions": [
+          "Practice identifying and naming your emotions",
+          "Keeping an emotion journal may be helpful",
+          "Consider emotional awareness training"
+        ]
+      },
+      {
+        "min": 61,
+        "max": 100,
+        "level": "alexithymia",
+        "label": "Alexithymia",
+        "description": "Your score suggests alexithymia, with significant difficulty in identifying and expressing emotions.",
+        "suggestions": [
+          "Consider consulting a mental health professional",
+          "Psychotherapy can help improve emotional awareness",
+          "Body sensation awareness practices (e.g., mindfulness) may be beneficial"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "difficulty_identifying",
+        "difficulty_describing",
+        "externally_oriented"
+      ],
+      "maxDisplayScore": 40
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Difficulty Identifying Feelings",
+          "max": 35
+        },
+        {
+          "name": "Difficulty Describing Feelings",
+          "max": 25
+        },
+        {
+          "name": "Externally-Oriented Thinking",
+          "max": 40
+        }
+      ]
+    }
+  }
+}

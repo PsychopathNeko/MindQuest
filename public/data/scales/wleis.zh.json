@@ -1,0 +1,386 @@
+{
+  "meta": {
+    "id": "wleis",
+    "name": "WLEIS 情商量表",
+    "fullName": "Wong and Law Emotional Intelligence Scale",
+    "description": "WLEIS 是一份包含 16 个条目的自评量表，用于评估情绪智力的四个维度：自我情绪评估（SEA）、他人情绪评估（OEA）、情绪运用（UOE）和情绪调控（ROE）。该量表简洁可靠，广泛应用于组织行为学和心理学研究。",
+    "author": "Wong & Law (2002)",
+    "license": "Free for research use",
+    "reference": "Wong CS, Law KS. The effects of leader and follower emotional intelligence on performance and attitude: an exploratory study. Leadersh Q. 2002;13(3):243-274.",
+    "instruction": "请根据你的真实感受选择最符合的选项。"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "完全不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "中立"
+    },
+    {
+      "value": 5,
+      "label": "有点同意"
+    },
+    {
+      "value": 6,
+      "label": "同意"
+    },
+    {
+      "value": 7,
+      "label": "完全同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "大多数时候我很清楚自己为什么会有某种感觉",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我很了解自己的情绪",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我真的理解自己的感受",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我总是知道自己是开心还是不开心",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我总能从朋友的行为中了解到他们的情绪",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我善于观察他人的情绪",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我对别人的感受和情绪很敏感",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我很了解身边人的情绪",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我总是给自己设定目标并尽力去实现",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我总是告诉自己我是一个有能力的人",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我是一个自我激励的人",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我总是鼓励自己尽力而为",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我能够控制自己的脾气，理性地处理困难",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我很善于控制自己的情绪",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我能很快地从非常沮丧的情绪中平静下来",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我对自己的情绪有很好的控制力",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 112,
+    "maxItemScore": 7,
+    "subscales": [
+      {
+        "id": "sea",
+        "name": "自我情绪评估",
+        "items": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "oea",
+        "name": "他人情绪评估",
+        "items": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "uoe",
+        "name": "情绪运用",
+        "items": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "roe",
+        "name": "情绪调控",
+        "items": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "maxScore": 28
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 48,
+        "level": "severe",
+        "label": "低情商",
+        "description": "您的情绪智力得分较低，可能在情绪识别、理解和管理方面存在困难。",
+        "suggestions": [
+          "学习识别和命名自己的情绪",
+          "练习观察他人的情绪线索",
+          "培养自我激励的习惯",
+          "考虑参加情商培训或寻求心理咨询"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 80,
+        "level": "mild",
+        "label": "中等情商",
+        "description": "您的情绪智力处于中等水平，在某些情绪能力维度上仍有提升空间。",
+        "suggestions": [
+          "关注各维度得分，针对性提升薄弱环节",
+          "练习积极的自我对话和情绪调节",
+          "多关注和倾听他人的情绪表达",
+          "设定目标并练习自我激励"
+        ]
+      },
+      {
+        "min": 81,
+        "max": 96,
+        "level": "normal",
+        "label": "较高情商",
+        "description": "您的情绪智力较高，能够较好地理解和管理自己及他人的情绪。",
+        "suggestions": [
+          "继续保持良好的情绪管理能力",
+          "利用情绪智力提升人际关系质量",
+          "在工作和生活中发挥情绪领导力"
+        ]
+      },
+      {
+        "min": 97,
+        "max": 112,
+        "level": "minimal",
+        "label": "高情商",
+        "description": "您的情绪智力很高，在情绪识别、理解、运用和调控方面表现出色。",
+        "suggestions": [
+          "您的高情商是宝贵的社交和职业资源",
+          "帮助他人提升情绪管理能力",
+          "在团队中发挥情绪引导作用"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "sea": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "minimal",
+          "label": "低",
+          "description": "自我情绪评估能力较低。"
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "mild",
+          "label": "中等",
+          "description": "自我情绪评估能力中等。"
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "moderate",
+          "label": "较高",
+          "description": "自我情绪评估能力较高。"
+        },
+        {
+          "min": 25,
+          "max": 28,
+          "level": "severe",
+          "label": "高",
+          "description": "自我情绪评估能力很高。"
+        }
+      ],
+      "oea": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "minimal",
+          "label": "低",
+          "description": "他人情绪评估能力较低。"
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "mild",
+          "label": "中等",
+          "description": "他人情绪评估能力中等。"
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "moderate",
+          "label": "较高",
+          "description": "他人情绪评估能力较高。"
+        },
+        {
+          "min": 25,
+          "max": 28,
+          "level": "severe",
+          "label": "高",
+          "description": "他人情绪评估能力很高。"
+        }
+      ],
+      "uoe": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "minimal",
+          "label": "低",
+          "description": "情绪运用能力较低。"
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "mild",
+          "label": "中等",
+          "description": "情绪运用能力中等。"
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "moderate",
+          "label": "较高",
+          "description": "情绪运用能力较高。"
+        },
+        {
+          "min": 25,
+          "max": 28,
+          "level": "severe",
+          "label": "高",
+          "description": "情绪运用能力很高。"
+        }
+      ],
+      "roe": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "minimal",
+          "label": "低",
+          "description": "情绪调控能力较低。"
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "mild",
+          "label": "中等",
+          "description": "情绪调控能力中等。"
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "moderate",
+          "label": "较高",
+          "description": "情绪调控能力较高。"
+        },
+        {
+          "min": 25,
+          "max": 28,
+          "level": "severe",
+          "label": "高",
+          "description": "情绪调控能力很高。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "sea",
+        "oea",
+        "uoe",
+        "roe"
+      ],
+      "maxDisplayScore": 28
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "自我情绪评估",
+          "max": 28
+        },
+        {
+          "name": "他人情绪评估",
+          "max": 28
+        },
+        {
+          "name": "情绪运用",
+          "max": 28
+        },
+        {
+          "name": "情绪调控",
+          "max": 28
+        }
+      ]
+    }
+  }
+}

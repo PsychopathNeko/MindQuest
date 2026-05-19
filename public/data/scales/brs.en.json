@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "id": "brs",
+    "name": "BRS Brief Resilience Scale",
+    "fullName": "Brief Resilience Scale",
+    "description": "The BRS is a 6-item scale assessing the ability to bounce back or recover from stress. Resilience is the capacity to recover from difficult experiences. The scale comprises 3 positively worded and 3 negatively worded items measuring core resilience in coping with adversity.",
+    "author": "Smith et al. (2008)",
+    "license": "Free to use",
+    "reference": "Smith BW, Dalen J, Wiggins K, Steger MF, et al. The brief resilience scale: assessing the ability to bounce back. Int J Behav Med. 2008;15(3):194-200.",
+    "instruction": "Please indicate the extent to which you agree with each of the following statements."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Strongly Disagree" },
+    { "value": 2, "label": "Disagree" },
+    { "value": 3, "label": "Neutral" },
+    { "value": 4, "label": "Agree" },
+    { "value": 5, "label": "Strongly Agree" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I tend to bounce back quickly after hard times", "type": "likert" },
+    { "index": 1, "text": "I have a hard time making it through stressful events", "type": "likert" },
+    { "index": 2, "text": "It does not take me long to recover from a stressful event", "type": "likert" },
+    { "index": 3, "text": "It is hard for me to snap back when something bad happens", "type": "likert" },
+    { "index": 4, "text": "I usually come through difficult times with little trouble", "type": "likert" },
+    { "index": 5, "text": "I tend to take a long time to get over set-backs in my life", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 30,
+    "maxItemScore": 5,
+    "reverseItems": [1, 3, 5],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 13,
+        "level": "severe",
+        "label": "Low Resilience",
+        "description": "Your resilience level is low. You may have difficulty recovering from stress and adversity.",
+        "suggestions": [
+          "Learn and practice stress management techniques",
+          "Build a social support network and seek help from others",
+          "Strengthen resilience through regular exercise, meditation, and other practices",
+          "If you consistently struggle to cope with difficulties, consider professional counseling"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 18,
+        "level": "moderate",
+        "label": "Below Average Resilience",
+        "description": "Your resilience is below average. You may need more time to recover from adversity in some situations.",
+        "suggestions": [
+          "Develop positive coping strategies",
+          "Maintain regular sleep and exercise habits",
+          "Practice acceptance and mindfulness to reduce overreaction to difficulties",
+          "Find activities and ways to recharge"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "mild",
+        "label": "Normal Resilience",
+        "description": "You have a normal level of resilience and can recover well from most stressors and adversity.",
+        "suggestions": [
+          "Continue maintaining and strengthening your resilience resources",
+          "Flexibly apply your existing coping strategies when facing new challenges",
+          "Maintain positive social relationships and a healthy lifestyle"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "level": "minimal",
+        "label": "High Resilience",
+        "description": "You have high resilience and can recover quickly and effectively from stress and adversity.",
+        "suggestions": [
+          "Continue maintaining your strong resilience",
+          "Your experience can help and encourage others",
+          "While helping others, remember to also look after your own mental health"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 6, "max": 30 }
+  }
+}

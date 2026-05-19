@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "id": "proqol",
+    "name": "ProQOL Professional Quality of Life Scale",
+    "fullName": "Professional Quality of Life Scale Version 5",
+    "description": "The ProQOL is a 30-item scale measuring compassion satisfaction, burnout, and secondary traumatic stress in helping professionals.",
+    "author": "Stamm BH (2010)",
+    "license": "Free to use",
+    "reference": "Stamm BH. The Concise ProQOL Manual. 2nd ed. Pocatello, ID: ProQOL.org; 2010.",
+    "instruction": "The following questions are about your experiences as a helper. Consider each item about you and your current work situation during the last 30 days."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Never"
+    },
+    {
+      "value": 2,
+      "label": "Rarely"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes"
+    },
+    {
+      "value": 4,
+      "label": "Often"
+    },
+    {
+      "value": 5,
+      "label": "Very often"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I am happy.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I am preoccupied with more than one person I help.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I get satisfaction from being able to help people.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I feel connected to others.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I jump or am startled by unexpected sounds.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I feel invigorated after working with those I help.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I find it difficult to separate my personal life from my life as a helper.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I am not as productive at work because I am losing sleep over traumatic experiences of a person I help.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I think that I might have been affected by the traumatic stress of those I help.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I feel trapped by my job as a helper.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Because of my helping, I have felt \"on edge\" about various things.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I like my work as a helper.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I feel depressed because of the traumatic experiences of the people I help.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I feel as though I am experiencing the trauma of someone I have helped.",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I have beliefs that sustain me.",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I am pleased with how I am able to keep up with helping techniques and protocols.",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "I have thoughts that I am a \"success\" as a helper.",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "I am overwhelmed because my case work load seems endless.",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "I avoid certain activities or situations because they remind me of frightening experiences of the people I help.",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "I am proud of what I can do to help.",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "As a result of my helping, I have intrusive, frightening thoughts.",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "I feel \"bogged down\" by the system.",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "I have happy thoughts and feelings about those I help and how I could help them.",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "I feel I can make a difference through my work.",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "I can't recall important parts of my work with trauma victims.",
+      "type": "likert"
+    },
+    {
+      "index": 25,
+      "text": "I am a very caring person.",
+      "type": "likert"
+    },
+    {
+      "index": 26,
+      "text": "I am happy that I chose to do this work.",
+      "type": "likert"
+    },
+    {
+      "index": 27,
+      "text": "My work makes me feel satisfied.",
+      "type": "likert"
+    },
+    {
+      "index": 28,
+      "text": "I have thoughts of being overwhelmed by my work as a helper.",
+      "type": "likert"
+    },
+    {
+      "index": 29,
+      "text": "I feel worn out because of my work as a helper.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "maxTotal": 150,
+    "maxItemScore": 5,
+    "reverseItems": [
+      0,
+      7,
+      27
+    ],
+    "subscales": [
+      {
+        "id": "compassion_satisfaction",
+        "name": "Compassion Satisfaction",
+        "items": [
+          2,
+          5,
+          11,
+          15,
+          17,
+          19,
+          21,
+          23,
+          26,
+          29
+        ],
+        "maxScore": 50
+      },
+      {
+        "id": "burnout",
+        "name": "Burnout",
+        "items": [
+          0,
+          3,
+          7,
+          9,
+          14,
+          16,
+          18,
+          20,
+          25,
+          27
+        ],
+        "maxScore": 50
+      },
+      {
+        "id": "secondary_trauma",
+        "name": "Secondary Traumatic Stress",
+        "items": [
+          1,
+          4,
+          6,
+          8,
+          10,
+          12,
+          13,
+          22,
+          24,
+          28
+        ],
+        "maxScore": 50
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": null,
+    "subscaleRanges": {
+      "compassion_satisfaction": [
+        {
+          "min": 10,
+          "max": 22,
+          "level": "low",
+          "label": "Low",
+          "description": "Low compassion satisfaction. You may not feel fulfilled by your helping work."
+        },
+        {
+          "min": 23,
+          "max": 41,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate compassion satisfaction."
+        },
+        {
+          "min": 42,
+          "max": 50,
+          "level": "high",
+          "label": "High",
+          "description": "High compassion satisfaction. You gain significant positive rewards from helping."
+        }
+      ],
+      "burnout": [
+        {
+          "min": 10,
+          "max": 22,
+          "level": "low",
+          "label": "Low",
+          "description": "Low burnout levels."
+        },
+        {
+          "min": 23,
+          "max": 41,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate burnout. Consider stress management strategies."
+        },
+        {
+          "min": 42,
+          "max": 50,
+          "level": "high",
+          "label": "High",
+          "description": "High burnout levels. Seek professional support."
+        }
+      ],
+      "secondary_trauma": [
+        {
+          "min": 10,
+          "max": 22,
+          "level": "low",
+          "label": "Low",
+          "description": "Low secondary traumatic stress."
+        },
+        {
+          "min": 23,
+          "max": 41,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate secondary traumatic stress."
+        },
+        {
+          "min": 42,
+          "max": 50,
+          "level": "high",
+          "label": "High",
+          "description": "High secondary traumatic stress. Seek immediate support."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "compassion_satisfaction",
+        "burnout",
+        "secondary_trauma"
+      ],
+      "maxDisplayScore": 50
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Compassion Satisfaction",
+          "max": 50
+        },
+        {
+          "name": "Burnout",
+          "max": 50
+        },
+        {
+          "name": "Secondary Traumatic Stress",
+          "max": 50
+        }
+      ]
+    }
+  }
+}

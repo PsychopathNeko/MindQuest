@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "id": "jss-9",
+    "name": "JSS-9 工作满意度调查简版",
+    "fullName": "Job Satisfaction Survey - 9 Item Brief Version",
+    "description": "JSS-9 是工作满意度调查的简版，从薪酬、晋升、上级、福利、认可、规章制度、同事、工作意义和沟通等关键方面综合评估工作满意度。",
+    "author": "Spector PE (1985, adapted)",
+    "license": "Free to use",
+    "reference": "Spector PE. Measurement of human service staff satisfaction: Development of the Job Satisfaction Survey. Am J Community Psychol. 1985;13(6):693-713.",
+    "instruction": "请根据您对当前工作的感受，对以下每项陈述表示您的同意程度。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "非常不同意" },
+    { "value": 2, "label": "比较不同意" },
+    { "value": 3, "label": "略微不同意" },
+    { "value": 4, "label": "略微同意" },
+    { "value": 5, "label": "比较同意" },
+    { "value": 6, "label": "非常同意" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我觉得我的薪酬与我的工作量相称", "type": "likert" },
+    { "index": 1, "text": "在我的工作中晋升机会实在太少了", "type": "likert" },
+    { "index": 2, "text": "我的上级在工作方面相当称职", "type": "likert" },
+    { "index": 3, "text": "我对所获得的福利不满意", "type": "likert" },
+    { "index": 4, "text": "当我做得好时，我能获得应有的认可", "type": "likert" },
+    { "index": 5, "text": "许多规章制度让人很难把工作做好", "type": "likert" },
+    { "index": 6, "text": "我喜欢和我一起工作的人", "type": "likert" },
+    { "index": 7, "text": "我有时觉得我的工作毫无意义", "type": "likert" },
+    { "index": 8, "text": "组织内部的沟通看起来很顺畅", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 54,
+    "maxItemScore": 6,
+    "reverseItems": [1, 3, 5, 7],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 9,
+        "max": 21,
+        "level": "severe",
+        "label": "非常不满意",
+        "description": "您的得分表明在多个方面对工作感到强烈不满。这种程度的不满可能会显著影响您的身心健康和工作表现。",
+        "suggestions": [
+          "找出导致最大不满的具体工作方面",
+          "考虑与上级或人力资源部门讨论您的困扰",
+          "探索岗位调整或工作转换是否有益",
+          "寻求职业咨询师的帮助",
+          "注意心理健康，工作不满可能影响整体幸福感"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 31,
+        "level": "mild",
+        "label": "不满意",
+        "description": "您的得分表明中度的工作不满。工作的某些方面未能达到您的期望。",
+        "suggestions": [
+          "确定哪些具体方面（薪酬、认可、管理）最需要关注",
+          "与上级坦诚沟通您的想法",
+          "探索培训或发展机会以改善现状",
+          "加强与支持性同事的联系"
+        ]
+      },
+      {
+        "min": 32,
+        "max": 43,
+        "level": "normal",
+        "label": "一般",
+        "description": "您的得分反映了对工作的复杂感受——对某些方面满意，对其他方面不太满意。",
+        "suggestions": [
+          "找出最令您满意和最不满意的方面",
+          "着力发展工作中的积极因素",
+          "主动与雇主沟通需要改善的领域",
+          "考虑通过职业发展拓宽选择"
+        ]
+      },
+      {
+        "min": 44,
+        "max": 54,
+        "level": "minimal",
+        "label": "满意",
+        "description": "您的得分表明对工作总体满意，对工作环境的大多数方面持积极态度。",
+        "suggestions": [
+          "继续参与那些让您感到满意的活动",
+          "分享积极经验，帮助营造更好的工作氛围",
+          "即使满意也要注意预防职业倦怠",
+          "继续寻求成长和发展机会"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 9, "max": 54 }
+  }
+}

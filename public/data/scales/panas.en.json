@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "id": "panas",
+    "name": "PANAS Positive and Negative Affect Schedule",
+    "fullName": "Positive and Negative Affect Schedule",
+    "description": "The PANAS is a 20-item scale measuring Positive Affect (PA) and Negative Affect (NA).",
+    "author": "Watson, Clark & Tellegen (1988)",
+    "license": "Free to use",
+    "reference": "Watson D, Clark LA, Tellegen A. Development and validation of brief measures of positive and negative affect. J Pers Soc Psychol. 1988;54(6):1063-1070.",
+    "instruction": "This scale consists of words describing feelings and emotions. Indicate to what extent you felt this way during the past week."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Very slightly or not at all"
+    },
+    {
+      "value": 2,
+      "label": "A little"
+    },
+    {
+      "value": 3,
+      "label": "Moderately"
+    },
+    {
+      "value": 4,
+      "label": "Quite a bit"
+    },
+    {
+      "value": 5,
+      "label": "Extremely"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Interested",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Distressed",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Excited",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Upset",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Strong",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Guilty",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Scared",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Hostile",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Enthusiastic",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Proud",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Irritable",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Alert",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Ashamed",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Inspired",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Nervous",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Determined",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Attentive",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "Jittery",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "Active",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "Afraid",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 100,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "positive_affect",
+        "name": "Positive Affect",
+        "items": [
+          0,
+          2,
+          4,
+          8,
+          9,
+          11,
+          13,
+          15,
+          16,
+          18
+        ],
+        "maxScore": 50
+      },
+      {
+        "id": "negative_affect",
+        "name": "Negative Affect",
+        "items": [
+          1,
+          3,
+          5,
+          6,
+          7,
+          10,
+          12,
+          14,
+          17,
+          19
+        ],
+        "maxScore": 50
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 50,
+        "level": "mild",
+        "label": "Low Overall Affect",
+        "description": "Both PA and NA are relatively low.",
+        "suggestions": [
+          "Review subscale scores",
+          "Consider activities boosting positive emotions"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 100,
+        "level": "normal",
+        "label": "Moderate to High Affect",
+        "description": "Overall emotional experience is moderate to high.",
+        "suggestions": [
+          "Review PA/NA balance",
+          "Maintain positive emotion activities"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "positive_affect": [
+        {
+          "min": 10,
+          "max": 20,
+          "level": "severe",
+          "label": "Low PA",
+          "description": "Low positive affect."
+        },
+        {
+          "min": 21,
+          "max": 30,
+          "level": "mild",
+          "label": "Moderate PA",
+          "description": "Moderate positive affect."
+        },
+        {
+          "min": 31,
+          "max": 50,
+          "level": "minimal",
+          "label": "High PA",
+          "description": "High positive affect."
+        }
+      ],
+      "negative_affect": [
+        {
+          "min": 10,
+          "max": 15,
+          "level": "minimal",
+          "label": "Very Low NA",
+          "description": "Very low negative affect."
+        },
+        {
+          "min": 16,
+          "max": 25,
+          "level": "normal",
+          "label": "Moderate NA",
+          "description": "Moderate negative affect."
+        },
+        {
+          "min": 26,
+          "max": 50,
+          "level": "severe",
+          "label": "High NA",
+          "description": "High negative affect."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "positive_affect",
+        "negative_affect"
+      ],
+      "maxDisplayScore": 50
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Positive Affect",
+          "max": 50
+        },
+        {
+          "name": "Negative Affect",
+          "max": 50
+        }
+      ]
+    }
+  }
+}

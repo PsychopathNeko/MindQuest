@@ -1,0 +1,425 @@
+{
+  "meta": {
+    "id": "sdq",
+    "name": "SDQ Strengths and Difficulties Questionnaire",
+    "fullName": "Strengths and Difficulties Questionnaire",
+    "description": "The SDQ is a 25-item scale assessing emotional symptoms, conduct problems, hyperactivity/inattention, peer relationship problems, and prosocial behavior in children and adolescents (aged 4-17).",
+    "author": "Goodman R (1997)",
+    "license": "Free to use",
+    "reference": "Goodman R. The Strengths and Difficulties Questionnaire: a research note. J Child Psychol Psychiatry. 1997;38(5):581-586.",
+    "instruction": "For each item, please mark the box that best describes the child's behavior over the last six months."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not true"
+    },
+    {
+      "value": 1,
+      "label": "Somewhat true"
+    },
+    {
+      "value": 2,
+      "label": "Certainly true"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Considerate of other people's feelings.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Restless, overactive, cannot stay still for long.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Often complains of headaches, stomach-aches or sickness.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Shares readily with other children (treats, toys, pencils etc.).",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Often has temper tantrums or hot tempers.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Rather solitary, tends to play alone.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Generally obedient, usually does what adults request.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Many worries, often seems worried.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Helpful if someone is hurt, upset or feeling ill.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Constantly fidgeting or squirming.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Has at least one good friend.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Often fights with other children or bullies them.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Often unhappy, down-hearted or tearful.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Generally liked by other children.",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Easily distracted, concentration wanders.",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Nervous or clingy in new situations, easily loses confidence.",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Kind to younger children.",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "Often lies or cheats.",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "Picked on or bullied by other children.",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "Often volunteers to help others (parents, teachers, other children).",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "Thinks things out before acting.",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "Steals from home, school or elsewhere.",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "Gets on better with adults than with other children.",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "Many fears, easily scared.",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "Sees tasks through to the end, good attention span.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "maxTotal": 40,
+    "maxItemScore": 2,
+    "reverseItems": [
+      6,
+      10,
+      13,
+      20,
+      24,
+      0,
+      3
+    ],
+    "subscales": [
+      {
+        "id": "emotional",
+        "name": "Emotional Symptoms",
+        "items": [
+          2,
+          7,
+          12,
+          15,
+          23
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "conduct",
+        "name": "Conduct Problems",
+        "items": [
+          4,
+          6,
+          11,
+          17,
+          21
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "hyperactivity",
+        "name": "Hyperactivity/Inattention",
+        "items": [
+          1,
+          9,
+          14,
+          20,
+          24
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "peer",
+        "name": "Peer Relationship Problems",
+        "items": [
+          3,
+          5,
+          10,
+          18,
+          22
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "prosocial",
+        "name": "Prosocial Behavior",
+        "items": [
+          0,
+          8,
+          13,
+          16,
+          19
+        ],
+        "maxScore": 10
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 13,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Total difficulties score is within normal range (excluding prosocial subscale).",
+        "suggestions": [
+          "Continue monitoring the child's mental health development",
+          "Maintain a supportive family communication environment"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 16,
+        "level": "borderline",
+        "label": "Borderline",
+        "description": "Total difficulties score is at a borderline level. Monitoring is advised.",
+        "suggestions": [
+          "Monitor the child's behavioral and emotional changes closely",
+          "Maintain communication with school teachers",
+          "Consider a more detailed assessment"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 40,
+        "level": "abnormal",
+        "label": "Abnormal",
+        "description": "Total difficulties score is elevated. Professional evaluation is recommended.",
+        "suggestions": [
+          "Consult a child mental health professional",
+          "Focus on specific problem dimensions for targeted intervention",
+          "Early intervention helps improve outcomes"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "emotional": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "normal",
+          "label": "Normal",
+          "description": "Emotional symptoms within normal range."
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "level": "borderline",
+          "label": "Borderline",
+          "description": "Emotional symptoms at borderline level."
+        },
+        {
+          "min": 5,
+          "max": 10,
+          "level": "abnormal",
+          "label": "Abnormal",
+          "description": "Elevated emotional symptoms."
+        }
+      ],
+      "conduct": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "normal",
+          "label": "Normal",
+          "description": "Conduct problems within normal range."
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "level": "borderline",
+          "label": "Borderline",
+          "description": "Conduct problems at borderline level."
+        },
+        {
+          "min": 4,
+          "max": 10,
+          "level": "abnormal",
+          "label": "Abnormal",
+          "description": "Elevated conduct problems."
+        }
+      ],
+      "hyperactivity": [
+        {
+          "min": 0,
+          "max": 5,
+          "level": "normal",
+          "label": "Normal",
+          "description": "Hyperactivity/inattention within normal range."
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "level": "borderline",
+          "label": "Borderline",
+          "description": "Hyperactivity/inattention at borderline level."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "abnormal",
+          "label": "Abnormal",
+          "description": "Elevated hyperactivity/inattention."
+        }
+      ],
+      "peer": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "normal",
+          "label": "Normal",
+          "description": "Peer problems within normal range."
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "level": "borderline",
+          "label": "Borderline",
+          "description": "Peer problems at borderline level."
+        },
+        {
+          "min": 4,
+          "max": 10,
+          "level": "abnormal",
+          "label": "Abnormal",
+          "description": "Elevated peer problems."
+        }
+      ],
+      "prosocial": [
+        {
+          "min": 6,
+          "max": 10,
+          "level": "normal",
+          "label": "Normal",
+          "description": "Prosocial behavior within normal range."
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "level": "borderline",
+          "label": "Borderline",
+          "description": "Prosocial behavior at borderline level."
+        },
+        {
+          "min": 0,
+          "max": 4,
+          "level": "abnormal",
+          "label": "Abnormal",
+          "description": "Low prosocial behavior."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "emotional",
+        "conduct",
+        "hyperactivity",
+        "peer",
+        "prosocial"
+      ],
+      "maxDisplayScore": 10
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Emotional Symptoms",
+          "max": 10
+        },
+        {
+          "name": "Conduct Problems",
+          "max": 10
+        },
+        {
+          "name": "Hyperactivity/Inattention",
+          "max": 10
+        },
+        {
+          "name": "Peer Problems",
+          "max": 10
+        },
+        {
+          "name": "Prosocial Behavior",
+          "max": 10
+        }
+      ]
+    }
+  }
+}

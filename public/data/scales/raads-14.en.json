@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "id": "raads-14",
+    "name": "RAADS-14 Autism Spectrum Screening Scale",
+    "fullName": "Ritvo Autism Asperger Diagnostic Scale-14",
+    "description": "The RAADS-14 is a 14-item self-report screening scale for assessing autism spectrum traits in adults, covering social interaction, language, sensorimotor, and circumscribed interests.",
+    "author": "Eriksson, Andersen & Bejerot (2013)",
+    "license": "Free to use",
+    "reference": "Eriksson JM, Andersen LM, Bejerot S. RAADS-14 Screen: validity of a screening tool for autism spectrum disorder in an adult psychiatric population. Molecular Autism. 2013;4(1):49.",
+    "instruction": "Please select the option that best describes your experience. Some items ask you to distinguish between childhood (before age 16) and current experience."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Never true" },
+    { "value": 1, "label": "True only when I was younger than 16" },
+    { "value": 2, "label": "True only now" },
+    { "value": 3, "label": "True now and when I was young" }
+  ],
+  "questions": [
+    { "index": 0, "text": "It is difficult for me to understand how other people are feeling when we are talking", "type": "likert" },
+    { "index": 1, "text": "I often use words and phrases from movies or TV in conversation", "type": "likert" },
+    { "index": 2, "text": "I am often surprised when others tell me I have been insensitive or rude", "type": "likert" },
+    { "index": 3, "text": "Sometimes I talk too loudly or too softly, and I am not aware of it", "type": "likert" },
+    { "index": 4, "text": "I often don't know how to act in social situations", "type": "likert" },
+    { "index": 5, "text": "I can 'put myself in other people's shoes'", "type": "likert" },
+    { "index": 6, "text": "I have a hard time figuring out what some phrases mean, like 'you are the apple of my eye'", "type": "likert" },
+    { "index": 7, "text": "I only like to talk to people who share my special interests", "type": "likert" },
+    { "index": 8, "text": "I focus on details rather than the overall idea", "type": "likert" },
+    { "index": 9, "text": "I always notice how food feels in my mouth. This is more important to me than how it tastes", "type": "likert" },
+    { "index": 10, "text": "I miss my best friends or family when we are apart for a long time", "type": "likert" },
+    { "index": 11, "text": "Sometimes I offend others by saying what I am thinking, even if I don't mean to", "type": "likert" },
+    { "index": 12, "text": "I only like to think and talk about a few things that interest me", "type": "likert" },
+    { "index": 13, "text": "I'd rather go out to eat in a restaurant by myself than with someone I know", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 42,
+    "maxItemScore": 3,
+    "reverseItems": [5, 10],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 13,
+        "level": "minimal",
+        "label": "Below Threshold",
+        "description": "Your score is below the autism spectrum screening threshold. It is unlikely that you have autism spectrum disorder.",
+        "suggestions": [
+          "This result is only a preliminary screening",
+          "If you have concerns in other areas, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 25,
+        "level": "mild",
+        "label": "Moderate ASD Traits",
+        "description": "Your score exceeds the screening threshold, suggesting some autism spectrum traits. This does not mean a diagnosis — further professional assessment is recommended.",
+        "suggestions": [
+          "Consider seeking a professional neurodevelopmental assessment",
+          "Learn about autism spectrum conditions",
+          "Explore social and communication strategies that work for you",
+          "Joining a support community may be helpful"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 42,
+        "level": "moderate",
+        "label": "Elevated ASD Traits",
+        "description": "Your score is elevated, suggesting notable autism spectrum traits. A professional diagnostic assessment is strongly recommended.",
+        "suggestions": [
+          "Strongly recommended to seek a professional autism spectrum assessment",
+          "A formal diagnosis must be made by a qualified clinician",
+          "Receiving a diagnosis can help you understand yourself and access support",
+          "Learn about the concept of neurodiversity"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 42 }
+  }
+}

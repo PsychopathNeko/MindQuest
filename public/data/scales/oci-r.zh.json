@@ -1,0 +1,438 @@
+{
+  "meta": {
+    "id": "oci-r",
+    "name": "OCI-R 强迫症量表修订版",
+    "fullName": "Obsessive-Compulsive Inventory - Revised",
+    "description": "OCI-R 是一份包含 18 个条目的自评量表，从囤积、检查、排序、中和、清洗和强迫思维六个维度评估强迫症状的严重程度。",
+    "author": "Foa, Huppert, Leiberg, et al. (2002)",
+    "license": "Free to use",
+    "reference": "Foa EB, et al. Psychol Assess. 2002;14(4):485-496.",
+    "instruction": "以下描述了许多人日常生活中可能有的体验。请选择过去一个月内其困扰程度。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "有一点"
+    },
+    {
+      "value": 2,
+      "label": "中等程度"
+    },
+    {
+      "value": 3,
+      "label": "很多"
+    },
+    {
+      "value": 4,
+      "label": "非常严重"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我囤积了太多东西以至于碍事",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我检查东西的次数超过必要",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "如果物品没有摆放整齐我会感到不安",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "做事时我觉得必须要数数",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "知道某物被陌生人碰过后我难以触碰它",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我发现很难控制自己的想法",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我收集自己不需要的东西",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我反复检查门、窗、抽屉等",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "别人改变了我摆放东西的方式会让我不安",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我觉得必须重复某些数字",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "有时我因觉得被污染就必须清洗自己",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "违背意愿闯入脑海的不愉快想法让我困扰",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我不敢扔东西，因为怕以后会需要",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "关掉煤气、水龙头和电灯开关后我反复检查",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我需要东西按特定方式摆放",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我觉得数字有好坏之分",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "我洗手的次数和时间超过必要",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "我经常出现令人厌恶的想法并难以摆脱",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 72,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "hoarding",
+        "name": "囤积",
+        "items": [
+          0,
+          6,
+          12
+        ],
+        "maxScore": 12
+      },
+      {
+        "id": "checking",
+        "name": "检查",
+        "items": [
+          1,
+          7,
+          13
+        ],
+        "maxScore": 12
+      },
+      {
+        "id": "ordering",
+        "name": "排序",
+        "items": [
+          2,
+          8,
+          14
+        ],
+        "maxScore": 12
+      },
+      {
+        "id": "neutralizing",
+        "name": "中和",
+        "items": [
+          3,
+          9,
+          15
+        ],
+        "maxScore": 12
+      },
+      {
+        "id": "washing",
+        "name": "清洗",
+        "items": [
+          4,
+          10,
+          16
+        ],
+        "maxScore": 12
+      },
+      {
+        "id": "obsessing",
+        "name": "强迫思维",
+        "items": [
+          5,
+          11,
+          17
+        ],
+        "maxScore": 12
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 20,
+        "level": "minimal",
+        "label": "非临床范围",
+        "description": "您的得分处于非临床范围。",
+        "suggestions": [
+          "继续保持健康习惯",
+          "练习正念"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "轻度强迫症状",
+        "description": "存在轻度强迫症状，临床分界值约21分。",
+        "suggestions": [
+          "关注症状变化",
+          "了解强迫症机制",
+          "尝试反应预防",
+          "咨询专业人士"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "moderate",
+        "label": "中度强迫症状",
+        "description": "中度强迫症状，可能造成明显困扰。",
+        "suggestions": [
+          "寻求专业评估",
+          "ERP是金标准治疗",
+          "避免反复确认",
+          "考虑药物治疗"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 72,
+        "level": "severe",
+        "label": "重度强迫症状",
+        "description": "重度强迫症状，可能严重影响日常功能。",
+        "suggestions": [
+          "强烈建议专门治疗",
+          "ERP疗法最有效",
+          "SSRIs一线药物",
+          "加入支持团体",
+          "强迫症可治"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "hoarding": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "低",
+          "description": "囤积极轻。"
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "中等",
+          "description": "中等囤积。"
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "高",
+          "description": "囤积明显。"
+        }
+      ],
+      "checking": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "低",
+          "description": "检查极少。"
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "中等",
+          "description": "中等检查。"
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "高",
+          "description": "检查明显。"
+        }
+      ],
+      "ordering": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "低",
+          "description": "秩序需求极低。"
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "中等",
+          "description": "中等秩序需求。"
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "高",
+          "description": "强烈秩序需求。"
+        }
+      ],
+      "neutralizing": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "低",
+          "description": "中和极少。"
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "中等",
+          "description": "中等中和。"
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "高",
+          "description": "中和明显。"
+        }
+      ],
+      "washing": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "低",
+          "description": "清洗极轻。"
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "中等",
+          "description": "中等清洗。"
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "高",
+          "description": "清洗明显。"
+        }
+      ],
+      "obsessing": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "低",
+          "description": "强迫思维极少。"
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "中等",
+          "description": "中等强迫思维。"
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "高",
+          "description": "强迫思维明显。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar",
+      "radar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 72
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "hoarding",
+        "checking",
+        "ordering",
+        "neutralizing",
+        "washing",
+        "obsessing"
+      ],
+      "maxDisplayScore": 12
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "囤积",
+          "max": 12
+        },
+        {
+          "name": "检查",
+          "max": 12
+        },
+        {
+          "name": "排序",
+          "max": 12
+        },
+        {
+          "name": "中和",
+          "max": 12
+        },
+        {
+          "name": "清洗",
+          "max": 12
+        },
+        {
+          "name": "强迫思维",
+          "max": 12
+        }
+      ]
+    }
+  }
+}

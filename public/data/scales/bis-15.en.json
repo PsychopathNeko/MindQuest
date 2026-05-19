@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "id": "bis-15",
+    "name": "BIS-15 Barratt Impulsiveness Scale",
+    "fullName": "Barratt Impulsiveness Scale-15",
+    "description": "The BIS-15 is a 15-item scale measuring three dimensions of impulsivity: Attentional (difficulty focusing), Motor (acting without thinking), and Non-planning (lack of future orientation).",
+    "author": "Spinella (2007)",
+    "license": "Free to use",
+    "reference": "Spinella M. Normative data and a short form of the Barratt Impulsiveness Scale. International Journal of Neuroscience. 2007;117(3):359-368.",
+    "instruction": "Please rate how often each statement applies to you."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Rarely/Never"
+    },
+    {
+      "value": 2,
+      "label": "Occasionally"
+    },
+    {
+      "value": 3,
+      "label": "Often"
+    },
+    {
+      "value": 4,
+      "label": "Almost Always"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I don't pay attention",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I make up my mind quickly",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I am restless",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am a fast thinker",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I don't think carefully",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I act on the spur of the moment",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I say things without thinking",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I act without thinking",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I answer without thinking when I don't know the answer",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I spend money impulsively",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I don't plan for the future",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I do things without planning",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I am more interested in the present than the future",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I find it hard to think about complex problems",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I change jobs/interests frequently",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 60,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "attentional",
+        "name": "Attentional",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "maxScore": 20
+      },
+      {
+        "id": "motor",
+        "name": "Motor",
+        "items": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "maxScore": 20
+      },
+      {
+        "id": "nonplanning",
+        "name": "Non-planning",
+        "items": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "maxScore": 20
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 15,
+        "max": 25,
+        "level": "minimal",
+        "label": "Low Impulsivity",
+        "description": "Your impulsivity level is low. You generally think things through before acting.",
+        "suggestions": [
+          "Continue maintaining your thoughtful and planned approach to decisions",
+          "Being cautious is positive, but also allow some flexibility in adapting to changes"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 38,
+        "level": "normal",
+        "label": "Moderate Impulsivity",
+        "description": "Your impulsivity is within the normal range. You maintain a good balance between thinking and acting.",
+        "suggestions": [
+          "Continue maintaining your good self-regulation skills",
+          "Give yourself extra time to think before making important decisions",
+          "Keep practicing focus and planning skills"
+        ]
+      },
+      {
+        "min": 39,
+        "max": 48,
+        "level": "mild",
+        "label": "Elevated Impulsivity",
+        "description": "Your impulsivity is somewhat elevated. You may sometimes act without fully considering the consequences.",
+        "suggestions": [
+          "Try pausing for a few seconds before making decisions",
+          "Use to-do lists and schedules to enhance planning",
+          "Practice mindfulness meditation to improve self-awareness",
+          "If impulsive behavior causes problems, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "moderate",
+        "label": "High Impulsivity",
+        "description": "Your impulsivity level is high. You may frequently act without thinking, which can affect work, relationships, and daily life.",
+        "suggestions": [
+          "Consider consulting a mental health professional for evaluation",
+          "Learn delayed gratification and self-control techniques",
+          "Establish daily routines and structured lifestyle habits",
+          "Consider cognitive behavioral therapy to manage impulsive behavior",
+          "Explore whether impulsive behavior may be related to ADHD or other conditions"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "attentional": [
+        {
+          "min": 5,
+          "max": 8,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Attentional impulsivity is low. You have good ability to concentrate."
+        },
+        {
+          "min": 9,
+          "max": 13,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Attentional impulsivity is at a moderate level. You may sometimes have difficulty focusing."
+        },
+        {
+          "min": 14,
+          "max": 17,
+          "level": "high",
+          "label": "High",
+          "description": "Attentional impulsivity is elevated. You may frequently have difficulty concentrating."
+        },
+        {
+          "min": 18,
+          "max": 20,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Attentional impulsivity is very high. Significant difficulty with concentration; further evaluation recommended."
+        }
+      ],
+      "motor": [
+        {
+          "min": 5,
+          "max": 8,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Motor impulsivity is low. Your actions are generally well-considered."
+        },
+        {
+          "min": 9,
+          "max": 13,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Motor impulsivity is at a moderate level. You occasionally act without thinking."
+        },
+        {
+          "min": 14,
+          "max": 17,
+          "level": "high",
+          "label": "High",
+          "description": "Motor impulsivity is elevated. Impulsive actions occur frequently."
+        },
+        {
+          "min": 18,
+          "max": 20,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Motor impulsivity is very high. You frequently act without thinking; consider seeking professional help."
+        }
+      ],
+      "nonplanning": [
+        {
+          "min": 5,
+          "max": 8,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Non-planning impulsivity is low. You have good planning and foresight abilities."
+        },
+        {
+          "min": 9,
+          "max": 13,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Non-planning impulsivity is at a moderate level. You sometimes lack long-term planning."
+        },
+        {
+          "min": 14,
+          "max": 17,
+          "level": "high",
+          "label": "High",
+          "description": "Non-planning impulsivity is elevated. You rarely plan ahead for the future."
+        },
+        {
+          "min": 18,
+          "max": 20,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Non-planning impulsivity is very high. You almost never plan ahead; consider developing planning habits."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "attentional",
+        "motor",
+        "nonplanning"
+      ],
+      "maxDisplayScore": 20
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Attentional",
+          "max": 20
+        },
+        {
+          "name": "Motor",
+          "max": 20
+        },
+        {
+          "name": "Non-planning",
+          "max": 20
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "id": "core-10",
+    "name": "CORE-10 Clinical Outcomes in Routine Evaluation",
+    "fullName": "Clinical Outcomes in Routine Evaluation-10",
+    "description": "The CORE-10 is a brief 10-item self-report scale that assesses the overall level of psychological distress. It covers anxiety, depression, trauma, physical functioning, social functioning, and risk, widely used in routine outcome monitoring in clinical practice.",
+    "author": "Connell & Barkham (2007)",
+    "license": "Free for research use",
+    "reference": "Connell J, Barkham M. CORE-10 User Manual, Version 1.1. CORE System Trust, 2007.",
+    "instruction": "Please select the option that best describes how you have been over the last week."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "Only occasionally"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes"
+    },
+    {
+      "value": 3,
+      "label": "Often"
+    },
+    {
+      "value": 4,
+      "label": "Most or all of the time"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I have felt tense, anxious, or nervous",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I have felt I have someone to turn to for support when needed",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I have felt unable to cope when things go wrong",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Talking to people, walking, or getting dressed has been slower than usual",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I have lost interest in life",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I have been angry at myself",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I have felt OK about myself physically and have had enough energy",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I have not wanted to be with people",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I have felt low or unhappy",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Unwanted thoughts of ending my life have come into my mind",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 40,
+    "maxItemScore": 4,
+    "reverseItems": [
+      1,
+      6
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 10,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your psychological distress level is within the normal range.",
+        "suggestions": [
+          "Continue maintaining good mental health",
+          "Keep up healthy habits and social activities"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 20,
+        "level": "mild",
+        "label": "Mild Distress",
+        "description": "You are experiencing some psychological distress that may have a mild impact on daily life.",
+        "suggestions": [
+          "Pay attention to your emotional changes",
+          "Learn stress management and relaxation techniques",
+          "Maintain social connections",
+          "Consider seeking professional help if distress persists"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "moderate",
+        "label": "Moderate Distress",
+        "description": "Your psychological distress level is elevated and may noticeably affect work and daily functioning.",
+        "suggestions": [
+          "Consider seeking counseling or therapy",
+          "Share your feelings with someone you trust",
+          "Maintain regular routines and physical exercise",
+          "Avoid unhealthy coping mechanisms"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "severe",
+        "label": "Severe Distress",
+        "description": "Your psychological distress level is very high. Daily functioning may be significantly affected.",
+        "suggestions": [
+          "Strongly recommended to seek professional mental health help immediately",
+          "If you have thoughts of self-harm, please contact a crisis helpline",
+          "Ensure you have trusted people around for support",
+          "Seeking help is a sign of strength, not weakness"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 40
+    }
+  }
+}

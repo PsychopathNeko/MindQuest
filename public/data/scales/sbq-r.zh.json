@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": "sbq-r",
+    "name": "SBQ-R 自杀行为问卷修订版",
+    "fullName": "自杀行为问卷修订版",
+    "description": "SBQ-R 是一份包含 4 个条目的自评自杀行为筛查工具。它评估四个维度：终生自杀意念和/或自杀未遂、过去12个月内自杀意念的频率、自杀威胁、以及自我报告的未来自杀行为可能性。广泛用于临床和研究场景的筛查。",
+    "author": "Osman et al. (2001)",
+    "license": "Free to use",
+    "reference": "Osman A, Bagge CL, Gutierrez PM, Konick LC, Kopper BA, Barrios FX. The Suicidal Behaviors Questionnaire-Revised (SBQ-R): Validation with clinical and nonclinical samples. Assessment. 2001;8(4):443-454.",
+    "instruction": "请仔细回答以下每个问题。您的如实作答非常重要。如果您目前正在经历自杀想法，请立即联系心理危机热线或寻求专业帮助。"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "您是否曾想过或试图自杀？",
+      "type": "likert",
+      "choices": [
+        { "value": 1, "label": "从未有过" },
+        { "value": 2, "label": "只是一闪而过的念头" },
+        { "value": 3, "label": "曾至少有过一次自杀计划，但没有实施" },
+        { "value": 4, "label": "曾尝试自杀，但并不想死" }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "在过去一年中，您有多频繁地想过自杀？",
+      "type": "likert",
+      "choices": [
+        { "value": 1, "label": "从未" },
+        { "value": 2, "label": "很少（1次）" },
+        { "value": 3, "label": "有时（2次）" },
+        { "value": 4, "label": "经常（3-4次）" },
+        { "value": 5, "label": "非常频繁（5次或以上）" }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "您是否曾告诉别人您要自杀，或者您可能会自杀？",
+      "type": "likert",
+      "choices": [
+        { "value": 1, "label": "没有" },
+        { "value": 2, "label": "是的，有一次，但并不是真的想死" },
+        { "value": 3, "label": "是的，不止一次，但并不想那样做" }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "您将来尝试自杀的可能性有多大？",
+      "type": "likert",
+      "choices": [
+        { "value": 0, "label": "绝不可能" },
+        { "value": 1, "label": "完全没有可能" },
+        { "value": 2, "label": "比较不可能" },
+        { "value": 3, "label": "不太可能" },
+        { "value": 4, "label": "有可能" },
+        { "value": 5, "label": "比较可能" },
+        { "value": 6, "label": "非常可能" }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 18,
+    "maxItemScore": 6,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 3,
+        "max": 6,
+        "level": "minimal",
+        "label": "低风险",
+        "description": "您的回答显示自杀风险较低。但任何自杀想法都应被认真对待。",
+        "suggestions": [
+          "如果您曾经历令人痛苦的想法，请不要犹豫，及时寻求帮助",
+          "保持健康的社交联系和应对策略",
+          "了解您所在地区的心理危机热线联系方式"
+        ]
+      },
+      {
+        "min": 7,
+        "max": 9,
+        "level": "moderate",
+        "label": "中等风险",
+        "description": "您的得分达到7分或以上，处于临床截断值，提示存在显著的自杀风险。强烈建议进行进一步的专业评估。",
+        "suggestions": [
+          "请尽快寻求专业的心理健康评估",
+          "如果您正处于紧急困境中，请联系心理危机热线",
+          "与信任的人谈谈您的感受",
+          "与心理健康专业人员一起制定安全计划"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "severe",
+        "label": "高风险",
+        "description": "您的回答显示自杀风险较高。建议立即接受专业干预。",
+        "suggestions": [
+          "请立即联系心理危机热线或前往最近的急诊室",
+          "如果您正有活跃的自杀想法，请不要独处",
+          "移除任何可能用于自我伤害的物品",
+          "紧急联系心理健康专业人员"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 18,
+        "level": "very_severe",
+        "label": "极高风险",
+        "description": "您的回答显示自杀风险极高。必须立即进行危机干预。",
+        "suggestions": [
+          "请立即拨打心理援助热线（如：北京 010-82951332、全国 400-161-9995）或前往最近的急诊室",
+          "请不要独处，与信任的人待在一起",
+          "立即移除所有可能用于自我伤害的物品",
+          "这是危机情况，需要立即获得专业帮助"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 3, "max": 18 }
+  }
+}

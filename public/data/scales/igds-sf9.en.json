@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "id": "igds-sf9",
+    "name": "IGDS-SF9 Internet Gaming Disorder Scale",
+    "fullName": "Internet Gaming Disorder Scale - Short Form 9",
+    "description": "The IGDS-SF9 is a 9-item brief self-report scale based on DSM-5 Internet Gaming Disorder criteria for assessing the severity of gaming addiction.",
+    "author": "Pontes & Griffiths (2015)",
+    "license": "Free to use",
+    "reference": "Pontes HM, Griffiths MD. Measuring DSM-5 internet gaming disorder: Development and validation of a short psychometric scale. Computers in Human Behavior. 2015;45:137-143.",
+    "instruction": "Based on your gaming behavior over the past 12 months, select the option that best describes your experience."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Never" },
+    { "value": 2, "label": "Rarely" },
+    { "value": 3, "label": "Sometimes" },
+    { "value": 4, "label": "Often" },
+    { "value": 5, "label": "Very Often" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I feel preoccupied with my gaming behavior (e.g., thinking about previous gaming activity, planning the next session, thinking of ways to get more game currency)", "type": "likert" },
+    { "index": 1, "text": "I feel more irritability, anxiety, or even sadness when I try to either reduce or stop my gaming activity", "type": "likert" },
+    { "index": 2, "text": "I feel the need to spend increasing amount of time engaged in gaming to achieve satisfaction or pleasure", "type": "likert" },
+    { "index": 3, "text": "I systematically fail when trying to control or cease my gaming activity", "type": "likert" },
+    { "index": 4, "text": "I have lost interest in previous hobbies and other entertainment activities as a result of my engagement with gaming", "type": "likert" },
+    { "index": 5, "text": "I have continued my gaming activity despite knowing it was causing problems between me and other people", "type": "likert" },
+    { "index": 6, "text": "I have deceived any of my family members, therapists, or others about the amount of my gaming activity", "type": "likert" },
+    { "index": 7, "text": "I play in order to temporarily escape or relieve a negative mood (e.g., helplessness, guilt, anxiety)", "type": "likert" },
+    { "index": 8, "text": "I have jeopardized or lost an important relationship, job, or educational/career opportunity because of my gaming activity", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 45,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 9,
+        "max": 21,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your gaming behavior is within the normal range with no signs of Internet Gaming Disorder.",
+        "suggestions": [
+          "Continue maintaining healthy gaming habits",
+          "Be mindful of balancing gaming time with other activities"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 30,
+        "level": "mild",
+        "label": "At Risk",
+        "description": "You may have some unhealthy gaming behavior patterns. Consider monitoring the impact of gaming on your daily life.",
+        "suggestions": [
+          "Set a daily time limit for gaming",
+          "Develop other hobbies and interests",
+          "Monitor the impact of gaming on sleep and work/studies",
+          "If you find it hard to control, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 36,
+        "level": "moderate",
+        "label": "High Risk",
+        "description": "Your gaming behavior has noticeably impacted your daily life. Seeking professional help is recommended.",
+        "suggestions": [
+          "Consider consulting a mental health professional",
+          "Gradually reduce gaming time",
+          "Find alternative ways to relax and socialize",
+          "Talk to someone you trust about your gaming habits"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 45,
+        "level": "severe",
+        "label": "Probable Gaming Disorder",
+        "description": "Your score suggests a possible Internet Gaming Disorder. Gaming has severely affected your daily functioning. Professional help is strongly recommended.",
+        "suggestions": [
+          "Strongly recommended to consult a psychiatrist or psychotherapist as soon as possible",
+          "Consider professional behavioral intervention therapy",
+          "Build a support system by letting family and friends know about the situation",
+          "Avoid unrestricted access to gaming devices when alone"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 9, "max": 45 }
+  }
+}

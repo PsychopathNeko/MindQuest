@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "id": "ahs",
+    "name": "AHS Adult Hope Scale",
+    "fullName": "Adult Hope Scale",
+    "description": "The AHS is a 12-item self-report scale (8 scored items, 4 fillers) that assesses an individual’s level of hope. Hope comprises two dimensions: Pathways thinking (finding ways to achieve goals) and Agency thinking (motivation to pursue goals). It is a core concept in positive psychology.",
+    "author": "Snyder, Harris, Anderson, Holleran, Irving, Sigmon, et al. (1991)",
+    "license": "Free for research use",
+    "reference": "Snyder CR, Harris C, Anderson JR, et al. The will and the ways: development and validation of an individual-differences measure of hope. J Pers Soc Psychol. 1991;60(4):570-585.",
+    "instruction": "Read each item and select the option that best describes your current thinking."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Definitely False"
+    },
+    {
+      "value": 2,
+      "label": "Mostly False"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat False"
+    },
+    {
+      "value": 4,
+      "label": "Slightly False"
+    },
+    {
+      "value": 5,
+      "label": "Slightly True"
+    },
+    {
+      "value": 6,
+      "label": "Somewhat True"
+    },
+    {
+      "value": 7,
+      "label": "Mostly True"
+    },
+    {
+      "value": 8,
+      "label": "Definitely True"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I can think of many ways to get out of a jam",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I energetically pursue my goals",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I feel tired most of the time",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "There are lots of ways around any problem",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I am easily downed in an argument",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I can think of many ways to get the things in life that are most important to me",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I worry about my health",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Even when others get discouraged, I know I can find a way to solve the problem",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "My past experiences have prepared me well for my future",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I’ve been pretty successful in life",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I usually find myself worrying about something",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I meet the goals that I set for myself",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 64,
+    "maxItemScore": 8,
+    "scoredItems": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      8,
+      9,
+      11
+    ],
+    "fillerItems": [
+      2,
+      4,
+      6,
+      10
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 8,
+        "max": 24,
+        "level": "severe",
+        "label": "Low Hope",
+        "description": "Your hope level is low. You may lack confidence and pathways when facing difficulties.",
+        "suggestions": [
+          "Try setting small, achievable goals to build confidence",
+          "Learn problem-solving skills",
+          "Spend time with positive, optimistic people",
+          "Consider seeking counseling to enhance hopefulness"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 40,
+        "level": "mild",
+        "label": "Below Average Hope",
+        "description": "Your hope is below average. You may occasionally feel lacking in motivation or direction when pursuing goals.",
+        "suggestions": [
+          "Practice setting specific, measurable goals",
+          "Review past successes to boost confidence",
+          "Explore multiple pathways to achieve your goals",
+          "Cultivate positive self-talk"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 56,
+        "level": "normal",
+        "label": "Above Average Hope",
+        "description": "Your hope is above average. You are generally good at setting goals and finding ways to achieve them.",
+        "suggestions": [
+          "Continue maintaining positive goal-directed thinking",
+          "Use your hopefulness as motivation when facing challenges",
+          "Help others develop a sense of hope"
+        ]
+      },
+      {
+        "min": 57,
+        "max": 64,
+        "level": "minimal",
+        "label": "High Hope",
+        "description": "Your hope level is very high. You maintain a positive attitude and find multiple solutions when facing difficulties.",
+        "suggestions": [
+          "Your high hope is a valuable psychological resource",
+          "Continue setting challenging goals",
+          "Use your positive mindset to help and encourage others"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 8,
+      "max": 64
+    }
+  }
+}

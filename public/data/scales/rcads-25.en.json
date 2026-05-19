@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "id": "rcads-25",
+    "name": "RCADS-25 Revised Child Anxiety and Depression Scale",
+    "fullName": "Revised Child Anxiety and Depression Scale - 25 Item",
+    "description": "The RCADS-25 is a 25-item short form assessing anxiety and depression symptoms in children and adolescents.",
+    "author": "Ebesutani C, et al. (2012)",
+    "license": "Free to use",
+    "reference": "Ebesutani C, et al. The Revised Child Anxiety and Depression Scale-Short Version: Scale reduction via exploratory bifactor modeling of the broad anxiety factor. Psychol Assess. 2012;24(4):833-845.",
+    "instruction": "Please indicate how often each item is true for you based on how you have been feeling recently."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Never" },
+    { "value": 1, "label": "Sometimes" },
+    { "value": 2, "label": "Often" },
+    { "value": 3, "label": "Always" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I worry about things.", "type": "likert" },
+    { "index": 1, "text": "When I have a problem, my heart beats really fast.", "type": "likert" },
+    { "index": 2, "text": "When I have a problem, I feel scared.", "type": "likert" },
+    { "index": 3, "text": "I worry that bad things will happen to me.", "type": "likert" },
+    { "index": 4, "text": "When I have a problem, I feel shaky.", "type": "likert" },
+    { "index": 5, "text": "I suddenly feel really scared for no reason at all.", "type": "likert" },
+    { "index": 6, "text": "I worry that I will suddenly get a scared feeling when there is nothing to be afraid of.", "type": "likert" },
+    { "index": 7, "text": "I am afraid of being in crowded places.", "type": "likert" },
+    { "index": 8, "text": "I worry about looking foolish in front of people.", "type": "likert" },
+    { "index": 9, "text": "I worry that I will do something to make a fool of myself.", "type": "likert" },
+    { "index": 10, "text": "I have to keep checking that I have done things right.", "type": "likert" },
+    { "index": 11, "text": "I am scared to go to school.", "type": "likert" },
+    { "index": 12, "text": "I worry what other people think of me.", "type": "likert" },
+    { "index": 13, "text": "I am afraid of talking in front of the class.", "type": "likert" },
+    { "index": 14, "text": "I am afraid of being alone.", "type": "likert" },
+    { "index": 15, "text": "Nothing is much fun anymore.", "type": "likert" },
+    { "index": 16, "text": "I feel sad or empty.", "type": "likert" },
+    { "index": 17, "text": "I am not interested in anything.", "type": "likert" },
+    { "index": 18, "text": "I have problems with my schoolwork.", "type": "likert" },
+    { "index": 19, "text": "I cannot do anything well.", "type": "likert" },
+    { "index": 20, "text": "I feel worthless.", "type": "likert" },
+    { "index": 21, "text": "I feel tired a lot.", "type": "likert" },
+    { "index": 22, "text": "I feel restless.", "type": "likert" },
+    { "index": 23, "text": "I have problems with my sleep.", "type": "likert" },
+    { "index": 24, "text": "I have no energy for things.", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 75,
+    "maxItemScore": 3,
+    "reverseItems": [],
+    "subscales": [
+      {
+        "id": "anxiety",
+        "name": "Anxiety",
+        "items": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+        "maxScore": 45
+      },
+      {
+        "id": "depression",
+        "name": "Depression",
+        "items": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+        "maxScore": 30
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 24,
+        "level": "normal",
+        "label": "Normal Range",
+        "description": "Your anxiety and depression symptoms are within the normal range.",
+        "suggestions": [
+          "Continue maintaining good mental health",
+          "Stay socially engaged and active"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 49,
+        "level": "elevated",
+        "label": "Elevated Symptoms",
+        "description": "Your anxiety and/or depression symptoms are elevated and deserve attention.",
+        "suggestions": [
+          "Talk to a trusted adult about how you are feeling",
+          "Maintain regular exercise and healthy sleep habits",
+          "Consider talking to a school counselor"
+        ]
+      },
+      {
+        "min": 50,
+        "max": 75,
+        "level": "clinical",
+        "label": "Clinically Significant",
+        "description": "Your symptoms reach clinically significant levels. Professional evaluation is recommended.",
+        "suggestions": [
+          "Consult a mental health professional as soon as possible",
+          "Do not carry the burden alone; communicate with family or teachers",
+          "A professional assessment can help develop an appropriate intervention plan"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "anxiety": [
+        { "min": 0, "max": 14, "level": "normal", "label": "Normal", "description": "Anxiety symptoms within normal range." },
+        { "min": 15, "max": 29, "level": "elevated", "label": "Elevated", "description": "Elevated anxiety symptoms." },
+        { "min": 30, "max": 45, "level": "clinical", "label": "Clinical", "description": "Clinically significant anxiety symptoms." }
+      ],
+      "depression": [
+        { "min": 0, "max": 9, "level": "normal", "label": "Normal", "description": "Depression symptoms within normal range." },
+        { "min": 10, "max": 19, "level": "elevated", "label": "Elevated", "description": "Elevated depression symptoms." },
+        { "min": 20, "max": 30, "level": "clinical", "label": "Clinical", "description": "Clinically significant depression symptoms." }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["anxiety", "depression"],
+      "maxDisplayScore": 45
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "Anxiety", "max": 45 },
+        { "name": "Depression", "max": 30 }
+      ]
+    }
+  }
+}

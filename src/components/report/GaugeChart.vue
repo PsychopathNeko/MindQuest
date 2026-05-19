@@ -14,7 +14,7 @@ const props = defineProps({
   maxScore: { type: Number, required: true },
   minScore: { type: Number, default: 0 },
   label: { type: String, default: '' },
-  color: { type: String, default: '#3b82f6' },
+  color: { type: String, default: '#7da2f7' },
 })
 
 const { createGaugeOption } = useChartOptions()

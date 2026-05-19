@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "id": "shs",
+    "name": "SHS Subjective Happiness Scale",
+    "fullName": "Subjective Happiness Scale",
+    "description": "The SHS is a brief 4-item self-report scale that measures an individual's overall subjective happiness level. It uses a global assessment approach independent of specific sources of happiness and is one of the most widely used measures of happiness.",
+    "author": "Lyubomirsky & Lepper (1999)",
+    "license": "Free to use",
+    "reference": "Lyubomirsky S, Lepper HS. A measure of subjective happiness: preliminary reliability and construct validation. Social Indicators Research. 1999;46(2):137-155.",
+    "instruction": "For each of the following statements, please select the point on the scale that you feel is most appropriate in describing you."
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "In general, I consider myself:",
+      "type": "likert",
+      "choices": [
+        { "value": 1, "label": "Not a very happy person" },
+        { "value": 2, "label": "2" },
+        { "value": 3, "label": "3" },
+        { "value": 4, "label": "4" },
+        { "value": 5, "label": "5" },
+        { "value": 6, "label": "6" },
+        { "value": 7, "label": "A very happy person" }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "Compared to most of my peers, I consider myself:",
+      "type": "likert",
+      "choices": [
+        { "value": 1, "label": "Less happy" },
+        { "value": 2, "label": "2" },
+        { "value": 3, "label": "3" },
+        { "value": 4, "label": "4" },
+        { "value": 5, "label": "5" },
+        { "value": 6, "label": "6" },
+        { "value": 7, "label": "More happy" }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "Some people are generally very happy. They enjoy life regardless of what is going on, getting the most out of everything. To what extent does this characterization describe you?",
+      "type": "likert",
+      "choices": [
+        { "value": 1, "label": "Not at all" },
+        { "value": 2, "label": "2" },
+        { "value": 3, "label": "3" },
+        { "value": 4, "label": "4" },
+        { "value": 5, "label": "5" },
+        { "value": 6, "label": "6" },
+        { "value": 7, "label": "A great deal" }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "Some people are generally not very happy. Although they are not depressed, they never seem as happy as they might be. To what extent does this characterization describe you?",
+      "type": "likert",
+      "choices": [
+        { "value": 1, "label": "A great deal" },
+        { "value": 2, "label": "2" },
+        { "value": 3, "label": "3" },
+        { "value": 4, "label": "4" },
+        { "value": 5, "label": "5" },
+        { "value": 6, "label": "6" },
+        { "value": 7, "label": "Not at all" }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 28,
+    "maxItemScore": 7,
+    "reverseItems": [3],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 4,
+        "max": 11,
+        "level": "low",
+        "label": "Low Happiness",
+        "description": "Your subjective happiness level is low. You may be experiencing less joy and satisfaction in daily life.",
+        "suggestions": [
+          "Try focusing on the positive aspects of your life and cultivate a gratitude practice",
+          "Increase social interactions with friends and family",
+          "Engage in activities that bring you pleasure, such as exercise or hobbies",
+          "If persistent unhappiness continues, consider consulting a mental health professional"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 18,
+        "level": "moderate",
+        "label": "Moderate Happiness",
+        "description": "Your subjective happiness is at a moderate level. You experience some degree of satisfaction and joy in life.",
+        "suggestions": [
+          "Continue developing positive life habits",
+          "Explore new interests and activities to enrich your experiences",
+          "Build deeper connections with others",
+          "Practice mindfulness meditation to enhance present-moment happiness"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 23,
+        "level": "high",
+        "label": "Moderately High Happiness",
+        "description": "Your subjective happiness level is moderately high. You generally experience considerable joy and satisfaction in life.",
+        "suggestions": [
+          "Maintain your current positive lifestyle",
+          "Share your happiness with those around you",
+          "Continue pursuing meaningful goals and activities",
+          "Cherish and nurture the relationships and activities that bring you happiness"
+        ]
+      },
+      {
+        "min": 24,
+        "max": 28,
+        "level": "very_high",
+        "label": "High Happiness",
+        "description": "Your subjective happiness level is very high. You generally feel very satisfied and happy with life.",
+        "suggestions": [
+          "Congratulations on your high level of happiness! Keep it up",
+          "Share your positive attitude and help others improve their well-being",
+          "Continue investing in meaningful activities and relationships",
+          "Maintain your gratitude and mindfulness practices"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 4, "max": 28 }
+  }
+}

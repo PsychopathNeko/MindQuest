@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "id": "spin",
+    "name": "SPIN 社交恐惧量表",
+    "fullName": "社交恐惧量表",
+    "description": "SPIN是一份17题的自评量表，评估社交焦虑的三个维度：恐惧、回避和生理症状。",
+    "author": "Connor KM, et al. (2000)",
+    "license": "Free to use",
+    "reference": "Connor KM, et al. Psychometric properties of the Social Phobia Inventory (SPIN). Br J Psychiatry. 2000;176:379-386.",
+    "instruction": "请根据过去一周的情况，选择最符合您感受的选项。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "一点也不" },
+    { "value": 1, "label": "有一点" },
+    { "value": 2, "label": "有些" },
+    { "value": 3, "label": "很多" },
+    { "value": 4, "label": "非常多" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我害怕权威人士。", "type": "likert" },
+    { "index": 1, "text": "在别人面前脸红让我感到困扰。", "type": "likert" },
+    { "index": 2, "text": "聚会和社交活动让我害怕。", "type": "likert" },
+    { "index": 3, "text": "我避免与不认识的人交谈。", "type": "likert" },
+    { "index": 4, "text": "被人批评让我非常害怕。", "type": "likert" },
+    { "index": 5, "text": "害怕丢脸让我回避做某些事或与人交谈。", "type": "likert" },
+    { "index": 6, "text": "在权威人士面前出汗让我感到痛苦。", "type": "likert" },
+    { "index": 7, "text": "我避免参加聚会。", "type": "likert" },
+    { "index": 8, "text": "我避免成为关注的焦点。", "type": "likert" },
+    { "index": 9, "text": "与陌生人交谈让我害怕。", "type": "likert" },
+    { "index": 10, "text": "我避免发表演讲。", "type": "likert" },
+    { "index": 11, "text": "我会做任何事来避免被批评。", "type": "likert" },
+    { "index": 12, "text": "在不太熟悉的人面前，心跳加速让我感到困扰。", "type": "likert" },
+    { "index": 13, "text": "我害怕在别人面前做事。", "type": "likert" },
+    { "index": 14, "text": "我最害怕的事情是丢脸或让自己显得愚蠢。", "type": "likert" },
+    { "index": 15, "text": "我避免与权威人士交谈。", "type": "likert" },
+    { "index": 16, "text": "在别人面前发抖或颤抖让我感到痛苦。", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 68,
+    "maxItemScore": 4,
+    "reverseItems": [],
+    "subscales": [
+      {
+        "id": "fear",
+        "name": "恐惧",
+        "items": [1, 2, 4, 5, 8, 9, 11, 12, 14],
+        "maxScore": 36
+      },
+      {
+        "id": "avoidance",
+        "name": "回避",
+        "items": [3, 6, 7, 10, 15],
+        "maxScore": 20
+      },
+      {
+        "id": "physiological",
+        "name": "生理症状",
+        "items": [0, 13, 16],
+        "maxScore": 12
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 20,
+        "level": "none",
+        "label": "无社交焦虑",
+        "description": "您的社交焦虑水平在正常范围内。",
+        "suggestions": [
+          "保持积极的社交参与",
+          "继续保持自信的社交风格"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "轻度社交焦虑",
+        "description": "您有轻度社交焦虑症状。",
+        "suggestions": [
+          "逐步接触让您感到不安的社交场合",
+          "练习放松技巧",
+          "挑战消极的社交思维"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "moderate",
+        "label": "中度社交焦虑",
+        "description": "您有中度社交焦虑症状，可能影响社交功能。",
+        "suggestions": [
+          "建议咨询心理健康专业人员",
+          "认知行为治疗对社交焦虑非常有效",
+          "考虑加入社交技能训练小组"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 50,
+        "level": "severe",
+        "label": "重度社交焦虑",
+        "description": "您有重度社交焦虑症状。",
+        "suggestions": [
+          "强烈建议寻求专业心理治疗",
+          "可能需要药物治疗辅助",
+          "暴露治疗是证据充分的治疗方法"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 68,
+        "level": "very_severe",
+        "label": "极重度社交焦虑",
+        "description": "您有极重度社交焦虑症状，严重影响日常生活。",
+        "suggestions": [
+          "请尽快寻求精神科或心理健康专业人员的帮助",
+          "综合治疗方案可能最为有效",
+          "不要因为社交焦虑而放弃寻求帮助"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["fear", "avoidance", "physiological"],
+      "maxDisplayScore": 36
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "恐惧", "max": 36 },
+        { "name": "回避", "max": 20 },
+        { "name": "生理症状", "max": 12 }
+      ]
+    }
+  }
+}

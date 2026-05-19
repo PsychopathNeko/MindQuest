@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "id": "ucla-loneliness",
+    "name": "UCLA 孤独感量表",
+    "fullName": "UCLA孤独感量表第三版",
+    "description": "UCLA孤独感量表是一份20题的量表，评估个体主观感受到的社交孤立和孤独感程度。",
+    "author": "Russell D (1996)",
+    "license": "Free to use",
+    "reference": "Russell D. UCLA Loneliness Scale (Version 3): Reliability, validity, and factor structure. J Pers Assess. 1996;66(1):20-40.",
+    "instruction": "请根据您通常的感受，选择最符合您的选项。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "从不" },
+    { "value": 2, "label": "很少" },
+    { "value": 3, "label": "有时" },
+    { "value": 4, "label": "总是" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我与周围的人步调一致。", "type": "likert" },
+    { "index": 1, "text": "我缺乏伙伴。", "type": "likert" },
+    { "index": 2, "text": "没有人可以让我求助。", "type": "likert" },
+    { "index": 3, "text": "我不觉得孤独。", "type": "likert" },
+    { "index": 4, "text": "我感到自己是朋友圈的一部分。", "type": "likert" },
+    { "index": 5, "text": "我与周围的人有很多共同点。", "type": "likert" },
+    { "index": 6, "text": "我不再和任何人亲近了。", "type": "likert" },
+    { "index": 7, "text": "我的兴趣和想法与周围的人不同。", "type": "likert" },
+    { "index": 8, "text": "我是个外向的人。", "type": "likert" },
+    { "index": 9, "text": "有人让我感到亲近。", "type": "likert" },
+    { "index": 10, "text": "我感到被排斥。", "type": "likert" },
+    { "index": 11, "text": "我的社交关系是表面的。", "type": "likert" },
+    { "index": 12, "text": "没有人真正了解我。", "type": "likert" },
+    { "index": 13, "text": "我感到与他人隔绝。", "type": "likert" },
+    { "index": 14, "text": "当我想要陪伴时，我可以找到伙伴。", "type": "likert" },
+    { "index": 15, "text": "有人真正理解我。", "type": "likert" },
+    { "index": 16, "text": "我不开心，因为我是那么退缩。", "type": "likert" },
+    { "index": 17, "text": "周围有人，但没有人和我在一起。", "type": "likert" },
+    { "index": 18, "text": "有人可以让我倾诉。", "type": "likert" },
+    { "index": 19, "text": "有人可以让我求助。", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 80,
+    "maxItemScore": 4,
+    "reverseItems": [0, 4, 5, 8, 9, 14, 15, 18, 19],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 34,
+        "level": "low",
+        "label": "低孤独感",
+        "description": "您的孤独感水平较低，社交关系较为满意。",
+        "suggestions": [
+          "继续保持良好的社交联系",
+          "帮助身边感到孤独的人"
+        ]
+      },
+      {
+        "min": 35,
+        "max": 49,
+        "level": "moderate",
+        "label": "中度孤独感",
+        "description": "您有中等程度的孤独感，可能在某些方面感到社交不足。",
+        "suggestions": [
+          "主动参加社交活动和兴趣小组",
+          "培养深层次的友谊关系",
+          "考虑志愿服务等社区参与活动"
+        ]
+      },
+      {
+        "min": 50,
+        "max": 64,
+        "level": "high",
+        "label": "高度孤独感",
+        "description": "您有较高的孤独感，可能对心理健康产生影响。",
+        "suggestions": [
+          "建议寻求心理咨询支持",
+          "尝试改变社交模式，增加有意义的社交互动",
+          "社交技能训练可能有所帮助"
+        ]
+      },
+      {
+        "min": 65,
+        "max": 80,
+        "level": "severe",
+        "label": "严重孤独感",
+        "description": "您有严重的孤独感，这可能严重影响您的身心健康。",
+        "suggestions": [
+          "强烈建议寻求专业心理帮助",
+          "孤独感可以通过治疗得到改善",
+          "如有抑郁症状请同时关注情绪健康"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 20, "max": 80 }
+  }
+}

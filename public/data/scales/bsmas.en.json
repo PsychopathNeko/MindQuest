@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "id": "bsmas",
+    "name": "BSMAS Bergen Social Media Addiction Scale",
+    "fullName": "Bergen Social Media Addiction Scale",
+    "description": "The BSMAS is a 6-item brief scale assessing problematic social media use based on core components of addiction (salience, mood modification, tolerance, withdrawal, conflict, relapse).",
+    "author": "Andreassen et al. (2016)",
+    "license": "Free to use",
+    "reference": "Andreassen CS, et al. Development of a Facebook Addiction Scale. Psychological Reports. 2012;110(2):501-517.",
+    "instruction": "How often during the last year have you experienced the following related to your social media use (e.g., Instagram, TikTok, Twitter, Facebook)?"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Very Rarely" },
+    { "value": 2, "label": "Rarely" },
+    { "value": 3, "label": "Sometimes" },
+    { "value": 4, "label": "Often" },
+    { "value": 5, "label": "Very Often" }
+  ],
+  "questions": [
+    { "index": 0, "text": "Spent a lot of time thinking about social media or planning use of social media", "type": "likert" },
+    { "index": 1, "text": "Felt an urge to use social media more and more", "type": "likert" },
+    { "index": 2, "text": "Used social media in order to forget about personal problems", "type": "likert" },
+    { "index": 3, "text": "Tried to cut down on the use of social media without success", "type": "likert" },
+    { "index": 4, "text": "Become restless or troubled if you have been prohibited from using social media", "type": "likert" },
+    { "index": 5, "text": "Used social media so much that it has had a negative impact on your job/studies", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 30,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 12,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your social media use is within a healthy range.",
+        "suggestions": [
+          "Continue maintaining moderate social media usage habits",
+          "Be mindful of your screen time"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 18,
+        "level": "mild",
+        "label": "Mild Risk",
+        "description": "You may have some unhealthy social media usage patterns.",
+        "suggestions": [
+          "Set daily time limits for social media use",
+          "Turn off unnecessary push notifications",
+          "Develop offline social activities and hobbies"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "moderate",
+        "label": "Moderate Risk",
+        "description": "Social media use may already be affecting your daily life and interpersonal relationships.",
+        "suggestions": [
+          "Consider trying a \"digital detox\"",
+          "Use screen time management tools",
+          "Reflect on how social media affects your mood",
+          "If you feel distressed, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "level": "severe",
+        "label": "High Risk",
+        "description": "Your social media usage pattern has reached a problematic level and may be seriously affecting daily functioning.",
+        "suggestions": [
+          "Strongly recommended to consult a mental health professional",
+          "Create a detailed usage restriction plan",
+          "Find alternative ways to relax",
+          "Consider temporarily uninstalling your most-used social media apps"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 6, "max": 30 }
+  }
+}

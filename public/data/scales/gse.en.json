@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "id": "gse",
+    "name": "GSE General Self-Efficacy Scale",
+    "fullName": "General Self-Efficacy Scale",
+    "description": "The GSE is a 10-item scale that assesses an individual's confidence in their ability to cope with a variety of difficult situations. It has been widely used in over 40 countries worldwide.",
+    "author": "Schwarzer & Jerusalem (1995)",
+    "license": "Free to use",
+    "reference": "Schwarzer R, Jerusalem M. Generalized Self-Efficacy scale. In: Weinman J, et al., eds. Measures in health psychology. 1995:35-37.",
+    "instruction": "Please rate how true each statement is for you."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Not at all true" },
+    { "value": 2, "label": "Hardly true" },
+    { "value": 3, "label": "Moderately true" },
+    { "value": 4, "label": "Exactly true" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I can always manage to solve difficult problems if I try hard enough", "type": "likert" },
+    { "index": 1, "text": "If someone opposes me, I can find the means and ways to get what I want", "type": "likert" },
+    { "index": 2, "text": "It is easy for me to stick to my aims and accomplish my goals", "type": "likert" },
+    { "index": 3, "text": "I am confident that I could deal efficiently with unexpected events", "type": "likert" },
+    { "index": 4, "text": "Thanks to my resourcefulness, I know how to handle unforeseen situations", "type": "likert" },
+    { "index": 5, "text": "I can solve most problems if I invest the necessary effort", "type": "likert" },
+    { "index": 6, "text": "I can remain calm when facing difficulties because I can rely on my coping abilities", "type": "likert" },
+    { "index": 7, "text": "When I am confronted with a problem, I can usually find several solutions", "type": "likert" },
+    { "index": 8, "text": "If I am in trouble, I can usually think of a solution", "type": "likert" },
+    { "index": 9, "text": "I can usually handle whatever comes my way", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 40,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20,
+        "level": "severe",
+        "label": "Low Self-Efficacy",
+        "description": "Your self-efficacy score is low, indicating limited confidence in your ability to cope with difficulties and challenges. This may affect your initiative and persistence when facing problems.",
+        "suggestions": [
+          "Start with small goals and gradually build up successful experiences",
+          "Reflect on past experiences where you successfully overcame difficulties",
+          "Learn from people around you who handle challenges well",
+          "Consider seeking help from a counselor if you persistently feel unable to cope"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "Moderate Self-Efficacy",
+        "description": "Your self-efficacy is at a moderate level. You have reasonable confidence in most situations but may waver when facing significant challenges.",
+        "suggestions": [
+          "Continue to challenge yourself and expand your comfort zone",
+          "Track and acknowledge your achievements and progress",
+          "Learn effective problem-solving and stress management strategies",
+          "Cultivate positive self-talk habits"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "minimal",
+        "label": "High Self-Efficacy",
+        "description": "Your self-efficacy score is high. You are confident in your ability to handle a wide range of difficulties and challenges. You tend to approach problems proactively and persist through setbacks.",
+        "suggestions": [
+          "Continue maintaining your positive mindset and coping strategies",
+          "Share your experience and confidence with others",
+          "Set higher goals to continue growing",
+          "Maintain a healthy balance between confidence and humility"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 10, "max": 40 }
+  }
+}

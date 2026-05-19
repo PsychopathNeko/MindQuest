@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "id": "bis-15",
+    "name": "BIS-15 冲动性量表简版",
+    "fullName": "Barratt Impulsiveness Scale-15",
+    "description": "BIS-15 是一份15题量表，评估冲动性的三个维度：注意力冲动（难以集中注意力）、运动冲动（不假思索地行动）和无计划冲动（缺乏未来导向的思维）。",
+    "author": "Spinella (2007)",
+    "license": "Free to use",
+    "reference": "Spinella M. Normative data and a short form of the Barratt Impulsiveness Scale. International Journal of Neuroscience. 2007;117(3):359-368.",
+    "instruction": "请根据你通常的行为方式选择最符合的选项。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "很少/从不" },
+    { "value": 2, "label": "偶尔" },
+    { "value": 3, "label": "经常" },
+    { "value": 4, "label": "几乎总是" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我不集中注意力", "type": "likert" },
+    { "index": 1, "text": "我很快就做出决定", "type": "likert" },
+    { "index": 2, "text": "我不能安静地坐着不动", "type": "likert" },
+    { "index": 3, "text": "我思考问题很快", "type": "likert" },
+    { "index": 4, "text": "我不认真思考", "type": "likert" },
+    { "index": 5, "text": "我凭感觉行事", "type": "likert" },
+    { "index": 6, "text": "我想到什么就说什么", "type": "likert" },
+    { "index": 7, "text": "我不假思索就行动", "type": "likert" },
+    { "index": 8, "text": "我在不知道答案的情况下就回答", "type": "likert" },
+    { "index": 9, "text": "我在冲动下花钱", "type": "likert" },
+    { "index": 10, "text": "我不为将来做打算", "type": "likert" },
+    { "index": 11, "text": "我做事没有计划", "type": "likert" },
+    { "index": 12, "text": "我对当下比对将来更感兴趣", "type": "likert" },
+    { "index": 13, "text": "我很难静心思考复杂的问题", "type": "likert" },
+    { "index": 14, "text": "我频繁地更换工作/兴趣", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 60,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "attentional",
+        "name": "注意力冲动",
+        "items": [0, 1, 2, 3, 4],
+        "maxScore": 20
+      },
+      {
+        "id": "motor",
+        "name": "运动冲动",
+        "items": [5, 6, 7, 8, 9],
+        "maxScore": 20
+      },
+      {
+        "id": "nonplanning",
+        "name": "无计划冲动",
+        "items": [10, 11, 12, 13, 14],
+        "maxScore": 20
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 15,
+        "max": 25,
+        "level": "minimal",
+        "label": "低冲动",
+        "description": "您的冲动性水平较低，通常能够深思熟虑后再行动。",
+        "suggestions": [
+          "继续保持冷静、有计划的行为模式",
+          "适当的谨慎是好事，但也可以尝试更灵活地应对变化"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 38,
+        "level": "normal",
+        "label": "中等冲动",
+        "description": "您的冲动性处于正常范围，能够在思考和行动之间保持较好的平衡。",
+        "suggestions": [
+          "保持当前良好的自我调节能力",
+          "在重要决策前多给自己一些思考时间",
+          "继续练习专注力和计划能力"
+        ]
+      },
+      {
+        "min": 39,
+        "max": 48,
+        "level": "mild",
+        "label": "较高冲动",
+        "description": "您的冲动性偏高，有时可能在未充分考虑后果的情况下行动。",
+        "suggestions": [
+          "尝试在做决定前暂停几秒钟思考",
+          "使用待办事项清单和日程表来增强计划性",
+          "练习正念冥想以提高自我觉察",
+          "如果冲动行为导致问题，建议咨询心理专业人士"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "moderate",
+        "label": "高冲动",
+        "description": "您的冲动性水平较高，可能经常不假思索地行动，这可能对工作、人际关系和生活产生影响。",
+        "suggestions": [
+          "建议咨询心理健康专业人士进行评估",
+          "学习延迟满足和自我控制技巧",
+          "建立日常规划和结构化的生活方式",
+          "考虑认知行为疗法来管理冲动行为",
+          "关注冲动行为是否与ADHD或其他状况相关"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "attentional": [
+        {
+          "min": 5,
+          "max": 8,
+          "level": "minimal",
+          "label": "低",
+          "description": "注意力冲动维度得分较低，注意力集中能力良好。"
+        },
+        {
+          "min": 9,
+          "max": 13,
+          "level": "moderate",
+          "label": "中等",
+          "description": "注意力冲动处于中等水平，有时可能出现注意力不集中。"
+        },
+        {
+          "min": 14,
+          "max": 17,
+          "level": "high",
+          "label": "偏高",
+          "description": "注意力冲动偏高，可能经常难以集中注意力。"
+        },
+        {
+          "min": 18,
+          "max": 20,
+          "level": "very_high",
+          "label": "很高",
+          "description": "注意力冲动很高，注意力集中存在明显困难，建议进一步评估。"
+        }
+      ],
+      "motor": [
+        {
+          "min": 5,
+          "max": 8,
+          "level": "minimal",
+          "label": "低",
+          "description": "运动冲动维度得分较低，行为通常经过深思熟虑。"
+        },
+        {
+          "min": 9,
+          "max": 13,
+          "level": "moderate",
+          "label": "中等",
+          "description": "运动冲动处于中等水平，偶尔会不假思索地行动。"
+        },
+        {
+          "min": 14,
+          "max": 17,
+          "level": "high",
+          "label": "偏高",
+          "description": "运动冲动偏高，较常出现冲动行为。"
+        },
+        {
+          "min": 18,
+          "max": 20,
+          "level": "very_high",
+          "label": "很高",
+          "description": "运动冲动很高，经常不假思索就行动，建议寻求专业帮助。"
+        }
+      ],
+      "nonplanning": [
+        {
+          "min": 5,
+          "max": 8,
+          "level": "minimal",
+          "label": "低",
+          "description": "无计划冲动维度得分较低，具备良好的计划和前瞻能力。"
+        },
+        {
+          "min": 9,
+          "max": 13,
+          "level": "moderate",
+          "label": "中等",
+          "description": "无计划冲动处于中等水平，有时缺乏长远规划。"
+        },
+        {
+          "min": 14,
+          "max": 17,
+          "level": "high",
+          "label": "偏高",
+          "description": "无计划冲动偏高，较少为将来做计划。"
+        },
+        {
+          "min": 18,
+          "max": 20,
+          "level": "very_high",
+          "label": "很高",
+          "description": "无计划冲动很高，几乎不做未来规划，建议培养计划习惯。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["attentional", "motor", "nonplanning"],
+      "maxDisplayScore": 20
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "注意力冲动", "max": 20 },
+        { "name": "运动冲动", "max": 20 },
+        { "name": "无计划冲动", "max": 20 }
+      ]
+    }
+  }
+}

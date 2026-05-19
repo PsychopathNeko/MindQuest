@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "id": "saps",
+    "name": "SAPS Short Almost Perfect Scale",
+    "fullName": "Short Almost Perfect Scale",
+    "description": "The SAPS is an 8-item brief scale measuring two core dimensions of perfectionism: Standards (high personal standards) and Discrepancy (perceived gap between standards and performance), helping distinguish adaptive from maladaptive perfectionism.",
+    "author": "Rice, Richardson & Tueller (2014)",
+    "license": "Free to use",
+    "reference": "Rice SP, Richardson CME, Tueller S. The Short Form of the Revised Almost Perfect Scale. Journal of Personality Assessment. 2014;96(3):368-379.",
+    "instruction": "Please rate how much you agree with each statement."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Strongly Disagree" },
+    { "value": 2, "label": "Disagree" },
+    { "value": 3, "label": "Slightly Disagree" },
+    { "value": 4, "label": "Neutral" },
+    { "value": 5, "label": "Slightly Agree" },
+    { "value": 6, "label": "Agree" },
+    { "value": 7, "label": "Strongly Agree" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I have high standards for my performance at work or at school", "type": "likert" },
+    { "index": 1, "text": "I am an orderly person", "type": "likert" },
+    { "index": 2, "text": "Neatness is important to me", "type": "likert" },
+    { "index": 3, "text": "I expect the best from myself", "type": "likert" },
+    { "index": 4, "text": "I often feel frustrated because I can't meet my goals", "type": "likert" },
+    { "index": 5, "text": "My best just never seems to be good enough for me", "type": "likert" },
+    { "index": 6, "text": "I rarely live up to my high standards", "type": "likert" },
+    { "index": 7, "text": "I am never satisfied with my accomplishments", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 56,
+    "maxItemScore": 7,
+    "subscales": [
+      { "id": "standards", "name": "Standards", "items": [0, 1, 2, 3], "maxScore": 28 },
+      { "id": "discrepancy", "name": "Discrepancy", "items": [4, 5, 6, 7], "maxScore": 28 }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 8,
+        "max": 28,
+        "level": "minimal",
+        "label": "Non-perfectionist",
+        "description": "Your perfectionism tendency is low, with relatively low personal standards.",
+        "suggestions": [
+          "Appropriately raising your expectations can promote growth",
+          "Set specific and measurable goals"
+        ]
+      },
+      {
+        "min": 29,
+        "max": 42,
+        "level": "normal",
+        "label": "Adaptive Perfectionist",
+        "description": "You have high standards but low discrepancy, which is a healthy form of perfectionism.",
+        "suggestions": [
+          "Continue maintaining the balance between high standards and self-acceptance",
+          "Be mindful of standards gradually becoming unrealistic"
+        ]
+      },
+      {
+        "min": 43,
+        "max": 56,
+        "level": "moderate",
+        "label": "Maladaptive Perfectionist",
+        "description": "You not only have high standards but also frequently feel you cannot meet them, which may lead to anxiety, self-criticism, and procrastination.",
+        "suggestions": [
+          "Learn to distinguish between 'good enough' and 'perfect'",
+          "Practice self-compassion and reduce self-criticism",
+          "Focus on progress rather than perfection",
+          "If perfectionism significantly impacts your life, consider consulting a mental health professional"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "standards": [
+        {
+          "min": 4,
+          "max": 14,
+          "level": "mild",
+          "label": "Low Standards",
+          "description": "You have relatively low personal expectations."
+        },
+        {
+          "min": 15,
+          "max": 21,
+          "level": "normal",
+          "label": "Moderate Standards",
+          "description": "You have reasonable self-expectations."
+        },
+        {
+          "min": 22,
+          "max": 28,
+          "level": "minimal",
+          "label": "High Standards",
+          "description": "You have very high expectations and demands for yourself."
+        }
+      ],
+      "discrepancy": [
+        {
+          "min": 4,
+          "max": 11,
+          "level": "minimal",
+          "label": "Low Discrepancy",
+          "description": "You are generally able to accept your performance."
+        },
+        {
+          "min": 12,
+          "max": 19,
+          "level": "mild",
+          "label": "Moderate Discrepancy",
+          "description": "You sometimes feel your performance is not good enough."
+        },
+        {
+          "min": 20,
+          "max": 28,
+          "level": "moderate",
+          "label": "High Discrepancy",
+          "description": "You frequently feel you cannot meet your standards, which may cause emotional distress."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["standards", "discrepancy"],
+      "maxDisplayScore": 28
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "Standards", "max": 28 },
+        { "name": "Discrepancy", "max": 28 }
+      ]
+    }
+  }
+}

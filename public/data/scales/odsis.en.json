@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "id": "odsis",
+    "name": "ODSIS Overall Depression Severity and Impairment Scale",
+    "fullName": "Overall Depression Severity and Impairment Scale",
+    "description": "The ODSIS is a brief 5-item scale that assesses the frequency, intensity, and functional impairment of overall depression.",
+    "author": "Bentley et al. (2014)",
+    "license": "Public Domain",
+    "reference": "Bentley KH, et al. Development and validation of the Overall Depression Severity and Impairment Scale. Psychological Assessment. 2014;26(3):815-830.",
+    "instruction": "Please answer about your depression or low mood over the past week."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "None/Never" },
+    { "value": 1, "label": "Infrequent/Mild" },
+    { "value": 2, "label": "Sometimes/Moderate" },
+    { "value": 3, "label": "Frequent/Severe" },
+    { "value": 4, "label": "Constant/Extreme" }
+  ],
+  "questions": [
+    { "index": 0, "text": "In the past week, how often have you felt depressed or sad", "type": "likert" },
+    { "index": 1, "text": "When you have felt depressed, how intense or severe was your depression", "type": "likert" },
+    { "index": 2, "text": "How often did you have difficulty engaging in activities you used to enjoy because of depression", "type": "likert" },
+    { "index": 3, "text": "How much did depression interfere with your ability to do work, school, or household tasks", "type": "likert" },
+    { "index": 4, "text": "How much did depression interfere with your social life and relationships", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 20,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your depression level is within the normal range, with no significant depressive distress detected.",
+        "suggestions": [
+          "Continue maintaining your current mental health",
+          "Keep up an active lifestyle and social activities",
+          "Maintain regular exercise and good sleep habits"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "Your score suggests mild depression. You may occasionally feel low in mood or lack interest, but the impact on daily functioning is limited.",
+        "suggestions": [
+          "Increase engagement in pleasurable activities and social interactions",
+          "Maintain regular physical exercise",
+          "Pay attention to sleep hygiene and balanced nutrition",
+          "Consider consulting a professional if symptoms persist or worsen"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "Your score suggests moderate depression. Depressed mood may be noticeably interfering with your work, social life, or daily activities.",
+        "suggestions": [
+          "Consider seeking help from a counselor or psychiatrist",
+          "Try evidence-based psychological treatments such as cognitive-behavioral therapy",
+          "Maintain a daily activity schedule and avoid prolonged isolation",
+          "Inform a trusted family member or friend about your condition"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 20,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "Your score suggests severe depression, which may be significantly impairing your work ability, social functioning, and quality of life.",
+        "suggestions": [
+          "Seek professional psychological or psychiatric treatment as soon as possible",
+          "Inform family or friends about your condition for support",
+          "If you have thoughts of self-harm or suicide, please call a crisis hotline immediately",
+          "Do not suffer alone; professional help can effectively alleviate depression"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 20 }
+  }
+}

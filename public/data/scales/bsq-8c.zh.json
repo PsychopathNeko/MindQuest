@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "id": "bsq-8c",
+    "name": "BSQ-8C 身体形态问卷简版",
+    "fullName": "Body Shape Questionnaire-8C",
+    "description": "BSQ-8C 是身体形态问卷（BSQ-34）的8题简版，用于评估个体在过去四周内对身体形态的关注和不满程度。它是筛查身体意象困扰和进食障碍风险的有效工具。",
+    "author": "Evans & Dolan (1993)",
+    "license": "Free to use",
+    "reference": "Evans C, Dolan B. Body Shape Questionnaire: derivation of shortened \"alternate forms\". Int J Eat Disord. 1993;13(3):315-321.",
+    "instruction": "以下问题涉及您在过去四周内对自己外表的感受。请选择最符合您情况的选项。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "从不" },
+    { "value": 2, "label": "很少" },
+    { "value": 3, "label": "有时" },
+    { "value": 4, "label": "经常" },
+    { "value": 5, "label": "非常经常" },
+    { "value": 6, "label": "总是" }
+  ],
+  "questions": [
+    { "index": 0, "text": "你是否因为觉得无聊而担心自己的体型？", "type": "likert" },
+    { "index": 1, "text": "你是否担心自己的身体不够结实？", "type": "likert" },
+    { "index": 2, "text": "看到自己裸体（例如洗澡时）是否让你觉得自己很胖？", "type": "likert" },
+    { "index": 3, "text": "你是否担心自己身体的某些部位有太多的赘肉？", "type": "likert" },
+    { "index": 4, "text": "和其他女性/男性在一起时，你是否注意到自己的体型比较大？", "type": "likert" },
+    { "index": 5, "text": "照镜子时你是否觉得自己体型不好看？", "type": "likert" },
+    { "index": 6, "text": "你是否对自己的身材感到不满意？", "type": "likert" },
+    { "index": 7, "text": "想到自己的体型是否让你感到沮丧？", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 48,
+    "maxItemScore": 6,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 8,
+        "max": 18,
+        "level": "minimal",
+        "label": "无身体形态关注",
+        "description": "您对自身身体形态的关注处于正常范围，没有明显的身体意象困扰。",
+        "suggestions": [
+          "继续保持健康的身体意象",
+          "培养对身体功能的欣赏而非仅关注外观"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 25,
+        "level": "mild",
+        "label": "轻度身体形态关注",
+        "description": "您对身体形态存在轻度关注，偶尔会对体型感到不满。",
+        "suggestions": [
+          "注意社交媒体和文化对身体意象的影响",
+          "培养对身体的积极态度",
+          "选择让自己感觉舒适的衣物和活动"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 33,
+        "level": "moderate",
+        "label": "中度身体形态关注",
+        "description": "您对身体形态存在中度关注和不满，这可能影响到日常生活和自尊心。",
+        "suggestions": [
+          "建议关注身体意象相关的心理健康",
+          "减少频繁的体重秤和镜子检查",
+          "考虑与心理咨询师讨论身体意象问题",
+          "通过正念练习培养对身体的接纳"
+        ]
+      },
+      {
+        "min": 34,
+        "max": 48,
+        "level": "severe",
+        "label": "重度身体形态关注",
+        "description": "您对身体形态有严重的关注和不满，这可能显著影响生活质量，也可能是进食障碍的风险因素。",
+        "suggestions": [
+          "强烈建议寻求专业心理帮助",
+          "身体意象困扰可能与进食障碍相关，建议进行全面评估",
+          "避免极端的节食或运动行为",
+          "寻找支持性的社会环境和社区"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 8, "max": 48 }
+  }
+}

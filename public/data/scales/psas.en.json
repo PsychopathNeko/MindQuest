@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "id": "psas",
+    "name": "PSAS Pre-Sleep Arousal Scale",
+    "fullName": "Pre-Sleep Arousal Scale",
+    "description": "The PSAS is a 16-item self-report measure assessing the level of arousal experienced while attempting to fall asleep. It includes two subscales: Cognitive Arousal (racing thoughts, worry, and mental alertness) and Somatic Arousal (physical sensations such as heart racing, muscle tension, and other bodily symptoms).",
+    "author": "Nicassio et al. (1985)",
+    "license": "Free to use",
+    "reference": "Nicassio PM, Mendlowitz DR, Fussell JJ, Petras L. The phenomenology of the pre-sleep state: The development of the pre-sleep arousal scale. Behav Res Ther. 1985;23(3):263-271.",
+    "instruction": "Please describe the degree to which each statement is experienced as you attempt to fall asleep in your bedroom."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Not at all"
+    },
+    {
+      "value": 2,
+      "label": "Slightly"
+    },
+    {
+      "value": 3,
+      "label": "Moderately"
+    },
+    {
+      "value": 4,
+      "label": "A lot"
+    },
+    {
+      "value": 5,
+      "label": "Extremely"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Worry about falling asleep",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Review or ponder events of the day",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Depressing or anxious thoughts",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Worry about problems other than sleep",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Being mentally alert, active",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Can’t shut off your thoughts",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Thoughts keep running through your head",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Being distracted by sounds, noises in the environment",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Heart racing, pounding, or beating irregularly",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "A jittery, nervous feeling in your body",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Shortness of breath or labored breathing",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "A tight, tense feeling in your muscles",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Cold feeling in your hands, feet, or body",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "An upset stomach (stomach knot or nervous feeling)",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Perspiration in palms or other parts of body",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Dry feeling in mouth or throat",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 80,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "cognitive",
+        "name": "Cognitive Arousal",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "maxScore": 40
+      },
+      {
+        "id": "somatic",
+        "name": "Somatic Arousal",
+        "items": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "maxScore": 40
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 32,
+        "level": "minimal",
+        "label": "Low Pre-Sleep Arousal",
+        "description": "Your overall pre-sleep arousal is low. You generally feel calm and relaxed when trying to fall asleep.",
+        "suggestions": [
+          "Continue maintaining your healthy sleep habits",
+          "Keep a consistent sleep schedule"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 48,
+        "level": "mild",
+        "label": "Moderate Pre-Sleep Arousal",
+        "description": "Your pre-sleep arousal is moderate. You experience some degree of mental or physical activation when trying to fall asleep.",
+        "suggestions": [
+          "Practice relaxation techniques before bed",
+          "Establish a calming bedtime routine",
+          "Avoid screens 30-60 minutes before sleep",
+          "Limit caffeine in the afternoon and evening"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 64,
+        "level": "moderate",
+        "label": "High Pre-Sleep Arousal",
+        "description": "Your pre-sleep arousal is high. You frequently experience significant mental and/or physical activation when trying to fall asleep.",
+        "suggestions": [
+          "Consider cognitive behavioral therapy for insomnia (CBT-I)",
+          "Practice structured worry time earlier in the evening",
+          "Use body scan meditation",
+          "Consider consulting a sleep specialist"
+        ]
+      },
+      {
+        "min": 65,
+        "max": 80,
+        "level": "severe",
+        "label": "Very High Pre-Sleep Arousal",
+        "description": "Your pre-sleep arousal is very high. You experience intense mental and physical activation at bedtime.",
+        "suggestions": [
+          "Seek professional help from a sleep specialist or psychologist",
+          "CBT-I is the gold standard treatment for insomnia-related arousal",
+          "Discuss medication options with a healthcare provider",
+          "Address underlying anxiety or stress through professional therapy"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "cognitive": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "minimal",
+          "label": "Low Cognitive Arousal",
+          "description": "Minimal mental activation before sleep. Your mind is generally calm."
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "Moderate Cognitive Arousal",
+          "description": "Some racing thoughts or worry before sleep."
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "moderate",
+          "label": "High Cognitive Arousal",
+          "description": "Frequent racing thoughts, worry, and mental alertness before sleep."
+        },
+        {
+          "min": 33,
+          "max": 40,
+          "level": "severe",
+          "label": "Very High Cognitive Arousal",
+          "description": "Intense mental activation with persistent racing thoughts that significantly disrupts sleep onset."
+        }
+      ],
+      "somatic": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "minimal",
+          "label": "Low Somatic Arousal",
+          "description": "Minimal physical symptoms before sleep."
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "Moderate Somatic Arousal",
+          "description": "Some physical tension or bodily symptoms before sleep."
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "moderate",
+          "label": "High Somatic Arousal",
+          "description": "Frequent physical symptoms such as muscle tension or heart racing before sleep."
+        },
+        {
+          "min": 33,
+          "max": 40,
+          "level": "severe",
+          "label": "Very High Somatic Arousal",
+          "description": "Intense physical arousal symptoms that significantly interfere with falling asleep."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "cognitive",
+        "somatic"
+      ],
+      "maxDisplayScore": 40
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Cognitive Arousal",
+          "max": 40
+        },
+        {
+          "name": "Somatic Arousal",
+          "max": 40
+        }
+      ]
+    }
+  }
+}

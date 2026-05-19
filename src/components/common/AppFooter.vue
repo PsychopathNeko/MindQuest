@@ -1,8 +1,14 @@
+<script setup>
+import { useLocale } from '@/composables/useLocale'
+
+const { t } = useLocale()
+</script>
+
 <template>
   <footer class="app-footer">
     <div class="footer-inner container">
       <p class="footer-disclaimer">
-        本站量表仅供自我了解参考，不构成医学诊断。如有心理健康困扰，请咨询专业人士。
+        {{ t('footer.disclaimer') }}
       </p>
       <p class="footer-copyright">
         &copy; {{ new Date().getFullYear() }} MindQuest
@@ -13,8 +19,8 @@
 
 <style scoped>
 .app-footer {
-  border-top: 1px solid var(--color-border);
-  background-color: var(--color-surface);
+  border-top: 1px solid rgba(232, 160, 191, 0.2);
+  background-color: var(--color-background);
   padding: var(--spacing-6) 0;
   margin-top: var(--spacing-12);
 }

@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "id": "docs",
+    "name": "DOCS 强迫症维度量表",
+    "fullName": "Dimensional Obsessive-Compulsive Scale",
+    "description": "DOCS 是一份包含20个条目的自评量表，从四个维度评估强迫症状严重程度：污染、伤害责任、不可接受的想法和对称/排列。",
+    "author": "Abramowitz JS, et al. (2010)",
+    "license": "Free to use",
+    "reference": "Abramowitz JS, et al. Psychol Assess. 2010;22(1):180-198.",
+    "instruction": "以下问题涉及四种不同类型的困扰。请根据过去一个月的实际体验进行评分。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "没有症状/完全没有"
+    },
+    {
+      "value": 1,
+      "label": "轻微/偶尔"
+    },
+    {
+      "value": 2,
+      "label": "中等/有时"
+    },
+    {
+      "value": 3,
+      "label": "严重/经常"
+    },
+    {
+      "value": 4,
+      "label": "极其严重/持续不断"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "您花了多少时间在污染（灰尘、细菌、化学物质）的想法上？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "为避免污染担忧，您回避了多少情境？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "有污染想法但无法清洗时，您多么焦虑？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "污染担忧和清洗行为在多大程度上干扰了日常生活？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "忽视污染想法并克制清洗行为有多困难？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "您花了多少时间想自己是否要对可怕的事负责？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "为避免为伤害负责，您回避了多少情境？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "无法检查或寻求保证时，您多么焦虑？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "伤害想法和检查行为在多大程度上干扰了日常生活？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "忽视伤害责任想法并克制检查行为有多困难？",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "您花了多少时间在不想要的侵入性想法上？",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "为避免侵入性想法，您回避了多少情境？",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "有不可接受的想法且无法执行仪式时，您多么焦虑？",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "不可接受的想法和仪式在多大程度上干扰了日常生活？",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "忽视不可接受的想法并克制仪式有多困难？",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "您花了多少时间在对称、秩序或平衡的需求上？",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "为避免对称担忧，您回避了多少情境？",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "无法排列物品以达到对称时，您多么焦虑？",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "对称担忧和排列行为在多大程度上干扰了日常生活？",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "忽视对称想法并克制排列行为有多困难？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 80,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "contamination",
+        "name": "污染",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "maxScore": 20
+      },
+      {
+        "id": "responsibility",
+        "name": "伤害责任",
+        "items": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "maxScore": 20
+      },
+      {
+        "id": "unacceptable_thoughts",
+        "name": "不可接受的想法",
+        "items": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "maxScore": 20
+      },
+      {
+        "id": "symmetry",
+        "name": "对称/排列",
+        "items": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "maxScore": 20
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 15,
+        "level": "minimal",
+        "label": "强迫症状极轻",
+        "description": "得分表明强迫症状极轻微，处于正常范围。",
+        "suggestions": [
+          "无需临床关注",
+          "保持健康思维习惯"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 30,
+        "level": "mild",
+        "label": "轻度强迫症状",
+        "description": "轻度强迫症状，可控。",
+        "suggestions": [
+          "了解强迫症机制",
+          "接受想法不执行仪式",
+          "考虑CBT自助"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 45,
+        "level": "moderate",
+        "label": "中度强迫症状",
+        "description": "中度症状，可能影响功能。",
+        "suggestions": [
+          "寻求专业评估",
+          "ERP是金标准治疗",
+          "确定最严重维度"
+        ]
+      },
+      {
+        "min": 46,
+        "max": 80,
+        "level": "severe",
+        "label": "重度强迫症状",
+        "description": "症状严重，造成显著障碍。",
+        "suggestions": [
+          "尽快寻求专业治疗",
+          "ERP联合药物治疗可能最有效",
+          "强迫症可治疗"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "contamination": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "极轻",
+          "description": "无明显污染困扰。"
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "level": "mild",
+          "label": "轻度",
+          "description": "轻度污染强迫。"
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "level": "moderate",
+          "label": "中度",
+          "description": "中度污染担忧。"
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "重度",
+          "description": "严重污染强迫。"
+        }
+      ],
+      "responsibility": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "极轻",
+          "description": "无明显伤害困扰。"
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "level": "mild",
+          "label": "轻度",
+          "description": "轻度检查行为。"
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "level": "moderate",
+          "label": "中度",
+          "description": "中度检查困扰。"
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "重度",
+          "description": "严重伤害强迫。"
+        }
+      ],
+      "unacceptable_thoughts": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "极轻",
+          "description": "无明显侵入性想法困扰。"
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "level": "mild",
+          "label": "轻度",
+          "description": "轻度侵入性想法困扰。"
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "level": "moderate",
+          "label": "中度",
+          "description": "中度不可接受想法困扰。"
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "重度",
+          "description": "严重侵入性想法困扰。"
+        }
+      ],
+      "symmetry": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "极轻",
+          "description": "无明显对称困扰。"
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "level": "mild",
+          "label": "轻度",
+          "description": "轻度对称需求。"
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "level": "moderate",
+          "label": "中度",
+          "description": "中度对称担忧。"
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "重度",
+          "description": "严重对称强迫。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar",
+      "radar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 80
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "contamination",
+        "responsibility",
+        "unacceptable_thoughts",
+        "symmetry"
+      ],
+      "maxDisplayScore": 20
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "污染",
+          "max": 20
+        },
+        {
+          "name": "伤害责任",
+          "max": 20
+        },
+        {
+          "name": "不可接受的想法",
+          "max": 20
+        },
+        {
+          "name": "对称/排列",
+          "max": 20
+        }
+      ]
+    }
+  }
+}

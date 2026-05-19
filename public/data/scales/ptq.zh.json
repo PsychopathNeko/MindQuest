@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "id": "ptq",
+    "name": "PTQ 持续性思维问卷",
+    "fullName": "Perseverative Thinking Questionnaire",
+    "description": "PTQ 是一份包含 15 个条目的自评量表，用于评估个体反复消极思维的倾向，包括反刍和担忧等持续性思维模式。该量表适用于跨诊断评估，不局限于特定的心理障碍。",
+    "author": "Ehring, Zetsche, Weidacker, Wahl, Schönfeld & Ehlers (2011)",
+    "license": "Free for research use",
+    "reference": "Ehring T, Zetsche U, Weidacker K, Wahl K, Schönfeld S, Ehlers A. The Perseverative Thinking Questionnaire (PTQ): validation of a content-independent measure of repetitive negative thinking. J Behav Ther Exp Psychiatry. 2011;42(2):225-232.",
+    "instruction": "请想想当你经历负面事件或问题时，你通常的思维方式。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 1,
+      "label": "很少"
+    },
+    {
+      "value": 2,
+      "label": "有时"
+    },
+    {
+      "value": 3,
+      "label": "经常"
+    },
+    {
+      "value": 4,
+      "label": "几乎总是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "同样的想法在我脑海中一直转",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我反复思考我的问题，却找不到解决方案",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我脑海中不断出现与不愉快经历相关的想法",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我无法停止反复思考我的经历",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我反复思考那些让我不高兴的事情",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我不断问自己一些没有答案的问题",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我脑子里总是在想着自己的问题",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我反复想着自己的失败、缺点和错误",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我没完没了地想着一些不好的事情",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我的想法让我无法集中注意力做其他事情",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "这些想法会打断我正在做的事情",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我无法阻止自己去想这些",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我不断地想如果我当时做了不同的事情会怎样",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "想到这些问题或经历让我感到痛苦",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "这些想法让我感到疲惫和精疲力尽",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 60,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 15,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的持续性消极思维水平较低，能够较好地从负面事件中恢复。",
+        "suggestions": [
+          "继续保持良好的思维习惯",
+          "保持正念练习以维持心理韧性"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 30,
+        "level": "mild",
+        "label": "轻度反刍",
+        "description": "您存在一定程度的反复消极思维，可能偶尔会陷入对问题的反复思考。",
+        "suggestions": [
+          "学习正念冥想以减少反刍思维",
+          "尝试将注意力转移到积极活动上",
+          "练习接纳和放下的技巧",
+          "保持规律的体育锻炼"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 45,
+        "level": "moderate",
+        "label": "中度反刍",
+        "description": "您的持续性消极思维水平较高，这可能影响您的日常功能和情绪健康。",
+        "suggestions": [
+          "建议学习认知行为技巧来打断反刍循环",
+          "考虑寻求心理咨询帮助",
+          "练习正念和放松技术",
+          "与信任的人分享你的困扰"
+        ]
+      },
+      {
+        "min": 46,
+        "max": 60,
+        "level": "severe",
+        "label": "重度反刍",
+        "description": "您的持续性消极思维水平很高，这可能严重影响您的心理健康和日常生活。",
+        "suggestions": [
+          "强烈建议寻求专业心理帮助",
+          "认知行为疗法对减少反刍思维非常有效",
+          "避免独处反复思考，多与他人互动",
+          "注意是否伴有抑郁或焦虑症状"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 60
+    }
+  }
+}

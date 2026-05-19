@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "id": "pcs",
+    "name": "PCS 疼痛灾难化量表",
+    "fullName": "Pain Catastrophizing Scale",
+    "description": "PCS 是一份包含 13 个条目的自评量表，用于评估个体在经历疼痛时的灾难化思维倾向。它包含三个维度：无助感、夸大和反刍，广泛应用于疼痛管理和临床研究。",
+    "author": "Sullivan, Bishop & Pivik (1995)",
+    "license": "Free for research use",
+    "reference": "Sullivan MJL, Bishop SR, Pivik J. The Pain Catastrophizing Scale: development and validation. Psychol Assess. 1995;7(4):524-532.",
+    "instruction": "当你感到疼痛时，你可能会有各种想法和感受。请根据你体验疼痛时的感受选择。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "轻度"
+    },
+    {
+      "value": 2,
+      "label": "中度"
+    },
+    {
+      "value": 3,
+      "label": "严重"
+    },
+    {
+      "value": 4,
+      "label": "一直如此"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我一直在担心疼痛什么时候会结束",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我觉得自己无法继续忍受了",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "疼痛太可怕了，我觉得它永远不会好转",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "疼痛太糟糕了，我觉得它压倒了我",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我觉得自己再也受不了了",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我变得害怕疼痛会更加严重",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我不断想到其他疼痛的经历",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我焦急地想要疼痛消失",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我似乎无法把疼痛赶出脑海",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我不停地想着疼痛有多痛",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我不停地想着自己多么想让疼痛停止",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我无法做任何事来减轻疼痛的程度",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我担心疼痛可能意味着更严重的问题",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 52,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "helplessness",
+        "name": "无助感",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "maxScore": 24
+      },
+      {
+        "id": "magnification",
+        "name": "夸大",
+        "items": [
+          6,
+          7,
+          12
+        ],
+        "maxScore": 12
+      },
+      {
+        "id": "rumination",
+        "name": "反刍",
+        "items": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "maxScore": 16
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 13,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的疼痛灾难化水平较低，能够较好地应对疼痛体验。",
+        "suggestions": [
+          "继续保持积极的疼痛应对策略",
+          "在需要时寻求适当的疼痛管理"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 26,
+        "level": "mild",
+        "label": "轻度灾难化",
+        "description": "您存在一定程度的疼痛灾难化思维，可能偶尔夸大疼痛的威胁。",
+        "suggestions": [
+          "学习疼痛管理和应对技巧",
+          "练习放松和正念技术",
+          "保持适度的身体活动",
+          "必要时咨询疼痛管理专家"
+        ]
+      },
+      {
+        "min": 27,
+        "max": 39,
+        "level": "moderate",
+        "label": "中度灾难化",
+        "description": "您的疼痛灾难化水平较高，这可能增加慢性疼痛的风险并影响康复。",
+        "suggestions": [
+          "建议寻求专业疼痛管理帮助",
+          "认知行为疗法可有效减少灾难化思维",
+          "学习区分疼痛感受和对疼痛的想法",
+          "与医疗团队讨论综合疼痛管理方案"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 52,
+        "level": "severe",
+        "label": "重度灾难化",
+        "description": "您的疼痛灾难化水平很高，这可能严重影响您的疼痛体验和日常功能。",
+        "suggestions": [
+          "强烈建议寻求疼痛心理学专家帮助",
+          "综合疼痛管理（药物+心理+物理治疗）可能最有效",
+          "避免过度关注和反复思考疼痛",
+          "建立社会支持网络"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "helplessness": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "minimal",
+          "label": "低",
+          "description": "无助感维度得分较低。"
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "mild",
+          "label": "中等",
+          "description": "存在一定的无助感。"
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "moderate",
+          "label": "较高",
+          "description": "无助感较高，建议学习积极应对策略。"
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "severe",
+          "label": "高",
+          "description": "无助感很高，建议寻求专业帮助。"
+        }
+      ],
+      "magnification": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "minimal",
+          "label": "低",
+          "description": "夸大维度得分较低。"
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "level": "mild",
+          "label": "中等",
+          "description": "存在一定的夸大倾向。"
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "moderate",
+          "label": "较高",
+          "description": "夸大倾向较高。"
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "severe",
+          "label": "高",
+          "description": "夸大倾向很高。"
+        }
+      ],
+      "rumination": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "低",
+          "description": "反刍维度得分较低。"
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "中等",
+          "description": "存在一定的反刍思维。"
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "moderate",
+          "label": "较高",
+          "description": "反刍思维较高。"
+        },
+        {
+          "min": 13,
+          "max": 16,
+          "level": "severe",
+          "label": "高",
+          "description": "反刍思维很高。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "helplessness",
+        "magnification",
+        "rumination"
+      ],
+      "maxDisplayScore": 24
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "无助感",
+          "max": 24
+        },
+        {
+          "name": "夸大",
+          "max": 12
+        },
+        {
+          "name": "反刍",
+          "max": 16
+        }
+      ]
+    }
+  }
+}

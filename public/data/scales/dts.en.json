@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "id": "dts",
+    "name": "DTS Distress Tolerance Scale",
+    "fullName": "Distress Tolerance Scale",
+    "description": "The DTS is a 15-item self-report measure assessing an individual's perceived ability to tolerate emotional distress. Items are rated on a 5-point scale where higher scores indicate greater distress tolerance.",
+    "author": "Simons & Gaher (2005)",
+    "license": "Free to use",
+    "reference": "Simons JS, Gaher RM. The Distress Tolerance Scale: Development and validation of a self-report measure. Motivation and Emotion. 2005;29(2):83-102.",
+    "instruction": "Please read each statement carefully and indicate how much you agree or disagree with each. Think about how you typically feel when you are distressed or upset."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Strongly agree" },
+    { "value": 2, "label": "Mildly agree" },
+    { "value": 3, "label": "Agree and disagree equally" },
+    { "value": 4, "label": "Mildly disagree" },
+    { "value": 5, "label": "Strongly disagree" }
+  ],
+  "questions": [
+    { "index": 0, "text": "Feeling distressed or upset is unbearable to me", "type": "likert" },
+    { "index": 1, "text": "When I feel distressed or upset, all I can think about is how bad I feel", "type": "likert" },
+    { "index": 2, "text": "My feelings of distress are so intense that they completely take over", "type": "likert" },
+    { "index": 3, "text": "There is nothing worse than feeling distressed or upset", "type": "likert" },
+    { "index": 4, "text": "I can tolerate being distressed or upset as well as most people", "type": "likert" },
+    { "index": 5, "text": "My feelings of distress or being upset are not acceptable", "type": "likert" },
+    { "index": 6, "text": "I'll do anything to avoid feeling distressed or upset", "type": "likert" },
+    { "index": 7, "text": "Other people seem to be able to tolerate feeling distressed or upset better than I can", "type": "likert" },
+    { "index": 8, "text": "Being distressed or upset is always a major ordeal for me", "type": "likert" },
+    { "index": 9, "text": "I am ashamed of myself when I feel distressed or upset", "type": "likert" },
+    { "index": 10, "text": "My feelings of distress or being upset scare me", "type": "likert" },
+    { "index": 11, "text": "I'll do anything to stop feeling distressed or upset", "type": "likert" },
+    { "index": 12, "text": "When I feel distressed or upset, I must do something about it immediately", "type": "likert" },
+    { "index": 13, "text": "When I feel distressed or upset, I cannot help but concentrate on how bad the distress actually feels", "type": "likert" },
+    { "index": 14, "text": "There is nothing I can do to make being distressed or upset feel bearable", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 75,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 15,
+        "max": 30,
+        "level": "severe",
+        "label": "Very Low Distress Tolerance",
+        "description": "You have very low tolerance for emotional distress. You may feel overwhelmed when negative emotions arise and have difficulty coping.",
+        "suggestions": [
+          "Consider working with a therapist trained in distress tolerance skills (e.g., DBT)",
+          "Learn grounding techniques for moments of acute distress",
+          "Practice mindfulness to observe emotions without judgment",
+          "Build a crisis plan with trusted supports"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 45,
+        "level": "moderate",
+        "label": "Low Distress Tolerance",
+        "description": "You have below-average tolerance for emotional distress. Unpleasant emotions may feel difficult to manage and may lead to avoidance behaviors.",
+        "suggestions": [
+          "Practice accepting uncomfortable emotions as temporary experiences",
+          "Try deep breathing or progressive muscle relaxation when upset",
+          "Gradually expose yourself to minor discomforts to build tolerance",
+          "Consider therapy focused on emotion regulation skills"
+        ]
+      },
+      {
+        "min": 46,
+        "max": 60,
+        "level": "mild",
+        "label": "Moderate Distress Tolerance",
+        "description": "You have a moderate ability to tolerate emotional distress. You can generally manage negative emotions but may struggle during particularly intense episodes.",
+        "suggestions": [
+          "Continue developing your emotion regulation skills",
+          "Maintain healthy coping strategies such as exercise and social support",
+          "Practice self-compassion during difficult moments"
+        ]
+      },
+      {
+        "min": 61,
+        "max": 75,
+        "level": "minimal",
+        "label": "High Distress Tolerance",
+        "description": "You have a strong ability to tolerate emotional distress. You can generally withstand negative emotions without feeling overwhelmed or needing to escape immediately.",
+        "suggestions": [
+          "Continue maintaining your resilience and coping strategies",
+          "Share your strategies with others who may benefit",
+          "Stay aware of your emotional health and seek support when needed"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 15, "max": 75 }
+  }
+}

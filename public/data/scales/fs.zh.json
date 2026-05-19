@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "id": "fs",
+    "name": "FS 心理繁荣量表",
+    "fullName": "Flourishing Scale",
+    "description": "FS 是一份包含 8 个条目的自评量表，评估个体在人际关系、自尊、目标感和乐观等重要心理功能领域的繁荣程度。",
+    "author": "Diener et al. (2010)",
+    "license": "Free for research use",
+    "reference": "Diener E, Wirtz D, Tov W, et al. New well-being measures: Short scales to assess flourishing and positive and negative feelings. Soc Indic Res. 2010;97(2):143-156.",
+    "instruction": "以下是关于您自身的一些陈述，请根据您的真实感受选择最符合的选项。"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "既不同意也不反对"
+    },
+    {
+      "value": 5,
+      "label": "有点同意"
+    },
+    {
+      "value": 6,
+      "label": "同意"
+    },
+    {
+      "value": 7,
+      "label": "非常同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我的生活有目标和意义",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我的人际关系是支持性的、有回报的",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我对我的日常活动感兴趣并乐在其中",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我积极地为他人的幸福和快乐做贡献",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我能胜任对我来说重要的活动",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我是一个好人，过着好的生活",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我对未来持乐观态度",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "人们尊重我",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 56,
+    "maxItemScore": 7,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 8,
+        "max": 24,
+        "level": "severe",
+        "label": "心理繁荣度较低",
+        "description": "您的心理繁荣程度较低。",
+        "suggestions": [
+          "尝试设定小目标以增强目标感",
+          "培养支持性的人际关系",
+          "考虑咨询心理健康专业人士"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 40,
+        "level": "moderate",
+        "label": "心理繁荣度中等",
+        "description": "您的心理繁荣程度中等。",
+        "suggestions": [
+          "反思哪些生活领域可以提升",
+          "设定有意义的目标",
+          "练习感恩思维"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 56,
+        "level": "minimal",
+        "label": "心理繁荣度较高",
+        "description": "您的心理繁荣程度较高。",
+        "suggestions": [
+          "继续保持积极的生活方式",
+          "分享您的积极经验"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 8,
+      "max": 56
+    }
+  }
+}

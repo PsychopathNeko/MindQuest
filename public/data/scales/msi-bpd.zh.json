@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "id": "msi-bpd",
+    "name": "MSI-BPD 边缘型人格障碍筛查量表",
+    "fullName": "McLean Screening Instrument for Borderline Personality Disorder",
+    "description": "MSI-BPD 是一份包含 10 个条目的简短筛查工具，用于评估边缘型人格障碍（BPD）的核心特征。该量表基于 DSM-IV BPD 诊断标准设计，以7分作为筛查临界值，具有良好的敏感性和特异性。",
+    "author": "Zanarini, Vujanovic, Parachini, Boulanger, Frankenburg & Hennen (2003)",
+    "license": "Free for research use",
+    "reference": "Zanarini MC, Vujanovic AA, Parachini EA, Boulanger JL, Frankenburg FR, Hennen J. A screening measure for BPD: the McLean Screening Instrument for Borderline Personality Disorder (MSI-BPD). J Pers Disord. 2003;17(6):568-573.",
+    "instruction": "以下问题描述的是你可能有过的经历。请选择是或否。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "否"
+    },
+    {
+      "value": 1,
+      "label": "是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "你是否常常在人际关系中感到不安，试图拼命避免被抛弃",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "你是否有过至少两段紧张且不稳定的亲密关系",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "你是否对自己的身份认同感到困惑，不确定自己到底是谁",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "你是否冲动地做过至少两种可能伤害自己的事（如暴饮暴食、滥用药物、鲁莽驾驶、乱花钱、危险性行为等）",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "你是否反复出现自杀的想法或自伤行为",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "你的情绪是否变化非常快（通常持续数小时，很少超过几天）",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "你是否经常感到空虚",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "你是否经常发脾气或难以控制愤怒",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "你在压力下是否会暂时变得多疑或感到与现实脱离",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "你是否有过从极度理想化到极度贬低某人的转变",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 10,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "minimal",
+        "label": "低风险",
+        "description": "您的得分处于低风险范围，当前未显示出明显的边缘型人格障碍特征。",
+        "suggestions": [
+          "继续保持健康的情绪调节方式",
+          "维护稳定的人际关系"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 4,
+        "level": "mild",
+        "label": "中等风险",
+        "description": "您的得分表明可能存在一些与边缘型人格障碍相关的特征，但未达到临床筛查阈值。",
+        "suggestions": [
+          "关注自身的情绪波动和人际关系模式",
+          "学习情绪调节技巧",
+          "如果这些特征影响了日常生活，考虑寻求专业评估"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 6,
+        "level": "moderate",
+        "label": "较高风险",
+        "description": "您的得分较高，可能存在较多与边缘型人格障碍相关的特征。",
+        "suggestions": [
+          "建议寻求专业心理健康评估",
+          "学习辩证行为疗法（DBT）相关技巧",
+          "关注情绪调节和人际关系管理",
+          "避免冲动行为，培养安全的应对方式"
+        ]
+      },
+      {
+        "min": 7,
+        "max": 10,
+        "level": "severe",
+        "label": "高风险",
+        "description": "您的得分达到或超过了临床筛查阈值（≥7分），表明可能存在边缘型人格障碍。请注意，此量表仅为筛查工具，确诊需要专业临床评估。",
+        "suggestions": [
+          "强烈建议尽快寻求精神科医生或临床心理学家的专业评估",
+          "辩证行为疗法（DBT）是治疗 BPD 的有效方法",
+          "如有自伤或自杀想法，请立即联系危机热线：400-161-9995",
+          "建立安全的支持网络",
+          "此结果不代表确诊，请勿自行诊断"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 10
+    }
+  }
+}

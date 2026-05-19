@@ -1,0 +1,486 @@
+{
+  "meta": {
+    "id": "cerq-short",
+    "name": "CERQ-Short Cognitive Emotion Regulation Questionnaire",
+    "fullName": "Cognitive Emotion Regulation Questionnaire-Short",
+    "description": "The CERQ-Short is an 18-item brief version of the Cognitive Emotion Regulation Questionnaire, assessing 9 cognitive emotion regulation strategies used after experiencing negative events.",
+    "author": "Garnefski & Kraaij (2006)",
+    "license": "Free to use",
+    "reference": "Garnefski N, Kraaij V. Cognitive emotion regulation questionnaire - development of a short 18-item version (CERQ-short). Pers Individ Dif. 2006;41(6):1045-1053.",
+    "instruction": "Everyone gets confronted with negative or unpleasant events now and then. The following statements describe thoughts you might have after experiencing negative events. Please rate how often you generally think this way."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "(Almost) never"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes"
+    },
+    {
+      "value": 3,
+      "label": "Regularly"
+    },
+    {
+      "value": 4,
+      "label": "Often"
+    },
+    {
+      "value": 5,
+      "label": "(Almost) always"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I feel that I am the one who is responsible for what has happened",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I think that I have to accept that this has happened",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I often think about how I feel about what I have experienced",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I think of pleasant things that have nothing to do with it",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I think about what I can learn from the situation",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I think that it has not been too bad compared to other things",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I keep thinking about how terrible it is what I have experienced",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I think about what is the best thing I can do",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I feel that others are responsible for what has happened",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I feel that I am the one to blame for it",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I think that I have to accept the situation",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I am preoccupied with what I think and feel about what I have experienced",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I think of something nice instead of what has happened",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I think that the situation also has its positive sides",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I think that it could have been much worse",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I continually think how horrible the situation has been",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "I think about a plan of what I can do best",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "I feel that others are to blame for it",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 90,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "self_blame",
+        "name": "Self-blame",
+        "items": [
+          0,
+          9
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "acceptance",
+        "name": "Acceptance",
+        "items": [
+          1,
+          10
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "rumination",
+        "name": "Rumination",
+        "items": [
+          2,
+          11
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "positive_refocusing",
+        "name": "Positive Refocusing",
+        "items": [
+          3,
+          12
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "positive_reappraisal",
+        "name": "Positive Reappraisal",
+        "items": [
+          4,
+          13
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "putting_into_perspective",
+        "name": "Putting into Perspective",
+        "items": [
+          5,
+          14
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "catastrophizing",
+        "name": "Catastrophizing",
+        "items": [
+          6,
+          15
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "planning",
+        "name": "Planning",
+        "items": [
+          7,
+          16
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "other_blame",
+        "name": "Other-blame",
+        "items": [
+          8,
+          17
+        ],
+        "maxScore": 10
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": null,
+    "subscaleRanges": {
+      "self_blame": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "minimal",
+          "label": "Low",
+          "description": "You rarely use self-blame as a cognitive strategy."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "You sometimes use self-blame, within the normal range."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "severe",
+          "label": "High",
+          "description": "You frequently use self-blame, a maladaptive strategy that may affect mental health when overused."
+        }
+      ],
+      "acceptance": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "Low",
+          "description": "You rarely use acceptance strategies."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "You can moderately accept what has happened."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "High",
+          "description": "You are good at accepting unchangeable facts, an adaptive strategy."
+        }
+      ],
+      "rumination": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "minimal",
+          "label": "Low",
+          "description": "You rarely engage in ruminative thinking."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "You sometimes dwell on negative events."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "severe",
+          "label": "High",
+          "description": "You frequently ruminate, associated with increased depression risk."
+        }
+      ],
+      "positive_refocusing": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "Low",
+          "description": "You rarely redirect attention to positive things."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "You sometimes redirect attention to positive things."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "High",
+          "description": "You are good at redirecting attention to pleasant things."
+        }
+      ],
+      "positive_reappraisal": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "Low",
+          "description": "You rarely reappraise events positively."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "You sometimes find positive meaning in negative events."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "High",
+          "description": "You are skilled at finding positive meaning, one of the most protective strategies."
+        }
+      ],
+      "putting_into_perspective": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "Low",
+          "description": "You rarely put events into perspective."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "You sometimes view events in a broader context."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "High",
+          "description": "You are good at putting events into broader perspective."
+        }
+      ],
+      "catastrophizing": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "minimal",
+          "label": "Low",
+          "description": "You rarely catastrophize events."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "You sometimes exaggerate negative impacts."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "severe",
+          "label": "High",
+          "description": "You frequently catastrophize, closely linked to anxiety and depression."
+        }
+      ],
+      "planning": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "Low",
+          "description": "You rarely think about how to improve situations."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "You sometimes make coping plans."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "High",
+          "description": "You are skilled at making plans to improve situations."
+        }
+      ],
+      "other_blame": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "minimal",
+          "label": "Low",
+          "description": "You rarely blame others."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "You sometimes attribute events to others."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "severe",
+          "label": "High",
+          "description": "You frequently blame others, a maladaptive strategy."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "self_blame",
+        "acceptance",
+        "rumination",
+        "positive_refocusing",
+        "positive_reappraisal",
+        "putting_into_perspective",
+        "catastrophizing",
+        "planning",
+        "other_blame"
+      ],
+      "maxDisplayScore": 10
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Self-blame",
+          "max": 10
+        },
+        {
+          "name": "Acceptance",
+          "max": 10
+        },
+        {
+          "name": "Rumination",
+          "max": 10
+        },
+        {
+          "name": "Positive Refocusing",
+          "max": 10
+        },
+        {
+          "name": "Positive Reappraisal",
+          "max": 10
+        },
+        {
+          "name": "Putting into Perspective",
+          "max": 10
+        },
+        {
+          "name": "Catastrophizing",
+          "max": 10
+        },
+        {
+          "name": "Planning",
+          "max": 10
+        },
+        {
+          "name": "Other-blame",
+          "max": 10
+        }
+      ]
+    }
+  }
+}

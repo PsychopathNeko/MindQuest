@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "id": "fomo",
+    "name": "FoMO Fear of Missing Out Scale",
+    "fullName": "Fear of Missing Out Scale",
+    "description": "The FoMO Scale is a 10-item self-report measure assessing the pervasive apprehension that others might be having rewarding experiences from which one is absent. It captures fears and worries related to missing out on social experiences and the desire to stay continually connected with what others are doing.",
+    "author": "Przybylski et al. (2013)",
+    "license": "Free to use",
+    "reference": "Przybylski AK, Murayama K, DeHaan CR, Gladwell V. Motivational, emotional, and behavioral correlates of fear of missing out. Comput Human Behav. 2013;29(4):1841-1848.",
+    "instruction": "Below are a series of statements about your everyday experiences. Please indicate how true each statement is of your general experience."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Not at all true of me" },
+    { "value": 2, "label": "Slightly true of me" },
+    { "value": 3, "label": "Moderately true of me" },
+    { "value": 4, "label": "Very true of me" },
+    { "value": 5, "label": "Extremely true of me" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I fear others have more rewarding experiences than me", "type": "likert" },
+    { "index": 1, "text": "I fear my friends have more rewarding experiences than me", "type": "likert" },
+    { "index": 2, "text": "I get worried when I find out my friends are having fun without me", "type": "likert" },
+    { "index": 3, "text": "I get anxious when I don't know what my friends are up to", "type": "likert" },
+    { "index": 4, "text": "It is important that I understand my friends' \"in jokes\"", "type": "likert" },
+    { "index": 5, "text": "Sometimes, I wonder if I spend too much time keeping up with what is going on", "type": "likert" },
+    { "index": 6, "text": "It bothers me when I miss an opportunity to meet up with friends", "type": "likert" },
+    { "index": 7, "text": "When I have a good time it is important for me to share the details online", "type": "likert" },
+    { "index": 8, "text": "When I miss out on a planned get-together it bothers me", "type": "likert" },
+    { "index": 9, "text": "When I go on vacation, I continue to keep tabs on what my friends are doing", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 50,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20,
+        "level": "minimal",
+        "label": "Low FoMO",
+        "description": "Your score suggests a low level of fear of missing out. You are generally comfortable with not always being involved in social activities and do not feel compelled to constantly stay connected.",
+        "suggestions": [
+          "Continue maintaining your healthy relationship with social media and social activities",
+          "Keep practicing being present in the moment",
+          "Your balanced approach to social engagement is a strength"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "Moderate FoMO",
+        "description": "Your score indicates a moderate level of fear of missing out. You sometimes worry about missing social experiences but it does not significantly disrupt your daily life.",
+        "suggestions": [
+          "Practice mindfulness to focus on present experiences",
+          "Set intentional limits on social media checking",
+          "Remind yourself that social media often shows a highlight reel, not reality",
+          "Invest in deeper connections with a few close friends rather than trying to keep up with everyone"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "moderate",
+        "label": "High FoMO",
+        "description": "Your score suggests a high level of fear of missing out. You frequently worry about what others are doing and may feel anxious about being left out of social experiences.",
+        "suggestions": [
+          "Consider reducing social media use, especially passive scrolling",
+          "Practice gratitude for your own experiences and relationships",
+          "Engage in activities that bring you personal fulfillment independent of others",
+          "Challenge the belief that others are always having better experiences",
+          "Consider speaking with a counselor about managing social anxiety"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 50,
+        "level": "severe",
+        "label": "Very High FoMO",
+        "description": "Your score indicates a very high level of fear of missing out. This pervasive worry about missing social experiences may be significantly affecting your well-being and daily functioning.",
+        "suggestions": [
+          "Consider a structured digital detox or significant reduction in social media use",
+          "Seek professional support to address underlying anxiety and self-esteem concerns",
+          "Practice self-compassion and challenge social comparison habits",
+          "Focus on building meaningful in-person connections",
+          "Develop personal interests and hobbies that provide intrinsic satisfaction"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 10, "max": 50 }
+  }
+}

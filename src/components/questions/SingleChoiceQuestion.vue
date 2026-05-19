@@ -53,7 +53,7 @@ function select(value) {
 
 .question-text {
   font-size: var(--font-size-xl);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--color-text-primary);
   line-height: 1.5;
   margin-bottom: var(--spacing-6);
@@ -79,12 +79,12 @@ function select(value) {
 
 .radio-option:hover {
   border-color: var(--color-primary-light);
-  background-color: rgba(59, 130, 246, 0.04);
+  background-color: rgba(125, 162, 247, 0.04);
 }
 
 .radio-option.selected {
   border-color: var(--color-primary);
-  background-color: rgba(59, 130, 246, 0.08);
+  background-color: rgba(125, 162, 247, 0.08);
 }
 
 .radio-input {

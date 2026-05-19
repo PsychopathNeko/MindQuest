@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "id": "djgls",
+    "name": "DJGLS De Jong Gierveld Loneliness Scale",
+    "fullName": "De Jong Gierveld Loneliness Scale",
+    "description": "The DJGLS is a 6-item brief scale measuring emotional and social loneliness, widely used internationally.",
+    "author": "De Jong Gierveld & Van Tilburg (2006)",
+    "license": "Free to use",
+    "reference": "De Jong Gierveld J, Van Tilburg T. A 6-item scale for overall, emotional, and social loneliness. Research on Aging. 2006;28(5):582-598.",
+    "instruction": "Please rate how much you agree with each statement."
+  },
+  "commonChoices": [
+    { "value": 1, "label": "Strongly Disagree" },
+    { "value": 2, "label": "Disagree" },
+    { "value": 3, "label": "Neutral" },
+    { "value": 4, "label": "Agree" },
+    { "value": 5, "label": "Strongly Agree" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I experience a general sense of emptiness", "type": "likert" },
+    { "index": 1, "text": "I miss having people around me", "type": "likert" },
+    { "index": 2, "text": "I often feel rejected", "type": "likert" },
+    { "index": 3, "text": "There are plenty of people I can rely on when I have problems", "type": "likert" },
+    { "index": 4, "text": "There are many people I can trust completely", "type": "likert" },
+    { "index": 5, "text": "There are enough people I feel close to", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 30,
+    "maxItemScore": 5,
+    "reverseItems": [3, 4, 5],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 12,
+        "level": "minimal",
+        "label": "Low Loneliness",
+        "description": "Your loneliness level is low. You have good social support and emotional connections.",
+        "suggestions": [
+          "Continue maintaining an active social life",
+          "Cherish your existing relationships",
+          "Keep in regular contact with friends and family"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 18,
+        "level": "mild",
+        "label": "Moderate Loneliness",
+        "description": "You experience some degree of loneliness and may benefit from more social support or emotional connections.",
+        "suggestions": [
+          "Try reaching out to friends or family proactively",
+          "Join social activities or interest groups",
+          "Practice expressing your emotional needs",
+          "If loneliness persists, consider talking to a counselor"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "moderate",
+        "label": "High Loneliness",
+        "description": "Your loneliness level is high and may be affecting your mood and quality of life.",
+        "suggestions": [
+          "Actively expand your social network by joining community activities",
+          "Consider joining a support group or volunteering",
+          "Practice building deeper emotional connections with others",
+          "Consider consulting a mental health professional",
+          "Monitor whether loneliness is accompanied by depression or anxiety"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "level": "severe",
+        "label": "Severe Loneliness",
+        "description": "Your loneliness is very severe and may be seriously affecting your mental health and daily functioning. Please seek professional help.",
+        "suggestions": [
+          "Strongly recommended to consult a mental health professional",
+          "Avoid isolating yourself; try to interact with at least one person daily",
+          "Consider psychotherapy to improve relational patterns",
+          "Monitor for possible depression or anxiety symptoms",
+          "Call a mental health helpline for immediate support"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 6, "max": 30 }
+  }
+}

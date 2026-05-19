@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "id": "rrs",
+    "name": "RRS 反刍思维量表",
+    "fullName": "反刍思维量表",
+    "description": "RRS是一份22题的自评量表，评估对抑郁情绪的反刍反应，包括沉思和反省两个分量表。",
+    "author": "Nolen-Hoeksema & Morrow (1991)",
+    "license": "Free to use",
+    "reference": "Nolen-Hoeksema S, Morrow J. A prospective study of depression and posttraumatic stress symptoms after a natural disaster. J Pers Soc Psychol. 1991;61(1):115-121.",
+    "instruction": "当您感到沁丧、悲伤或抑郁时，您思考或做以下每件事的频率如何？"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "几乎从不"
+    },
+    {
+      "value": 2,
+      "label": "有时"
+    },
+    {
+      "value": 3,
+      "label": "经常"
+    },
+    {
+      "value": 4,
+      "label": "几乎总是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "想自己有多孤独",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "想“如果我不振作起来，就没法工作了”",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "想自己的疲劳和疼痛感",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "想集中注意力有多难",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "想“我做了什么才会这样？”",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "想自己有多被动和没有动力",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "分析最近的事件来理解为什么抑郁",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "想自己似乎什么都感受不到了",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "想“为什么我就是行动不起来？”",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "想“为什么我总是这样反应？”",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "独自一人去想为什么会有这种感觉",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "写下我在想的事并分析",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "想最近某个情境，希望它能更好",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "想“如果继续这样就没法集中注意力了”",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "想“为什么我有别人没有的问题？”",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "想“为什么我不能更好地处理事情？”",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "想自己有多悲伤",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "想自己的缺点、失败、错误",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "想自己什么都不想做",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "分析自己的性格来理解为什么抑郁",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "独自去某个地方思考感受",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "想自己对自己有多生气",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 88,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "brooding",
+        "name": "沉思",
+        "items": [
+          4,
+          7,
+          10,
+          12,
+          15
+        ]
+      },
+      {
+        "id": "reflection",
+        "name": "反省",
+        "items": [
+          6,
+          8,
+          11,
+          16,
+          20
+        ]
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 22,
+        "max": 33,
+        "level": "minimal",
+        "label": "低反刍",
+        "description": "您的反刍水平较低。",
+        "suggestions": [
+          "继续保持健康的应对策略"
+        ]
+      },
+      {
+        "min": 34,
+        "max": 44,
+        "level": "mild",
+        "label": "轻度反刍",
+        "description": "您表现出轻度反刍思维。",
+        "suggestions": [
+          "练习转移注意力",
+          "情绪低落时参与活动"
+        ]
+      },
+      {
+        "min": 45,
+        "max": 55,
+        "level": "moderate",
+        "label": "中度反刍",
+        "description": "您表现出中度反刍思维。",
+        "suggestions": [
+          "考虑认知行为治疗",
+          "练习正念冥想"
+        ]
+      },
+      {
+        "min": 56,
+        "max": 88,
+        "level": "severe",
+        "label": "高反刍",
+        "description": "您的反刍水平较高。",
+        "suggestions": [
+          "建议寻求专业帮助",
+          "认知行为治疗或正念治疗可能有效"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar"
+    ],
+    "gaugeConfig": {
+      "min": 22,
+      "max": 88
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "brooding",
+        "reflection"
+      ],
+      "maxDisplayScore": 20
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": "sbq-r",
+    "name": "SBQ-R Suicidal Behaviors Questionnaire",
+    "fullName": "Suicidal Behaviors Questionnaire-Revised",
+    "description": "The SBQ-R is a 4-item self-report measure of suicidality. It assesses four dimensions: lifetime suicidal ideation and/or suicide attempt, frequency of suicidal ideation over the past 12 months, threat of suicide attempt, and self-reported likelihood of suicidal behavior in the future. It is widely used for screening in both clinical and research settings.",
+    "author": "Osman et al. (2001)",
+    "license": "Free to use",
+    "reference": "Osman A, Bagge CL, Gutierrez PM, Konick LC, Kopper BA, Barrios FX. The Suicidal Behaviors Questionnaire-Revised (SBQ-R): Validation with clinical and nonclinical samples. Assessment. 2001;8(4):443-454.",
+    "instruction": "Please answer each question carefully. Your honest responses are important. If you are currently experiencing suicidal thoughts, please contact a crisis helpline or seek immediate professional help."
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "Have you ever thought about or attempted to kill yourself?",
+      "type": "likert",
+      "choices": [
+        { "value": 1, "label": "Never" },
+        { "value": 2, "label": "It was just a brief passing thought" },
+        { "value": 3, "label": "I have had a plan at least once to kill myself but did not try to do it" },
+        { "value": 4, "label": "I have attempted to kill myself, but did not want to die" }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "How often have you thought about killing yourself in the past year?",
+      "type": "likert",
+      "choices": [
+        { "value": 1, "label": "Never" },
+        { "value": 2, "label": "Rarely (1 time)" },
+        { "value": 3, "label": "Sometimes (2 times)" },
+        { "value": 4, "label": "Often (3-4 times)" },
+        { "value": 5, "label": "Very often (5 or more times)" }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "Have you ever told someone that you were going to commit suicide, or that you might do it?",
+      "type": "likert",
+      "choices": [
+        { "value": 1, "label": "No" },
+        { "value": 2, "label": "Yes, at one time, but did not really want to die" },
+        { "value": 3, "label": "Yes, more than once, but did not want to do it" }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "How likely is it that you will attempt suicide someday?",
+      "type": "likert",
+      "choices": [
+        { "value": 0, "label": "Never" },
+        { "value": 1, "label": "No chance at all" },
+        { "value": 2, "label": "Rather unlikely" },
+        { "value": 3, "label": "Unlikely" },
+        { "value": 4, "label": "Likely" },
+        { "value": 5, "label": "Rather likely" },
+        { "value": 6, "label": "Very likely" }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 18,
+    "maxItemScore": 6,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 3,
+        "max": 6,
+        "level": "minimal",
+        "label": "Low Risk",
+        "description": "Your responses indicate a low level of suicidal risk. However, any suicidal thoughts should be taken seriously.",
+        "suggestions": [
+          "If you ever experience distressing thoughts, do not hesitate to reach out for help",
+          "Maintain healthy social connections and coping strategies",
+          "Know the contact information for crisis helplines in your area"
+        ]
+      },
+      {
+        "min": 7,
+        "max": 9,
+        "level": "moderate",
+        "label": "Moderate Risk",
+        "description": "Your score of 7 or above is at the clinical cutoff and indicates a significant level of suicidal risk. Further professional evaluation is strongly recommended.",
+        "suggestions": [
+          "Please seek a professional mental health evaluation as soon as possible",
+          "Contact a crisis helpline if you are in immediate distress",
+          "Talk to a trusted person about how you are feeling",
+          "Develop a safety plan with a mental health professional"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "severe",
+        "label": "High Risk",
+        "description": "Your responses indicate a high level of suicidal risk. Immediate professional intervention is recommended.",
+        "suggestions": [
+          "Please contact a crisis helpline or go to your nearest emergency room immediately",
+          "Do not leave yourself alone if you are having active suicidal thoughts",
+          "Remove access to any means of self-harm",
+          "Reach out to a mental health professional urgently"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 18,
+        "level": "very_severe",
+        "label": "Very High Risk",
+        "description": "Your responses indicate a very high level of suicidal risk. Immediate crisis intervention is essential.",
+        "suggestions": [
+          "Please call emergency services (e.g., 988 Suicide & Crisis Lifeline) or go to your nearest emergency room NOW",
+          "Do not be alone — stay with a trusted person",
+          "Remove all access to means of self-harm immediately",
+          "This is a crisis situation — professional help is needed right away"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 3, "max": 18 }
+  }
+}

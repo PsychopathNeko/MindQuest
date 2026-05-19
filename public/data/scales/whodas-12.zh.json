@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "id": "whodas-12",
+    "name": "WHODAS 2.0 世卫组织残疾评定量表",
+    "fullName": "WHO Disability Assessment Schedule 2.0 (12-item version)",
+    "description": "WHODAS 2.0 是由世界卫生组织开发的12题自评量表，用于评估六个领域的健康相关残疾：认知、活动能力、自我照料、与人相处、生活活动和参与。它提供了一种标准化的、跨文化的功能和残疾评估方法，不受医学诊断的限制。",
+    "author": "World Health Organization (2010)",
+    "license": "Free to use",
+    "reference": "Ustun TB, Kostanjesek N, Chatterji S, Rehm J. Measuring health and disability: Manual for WHO Disability Assessment Schedule (WHODAS 2.0). World Health Organization. 2010.",
+    "instruction": "在过去30天中，您在以下活动方面有多大困难？请为每个条目选择最合适的选项。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "没有"
+    },
+    {
+      "value": 1,
+      "label": "轻度"
+    },
+    {
+      "value": 2,
+      "label": "中度"
+    },
+    {
+      "value": 3,
+      "label": "重度"
+    },
+    {
+      "value": 4,
+      "label": "极重度/无法做到"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "集中注意力做某件事情十分钟？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "记住做重要的事情？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "长时间站立，如30分钟？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "步行较长的距离，如一公里？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "清洗全身？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "穿衣服？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "与不认识的人打交道？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "维持友谊？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "您的日常工作/学习？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "在做好您最重要的日常活动方面有多大问题？",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "您的健康状况在多大程度上影响了您的情绪？",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "像其他人一样参加社区活动？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 48,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "cognition",
+        "name": "认知",
+        "items": [
+          0,
+          1
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "mobility",
+        "name": "活动能力",
+        "items": [
+          2,
+          3
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "self_care",
+        "name": "自我照料",
+        "items": [
+          4,
+          5
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "getting_along",
+        "name": "与人相处",
+        "items": [
+          6,
+          7
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "life_activities",
+        "name": "生活活动",
+        "items": [
+          8,
+          9
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "participation",
+        "name": "参与",
+        "items": [
+          10,
+          11
+        ],
+        "maxScore": 8
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 12,
+        "level": "minimal",
+        "label": "无残疾",
+        "description": "您的总分表明没有显著的残疾，各评估领域的功能状态良好。",
+        "suggestions": [
+          "继续保持当前的功能水平",
+          "参与促进健康的活动以维持身心状态",
+          "随时关注功能状态的变化"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 24,
+        "level": "mild",
+        "label": "轻度残疾",
+        "description": "您的总分表明存在轻度残疾，部分日常功能领域可能受到有限程度的影响。",
+        "suggestions": [
+          "识别您遇到最大困难的领域",
+          "考虑使用适应性策略或工具来支持日常活动",
+          "与您的医疗保健提供者讨论任何担忧",
+          "保持适合您能力水平的体力活动"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "moderate",
+        "label": "中度残疾",
+        "description": "您的总分表明存在中度残疾，多个日常功能领域受到明显影响。",
+        "suggestions": [
+          "咨询医疗保健专业人士了解康复选择",
+          "探索辅助设备或环境改造",
+          "为困难最大的领域寻求支持服务",
+          "查看各分量表得分以确定优先干预领域"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "severe",
+        "label": "重度残疾",
+        "description": "您的总分表明存在重度残疾，许多日常功能领域严重受损，需要专业支持。",
+        "suggestions": [
+          "寻求多学科团队的综合评估",
+          "了解可用的残疾支持服务和项目",
+          "与医疗保健提供者讨论治疗和康复选择",
+          "考虑申请相关的支持和援助项目"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "cognition": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "无",
+          "description": "认知功能无显著困难。"
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "轻度",
+          "description": "集中注意力和记忆方面有轻度困难。"
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "中度",
+          "description": "中度认知困难，影响日常任务。"
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "重度",
+          "description": "严重的认知困难，显著损害日常功能。"
+        }
+      ],
+      "mobility": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "无",
+          "description": "活动能力无显著困难。"
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "轻度",
+          "description": "站立和行走方面有轻度困难。"
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "中度",
+          "description": "中度活动能力限制，影响日常活动。"
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "重度",
+          "description": "严重的活动能力困难，显著限制移动。"
+        }
+      ],
+      "self_care": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "无",
+          "description": "自我照料无显著困难。"
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "轻度",
+          "description": "清洗和穿衣方面有轻度困难。"
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "中度",
+          "description": "中度自我照料困难，需要一些协助。"
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "重度",
+          "description": "严重的自我照料困难，需要大量协助。"
+        }
+      ],
+      "getting_along": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "无",
+          "description": "与人相处无显著困难。"
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "轻度",
+          "description": "社交互动和人际关系方面有轻度困难。"
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "中度",
+          "description": "维持人际关系和与他人互动方面有中度困难。"
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "重度",
+          "description": "社交互动严重困难，显著损害人际关系。"
+        }
+      ],
+      "life_activities": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "无",
+          "description": "生活活动无显著困难。"
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "轻度",
+          "description": "日常工作和重要活动方面有轻度困难。"
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "中度",
+          "description": "有效完成工作和日常活动方面有中度困难。"
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "重度",
+          "description": "日常活动和工作严重困难，需要大量支持。"
+        }
+      ],
+      "participation": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "无",
+          "description": "参与方面无显著困难。"
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "轻度",
+          "description": "轻度情绪影响和社区活动参与困难有限。"
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "中度",
+          "description": "中度情绪影响和参与限制。"
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "重度",
+          "description": "严重的情绪影响和社区生活参与严重受限。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "cognition",
+        "mobility",
+        "self_care",
+        "getting_along",
+        "life_activities",
+        "participation"
+      ],
+      "maxDisplayScore": 8
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "认知",
+          "max": 8
+        },
+        {
+          "name": "活动能力",
+          "max": 8
+        },
+        {
+          "name": "自我照料",
+          "max": 8
+        },
+        {
+          "name": "与人相处",
+          "max": 8
+        },
+        {
+          "name": "生活活动",
+          "max": 8
+        },
+        {
+          "name": "参与",
+          "max": 8
+        }
+      ]
+    }
+  }
+}

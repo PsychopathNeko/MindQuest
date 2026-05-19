@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "id": "uwes-9",
+    "name": "UWES-9 Utrecht Work Engagement Scale",
+    "fullName": "Utrecht Work Engagement Scale-9",
+    "description": "The UWES-9 is a 9-item scale measuring three dimensions of work engagement: vigor, dedication, and absorption.",
+    "author": "Schaufeli WB, Bakker AB (2003)",
+    "license": "Free to use",
+    "reference": "Schaufeli WB, Bakker AB, Salanova M. The measurement of work engagement with a short questionnaire. Educ Psychol Meas. 2006;66(4):701-716.",
+    "instruction": "The following statements are about how you feel at work. Please read each statement carefully and decide if you ever feel this way about your job."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Never" },
+    { "value": 1, "label": "Almost never (a few times a year or less)" },
+    { "value": 2, "label": "Rarely (once a month or less)" },
+    { "value": 3, "label": "Sometimes (a few times a month)" },
+    { "value": 4, "label": "Often (once a week)" },
+    { "value": 5, "label": "Very often (a few times a week)" },
+    { "value": 6, "label": "Always (every day)" }
+  ],
+  "questions": [
+    { "index": 0, "text": "At my work, I feel bursting with energy.", "type": "likert" },
+    { "index": 1, "text": "I find the work that I do full of meaning and purpose.", "type": "likert" },
+    { "index": 2, "text": "Time flies when I am working.", "type": "likert" },
+    { "index": 3, "text": "At my job, I feel strong and vigorous.", "type": "likert" },
+    { "index": 4, "text": "I am enthusiastic about my job.", "type": "likert" },
+    { "index": 5, "text": "When I am working, I forget everything else around me.", "type": "likert" },
+    { "index": 6, "text": "My job inspires me.", "type": "likert" },
+    { "index": 7, "text": "When I get up in the morning, I feel like going to work.", "type": "likert" },
+    { "index": 8, "text": "I feel happy when I am working intensely.", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 54,
+    "maxItemScore": 6,
+    "reverseItems": [],
+    "subscales": [
+      {
+        "id": "vigor",
+        "name": "Vigor",
+        "items": [0, 3, 7],
+        "maxScore": 18
+      },
+      {
+        "id": "dedication",
+        "name": "Dedication",
+        "items": [1, 4, 6],
+        "maxScore": 18
+      },
+      {
+        "id": "absorption",
+        "name": "Absorption",
+        "items": [2, 5, 8],
+        "maxScore": 18
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 17,
+        "level": "low",
+        "label": "Low Work Engagement",
+        "description": "Your work engagement level is low. You may lack enthusiasm and motivation at work.",
+        "suggestions": [
+          "Reflect on whether your work aligns with your personal values",
+          "Discuss work content adjustments with your supervisor",
+          "Identify aspects of your work that bring a sense of achievement"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 35,
+        "level": "moderate",
+        "label": "Moderate Work Engagement",
+        "description": "Your work engagement is at a moderate level.",
+        "suggestions": [
+          "Try setting challenging goals at work",
+          "Develop social relationships in the workplace",
+          "Seek more autonomy and growth opportunities"
+        ]
+      },
+      {
+        "min": 36,
+        "max": 54,
+        "level": "high",
+        "label": "High Work Engagement",
+        "description": "Your work engagement is high. You are full of vigor, dedication, and absorption in your work.",
+        "suggestions": [
+          "Continue maintaining high work engagement",
+          "Be mindful of work-life balance to prevent burnout",
+          "Help colleagues enhance their work engagement"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["vigor", "dedication", "absorption"],
+      "maxDisplayScore": 18
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "Vigor", "max": 18 },
+        { "name": "Dedication", "max": 18 },
+        { "name": "Absorption", "max": 18 }
+      ]
+    }
+  }
+}

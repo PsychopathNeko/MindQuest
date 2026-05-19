@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "id": "bas-2",
+    "name": "BAS-2 身体欣赏量表",
+    "fullName": "Body Appreciation Scale-2",
+    "description": "BAS-2 是一份评估个体对自身身体积极态度的10题量表。它测量个体对身体的接纳、尊重和保护程度，关注积极的身体意象，而非仅仅关注不满意度。该量表适用于不同性别和文化背景。",
+    "author": "Tylka & Wood-Barcalow (2015)",
+    "license": "Free to use",
+    "reference": "Tylka TL, Wood-Barcalow NL. The Body Appreciation Scale-2: item refinement and psychometric evaluation. Body Image. 2015;12:53-67.",
+    "instruction": "请根据以下陈述与您的实际感受的符合程度进行评分。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "从不" },
+    { "value": 2, "label": "很少" },
+    { "value": 3, "label": "有时" },
+    { "value": 4, "label": "经常" },
+    { "value": 5, "label": "总是" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我尊重自己的身体", "type": "likert" },
+    { "index": 1, "text": "我对自己的身体感觉良好", "type": "likert" },
+    { "index": 2, "text": "总的来说，我觉得自己的身体是好的", "type": "likert" },
+    { "index": 3, "text": "我对自己身体的不完美持积极态度", "type": "likert" },
+    { "index": 4, "text": "我认为自己的身体至少有一些好的品质", "type": "likert" },
+    { "index": 5, "text": "我对身体采取积极的态度", "type": "likert" },
+    { "index": 6, "text": "我欣赏我身体的各种不同特征", "type": "likert" },
+    { "index": 7, "text": "我对自己身体的独特之处感到舒适", "type": "likert" },
+    { "index": 8, "text": "我关注身体的需要并照顾它", "type": "likert" },
+    { "index": 9, "text": "我内心对自己的身体感到自在", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 50,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20,
+        "level": "severe",
+        "label": "身体欣赏度低",
+        "description": "您对自身身体的欣赏和接纳程度较低，可能存在负面的身体意象。",
+        "suggestions": [
+          "建议关注自己身体的功能性而非外观",
+          "练习自我关怀和身体感恩",
+          "减少社交媒体上与外貌相关的内容接触",
+          "如果身体意象困扰严重影响生活，建议寻求专业帮助"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "moderate",
+        "label": "身体欣赏度偏低",
+        "description": "您对自身身体的欣赏程度中等偏低，可能在某些方面对身体不够满意。",
+        "suggestions": [
+          "尝试每天写下一件关于身体的积极之处",
+          "选择让身体感觉舒适的活动和穿着",
+          "减少与他人外貌的比较",
+          "培养对身体功能的感恩态度"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "mild",
+        "label": "中等身体欣赏度",
+        "description": "您对自身身体有中等程度的欣赏和接纳，整体态度较为积极。",
+        "suggestions": [
+          "继续培养对身体的积极态度",
+          "保持规律的身体活动，享受运动带来的愉悦感",
+          "实践直觉进食，倾听身体的需要"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 50,
+        "level": "minimal",
+        "label": "身体欣赏度高",
+        "description": "您对自身身体有很高的欣赏和接纳程度，拥有积极的身体意象。",
+        "suggestions": [
+          "继续保持对身体的积极态度",
+          "您的身体欣赏态度可以作为他人的积极榜样",
+          "继续照顾和尊重身体的需要"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 10, "max": 50 }
+  }
+}

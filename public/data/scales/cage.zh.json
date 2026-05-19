@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "cage",
+    "name": "CAGE 酒精筛查问卷",
+    "fullName": "CAGE问卷",
+    "description": "CAGE是一份广泛使用的4题酒精问题筛查工具。其名称来源于四个问题的首字母缩写：减少饮酒(Cut down)、被批评而恼怒(Annoyed)、感到内疚(Guilty)、晨起饮酒(Eye-opener)。它是临床实践中最常用的筛查工具之一。",
+    "author": "Ewing (1984)",
+    "license": "Public Domain",
+    "reference": "Ewing JA. Detecting alcoholism: the CAGE questionnaire. JAMA. 1984;252(14):1905-1907.",
+    "instruction": "请如实回答以下每个问题，选择「是」或「否」。"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "您是否曾感到自己应该减少饮酒？",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "是否有人因为批评您饮酒而让您感到恼怒？",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "您是否曾因为饮酒而感到内疚或不安？",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "您是否曾在早晨起床后第一件事就是喝酒来稳定神经或消除宿醉？",
+      "type": "yesno"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 4,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 0,
+        "level": "minimal",
+        "label": "未提示酒精问题",
+        "description": "您的回答未提示存在酒精相关问题。",
+        "suggestions": [
+          "继续保持健康的饮酒习惯或戒酒状态",
+          "了解过度饮酒的健康风险",
+          "注意饮酒模式的任何变化"
+        ]
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "level": "mild",
+        "label": "可能存在酒精问题",
+        "description": "您的回答提示可能存在酒精相关问题，进一步评估可能有所帮助。",
+        "suggestions": [
+          "反思您与酒精的关系",
+          "考虑与医疗保健提供者讨论您的饮酒习惯",
+          "在接下来的几周内监测您的饮酒模式",
+          "了解推荐的酒精摄入指南"
+        ]
+      },
+      {
+        "min": 2,
+        "max": 4,
+        "level": "severe",
+        "label": "很可能存在酒精问题",
+        "description": "您的回答提示很可能存在酒精使用问题。得分2分或以上具有临床意义，需要进一步评估。",
+        "suggestions": [
+          "强烈建议就酒精使用问题寻求专业评估",
+          "咨询医疗保健提供者或成瘾专家",
+          "考虑加入酒精问题相关的互助团体",
+          "与信任的家人或朋友坦诚交流",
+          "了解可用的治疗方案"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 4 }
+  }
+}

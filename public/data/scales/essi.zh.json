@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "id": "essi",
+    "name": "ESSI 社会支持简评量表",
+    "fullName": "ENRICHD Social Support Instrument",
+    "description": "ESSI 是一份简短的6题自评量表，用于评估个体感知到的社会支持水平。该量表评估情感支持、信息支持、工具性支持和情感关怀的可获得性。最初为ENRICHD临床试验中的心脏病患者开发，现已广泛应用于临床和社区人群。",
+    "author": "Mitchell et al. (2003)",
+    "license": "Free to use",
+    "reference": "Mitchell PH, Powell L, Blumenthal J, et al. A short social support measure for patients recovering from myocardial infarction: The ENRICHD Social Support Instrument. J Cardiopulm Rehabil. 2003;23(6):398-403.",
+    "instruction": "请仔细阅读以下每个描述，并选择最符合您实际情况的选项。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "从来没有" },
+    { "value": 2, "label": "很少" },
+    { "value": 3, "label": "有时" },
+    { "value": 4, "label": "大多数时候" },
+    { "value": 5, "label": "一直都有" }
+  ],
+  "questions": [
+    { "index": 0, "text": "当您需要倾诉时，是否有人可以倾听您说话？", "type": "likert" },
+    { "index": 1, "text": "是否有人可以就您遇到的问题给您好的建议？", "type": "likert" },
+    { "index": 2, "text": "是否有人向您表达关爱和温情？", "type": "likert" },
+    { "index": 3, "text": "是否有人可以帮助您处理日常事务？", "type": "likert" },
+    { "index": 4, "text": "您是否可以依靠某人为您提供情感支持（如讨论问题或帮助您做出困难的决定）？", "type": "likert" },
+    { "index": 5, "text": "您是否能够经常与您信任和可以倾诉的亲密之人保持联系？", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 30,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 12,
+        "level": "severe",
+        "label": "社会支持低",
+        "description": "您的得分表明感知到的社会支持水平较低。您可能感到身边很少有人能够给予您情感或实际的帮助。",
+        "suggestions": [
+          "考虑参加社区组织、支持小组或宗教团体",
+          "尝试与老朋友或家人重新建立联系",
+          "通过志愿服务或加入兴趣团体来扩展社交网络",
+          "考虑与心理咨询师讨论如何建立社交联系",
+          "网络社区也可以提供有价值的支持"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 18,
+        "level": "moderate",
+        "label": "社会支持中等",
+        "description": "您的得分表明社会支持处于中等水平。您有一些可用的支持，但可能觉得并不总是足够的。",
+        "suggestions": [
+          "识别您需要更多支持的方面，并主动表达您的需求",
+          "通过定期联系加强现有的关系",
+          "探索加入基于兴趣的团体或活动",
+          "练习在需要时寻求帮助",
+          "考虑通过伴侣或家庭咨询改善亲密关系"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "mild",
+        "label": "社会支持良好",
+        "description": "您的得分表明社会支持水平较高。您通常感到身边的人能够给予您良好的支持。",
+        "suggestions": [
+          "继续培养和维护您的支持性关系",
+          "向支持您的人表达感谢",
+          "考虑回馈您所获得的支持",
+          "保持定期的社交联系以维持关系"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "level": "minimal",
+        "label": "社会支持非常好",
+        "description": "您的得分表明感知到的社会支持水平非常高。您在生活的多个方面都感受到强有力的支持。",
+        "suggestions": [
+          "继续维持您强大的社交网络",
+          "与可能更加孤立的人分享您的社交支持经验",
+          "在面临挑战时充分利用您的支持网络",
+          "考虑帮助和支持有需要的人"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 6, "max": 30 }
+  }
+}

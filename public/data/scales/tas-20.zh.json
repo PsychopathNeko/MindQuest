@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "id": "tas-20",
+    "name": "TAS-20 多伦多述情障碍量表",
+    "fullName": "多伦多述情障碍量表-20项",
+    "description": "TAS-20是一份20题的自评量表，评估述情障碍的三个维度：难以识别情感、难以描述情感和外向型思维。",
+    "author": "Bagby RM, Parker JDA, Taylor GJ (1994)",
+    "license": "Free to use",
+    "reference": "Bagby RM, Parker JDA, Taylor GJ. The twenty-item Toronto Alexithymia Scale: I. Item selection and cross-validation of the factor structure. J Psychosom Res. 1994;38(1):23-32.",
+    "instruction": "请根据您通常的感受，选择最符合您的选项。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "非常不同意" },
+    { "value": 2, "label": "不同意" },
+    { "value": 3, "label": "不确定" },
+    { "value": 4, "label": "同意" },
+    { "value": 5, "label": "非常同意" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我经常对自己体内的感觉感到困惑。", "type": "likert" },
+    { "index": 1, "text": "我很难找到合适的词语来描述自己的感受。", "type": "likert" },
+    { "index": 2, "text": "我有一些连医生都不理解的身体感觉。", "type": "likert" },
+    { "index": 3, "text": "我能很容易地描述自己的感受。", "type": "likert" },
+    { "index": 4, "text": "我更喜欢分析问题，而不是仅仅描述它们。", "type": "likert" },
+    { "index": 5, "text": "当我不安时，我不知道自己是悲伤、害怕还是愤怒。", "type": "likert" },
+    { "index": 6, "text": "我经常对自己身体里的感觉感到困惑。", "type": "likert" },
+    { "index": 7, "text": "我更愿意顺其自然，而不是去理解事情为什么会变成这样。", "type": "likert" },
+    { "index": 8, "text": "我有一些自己无法确切识别的感受。", "type": "likert" },
+    { "index": 9, "text": "了解自己的情绪感受是非常重要的。", "type": "likert" },
+    { "index": 10, "text": "我觉得很难描述自己对他人的感受。", "type": "likert" },
+    { "index": 11, "text": "别人让我多描述一下自己的感受。", "type": "likert" },
+    { "index": 12, "text": "我不知道自己内心正在发生什么。", "type": "likert" },
+    { "index": 13, "text": "我经常不知道自己为什么生气。", "type": "likert" },
+    { "index": 14, "text": "我更喜欢和别人谈论日常事务，而不是感受。", "type": "likert" },
+    { "index": 15, "text": "我更喜欢看轻松的娱乐节目，而不是心理剧。", "type": "likert" },
+    { "index": 16, "text": "即使对亲密朋友，也很难表露自己内心深处的感受。", "type": "likert" },
+    { "index": 17, "text": "在安静的时刻，我能与自己的感受亲近。", "type": "likert" },
+    { "index": 18, "text": "我觉得审视自己的感受对解决个人问题是有帮助的。", "type": "likert" },
+    { "index": 19, "text": "在电影或戏剧中寻找隐藏的含义会影响欣赏的乐趣。", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "maxTotal": 100,
+    "maxItemScore": 5,
+    "reverseItems": [3, 6, 9, 13, 14, 17],
+    "subscales": [
+      {
+        "id": "difficulty_identifying",
+        "name": "难以识别情感",
+        "items": [0, 2, 5, 8, 10, 12, 18],
+        "maxScore": 35
+      },
+      {
+        "id": "difficulty_describing",
+        "name": "难以描述情感",
+        "items": [1, 3, 6, 11, 16],
+        "maxScore": 25
+      },
+      {
+        "id": "externally_oriented",
+        "name": "外向型思维",
+        "items": [4, 7, 9, 13, 14, 15, 17, 19],
+        "maxScore": 40
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 51,
+        "level": "none",
+        "label": "无述情障碍",
+        "description": "您的情感识别和表达能力在正常范围内。",
+        "suggestions": [
+          "继续保持良好的情感觉察能力",
+          "与他人分享感受有助于心理健康"
+        ]
+      },
+      {
+        "min": 52,
+        "max": 60,
+        "level": "possible",
+        "label": "可能的述情障碍",
+        "description": "您可能存在一定程度的述情障碍倾向。",
+        "suggestions": [
+          "尝试练习识别和命名自己的情绪",
+          "写情绪日记可能有所帮助",
+          "考虑参加情感觉察训练"
+        ]
+      },
+      {
+        "min": 61,
+        "max": 100,
+        "level": "alexithymia",
+        "label": "述情障碍",
+        "description": "您的得分提示存在述情障碍，在识别和表达情感方面有明显困难。",
+        "suggestions": [
+          "建议咨询心理健康专业人员",
+          "心理治疗可以帮助提高情感觉察能力",
+          "身体感觉觉察训练（如正念）可能有益"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["difficulty_identifying", "difficulty_describing", "externally_oriented"],
+      "maxDisplayScore": 40
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "难以识别情感", "max": 35 },
+        { "name": "难以描述情感", "max": 25 },
+        { "name": "外向型思维", "max": 40 }
+      ]
+    }
+  }
+}

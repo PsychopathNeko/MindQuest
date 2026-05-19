@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "id": "pdss-sr",
+    "name": "PDSS-SR Panic Disorder Severity Scale",
+    "fullName": "Panic Disorder Severity Scale - Self-Report",
+    "description": "The PDSS-SR is a 7-item self-report scale that measures the overall severity of panic disorder, including panic attack frequency, distress, anticipatory anxiety, avoidance behaviors, and functional impairment.",
+    "author": "Houck, Spiegel, Shear & Rucci (2002)",
+    "license": "Public Domain",
+    "reference": "Houck PR, Spiegel DA, Shear MK, Rucci P. Reliability of the self-report version of the Panic Disorder Severity Scale. Depress Anxiety. 2002;15(4):183-185.",
+    "instruction": "Please rate each of the following items based on your experience over the past week. Select the option that best describes your situation."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "None" },
+    { "value": 1, "label": "Mild" },
+    { "value": 2, "label": "Moderate" },
+    { "value": 3, "label": "Severe" },
+    { "value": 4, "label": "Extreme" }
+  ],
+  "questions": [
+    { "index": 0, "text": "How many panic attacks did you have during the past week?", "type": "likert" },
+    { "index": 1, "text": "If you had any panic attacks during the past week, how distressing were they?", "type": "likert" },
+    { "index": 2, "text": "During the past week, how much have you worried or felt anxious about when your next panic attack would occur?", "type": "likert" },
+    { "index": 3, "text": "During the past week, were there any places or situations you avoided or felt afraid of because of fear of a panic attack?", "type": "likert" },
+    { "index": 4, "text": "During the past week, were there any activities, sensations, or experiences that you avoided because they reminded you of a panic attack?", "type": "likert" },
+    { "index": 5, "text": "During the past week, how much did panic and related symptoms interfere with your ability to work or carry out your responsibilities?", "type": "likert" },
+    { "index": 6, "text": "During the past week, how much did panic and related symptoms interfere with your social life?", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 28,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "minimal",
+        "label": "Minimal Panic Symptoms",
+        "description": "Your score suggests minimal or no significant panic disorder symptoms.",
+        "suggestions": [
+          "Continue maintaining healthy coping strategies",
+          "Practice regular stress management techniques"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 13,
+        "level": "mild",
+        "label": "Mild to Moderate Panic",
+        "description": "Your score indicates mild to moderate panic disorder symptoms. You may be experiencing some distress related to panic attacks.",
+        "suggestions": [
+          "Learn about the nature of panic attacks and their harmlessness",
+          "Practice breathing retraining and relaxation techniques",
+          "Consider cognitive-behavioral approaches to manage anxiety",
+          "Keep a panic diary to identify triggers"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 20,
+        "level": "moderate",
+        "label": "Moderate to Severe Panic",
+        "description": "Your score indicates moderate to severe panic disorder symptoms that are likely impacting your daily life.",
+        "suggestions": [
+          "Strongly consider seeking professional treatment",
+          "Cognitive-behavioral therapy (CBT) is highly effective for panic disorder",
+          "Discuss medication options with a psychiatrist",
+          "Avoid safety behaviors that maintain the cycle of panic"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 28,
+        "level": "severe",
+        "label": "Severe Panic",
+        "description": "Your score indicates severe panic disorder symptoms with significant functional impairment.",
+        "suggestions": [
+          "Please seek professional help as soon as possible",
+          "A combination of CBT and medication is often most effective for severe panic",
+          "Do not avoid situations out of fear; this reinforces the panic cycle",
+          "Build a support system and inform trusted people about your condition",
+          "Remember that panic disorder is highly treatable"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 28 }
+  }
+}

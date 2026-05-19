@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "id": "grit-s",
+    "name": "Grit-S Short Grit Scale",
+    "fullName": "Short Grit Scale",
+    "description": "The Grit-S is an 8-item measure of trait-level perseverance and passion for long-term goals. It includes two subscales: Consistency of Interest and Perseverance of Effort.",
+    "author": "Duckworth & Quinn (2009)",
+    "license": "Free to use",
+    "reference": "Duckworth AL, Quinn PD. Development and validation of the Short Grit Scale (Grit-S). J Pers Assess. 2009;91(2):166-174.",
+    "instruction": "Please respond to each item using the scale below. Be honest; there are no right or wrong answers."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Not at all like me"
+    },
+    {
+      "value": 2,
+      "label": "Not much like me"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat like me"
+    },
+    {
+      "value": 4,
+      "label": "Mostly like me"
+    },
+    {
+      "value": 5,
+      "label": "Very much like me"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "New ideas and projects sometimes distract me from previous ones",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Setbacks don't discourage me",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I have been obsessed with a certain idea or project for a short time but later lost interest",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am a hard worker",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I finish whatever I begin",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I often set a goal but later choose to pursue a different one",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I am diligent",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I have difficulty maintaining my focus on projects that take more than a few months to complete",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 40,
+    "maxItemScore": 5,
+    "reverseItems": [
+      0,
+      2,
+      5,
+      7
+    ],
+    "subscales": [
+      {
+        "id": "consistency_of_interest",
+        "name": "Consistency of Interest",
+        "items": [
+          0,
+          2,
+          5,
+          7
+        ],
+        "reverseItems": [
+          0,
+          2,
+          5,
+          7
+        ]
+      },
+      {
+        "id": "perseverance_of_effort",
+        "name": "Perseverance of Effort",
+        "items": [
+          1,
+          3,
+          4,
+          6
+        ]
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 8,
+        "max": 16,
+        "level": "severe",
+        "label": "Low Grit",
+        "description": "Your grit score is low, suggesting difficulty maintaining long-term goals and effort.",
+        "suggestions": [
+          "Try setting smaller, achievable goals as stepping stones",
+          "Practice committing to one project at a time",
+          "Reflect on what truly matters to you long-term",
+          "Consider working with a coach or mentor"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 24,
+        "level": "mild",
+        "label": "Below Average Grit",
+        "description": "Your grit is below average. You may sometimes struggle with maintaining focus on long-term goals.",
+        "suggestions": [
+          "Identify your core passions and align goals accordingly",
+          "Build habits that support daily consistency",
+          "Track your progress to stay motivated",
+          "Learn from setbacks rather than being discouraged by them"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 32,
+        "level": "normal",
+        "label": "Above Average Grit",
+        "description": "Your grit is above average. You generally maintain effort and interest in your long-term goals.",
+        "suggestions": [
+          "Continue cultivating your perseverance",
+          "Share your strategies for persistence with others",
+          "Challenge yourself with increasingly ambitious goals"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 40,
+        "level": "minimal",
+        "label": "High Grit",
+        "description": "Your grit score is high. You demonstrate strong perseverance and sustained passion for your long-term goals.",
+        "suggestions": [
+          "Continue your excellent persistence habits",
+          "Ensure you also allow flexibility when goals need adjusting",
+          "Use your grit as a strength to inspire others"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 8,
+      "max": 40
+    }
+  }
+}

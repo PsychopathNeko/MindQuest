@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "id": "perma",
+    "name": "PERMA 幸福量表",
+    "fullName": "PERMA幸福感量表",
+    "description": "PERMA量表是基于Seligman积极心理学PERMA模型的23题幸福感评估工具，涵盖积极情绪、投入、关系、意义和成就五个核心维度。",
+    "author": "Butler & Kern (2016)",
+    "license": "Free to use",
+    "reference": "Butler J, Kern ML. The PERMA-Profiler: A brief multidimensional measure of flourishing. International Journal of Wellbeing. 2016;6(3):1-48.",
+    "instruction": "请根据您的真实感受，对以下每个问题进行评分（0-10分）。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "0 - 从不/完全没有" },
+    { "value": 1, "label": "1" },
+    { "value": 2, "label": "2" },
+    { "value": 3, "label": "3" },
+    { "value": 4, "label": "4" },
+    { "value": 5, "label": "5 - 有时/中等" },
+    { "value": 6, "label": "6" },
+    { "value": 7, "label": "7" },
+    { "value": 8, "label": "8" },
+    { "value": 9, "label": "9" },
+    { "value": 10, "label": "10 - 总是/完全是" }
+  ],
+  "questions": [
+    { "index": 0, "text": "您多久感受到积极正面的情绪？", "type": "likert" },
+    { "index": 1, "text": "您多久会因为感兴趣而完全沉浸在正在做的事情中？", "type": "likert" },
+    { "index": 2, "text": "您多久感到被爱？", "type": "likert" },
+    { "index": 3, "text": "您多久觉得自己做的事情是有价值和有意义的？", "type": "likert" },
+    { "index": 4, "text": "总体而言，您在多大程度上感到快乐？", "type": "likert" },
+    { "index": 5, "text": "您通常在多大程度上全身心投入到您所做的事情中？", "type": "likert" },
+    { "index": 6, "text": "您在多大程度上受到社交关系的支持？", "type": "likert" },
+    { "index": 7, "text": "您多久在朝着目标前进时感到进展顺利？", "type": "likert" },
+    { "index": 8, "text": "您多久能够处理好自己的责任？", "type": "likert" },
+    { "index": 9, "text": "您通常在多大程度上感到自己所做的事情令人兴奋和有趣？", "type": "likert" },
+    { "index": 10, "text": "您在多大程度上觉得自己的生活有方向感和意义？", "type": "likert" },
+    { "index": 11, "text": "总体而言，您在多大程度上感到满足？", "type": "likert" },
+    { "index": 12, "text": "您对自己的社交关系在多大程度上感到满意？", "type": "likert" },
+    { "index": 13, "text": "您多久觉得自己达成了目标？", "type": "likert" },
+    { "index": 14, "text": "您在多大程度上觉得自己过着有目的的生活？", "type": "likert" },
+    { "index": 15, "text": "您多久感到焦虑？", "type": "likert" },
+    { "index": 16, "text": "您多久感到愤怒？", "type": "likert" },
+    { "index": 17, "text": "您多久感到悲伤？", "type": "likert" },
+    { "index": 18, "text": "总体而言，您如何评价自己的健康状况？", "type": "likert" },
+    { "index": 19, "text": "与同龄人相比，您对自己的健康状况满意吗？", "type": "likert" },
+    { "index": 20, "text": "您的健康状况是否允许您做想做的事情？", "type": "likert" },
+    { "index": 21, "text": "您在多大程度上感到孤独？", "type": "likert" },
+    { "index": 22, "text": "总体而言，您在多大程度上感到幸福？", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 230,
+    "maxItemScore": 10,
+    "reverseItems": [],
+    "subscales": [
+      {
+        "id": "positive_emotion",
+        "name": "积极情绪",
+        "items": [0, 4, 11],
+        "maxScore": 30
+      },
+      {
+        "id": "engagement",
+        "name": "投入",
+        "items": [1, 5, 9],
+        "maxScore": 30
+      },
+      {
+        "id": "relationships",
+        "name": "关系",
+        "items": [2, 6, 12],
+        "maxScore": 30
+      },
+      {
+        "id": "meaning",
+        "name": "意义",
+        "items": [3, 10, 14],
+        "maxScore": 30
+      },
+      {
+        "id": "accomplishment",
+        "name": "成就",
+        "items": [7, 8, 13],
+        "maxScore": 30
+      },
+      {
+        "id": "negative_emotion",
+        "name": "消极情绪",
+        "items": [15, 16, 17],
+        "maxScore": 30
+      },
+      {
+        "id": "health",
+        "name": "健康",
+        "items": [18, 19, 20],
+        "maxScore": 30
+      },
+      {
+        "id": "loneliness",
+        "name": "孤独感",
+        "items": [21],
+        "maxScore": 10
+      },
+      {
+        "id": "happiness",
+        "name": "总体幸福感",
+        "items": [22],
+        "maxScore": 10
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 76,
+        "level": "minimal",
+        "label": "幸福感较低",
+        "description": "您的PERMA总分较低，表明整体幸福感有较大提升空间。",
+        "suggestions": [
+          "尝试每天记录三件好事来培养积极情绪",
+          "寻找能让您全身心投入的活动",
+          "考虑寻求专业心理咨询支持"
+        ]
+      },
+      {
+        "min": 77,
+        "max": 153,
+        "level": "moderate",
+        "label": "幸福感中等",
+        "description": "您的幸福感处于中等水平，某些维度有提升空间。",
+        "suggestions": [
+          "关注得分较低的维度，针对性改善",
+          "加强社交联系和人际关系质量",
+          "寻找生活中的意义和目标感"
+        ]
+      },
+      {
+        "min": 154,
+        "max": 230,
+        "level": "high",
+        "label": "幸福感较高",
+        "description": "您的整体幸福感较高，各维度发展较为均衡。",
+        "suggestions": [
+          "继续保持当前的积极生活方式",
+          "帮助他人也能进一步提升自身幸福感",
+          "持续关注各维度的平衡发展"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["positive_emotion", "engagement", "relationships", "meaning", "accomplishment", "negative_emotion", "health"],
+      "maxDisplayScore": 30
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "积极情绪", "max": 30 },
+        { "name": "投入", "max": 30 },
+        { "name": "关系", "max": 30 },
+        { "name": "意义", "max": 30 },
+        { "name": "成就", "max": 30 },
+        { "name": "健康", "max": 30 }
+      ]
+    }
+  }
+}

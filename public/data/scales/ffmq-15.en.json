@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "id": "ffmq-15",
+    "name": "FFMQ-15 Five Facet Mindfulness Questionnaire",
+    "fullName": "Five Facet Mindfulness Questionnaire-15",
+    "description": "The FFMQ-15 is a 15-item self-report measure of mindfulness assessing five facets: observing, describing, acting with awareness, non-judging, and non-reacting.",
+    "author": "Baer et al. (2006); 15-item: Gu et al. (2016)",
+    "license": "Free for research use",
+    "reference": "Gu J, Strauss C, Crane C, et al. Examining the factor structure of the 39-item and 15-item versions of the Five Facet Mindfulness Questionnaire. Mindfulness. 2016;7(6):1441-1451.",
+    "instruction": "Please rate each of the following statements. Answer according to what really reflects your experience rather than what you think your experience should be."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Never or very rarely true"
+    },
+    {
+      "value": 2,
+      "label": "Rarely true"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes true"
+    },
+    {
+      "value": 4,
+      "label": "Often true"
+    },
+    {
+      "value": 5,
+      "label": "Very often or always true"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "When I am walking, I deliberately notice the sensations of my body moving",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I am good at finding words to describe my feelings",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I do jobs or tasks automatically without being aware of what I am doing",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I tell myself I should not be feeling the way I am feeling",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "When I have distressing thoughts or images, I am able to just notice them without reacting",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I notice changes in smells and aromas",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I can easily put my beliefs, opinions, and expectations into words",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I do not pay attention to what I am doing because I am daydreaming, worrying, or otherwise distracted",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I make judgments about whether my thoughts are good or bad",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I watch my feelings without getting lost in them",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I notice visual elements in art or nature, such as colors, shapes, textures, or patterns of light and shadow",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Even when I am feeling terribly upset, I can find a way to put it into words",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I find it difficult to stay focused on what is happening in the present",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I believe some of my thoughts are abnormal or bad and I should not think that way",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "In difficult situations, I can pause without immediately reacting",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "maxTotal": 75,
+    "maxItemScore": 5,
+    "reverseItems": [
+      2,
+      3,
+      7,
+      8,
+      12,
+      13
+    ],
+    "subscales": [
+      {
+        "id": "observing",
+        "name": "Observing",
+        "items": [
+          0,
+          5,
+          10
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "describing",
+        "name": "Describing",
+        "items": [
+          1,
+          6,
+          11
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "actaware",
+        "name": "Acting with Awareness",
+        "items": [
+          2,
+          7,
+          12
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "nonjudge",
+        "name": "Non-Judging",
+        "items": [
+          3,
+          8,
+          13
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "nonreact",
+        "name": "Non-Reacting",
+        "items": [
+          4,
+          9,
+          14
+        ],
+        "maxScore": 15
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 15,
+        "max": 35,
+        "level": "severe",
+        "label": "Low Mindfulness",
+        "description": "Your mindfulness level is low.",
+        "suggestions": [
+          "Try 5-10 minutes of mindfulness meditation daily",
+          "Consider a Mindfulness-Based Stress Reduction program",
+          "Practice deliberate attention to everyday activities"
+        ]
+      },
+      {
+        "min": 36,
+        "max": 55,
+        "level": "moderate",
+        "label": "Moderate Mindfulness",
+        "description": "Your mindfulness is moderate with room for growth.",
+        "suggestions": [
+          "Review subscale scores for improvement areas",
+          "Continue regular mindfulness practice",
+          "Practice observing thoughts without judgment"
+        ]
+      },
+      {
+        "min": 56,
+        "max": 75,
+        "level": "minimal",
+        "label": "High Mindfulness",
+        "description": "Your mindfulness level is high.",
+        "suggestions": [
+          "Continue your mindfulness practice",
+          "Explore advanced mindfulness techniques",
+          "Integrate mindfulness into more daily activities"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "observing": [
+        {
+          "min": 3,
+          "max": 7,
+          "level": "severe",
+          "label": "Low",
+          "description": "Low awareness of sensory experiences."
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Sometimes notices sensory experiences."
+        },
+        {
+          "min": 12,
+          "max": 15,
+          "level": "minimal",
+          "label": "High",
+          "description": "Skilled at noticing sensory experiences."
+        }
+      ],
+      "describing": [
+        {
+          "min": 3,
+          "max": 7,
+          "level": "severe",
+          "label": "Low",
+          "description": "Difficulty putting inner experiences into words."
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Able to describe inner experiences to some extent."
+        },
+        {
+          "min": 12,
+          "max": 15,
+          "level": "minimal",
+          "label": "High",
+          "description": "Skilled at articulating feelings and thoughts."
+        }
+      ],
+      "actaware": [
+        {
+          "min": 3,
+          "max": 7,
+          "level": "severe",
+          "label": "Low",
+          "description": "Often on autopilot or distracted."
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Sometimes able to focus on present activities."
+        },
+        {
+          "min": 12,
+          "max": 15,
+          "level": "minimal",
+          "label": "High",
+          "description": "Maintains high awareness during daily activities."
+        }
+      ],
+      "nonjudge": [
+        {
+          "min": 3,
+          "max": 7,
+          "level": "severe",
+          "label": "Low",
+          "description": "Frequently judges own thoughts negatively."
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Sometimes accepts inner experiences without judgment."
+        },
+        {
+          "min": 12,
+          "max": 15,
+          "level": "minimal",
+          "label": "High",
+          "description": "Approaches inner experiences with openness."
+        }
+      ],
+      "nonreact": [
+        {
+          "min": 3,
+          "max": 7,
+          "level": "severe",
+          "label": "Low",
+          "description": "Easily carried away by inner experiences."
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Sometimes maintains distance from inner experiences."
+        },
+        {
+          "min": 12,
+          "max": 15,
+          "level": "minimal",
+          "label": "High",
+          "description": "Observes inner experiences without being caught up."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "observing",
+        "describing",
+        "actaware",
+        "nonjudge",
+        "nonreact"
+      ],
+      "maxDisplayScore": 15
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Observing",
+          "max": 15
+        },
+        {
+          "name": "Describing",
+          "max": 15
+        },
+        {
+          "name": "Acting with Awareness",
+          "max": 15
+        },
+        {
+          "name": "Non-Judging",
+          "max": 15
+        },
+        {
+          "name": "Non-Reacting",
+          "max": 15
+        }
+      ]
+    }
+  }
+}

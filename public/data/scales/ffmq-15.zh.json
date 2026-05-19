@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "id": "ffmq-15",
+    "name": "FFMQ-15 五因素正念问卷简版",
+    "fullName": "Five Facet Mindfulness Questionnaire-15",
+    "description": "FFMQ-15 是一份包含 15 个条目的正念自评量表，评估正念的五个维度：观察、描述、有觉知地行动、不评判和不反应。它是 FFMQ-39 的简版，适合快速评估正念水平。",
+    "author": "Baer et al. (2006); 15-item: Gu et al. (2016)",
+    "license": "Free for research use",
+    "reference": "Gu J, Strauss C, Crane C, et al. Examining the factor structure of the 39-item and 15-item versions of the Five Facet Mindfulness Questionnaire. Mindfulness. 2016;7(6):1441-1451.",
+    "instruction": "请根据您的实际体验，评估以下陈述在多大程度上符合您的日常情况。请凭第一感觉作答，没有对错之分。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "从不或很少符合" },
+    { "value": 2, "label": "很少符合" },
+    { "value": 3, "label": "有时符合" },
+    { "value": 4, "label": "经常符合" },
+    { "value": 5, "label": "总是或几乎总是符合" }
+  ],
+  "questions": [
+    { "index": 0, "text": "当我走路的时候，我会刻意留意身体移动的感觉", "type": "likert" },
+    { "index": 1, "text": "我善于用语言描述自己的感受", "type": "likert" },
+    { "index": 2, "text": "我做事时心不在焉，注意力不集中", "type": "likert" },
+    { "index": 3, "text": "我会告诉自己不应该有现在这样的感受", "type": "likert" },
+    { "index": 4, "text": "当我有令人痛苦的想法或画面时，我能够很快恢复平静", "type": "likert" },
+    { "index": 5, "text": "我注意到气味和香味等细微的变化", "type": "likert" },
+    { "index": 6, "text": "我能轻松地用恰当的词语表达自己的信念、观点和期望", "type": "likert" },
+    { "index": 7, "text": "我做事时不注意，因为我在做白日梦、担心事情或分心了", "type": "likert" },
+    { "index": 8, "text": "我对自己的某些想法或情绪做出评判，认为它们是不好的或不恰当的", "type": "likert" },
+    { "index": 9, "text": "我会观察自己的感受而不沉溺于其中", "type": "likert" },
+    { "index": 10, "text": "我注意到视觉元素（如色彩、形状、光线和阴影）", "type": "likert" },
+    { "index": 11, "text": "即使我心里很不安，我也能用语言表达出来", "type": "likert" },
+    { "index": 12, "text": "我发现自己做事时很难保持专注于当下正在做的事", "type": "likert" },
+    { "index": 13, "text": "我认为自己的某些情绪是不好的或不恰当的，不应该有那样的感受", "type": "likert" },
+    { "index": 14, "text": "在困难的处境中，我能够暂停而不立刻做出反应", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "maxTotal": 75,
+    "maxItemScore": 5,
+    "reverseItems": [2, 3, 7, 8, 12, 13],
+    "subscales": [
+      {
+        "id": "observing",
+        "name": "观察",
+        "items": [0, 5, 10],
+        "maxScore": 15
+      },
+      {
+        "id": "describing",
+        "name": "描述",
+        "items": [1, 6, 11],
+        "maxScore": 15
+      },
+      {
+        "id": "actaware",
+        "name": "有觉知地行动",
+        "items": [2, 7, 12],
+        "maxScore": 15
+      },
+      {
+        "id": "nonjudge",
+        "name": "不评判",
+        "items": [3, 8, 13],
+        "maxScore": 15
+      },
+      {
+        "id": "nonreact",
+        "name": "不反应",
+        "items": [4, 9, 14],
+        "maxScore": 15
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 15,
+        "max": 35,
+        "level": "severe",
+        "label": "正念水平较低",
+        "description": "您的正念水平较低，可能难以保持对当下体验的觉察和接纳。",
+        "suggestions": [
+          "尝试每天进行5-10分钟的正念冥想练习",
+          "参加正念减压课程（MBSR）或正念认知疗法课程",
+          "在日常活动中练习有意识地关注当下",
+          "减少多任务处理，一次专注做一件事"
+        ]
+      },
+      {
+        "min": 36,
+        "max": 55,
+        "level": "moderate",
+        "label": "正念水平中等",
+        "description": "您的正念水平处于中等范围，在某些方面有一定的正念能力，但仍有提升空间。",
+        "suggestions": [
+          "查看各维度得分，找出可以加强的方面",
+          "持续进行正念练习以提升整体水平",
+          "在日常生活中更多地关注身体感受和情绪变化",
+          "练习不评判地观察自己的想法"
+        ]
+      },
+      {
+        "min": 56,
+        "max": 75,
+        "level": "minimal",
+        "label": "正念水平较高",
+        "description": "您的正念水平较高，能够较好地觉察和接纳当下体验。",
+        "suggestions": [
+          "继续保持正念练习的习惯",
+          "可以尝试更深入的正念练习方法",
+          "将正念融入更多日常活动中",
+          "考虑与他人分享正念经验"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "observing": [
+        { "min": 3, "max": 7, "level": "severe", "label": "低", "description": "观察维度较低，较少注意内外部体验。" },
+        { "min": 8, "max": 11, "level": "moderate", "label": "中", "description": "观察能力中等，有时能注意到感官体验。" },
+        { "min": 12, "max": 15, "level": "minimal", "label": "高", "description": "善于观察内外部感官体验。" }
+      ],
+      "describing": [
+        { "min": 3, "max": 7, "level": "severe", "label": "低", "description": "较难用语言表达内在体验。" },
+        { "min": 8, "max": 11, "level": "moderate", "label": "中", "description": "能在一定程度上描述内在体验。" },
+        { "min": 12, "max": 15, "level": "minimal", "label": "高", "description": "善于用语言表达内在感受和想法。" }
+      ],
+      "actaware": [
+        { "min": 3, "max": 7, "level": "severe", "label": "低", "description": "做事时经常走神或自动化运行。" },
+        { "min": 8, "max": 11, "level": "moderate", "label": "中", "description": "有时能专注于当下正在做的事。" },
+        { "min": 12, "max": 15, "level": "minimal", "label": "高", "description": "做事时能保持高度的觉知和专注。" }
+      ],
+      "nonjudge": [
+        { "min": 3, "max": 7, "level": "severe", "label": "低", "description": "经常对自己的想法和感受做出负面评判。" },
+        { "min": 8, "max": 11, "level": "moderate", "label": "中", "description": "有时能不评判地接纳自己的内在体验。" },
+        { "min": 12, "max": 15, "level": "minimal", "label": "高", "description": "能以开放、接纳的态度对待内在体验。" }
+      ],
+      "nonreact": [
+        { "min": 3, "max": 7, "level": "severe", "label": "低", "description": "容易被内在体验所牵引，难以保持距离。" },
+        { "min": 8, "max": 11, "level": "moderate", "label": "中", "description": "有时能对内在体验保持一定距离。" },
+        { "min": 12, "max": 15, "level": "minimal", "label": "高", "description": "能够观察内在体验而不被卷入其中。" }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["bar", "radar"],
+    "barConfig": {
+      "subscaleIds": ["observing", "describing", "actaware", "nonjudge", "nonreact"],
+      "maxDisplayScore": 15
+    },
+    "radarConfig": {
+      "indicators": [
+        { "name": "观察", "max": 15 },
+        { "name": "描述", "max": 15 },
+        { "name": "有觉知地行动", "max": 15 },
+        { "name": "不评判", "max": 15 },
+        { "name": "不反应", "max": 15 }
+      ]
+    }
+  }
+}

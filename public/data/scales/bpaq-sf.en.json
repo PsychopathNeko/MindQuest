@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "id": "bpaq-sf",
+    "name": "BPAQ-SF Aggression Questionnaire Short Form",
+    "fullName": "Buss-Perry Aggression Questionnaire Short Form",
+    "description": "The BPAQ-SF is a 12-item self-report scale that assesses four dimensions of aggression: Physical Aggression, Verbal Aggression, Anger, and Hostility. It is the short form of the BPAQ-29, providing a concise and efficient measure for rapid aggression screening.",
+    "author": "Bryant & Smith (2001)",
+    "license": "Free for research use",
+    "reference": "Bryant FB, Smith BD. Refining the architecture of aggression: a measurement model for the Buss-Perry Aggression Questionnaire. J Res Pers. 2001;35(2):138-167.",
+    "instruction": "Please rate each statement based on your typical behavior and feelings."
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Extremely Uncharacteristic"
+    },
+    {
+      "value": 2,
+      "label": "Somewhat Uncharacteristic"
+    },
+    {
+      "value": 3,
+      "label": "Neutral"
+    },
+    {
+      "value": 4,
+      "label": "Somewhat Characteristic"
+    },
+    {
+      "value": 5,
+      "label": "Extremely Characteristic"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Given enough provocation, I may hit another person",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "If somebody hits me, I hit back",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I have threatened people I know when provoked",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "When people disagree with me, I can’t help getting into an argument",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "My friends say that I’m somewhat argumentative",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I often find myself disagreeing with people",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I sometimes feel irritable for no good reason",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I have trouble controlling my temper",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Sometimes I feel like a powder keg ready to explode",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I sometimes feel that life has treated me unfairly",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "When people are especially nice, I wonder what they want",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I am sometimes eaten up with jealousy",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 60,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "physical",
+        "name": "Physical Aggression",
+        "items": [
+          0,
+          1,
+          2
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "verbal",
+        "name": "Verbal Aggression",
+        "items": [
+          3,
+          4,
+          5
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "anger",
+        "name": "Anger",
+        "items": [
+          6,
+          7,
+          8
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "hostility",
+        "name": "Hostility",
+        "items": [
+          9,
+          10,
+          11
+        ],
+        "maxScore": 15
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 24,
+        "level": "minimal",
+        "label": "Low Aggression",
+        "description": "Your aggression level is low. You can control aggressive impulses well.",
+        "suggestions": [
+          "Continue maintaining good emotional management and conflict resolution skills",
+          "Your low aggression contributes to harmonious relationships"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "normal",
+        "label": "Moderate Aggression",
+        "description": "Your aggression is at a moderate level, within the normal range for most people.",
+        "suggestions": [
+          "Review subscale scores to understand your aggression patterns",
+          "Learn more effective communication and conflict resolution skills",
+          "Practice emotion regulation and anger management"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "mild",
+        "label": "Elevated Aggression",
+        "description": "Your aggression level is elevated. You may have difficulty controlling aggressive behavior in some situations.",
+        "suggestions": [
+          "Learn anger management and conflict resolution techniques",
+          "Practice deep breathing and relaxation to manage anger",
+          "Consider seeking psychological counseling",
+          "Be aware of how aggression affects your relationships"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "moderate",
+        "label": "High Aggression",
+        "description": "Your aggression level is very high. This may significantly impact your relationships and social adjustment.",
+        "suggestions": [
+          "Consider seeking professional psychological help",
+          "Anger management training may be very beneficial",
+          "Avoid high-conflict environments and learn calming strategies",
+          "Be aware of potential legal and social consequences of aggressive behavior"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "physical": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low physical aggression."
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate physical aggression."
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "moderate",
+          "label": "High",
+          "description": "High physical aggression."
+        },
+        {
+          "min": 13,
+          "max": 15,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high physical aggression."
+        }
+      ],
+      "verbal": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low verbal aggression."
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate verbal aggression."
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "moderate",
+          "label": "High",
+          "description": "High verbal aggression."
+        },
+        {
+          "min": 13,
+          "max": 15,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high verbal aggression."
+        }
+      ],
+      "anger": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low anger level."
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate anger level."
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "moderate",
+          "label": "High",
+          "description": "High anger level."
+        },
+        {
+          "min": 13,
+          "max": 15,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high anger level."
+        }
+      ],
+      "hostility": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low hostility level."
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate hostility level."
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "moderate",
+          "label": "High",
+          "description": "High hostility level."
+        },
+        {
+          "min": 13,
+          "max": 15,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high hostility level."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "physical",
+        "verbal",
+        "anger",
+        "hostility"
+      ],
+      "maxDisplayScore": 15
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Physical Aggression",
+          "max": 15
+        },
+        {
+          "name": "Verbal Aggression",
+          "max": 15
+        },
+        {
+          "name": "Anger",
+          "max": 15
+        },
+        {
+          "name": "Hostility",
+          "max": 15
+        }
+      ]
+    }
+  }
+}

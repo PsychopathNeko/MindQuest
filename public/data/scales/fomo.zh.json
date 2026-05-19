@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "id": "fomo",
+    "name": "FoMO 错失恐惧量表",
+    "fullName": "Fear of Missing Out Scale",
+    "description": "FoMO量表是一份10题自评量表，用于评估个体对错过他人可能正在拥有的有价值体验的普遍性担忧。它测量与错过社交体验相关的恐惧和焦虑，以及持续了解他人动态的渴望。",
+    "author": "Przybylski et al. (2013)",
+    "license": "Free to use",
+    "reference": "Przybylski AK, Murayama K, DeHaan CR, Gladwell V. Motivational, emotional, and behavioral correlates of fear of missing out. Comput Human Behav. 2013;29(4):1841-1848.",
+    "instruction": "以下是一些关于您日常体验的描述。请根据每个描述与您一般经历的符合程度进行评价。"
+  },
+  "commonChoices": [
+    { "value": 1, "label": "完全不符合" },
+    { "value": 2, "label": "有点符合" },
+    { "value": 3, "label": "中等符合" },
+    { "value": 4, "label": "非常符合" },
+    { "value": 5, "label": "完全符合" }
+  ],
+  "questions": [
+    { "index": 0, "text": "我担心别人比我拥有更多有意义的体验", "type": "likert" },
+    { "index": 1, "text": "我担心我的朋友比我拥有更多有意义的体验", "type": "likert" },
+    { "index": 2, "text": "当我发现朋友们在没有我的情况下玩得很开心时，我会感到担忧", "type": "likert" },
+    { "index": 3, "text": "当我不知道朋友们在做什么时，我会感到焦虑", "type": "likert" },
+    { "index": 4, "text": "理解朋友之间的\"圈内笑话\"对我来说很重要", "type": "likert" },
+    { "index": 5, "text": "有时候，我会想自己是否花了太多时间来了解正在发生的事情", "type": "likert" },
+    { "index": 6, "text": "当我错过与朋友聚会的机会时，我会感到困扰", "type": "likert" },
+    { "index": 7, "text": "当我玩得开心时，在网上分享细节对我来说很重要", "type": "likert" },
+    { "index": 8, "text": "当我错过一个已经计划好的聚会时，我会感到烦恼", "type": "likert" },
+    { "index": 9, "text": "当我去度假时，我仍然会关注朋友们在做什么", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 50,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20,
+        "level": "minimal",
+        "label": "错失恐惧低",
+        "description": "您的得分表明错失恐惧水平较低。您通常不会因为没有参与每一项社交活动而感到不安，也不会强迫自己时刻保持联系。",
+        "suggestions": [
+          "继续保持您与社交媒体和社交活动的健康关系",
+          "继续练习活在当下",
+          "您对社交参与的平衡态度是一种优势"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "错失恐惧中等",
+        "description": "您的得分表明错失恐惧处于中等水平。您有时会担心错过社交体验，但这并未显著影响您的日常生活。",
+        "suggestions": [
+          "练习正念，专注于当下的体验",
+          "有意识地限制查看社交媒体的频率",
+          "提醒自己社交媒体通常展示的是精彩瞬间，而非现实全貌",
+          "投入时间与少数亲密朋友建立更深的联系，而不是试图跟上所有人的动态"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "moderate",
+        "label": "错失恐惧较高",
+        "description": "您的得分表明错失恐惧水平较高。您经常担心别人在做什么，可能会因为被排除在社交体验之外而感到焦虑。",
+        "suggestions": [
+          "考虑减少社交媒体使用，尤其是被动浏览",
+          "练习对自己的经历和关系心存感恩",
+          "参与能给您带来个人满足感的独立活动",
+          "挑战\"别人总是比我过得好\"的想法",
+          "考虑与心理咨询师讨论如何管理社交焦虑"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 50,
+        "level": "severe",
+        "label": "错失恐惧非常高",
+        "description": "您的得分表明错失恐惧水平非常高。这种对错过社交体验的持续担忧可能正在显著影响您的身心健康和日常生活。",
+        "suggestions": [
+          "考虑进行有计划的数字排毒或大幅减少社交媒体使用",
+          "寻求专业支持以解决潜在的焦虑和自尊问题",
+          "练习自我关怀，挑战社会比较的习惯",
+          "专注于建立有意义的面对面联系",
+          "培养能够带来内在满足感的个人兴趣和爱好"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 10, "max": 50 }
+  }
+}

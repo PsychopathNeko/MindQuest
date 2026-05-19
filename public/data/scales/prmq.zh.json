@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "id": "prmq",
+    "name": "PRMQ 前瞻性与回溯性记忆问卷",
+    "fullName": "Prospective and Retrospective Memory Questionnaire",
+    "description": "PRMQ 是一份包含16个条目的自评量表，用于评估日常记忆失误的频率。它区分前瞻性记忆（记住将来要做的事）和回溯性记忆（回忆过去的事件和信息）。",
+    "author": "Smith et al. (2000)",
+    "license": "Free to use",
+    "reference": "Smith G, Della Sala S, Logie RH, Maylor EA. Prospective and retrospective memory in normal ageing and dementia: a questionnaire study. Mem Cognit. 2000;28(6):881-889.",
+    "instruction": "以下问题涉及每个人都会偶尔犯的记忆错误。请指出以下每种情况在您身上发生的频率。"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "从不"
+    },
+    {
+      "value": 2,
+      "label": "很少"
+    },
+    {
+      "value": 3,
+      "label": "有时"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "非常频繁"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "您是否决定几分钟后做某事但后来忘记了？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "您是否认不出曾经去过的地方？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "您是否没能完成几分钟前计划要做的事，即使它就在您面前？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "您是否忘记了几分钟前别人告诉您的事？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "如果没有他人提醒或备忘录，您是否会忘记约会？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "您是否在广播或电视节目中认不出场景之间的角色？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "即使看到商店，您是否忘记买计划购买的东西？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "您是否回忆不起过去几天发生在自己身上的事？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "您是否在不同场合对同一个人重复同样的故事？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "您是否打算带上某物但几分钟后忘了拿？",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "您是否放错了刚刚放下的东西，如杂志或眼镜？",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "您是否忘记向访客转告或转交别人托付的东西？",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "您是否看着某物却没意识到刚刚才看过它？",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "如果联系不上朋友或亲戚，您是否会忘记稍后再试？",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "您是否忘记昨天看了什么电视节目？",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "您是否忘记告诉别人几分钟前想说的话？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 80,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "prospective",
+        "name": "前瞻性记忆",
+        "items": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "maxScore": 40
+      },
+      {
+        "id": "retrospective",
+        "name": "回溯性记忆",
+        "items": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15
+        ],
+        "maxScore": 40
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 32,
+        "level": "minimal",
+        "label": "记忆良好",
+        "description": "您的整体记忆表现良好。",
+        "suggestions": [
+          "继续保持当前的记忆策略",
+          "坚持有益于认知功能的智力活动"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 48,
+        "level": "mild",
+        "label": "记忆一般",
+        "description": "您的记忆处于平均水平。",
+        "suggestions": [
+          "使用日历和提醒应用等外部辅助工具",
+          "确保充足的睡眠"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 64,
+        "level": "moderate",
+        "label": "记忆较差",
+        "description": "记忆失误频率高于平均水平。",
+        "suggestions": [
+          "实施系统化的提醒策略",
+          "减少干扰"
+        ]
+      },
+      {
+        "min": 65,
+        "max": 80,
+        "level": "severe",
+        "label": "记忆很差",
+        "description": "频繁的记忆失误可能显著影响日常生活。",
+        "suggestions": [
+          "考虑咨询医疗专业人员",
+          "持续使用多种外部记忆辅助工具"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "prospective": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "normal",
+          "label": "前瞻性记忆良好",
+          "description": "您通常能记住执行计划好的行动。"
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "前瞻性记忆一般",
+          "description": "偶尔忘记执行计划好的行动。"
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "moderate",
+          "label": "前瞻性记忆较差",
+          "description": "经常忘记执行预定的行动。"
+        },
+        {
+          "min": 33,
+          "max": 40,
+          "level": "severe",
+          "label": "前瞻性记忆很差",
+          "description": "非常频繁地忘记计划好的行动。"
+        }
+      ],
+      "retrospective": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "normal",
+          "label": "回溯性记忆良好",
+          "description": "通常能很好地回忆过去的事件。"
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "回溯性记忆一般",
+          "description": "偶尔难以回忆过去的事件。"
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "moderate",
+          "label": "回溯性记忆较差",
+          "description": "经常难以记住过去的事件。"
+        },
+        {
+          "min": 33,
+          "max": 40,
+          "level": "severe",
+          "label": "回溯性记忆很差",
+          "description": "非常频繁地难以回忆过去的事件。建议寻求专业评估。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "prospective",
+        "retrospective"
+      ],
+      "maxDisplayScore": 40
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "前瞻性记忆",
+          "max": 40
+        },
+        {
+          "name": "回溯性记忆",
+          "max": 40
+        }
+      ]
+    }
+  }
+}
