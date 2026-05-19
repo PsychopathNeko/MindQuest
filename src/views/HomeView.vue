@@ -88,9 +88,12 @@ watch(locale, async () => {
 .hero-title { font-size: var(--font-size-4xl); font-weight: 700; color: var(--color-text-primary); letter-spacing: -0.03em; margin-bottom: var(--spacing-3); }
 .hero-subtitle { font-size: var(--font-size-lg); color: var(--color-text-secondary); max-width: 480px; margin: 0 auto; line-height: 1.6; font-weight: 400; letter-spacing: 0.02em; }
 @media (max-width: 640px) {
-  .hero { padding: var(--spacing-8) 0 var(--spacing-6); }
-  .hero-title { font-size: var(--font-size-3xl); }
-  .hero-subtitle { font-size: var(--font-size-base); }
+  .hero { padding: var(--spacing-6) 0 var(--spacing-4); }
+  .hero-title { font-size: var(--font-size-2xl); }
+  .hero-subtitle { font-size: var(--font-size-sm); padding: 0 var(--spacing-2); }
+}
+@media (max-width: 374px) {
+  .hero-title { font-size: var(--font-size-xl); }
 }
 .main-content { padding-bottom: var(--spacing-12); }
 .scale-count { font-size: var(--font-size-sm); color: var(--color-text-secondary); margin: var(--spacing-4) 0; }

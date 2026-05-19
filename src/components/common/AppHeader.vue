@@ -180,4 +180,19 @@ const emit = defineEmits(['toggle-sidebar'])
   border-color: var(--color-primary-light);
   background-color: rgba(125, 162, 247, 0.04);
 }
+/* Mobile: reduce nav gap, shrink on small screens */
+@media (max-width: 640px) {
+  .header-inner { height: 52px; }
+  .header-nav { gap: var(--spacing-2); }
+  .nav-link { padding: var(--spacing-2); }
+  .logo-text { font-size: var(--font-size-base); }
+}
+
+@media (max-width: 374px) {
+  .header-nav { gap: var(--spacing-1); }
+  .nav-link span { display: none; }
+  .nav-link { padding: var(--spacing-2); }
+  .lang-toggle-btn { padding: var(--spacing-1) var(--spacing-2); }
+  .logo-text { font-size: var(--font-size-sm); }
+}
 </style>

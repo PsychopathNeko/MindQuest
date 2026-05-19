@@ -63,7 +63,11 @@ defineProps({
   }
 
   .report-header {
-    margin-bottom: var(--spacing-6);
+    margin-bottom: var(--spacing-4);
+  }
+
+  .report-body {
+    gap: var(--spacing-4);
   }
 }
 </style>

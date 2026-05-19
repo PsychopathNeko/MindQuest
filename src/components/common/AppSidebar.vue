@@ -623,6 +623,7 @@ function goHome() {
     transition: transform 0.3s ease;
     box-shadow: none;
     background-color: var(--color-surface);
+    width: min(var(--sidebar-width), 85vw);
   }
 
   .app-sidebar.open {
@@ -637,6 +638,22 @@ function goHome() {
     top: var(--header-height);
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 89;
+  }
+
+  .sidebar-footer {
+    padding: var(--spacing-3);
+  }
+
+  .sidebar-slogan {
+    font-size: var(--font-size-2xs);
+  }
+
+  .author-link {
+    font-size: 10px;
+  }
+
+  .author-link span {
+    min-width: 0;
   }
 }
 </style>

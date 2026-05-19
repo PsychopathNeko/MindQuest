@@ -58,6 +58,7 @@ function submitResults() {
   if (typeof umami !== 'undefined') {
     umami.track('scale_completed', { scaleId: scaleId.value, scaleName: scale.value.meta.name })
   }
+  fetch('https://api.counterapi.dev/v1/mindquest-psychopathneko/scale_completed/up').catch(() => {})
   router.push({ name: 'report', params: { id: scaleId.value }, query: { key } })
 }
 
@@ -184,7 +185,20 @@ onBeforeUnmount(() => {
 .error-text { color: var(--color-danger); }
 @media (max-width: 640px) {
   .assessment-view { padding: var(--spacing-2) 0 var(--spacing-6); }
-  .question-area { min-height: 300px; }
+  .question-area { min-height: 260px; }
   .nav-buttons .btn { min-width: 80px; }
+  .top-bar { gap: var(--spacing-2); }
+  .scale-title { font-size: var(--font-size-xs); }
+  .btn-sm { padding: var(--spacing-1) var(--spacing-2); font-size: 11px; white-space: nowrap; }
+  .instruction-banner { font-size: var(--font-size-xs); padding: var(--spacing-2) var(--spacing-3); }
+  .dots-container { gap: var(--spacing-1); }
+  .dot { width: 10px; height: 10px; }
+}
+
+@media (max-width: 374px) {
+  .top-bar { gap: var(--spacing-1); }
+  .scale-title { font-size: 11px; }
+  .top-bar-progress { display: none; }
+  .nav-buttons .btn { min-width: 70px; font-size: var(--font-size-xs); }
 }
 </style>

@@ -42,4 +42,11 @@ const option = computed(() =>
   width: 100%;
   max-width: 400px;
 }
+
+@media (max-width: 640px) {
+  .gauge-chart {
+    height: 220px;
+    max-width: 100%;
+  }
+}
 </style>

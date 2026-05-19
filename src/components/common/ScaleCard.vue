@@ -92,4 +92,11 @@ function handleStart(e) {
 .btn-card-queue:hover { color: var(--color-primary); border-color: var(--color-primary-light); }
 .btn-card-added { color: var(--color-success); border-color: var(--color-success); cursor: default; opacity: 0.7; }
 .btn-card-added:hover { color: var(--color-success); border-color: var(--color-success); }
+
+@media (max-width: 640px) {
+  .scale-card { padding: var(--spacing-4); gap: var(--spacing-2); }
+  .btn-card { padding: 8px 14px; font-size: var(--font-size-xs); min-height: 44px; }
+  .card-actions { gap: var(--spacing-3); }
+  .card-title { font-size: var(--font-size-sm); }
+}
 </style>

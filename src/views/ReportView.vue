@@ -143,5 +143,11 @@ function handlePrint() { window.print() }
 .error-icon { width: 48px; height: 48px; border-radius: var(--border-radius-full); background-color: #fef2f2; color: var(--color-danger); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-xl); font-weight: 700; }
 .error-text { color: var(--color-danger); font-size: var(--font-size-base); }
 @media print { .no-print { display: none !important; } .chart-section { box-shadow: none; border: 1px solid #ddd; break-inside: avoid; } }
-@media (max-width: 640px) { .action-buttons { flex-direction: column; align-items: stretch; } .action-buttons .btn { min-width: auto; } }
+@media (max-width: 640px) {
+  .action-buttons { flex-direction: column; align-items: stretch; }
+  .action-buttons .btn { min-width: auto; }
+  .report-main-title { font-size: var(--font-size-2xl); }
+  .chart-section { padding: var(--spacing-2); overflow-x: auto; }
+  .section-title { font-size: var(--font-size-lg); }
+}
 </style>

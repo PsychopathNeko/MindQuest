@@ -118,6 +118,20 @@ const option = computed(() =>
   margin: 0;
 }
 
+@media (max-width: 640px) {
+  .timeline-section {
+    padding: var(--spacing-3);
+  }
+
+  .timeline-chart {
+    height: 220px;
+  }
+
+  .timeline-empty {
+    padding: var(--spacing-4) 0;
+  }
+}
+
 @media print {
   .timeline-section {
     box-shadow: none;

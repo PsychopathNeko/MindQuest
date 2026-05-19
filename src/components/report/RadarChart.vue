@@ -37,4 +37,11 @@ const option = computed(() => createRadarOption(props.subscales, props.subscaleR
   width: 100%;
   max-width: 480px;
 }
+
+@media (max-width: 640px) {
+  .radar-chart {
+    height: 260px;
+    max-width: 100%;
+  }
+}
 </style>
