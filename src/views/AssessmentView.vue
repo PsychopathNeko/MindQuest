@@ -55,6 +55,9 @@ function submitResults() {
   const timestamp = Date.now()
   const result = { scaleId: scaleId.value, scaleName: scale.value.meta.name, timestamp, answers: answerData, scores, report }
   const key = saveAssessment(result)
+  if (typeof umami !== 'undefined') {
+    umami.track('scale_completed', { scaleId: scaleId.value, scaleName: scale.value.meta.name })
+  }
   router.push({ name: 'report', params: { id: scaleId.value }, query: { key } })
 }
 
