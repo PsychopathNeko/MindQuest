@@ -83,7 +83,7 @@ watch(locale, async () => {
 
 function handleRetake() { router.push({ name: 'assessment', params: { id: scaleId.value } }) }
 function handleHome() { router.push({ name: 'home' }) }
-function handlePrint() { window.print() }
+function handlePrint() { if (typeof window !== 'undefined') window.print() }
 </script>
 <template>
   <div class="container">

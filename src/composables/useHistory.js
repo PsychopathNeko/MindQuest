@@ -2,6 +2,7 @@ import { ref } from 'vue'
 import { getAssessments, deleteAssessment } from '@/utils/storage'
 import { useLocale } from './useLocale'
 
+const isClient = typeof window !== 'undefined'
 const STORAGE_PREFIX = 'assessment_'
 
 export function useHistory() {
@@ -27,6 +28,7 @@ export function useHistory() {
   }
 
   function clearAll() {
+    if (!isClient) return
     const keysToRemove = []
     for (let i = 0; i < localStorage.length; i++) {
       const key = localStorage.key(i)

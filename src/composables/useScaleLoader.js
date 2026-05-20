@@ -1,6 +1,8 @@
 import { ref } from 'vue'
 import { useLocale } from './useLocale'
 
+const isClient = typeof window !== 'undefined'
+// Module-level caches: shared across all SSG route renders to avoid re-reading the same files 159 times
 let rawIndexCache = null
 const scaleCache = new Map()
 
@@ -11,6 +13,19 @@ function resolveLocalized(val, lang) {
     return val[lang] || val.zh || ''
   }
   return val || ''
+}
+
+async function fetchJson(relativePath) {
+  if (isClient) {
+    const response = await fetch(`${BASE}${relativePath}`)
+    if (!response.ok) throw new Error(`HTTP ${response.status}`)
+    return response.json()
+  }
+  // SSG: read from local filesystem, anchored to source file location (not CWD)
+  const { readFileSync } = await import(/* @vite-ignore */ 'node:fs')
+  const { fileURLToPath } = await import(/* @vite-ignore */ 'node:url')
+  const absPath = fileURLToPath(new URL(`../../public/${relativePath}`, import.meta.url))
+  return JSON.parse(readFileSync(absPath, 'utf-8'))
 }
 
 export function useScaleLoader() {
@@ -29,13 +44,11 @@ export function useScaleLoader() {
       tagMap[t.id] = label
       return { id: t.id, label }
     })
-
     const groups = (rawData.tagGroups || []).map((g) => ({
       id: g.id,
       label: resolveLocalized(g.label, lang),
       tags: g.tags.map((tid) => ({ id: tid, label: tagMap[tid] || tid })),
     }))
-
     return {
       tags,
       tagGroups: groups,
@@ -54,12 +67,7 @@ export function useScaleLoader() {
 
     try {
       if (!rawIndexCache) {
-        const url = `${BASE}data/scales/_index.json`
-        const response = await fetch(url)
-        if (!response.ok) {
-          throw new Error(`Failed to load scale index: ${response.status}`)
-        }
-        rawIndexCache = await response.json()
+        rawIndexCache = await fetchJson('data/scales/_index.json')
       }
 
       const data = resolveIndex(rawIndexCache, locale.value)
@@ -87,12 +95,7 @@ export function useScaleLoader() {
     error.value = null
 
     try {
-      const url = `${BASE}data/scales/${id}.${locale.value}.json`
-      const response = await fetch(url)
-      if (!response.ok) {
-        throw new Error(`Failed to load scale "${id}": ${response.status}`)
-      }
-      const data = await response.json()
+      const data = await fetchJson(`data/scales/${id}.${locale.value}.json`)
       scaleCache.set(cacheKey, data)
       return data
     } catch (err) {

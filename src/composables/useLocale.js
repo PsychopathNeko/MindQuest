@@ -1,7 +1,8 @@
 import { ref } from 'vue'
 
+const isClient = typeof window !== 'undefined'
 const STORAGE_KEY = 'mindquest_locale'
-const stored = localStorage.getItem(STORAGE_KEY)
+const stored = isClient ? localStorage.getItem(STORAGE_KEY) : null
 const locale = ref(stored === 'en' ? 'en' : 'zh')
 
 const messages = {
@@ -262,8 +263,10 @@ function t(key, params) {
 function setLocale(newLocale) {
   if (newLocale !== 'zh' && newLocale !== 'en') return
   locale.value = newLocale
-  localStorage.setItem(STORAGE_KEY, newLocale)
-  document.documentElement.lang = newLocale === 'zh' ? 'zh-CN' : 'en'
+  if (isClient) {
+    localStorage.setItem(STORAGE_KEY, newLocale)
+    document.documentElement.lang = newLocale === 'zh' ? 'zh-CN' : 'en'
+  }
 }
 
 function toggleLocale() {

@@ -15,6 +15,7 @@ const selectedGroup = ref('')
 const showClearConfirm = ref(false)
 const pendingDeleteKey = ref(null)
 
+// No onServerPrefetch: history data comes from localStorage which is empty during SSG
 onMounted(() => { loadRecords(); loadScaleIndex() })
 
 function viewReport(record) {

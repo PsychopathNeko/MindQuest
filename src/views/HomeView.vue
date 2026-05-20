@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
+import { ref, computed, onMounted, onUnmounted, onServerPrefetch, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useScaleLoader } from '@/composables/useScaleLoader'
 import { useTagFilter } from '@/composables/useTagFilter'
@@ -56,7 +56,7 @@ const visibleScales = computed(() => {
 
 function goPage(page) {
   currentPage.value = Math.max(1, Math.min(page, totalPages.value))
-  window.scrollTo({ top: 0, behavior: 'smooth' })
+  if (typeof window !== 'undefined') window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
 function startScale(scaleId) {
@@ -102,8 +102,12 @@ function handleClickOutside(e) {
   }
 }
 
+onServerPrefetch(async () => {
+  await loadIndex()
+})
+
 onMounted(() => {
-  loadIndex()
+  if (!scales.value.length) loadIndex()
   document.addEventListener('click', handleClickOutside)
 })
 

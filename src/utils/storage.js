@@ -1,3 +1,4 @@
+const isClient = typeof window !== 'undefined'
 const STORAGE_PREFIX = 'assessment_'
 
 /**
@@ -8,6 +9,7 @@ const STORAGE_PREFIX = 'assessment_'
  */
 export function saveAssessment(result) {
   const key = `${STORAGE_PREFIX}${result.scaleId}_${result.timestamp}`
+  if (!isClient) return key
   try {
     localStorage.setItem(key, JSON.stringify(result))
   } catch (err) {
@@ -22,6 +24,7 @@ export function saveAssessment(result) {
  * @returns {Array<{ key: string, data: Object }>}
  */
 export function getAssessments() {
+  if (!isClient) return []
   const results = []
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i)
@@ -45,6 +48,7 @@ export function getAssessments() {
  * @returns {Object|null}
  */
 export function getAssessment(key) {
+  if (!isClient) return null
   try {
     const raw = localStorage.getItem(key)
     return raw ? JSON.parse(raw) : null
@@ -59,7 +63,7 @@ export function getAssessment(key) {
  * @param {string} key
  */
 export function deleteAssessment(key) {
-  localStorage.removeItem(key)
+  if (isClient) localStorage.removeItem(key)
 }
 
 

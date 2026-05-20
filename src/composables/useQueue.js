@@ -1,8 +1,10 @@
 import { ref } from 'vue'
 
+const isClient = typeof window !== 'undefined'
 const STORAGE_KEY = 'mindquest_queue'
 
 function loadQueue() {
+  if (!isClient) return []
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
     return raw ? JSON.parse(raw) : []
@@ -12,7 +14,7 @@ function loadQueue() {
 }
 
 function saveQueue(items) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(items))
+  if (isClient) localStorage.setItem(STORAGE_KEY, JSON.stringify(items))
 }
 
 const queue = ref(loadQueue())

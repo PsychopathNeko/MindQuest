@@ -1,9 +1,10 @@
 <script setup>
-import { ref, computed, watch, onMounted } from 'vue'
+import { ref, computed, watch, onMounted, onServerPrefetch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useScaleLoader } from '@/composables/useScaleLoader'
 import { useLocale } from '@/composables/useLocale'
 import { useQueue } from '@/composables/useQueue'
+import { useHead } from '@unhead/vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -14,9 +15,34 @@ const { addToQueue, isInQueue } = useQueue()
 const scale = ref(null)
 const scaleId = computed(() => route.params.id)
 
-onMounted(async () => {
+useHead({
+  title: computed(() =>
+    scale.value
+      ? `${scale.value.meta.name} - MindQuest`
+      : 'MindQuest'
+  ),
+  meta: [
+    {
+      name: 'description',
+      content: computed(() =>
+        scale.value
+          ? scale.value.meta.description
+          : ''
+      ),
+    },
+  ],
+})
+
+onServerPrefetch(async () => {
   const data = await loadScale(scaleId.value)
   scale.value = data
+})
+
+onMounted(async () => {
+  if (!scale.value) {
+    const data = await loadScale(scaleId.value)
+    scale.value = data
+  }
 })
 
 watch(scaleId, async (newId) => {
