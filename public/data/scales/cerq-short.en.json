@@ -125,7 +125,7 @@
   ],
   "scoring": {
     "method": "subscale",
-    "maxTotal": 90,
+    "maxTotal": null,
     "maxItemScore": 5,
     "subscales": [
       {

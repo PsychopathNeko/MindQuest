@@ -23,7 +23,7 @@
     { "index": 3, "text": "当我处于压力下时，我会非常担忧。", "type": "likert" },
     { "index": 4, "text": "我总是在担忧某些事情。", "type": "likert" },
     { "index": 5, "text": "一旦我开始担忧，就无法停下来。", "type": "likert" },
-    { "index": 6, "text": "我一直在担忧。", "type": "likert" },
+    { "index": 6, "text": "我总是在担忧某些事情。", "type": "likert" },
     { "index": 7, "text": "我觉得打消担忧的念头很容易。", "type": "likert" },
     { "index": 8, "text": "一完成一个任务，我就开始担心下一件需要做的事。", "type": "likert" },
     { "index": 9, "text": "我从不担心任何事情。", "type": "likert" },

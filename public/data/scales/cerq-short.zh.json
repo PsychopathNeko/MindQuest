@@ -38,7 +38,7 @@
   ],
   "scoring": {
     "method": "subscale",
-    "maxTotal": 90,
+    "maxTotal": null,
     "maxItemScore": 5,
     "subscales": [
       { "id": "self_blame", "name": "自我责备", "items": [0, 9], "maxScore": 10 },
