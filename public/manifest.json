@@ -2,7 +2,7 @@
   "name": "MindQuest 心灵探索",
   "short_name": "MindQuest",
   "description": "Free bilingual psychology self-assessment platform",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#f8f5fc",
   "theme_color": "#7da2f7",

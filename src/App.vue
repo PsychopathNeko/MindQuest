@@ -1,14 +1,17 @@
 <script setup>
-import { ref, watch } from 'vue'
+import { ref, watch, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useHead } from '@unhead/vue'
 import AppHeader from '@/components/common/AppHeader.vue'
 import AppFooter from '@/components/common/AppFooter.vue'
 import AppSidebar from '@/components/common/AppSidebar.vue'
 
-useHead({ htmlAttrs: { lang: 'zh-CN' } })
-
 const route = useRoute()
+
+useHead({
+  htmlAttrs: { lang: 'zh-CN' },
+  link: [{ rel: 'canonical', href: computed(() => `https://psychopathneko.github.io/MindQuest${route.path}`) }],
+})
 const sidebarOpen = ref(false)
 
 watch(() => route.path, () => {
