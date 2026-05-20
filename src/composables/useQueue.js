@@ -39,14 +39,18 @@ function isInQueue(scaleId) {
 
 function updateQueueNames(scales) {
   let changed = false
-  for (const item of queue.value) {
+  const updated = queue.value.map(item => {
     const found = scales.find(s => s.id === item.id)
     if (found && found.name !== item.name) {
-      item.name = found.name
       changed = true
+      return { ...item, name: found.name }
     }
+    return item
+  })
+  if (changed) {
+    queue.value = updated
+    saveQueue(queue.value)
   }
-  if (changed) saveQueue(queue.value)
 }
 
 export function useQueue() {

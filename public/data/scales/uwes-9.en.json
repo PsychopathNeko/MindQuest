@@ -10,24 +10,81 @@
     "instruction": "The following statements are about how you feel at work. Please read each statement carefully and decide if you ever feel this way about your job."
   },
   "commonChoices": [
-    { "value": 0, "label": "Never" },
-    { "value": 1, "label": "Almost never (a few times a year or less)" },
-    { "value": 2, "label": "Rarely (once a month or less)" },
-    { "value": 3, "label": "Sometimes (a few times a month)" },
-    { "value": 4, "label": "Often (once a week)" },
-    { "value": 5, "label": "Very often (a few times a week)" },
-    { "value": 6, "label": "Always (every day)" }
+    {
+      "value": 0,
+      "label": "Never"
+    },
+    {
+      "value": 1,
+      "label": "Almost never (a few times a year or less)"
+    },
+    {
+      "value": 2,
+      "label": "Rarely (once a month or less)"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes (a few times a month)"
+    },
+    {
+      "value": 4,
+      "label": "Often (once a week)"
+    },
+    {
+      "value": 5,
+      "label": "Very often (a few times a week)"
+    },
+    {
+      "value": 6,
+      "label": "Always (every day)"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "At my work, I feel bursting with energy.", "type": "likert" },
-    { "index": 1, "text": "I find the work that I do full of meaning and purpose.", "type": "likert" },
-    { "index": 2, "text": "Time flies when I am working.", "type": "likert" },
-    { "index": 3, "text": "At my job, I feel strong and vigorous.", "type": "likert" },
-    { "index": 4, "text": "I am enthusiastic about my job.", "type": "likert" },
-    { "index": 5, "text": "When I am working, I forget everything else around me.", "type": "likert" },
-    { "index": 6, "text": "My job inspires me.", "type": "likert" },
-    { "index": 7, "text": "When I get up in the morning, I feel like going to work.", "type": "likert" },
-    { "index": 8, "text": "I feel happy when I am working intensely.", "type": "likert" }
+    {
+      "index": 0,
+      "text": "At my work, I feel bursting with energy.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I find the work that I do full of meaning and purpose.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Time flies when I am working.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "At my job, I feel strong and vigorous.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I am enthusiastic about my job.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "When I am working, I forget everything else around me.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "My job inspires me.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "When I get up in the morning, I feel like going to work.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I feel happy when I am working intensely.",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
@@ -38,19 +95,31 @@
       {
         "id": "vigor",
         "name": "Vigor",
-        "items": [0, 3, 7],
+        "items": [
+          0,
+          3,
+          7
+        ],
         "maxScore": 18
       },
       {
         "id": "dedication",
         "name": "Dedication",
-        "items": [1, 4, 6],
+        "items": [
+          1,
+          4,
+          6
+        ],
         "maxScore": 18
       },
       {
         "id": "absorption",
         "name": "Absorption",
-        "items": [2, 5, 8],
+        "items": [
+          2,
+          5,
+          8
+        ],
         "maxScore": 18
       }
     ]
@@ -94,19 +163,105 @@
         ]
       }
     ],
-    "subscaleRanges": null
+    "subscaleRanges": {
+      "vigor": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low Vigor",
+          "description": "You lack energy and vitality at work, possibly feeling exhausted and unmotivated."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "Moderate Vigor",
+          "description": "You have some energy at work, though it may fluctuate."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "High Vigor",
+          "description": "You are full of energy, vitality, and resilience at work."
+        }
+      ],
+      "dedication": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low Dedication",
+          "description": "You lack enthusiasm and identification with your work, possibly feeling it is meaningless."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "Moderate Dedication",
+          "description": "You have some enthusiasm and commitment to your work, with room for growth."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "High Dedication",
+          "description": "You are passionate and proud of your work, finding it highly meaningful."
+        }
+      ],
+      "absorption": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low Absorption",
+          "description": "You find it difficult to concentrate at work and are easily distracted."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "Moderate Absorption",
+          "description": "You can maintain some focus at work, though occasional distractions occur."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "High Absorption",
+          "description": "You are highly focused and immersed in your work, fully engaged."
+        }
+      ]
+    }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["vigor", "dedication", "absorption"],
+      "subscaleIds": [
+        "vigor",
+        "dedication",
+        "absorption"
+      ],
       "maxDisplayScore": 18
     },
     "radarConfig": {
       "indicators": [
-        { "name": "Vigor", "max": 18 },
-        { "name": "Dedication", "max": 18 },
-        { "name": "Absorption", "max": 18 }
+        {
+          "name": "Vigor",
+          "max": 18
+        },
+        {
+          "name": "Dedication",
+          "max": 18
+        },
+        {
+          "name": "Absorption",
+          "max": 18
+        }
       ]
     }
   }

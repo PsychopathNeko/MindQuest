@@ -42,6 +42,7 @@ function goHome() {
 }
 
 function estimateTime(questionCount) {
+  if (!Number.isFinite(questionCount) || questionCount <= 0) return '1 - 2'
   const minutes = Math.max(1, Math.ceil(questionCount * 0.4))
   return String(minutes) + ' - ' + String(minutes + Math.ceil(minutes * 0.5))
 }

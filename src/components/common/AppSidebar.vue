@@ -3,6 +3,8 @@ import { computed, onMounted, ref, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useQueue } from '@/composables/useQueue'
 import { useLocale } from '@/composables/useLocale'
+import { useScaleLoader } from '@/composables/useScaleLoader'
+import { useRecommendation } from '@/composables/useRecommendation'
 import { getAssessments } from '@/utils/storage'
 
 defineProps({ open: { type: Boolean, default: false } })
@@ -11,6 +13,7 @@ const router = useRouter()
 const route = useRoute()
 const { queue, removeFromQueue, clearQueue } = useQueue()
 const { t, locale } = useLocale()
+const { scales, loadIndex } = useScaleLoader()
 
 const assessments = ref([])
 
@@ -18,10 +21,17 @@ function refreshAssessments() {
   assessments.value = getAssessments()
 }
 
-onMounted(refreshAssessments)
+onMounted(() => {
+  refreshAssessments()
+  loadIndex()
+})
 
 // Refresh assessments when route changes (e.g., after completing assessment)
 watch(() => route.path, refreshAssessments)
+
+// Recommendation engine
+const { recommendations } = useRecommendation(scales, assessments)
+const topRecommendations = computed(() => recommendations.value.slice(0, 3))
 
 // Stats
 const totalCount = computed(() => assessments.value.length)
@@ -77,7 +87,7 @@ function goHome() {
 }
 </script>
 <template>
-  <div v-if="open" class="sidebar-backdrop" @click="emit('close')"></div>
+  <div v-if="open" class="sidebar-backdrop" @click="emit('close')" aria-hidden="true"></div>
 
   <aside class="app-sidebar" :class="{ open }">
     <!-- Section 1: Stats Overview -->
@@ -118,7 +128,7 @@ function goHome() {
         <div v-if="recentAssessments.length === 0" class="section-empty">
           <p>{{ t('sidebar.noRecent') }}</p>
         </div>
-        <div v-for="item in recentAssessments" :key="item.key" class="recent-item" @click="viewReport(item.key, item.data.scaleId)">
+        <div v-for="item in recentAssessments" :key="item.key" class="recent-item" tabindex="0" role="button" :aria-label="t('sidebar.viewReport') + ': ' + item.data.scaleName" @click="viewReport(item.key, item.data.scaleId)" @keydown.enter="viewReport(item.key, item.data.scaleId)" @keydown.space.prevent="viewReport(item.key, item.data.scaleId)">
           <div class="recent-info">
             <span class="recent-name">{{ item.data.scaleName }}</span>
             <span class="recent-date">{{ formatShortDate(item.data.timestamp) }}</span>
@@ -166,10 +176,10 @@ function goHome() {
               </div>
             </div>
             <div class="queue-item-actions">
-              <button class="btn-icon btn-icon-start" @click="startScale(item.id)" :title="t('queue.start')">
+              <button class="btn-icon btn-icon-start" @click="startScale(item.id)" :title="t('queue.start')" :aria-label="t('queue.start')">
                 <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
               </button>
-              <button class="btn-icon btn-icon-remove" @click="removeFromQueue(item.id)" :title="t('queue.remove')">
+              <button class="btn-icon btn-icon-remove" @click="removeFromQueue(item.id)" :title="t('queue.remove')" :aria-label="t('queue.remove')">
                 <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
               </button>
             </div>
@@ -184,6 +194,25 @@ function goHome() {
           <button class="btn-clear" @click="clearQueue">{{ t('queue.clear') }}</button>
         </div>
       </template>
+    </div>
+
+    <!-- Section 4: Recommended Scales -->
+    <div v-if="topRecommendations.length > 0" class="sidebar-section">
+      <div class="section-header">
+        <svg class="section-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+        </svg>
+        <h3 class="section-title">{{ t('sidebar.recommended') }}</h3>
+      </div>
+      <div class="recommend-list">
+        <div v-for="item in topRecommendations" :key="item.id" class="recommend-item" tabindex="0" role="button" :aria-label="item.name" @click="startScale(item.id)" @keydown.enter="startScale(item.id)" @keydown.space.prevent="startScale(item.id)">
+          <div class="recommend-info">
+            <span class="recommend-name">{{ item.name }}</span>
+            <span class="recommend-meta">{{ item.questionCount }} {{ t('detail.questionUnit') }} · {{ item.estimatedMinutes }} {{ t('detail.minutes') }}</span>
+          </div>
+          <span class="recent-arrow">→</span>
+        </div>
+      </div>
     </div>
 
     <!-- Footer: Slogan + Author -->
@@ -221,7 +250,7 @@ function goHome() {
   bottom: 0;
   width: var(--sidebar-width);
   background-color: var(--color-background);
-  border-right: 1px solid rgba(232, 160, 191, 0.2);
+  border-right: 1px solid var(--color-pink-border);
   display: flex;
   flex-direction: column;
   z-index: 90;
@@ -617,7 +646,7 @@ function goHome() {
   opacity: 1;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 640px) {
   .app-sidebar {
     transform: translateX(-100%);
     transition: transform 0.3s ease;
@@ -655,5 +684,60 @@ function goHome() {
   .author-link span {
     min-width: 0;
   }
+}
+/* Recommended */
+.recommend-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+}
+
+.recommend-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-2) var(--spacing-3);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.recommend-item:hover {
+  background-color: rgba(125, 162, 247, 0.04);
+}
+
+.recommend-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.recommend-name {
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  color: var(--color-text-primary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.recommend-meta {
+  font-size: var(--font-size-2xs);
+  color: var(--color-text-secondary);
+  opacity: 0.7;
+}
+
+/* Focus indicators */
+.btn-icon:focus-visible,
+.btn-view-all:focus-visible,
+.btn-start-first:focus-visible,
+.btn-start-next:focus-visible,
+.btn-clear:focus-visible,
+.recent-item:focus-visible,
+.recommend-item:focus-visible,
+.author-link:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 </style>

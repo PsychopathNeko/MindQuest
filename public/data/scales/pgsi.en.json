@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "id": "pgsi",
+    "name": "PGSI Problem Gambling Severity Index",
+    "fullName": "Problem Gambling Severity Index",
+    "description": "The PGSI is the core component of the Canadian Problem Gambling Index (CPGI), consisting of 9 items to assess the severity of gambling problems. Suitable for gambling risk screening in the general population.",
+    "author": "Ferris & Wynne (2001)",
+    "license": "Free for non-commercial use",
+    "reference": "Ferris J, Wynne H. The Canadian Problem Gambling Index: Final report. Ottawa: Canadian Centre on Substance Abuse; 2001.",
+    "instruction": "Thinking about the last 12 months, how often have the following situations applied to you?"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Never" },
+    { "value": 1, "label": "Sometimes" },
+    { "value": 2, "label": "Most of the time" },
+    { "value": 3, "label": "Almost always" }
+  ],
+  "questions": [
+    { "index": 0, "text": "Have you bet more than you could really afford to lose", "type": "likert" },
+    { "index": 1, "text": "Have you needed to gamble with larger amounts of money to get the same feeling of excitement", "type": "likert" },
+    { "index": 2, "text": "When you gambled, did you go back another day to try to win back the money you lost", "type": "likert" },
+    { "index": 3, "text": "Have you borrowed money or sold anything to get money to gamble", "type": "likert" },
+    { "index": 4, "text": "Have you felt that you might have a problem with gambling", "type": "likert" },
+    { "index": 5, "text": "Has gambling caused you any health problems, including stress or anxiety", "type": "likert" },
+    { "index": 6, "text": "Have people criticized your betting or told you that you had a gambling problem, regardless of whether or not you thought it was true", "type": "likert" },
+    { "index": 7, "text": "Has your gambling caused any financial problems for you or your household", "type": "likert" },
+    { "index": 8, "text": "Have you felt guilty about the way you gamble or what happens when you gamble", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 27,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0, "max": 0,
+        "level": "minimal",
+        "label": "Non-Problem Gambling",
+        "description": "You did not report any signs of problem gambling.",
+        "suggestions": [
+          "Continue maintaining healthy recreational habits",
+          "If you do gamble, set time and money limits"
+        ]
+      },
+      {
+        "min": 1, "max": 2,
+        "level": "mild",
+        "label": "Low Risk Gambling",
+        "description": "You reported minor gambling-related issues at a low risk level.",
+        "suggestions": [
+          "Maintain self-awareness about gambling behavior",
+          "Set clear limits on gambling time and money",
+          "Don't use gambling to cope with stress or emotional issues"
+        ]
+      },
+      {
+        "min": 3, "max": 7,
+        "level": "moderate",
+        "label": "Moderate Risk Gambling",
+        "description": "Your gambling behavior may be causing some negative consequences. Consider taking action.",
+        "suggestions": [
+          "Seriously examine how gambling affects your life",
+          "Set strict gambling budgets and stick to them",
+          "Consider seeking professional help or calling a gambling helpline",
+          "Learn about risk factors for problem gambling"
+        ]
+      },
+      {
+        "min": 8, "max": 27,
+        "level": "severe",
+        "label": "Problem Gambling",
+        "description": "Your gambling behavior has caused significant negative consequences, meeting criteria for problem gambling. Professional help is strongly recommended.",
+        "suggestions": [
+          "Strongly recommend seeking professional gambling treatment",
+          "Let trusted family or friends know about your situation",
+          "Consider self-exclusion programs (banning yourself from gambling venues)",
+          "Address underlying emotional or mental health issues",
+          "Join a support group (e.g., Gamblers Anonymous)"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 27 }
+  }
+}

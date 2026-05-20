@@ -10,30 +10,113 @@
     "instruction": "请根据过去一周的情况，选择最符合您感受的选项。"
   },
   "commonChoices": [
-    { "value": 0, "label": "一点也不" },
-    { "value": 1, "label": "有一点" },
-    { "value": 2, "label": "有些" },
-    { "value": 3, "label": "很多" },
-    { "value": 4, "label": "非常多" }
+    {
+      "value": 0,
+      "label": "一点也不"
+    },
+    {
+      "value": 1,
+      "label": "有一点"
+    },
+    {
+      "value": 2,
+      "label": "有些"
+    },
+    {
+      "value": 3,
+      "label": "很多"
+    },
+    {
+      "value": 4,
+      "label": "非常多"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我害怕权威人士。", "type": "likert" },
-    { "index": 1, "text": "在别人面前脸红让我感到困扰。", "type": "likert" },
-    { "index": 2, "text": "聚会和社交活动让我害怕。", "type": "likert" },
-    { "index": 3, "text": "我避免与不认识的人交谈。", "type": "likert" },
-    { "index": 4, "text": "被人批评让我非常害怕。", "type": "likert" },
-    { "index": 5, "text": "害怕丢脸让我回避做某些事或与人交谈。", "type": "likert" },
-    { "index": 6, "text": "在权威人士面前出汗让我感到痛苦。", "type": "likert" },
-    { "index": 7, "text": "我避免参加聚会。", "type": "likert" },
-    { "index": 8, "text": "我避免成为关注的焦点。", "type": "likert" },
-    { "index": 9, "text": "与陌生人交谈让我害怕。", "type": "likert" },
-    { "index": 10, "text": "我避免发表演讲。", "type": "likert" },
-    { "index": 11, "text": "我会做任何事来避免被批评。", "type": "likert" },
-    { "index": 12, "text": "在不太熟悉的人面前，心跳加速让我感到困扰。", "type": "likert" },
-    { "index": 13, "text": "我害怕在别人面前做事。", "type": "likert" },
-    { "index": 14, "text": "我最害怕的事情是丢脸或让自己显得愚蠢。", "type": "likert" },
-    { "index": 15, "text": "我避免与权威人士交谈。", "type": "likert" },
-    { "index": 16, "text": "在别人面前发抖或颤抖让我感到痛苦。", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我害怕权威人士。",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "在别人面前脸红让我感到困扰。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "聚会和社交活动让我害怕。",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我避免与不认识的人交谈。",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "被人批评让我非常害怕。",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "害怕丢脸让我回避做某些事或与人交谈。",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "在权威人士面前出汗让我感到痛苦。",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我避免参加聚会。",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我避免成为关注的焦点。",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "与陌生人交谈让我害怕。",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我避免发表演讲。",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我会做任何事来避免被批评。",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "在不太熟悉的人面前，心跳加速让我感到困扰。",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我害怕在别人面前做事。",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我最害怕的事情是丢脸或让自己显得愚蠢。",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我避免与权威人士交谈。",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "在别人面前发抖或颤抖让我感到痛苦。",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
@@ -44,19 +127,39 @@
       {
         "id": "fear",
         "name": "恐惧",
-        "items": [1, 2, 4, 5, 8, 9, 11, 12, 14],
+        "items": [
+          1,
+          2,
+          4,
+          5,
+          8,
+          9,
+          11,
+          12,
+          14
+        ],
         "maxScore": 36
       },
       {
         "id": "avoidance",
         "name": "回避",
-        "items": [3, 6, 7, 10, 15],
+        "items": [
+          3,
+          6,
+          7,
+          10,
+          15
+        ],
         "maxScore": 20
       },
       {
         "id": "physiological",
         "name": "生理症状",
-        "items": [0, 13, 16],
+        "items": [
+          0,
+          13,
+          16
+        ],
         "maxScore": 12
       }
     ]
@@ -123,19 +226,105 @@
         ]
       }
     ],
-    "subscaleRanges": null
+    "subscaleRanges": {
+      "fear": [
+        {
+          "min": 0,
+          "max": 12,
+          "level": "low",
+          "label": "低恐惧",
+          "description": "社交恐惧症状较轻，社交场合中的恐惧感不明显。"
+        },
+        {
+          "min": 13,
+          "max": 24,
+          "level": "moderate",
+          "label": "中度恐惧",
+          "description": "存在一定程度的社交恐惧，部分社交场合可能引发明显不适。"
+        },
+        {
+          "min": 25,
+          "max": 36,
+          "level": "high",
+          "label": "高度恐惧",
+          "description": "社交恐惧症状严重，社交场合中的恐惧感强烈，建议寻求专业帮助。"
+        }
+      ],
+      "avoidance": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "低回避",
+          "description": "社交回避行为较少，能较好地参与社交活动。"
+        },
+        {
+          "min": 7,
+          "max": 13,
+          "level": "moderate",
+          "label": "中度回避",
+          "description": "存在一定程度的社交回避，部分社交情境会选择逃避。"
+        },
+        {
+          "min": 14,
+          "max": 20,
+          "level": "high",
+          "label": "高度回避",
+          "description": "社交回避行为明显，严重影响社交参与，建议寻求专业帮助。"
+        }
+      ],
+      "physiological": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "low",
+          "label": "低生理反应",
+          "description": "社交场合中的生理反应较轻微。"
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "moderate",
+          "label": "中度生理反应",
+          "description": "社交场合中存在一定的生理不适反应，如心跳加速、出汗等。"
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "high",
+          "label": "强烈生理反应",
+          "description": "社交场合中生理反应强烈，建议学习放松技巧并寻求专业帮助。"
+        }
+      ]
+    }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["fear", "avoidance", "physiological"],
+      "subscaleIds": [
+        "fear",
+        "avoidance",
+        "physiological"
+      ],
       "maxDisplayScore": 36
     },
     "radarConfig": {
       "indicators": [
-        { "name": "恐惧", "max": 36 },
-        { "name": "回避", "max": 20 },
-        { "name": "生理症状", "max": 12 }
+        {
+          "name": "恐惧",
+          "max": 36
+        },
+        {
+          "name": "回避",
+          "max": 20
+        },
+        {
+          "name": "生理症状",
+          "max": 12
+        }
       ]
     }
   }

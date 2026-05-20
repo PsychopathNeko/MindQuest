@@ -85,13 +85,6 @@
       }
     },
     {
-      "id": "mentalhealth",
-      "label": {
-        "zh": "心理健康",
-        "en": "Mental Health"
-      }
-    },
-    {
       "id": "substance",
       "label": {
         "zh": "物质使用",
@@ -150,8 +143,8 @@
     {
       "id": "socialanxiety",
       "label": {
-        "zh": "社交焦虑",
-        "en": "Social Anxiety"
+        "zh": "社交",
+        "en": "Social"
       }
     },
     {
@@ -171,7 +164,7 @@
     {
       "id": "perfectionism",
       "label": {
-        "zh": "完美主义",
+        "zh": "完美",
         "en": "Perfectionism"
       }
     },
@@ -185,14 +178,14 @@
     {
       "id": "autism",
       "label": {
-        "zh": "自闭症谱系",
+        "zh": "自闭",
         "en": "Autism Spectrum"
       }
     },
     {
       "id": "impulsivity",
       "label": {
-        "zh": "冲动性",
+        "zh": "冲动",
         "en": "Impulsivity"
       }
     },
@@ -227,7 +220,7 @@
     {
       "id": "aggression",
       "label": {
-        "zh": "攻击性",
+        "zh": "攻击",
         "en": "Aggression"
       }
     },
@@ -244,6 +237,103 @@
         "zh": "希望感",
         "en": "Hope"
       }
+    },
+    {
+      "id": "somatic",
+      "label": {
+        "zh": "躯体化",
+        "en": "Somatic"
+      }
+    },
+    {
+      "id": "grief",
+      "label": {
+        "zh": "哀伤",
+        "en": "Grief"
+      }
+    }
+  ],
+  "tagGroups": [
+    {
+      "id": "mood",
+      "label": {
+        "zh": "情绪与压力",
+        "en": "Mood & Stress"
+      },
+      "tags": [
+        "depression",
+        "anxiety",
+        "stress",
+        "emotion",
+        "anger",
+        "health_anxiety",
+        "trauma",
+        "ptsd",
+        "grief"
+      ]
+    },
+    {
+      "id": "self",
+      "label": {
+        "zh": "人格与认知",
+        "en": "Personality & Cognition"
+      },
+      "tags": [
+        "personality",
+        "selfesteem",
+        "perfectionism",
+        "impulsivity",
+        "cognition",
+        "aggression",
+        "ocd",
+        "autism"
+      ]
+    },
+    {
+      "id": "social",
+      "label": {
+        "zh": "人际与社交",
+        "en": "Social & Relationships"
+      },
+      "tags": [
+        "relationship",
+        "socialanxiety",
+        "empathy",
+        "career",
+        "burnout",
+        "procrastination"
+      ]
+    },
+    {
+      "id": "body",
+      "label": {
+        "zh": "身体与习惯",
+        "en": "Body & Lifestyle"
+      },
+      "tags": [
+        "sleep",
+        "eating",
+        "bodyimage",
+        "pain",
+        "fatigue",
+        "substance",
+        "addiction",
+        "functioning",
+        "somatic"
+      ]
+    },
+    {
+      "id": "positive",
+      "label": {
+        "zh": "积极心理",
+        "en": "Positive Psychology"
+      },
+      "tags": [
+        "wellbeing",
+        "resilience",
+        "mindfulness",
+        "hope"
+      ]
     }
   ],
   "scales": [
@@ -259,7 +349,8 @@
         "en": "A 9-item questionnaire for rapid assessment of depression severity"
       },
       "tags": [
-        "depression"
+        "depression",
+        "emotion"
       ],
       "questionCount": 9,
       "estimatedMinutes": 3,
@@ -351,7 +442,8 @@
         "en": "A 2-item ultra-brief screening tool for depression"
       },
       "tags": [
-        "depression"
+        "depression",
+        "emotion"
       ],
       "questionCount": 2,
       "estimatedMinutes": 1,
@@ -388,7 +480,7 @@
         "en": "A 15-item questionnaire for assessing somatic symptom severity"
       },
       "tags": [
-        "mentalhealth"
+        "stress"
       ],
       "questionCount": 15,
       "estimatedMinutes": 5,
@@ -406,7 +498,8 @@
         "en": "A 2-item ultra-brief screening tool for anxiety"
       },
       "tags": [
-        "anxiety"
+        "anxiety",
+        "emotion"
       ],
       "questionCount": 2,
       "estimatedMinutes": 1,
@@ -442,7 +535,8 @@
         "en": "A 20-item self-rating scale for assessing depression symptoms and severity"
       },
       "tags": [
-        "depression"
+        "depression",
+        "stress"
       ],
       "questionCount": 20,
       "estimatedMinutes": 8,
@@ -568,7 +662,8 @@
         "en": "A 5-item scale assessing overall life satisfaction"
       },
       "tags": [
-        "wellbeing"
+        "wellbeing",
+        "emotion"
       ],
       "questionCount": 5,
       "estimatedMinutes": 2,
@@ -586,7 +681,8 @@
         "en": "A 10-item scale measuring non-specific psychological distress"
       },
       "tags": [
-        "mentalhealth"
+        "stress",
+        "emotion"
       ],
       "questionCount": 10,
       "estimatedMinutes": 4,
@@ -604,7 +700,8 @@
         "en": "A 6-item brief scale for rapid screening of psychological distress"
       },
       "tags": [
-        "mentalhealth"
+        "stress",
+        "emotion"
       ],
       "questionCount": 6,
       "estimatedMinutes": 3,
@@ -622,7 +719,7 @@
         "en": "A 12-item questionnaire for screening general mental health status"
       },
       "tags": [
-        "mentalhealth"
+        "stress"
       ],
       "questionCount": 12,
       "estimatedMinutes": 5,
@@ -659,7 +756,8 @@
         "en": "A 22-item scale measuring the psychological impact of traumatic events"
       },
       "tags": [
-        "trauma"
+        "trauma",
+        "ptsd"
       ],
       "questionCount": 22,
       "estimatedMinutes": 8,
@@ -695,7 +793,8 @@
         "en": "A 7-item scale measuring insomnia symptom severity"
       },
       "tags": [
-        "sleep"
+        "sleep",
+        "fatigue"
       ],
       "questionCount": 7,
       "estimatedMinutes": 3,
@@ -713,7 +812,8 @@
         "en": "An 8-item scale measuring daytime sleepiness levels"
       },
       "tags": [
-        "sleep"
+        "sleep",
+        "fatigue"
       ],
       "questionCount": 8,
       "estimatedMinutes": 3,
@@ -731,7 +831,8 @@
         "en": "A 19-item comprehensive assessment of sleep quality"
       },
       "tags": [
-        "sleep"
+        "sleep",
+        "fatigue"
       ],
       "questionCount": 9,
       "estimatedMinutes": 8,
@@ -749,7 +850,8 @@
         "en": "A 10-item screening tool for identifying hazardous drinking and alcohol use disorders"
       },
       "tags": [
-        "substance"
+        "substance",
+        "addiction"
       ],
       "questionCount": 10,
       "estimatedMinutes": 4,
@@ -767,7 +869,8 @@
         "en": "A 3-item brief screening tool for hazardous alcohol use"
       },
       "tags": [
-        "substance"
+        "substance",
+        "addiction"
       ],
       "questionCount": 3,
       "estimatedMinutes": 1,
@@ -803,7 +906,8 @@
         "en": "A 10-item self-report tool for screening drug abuse problems"
       },
       "tags": [
-        "substance"
+        "substance",
+        "addiction"
       ],
       "questionCount": 10,
       "estimatedMinutes": 4,
@@ -857,7 +961,8 @@
         "en": "A 17-item scale measuring social anxiety symptom severity"
       },
       "tags": [
-        "socialanxiety"
+        "socialanxiety",
+        "anxiety"
       ],
       "questionCount": 17,
       "estimatedMinutes": 6,
@@ -875,7 +980,8 @@
         "en": "A 24-item self-report scale comprehensively assessing social anxiety and avoidance behavior"
       },
       "tags": [
-        "socialanxiety"
+        "socialanxiety",
+        "anxiety"
       ],
       "questionCount": 24,
       "estimatedMinutes": 10,
@@ -911,7 +1017,8 @@
         "en": "An 18-item self-report scale measuring obsessive-compulsive symptom severity"
       },
       "tags": [
-        "ocd"
+        "ocd",
+        "anxiety"
       ],
       "questionCount": 18,
       "estimatedMinutes": 6,
@@ -947,7 +1054,8 @@
         "en": "A 20-item scale measuring positive and negative emotional experiences"
       },
       "tags": [
-        "emotion"
+        "emotion",
+        "stress"
       ],
       "questionCount": 20,
       "estimatedMinutes": 5,
@@ -983,7 +1091,8 @@
         "en": "An 8-item scale measuring psychosocial flourishing"
       },
       "tags": [
-        "wellbeing"
+        "wellbeing",
+        "selfesteem"
       ],
       "questionCount": 8,
       "estimatedMinutes": 3,
@@ -1202,7 +1311,8 @@
         "en": "A 15-item scale measuring mindful attention and awareness in daily life"
       },
       "tags": [
-        "mindfulness"
+        "mindfulness",
+        "wellbeing"
       ],
       "questionCount": 15,
       "estimatedMinutes": 5,
@@ -1311,7 +1421,8 @@
       },
       "tags": [
         "burnout",
-        "career"
+        "career",
+        "stress"
       ],
       "questionCount": 19,
       "estimatedMinutes": 8,
@@ -1330,7 +1441,8 @@
       },
       "tags": [
         "burnout",
-        "career"
+        "career",
+        "stress"
       ],
       "questionCount": 16,
       "estimatedMinutes": 6,
@@ -1366,7 +1478,8 @@
         "en": "A 26-item scale screening for abnormal eating attitudes and behaviors"
       },
       "tags": [
-        "eating"
+        "eating",
+        "bodyimage"
       ],
       "questionCount": 26,
       "estimatedMinutes": 10,
@@ -1402,7 +1515,8 @@
         "en": "A 10-item scale measuring positive body image and body appreciation"
       },
       "tags": [
-        "bodyimage"
+        "bodyimage",
+        "selfesteem"
       ],
       "questionCount": 10,
       "estimatedMinutes": 4,
@@ -1511,7 +1625,7 @@
         "en": "A 25-item scale assessing emotional and behavioral problems in children and adolescents"
       },
       "tags": [
-        "mentalhealth"
+        "emotion"
       ],
       "questionCount": 25,
       "estimatedMinutes": 8,
@@ -1529,7 +1643,7 @@
         "en": "A 17-item scale screening for psychosocial problems in children"
       },
       "tags": [
-        "mentalhealth"
+        "emotion"
       ],
       "questionCount": 17,
       "estimatedMinutes": 6,
@@ -1547,9 +1661,27 @@
         "en": "A 15-item questionnaire screening for bipolar disorder"
       },
       "tags": [
-        "mentalhealth"
+        "emotion"
       ],
       "questionCount": 13,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "hcl-32",
+      "name": {
+        "zh": "HCL-32 轻躁狂症状清单",
+        "en": "HCL-32 Hypomania Checklist"
+      },
+      "shortName": "HCL-32",
+      "description": {
+        "zh": "用于筛查轻躁狂症状和双相障碍谱系的32题自评清单",
+        "en": "A 32-item self-report checklist for screening hypomanic symptoms and bipolar spectrum disorders"
+      },
+      "tags": [
+        "emotion"
+      ],
+      "questionCount": 32,
       "estimatedMinutes": 5,
       "license": "Free to use"
     },
@@ -1855,7 +1987,8 @@
         "en": "A 20-item scale measuring procrastination tendencies in everyday life"
       },
       "tags": [
-        "procrastination"
+        "procrastination",
+        "functioning"
       ],
       "questionCount": 20,
       "estimatedMinutes": 8,
@@ -1873,7 +2006,8 @@
         "en": "A 12-item scale focused on measuring pure procrastination behavior"
       },
       "tags": [
-        "procrastination"
+        "procrastination",
+        "functioning"
       ],
       "questionCount": 12,
       "estimatedMinutes": 4,
@@ -1967,7 +2101,7 @@
         "en": "A 5-item brief scale for screening and assessing manic symptoms"
       },
       "tags": [
-        "mentalhealth"
+        "emotion"
       ],
       "questionCount": 5,
       "estimatedMinutes": 2,
@@ -2021,8 +2155,7 @@
         "en": "A 5-item scale measuring impact of mental health on five functional domains"
       },
       "tags": [
-        "functioning",
-        "mentalhealth"
+        "functioning"
       ],
       "questionCount": 5,
       "estimatedMinutes": 2,
@@ -2040,8 +2173,7 @@
         "en": "A 9-item scale measuring the impact of fatigue on daily functioning"
       },
       "tags": [
-        "fatigue",
-        "mentalhealth"
+        "fatigue"
       ],
       "questionCount": 9,
       "estimatedMinutes": 3,
@@ -2114,7 +2246,8 @@
       },
       "tags": [
         "impulsivity",
-        "personality"
+        "personality",
+        "emotion"
       ],
       "questionCount": 15,
       "estimatedMinutes": 5,
@@ -2188,8 +2321,7 @@
         "en": "A 10-item brief screening tool for core features of Borderline Personality Disorder"
       },
       "tags": [
-        "personality",
-        "mentalhealth"
+        "personality"
       ],
       "questionCount": 10,
       "estimatedMinutes": 4,
@@ -2208,7 +2340,8 @@
       },
       "tags": [
         "pain",
-        "cognition"
+        "cognition",
+        "stress"
       ],
       "questionCount": 13,
       "estimatedMinutes": 5,
@@ -2226,7 +2359,6 @@
         "en": "A 10-item clinical routine monitoring scale for overall psychological distress"
       },
       "tags": [
-        "mentalhealth",
         "functioning"
       ],
       "questionCount": 10,
@@ -2283,7 +2415,8 @@
       },
       "tags": [
         "aggression",
-        "anger"
+        "anger",
+        "impulsivity"
       ],
       "questionCount": 12,
       "estimatedMinutes": 5,
@@ -2393,7 +2526,7 @@
         "en": "A 10-item scale measuring self-stigma associated with seeking psychological help"
       },
       "tags": [
-        "mentalhealth"
+        "emotion"
       ],
       "questionCount": 10,
       "estimatedMinutes": 4,
@@ -2429,7 +2562,8 @@
         "en": "A 4-item brief scale measuring resilient coping tendencies"
       },
       "tags": [
-        "resilience"
+        "resilience",
+        "wellbeing"
       ],
       "questionCount": 4,
       "estimatedMinutes": 2,
@@ -2519,7 +2653,8 @@
         "en": "A 12-item scale assessing health-related disability across six domains"
       },
       "tags": [
-        "functioning"
+        "functioning",
+        "stress"
       ],
       "questionCount": 12,
       "estimatedMinutes": 4,
@@ -2555,7 +2690,8 @@
         "en": "A 10-item scale measuring the ability to cope with stress, adversity, and change"
       },
       "tags": [
-        "resilience"
+        "resilience",
+        "wellbeing"
       ],
       "questionCount": 10,
       "estimatedMinutes": 4,
@@ -2720,7 +2856,8 @@
         "en": "A 4-item screening tool assessing lifetime suicidal ideation, recent frequency, threats, and future likelihood"
       },
       "tags": [
-        "mentalhealth"
+        "emotion",
+        "depression"
       ],
       "questionCount": 4,
       "estimatedMinutes": 2,
@@ -2812,7 +2949,8 @@
         "en": "An 8-item scale measuring fear of negative evaluation in social situations"
       },
       "tags": [
-        "socialanxiety"
+        "socialanxiety",
+        "anxiety"
       ],
       "questionCount": 8,
       "estimatedMinutes": 3,
@@ -2849,7 +2987,8 @@
         "en": "A 25-item questionnaire measuring frequency of everyday cognitive failures"
       },
       "tags": [
-        "cognition"
+        "cognition",
+        "functioning"
       ],
       "questionCount": 25,
       "estimatedMinutes": 8,
@@ -2978,10 +3117,126 @@
       },
       "tags": [
         "resilience",
-        "wellbeing"
+        "wellbeing",
+        "stress"
       ],
       "questionCount": 13,
       "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "des-ii",
+      "name": {
+        "zh": "DES-II 解离体验量表",
+        "en": "DES-II Dissociative Experiences Scale"
+      },
+      "shortName": "DES-II",
+      "description": {
+        "zh": "评估日常生活中解离体验频率的28题自评量表",
+        "en": "A 28-item self-report scale assessing the frequency of dissociative experiences"
+      },
+      "tags": [
+        "trauma",
+        "emotion"
+      ],
+      "questionCount": 28,
+      "estimatedMinutes": 8,
+      "license": "Public Domain"
+    },
+    {
+      "id": "pq-16",
+      "name": {
+        "zh": "PQ-16 精神病风险筛查问卷",
+        "en": "PQ-16 Prodromal Questionnaire"
+      },
+      "shortName": "PQ-16",
+      "description": {
+        "zh": "快速筛查精神病性体验和超高风险状态的16题问卷",
+        "en": "A 16-item screening tool for psychotic-like experiences and ultra-high risk states"
+      },
+      "tags": [
+        "cognition"
+      ],
+      "questionCount": 16,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "sss-8",
+      "name": {
+        "zh": "SSS-8 躯体症状量表",
+        "en": "SSS-8 Somatic Symptom Scale"
+      },
+      "shortName": "SSS-8",
+      "description": {
+        "zh": "评估躯体症状负担的8题简短自评工具",
+        "en": "A brief 8-item self-report measure for somatic symptom burden"
+      },
+      "tags": [
+        "somatic",
+        "pain",
+        "fatigue",
+        "functioning"
+      ],
+      "questionCount": 8,
+      "estimatedMinutes": 3,
+      "license": "Free to use"
+    },
+    {
+      "id": "pgsi",
+      "name": {
+        "zh": "PGSI 问题赌博严重度指数",
+        "en": "PGSI Problem Gambling Severity Index"
+      },
+      "shortName": "PGSI",
+      "description": {
+        "zh": "评估赌博行为问题程度的9题问卷",
+        "en": "A 9-item questionnaire assessing problem gambling severity"
+      },
+      "tags": [
+        "addiction"
+      ],
+      "questionCount": 9,
+      "estimatedMinutes": 3,
+      "license": "Free for non-commercial use"
+    },
+    {
+      "id": "icg",
+      "name": {
+        "zh": "ICG 复杂哀伤问卷",
+        "en": "ICG Inventory of Complicated Grief"
+      },
+      "shortName": "ICG",
+      "description": {
+        "zh": "评估丧亲后复杂哀伤症状严重程度的19题问卷",
+        "en": "A 19-item questionnaire assessing complicated grief symptom severity"
+      },
+      "tags": [
+        "grief",
+        "trauma",
+        "emotion"
+      ],
+      "questionCount": 19,
+      "estimatedMinutes": 5,
+      "license": "Free to use"
+    },
+    {
+      "id": "hrs-sr",
+      "name": {
+        "zh": "HRS-SR 囤积评定量表",
+        "en": "HRS-SR Hoarding Rating Scale"
+      },
+      "shortName": "HRS-SR",
+      "description": {
+        "zh": "快速评估囤积行为严重程度的5题自评工具",
+        "en": "A 5-item self-report tool for quickly assessing hoarding severity"
+      },
+      "tags": [
+        "ocd",
+        "functioning"
+      ],
+      "questionCount": 5,
+      "estimatedMinutes": 2,
       "license": "Free to use"
     }
   ]

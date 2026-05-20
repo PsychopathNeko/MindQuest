@@ -64,4 +64,29 @@
   /* Sidebar */
   --sidebar-width: 280px;
   --header-height: 60px;
+
+  /* Overlay colors */
+  --color-pink-border: rgba(232, 160, 191, 0.2);
+  --color-overlay-subtle: rgba(0, 0, 0, 0.04);
+  --color-overlay-light: rgba(0, 0, 0, 0.06);
+}
+
+html[data-theme="dark"] {
+    --color-background: #1a1625;
+    --color-surface: #252033;
+    --color-surface-hover: #2d2640;
+    --color-text-primary: #f0ecf5;
+    --color-text-secondary: #a89dba;
+    --color-text-inverse: #1a1625;
+    --color-border: #3d3555;
+    --color-primary: #8fb5f5;
+    --color-primary-light: #a8c5f7;
+    --color-primary-dark: #6a9ae8;
+    --color-shadow: rgba(0, 0, 0, 0.3);
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.25);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.3);
+    --color-pink-border: rgba(232, 160, 191, 0.15);
+    --color-overlay-subtle: rgba(255, 255, 255, 0.04);
+    --color-overlay-light: rgba(255, 255, 255, 0.06);
 }

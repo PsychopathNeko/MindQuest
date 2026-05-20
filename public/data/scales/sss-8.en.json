@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "id": "sss-8",
+    "name": "SSS-8 Somatic Symptom Scale",
+    "fullName": "Somatic Symptom Scale-8",
+    "description": "The SSS-8 is a brief 8-item self-report measure for assessing somatic symptom burden, abbreviated from the PHQ-15 by Gierk et al. It covers gastrointestinal, pain, fatigue, and cardiopulmonary domains.",
+    "author": "Gierk et al. (2014)",
+    "license": "Free to use",
+    "reference": "Gierk B, Kohlmann S, Kroenke K, et al. The Somatic Symptom Scale-8 (SSS-8): A brief measure of somatic symptom burden. JAMA Intern Med. 2014;174(3):399-407.",
+    "instruction": "During the past 7 days, how much have you been bothered by each of the following symptoms?"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Not at all" },
+    { "value": 1, "label": "A little bit" },
+    { "value": 2, "label": "Somewhat" },
+    { "value": 3, "label": "Quite a bit" },
+    { "value": 4, "label": "Very much" }
+  ],
+  "questions": [
+    { "index": 0, "text": "Stomach or bowel problems", "type": "likert" },
+    { "index": 1, "text": "Back pain", "type": "likert" },
+    { "index": 2, "text": "Pain in your arms, legs, or joints (knees, hips, etc.)", "type": "likert" },
+    { "index": 3, "text": "Headaches", "type": "likert" },
+    { "index": 4, "text": "Chest pain or shortness of breath", "type": "likert" },
+    { "index": 5, "text": "Dizziness", "type": "likert" },
+    { "index": 6, "text": "Feeling tired or having low energy", "type": "likert" },
+    { "index": 7, "text": "Trouble falling asleep or staying asleep", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 32,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "gastrointestinal",
+        "name": "Gastrointestinal",
+        "items": [0],
+        "maxScore": 4
+      },
+      {
+        "id": "pain",
+        "name": "Pain",
+        "items": [1, 2, 3],
+        "maxScore": 12
+      },
+      {
+        "id": "cardiopulmonary",
+        "name": "Cardiopulmonary",
+        "items": [4, 5],
+        "maxScore": 8
+      },
+      {
+        "id": "fatigue",
+        "name": "Fatigue",
+        "items": [6, 7],
+        "maxScore": 8
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0, "max": 3,
+        "level": "minimal",
+        "label": "No/Minimal Somatic Symptoms",
+        "description": "Your somatic symptom burden is very low, within the normal range.",
+        "suggestions": [
+          "Continue maintaining a healthy lifestyle",
+          "Occasional discomfort is a normal fluctuation"
+        ]
+      },
+      {
+        "min": 4, "max": 7,
+        "level": "mild",
+        "label": "Mild Somatic Symptoms",
+        "description": "You have some mild somatic symptoms, possibly related to daily stress or lifestyle factors.",
+        "suggestions": [
+          "Monitor symptom changes and maintain healthy routines",
+          "Regular exercise and relaxation may help",
+          "If symptoms persist beyond two weeks, consider seeing a doctor"
+        ]
+      },
+      {
+        "min": 8, "max": 11,
+        "level": "moderate",
+        "label": "Moderate Somatic Symptoms",
+        "description": "Your somatic symptom burden is moderate and may affect daily functioning. Consider seeking medical attention.",
+        "suggestions": [
+          "Consider seeing a doctor for a physical examination",
+          "Understand the mind-body connection — psychological stress can manifest as physical symptoms",
+          "Regular exercise and adequate sleep may help",
+          "Consider psychological counseling if needed"
+        ]
+      },
+      {
+        "min": 12, "max": 15,
+        "level": "severe",
+        "label": "High Somatic Symptoms",
+        "description": "Your somatic symptom burden is high and may significantly affect daily life and work.",
+        "suggestions": [
+          "Recommend seeing a doctor for a comprehensive examination",
+          "Also consider a mental health evaluation",
+          "Learn about somatic symptom disorder",
+          "Integrated treatment (addressing both body and mind) is most effective"
+        ]
+      },
+      {
+        "min": 16, "max": 32,
+        "level": "severe",
+        "label": "Very High Somatic Symptoms",
+        "description": "You reported a severe somatic symptom burden. A comprehensive psychosomatic evaluation is strongly recommended.",
+        "suggestions": [
+          "Please see a doctor soon for a thorough physical examination",
+          "A psychiatric/psychological consultation is also recommended",
+          "Severe somatic symptoms may require a comprehensive treatment plan",
+          "Do not overlook the impact of these symptoms on quality of life"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "gastrointestinal": [
+        { "min": 0, "max": 1, "level": "minimal", "label": "Low", "description": "Minimal gastrointestinal symptoms." },
+        { "min": 2, "max": 3, "level": "mild", "label": "Moderate", "description": "Some gastrointestinal discomfort." },
+        { "min": 4, "max": 4, "level": "moderate", "label": "High", "description": "Notable gastrointestinal symptoms." }
+      ],
+      "pain": [
+        { "min": 0, "max": 3, "level": "minimal", "label": "Low", "description": "Minimal pain symptoms." },
+        { "min": 4, "max": 7, "level": "mild", "label": "Moderate", "description": "Some pain symptoms." },
+        { "min": 8, "max": 12, "level": "moderate", "label": "High", "description": "Notable pain symptoms. Attention recommended." }
+      ],
+      "cardiopulmonary": [
+        { "min": 0, "max": 2, "level": "minimal", "label": "Low", "description": "Minimal cardiopulmonary symptoms." },
+        { "min": 3, "max": 5, "level": "mild", "label": "Moderate", "description": "Some cardiopulmonary discomfort." },
+        { "min": 6, "max": 8, "level": "moderate", "label": "High", "description": "Notable cardiopulmonary symptoms. Medical evaluation recommended." }
+      ],
+      "fatigue": [
+        { "min": 0, "max": 2, "level": "minimal", "label": "Low", "description": "Minimal fatigue." },
+        { "min": 3, "max": 5, "level": "mild", "label": "Moderate", "description": "Some fatigue present." },
+        { "min": 6, "max": 8, "level": "moderate", "label": "High", "description": "Notable fatigue. Attention to sleep and rest recommended." }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["gauge", "bar"],
+    "gaugeConfig": { "min": 0, "max": 32 }
+  }
+}

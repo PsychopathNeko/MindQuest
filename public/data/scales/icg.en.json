@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "id": "icg",
+    "name": "ICG Inventory of Complicated Grief",
+    "fullName": "Inventory of Complicated Grief",
+    "description": "The ICG is a 19-item self-report measure developed by Prigerson et al. to assess the severity of complicated (prolonged) grief symptoms after bereavement.",
+    "author": "Prigerson et al. (1995)",
+    "license": "Free to use",
+    "reference": "Prigerson HG, Maciejewski PK, Reynolds CF, et al. Inventory of Complicated Grief: A scale to measure maladaptive symptoms of loss. Psychiatry Res. 1995;59(1-2):65-79.",
+    "instruction": "Please indicate how often you currently experience each of the following feelings."
+  },
+  "commonChoices": [
+    { "value": 0, "label": "Never" },
+    { "value": 1, "label": "Rarely" },
+    { "value": 2, "label": "Sometimes" },
+    { "value": 3, "label": "Often" },
+    { "value": 4, "label": "Always" }
+  ],
+  "questions": [
+    { "index": 0, "text": "I think about this person so much that it's hard for me to do the things I normally do", "type": "likert" },
+    { "index": 1, "text": "Memories of the person who died upset me", "type": "likert" },
+    { "index": 2, "text": "I feel I cannot accept the death of the person who died", "type": "likert" },
+    { "index": 3, "text": "I feel myself longing for the person who died", "type": "likert" },
+    { "index": 4, "text": "I feel drawn to places and things associated with the person who died", "type": "likert" },
+    { "index": 5, "text": "I can't help feeling angry about the death", "type": "likert" },
+    { "index": 6, "text": "I feel disbelief over what happened", "type": "likert" },
+    { "index": 7, "text": "I feel stunned or dazed over what happened", "type": "likert" },
+    { "index": 8, "text": "Ever since the death, it is hard for me to trust people", "type": "likert" },
+    { "index": 9, "text": "Ever since the death, I feel like I have lost the ability to care about other people", "type": "likert" },
+    { "index": 10, "text": "I have pain in the same area of my body or have some of the same symptoms as the person who died", "type": "likert" },
+    { "index": 11, "text": "I go out of my way to avoid reminders that the person is gone", "type": "likert" },
+    { "index": 12, "text": "I feel that life is empty without the person who died", "type": "likert" },
+    { "index": 13, "text": "I hear the voice of the person who died speak to me", "type": "likert" },
+    { "index": 14, "text": "I see the person who died stand before me", "type": "likert" },
+    { "index": 15, "text": "I feel that it is unfair that I should live when this person died", "type": "likert" },
+    { "index": 16, "text": "I feel bitter over this person's death", "type": "likert" },
+    { "index": 17, "text": "I feel envious of others who have not lost someone close", "type": "likert" },
+    { "index": 18, "text": "I feel that the future holds no meaning or purpose without the person who died", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 76,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0, "max": 19,
+        "level": "minimal",
+        "label": "Normal Grief Response",
+        "description": "Your grief level is within the normal range. Sadness after losing a loved one is a natural emotional response.",
+        "suggestions": [
+          "Allow yourself to fully feel and express your grief",
+          "Maintain connections with friends and family for support",
+          "Take care of your basic daily needs"
+        ]
+      },
+      {
+        "min": 20, "max": 29,
+        "level": "mild",
+        "label": "Grief Needing Attention",
+        "description": "Your grief symptoms deserve attention. The grieving process varies for everyone, but if it continues to trouble you, consider seeking help.",
+        "suggestions": [
+          "Consider sharing your feelings with loved ones or a support group",
+          "Maintain the basic rhythm of daily life",
+          "Allow yourself to grieve in your own way and at your own pace",
+          "If distress persists beyond 6 months, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 30, "max": 49,
+        "level": "moderate",
+        "label": "Possible Complicated Grief",
+        "description": "Your score exceeds the screening threshold (>=30), suggesting possible complicated/prolonged grief disorder. Professional evaluation is recommended.",
+        "suggestions": [
+          "Consider consulting a professional counselor or psychiatrist",
+          "Learn about complicated grief/prolonged grief disorder",
+          "Grief-focused therapy (e.g., Complicated Grief Treatment) may help",
+          "Don't bear this alone — seek professional and social support"
+        ]
+      },
+      {
+        "min": 50, "max": 76,
+        "level": "severe",
+        "label": "Severe Complicated Grief",
+        "description": "You reported severe complicated grief symptoms that may significantly affect daily functioning and quality of life. Professional help is strongly recommended.",
+        "suggestions": [
+          "Strongly recommend consulting a psychiatrist or clinical psychologist",
+          "Professional grief-focused therapy has been shown to be effective",
+          "Ensure you have a support system around you",
+          "If you have thoughts of self-harm, please seek help immediately",
+          "Combined medication and psychotherapy may be most effective"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 76 }
+  }
+}

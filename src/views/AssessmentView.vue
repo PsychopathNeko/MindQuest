@@ -54,9 +54,15 @@ function submitResults() {
   const { answers: answerData, scores, report } = getResults()
   const timestamp = Date.now()
   const result = { scaleId: scaleId.value, scaleName: scale.value.meta.name, timestamp, answers: answerData, scores, report }
-  const key = saveAssessment(result)
-  if (typeof umami !== 'undefined') {
-    umami.track('scale_completed', { scaleId: scaleId.value, scaleName: scale.value.meta.name })
+  let key
+  try {
+    key = saveAssessment(result)
+  } catch (err) {
+    console.error('Failed to save assessment:', err)
+    key = `mindquest_${result.scaleId}_${result.timestamp}`
+  }
+  if (typeof umami !== 'undefined' && umami?.track) {
+    try { umami.track('scale_completed', { scaleId: scaleId.value, scaleName: scale.value.meta.name }) } catch (_) {}
   }
   fetch('https://api.counterapi.dev/v1/mindquest-psychopathneko/scale_completed/up').catch(() => {})
   router.push({ name: 'report', params: { id: scaleId.value }, query: { key } })
@@ -77,8 +83,12 @@ onBeforeRouteLeave((_to, _from, next) => {
 })
 
 onMounted(async () => {
-  const data = await loadScale(scaleId.value)
-  scale.value = data
+  try {
+    const data = await loadScale(scaleId.value)
+    scale.value = data
+  } catch (e) {
+    // loading/error states from useScaleLoader handle display
+  }
   document.addEventListener('keydown', handleKeydown)
 })
 
@@ -137,7 +147,7 @@ onBeforeUnmount(() => {
 
           <div class="dots-section">
             <div class="dots-container">
-              <button v-for="(q, i) in scale.questions" :key="i" class="dot" :class="{ answered: answers[i] !== undefined, current: i === currentIndex }" @click="handleDotClick(i)" type="button"></button>
+              <button v-for="(q, i) in scale.questions" :key="i" class="dot" :class="{ answered: answers[i] !== undefined, current: i === currentIndex }" @click="handleDotClick(i)" type="button" :aria-label="'Question ' + (i + 1)"></button>
             </div>
           </div>
         </div>
@@ -170,10 +180,10 @@ onBeforeUnmount(() => {
 .nav-buttons { display: flex; justify-content: space-between; gap: var(--spacing-4); }
 .nav-buttons .btn { min-width: 100px; }
 .btn-submit { background: linear-gradient(135deg, var(--color-primary), var(--color-secondary)); border: none; font-weight: 600; animation: pulse-glow 2s ease-in-out infinite; }
-@keyframes pulse-glow { 0%, 100% { box-shadow: 0 0 0 0 rgba(125, 162, 247, 0.4); } 50% { box-shadow: 0 0 0 8px rgba(125, 162, 247, 0); } }
+@keyframes pulse-glow { 0%, 100% { filter: drop-shadow(0 0 0px rgba(125, 162, 247, 0.4)); } 50% { filter: drop-shadow(0 0 8px rgba(125, 162, 247, 0)); } }
 .dots-section { margin-top: var(--spacing-6); padding-top: var(--spacing-4); }
 .dots-container { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--spacing-2); }
-.dot { width: 12px; height: 12px; border-radius: var(--border-radius-full); border: 2px solid var(--color-border); background-color: transparent; cursor: pointer; transition: all 0.2s ease; padding: 0; }
+.dot { width: 12px; height: 12px; border-radius: var(--border-radius-full); border: 2px solid var(--color-border); background-color: transparent; cursor: pointer; transition: all 0.2s ease; padding: 0; position: relative; }
 .dot:hover { border-color: var(--color-primary-light); }
 .dot.answered { background-color: var(--color-primary); border-color: var(--color-primary); }
 .dot.current { border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(125, 162, 247, 0.3); }
@@ -193,6 +203,15 @@ onBeforeUnmount(() => {
   .instruction-banner { font-size: var(--font-size-xs); padding: var(--spacing-2) var(--spacing-3); }
   .dots-container { gap: var(--spacing-1); }
   .dot { width: 10px; height: 10px; }
+  .dot::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28px;
+    height: 28px;
+  }
 }
 
 @media (max-width: 374px) {
@@ -200,5 +219,22 @@ onBeforeUnmount(() => {
   .scale-title { font-size: 11px; }
   .top-bar-progress { display: none; }
   .nav-buttons .btn { min-width: 70px; font-size: var(--font-size-xs); }
+}
+
+/* Focus indicators */
+.btn:focus-visible,
+.dot:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide-left-enter-active, .slide-left-leave-active,
+  .slide-right-enter-active, .slide-right-leave-active,
+  .collapse-enter-active, .collapse-leave-active,
+  .btn-submit {
+    transition: none !important;
+    animation: none !important;
+  }
 }
 </style>

@@ -33,7 +33,10 @@ const scaleReport = computed(() => scale.value?.report ?? null)
 const hasSubscales = computed(() => !!scores.value?.subscales && scores.value.subscales.length > 0)
 const charts = computed(() => scaleReport.value?.charts ?? [])
 const totalColor = computed(() => { if (!report.value) return '#6b7280'; return getSeverityColor(report.value.level) })
-const maxTotal = computed(() => { if (!scale.value) return 0; return scale.value.scoring.maxTotal ?? 0 })
+const maxTotal = computed(() => {
+  if (!scale.value?.scoring?.maxTotal) return 0
+  return scale.value.scoring.maxTotal
+})
 const gaugeMin = computed(() => { if (!scaleReport.value?.gaugeConfig) return 0; return scaleReport.value.gaugeConfig.min ?? 0 })
 const gaugeMax = computed(() => { if (!scaleReport.value?.gaugeConfig) return maxTotal.value; return scaleReport.value.gaugeConfig.max ?? maxTotal.value })
 const scaleHistory = computed(() => {
@@ -54,9 +57,14 @@ onMounted(async () => {
   const data = getAssessment(assessmentKey.value)
   if (!data) { loadError.value = t('report.notFound'); return }
   assessment.value = data
-  const scaleData = await loadScale(scaleId.value)
-  if (!scaleData) { loadError.value = scaleError.value || t('detail.loadError'); return }
-  scale.value = scaleData
+  try {
+    const scaleData = await loadScale(scaleId.value)
+    if (!scaleData) { loadError.value = scaleError.value || t('detail.loadError'); return }
+    scale.value = scaleData
+  } catch (e) {
+    loadError.value = scaleError.value || t('detail.loadError')
+    return
+  }
 })
 
 watch(scaleId, async (newId) => {
@@ -142,12 +150,23 @@ function handlePrint() { window.print() }
 .error-state { text-align: center; }
 .error-icon { width: 48px; height: 48px; border-radius: var(--border-radius-full); background-color: #fef2f2; color: var(--color-danger); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-xl); font-weight: 700; }
 .error-text { color: var(--color-danger); font-size: var(--font-size-base); }
-@media print { .no-print { display: none !important; } .chart-section { box-shadow: none; border: 1px solid #ddd; break-inside: avoid; } }
+@media print {
+  .no-print { display: none !important; }
+  .chart-section { box-shadow: none; border: 1px solid #ddd; break-inside: avoid; }
+  .report-main-title { font-size: 24pt; }
+  .section-title { font-size: 16pt; }
+  .state-block { display: none; }
+  .subscale-cards { break-inside: avoid; }
+}
 @media (max-width: 640px) {
   .action-buttons { flex-direction: column; align-items: stretch; }
   .action-buttons .btn { min-width: auto; }
   .report-main-title { font-size: var(--font-size-2xl); }
   .chart-section { padding: var(--spacing-2); overflow-x: auto; }
   .section-title { font-size: var(--font-size-lg); }
+}
+.btn:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 </style>

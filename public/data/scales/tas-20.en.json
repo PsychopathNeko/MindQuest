@@ -227,7 +227,77 @@
         ]
       }
     ],
-    "subscaleRanges": null
+    "subscaleRanges": {
+      "difficulty_identifying": [
+        {
+          "min": 7,
+          "max": 16,
+          "level": "low",
+          "label": "Normal",
+          "description": "Your ability to identify emotions is normal. You can recognize and distinguish your feelings well."
+        },
+        {
+          "min": 17,
+          "max": 25,
+          "level": "moderate",
+          "label": "Moderate Difficulty",
+          "description": "You have some difficulty identifying emotions, sometimes struggling to distinguish different emotional experiences."
+        },
+        {
+          "min": 26,
+          "max": 35,
+          "level": "high",
+          "label": "Significant Difficulty",
+          "description": "You have significant difficulty identifying emotions. Professional training to improve emotional awareness is recommended."
+        }
+      ],
+      "difficulty_describing": [
+        {
+          "min": 5,
+          "max": 11,
+          "level": "low",
+          "label": "Normal",
+          "description": "Your ability to describe emotions is normal. You can express your feelings in words well."
+        },
+        {
+          "min": 12,
+          "max": 18,
+          "level": "moderate",
+          "label": "Moderate Difficulty",
+          "description": "You have some difficulty describing emotions, sometimes struggling to find the right words for your feelings."
+        },
+        {
+          "min": 19,
+          "max": 25,
+          "level": "high",
+          "label": "Significant Difficulty",
+          "description": "You have significant difficulty describing emotions. Practicing with an emotion journal is recommended."
+        }
+      ],
+      "externally_oriented": [
+        {
+          "min": 8,
+          "max": 18,
+          "level": "low",
+          "label": "Normal",
+          "description": "Your thinking style is introspective, with good attention to inner experiences."
+        },
+        {
+          "min": 19,
+          "max": 29,
+          "level": "moderate",
+          "label": "Moderately Externally Oriented",
+          "description": "Your thinking tends toward external matters, with less attention to inner emotional experiences."
+        },
+        {
+          "min": 30,
+          "max": 40,
+          "level": "high",
+          "label": "Highly Externally Oriented",
+          "description": "Your thinking is strongly oriented toward external matters. Mindfulness and reflective practices are recommended."
+        }
+      ]
+    }
   },
   "report": {
     "charts": [

@@ -1,7 +1,8 @@
 import { ref } from 'vue'
 
 const STORAGE_KEY = 'mindquest_locale'
-const locale = ref(localStorage.getItem(STORAGE_KEY) || 'zh')
+const stored = localStorage.getItem(STORAGE_KEY)
+const locale = ref(stored === 'en' ? 'en' : 'zh')
 
 const messages = {
   zh: {
@@ -16,9 +17,19 @@ const messages = {
     'home.loadError': '加载失败',
     'home.retry': '重试',
     'home.scaleCount': '共 {count} 个量表',
+    'home.prevPage': '上一页',
+    'home.nextPage': '下一页',
+    'home.pageInfo': '{current} / {total}',
     'home.noMatch': '没有匹配的量表',
     'home.clearFilter': '清除筛选',
     'filter.all': '全部',
+    'filter.recommended': '试试看',
+    'filter.allGroups': '全部',
+    'search.placeholder': '搜索量表...',
+    'search.start': '开始',
+    'search.addQueue': '加入队列',
+    'search.added': '已加入',
+    'search.noResult': '未找到匹配的量表',
     'card.questions': '{count} 题',
     'card.minutes': '约 {count} 分钟',
     'card.start': '开始测评',
@@ -101,6 +112,10 @@ const messages = {
     'sidebar.startNext': '开始下一个',
     'sidebar.recommended': '推荐量表',
     'lang.toggle': '切换语言',
+    'theme.system': '跟随系统',
+    'theme.light': '浅色模式',
+    'theme.dark': '深色模式',
+    'theme.toggle': '切换主题',
     'yesno.yes': '是',
     'yesno.no': '否',
     'timeline.title': '历史趋势',
@@ -121,9 +136,19 @@ const messages = {
     'home.loadError': 'Loading failed',
     'home.retry': 'Retry',
     'home.scaleCount': '{count} scales',
+    'home.prevPage': 'Previous',
+    'home.nextPage': 'Next',
+    'home.pageInfo': '{current} / {total}',
     'home.noMatch': 'No matching scales',
     'home.clearFilter': 'Clear filters',
     'filter.all': 'All',
+    'filter.recommended': 'Try these',
+    'filter.allGroups': 'All',
+    'search.placeholder': 'Search scales...',
+    'search.start': 'Start',
+    'search.addQueue': 'Add to Queue',
+    'search.added': 'Added',
+    'search.noResult': 'No matching scales found',
     'card.questions': '{count} items',
     'card.minutes': '~{count} min',
     'card.start': 'Start',
@@ -206,6 +231,10 @@ const messages = {
     'sidebar.startNext': 'Start Next',
     'sidebar.recommended': 'Recommended',
     'lang.toggle': 'Switch Language',
+    'theme.system': 'System',
+    'theme.light': 'Light',
+    'theme.dark': 'Dark',
+    'theme.toggle': 'Toggle theme',
     'yesno.yes': 'Yes',
     'yesno.no': 'No',
     'timeline.title': 'Score Trend',
@@ -217,7 +246,11 @@ const messages = {
 }
 
 function t(key, params) {
-  let str = messages[locale.value]?.[key] || messages.zh[key] || key
+  let str = messages[locale.value]?.[key] || messages.zh[key]
+  if (!str) {
+    if (import.meta.env.DEV) console.warn(`[i18n] Missing key: ${key}`)
+    str = key
+  }
   if (params) {
     for (const [k, v] of Object.entries(params)) {
       str = str.replaceAll(`{${k}}`, v)

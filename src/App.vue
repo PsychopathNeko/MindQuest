@@ -15,6 +15,7 @@ watch(() => route.path, () => {
 
 <template>
   <div class="app-layout">
+    <a href="#main-content" class="skip-link">Skip to content</a>
     <AppHeader @toggle-sidebar="sidebarOpen = !sidebarOpen" />
     <div class="app-body">
       <AppSidebar
@@ -22,7 +23,7 @@ watch(() => route.path, () => {
         :open="sidebarOpen"
         @close="sidebarOpen = false"
       />
-      <main class="app-main" :class="{ 'no-sidebar': route.name === 'assessment' }">
+      <main id="main-content" class="app-main" :class="{ 'no-sidebar': route.name === 'assessment' }">
         <router-view v-slot="{ Component }">
           <transition name="fade" mode="out-in">
             <component :is="Component" />
@@ -69,5 +70,22 @@ watch(() => route.path, () => {
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--spacing-4);
+  z-index: 200;
+  padding: var(--spacing-2) var(--spacing-4);
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+.skip-link:focus {
+  top: var(--spacing-2);
 }
 </style>

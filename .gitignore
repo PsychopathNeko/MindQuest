@@ -37,3 +37,15 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
+
+.vercel
+
+# Temp scripts
+gen*.js
+gen*.cjs
+gen*.py
+write_*.js
+write_*.cjs
+check_scales.py
+fix_mobile.js
+__pycache__

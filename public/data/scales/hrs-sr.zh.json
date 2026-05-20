@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "id": "hrs-sr",
+    "name": "HRS-SR 囤积评定量表",
+    "fullName": "Hoarding Rating Scale - Self Report",
+    "description": "HRS-SR 是一份5题自评工具，用于快速评估囤积行为的严重程度。由 Tolin 等人开发，涵盖杂物量、丢弃困难、过度获取、痛苦程度和功能损害五个核心维度。",
+    "author": "Tolin et al. (2008)",
+    "license": "Free to use",
+    "reference": "Tolin DF, Frost RO, Steketee G. A brief interview for assessing compulsive hoarding: the Hoarding Rating Scale-Interview. Psychiatry Res. 2010;178(1):147-152.",
+    "instruction": "请根据过去一周的实际情况，选择最符合您状况的选项。"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "没有"
+    },
+    {
+      "value": 1,
+      "label": "轻微"
+    },
+    {
+      "value": 2,
+      "label": "中等"
+    },
+    {
+      "value": 3,
+      "label": "较严重"
+    },
+    {
+      "value": 4,
+      "label": "严重"
+    },
+    {
+      "value": 5,
+      "label": "非常严重"
+    },
+    {
+      "value": 6,
+      "label": "极其严重"
+    },
+    {
+      "value": 7,
+      "label": "极度严重"
+    },
+    {
+      "value": 8,
+      "label": "最严重"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "由于杂物堆积，您的家中有多大程度的混乱？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "您丢弃（扔掉、回收、卖掉、送人）普通物品时有多大困难？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "您在多大程度上过度获取（购买、免费获取、偷窃）您不需要或没有空间放的物品？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "您的囤积、储存、获取和杂物在多大程度上给您带来情绪上的困扰？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您的囤积、储存、获取和杂物在多大程度上损害了您的日常生活功能（如工作、社交、家庭责任等）？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 40,
+    "maxItemScore": 8,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "无囤积问题",
+        "description": "您的囤积行为处于正常范围，没有明显的囤积问题。",
+        "suggestions": [
+          "保持定期整理物品的习惯",
+          "如有轻微的丢弃困难属于正常"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 17,
+        "level": "mild",
+        "label": "轻度囤积",
+        "description": "您存在一些轻度的囤积倾向，可能尚未显著影响日常生活。",
+        "suggestions": [
+          "培养定期清理和整理的习惯",
+          "在购买前思考是否真正需要",
+          "尝试“一进一出”原则——买入新物品时处理一件旧物品",
+          "如果困难加重，考虑咨询专业人士"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 26,
+        "level": "moderate",
+        "label": "中度囤积",
+        "description": "您的囤积行为达到临床关注水平（≥14分通常被视为筛查阳性），可能影响居住空间和日常功能。",
+        "suggestions": [
+          "建议咨询心理健康专业人士",
+          "认知行为治疗（CBT）对囤积障碇有良好效果",
+          "逐步而非一次性地清理物品",
+          "了解囤积障碇的相关信息",
+          "寻求家人或朋友的支持和理解"
+        ]
+      },
+      {
+        "min": 27,
+        "max": 40,
+        "level": "severe",
+        "label": "严重囤积",
+        "description": "您报告了严重的囤积问题，可能显著影响生活质量、安全和社交功能。强烈建议寻求专业帮助。",
+        "suggestions": [
+          "强烈建议咨询精神科医生或专门治疗囤积的心理治疗师",
+          "囤积障碇是可以治疗的",
+          "不要让羞耻感阻止您寻求帮助",
+          "药物治疗（如SSRI）结合CBT可能有帮助",
+          "确保居住环境的基本安全"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 40
+    }
+  }
+}

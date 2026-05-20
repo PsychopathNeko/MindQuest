@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "id": "pgsi",
+    "name": "PGSI 问题赌博严重度指数",
+    "fullName": "Problem Gambling Severity Index",
+    "description": "PGSI 是加拿大问题赌博指数(CPGI)的核心部分，由9题组成，用于评估赌博行为的问题程度。适用于一般人群的赌博风险筛查。",
+    "author": "Ferris & Wynne (2001)",
+    "license": "Free for non-commercial use",
+    "reference": "Ferris J, Wynne H. The Canadian Problem Gambling Index: Final report. Ottawa: Canadian Centre on Substance Abuse; 2001.",
+    "instruction": "请回顾过去12个月，以下情况在您身上发生的频率如何？"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "从不" },
+    { "value": 1, "label": "有时" },
+    { "value": 2, "label": "大多数时候" },
+    { "value": 3, "label": "几乎总是" }
+  ],
+  "questions": [
+    { "index": 0, "text": "您是否曾在赌博上投入超过您能承受的金额", "type": "likert" },
+    { "index": 1, "text": "为了获得同样的兴奋感，您是否需要用更大的赌注来赌博", "type": "likert" },
+    { "index": 2, "text": "您是否曾在输钱后再次回去试图赢回来", "type": "likert" },
+    { "index": 3, "text": "您是否曾借钱或变卖物品来获取赌资", "type": "likert" },
+    { "index": 4, "text": "您是否觉得自己可能有赌博问题", "type": "likert" },
+    { "index": 5, "text": "赌博是否给您带来了任何健康问题，包括压力或焦虑", "type": "likert" },
+    { "index": 6, "text": "是否有人批评过您的赌博行为或说您有赌博问题（无论您是否认同）", "type": "likert" },
+    { "index": 7, "text": "您的赌博行为是否给您或您的家庭带来了经济困难", "type": "likert" },
+    { "index": 8, "text": "您是否曾对自己的赌博方式或赌博时发生的事感到内疚", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 27,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0, "max": 0,
+        "level": "minimal",
+        "label": "无问题赌博",
+        "description": "您没有报告任何问题赌博的迹象。",
+        "suggestions": [
+          "继续保持健康的休闲方式",
+          "如果开始赌博，请设定时间和金额限制"
+        ]
+      },
+      {
+        "min": 1, "max": 2,
+        "level": "mild",
+        "label": "低风险赌博",
+        "description": "您报告了轻微的赌博相关问题，属于低风险水平。",
+        "suggestions": [
+          "保持对赌博行为的自我觉察",
+          "设定赌博时间和金额的明确上限",
+          "不要用赌博来应对压力或情绪问题"
+        ]
+      },
+      {
+        "min": 3, "max": 7,
+        "level": "moderate",
+        "label": "中等风险赌博",
+        "description": "您的赌博行为可能正在造成一些负面后果。建议关注并采取措施。",
+        "suggestions": [
+          "认真审视赌博行为对生活的影响",
+          "严格设定赌博预算并遵守",
+          "考虑寻求专业帮助或拨打戒赌热线",
+          "了解问题赌博的风险因素"
+        ]
+      },
+      {
+        "min": 8, "max": 27,
+        "level": "severe",
+        "label": "问题赌博",
+        "description": "您的赌博行为已经造成了显著的负面后果，符合问题赌博的标准。强烈建议寻求专业帮助。",
+        "suggestions": [
+          "强烈建议寻求专业的赌博戒治服务",
+          "告知信任的家人或朋友您的处境",
+          "考虑自我排除计划（禁止自己进入赌博场所）",
+          "处理潜在的情绪或心理健康问题",
+          "加入互助团体（如赌博匿名会）"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": ["gauge"],
+    "gaugeConfig": { "min": 0, "max": 27 }
+  }
+}

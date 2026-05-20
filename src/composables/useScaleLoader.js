@@ -18,6 +18,7 @@ export function useScaleLoader() {
   const index = ref(null)
   const scales = ref([])
   const tags = ref([])
+  const tagGroups = ref([])
   const loading = ref(false)
   const error = ref(null)
 
@@ -29,8 +30,15 @@ export function useScaleLoader() {
       return { id: t.id, label }
     })
 
+    const groups = (rawData.tagGroups || []).map((g) => ({
+      id: g.id,
+      label: resolveLocalized(g.label, lang),
+      tags: g.tags.map((tid) => ({ id: tid, label: tagMap[tid] || tid })),
+    }))
+
     return {
       tags,
+      tagGroups: groups,
       scales: rawData.scales.map((s) => ({
         ...s,
         name: resolveLocalized(s.name, lang),
@@ -58,6 +66,7 @@ export function useScaleLoader() {
       index.value = data
       scales.value = data.scales
       tags.value = data.tags
+      tagGroups.value = data.tagGroups
       return data
     } catch (err) {
       error.value = err.message
@@ -99,6 +108,7 @@ export function useScaleLoader() {
     index,
     scales,
     tags,
+    tagGroups,
     loading,
     error,
     loadIndex,

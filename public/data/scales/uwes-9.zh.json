@@ -10,24 +10,81 @@
     "instruction": "以下陈述关于您在工作中的感受。请阅读每个陈述，选择最符合您情况的选项。"
   },
   "commonChoices": [
-    { "value": 0, "label": "从不" },
-    { "value": 1, "label": "几乎从不（每年几次或更少）" },
-    { "value": 2, "label": "很少（每月一次或更少）" },
-    { "value": 3, "label": "有时（每月几次）" },
-    { "value": 4, "label": "经常（每周一次）" },
-    { "value": 5, "label": "很经常（每周几次）" },
-    { "value": 6, "label": "总是（每天）" }
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 1,
+      "label": "几乎从不（每年几次或更少）"
+    },
+    {
+      "value": 2,
+      "label": "很少（每月一次或更少）"
+    },
+    {
+      "value": 3,
+      "label": "有时（每月几次）"
+    },
+    {
+      "value": 4,
+      "label": "经常（每周一次）"
+    },
+    {
+      "value": 5,
+      "label": "很经常（每周几次）"
+    },
+    {
+      "value": 6,
+      "label": "总是（每天）"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "在工作中，我感到精力充沛。", "type": "likert" },
-    { "index": 1, "text": "我觉得自己的工作充满意义和目标。", "type": "likert" },
-    { "index": 2, "text": "时间在工作中飞逝。", "type": "likert" },
-    { "index": 3, "text": "在工作时，我感到强壮和有活力。", "type": "likert" },
-    { "index": 4, "text": "我对自己的工作充满热情。", "type": "likert" },
-    { "index": 5, "text": "当我工作时，我忘记了周围的一切。", "type": "likert" },
-    { "index": 6, "text": "我的工作给了我灵感。", "type": "likert" },
-    { "index": 7, "text": "当我早上起床时，我想去工作。", "type": "likert" },
-    { "index": 8, "text": "当我全身心投入工作时，我感到快乐。", "type": "likert" }
+    {
+      "index": 0,
+      "text": "在工作中，我感到精力充沛。",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我觉得自己的工作充满意义和目标。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "时间在工作中飞逝。",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "在工作时，我感到强壮和有活力。",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我对自己的工作充满热情。",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "当我工作时，我忘记了周围的一切。",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我的工作给了我灵感。",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "当我早上起床时，我想去工作。",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "当我全身心投入工作时，我感到快乐。",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
@@ -38,19 +95,31 @@
       {
         "id": "vigor",
         "name": "活力",
-        "items": [0, 3, 7],
+        "items": [
+          0,
+          3,
+          7
+        ],
         "maxScore": 18
       },
       {
         "id": "dedication",
         "name": "奉献",
-        "items": [1, 4, 6],
+        "items": [
+          1,
+          4,
+          6
+        ],
         "maxScore": 18
       },
       {
         "id": "absorption",
         "name": "专注",
-        "items": [2, 5, 8],
+        "items": [
+          2,
+          5,
+          8
+        ],
         "maxScore": 18
       }
     ]
@@ -94,19 +163,105 @@
         ]
       }
     ],
-    "subscaleRanges": null
+    "subscaleRanges": {
+      "vigor": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "低活力",
+          "description": "工作中缺乏精力和活力，可能感到疲惫和缺乏动力。"
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "中等活力",
+          "description": "工作中有一定的精力，但可能时有波动。"
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "高活力",
+          "description": "工作中精力充沛，充满活力和韧性。"
+        }
+      ],
+      "dedication": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "低奉献",
+          "description": "对工作缺乏热情和认同感，可能感到工作无意义。"
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "中等奉献",
+          "description": "对工作有一定的热情和投入，但仍有提升空间。"
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "高奉献",
+          "description": "对工作充满热情和自豪感，感到工作富有意义。"
+        }
+      ],
+      "absorption": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "低专注",
+          "description": "工作时难以集中注意力，容易分心。"
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "中等专注",
+          "description": "工作时能保持一定的专注，但偶尔会分心。"
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "高专注",
+          "description": "工作时高度专注和沉浸，全身心投入其中。"
+        }
+      ]
+    }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["vigor", "dedication", "absorption"],
+      "subscaleIds": [
+        "vigor",
+        "dedication",
+        "absorption"
+      ],
       "maxDisplayScore": 18
     },
     "radarConfig": {
       "indicators": [
-        { "name": "活力", "max": 18 },
-        { "name": "奉献", "max": 18 },
-        { "name": "专注", "max": 18 }
+        {
+          "name": "活力",
+          "max": 18
+        },
+        {
+          "name": "奉献",
+          "max": 18
+        },
+        {
+          "name": "专注",
+          "max": 18
+        }
       ]
     }
   }

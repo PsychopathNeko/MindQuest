@@ -39,7 +39,7 @@ onMounted(() => {
 
 <style scoped>
 .app-footer {
-  border-top: 1px solid rgba(232, 160, 191, 0.2);
+  border-top: 1px solid var(--color-pink-border);
   background-color: var(--color-background);
   padding: var(--spacing-6) 0;
   margin-top: var(--spacing-12);

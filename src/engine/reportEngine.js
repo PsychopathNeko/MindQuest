@@ -84,17 +84,25 @@ export function getScorePercentage(score, maxScore) {
  */
 export function getSeverityColor(level) {
   switch (level) {
-    case 'minimal':
+    case 'none':
     case 'normal':
+    case 'minimal':
       return '#10b981' // green
+    case 'low':
+      return '#14b8a6' // teal
     case 'mild':
+    case 'possible':
       return '#f59e0b' // amber
     case 'moderate':
       return '#f97316' // orange
+    case 'high':
+      return '#f87171' // coral
     case 'severe':
+    case 'very_severe':
     case 'extremely_severe':
+    case 'alexithymia':
       return '#ef4444' // red
     default:
-      return '#6b7280' // gray for unknown
+      return '#7da2f7' // primary blue
   }
 }

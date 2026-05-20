@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "id": "sss-8",
+    "name": "SSS-8 躯体症状量表",
+    "fullName": "Somatic Symptom Scale-8",
+    "description": "SSS-8 是一份8题简短自评工具，用于评估常见躯体症状的严重程度。由 Gierk 等人从 PHQ-15 缩编而来，涵盖胃肠道、疼痛、疲劳和心肺四个维度。",
+    "author": "Gierk et al. (2014)",
+    "license": "Free to use",
+    "reference": "Gierk B, Kohlmann S, Kroenke K, et al. The Somatic Symptom Scale-8 (SSS-8): A brief measure of somatic symptom burden. JAMA Intern Med. 2014;174(3):399-407.",
+    "instruction": "在过去7天里，以下各项症状对您的困扰程度如何？请选择最符合的选项。"
+  },
+  "commonChoices": [
+    { "value": 0, "label": "完全没有" },
+    { "value": 1, "label": "很少" },
+    { "value": 2, "label": "有一些" },
+    { "value": 3, "label": "较多" },
+    { "value": 4, "label": "非常多" }
+  ],
+  "questions": [
+    { "index": 0, "text": "胃部或肠道问题", "type": "likert" },
+    { "index": 1, "text": "背痛", "type": "likert" },
+    { "index": 2, "text": "手臂、腿部或关节（膝、髋等）疼痛", "type": "likert" },
+    { "index": 3, "text": "头痛", "type": "likert" },
+    { "index": 4, "text": "胸痛或气短", "type": "likert" },
+    { "index": 5, "text": "头晕", "type": "likert" },
+    { "index": 6, "text": "感觉疲倦或精力不足", "type": "likert" },
+    { "index": 7, "text": "入睡困难或睡眠不安", "type": "likert" }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 32,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "gastrointestinal",
+        "name": "胃肠道",
+        "items": [0],
+        "maxScore": 4
+      },
+      {
+        "id": "pain",
+        "name": "疼痛",
+        "items": [1, 2, 3],
+        "maxScore": 12
+      },
+      {
+        "id": "cardiopulmonary",
+        "name": "心肺",
+        "items": [4, 5],
+        "maxScore": 8
+      },
+      {
+        "id": "fatigue",
+        "name": "疲劳",
+        "items": [6, 7],
+        "maxScore": 8
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0, "max": 3,
+        "level": "minimal",
+        "label": "无/极轻微躯体症状",
+        "description": "您的躯体症状负担非常低，处于正常范围。",
+        "suggestions": [
+          "继续保持健康的生活方式",
+          "如有偶尔不适属于正常波动"
+        ]
+      },
+      {
+        "min": 4, "max": 7,
+        "level": "mild",
+        "label": "轻度躯体症状",
+        "description": "您存在一些轻度躯体症状，可能与日常压力或生活方式有关。",
+        "suggestions": [
+          "关注症状变化，保持健康作息",
+          "适当运动和放松有助于缓解",
+          "如症状持续超过两周，建议就医检查"
+        ]
+      },
+      {
+        "min": 8, "max": 11,
+        "level": "moderate",
+        "label": "中度躯体症状",
+        "description": "您的躯体症状负担处于中等水平，可能影响日常功能。建议关注并考虑就医。",
+        "suggestions": [
+          "建议就医进行身体检查排除器质性原因",
+          "了解身心关系——心理压力可表现为躯体症状",
+          "规律运动、充足睡眠有助于改善",
+          "必要时考虑心理咨询"
+        ]
+      },
+      {
+        "min": 12, "max": 15,
+        "level": "severe",
+        "label": "较重躯体症状",
+        "description": "您的躯体症状负担较重，可能显著影响日常生活和工作。",
+        "suggestions": [
+          "建议及时就医进行全面检查",
+          "同时考虑心理健康评估",
+          "了解躯体症状障碍的相关信息",
+          "综合治疗（身心并重）效果更好"
+        ]
+      },
+      {
+        "min": 16, "max": 32,
+        "level": "severe",
+        "label": "严重躯体症状",
+        "description": "您报告了严重的躯体症状负担，强烈建议就医并进行心身综合评估。",
+        "suggestions": [
+          "请尽快就医进行全面身体检查",
+          "同时建议精神科/心理科会诊",
+          "躯体症状严重时可能需要综合治疗方案",
+          "不要忽视这些症状对生活质量的影响"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "gastrointestinal": [
+        { "min": 0, "max": 1, "level": "minimal", "label": "低", "description": "胃肠道症状轻微。" },
+        { "min": 2, "max": 3, "level": "mild", "label": "中等", "description": "存在一些胃肠道不适。" },
+        { "min": 4, "max": 4, "level": "moderate", "label": "高", "description": "胃肠道症状明显。" }
+      ],
+      "pain": [
+        { "min": 0, "max": 3, "level": "minimal", "label": "低", "description": "疼痛症状轻微。" },
+        { "min": 4, "max": 7, "level": "mild", "label": "中等", "description": "存在一些疼痛症状。" },
+        { "min": 8, "max": 12, "level": "moderate", "label": "高", "description": "疼痛症状明显，建议关注。" }
+      ],
+      "cardiopulmonary": [
+        { "min": 0, "max": 2, "level": "minimal", "label": "低", "description": "心肺症状轻微。" },
+        { "min": 3, "max": 5, "level": "mild", "label": "中等", "description": "存在一些心肺不适。" },
+        { "min": 6, "max": 8, "level": "moderate", "label": "高", "description": "心肺症状明显，建议就医。" }
+      ],
+      "fatigue": [
+        { "min": 0, "max": 2, "level": "minimal", "label": "低", "description": "疲劳感轻微。" },
+        { "min": 3, "max": 5, "level": "mild", "label": "中等", "description": "存在一定的疲劳感。" },
+        { "min": 6, "max": 8, "level": "moderate", "label": "高", "description": "疲劳感明显，建议关注睡眠和休息。" }
+      ]
+    }
+  },
+  "report": {
+    "charts": ["gauge", "bar"],
+    "gaugeConfig": { "min": 0, "max": 32 }
+  }
+}

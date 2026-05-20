@@ -39,4 +39,14 @@ const router = createRouter({
   },
 })
 
+router.beforeEach((to, from, next) => {
+  if (['scale-detail', 'assessment', 'report'].includes(to.name)) {
+    if (!to.params.id || to.params.id.trim() === '') {
+      next({ name: 'home' })
+      return
+    }
+  }
+  next()
+})
+
 export default router

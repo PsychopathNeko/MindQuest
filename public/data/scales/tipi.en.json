@@ -170,15 +170,15 @@
           "description": "Low extraversion; tends toward introversion, quietness, and solitude."
         },
         {
-          "min": 2.6,
-          "max": 4.4,
+          "min": 2.5,
+          "max": 4.5,
           "level": "normal",
           "label": "Average",
           "description": "Average extraversion; able to balance socializing and alone time."
         },
         {
           "min": 4.5,
-          "max": 5.4,
+          "max": 5.5,
           "level": "mild",
           "label": "Above Average",
           "description": "Above average extraversion; tends to enjoy social interaction and group activities."
@@ -200,15 +200,15 @@
           "description": "Low agreeableness; tends toward independence, competitiveness, and questioning others."
         },
         {
-          "min": 2.6,
-          "max": 4.4,
+          "min": 2.5,
+          "max": 4.5,
           "level": "normal",
           "label": "Average",
           "description": "Average agreeableness; able to balance cooperation and assertiveness."
         },
         {
           "min": 4.5,
-          "max": 5.4,
+          "max": 5.5,
           "level": "mild",
           "label": "Above Average",
           "description": "Above average agreeableness; tends to be friendly and considerate."
@@ -230,15 +230,15 @@
           "description": "Low conscientiousness; tends to be flexible and spontaneous, with less focus on details and planning."
         },
         {
-          "min": 2.6,
-          "max": 4.4,
+          "min": 2.5,
+          "max": 4.5,
           "level": "normal",
           "label": "Average",
           "description": "Average conscientiousness; able to balance order and flexibility."
         },
         {
           "min": 4.5,
-          "max": 5.4,
+          "max": 5.5,
           "level": "mild",
           "label": "Above Average",
           "description": "Above average conscientiousness; tends to be organized and self-disciplined."
@@ -260,15 +260,15 @@
           "description": "Low emotional stability; prone to anxiety and mood swings."
         },
         {
-          "min": 2.6,
-          "max": 4.4,
+          "min": 2.5,
+          "max": 4.5,
           "level": "normal",
           "label": "Average",
           "description": "Average emotional stability; generally able to manage emotions well most of the time."
         },
         {
           "min": 4.5,
-          "max": 5.4,
+          "max": 5.5,
           "level": "mild",
           "label": "Above Average",
           "description": "Above average emotional stability; tends to be calm and resilient."
@@ -290,15 +290,15 @@
           "description": "Low openness; tends toward tradition, practicality, and preference for the familiar."
         },
         {
-          "min": 2.6,
-          "max": 4.4,
+          "min": 2.5,
+          "max": 4.5,
           "level": "normal",
           "label": "Average",
           "description": "Average openness; able to balance innovation and tradition."
         },
         {
           "min": 4.5,
-          "max": 5.4,
+          "max": 5.5,
           "level": "mild",
           "label": "Above Average",
           "description": "Above average openness; tends to be curious and imaginative."

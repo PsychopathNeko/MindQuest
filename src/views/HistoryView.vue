@@ -1,18 +1,21 @@
 <script setup>
-import { onMounted, ref } from 'vue'
+import { onMounted, ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useHistory } from '@/composables/useHistory'
+import { useScaleLoader } from '@/composables/useScaleLoader'
 import { useLocale } from '@/composables/useLocale'
 import { getSeverityColor } from '@/engine/reportEngine'
 
 const router = useRouter()
 const { records, loading, loadRecords, removeRecord, clearAll, formatDate } = useHistory()
 const { t } = useLocale()
+const { scales, tagGroups, loadIndex: loadScaleIndex } = useScaleLoader()
 
+const selectedGroup = ref('')
 const showClearConfirm = ref(false)
 const pendingDeleteKey = ref(null)
 
-onMounted(() => { loadRecords() })
+onMounted(() => { loadRecords(); loadScaleIndex() })
 
 function viewReport(record) {
   router.push({ name: 'report', params: { id: record.data.scaleId }, query: { key: record.key } })
@@ -24,6 +27,42 @@ function confirmClearAll() { showClearConfirm.value = true }
 function cancelClearAll() { showClearConfirm.value = false }
 function executeClearAll() { clearAll(); showClearConfirm.value = false }
 function goHome() { router.push({ name: 'home' }) }
+function selectGroup(groupId) { selectedGroup.value = selectedGroup.value === groupId ? '' : groupId }
+
+const scaleTagMap = computed(() => {
+  const m = new Map()
+  if (scales.value) {
+    for (const s of scales.value) {
+      m.set(s.id, s.tags || [])
+    }
+  }
+  return m
+})
+
+const groupRecordCounts = computed(() => {
+  const counts = {}
+  if (!records.value || !tagGroups.value || tagGroups.value.length === 0) return counts
+  for (const g of tagGroups.value) {
+    const groupTagIds = new Set(g.tags.map(t => t.id))
+    counts[g.id] = records.value.filter(r => {
+      const scaleTags = scaleTagMap.value.get(r.data?.scaleId) || []
+      return scaleTags.some(t => groupTagIds.has(t))
+    }).length
+  }
+  return counts
+})
+
+const filteredRecords = computed(() => {
+  if (!selectedGroup.value || tagGroups.value.length === 0) return records.value
+  const group = tagGroups.value.find((g) => g.id === selectedGroup.value)
+  if (!group) return records.value
+  const groupTagIds = new Set(group.tags.map((t) => t.id))
+  return records.value.filter((r) => {
+    const scaleTags = scaleTagMap.value.get(r.data?.scaleId) || []
+    return scaleTags.some((t) => groupTagIds.has(t))
+  })
+})
+
 function getBorderColor(record) { const level = record.data?.report?.level; return level ? getSeverityColor(level) : '#e2e8f0' }
 function getLevelLabel(record) { return record.data?.report?.label ?? '--' }
 function getLevelColor(record) { const level = record.data?.report?.level; return level ? getSeverityColor(level) : '#6b7280' }
@@ -36,6 +75,15 @@ function getSubscales(record) { const subs = record.data?.report?.subscaleReport
       <div class="page-header">
         <h1 class="page-title">{{ t('history.title') }}</h1>
         <p class="page-subtitle">{{ t('history.subtitle') }}</p>
+      </div>
+
+      <!-- Group Filter -->
+      <div v-if="tagGroups.length > 0 && records.length > 0" class="group-filter">
+        <button class="tag-chip" :class="{ active: selectedGroup === '' }" @click="selectedGroup = ''">{{ t('filter.allGroups') }}</button>
+        <button v-for="g in tagGroups" :key="g.id" class="tag-chip" :class="{ active: selectedGroup === g.id }" @click="selectGroup(g.id)">
+          {{ g.label }}
+          <span v-if="groupRecordCounts[g.id]" class="chip-count">{{ groupRecordCounts[g.id] }}</span>
+        </button>
       </div>
 
       <div v-if="loading" class="loading-state">
@@ -58,7 +106,7 @@ function getSubscales(record) { const subs = record.data?.report?.subscaleReport
 
       <template v-else>
         <div class="records-list">
-          <div v-for="record in records" :key="record.key" class="record-card card" :style="{ borderLeftColor: getBorderColor(record) }">
+          <div v-for="record in filteredRecords" :key="record.key" class="record-card card" :style="{ borderLeftColor: getBorderColor(record) }">
             <div class="record-body">
               <div class="record-header">
                 <h3 class="record-name">{{ record.data.scaleName }}</h3>
@@ -152,5 +200,40 @@ function getSubscales(record) { const subs = record.data?.report?.subscaleReport
   .record-header { flex-direction: column; gap: var(--spacing-1); }
   .record-scores { flex-wrap: wrap; }
   .record-actions { flex-wrap: wrap; }
+}
+.group-filter { display: flex; flex-wrap: wrap; gap: var(--spacing-2); justify-content: center; margin-bottom: var(--spacing-4); max-width: 720px; margin-left: auto; margin-right: auto; }
+.tag-chip { display: inline-flex; align-items: center; padding: 6px 16px; font-family: var(--font-family); font-size: var(--font-size-sm); font-weight: 500; line-height: 1.4; color: var(--color-text-secondary); background-color: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--border-radius-full); cursor: pointer; white-space: nowrap; transition: all var(--transition); user-select: none; }
+.tag-chip:hover { border-color: var(--color-primary-light); color: var(--color-primary); background-color: rgba(125, 162, 247, 0.04); }
+.tag-chip.active { background-color: var(--color-primary); color: var(--color-text-inverse); border-color: var(--color-primary); }
+.tag-chip.active:hover { background-color: var(--color-primary-dark); border-color: var(--color-primary-dark); }
+@media (max-width: 640px) {
+  .group-filter { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: var(--spacing-2); }
+  .group-filter::-webkit-scrollbar { display: none; }
+}
+.chip-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  background-color: rgba(125, 162, 247, 0.15);
+  color: var(--color-primary);
+  border-radius: 9px;
+  margin-left: 4px;
+}
+.tag-chip.active .chip-count {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: var(--color-text-inverse);
+}
+.tag-chip:focus-visible,
+.btn:focus-visible,
+.btn-ghost:focus-visible,
+.btn-danger-solid:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 </style>

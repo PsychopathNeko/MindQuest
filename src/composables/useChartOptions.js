@@ -1,6 +1,11 @@
 import { getSeverityColor } from '@/engine/reportEngine'
 import { useLocale } from './useLocale'
 
+function escapeHtml(str) {
+  if (typeof str !== 'string') return str
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+}
+
 export function useChartOptions() {
   const { t } = useLocale()
   return {
@@ -361,12 +366,12 @@ function createTimelineOption(dataPoints, maxScore, minScore, t) {
       borderWidth: 1,
       textStyle: { color: '#2d2640', fontSize: 13 },
       formatter: (params) => {
-        let html = `<div style="font-weight:600;margin-bottom:4px">${params[0].axisValue}</div>`
+        let html = `<div style="font-weight:600;margin-bottom:4px">${escapeHtml(params[0].axisValue)}</div>`
         params.forEach((p) => {
           if (p.value != null) {
             html += `<div style="display:flex;align-items:center;gap:6px;margin:2px 0">`
-            html += `<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${p.color}"></span>`
-            html += `<span>${p.seriesName}: <b>${p.value}</b></span></div>`
+            html += `<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${escapeHtml(p.color)}"></span>`
+            html += `<span>${escapeHtml(p.seriesName)}: <b>${escapeHtml(String(p.value))}</b></span></div>`
           }
         })
         return html

@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "id": "des-ii",
+    "name": "DES-II Dissociative Experiences Scale",
+    "fullName": "Dissociative Experiences Scale II",
+    "description": "The DES-II is a 28-item self-report measure developed by Bernstein and Putnam to assess the frequency of dissociative experiences. It is widely used for screening dissociative disorders.",
+    "author": "Bernstein & Putnam (1986), Carlson & Putnam (1993)",
+    "license": "Public Domain",
+    "reference": "Carlson EB, Putnam FW. An update on the Dissociative Experiences Scale. Dissociation. 1993;6(1):16-27.",
+    "instruction": "The following items describe experiences that some people have in daily life. Please indicate how often these experiences happen to you."
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Never (0%)"
+    },
+    {
+      "value": 1,
+      "label": "Rarely (~10%)"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes (~30%)"
+    },
+    {
+      "value": 3,
+      "label": "Often (~50%)"
+    },
+    {
+      "value": 4,
+      "label": "Always (~80%+)"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Some people have the experience of driving or riding in a car and suddenly realizing that they don't remember what has happened during all or part of the trip",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Some people find that sometimes they are listening to someone talk and they suddenly realize that they did not hear part or all of what was said",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Some people have the experience of finding themselves in a place and having no idea how they got there",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Some people have the experience of finding themselves dressed in clothes that they don't remember putting on",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Some people have the experience of finding new things among their belongings that they do not remember buying",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Some people sometimes find that they are approached by people that they do not know who call them by another name or insist that they have met them before",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Some people sometimes have the experience of feeling as though they are standing next to themselves or watching themselves do something",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Some people are told that they sometimes do not recognize friends or family members",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Some people find that they have no memory for some important events in their lives (for example, a wedding or graduation)",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Some people have the experience of being accused of lying when they do not think that they have lied",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Some people have the experience of looking in a mirror and not recognizing themselves",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Some people have the experience of feeling that other people, objects, and the world around them are not real",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Some people have the experience of feeling that their body does not seem to belong to them",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Some people have the experience of sometimes remembering a past event so vividly that they feel as if they were reliving that event",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Some people have the experience of not being sure whether things that they remember happening really did happen or whether they just dreamed them",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Some people have the experience of being in a familiar place but finding it strange and unfamiliar",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Some people find that when they are watching television or a movie they become so absorbed in the story that they are unaware of other events happening around them",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "Some people find that they become so involved in a fantasy or daydream that it feels as though it were really happening to them",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "Some people find that they sometimes are able to ignore pain",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "Some people find that they sometimes sit staring off into space, thinking of nothing, and are not aware of the passage of time",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "Some people sometimes find that when they are alone they talk out loud to themselves",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "Some people find that in one situation they may act so differently compared with another situation that they feel almost as if they were two different people",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "Some people sometimes find that in certain situations they are able to do things with amazing ease and spontaneity that would usually be difficult for them",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "Some people sometimes find that they cannot remember whether they have done something or have just thought about doing that thing",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "Some people find evidence that they have done things that they do not remember doing",
+      "type": "likert"
+    },
+    {
+      "index": 25,
+      "text": "Some people sometimes find writings, drawings, or notes among their belongings that they must have done but cannot remember doing",
+      "type": "likert"
+    },
+    {
+      "index": 26,
+      "text": "Some people sometimes find that they hear voices inside their head that tell them to do things or comment on things that they are doing",
+      "type": "likert"
+    },
+    {
+      "index": 27,
+      "text": "Some people sometimes feel as if they are looking at the world through a fog so that people and objects appear far away or unclear",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 112,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "amnesia",
+        "name": "Amnesia",
+        "items": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          24,
+          25
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "depersonalization",
+        "name": "Depersonalization/Derealization",
+        "items": [
+          6,
+          10,
+          11,
+          12,
+          15,
+          27
+        ],
+        "maxScore": 24
+      },
+      {
+        "id": "absorption",
+        "name": "Absorption/Imaginative Involvement",
+        "items": [
+          2,
+          13,
+          14,
+          16,
+          17,
+          18,
+          19,
+          22
+        ],
+        "maxScore": 32
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 22,
+        "level": "minimal",
+        "label": "Normal Range",
+        "description": "Your dissociative experience frequency is within the normal range. Most people occasionally have similar experiences.",
+        "suggestions": [
+          "These experiences are normal to some extent",
+          "If particularly bothersome, note when and where they occur"
+        ]
+      },
+      {
+        "min": 23,
+        "max": 44,
+        "level": "mild",
+        "label": "Mild Dissociative Experiences",
+        "description": "Your dissociative experiences are slightly above average and may be related to stress or fatigue.",
+        "suggestions": [
+          "Monitor your stress levels and sleep quality",
+          "Mindfulness and grounding exercises may help reduce dissociation",
+          "If affecting daily functioning, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 45,
+        "max": 67,
+        "level": "moderate",
+        "label": "Moderate Dissociative Experiences",
+        "description": "Your dissociative experience frequency is elevated, which may suggest a dissociative disorder or related condition. Professional evaluation is recommended.",
+        "suggestions": [
+          "Consider consulting a mental health professional for further evaluation",
+          "Learn about dissociative disorders",
+          "Practice grounding techniques (e.g., 5-4-3-2-1 sensory exercise)",
+          "Maintain regular routines and reduce controllable stressors"
+        ]
+      },
+      {
+        "min": 68,
+        "max": 112,
+        "level": "severe",
+        "label": "Significant Dissociative Experiences",
+        "description": "You reported frequent dissociative experiences. A comprehensive psychiatric/psychological evaluation is strongly recommended. High scores may be associated with dissociative disorders, PTSD, and related conditions.",
+        "suggestions": [
+          "Strongly recommend consulting a psychiatrist or clinical psychologist",
+          "Dissociation may be related to early traumatic experiences",
+          "Trauma-focused therapy may be beneficial",
+          "Do not overlook the impact of these experiences on daily life"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "amnesia": [
+        {
+          "min": 0,
+          "max": 7,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low amnesia-related dissociative experiences."
+        },
+        {
+          "min": 8,
+          "max": 14,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some amnesia-related dissociative experiences present."
+        },
+        {
+          "min": 15,
+          "max": 28,
+          "level": "moderate",
+          "label": "High",
+          "description": "Frequent amnesia-related dissociative experiences. Attention recommended."
+        }
+      ],
+      "depersonalization": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Few depersonalization/derealization experiences."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some depersonalization or derealization experiences."
+        },
+        {
+          "min": 13,
+          "max": 24,
+          "level": "moderate",
+          "label": "High",
+          "description": "Frequent depersonalization/derealization experiences. Professional evaluation recommended."
+        }
+      ],
+      "absorption": [
+        {
+          "min": 0,
+          "max": 8,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low absorption/imaginative involvement experiences."
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some absorption or imaginative involvement experiences."
+        },
+        {
+          "min": 17,
+          "max": 32,
+          "level": "moderate",
+          "label": "High",
+          "description": "Frequent absorption/imaginative involvement experiences."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 112
+    }
+  }
+}

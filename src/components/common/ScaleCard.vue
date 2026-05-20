@@ -66,7 +66,7 @@ function handleStart(e) {
         @click="handleAddToQueue"
         :disabled="isInQueue(scale.id)"
       >
-        {{ isInQueue(scale.id) ? '✓' : t('card.addToQueue') }}
+        {{ isInQueue(scale.id) ? t('search.added') : t('card.addToQueue') }}
       </button>
     </div>
   </article>
@@ -85,13 +85,18 @@ function handleStart(e) {
 .card-meta { display: flex; align-items: center; gap: var(--spacing-4); padding-top: var(--spacing-2); border-top: 1px solid var(--color-border); }
 .meta-item { display: inline-flex; align-items: center; gap: 4px; font-size: var(--font-size-xs); color: var(--color-text-secondary); }
 .card-actions { display: flex; gap: var(--spacing-2); margin-top: auto; padding-top: var(--spacing-2); }
-.btn-card { padding: 4px 12px; font-size: var(--font-size-xs); font-weight: 500; font-family: var(--font-family); border: 1px solid; border-radius: var(--border-radius-sm); cursor: pointer; transition: all var(--transition); }
+.btn-card { padding: 6px 14px; min-height: 36px; font-size: var(--font-size-xs); font-weight: 500; font-family: var(--font-family); border: 1px solid; border-radius: var(--border-radius-sm); cursor: pointer; transition: all var(--transition); }
 .btn-card-start { background-color: var(--color-primary); color: var(--color-text-inverse); border-color: var(--color-primary); }
 .btn-card-start:hover { background-color: var(--color-primary-dark); }
 .btn-card-queue { background-color: transparent; color: var(--color-text-secondary); border-color: var(--color-border); }
 .btn-card-queue:hover { color: var(--color-primary); border-color: var(--color-primary-light); }
 .btn-card-added { color: var(--color-success); border-color: var(--color-success); cursor: default; opacity: 0.7; }
 .btn-card-added:hover { color: var(--color-success); border-color: var(--color-success); }
+
+.btn-card:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
 
 @media (max-width: 640px) {
   .scale-card { padding: var(--spacing-4); gap: var(--spacing-2); }

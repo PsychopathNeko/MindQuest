@@ -226,7 +226,77 @@
         ]
       }
     ],
-    "subscaleRanges": null
+    "subscaleRanges": {
+      "fear": [
+        {
+          "min": 0,
+          "max": 12,
+          "level": "low",
+          "label": "Low Fear",
+          "description": "Social fear symptoms are mild. Fear in social situations is not prominent."
+        },
+        {
+          "min": 13,
+          "max": 24,
+          "level": "moderate",
+          "label": "Moderate Fear",
+          "description": "Some degree of social fear is present. Certain social situations may cause notable discomfort."
+        },
+        {
+          "min": 25,
+          "max": 36,
+          "level": "high",
+          "label": "High Fear",
+          "description": "Social fear symptoms are severe. Professional help is recommended."
+        }
+      ],
+      "avoidance": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low Avoidance",
+          "description": "Social avoidance behavior is minimal. You can participate in social activities well."
+        },
+        {
+          "min": 7,
+          "max": 13,
+          "level": "moderate",
+          "label": "Moderate Avoidance",
+          "description": "Some social avoidance is present. You may tend to escape certain social situations."
+        },
+        {
+          "min": 14,
+          "max": 20,
+          "level": "high",
+          "label": "High Avoidance",
+          "description": "Social avoidance is significant, seriously affecting social participation. Professional help is recommended."
+        }
+      ],
+      "physiological": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "low",
+          "label": "Low Physiological Response",
+          "description": "Physiological reactions in social situations are mild."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "moderate",
+          "label": "Moderate Physiological Response",
+          "description": "Some physiological discomfort in social situations, such as rapid heartbeat or sweating."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "high",
+          "label": "Strong Physiological Response",
+          "description": "Physiological reactions in social situations are intense. Relaxation techniques and professional help are recommended."
+        }
+      ]
+    }
   },
   "report": {
     "charts": [
