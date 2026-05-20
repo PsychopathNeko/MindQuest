@@ -34,5 +34,24 @@ export default defineConfig({
     includedRoutes() {
       return ['/', '/history', ...scaleRoutes]
     },
+    async onFinished() {
+      const { writeFileSync, copyFileSync } = await import('node:fs')
+      // SPA fallback for GitHub Pages (non-prerendered routes like /assessment/:id)
+      copyFileSync('dist/index.html', 'dist/404.html')
+      // Sitemap for search engines
+      const origin = 'https://psychopathneko.github.io/MindQuest'
+      const urls = ['/', '/history', ...scaleRoutes]
+      const sitemap = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        ...urls.map(u => `  <url><loc>${origin}${u}</loc></url>`),
+        '</urlset>',
+      ].join('\n')
+      writeFileSync('dist/sitemap.xml', sitemap)
+      writeFileSync('dist/robots.txt', `User-agent: *
+Allow: /
+Sitemap: ${origin}/sitemap.xml
+`)
+    },
   },
 })

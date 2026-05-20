@@ -25,9 +25,21 @@ useHead({
     {
       name: 'description',
       content: computed(() =>
+        scale.value ? scale.value.meta.description : ''
+      ),
+    },
+    {
+      property: 'og:title',
+      content: computed(() =>
         scale.value
-          ? scale.value.meta.description
-          : ''
+          ? `${scale.value.meta.name} - MindQuest`
+          : 'MindQuest 心灵探索'
+      ),
+    },
+    {
+      property: 'og:description',
+      content: computed(() =>
+        scale.value ? scale.value.meta.description : ''
       ),
     },
   ],
