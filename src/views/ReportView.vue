@@ -45,7 +45,7 @@ const scaleHistory = computed(() => {
   if (!scaleId.value) return []
   return getAssessmentsForScale(scaleId.value)
 })
-const showTotalScore = computed(() => { if (!scale.value) return false; return scale.value.scoring.method !== 'mean_subscale' })
+const showTotalScore = computed(() => { if (!scale.value) return false; return scale.value?.scoring?.method !== 'mean_subscale' })
 
 const breadcrumbItems = computed(() => [
   { label: t('nav.home'), to: { name: 'home' } },

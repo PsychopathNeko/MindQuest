@@ -187,6 +187,10 @@ function scoreDomainMax(answers, scoring) {
  * @returns {{ total: number, subscales: Array|null, items: Array }}
  */
 export function calculateScores(answers, scoring) {
+  if (!scoring || !scoring.method) {
+    console.warn('[scoringEngine] Missing scoring config, falling back to sum')
+    return scoreSum(answers || {})
+  }
   switch (scoring.method) {
     case 'sum':
       return scoreSum(answers, scoring)

@@ -16,11 +16,11 @@ export default defineConfig({
   base: process.env.GITHUB_ACTIONS ? '/MindQuest/' : '/',
   plugins: [
     vue(),
-    vueDevTools(),
+    process.env.NODE_ENV !== 'production' && vueDevTools(),
     legacy({
       targets: ['defaults', 'not IE 11', 'Chrome >= 52', 'Android >= 5'],
     }),
-  ],
+  ].filter(Boolean),
   build: {
     target: 'es2018',
   },

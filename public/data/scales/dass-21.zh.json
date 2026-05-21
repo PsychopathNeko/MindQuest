@@ -137,7 +137,7 @@
   ],
   "scoring": {
     "method": "subscale",
-    "maxTotal": 63,
+    "maxTotal": 126,
     "maxItemScore": 3,
     "multiplier": 2,
     "subscales": [
@@ -153,7 +153,7 @@
           16,
           20
         ],
-        "maxScore": 21
+        "maxScore": 42
       },
       {
         "id": "anxiety",
@@ -167,7 +167,7 @@
           18,
           19
         ],
-        "maxScore": 21
+        "maxScore": 42
       },
       {
         "id": "stress",
@@ -181,7 +181,7 @@
           13,
           17
         ],
-        "maxScore": 21
+        "maxScore": 42
       }
     ]
   },

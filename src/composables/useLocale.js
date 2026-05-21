@@ -146,6 +146,8 @@ const messages = {
     'history.importSuccess': '导入完成：新增 {imported} 条，跳过 {skipped} 条重复',
     'history.importError': '导入失败：文件格式无效',
     'history.noData': '没有可导出的数据',
+    'notFound.message': '页面未找到',
+    'notFound.backHome': '返回首页',
   },
   en: {
     'nav.home': 'Scales',
@@ -287,6 +289,8 @@ const messages = {
     'history.importSuccess': 'Import complete: {imported} new, {skipped} skipped',
     'history.importError': 'Import failed: invalid file format',
     'history.noData': 'No data to export',
+    'notFound.message': 'Page not found',
+    'notFound.backHome': 'Back to Home',
   },
 }
 

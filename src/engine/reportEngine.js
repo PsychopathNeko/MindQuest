@@ -27,6 +27,16 @@ function matchRange(score, ranges) {
  * @returns {{ level, label, description, suggestions, subscaleReports }}
  */
 export function generateReport(scores, interpretation) {
+  if (!interpretation) {
+    console.warn('[reportEngine] Missing interpretation config, returning default report')
+    return {
+      level: 'unknown',
+      label: '--',
+      description: '',
+      suggestions: [],
+      subscaleReports: null,
+    }
+  }
   const { ranges, subscaleRanges } = interpretation
   const multiplier = interpretation.multiplier ?? 1
 

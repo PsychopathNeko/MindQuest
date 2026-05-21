@@ -1,3 +1,5 @@
+import NotFoundView from '@/views/NotFoundView.vue'
+
 export const routes = [
   {
     path: '/',
@@ -27,6 +29,6 @@ export const routes = [
   {
     path: '/:pathMatch(.*)*',
     name: 'not-found',
-    redirect: '/',
+    component: NotFoundView,
   },
 ]
