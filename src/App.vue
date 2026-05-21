@@ -11,6 +11,10 @@ const route = useRoute()
 useHead({
   htmlAttrs: { lang: 'zh-CN' },
   link: [{ rel: 'canonical', href: computed(() => `https://psychopathneko.github.io/MindQuest${route.path}`) }],
+  meta: [
+    { property: 'og:url', content: computed(() => `https://psychopathneko.github.io/MindQuest${route.path}`) },
+    { name: 'twitter:card', content: 'summary' },
+  ],
 })
 const sidebarOpen = ref(false)
 

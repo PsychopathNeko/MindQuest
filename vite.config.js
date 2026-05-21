@@ -35,16 +35,41 @@ export default defineConfig({
       return ['/', '/history', ...scaleRoutes]
     },
     async onFinished() {
-      const { writeFileSync, copyFileSync } = await import('node:fs')
+      const { writeFileSync, readFileSync } = await import('node:fs')
       // SPA fallback for GitHub Pages (non-prerendered routes like /assessment/:id)
-      copyFileSync('dist/index.html', 'dist/404.html')
+      // Inject noindex to prevent search engines from indexing 404 as duplicate content
+      let html404 = readFileSync('dist/index.html', 'utf-8')
+      html404 = html404.replace('<meta name="robots" content="index, follow">', '<meta name="robots" content="noindex">')
+      writeFileSync('dist/404.html', html404)
       // Sitemap for search engines
       const origin = 'https://psychopathneko.github.io/MindQuest'
+      const today = '2026-05-21'
       const urls = ['/', '/history', ...scaleRoutes]
+      const urlEntries = urls.map(u => {
+        let priority, changefreq
+        if (u === '/') {
+          priority = '1.0'
+          changefreq = 'weekly'
+        } else if (u === '/history') {
+          priority = '0.3'
+          changefreq = 'monthly'
+        } else {
+          priority = '0.8'
+          changefreq = 'monthly'
+        }
+        return [
+          '  <url>',
+          `    <loc>${origin}${u}</loc>`,
+          `    <lastmod>${today}</lastmod>`,
+          `    <changefreq>${changefreq}</changefreq>`,
+          `    <priority>${priority}</priority>`,
+          '  </url>',
+        ].join('\n')
+      })
       const sitemap = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-        ...urls.map(u => `  <url><loc>${origin}${u}</loc></url>`),
+        ...urlEntries,
         '</urlset>',
       ].join('\n')
       writeFileSync('dist/sitemap.xml', sitemap)

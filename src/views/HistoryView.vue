@@ -20,6 +20,13 @@ const breadcrumbItems = computed(() => [
 
 useHead({
   title: computed(() => `${t('nav.history')} - MindQuest`),
+  meta: [
+    { name: 'description', content: computed(() => t('history.metaDescription') || t('nav.history')) },
+    { property: 'og:title', content: computed(() => `${t('nav.history')} - MindQuest`) },
+    { property: 'og:description', content: computed(() => t('history.metaDescription') || t('nav.history')) },
+    { name: 'twitter:card', content: 'summary' },
+    { name: 'twitter:title', content: computed(() => `${t('nav.history')} - MindQuest`) },
+  ],
 })
 
 const selectedGroup = ref('')

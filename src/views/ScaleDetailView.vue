@@ -43,6 +43,36 @@ useHead({
         scale.value ? scale.value.meta.description : ''
       ),
     },
+    { property: 'og:url', content: computed(() => `https://psychopathneko.github.io/MindQuest/scale/${scaleId.value}`) },
+    { name: 'twitter:card', content: 'summary' },
+    { name: 'twitter:title', content: computed(() => scale.value ? `${scale.value.meta.name} - MindQuest` : 'MindQuest') },
+    { name: 'twitter:description', content: computed(() => scale.value ? scale.value.meta.description : '') },
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: computed(() => {
+        if (!scale.value) return ''
+        return JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          'itemListElement': [
+            {
+              '@type': 'ListItem',
+              'position': 1,
+              'name': 'MindQuest',
+              'item': 'https://psychopathneko.github.io/MindQuest/'
+            },
+            {
+              '@type': 'ListItem',
+              'position': 2,
+              'name': scale.value.meta.name,
+              'item': `https://psychopathneko.github.io/MindQuest/scale/${scaleId.value}`
+            }
+          ]
+        })
+      })
+    }
   ],
 })
 
