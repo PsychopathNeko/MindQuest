@@ -7,27 +7,85 @@
     "author": "Krupp et al. (1989)",
     "license": "Free to use",
     "reference": "Krupp LB, et al. The fatigue severity scale. Application to patients with multiple sclerosis and systemic lupus erythematosus. Archives of Neurology. 1989;46(10):1121-1123.",
-    "instruction": "Please rate your agreement with each statement based on the past week. 1 = Strongly Disagree, 7 = Strongly Agree."
+    "instruction": "Please rate your agreement with each statement based on the past week. 1 = Strongly Disagree, 7 = Strongly Agree.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Strongly Disagree" },
-    { "value": 2, "label": "Disagree" },
-    { "value": 3, "label": "Slightly Disagree" },
-    { "value": 4, "label": "Neutral" },
-    { "value": 5, "label": "Slightly Agree" },
-    { "value": 6, "label": "Agree" },
-    { "value": 7, "label": "Strongly Agree" }
+    {
+      "value": 1,
+      "label": "Strongly Disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Slightly Disagree"
+    },
+    {
+      "value": 4,
+      "label": "Neutral"
+    },
+    {
+      "value": 5,
+      "label": "Slightly Agree"
+    },
+    {
+      "value": 6,
+      "label": "Agree"
+    },
+    {
+      "value": 7,
+      "label": "Strongly Agree"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "My motivation is lower when I am fatigued", "type": "likert" },
-    { "index": 1, "text": "Exercise brings on my fatigue", "type": "likert" },
-    { "index": 2, "text": "I am easily fatigued", "type": "likert" },
-    { "index": 3, "text": "Fatigue interferes with my physical functioning", "type": "likert" },
-    { "index": 4, "text": "Fatigue causes frequent problems for me", "type": "likert" },
-    { "index": 5, "text": "My fatigue prevents sustained physical functioning", "type": "likert" },
-    { "index": 6, "text": "Fatigue interferes with carrying out certain duties and responsibilities", "type": "likert" },
-    { "index": 7, "text": "Fatigue is among my three most disabling symptoms", "type": "likert" },
-    { "index": 8, "text": "Fatigue interferes with my work, family, or social life", "type": "likert" }
+    {
+      "index": 0,
+      "text": "My motivation is lower when I am fatigued",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Exercise brings on my fatigue",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I am easily fatigued",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Fatigue interferes with my physical functioning",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Fatigue causes frequent problems for me",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "My fatigue prevents sustained physical functioning",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Fatigue interferes with carrying out certain duties and responsibilities",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Fatigue is among my three most disabling symptoms",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Fatigue interferes with my work, family, or social life",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -91,7 +149,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 9, "max": 63 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 9,
+      "max": 63
+    }
   }
 }

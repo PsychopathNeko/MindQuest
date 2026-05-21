@@ -7,35 +7,127 @@
     "author": "Prigerson et al. (1995)",
     "license": "Free to use",
     "reference": "Prigerson HG, Maciejewski PK, Reynolds CF, et al. Inventory of Complicated Grief: A scale to measure maladaptive symptoms of loss. Psychiatry Res. 1995;59(1-2):65-79.",
-    "instruction": "请根据您目前的感受，选择最符合您实际情况的选项。"
+    "instruction": "请根据您目前的感受，选择最符合您实际情况的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "从不" },
-    { "value": 1, "label": "很少" },
-    { "value": 2, "label": "有时" },
-    { "value": 3, "label": "经常" },
-    { "value": 4, "label": "总是" }
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 1,
+      "label": "很少"
+    },
+    {
+      "value": 2,
+      "label": "有时"
+    },
+    {
+      "value": 3,
+      "label": "经常"
+    },
+    {
+      "value": 4,
+      "label": "总是"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我总是想着逝去的人，以至于很难做该做的事", "type": "likert" },
-    { "index": 1, "text": "关于逝去的人的回忆让我感到不安", "type": "likert" },
-    { "index": 2, "text": "我觉得自己无法接受这个人的离世", "type": "likert" },
-    { "index": 3, "text": "我渴望逝去的人", "type": "likert" },
-    { "index": 4, "text": "我被吸引到与逝去的人有关的地方和事物", "type": "likert" },
-    { "index": 5, "text": "我无法避免对逝去的人感到愤怒", "type": "likert" },
-    { "index": 6, "text": "我不敢相信这件事真的发生了", "type": "likert" },
-    { "index": 7, "text": "我感到震惊或麻木", "type": "likert" },
-    { "index": 8, "text": "自从他/她离世后，我很难信任别人", "type": "likert" },
-    { "index": 9, "text": "自从他/她离世后，我觉得自己失去了关心别人的能力", "type": "likert" },
-    { "index": 10, "text": "我感到身体的某些部位疼痛，或出现与逝者离世时相同的症状", "type": "likert" },
-    { "index": 11, "text": "我会刻意回避提醒我这个人已经不在的事物", "type": "likert" },
-    { "index": 12, "text": "我觉得没有逝去的人，生活是空虚的", "type": "likert" },
-    { "index": 13, "text": "我听到逝去的人的声音对我说话", "type": "likert" },
-    { "index": 14, "text": "我看到逝去的人站在我面前", "type": "likert" },
-    { "index": 15, "text": "我觉得去那些我和逝去的人有共同回忆的地方是不公平的", "type": "likert" },
-    { "index": 16, "text": "我对逝去的人感到苦涩", "type": "likert" },
-    { "index": 17, "text": "我嫉妒那些没有失去亲近之人的人", "type": "likert" },
-    { "index": 18, "text": "我觉得自己的未来没有目标或意义", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我总是想着逝去的人，以至于很难做该做的事",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "关于逝去的人的回忆让我感到不安",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我觉得自己无法接受这个人的离世",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我渴望逝去的人",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我被吸引到与逝去的人有关的地方和事物",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我无法避免对逝去的人感到愤怒",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我不敢相信这件事真的发生了",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我感到震惊或麻木",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "自从他/她离世后，我很难信任别人",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "自从他/她离世后，我觉得自己失去了关心别人的能力",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我感到身体的某些部位疼痛，或出现与逝者离世时相同的症状",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我会刻意回避提醒我这个人已经不在的事物",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我觉得没有逝去的人，生活是空虚的",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我听到逝去的人的声音对我说话",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我看到逝去的人站在我面前",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我觉得去那些我和逝去的人有共同回忆的地方是不公平的",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "我对逝去的人感到苦涩",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "我嫉妒那些没有失去亲近之人的人",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "我觉得自己的未来没有目标或意义",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -46,7 +138,8 @@
   "interpretation": {
     "ranges": [
       {
-        "min": 0, "max": 19,
+        "min": 0,
+        "max": 19,
         "level": "minimal",
         "label": "正常哀伤反应",
         "description": "您的哀伤程度在正常范围内。失去亲人后的悲伤是自然的情感反应。",
@@ -57,7 +150,8 @@
         ]
       },
       {
-        "min": 20, "max": 29,
+        "min": 20,
+        "max": 29,
         "level": "mild",
         "label": "需要关注的哀伤",
         "description": "您的哀伤症状需要关注。哀伤的过程因人而异，但如果持续困扰您，可以寻求帮助。",
@@ -69,7 +163,8 @@
         ]
       },
       {
-        "min": 30, "max": 49,
+        "min": 30,
+        "max": 49,
         "level": "moderate",
         "label": "复杂哀伤可能",
         "description": "您的得分超过筛查阈值（≥30），提示可能存在复杂哀伤/延长哀伤障碍。建议进行专业评估。",
@@ -81,7 +176,8 @@
         ]
       },
       {
-        "min": 50, "max": 76,
+        "min": 50,
+        "max": 76,
         "level": "severe",
         "label": "严重复杂哀伤",
         "description": "您报告了严重的复杂哀伤症状，这些症状可能严重影响您的日常功能和生活质量。强烈建议寻求专业帮助。",
@@ -97,7 +193,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 76 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 76
+    }
   }
 }

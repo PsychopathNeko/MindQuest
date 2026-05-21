@@ -7,7 +7,8 @@
     "author": "Antonovsky (1987)",
     "license": "Free to use",
     "reference": "Antonovsky A. Unraveling the mystery of health: How people manage stress and stay well. San Francisco: Jossey-Bass; 1987.",
-    "instruction": "请指出您对以下每个陈述的同意程度。没有对错之分。"
+    "instruction": "请指出您对以下每个陈述的同意程度。没有对错之分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

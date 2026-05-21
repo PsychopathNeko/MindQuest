@@ -7,32 +7,92 @@
     "author": "Spector PE (1985, adapted)",
     "license": "Free to use",
     "reference": "Spector PE. Measurement of human service staff satisfaction: Development of the Job Satisfaction Survey. Am J Community Psychol. 1985;13(6):693-713.",
-    "instruction": "请根据您对当前工作的感受，对以下每项陈述表示您的同意程度。"
+    "instruction": "请根据您对当前工作的感受，对以下每项陈述表示您的同意程度。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "非常不同意" },
-    { "value": 2, "label": "比较不同意" },
-    { "value": 3, "label": "略微不同意" },
-    { "value": 4, "label": "略微同意" },
-    { "value": 5, "label": "比较同意" },
-    { "value": 6, "label": "非常同意" }
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "比较不同意"
+    },
+    {
+      "value": 3,
+      "label": "略微不同意"
+    },
+    {
+      "value": 4,
+      "label": "略微同意"
+    },
+    {
+      "value": 5,
+      "label": "比较同意"
+    },
+    {
+      "value": 6,
+      "label": "非常同意"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我觉得我的薪酬与我的工作量相称", "type": "likert" },
-    { "index": 1, "text": "在我的工作中晋升机会实在太少了", "type": "likert" },
-    { "index": 2, "text": "我的上级在工作方面相当称职", "type": "likert" },
-    { "index": 3, "text": "我对所获得的福利不满意", "type": "likert" },
-    { "index": 4, "text": "当我做得好时，我能获得应有的认可", "type": "likert" },
-    { "index": 5, "text": "许多规章制度让人很难把工作做好", "type": "likert" },
-    { "index": 6, "text": "我喜欢和我一起工作的人", "type": "likert" },
-    { "index": 7, "text": "我有时觉得我的工作毫无意义", "type": "likert" },
-    { "index": 8, "text": "组织内部的沟通看起来很顺畅", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我觉得我的薪酬与我的工作量相称",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "在我的工作中晋升机会实在太少了",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我的上级在工作方面相当称职",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我对所获得的福利不满意",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "当我做得好时，我能获得应有的认可",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "许多规章制度让人很难把工作做好",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我喜欢和我一起工作的人",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我有时觉得我的工作毫无意义",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "组织内部的沟通看起来很顺畅",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 54,
     "maxItemScore": 6,
-    "reverseItems": [1, 3, 5, 7],
+    "reverseItems": [
+      1,
+      3,
+      5,
+      7
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -94,7 +154,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 9, "max": 54 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 9,
+      "max": 54
+    }
   }
 }

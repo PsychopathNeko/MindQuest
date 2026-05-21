@@ -7,7 +7,8 @@
     "author": "Prins, Bovin, Smolenski et al. (2016)",
     "license": "Public Domain",
     "reference": "Prins A, Bovin MJ, Smolenski DJ, et al. The Primary Care PTSD Screen for DSM-5 (PC-PTSD-5): development and evaluation within a veteran primary care sample. J Gen Intern Med. 2016;31(10):1206-1211.",
-    "instruction": "有时候，一些非常有压力的事件或经历会发生在人身上，例如严重的事故、火灾、灾难、身体或性侵害，或者被迫离开家园。请回答以下关于过去一个月内与此类创伤性事件相关的体验。"
+    "instruction": "有时候，一些非常有压力的事件或经历会发生在人身上，例如严重的事故、火灾、灾难、身体或性侵害，或者被迫离开家园。请回答以下关于过去一个月内与此类创伤性事件相关的体验。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": null,
   "questions": [
@@ -77,7 +78,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 5 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 5
+    }
   }
 }

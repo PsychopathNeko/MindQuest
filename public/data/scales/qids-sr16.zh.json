@@ -7,7 +7,8 @@
     "author": "Rush AJ, et al. (2003)",
     "license": "Public Domain",
     "reference": "Rush AJ, et al. The 16-Item Quick Inventory of Depressive Symptomatology (QIDS), clinician rating (QIDS-C), and self-report (QIDS-SR): a psychometric evaluation in patients with chronic major depression. Biol Psychiatry. 2003;54(5):573-583.",
-    "instruction": "请根据过去七天的情况，选择最符合您状况的选项。"
+    "instruction": "请根据过去七天的情况，选择最符合您状况的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {
@@ -222,5 +223,14 @@
       "min": 0,
       "max": 27
     }
+  },
+  "crisisConfig": {
+    "type": "item",
+    "items": [
+      {
+        "questionIndex": 11,
+        "threshold": 1
+      }
+    ]
   }
 }

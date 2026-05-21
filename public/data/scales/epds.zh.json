@@ -7,7 +7,8 @@
     "author": "Cox, Holden & Sagovsky (1987)",
     "license": "Free to use",
     "reference": "Cox JL, Holden JM, Sagovsky R. Detection of postnatal depression: Development of the 10-item Edinburgh Postnatal Depression Scale. Br J Psychiatry. 1987;150:782-786.",
-    "instruction": "由于您正在怀孕或最近刚生了宝宝，我们想了解您的感受。请选择最接近您过去7天感受的选项，而不仅仅是您今天的感受。"
+    "instruction": "由于您正在怀孕或最近刚生了宝宝，我们想了解您的感受。请选择最接近您过去7天感受的选项，而不仅仅是您今天的感受。",
+    "population": "围产期女性"
   },
   "commonChoices": null,
   "questions": [
@@ -16,10 +17,22 @@
       "text": "我能看到事物有趣的一面，并笑得开心",
       "type": "likert",
       "choices": [
-        { "value": 0, "label": "同以前一样" },
-        { "value": 1, "label": "没有以前那么多" },
-        { "value": 2, "label": "肯定比以前少了" },
-        { "value": 3, "label": "完全不能" }
+        {
+          "value": 0,
+          "label": "同以前一样"
+        },
+        {
+          "value": 1,
+          "label": "没有以前那么多"
+        },
+        {
+          "value": 2,
+          "label": "肯定比以前少了"
+        },
+        {
+          "value": 3,
+          "label": "完全不能"
+        }
       ]
     },
     {
@@ -27,10 +40,22 @@
       "text": "我欣然期待未来的一切",
       "type": "likert",
       "choices": [
-        { "value": 0, "label": "同以前一样" },
-        { "value": 1, "label": "没有以前那么多" },
-        { "value": 2, "label": "肯定比以前少了" },
-        { "value": 3, "label": "几乎不能" }
+        {
+          "value": 0,
+          "label": "同以前一样"
+        },
+        {
+          "value": 1,
+          "label": "没有以前那么多"
+        },
+        {
+          "value": 2,
+          "label": "肯定比以前少了"
+        },
+        {
+          "value": 3,
+          "label": "几乎不能"
+        }
       ]
     },
     {
@@ -38,10 +63,22 @@
       "text": "当事情出错时，我会不必要地责备自己",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "是的，大多数时候如此" },
-        { "value": 2, "label": "是的，有些时候如此" },
-        { "value": 1, "label": "不太经常" },
-        { "value": 0, "label": "不，从来没有" }
+        {
+          "value": 3,
+          "label": "是的，大多数时候如此"
+        },
+        {
+          "value": 2,
+          "label": "是的，有些时候如此"
+        },
+        {
+          "value": 1,
+          "label": "不太经常"
+        },
+        {
+          "value": 0,
+          "label": "不，从来没有"
+        }
       ]
     },
     {
@@ -49,10 +86,22 @@
       "text": "我无缘无故感到焦虑和担心",
       "type": "likert",
       "choices": [
-        { "value": 0, "label": "不，一点也没有" },
-        { "value": 1, "label": "几乎没有" },
-        { "value": 2, "label": "是的，有时候" },
-        { "value": 3, "label": "是的，经常如此" }
+        {
+          "value": 0,
+          "label": "不，一点也没有"
+        },
+        {
+          "value": 1,
+          "label": "几乎没有"
+        },
+        {
+          "value": 2,
+          "label": "是的，有时候"
+        },
+        {
+          "value": 3,
+          "label": "是的，经常如此"
+        }
       ]
     },
     {
@@ -60,10 +109,22 @@
       "text": "我无缘无故感到害怕和惊慌",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "是的，相当多" },
-        { "value": 2, "label": "是的，有时候" },
-        { "value": 1, "label": "不，不太多" },
-        { "value": 0, "label": "不，一点也没有" }
+        {
+          "value": 3,
+          "label": "是的，相当多"
+        },
+        {
+          "value": 2,
+          "label": "是的，有时候"
+        },
+        {
+          "value": 1,
+          "label": "不，不太多"
+        },
+        {
+          "value": 0,
+          "label": "不，一点也没有"
+        }
       ]
     },
     {
@@ -71,10 +132,22 @@
       "text": "很多事情冲着我来，使我透不过气",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "是的，大多数时候我都无法应对" },
-        { "value": 2, "label": "是的，有时我不能像平常那样应对" },
-        { "value": 1, "label": "不，大多数时候我都应对得很好" },
-        { "value": 0, "label": "不，我一直都应对得很好" }
+        {
+          "value": 3,
+          "label": "是的，大多数时候我都无法应对"
+        },
+        {
+          "value": 2,
+          "label": "是的，有时我不能像平常那样应对"
+        },
+        {
+          "value": 1,
+          "label": "不，大多数时候我都应对得很好"
+        },
+        {
+          "value": 0,
+          "label": "不，我一直都应对得很好"
+        }
       ]
     },
     {
@@ -82,10 +155,22 @@
       "text": "我很不开心，以至于失眠",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "是的，大多数时候如此" },
-        { "value": 2, "label": "是的，有时候如此" },
-        { "value": 1, "label": "不太经常" },
-        { "value": 0, "label": "不，一点也没有" }
+        {
+          "value": 3,
+          "label": "是的，大多数时候如此"
+        },
+        {
+          "value": 2,
+          "label": "是的，有时候如此"
+        },
+        {
+          "value": 1,
+          "label": "不太经常"
+        },
+        {
+          "value": 0,
+          "label": "不，一点也没有"
+        }
       ]
     },
     {
@@ -93,10 +178,22 @@
       "text": "我感到悲伤或难受",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "是的，大多数时候如此" },
-        { "value": 2, "label": "是的，相当经常" },
-        { "value": 1, "label": "不太经常" },
-        { "value": 0, "label": "不，一点也没有" }
+        {
+          "value": 3,
+          "label": "是的，大多数时候如此"
+        },
+        {
+          "value": 2,
+          "label": "是的，相当经常"
+        },
+        {
+          "value": 1,
+          "label": "不太经常"
+        },
+        {
+          "value": 0,
+          "label": "不，一点也没有"
+        }
       ]
     },
     {
@@ -104,10 +201,22 @@
       "text": "我很不开心以至于哭泣",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "是的，大多数时候如此" },
-        { "value": 2, "label": "是的，相当经常" },
-        { "value": 1, "label": "偶尔如此" },
-        { "value": 0, "label": "不，从来没有" }
+        {
+          "value": 3,
+          "label": "是的，大多数时候如此"
+        },
+        {
+          "value": 2,
+          "label": "是的，相当经常"
+        },
+        {
+          "value": 1,
+          "label": "偶尔如此"
+        },
+        {
+          "value": 0,
+          "label": "不，从来没有"
+        }
       ]
     },
     {
@@ -115,10 +224,22 @@
       "text": "我有伤害自己的念头",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "是的，相当经常" },
-        { "value": 2, "label": "有时候" },
-        { "value": 1, "label": "几乎没有" },
-        { "value": 0, "label": "从来没有" }
+        {
+          "value": 3,
+          "label": "是的，相当经常"
+        },
+        {
+          "value": 2,
+          "label": "有时候"
+        },
+        {
+          "value": 1,
+          "label": "几乎没有"
+        },
+        {
+          "value": 0,
+          "label": "从来没有"
+        }
       ]
     }
   ],
@@ -185,7 +306,21 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 30
+    }
+  },
+  "crisisConfig": {
+    "type": "item",
+    "items": [
+      {
+        "questionIndex": 9,
+        "threshold": 1
+      }
+    ]
   }
 }

@@ -7,41 +7,139 @@
     "author": "Radloff (1977)",
     "license": "Public Domain",
     "reference": "Radloff LS. The CES-D Scale: A self-report depression scale for research in the general population. Appl Psychol Meas. 1977;1(3):385-401.",
-    "instruction": "以下是一些您可能有过的感受或行为方式，请指出在过去一周内您有这种感觉的频率。"
+    "instruction": "以下是一些您可能有过的感受或行为方式，请指出在过去一周内您有这种感觉的频率。",
+    "population": "一般人群（15岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "很少或没有（不到1天）" },
-    { "value": 1, "label": "有时（1-2天）" },
-    { "value": 2, "label": "时常（3-4天）" },
-    { "value": 3, "label": "多数时间或持续（5-7天）" }
+    {
+      "value": 0,
+      "label": "很少或没有（不到1天）"
+    },
+    {
+      "value": 1,
+      "label": "有时（1-2天）"
+    },
+    {
+      "value": 2,
+      "label": "时常（3-4天）"
+    },
+    {
+      "value": 3,
+      "label": "多数时间或持续（5-7天）"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我被一些平常不会困扰我的事情所困扰", "type": "likert" },
-    { "index": 1, "text": "我不想吃东西，胃口不好", "type": "likert" },
-    { "index": 2, "text": "即使有家人或朋友帮助，我也无法摆脱忧郁", "type": "likert" },
-    { "index": 3, "text": "我觉得自己和别人一样好", "type": "likert" },
-    { "index": 4, "text": "我难以集中精力做事", "type": "likert" },
-    { "index": 5, "text": "我感到抑郁", "type": "likert" },
-    { "index": 6, "text": "我觉得做每件事都很费劲", "type": "likert" },
-    { "index": 7, "text": "我对未来充满希望", "type": "likert" },
-    { "index": 8, "text": "我觉得自己的人生是失败的", "type": "likert" },
-    { "index": 9, "text": "我感到恐惧", "type": "likert" },
-    { "index": 10, "text": "我睡眠不安稳", "type": "likert" },
-    { "index": 11, "text": "我感到快乐", "type": "likert" },
-    { "index": 12, "text": "我比平时说话少了", "type": "likert" },
-    { "index": 13, "text": "我感到孤独", "type": "likert" },
-    { "index": 14, "text": "人们对我不友善", "type": "likert" },
-    { "index": 15, "text": "我享受生活", "type": "likert" },
-    { "index": 16, "text": "我有哭泣的时候", "type": "likert" },
-    { "index": 17, "text": "我感到悲伤", "type": "likert" },
-    { "index": 18, "text": "我觉得别人不喜欢我", "type": "likert" },
-    { "index": 19, "text": "我提不起劲来做事", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我被一些平常不会困扰我的事情所困扰",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我不想吃东西，胃口不好",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "即使有家人或朋友帮助，我也无法摆脱忧郁",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我觉得自己和别人一样好",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我难以集中精力做事",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我感到抑郁",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我觉得做每件事都很费劲",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我对未来充满希望",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我觉得自己的人生是失败的",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我感到恐惧",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我睡眠不安稳",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我感到快乐",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我比平时说话少了",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我感到孤独",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "人们对我不友善",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我享受生活",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "我有哭泣的时候",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "我感到悲伤",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "我觉得别人不喜欢我",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "我提不起劲来做事",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 60,
     "maxItemScore": 3,
-    "reverseItems": [3, 7, 11, 15],
+    "reverseItems": [
+      3,
+      7,
+      11,
+      15
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -102,7 +200,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 60 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 60
+    }
   }
 }

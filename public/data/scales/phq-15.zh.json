@@ -7,29 +7,99 @@
     "author": "Kroenke, Spitzer & Williams (2002)",
     "license": "Public Domain",
     "reference": "Kroenke K, Spitzer RL, Williams JBW. The PHQ-15: validity of a new measure for evaluating the severity of somatic symptoms. Psychosom Med. 2002;64(2):258-266.",
-    "instruction": "在过去4周内，以下这些问题对您的困扰程度如何？"
+    "instruction": "在过去4周内，以下这些问题对您的困扰程度如何？",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "完全没有" },
-    { "value": 1, "label": "有一些困扰" },
-    { "value": 2, "label": "非常困扰" }
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "有一些困扰"
+    },
+    {
+      "value": 2,
+      "label": "非常困扰"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "胃痛", "type": "likert" },
-    { "index": 1, "text": "背痛", "type": "likert" },
-    { "index": 2, "text": "手臂、腿部或关节（膝盖、髋部等）疼痛", "type": "likert" },
-    { "index": 3, "text": "月经痉挛或经期问题（仅限女性）", "type": "likert" },
-    { "index": 4, "text": "头痛", "type": "likert" },
-    { "index": 5, "text": "胸痛", "type": "likert" },
-    { "index": 6, "text": "头晕", "type": "likert" },
-    { "index": 7, "text": "昏厥", "type": "likert" },
-    { "index": 8, "text": "心跳加速或心悸", "type": "likert" },
-    { "index": 9, "text": "呼吸急促", "type": "likert" },
-    { "index": 10, "text": "性交时疼痛或出现问题", "type": "likert" },
-    { "index": 11, "text": "便秘、腹泻或排便异常", "type": "likert" },
-    { "index": 12, "text": "恶心、胀气或消化不良", "type": "likert" },
-    { "index": 13, "text": "感到疲倦或精力不足", "type": "likert" },
-    { "index": 14, "text": "入睡困难", "type": "likert" }
+    {
+      "index": 0,
+      "text": "胃痛",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "背痛",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "手臂、腿部或关节（膝盖、髋部等）疼痛",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "月经痉挛或经期问题（仅限女性）",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "头痛",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "胸痛",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "头晕",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "昏厥",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "心跳加速或心悸",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "呼吸急促",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "性交时疼痛或出现问题",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "便秘、腹泻或排便异常",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "恶心、胀气或消化不良",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "感到疲倦或精力不足",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "入睡困难",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -94,7 +164,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 30
+    }
   }
 }

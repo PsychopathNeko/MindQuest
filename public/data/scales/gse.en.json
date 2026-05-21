@@ -7,25 +7,78 @@
     "author": "Schwarzer & Jerusalem (1995)",
     "license": "Free to use",
     "reference": "Schwarzer R, Jerusalem M. Generalized Self-Efficacy scale. In: Weinman J, et al., eds. Measures in health psychology. 1995:35-37.",
-    "instruction": "Please rate how true each statement is for you."
+    "instruction": "Please rate how true each statement is for you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Not at all true" },
-    { "value": 2, "label": "Hardly true" },
-    { "value": 3, "label": "Moderately true" },
-    { "value": 4, "label": "Exactly true" }
+    {
+      "value": 1,
+      "label": "Not at all true"
+    },
+    {
+      "value": 2,
+      "label": "Hardly true"
+    },
+    {
+      "value": 3,
+      "label": "Moderately true"
+    },
+    {
+      "value": 4,
+      "label": "Exactly true"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I can always manage to solve difficult problems if I try hard enough", "type": "likert" },
-    { "index": 1, "text": "If someone opposes me, I can find the means and ways to get what I want", "type": "likert" },
-    { "index": 2, "text": "It is easy for me to stick to my aims and accomplish my goals", "type": "likert" },
-    { "index": 3, "text": "I am confident that I could deal efficiently with unexpected events", "type": "likert" },
-    { "index": 4, "text": "Thanks to my resourcefulness, I know how to handle unforeseen situations", "type": "likert" },
-    { "index": 5, "text": "I can solve most problems if I invest the necessary effort", "type": "likert" },
-    { "index": 6, "text": "I can remain calm when facing difficulties because I can rely on my coping abilities", "type": "likert" },
-    { "index": 7, "text": "When I am confronted with a problem, I can usually find several solutions", "type": "likert" },
-    { "index": 8, "text": "If I am in trouble, I can usually think of a solution", "type": "likert" },
-    { "index": 9, "text": "I can usually handle whatever comes my way", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I can always manage to solve difficult problems if I try hard enough",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "If someone opposes me, I can find the means and ways to get what I want",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "It is easy for me to stick to my aims and accomplish my goals",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am confident that I could deal efficiently with unexpected events",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Thanks to my resourcefulness, I know how to handle unforeseen situations",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I can solve most problems if I invest the necessary effort",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I can remain calm when facing difficulties because I can rely on my coping abilities",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "When I am confronted with a problem, I can usually find several solutions",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "If I am in trouble, I can usually think of a solution",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I can usually handle whatever comes my way",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -78,7 +131,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 10, "max": 40 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 40
+    }
   }
 }

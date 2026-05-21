@@ -7,26 +7,82 @@
     "author": "Tylka & Wood-Barcalow (2015)",
     "license": "Free to use",
     "reference": "Tylka TL, Wood-Barcalow NL. The Body Appreciation Scale-2: item refinement and psychometric evaluation. Body Image. 2015;12:53-67.",
-    "instruction": "请根据以下陈述与您的实际感受的符合程度进行评分。"
+    "instruction": "请根据以下陈述与您的实际感受的符合程度进行评分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "从不" },
-    { "value": 2, "label": "很少" },
-    { "value": 3, "label": "有时" },
-    { "value": 4, "label": "经常" },
-    { "value": 5, "label": "总是" }
+    {
+      "value": 1,
+      "label": "从不"
+    },
+    {
+      "value": 2,
+      "label": "很少"
+    },
+    {
+      "value": 3,
+      "label": "有时"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "总是"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我尊重自己的身体", "type": "likert" },
-    { "index": 1, "text": "我对自己的身体感觉良好", "type": "likert" },
-    { "index": 2, "text": "总的来说，我觉得自己的身体是好的", "type": "likert" },
-    { "index": 3, "text": "我对自己身体的不完美持积极态度", "type": "likert" },
-    { "index": 4, "text": "我认为自己的身体至少有一些好的品质", "type": "likert" },
-    { "index": 5, "text": "我对身体采取积极的态度", "type": "likert" },
-    { "index": 6, "text": "我欣赏我身体的各种不同特征", "type": "likert" },
-    { "index": 7, "text": "我对自己身体的独特之处感到舒适", "type": "likert" },
-    { "index": 8, "text": "我关注身体的需要并照顾它", "type": "likert" },
-    { "index": 9, "text": "我内心对自己的身体感到自在", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我尊重自己的身体",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我对自己的身体感觉良好",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "总的来说，我觉得自己的身体是好的",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我对自己身体的不完美持积极态度",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我认为自己的身体至少有一些好的品质",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我对身体采取积极的态度",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我欣赏我身体的各种不同特征",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我对自己身体的独特之处感到舒适",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我关注身体的需要并照顾它",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我内心对自己的身体感到自在",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -90,7 +146,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 10, "max": 50 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 50
+    }
   }
 }

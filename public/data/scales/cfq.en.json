@@ -7,41 +7,157 @@
     "author": "Broadbent, Cooper, FitzGerald & Parkes (1982)",
     "license": "Free to use",
     "reference": "Broadbent DE, Cooper PF, FitzGerald P, Parkes KR. The Cognitive Failures Questionnaire (CFQ) and its correlates. Br J Clin Psychol. 1982;21(1):1-16.",
-    "instruction": "The following questions are about minor mistakes which everyone makes from time to time, but some of which happen more often than others. We want to know how often these things have happened to you in the past six months."
+    "instruction": "The following questions are about minor mistakes which everyone makes from time to time, but some of which happen more often than others. We want to know how often these things have happened to you in the past six months.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Never" },
-    { "value": 1, "label": "Very rarely" },
-    { "value": 2, "label": "Occasionally" },
-    { "value": 3, "label": "Quite often" },
-    { "value": 4, "label": "Very often" }
+    {
+      "value": 0,
+      "label": "Never"
+    },
+    {
+      "value": 1,
+      "label": "Very rarely"
+    },
+    {
+      "value": 2,
+      "label": "Occasionally"
+    },
+    {
+      "value": 3,
+      "label": "Quite often"
+    },
+    {
+      "value": 4,
+      "label": "Very often"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Do you read something and find you haven't been thinking about it and must read it again?", "type": "likert" },
-    { "index": 1, "text": "Do you find you forget why you went from one part of the house to the other?", "type": "likert" },
-    { "index": 2, "text": "Do you fail to notice signposts on the road?", "type": "likert" },
-    { "index": 3, "text": "Do you find you confuse right and left when giving directions?", "type": "likert" },
-    { "index": 4, "text": "Do you bump into people?", "type": "likert" },
-    { "index": 5, "text": "Do you find you forget whether you've turned off a light or a fire or locked the door?", "type": "likert" },
-    { "index": 6, "text": "Do you fail to listen to people's names when you are meeting them?", "type": "likert" },
-    { "index": 7, "text": "Do you say something and realize afterwards that it might be taken as insulting?", "type": "likert" },
-    { "index": 8, "text": "Do you fail to hear people speaking to you when you are doing something else?", "type": "likert" },
-    { "index": 9, "text": "Do you lose your temper and regret it?", "type": "likert" },
-    { "index": 10, "text": "Do you leave important letters unanswered for days?", "type": "likert" },
-    { "index": 11, "text": "Do you find you forget which way to turn on a road you know well but rarely use?", "type": "likert" },
-    { "index": 12, "text": "Do you fail to see what you want in a supermarket (although it's there)?", "type": "likert" },
-    { "index": 13, "text": "Do you find yourself suddenly wondering whether you've used a word correctly?", "type": "likert" },
-    { "index": 14, "text": "Do you have trouble making up your mind?", "type": "likert" },
-    { "index": 15, "text": "Do you find you forget appointments?", "type": "likert" },
-    { "index": 16, "text": "Do you forget where you put something like a newspaper or a book?", "type": "likert" },
-    { "index": 17, "text": "Do you find you accidentally throw away the thing you want and keep what you meant to throw away?", "type": "likert" },
-    { "index": 18, "text": "Do you daydream when you ought to be listening to something?", "type": "likert" },
-    { "index": 19, "text": "Do you find you forget people's names?", "type": "likert" },
-    { "index": 20, "text": "Do you start doing one thing at home and get distracted into doing something different?", "type": "likert" },
-    { "index": 21, "text": "Do you find you can't quite remember something although it's \"on the tip of your tongue\"?", "type": "likert" },
-    { "index": 22, "text": "Do you find you forget what you came to the shops to buy?", "type": "likert" },
-    { "index": 23, "text": "Do you drop things?", "type": "likert" },
-    { "index": 24, "text": "Do you find you can't think of anything to say?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Do you read something and find you haven't been thinking about it and must read it again?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Do you find you forget why you went from one part of the house to the other?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Do you fail to notice signposts on the road?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Do you find you confuse right and left when giving directions?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Do you bump into people?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Do you find you forget whether you've turned off a light or a fire or locked the door?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Do you fail to listen to people's names when you are meeting them?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Do you say something and realize afterwards that it might be taken as insulting?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Do you fail to hear people speaking to you when you are doing something else?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Do you lose your temper and regret it?",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Do you leave important letters unanswered for days?",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Do you find you forget which way to turn on a road you know well but rarely use?",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Do you fail to see what you want in a supermarket (although it's there)?",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Do you find yourself suddenly wondering whether you've used a word correctly?",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Do you have trouble making up your mind?",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Do you find you forget appointments?",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Do you forget where you put something like a newspaper or a book?",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "Do you find you accidentally throw away the thing you want and keep what you meant to throw away?",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "Do you daydream when you ought to be listening to something?",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "Do you find you forget people's names?",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "Do you start doing one thing at home and get distracted into doing something different?",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "Do you find you can't quite remember something although it's \"on the tip of your tongue\"?",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "Do you find you forget what you came to the shops to buy?",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "Do you drop things?",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "Do you find you can't think of anything to say?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -108,7 +224,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 100 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 100
+    }
   }
 }

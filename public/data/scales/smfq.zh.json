@@ -7,7 +7,8 @@
     "author": "Angold A, et al. (1995)",
     "license": "Free to use",
     "reference": "Angold A, et al. Development of a short questionnaire for use in epidemiological studies of depression in children and adolescents. Int J Methods Psychiatr Res. 1995;5:237-249.",
-    "instruction": "以下句子描述了人们可能有的感受或行为。请根据你过去两周的感受，选择最符合你的选项。"
+    "instruction": "以下句子描述了人们可能有的感受或行为。请根据你过去两周的感受，选择最符合你的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

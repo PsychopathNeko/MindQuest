@@ -7,27 +7,86 @@
     "author": "Kwon et al. (2013)",
     "license": "Free to use",
     "reference": "Kwon M, et al. The smartphone addiction scale: development and validation of a short version for adolescents. PLoS One. 2013;8(12):e83558.",
-    "instruction": "请根据你的实际情况，选择最符合你手机使用行为的选项。"
+    "instruction": "请根据你的实际情况，选择最符合你手机使用行为的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "非常不同意" },
-    { "value": 2, "label": "不同意" },
-    { "value": 3, "label": "有点不同意" },
-    { "value": 4, "label": "有点同意" },
-    { "value": 5, "label": "同意" },
-    { "value": 6, "label": "非常同意" }
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "有点同意"
+    },
+    {
+      "value": 5,
+      "label": "同意"
+    },
+    {
+      "value": 6,
+      "label": "非常同意"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "因为使用手机而耽误了计划中的工作或学习", "type": "likert" },
-    { "index": 1, "text": "因为使用手机而难以集中注意力上课、做作业或工作", "type": "likert" },
-    { "index": 2, "text": "使用手机时感到手腕或脖子后面疼痛", "type": "likert" },
-    { "index": 3, "text": "觉得自己无法忍受没有手机的生活", "type": "likert" },
-    { "index": 4, "text": "不拿着手机就会感到急躁和焦虑", "type": "likert" },
-    { "index": 5, "text": "即使不在使用手机，脑海中也总是想着手机", "type": "likert" },
-    { "index": 6, "text": "即使手机使用已经严重影响了日常生活，我也不会放弃使用", "type": "likert" },
-    { "index": 7, "text": "不断查看手机以免错过社交平台上的对话或动态", "type": "likert" },
-    { "index": 8, "text": "使用手机的时间总是比预期的更长", "type": "likert" },
-    { "index": 9, "text": "周围的人告诉我，我使用手机太多了", "type": "likert" }
+    {
+      "index": 0,
+      "text": "因为使用手机而耽误了计划中的工作或学习",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "因为使用手机而难以集中注意力上课、做作业或工作",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "使用手机时感到手腕或脖子后面疼痛",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "觉得自己无法忍受没有手机的生活",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "不拿着手机就会感到急躁和焦虑",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "即使不在使用手机，脑海中也总是想着手机",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "即使手机使用已经严重影响了日常生活，我也不会放弃使用",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "不断查看手机以免错过社交平台上的对话或动态",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "使用手机的时间总是比预期的更长",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "周围的人告诉我，我使用手机太多了",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -92,7 +151,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 10, "max": 60 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 60
+    }
   }
 }

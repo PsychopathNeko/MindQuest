@@ -7,38 +7,136 @@
     "author": "Morin et al. (2007)",
     "license": "Free to use",
     "reference": "Morin CM, Vallieres A, Ivers H. Dysfunctional beliefs and attitudes about sleep (DBAS): Validation of a brief version (DBAS-16). Sleep. 2007;30(11):1547-1554.",
-    "instruction": "以下列出了一些关于睡眠的信念和态度。请从0（非常不同意）到10（非常同意）中选择一个数字，表示您对每条陈述的认同程度。"
+    "instruction": "以下列出了一些关于睡眠的信念和态度。请从0（非常不同意）到10（非常同意）中选择一个数字，表示您对每条陈述的认同程度。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "非常不同意" },
-    { "value": 1, "label": "1" },
-    { "value": 2, "label": "2" },
-    { "value": 3, "label": "3" },
-    { "value": 4, "label": "4" },
-    { "value": 5, "label": "中立" },
-    { "value": 6, "label": "6" },
-    { "value": 7, "label": "7" },
-    { "value": 8, "label": "8" },
-    { "value": 9, "label": "9" },
-    { "value": 10, "label": "非常同意" }
+    {
+      "value": 0,
+      "label": "非常不同意"
+    },
+    {
+      "value": 1,
+      "label": "1"
+    },
+    {
+      "value": 2,
+      "label": "2"
+    },
+    {
+      "value": 3,
+      "label": "3"
+    },
+    {
+      "value": 4,
+      "label": "4"
+    },
+    {
+      "value": 5,
+      "label": "中立"
+    },
+    {
+      "value": 6,
+      "label": "6"
+    },
+    {
+      "value": 7,
+      "label": "7"
+    },
+    {
+      "value": 8,
+      "label": "8"
+    },
+    {
+      "value": 9,
+      "label": "9"
+    },
+    {
+      "value": 10,
+      "label": "非常同意"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我需要8小时的睡眠才能感觉精力充沛，白天才能正常运转", "type": "likert" },
-    { "index": 1, "text": "当我某晚没有获得足够的睡眠时，我需要在第二天通过午睡或在第二天晚上睡更长时间来补觉", "type": "likert" },
-    { "index": 2, "text": "我担心慢性失眠可能会对我的身体健康产生严重后果", "type": "likert" },
-    { "index": 3, "text": "我担心自己可能会失去控制睡眠的能力", "type": "likert" },
-    { "index": 4, "text": "我知道睡不好之后，第二天的日常活动会受到影响", "type": "likert" },
-    { "index": 5, "text": "为了白天保持警觉和正常运转，我认为吃安眠药总比睡不好要强", "type": "likert" },
-    { "index": 6, "text": "当我白天感到烦躁、沮丧或焦虑时，主要是因为前一晚没有睡好", "type": "likert" },
-    { "index": 7, "text": "如果某一晚睡得不好，我知道整个星期的睡眠计划都会被打乱", "type": "likert" },
-    { "index": 8, "text": "如果晚上没有充足的睡眠，我第二天几乎无法正常运转", "type": "likert" },
-    { "index": 9, "text": "我永远无法预测自己会睡得好还是不好", "type": "likert" },
-    { "index": 10, "text": "我几乎没有能力管理睡眠不佳带来的负面后果", "type": "likert" },
-    { "index": 11, "text": "当我感到疲倦、没有精力或白天似乎无法正常运转时，通常是因为前一晚没有睡好", "type": "likert" },
-    { "index": 12, "text": "我认为失眠本质上是化学物质失衡的结果", "type": "likert" },
-    { "index": 13, "text": "我觉得失眠正在毁掉我享受生活的能力，阻碍我做自己想做的事", "type": "likert" },
-    { "index": 14, "text": "药物可能是解决失眠的唯一方法", "type": "likert" },
-    { "index": 15, "text": "睡不好之后，我会回避或取消社交、家庭等方面的安排", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我需要8小时的睡眠才能感觉精力充沛，白天才能正常运转",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "当我某晚没有获得足够的睡眠时，我需要在第二天通过午睡或在第二天晚上睡更长时间来补觉",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我担心慢性失眠可能会对我的身体健康产生严重后果",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我担心自己可能会失去控制睡眠的能力",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我知道睡不好之后，第二天的日常活动会受到影响",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "为了白天保持警觉和正常运转，我认为吃安眠药总比睡不好要强",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "当我白天感到烦躁、沮丧或焦虑时，主要是因为前一晚没有睡好",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "如果某一晚睡得不好，我知道整个星期的睡眠计划都会被打乱",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "如果晚上没有充足的睡眠，我第二天几乎无法正常运转",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我永远无法预测自己会睡得好还是不好",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我几乎没有能力管理睡眠不佳带来的负面后果",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "当我感到疲倦、没有精力或白天似乎无法正常运转时，通常是因为前一晚没有睡好",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我认为失眠本质上是化学物质失衡的结果",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我觉得失眠正在毁掉我享受生活的能力，阻碍我做自己想做的事",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "药物可能是解决失眠的唯一方法",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "睡不好之后，我会回避或取消社交、家庭等方面的安排",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -106,7 +204,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 160 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 160
+    }
   }
 }

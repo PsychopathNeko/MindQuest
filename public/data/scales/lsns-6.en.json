@@ -7,7 +7,8 @@
     "author": "Lubben et al. (2006)",
     "license": "Free to use",
     "reference": "Lubben J, Blozik E, Gillmann G, Iliffe S, von Renteln Kruse W, Beck JC, Stuck AE. Performance of an abbreviated version of the Lubben Social Network Scale among three European community-dwelling older adult populations. Gerontologist. 2006;46(4):503-513.",
-    "instruction": "The following questions are about your social network. Please answer each question as accurately as possible."
+    "instruction": "The following questions are about your social network. Please answer each question as accurately as possible.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

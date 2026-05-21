@@ -10,35 +10,113 @@
     "estimatedMinutes": 3,
     "license": "Free for research use",
     "reference": "Tangney JP, Baumeister RF, Boone AL. High self-control predicts good adjustment, less pathology, better grades, and interpersonal success. J Pers. 2004;72(2):271-324.",
-    "instruction": "请根据以下描述与您日常表现的符合程度进行评分。"
+    "instruction": "请根据以下描述与您日常表现的符合程度进行评分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "完全不像我" },
-    { "value": 2, "label": "有点像我" },
-    { "value": 3, "label": "比较像我" },
-    { "value": 4, "label": "大部分像我" },
-    { "value": 5, "label": "非常像我" }
+    {
+      "value": 1,
+      "label": "完全不像我"
+    },
+    {
+      "value": 2,
+      "label": "有点像我"
+    },
+    {
+      "value": 3,
+      "label": "比较像我"
+    },
+    {
+      "value": 4,
+      "label": "大部分像我"
+    },
+    {
+      "value": 5,
+      "label": "非常像我"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我善于抵制诱惑。", "type": "likert" },
-    { "index": 1, "text": "我很难改掉坏习惯。", "type": "likert" },
-    { "index": 2, "text": "我很懒。", "type": "likert" },
-    { "index": 3, "text": "我会说一些不恰当的话。", "type": "likert" },
-    { "index": 4, "text": "如果某些事情很有趣，即使对我有害，我也会去做。", "type": "likert" },
-    { "index": 5, "text": "我会拒绝对我不好的事物。", "type": "likert" },
-    { "index": 6, "text": "我希望自己有更多的自律能力。", "type": "likert" },
-    { "index": 7, "text": "别人会说我有钢铁般的自律能力。", "type": "likert" },
-    { "index": 8, "text": "享乐和玩耍有时会让我无法完成工作。", "type": "likert" },
-    { "index": 9, "text": "我很难集中注意力。", "type": "likert" },
-    { "index": 10, "text": "我能够有效地朝着长期目标努力。", "type": "likert" },
-    { "index": 11, "text": "有时候即使我知道是错的，我也无法阻止自己去做某些事情。", "type": "likert" },
-    { "index": 12, "text": "我经常不经过充分考虑就采取行动。", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我善于抵制诱惑。",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我很难改掉坏习惯。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我很懒。",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我会说一些不恰当的话。",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "如果某些事情很有趣，即使对我有害，我也会去做。",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我会拒绝对我不好的事物。",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我希望自己有更多的自律能力。",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "别人会说我有钢铁般的自律能力。",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "享乐和玩耍有时会让我无法完成工作。",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我很难集中注意力。",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我能够有效地朝着长期目标努力。",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "有时候即使我知道是错的，我也无法阻止自己去做某些事情。",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我经常不经过充分考虑就采取行动。",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 65,
     "maxItemScore": 5,
-    "reverseItems": [1, 2, 3, 4, 6, 8, 9, 11, 12],
+    "reverseItems": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      11,
+      12
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -99,7 +177,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 13, "max": 65 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 13,
+      "max": 65
+    }
   }
 }

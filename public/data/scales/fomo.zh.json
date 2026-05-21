@@ -7,26 +7,82 @@
     "author": "Przybylski et al. (2013)",
     "license": "Free to use",
     "reference": "Przybylski AK, Murayama K, DeHaan CR, Gladwell V. Motivational, emotional, and behavioral correlates of fear of missing out. Comput Human Behav. 2013;29(4):1841-1848.",
-    "instruction": "以下是一些关于您日常体验的描述。请根据每个描述与您一般经历的符合程度进行评价。"
+    "instruction": "以下是一些关于您日常体验的描述。请根据每个描述与您一般经历的符合程度进行评价。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "完全不符合" },
-    { "value": 2, "label": "有点符合" },
-    { "value": 3, "label": "中等符合" },
-    { "value": 4, "label": "非常符合" },
-    { "value": 5, "label": "完全符合" }
+    {
+      "value": 1,
+      "label": "完全不符合"
+    },
+    {
+      "value": 2,
+      "label": "有点符合"
+    },
+    {
+      "value": 3,
+      "label": "中等符合"
+    },
+    {
+      "value": 4,
+      "label": "非常符合"
+    },
+    {
+      "value": 5,
+      "label": "完全符合"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我担心别人比我拥有更多有意义的体验", "type": "likert" },
-    { "index": 1, "text": "我担心我的朋友比我拥有更多有意义的体验", "type": "likert" },
-    { "index": 2, "text": "当我发现朋友们在没有我的情况下玩得很开心时，我会感到担忧", "type": "likert" },
-    { "index": 3, "text": "当我不知道朋友们在做什么时，我会感到焦虑", "type": "likert" },
-    { "index": 4, "text": "理解朋友之间的\"圈内笑话\"对我来说很重要", "type": "likert" },
-    { "index": 5, "text": "有时候，我会想自己是否花了太多时间来了解正在发生的事情", "type": "likert" },
-    { "index": 6, "text": "当我错过与朋友聚会的机会时，我会感到困扰", "type": "likert" },
-    { "index": 7, "text": "当我玩得开心时，在网上分享细节对我来说很重要", "type": "likert" },
-    { "index": 8, "text": "当我错过一个已经计划好的聚会时，我会感到烦恼", "type": "likert" },
-    { "index": 9, "text": "当我去度假时，我仍然会关注朋友们在做什么", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我担心别人比我拥有更多有意义的体验",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我担心我的朋友比我拥有更多有意义的体验",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "当我发现朋友们在没有我的情况下玩得很开心时，我会感到担忧",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "当我不知道朋友们在做什么时，我会感到焦虑",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "理解朋友之间的\"圈内笑话\"对我来说很重要",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "有时候，我会想自己是否花了太多时间来了解正在发生的事情",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "当我错过与朋友聚会的机会时，我会感到困扰",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "当我玩得开心时，在网上分享细节对我来说很重要",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "当我错过一个已经计划好的聚会时，我会感到烦恼",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "当我去度假时，我仍然会关注朋友们在做什么",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -93,7 +149,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 10, "max": 50 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 50
+    }
   }
 }

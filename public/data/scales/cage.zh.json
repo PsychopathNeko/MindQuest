@@ -7,7 +7,8 @@
     "author": "Ewing (1984)",
     "license": "Public Domain",
     "reference": "Ewing JA. Detecting alcoholism: the CAGE questionnaire. JAMA. 1984;252(14):1905-1907.",
-    "instruction": "请如实回答以下每个问题，选择「是」或「否」。"
+    "instruction": "请如实回答以下每个问题，选择「是」或「否」。",
+    "population": "一般人群（16岁以上）"
   },
   "commonChoices": null,
   "questions": [
@@ -83,7 +84,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 4 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 4
+    }
   }
 }

@@ -7,7 +7,8 @@
     "author": "Connor KM, et al. (2000)",
     "license": "Free to use",
     "reference": "Connor KM, et al. Psychometric properties of the Social Phobia Inventory (SPIN). Br J Psychiatry. 2000;176:379-386.",
-    "instruction": "请根据过去一周的情况，选择最符合您感受的选项。"
+    "instruction": "请根据过去一周的情况，选择最符合您感受的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

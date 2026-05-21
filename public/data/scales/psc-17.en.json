@@ -7,31 +7,109 @@
     "author": "Jellinek MS, et al. (1988); Gardner W, et al. (1999)",
     "license": "Free to use",
     "reference": "Gardner W, et al. The PSC-17: A brief pediatric symptom checklist with psychosocial problem subscales. Ambulatory Child Health. 1999;5:225-236.",
-    "instruction": "Please mark how often each statement applies to your child in the past month."
+    "instruction": "Please mark how often each statement applies to your child in the past month.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Never" },
-    { "value": 1, "label": "Sometimes" },
-    { "value": 2, "label": "Often" }
+    {
+      "value": 0,
+      "label": "Never"
+    },
+    {
+      "value": 1,
+      "label": "Sometimes"
+    },
+    {
+      "value": 2,
+      "label": "Often"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Feels sad, unhappy.", "type": "likert" },
-    { "index": 1, "text": "Feels hopeless.", "type": "likert" },
-    { "index": 2, "text": "Is down on him or herself.", "type": "likert" },
-    { "index": 3, "text": "Worries a lot.", "type": "likert" },
-    { "index": 4, "text": "Seems to be having less fun.", "type": "likert" },
-    { "index": 5, "text": "Fidgety, unable to sit still.", "type": "likert" },
-    { "index": 6, "text": "Daydreams too much.", "type": "likert" },
-    { "index": 7, "text": "Distracted easily.", "type": "likert" },
-    { "index": 8, "text": "Has trouble concentrating.", "type": "likert" },
-    { "index": 9, "text": "Acts as if driven by a motor.", "type": "likert" },
-    { "index": 10, "text": "Fights with other children.", "type": "likert" },
-    { "index": 11, "text": "Does not listen to rules.", "type": "likert" },
-    { "index": 12, "text": "Does not understand other people's feelings.", "type": "likert" },
-    { "index": 13, "text": "Teases others.", "type": "likert" },
-    { "index": 14, "text": "Blames others for his or her troubles.", "type": "likert" },
-    { "index": 15, "text": "Refuses to share.", "type": "likert" },
-    { "index": 16, "text": "Takes things that do not belong to him or her.", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Feels sad, unhappy.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Feels hopeless.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Is down on him or herself.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Worries a lot.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Seems to be having less fun.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Fidgety, unable to sit still.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Daydreams too much.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Distracted easily.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Has trouble concentrating.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Acts as if driven by a motor.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Fights with other children.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Does not listen to rules.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Does not understand other people's feelings.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Teases others.",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Blames others for his or her troubles.",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Refuses to share.",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Takes things that do not belong to him or her.",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
@@ -42,19 +120,39 @@
       {
         "id": "internalizing",
         "name": "Internalizing",
-        "items": [0, 1, 2, 3, 4],
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
         "maxScore": 10
       },
       {
         "id": "attention",
         "name": "Attention",
-        "items": [5, 6, 7, 8, 9],
+        "items": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
         "maxScore": 10
       },
       {
         "id": "externalizing",
         "name": "Externalizing",
-        "items": [10, 11, 12, 13, 14, 15, 16],
+        "items": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
         "maxScore": 14
       }
     ]
@@ -87,30 +185,82 @@
     ],
     "subscaleRanges": {
       "internalizing": [
-        { "min": 0, "max": 4, "level": "normal", "label": "Normal", "description": "Internalizing problems within normal range." },
-        { "min": 5, "max": 10, "level": "elevated", "label": "Elevated", "description": "Elevated internalizing problems, possible emotional distress." }
+        {
+          "min": 0,
+          "max": 4,
+          "level": "normal",
+          "label": "Normal",
+          "description": "Internalizing problems within normal range."
+        },
+        {
+          "min": 5,
+          "max": 10,
+          "level": "elevated",
+          "label": "Elevated",
+          "description": "Elevated internalizing problems, possible emotional distress."
+        }
       ],
       "attention": [
-        { "min": 0, "max": 6, "level": "normal", "label": "Normal", "description": "Attention problems within normal range." },
-        { "min": 7, "max": 10, "level": "elevated", "label": "Elevated", "description": "Elevated attention problems, further evaluation may be needed." }
+        {
+          "min": 0,
+          "max": 6,
+          "level": "normal",
+          "label": "Normal",
+          "description": "Attention problems within normal range."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "elevated",
+          "label": "Elevated",
+          "description": "Elevated attention problems, further evaluation may be needed."
+        }
       ],
       "externalizing": [
-        { "min": 0, "max": 6, "level": "normal", "label": "Normal", "description": "Externalizing problems within normal range." },
-        { "min": 7, "max": 14, "level": "elevated", "label": "Elevated", "description": "Elevated externalizing problems, possible behavioral issues." }
+        {
+          "min": 0,
+          "max": 6,
+          "level": "normal",
+          "label": "Normal",
+          "description": "Externalizing problems within normal range."
+        },
+        {
+          "min": 7,
+          "max": 14,
+          "level": "elevated",
+          "label": "Elevated",
+          "description": "Elevated externalizing problems, possible behavioral issues."
+        }
       ]
     }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["internalizing", "attention", "externalizing"],
+      "subscaleIds": [
+        "internalizing",
+        "attention",
+        "externalizing"
+      ],
       "maxDisplayScore": 14
     },
     "radarConfig": {
       "indicators": [
-        { "name": "Internalizing", "max": 10 },
-        { "name": "Attention", "max": 10 },
-        { "name": "Externalizing", "max": 14 }
+        {
+          "name": "Internalizing",
+          "max": 10
+        },
+        {
+          "name": "Attention",
+          "max": 10
+        },
+        {
+          "name": "Externalizing",
+          "max": 14
+        }
       ]
     }
   }

@@ -7,26 +7,82 @@
     "author": "Campbell-Sills & Stein (2007)",
     "license": "Free to use",
     "reference": "Campbell-Sills L, Stein MB. Psychometric analysis and refinement of the Connor-Davidson Resilience Scale (CD-RISC): Validation of a 10-item measure of resilience. J Trauma Stress. 2007;20(6):1019-1028.",
-    "instruction": "Please indicate how much each statement has been true for you over the past month. If a particular situation has not arisen recently, answer according to how you think you would have dealt with it."
+    "instruction": "Please indicate how much each statement has been true for you over the past month. If a particular situation has not arisen recently, answer according to how you think you would have dealt with it.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Not true at all" },
-    { "value": 1, "label": "Rarely true" },
-    { "value": 2, "label": "Sometimes true" },
-    { "value": 3, "label": "Often true" },
-    { "value": 4, "label": "True nearly all the time" }
+    {
+      "value": 0,
+      "label": "Not true at all"
+    },
+    {
+      "value": 1,
+      "label": "Rarely true"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes true"
+    },
+    {
+      "value": 3,
+      "label": "Often true"
+    },
+    {
+      "value": 4,
+      "label": "True nearly all the time"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I am able to adapt when changes occur", "type": "likert" },
-    { "index": 1, "text": "I can deal with whatever comes my way", "type": "likert" },
-    { "index": 2, "text": "I try to see the humorous side of things when I am faced with problems", "type": "likert" },
-    { "index": 3, "text": "Having to cope with stress can make me stronger", "type": "likert" },
-    { "index": 4, "text": "I tend to bounce back after illness, injury, or other hardships", "type": "likert" },
-    { "index": 5, "text": "I believe I can achieve my goals, even if there are obstacles", "type": "likert" },
-    { "index": 6, "text": "Under pressure, I stay focused and think clearly", "type": "likert" },
-    { "index": 7, "text": "I am not easily discouraged by failure", "type": "likert" },
-    { "index": 8, "text": "I think of myself as a strong person when dealing with life's challenges and difficulties", "type": "likert" },
-    { "index": 9, "text": "I am able to handle unpleasant or painful feelings like sadness, fear, and anger", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I am able to adapt when changes occur",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I can deal with whatever comes my way",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I try to see the humorous side of things when I am faced with problems",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Having to cope with stress can make me stronger",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I tend to bounce back after illness, injury, or other hardships",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I believe I can achieve my goals, even if there are obstacles",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Under pressure, I stay focused and think clearly",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I am not easily discouraged by failure",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I think of myself as a strong person when dealing with life's challenges and difficulties",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I am able to handle unpleasant or painful feelings like sadness, fear, and anger",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -94,7 +150,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 40 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 40
+    }
   }
 }

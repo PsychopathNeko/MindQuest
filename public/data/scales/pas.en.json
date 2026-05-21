@@ -7,29 +7,97 @@
     "author": "Bandelow B (1995)",
     "license": "Free to use",
     "reference": "Bandelow B. Assessing the efficacy of treatments for panic disorder and agoraphobia. II. The Panic and Agoraphobia Scale. Int Clin Psychopharmacol. 1995;10(2):73-81.",
-    "instruction": "Please rate how much the following problems have bothered you during the past week."
+    "instruction": "Please rate how much the following problems have bothered you during the past week.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Not at all" },
-    { "value": 1, "label": "Mildly" },
-    { "value": 2, "label": "Moderately" },
-    { "value": 3, "label": "Severely" },
-    { "value": 4, "label": "Very severely" }
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "Mildly"
+    },
+    {
+      "value": 2,
+      "label": "Moderately"
+    },
+    {
+      "value": 3,
+      "label": "Severely"
+    },
+    {
+      "value": 4,
+      "label": "Very severely"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "How many panic attacks did you have in the past week?", "type": "likert" },
-    { "index": 1, "text": "How severe were your panic attacks (considering intensity of symptoms)?", "type": "likert" },
-    { "index": 2, "text": "How long did your panic attacks last on average?", "type": "likert" },
-    { "index": 3, "text": "Did you have fear or worry about having another panic attack?", "type": "likert" },
-    { "index": 4, "text": "Did you avoid certain places or situations because of fear of having a panic attack?", "type": "likert" },
-    { "index": 5, "text": "Did you avoid being alone because of fear of having a panic attack?", "type": "likert" },
-    { "index": 6, "text": "Did you avoid crowded places (e.g., shops, public transport, cinemas)?", "type": "likert" },
-    { "index": 7, "text": "Did you avoid traveling long distances from home?", "type": "likert" },
-    { "index": 8, "text": "Were you restricted in your daily activities because of your panic or anxiety?", "type": "likert" },
-    { "index": 9, "text": "Were you restricted in your social life or leisure activities?", "type": "likert" },
-    { "index": 10, "text": "Were you restricted in your work or household duties?", "type": "likert" },
-    { "index": 11, "text": "Were you worried about your health because of the physical symptoms during panic?", "type": "likert" },
-    { "index": 12, "text": "Were you worried that you might have a serious illness (e.g., heart disease)?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "How many panic attacks did you have in the past week?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "How severe were your panic attacks (considering intensity of symptoms)?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "How long did your panic attacks last on average?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Did you have fear or worry about having another panic attack?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Did you avoid certain places or situations because of fear of having a panic attack?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Did you avoid being alone because of fear of having a panic attack?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Did you avoid crowded places (e.g., shops, public transport, cinemas)?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Did you avoid traveling long distances from home?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Were you restricted in your daily activities because of your panic or anxiety?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Were you restricted in your social life or leisure activities?",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Were you restricted in your work or household duties?",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Were you worried about your health because of the physical symptoms during panic?",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Were you worried that you might have a serious illness (e.g., heart disease)?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -106,7 +174,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 52 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 52
+    }
   }
 }

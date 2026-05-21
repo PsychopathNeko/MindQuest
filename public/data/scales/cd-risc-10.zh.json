@@ -7,26 +7,82 @@
     "author": "Campbell-Sills & Stein (2007)",
     "license": "Free to use",
     "reference": "Campbell-Sills L, Stein MB. Psychometric analysis and refinement of the Connor-Davidson Resilience Scale (CD-RISC): Validation of a 10-item measure of resilience. J Trauma Stress. 2007;20(6):1019-1028.",
-    "instruction": "请根据过去一个月的实际情况，选择最符合您的选项。如果某种情况最近没有发生，请根据您认为自己会如何应对来作答。"
+    "instruction": "请根据过去一个月的实际情况，选择最符合您的选项。如果某种情况最近没有发生，请根据您认为自己会如何应对来作答。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "完全不是" },
-    { "value": 1, "label": "很少如此" },
-    { "value": 2, "label": "有时如此" },
-    { "value": 3, "label": "经常如此" },
-    { "value": 4, "label": "几乎总是如此" }
+    {
+      "value": 0,
+      "label": "完全不是"
+    },
+    {
+      "value": 1,
+      "label": "很少如此"
+    },
+    {
+      "value": 2,
+      "label": "有时如此"
+    },
+    {
+      "value": 3,
+      "label": "经常如此"
+    },
+    {
+      "value": 4,
+      "label": "几乎总是如此"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "当变化发生时，我能够适应", "type": "likert" },
-    { "index": 1, "text": "无论遇到什么，我都能应对", "type": "likert" },
-    { "index": 2, "text": "面对问题时，我会试着看到事情幽默的一面", "type": "likert" },
-    { "index": 3, "text": "应对压力能使我变得更强大", "type": "likert" },
-    { "index": 4, "text": "经历疾病、受伤或其他困难后，我往往能很快恢复", "type": "likert" },
-    { "index": 5, "text": "即使遇到障碍，我也相信自己能实现目标", "type": "likert" },
-    { "index": 6, "text": "在压力下，我能保持专注、思路清晰", "type": "likert" },
-    { "index": 7, "text": "我不会轻易被失败所打击", "type": "likert" },
-    { "index": 8, "text": "面对生活的挑战和困难时，我认为自己是一个坚强的人", "type": "likert" },
-    { "index": 9, "text": "我能够处理不愉快或痛苦的情绪，如悲伤、恐惧和愤怒", "type": "likert" }
+    {
+      "index": 0,
+      "text": "当变化发生时，我能够适应",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "无论遇到什么，我都能应对",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "面对问题时，我会试着看到事情幽默的一面",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "应对压力能使我变得更强大",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "经历疾病、受伤或其他困难后，我往往能很快恢复",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "即使遇到障碍，我也相信自己能实现目标",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "在压力下，我能保持专注、思路清晰",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我不会轻易被失败所打击",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "面对生活的挑战和困难时，我认为自己是一个坚强的人",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我能够处理不愉快或痛苦的情绪，如悲伤、恐惧和愤怒",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -94,7 +150,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 40 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 40
+    }
   }
 }

@@ -7,27 +7,68 @@
     "author": "Marteau & Bekker (1992)",
     "license": "Free to use",
     "reference": "Marteau TM, Bekker H. The development of a six-item short-form of the state scale of the Spielberger State-Trait Anxiety Inventory (STAI). Br J Clin Psychol. 1992;31(3):301-306.",
-    "instruction": "以下是一些人们用来描述自身感受的陈述。请阅读每个陈述，然后选择最合适的选项来表示您此刻、现在的感受。"
+    "instruction": "以下是一些人们用来描述自身感受的陈述。请阅读每个陈述，然后选择最合适的选项来表示您此刻、现在的感受。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "完全没有" },
-    { "value": 2, "label": "有些" },
-    { "value": 3, "label": "中等程度" },
-    { "value": 4, "label": "非常" }
+    {
+      "value": 1,
+      "label": "完全没有"
+    },
+    {
+      "value": 2,
+      "label": "有些"
+    },
+    {
+      "value": 3,
+      "label": "中等程度"
+    },
+    {
+      "value": 4,
+      "label": "非常"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我感到平静", "type": "likert" },
-    { "index": 1, "text": "我感到紧张", "type": "likert" },
-    { "index": 2, "text": "我感到心烦意乱", "type": "likert" },
-    { "index": 3, "text": "我感到放松", "type": "likert" },
-    { "index": 4, "text": "我感到满足", "type": "likert" },
-    { "index": 5, "text": "我感到担忧", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我感到平静",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我感到紧张",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我感到心烦意乱",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我感到放松",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我感到满足",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我感到担忧",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 24,
     "maxItemScore": 4,
-    "reverseItems": [0, 3, 4],
+    "reverseItems": [
+      0,
+      3,
+      4
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -86,7 +127,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 6, "max": 24 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 24
+    }
   }
 }

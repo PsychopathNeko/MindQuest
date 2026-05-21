@@ -7,29 +7,97 @@
     "author": "Bandelow B (1995)",
     "license": "Free to use",
     "reference": "Bandelow B. Assessing the efficacy of treatments for panic disorder and agoraphobia. II. The Panic and Agoraphobia Scale. Int Clin Psychopharmacol. 1995;10(2):73-81.",
-    "instruction": "请评估以下问题在过去一周内对您的困扰程度。"
+    "instruction": "请评估以下问题在过去一周内对您的困扰程度。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "完全没有" },
-    { "value": 1, "label": "轻度" },
-    { "value": 2, "label": "中度" },
-    { "value": 3, "label": "严重" },
-    { "value": 4, "label": "非常严重" }
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "轻度"
+    },
+    {
+      "value": 2,
+      "label": "中度"
+    },
+    {
+      "value": 3,
+      "label": "严重"
+    },
+    {
+      "value": 4,
+      "label": "非常严重"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "过去一周您发生了多少次惊恐发作？", "type": "likert" },
-    { "index": 1, "text": "您的惊恐发作有多严重（考虑症状的强度）？", "type": "likert" },
-    { "index": 2, "text": "您的惊恐发作平均持续多长时间？", "type": "likert" },
-    { "index": 3, "text": "您是否害怕或担心再次发生惊恐发作？", "type": "likert" },
-    { "index": 4, "text": "您是否因为害怕惊恐发作而回避某些地方或情境？", "type": "likert" },
-    { "index": 5, "text": "您是否因为害怕惊恐发作而回避独处？", "type": "likert" },
-    { "index": 6, "text": "您是否回避人多拥挤的场所（如商店、公共交通、电影院）？", "type": "likert" },
-    { "index": 7, "text": "您是否回避远离家的长途旅行？", "type": "likert" },
-    { "index": 8, "text": "您的日常活动是否因惊恐或焦虑而受限？", "type": "likert" },
-    { "index": 9, "text": "您的社交生活或休闲活动是否受限？", "type": "likert" },
-    { "index": 10, "text": "您的工作或家务是否受限？", "type": "likert" },
-    { "index": 11, "text": "您是否因惊恐时的身体症状而担心自己的健康？", "type": "likert" },
-    { "index": 12, "text": "您是否担心自己可能患有严重疾病（如心脏病）？", "type": "likert" }
+    {
+      "index": 0,
+      "text": "过去一周您发生了多少次惊恐发作？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "您的惊恐发作有多严重（考虑症状的强度）？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "您的惊恐发作平均持续多长时间？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "您是否害怕或担心再次发生惊恐发作？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您是否因为害怕惊恐发作而回避某些地方或情境？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "您是否因为害怕惊恐发作而回避独处？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "您是否回避人多拥挤的场所（如商店、公共交通、电影院）？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "您是否回避远离家的长途旅行？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "您的日常活动是否因惊恐或焦虑而受限？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "您的社交生活或休闲活动是否受限？",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "您的工作或家务是否受限？",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "您是否因惊恐时的身体症状而担心自己的健康？",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "您是否担心自己可能患有严重疾病（如心脏病）？",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -106,7 +174,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 52 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 52
+    }
   }
 }

@@ -14,6 +14,8 @@ import InterpretationCard from '@/components/report/InterpretationCard.vue'
 import SuggestionCard from '@/components/report/SuggestionCard.vue'
 import TimelineChart from '@/components/report/TimelineChart.vue'
 import { getAssessmentsForScale } from '@/utils/storage'
+import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
+import CrisisAlert from '@/components/common/CrisisAlert.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -44,6 +46,31 @@ const scaleHistory = computed(() => {
   return getAssessmentsForScale(scaleId.value)
 })
 const showTotalScore = computed(() => { if (!scale.value) return false; return scale.value.scoring.method !== 'mean_subscale' })
+
+const breadcrumbItems = computed(() => [
+  { label: t('nav.home'), to: { name: 'home' } },
+  { label: scaleName.value || '...', to: { name: 'scale-detail', params: { id: scaleId.value } } },
+  { label: t('breadcrumb.report') }
+])
+
+const showCrisisAlert = computed(() => {
+  if (!scale.value?.crisisConfig || !assessment.value) return false
+  const config = scale.value.crisisConfig
+  if (config.type === 'level') {
+    const levels = ['minimal', 'mild', 'moderate', 'severe', 'very_severe']
+    const currentIdx = levels.indexOf(report.value?.level)
+    const thresholdIdx = levels.indexOf(config.levelThreshold)
+    return currentIdx >= 0 && thresholdIdx >= 0 && currentIdx >= thresholdIdx
+  }
+  if (config.type === 'item') {
+    const ans = assessment.value.answers
+    return config.items.some(({ questionIndex, threshold }) => {
+      const val = ans[questionIndex]
+      return val !== undefined && val !== null && val >= threshold
+    })
+  }
+  return false
+})
 
 const formattedTime = computed(() => {
   if (!assessment.value?.timestamp) return ''
@@ -98,13 +125,17 @@ function handlePrint() { if (typeof window !== 'undefined') window.print() }
       <button class="btn btn-primary" @click="handleHome">{{ t('report.backHome') }}</button>
     </div>
 
-    <ReportLayout v-else-if="assessment && scale" :title="scaleName">
+    <template v-else-if="assessment && scale">
+    <BreadcrumbNav :items="breadcrumbItems" />
+    <ReportLayout :title="scaleName">
       <template #title>
         <h1 class="report-main-title">{{ scaleName }}</h1>
         <p class="report-timestamp">{{ t('report.completedAt') }}: {{ formattedTime }}</p>
       </template>
 
       <ScoreSummary v-if="showTotalScore" :score="scores.total" :max-score="gaugeMax" :label="report.label" :level="report.level" :color="totalColor" />
+
+      <CrisisAlert v-if="showCrisisAlert" />
 
       <div v-if="charts.includes('gauge')" class="chart-section">
         <GaugeChart :score="scores.total" :max-score="gaugeMax" :min-score="gaugeMin" :label="report.label" :color="totalColor" />
@@ -132,6 +163,7 @@ function handlePrint() { if (typeof window !== 'undefined') window.print() }
 
       <div class="disclaimer no-print"><p>{{ t('report.disclaimer') }}</p></div>
     </ReportLayout>
+    </template>
   </div>
 </template>
 

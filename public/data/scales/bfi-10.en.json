@@ -7,66 +7,153 @@
     "author": "Rammstedt & John (2007)",
     "license": "Free to use",
     "reference": "Rammstedt B, John OP. Measuring personality in one minute or less: A 10-item short version of the Big Five Inventory in English and German. J Res Pers. 2007;41(1):203-212.",
-    "instruction": "How well do the following statements describe your personality? I see myself as someone who..."
+    "instruction": "How well do the following statements describe your personality? I see myself as someone who...",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Disagree strongly" },
-    { "value": 2, "label": "Disagree a little" },
-    { "value": 3, "label": "Neither agree nor disagree" },
-    { "value": 4, "label": "Agree a little" },
-    { "value": 5, "label": "Agree strongly" }
+    {
+      "value": 1,
+      "label": "Disagree strongly"
+    },
+    {
+      "value": 2,
+      "label": "Disagree a little"
+    },
+    {
+      "value": 3,
+      "label": "Neither agree nor disagree"
+    },
+    {
+      "value": 4,
+      "label": "Agree a little"
+    },
+    {
+      "value": 5,
+      "label": "Agree strongly"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "...is outgoing, sociable", "type": "likert" },
-    { "index": 1, "text": "...tends to find fault with others", "type": "likert" },
-    { "index": 2, "text": "...does a thorough job", "type": "likert" },
-    { "index": 3, "text": "...is depressed, blue", "type": "likert" },
-    { "index": 4, "text": "...is original, comes up with new ideas", "type": "likert" },
-    { "index": 5, "text": "...is reserved", "type": "likert" },
-    { "index": 6, "text": "...is helpful and unselfish with others", "type": "likert" },
-    { "index": 7, "text": "...can be somewhat careless", "type": "likert" },
-    { "index": 8, "text": "...is relaxed, handles stress well", "type": "likert" },
-    { "index": 9, "text": "...has few artistic interests", "type": "likert" }
+    {
+      "index": 0,
+      "text": "...is outgoing, sociable",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "...tends to find fault with others",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "...does a thorough job",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "...is depressed, blue",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "...is original, comes up with new ideas",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "...is reserved",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "...is helpful and unselfish with others",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "...can be somewhat careless",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "...is relaxed, handles stress well",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "...has few artistic interests",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale_with_reverse",
     "maxTotal": null,
     "maxItemScore": 5,
-    "reverseItems": [1, 3, 5, 7, 9],
+    "reverseItems": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
     "subscales": [
       {
         "id": "extraversion",
         "name": "Extraversion",
-        "items": [0, 5],
-        "reverseItems": [5],
+        "items": [
+          0,
+          5
+        ],
+        "reverseItems": [
+          5
+        ],
         "maxScore": 10
       },
       {
         "id": "agreeableness",
         "name": "Agreeableness",
-        "items": [1, 6],
-        "reverseItems": [1],
+        "items": [
+          1,
+          6
+        ],
+        "reverseItems": [
+          1
+        ],
         "maxScore": 10
       },
       {
         "id": "conscientiousness",
         "name": "Conscientiousness",
-        "items": [2, 7],
-        "reverseItems": [7],
+        "items": [
+          2,
+          7
+        ],
+        "reverseItems": [
+          7
+        ],
         "maxScore": 10
       },
       {
         "id": "neuroticism",
         "name": "Neuroticism",
-        "items": [3, 8],
-        "reverseItems": [8],
+        "items": [
+          3,
+          8
+        ],
+        "reverseItems": [
+          8
+        ],
         "maxScore": 10
       },
       {
         "id": "openness",
         "name": "Openness",
-        "items": [4, 9],
-        "reverseItems": [9],
+        "items": [
+          4,
+          9
+        ],
+        "reverseItems": [
+          9
+        ],
         "maxScore": 10
       }
     ]
@@ -75,45 +162,159 @@
     "ranges": null,
     "subscaleRanges": {
       "extraversion": [
-        { "min": 2, "max": 4, "level": "severe", "label": "Low", "description": "Low extraversion; tends to be introverted, quiet, and prefers solitude." },
-        { "min": 5, "max": 7, "level": "normal", "label": "Average", "description": "Moderate extraversion; balanced between social interaction and solitude." },
-        { "min": 8, "max": 10, "level": "minimal", "label": "High", "description": "High extraversion; outgoing, sociable, and energized by group activities." }
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "Low",
+          "description": "Low extraversion; tends to be introverted, quiet, and prefers solitude."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "Moderate extraversion; balanced between social interaction and solitude."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "High",
+          "description": "High extraversion; outgoing, sociable, and energized by group activities."
+        }
       ],
       "agreeableness": [
-        { "min": 2, "max": 4, "level": "severe", "label": "Low", "description": "Low agreeableness; tends toward independent thinking, competitiveness, and critical analysis." },
-        { "min": 5, "max": 7, "level": "normal", "label": "Average", "description": "Moderate agreeableness; balanced between cooperation and self-assertion." },
-        { "min": 8, "max": 10, "level": "minimal", "label": "High", "description": "High agreeableness; compassionate, cooperative, and trusting." }
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "Low",
+          "description": "Low agreeableness; tends toward independent thinking, competitiveness, and critical analysis."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "Moderate agreeableness; balanced between cooperation and self-assertion."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "High",
+          "description": "High agreeableness; compassionate, cooperative, and trusting."
+        }
       ],
       "conscientiousness": [
-        { "min": 2, "max": 4, "level": "severe", "label": "Low", "description": "Low conscientiousness; tends to be flexible and spontaneous, less focused on plans and details." },
-        { "min": 5, "max": 7, "level": "normal", "label": "Average", "description": "Moderate conscientiousness; balanced between organization and flexibility." },
-        { "min": 8, "max": 10, "level": "minimal", "label": "High", "description": "High conscientiousness; reliable, self-disciplined, organized, and goal-oriented." }
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "Low",
+          "description": "Low conscientiousness; tends to be flexible and spontaneous, less focused on plans and details."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "Moderate conscientiousness; balanced between organization and flexibility."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "High",
+          "description": "High conscientiousness; reliable, self-disciplined, organized, and goal-oriented."
+        }
       ],
       "neuroticism": [
-        { "min": 2, "max": 4, "level": "minimal", "label": "Low (Emotionally Stable)", "description": "Low neuroticism; emotionally stable, not easily anxious or upset." },
-        { "min": 5, "max": 7, "level": "normal", "label": "Average", "description": "Moderate neuroticism; generally manages emotions well." },
-        { "min": 8, "max": 10, "level": "severe", "label": "High", "description": "High neuroticism; more prone to anxiety, tension, and mood swings." }
+        {
+          "min": 2,
+          "max": 4,
+          "level": "minimal",
+          "label": "Low (Emotionally Stable)",
+          "description": "Low neuroticism; emotionally stable, not easily anxious or upset."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "Moderate neuroticism; generally manages emotions well."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "severe",
+          "label": "High",
+          "description": "High neuroticism; more prone to anxiety, tension, and mood swings."
+        }
       ],
       "openness": [
-        { "min": 2, "max": 4, "level": "severe", "label": "Low", "description": "Low openness; prefers tradition, practicality, and familiar experiences." },
-        { "min": 5, "max": 7, "level": "normal", "label": "Average", "description": "Moderate openness; balanced between exploring new things and maintaining stability." },
-        { "min": 8, "max": 10, "level": "minimal", "label": "High", "description": "High openness; curious, creative, and receptive to new ideas and experiences." }
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "Low",
+          "description": "Low openness; prefers tradition, practicality, and familiar experiences."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average",
+          "description": "Moderate openness; balanced between exploring new things and maintaining stability."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "High",
+          "description": "High openness; curious, creative, and receptive to new ideas and experiences."
+        }
       ]
     }
   },
   "report": {
-    "charts": ["radar", "bar"],
+    "charts": [
+      "radar",
+      "bar"
+    ],
     "radarConfig": {
       "indicators": [
-        { "name": "Extraversion", "max": 10 },
-        { "name": "Agreeableness", "max": 10 },
-        { "name": "Conscientiousness", "max": 10 },
-        { "name": "Neuroticism", "max": 10 },
-        { "name": "Openness", "max": 10 }
+        {
+          "name": "Extraversion",
+          "max": 10
+        },
+        {
+          "name": "Agreeableness",
+          "max": 10
+        },
+        {
+          "name": "Conscientiousness",
+          "max": 10
+        },
+        {
+          "name": "Neuroticism",
+          "max": 10
+        },
+        {
+          "name": "Openness",
+          "max": 10
+        }
       ]
     },
     "barConfig": {
-      "subscaleIds": ["extraversion", "agreeableness", "conscientiousness", "neuroticism", "openness"],
+      "subscaleIds": [
+        "extraversion",
+        "agreeableness",
+        "conscientiousness",
+        "neuroticism",
+        "openness"
+      ],
       "maxDisplayScore": 10
     }
   }

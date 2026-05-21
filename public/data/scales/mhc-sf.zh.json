@@ -7,7 +7,8 @@
     "author": "Keyes CLM (2005)",
     "license": "Free for research use",
     "reference": "Keyes CLM. Mental illness and/or mental health? Investigating axioms of the complete state model of health. J Consult Clin Psychol. 2005;73(3):539-548.",
-    "instruction": "请回想过去一个月，以下各种感受出现的频率如何？"
+    "instruction": "请回想过去一个月，以下各种感受出现的频率如何？",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

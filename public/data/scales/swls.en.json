@@ -7,23 +7,65 @@
     "author": "Diener, Emmons, Larsen & Griffin (1985)",
     "license": "Free to use",
     "reference": "Diener E, Emmons RA, Larsen RJ, Griffin S. The Satisfaction With Life Scale. J Pers Assess. 1985;49(1):71-75.",
-    "instruction": "Below are five statements that you may agree or disagree with. Using the 1-7 scale below, indicate your agreement with each item."
+    "instruction": "Below are five statements that you may agree or disagree with. Using the 1-7 scale below, indicate your agreement with each item.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Strongly disagree" },
-    { "value": 2, "label": "Disagree" },
-    { "value": 3, "label": "Slightly disagree" },
-    { "value": 4, "label": "Neither agree nor disagree" },
-    { "value": 5, "label": "Slightly agree" },
-    { "value": 6, "label": "Agree" },
-    { "value": 7, "label": "Strongly agree" }
+    {
+      "value": 1,
+      "label": "Strongly disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Slightly disagree"
+    },
+    {
+      "value": 4,
+      "label": "Neither agree nor disagree"
+    },
+    {
+      "value": 5,
+      "label": "Slightly agree"
+    },
+    {
+      "value": 6,
+      "label": "Agree"
+    },
+    {
+      "value": 7,
+      "label": "Strongly agree"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "In most ways my life is close to my ideal", "type": "likert" },
-    { "index": 1, "text": "The conditions of my life are excellent", "type": "likert" },
-    { "index": 2, "text": "I am satisfied with my life", "type": "likert" },
-    { "index": 3, "text": "So far I have gotten the important things I want in life", "type": "likert" },
-    { "index": 4, "text": "If I could live my life over, I would change almost nothing", "type": "likert" }
+    {
+      "index": 0,
+      "text": "In most ways my life is close to my ideal",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "The conditions of my life are excellent",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I am satisfied with my life",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "So far I have gotten the important things I want in life",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "If I could live my life over, I would change almost nothing",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -88,7 +130,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 5, "max": 35 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 5,
+      "max": 35
+    }
   }
 }

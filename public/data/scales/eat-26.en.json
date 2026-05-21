@@ -7,7 +7,8 @@
     "author": "Garner et al. (1982)",
     "license": "Free to use",
     "reference": "Garner DM, Olmsted MP, Bohr Y, Garfinkel PE. The Eating Attitudes Test: psychometric features and clinical correlates. Psychol Med. 1982;12(4):871-878.",
-    "instruction": "Please choose the response that best applies to each of the following statements."
+    "instruction": "Please choose the response that best applies to each of the following statements.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

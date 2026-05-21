@@ -7,7 +7,8 @@
     "author": "Rosenberg (1965)",
     "license": "Public Domain",
     "reference": "Rosenberg M. Society and the Adolescent Self-Image. Princeton, NJ: Princeton University Press; 1965.",
-    "instruction": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how strongly you agree or disagree with each statement."
+    "instruction": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how strongly you agree or disagree with each statement.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

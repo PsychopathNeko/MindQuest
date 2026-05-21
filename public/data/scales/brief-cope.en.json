@@ -7,7 +7,8 @@
     "author": "Carver (1997)",
     "license": "Free to use",
     "reference": "Carver CS. You want to measure coping but your protocol is too long: consider the Brief COPE. Int J Behav Med. 1997;4(1):92-100.",
-    "instruction": "The following items ask what you have been doing to cope with a stressful event. Each item says something about a particular way of coping. Please indicate the extent to which you have been doing what the item says."
+    "instruction": "The following items ask what you have been doing to cope with a stressful event. Each item says something about a particular way of coping. Please indicate the extent to which you have been doing what the item says.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

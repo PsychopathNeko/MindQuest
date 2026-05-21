@@ -7,26 +7,61 @@
     "author": "Cohen, Kamarck & Mermelstein (1983)",
     "license": "Free to use",
     "reference": "Cohen S, Kamarck T, Mermelstein R. A global measure of perceived stress. J Health Soc Behav. 1983;24(4):385-396.",
-    "instruction": "The questions in this scale ask you about your feelings and thoughts during the last month. In each case, please indicate how often you felt or thought a certain way."
+    "instruction": "The questions in this scale ask you about your feelings and thoughts during the last month. In each case, please indicate how often you felt or thought a certain way.",
+    "population": "General population (12+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Never" },
-    { "value": 1, "label": "Almost never" },
-    { "value": 2, "label": "Sometimes" },
-    { "value": 3, "label": "Fairly often" },
-    { "value": 4, "label": "Very often" }
+    {
+      "value": 0,
+      "label": "Never"
+    },
+    {
+      "value": 1,
+      "label": "Almost never"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes"
+    },
+    {
+      "value": 3,
+      "label": "Fairly often"
+    },
+    {
+      "value": 4,
+      "label": "Very often"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "In the last month, how often have you felt that you were unable to control the important things in your life?", "type": "likert" },
-    { "index": 1, "text": "In the last month, how often have you felt confident about your ability to handle your personal problems?", "type": "likert" },
-    { "index": 2, "text": "In the last month, how often have you felt that things were going your way?", "type": "likert" },
-    { "index": 3, "text": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "In the last month, how often have you felt that you were unable to control the important things in your life?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "In the last month, how often have you felt confident about your ability to handle your personal problems?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "In the last month, how often have you felt that things were going your way?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 16,
     "maxItemScore": 4,
-    "reverseItems": [1, 2],
+    "reverseItems": [
+      1,
+      2
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -73,7 +108,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 16 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 16
+    }
   }
 }

@@ -7,41 +7,140 @@
     "author": "Zung (1971)",
     "license": "Public Domain",
     "reference": "Zung WWK. A rating instrument for anxiety disorders. Psychosomatics. 1971;12(6):371-379.",
-    "instruction": "Please read each statement and decide how much of the time the statement describes how you have been feeling during the past several days."
+    "instruction": "Please read each statement and decide how much of the time the statement describes how you have been feeling during the past several days.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "A little of the time" },
-    { "value": 2, "label": "Some of the time" },
-    { "value": 3, "label": "Good part of the time" },
-    { "value": 4, "label": "Most or all of the time" }
+    {
+      "value": 1,
+      "label": "A little of the time"
+    },
+    {
+      "value": 2,
+      "label": "Some of the time"
+    },
+    {
+      "value": 3,
+      "label": "Good part of the time"
+    },
+    {
+      "value": 4,
+      "label": "Most or all of the time"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I feel more nervous and anxious than usual", "type": "likert" },
-    { "index": 1, "text": "I feel afraid for no reason at all", "type": "likert" },
-    { "index": 2, "text": "I get upset easily or feel panicky", "type": "likert" },
-    { "index": 3, "text": "I feel like I'm falling apart and going to pieces", "type": "likert" },
-    { "index": 4, "text": "I feel that everything is all right and nothing bad will happen", "type": "likert" },
-    { "index": 5, "text": "My arms and legs shake and tremble", "type": "likert" },
-    { "index": 6, "text": "I am bothered by headaches, neck and back pains", "type": "likert" },
-    { "index": 7, "text": "I feel weak and get tired easily", "type": "likert" },
-    { "index": 8, "text": "I feel calm and can sit still easily", "type": "likert" },
-    { "index": 9, "text": "I can feel my heart beating fast", "type": "likert" },
-    { "index": 10, "text": "I am bothered by dizzy spells", "type": "likert" },
-    { "index": 11, "text": "I have fainting spells or feel like it", "type": "likert" },
-    { "index": 12, "text": "I can breathe in and out easily", "type": "likert" },
-    { "index": 13, "text": "I get feelings of numbness and tingling in my fingers and toes", "type": "likert" },
-    { "index": 14, "text": "I am bothered by stomachaches or indigestion", "type": "likert" },
-    { "index": 15, "text": "I have to empty my bladder often", "type": "likert" },
-    { "index": 16, "text": "My hands are usually dry and warm", "type": "likert" },
-    { "index": 17, "text": "My face gets hot and blushes", "type": "likert" },
-    { "index": 18, "text": "I fall asleep easily and get a good night's rest", "type": "likert" },
-    { "index": 19, "text": "I have nightmares", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I feel more nervous and anxious than usual",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I feel afraid for no reason at all",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I get upset easily or feel panicky",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I feel like I'm falling apart and going to pieces",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I feel that everything is all right and nothing bad will happen",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "My arms and legs shake and tremble",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I am bothered by headaches, neck and back pains",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I feel weak and get tired easily",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I feel calm and can sit still easily",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I can feel my heart beating fast",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I am bothered by dizzy spells",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I have fainting spells or feel like it",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I can breathe in and out easily",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I get feelings of numbness and tingling in my fingers and toes",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I am bothered by stomachaches or indigestion",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I have to empty my bladder often",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "My hands are usually dry and warm",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "My face gets hot and blushes",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "I fall asleep easily and get a good night's rest",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "I have nightmares",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 80,
     "maxItemScore": 4,
-    "reverseItems": [4, 8, 12, 16, 18],
+    "reverseItems": [
+      4,
+      8,
+      12,
+      16,
+      18
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -103,7 +202,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 20, "max": 80 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 20,
+      "max": 80
+    }
   }
 }

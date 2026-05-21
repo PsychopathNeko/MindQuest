@@ -7,11 +7,18 @@
     "author": "Brown & Rounds (1995)",
     "license": "Free to use",
     "reference": "Brown RL, Rounds LA. Conjoint screening questionnaires for alcohol and other drug abuse: criterion validity in a primary care practice. Wis Med J. 1995;94(3):135-140.",
-    "instruction": "请如实回答以下每个问题，选择「是」或「否」。这些问题涉及您的饮酒和/或药物使用情况。"
+    "instruction": "请如实回答以下每个问题，选择「是」或「否」。这些问题涉及您的饮酒和/或药物使用情况。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "是" },
-    { "value": 0, "label": "否" }
+    {
+      "value": 1,
+      "label": "是"
+    },
+    {
+      "value": 0,
+      "label": "否"
+    }
   ],
   "questions": [
     {
@@ -73,7 +80,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 4 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 4
+    }
   }
 }

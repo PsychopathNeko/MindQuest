@@ -7,23 +7,68 @@
     "author": "Kroenke, Strine, Spitzer, Williams, Berry & Mokdad (2009)",
     "license": "Public Domain",
     "reference": "Kroenke K, Strine TW, Spitzer RL, Williams JBW, Berry JT, Mokdad AH. The PHQ-8 as a measure of current depression in the general population. J Affect Disord. 2009;114(1-3):163-173.",
-    "instruction": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    "instruction": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Not at all" },
-    { "value": 1, "label": "Several days" },
-    { "value": 2, "label": "More than half the days" },
-    { "value": 3, "label": "Nearly every day" }
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "Several days"
+    },
+    {
+      "value": 2,
+      "label": "More than half the days"
+    },
+    {
+      "value": 3,
+      "label": "Nearly every day"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Little interest or pleasure in doing things", "type": "likert" },
-    { "index": 1, "text": "Feeling down, depressed, or hopeless", "type": "likert" },
-    { "index": 2, "text": "Trouble falling or staying asleep, or sleeping too much", "type": "likert" },
-    { "index": 3, "text": "Feeling tired or having little energy", "type": "likert" },
-    { "index": 4, "text": "Poor appetite or overeating", "type": "likert" },
-    { "index": 5, "text": "Feeling bad about yourself \u2014 or that you are a failure or have let yourself or your family down", "type": "likert" },
-    { "index": 6, "text": "Trouble concentrating on things, such as reading the newspaper or watching television", "type": "likert" },
-    { "index": 7, "text": "Moving or speaking so slowly that other people could have noticed? Or the opposite \u2014 being so fidgety or restless that you have been moving around a lot more than usual", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Little interest or pleasure in doing things",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Feeling down, depressed, or hopeless",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Trouble falling or staying asleep, or sleeping too much",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Feeling tired or having little energy",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Poor appetite or overeating",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -102,7 +147,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 24 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 24
+    }
   }
 }

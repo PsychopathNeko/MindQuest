@@ -7,7 +7,8 @@
     "author": "Zimet et al. (1988)",
     "license": "Free for research use",
     "reference": "Zimet GD, Dahlem NW, Zimet SG, Farley GK. The Multidimensional Scale of Perceived Social Support. J Pers Assess. 1988;52(1):30-41.",
-    "instruction": "Please read each statement carefully and indicate how you feel about each."
+    "instruction": "Please read each statement carefully and indicate how you feel about each.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

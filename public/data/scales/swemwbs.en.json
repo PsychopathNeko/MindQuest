@@ -7,23 +7,67 @@
     "author": "Stewart-Brown, Tennant, Tennant, Platt, Parkinson & Weich (2009)",
     "license": "Free to use",
     "reference": "Stewart-Brown S, Tennant A, Tennant R, Platt S, Parkinson J, Weich S. Internal construct validity of the Warwick-Edinburgh Mental Well-Being Scale (WEMWBS): a Rasch analysis using data from the Scottish Health Education Population Survey. Health Qual Life Outcomes. 2009;7:15.",
-    "instruction": "Below are some statements about feelings and thoughts. Please select the option that best describes your experience of each over the last 2 weeks."
+    "instruction": "Below are some statements about feelings and thoughts. Please select the option that best describes your experience of each over the last 2 weeks.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "None of the time" },
-    { "value": 2, "label": "Rarely" },
-    { "value": 3, "label": "Some of the time" },
-    { "value": 4, "label": "Often" },
-    { "value": 5, "label": "All of the time" }
+    {
+      "value": 1,
+      "label": "None of the time"
+    },
+    {
+      "value": 2,
+      "label": "Rarely"
+    },
+    {
+      "value": 3,
+      "label": "Some of the time"
+    },
+    {
+      "value": 4,
+      "label": "Often"
+    },
+    {
+      "value": 5,
+      "label": "All of the time"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I've been feeling optimistic about the future", "type": "likert" },
-    { "index": 1, "text": "I've been feeling useful", "type": "likert" },
-    { "index": 2, "text": "I've been feeling relaxed", "type": "likert" },
-    { "index": 3, "text": "I've been dealing with problems well", "type": "likert" },
-    { "index": 4, "text": "I've been thinking clearly", "type": "likert" },
-    { "index": 5, "text": "I've been feeling close to other people", "type": "likert" },
-    { "index": 6, "text": "I've been able to make up my own mind about things", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I've been feeling optimistic about the future",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I've been feeling useful",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I've been feeling relaxed",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I've been dealing with problems well",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I've been thinking clearly",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I've been feeling close to other people",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I've been able to make up my own mind about things",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -88,7 +132,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 7, "max": 35 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 7,
+      "max": 35
+    }
   }
 }

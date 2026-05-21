@@ -7,7 +7,8 @@
     "author": "Duckworth & Quinn (2009)",
     "license": "Free to use",
     "reference": "Duckworth AL, Quinn PD. Development and validation of the Short Grit Scale (Grit-S). J Pers Assess. 2009;91(2):166-174.",
-    "instruction": "Please respond to each item using the scale below. Be honest; there are no right or wrong answers."
+    "instruction": "Please respond to each item using the scale below. Be honest; there are no right or wrong answers.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

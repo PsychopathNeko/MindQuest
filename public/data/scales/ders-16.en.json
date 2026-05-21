@@ -7,7 +7,8 @@
     "author": "Bjureberg et al. (2016)",
     "license": "Free to use",
     "reference": "Bjureberg J, Ljotsson B, Tull MT, et al. Development and validation of a brief version of the Difficulties in Emotion Regulation Scale: The DERS-16. J Psychopathol Behav Assess. 2016;38(2):284-296.",
-    "instruction": "Please indicate how often the following statements apply to you."
+    "instruction": "Please indicate how often the following statements apply to you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

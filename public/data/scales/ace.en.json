@@ -7,23 +7,70 @@
     "author": "Felitti et al. (1998)",
     "license": "Public Domain",
     "reference": "Felitti VJ, Anda RF, Nordenberg D, et al. Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: the Adverse Childhood Experiences (ACE) Study. Am J Prev Med. 1998;14(4):245-258.",
-    "instruction": "Prior to your 18th birthday, did any of the following happen to you? Please answer each question honestly."
+    "instruction": "Prior to your 18th birthday, did any of the following happen to you? Please answer each question honestly.",
+    "population": "Adults (retrospective childhood)"
   },
   "commonChoices": [
-    { "value": 0, "label": "No" },
-    { "value": 1, "label": "Yes" }
+    {
+      "value": 0,
+      "label": "No"
+    },
+    {
+      "value": 1,
+      "label": "Yes"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Did a parent or other adult in the household often swear at you, insult you, put you down, or humiliate you, or act in a way that made you afraid that you might be physically hurt?", "type": "likert" },
-    { "index": 1, "text": "Did a parent or other adult in the household often push, grab, slap, or throw something at you, or ever hit you so hard that you had marks or were injured?", "type": "likert" },
-    { "index": 2, "text": "Did an adult or person at least 5 years older than you ever touch or fondle you or have you touch their body in a sexual way, or attempt or actually have oral, anal, or vaginal intercourse with you?", "type": "likert" },
-    { "index": 3, "text": "Did you often feel that no one in your family loved you or thought you were important or special, or your family didn't look out for each other, feel close to each other, or support each other?", "type": "likert" },
-    { "index": 4, "text": "Did you often feel that you didn't have enough to eat, had to wear dirty clothes, and had no one to protect you, or your parents were too drunk or high to take care of you or take you to the doctor if you needed it?", "type": "likert" },
-    { "index": 5, "text": "Were your parents ever separated or divorced?", "type": "likert" },
-    { "index": 6, "text": "Was your mother or stepmother often pushed, grabbed, slapped, or had something thrown at her, or sometimes or often kicked, bitten, hit with a fist, or hit with something hard, or ever repeatedly hit or threatened with a knife or gun?", "type": "likert" },
-    { "index": 7, "text": "Did you live with anyone who was a problem drinker or alcoholic, or who used street drugs?", "type": "likert" },
-    { "index": 8, "text": "Was a household member depressed or mentally ill, or did a household member attempt suicide?", "type": "likert" },
-    { "index": 9, "text": "Did a household member go to prison?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Did a parent or other adult in the household often swear at you, insult you, put you down, or humiliate you, or act in a way that made you afraid that you might be physically hurt?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Did a parent or other adult in the household often push, grab, slap, or throw something at you, or ever hit you so hard that you had marks or were injured?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Did an adult or person at least 5 years older than you ever touch or fondle you or have you touch their body in a sexual way, or attempt or actually have oral, anal, or vaginal intercourse with you?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Did you often feel that no one in your family loved you or thought you were important or special, or your family didn't look out for each other, feel close to each other, or support each other?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Did you often feel that you didn't have enough to eat, had to wear dirty clothes, and had no one to protect you, or your parents were too drunk or high to take care of you or take you to the doctor if you needed it?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Were your parents ever separated or divorced?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Was your mother or stepmother often pushed, grabbed, slapped, or had something thrown at her, or sometimes or often kicked, bitten, hit with a fist, or hit with something hard, or ever repeatedly hit or threatened with a knife or gun?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Did you live with anyone who was a problem drinker or alcoholic, or who used street drugs?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Was a household member depressed or mentally ill, or did a household member attempt suicide?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Did a household member go to prison?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -87,7 +134,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 10 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 10
+    }
   }
 }

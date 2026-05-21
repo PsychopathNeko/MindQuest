@@ -7,7 +7,8 @@
     "author": "International Wellbeing Group (2013)",
     "license": "Free to use",
     "reference": "International Wellbeing Group. Personal Wellbeing Index. 5th Edition. Melbourne: Australian Centre on Quality of Life, Deakin University; 2013.",
-    "instruction": "The following questions ask how satisfied you feel, on a scale from 0 to 10, about different aspects of your life."
+    "instruction": "The following questions ask how satisfied you feel, on a scale from 0 to 10, about different aspects of your life.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

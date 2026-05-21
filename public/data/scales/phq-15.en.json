@@ -7,29 +7,99 @@
     "author": "Kroenke, Spitzer & Williams (2002)",
     "license": "Public Domain",
     "reference": "Kroenke K, Spitzer RL, Williams JBW. The PHQ-15: validity of a new measure for evaluating the severity of somatic symptoms. Psychosom Med. 2002;64(2):258-266.",
-    "instruction": "During the last 4 weeks, how much have you been bothered by any of the following problems?"
+    "instruction": "During the last 4 weeks, how much have you been bothered by any of the following problems?",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Not bothered at all" },
-    { "value": 1, "label": "Bothered a little" },
-    { "value": 2, "label": "Bothered a lot" }
+    {
+      "value": 0,
+      "label": "Not bothered at all"
+    },
+    {
+      "value": 1,
+      "label": "Bothered a little"
+    },
+    {
+      "value": 2,
+      "label": "Bothered a lot"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Stomach pain", "type": "likert" },
-    { "index": 1, "text": "Back pain", "type": "likert" },
-    { "index": 2, "text": "Pain in your arms, legs, or joints (knees, hips, etc.)", "type": "likert" },
-    { "index": 3, "text": "Menstrual cramps or other problems with your periods (women only)", "type": "likert" },
-    { "index": 4, "text": "Headaches", "type": "likert" },
-    { "index": 5, "text": "Chest pain", "type": "likert" },
-    { "index": 6, "text": "Dizziness", "type": "likert" },
-    { "index": 7, "text": "Fainting spells", "type": "likert" },
-    { "index": 8, "text": "Feeling your heart pound or race", "type": "likert" },
-    { "index": 9, "text": "Shortness of breath", "type": "likert" },
-    { "index": 10, "text": "Pain or problems during sexual intercourse", "type": "likert" },
-    { "index": 11, "text": "Constipation, loose bowels, or diarrhea", "type": "likert" },
-    { "index": 12, "text": "Nausea, gas, or indigestion", "type": "likert" },
-    { "index": 13, "text": "Feeling tired or having low energy", "type": "likert" },
-    { "index": 14, "text": "Trouble sleeping", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Stomach pain",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Back pain",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Pain in your arms, legs, or joints (knees, hips, etc.)",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Menstrual cramps or other problems with your periods (women only)",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Headaches",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Chest pain",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Dizziness",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Fainting spells",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Feeling your heart pound or race",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Shortness of breath",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Pain or problems during sexual intercourse",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Constipation, loose bowels, or diarrhea",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Nausea, gas, or indigestion",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Feeling tired or having low energy",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Trouble sleeping",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -94,7 +164,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 30
+    }
   }
 }

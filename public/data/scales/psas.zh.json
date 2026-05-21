@@ -7,7 +7,8 @@
     "author": "Nicassio et al. (1985)",
     "license": "Free to use",
     "reference": "Nicassio PM, Mendlowitz DR, Fussell JJ, Petras L. The phenomenology of the pre-sleep state: The development of the pre-sleep arousal scale. Behav Res Ther. 1985;23(3):263-271.",
-    "instruction": "请描述当您在卧室试图入睡时，以下每种情况的体验程度。"
+    "instruction": "请描述当您在卧室试图入睡时，以下每种情况的体验程度。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

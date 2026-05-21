@@ -7,28 +7,92 @@
     "author": "Carleton, Norton & Asmundson (2007)",
     "license": "Free to use",
     "reference": "Carleton RN, Norton MA, Asmundson GJ. Fearing the unknown: A short version of the Intolerance of Uncertainty Scale. J Anxiety Disord. 2007;21(1):105-117.",
-    "instruction": "Please select the answer that best corresponds to how much each statement is characteristic of you."
+    "instruction": "Please select the answer that best corresponds to how much each statement is characteristic of you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Not at all characteristic of me" },
-    { "value": 2, "label": "A little characteristic of me" },
-    { "value": 3, "label": "Somewhat characteristic of me" },
-    { "value": 4, "label": "Very characteristic of me" },
-    { "value": 5, "label": "Entirely characteristic of me" }
+    {
+      "value": 1,
+      "label": "Not at all characteristic of me"
+    },
+    {
+      "value": 2,
+      "label": "A little characteristic of me"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat characteristic of me"
+    },
+    {
+      "value": 4,
+      "label": "Very characteristic of me"
+    },
+    {
+      "value": 5,
+      "label": "Entirely characteristic of me"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Unforeseen events upset me greatly.", "type": "likert" },
-    { "index": 1, "text": "It frustrates me not having all the information I need.", "type": "likert" },
-    { "index": 2, "text": "Uncertainty keeps me from living a full life.", "type": "likert" },
-    { "index": 3, "text": "One should always look ahead so as to avoid surprises.", "type": "likert" },
-    { "index": 4, "text": "A small unforeseen event can spoil everything, even with the best of planning.", "type": "likert" },
-    { "index": 5, "text": "When it's time to act, uncertainty paralyzes me.", "type": "likert" },
-    { "index": 6, "text": "When I am uncertain, I can't function very well.", "type": "likert" },
-    { "index": 7, "text": "I always want to know what the future has in store for me.", "type": "likert" },
-    { "index": 8, "text": "I can't stand being taken by surprise.", "type": "likert" },
-    { "index": 9, "text": "The smallest doubt can stop me from acting.", "type": "likert" },
-    { "index": 10, "text": "I should be able to organize everything in advance.", "type": "likert" },
-    { "index": 11, "text": "I must get away from all uncertain situations.", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Unforeseen events upset me greatly.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "It frustrates me not having all the information I need.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Uncertainty keeps me from living a full life.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "One should always look ahead so as to avoid surprises.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "A small unforeseen event can spoil everything, even with the best of planning.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "When it's time to act, uncertainty paralyzes me.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "When I am uncertain, I can't function very well.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I always want to know what the future has in store for me.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I can't stand being taken by surprise.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "The smallest doubt can stop me from acting.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I should be able to organize everything in advance.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I must get away from all uncertain situations.",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
@@ -38,13 +102,27 @@
       {
         "id": "prospective",
         "name": "Prospective Anxiety",
-        "items": [0, 1, 2, 3, 4, 5, 6],
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
         "maxScore": 35
       },
       {
         "id": "inhibitory",
         "name": "Inhibitory Anxiety",
-        "items": [7, 8, 9, 10, 11],
+        "items": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
         "maxScore": 25
       }
     ]
@@ -106,60 +184,88 @@
     "subscaleRanges": {
       "prospective": [
         {
-          "min": 7, "max": 14,
-          "level": "minimal", "label": "Low",
+          "min": 7,
+          "max": 14,
+          "level": "minimal",
+          "label": "Low",
           "description": "Low prospective anxiety. You handle anticipation of future events well."
         },
         {
-          "min": 15, "max": 21,
-          "level": "moderate", "label": "Moderate",
+          "min": 15,
+          "max": 21,
+          "level": "moderate",
+          "label": "Moderate",
           "description": "Moderate prospective anxiety. You sometimes worry about future uncertainties."
         },
         {
-          "min": 22, "max": 28,
-          "level": "high", "label": "High",
+          "min": 22,
+          "max": 28,
+          "level": "high",
+          "label": "High",
           "description": "High prospective anxiety. The unpredictability of the future causes you significant concern."
         },
         {
-          "min": 29, "max": 35,
-          "level": "severe", "label": "Very High",
+          "min": 29,
+          "max": 35,
+          "level": "severe",
+          "label": "Very High",
           "description": "Very high prospective anxiety. You experience intense distress about future uncertainties."
         }
       ],
       "inhibitory": [
         {
-          "min": 5, "max": 10,
-          "level": "minimal", "label": "Low",
+          "min": 5,
+          "max": 10,
+          "level": "minimal",
+          "label": "Low",
           "description": "Low inhibitory anxiety. Uncertainty does not significantly hinder your actions."
         },
         {
-          "min": 11, "max": 15,
-          "level": "moderate", "label": "Moderate",
+          "min": 11,
+          "max": 15,
+          "level": "moderate",
+          "label": "Moderate",
           "description": "Moderate inhibitory anxiety. Uncertainty sometimes holds you back from taking action."
         },
         {
-          "min": 16, "max": 20,
-          "level": "high", "label": "High",
+          "min": 16,
+          "max": 20,
+          "level": "high",
+          "label": "High",
           "description": "High inhibitory anxiety. Uncertainty frequently paralyzes your decision-making and actions."
         },
         {
-          "min": 21, "max": 25,
-          "level": "severe", "label": "Very High",
+          "min": 21,
+          "max": 25,
+          "level": "severe",
+          "label": "Very High",
           "description": "Very high inhibitory anxiety. Uncertainty severely impairs your ability to act and make decisions."
         }
       ]
     }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["prospective", "inhibitory"],
+      "subscaleIds": [
+        "prospective",
+        "inhibitory"
+      ],
       "maxDisplayScore": 35
     },
     "radarConfig": {
       "indicators": [
-        { "name": "Prospective Anxiety", "max": 35 },
-        { "name": "Inhibitory Anxiety", "max": 25 }
+        {
+          "name": "Prospective Anxiety",
+          "max": 35
+        },
+        {
+          "name": "Inhibitory Anxiety",
+          "max": 25
+        }
       ]
     }
   }

@@ -7,28 +7,72 @@
     "author": "De Jong Gierveld & Van Tilburg (2006)",
     "license": "Free to use",
     "reference": "De Jong Gierveld J, Van Tilburg T. A 6-item scale for overall, emotional, and social loneliness. Research on Aging. 2006;28(5):582-598.",
-    "instruction": "请根据你的真实感受选择最符合的选项。"
+    "instruction": "请根据你的真实感受选择最符合的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "完全不同意" },
-    { "value": 2, "label": "不同意" },
-    { "value": 3, "label": "一般" },
-    { "value": 4, "label": "同意" },
-    { "value": 5, "label": "完全同意" }
+    {
+      "value": 1,
+      "label": "完全不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "一般"
+    },
+    {
+      "value": 4,
+      "label": "同意"
+    },
+    {
+      "value": 5,
+      "label": "完全同意"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我经常感到一种空虚感", "type": "likert" },
-    { "index": 1, "text": "我非常想念身边有人陪伴", "type": "likert" },
-    { "index": 2, "text": "我经常感到被别人排斥", "type": "likert" },
-    { "index": 3, "text": "有很多人是我可以完全信任的", "type": "likert" },
-    { "index": 4, "text": "有足够多的人让我在需要时可以依靠", "type": "likert" },
-    { "index": 5, "text": "我的朋友圈子足够大", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我经常感到一种空虚感",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我非常想念身边有人陪伴",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我经常感到被别人排斥",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "有很多人是我可以完全信任的",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "有足够多的人让我在需要时可以依靠",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我的朋友圈子足够大",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 30,
     "maxItemScore": 5,
-    "reverseItems": [3, 4, 5],
+    "reverseItems": [
+      3,
+      4,
+      5
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -90,7 +134,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 6, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
   }
 }

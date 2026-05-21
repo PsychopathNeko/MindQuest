@@ -7,25 +7,77 @@
     "author": "Pontes & Griffiths (2015)",
     "license": "Free to use",
     "reference": "Pontes HM, Griffiths MD. Measuring DSM-5 internet gaming disorder: Development and validation of a short psychometric scale. Computers in Human Behavior. 2015;45:137-143.",
-    "instruction": "Based on your gaming behavior over the past 12 months, select the option that best describes your experience."
+    "instruction": "Based on your gaming behavior over the past 12 months, select the option that best describes your experience.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Never" },
-    { "value": 2, "label": "Rarely" },
-    { "value": 3, "label": "Sometimes" },
-    { "value": 4, "label": "Often" },
-    { "value": 5, "label": "Very Often" }
+    {
+      "value": 1,
+      "label": "Never"
+    },
+    {
+      "value": 2,
+      "label": "Rarely"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes"
+    },
+    {
+      "value": 4,
+      "label": "Often"
+    },
+    {
+      "value": 5,
+      "label": "Very Often"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I feel preoccupied with my gaming behavior (e.g., thinking about previous gaming activity, planning the next session, thinking of ways to get more game currency)", "type": "likert" },
-    { "index": 1, "text": "I feel more irritability, anxiety, or even sadness when I try to either reduce or stop my gaming activity", "type": "likert" },
-    { "index": 2, "text": "I feel the need to spend increasing amount of time engaged in gaming to achieve satisfaction or pleasure", "type": "likert" },
-    { "index": 3, "text": "I systematically fail when trying to control or cease my gaming activity", "type": "likert" },
-    { "index": 4, "text": "I have lost interest in previous hobbies and other entertainment activities as a result of my engagement with gaming", "type": "likert" },
-    { "index": 5, "text": "I have continued my gaming activity despite knowing it was causing problems between me and other people", "type": "likert" },
-    { "index": 6, "text": "I have deceived any of my family members, therapists, or others about the amount of my gaming activity", "type": "likert" },
-    { "index": 7, "text": "I play in order to temporarily escape or relieve a negative mood (e.g., helplessness, guilt, anxiety)", "type": "likert" },
-    { "index": 8, "text": "I have jeopardized or lost an important relationship, job, or educational/career opportunity because of my gaming activity", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I feel preoccupied with my gaming behavior (e.g., thinking about previous gaming activity, planning the next session, thinking of ways to get more game currency)",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I feel more irritability, anxiety, or even sadness when I try to either reduce or stop my gaming activity",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I feel the need to spend increasing amount of time engaged in gaming to achieve satisfaction or pleasure",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I systematically fail when trying to control or cease my gaming activity",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I have lost interest in previous hobbies and other entertainment activities as a result of my engagement with gaming",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I have continued my gaming activity despite knowing it was causing problems between me and other people",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I have deceived any of my family members, therapists, or others about the amount of my gaming activity",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I play in order to temporarily escape or relieve a negative mood (e.g., helplessness, guilt, anxiety)",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I have jeopardized or lost an important relationship, job, or educational/career opportunity because of my gaming activity",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -89,7 +141,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 9, "max": 45 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 9,
+      "max": 45
+    }
   }
 }

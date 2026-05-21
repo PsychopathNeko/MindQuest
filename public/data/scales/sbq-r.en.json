@@ -7,7 +7,8 @@
     "author": "Osman et al. (2001)",
     "license": "Free to use",
     "reference": "Osman A, Bagge CL, Gutierrez PM, Konick LC, Kopper BA, Barrios FX. The Suicidal Behaviors Questionnaire-Revised (SBQ-R): Validation with clinical and nonclinical samples. Assessment. 2001;8(4):443-454.",
-    "instruction": "Please answer each question carefully. Your honest responses are important. If you are currently experiencing suicidal thoughts, please contact a crisis helpline or seek immediate professional help."
+    "instruction": "Please answer each question carefully. Your honest responses are important. If you are currently experiencing suicidal thoughts, please contact a crisis helpline or seek immediate professional help.",
+    "population": "Adults (18+)"
   },
   "commonChoices": null,
   "questions": [
@@ -16,10 +17,22 @@
       "text": "Have you ever thought about or attempted to kill yourself?",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "Never" },
-        { "value": 2, "label": "It was just a brief passing thought" },
-        { "value": 3, "label": "I have had a plan at least once to kill myself but did not try to do it" },
-        { "value": 4, "label": "I have attempted to kill myself, but did not want to die" }
+        {
+          "value": 1,
+          "label": "Never"
+        },
+        {
+          "value": 2,
+          "label": "It was just a brief passing thought"
+        },
+        {
+          "value": 3,
+          "label": "I have had a plan at least once to kill myself but did not try to do it"
+        },
+        {
+          "value": 4,
+          "label": "I have attempted to kill myself, but did not want to die"
+        }
       ]
     },
     {
@@ -27,11 +40,26 @@
       "text": "How often have you thought about killing yourself in the past year?",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "Never" },
-        { "value": 2, "label": "Rarely (1 time)" },
-        { "value": 3, "label": "Sometimes (2 times)" },
-        { "value": 4, "label": "Often (3-4 times)" },
-        { "value": 5, "label": "Very often (5 or more times)" }
+        {
+          "value": 1,
+          "label": "Never"
+        },
+        {
+          "value": 2,
+          "label": "Rarely (1 time)"
+        },
+        {
+          "value": 3,
+          "label": "Sometimes (2 times)"
+        },
+        {
+          "value": 4,
+          "label": "Often (3-4 times)"
+        },
+        {
+          "value": 5,
+          "label": "Very often (5 or more times)"
+        }
       ]
     },
     {
@@ -39,9 +67,18 @@
       "text": "Have you ever told someone that you were going to commit suicide, or that you might do it?",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "No" },
-        { "value": 2, "label": "Yes, at one time, but did not really want to die" },
-        { "value": 3, "label": "Yes, more than once, but did not want to do it" }
+        {
+          "value": 1,
+          "label": "No"
+        },
+        {
+          "value": 2,
+          "label": "Yes, at one time, but did not really want to die"
+        },
+        {
+          "value": 3,
+          "label": "Yes, more than once, but did not want to do it"
+        }
       ]
     },
     {
@@ -49,13 +86,34 @@
       "text": "How likely is it that you will attempt suicide someday?",
       "type": "likert",
       "choices": [
-        { "value": 0, "label": "Never" },
-        { "value": 1, "label": "No chance at all" },
-        { "value": 2, "label": "Rather unlikely" },
-        { "value": 3, "label": "Unlikely" },
-        { "value": 4, "label": "Likely" },
-        { "value": 5, "label": "Rather likely" },
-        { "value": 6, "label": "Very likely" }
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 1,
+          "label": "No chance at all"
+        },
+        {
+          "value": 2,
+          "label": "Rather unlikely"
+        },
+        {
+          "value": 3,
+          "label": "Unlikely"
+        },
+        {
+          "value": 4,
+          "label": "Likely"
+        },
+        {
+          "value": 5,
+          "label": "Rather likely"
+        },
+        {
+          "value": 6,
+          "label": "Very likely"
+        }
       ]
     }
   ],
@@ -122,7 +180,16 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 3, "max": 18 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 3,
+      "max": 18
+    }
+  },
+  "crisisConfig": {
+    "type": "level",
+    "levelThreshold": "moderate"
   }
 }

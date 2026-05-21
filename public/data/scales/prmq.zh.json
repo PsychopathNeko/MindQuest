@@ -7,7 +7,8 @@
     "author": "Smith et al. (2000)",
     "license": "Free to use",
     "reference": "Smith G, Della Sala S, Logie RH, Maylor EA. Prospective and retrospective memory in normal ageing and dementia: a questionnaire study. Mem Cognit. 2000;28(6):881-889.",
-    "instruction": "以下问题涉及每个人都会偶尔犯的记忆错误。请指出以下每种情况在您身上发生的频率。"
+    "instruction": "以下问题涉及每个人都会偶尔犯的记忆错误。请指出以下每种情况在您身上发生的频率。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

@@ -7,32 +7,98 @@
     "author": "Bartholomew K, Horowitz LM (1991)",
     "license": "Free to use",
     "reference": "Bartholomew K, Horowitz LM. Attachment styles among young adults: a test of a four-category model. J Pers Soc Psychol. 1991;61(2):226-244.",
-    "instruction": "以下是四种常见的人际关系风格描述。请仔细阅读每段描述，然后评价它与你在亲密关系中的典型表现有多相似。"
+    "instruction": "以下是四种常见的人际关系风格描述。请仔细阅读每段描述，然后评价它与你在亲密关系中的典型表现有多相似。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "完全不像我" },
-    { "value": 2, "label": "有点像我" },
-    { "value": 3, "label": "不太像我" },
-    { "value": 4, "label": "一般" },
-    { "value": 5, "label": "比较像我" },
-    { "value": 6, "label": "很像我" },
-    { "value": 7, "label": "非常像我" }
+    {
+      "value": 1,
+      "label": "完全不像我"
+    },
+    {
+      "value": 2,
+      "label": "有点像我"
+    },
+    {
+      "value": 3,
+      "label": "不太像我"
+    },
+    {
+      "value": 4,
+      "label": "一般"
+    },
+    {
+      "value": 5,
+      "label": "比较像我"
+    },
+    {
+      "value": 6,
+      "label": "很像我"
+    },
+    {
+      "value": 7,
+      "label": "非常像我"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我很容易与他人建立亲密的情感关系。我不介意依赖他人，也不介意他人依赖我。我不担心被独自留下或不被他人接受。", "type": "likert" },
-    { "index": 1, "text": "与人过于亲近会让我不舒服。我渴望亲密的情感关系，但我发现很难完全信任他人或依赖他人。我担心如果让自己与他人过于亲近，我会受到伤害。", "type": "likert" },
-    { "index": 2, "text": "我希望能与他人完全亲密无间，但我常常发现别人不愿意像我期望的那样亲近。没有亲密关系让我感到不安，我有时会担心别人不像我重视他们那样重视我。", "type": "likert" },
-    { "index": 3, "text": "没有亲密的情感关系我也觉得很自在。对我来说，感到独立和自给自足非常重要，我不喜欢依赖别人，也不喜欢别人依赖我。", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我很容易与他人建立亲密的情感关系。我不介意依赖他人，也不介意他人依赖我。我不担心被独自留下或不被他人接受。",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "与人过于亲近会让我不舒服。我渴望亲密的情感关系，但我发现很难完全信任他人或依赖他人。我担心如果让自己与他人过于亲近，我会受到伤害。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我希望能与他人完全亲密无间，但我常常发现别人不愿意像我期望的那样亲近。没有亲密关系让我感到不安，我有时会担心别人不像我重视他们那样重视我。",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "没有亲密的情感关系我也觉得很自在。对我来说，感到独立和自给自足非常重要，我不喜欢依赖别人，也不喜欢别人依赖我。",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
     "maxTotal": 28,
     "maxItemScore": 7,
     "subscales": [
-      { "id": "secure", "name": "安全型", "items": [0], "maxScore": 7 },
-      { "id": "fearful", "name": "恐惧型", "items": [1], "maxScore": 7 },
-      { "id": "preoccupied", "name": "迷恋型", "items": [2], "maxScore": 7 },
-      { "id": "dismissing", "name": "疏离型", "items": [3], "maxScore": 7 }
+      {
+        "id": "secure",
+        "name": "安全型",
+        "items": [
+          0
+        ],
+        "maxScore": 7
+      },
+      {
+        "id": "fearful",
+        "name": "恐惧型",
+        "items": [
+          1
+        ],
+        "maxScore": 7
+      },
+      {
+        "id": "preoccupied",
+        "name": "迷恋型",
+        "items": [
+          2
+        ],
+        "maxScore": 7
+      },
+      {
+        "id": "dismissing",
+        "name": "疏离型",
+        "items": [
+          3
+        ],
+        "maxScore": 7
+      }
     ]
   },
   "interpretation": {
@@ -74,31 +140,110 @@
     ],
     "subscaleRanges": {
       "secure": [
-        { "min": 1, "max": 3, "level": "low", "label": "安全型较低", "description": "您与安全型依恋的认同度不高，在亲近和信任方面可能存在一些不适。" },
-        { "min": 4, "max": 5, "level": "moderate", "label": "安全型中等", "description": "您表现出一些安全型依恋特征，对亲近和相互依赖有一定的舒适度。" },
-        { "min": 6, "max": 7, "level": "high", "label": "安全型较高", "description": "您高度认同安全型依恋风格，在情感亲密、信任和相互依赖方面感到自在。" }
+        {
+          "min": 1,
+          "max": 3,
+          "level": "low",
+          "label": "安全型较低",
+          "description": "您与安全型依恋的认同度不高，在亲近和信任方面可能存在一些不适。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "安全型中等",
+          "description": "您表现出一些安全型依恋特征，对亲近和相互依赖有一定的舒适度。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "安全型较高",
+          "description": "您高度认同安全型依恋风格，在情感亲密、信任和相互依赖方面感到自在。"
+        }
       ],
       "fearful": [
-        { "min": 1, "max": 3, "level": "low", "label": "恐惧型较低", "description": "您与恐惧型依恋的认同度不高，通常不会过度担心在关系中受伤。" },
-        { "min": 4, "max": 5, "level": "moderate", "label": "恐惧型中等", "description": "您表现出一些恐惧型依恋特征，有时会在渴望亲近和害怕被拒绝之间挣扎。" },
-        { "min": 6, "max": 7, "level": "high", "label": "恐惧型较高", "description": "您高度认同恐惧型依恋风格，渴望亲密关系但害怕受伤，这使得亲密变得困难。" }
+        {
+          "min": 1,
+          "max": 3,
+          "level": "low",
+          "label": "恐惧型较低",
+          "description": "您与恐惧型依恋的认同度不高，通常不会过度担心在关系中受伤。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "恐惧型中等",
+          "description": "您表现出一些恐惧型依恋特征，有时会在渴望亲近和害怕被拒绝之间挣扎。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "恐惧型较高",
+          "description": "您高度认同恐惧型依恋风格，渴望亲密关系但害怕受伤，这使得亲密变得困难。"
+        }
       ],
       "preoccupied": [
-        { "min": 1, "max": 3, "level": "low", "label": "迷恋型较低", "description": "您与迷恋型依恋的认同度不高，通常不会过度担心他人的可及性。" },
-        { "min": 4, "max": 5, "level": "moderate", "label": "迷恋型中等", "description": "您表现出一些迷恋型依恋特征，有时会担心他人不像您重视他们那样重视您。" },
-        { "min": 6, "max": 7, "level": "high", "label": "迷恋型较高", "description": "您高度认同迷恋型依恋风格，强烈渴望亲密，可能会过度担心关系的安全感。" }
+        {
+          "min": 1,
+          "max": 3,
+          "level": "low",
+          "label": "迷恋型较低",
+          "description": "您与迷恋型依恋的认同度不高，通常不会过度担心他人的可及性。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "迷恋型中等",
+          "description": "您表现出一些迷恋型依恋特征，有时会担心他人不像您重视他们那样重视您。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "迷恋型较高",
+          "description": "您高度认同迷恋型依恋风格，强烈渴望亲密，可能会过度担心关系的安全感。"
+        }
       ],
       "dismissing": [
-        { "min": 1, "max": 3, "level": "low", "label": "疏离型较低", "description": "您与疏离型依恋的认同度不高，通常对情感亲密和相互依赖持开放态度。" },
-        { "min": 4, "max": 5, "level": "moderate", "label": "疏离型中等", "description": "您表现出一些疏离型依恋特征，重视独立性但仍可能渴望一些亲密关系。" },
-        { "min": 6, "max": 7, "level": "high", "label": "疏离型较高", "description": "您高度认同疏离型依恋风格，非常重视独立和自给自足，倾向于避免情感依赖。" }
+        {
+          "min": 1,
+          "max": 3,
+          "level": "low",
+          "label": "疏离型较低",
+          "description": "您与疏离型依恋的认同度不高，通常对情感亲密和相互依赖持开放态度。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "疏离型中等",
+          "description": "您表现出一些疏离型依恋特征，重视独立性但仍可能渴望一些亲密关系。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "疏离型较高",
+          "description": "您高度认同疏离型依恋风格，非常重视独立和自给自足，倾向于避免情感依赖。"
+        }
       ]
     }
   },
   "report": {
-    "charts": ["bar"],
+    "charts": [
+      "bar"
+    ],
     "barConfig": {
-      "subscaleIds": ["secure", "fearful", "preoccupied", "dismissing"],
+      "subscaleIds": [
+        "secure",
+        "fearful",
+        "preoccupied",
+        "dismissing"
+      ],
       "maxDisplayScore": 7
     }
   }

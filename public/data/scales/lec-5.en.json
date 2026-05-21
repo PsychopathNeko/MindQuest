@@ -7,7 +7,8 @@
     "author": "Weathers et al. (2013)",
     "license": "Public Domain",
     "reference": "Weathers FW, Blake DD, Schnurr PP, Kaloupek DG, Marx BP, Keane TM. The Life Events Checklist for DSM-5 (LEC-5). National Center for PTSD; 2013.",
-    "instruction": "Listed below are a number of difficult or stressful things that sometimes happen to people. For each event, please indicate whether it happened to you."
+    "instruction": "Listed below are a number of difficult or stressful things that sometimes happen to people. For each event, please indicate whether it happened to you.",
+    "population": "General population (16+)"
   },
   "commonChoices": [
     {

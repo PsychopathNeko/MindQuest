@@ -7,21 +7,57 @@
     "author": "Altman et al. (1997)",
     "license": "Free to use",
     "reference": "Altman EG, et al. The Altman Self-Rating Mania Scale. Biological Psychiatry. 1997;42(10):948-955.",
-    "instruction": "Please select the option that best describes your state over the past week."
+    "instruction": "Please select the option that best describes your state over the past week.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Not at all" },
-    { "value": 1, "label": "Occasionally/Slightly" },
-    { "value": 2, "label": "Sometimes/Moderately" },
-    { "value": 3, "label": "Often/Considerably" },
-    { "value": 4, "label": "Almost always/Severely" }
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "Occasionally/Slightly"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes/Moderately"
+    },
+    {
+      "value": 3,
+      "label": "Often/Considerably"
+    },
+    {
+      "value": 4,
+      "label": "Almost always/Severely"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I feel happier or more cheerful than usual (not just feeling good)", "type": "likert" },
-    { "index": 1, "text": "I feel more self-confident than usual", "type": "likert" },
-    { "index": 2, "text": "I need less sleep than usual", "type": "likert" },
-    { "index": 3, "text": "I talk more than usual or speak faster", "type": "likert" },
-    { "index": 4, "text": "I have been more active or do more things than usual", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I feel happier or more cheerful than usual (not just feeling good)",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I feel more self-confident than usual",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I need less sleep than usual",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I talk more than usual or speak faster",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I have been more active or do more things than usual",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -86,7 +122,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 20 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 20
+    }
   }
 }

@@ -7,7 +7,8 @@
     "author": "Foa, Huppert, Leiberg, et al. (2002)",
     "license": "Free to use",
     "reference": "Foa EB, et al. Psychol Assess. 2002;14(4):485-496.",
-    "instruction": "以下描述了许多人日常生活中可能有的体验。请选择过去一个月内其困扰程度。"
+    "instruction": "以下描述了许多人日常生活中可能有的体验。请选择过去一个月内其困扰程度。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

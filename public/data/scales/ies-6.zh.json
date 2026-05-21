@@ -7,7 +7,8 @@
     "author": "Thoresen et al. (2010)",
     "license": "Free to use",
     "reference": "Thoresen S, Tambs K, Hussain A, Heir T, Johansen VA, Bisson JI. Brief measure of posttraumatic stress reactions: Impact of Event Scale-6. J Loss Trauma. 2010;15(3):238-247.",
-    "instruction": "以下是人们在经历压力性生活事件后有时会遇到的困难。请阅读每一项，并指出在过去7天内每项困难对您的困扰程度。"
+    "instruction": "以下是人们在经历压力性生活事件后有时会遇到的困难。请阅读每一项，并指出在过去7天内每项困难对您的困扰程度。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

@@ -7,7 +7,8 @@
     "author": "Johnson JG, Harris ES, Spitzer RL, Williams JBW (2002)",
     "license": "Public Domain",
     "reference": "Johnson JG, et al. J Adolesc Health. 2002;30(3):196-204.",
-    "instruction": "回想一下过去两周，以下这些问题困扰你的频率如何？请放心作答，没有对错之分。"
+    "instruction": "回想一下过去两周，以下这些问题困扰你的频率如何？请放心作答，没有对错之分。",
+    "population": "青少年（11-17岁）"
   },
   "commonChoices": [
     {
@@ -174,5 +175,14 @@
       "min": 0,
       "max": 27
     }
+  },
+  "crisisConfig": {
+    "type": "item",
+    "items": [
+      {
+        "questionIndex": 8,
+        "threshold": 1
+      }
+    ]
   }
 }

@@ -7,7 +7,8 @@
     "author": "Knight et al. (1999)",
     "license": "Free to use",
     "reference": "Knight JR, Sherritt L, Shrier LA, Harris SK, Chang G. Validity of the CRAFFT substance abuse screening test among adolescent clinic patients. Arch Pediatr Adolesc Med. 2002;156(6):607-614.",
-    "instruction": "Please answer each question honestly with Yes or No. These questions ask about your experiences with alcohol and drugs."
+    "instruction": "Please answer each question honestly with Yes or No. These questions ask about your experiences with alcohol and drugs.",
+    "population": "Adults (18+)"
   },
   "commonChoices": null,
   "questions": [
@@ -81,7 +82,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 6 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 6
+    }
   }
 }

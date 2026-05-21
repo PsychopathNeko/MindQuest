@@ -10,35 +10,113 @@
     "estimatedMinutes": 3,
     "license": "Free for research use",
     "reference": "Tangney JP, Baumeister RF, Boone AL. High self-control predicts good adjustment, less pathology, better grades, and interpersonal success. J Pers. 2004;72(2):271-324.",
-    "instruction": "Using the scale provided, please indicate how much each of the following statements reflects how you typically are."
+    "instruction": "Using the scale provided, please indicate how much each of the following statements reflects how you typically are.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Not at all like me" },
-    { "value": 2, "label": "A little like me" },
-    { "value": 3, "label": "Somewhat like me" },
-    { "value": 4, "label": "Mostly like me" },
-    { "value": 5, "label": "Very much like me" }
+    {
+      "value": 1,
+      "label": "Not at all like me"
+    },
+    {
+      "value": 2,
+      "label": "A little like me"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat like me"
+    },
+    {
+      "value": 4,
+      "label": "Mostly like me"
+    },
+    {
+      "value": 5,
+      "label": "Very much like me"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I am good at resisting temptation.", "type": "likert" },
-    { "index": 1, "text": "I have a hard time breaking bad habits.", "type": "likert" },
-    { "index": 2, "text": "I am lazy.", "type": "likert" },
-    { "index": 3, "text": "I say inappropriate things.", "type": "likert" },
-    { "index": 4, "text": "I do certain things that are bad for me, if they are fun.", "type": "likert" },
-    { "index": 5, "text": "I refuse things that are bad for me.", "type": "likert" },
-    { "index": 6, "text": "I wish I had more self-discipline.", "type": "likert" },
-    { "index": 7, "text": "People would say that I have iron self-discipline.", "type": "likert" },
-    { "index": 8, "text": "Pleasure and fun sometimes keep me from getting work done.", "type": "likert" },
-    { "index": 9, "text": "I have trouble concentrating.", "type": "likert" },
-    { "index": 10, "text": "I am able to work effectively toward long-term goals.", "type": "likert" },
-    { "index": 11, "text": "Sometimes I can't stop myself from doing something, even if I know it is wrong.", "type": "likert" },
-    { "index": 12, "text": "I often act without thinking through all the alternatives.", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I am good at resisting temptation.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I have a hard time breaking bad habits.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I am lazy.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I say inappropriate things.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I do certain things that are bad for me, if they are fun.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I refuse things that are bad for me.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I wish I had more self-discipline.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "People would say that I have iron self-discipline.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Pleasure and fun sometimes keep me from getting work done.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I have trouble concentrating.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I am able to work effectively toward long-term goals.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Sometimes I can't stop myself from doing something, even if I know it is wrong.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I often act without thinking through all the alternatives.",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 65,
     "maxItemScore": 5,
-    "reverseItems": [1, 2, 3, 4, 6, 8, 9, 11, 12],
+    "reverseItems": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      11,
+      12
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -99,7 +177,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 13, "max": 65 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 13,
+      "max": 65
+    }
   }
 }

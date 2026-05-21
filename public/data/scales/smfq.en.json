@@ -7,7 +7,8 @@
     "author": "Angold A, et al. (1995)",
     "license": "Free to use",
     "reference": "Angold A, et al. Development of a short questionnaire for use in epidemiological studies of depression in children and adolescents. Int J Methods Psychiatr Res. 1995;5:237-249.",
-    "instruction": "These sentences describe how people may feel or act. For each item, please select how much you have felt or acted this way in the past two weeks."
+    "instruction": "These sentences describe how people may feel or act. For each item, please select how much you have felt or acted this way in the past two weeks.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

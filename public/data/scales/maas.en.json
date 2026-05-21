@@ -7,7 +7,8 @@
     "author": "Brown & Ryan (2003)",
     "license": "Free for research use",
     "reference": "Brown KW, Ryan RM. The benefits of being present: mindfulness and its role in psychological well-being. J Pers Soc Psychol. 2003;84(4):822-848.",
-    "instruction": "Below is a collection of statements about your everyday experience. Please indicate how frequently or infrequently you currently have each experience. Please answer according to what really reflects your experience rather than what you think your experience should be."
+    "instruction": "Below is a collection of statements about your everyday experience. Please indicate how frequently or infrequently you currently have each experience. Please answer according to what really reflects your experience rather than what you think your experience should be.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

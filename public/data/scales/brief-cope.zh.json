@@ -7,7 +7,8 @@
     "author": "Carver (1997)",
     "license": "Free to use",
     "reference": "Carver CS. You want to measure coping but your protocol is too long: consider the Brief COPE. Int J Behav Med. 1997;4(1):92-100.",
-    "instruction": "以下条目询问您在应对压力事件时的做法。每个条目描述了一种特定的应对方式。请根据您的实际情况，选择最符合您做法的选项。"
+    "instruction": "以下条目询问您在应对压力事件时的做法。每个条目描述了一种特定的应对方式。请根据您的实际情况，选择最符合您做法的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

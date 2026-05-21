@@ -7,7 +7,8 @@
     "author": "Pilowsky (1967)",
     "license": "Free for research use",
     "reference": "Pilowsky I. Dimensions of hypochondriasis. Br J Psychiatry. 1967;113(494):89-93.",
-    "instruction": "Please rate each item based on your actual feelings."
+    "instruction": "Please rate each item based on your actual feelings.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

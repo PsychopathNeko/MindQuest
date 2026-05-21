@@ -7,7 +7,8 @@
     "author": "Sullivan, Bishop & Pivik (1995)",
     "license": "Free for research use",
     "reference": "Sullivan MJL, Bishop SR, Pivik J. The Pain Catastrophizing Scale: development and validation. Psychol Assess. 1995;7(4):524-532.",
-    "instruction": "当你感到疼痛时，你可能会有各种想法和感受。请根据你体验疼痛时的感受选择。"
+    "instruction": "当你感到疼痛时，你可能会有各种想法和感受。请根据你体验疼痛时的感受选择。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

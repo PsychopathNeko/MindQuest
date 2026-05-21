@@ -7,22 +7,62 @@
     "author": "Mitchell et al. (2003)",
     "license": "Free to use",
     "reference": "Mitchell PH, Powell L, Blumenthal J, et al. A short social support measure for patients recovering from myocardial infarction: The ENRICHD Social Support Instrument. J Cardiopulm Rehabil. 2003;23(6):398-403.",
-    "instruction": "请仔细阅读以下每个描述，并选择最符合您实际情况的选项。"
+    "instruction": "请仔细阅读以下每个描述，并选择最符合您实际情况的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "从来没有" },
-    { "value": 2, "label": "很少" },
-    { "value": 3, "label": "有时" },
-    { "value": 4, "label": "大多数时候" },
-    { "value": 5, "label": "一直都有" }
+    {
+      "value": 1,
+      "label": "从来没有"
+    },
+    {
+      "value": 2,
+      "label": "很少"
+    },
+    {
+      "value": 3,
+      "label": "有时"
+    },
+    {
+      "value": 4,
+      "label": "大多数时候"
+    },
+    {
+      "value": 5,
+      "label": "一直都有"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "当您需要倾诉时，是否有人可以倾听您说话？", "type": "likert" },
-    { "index": 1, "text": "是否有人可以就您遇到的问题给您好的建议？", "type": "likert" },
-    { "index": 2, "text": "是否有人向您表达关爱和温情？", "type": "likert" },
-    { "index": 3, "text": "是否有人可以帮助您处理日常事务？", "type": "likert" },
-    { "index": 4, "text": "您是否可以依靠某人为您提供情感支持（如讨论问题或帮助您做出困难的决定）？", "type": "likert" },
-    { "index": 5, "text": "您是否能够经常与您信任和可以倾诉的亲密之人保持联系？", "type": "likert" }
+    {
+      "index": 0,
+      "text": "当您需要倾诉时，是否有人可以倾听您说话？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "是否有人可以就您遇到的问题给您好的建议？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "是否有人向您表达关爱和温情？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "是否有人可以帮助您处理日常事务？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您是否可以依靠某人为您提供情感支持（如讨论问题或帮助您做出困难的决定）？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "您是否能够经常与您信任和可以倾诉的亲密之人保持联系？",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -90,7 +130,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 6, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
   }
 }

@@ -7,7 +7,8 @@
     "author": "Abramowitz JS, Deacon BJ, Olatunji BO, et al. (2010)",
     "license": "Free to use",
     "reference": "Abramowitz JS, Deacon BJ, Olatunji BO, et al. Assessment of obsessive-compulsive symptom dimensions. Psychol Assess. 2010;22(1):180-198.",
-    "instruction": "The following questions ask about four different types of concerns. Rate the degree to which you have experienced each aspect over the past month."
+    "instruction": "The following questions ask about four different types of concerns. Rate the degree to which you have experienced each aspect over the past month.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

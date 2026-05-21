@@ -7,7 +7,8 @@
     "author": "Connell & Barkham (2007)",
     "license": "Free for research use",
     "reference": "Connell J, Barkham M. CORE-10 User Manual, Version 1.1. CORE System Trust, 2007.",
-    "instruction": "请根据过去一周的情况选择最符合你的选项。"
+    "instruction": "请根据过去一周的情况选择最符合你的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {
@@ -156,5 +157,14 @@
       "min": 0,
       "max": 40
     }
+  },
+  "crisisConfig": {
+    "type": "item",
+    "items": [
+      {
+        "questionIndex": 9,
+        "threshold": 1
+      }
+    ]
   }
 }

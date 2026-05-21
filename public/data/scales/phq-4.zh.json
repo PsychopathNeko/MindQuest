@@ -7,19 +7,48 @@
     "author": "Kroenke, Spitzer, Williams & Löwe (2009)",
     "license": "Public Domain",
     "reference": "Kroenke K, Spitzer RL, Williams JBW, Löwe B. An ultra-brief screening scale for anxiety and depression: the PHQ-4. Psychosomatics. 2009;50(6):613-621.",
-    "instruction": "回想一下过去两周的生活，以下这些感受出现的频率如何？请放心作答，没有对错之分。"
+    "instruction": "回想一下过去两周的生活，以下这些感受出现的频率如何？请放心作答，没有对错之分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "完全没有" },
-    { "value": 1, "label": "好几天" },
-    { "value": 2, "label": "一半以上天数" },
-    { "value": 3, "label": "几乎每天" }
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "好几天"
+    },
+    {
+      "value": 2,
+      "label": "一半以上天数"
+    },
+    {
+      "value": 3,
+      "label": "几乎每天"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "做事时提不起劲或没有兴趣", "type": "likert" },
-    { "index": 1, "text": "感到心情低落、沮丧或绝望", "type": "likert" },
-    { "index": 2, "text": "感觉紧张、焦虑或烦躁", "type": "likert" },
-    { "index": 3, "text": "不能够停止或控制担忧", "type": "likert" }
+    {
+      "index": 0,
+      "text": "做事时提不起劲或没有兴趣",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "感到心情低落、沮丧或绝望",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "感觉紧张、焦虑或烦躁",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "不能够停止或控制担忧",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
@@ -29,13 +58,19 @@
       {
         "id": "depression",
         "name": "抑郁",
-        "items": [0, 1],
+        "items": [
+          0,
+          1
+        ],
         "maxScore": 6
       },
       {
         "id": "anxiety",
         "name": "焦虑",
-        "items": [2, 3],
+        "items": [
+          2,
+          3
+        ],
         "maxScore": 6
       }
     ]
@@ -130,10 +165,19 @@
     }
   },
   "report": {
-    "charts": ["gauge", "bar"],
-    "gaugeConfig": { "min": 0, "max": 12 },
+    "charts": [
+      "gauge",
+      "bar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 12
+    },
     "barConfig": {
-      "subscaleIds": ["depression", "anxiety"],
+      "subscaleIds": [
+        "depression",
+        "anxiety"
+      ],
       "maxDisplayScore": 6
     }
   }

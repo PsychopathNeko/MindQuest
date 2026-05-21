@@ -7,20 +7,52 @@
     "author": "Sinclair & Wallston (2004)",
     "license": "Free to use",
     "reference": "Sinclair VG, Wallston KA. The development and psychometric evaluation of the Brief Resilient Coping Scale. Assessment. 2004;11(1):94-101.",
-    "instruction": "请指出以下每个陈述在多大程度上描述了你的行为和做法。"
+    "instruction": "请指出以下每个陈述在多大程度上描述了你的行为和做法。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "完全不符合" },
-    { "value": 2, "label": "不太符合" },
-    { "value": 3, "label": "中立" },
-    { "value": 4, "label": "比较符合" },
-    { "value": 5, "label": "非常符合" }
+    {
+      "value": 1,
+      "label": "完全不符合"
+    },
+    {
+      "value": 2,
+      "label": "不太符合"
+    },
+    {
+      "value": 3,
+      "label": "中立"
+    },
+    {
+      "value": 4,
+      "label": "比较符合"
+    },
+    {
+      "value": 5,
+      "label": "非常符合"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我会寻找创造性的方法来改变困难的处境", "type": "likert" },
-    { "index": 1, "text": "不管发生什么事，我相信我能控制自己对此的反应", "type": "likert" },
-    { "index": 2, "text": "我相信通过应对困难情境，我可以在积极的方面得到成长", "type": "likert" },
-    { "index": 3, "text": "我积极寻找方法来弥补生活中遇到的损失", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我会寻找创造性的方法来改变困难的处境",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "不管发生什么事，我相信我能控制自己对此的反应",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我相信通过应对困难情境，我可以在积极的方面得到成长",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我积极寻找方法来弥补生活中遇到的损失",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -87,7 +119,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 4, "max": 20 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 4,
+      "max": 20
+    }
   }
 }

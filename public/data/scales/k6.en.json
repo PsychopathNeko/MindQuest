@@ -7,22 +7,62 @@
     "author": "Kessler, Barker, Colpe et al. (2003)",
     "license": "Public Domain",
     "reference": "Kessler RC, Barker PR, Colpe LJ, et al. Screening for serious mental illness in the general population. Arch Gen Psychiatry. 2003;60(2):184-189.",
-    "instruction": "The following questions ask about how you have been feeling during the past 30 days. For each question, select the option that best describes how often you had this feeling."
+    "instruction": "The following questions ask about how you have been feeling during the past 30 days. For each question, select the option that best describes how often you had this feeling.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "None of the time" },
-    { "value": 2, "label": "A little of the time" },
-    { "value": 3, "label": "Some of the time" },
-    { "value": 4, "label": "Most of the time" },
-    { "value": 5, "label": "All of the time" }
+    {
+      "value": 1,
+      "label": "None of the time"
+    },
+    {
+      "value": 2,
+      "label": "A little of the time"
+    },
+    {
+      "value": 3,
+      "label": "Some of the time"
+    },
+    {
+      "value": 4,
+      "label": "Most of the time"
+    },
+    {
+      "value": 5,
+      "label": "All of the time"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "During the past 30 days, about how often did you feel nervous?", "type": "likert" },
-    { "index": 1, "text": "During the past 30 days, about how often did you feel so nervous that nothing could calm you down?", "type": "likert" },
-    { "index": 2, "text": "During the past 30 days, about how often did you feel hopeless?", "type": "likert" },
-    { "index": 3, "text": "During the past 30 days, about how often did you feel depressed?", "type": "likert" },
-    { "index": 4, "text": "During the past 30 days, about how often did you feel so sad that nothing could cheer you up?", "type": "likert" },
-    { "index": 5, "text": "During the past 30 days, about how often did you feel worthless?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "During the past 30 days, about how often did you feel nervous?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "During the past 30 days, about how often did you feel so nervous that nothing could calm you down?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "During the past 30 days, about how often did you feel hopeless?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "During the past 30 days, about how often did you feel depressed?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "During the past 30 days, about how often did you feel so sad that nothing could cheer you up?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "During the past 30 days, about how often did you feel worthless?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -74,7 +114,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 6, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
   }
 }

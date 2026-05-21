@@ -7,23 +7,68 @@
     "author": "Johns MW (1991)",
     "license": "Free for clinical use",
     "reference": "Johns MW. A new method for measuring daytime sleepiness: the Epworth sleepiness scale. Sleep. 1991;14(6):540-545.",
-    "instruction": "How likely are you to doze off or fall asleep in the following situations, in contrast to feeling just tired? This refers to your usual way of life in recent times. Even if you have not done some of these things recently, try to work out how they would have affected you."
+    "instruction": "How likely are you to doze off or fall asleep in the following situations, in contrast to feeling just tired? This refers to your usual way of life in recent times. Even if you have not done some of these things recently, try to work out how they would have affected you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Would never doze" },
-    { "value": 1, "label": "Slight chance of dozing" },
-    { "value": 2, "label": "Moderate chance of dozing" },
-    { "value": 3, "label": "High chance of dozing" }
+    {
+      "value": 0,
+      "label": "Would never doze"
+    },
+    {
+      "value": 1,
+      "label": "Slight chance of dozing"
+    },
+    {
+      "value": 2,
+      "label": "Moderate chance of dozing"
+    },
+    {
+      "value": 3,
+      "label": "High chance of dozing"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Sitting and reading", "type": "likert" },
-    { "index": 1, "text": "Watching TV", "type": "likert" },
-    { "index": 2, "text": "Sitting, inactive in a public place (e.g., a theater or a meeting)", "type": "likert" },
-    { "index": 3, "text": "As a passenger in a car for an hour without a break", "type": "likert" },
-    { "index": 4, "text": "Lying down to rest in the afternoon when circumstances permit", "type": "likert" },
-    { "index": 5, "text": "Sitting and talking to someone", "type": "likert" },
-    { "index": 6, "text": "Sitting quietly after a lunch without alcohol", "type": "likert" },
-    { "index": 7, "text": "In a car, while stopped for a few minutes in traffic", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Sitting and reading",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Watching TV",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Sitting, inactive in a public place (e.g., a theater or a meeting)",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "As a passenger in a car for an hour without a break",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Lying down to rest in the afternoon when circumstances permit",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Sitting and talking to someone",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Sitting quietly after a lunch without alcohol",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "In a car, while stopped for a few minutes in traffic",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -101,7 +146,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 24 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 24
+    }
   }
 }

@@ -7,41 +7,144 @@
     "author": "Russell D (1996)",
     "license": "Free to use",
     "reference": "Russell D. UCLA Loneliness Scale (Version 3): Reliability, validity, and factor structure. J Pers Assess. 1996;66(1):20-40.",
-    "instruction": "Indicate how often each of the statements below is descriptive of you."
+    "instruction": "Indicate how often each of the statements below is descriptive of you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Never" },
-    { "value": 2, "label": "Rarely" },
-    { "value": 3, "label": "Sometimes" },
-    { "value": 4, "label": "Always" }
+    {
+      "value": 1,
+      "label": "Never"
+    },
+    {
+      "value": 2,
+      "label": "Rarely"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes"
+    },
+    {
+      "value": 4,
+      "label": "Always"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I feel in tune with the people around me.", "type": "likert" },
-    { "index": 1, "text": "I lack companionship.", "type": "likert" },
-    { "index": 2, "text": "There is no one I can turn to.", "type": "likert" },
-    { "index": 3, "text": "I do not feel alone.", "type": "likert" },
-    { "index": 4, "text": "I feel part of a group of friends.", "type": "likert" },
-    { "index": 5, "text": "I have a lot in common with the people around me.", "type": "likert" },
-    { "index": 6, "text": "I am no longer close to anyone.", "type": "likert" },
-    { "index": 7, "text": "My interests and ideas are not shared by those around me.", "type": "likert" },
-    { "index": 8, "text": "I am an outgoing person.", "type": "likert" },
-    { "index": 9, "text": "There are people I feel close to.", "type": "likert" },
-    { "index": 10, "text": "I feel left out.", "type": "likert" },
-    { "index": 11, "text": "My social relationships are superficial.", "type": "likert" },
-    { "index": 12, "text": "No one really knows me well.", "type": "likert" },
-    { "index": 13, "text": "I feel isolated from others.", "type": "likert" },
-    { "index": 14, "text": "I can find companionship when I want it.", "type": "likert" },
-    { "index": 15, "text": "There are people who really understand me.", "type": "likert" },
-    { "index": 16, "text": "I am unhappy being so withdrawn.", "type": "likert" },
-    { "index": 17, "text": "People are around me but not with me.", "type": "likert" },
-    { "index": 18, "text": "There are people I can talk to.", "type": "likert" },
-    { "index": 19, "text": "There are people I can turn to.", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I feel in tune with the people around me.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I lack companionship.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "There is no one I can turn to.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I do not feel alone.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I feel part of a group of friends.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I have a lot in common with the people around me.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I am no longer close to anyone.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "My interests and ideas are not shared by those around me.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I am an outgoing person.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "There are people I feel close to.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I feel left out.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "My social relationships are superficial.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "No one really knows me well.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I feel isolated from others.",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I can find companionship when I want it.",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "There are people who really understand me.",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "I am unhappy being so withdrawn.",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "People are around me but not with me.",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "There are people I can talk to.",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "There are people I can turn to.",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 80,
     "maxItemScore": 4,
-    "reverseItems": [0, 4, 5, 8, 9, 14, 15, 18, 19],
+    "reverseItems": [
+      0,
+      4,
+      5,
+      8,
+      9,
+      14,
+      15,
+      18,
+      19
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -97,7 +200,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 20, "max": 80 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 20,
+      "max": 80
+    }
   }
 }

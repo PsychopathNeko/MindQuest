@@ -7,7 +7,8 @@
     "author": "Demerouti E, et al. (2003)",
     "license": "Free for research use",
     "reference": "Demerouti E, et al. J Vocat Behav. 2003;62(3):473-488.",
-    "instruction": "Please indicate how much you agree with each statement about your work."
+    "instruction": "Please indicate how much you agree with each statement about your work.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

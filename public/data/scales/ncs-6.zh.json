@@ -7,28 +7,71 @@
     "author": "Cacioppo JT, Petty RE (1984)",
     "license": "Free to use",
     "reference": "Cacioppo JT, Petty RE, Kao CF. The efficient assessment of need for cognition. J Pers Assess. 1984;48(3):306-307.",
-    "instruction": "以下是一些关于思考习惯的描述，请根据每条描述与你自身的符合程度进行评分。请凭第一感觉作答，没有对错之分。"
+    "instruction": "以下是一些关于思考习惯的描述，请根据每条描述与你自身的符合程度进行评分。请凭第一感觉作答，没有对错之分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "非常不符合" },
-    { "value": 2, "label": "比较不符合" },
-    { "value": 3, "label": "不确定" },
-    { "value": 4, "label": "比较符合" },
-    { "value": 5, "label": "非常符合" }
+    {
+      "value": 1,
+      "label": "非常不符合"
+    },
+    {
+      "value": 2,
+      "label": "比较不符合"
+    },
+    {
+      "value": 3,
+      "label": "不确定"
+    },
+    {
+      "value": 4,
+      "label": "比较符合"
+    },
+    {
+      "value": 5,
+      "label": "非常符合"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "比起简单的问题，我更喜欢复杂的问题", "type": "likert" },
-    { "index": 1, "text": "我喜欢承担需要大量思考的任务", "type": "likert" },
-    { "index": 2, "text": "思考对我来说不是一件有趣的事", "type": "likert" },
-    { "index": 3, "text": "比起那些肯定会挑战我思考能力的事，我更愿意做不太需要动脑的事", "type": "likert" },
-    { "index": 4, "text": "我非常享受需要想出新解决方案的任务", "type": "likert" },
-    { "index": 5, "text": "我希望我的生活中充满需要解决的谜题", "type": "likert" }
+    {
+      "index": 0,
+      "text": "比起简单的问题，我更喜欢复杂的问题",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我喜欢承担需要大量思考的任务",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "思考对我来说不是一件有趣的事",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "比起那些肯定会挑战我思考能力的事，我更愿意做不太需要动脑的事",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我非常享受需要想出新解决方案的任务",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我希望我的生活中充满需要解决的谜题",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 30,
     "maxItemScore": 5,
-    "reverseItems": [2, 3],
+    "reverseItems": [
+      2,
+      3
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -86,7 +129,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 6, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
   }
 }

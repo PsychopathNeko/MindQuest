@@ -7,7 +7,8 @@
     "author": "Spinella (2007)",
     "license": "Free to use",
     "reference": "Spinella M. Normative data and a short form of the Barratt Impulsiveness Scale. International Journal of Neuroscience. 2007;117(3):359-368.",
-    "instruction": "Please rate how often each statement applies to you."
+    "instruction": "Please rate how often each statement applies to you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

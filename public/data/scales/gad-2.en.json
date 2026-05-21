@@ -7,17 +7,38 @@
     "author": "Kroenke, Spitzer, Williams & Löwe (2007)",
     "license": "Public Domain",
     "reference": "Kroenke K, Spitzer RL, Williams JBW, Monahan PO, Löwe B. Anxiety disorders in primary care: prevalence, impairment, comorbidity, and detection. Ann Intern Med. 2007;146(5):317-325.",
-    "instruction": "Over the last 2 weeks, how often have you been bothered by the following problems?"
+    "instruction": "Over the last 2 weeks, how often have you been bothered by the following problems?",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Not at all" },
-    { "value": 1, "label": "Several days" },
-    { "value": 2, "label": "More than half the days" },
-    { "value": 3, "label": "Nearly every day" }
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "Several days"
+    },
+    {
+      "value": 2,
+      "label": "More than half the days"
+    },
+    {
+      "value": 3,
+      "label": "Nearly every day"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Feeling nervous, anxious, or on edge", "type": "likert" },
-    { "index": 1, "text": "Not being able to stop or control worrying", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Feeling nervous, anxious, or on edge",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Not being able to stop or control worrying",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -56,7 +77,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 6 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 6
+    }
   }
 }

@@ -7,25 +7,75 @@
     "author": "Bond et al. (2011)",
     "license": "Free to use",
     "reference": "Bond FW, Hayes SC, Baer RA, et al. Preliminary psychometric properties of the Acceptance and Action Questionnaire-II: a revised measure of psychological inflexibility and experiential avoidance. Behav Ther. 2011;42(4):676-688.",
-    "instruction": "以下列出了一些陈述，请根据每个陈述对你的真实程度进行评分。"
+    "instruction": "以下列出了一些陈述，请根据每个陈述对你的真实程度进行评分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "从不" },
-    { "value": 2, "label": "很少" },
-    { "value": 3, "label": "偶尔" },
-    { "value": 4, "label": "有时" },
-    { "value": 5, "label": "经常" },
-    { "value": 6, "label": "几乎总是" },
-    { "value": 7, "label": "总是" }
+    {
+      "value": 1,
+      "label": "从不"
+    },
+    {
+      "value": 2,
+      "label": "很少"
+    },
+    {
+      "value": 3,
+      "label": "偶尔"
+    },
+    {
+      "value": 4,
+      "label": "有时"
+    },
+    {
+      "value": 5,
+      "label": "经常"
+    },
+    {
+      "value": 6,
+      "label": "几乎总是"
+    },
+    {
+      "value": 7,
+      "label": "总是"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我的痛苦经历和回忆使我难以过上有价值的生活", "type": "likert" },
-    { "index": 1, "text": "我害怕自己的感受", "type": "likert" },
-    { "index": 2, "text": "我担心自己无法控制忧虑和感受", "type": "likert" },
-    { "index": 3, "text": "我的痛苦回忆阻碍了我拥有充实的生活", "type": "likert" },
-    { "index": 4, "text": "情绪困扰给我的生活带来了很多问题", "type": "likert" },
-    { "index": 5, "text": "我觉得我的大部分生活活动都受到了限制", "type": "likert" },
-    { "index": 6, "text": "忧虑影响了我的成功之路", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我的痛苦经历和回忆使我难以过上有价值的生活",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我害怕自己的感受",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我担心自己无法控制忧虑和感受",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我的痛苦回忆阻碍了我拥有充实的生活",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "情绪困扰给我的生活带来了很多问题",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我觉得我的大部分生活活动都受到了限制",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "忧虑影响了我的成功之路",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -89,7 +139,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 7, "max": 49 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 7,
+      "max": 49
+    }
   }
 }

@@ -7,74 +7,222 @@
     "author": "Goodman R (1997)",
     "license": "Free to use",
     "reference": "Goodman R. The Strengths and Difficulties Questionnaire: a research note. J Child Psychol Psychiatry. 1997;38(5):581-586.",
-    "instruction": "请根据孩子过去六个月的表现，对每个陈述选择最符合的选项。"
+    "instruction": "请根据孩子过去六个月的表现，对每个陈述选择最符合的选项。",
+    "population": "儿童青少年（4-17岁，家长/教师填写）"
   },
   "commonChoices": [
-    { "value": 0, "label": "不符合" },
-    { "value": 1, "label": "有点符合" },
-    { "value": 2, "label": "完全符合" }
+    {
+      "value": 0,
+      "label": "不符合"
+    },
+    {
+      "value": 1,
+      "label": "有点符合"
+    },
+    {
+      "value": 2,
+      "label": "完全符合"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "体贴他人的感受。", "type": "likert" },
-    { "index": 1, "text": "坐立不安，过度活跃，不能长时间安静。", "type": "likert" },
-    { "index": 2, "text": "经常诉说头痛、肚子痛或恶心。", "type": "likert" },
-    { "index": 3, "text": "愿意与其他孩子分享（食物、游戏、笔等）。", "type": "likert" },
-    { "index": 4, "text": "经常发脾气或暴躁。", "type": "likert" },
-    { "index": 5, "text": "比较独来独往，倾向于独自玩耍。", "type": "likert" },
-    { "index": 6, "text": "通常听话，照大人的要求做。", "type": "likert" },
-    { "index": 7, "text": "有很多担忧，经常看起来闷闷不乐。", "type": "likert" },
-    { "index": 8, "text": "当别人受伤、不安或生病时，会主动帮忙。", "type": "likert" },
-    { "index": 9, "text": "不停地动来动去或扭来扭去。", "type": "likert" },
-    { "index": 10, "text": "至少有一个好朋友。", "type": "likert" },
-    { "index": 11, "text": "经常与其他孩子打架或欺负他们。", "type": "likert" },
-    { "index": 12, "text": "经常不开心、情绪低落或爱哭。", "type": "likert" },
-    { "index": 13, "text": "总体上受其他孩子喜欢。", "type": "likert" },
-    { "index": 14, "text": "容易分心，注意力不集中。", "type": "likert" },
-    { "index": 15, "text": "在新的情境中容易紧张，很容易失去信心。", "type": "likert" },
-    { "index": 16, "text": "对年幼的孩子很好。", "type": "likert" },
-    { "index": 17, "text": "经常说谎或欺骗。", "type": "likert" },
-    { "index": 18, "text": "被其他孩子欺负或捉弄。", "type": "likert" },
-    { "index": 19, "text": "经常主动帮助别人（父母、老师、其他孩子）。", "type": "likert" },
-    { "index": 20, "text": "做事之前会先想一想。", "type": "likert" },
-    { "index": 21, "text": "从家里、学校或其他地方偷东西。", "type": "likert" },
-    { "index": 22, "text": "与大人相处比与同龄孩子相处更好。", "type": "likert" },
-    { "index": 23, "text": "有很多害怕的东西，容易受惊。", "type": "likert" },
-    { "index": 24, "text": "做事能坚持到底，注意力集中时间较长。", "type": "likert" }
+    {
+      "index": 0,
+      "text": "体贴他人的感受。",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "坐立不安，过度活跃，不能长时间安静。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "经常诉说头痛、肚子痛或恶心。",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "愿意与其他孩子分享（食物、游戏、笔等）。",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "经常发脾气或暴躁。",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "比较独来独往，倾向于独自玩耍。",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "通常听话，照大人的要求做。",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "有很多担忧，经常看起来闷闷不乐。",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "当别人受伤、不安或生病时，会主动帮忙。",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "不停地动来动去或扭来扭去。",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "至少有一个好朋友。",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "经常与其他孩子打架或欺负他们。",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "经常不开心、情绪低落或爱哭。",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "总体上受其他孩子喜欢。",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "容易分心，注意力不集中。",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "在新的情境中容易紧张，很容易失去信心。",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "对年幼的孩子很好。",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "经常说谎或欺骗。",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "被其他孩子欺负或捉弄。",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "经常主动帮助别人（父母、老师、其他孩子）。",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "做事之前会先想一想。",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "从家里、学校或其他地方偷东西。",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "与大人相处比与同龄孩子相处更好。",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "有很多害怕的东西，容易受惊。",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "做事能坚持到底，注意力集中时间较长。",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale_with_reverse",
     "maxTotal": 40,
     "maxItemScore": 2,
-    "reverseItems": [6, 10, 13, 20, 24, 0, 3],
+    "reverseItems": [
+      6,
+      10,
+      13,
+      20,
+      24,
+      0,
+      3
+    ],
     "subscales": [
       {
         "id": "emotional",
         "name": "情绪症状",
-        "items": [2, 7, 12, 15, 23],
+        "items": [
+          2,
+          7,
+          12,
+          15,
+          23
+        ],
         "maxScore": 10
       },
       {
         "id": "conduct",
         "name": "品行问题",
-        "items": [4, 6, 11, 17, 21],
+        "items": [
+          4,
+          6,
+          11,
+          17,
+          21
+        ],
         "maxScore": 10
       },
       {
         "id": "hyperactivity",
         "name": "多动/注意力不集中",
-        "items": [1, 9, 14, 20, 24],
+        "items": [
+          1,
+          9,
+          14,
+          20,
+          24
+        ],
         "maxScore": 10
       },
       {
         "id": "peer",
         "name": "同伴关系问题",
-        "items": [3, 5, 10, 18, 22],
+        "items": [
+          3,
+          5,
+          10,
+          18,
+          22
+        ],
         "maxScore": 10
       },
       {
         "id": "prosocial",
         "name": "亲社会行为",
-        "items": [0, 8, 13, 16, 19],
+        "items": [
+          0,
+          8,
+          13,
+          16,
+          19
+        ],
         "maxScore": 10
       }
     ]
@@ -119,45 +267,159 @@
     ],
     "subscaleRanges": {
       "emotional": [
-        { "min": 0, "max": 3, "level": "normal", "label": "正常", "description": "情绪症状在正常范围。" },
-        { "min": 4, "max": 4, "level": "borderline", "label": "边界", "description": "情绪症状处于边界水平。" },
-        { "min": 5, "max": 10, "level": "abnormal", "label": "异常", "description": "情绪症状偏高。" }
+        {
+          "min": 0,
+          "max": 3,
+          "level": "normal",
+          "label": "正常",
+          "description": "情绪症状在正常范围。"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "level": "borderline",
+          "label": "边界",
+          "description": "情绪症状处于边界水平。"
+        },
+        {
+          "min": 5,
+          "max": 10,
+          "level": "abnormal",
+          "label": "异常",
+          "description": "情绪症状偏高。"
+        }
       ],
       "conduct": [
-        { "min": 0, "max": 2, "level": "normal", "label": "正常", "description": "品行问题在正常范围。" },
-        { "min": 3, "max": 3, "level": "borderline", "label": "边界", "description": "品行问题处于边界水平。" },
-        { "min": 4, "max": 10, "level": "abnormal", "label": "异常", "description": "品行问题偏高。" }
+        {
+          "min": 0,
+          "max": 2,
+          "level": "normal",
+          "label": "正常",
+          "description": "品行问题在正常范围。"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "level": "borderline",
+          "label": "边界",
+          "description": "品行问题处于边界水平。"
+        },
+        {
+          "min": 4,
+          "max": 10,
+          "level": "abnormal",
+          "label": "异常",
+          "description": "品行问题偏高。"
+        }
       ],
       "hyperactivity": [
-        { "min": 0, "max": 5, "level": "normal", "label": "正常", "description": "多动/注意力问题在正常范围。" },
-        { "min": 6, "max": 6, "level": "borderline", "label": "边界", "description": "多动/注意力问题处于边界水平。" },
-        { "min": 7, "max": 10, "level": "abnormal", "label": "异常", "description": "多动/注意力问题偏高。" }
+        {
+          "min": 0,
+          "max": 5,
+          "level": "normal",
+          "label": "正常",
+          "description": "多动/注意力问题在正常范围。"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "level": "borderline",
+          "label": "边界",
+          "description": "多动/注意力问题处于边界水平。"
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "abnormal",
+          "label": "异常",
+          "description": "多动/注意力问题偏高。"
+        }
       ],
       "peer": [
-        { "min": 0, "max": 2, "level": "normal", "label": "正常", "description": "同伴关系问题在正常范围。" },
-        { "min": 3, "max": 3, "level": "borderline", "label": "边界", "description": "同伴关系问题处于边界水平。" },
-        { "min": 4, "max": 10, "level": "abnormal", "label": "异常", "description": "同伴关系问题偏高。" }
+        {
+          "min": 0,
+          "max": 2,
+          "level": "normal",
+          "label": "正常",
+          "description": "同伴关系问题在正常范围。"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "level": "borderline",
+          "label": "边界",
+          "description": "同伴关系问题处于边界水平。"
+        },
+        {
+          "min": 4,
+          "max": 10,
+          "level": "abnormal",
+          "label": "异常",
+          "description": "同伴关系问题偏高。"
+        }
       ],
       "prosocial": [
-        { "min": 6, "max": 10, "level": "normal", "label": "正常", "description": "亲社会行为在正常范围。" },
-        { "min": 5, "max": 5, "level": "borderline", "label": "边界", "description": "亲社会行为处于边界水平。" },
-        { "min": 0, "max": 4, "level": "abnormal", "label": "异常", "description": "亲社会行为偏低。" }
+        {
+          "min": 6,
+          "max": 10,
+          "level": "normal",
+          "label": "正常",
+          "description": "亲社会行为在正常范围。"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "level": "borderline",
+          "label": "边界",
+          "description": "亲社会行为处于边界水平。"
+        },
+        {
+          "min": 0,
+          "max": 4,
+          "level": "abnormal",
+          "label": "异常",
+          "description": "亲社会行为偏低。"
+        }
       ]
     }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["emotional", "conduct", "hyperactivity", "peer", "prosocial"],
+      "subscaleIds": [
+        "emotional",
+        "conduct",
+        "hyperactivity",
+        "peer",
+        "prosocial"
+      ],
       "maxDisplayScore": 10
     },
     "radarConfig": {
       "indicators": [
-        { "name": "情绪症状", "max": 10 },
-        { "name": "品行问题", "max": 10 },
-        { "name": "多动/注意力", "max": 10 },
-        { "name": "同伴关系", "max": 10 },
-        { "name": "亲社会行为", "max": 10 }
+        {
+          "name": "情绪症状",
+          "max": 10
+        },
+        {
+          "name": "品行问题",
+          "max": 10
+        },
+        {
+          "name": "多动/注意力",
+          "max": 10
+        },
+        {
+          "name": "同伴关系",
+          "max": 10
+        },
+        {
+          "name": "亲社会行为",
+          "max": 10
+        }
       ]
     }
   }

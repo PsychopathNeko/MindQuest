@@ -7,24 +7,73 @@
     "author": "Buysse DJ, et al. (1989)",
     "license": "Free to use",
     "reference": "Buysse DJ, et al. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989;28(2):193-213.",
-    "instruction": "The following questions relate to your usual sleep habits during the past month only. Please select the most appropriate response for each question."
+    "instruction": "The following questions relate to your usual sleep habits during the past month only. Please select the most appropriate response for each question.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "No difficulty/Very good" },
-    { "value": 1, "label": "Slight difficulty/Fairly good" },
-    { "value": 2, "label": "Moderate difficulty/Fairly bad" },
-    { "value": 3, "label": "Severe difficulty/Very bad" }
+    {
+      "value": 0,
+      "label": "No difficulty/Very good"
+    },
+    {
+      "value": 1,
+      "label": "Slight difficulty/Fairly good"
+    },
+    {
+      "value": 2,
+      "label": "Moderate difficulty/Fairly bad"
+    },
+    {
+      "value": 3,
+      "label": "Severe difficulty/Very bad"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "During the past month, how would you rate your overall sleep quality?", "type": "likert" },
-    { "index": 1, "text": "During the past month, how long (in minutes) has it usually taken you to fall asleep each night?", "type": "likert" },
-    { "index": 2, "text": "During the past month, how many hours of actual sleep did you get at night?", "type": "likert" },
-    { "index": 3, "text": "During the past month, how often have you had trouble sleeping because you wake up in the middle of the night or early morning?", "type": "likert" },
-    { "index": 4, "text": "During the past month, how often have you had trouble sleeping because you cannot breathe comfortably?", "type": "likert" },
-    { "index": 5, "text": "During the past month, how often have you had trouble sleeping because you have pain?", "type": "likert" },
-    { "index": 6, "text": "During the past month, how often have you taken medicine to help you sleep?", "type": "likert" },
-    { "index": 7, "text": "During the past month, how often have you had trouble staying awake while driving, eating meals, or engaging in social activity?", "type": "likert" },
-    { "index": 8, "text": "During the past month, how much of a problem has it been for you to keep up enough enthusiasm to get things done?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "During the past month, how would you rate your overall sleep quality?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "During the past month, how long (in minutes) has it usually taken you to fall asleep each night?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "During the past month, how many hours of actual sleep did you get at night?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "During the past month, how often have you had trouble sleeping because you wake up in the middle of the night or early morning?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "During the past month, how often have you had trouble sleeping because you cannot breathe comfortably?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "During the past month, how often have you had trouble sleeping because you have pain?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "During the past month, how often have you taken medicine to help you sleep?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "During the past month, how often have you had trouble staying awake while driving, eating meals, or engaging in social activity?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "During the past month, how much of a problem has it been for you to keep up enough enthusiasm to get things done?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -86,7 +135,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 27 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 27
+    }
   }
 }

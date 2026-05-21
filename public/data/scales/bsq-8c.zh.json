@@ -7,25 +7,76 @@
     "author": "Evans & Dolan (1993)",
     "license": "Free to use",
     "reference": "Evans C, Dolan B. Body Shape Questionnaire: derivation of shortened \"alternate forms\". Int J Eat Disord. 1993;13(3):315-321.",
-    "instruction": "以下问题涉及您在过去四周内对自己外表的感受。请选择最符合您情况的选项。"
+    "instruction": "以下问题涉及您在过去四周内对自己外表的感受。请选择最符合您情况的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "从不" },
-    { "value": 2, "label": "很少" },
-    { "value": 3, "label": "有时" },
-    { "value": 4, "label": "经常" },
-    { "value": 5, "label": "非常经常" },
-    { "value": 6, "label": "总是" }
+    {
+      "value": 1,
+      "label": "从不"
+    },
+    {
+      "value": 2,
+      "label": "很少"
+    },
+    {
+      "value": 3,
+      "label": "有时"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "非常经常"
+    },
+    {
+      "value": 6,
+      "label": "总是"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "你是否因为觉得无聊而担心自己的体型？", "type": "likert" },
-    { "index": 1, "text": "你是否担心自己的身体不够结实？", "type": "likert" },
-    { "index": 2, "text": "看到自己裸体（例如洗澡时）是否让你觉得自己很胖？", "type": "likert" },
-    { "index": 3, "text": "你是否担心自己身体的某些部位有太多的赘肉？", "type": "likert" },
-    { "index": 4, "text": "和其他女性/男性在一起时，你是否注意到自己的体型比较大？", "type": "likert" },
-    { "index": 5, "text": "照镜子时你是否觉得自己体型不好看？", "type": "likert" },
-    { "index": 6, "text": "你是否对自己的身材感到不满意？", "type": "likert" },
-    { "index": 7, "text": "想到自己的体型是否让你感到沮丧？", "type": "likert" }
+    {
+      "index": 0,
+      "text": "你是否因为觉得无聊而担心自己的体型？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "你是否担心自己的身体不够结实？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "看到自己裸体（例如洗澡时）是否让你觉得自己很胖？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "你是否担心自己身体的某些部位有太多的赘肉？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "和其他女性/男性在一起时，你是否注意到自己的体型比较大？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "照镜子时你是否觉得自己体型不好看？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "你是否对自己的身材感到不满意？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "想到自己的体型是否让你感到沮丧？",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -88,7 +139,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 8, "max": 48 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 8,
+      "max": 48
+    }
   }
 }

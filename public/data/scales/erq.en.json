@@ -7,7 +7,8 @@
     "author": "Gross & John (2003)",
     "license": "Free to use",
     "reference": "Gross JJ, John OP. Individual differences in two emotion regulation processes: implications for affect, relationships, and well-being. J Pers Soc Psychol. 2003;85(2):348-362.",
-    "instruction": "We would like to ask you some questions about your emotional life, in particular, how you control and regulate your emotions. Please rate the extent to which you agree with each statement."
+    "instruction": "We would like to ask you some questions about your emotional life, in particular, how you control and regulate your emotions. Please rate the extent to which you agree with each statement.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

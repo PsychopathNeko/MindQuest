@@ -7,7 +7,8 @@
     "author": "Hirschfeld et al. (2000)",
     "license": "Free for clinical use",
     "reference": "Hirschfeld RM, Williams JB, Spitzer RL, et al. Development and validation of a screening instrument for bipolar spectrum disorder: the Mood Disorder Questionnaire. Am J Psychiatry. 2000;157(11):1873-1875.",
-    "instruction": "Has there ever been a period of time when you were not your usual self and..."
+    "instruction": "Has there ever been a period of time when you were not your usual self and...",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

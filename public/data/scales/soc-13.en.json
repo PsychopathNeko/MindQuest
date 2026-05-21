@@ -7,7 +7,8 @@
     "author": "Antonovsky (1987)",
     "license": "Free to use",
     "reference": "Antonovsky A. Unraveling the mystery of health: How people manage stress and stay well. San Francisco: Jossey-Bass; 1987.",
-    "instruction": "Please indicate how much you agree with each of the following statements. There are no right or wrong answers."
+    "instruction": "Please indicate how much you agree with each of the following statements. There are no right or wrong answers.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

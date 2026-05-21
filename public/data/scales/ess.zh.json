@@ -7,23 +7,68 @@
     "author": "Johns MW (1991)",
     "license": "Free for clinical use",
     "reference": "Johns MW. A new method for measuring daytime sleepiness: the Epworth sleepiness scale. Sleep. 1991;14(6):540-545.",
-    "instruction": "您在下列情况下打瞌睡（不仅仅是感到疲倦）的可能性有多大？请根据您最近的日常生活情况作答。即使您最近没有做过其中某些事情，也请尽量想象如果处于该情境中，您打瞌睡的可能性。"
+    "instruction": "您在下列情况下打瞌睡（不仅仅是感到疲倦）的可能性有多大？请根据您最近的日常生活情况作答。即使您最近没有做过其中某些事情，也请尽量想象如果处于该情境中，您打瞌睡的可能性。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "从不打瞌睡" },
-    { "value": 1, "label": "轻微可能打瞌睡" },
-    { "value": 2, "label": "中度可能打瞌睡" },
-    { "value": 3, "label": "很可能打瞌睡" }
+    {
+      "value": 0,
+      "label": "从不打瞌睡"
+    },
+    {
+      "value": 1,
+      "label": "轻微可能打瞌睡"
+    },
+    {
+      "value": 2,
+      "label": "中度可能打瞌睡"
+    },
+    {
+      "value": 3,
+      "label": "很可能打瞌睡"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "坐着阅读时", "type": "likert" },
-    { "index": 1, "text": "看电视时", "type": "likert" },
-    { "index": 2, "text": "在公共场合安静地坐着（如剧场或开会）", "type": "likert" },
-    { "index": 3, "text": "作为乘客在车上连续坐一小时", "type": "likert" },
-    { "index": 4, "text": "下午躺下休息时", "type": "likert" },
-    { "index": 5, "text": "坐着与人交谈时", "type": "likert" },
-    { "index": 6, "text": "午餐后（未饮酒）安静地坐着", "type": "likert" },
-    { "index": 7, "text": "开车时遇到交通堵塞停了几分钟", "type": "likert" }
+    {
+      "index": 0,
+      "text": "坐着阅读时",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "看电视时",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "在公共场合安静地坐着（如剧场或开会）",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "作为乘客在车上连续坐一小时",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "下午躺下休息时",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "坐着与人交谈时",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "午餐后（未饮酒）安静地坐着",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "开车时遇到交通堵塞停了几分钟",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -101,7 +146,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 24 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 24
+    }
   }
 }

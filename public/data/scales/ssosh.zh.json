@@ -7,7 +7,8 @@
     "author": "Vogel et al. (2006)",
     "license": "Free to use",
     "reference": "Vogel DL, Wade NG, Haake S. Measuring the self-stigma associated with seeking psychological help. J Couns Psychol. 2006;53(3):325-337.",
-    "instruction": "人们有时会面临一些问题并考虑寻求帮助。这可能引发一些关于寻求帮助意味着什么的反应。请对以下每个陈述表明你的同意或不同意程度。"
+    "instruction": "人们有时会面临一些问题并考虑寻求帮助。这可能引发一些关于寻求帮助意味着什么的反应。请对以下每个陈述表明你的同意或不同意程度。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

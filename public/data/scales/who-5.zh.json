@@ -7,22 +7,61 @@
     "author": "WHO (1998)",
     "license": "Public Domain",
     "reference": "Topp CW, Østergaard SD, Søndergaard S, Bech P. The WHO-5 Well-Being Index: a systematic review of the literature. Psychother Psychosom. 2015;84(3):167-176.",
-    "instruction": "请根据以下五项描述，选择最接近您在过去两周内感受的选项。"
+    "instruction": "请根据以下五项描述，选择最接近您在过去两周内感受的选项。",
+    "population": "一般人群（9岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "没有" },
-    { "value": 1, "label": "偶尔" },
-    { "value": 2, "label": "不到一半时间" },
-    { "value": 3, "label": "超过一半时间" },
-    { "value": 4, "label": "大部分时间" },
-    { "value": 5, "label": "所有时间" }
+    {
+      "value": 0,
+      "label": "没有"
+    },
+    {
+      "value": 1,
+      "label": "偶尔"
+    },
+    {
+      "value": 2,
+      "label": "不到一半时间"
+    },
+    {
+      "value": 3,
+      "label": "超过一半时间"
+    },
+    {
+      "value": 4,
+      "label": "大部分时间"
+    },
+    {
+      "value": 5,
+      "label": "所有时间"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我感到心情愉快、精神良好", "type": "likert" },
-    { "index": 1, "text": "我感到平静和放松", "type": "likert" },
-    { "index": 2, "text": "我感到精力充沛、充满活力", "type": "likert" },
-    { "index": 3, "text": "我醒来时感到神清气爽、休息充分", "type": "likert" },
-    { "index": 4, "text": "我的日常生活充满了让我感兴趣的事情", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我感到心情愉快、精神良好",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我感到平静和放松",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我感到精力充沛、充满活力",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我醒来时感到神清气爽、休息充分",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我的日常生活充满了让我感兴趣的事情",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -88,7 +127,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 25 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 25
+    }
   }
 }

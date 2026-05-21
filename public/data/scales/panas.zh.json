@@ -7,7 +7,8 @@
     "author": "Watson, Clark & Tellegen (1988)",
     "license": "Free to use",
     "reference": "Watson D, et al. J Pers Soc Psychol. 1988;54(6):1063-1070.",
-    "instruction": "以下列出了描述不同感受和情绪的词语。请选择过去一周内您体验到该感受的程度。"
+    "instruction": "以下列出了描述不同感受和情绪的词语。请选择过去一周内您体验到该感受的程度。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

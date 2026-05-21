@@ -7,30 +7,103 @@
     "author": "Spinella (2007)",
     "license": "Free to use",
     "reference": "Spinella M. Normative data and a short form of the Barratt Impulsiveness Scale. International Journal of Neuroscience. 2007;117(3):359-368.",
-    "instruction": "请根据你通常的行为方式选择最符合的选项。"
+    "instruction": "请根据你通常的行为方式选择最符合的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "很少/从不" },
-    { "value": 2, "label": "偶尔" },
-    { "value": 3, "label": "经常" },
-    { "value": 4, "label": "几乎总是" }
+    {
+      "value": 1,
+      "label": "很少/从不"
+    },
+    {
+      "value": 2,
+      "label": "偶尔"
+    },
+    {
+      "value": 3,
+      "label": "经常"
+    },
+    {
+      "value": 4,
+      "label": "几乎总是"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我不集中注意力", "type": "likert" },
-    { "index": 1, "text": "我很快就做出决定", "type": "likert" },
-    { "index": 2, "text": "我不能安静地坐着不动", "type": "likert" },
-    { "index": 3, "text": "我思考问题很快", "type": "likert" },
-    { "index": 4, "text": "我不认真思考", "type": "likert" },
-    { "index": 5, "text": "我凭感觉行事", "type": "likert" },
-    { "index": 6, "text": "我想到什么就说什么", "type": "likert" },
-    { "index": 7, "text": "我不假思索就行动", "type": "likert" },
-    { "index": 8, "text": "我在不知道答案的情况下就回答", "type": "likert" },
-    { "index": 9, "text": "我在冲动下花钱", "type": "likert" },
-    { "index": 10, "text": "我不为将来做打算", "type": "likert" },
-    { "index": 11, "text": "我做事没有计划", "type": "likert" },
-    { "index": 12, "text": "我对当下比对将来更感兴趣", "type": "likert" },
-    { "index": 13, "text": "我很难静心思考复杂的问题", "type": "likert" },
-    { "index": 14, "text": "我频繁地更换工作/兴趣", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我不集中注意力",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我很快就做出决定",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我不能安静地坐着不动",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我思考问题很快",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我不认真思考",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我凭感觉行事",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我想到什么就说什么",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我不假思索就行动",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我在不知道答案的情况下就回答",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我在冲动下花钱",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我不为将来做打算",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我做事没有计划",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我对当下比对将来更感兴趣",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我很难静心思考复杂的问题",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我频繁地更换工作/兴趣",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
@@ -40,19 +113,37 @@
       {
         "id": "attentional",
         "name": "注意力冲动",
-        "items": [0, 1, 2, 3, 4],
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
         "maxScore": 20
       },
       {
         "id": "motor",
         "name": "运动冲动",
-        "items": [5, 6, 7, 8, 9],
+        "items": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
         "maxScore": 20
       },
       {
         "id": "nonplanning",
         "name": "无计划冲动",
-        "items": [10, 11, 12, 13, 14],
+        "items": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
         "maxScore": 20
       }
     ]
@@ -204,16 +295,32 @@
     }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["attentional", "motor", "nonplanning"],
+      "subscaleIds": [
+        "attentional",
+        "motor",
+        "nonplanning"
+      ],
       "maxDisplayScore": 20
     },
     "radarConfig": {
       "indicators": [
-        { "name": "注意力冲动", "max": 20 },
-        { "name": "运动冲动", "max": 20 },
-        { "name": "无计划冲动", "max": 20 }
+        {
+          "name": "注意力冲动",
+          "max": 20
+        },
+        {
+          "name": "运动冲动",
+          "max": 20
+        },
+        {
+          "name": "无计划冲动",
+          "max": 20
+        }
       ]
     }
   }

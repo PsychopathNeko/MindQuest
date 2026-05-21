@@ -7,38 +7,124 @@
     "author": "Meyer TJ, et al. (1990)",
     "license": "Free to use",
     "reference": "Meyer TJ, et al. Development and validation of the Penn State Worry Questionnaire. Behav Res Ther. 1990;28(6):487-495.",
-    "instruction": "Rate each of the following statements on a scale that best describes how typical each is of you."
+    "instruction": "Rate each of the following statements on a scale that best describes how typical each is of you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Not at all typical of me" },
-    { "value": 2, "label": "Not very typical of me" },
-    { "value": 3, "label": "Somewhat typical of me" },
-    { "value": 4, "label": "Fairly typical of me" },
-    { "value": 5, "label": "Very typical of me" }
+    {
+      "value": 1,
+      "label": "Not at all typical of me"
+    },
+    {
+      "value": 2,
+      "label": "Not very typical of me"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat typical of me"
+    },
+    {
+      "value": 4,
+      "label": "Fairly typical of me"
+    },
+    {
+      "value": 5,
+      "label": "Very typical of me"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "If I do not have enough time to do everything, I do not worry about it.", "type": "likert" },
-    { "index": 1, "text": "My worries overwhelm me.", "type": "likert" },
-    { "index": 2, "text": "I do not tend to worry about things.", "type": "likert" },
-    { "index": 3, "text": "Many situations make me worry.", "type": "likert" },
-    { "index": 4, "text": "I know I should not worry about things, but I just cannot help it.", "type": "likert" },
-    { "index": 5, "text": "When I am under pressure I worry a lot.", "type": "likert" },
-    { "index": 6, "text": "I am always worrying about something.", "type": "likert" },
-    { "index": 7, "text": "I find it easy to dismiss worrisome thoughts.", "type": "likert" },
-    { "index": 8, "text": "As soon as I finish one task, I start to worry about everything else I have to do.", "type": "likert" },
-    { "index": 9, "text": "I never worry about anything.", "type": "likert" },
-    { "index": 10, "text": "When there is nothing more I can do about a concern, I do not worry about it any more.", "type": "likert" },
-    { "index": 11, "text": "I have been a worrier all my life.", "type": "likert" },
-    { "index": 12, "text": "I notice that I have been worrying about things.", "type": "likert" },
-    { "index": 13, "text": "Once I start worrying, I cannot stop.", "type": "likert" },
-    { "index": 14, "text": "I worry all the time.", "type": "likert" },
-    { "index": 15, "text": "I worry about projects until they are all done.", "type": "likert" }
+    {
+      "index": 0,
+      "text": "If I do not have enough time to do everything, I do not worry about it.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "My worries overwhelm me.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I do not tend to worry about things.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Many situations make me worry.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I know I should not worry about things, but I just cannot help it.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "When I am under pressure I worry a lot.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I am always worrying about something.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I find it easy to dismiss worrisome thoughts.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "As soon as I finish one task, I start to worry about everything else I have to do.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I never worry about anything.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "When there is nothing more I can do about a concern, I do not worry about it any more.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I have been a worrier all my life.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I notice that I have been worrying about things.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Once I start worrying, I cannot stop.",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I worry all the time.",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I worry about projects until they are all done.",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 80,
     "maxItemScore": 5,
-    "reverseItems": [0, 2, 7, 10, 14],
+    "reverseItems": [
+      0,
+      2,
+      7,
+      10,
+      14
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -82,7 +168,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 16, "max": 80 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 16,
+      "max": 80
+    }
   }
 }

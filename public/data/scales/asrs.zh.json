@@ -7,22 +7,62 @@
     "author": "Kessler et al. (2005)",
     "license": "Free to use",
     "reference": "Kessler RC, Adler L, Ames M, et al. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychol Med. 2005;35(2):245-256.",
-    "instruction": "请回想过去6个月的情况，以下症状出现的频率如何？"
+    "instruction": "请回想过去6个月的情况，以下症状出现的频率如何？",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "从不" },
-    { "value": 1, "label": "很少" },
-    { "value": 2, "label": "有时" },
-    { "value": 3, "label": "经常" },
-    { "value": 4, "label": "非常频繁" }
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 1,
+      "label": "很少"
+    },
+    {
+      "value": 2,
+      "label": "有时"
+    },
+    {
+      "value": 3,
+      "label": "经常"
+    },
+    {
+      "value": 4,
+      "label": "非常频繁"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "当一项工作中最具挑战性的部分已经完成后，你将最后的细节收尾工作做好的频率如何？", "type": "likert" },
-    { "index": 1, "text": "当你必须做一项需要组织规划的任务时，你把事情安排得井井有条的频率如何？", "type": "likert" },
-    { "index": 2, "text": "你记住约会或承诺的频率如何？", "type": "likert" },
-    { "index": 3, "text": "当你有一项需要大量思考的任务时，你会拖延或避免开始的频率如何？", "type": "likert" },
-    { "index": 4, "text": "当你必须长时间坐着时，你会坐立不安或手脚不停的频率如何？", "type": "likert" },
-    { "index": 5, "text": "你感觉自己过度活跃，好像被马达驱动一样停不下来的频率如何？", "type": "likert" }
+    {
+      "index": 0,
+      "text": "当一项工作中最具挑战性的部分已经完成后，你将最后的细节收尾工作做好的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "当你必须做一项需要组织规划的任务时，你把事情安排得井井有条的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "你记住约会或承诺的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "当你有一项需要大量思考的任务时，你会拖延或避免开始的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "当你必须长时间坐着时，你会坐立不安或手脚不停的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "你感觉自己过度活跃，好像被马达驱动一样停不下来的频率如何？",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -75,7 +115,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 24 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 24
+    }
   }
 }

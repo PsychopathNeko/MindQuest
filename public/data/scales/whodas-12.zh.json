@@ -7,7 +7,8 @@
     "author": "World Health Organization (2010)",
     "license": "Free to use",
     "reference": "Ustun TB, Kostanjesek N, Chatterji S, Rehm J. Measuring health and disability: Manual for WHO Disability Assessment Schedule (WHODAS 2.0). World Health Organization. 2010.",
-    "instruction": "在过去30天中，您在以下活动方面有多大困难？请为每个条目选择最合适的选项。"
+    "instruction": "在过去30天中，您在以下活动方面有多大困难？请为每个条目选择最合适的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

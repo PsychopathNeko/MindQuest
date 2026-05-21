@@ -7,33 +7,101 @@
     "author": "Goldberg & Williams (1988)",
     "license": "Free to use",
     "reference": "Goldberg DP, Williams P. A User's Guide to the General Health Questionnaire. Windsor: NFER-Nelson; 1988.",
-    "instruction": "我们想了解您最近几周的整体健康状况。请根据您的实际情况选择最接近的选项。"
+    "instruction": "我们想了解您最近几周的整体健康状况。请根据您的实际情况选择最接近的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "完全没有" },
-    { "value": 1, "label": "和平时一样" },
-    { "value": 2, "label": "比平时多" },
-    { "value": 3, "label": "比平时多得多" }
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "和平时一样"
+    },
+    {
+      "value": 2,
+      "label": "比平时多"
+    },
+    {
+      "value": 3,
+      "label": "比平时多得多"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "能够集中注意力做事？", "type": "likert" },
-    { "index": 1, "text": "因为担忧而失眠？", "type": "likert" },
-    { "index": 2, "text": "觉得自己在事情中发挥了有用的作用？", "type": "likert" },
-    { "index": 3, "text": "觉得自己有能力做出决定？", "type": "likert" },
-    { "index": 4, "text": "一直感到压力很大？", "type": "likert" },
-    { "index": 5, "text": "觉得自己无法克服困难？", "type": "likert" },
-    { "index": 6, "text": "能够享受日常活动？", "type": "likert" },
-    { "index": 7, "text": "能够勇敢面对问题？", "type": "likert" },
-    { "index": 8, "text": "感到不开心和沮丧？", "type": "likert" },
-    { "index": 9, "text": "对自己失去信心？", "type": "likert" },
-    { "index": 10, "text": "觉得自己是一个没有价值的人？", "type": "likert" },
-    { "index": 11, "text": "总的来说，觉得自己还算快乐？", "type": "likert" }
+    {
+      "index": 0,
+      "text": "能够集中注意力做事？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "因为担忧而失眠？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "觉得自己在事情中发挥了有用的作用？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "觉得自己有能力做出决定？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "一直感到压力很大？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "觉得自己无法克服困难？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "能够享受日常活动？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "能够勇敢面对问题？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "感到不开心和沮丧？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "对自己失去信心？",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "觉得自己是一个没有价值的人？",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "总的来说，觉得自己还算快乐？",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 36,
     "maxItemScore": 3,
-    "reverseItems": [0, 2, 3, 6, 7, 11],
+    "reverseItems": [
+      0,
+      2,
+      3,
+      6,
+      7,
+      11
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -80,7 +148,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 36 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 36
+    }
   }
 }

@@ -7,21 +7,57 @@
     "author": "Forbes et al. (2014)",
     "license": "Free to use",
     "reference": "Forbes D, et al. A new measure of anger: The DAR-5. Journal of Clinical Psychology. 2014;70(8):781-789.",
-    "instruction": "Over the last 4 weeks, to what extent have you experienced the following?"
+    "instruction": "Over the last 4 weeks, to what extent have you experienced the following?",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Not at all" },
-    { "value": 1, "label": "A little" },
-    { "value": 2, "label": "Moderately" },
-    { "value": 3, "label": "Quite a lot" },
-    { "value": 4, "label": "Very much" }
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "A little"
+    },
+    {
+      "value": 2,
+      "label": "Moderately"
+    },
+    {
+      "value": 3,
+      "label": "Quite a lot"
+    },
+    {
+      "value": 4,
+      "label": "Very much"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I often find myself getting angry at people or situations", "type": "likert" },
-    { "index": 1, "text": "When I get angry, I get really mad", "type": "likert" },
-    { "index": 2, "text": "When I get angry, I stay angry", "type": "likert" },
-    { "index": 3, "text": "When I get angry at someone, I want to hit or clobber the person", "type": "likert" },
-    { "index": 4, "text": "My anger prevents me from getting along with people as well as I'd like to", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I often find myself getting angry at people or situations",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "When I get angry, I get really mad",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "When I get angry, I stay angry",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "When I get angry at someone, I want to hit or clobber the person",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "My anger prevents me from getting along with people as well as I'd like to",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -84,7 +120,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 20 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 20
+    }
   }
 }

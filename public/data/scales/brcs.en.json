@@ -7,20 +7,52 @@
     "author": "Sinclair & Wallston (2004)",
     "license": "Free to use",
     "reference": "Sinclair VG, Wallston KA. The development and psychometric evaluation of the Brief Resilient Coping Scale. Assessment. 2004;11(1):94-101.",
-    "instruction": "Please indicate the extent to which each of the following statements describes your behavior and actions."
+    "instruction": "Please indicate the extent to which each of the following statements describes your behavior and actions.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Does not describe me at all" },
-    { "value": 2, "label": "Does not describe me" },
-    { "value": 3, "label": "Neutral" },
-    { "value": 4, "label": "Describes me" },
-    { "value": 5, "label": "Describes me very well" }
+    {
+      "value": 1,
+      "label": "Does not describe me at all"
+    },
+    {
+      "value": 2,
+      "label": "Does not describe me"
+    },
+    {
+      "value": 3,
+      "label": "Neutral"
+    },
+    {
+      "value": 4,
+      "label": "Describes me"
+    },
+    {
+      "value": 5,
+      "label": "Describes me very well"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I look for creative ways to alter difficult situations", "type": "likert" },
-    { "index": 1, "text": "Regardless of what happens to me, I believe I can control my reaction to it", "type": "likert" },
-    { "index": 2, "text": "I believe that I can grow in positive ways by dealing with difficult situations", "type": "likert" },
-    { "index": 3, "text": "I actively look for ways to replace the losses I encounter in life", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I look for creative ways to alter difficult situations",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Regardless of what happens to me, I believe I can control my reaction to it",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I believe that I can grow in positive ways by dealing with difficult situations",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I actively look for ways to replace the losses I encounter in life",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -87,7 +119,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 4, "max": 20 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 4,
+      "max": 20
+    }
   }
 }

@@ -7,7 +7,8 @@
     "author": "Lyubomirsky & Lepper (1999)",
     "license": "Free to use",
     "reference": "Lyubomirsky S, Lepper HS. A measure of subjective happiness: preliminary reliability and construct validation. Social Indicators Research. 1999;46(2):137-155.",
-    "instruction": "请阅读以下每个陈述，选择最符合你情况的选项。每题有1到7个等级，请根据自己的真实感受选择。"
+    "instruction": "请阅读以下每个陈述，选择最符合你情况的选项。每题有1到7个等级，请根据自己的真实感受选择。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": null,
   "questions": [
@@ -16,13 +17,34 @@
       "text": "总体而言，我认为自己是：",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "不是一个很快乐的人" },
-        { "value": 2, "label": "2" },
-        { "value": 3, "label": "3" },
-        { "value": 4, "label": "4" },
-        { "value": 5, "label": "5" },
-        { "value": 6, "label": "6" },
-        { "value": 7, "label": "一个非常快乐的人" }
+        {
+          "value": 1,
+          "label": "不是一个很快乐的人"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "一个非常快乐的人"
+        }
       ]
     },
     {
@@ -30,13 +52,34 @@
       "text": "与大多数同龄人相比，我认为自己是：",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "不太快乐" },
-        { "value": 2, "label": "2" },
-        { "value": 3, "label": "3" },
-        { "value": 4, "label": "4" },
-        { "value": 5, "label": "5" },
-        { "value": 6, "label": "6" },
-        { "value": 7, "label": "更加快乐" }
+        {
+          "value": 1,
+          "label": "不太快乐"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "更加快乐"
+        }
       ]
     },
     {
@@ -44,13 +87,34 @@
       "text": "有些人通常非常快乐，无论发生什么事都能享受生活，并从中获得最大的乐趣。这个描述在多大程度上符合你？",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "完全不符合" },
-        { "value": 2, "label": "2" },
-        { "value": 3, "label": "3" },
-        { "value": 4, "label": "4" },
-        { "value": 5, "label": "5" },
-        { "value": 6, "label": "6" },
-        { "value": 7, "label": "非常符合" }
+        {
+          "value": 1,
+          "label": "完全不符合"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "非常符合"
+        }
       ]
     },
     {
@@ -58,13 +122,34 @@
       "text": "有些人通常不是很快乐，虽然没有抑郁，但似乎从未像自己期望的那样快乐。这个描述在多大程度上符合你？",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "非常符合" },
-        { "value": 2, "label": "2" },
-        { "value": 3, "label": "3" },
-        { "value": 4, "label": "4" },
-        { "value": 5, "label": "5" },
-        { "value": 6, "label": "6" },
-        { "value": 7, "label": "完全不符合" }
+        {
+          "value": 1,
+          "label": "非常符合"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "完全不符合"
+        }
       ]
     }
   ],
@@ -72,7 +157,9 @@
     "method": "sum_with_reverse",
     "maxTotal": 28,
     "maxItemScore": 7,
-    "reverseItems": [3],
+    "reverseItems": [
+      3
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -133,7 +220,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 4, "max": 28 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 4,
+      "max": 28
+    }
   }
 }

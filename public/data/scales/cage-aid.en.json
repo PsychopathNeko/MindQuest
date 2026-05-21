@@ -7,11 +7,18 @@
     "author": "Brown & Rounds (1995)",
     "license": "Free to use",
     "reference": "Brown RL, Rounds LA. Conjoint screening questionnaires for alcohol and other drug abuse: criterion validity in a primary care practice. Wis Med J. 1995;94(3):135-140.",
-    "instruction": "Please answer each question honestly with Yes or No. These questions refer to your use of alcohol and/or drugs."
+    "instruction": "Please answer each question honestly with Yes or No. These questions refer to your use of alcohol and/or drugs.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Yes" },
-    { "value": 0, "label": "No" }
+    {
+      "value": 1,
+      "label": "Yes"
+    },
+    {
+      "value": 0,
+      "label": "No"
+    }
   ],
   "questions": [
     {
@@ -73,7 +80,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 4 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 4
+    }
   }
 }

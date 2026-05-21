@@ -7,7 +7,8 @@
     "author": "Kristensen TS, et al. (2005)",
     "license": "Free for research use",
     "reference": "Kristensen TS, et al. Work & Stress. 2005;19(3):192-207.",
-    "instruction": "请根据过去几周的感受，选择最符合您情况的选项。"
+    "instruction": "请根据过去几周的感受，选择最符合您情况的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

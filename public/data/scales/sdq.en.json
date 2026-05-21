@@ -7,7 +7,8 @@
     "author": "Goodman R (1997)",
     "license": "Free to use",
     "reference": "Goodman R. The Strengths and Difficulties Questionnaire: a research note. J Child Psychol Psychiatry. 1997;38(5):581-586.",
-    "instruction": "For each item, please mark the box that best describes the child's behavior over the last six months."
+    "instruction": "For each item, please mark the box that best describes the child's behavior over the last six months.",
+    "population": "Children and adolescents (4-17, parent/teacher)"
   },
   "commonChoices": [
     {

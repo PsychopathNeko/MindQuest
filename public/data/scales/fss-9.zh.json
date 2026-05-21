@@ -7,27 +7,85 @@
     "author": "Krupp et al. (1989)",
     "license": "Free to use",
     "reference": "Krupp LB, et al. The fatigue severity scale. Application to patients with multiple sclerosis and systemic lupus erythematosus. Archives of Neurology. 1989;46(10):1121-1123.",
-    "instruction": "请选择最符合你过去一周感受的选项。1表示非常不同意，7表示非常同意。"
+    "instruction": "请选择最符合你过去一周感受的选项。1表示非常不同意，7表示非常同意。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "非常不同意" },
-    { "value": 2, "label": "不同意" },
-    { "value": 3, "label": "有点不同意" },
-    { "value": 4, "label": "中立" },
-    { "value": 5, "label": "有点同意" },
-    { "value": 6, "label": "同意" },
-    { "value": 7, "label": "非常同意" }
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "中立"
+    },
+    {
+      "value": 5,
+      "label": "有点同意"
+    },
+    {
+      "value": 6,
+      "label": "同意"
+    },
+    {
+      "value": 7,
+      "label": "非常同意"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "疲劳时我的动力变低", "type": "likert" },
-    { "index": 1, "text": "运动会使我感到疲劳", "type": "likert" },
-    { "index": 2, "text": "我很容易感到疲劳", "type": "likert" },
-    { "index": 3, "text": "疲劳影响了我的身体功能", "type": "likert" },
-    { "index": 4, "text": "疲劳经常给我带来困扰", "type": "likert" },
-    { "index": 5, "text": "疲劳妨碍了我持续进行体力活动", "type": "likert" },
-    { "index": 6, "text": "疲劳影响了我履行某些职责和责任", "type": "likert" },
-    { "index": 7, "text": "疲劳是我最致残的症状之一", "type": "likert" },
-    { "index": 8, "text": "疲劳干扰了我的工作、家庭或社交生活", "type": "likert" }
+    {
+      "index": 0,
+      "text": "疲劳时我的动力变低",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "运动会使我感到疲劳",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我很容易感到疲劳",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "疲劳影响了我的身体功能",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "疲劳经常给我带来困扰",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "疲劳妨碍了我持续进行体力活动",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "疲劳影响了我履行某些职责和责任",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "疲劳是我最致残的症状之一",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "疲劳干扰了我的工作、家庭或社交生活",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -91,7 +149,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 9, "max": 63 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 9,
+      "max": 63
+    }
   }
 }

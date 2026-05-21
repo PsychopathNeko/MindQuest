@@ -7,18 +7,45 @@
     "author": "Morgan JF, Reid F, Lacey JH (1999)",
     "license": "Free to use",
     "reference": "Morgan JF, Reid F, Lacey JH. The SCOFF questionnaire: assessment of a new screening tool for eating disorders. BMJ. 1999;319(7223):1467-1468.",
-    "instruction": "请回答以下关于您饮食行为的问题，选择\"是\"或\"否\"。"
+    "instruction": "请回答以下关于您饮食行为的问题，选择\"是\"或\"否\"。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "否" },
-    { "value": 1, "label": "是" }
+    {
+      "value": 0,
+      "label": "否"
+    },
+    {
+      "value": 1,
+      "label": "是"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "您是否因为觉得胃部不舒服地饱胀而故意呕吐？", "type": "likert" },
-    { "index": 1, "text": "您是否担心自己已经失去了对进食量的控制？", "type": "likert" },
-    { "index": 2, "text": "您最近是否在3个月内体重下降超过6公斤（约14磅）？", "type": "likert" },
-    { "index": 3, "text": "当别人说您太瘦时，您是否仍然觉得自己太胖？", "type": "likert" },
-    { "index": 4, "text": "您会说食物主宰了您的生活吗？", "type": "likert" }
+    {
+      "index": 0,
+      "text": "您是否因为觉得胃部不舒服地饱胀而故意呕吐？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "您是否担心自己已经失去了对进食量的控制？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "您最近是否在3个月内体重下降超过6公斤（约14磅）？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "当别人说您太瘦时，您是否仍然觉得自己太胖？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您会说食物主宰了您的生活吗？",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -56,7 +83,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 5 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 5
+    }
   }
 }

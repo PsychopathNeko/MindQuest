@@ -7,7 +7,8 @@
     "author": "Osman et al. (2001)",
     "license": "Free to use",
     "reference": "Osman A, Bagge CL, Gutierrez PM, Konick LC, Kopper BA, Barrios FX. The Suicidal Behaviors Questionnaire-Revised (SBQ-R): Validation with clinical and nonclinical samples. Assessment. 2001;8(4):443-454.",
-    "instruction": "请仔细回答以下每个问题。您的如实作答非常重要。如果您目前正在经历自杀想法，请立即联系心理危机热线或寻求专业帮助。"
+    "instruction": "请仔细回答以下每个问题。您的如实作答非常重要。如果您目前正在经历自杀想法，请立即联系心理危机热线或寻求专业帮助。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": null,
   "questions": [
@@ -16,10 +17,22 @@
       "text": "您是否曾想过或试图自杀？",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "从未有过" },
-        { "value": 2, "label": "只是一闪而过的念头" },
-        { "value": 3, "label": "曾至少有过一次自杀计划，但没有实施" },
-        { "value": 4, "label": "曾尝试自杀，但并不想死" }
+        {
+          "value": 1,
+          "label": "从未有过"
+        },
+        {
+          "value": 2,
+          "label": "只是一闪而过的念头"
+        },
+        {
+          "value": 3,
+          "label": "曾至少有过一次自杀计划，但没有实施"
+        },
+        {
+          "value": 4,
+          "label": "曾尝试自杀，但并不想死"
+        }
       ]
     },
     {
@@ -27,11 +40,26 @@
       "text": "在过去一年中，您有多频繁地想过自杀？",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "从未" },
-        { "value": 2, "label": "很少（1次）" },
-        { "value": 3, "label": "有时（2次）" },
-        { "value": 4, "label": "经常（3-4次）" },
-        { "value": 5, "label": "非常频繁（5次或以上）" }
+        {
+          "value": 1,
+          "label": "从未"
+        },
+        {
+          "value": 2,
+          "label": "很少（1次）"
+        },
+        {
+          "value": 3,
+          "label": "有时（2次）"
+        },
+        {
+          "value": 4,
+          "label": "经常（3-4次）"
+        },
+        {
+          "value": 5,
+          "label": "非常频繁（5次或以上）"
+        }
       ]
     },
     {
@@ -39,9 +67,18 @@
       "text": "您是否曾告诉别人您要自杀，或者您可能会自杀？",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "没有" },
-        { "value": 2, "label": "是的，有一次，但并不是真的想死" },
-        { "value": 3, "label": "是的，不止一次，但并不想那样做" }
+        {
+          "value": 1,
+          "label": "没有"
+        },
+        {
+          "value": 2,
+          "label": "是的，有一次，但并不是真的想死"
+        },
+        {
+          "value": 3,
+          "label": "是的，不止一次，但并不想那样做"
+        }
       ]
     },
     {
@@ -49,13 +86,34 @@
       "text": "您将来尝试自杀的可能性有多大？",
       "type": "likert",
       "choices": [
-        { "value": 0, "label": "绝不可能" },
-        { "value": 1, "label": "完全没有可能" },
-        { "value": 2, "label": "比较不可能" },
-        { "value": 3, "label": "不太可能" },
-        { "value": 4, "label": "有可能" },
-        { "value": 5, "label": "比较可能" },
-        { "value": 6, "label": "非常可能" }
+        {
+          "value": 0,
+          "label": "绝不可能"
+        },
+        {
+          "value": 1,
+          "label": "完全没有可能"
+        },
+        {
+          "value": 2,
+          "label": "比较不可能"
+        },
+        {
+          "value": 3,
+          "label": "不太可能"
+        },
+        {
+          "value": 4,
+          "label": "有可能"
+        },
+        {
+          "value": 5,
+          "label": "比较可能"
+        },
+        {
+          "value": 6,
+          "label": "非常可能"
+        }
       ]
     }
   ],
@@ -122,7 +180,16 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 3, "max": 18 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 3,
+      "max": 18
+    }
+  },
+  "crisisConfig": {
+    "type": "level",
+    "levelThreshold": "moderate"
   }
 }

@@ -7,28 +7,72 @@
     "author": "Smith et al. (2008)",
     "license": "Free to use",
     "reference": "Smith BW, Dalen J, Wiggins K, Steger MF, et al. The brief resilience scale: assessing the ability to bounce back. Int J Behav Med. 2008;15(3):194-200.",
-    "instruction": "Please indicate the extent to which you agree with each of the following statements."
+    "instruction": "Please indicate the extent to which you agree with each of the following statements.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Strongly Disagree" },
-    { "value": 2, "label": "Disagree" },
-    { "value": 3, "label": "Neutral" },
-    { "value": 4, "label": "Agree" },
-    { "value": 5, "label": "Strongly Agree" }
+    {
+      "value": 1,
+      "label": "Strongly Disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Neutral"
+    },
+    {
+      "value": 4,
+      "label": "Agree"
+    },
+    {
+      "value": 5,
+      "label": "Strongly Agree"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I tend to bounce back quickly after hard times", "type": "likert" },
-    { "index": 1, "text": "I have a hard time making it through stressful events", "type": "likert" },
-    { "index": 2, "text": "It does not take me long to recover from a stressful event", "type": "likert" },
-    { "index": 3, "text": "It is hard for me to snap back when something bad happens", "type": "likert" },
-    { "index": 4, "text": "I usually come through difficult times with little trouble", "type": "likert" },
-    { "index": 5, "text": "I tend to take a long time to get over set-backs in my life", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I tend to bounce back quickly after hard times",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I have a hard time making it through stressful events",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "It does not take me long to recover from a stressful event",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "It is hard for me to snap back when something bad happens",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I usually come through difficult times with little trouble",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I tend to take a long time to get over set-backs in my life",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 30,
     "maxItemScore": 5,
-    "reverseItems": [1, 3, 5],
+    "reverseItems": [
+      1,
+      3,
+      5
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -87,7 +131,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 6, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
   }
 }

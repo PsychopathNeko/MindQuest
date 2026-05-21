@@ -7,7 +7,8 @@
     "author": "Skinner (1982)",
     "license": "Public Domain",
     "reference": "Skinner HA. The Drug Abuse Screening Test. Addict Behav. 1982;7(4):363-371.",
-    "instruction": "The following questions concern information about your potential involvement with drugs, excluding alcohol and tobacco, during the past 12 months. Please answer Yes or No."
+    "instruction": "The following questions concern information about your potential involvement with drugs, excluding alcohol and tobacco, during the past 12 months. Please answer Yes or No.",
+    "population": "General population (16+)"
   },
   "commonChoices": null,
   "questions": [
@@ -66,7 +67,9 @@
     "method": "sum_with_reverse",
     "maxTotal": 10,
     "maxItemScore": 1,
-    "reverseItems": [2],
+    "reverseItems": [
+      2
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -138,7 +141,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 10 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 10
+    }
   }
 }

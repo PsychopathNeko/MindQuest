@@ -7,37 +7,123 @@
     "author": "Steger et al. (2006)",
     "license": "Free to use",
     "reference": "Steger MF, et al. The Meaning in Life Questionnaire: Assessing the presence of and search for meaning in life. Journal of Counseling Psychology. 2006;53(1):80-93.",
-    "instruction": "Please rate how true each statement is for you."
+    "instruction": "Please rate how true each statement is for you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Absolutely Untrue" },
-    { "value": 2, "label": "Mostly Untrue" },
-    { "value": 3, "label": "Somewhat Untrue" },
-    { "value": 4, "label": "Can't Say True or False" },
-    { "value": 5, "label": "Somewhat True" },
-    { "value": 6, "label": "Mostly True" },
-    { "value": 7, "label": "Absolutely True" }
+    {
+      "value": 1,
+      "label": "Absolutely Untrue"
+    },
+    {
+      "value": 2,
+      "label": "Mostly Untrue"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat Untrue"
+    },
+    {
+      "value": 4,
+      "label": "Can't Say True or False"
+    },
+    {
+      "value": 5,
+      "label": "Somewhat True"
+    },
+    {
+      "value": 6,
+      "label": "Mostly True"
+    },
+    {
+      "value": 7,
+      "label": "Absolutely True"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I understand my life's meaning", "type": "likert" },
-    { "index": 1, "text": "I am looking for something that makes my life feel meaningful", "type": "likert" },
-    { "index": 2, "text": "I am always looking to find my life's purpose", "type": "likert" },
-    { "index": 3, "text": "My life has a clear sense of purpose", "type": "likert" },
-    { "index": 4, "text": "I have a good sense of what makes my life meaningful", "type": "likert" },
-    { "index": 5, "text": "I have discovered a satisfying life purpose", "type": "likert" },
-    { "index": 6, "text": "I am always searching for something that makes my life feel significant", "type": "likert" },
-    { "index": 7, "text": "I am seeking a purpose or mission for my life", "type": "likert" },
-    { "index": 8, "text": "My life has no clear purpose", "type": "likert" },
-    { "index": 9, "text": "I am searching for meaning in my life", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I understand my life's meaning",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I am looking for something that makes my life feel meaningful",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I am always looking to find my life's purpose",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "My life has a clear sense of purpose",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I have a good sense of what makes my life meaningful",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I have discovered a satisfying life purpose",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I am always searching for something that makes my life feel significant",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I am seeking a purpose or mission for my life",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "My life has no clear purpose",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I am searching for meaning in my life",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale_with_reverse",
     "maxTotal": 70,
     "maxItemScore": 7,
-    "reverseItems": [8],
+    "reverseItems": [
+      8
+    ],
     "subscales": [
-      { "id": "presence", "name": "Presence", "items": [0, 3, 4, 5, 8], "maxScore": 35 },
-      { "id": "search", "name": "Search", "items": [1, 2, 6, 7, 9], "maxScore": 35 }
+      {
+        "id": "presence",
+        "name": "Presence",
+        "items": [
+          0,
+          3,
+          4,
+          5,
+          8
+        ],
+        "maxScore": 35
+      },
+      {
+        "id": "search",
+        "name": "Search",
+        "items": [
+          1,
+          2,
+          6,
+          7,
+          9
+        ],
+        "maxScore": 35
+      }
     ]
   },
   "interpretation": {
@@ -129,15 +215,27 @@
     }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["presence", "search"],
+      "subscaleIds": [
+        "presence",
+        "search"
+      ],
       "maxDisplayScore": 35
     },
     "radarConfig": {
       "indicators": [
-        { "name": "Presence", "max": 35 },
-        { "name": "Search", "max": 35 }
+        {
+          "name": "Presence",
+          "max": 35
+        },
+        {
+          "name": "Search",
+          "max": 35
+        }
       ]
     }
   }

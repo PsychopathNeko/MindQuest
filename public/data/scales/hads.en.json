@@ -7,7 +7,8 @@
     "author": "Zigmond & Snaith (1983)",
     "license": "Free to use",
     "reference": "Zigmond AS, Snaith RP. The Hospital Anxiety and Depression Scale. Acta Psychiatr Scand. 1983;67(6):361-370.",
-    "instruction": "Read each item and select the reply which comes closest to how you have been feeling in the past week. Your immediate reaction to each item will probably be more accurate than a long thought-out response."
+    "instruction": "Read each item and select the reply which comes closest to how you have been feeling in the past week. Your immediate reaction to each item will probably be more accurate than a long thought-out response.",
+    "population": "Adults (18+)"
   },
   "commonChoices": null,
   "questions": [

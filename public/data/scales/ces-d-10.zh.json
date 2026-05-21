@@ -7,31 +7,87 @@
     "author": "Andresen, Malmgren, Carter & Patrick (1994)",
     "license": "Public Domain",
     "reference": "Andresen EM, Malmgren JA, Carter WB, Patrick DL. Screening for depression in well older adults: evaluation of a short form of the CES-D. Am J Prev Med. 1994;10(2):77-84.",
-    "instruction": "以下是人们可能有过的一些感受或行为。请指出在过去一周内，您有以下感受或行为的频率。"
+    "instruction": "以下是人们可能有过的一些感受或行为。请指出在过去一周内，您有以下感受或行为的频率。",
+    "population": "一般人群（15岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "很少或没有（不到1天）" },
-    { "value": 1, "label": "有时（1-2天）" },
-    { "value": 2, "label": "经常（3-4天）" },
-    { "value": 3, "label": "几乎一直（5-7天）" }
+    {
+      "value": 0,
+      "label": "很少或没有（不到1天）"
+    },
+    {
+      "value": 1,
+      "label": "有时（1-2天）"
+    },
+    {
+      "value": 2,
+      "label": "经常（3-4天）"
+    },
+    {
+      "value": 3,
+      "label": "几乎一直（5-7天）"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我被一些通常不会困扰我的事情所困扰", "type": "likert" },
-    { "index": 1, "text": "我难以集中精力做事", "type": "likert" },
-    { "index": 2, "text": "我感到心情抑郁", "type": "likert" },
-    { "index": 3, "text": "我觉得做每件事都很费力", "type": "likert" },
-    { "index": 4, "text": "我对未来充满希望", "type": "likert" },
-    { "index": 5, "text": "我感到害怕", "type": "likert" },
-    { "index": 6, "text": "我睡眠不安稳", "type": "likert" },
-    { "index": 7, "text": "我感到快乐", "type": "likert" },
-    { "index": 8, "text": "我感到孤独", "type": "likert" },
-    { "index": 9, "text": "我觉得自己无法继续下去了", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我被一些通常不会困扰我的事情所困扰",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我难以集中精力做事",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我感到心情抑郁",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我觉得做每件事都很费力",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我对未来充满希望",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我感到害怕",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我睡眠不安稳",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我感到快乐",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我感到孤独",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我觉得自己无法继续下去了",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 30,
     "maxItemScore": 3,
-    "reverseItems": [4, 7],
+    "reverseItems": [
+      4,
+      7
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -93,7 +149,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 30
+    }
   }
 }

@@ -7,7 +7,8 @@
     "author": "Snyder, Harris, Anderson, Holleran, Irving, Sigmon, et al. (1991)",
     "license": "Free for research use",
     "reference": "Snyder CR, Harris C, Anderson JR, et al. The will and the ways: development and validation of an individual-differences measure of hope. J Pers Soc Psychol. 1991;60(4):570-585.",
-    "instruction": "Read each item and select the option that best describes your current thinking."
+    "instruction": "Read each item and select the option that best describes your current thinking.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

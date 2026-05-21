@@ -7,42 +7,171 @@
     "author": "Angst et al. (2005)",
     "license": "Free to use",
     "reference": "Angst J, Adolfsson R, Benazzi F, et al. The HCL-32: Towards a self-assessment tool for hypomanic symptoms in outpatients. J Affect Disord. 2005;88(2):217-233.",
-    "instruction": "Think of a time when you were in a 'high' or 'excited' state. How did you feel then? Please answer Yes or No for each item."
+    "instruction": "Think of a time when you were in a 'high' or 'excited' state. How did you feel then? Please answer Yes or No for each item.",
+    "population": "Adults (18+)"
   },
   "commonChoices": null,
   "questions": [
-    { "index": 0, "text": "I need less sleep", "type": "yesno" },
-    { "index": 1, "text": "I feel more energetic and more active", "type": "yesno" },
-    { "index": 2, "text": "I am more self-confident", "type": "yesno" },
-    { "index": 3, "text": "I enjoy my work more", "type": "yesno" },
-    { "index": 4, "text": "I am more sociable (make more phone calls, go out more)", "type": "yesno" },
-    { "index": 5, "text": "I want to travel and/or do travel more", "type": "yesno" },
-    { "index": 6, "text": "I tend to drive faster or take more risks when driving", "type": "yesno" },
-    { "index": 7, "text": "I spend more money / too much money", "type": "yesno" },
-    { "index": 8, "text": "I take more risks in my daily life (in my work and/or other activities)", "type": "yesno" },
-    { "index": 9, "text": "I am physically more active (sport etc.)", "type": "yesno" },
-    { "index": 10, "text": "I plan more activities or projects", "type": "yesno" },
-    { "index": 11, "text": "I have more ideas, I am more creative", "type": "yesno" },
-    { "index": 12, "text": "I am less shy or inhibited", "type": "yesno" },
-    { "index": 13, "text": "I wear more colorful and more extravagant clothes/make-up", "type": "yesno" },
-    { "index": 14, "text": "I want to meet or actually do meet more people", "type": "yesno" },
-    { "index": 15, "text": "I am more interested in sex, and/or have increased sexual desire", "type": "yesno" },
-    { "index": 16, "text": "I am more flirtatious and/or am more sexually active", "type": "yesno" },
-    { "index": 17, "text": "I talk more", "type": "yesno" },
-    { "index": 18, "text": "I think faster", "type": "yesno" },
-    { "index": 19, "text": "I make more jokes or puns when I am talking", "type": "yesno" },
-    { "index": 20, "text": "I am more easily distracted", "type": "yesno" },
-    { "index": 21, "text": "I engage in lots of new things", "type": "yesno" },
-    { "index": 22, "text": "My thoughts jump from topic to topic", "type": "yesno" },
-    { "index": 23, "text": "I do things more quickly and/or more easily", "type": "yesno" },
-    { "index": 24, "text": "I am more impatient and/or get irritable more easily", "type": "yesno" },
-    { "index": 25, "text": "I can be exhausting or irritating for others", "type": "yesno" },
-    { "index": 26, "text": "I get into more quarrels", "type": "yesno" },
-    { "index": 27, "text": "My mood is higher, more optimistic", "type": "yesno" },
-    { "index": 28, "text": "I drink more coffee", "type": "yesno" },
-    { "index": 29, "text": "I smoke more cigarettes", "type": "yesno" },
-    { "index": 30, "text": "I drink more alcohol", "type": "yesno" },
-    { "index": 31, "text": "I take more drugs (sedatives, anti-anxiety pills, stimulants)", "type": "yesno" }
+    {
+      "index": 0,
+      "text": "I need less sleep",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "I feel more energetic and more active",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "I am more self-confident",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "I enjoy my work more",
+      "type": "yesno"
+    },
+    {
+      "index": 4,
+      "text": "I am more sociable (make more phone calls, go out more)",
+      "type": "yesno"
+    },
+    {
+      "index": 5,
+      "text": "I want to travel and/or do travel more",
+      "type": "yesno"
+    },
+    {
+      "index": 6,
+      "text": "I tend to drive faster or take more risks when driving",
+      "type": "yesno"
+    },
+    {
+      "index": 7,
+      "text": "I spend more money / too much money",
+      "type": "yesno"
+    },
+    {
+      "index": 8,
+      "text": "I take more risks in my daily life (in my work and/or other activities)",
+      "type": "yesno"
+    },
+    {
+      "index": 9,
+      "text": "I am physically more active (sport etc.)",
+      "type": "yesno"
+    },
+    {
+      "index": 10,
+      "text": "I plan more activities or projects",
+      "type": "yesno"
+    },
+    {
+      "index": 11,
+      "text": "I have more ideas, I am more creative",
+      "type": "yesno"
+    },
+    {
+      "index": 12,
+      "text": "I am less shy or inhibited",
+      "type": "yesno"
+    },
+    {
+      "index": 13,
+      "text": "I wear more colorful and more extravagant clothes/make-up",
+      "type": "yesno"
+    },
+    {
+      "index": 14,
+      "text": "I want to meet or actually do meet more people",
+      "type": "yesno"
+    },
+    {
+      "index": 15,
+      "text": "I am more interested in sex, and/or have increased sexual desire",
+      "type": "yesno"
+    },
+    {
+      "index": 16,
+      "text": "I am more flirtatious and/or am more sexually active",
+      "type": "yesno"
+    },
+    {
+      "index": 17,
+      "text": "I talk more",
+      "type": "yesno"
+    },
+    {
+      "index": 18,
+      "text": "I think faster",
+      "type": "yesno"
+    },
+    {
+      "index": 19,
+      "text": "I make more jokes or puns when I am talking",
+      "type": "yesno"
+    },
+    {
+      "index": 20,
+      "text": "I am more easily distracted",
+      "type": "yesno"
+    },
+    {
+      "index": 21,
+      "text": "I engage in lots of new things",
+      "type": "yesno"
+    },
+    {
+      "index": 22,
+      "text": "My thoughts jump from topic to topic",
+      "type": "yesno"
+    },
+    {
+      "index": 23,
+      "text": "I do things more quickly and/or more easily",
+      "type": "yesno"
+    },
+    {
+      "index": 24,
+      "text": "I am more impatient and/or get irritable more easily",
+      "type": "yesno"
+    },
+    {
+      "index": 25,
+      "text": "I can be exhausting or irritating for others",
+      "type": "yesno"
+    },
+    {
+      "index": 26,
+      "text": "I get into more quarrels",
+      "type": "yesno"
+    },
+    {
+      "index": 27,
+      "text": "My mood is higher, more optimistic",
+      "type": "yesno"
+    },
+    {
+      "index": 28,
+      "text": "I drink more coffee",
+      "type": "yesno"
+    },
+    {
+      "index": 29,
+      "text": "I smoke more cigarettes",
+      "type": "yesno"
+    },
+    {
+      "index": 30,
+      "text": "I drink more alcohol",
+      "type": "yesno"
+    },
+    {
+      "index": 31,
+      "text": "I take more drugs (sedatives, anti-anxiety pills, stimulants)",
+      "type": "yesno"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -52,13 +181,40 @@
       {
         "id": "active_elated",
         "name": "Active/Elated",
-        "items": [0, 1, 2, 3, 4, 5, 9, 10, 11, 12, 14, 17, 18, 19, 23, 27],
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          9,
+          10,
+          11,
+          12,
+          14,
+          17,
+          18,
+          19,
+          23,
+          27
+        ],
         "maxScore": 16
       },
       {
         "id": "risk_irritable",
         "name": "Risk-Taking/Irritable",
-        "items": [6, 7, 8, 16, 20, 22, 24, 25, 26],
+        "items": [
+          6,
+          7,
+          8,
+          16,
+          20,
+          22,
+          24,
+          25,
+          26
+        ],
         "maxScore": 9
       }
     ]
@@ -66,7 +222,8 @@
   "interpretation": {
     "ranges": [
       {
-        "min": 0, "max": 7,
+        "min": 0,
+        "max": 7,
         "level": "minimal",
         "label": "Few Hypomanic Features",
         "description": "You reported few hypomanic symptoms, below the screening threshold.",
@@ -76,7 +233,8 @@
         ]
       },
       {
-        "min": 8, "max": 13,
+        "min": 8,
+        "max": 13,
         "level": "mild",
         "label": "Some Hypomanic Features",
         "description": "You reported some hypomanic symptoms, but below the screening threshold (14). Consider monitoring mood changes.",
@@ -87,7 +245,8 @@
         ]
       },
       {
-        "min": 14, "max": 19,
+        "min": 14,
+        "max": 19,
         "level": "moderate",
         "label": "Screen Positive",
         "description": "Your score meets or exceeds the standard screening threshold (>=14), suggesting possible bipolar spectrum features. This is not a diagnosis and requires professional evaluation.",
@@ -99,7 +258,8 @@
         ]
       },
       {
-        "min": 20, "max": 32,
+        "min": 20,
+        "max": 32,
         "level": "severe",
         "label": "Prominent Hypomanic Features",
         "description": "You reported many hypomanic symptoms. A comprehensive psychiatric evaluation is strongly recommended.",
@@ -113,19 +273,61 @@
     ],
     "subscaleRanges": {
       "active_elated": [
-        { "min": 0, "max": 5, "level": "minimal", "label": "Low", "description": "Low score on the Active/Elated dimension." },
-        { "min": 6, "max": 10, "level": "mild", "label": "Moderate", "description": "Some active/elated features present." },
-        { "min": 11, "max": 16, "level": "moderate", "label": "High", "description": "Prominent active/elated features such as increased energy, confidence, and sociability." }
+        {
+          "min": 0,
+          "max": 5,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low score on the Active/Elated dimension."
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some active/elated features present."
+        },
+        {
+          "min": 11,
+          "max": 16,
+          "level": "moderate",
+          "label": "High",
+          "description": "Prominent active/elated features such as increased energy, confidence, and sociability."
+        }
       ],
       "risk_irritable": [
-        { "min": 0, "max": 2, "level": "minimal", "label": "Low", "description": "Low score on the Risk-Taking/Irritable dimension." },
-        { "min": 3, "max": 5, "level": "mild", "label": "Moderate", "description": "Some risk-taking or irritability tendencies." },
-        { "min": 6, "max": 9, "level": "moderate", "label": "High", "description": "Prominent risk-taking/irritable features such as impulsive spending, distractibility, and irritability." }
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low score on the Risk-Taking/Irritable dimension."
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some risk-taking or irritability tendencies."
+        },
+        {
+          "min": 6,
+          "max": 9,
+          "level": "moderate",
+          "label": "High",
+          "description": "Prominent risk-taking/irritable features such as impulsive spending, distractibility, and irritability."
+        }
       ]
     }
   },
   "report": {
-    "charts": ["gauge", "bar"],
-    "gaugeConfig": { "min": 0, "max": 32 }
+    "charts": [
+      "gauge",
+      "bar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 32
+    }
   }
 }

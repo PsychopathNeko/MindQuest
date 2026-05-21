@@ -7,22 +7,62 @@
     "author": "Mitchell et al. (2003)",
     "license": "Free to use",
     "reference": "Mitchell PH, Powell L, Blumenthal J, et al. A short social support measure for patients recovering from myocardial infarction: The ENRICHD Social Support Instrument. J Cardiopulm Rehabil. 2003;23(6):398-403.",
-    "instruction": "Please read each statement carefully and indicate how much of the time each statement is true for you."
+    "instruction": "Please read each statement carefully and indicate how much of the time each statement is true for you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "None of the time" },
-    { "value": 2, "label": "A little of the time" },
-    { "value": 3, "label": "Some of the time" },
-    { "value": 4, "label": "Most of the time" },
-    { "value": 5, "label": "All of the time" }
+    {
+      "value": 1,
+      "label": "None of the time"
+    },
+    {
+      "value": 2,
+      "label": "A little of the time"
+    },
+    {
+      "value": 3,
+      "label": "Some of the time"
+    },
+    {
+      "value": 4,
+      "label": "Most of the time"
+    },
+    {
+      "value": 5,
+      "label": "All of the time"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Is there someone available to you whom you can count on to listen to you when you need to talk?", "type": "likert" },
-    { "index": 1, "text": "Is there someone available to give you good advice about a problem?", "type": "likert" },
-    { "index": 2, "text": "Is there someone available to you who shows you love and affection?", "type": "likert" },
-    { "index": 3, "text": "Is there someone available to help you with daily chores?", "type": "likert" },
-    { "index": 4, "text": "Can you count on anyone to provide you with emotional support (talking over problems or helping you make a difficult decision)?", "type": "likert" },
-    { "index": 5, "text": "Do you have as much contact as you would like with someone you feel close to, someone in whom you can trust and confide?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Is there someone available to you whom you can count on to listen to you when you need to talk?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Is there someone available to give you good advice about a problem?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Is there someone available to you who shows you love and affection?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Is there someone available to help you with daily chores?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Can you count on anyone to provide you with emotional support (talking over problems or helping you make a difficult decision)?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Do you have as much contact as you would like with someone you feel close to, someone in whom you can trust and confide?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -90,7 +130,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 6, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
   }
 }

@@ -7,7 +7,8 @@
     "author": "Diener et al. (2010)",
     "license": "Free for research use",
     "reference": "Diener E, Wirtz D, Tov W, et al. New well-being measures: Short scales to assess flourishing and positive and negative feelings. Soc Indic Res. 2010;97(2):143-156.",
-    "instruction": "以下是关于您自身的一些陈述，请根据您的真实感受选择最符合的选项。"
+    "instruction": "以下是关于您自身的一些陈述，请根据您的真实感受选择最符合的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

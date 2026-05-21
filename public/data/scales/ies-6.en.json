@@ -7,7 +7,8 @@
     "author": "Thoresen et al. (2010)",
     "license": "Free to use",
     "reference": "Thoresen S, Tambs K, Hussain A, Heir T, Johansen VA, Bisson JI. Brief measure of posttraumatic stress reactions: Impact of Event Scale-6. J Loss Trauma. 2010;15(3):238-247.",
-    "instruction": "Below is a list of difficulties people sometimes have after stressful life events. Please read each item and indicate how distressing each difficulty has been for you during the past 7 days."
+    "instruction": "Below is a list of difficulties people sometimes have after stressful life events. Please read each item and indicate how distressing each difficulty has been for you during the past 7 days.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

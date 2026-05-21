@@ -7,18 +7,42 @@
     "author": "Vaishnavi, Connor & Davidson (2007)",
     "license": "Free to use",
     "reference": "Vaishnavi S, Connor K, Davidson JRT. An abbreviated version of the Connor-Davidson Resilience Scale (CD-RISC), the CD-RISC2: psychometric properties and applications in psychopharmacological trials. Psychiatry Res. 2007;152(2-3):293-297.",
-    "instruction": "请根据您过去一个月的实际感受，评估以下陈述的符合程度。"
+    "instruction": "请根据您过去一个月的实际感受，评估以下陈述的符合程度。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "完全不符合" },
-    { "value": 1, "label": "很少符合" },
-    { "value": 2, "label": "有时符合" },
-    { "value": 3, "label": "经常符合" },
-    { "value": 4, "label": "几乎总是符合" }
+    {
+      "value": 0,
+      "label": "完全不符合"
+    },
+    {
+      "value": 1,
+      "label": "很少符合"
+    },
+    {
+      "value": 2,
+      "label": "有时符合"
+    },
+    {
+      "value": 3,
+      "label": "经常符合"
+    },
+    {
+      "value": 4,
+      "label": "几乎总是符合"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我能够适应变化", "type": "likert" },
-    { "index": 1, "text": "我倾向于在压力/疾病之后恢复过来", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我能够适应变化",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我倾向于在压力/疾病之后恢复过来",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -70,7 +94,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 8 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 8
+    }
   }
 }

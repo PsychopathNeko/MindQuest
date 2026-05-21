@@ -7,7 +7,8 @@
     "author": "Nolen-Hoeksema & Morrow (1991)",
     "license": "Free to use",
     "reference": "Nolen-Hoeksema S, Morrow J. A prospective study of depression and posttraumatic stress symptoms after a natural disaster. J Pers Soc Psychol. 1991;61(1):115-121.",
-    "instruction": "当您感到沁丧、悲伤或抑郁时，您思考或做以下每件事的频率如何？"
+    "instruction": "当您感到沁丧、悲伤或抑郁时，您思考或做以下每件事的频率如何？",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

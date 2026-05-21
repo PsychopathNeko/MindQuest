@@ -7,7 +7,8 @@
     "author": "Rodebaugh et al. (2004)",
     "license": "Free to use",
     "reference": "Rodebaugh TL, Woods CM, Thissen DM, Heimberg RG, Chambless DL, Rapee RM. More information from fewer questions: the factor structure and item properties of the original and Brief Fear of Negative Evaluation Scale. Psychol Assess. 2004;16(2):169-181.",
-    "instruction": "Read each of the following statements carefully and indicate how characteristic it is of you."
+    "instruction": "Read each of the following statements carefully and indicate how characteristic it is of you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

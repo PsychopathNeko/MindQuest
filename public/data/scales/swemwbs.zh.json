@@ -7,23 +7,67 @@
     "author": "Stewart-Brown, Tennant, Tennant, Platt, Parkinson & Weich (2009)",
     "license": "Free to use",
     "reference": "Stewart-Brown S, et al. Internal construct validity of the Warwick-Edinburgh Mental Well-Being Scale (WEMWBS): a Rasch analysis using data from the Scottish Health Education Population Survey. Health Qual Life Outcomes. 2009;7:15.",
-    "instruction": "以下是一些关于感受和想法的陈述。请选择最能描述您过去两周体验的选项。"
+    "instruction": "以下是一些关于感受和想法的陈述。请选择最能描述您过去两周体验的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "从来没有" },
-    { "value": 2, "label": "很少" },
-    { "value": 3, "label": "有些时候" },
-    { "value": 4, "label": "经常" },
-    { "value": 5, "label": "一直都是" }
+    {
+      "value": 1,
+      "label": "从来没有"
+    },
+    {
+      "value": 2,
+      "label": "很少"
+    },
+    {
+      "value": 3,
+      "label": "有些时候"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "一直都是"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我对未来感到乐观", "type": "likert" },
-    { "index": 1, "text": "我感到自己是有用的", "type": "likert" },
-    { "index": 2, "text": "我感到放松", "type": "likert" },
-    { "index": 3, "text": "我能很好地处理问题", "type": "likert" },
-    { "index": 4, "text": "我思维清晰", "type": "likert" },
-    { "index": 5, "text": "我感到与他人亲近", "type": "likert" },
-    { "index": 6, "text": "我能自己做决定", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我对未来感到乐观",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我感到自己是有用的",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我感到放松",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我能很好地处理问题",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我思维清晰",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我感到与他人亲近",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我能自己做决定",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -88,7 +132,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 7, "max": 35 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 7,
+      "max": 35
+    }
   }
 }

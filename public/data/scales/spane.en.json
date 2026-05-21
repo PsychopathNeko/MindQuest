@@ -7,28 +7,92 @@
     "author": "Diener, Wirtz, Tov, Kim-Prieto, Choi, Oishi & Biswas-Diener (2010)",
     "license": "Free to use",
     "reference": "Diener E, Wirtz D, Tov W, Kim-Prieto C, Choi D, Oishi S, Biswas-Diener R. New well-being measures: Short scales to assess flourishing and positive and negative feelings. Social Indicators Research. 2010;97(2):143-156.",
-    "instruction": "Please think about what you have been doing and experiencing during the past four weeks. Then report how much you experienced each of the following feelings, using the scale below."
+    "instruction": "Please think about what you have been doing and experiencing during the past four weeks. Then report how much you experienced each of the following feelings, using the scale below.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Very Rarely or Never" },
-    { "value": 2, "label": "Rarely" },
-    { "value": 3, "label": "Sometimes" },
-    { "value": 4, "label": "Often" },
-    { "value": 5, "label": "Very Often or Always" }
+    {
+      "value": 1,
+      "label": "Very Rarely or Never"
+    },
+    {
+      "value": 2,
+      "label": "Rarely"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes"
+    },
+    {
+      "value": 4,
+      "label": "Often"
+    },
+    {
+      "value": 5,
+      "label": "Very Often or Always"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Positive", "type": "likert" },
-    { "index": 1, "text": "Negative", "type": "likert" },
-    { "index": 2, "text": "Good", "type": "likert" },
-    { "index": 3, "text": "Bad", "type": "likert" },
-    { "index": 4, "text": "Pleasant", "type": "likert" },
-    { "index": 5, "text": "Unpleasant", "type": "likert" },
-    { "index": 6, "text": "Happy", "type": "likert" },
-    { "index": 7, "text": "Sad", "type": "likert" },
-    { "index": 8, "text": "Afraid", "type": "likert" },
-    { "index": 9, "text": "Joyful", "type": "likert" },
-    { "index": 10, "text": "Angry", "type": "likert" },
-    { "index": 11, "text": "Contented", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Positive",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Negative",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Good",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Bad",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Pleasant",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Unpleasant",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Happy",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Sad",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Afraid",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Joyful",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Angry",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Contented",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
@@ -38,13 +102,27 @@
       {
         "id": "positive",
         "name": "Positive Feelings",
-        "items": [0, 2, 4, 6, 9, 11],
+        "items": [
+          0,
+          2,
+          4,
+          6,
+          9,
+          11
+        ],
         "maxScore": 30
       },
       {
         "id": "negative",
         "name": "Negative Feelings",
-        "items": [1, 3, 5, 7, 8, 10],
+        "items": [
+          1,
+          3,
+          5,
+          7,
+          8,
+          10
+        ],
         "maxScore": 30
       }
     ]
@@ -166,15 +244,27 @@
     }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["positive", "negative"],
+      "subscaleIds": [
+        "positive",
+        "negative"
+      ],
       "maxDisplayScore": 30
     },
     "radarConfig": {
       "indicators": [
-        { "name": "Positive Feelings", "max": 30 },
-        { "name": "Negative Feelings", "max": 30 }
+        {
+          "name": "Positive Feelings",
+          "max": 30
+        },
+        {
+          "name": "Negative Feelings",
+          "max": 30
+        }
       ]
     }
   }

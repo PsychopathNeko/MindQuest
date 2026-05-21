@@ -7,35 +7,106 @@
     "author": "Walach et al. (2006)",
     "license": "Free to use",
     "reference": "Walach H, Buchheld N, Buttenmuller V, Kleinknecht N, Schmidt S. Measuring mindfulness — the Freiburg Mindfulness Inventory (FMI). Personality and Individual Differences. 2006;40(8):1543-1555.",
-    "instruction": "请根据过去两周内您的实际体验，对以下每项陈述进行评分。"
+    "instruction": "请根据过去两周内您的实际体验，对以下每项陈述进行评分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "很少" },
-    { "value": 2, "label": "偶尔" },
-    { "value": 3, "label": "较常" },
-    { "value": 4, "label": "几乎总是" }
+    {
+      "value": 1,
+      "label": "很少"
+    },
+    {
+      "value": 2,
+      "label": "偶尔"
+    },
+    {
+      "value": 3,
+      "label": "较常"
+    },
+    {
+      "value": 4,
+      "label": "几乎总是"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我对当下的体验持开放态度。", "type": "likert" },
-    { "index": 1, "text": "无论在吃饭、做饭、打扫还是交谈时，我都能感知自己的身体。", "type": "likert" },
-    { "index": 2, "text": "当我注意到自己走神时，我会温和地回到此时此地的体验中。", "type": "likert" },
-    { "index": 3, "text": "我能够欣赏自己。", "type": "likert" },
-    { "index": 4, "text": "我会留意自己行为背后的动机。", "type": "likert" },
-    { "index": 5, "text": "我能不加评判地看待自己的错误和困难。", "type": "likert" },
-    { "index": 6, "text": "我感觉与此时此地的体验相连。", "type": "likert" },
-    { "index": 7, "text": "我接受不愉快的经历。", "type": "likert" },
-    { "index": 8, "text": "当事情出差错时，我对自己很友善。", "type": "likert" },
-    { "index": 9, "text": "我观察自己的感受而不迷失其中。", "type": "likert" },
-    { "index": 10, "text": "在困难的情境中，我能先暂停而不立刻做出反应。", "type": "likert" },
-    { "index": 11, "text": "即使事情变得忙乱和紧张，我也能体验到内心的平静和安宁。", "type": "likert" },
-    { "index": 12, "text": "我对自己和他人都缺乏耐心。", "type": "likert" },
-    { "index": 13, "text": "当我注意到自己有时让生活变得困难时，我能微笑面对。", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我对当下的体验持开放态度。",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "无论在吃饭、做饭、打扫还是交谈时，我都能感知自己的身体。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "当我注意到自己走神时，我会温和地回到此时此地的体验中。",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我能够欣赏自己。",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我会留意自己行为背后的动机。",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我能不加评判地看待自己的错误和困难。",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我感觉与此时此地的体验相连。",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我接受不愉快的经历。",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "当事情出差错时，我对自己很友善。",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我观察自己的感受而不迷失其中。",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "在困难的情境中，我能先暂停而不立刻做出反应。",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "即使事情变得忙乱和紧张，我也能体验到内心的平静和安宁。",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我对自己和他人都缺乏耐心。",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "当我注意到自己有时让生活变得困难时，我能微笑面对。",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 56,
     "maxItemScore": 4,
-    "reverseItems": [12],
+    "reverseItems": [
+      12
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -96,7 +167,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 14, "max": 56 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 14,
+      "max": 56
+    }
   }
 }

@@ -7,24 +7,73 @@
     "author": "Ferris & Wynne (2001)",
     "license": "Free for non-commercial use",
     "reference": "Ferris J, Wynne H. The Canadian Problem Gambling Index: Final report. Ottawa: Canadian Centre on Substance Abuse; 2001.",
-    "instruction": "Thinking about the last 12 months, how often have the following situations applied to you?"
+    "instruction": "Thinking about the last 12 months, how often have the following situations applied to you?",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Never" },
-    { "value": 1, "label": "Sometimes" },
-    { "value": 2, "label": "Most of the time" },
-    { "value": 3, "label": "Almost always" }
+    {
+      "value": 0,
+      "label": "Never"
+    },
+    {
+      "value": 1,
+      "label": "Sometimes"
+    },
+    {
+      "value": 2,
+      "label": "Most of the time"
+    },
+    {
+      "value": 3,
+      "label": "Almost always"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Have you bet more than you could really afford to lose", "type": "likert" },
-    { "index": 1, "text": "Have you needed to gamble with larger amounts of money to get the same feeling of excitement", "type": "likert" },
-    { "index": 2, "text": "When you gambled, did you go back another day to try to win back the money you lost", "type": "likert" },
-    { "index": 3, "text": "Have you borrowed money or sold anything to get money to gamble", "type": "likert" },
-    { "index": 4, "text": "Have you felt that you might have a problem with gambling", "type": "likert" },
-    { "index": 5, "text": "Has gambling caused you any health problems, including stress or anxiety", "type": "likert" },
-    { "index": 6, "text": "Have people criticized your betting or told you that you had a gambling problem, regardless of whether or not you thought it was true", "type": "likert" },
-    { "index": 7, "text": "Has your gambling caused any financial problems for you or your household", "type": "likert" },
-    { "index": 8, "text": "Have you felt guilty about the way you gamble or what happens when you gamble", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Have you bet more than you could really afford to lose",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Have you needed to gamble with larger amounts of money to get the same feeling of excitement",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "When you gambled, did you go back another day to try to win back the money you lost",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Have you borrowed money or sold anything to get money to gamble",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Have you felt that you might have a problem with gambling",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Has gambling caused you any health problems, including stress or anxiety",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Have people criticized your betting or told you that you had a gambling problem, regardless of whether or not you thought it was true",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Has your gambling caused any financial problems for you or your household",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Have you felt guilty about the way you gamble or what happens when you gamble",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -35,7 +84,8 @@
   "interpretation": {
     "ranges": [
       {
-        "min": 0, "max": 0,
+        "min": 0,
+        "max": 0,
         "level": "minimal",
         "label": "Non-Problem Gambling",
         "description": "You did not report any signs of problem gambling.",
@@ -45,7 +95,8 @@
         ]
       },
       {
-        "min": 1, "max": 2,
+        "min": 1,
+        "max": 2,
         "level": "mild",
         "label": "Low Risk Gambling",
         "description": "You reported minor gambling-related issues at a low risk level.",
@@ -56,7 +107,8 @@
         ]
       },
       {
-        "min": 3, "max": 7,
+        "min": 3,
+        "max": 7,
         "level": "moderate",
         "label": "Moderate Risk Gambling",
         "description": "Your gambling behavior may be causing some negative consequences. Consider taking action.",
@@ -68,7 +120,8 @@
         ]
       },
       {
-        "min": 8, "max": 27,
+        "min": 8,
+        "max": 27,
         "level": "severe",
         "label": "Problem Gambling",
         "description": "Your gambling behavior has caused significant negative consequences, meeting criteria for problem gambling. Professional help is strongly recommended.",
@@ -84,7 +137,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 27 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 27
+    }
   }
 }

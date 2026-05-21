@@ -7,34 +7,107 @@
     "author": "Yesavage et al. (1982)",
     "license": "Public Domain",
     "reference": "Yesavage JA, Brink TL, Rose TL, et al. Development and validation of a geriatric depression screening scale: a preliminary report. J Psychiatr Res. 1982-83;17(1):37-49.",
-    "instruction": "Choose the best answer for how you have felt over the past week."
+    "instruction": "Choose the best answer for how you have felt over the past week.",
+    "population": "Older adults (55+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Yes" },
-    { "value": 0, "label": "No" }
+    {
+      "value": 1,
+      "label": "Yes"
+    },
+    {
+      "value": 0,
+      "label": "No"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Are you basically satisfied with your life?", "type": "yesno" },
-    { "index": 1, "text": "Have you dropped many of your activities and interests?", "type": "yesno" },
-    { "index": 2, "text": "Do you feel that your life is empty?", "type": "yesno" },
-    { "index": 3, "text": "Do you often get bored?", "type": "yesno" },
-    { "index": 4, "text": "Are you in good spirits most of the time?", "type": "yesno" },
-    { "index": 5, "text": "Are you afraid that something bad is going to happen to you?", "type": "yesno" },
-    { "index": 6, "text": "Do you feel happy most of the time?", "type": "yesno" },
-    { "index": 7, "text": "Do you often feel helpless?", "type": "yesno" },
-    { "index": 8, "text": "Do you prefer to stay at home, rather than going out and doing new things?", "type": "yesno" },
-    { "index": 9, "text": "Do you feel you have more problems with memory than most?", "type": "yesno" },
-    { "index": 10, "text": "Do you think it is wonderful to be alive now?", "type": "yesno" },
-    { "index": 11, "text": "Do you feel pretty worthless the way you are now?", "type": "yesno" },
-    { "index": 12, "text": "Do you feel full of energy?", "type": "yesno" },
-    { "index": 13, "text": "Do you feel that your situation is hopeless?", "type": "yesno" },
-    { "index": 14, "text": "Do you think that most people are better off than you are?", "type": "yesno" }
+    {
+      "index": 0,
+      "text": "Are you basically satisfied with your life?",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "Have you dropped many of your activities and interests?",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "Do you feel that your life is empty?",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "Do you often get bored?",
+      "type": "yesno"
+    },
+    {
+      "index": 4,
+      "text": "Are you in good spirits most of the time?",
+      "type": "yesno"
+    },
+    {
+      "index": 5,
+      "text": "Are you afraid that something bad is going to happen to you?",
+      "type": "yesno"
+    },
+    {
+      "index": 6,
+      "text": "Do you feel happy most of the time?",
+      "type": "yesno"
+    },
+    {
+      "index": 7,
+      "text": "Do you often feel helpless?",
+      "type": "yesno"
+    },
+    {
+      "index": 8,
+      "text": "Do you prefer to stay at home, rather than going out and doing new things?",
+      "type": "yesno"
+    },
+    {
+      "index": 9,
+      "text": "Do you feel you have more problems with memory than most?",
+      "type": "yesno"
+    },
+    {
+      "index": 10,
+      "text": "Do you think it is wonderful to be alive now?",
+      "type": "yesno"
+    },
+    {
+      "index": 11,
+      "text": "Do you feel pretty worthless the way you are now?",
+      "type": "yesno"
+    },
+    {
+      "index": 12,
+      "text": "Do you feel full of energy?",
+      "type": "yesno"
+    },
+    {
+      "index": 13,
+      "text": "Do you feel that your situation is hopeless?",
+      "type": "yesno"
+    },
+    {
+      "index": 14,
+      "text": "Do you think that most people are better off than you are?",
+      "type": "yesno"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 15,
     "maxItemScore": 1,
-    "reverseItems": [0, 4, 6, 10, 12],
+    "reverseItems": [
+      0,
+      4,
+      6,
+      10,
+      12
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -94,7 +167,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 15 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 15
+    }
   }
 }

@@ -7,7 +7,8 @@
     "author": "Weathers et al. (2013)",
     "license": "Public Domain",
     "reference": "Weathers FW, Litz BT, Keane TM, Palmieri PA, Marx BP, Schnurr PP. The PTSD Checklist for DSM-5 (PCL-5). National Center for PTSD; 2013.",
-    "instruction": "以下是人们在经历压力性经历后有时会出现的问题。请阅读每个问题，然后根据过去一个月内该问题困扰您的程度作答。"
+    "instruction": "以下是人们在经历压力性经历后有时会出现的问题。请阅读每个问题，然后根据过去一个月内该问题困扰您的程度作答。",
+    "population": "一般人群（16岁以上）"
   },
   "commonChoices": [
     {

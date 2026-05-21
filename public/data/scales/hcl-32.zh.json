@@ -7,42 +7,171 @@
     "author": "Angst et al. (2005)",
     "license": "Free to use",
     "reference": "Angst J, Adolfsson R, Benazzi F, et al. The HCL-32: Towards a self-assessment tool for hypomanic symptoms in outpatients. J Affect Disord. 2005;88(2):217-233.",
-    "instruction": "请回忆您曾处于「情绪高涨」或「兴奋」的时期，以下描述是否适用于当时的您？请选择「是」或「否」。"
+    "instruction": "请回忆您曾处于「情绪高涨」或「兴奋」的时期，以下描述是否适用于当时的您？请选择「是」或「否」。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": null,
   "questions": [
-    { "index": 0, "text": "我需要的睡眠时间比平时少", "type": "yesno" },
-    { "index": 1, "text": "我感觉精力更加充沛，活动增多", "type": "yesno" },
-    { "index": 2, "text": "我更加自信", "type": "yesno" },
-    { "index": 3, "text": "我更加喜欢我的工作", "type": "yesno" },
-    { "index": 4, "text": "我更加喜欢交往（打更多电话、外出更频繁）", "type": "yesno" },
-    { "index": 5, "text": "我喜欢旅行并且确实旅行更多了", "type": "yesno" },
-    { "index": 6, "text": "我开车更快或驾驶中更不顾风险", "type": "yesno" },
-    { "index": 7, "text": "我花更多的钱或花了太多钱", "type": "yesno" },
-    { "index": 8, "text": "在日常生活中我更加冒险", "type": "yesno" },
-    { "index": 9, "text": "我的体力活动增多（如运动）", "type": "yesno" },
-    { "index": 10, "text": "我计划了更多的活动或方案", "type": "yesno" },
-    { "index": 11, "text": "我有更多的想法，更加才思敏捷", "type": "yesno" },
-    { "index": 12, "text": "我不再害羞或退缩", "type": "yesno" },
-    { "index": 13, "text": "我穿的衣服更加鲜艳或打扮更时髦", "type": "yesno" },
-    { "index": 14, "text": "我希望接触更多人，或确实结识了更多的人", "type": "yesno" },
-    { "index": 15, "text": "我对性更感兴趣，或性欲明显增加", "type": "yesno" },
-    { "index": 16, "text": "我表现得更加轻浮，或性行为比过去多", "type": "yesno" },
-    { "index": 17, "text": "我更加健谈", "type": "yesno" },
-    { "index": 18, "text": "我思维更加敏捷", "type": "yesno" },
-    { "index": 19, "text": "我说话时更喜欢开玩笑或说俏皮话", "type": "yesno" },
-    { "index": 20, "text": "我比较容易分心", "type": "yesno" },
-    { "index": 21, "text": "我从事很多新奇的事情", "type": "yesno" },
-    { "index": 22, "text": "我的思维经常从一个话题跳到另一个话题", "type": "yesno" },
-    { "index": 23, "text": "我做事更加迅速或更加容易", "type": "yesno" },
-    { "index": 24, "text": "我更没有耐心或更容易对别人发怒", "type": "yesno" },
-    { "index": 25, "text": "我常令他人疲惫不堪或恼怒", "type": "yesno" },
-    { "index": 26, "text": "我经常与人争吵", "type": "yesno" },
-    { "index": 27, "text": "我的情绪更高涨，更加乐观", "type": "yesno" },
-    { "index": 28, "text": "我喝更多的咖啡或茶", "type": "yesno" },
-    { "index": 29, "text": "我抽更多的烟", "type": "yesno" },
-    { "index": 30, "text": "我喝更多的酒", "type": "yesno" },
-    { "index": 31, "text": "我吃更多的药物（镇静药、抗焦虑药、兴奋药）", "type": "yesno" }
+    {
+      "index": 0,
+      "text": "我需要的睡眠时间比平时少",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "我感觉精力更加充沛，活动增多",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "我更加自信",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "我更加喜欢我的工作",
+      "type": "yesno"
+    },
+    {
+      "index": 4,
+      "text": "我更加喜欢交往（打更多电话、外出更频繁）",
+      "type": "yesno"
+    },
+    {
+      "index": 5,
+      "text": "我喜欢旅行并且确实旅行更多了",
+      "type": "yesno"
+    },
+    {
+      "index": 6,
+      "text": "我开车更快或驾驶中更不顾风险",
+      "type": "yesno"
+    },
+    {
+      "index": 7,
+      "text": "我花更多的钱或花了太多钱",
+      "type": "yesno"
+    },
+    {
+      "index": 8,
+      "text": "在日常生活中我更加冒险",
+      "type": "yesno"
+    },
+    {
+      "index": 9,
+      "text": "我的体力活动增多（如运动）",
+      "type": "yesno"
+    },
+    {
+      "index": 10,
+      "text": "我计划了更多的活动或方案",
+      "type": "yesno"
+    },
+    {
+      "index": 11,
+      "text": "我有更多的想法，更加才思敏捷",
+      "type": "yesno"
+    },
+    {
+      "index": 12,
+      "text": "我不再害羞或退缩",
+      "type": "yesno"
+    },
+    {
+      "index": 13,
+      "text": "我穿的衣服更加鲜艳或打扮更时髦",
+      "type": "yesno"
+    },
+    {
+      "index": 14,
+      "text": "我希望接触更多人，或确实结识了更多的人",
+      "type": "yesno"
+    },
+    {
+      "index": 15,
+      "text": "我对性更感兴趣，或性欲明显增加",
+      "type": "yesno"
+    },
+    {
+      "index": 16,
+      "text": "我表现得更加轻浮，或性行为比过去多",
+      "type": "yesno"
+    },
+    {
+      "index": 17,
+      "text": "我更加健谈",
+      "type": "yesno"
+    },
+    {
+      "index": 18,
+      "text": "我思维更加敏捷",
+      "type": "yesno"
+    },
+    {
+      "index": 19,
+      "text": "我说话时更喜欢开玩笑或说俏皮话",
+      "type": "yesno"
+    },
+    {
+      "index": 20,
+      "text": "我比较容易分心",
+      "type": "yesno"
+    },
+    {
+      "index": 21,
+      "text": "我从事很多新奇的事情",
+      "type": "yesno"
+    },
+    {
+      "index": 22,
+      "text": "我的思维经常从一个话题跳到另一个话题",
+      "type": "yesno"
+    },
+    {
+      "index": 23,
+      "text": "我做事更加迅速或更加容易",
+      "type": "yesno"
+    },
+    {
+      "index": 24,
+      "text": "我更没有耐心或更容易对别人发怒",
+      "type": "yesno"
+    },
+    {
+      "index": 25,
+      "text": "我常令他人疲惫不堪或恼怒",
+      "type": "yesno"
+    },
+    {
+      "index": 26,
+      "text": "我经常与人争吵",
+      "type": "yesno"
+    },
+    {
+      "index": 27,
+      "text": "我的情绪更高涨，更加乐观",
+      "type": "yesno"
+    },
+    {
+      "index": 28,
+      "text": "我喝更多的咖啡或茶",
+      "type": "yesno"
+    },
+    {
+      "index": 29,
+      "text": "我抽更多的烟",
+      "type": "yesno"
+    },
+    {
+      "index": 30,
+      "text": "我喝更多的酒",
+      "type": "yesno"
+    },
+    {
+      "index": 31,
+      "text": "我吃更多的药物（镇静药、抗焦虑药、兴奋药）",
+      "type": "yesno"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -52,13 +181,40 @@
       {
         "id": "active_elated",
         "name": "活跃/愉悦",
-        "items": [0, 1, 2, 3, 4, 5, 9, 10, 11, 12, 14, 17, 18, 19, 23, 27],
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          9,
+          10,
+          11,
+          12,
+          14,
+          17,
+          18,
+          19,
+          23,
+          27
+        ],
         "maxScore": 16
       },
       {
         "id": "risk_irritable",
         "name": "冒险/易激惹",
-        "items": [6, 7, 8, 16, 20, 22, 24, 25, 26],
+        "items": [
+          6,
+          7,
+          8,
+          16,
+          20,
+          22,
+          24,
+          25,
+          26
+        ],
         "maxScore": 9
       }
     ]
@@ -66,7 +222,8 @@
   "interpretation": {
     "ranges": [
       {
-        "min": 0, "max": 7,
+        "min": 0,
+        "max": 7,
         "level": "minimal",
         "label": "轻躁狂特征较少",
         "description": "您报告的轻躁狂症状较少，未达到筛查阈值。",
@@ -76,7 +233,8 @@
         ]
       },
       {
-        "min": 8, "max": 13,
+        "min": 8,
+        "max": 13,
         "level": "mild",
         "label": "存在部分轻躁狂特征",
         "description": "您报告了一些轻躁狂症状，但未达到筛查阈值（14分）。建议关注情绪变化。",
@@ -87,7 +245,8 @@
         ]
       },
       {
-        "min": 14, "max": 19,
+        "min": 14,
+        "max": 19,
         "level": "moderate",
         "label": "筛查阳性",
         "description": "您的得分达到或超过标准筛查阈值（≥14分），提示可能存在双相障碍谱系特征。这不是诊断，需要专业评估确认。",
@@ -99,7 +258,8 @@
         ]
       },
       {
-        "min": 20, "max": 32,
+        "min": 20,
+        "max": 32,
         "level": "severe",
         "label": "轻躁狂特征显著",
         "description": "您报告了大量轻躁狂症状，强烈建议进行专业精神科评估。",
@@ -113,19 +273,61 @@
     ],
     "subscaleRanges": {
       "active_elated": [
-        { "min": 0, "max": 5, "level": "minimal", "label": "低", "description": "活跃/愉悦维度得分较低。" },
-        { "min": 6, "max": 10, "level": "mild", "label": "中等", "description": "存在一定的活跃/愉悦特征。" },
-        { "min": 11, "max": 16, "level": "moderate", "label": "高", "description": "活跃/愉悦特征明显，表现为精力充沛、自信心增强、社交活跃等。" }
+        {
+          "min": 0,
+          "max": 5,
+          "level": "minimal",
+          "label": "低",
+          "description": "活跃/愉悦维度得分较低。"
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "mild",
+          "label": "中等",
+          "description": "存在一定的活跃/愉悦特征。"
+        },
+        {
+          "min": 11,
+          "max": 16,
+          "level": "moderate",
+          "label": "高",
+          "description": "活跃/愉悦特征明显，表现为精力充沛、自信心增强、社交活跃等。"
+        }
       ],
       "risk_irritable": [
-        { "min": 0, "max": 2, "level": "minimal", "label": "低", "description": "冒险/易激惹维度得分较低。" },
-        { "min": 3, "max": 5, "level": "mild", "label": "中等", "description": "存在一定的冒险或易激惹倾向。" },
-        { "min": 6, "max": 9, "level": "moderate", "label": "高", "description": "冒险/易激惹特征明显，表现为冲动消费、注意力分散、易怒等。" }
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "低",
+          "description": "冒险/易激惹维度得分较低。"
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "level": "mild",
+          "label": "中等",
+          "description": "存在一定的冒险或易激惹倾向。"
+        },
+        {
+          "min": 6,
+          "max": 9,
+          "level": "moderate",
+          "label": "高",
+          "description": "冒险/易激惹特征明显，表现为冲动消费、注意力分散、易怒等。"
+        }
       ]
     }
   },
   "report": {
-    "charts": ["gauge", "bar"],
-    "gaugeConfig": { "min": 0, "max": 32 }
+    "charts": [
+      "gauge",
+      "bar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 32
+    }
   }
 }

@@ -7,28 +7,92 @@
     "author": "Steel (2010)",
     "license": "Free to use",
     "reference": "Steel P. Arousal, avoidant and decisional procrastinators: Do they exist? Personality and Individual Differences. 2010;48(8):926-934.",
-    "instruction": "Please rate how true each statement is of your typical behavior."
+    "instruction": "Please rate how true each statement is of your typical behavior.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Very Seldom True" },
-    { "value": 2, "label": "Seldom True" },
-    { "value": 3, "label": "Sometimes True" },
-    { "value": 4, "label": "Often True" },
-    { "value": 5, "label": "Very Often True" }
+    {
+      "value": 1,
+      "label": "Very Seldom True"
+    },
+    {
+      "value": 2,
+      "label": "Seldom True"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes True"
+    },
+    {
+      "value": 4,
+      "label": "Often True"
+    },
+    {
+      "value": 5,
+      "label": "Very Often True"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I delay making decisions until it's too late", "type": "likert" },
-    { "index": 1, "text": "Even after I make a decision I delay acting upon it", "type": "likert" },
-    { "index": 2, "text": "I waste a lot of time on trivial matters before getting to the final decisions", "type": "likert" },
-    { "index": 3, "text": "In preparation for some deadlines, I often waste time by doing other things", "type": "likert" },
-    { "index": 4, "text": "Even jobs that require little else except sitting down and doing them, I find that they seldom get done for days", "type": "likert" },
-    { "index": 5, "text": "I often find myself performing tasks that I had intended to do days before", "type": "likert" },
-    { "index": 6, "text": "I am a person who has a 'I'll do it tomorrow' habit", "type": "likert" },
-    { "index": 7, "text": "I generally delay before starting on work I have to do", "type": "likert" },
-    { "index": 8, "text": "I find myself running out of time", "type": "likert" },
-    { "index": 9, "text": "I don't get things done on time", "type": "likert" },
-    { "index": 10, "text": "I am not very good at meeting deadlines", "type": "likert" },
-    { "index": 11, "text": "Putting things off till the last minute has cost me money in the past", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I delay making decisions until it's too late",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Even after I make a decision I delay acting upon it",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I waste a lot of time on trivial matters before getting to the final decisions",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "In preparation for some deadlines, I often waste time by doing other things",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Even jobs that require little else except sitting down and doing them, I find that they seldom get done for days",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I often find myself performing tasks that I had intended to do days before",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I am a person who has a 'I'll do it tomorrow' habit",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I generally delay before starting on work I have to do",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I find myself running out of time",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I don't get things done on time",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I am not very good at meeting deadlines",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Putting things off till the last minute has cost me money in the past",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -91,7 +155,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 12, "max": 60 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 12,
+      "max": 60
+    }
   }
 }

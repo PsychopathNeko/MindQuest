@@ -7,7 +7,8 @@
     "author": "Nicassio et al. (1985)",
     "license": "Free to use",
     "reference": "Nicassio PM, Mendlowitz DR, Fussell JJ, Petras L. The phenomenology of the pre-sleep state: The development of the pre-sleep arousal scale. Behav Res Ther. 1985;23(3):263-271.",
-    "instruction": "Please describe the degree to which each statement is experienced as you attempt to fall asleep in your bedroom."
+    "instruction": "Please describe the degree to which each statement is experienced as you attempt to fall asleep in your bedroom.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

@@ -7,7 +7,8 @@
     "author": "Ames, Rose & Anderson (2006)",
     "license": "Free to use",
     "reference": "Ames DR, Rose P, Anderson CP. The NPI-16 as a short measure of narcissism. J Res Pers. 2006;40(4):440-450.",
-    "instruction": "For each pair of statements below, choose the one that you most closely identify with. There are no right or wrong answers."
+    "instruction": "For each pair of statements below, choose the one that you most closely identify with. There are no right or wrong answers.",
+    "population": "Adults (18+)"
   },
   "commonChoices": null,
   "questions": [

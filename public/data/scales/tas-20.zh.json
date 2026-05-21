@@ -7,7 +7,8 @@
     "author": "Bagby RM, Parker JDA, Taylor GJ (1994)",
     "license": "Free to use",
     "reference": "Bagby RM, Parker JDA, Taylor GJ. The twenty-item Toronto Alexithymia Scale: I. Item selection and cross-validation of the factor structure. J Psychosom Res. 1994;38(1):23-32.",
-    "instruction": "请根据您通常的感受，选择最符合您的选项。"
+    "instruction": "请根据您通常的感受，选择最符合您的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

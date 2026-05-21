@@ -7,7 +7,8 @@
     "author": "Bush et al. (1998)",
     "license": "Public Domain",
     "reference": "Bush K, Kivlahan DR, McDonell MB, Fihn SD, Bradley KA. The AUDIT alcohol consumption questions (AUDIT-C): an effective brief screening test for problem drinking. Arch Intern Med. 1998;158(16):1789-1795.",
-    "instruction": "Please answer the following questions about your alcohol use. Select the option that best describes your drinking habits."
+    "instruction": "Please answer the following questions about your alcohol use. Select the option that best describes your drinking habits.",
+    "population": "General population (16+)"
   },
   "commonChoices": null,
   "questions": [
@@ -16,11 +17,26 @@
       "text": "How often do you have a drink containing alcohol?",
       "type": "single",
       "choices": [
-        { "value": 0, "label": "Never" },
-        { "value": 1, "label": "Monthly or less" },
-        { "value": 2, "label": "2-4 times a month" },
-        { "value": 3, "label": "2-3 times a week" },
-        { "value": 4, "label": "4 or more times a week" }
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 1,
+          "label": "Monthly or less"
+        },
+        {
+          "value": 2,
+          "label": "2-4 times a month"
+        },
+        {
+          "value": 3,
+          "label": "2-3 times a week"
+        },
+        {
+          "value": 4,
+          "label": "4 or more times a week"
+        }
       ]
     },
     {
@@ -28,11 +44,26 @@
       "text": "How many standard drinks containing alcohol do you have on a typical day when you are drinking?",
       "type": "single",
       "choices": [
-        { "value": 0, "label": "1 or 2" },
-        { "value": 1, "label": "3 or 4" },
-        { "value": 2, "label": "5 or 6" },
-        { "value": 3, "label": "7 to 9" },
-        { "value": 4, "label": "10 or more" }
+        {
+          "value": 0,
+          "label": "1 or 2"
+        },
+        {
+          "value": 1,
+          "label": "3 or 4"
+        },
+        {
+          "value": 2,
+          "label": "5 or 6"
+        },
+        {
+          "value": 3,
+          "label": "7 to 9"
+        },
+        {
+          "value": 4,
+          "label": "10 or more"
+        }
       ]
     },
     {
@@ -40,11 +71,26 @@
       "text": "How often do you have 6 or more drinks on one occasion?",
       "type": "single",
       "choices": [
-        { "value": 0, "label": "Never" },
-        { "value": 1, "label": "Less than monthly" },
-        { "value": 2, "label": "Monthly" },
-        { "value": 3, "label": "Weekly" },
-        { "value": 4, "label": "Daily or almost daily" }
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 1,
+          "label": "Less than monthly"
+        },
+        {
+          "value": 2,
+          "label": "Monthly"
+        },
+        {
+          "value": 3,
+          "label": "Weekly"
+        },
+        {
+          "value": 4,
+          "label": "Daily or almost daily"
+        }
       ]
     }
   ],
@@ -99,7 +145,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 12 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 12
+    }
   }
 }

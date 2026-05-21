@@ -7,26 +7,61 @@
     "author": "Cohen, Kamarck & Mermelstein (1983)",
     "license": "Free to use",
     "reference": "Cohen S, Kamarck T, Mermelstein R. A global measure of perceived stress. J Health Soc Behav. 1983;24(4):385-396.",
-    "instruction": "以下问题询问您在过去一个月内的感受和想法。请指出您有某种感受或想法的频率。"
+    "instruction": "以下问题询问您在过去一个月内的感受和想法。请指出您有某种感受或想法的频率。",
+    "population": "一般人群（12岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "从不" },
-    { "value": 1, "label": "几乎不" },
-    { "value": 2, "label": "有时" },
-    { "value": 3, "label": "时常" },
-    { "value": 4, "label": "非常频繁" }
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 1,
+      "label": "几乎不"
+    },
+    {
+      "value": 2,
+      "label": "有时"
+    },
+    {
+      "value": 3,
+      "label": "时常"
+    },
+    {
+      "value": 4,
+      "label": "非常频繁"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "在过去一个月中，您感到无法控制生活中重要事情的频率如何？", "type": "likert" },
-    { "index": 1, "text": "在过去一个月中，您对处理个人问题的能力感到自信的频率如何？", "type": "likert" },
-    { "index": 2, "text": "在过去一个月中，您感到事情在按您的方式发展的频率如何？", "type": "likert" },
-    { "index": 3, "text": "在过去一个月中，您感到困难堆积太多以至于无法克服的频率如何？", "type": "likert" }
+    {
+      "index": 0,
+      "text": "在过去一个月中，您感到无法控制生活中重要事情的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "在过去一个月中，您对处理个人问题的能力感到自信的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "在过去一个月中，您感到事情在按您的方式发展的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "在过去一个月中，您感到困难堆积太多以至于无法克服的频率如何？",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 16,
     "maxItemScore": 4,
-    "reverseItems": [1, 2],
+    "reverseItems": [
+      1,
+      2
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -73,7 +108,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 16 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 16
+    }
   }
 }

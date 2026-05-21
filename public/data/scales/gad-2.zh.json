@@ -7,17 +7,38 @@
     "author": "Kroenke, Spitzer, Williams & Löwe (2007)",
     "license": "Public Domain",
     "reference": "Kroenke K, Spitzer RL, Williams JBW, Monahan PO, Löwe B. Anxiety disorders in primary care: prevalence, impairment, comorbidity, and detection. Ann Intern Med. 2007;146(5):317-325.",
-    "instruction": "回想一下过去两周的生活，以下这些感受出现的频率如何？请放心作答，没有对错之分。"
+    "instruction": "回想一下过去两周的生活，以下这些感受出现的频率如何？请放心作答，没有对错之分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "完全没有" },
-    { "value": 1, "label": "好几天" },
-    { "value": 2, "label": "一半以上天数" },
-    { "value": 3, "label": "几乎每天" }
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "好几天"
+    },
+    {
+      "value": 2,
+      "label": "一半以上天数"
+    },
+    {
+      "value": 3,
+      "label": "几乎每天"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "感觉紧张、焦虑或烦躁", "type": "likert" },
-    { "index": 1, "text": "不能够停止或控制担忧", "type": "likert" }
+    {
+      "index": 0,
+      "text": "感觉紧张、焦虑或烦躁",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "不能够停止或控制担忧",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -56,7 +77,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 6 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 6
+    }
   }
 }

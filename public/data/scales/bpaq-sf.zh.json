@@ -7,7 +7,8 @@
     "author": "Bryant & Smith (2001)",
     "license": "Free for research use",
     "reference": "Bryant FB, Smith BD. Refining the architecture of aggression: a measurement model for the Buss-Perry Aggression Questionnaire. J Res Pers. 2001;35(2):138-167.",
-    "instruction": "请根据你的日常行为和感受选择最符合的选项。"
+    "instruction": "请根据你的日常行为和感受选择最符合的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

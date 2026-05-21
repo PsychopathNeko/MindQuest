@@ -7,7 +7,8 @@
     "author": "Bernstein & Putnam (1986), Carlson & Putnam (1993)",
     "license": "Public Domain",
     "reference": "Carlson EB, Putnam FW. An update on the Dissociative Experiences Scale. Dissociation. 1993;6(1):16-27.",
-    "instruction": "The following items describe experiences that some people have in daily life. Please indicate how often these experiences happen to you."
+    "instruction": "The following items describe experiences that some people have in daily life. Please indicate how often these experiences happen to you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

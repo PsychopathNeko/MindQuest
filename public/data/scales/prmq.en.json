@@ -7,7 +7,8 @@
     "author": "Smith et al. (2000)",
     "license": "Free to use",
     "reference": "Smith G, Della Sala S, Logie RH, Maylor EA. Prospective and retrospective memory in normal ageing and dementia: a questionnaire study. Mem Cognit. 2000;28(6):881-889.",
-    "instruction": "The following questions are about the kinds of memory mistakes that everyone makes from time to time. Please indicate how often each of these things happens to you."
+    "instruction": "The following questions are about the kinds of memory mistakes that everyone makes from time to time. Please indicate how often each of these things happens to you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

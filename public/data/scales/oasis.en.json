@@ -7,21 +7,57 @@
     "author": "Norman et al. (2006)",
     "license": "Public Domain",
     "reference": "Norman SB, et al. Development and validation of an Overall Anxiety Severity and Impairment Scale (OASIS). Depression and Anxiety. 2006;23(4):245-249.",
-    "instruction": "Please answer about your anxiety over the past week."
+    "instruction": "Please answer about your anxiety over the past week.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "None/Never" },
-    { "value": 1, "label": "Infrequent/Mild" },
-    { "value": 2, "label": "Sometimes/Moderate" },
-    { "value": 3, "label": "Frequent/Severe" },
-    { "value": 4, "label": "Constant/Extreme" }
+    {
+      "value": 0,
+      "label": "None/Never"
+    },
+    {
+      "value": 1,
+      "label": "Infrequent/Mild"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes/Moderate"
+    },
+    {
+      "value": 3,
+      "label": "Frequent/Severe"
+    },
+    {
+      "value": 4,
+      "label": "Constant/Extreme"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "In the past week, how often have you felt anxious", "type": "likert" },
-    { "index": 1, "text": "When you have felt anxious, how intense or severe was your anxiety", "type": "likert" },
-    { "index": 2, "text": "How often did you avoid situations, places, or activities because of anxiety", "type": "likert" },
-    { "index": 3, "text": "How much did anxiety interfere with your ability to do work, school, or household tasks", "type": "likert" },
-    { "index": 4, "text": "How much did anxiety interfere with your social life and relationships", "type": "likert" }
+    {
+      "index": 0,
+      "text": "In the past week, how often have you felt anxious",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "When you have felt anxious, how intense or severe was your anxiety",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "How often did you avoid situations, places, or activities because of anxiety",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "How much did anxiety interfere with your ability to do work, school, or household tasks",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "How much did anxiety interfere with your social life and relationships",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -86,7 +122,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 20 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 20
+    }
   }
 }

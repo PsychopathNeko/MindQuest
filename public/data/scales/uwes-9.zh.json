@@ -7,7 +7,8 @@
     "author": "Schaufeli WB, Bakker AB (2003)",
     "license": "Free to use",
     "reference": "Schaufeli WB, Bakker AB, Salanova M. The measurement of work engagement with a short questionnaire. Educ Psychol Meas. 2006;66(4):701-716.",
-    "instruction": "以下陈述关于您在工作中的感受。请阅读每个陈述，选择最符合您情况的选项。"
+    "instruction": "以下陈述关于您在工作中的感受。请阅读每个陈述，选择最符合您情况的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

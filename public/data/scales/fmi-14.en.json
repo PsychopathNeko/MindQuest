@@ -7,35 +7,106 @@
     "author": "Walach et al. (2006)",
     "license": "Free to use",
     "reference": "Walach H, Buchheld N, Buttenmuller V, Kleinknecht N, Schmidt S. Measuring mindfulness — the Freiburg Mindfulness Inventory (FMI). Personality and Individual Differences. 2006;40(8):1543-1555.",
-    "instruction": "Please rate each statement according to how frequently or infrequently you have had each experience over the last 14 days."
+    "instruction": "Please rate each statement according to how frequently or infrequently you have had each experience over the last 14 days.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Rarely" },
-    { "value": 2, "label": "Occasionally" },
-    { "value": 3, "label": "Fairly often" },
-    { "value": 4, "label": "Almost always" }
+    {
+      "value": 1,
+      "label": "Rarely"
+    },
+    {
+      "value": 2,
+      "label": "Occasionally"
+    },
+    {
+      "value": 3,
+      "label": "Fairly often"
+    },
+    {
+      "value": 4,
+      "label": "Almost always"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I am open to the experience of the present moment.", "type": "likert" },
-    { "index": 1, "text": "I sense my body, whether eating, cooking, cleaning or talking.", "type": "likert" },
-    { "index": 2, "text": "When I notice an absence of mind, I gently return to the experience of the here and now.", "type": "likert" },
-    { "index": 3, "text": "I am able to appreciate myself.", "type": "likert" },
-    { "index": 4, "text": "I pay attention to what's behind my actions.", "type": "likert" },
-    { "index": 5, "text": "I see my mistakes and difficulties without judging them.", "type": "likert" },
-    { "index": 6, "text": "I feel connected to my experience in the here-and-now.", "type": "likert" },
-    { "index": 7, "text": "I accept unpleasant experiences.", "type": "likert" },
-    { "index": 8, "text": "I am friendly to myself when things go wrong.", "type": "likert" },
-    { "index": 9, "text": "I watch my feelings without getting lost in them.", "type": "likert" },
-    { "index": 10, "text": "In difficult situations, I can pause without immediately reacting.", "type": "likert" },
-    { "index": 11, "text": "I experience moments of inner peace and ease, even when things get hectic and stressful.", "type": "likert" },
-    { "index": 12, "text": "I am impatient with myself and with others.", "type": "likert" },
-    { "index": 13, "text": "I am able to smile when I notice how I sometimes make life difficult.", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I am open to the experience of the present moment.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I sense my body, whether eating, cooking, cleaning or talking.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "When I notice an absence of mind, I gently return to the experience of the here and now.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am able to appreciate myself.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I pay attention to what's behind my actions.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I see my mistakes and difficulties without judging them.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I feel connected to my experience in the here-and-now.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I accept unpleasant experiences.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I am friendly to myself when things go wrong.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I watch my feelings without getting lost in them.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "In difficult situations, I can pause without immediately reacting.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I experience moments of inner peace and ease, even when things get hectic and stressful.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I am impatient with myself and with others.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I am able to smile when I notice how I sometimes make life difficult.",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 56,
     "maxItemScore": 4,
-    "reverseItems": [12],
+    "reverseItems": [
+      12
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -96,7 +167,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 14, "max": 56 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 14,
+      "max": 56
+    }
   }
 }

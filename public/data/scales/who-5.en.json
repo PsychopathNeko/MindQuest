@@ -7,22 +7,61 @@
     "author": "WHO (1998)",
     "license": "Public Domain",
     "reference": "Topp CW, Østergaard SD, Søndergaard S, Bech P. The WHO-5 Well-Being Index: a systematic review of the literature. Psychother Psychosom. 2015;84(3):167-176.",
-    "instruction": "Please indicate for each of the five statements which is closest to how you have been feeling over the last two weeks."
+    "instruction": "Please indicate for each of the five statements which is closest to how you have been feeling over the last two weeks.",
+    "population": "General population (9+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "At no time" },
-    { "value": 1, "label": "Some of the time" },
-    { "value": 2, "label": "Less than half of the time" },
-    { "value": 3, "label": "More than half of the time" },
-    { "value": 4, "label": "Most of the time" },
-    { "value": 5, "label": "All of the time" }
+    {
+      "value": 0,
+      "label": "At no time"
+    },
+    {
+      "value": 1,
+      "label": "Some of the time"
+    },
+    {
+      "value": 2,
+      "label": "Less than half of the time"
+    },
+    {
+      "value": 3,
+      "label": "More than half of the time"
+    },
+    {
+      "value": 4,
+      "label": "Most of the time"
+    },
+    {
+      "value": 5,
+      "label": "All of the time"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I have felt cheerful and in good spirits", "type": "likert" },
-    { "index": 1, "text": "I have felt calm and relaxed", "type": "likert" },
-    { "index": 2, "text": "I have felt active and vigorous", "type": "likert" },
-    { "index": 3, "text": "I woke up feeling fresh and rested", "type": "likert" },
-    { "index": 4, "text": "My daily life has been filled with things that interest me", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I have felt cheerful and in good spirits",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I have felt calm and relaxed",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I have felt active and vigorous",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I woke up feeling fresh and rested",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "My daily life has been filled with things that interest me",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -88,7 +127,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 25 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 25
+    }
   }
 }

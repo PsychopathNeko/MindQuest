@@ -7,23 +7,70 @@
     "author": "Felitti et al. (1998)",
     "license": "Public Domain",
     "reference": "Felitti VJ, Anda RF, Nordenberg D, et al. Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: the Adverse Childhood Experiences (ACE) Study. Am J Prev Med. 1998;14(4):245-258.",
-    "instruction": "在您18岁生日之前，以下情况是否发生过？请如实回答每个问题。"
+    "instruction": "在您18岁生日之前，以下情况是否发生过？请如实回答每个问题。",
+    "population": "成人（回顾童年经历）"
   },
   "commonChoices": [
-    { "value": 0, "label": "否" },
-    { "value": 1, "label": "是" }
+    {
+      "value": 0,
+      "label": "否"
+    },
+    {
+      "value": 1,
+      "label": "是"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "父母或家中其他成年人是否经常对你辱骂、侮辱、贬低，或者做出让你害怕自己会受到身体伤害的行为？", "type": "likert" },
-    { "index": 1, "text": "父母或家中其他成年人是否经常推搡、抓住、掌掴或向你扔东西，或者曾经打得你身上有伤痕或受伤？", "type": "likert" },
-    { "index": 2, "text": "是否有成年人或比你大至少5岁的人曾经对你进行过性接触、试图与你发生性行为或实际与你发生了性行为？", "type": "likert" },
-    { "index": 3, "text": "你是否经常觉得家里没有人爱你或认为你重要，或者家人之间不互相关心、亲近或支持？", "type": "likert" },
-    { "index": 4, "text": "你是否经常觉得没有足够的食物吃，不得不穿脏衣服，或者没有人保护你？或者你的父母因为喝醉酒或吸毒而无法照顾你或在你需要时带你去看医生？", "type": "likert" },
-    { "index": 5, "text": "你的父母是否曾经分居或离婚？", "type": "likert" },
-    { "index": 6, "text": "你的母亲（或继母）是否经常被推搡、抓住、掌掴或被扔东西？或者有时或经常被踢、咬、拳打或被硬物击打？或者曾被反复打几分钟或被刀或枪威胁？", "type": "likert" },
-    { "index": 7, "text": "你是否与有酗酒问题或使用非法毒品的人一起生活过？", "type": "likert" },
-    { "index": 8, "text": "你的家庭成员中是否有人患有抑郁症或精神疾病，或者曾试图自杀？", "type": "likert" },
-    { "index": 9, "text": "你的家庭成员中是否有人曾经入狱？", "type": "likert" }
+    {
+      "index": 0,
+      "text": "父母或家中其他成年人是否经常对你辱骂、侮辱、贬低，或者做出让你害怕自己会受到身体伤害的行为？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "父母或家中其他成年人是否经常推搡、抓住、掌掴或向你扔东西，或者曾经打得你身上有伤痕或受伤？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "是否有成年人或比你大至少5岁的人曾经对你进行过性接触、试图与你发生性行为或实际与你发生了性行为？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "你是否经常觉得家里没有人爱你或认为你重要，或者家人之间不互相关心、亲近或支持？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "你是否经常觉得没有足够的食物吃，不得不穿脏衣服，或者没有人保护你？或者你的父母因为喝醉酒或吸毒而无法照顾你或在你需要时带你去看医生？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "你的父母是否曾经分居或离婚？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "你的母亲（或继母）是否经常被推搡、抓住、掌掴或被扔东西？或者有时或经常被踢、咬、拳打或被硬物击打？或者曾被反复打几分钟或被刀或枪威胁？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "你是否与有酗酒问题或使用非法毒品的人一起生活过？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "你的家庭成员中是否有人患有抑郁症或精神疾病，或者曾试图自杀？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "你的家庭成员中是否有人曾经入狱？",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -87,7 +134,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 10 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 10
+    }
   }
 }

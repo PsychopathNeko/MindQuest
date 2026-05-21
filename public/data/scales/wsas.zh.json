@@ -7,25 +7,73 @@
     "author": "Mundt et al. (2002)",
     "license": "Free to use",
     "reference": "Mundt JC, et al. The Work and Social Adjustment Scale: a simple measure of impairment in functioning. British Journal of Psychiatry. 2002;180:461-464.",
-    "instruction": "请评估你当前的心理状况对以下各方面的影响程度。0表示完全没有影响，8表示非常严重地影响。"
+    "instruction": "请评估你当前的心理状况对以下各方面的影响程度。0表示完全没有影响，8表示非常严重地影响。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "0 - 完全没有" },
-    { "value": 1, "label": "1" },
-    { "value": 2, "label": "2 - 轻微" },
-    { "value": 3, "label": "3" },
-    { "value": 4, "label": "4 - 中等" },
-    { "value": 5, "label": "5" },
-    { "value": 6, "label": "6 - 严重" },
-    { "value": 7, "label": "7" },
-    { "value": 8, "label": "8 - 非常严重" }
+    {
+      "value": 0,
+      "label": "0 - 完全没有"
+    },
+    {
+      "value": 1,
+      "label": "1"
+    },
+    {
+      "value": 2,
+      "label": "2 - 轻微"
+    },
+    {
+      "value": 3,
+      "label": "3"
+    },
+    {
+      "value": 4,
+      "label": "4 - 中等"
+    },
+    {
+      "value": 5,
+      "label": "5"
+    },
+    {
+      "value": 6,
+      "label": "6 - 严重"
+    },
+    {
+      "value": 7,
+      "label": "7"
+    },
+    {
+      "value": 8,
+      "label": "8 - 非常严重"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我的问题影响了我的工作或学习能力", "type": "likert" },
-    { "index": 1, "text": "我的问题影响了我的家务管理能力（如打扫、购物、做饭、照顾家人等）", "type": "likert" },
-    { "index": 2, "text": "我的问题影响了我的社交休闲活动（如外出、参加聚会等）", "type": "likert" },
-    { "index": 3, "text": "我的问题影响了我的私人休闲活动（如阅读、散步、运动等）", "type": "likert" },
-    { "index": 4, "text": "我的问题影响了我与他人建立和维持亲密关系的能力", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我的问题影响了我的工作或学习能力",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我的问题影响了我的家务管理能力（如打扫、购物、做饭、照顾家人等）",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我的问题影响了我的社交休闲活动（如外出、参加聚会等）",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我的问题影响了我的私人休闲活动（如阅读、散步、运动等）",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我的问题影响了我与他人建立和维持亲密关系的能力",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -86,7 +134,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 40 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 40
+    }
   }
 }

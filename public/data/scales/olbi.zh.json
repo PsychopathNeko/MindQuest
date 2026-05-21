@@ -7,7 +7,8 @@
     "author": "Demerouti E, et al. (2003)",
     "license": "Free for research use",
     "reference": "Demerouti E, et al. J Vocat Behav. 2003;62(3):473-488.",
-    "instruction": "请指出您对以下关于工作的陈述的同意程度。"
+    "instruction": "请指出您对以下关于工作的陈述的同意程度。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

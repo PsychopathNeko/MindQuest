@@ -7,6 +7,7 @@ import { useLocale } from '@/composables/useLocale'
 import { saveAssessment } from '@/utils/storage'
 import ProgressBar from '@/components/common/ProgressBar.vue'
 import QuestionRenderer from '@/components/questions/QuestionRenderer.vue'
+import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -32,6 +33,12 @@ const currentChoices = computed(() => {
 const currentAnswer = computed(() => {
   return answers.value[currentIndex.value] ?? null
 })
+
+const breadcrumbItems = computed(() => [
+  { label: t('nav.home'), to: { name: 'home' } },
+  { label: scale.value?.meta?.name || '...', to: { name: 'scale-detail', params: { id: scaleId.value } } },
+  { label: t('breadcrumb.assessment') }
+])
 
 function handleAnswerSelect(value) { selectAnswer(value) }
 function handlePrev() { slideDirection.value = 'right'; goPrev() }
@@ -111,6 +118,7 @@ onBeforeUnmount(() => {
       </div>
 
       <template v-else>
+        <BreadcrumbNav :items="breadcrumbItems" />
         <div class="assessment-content">
           <div class="top-bar">
             <button class="btn btn-outline btn-sm" @click="confirmExit">{{ t('assess.exit') }}</button>

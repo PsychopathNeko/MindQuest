@@ -7,7 +7,8 @@
     "author": "Raes et al. (2011)",
     "license": "Free to use",
     "reference": "Raes F, Pommier E, Neff KD, Van Gucht D. Construction and factorial validation of a short form of the Self-Compassion Scale. Clin Psychol Psychother. 2011;18(3):250-255.",
-    "instruction": "请仔细阅读每个陈述，并指出您以所描述方式行事的频率。请放心作答，没有对错之分。"
+    "instruction": "请仔细阅读每个陈述，并指出您以所描述方式行事的频率。请放心作答，没有对错之分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

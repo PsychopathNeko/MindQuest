@@ -7,24 +7,73 @@
     "author": "Ferris & Wynne (2001)",
     "license": "Free for non-commercial use",
     "reference": "Ferris J, Wynne H. The Canadian Problem Gambling Index: Final report. Ottawa: Canadian Centre on Substance Abuse; 2001.",
-    "instruction": "请回顾过去12个月，以下情况在您身上发生的频率如何？"
+    "instruction": "请回顾过去12个月，以下情况在您身上发生的频率如何？",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "从不" },
-    { "value": 1, "label": "有时" },
-    { "value": 2, "label": "大多数时候" },
-    { "value": 3, "label": "几乎总是" }
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 1,
+      "label": "有时"
+    },
+    {
+      "value": 2,
+      "label": "大多数时候"
+    },
+    {
+      "value": 3,
+      "label": "几乎总是"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "您是否曾在赌博上投入超过您能承受的金额", "type": "likert" },
-    { "index": 1, "text": "为了获得同样的兴奋感，您是否需要用更大的赌注来赌博", "type": "likert" },
-    { "index": 2, "text": "您是否曾在输钱后再次回去试图赢回来", "type": "likert" },
-    { "index": 3, "text": "您是否曾借钱或变卖物品来获取赌资", "type": "likert" },
-    { "index": 4, "text": "您是否觉得自己可能有赌博问题", "type": "likert" },
-    { "index": 5, "text": "赌博是否给您带来了任何健康问题，包括压力或焦虑", "type": "likert" },
-    { "index": 6, "text": "是否有人批评过您的赌博行为或说您有赌博问题（无论您是否认同）", "type": "likert" },
-    { "index": 7, "text": "您的赌博行为是否给您或您的家庭带来了经济困难", "type": "likert" },
-    { "index": 8, "text": "您是否曾对自己的赌博方式或赌博时发生的事感到内疚", "type": "likert" }
+    {
+      "index": 0,
+      "text": "您是否曾在赌博上投入超过您能承受的金额",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "为了获得同样的兴奋感，您是否需要用更大的赌注来赌博",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "您是否曾在输钱后再次回去试图赢回来",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "您是否曾借钱或变卖物品来获取赌资",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您是否觉得自己可能有赌博问题",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "赌博是否给您带来了任何健康问题，包括压力或焦虑",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "是否有人批评过您的赌博行为或说您有赌博问题（无论您是否认同）",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "您的赌博行为是否给您或您的家庭带来了经济困难",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "您是否曾对自己的赌博方式或赌博时发生的事感到内疚",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -35,7 +84,8 @@
   "interpretation": {
     "ranges": [
       {
-        "min": 0, "max": 0,
+        "min": 0,
+        "max": 0,
         "level": "minimal",
         "label": "无问题赌博",
         "description": "您没有报告任何问题赌博的迹象。",
@@ -45,7 +95,8 @@
         ]
       },
       {
-        "min": 1, "max": 2,
+        "min": 1,
+        "max": 2,
         "level": "mild",
         "label": "低风险赌博",
         "description": "您报告了轻微的赌博相关问题，属于低风险水平。",
@@ -56,7 +107,8 @@
         ]
       },
       {
-        "min": 3, "max": 7,
+        "min": 3,
+        "max": 7,
         "level": "moderate",
         "label": "中等风险赌博",
         "description": "您的赌博行为可能正在造成一些负面后果。建议关注并采取措施。",
@@ -68,7 +120,8 @@
         ]
       },
       {
-        "min": 8, "max": 27,
+        "min": 8,
+        "max": 27,
         "level": "severe",
         "label": "问题赌博",
         "description": "您的赌博行为已经造成了显著的负面后果，符合问题赌博的标准。强烈建议寻求专业帮助。",
@@ -84,7 +137,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 27 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 27
+    }
   }
 }

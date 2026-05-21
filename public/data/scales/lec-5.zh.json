@@ -7,7 +7,8 @@
     "author": "Weathers et al. (2013)",
     "license": "Public Domain",
     "reference": "Weathers FW, Blake DD, Schnurr PP, Kaloupek DG, Marx BP, Keane TM. The Life Events Checklist for DSM-5 (LEC-5). National Center for PTSD; 2013.",
-    "instruction": "以下列出了一些人们有时会经历的困难或压力性事件。请对每个事件，选择最能描述您经历的选项。"
+    "instruction": "以下列出了一些人们有时会经历的困难或压力性事件。请对每个事件，选择最能描述您经历的选项。",
+    "population": "一般人群（16岁以上）"
   },
   "commonChoices": [
     {

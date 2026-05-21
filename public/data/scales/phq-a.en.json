@@ -7,7 +7,8 @@
     "author": "Johnson JG, Harris ES, Spitzer RL, Williams JBW (2002)",
     "license": "Public Domain",
     "reference": "Johnson JG, et al. The Patient Health Questionnaire for Adolescents. J Adolesc Health. 2002;30(3):196-204.",
-    "instruction": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    "instruction": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+    "population": "Adolescents (11-17)"
   },
   "commonChoices": [
     {
@@ -175,5 +176,14 @@
       "min": 0,
       "max": 27
     }
+  },
+  "crisisConfig": {
+    "type": "item",
+    "items": [
+      {
+        "questionIndex": 8,
+        "threshold": 1
+      }
+    ]
   }
 }

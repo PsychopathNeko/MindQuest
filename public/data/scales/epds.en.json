@@ -7,7 +7,8 @@
     "author": "Cox, Holden & Sagovsky (1987)",
     "license": "Free to use",
     "reference": "Cox JL, Holden JM, Sagovsky R. Detection of postnatal depression: Development of the 10-item Edinburgh Postnatal Depression Scale. Br J Psychiatry. 1987;150:782-786.",
-    "instruction": "As you are pregnant or have recently had a baby, we would like to know how you are feeling. Please select the answer that comes closest to how you have felt in the past 7 days, not just how you feel today."
+    "instruction": "As you are pregnant or have recently had a baby, we would like to know how you are feeling. Please select the answer that comes closest to how you have felt in the past 7 days, not just how you feel today.",
+    "population": "Perinatal women"
   },
   "commonChoices": null,
   "questions": [
@@ -16,10 +17,22 @@
       "text": "I have been able to laugh and see the funny side of things",
       "type": "likert",
       "choices": [
-        { "value": 0, "label": "As much as I always could" },
-        { "value": 1, "label": "Not quite so much now" },
-        { "value": 2, "label": "Definitely not so much now" },
-        { "value": 3, "label": "Not at all" }
+        {
+          "value": 0,
+          "label": "As much as I always could"
+        },
+        {
+          "value": 1,
+          "label": "Not quite so much now"
+        },
+        {
+          "value": 2,
+          "label": "Definitely not so much now"
+        },
+        {
+          "value": 3,
+          "label": "Not at all"
+        }
       ]
     },
     {
@@ -27,10 +40,22 @@
       "text": "I have looked forward with enjoyment to things",
       "type": "likert",
       "choices": [
-        { "value": 0, "label": "As much as I ever did" },
-        { "value": 1, "label": "Rather less than I used to" },
-        { "value": 2, "label": "Definitely less than I used to" },
-        { "value": 3, "label": "Hardly at all" }
+        {
+          "value": 0,
+          "label": "As much as I ever did"
+        },
+        {
+          "value": 1,
+          "label": "Rather less than I used to"
+        },
+        {
+          "value": 2,
+          "label": "Definitely less than I used to"
+        },
+        {
+          "value": 3,
+          "label": "Hardly at all"
+        }
       ]
     },
     {
@@ -38,10 +63,22 @@
       "text": "I have blamed myself unnecessarily when things went wrong",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "Yes, most of the time" },
-        { "value": 2, "label": "Yes, some of the time" },
-        { "value": 1, "label": "Not very often" },
-        { "value": 0, "label": "No, never" }
+        {
+          "value": 3,
+          "label": "Yes, most of the time"
+        },
+        {
+          "value": 2,
+          "label": "Yes, some of the time"
+        },
+        {
+          "value": 1,
+          "label": "Not very often"
+        },
+        {
+          "value": 0,
+          "label": "No, never"
+        }
       ]
     },
     {
@@ -49,10 +86,22 @@
       "text": "I have been anxious or worried for no good reason",
       "type": "likert",
       "choices": [
-        { "value": 0, "label": "No, not at all" },
-        { "value": 1, "label": "Hardly ever" },
-        { "value": 2, "label": "Yes, sometimes" },
-        { "value": 3, "label": "Yes, very often" }
+        {
+          "value": 0,
+          "label": "No, not at all"
+        },
+        {
+          "value": 1,
+          "label": "Hardly ever"
+        },
+        {
+          "value": 2,
+          "label": "Yes, sometimes"
+        },
+        {
+          "value": 3,
+          "label": "Yes, very often"
+        }
       ]
     },
     {
@@ -60,10 +109,22 @@
       "text": "I have felt scared or panicky for no very good reason",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "Yes, quite a lot" },
-        { "value": 2, "label": "Yes, sometimes" },
-        { "value": 1, "label": "No, not much" },
-        { "value": 0, "label": "No, not at all" }
+        {
+          "value": 3,
+          "label": "Yes, quite a lot"
+        },
+        {
+          "value": 2,
+          "label": "Yes, sometimes"
+        },
+        {
+          "value": 1,
+          "label": "No, not much"
+        },
+        {
+          "value": 0,
+          "label": "No, not at all"
+        }
       ]
     },
     {
@@ -71,10 +132,22 @@
       "text": "Things have been getting on top of me",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "Yes, most of the time I haven't been able to cope at all" },
-        { "value": 2, "label": "Yes, sometimes I haven't been coping as well as usual" },
-        { "value": 1, "label": "No, most of the time I have coped quite well" },
-        { "value": 0, "label": "No, I have been coping as well as ever" }
+        {
+          "value": 3,
+          "label": "Yes, most of the time I haven't been able to cope at all"
+        },
+        {
+          "value": 2,
+          "label": "Yes, sometimes I haven't been coping as well as usual"
+        },
+        {
+          "value": 1,
+          "label": "No, most of the time I have coped quite well"
+        },
+        {
+          "value": 0,
+          "label": "No, I have been coping as well as ever"
+        }
       ]
     },
     {
@@ -82,10 +155,22 @@
       "text": "I have been so unhappy that I have had difficulty sleeping",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "Yes, most of the time" },
-        { "value": 2, "label": "Yes, sometimes" },
-        { "value": 1, "label": "Not very often" },
-        { "value": 0, "label": "No, not at all" }
+        {
+          "value": 3,
+          "label": "Yes, most of the time"
+        },
+        {
+          "value": 2,
+          "label": "Yes, sometimes"
+        },
+        {
+          "value": 1,
+          "label": "Not very often"
+        },
+        {
+          "value": 0,
+          "label": "No, not at all"
+        }
       ]
     },
     {
@@ -93,10 +178,22 @@
       "text": "I have felt sad or miserable",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "Yes, most of the time" },
-        { "value": 2, "label": "Yes, quite often" },
-        { "value": 1, "label": "Not very often" },
-        { "value": 0, "label": "No, not at all" }
+        {
+          "value": 3,
+          "label": "Yes, most of the time"
+        },
+        {
+          "value": 2,
+          "label": "Yes, quite often"
+        },
+        {
+          "value": 1,
+          "label": "Not very often"
+        },
+        {
+          "value": 0,
+          "label": "No, not at all"
+        }
       ]
     },
     {
@@ -104,10 +201,22 @@
       "text": "I have been so unhappy that I have been crying",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "Yes, most of the time" },
-        { "value": 2, "label": "Yes, quite often" },
-        { "value": 1, "label": "Only occasionally" },
-        { "value": 0, "label": "No, never" }
+        {
+          "value": 3,
+          "label": "Yes, most of the time"
+        },
+        {
+          "value": 2,
+          "label": "Yes, quite often"
+        },
+        {
+          "value": 1,
+          "label": "Only occasionally"
+        },
+        {
+          "value": 0,
+          "label": "No, never"
+        }
       ]
     },
     {
@@ -115,10 +224,22 @@
       "text": "The thought of harming myself has occurred to me",
       "type": "likert",
       "choices": [
-        { "value": 3, "label": "Yes, quite often" },
-        { "value": 2, "label": "Sometimes" },
-        { "value": 1, "label": "Hardly ever" },
-        { "value": 0, "label": "Never" }
+        {
+          "value": 3,
+          "label": "Yes, quite often"
+        },
+        {
+          "value": 2,
+          "label": "Sometimes"
+        },
+        {
+          "value": 1,
+          "label": "Hardly ever"
+        },
+        {
+          "value": 0,
+          "label": "Never"
+        }
       ]
     }
   ],
@@ -185,7 +306,21 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 30
+    }
+  },
+  "crisisConfig": {
+    "type": "item",
+    "items": [
+      {
+        "questionIndex": 9,
+        "threshold": 1
+      }
+    ]
   }
 }

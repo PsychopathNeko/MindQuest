@@ -5,6 +5,7 @@ import { useScaleLoader } from '@/composables/useScaleLoader'
 import { useLocale } from '@/composables/useLocale'
 import { useQueue } from '@/composables/useQueue'
 import { useHead } from '@unhead/vue'
+import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -85,6 +86,11 @@ function estimateTime(questionCount) {
   return String(minutes) + ' - ' + String(minutes + Math.ceil(minutes * 0.5))
 }
 
+const breadcrumbItems = computed(() => [
+  { label: t('nav.home'), to: { name: 'home' } },
+  { label: scale.value?.meta?.name || '...' }
+])
+
 function handleAddToQueue() {
   if (!scale.value) return
   addToQueue({
@@ -110,6 +116,7 @@ function handleAddToQueue() {
       </div>
 
       <template v-else>
+        <BreadcrumbNav :items="breadcrumbItems" />
         <div class="detail-card card">
           <div class="detail-header">
             <div class="name-row">
@@ -127,6 +134,7 @@ function handleAddToQueue() {
           </div>
           <div class="detail-section meta-grid">
             <div class="meta-item"><span class="meta-label">{{ t('detail.author') }}</span><span class="meta-value">{{ scale.meta.author }}</span></div>
+            <div v-if="scale.meta.population" class="meta-item"><span class="meta-label">{{ t('detail.population') }}</span><span class="meta-value">{{ scale.meta.population }}</span></div>
             <div class="meta-item"><span class="meta-label">{{ t('detail.questionCount') }}</span><span class="meta-value">{{ scale.questions.length }} {{ t('detail.questionUnit') }}</span></div>
             <div class="meta-item"><span class="meta-label">{{ t('detail.estimatedTime') }}</span><span class="meta-value">{{ estimateTime(scale.questions.length) }} {{ t('detail.minutes') }}</span></div>
           </div>

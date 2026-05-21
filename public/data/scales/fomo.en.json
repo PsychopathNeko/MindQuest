@@ -7,26 +7,82 @@
     "author": "Przybylski et al. (2013)",
     "license": "Free to use",
     "reference": "Przybylski AK, Murayama K, DeHaan CR, Gladwell V. Motivational, emotional, and behavioral correlates of fear of missing out. Comput Human Behav. 2013;29(4):1841-1848.",
-    "instruction": "Below are a series of statements about your everyday experiences. Please indicate how true each statement is of your general experience."
+    "instruction": "Below are a series of statements about your everyday experiences. Please indicate how true each statement is of your general experience.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Not at all true of me" },
-    { "value": 2, "label": "Slightly true of me" },
-    { "value": 3, "label": "Moderately true of me" },
-    { "value": 4, "label": "Very true of me" },
-    { "value": 5, "label": "Extremely true of me" }
+    {
+      "value": 1,
+      "label": "Not at all true of me"
+    },
+    {
+      "value": 2,
+      "label": "Slightly true of me"
+    },
+    {
+      "value": 3,
+      "label": "Moderately true of me"
+    },
+    {
+      "value": 4,
+      "label": "Very true of me"
+    },
+    {
+      "value": 5,
+      "label": "Extremely true of me"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I fear others have more rewarding experiences than me", "type": "likert" },
-    { "index": 1, "text": "I fear my friends have more rewarding experiences than me", "type": "likert" },
-    { "index": 2, "text": "I get worried when I find out my friends are having fun without me", "type": "likert" },
-    { "index": 3, "text": "I get anxious when I don't know what my friends are up to", "type": "likert" },
-    { "index": 4, "text": "It is important that I understand my friends' \"in jokes\"", "type": "likert" },
-    { "index": 5, "text": "Sometimes, I wonder if I spend too much time keeping up with what is going on", "type": "likert" },
-    { "index": 6, "text": "It bothers me when I miss an opportunity to meet up with friends", "type": "likert" },
-    { "index": 7, "text": "When I have a good time it is important for me to share the details online", "type": "likert" },
-    { "index": 8, "text": "When I miss out on a planned get-together it bothers me", "type": "likert" },
-    { "index": 9, "text": "When I go on vacation, I continue to keep tabs on what my friends are doing", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I fear others have more rewarding experiences than me",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I fear my friends have more rewarding experiences than me",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I get worried when I find out my friends are having fun without me",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I get anxious when I don't know what my friends are up to",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "It is important that I understand my friends' \"in jokes\"",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Sometimes, I wonder if I spend too much time keeping up with what is going on",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "It bothers me when I miss an opportunity to meet up with friends",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "When I have a good time it is important for me to share the details online",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "When I miss out on a planned get-together it bothers me",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "When I go on vacation, I continue to keep tabs on what my friends are doing",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -93,7 +149,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 10, "max": 50 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 50
+    }
   }
 }

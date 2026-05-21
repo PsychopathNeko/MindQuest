@@ -7,7 +7,8 @@
     "author": "Ewing (1984)",
     "license": "Public Domain",
     "reference": "Ewing JA. Detecting alcoholism: the CAGE questionnaire. JAMA. 1984;252(14):1905-1907.",
-    "instruction": "Please answer each question honestly with Yes or No."
+    "instruction": "Please answer each question honestly with Yes or No.",
+    "population": "General population (16+)"
   },
   "commonChoices": null,
   "questions": [
@@ -83,7 +84,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 4 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 4
+    }
   }
 }

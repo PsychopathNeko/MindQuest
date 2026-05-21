@@ -7,33 +7,101 @@
     "author": "Goldberg & Williams (1988)",
     "license": "Free to use",
     "reference": "Goldberg DP, Williams P. A User's Guide to the General Health Questionnaire. Windsor: NFER-Nelson; 1988.",
-    "instruction": "We would like to know how your health has been in general over the past few weeks. Please answer all questions by selecting the answer which you think most nearly applies to you."
+    "instruction": "We would like to know how your health has been in general over the past few weeks. Please answer all questions by selecting the answer which you think most nearly applies to you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Not at all" },
-    { "value": 1, "label": "No more than usual" },
-    { "value": 2, "label": "Rather more than usual" },
-    { "value": 3, "label": "Much more than usual" }
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "No more than usual"
+    },
+    {
+      "value": 2,
+      "label": "Rather more than usual"
+    },
+    {
+      "value": 3,
+      "label": "Much more than usual"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Been able to concentrate on what you're doing?", "type": "likert" },
-    { "index": 1, "text": "Lost much sleep over worry?", "type": "likert" },
-    { "index": 2, "text": "Felt you were playing a useful part in things?", "type": "likert" },
-    { "index": 3, "text": "Felt capable of making decisions about things?", "type": "likert" },
-    { "index": 4, "text": "Felt constantly under strain?", "type": "likert" },
-    { "index": 5, "text": "Felt you couldn't overcome your difficulties?", "type": "likert" },
-    { "index": 6, "text": "Been able to enjoy your normal day-to-day activities?", "type": "likert" },
-    { "index": 7, "text": "Been able to face up to your problems?", "type": "likert" },
-    { "index": 8, "text": "Been feeling unhappy and depressed?", "type": "likert" },
-    { "index": 9, "text": "Been losing confidence in yourself?", "type": "likert" },
-    { "index": 10, "text": "Been thinking of yourself as a worthless person?", "type": "likert" },
-    { "index": 11, "text": "Been feeling reasonably happy, all things considered?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Been able to concentrate on what you're doing?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Lost much sleep over worry?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Felt you were playing a useful part in things?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Felt capable of making decisions about things?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Felt constantly under strain?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Felt you couldn't overcome your difficulties?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Been able to enjoy your normal day-to-day activities?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Been able to face up to your problems?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Been feeling unhappy and depressed?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Been losing confidence in yourself?",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Been thinking of yourself as a worthless person?",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Been feeling reasonably happy, all things considered?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 36,
     "maxItemScore": 3,
-    "reverseItems": [0, 2, 3, 6, 7, 11],
+    "reverseItems": [
+      0,
+      2,
+      3,
+      6,
+      7,
+      11
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -80,7 +148,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 36 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 36
+    }
   }
 }

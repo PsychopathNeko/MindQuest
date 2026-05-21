@@ -7,7 +7,8 @@
     "author": "Butler & Kern (2016)",
     "license": "Free to use",
     "reference": "Butler J, Kern ML. The PERMA-Profiler: A brief multidimensional measure of flourishing. International Journal of Wellbeing. 2016;6(3):1-48.",
-    "instruction": "请根据您的真实感受，对以下每个问题进行评分（0-10分）。"
+    "instruction": "请根据您的真实感受，对以下每个问题进行评分（0-10分）。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

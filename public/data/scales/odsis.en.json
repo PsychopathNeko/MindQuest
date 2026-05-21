@@ -7,21 +7,57 @@
     "author": "Bentley et al. (2014)",
     "license": "Public Domain",
     "reference": "Bentley KH, et al. Development and validation of the Overall Depression Severity and Impairment Scale. Psychological Assessment. 2014;26(3):815-830.",
-    "instruction": "Please answer about your depression or low mood over the past week."
+    "instruction": "Please answer about your depression or low mood over the past week.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "None/Never" },
-    { "value": 1, "label": "Infrequent/Mild" },
-    { "value": 2, "label": "Sometimes/Moderate" },
-    { "value": 3, "label": "Frequent/Severe" },
-    { "value": 4, "label": "Constant/Extreme" }
+    {
+      "value": 0,
+      "label": "None/Never"
+    },
+    {
+      "value": 1,
+      "label": "Infrequent/Mild"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes/Moderate"
+    },
+    {
+      "value": 3,
+      "label": "Frequent/Severe"
+    },
+    {
+      "value": 4,
+      "label": "Constant/Extreme"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "In the past week, how often have you felt depressed or sad", "type": "likert" },
-    { "index": 1, "text": "When you have felt depressed, how intense or severe was your depression", "type": "likert" },
-    { "index": 2, "text": "How often did you have difficulty engaging in activities you used to enjoy because of depression", "type": "likert" },
-    { "index": 3, "text": "How much did depression interfere with your ability to do work, school, or household tasks", "type": "likert" },
-    { "index": 4, "text": "How much did depression interfere with your social life and relationships", "type": "likert" }
+    {
+      "index": 0,
+      "text": "In the past week, how often have you felt depressed or sad",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "When you have felt depressed, how intense or severe was your depression",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "How often did you have difficulty engaging in activities you used to enjoy because of depression",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "How much did depression interfere with your ability to do work, school, or household tasks",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "How much did depression interfere with your social life and relationships",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -86,7 +122,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 20 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 20
+    }
   }
 }

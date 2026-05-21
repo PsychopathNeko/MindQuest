@@ -7,27 +7,88 @@
     "author": "Gideon et al. (2016)",
     "license": "Free to use",
     "reference": "Gideon N, Hawkes N, Mond J, et al. Development and psychometric validation of the EDE-QS, a 12 item short form of the Eating Disorder Examination Questionnaire (EDE-Q). PLoS ONE. 2016;11(5):e0152744.",
-    "instruction": "Over the past 7 days..."
+    "instruction": "Over the past 7 days...",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "0 days" },
-    { "value": 1, "label": "1-2 days" },
-    { "value": 2, "label": "3-5 days" },
-    { "value": 3, "label": "6-7 days" }
+    {
+      "value": 0,
+      "label": "0 days"
+    },
+    {
+      "value": 1,
+      "label": "1-2 days"
+    },
+    {
+      "value": 2,
+      "label": "3-5 days"
+    },
+    {
+      "value": 3,
+      "label": "6-7 days"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Have you been deliberately trying to limit the amount of food you eat to influence your shape or weight?", "type": "likert" },
-    { "index": 1, "text": "Have you gone for long periods of time (8 hours or more) without eating anything in order to influence your shape or weight?", "type": "likert" },
-    { "index": 2, "text": "Has thinking about food or its calorie content made it much more difficult to concentrate on things you are interested in?", "type": "likert" },
-    { "index": 3, "text": "Has thinking about shape or weight made it much more difficult to concentrate on things you are interested in?", "type": "likert" },
-    { "index": 4, "text": "Have you had a definite fear that you might gain weight or become fat?", "type": "likert" },
-    { "index": 5, "text": "Have you had a strong desire to lose weight?", "type": "likert" },
-    { "index": 6, "text": "Have you tried to control your weight or shape by making yourself sick or taking laxatives?", "type": "likert" },
-    { "index": 7, "text": "Have you exercised in a driven or compulsive way as a means of controlling your weight, shape or amount of fat?", "type": "likert" },
-    { "index": 8, "text": "Have you had a sense of having lost control over your eating?", "type": "likert" },
-    { "index": 9, "text": "On how many of the past 7 days have you eaten in secret?", "type": "likert" },
-    { "index": 10, "text": "How dissatisfied have you been with your weight?", "type": "likert" },
-    { "index": 11, "text": "How dissatisfied have you been with your shape?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Have you been deliberately trying to limit the amount of food you eat to influence your shape or weight?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Have you gone for long periods of time (8 hours or more) without eating anything in order to influence your shape or weight?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Has thinking about food or its calorie content made it much more difficult to concentrate on things you are interested in?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Has thinking about shape or weight made it much more difficult to concentrate on things you are interested in?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Have you had a definite fear that you might gain weight or become fat?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Have you had a strong desire to lose weight?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Have you tried to control your weight or shape by making yourself sick or taking laxatives?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Have you exercised in a driven or compulsive way as a means of controlling your weight, shape or amount of fat?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Have you had a sense of having lost control over your eating?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "On how many of the past 7 days have you eaten in secret?",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "How dissatisfied have you been with your weight?",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "How dissatisfied have you been with your shape?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -94,7 +155,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 36 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 36
+    }
   }
 }

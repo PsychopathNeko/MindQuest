@@ -7,26 +7,91 @@
     "author": "Ising et al. (2012)",
     "license": "Free to use",
     "reference": "Ising HK, Veling W, Loewy RL, et al. The validity of the 16-item version of the Prodromal Questionnaire (PQ-16) to screen for ultra high risk of developing psychosis in the general help-seeking population. Schizophr Bull. 2012;38(6):1288-1296.",
-    "instruction": "请阅读以下描述，判断您是否曾有过类似的体验。如果有，请选择「是」；如果没有，请选择「否」。"
+    "instruction": "请阅读以下描述，判断您是否曾有过类似的体验。如果有，请选择「是」；如果没有，请选择「否」。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": null,
   "questions": [
-    { "index": 0, "text": "我有时觉得自己的想法不属于自己", "type": "yesno" },
-    { "index": 1, "text": "有时我会产生不寻常的感觉，如身体被触碰、拉扯或压迫", "type": "yesno" },
-    { "index": 2, "text": "有时我看到的东西在别人看来并不存在", "type": "yesno" },
-    { "index": 3, "text": "我曾有过不寻常的或神秘的体验", "type": "yesno" },
-    { "index": 4, "text": "有时我觉得自己的想法被别人知道了", "type": "yesno" },
-    { "index": 5, "text": "有时我感觉自己能听到别人听不到的声音", "type": "yesno" },
-    { "index": 6, "text": "我曾觉得有人或某种力量在控制我的行动", "type": "yesno" },
-    { "index": 7, "text": "我有时很难集中注意力，因为脑子里有太多不相关的想法", "type": "yesno" },
-    { "index": 8, "text": "我曾觉得自己与周围世界之间有一层屏障", "type": "yesno" },
-    { "index": 9, "text": "我有时觉得电视或广播里的内容特别针对我", "type": "yesno" },
-    { "index": 10, "text": "有时我觉得别人在暗中谈论我或注视我", "type": "yesno" },
-    { "index": 11, "text": "我曾有过一些想法让我觉得自己可能是疯了", "type": "yesno" },
-    { "index": 12, "text": "有时我觉得自己在思维或言语表达方面出了问题", "type": "yesno" },
-    { "index": 13, "text": "我有时觉得事物或人不是它们看上去的样子", "type": "yesno" },
-    { "index": 14, "text": "有时我的想法变得太快以至于跟不上", "type": "yesno" },
-    { "index": 15, "text": "我发现自己很难理解别人在说什么，即使他们说的很清楚", "type": "yesno" }
+    {
+      "index": 0,
+      "text": "我有时觉得自己的想法不属于自己",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "有时我会产生不寻常的感觉，如身体被触碰、拉扯或压迫",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "有时我看到的东西在别人看来并不存在",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "我曾有过不寻常的或神秘的体验",
+      "type": "yesno"
+    },
+    {
+      "index": 4,
+      "text": "有时我觉得自己的想法被别人知道了",
+      "type": "yesno"
+    },
+    {
+      "index": 5,
+      "text": "有时我感觉自己能听到别人听不到的声音",
+      "type": "yesno"
+    },
+    {
+      "index": 6,
+      "text": "我曾觉得有人或某种力量在控制我的行动",
+      "type": "yesno"
+    },
+    {
+      "index": 7,
+      "text": "我有时很难集中注意力，因为脑子里有太多不相关的想法",
+      "type": "yesno"
+    },
+    {
+      "index": 8,
+      "text": "我曾觉得自己与周围世界之间有一层屏障",
+      "type": "yesno"
+    },
+    {
+      "index": 9,
+      "text": "我有时觉得电视或广播里的内容特别针对我",
+      "type": "yesno"
+    },
+    {
+      "index": 10,
+      "text": "有时我觉得别人在暗中谈论我或注视我",
+      "type": "yesno"
+    },
+    {
+      "index": 11,
+      "text": "我曾有过一些想法让我觉得自己可能是疯了",
+      "type": "yesno"
+    },
+    {
+      "index": 12,
+      "text": "有时我觉得自己在思维或言语表达方面出了问题",
+      "type": "yesno"
+    },
+    {
+      "index": 13,
+      "text": "我有时觉得事物或人不是它们看上去的样子",
+      "type": "yesno"
+    },
+    {
+      "index": 14,
+      "text": "有时我的想法变得太快以至于跟不上",
+      "type": "yesno"
+    },
+    {
+      "index": 15,
+      "text": "我发现自己很难理解别人在说什么，即使他们说的很清楚",
+      "type": "yesno"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -37,7 +102,8 @@
   "interpretation": {
     "ranges": [
       {
-        "min": 0, "max": 5,
+        "min": 0,
+        "max": 5,
         "level": "minimal",
         "label": "低风险",
         "description": "您报告的精神病性体验较少，不提示精神病风险升高。",
@@ -47,7 +113,8 @@
         ]
       },
       {
-        "min": 6, "max": 8,
+        "min": 6,
+        "max": 8,
         "level": "mild",
         "label": "需关注",
         "description": "您报告了一些精神病性体验，接近筛查阈值（≥6分）。建议关注这些体验的变化。",
@@ -59,7 +126,8 @@
         ]
       },
       {
-        "min": 9, "max": 12,
+        "min": 9,
+        "max": 12,
         "level": "moderate",
         "label": "筛查阳性",
         "description": "您的得分超过筛查阈值，提示可能存在精神病超高风险状态。这不是诊断，需要专业评估确认。",
@@ -71,7 +139,8 @@
         ]
       },
       {
-        "min": 13, "max": 16,
+        "min": 13,
+        "max": 16,
         "level": "severe",
         "label": "高度阳性",
         "description": "您报告了大量精神病性体验，强烈建议进行专业精神科评估。早期干预可以显著改善预后。",
@@ -86,7 +155,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 16 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 16
+    }
   }
 }

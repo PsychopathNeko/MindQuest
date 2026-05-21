@@ -7,22 +7,62 @@
     "author": "Andreassen et al. (2016)",
     "license": "Free to use",
     "reference": "Andreassen CS, et al. Development of a Facebook Addiction Scale. Psychological Reports. 2012;110(2):501-517.",
-    "instruction": "请根据过去一年内你使用社交媒体（如微信、抖音、微博、小红书等）的情况来回答。"
+    "instruction": "请根据过去一年内你使用社交媒体（如微信、抖音、微博、小红书等）的情况来回答。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "非常少" },
-    { "value": 2, "label": "偶尔" },
-    { "value": 3, "label": "有时" },
-    { "value": 4, "label": "经常" },
-    { "value": 5, "label": "非常频繁" }
+    {
+      "value": 1,
+      "label": "非常少"
+    },
+    {
+      "value": 2,
+      "label": "偶尔"
+    },
+    {
+      "value": 3,
+      "label": "有时"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "非常频繁"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "花大量时间思考社交媒体或计划如何使用社交媒体", "type": "likert" },
-    { "index": 1, "text": "感到越来越强烈地想要更多使用社交媒体的冲动", "type": "likert" },
-    { "index": 2, "text": "使用社交媒体来忘记个人烦恼", "type": "likert" },
-    { "index": 3, "text": "试图减少社交媒体的使用但未能成功", "type": "likert" },
-    { "index": 4, "text": "如果被禁止使用社交媒体会感到不安或烦躁", "type": "likert" },
-    { "index": 5, "text": "大量使用社交媒体以至于对学业/工作产生了负面影响", "type": "likert" }
+    {
+      "index": 0,
+      "text": "花大量时间思考社交媒体或计划如何使用社交媒体",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "感到越来越强烈地想要更多使用社交媒体的冲动",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "使用社交媒体来忘记个人烦恼",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "试图减少社交媒体的使用但未能成功",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "如果被禁止使用社交媒体会感到不安或烦躁",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "大量使用社交媒体以至于对学业/工作产生了负面影响",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -85,7 +125,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 6, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
   }
 }

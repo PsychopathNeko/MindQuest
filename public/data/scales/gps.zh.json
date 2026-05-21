@@ -7,42 +7,149 @@
     "author": "Lay (1986)",
     "license": "Free to use",
     "reference": "Lay CH. At last, my research article on procrastination. Journal of Research in Personality. 1986;20(4):474-495.",
-    "instruction": "请根据你的日常行为习惯，选择最符合你情况的选项。"
+    "instruction": "请根据你的日常行为习惯，选择最符合你情况的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "非常不符合" },
-    { "value": 2, "label": "不太符合" },
-    { "value": 3, "label": "一般" },
-    { "value": 4, "label": "比较符合" },
-    { "value": 5, "label": "非常符合" }
+    {
+      "value": 1,
+      "label": "非常不符合"
+    },
+    {
+      "value": 2,
+      "label": "不太符合"
+    },
+    {
+      "value": 3,
+      "label": "一般"
+    },
+    {
+      "value": 4,
+      "label": "比较符合"
+    },
+    {
+      "value": 5,
+      "label": "非常符合"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我经常发现自己在做几天前就打算做的事情", "type": "likert" },
-    { "index": 1, "text": "我经常因为没有及时买票而错过音乐会、体育赛事等活动", "type": "likert" },
-    { "index": 2, "text": "筹备聚会时，我会提前做好必要的安排", "type": "likert" },
-    { "index": 3, "text": "早上该起床的时候，我通常会立刻起来", "type": "likert" },
-    { "index": 4, "text": "写好的信可能会放好几天才寄出", "type": "likert" },
-    { "index": 5, "text": "我通常会及时回复电话或消息", "type": "likert" },
-    { "index": 6, "text": "即使是只需要坐下来就能完成的工作，我也常常拖上好几天", "type": "likert" },
-    { "index": 7, "text": "我通常会尽快做出决定", "type": "likert" },
-    { "index": 8, "text": "我经常推迟开始必须做的工作", "type": "likert" },
-    { "index": 9, "text": "出行时，我经常因为准备不及时而匆忙赶路", "type": "likert" },
-    { "index": 10, "text": "出门准备时，我很少在最后一刻才手忙脚乱", "type": "likert" },
-    { "index": 11, "text": "在准备截止日期前的工作时，我经常把时间浪费在其他事情上", "type": "likert" },
-    { "index": 12, "text": "收到小额账单时，我会立即付款", "type": "likert" },
-    { "index": 13, "text": "收到邀请后，我通常会很快回复", "type": "likert" },
-    { "index": 14, "text": "我经常比需要的时间更早完成任务", "type": "likert" },
-    { "index": 15, "text": "我总是在最后一刻才去买生日或节日礼物", "type": "likert" },
-    { "index": 16, "text": "即使是必需品，我也经常拖到最后才去买", "type": "likert" },
-    { "index": 17, "text": "我通常能完成一天中计划要做的所有事情", "type": "likert" },
-    { "index": 18, "text": "我总是在说\"我明天再做\"", "type": "likert" },
-    { "index": 19, "text": "我通常会先完成所有需要做的事情，然后才放松休息", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我经常发现自己在做几天前就打算做的事情",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我经常因为没有及时买票而错过音乐会、体育赛事等活动",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "筹备聚会时，我会提前做好必要的安排",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "早上该起床的时候，我通常会立刻起来",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "写好的信可能会放好几天才寄出",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我通常会及时回复电话或消息",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "即使是只需要坐下来就能完成的工作，我也常常拖上好几天",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我通常会尽快做出决定",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我经常推迟开始必须做的工作",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "出行时，我经常因为准备不及时而匆忙赶路",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "出门准备时，我很少在最后一刻才手忙脚乱",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "在准备截止日期前的工作时，我经常把时间浪费在其他事情上",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "收到小额账单时，我会立即付款",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "收到邀请后，我通常会很快回复",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我经常比需要的时间更早完成任务",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我总是在最后一刻才去买生日或节日礼物",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "即使是必需品，我也经常拖到最后才去买",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "我通常能完成一天中计划要做的所有事情",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "我总是在说\"我明天再做\"",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "我通常会先完成所有需要做的事情，然后才放松休息",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 100,
     "maxItemScore": 5,
-    "reverseItems": [2, 3, 5, 7, 10, 12, 13, 14, 17, 19],
+    "reverseItems": [
+      2,
+      3,
+      5,
+      7,
+      10,
+      12,
+      13,
+      14,
+      17,
+      19
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -101,7 +208,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 20, "max": 100 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 20,
+      "max": 100
+    }
   }
 }

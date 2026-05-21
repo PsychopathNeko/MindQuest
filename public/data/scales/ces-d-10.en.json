@@ -7,31 +7,87 @@
     "author": "Andresen, Malmgren, Carter & Patrick (1994)",
     "license": "Public Domain",
     "reference": "Andresen EM, Malmgren JA, Carter WB, Patrick DL. Screening for depression in well older adults: evaluation of a short form of the CES-D. Am J Prev Med. 1994;10(2):77-84.",
-    "instruction": "Below is a list of some ways you may have felt or behaved. Please indicate how often you have felt this way during the past week."
+    "instruction": "Below is a list of some ways you may have felt or behaved. Please indicate how often you have felt this way during the past week.",
+    "population": "General population (15+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Rarely or none of the time (less than 1 day)" },
-    { "value": 1, "label": "Some or a little of the time (1-2 days)" },
-    { "value": 2, "label": "Occasionally or a moderate amount of the time (3-4 days)" },
-    { "value": 3, "label": "All of the time (5-7 days)" }
+    {
+      "value": 0,
+      "label": "Rarely or none of the time (less than 1 day)"
+    },
+    {
+      "value": 1,
+      "label": "Some or a little of the time (1-2 days)"
+    },
+    {
+      "value": 2,
+      "label": "Occasionally or a moderate amount of the time (3-4 days)"
+    },
+    {
+      "value": 3,
+      "label": "All of the time (5-7 days)"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I was bothered by things that usually don't bother me", "type": "likert" },
-    { "index": 1, "text": "I had trouble keeping my mind on what I was doing", "type": "likert" },
-    { "index": 2, "text": "I felt depressed", "type": "likert" },
-    { "index": 3, "text": "I felt that everything I did was an effort", "type": "likert" },
-    { "index": 4, "text": "I felt hopeful about the future", "type": "likert" },
-    { "index": 5, "text": "I felt fearful", "type": "likert" },
-    { "index": 6, "text": "My sleep was restless", "type": "likert" },
-    { "index": 7, "text": "I was happy", "type": "likert" },
-    { "index": 8, "text": "I felt lonely", "type": "likert" },
-    { "index": 9, "text": "I could not get going", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I was bothered by things that usually don't bother me",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I had trouble keeping my mind on what I was doing",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I felt depressed",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I felt that everything I did was an effort",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I felt hopeful about the future",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I felt fearful",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "My sleep was restless",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I was happy",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I felt lonely",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I could not get going",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 30,
     "maxItemScore": 3,
-    "reverseItems": [4, 7],
+    "reverseItems": [
+      4,
+      7
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -93,7 +149,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 30
+    }
   }
 }

@@ -7,7 +7,8 @@
     "author": "Kaufman et al. (2016)",
     "license": "Free to use",
     "reference": "Kaufman EA, Xia M, Fosco G, et al. The Difficulties in Emotion Regulation Scale Short Form (DERS-SF). J Psychopathol Behav Assess. 2016;38(3):443-455.",
-    "instruction": "请根据以下陈述与您的实际情况的符合程度进行评分。"
+    "instruction": "请根据以下陈述与您的实际情况的符合程度进行评分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

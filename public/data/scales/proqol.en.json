@@ -7,7 +7,8 @@
     "author": "Stamm BH (2010)",
     "license": "Free to use",
     "reference": "Stamm BH. The Concise ProQOL Manual. 2nd ed. Pocatello, ID: ProQOL.org; 2010.",
-    "instruction": "The following questions are about your experiences as a helper. Consider each item about you and your current work situation during the last 30 days."
+    "instruction": "The following questions are about your experiences as a helper. Consider each item about you and your current work situation during the last 30 days.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

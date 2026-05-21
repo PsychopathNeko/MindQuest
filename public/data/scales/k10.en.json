@@ -7,26 +7,82 @@
     "author": "Kessler, Andrews, Colpe et al. (2002)",
     "license": "Public Domain",
     "reference": "Kessler RC, Andrews G, Colpe LJ, et al. Short screening scales to monitor population prevalences and trends in non-specific psychological distress. Psychol Med. 2002;32(6):959-976.",
-    "instruction": "The following questions ask about how you have been feeling during the past 4 weeks. For each question, select the option that best describes how often you had this feeling."
+    "instruction": "The following questions ask about how you have been feeling during the past 4 weeks. For each question, select the option that best describes how often you had this feeling.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "None of the time" },
-    { "value": 2, "label": "A little of the time" },
-    { "value": 3, "label": "Some of the time" },
-    { "value": 4, "label": "Most of the time" },
-    { "value": 5, "label": "All of the time" }
+    {
+      "value": 1,
+      "label": "None of the time"
+    },
+    {
+      "value": 2,
+      "label": "A little of the time"
+    },
+    {
+      "value": 3,
+      "label": "Some of the time"
+    },
+    {
+      "value": 4,
+      "label": "Most of the time"
+    },
+    {
+      "value": 5,
+      "label": "All of the time"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "In the past 4 weeks, about how often did you feel tired out for no good reason?", "type": "likert" },
-    { "index": 1, "text": "In the past 4 weeks, about how often did you feel nervous?", "type": "likert" },
-    { "index": 2, "text": "In the past 4 weeks, about how often did you feel so nervous that nothing could calm you down?", "type": "likert" },
-    { "index": 3, "text": "In the past 4 weeks, about how often did you feel hopeless?", "type": "likert" },
-    { "index": 4, "text": "In the past 4 weeks, about how often did you feel restless or fidgety?", "type": "likert" },
-    { "index": 5, "text": "In the past 4 weeks, about how often did you feel so restless you could not sit still?", "type": "likert" },
-    { "index": 6, "text": "In the past 4 weeks, about how often did you feel depressed?", "type": "likert" },
-    { "index": 7, "text": "In the past 4 weeks, about how often did you feel that everything was an effort?", "type": "likert" },
-    { "index": 8, "text": "In the past 4 weeks, about how often did you feel so sad that nothing could cheer you up?", "type": "likert" },
-    { "index": 9, "text": "In the past 4 weeks, about how often did you feel worthless?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "In the past 4 weeks, about how often did you feel tired out for no good reason?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "In the past 4 weeks, about how often did you feel nervous?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "In the past 4 weeks, about how often did you feel so nervous that nothing could calm you down?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "In the past 4 weeks, about how often did you feel hopeless?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "In the past 4 weeks, about how often did you feel restless or fidgety?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "In the past 4 weeks, about how often did you feel so restless you could not sit still?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "In the past 4 weeks, about how often did you feel depressed?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "In the past 4 weeks, about how often did you feel that everything was an effort?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "In the past 4 weeks, about how often did you feel so sad that nothing could cheer you up?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "In the past 4 weeks, about how often did you feel worthless?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -91,7 +147,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 10, "max": 50 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 50
+    }
   }
 }

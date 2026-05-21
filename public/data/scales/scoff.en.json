@@ -7,18 +7,45 @@
     "author": "Morgan JF, Reid F, Lacey JH (1999)",
     "license": "Free to use",
     "reference": "Morgan JF, Reid F, Lacey JH. The SCOFF questionnaire: assessment of a new screening tool for eating disorders. BMJ. 1999;319(7223):1467-1468.",
-    "instruction": "Please answer the following questions about your eating behaviors with Yes or No."
+    "instruction": "Please answer the following questions about your eating behaviors with Yes or No.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "No" },
-    { "value": 1, "label": "Yes" }
+    {
+      "value": 0,
+      "label": "No"
+    },
+    {
+      "value": 1,
+      "label": "Yes"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Do you make yourself Sick because you feel uncomfortably full?", "type": "likert" },
-    { "index": 1, "text": "Do you worry you have lost Control over how much you eat?", "type": "likert" },
-    { "index": 2, "text": "Have you recently lost more than One stone (14 lbs / 6 kg) in a 3-month period?", "type": "likert" },
-    { "index": 3, "text": "Do you believe yourself to be Fat when others say you are too thin?", "type": "likert" },
-    { "index": 4, "text": "Would you say that Food dominates your life?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Do you make yourself Sick because you feel uncomfortably full?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Do you worry you have lost Control over how much you eat?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Have you recently lost more than One stone (14 lbs / 6 kg) in a 3-month period?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Do you believe yourself to be Fat when others say you are too thin?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Would you say that Food dominates your life?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -56,7 +83,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 5 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 5
+    }
   }
 }

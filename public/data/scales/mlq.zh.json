@@ -7,37 +7,123 @@
     "author": "Steger et al. (2006)",
     "license": "Free to use",
     "reference": "Steger MF, et al. The Meaning in Life Questionnaire: Assessing the presence of and search for meaning in life. Journal of Counseling Psychology. 2006;53(1):80-93.",
-    "instruction": "请根据你的真实感受，选择最符合你情况的选项。"
+    "instruction": "请根据你的真实感受，选择最符合你情况的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "完全不同意" },
-    { "value": 2, "label": "大部分不同意" },
-    { "value": 3, "label": "有点不同意" },
-    { "value": 4, "label": "既不同意也不反对" },
-    { "value": 5, "label": "有点同意" },
-    { "value": 6, "label": "大部分同意" },
-    { "value": 7, "label": "完全同意" }
+    {
+      "value": 1,
+      "label": "完全不同意"
+    },
+    {
+      "value": 2,
+      "label": "大部分不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "既不同意也不反对"
+    },
+    {
+      "value": 5,
+      "label": "有点同意"
+    },
+    {
+      "value": 6,
+      "label": "大部分同意"
+    },
+    {
+      "value": 7,
+      "label": "完全同意"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我理解自己生命的意义", "type": "likert" },
-    { "index": 1, "text": "我正在寻找某种能让我的生命有意义的事物", "type": "likert" },
-    { "index": 2, "text": "我总是在探索自己的人生目标", "type": "likert" },
-    { "index": 3, "text": "我的人生有明确的使命感", "type": "likert" },
-    { "index": 4, "text": "我清楚是什么让我的生命有意义", "type": "likert" },
-    { "index": 5, "text": "我发现了令人满意的人生目标", "type": "likert" },
-    { "index": 6, "text": "我总是在寻找生命中值得我为之奋斗的东西", "type": "likert" },
-    { "index": 7, "text": "我正在寻找我的人生目标或使命", "type": "likert" },
-    { "index": 8, "text": "我的生活没有明确的目的", "type": "likert" },
-    { "index": 9, "text": "我正在寻找生命的意义", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我理解自己生命的意义",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我正在寻找某种能让我的生命有意义的事物",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我总是在探索自己的人生目标",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我的人生有明确的使命感",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我清楚是什么让我的生命有意义",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我发现了令人满意的人生目标",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我总是在寻找生命中值得我为之奋斗的东西",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我正在寻找我的人生目标或使命",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我的生活没有明确的目的",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我正在寻找生命的意义",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale_with_reverse",
     "maxTotal": 70,
     "maxItemScore": 7,
-    "reverseItems": [8],
+    "reverseItems": [
+      8
+    ],
     "subscales": [
-      { "id": "presence", "name": "意义存在", "items": [0, 3, 4, 5, 8], "maxScore": 35 },
-      { "id": "search", "name": "意义寻求", "items": [1, 2, 6, 7, 9], "maxScore": 35 }
+      {
+        "id": "presence",
+        "name": "意义存在",
+        "items": [
+          0,
+          3,
+          4,
+          5,
+          8
+        ],
+        "maxScore": 35
+      },
+      {
+        "id": "search",
+        "name": "意义寻求",
+        "items": [
+          1,
+          2,
+          6,
+          7,
+          9
+        ],
+        "maxScore": 35
+      }
     ]
   },
   "interpretation": {
@@ -129,15 +215,27 @@
     }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["presence", "search"],
+      "subscaleIds": [
+        "presence",
+        "search"
+      ],
       "maxDisplayScore": 35
     },
     "radarConfig": {
       "indicators": [
-        { "name": "意义存在", "max": 35 },
-        { "name": "意义寻求", "max": 35 }
+        {
+          "name": "意义存在",
+          "max": 35
+        },
+        {
+          "name": "意义寻求",
+          "max": 35
+        }
       ]
     }
   }

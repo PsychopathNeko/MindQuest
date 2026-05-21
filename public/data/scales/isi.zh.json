@@ -7,7 +7,8 @@
     "author": "Morin CM (1993)",
     "license": "Free for clinical use",
     "reference": "Bastien CH, Vallieres A, Morin CM. Validation of the Insomnia Severity Index as an outcome measure for insomnia research. Sleep Med. 2001;2(4):297-307.",
-    "instruction": "请评估您过去两周内失眠问题的严重程度。"
+    "instruction": "请评估您过去两周内失眠问题的严重程度。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

@@ -7,27 +7,68 @@
     "author": "Marteau & Bekker (1992)",
     "license": "Free to use",
     "reference": "Marteau TM, Bekker H. The development of a six-item short-form of the state scale of the Spielberger State-Trait Anxiety Inventory (STAI). Br J Clin Psychol. 1992;31(3):301-306.",
-    "instruction": "A number of statements which people have used to describe themselves are given below. Read each statement and then select the most appropriate response to indicate how you feel right now, at this moment."
+    "instruction": "A number of statements which people have used to describe themselves are given below. Read each statement and then select the most appropriate response to indicate how you feel right now, at this moment.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Not at all" },
-    { "value": 2, "label": "Somewhat" },
-    { "value": 3, "label": "Moderately so" },
-    { "value": 4, "label": "Very much so" }
+    {
+      "value": 1,
+      "label": "Not at all"
+    },
+    {
+      "value": 2,
+      "label": "Somewhat"
+    },
+    {
+      "value": 3,
+      "label": "Moderately so"
+    },
+    {
+      "value": 4,
+      "label": "Very much so"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I feel calm", "type": "likert" },
-    { "index": 1, "text": "I am tense", "type": "likert" },
-    { "index": 2, "text": "I feel upset", "type": "likert" },
-    { "index": 3, "text": "I am relaxed", "type": "likert" },
-    { "index": 4, "text": "I feel content", "type": "likert" },
-    { "index": 5, "text": "I am worried", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I feel calm",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I am tense",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I feel upset",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am relaxed",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I feel content",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I am worried",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 24,
     "maxItemScore": 4,
-    "reverseItems": [0, 3, 4],
+    "reverseItems": [
+      0,
+      3,
+      4
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -86,7 +127,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 6, "max": 24 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 24
+    }
   }
 }

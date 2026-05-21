@@ -7,31 +7,107 @@
     "author": "Simons & Gaher (2005)",
     "license": "Free to use",
     "reference": "Simons JS, Gaher RM. The Distress Tolerance Scale: Development and validation of a self-report measure. Motivation and Emotion. 2005;29(2):83-102.",
-    "instruction": "Please read each statement carefully and indicate how much you agree or disagree with each. Think about how you typically feel when you are distressed or upset."
+    "instruction": "Please read each statement carefully and indicate how much you agree or disagree with each. Think about how you typically feel when you are distressed or upset.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Strongly agree" },
-    { "value": 2, "label": "Mildly agree" },
-    { "value": 3, "label": "Agree and disagree equally" },
-    { "value": 4, "label": "Mildly disagree" },
-    { "value": 5, "label": "Strongly disagree" }
+    {
+      "value": 1,
+      "label": "Strongly agree"
+    },
+    {
+      "value": 2,
+      "label": "Mildly agree"
+    },
+    {
+      "value": 3,
+      "label": "Agree and disagree equally"
+    },
+    {
+      "value": 4,
+      "label": "Mildly disagree"
+    },
+    {
+      "value": 5,
+      "label": "Strongly disagree"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Feeling distressed or upset is unbearable to me", "type": "likert" },
-    { "index": 1, "text": "When I feel distressed or upset, all I can think about is how bad I feel", "type": "likert" },
-    { "index": 2, "text": "My feelings of distress are so intense that they completely take over", "type": "likert" },
-    { "index": 3, "text": "There is nothing worse than feeling distressed or upset", "type": "likert" },
-    { "index": 4, "text": "I can tolerate being distressed or upset as well as most people", "type": "likert" },
-    { "index": 5, "text": "My feelings of distress or being upset are not acceptable", "type": "likert" },
-    { "index": 6, "text": "I'll do anything to avoid feeling distressed or upset", "type": "likert" },
-    { "index": 7, "text": "Other people seem to be able to tolerate feeling distressed or upset better than I can", "type": "likert" },
-    { "index": 8, "text": "Being distressed or upset is always a major ordeal for me", "type": "likert" },
-    { "index": 9, "text": "I am ashamed of myself when I feel distressed or upset", "type": "likert" },
-    { "index": 10, "text": "My feelings of distress or being upset scare me", "type": "likert" },
-    { "index": 11, "text": "I'll do anything to stop feeling distressed or upset", "type": "likert" },
-    { "index": 12, "text": "When I feel distressed or upset, I must do something about it immediately", "type": "likert" },
-    { "index": 13, "text": "When I feel distressed or upset, I cannot help but concentrate on how bad the distress actually feels", "type": "likert" },
-    { "index": 14, "text": "There is nothing I can do to make being distressed or upset feel bearable", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Feeling distressed or upset is unbearable to me",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "When I feel distressed or upset, all I can think about is how bad I feel",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "My feelings of distress are so intense that they completely take over",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "There is nothing worse than feeling distressed or upset",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I can tolerate being distressed or upset as well as most people",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "My feelings of distress or being upset are not acceptable",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I'll do anything to avoid feeling distressed or upset",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Other people seem to be able to tolerate feeling distressed or upset better than I can",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Being distressed or upset is always a major ordeal for me",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I am ashamed of myself when I feel distressed or upset",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "My feelings of distress or being upset scare me",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I'll do anything to stop feeling distressed or upset",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "When I feel distressed or upset, I must do something about it immediately",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "When I feel distressed or upset, I cannot help but concentrate on how bad the distress actually feels",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "There is nothing I can do to make being distressed or upset feel bearable",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -95,7 +171,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 15, "max": 75 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 15,
+      "max": 75
+    }
   }
 }

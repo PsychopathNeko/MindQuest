@@ -7,7 +7,8 @@
     "author": "Gross & John (2003)",
     "license": "Free to use",
     "reference": "Gross JJ, John OP. Individual differences in two emotion regulation processes: implications for affect, relationships, and well-being. J Pers Soc Psychol. 2003;85(2):348-362.",
-    "instruction": "我们想问您关于情绪生活的一些问题，特别是您如何控制和管理情绪。请根据以下陈述与您的实际情况的符合程度进行评分。"
+    "instruction": "我们想问您关于情绪生活的一些问题，特别是您如何控制和管理情绪。请根据以下陈述与您的实际情况的符合程度进行评分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

@@ -7,7 +7,8 @@
     "author": "Baer et al. (2006); 15-item: Gu et al. (2016)",
     "license": "Free for research use",
     "reference": "Gu J, Strauss C, Crane C, et al. Examining the factor structure of the 39-item and 15-item versions of the Five Facet Mindfulness Questionnaire. Mindfulness. 2016;7(6):1441-1451.",
-    "instruction": "Please rate each of the following statements. Answer according to what really reflects your experience rather than what you think your experience should be."
+    "instruction": "Please rate each of the following statements. Answer according to what really reflects your experience rather than what you think your experience should be.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

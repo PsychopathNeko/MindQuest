@@ -7,7 +7,8 @@
     "author": "Foa, Huppert, Leiberg, et al. (2002)",
     "license": "Free to use",
     "reference": "Foa EB, et al. Psychol Assess. 2002;14(4):485-496.",
-    "instruction": "For each statement, indicate how much it has distressed or bothered you during the past month."
+    "instruction": "For each statement, indicate how much it has distressed or bothered you during the past month.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

@@ -7,7 +7,8 @@
     "author": "Lovibond & Lovibond (1995)",
     "license": "Public Domain",
     "reference": "Lovibond SH, Lovibond PF. Manual for the Depression Anxiety Stress Scales. 2nd ed. Sydney: Psychology Foundation; 1995.",
-    "instruction": "Please read each statement and select the option that best describes how much the statement applied to you over the past week."
+    "instruction": "Please read each statement and select the option that best describes how much the statement applied to you over the past week.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

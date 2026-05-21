@@ -7,7 +7,8 @@
     "author": "McCullough, Emmons & Tsang (2002)",
     "license": "Free for research use",
     "reference": "McCullough ME, Emmons RA, Tsang JA. The grateful disposition: a conceptual and empirical topography. J Pers Soc Psychol. 2002;82(1):112-127.",
-    "instruction": "Using the scale below, indicate how much you agree with each statement."
+    "instruction": "Using the scale below, indicate how much you agree with each statement.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

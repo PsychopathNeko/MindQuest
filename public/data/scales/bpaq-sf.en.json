@@ -7,7 +7,8 @@
     "author": "Bryant & Smith (2001)",
     "license": "Free for research use",
     "reference": "Bryant FB, Smith BD. Refining the architecture of aggression: a measurement model for the Buss-Perry Aggression Questionnaire. J Res Pers. 2001;35(2):138-167.",
-    "instruction": "Please rate each statement based on your typical behavior and feelings."
+    "instruction": "Please rate each statement based on your typical behavior and feelings.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

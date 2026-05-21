@@ -7,42 +7,149 @@
     "author": "Lay (1986)",
     "license": "Free to use",
     "reference": "Lay CH. At last, my research article on procrastination. Journal of Research in Personality. 1986;20(4):474-495.",
-    "instruction": "Please rate how characteristic each statement is of your typical behavior."
+    "instruction": "Please rate how characteristic each statement is of your typical behavior.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Extremely Uncharacteristic" },
-    { "value": 2, "label": "Somewhat Uncharacteristic" },
-    { "value": 3, "label": "Neutral" },
-    { "value": 4, "label": "Somewhat Characteristic" },
-    { "value": 5, "label": "Extremely Characteristic" }
+    {
+      "value": 1,
+      "label": "Extremely Uncharacteristic"
+    },
+    {
+      "value": 2,
+      "label": "Somewhat Uncharacteristic"
+    },
+    {
+      "value": 3,
+      "label": "Neutral"
+    },
+    {
+      "value": 4,
+      "label": "Somewhat Characteristic"
+    },
+    {
+      "value": 5,
+      "label": "Extremely Characteristic"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I often find myself performing tasks that I had intended to do days before", "type": "likert" },
-    { "index": 1, "text": "I often miss concerts, sporting events, or the like because I don't get around to buying tickets on time", "type": "likert" },
-    { "index": 2, "text": "When planning a party, I make the necessary arrangements well in advance", "type": "likert" },
-    { "index": 3, "text": "When it is time to get up in the morning, I most often get right out of bed", "type": "likert" },
-    { "index": 4, "text": "A letter may sit for days after I write it before mailing it", "type": "likert" },
-    { "index": 5, "text": "I generally return phone calls promptly", "type": "likert" },
-    { "index": 6, "text": "Even with jobs that require little else except sitting down and doing them, I find they seldom get done for days", "type": "likert" },
-    { "index": 7, "text": "I usually make decisions as soon as possible", "type": "likert" },
-    { "index": 8, "text": "I generally delay before starting on work I have to do", "type": "likert" },
-    { "index": 9, "text": "When traveling, I usually have to rush in preparing to arrive at the airport or station at the appropriate time", "type": "likert" },
-    { "index": 10, "text": "When preparing to go out, I am seldom caught having to do something at the last minute", "type": "likert" },
-    { "index": 11, "text": "In preparing for some deadline, I often waste time by doing other things", "type": "likert" },
-    { "index": 12, "text": "If a bill for a small amount came, I would pay it right away", "type": "likert" },
-    { "index": 13, "text": "I usually return an RSVP request shortly after receiving the invitation", "type": "likert" },
-    { "index": 14, "text": "I often have a task finished sooner than necessary", "type": "likert" },
-    { "index": 15, "text": "I always seem to end up shopping for birthday or holiday gifts at the last minute", "type": "likert" },
-    { "index": 16, "text": "I usually buy even an essential item at the last minute", "type": "likert" },
-    { "index": 17, "text": "I usually accomplish all the things I plan to do in a day", "type": "likert" },
-    { "index": 18, "text": "I am continually saying 'I'll do it tomorrow'", "type": "likert" },
-    { "index": 19, "text": "I usually take care of all the tasks I need to do before I settle down and relax for the evening", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I often find myself performing tasks that I had intended to do days before",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I often miss concerts, sporting events, or the like because I don't get around to buying tickets on time",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "When planning a party, I make the necessary arrangements well in advance",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "When it is time to get up in the morning, I most often get right out of bed",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "A letter may sit for days after I write it before mailing it",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I generally return phone calls promptly",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Even with jobs that require little else except sitting down and doing them, I find they seldom get done for days",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I usually make decisions as soon as possible",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I generally delay before starting on work I have to do",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "When traveling, I usually have to rush in preparing to arrive at the airport or station at the appropriate time",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "When preparing to go out, I am seldom caught having to do something at the last minute",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "In preparing for some deadline, I often waste time by doing other things",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "If a bill for a small amount came, I would pay it right away",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I usually return an RSVP request shortly after receiving the invitation",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I often have a task finished sooner than necessary",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I always seem to end up shopping for birthday or holiday gifts at the last minute",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "I usually buy even an essential item at the last minute",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "I usually accomplish all the things I plan to do in a day",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "I am continually saying 'I'll do it tomorrow'",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "I usually take care of all the tasks I need to do before I settle down and relax for the evening",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 100,
     "maxItemScore": 5,
-    "reverseItems": [2, 3, 5, 7, 10, 12, 13, 14, 17, 19],
+    "reverseItems": [
+      2,
+      3,
+      5,
+      7,
+      10,
+      12,
+      13,
+      14,
+      17,
+      19
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -101,7 +208,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 20, "max": 100 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 20,
+      "max": 100
+    }
   }
 }

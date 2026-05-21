@@ -7,25 +7,76 @@
     "author": "Evans & Dolan (1993)",
     "license": "Free to use",
     "reference": "Evans C, Dolan B. Body Shape Questionnaire: derivation of shortened \"alternate forms\". Int J Eat Disord. 1993;13(3):315-321.",
-    "instruction": "The following questions ask about how you have been feeling about your appearance over the past four weeks. Please select the answer that best applies to you."
+    "instruction": "The following questions ask about how you have been feeling about your appearance over the past four weeks. Please select the answer that best applies to you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Never" },
-    { "value": 2, "label": "Rarely" },
-    { "value": 3, "label": "Sometimes" },
-    { "value": 4, "label": "Often" },
-    { "value": 5, "label": "Very Often" },
-    { "value": 6, "label": "Always" }
+    {
+      "value": 1,
+      "label": "Never"
+    },
+    {
+      "value": 2,
+      "label": "Rarely"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes"
+    },
+    {
+      "value": 4,
+      "label": "Often"
+    },
+    {
+      "value": 5,
+      "label": "Very Often"
+    },
+    {
+      "value": 6,
+      "label": "Always"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Have you worried about your shape when bored?", "type": "likert" },
-    { "index": 1, "text": "Have you worried about your flesh not being firm enough?", "type": "likert" },
-    { "index": 2, "text": "Has seeing your reflection (e.g., in a mirror or shop window) made you feel bad about your shape?", "type": "likert" },
-    { "index": 3, "text": "Have you worried about parts of your body having too much fat?", "type": "likert" },
-    { "index": 4, "text": "Has being with other people made you notice your shape more?", "type": "likert" },
-    { "index": 5, "text": "Has looking at your shape in a mirror made you feel bad?", "type": "likert" },
-    { "index": 6, "text": "Have you felt dissatisfied with your figure?", "type": "likert" },
-    { "index": 7, "text": "Has thinking about your shape interfered with your ability to concentrate?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Have you worried about your shape when bored?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Have you worried about your flesh not being firm enough?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Has seeing your reflection (e.g., in a mirror or shop window) made you feel bad about your shape?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Have you worried about parts of your body having too much fat?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Has being with other people made you notice your shape more?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Has looking at your shape in a mirror made you feel bad?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Have you felt dissatisfied with your figure?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Has thinking about your shape interfered with your ability to concentrate?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -88,7 +139,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 8, "max": 48 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 8,
+      "max": 48
+    }
   }
 }

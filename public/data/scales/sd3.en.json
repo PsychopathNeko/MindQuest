@@ -7,7 +7,8 @@
     "author": "Jones & Paulhus (2014)",
     "license": "Free for research use",
     "reference": "Jones DN, Paulhus DL. Introducing the Short Dark Triad (SD3): a brief measure of dark personality traits. Assessment. 2014;21(1):28-41.",
-    "instruction": "Please rate how much you agree with each statement."
+    "instruction": "Please rate how much you agree with each statement.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

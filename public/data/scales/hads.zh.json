@@ -7,7 +7,8 @@
     "author": "Zigmond & Snaith (1983)",
     "license": "Free to use",
     "reference": "Zigmond AS, Snaith RP. The Hospital Anxiety and Depression Scale. Acta Psychiatr Scand. 1983;67(6):361-370.",
-    "instruction": "请阅读以下每个条目，选择最接近您过去一周感受的选项。不要在每个条目上花费太长时间，您的第一反应可能比深思熟虑的回答更准确。"
+    "instruction": "请阅读以下每个条目，选择最接近您过去一周感受的选项。不要在每个条目上花费太长时间，您的第一反应可能比深思熟虑的回答更准确。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": null,
   "questions": [

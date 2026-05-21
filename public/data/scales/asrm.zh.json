@@ -7,21 +7,57 @@
     "author": "Altman et al. (1997)",
     "license": "Free to use",
     "reference": "Altman EG, et al. The Altman Self-Rating Mania Scale. Biological Psychiatry. 1997;42(10):948-955.",
-    "instruction": "请选择最符合你过去一周状态的选项。"
+    "instruction": "请选择最符合你过去一周状态的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "完全没有" },
-    { "value": 1, "label": "偶尔/轻微" },
-    { "value": 2, "label": "有时/中等" },
-    { "value": 3, "label": "经常/较多" },
-    { "value": 4, "label": "几乎总是/严重" }
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "偶尔/轻微"
+    },
+    {
+      "value": 2,
+      "label": "有时/中等"
+    },
+    {
+      "value": 3,
+      "label": "经常/较多"
+    },
+    {
+      "value": 4,
+      "label": "几乎总是/严重"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我感到比平时更加快乐或开心（不仅仅是感觉良好）", "type": "likert" },
-    { "index": 1, "text": "我感到比平时更加自信", "type": "likert" },
-    { "index": 2, "text": "我的睡眠需求比平时减少了", "type": "likert" },
-    { "index": 3, "text": "我说话比平时更多，或者说话速度更快", "type": "likert" },
-    { "index": 4, "text": "我比平时更加活跃，做了更多的事情", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我感到比平时更加快乐或开心（不仅仅是感觉良好）",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我感到比平时更加自信",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我的睡眠需求比平时减少了",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我说话比平时更多，或者说话速度更快",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我比平时更加活跃，做了更多的事情",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -86,7 +122,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 20 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 20
+    }
   }
 }

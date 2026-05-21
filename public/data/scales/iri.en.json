@@ -7,7 +7,8 @@
     "author": "Davis MH (1983)",
     "license": "Free for research use",
     "reference": "Davis MH. Measuring individual differences in empathy. J Pers Soc Psychol. 1983;44(1):113-126.",
-    "instruction": "Indicate how well each statement describes you."
+    "instruction": "Indicate how well each statement describes you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

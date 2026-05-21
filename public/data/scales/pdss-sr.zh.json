@@ -7,23 +7,67 @@
     "author": "Houck, Spiegel, Shear & Rucci (2002)",
     "license": "Public Domain",
     "reference": "Houck PR, Spiegel DA, Shear MK, Rucci P. Reliability of the self-report version of the Panic Disorder Severity Scale. Depress Anxiety. 2002;15(4):183-185.",
-    "instruction": "请根据您过去一周的体验，对以下每个条目进行评分，选择最符合您情况的选项。"
+    "instruction": "请根据您过去一周的体验，对以下每个条目进行评分，选择最符合您情况的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "没有" },
-    { "value": 1, "label": "轻度" },
-    { "value": 2, "label": "中度" },
-    { "value": 3, "label": "重度" },
-    { "value": 4, "label": "极重度" }
+    {
+      "value": 0,
+      "label": "没有"
+    },
+    {
+      "value": 1,
+      "label": "轻度"
+    },
+    {
+      "value": 2,
+      "label": "中度"
+    },
+    {
+      "value": 3,
+      "label": "重度"
+    },
+    {
+      "value": 4,
+      "label": "极重度"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "过去一周，您发生了多少次惊恐发作？", "type": "likert" },
-    { "index": 1, "text": "如果过去一周有惊恐发作，发作时您感到多痛苦？", "type": "likert" },
-    { "index": 2, "text": "过去一周，您对下一次惊恐发作的担忧或焦虑程度有多大？", "type": "likert" },
-    { "index": 3, "text": "过去一周，是否有因为害怕惊恐发作而回避或害怕的场所或情境？", "type": "likert" },
-    { "index": 4, "text": "过去一周，是否有因为让您联想到惊恐发作而回避的活动、感觉或体验？", "type": "likert" },
-    { "index": 5, "text": "过去一周，惊恐及相关症状在多大程度上干扰了您的工作或履行职责的能力？", "type": "likert" },
-    { "index": 6, "text": "过去一周，惊恐及相关症状在多大程度上干扰了您的社交生活？", "type": "likert" }
+    {
+      "index": 0,
+      "text": "过去一周，您发生了多少次惊恐发作？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "如果过去一周有惊恐发作，发作时您感到多痛苦？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "过去一周，您对下一次惊恐发作的担忧或焦虑程度有多大？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "过去一周，是否有因为害怕惊恐发作而回避或害怕的场所或情境？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "过去一周，是否有因为让您联想到惊恐发作而回避的活动、感觉或体验？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "过去一周，惊恐及相关症状在多大程度上干扰了您的工作或履行职责的能力？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "过去一周，惊恐及相关症状在多大程度上干扰了您的社交生活？",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -88,7 +132,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 28 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 28
+    }
   }
 }

@@ -7,7 +7,8 @@
     "author": "Davis MH (1983)",
     "license": "Free for research use",
     "reference": "Davis MH. Measuring individual differences in empathy. J Pers Soc Psychol. 1983;44(1):113-126.",
-    "instruction": "请评估以下陈述在多大程度上描述了您的特点。"
+    "instruction": "请评估以下陈述在多大程度上描述了您的特点。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

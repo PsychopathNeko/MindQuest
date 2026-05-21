@@ -7,41 +7,157 @@
     "author": "Broadbent, Cooper, FitzGerald & Parkes (1982)",
     "license": "Free to use",
     "reference": "Broadbent DE, Cooper PF, FitzGerald P, Parkes KR. The Cognitive Failures Questionnaire (CFQ) and its correlates. Br J Clin Psychol. 1982;21(1):1-16.",
-    "instruction": "以下问题涉及每个人都会偶尔犯的小错误，但有些错误比其他错误发生得更频繁。请根据过去六个月内这些情况发生的频率作答。"
+    "instruction": "以下问题涉及每个人都会偶尔犯的小错误，但有些错误比其他错误发生得更频繁。请根据过去六个月内这些情况发生的频率作答。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "从不" },
-    { "value": 1, "label": "很少" },
-    { "value": 2, "label": "偶尔" },
-    { "value": 3, "label": "经常" },
-    { "value": 4, "label": "非常频繁" }
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 1,
+      "label": "很少"
+    },
+    {
+      "value": 2,
+      "label": "偶尔"
+    },
+    {
+      "value": 3,
+      "label": "经常"
+    },
+    {
+      "value": 4,
+      "label": "非常频繁"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "您是否会读了一段内容后发现自己根本没在想这件事，必须重新再读一遍？", "type": "likert" },
-    { "index": 1, "text": "您是否会忘记自己为什么从房间的一个地方走到另一个地方？", "type": "likert" },
-    { "index": 2, "text": "您是否会没注意到路上的路标？", "type": "likert" },
-    { "index": 3, "text": "您在给别人指路时是否会混淆左右方向？", "type": "likert" },
-    { "index": 4, "text": "您是否会撞到别人？", "type": "likert" },
-    { "index": 5, "text": "您是否会忘记自己有没有关灯、关火或锁门？", "type": "likert" },
-    { "index": 6, "text": "您在与人初次见面时是否会没听清对方的名字？", "type": "likert" },
-    { "index": 7, "text": "您是否会说了某句话后才意识到可能会冒犯到别人？", "type": "likert" },
-    { "index": 8, "text": "您在做其他事情时是否会没听到别人在跟您说话？", "type": "likert" },
-    { "index": 9, "text": "您是否会发脾气后又后悔？", "type": "likert" },
-    { "index": 10, "text": "您是否会把重要的信件搁置好几天没有回复？", "type": "likert" },
-    { "index": 11, "text": "您是否会忘记一条熟悉但不常走的路该往哪个方向拐？", "type": "likert" },
-    { "index": 12, "text": "您在超市里是否会找不到想要的东西（尽管它就在那里）？", "type": "likert" },
-    { "index": 13, "text": "您是否会突然怀疑自己刚才用的某个词是否正确？", "type": "likert" },
-    { "index": 14, "text": "您是否难以做出决定？", "type": "likert" },
-    { "index": 15, "text": "您是否会忘记约会？", "type": "likert" },
-    { "index": 16, "text": "您是否会忘记把报纸或书之类的东西放在了哪里？", "type": "likert" },
-    { "index": 17, "text": "您是否会不小心把想留下的东西扔掉，反而留下了本该扔掉的东西？", "type": "likert" },
-    { "index": 18, "text": "您是否会在应该认真听的时候走神发呆？", "type": "likert" },
-    { "index": 19, "text": "您是否会忘记别人的名字？", "type": "likert" },
-    { "index": 20, "text": "您是否会在家里开始做一件事，然后被分散注意力去做了另一件事？", "type": "likert" },
-    { "index": 21, "text": "您是否会有某件事明明就在嘴边却怎么也想不起来的情况？", "type": "likert" },
-    { "index": 22, "text": "您是否会忘记自己去商店要买什么？", "type": "likert" },
-    { "index": 23, "text": "您是否会掉落东西？", "type": "likert" },
-    { "index": 24, "text": "您是否会发现自己不知道该说什么好？", "type": "likert" }
+    {
+      "index": 0,
+      "text": "您是否会读了一段内容后发现自己根本没在想这件事，必须重新再读一遍？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "您是否会忘记自己为什么从房间的一个地方走到另一个地方？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "您是否会没注意到路上的路标？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "您在给别人指路时是否会混淆左右方向？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您是否会撞到别人？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "您是否会忘记自己有没有关灯、关火或锁门？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "您在与人初次见面时是否会没听清对方的名字？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "您是否会说了某句话后才意识到可能会冒犯到别人？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "您在做其他事情时是否会没听到别人在跟您说话？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "您是否会发脾气后又后悔？",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "您是否会把重要的信件搁置好几天没有回复？",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "您是否会忘记一条熟悉但不常走的路该往哪个方向拐？",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "您在超市里是否会找不到想要的东西（尽管它就在那里）？",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "您是否会突然怀疑自己刚才用的某个词是否正确？",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "您是否难以做出决定？",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "您是否会忘记约会？",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "您是否会忘记把报纸或书之类的东西放在了哪里？",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "您是否会不小心把想留下的东西扔掉，反而留下了本该扔掉的东西？",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "您是否会在应该认真听的时候走神发呆？",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "您是否会忘记别人的名字？",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "您是否会在家里开始做一件事，然后被分散注意力去做了另一件事？",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "您是否会有某件事明明就在嘴边却怎么也想不起来的情况？",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "您是否会忘记自己去商店要买什么？",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "您是否会掉落东西？",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "您是否会发现自己不知道该说什么好？",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -108,7 +224,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 100 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 100
+    }
   }
 }

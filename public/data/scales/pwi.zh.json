@@ -7,7 +7,8 @@
     "author": "International Wellbeing Group (2013)",
     "license": "Free to use",
     "reference": "International Wellbeing Group. Personal Wellbeing Index. 5th Edition. Melbourne: Australian Centre on Quality of Life, Deakin University; 2013.",
-    "instruction": "以下问题询问您对生活各方面的满意程度，请在0到10的范围内选择。"
+    "instruction": "以下问题询问您对生活各方面的满意程度，请在0到10的范围内选择。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

@@ -7,7 +7,8 @@
     "author": "Prins, Bovin, Smolenski et al. (2016)",
     "license": "Public Domain",
     "reference": "Prins A, Bovin MJ, Smolenski DJ, et al. The Primary Care PTSD Screen for DSM-5 (PC-PTSD-5): development and evaluation within a veteran primary care sample. J Gen Intern Med. 2016;31(10):1206-1211.",
-    "instruction": "Sometimes things happen to people that are unusually or especially frightening, horrible, or traumatic. For example, a serious accident or fire, a physical or sexual assault or abuse, an earthquake or flood, a war, seeing someone be killed or seriously injured, or having a loved one die through homicide or suicide. Have you ever experienced this kind of event? If yes, please answer the following questions about your experiences in the past month."
+    "instruction": "Sometimes things happen to people that are unusually or especially frightening, horrible, or traumatic. For example, a serious accident or fire, a physical or sexual assault or abuse, an earthquake or flood, a war, seeing someone be killed or seriously injured, or having a loved one die through homicide or suicide. Have you ever experienced this kind of event? If yes, please answer the following questions about your experiences in the past month.",
+    "population": "Adults (18+)"
   },
   "commonChoices": null,
   "questions": [
@@ -77,7 +78,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 5 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 5
+    }
   }
 }

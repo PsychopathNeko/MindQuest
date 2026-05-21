@@ -7,7 +7,8 @@
     "author": "Sullivan, Bishop & Pivik (1995)",
     "license": "Free for research use",
     "reference": "Sullivan MJL, Bishop SR, Pivik J. The Pain Catastrophizing Scale: development and validation. Psychol Assess. 1995;7(4):524-532.",
-    "instruction": "When you are in pain, you may have various thoughts and feelings. Please rate how often you experience each of these when in pain."
+    "instruction": "When you are in pain, you may have various thoughts and feelings. Please rate how often you experience each of these when in pain.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

@@ -7,7 +7,8 @@
     "author": "Connor KM, et al. (2000)",
     "license": "Free to use",
     "reference": "Connor KM, et al. Psychometric properties of the Social Phobia Inventory (SPIN). Br J Psychiatry. 2000;176:379-386.",
-    "instruction": "Please indicate how much the following problems have bothered you during the past week."
+    "instruction": "Please indicate how much the following problems have bothered you during the past week.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

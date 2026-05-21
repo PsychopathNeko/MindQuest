@@ -7,25 +7,75 @@
     "author": "Bond et al. (2011)",
     "license": "Free to use",
     "reference": "Bond FW, Hayes SC, Baer RA, et al. Preliminary psychometric properties of the Acceptance and Action Questionnaire-II: a revised measure of psychological inflexibility and experiential avoidance. Behav Ther. 2011;42(4):676-688.",
-    "instruction": "Below you will find a list of statements. Please rate how true each statement is for you."
+    "instruction": "Below you will find a list of statements. Please rate how true each statement is for you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Never true" },
-    { "value": 2, "label": "Very seldom true" },
-    { "value": 3, "label": "Seldom true" },
-    { "value": 4, "label": "Sometimes true" },
-    { "value": 5, "label": "Frequently true" },
-    { "value": 6, "label": "Almost always true" },
-    { "value": 7, "label": "Always true" }
+    {
+      "value": 1,
+      "label": "Never true"
+    },
+    {
+      "value": 2,
+      "label": "Very seldom true"
+    },
+    {
+      "value": 3,
+      "label": "Seldom true"
+    },
+    {
+      "value": 4,
+      "label": "Sometimes true"
+    },
+    {
+      "value": 5,
+      "label": "Frequently true"
+    },
+    {
+      "value": 6,
+      "label": "Almost always true"
+    },
+    {
+      "value": 7,
+      "label": "Always true"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "My painful experiences and memories make it difficult for me to live a life that I would value", "type": "likert" },
-    { "index": 1, "text": "I'm afraid of my feelings", "type": "likert" },
-    { "index": 2, "text": "I worry about not being able to control my worries and feelings", "type": "likert" },
-    { "index": 3, "text": "My painful memories prevent me from having a fulfilling life", "type": "likert" },
-    { "index": 4, "text": "Emotions cause problems in my life", "type": "likert" },
-    { "index": 5, "text": "It seems like most people are handling their lives better than I am", "type": "likert" },
-    { "index": 6, "text": "Worries get in the way of my success", "type": "likert" }
+    {
+      "index": 0,
+      "text": "My painful experiences and memories make it difficult for me to live a life that I would value",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I'm afraid of my feelings",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I worry about not being able to control my worries and feelings",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "My painful memories prevent me from having a fulfilling life",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Emotions cause problems in my life",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "It seems like most people are handling their lives better than I am",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Worries get in the way of my success",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -89,7 +139,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 7, "max": 49 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 7,
+      "max": 49
+    }
   }
 }

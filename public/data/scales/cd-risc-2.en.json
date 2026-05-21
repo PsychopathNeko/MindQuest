@@ -7,18 +7,42 @@
     "author": "Vaishnavi, Connor & Davidson (2007)",
     "license": "Free to use",
     "reference": "Vaishnavi S, Connor K, Davidson JRT. An abbreviated version of the Connor-Davidson Resilience Scale (CD-RISC), the CD-RISC2: psychometric properties and applications in psychopharmacological trials. Psychiatry Res. 2007;152(2-3):293-297.",
-    "instruction": "Please indicate how much the following statements have applied to you over the past month."
+    "instruction": "Please indicate how much the following statements have applied to you over the past month.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Not true at all" },
-    { "value": 1, "label": "Rarely true" },
-    { "value": 2, "label": "Sometimes true" },
-    { "value": 3, "label": "Often true" },
-    { "value": 4, "label": "True nearly all the time" }
+    {
+      "value": 0,
+      "label": "Not true at all"
+    },
+    {
+      "value": 1,
+      "label": "Rarely true"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes true"
+    },
+    {
+      "value": 3,
+      "label": "Often true"
+    },
+    {
+      "value": 4,
+      "label": "True nearly all the time"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Able to adapt to change", "type": "likert" },
-    { "index": 1, "text": "Tend to bounce back after illness or hardship", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Able to adapt to change",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Tend to bounce back after illness or hardship",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -70,7 +94,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 8 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 8
+    }
   }
 }

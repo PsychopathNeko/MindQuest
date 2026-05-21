@@ -7,7 +7,8 @@
     "author": "Tennant et al. (2007)",
     "license": "Free to use",
     "reference": "Tennant R, et al. Health Qual Life Outcomes. 2007;5:63.",
-    "instruction": "以下是一些关于感受和想法的描述，请选择最符合您过去两周体验的选项。"
+    "instruction": "以下是一些关于感受和想法的描述，请选择最符合您过去两周体验的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

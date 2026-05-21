@@ -7,7 +7,8 @@
     "author": "Scheier, Carver & Bridges (1994)",
     "license": "Free for research use",
     "reference": "Scheier MF, Carver CS, Bridges MW. Distinguishing optimism from neuroticism (and trait anxiety, self-mastery, and self-esteem): a reevaluation of the Life Orientation Test. J Pers Soc Psychol. 1994;67(6):1063-1078.",
-    "instruction": "Please indicate how much you agree with each statement."
+    "instruction": "Please indicate how much you agree with each statement.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

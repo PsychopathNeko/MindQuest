@@ -7,7 +7,8 @@
     "author": "Spreng, McKinnon, Mar & Levine (2009)",
     "license": "Free for research use",
     "reference": "Spreng RN, McKinnon MC, Mar RA, Levine B. The Toronto Empathy Questionnaire: scale development and initial validation of a factor-analytic solution to multiple empathy measures. J Pers Assess. 2009;91(1):62-71.",
-    "instruction": "Please rate each statement based on your true feelings."
+    "instruction": "Please rate each statement based on your true feelings.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

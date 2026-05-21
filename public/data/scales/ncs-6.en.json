@@ -7,28 +7,71 @@
     "author": "Cacioppo JT, Petty RE (1984)",
     "license": "Free to use",
     "reference": "Cacioppo JT, Petty RE, Kao CF. The efficient assessment of need for cognition. J Pers Assess. 1984;48(3):306-307.",
-    "instruction": "For each of the statements below, please indicate how much you agree that the statement is characteristic of you."
+    "instruction": "For each of the statements below, please indicate how much you agree that the statement is characteristic of you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Extremely uncharacteristic of me" },
-    { "value": 2, "label": "Somewhat uncharacteristic of me" },
-    { "value": 3, "label": "Uncertain" },
-    { "value": 4, "label": "Somewhat characteristic of me" },
-    { "value": 5, "label": "Extremely characteristic of me" }
+    {
+      "value": 1,
+      "label": "Extremely uncharacteristic of me"
+    },
+    {
+      "value": 2,
+      "label": "Somewhat uncharacteristic of me"
+    },
+    {
+      "value": 3,
+      "label": "Uncertain"
+    },
+    {
+      "value": 4,
+      "label": "Somewhat characteristic of me"
+    },
+    {
+      "value": 5,
+      "label": "Extremely characteristic of me"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I would prefer complex to simple problems", "type": "likert" },
-    { "index": 1, "text": "I like to have the responsibility of handling a situation that requires a lot of thinking", "type": "likert" },
-    { "index": 2, "text": "Thinking is not my idea of fun", "type": "likert" },
-    { "index": 3, "text": "I would rather do something that requires little thought than something that is sure to challenge my thinking abilities", "type": "likert" },
-    { "index": 4, "text": "I really enjoy a task that involves coming up with new solutions to problems", "type": "likert" },
-    { "index": 5, "text": "I prefer my life to be filled with puzzles that I must solve", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I would prefer complex to simple problems",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I like to have the responsibility of handling a situation that requires a lot of thinking",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Thinking is not my idea of fun",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I would rather do something that requires little thought than something that is sure to challenge my thinking abilities",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I really enjoy a task that involves coming up with new solutions to problems",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I prefer my life to be filled with puzzles that I must solve",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 30,
     "maxItemScore": 5,
-    "reverseItems": [2, 3],
+    "reverseItems": [
+      2,
+      3
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -86,7 +129,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 6, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
   }
 }

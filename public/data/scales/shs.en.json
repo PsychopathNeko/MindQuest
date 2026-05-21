@@ -7,7 +7,8 @@
     "author": "Lyubomirsky & Lepper (1999)",
     "license": "Free to use",
     "reference": "Lyubomirsky S, Lepper HS. A measure of subjective happiness: preliminary reliability and construct validation. Social Indicators Research. 1999;46(2):137-155.",
-    "instruction": "For each of the following statements, please select the point on the scale that you feel is most appropriate in describing you."
+    "instruction": "For each of the following statements, please select the point on the scale that you feel is most appropriate in describing you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": null,
   "questions": [
@@ -16,13 +17,34 @@
       "text": "In general, I consider myself:",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "Not a very happy person" },
-        { "value": 2, "label": "2" },
-        { "value": 3, "label": "3" },
-        { "value": 4, "label": "4" },
-        { "value": 5, "label": "5" },
-        { "value": 6, "label": "6" },
-        { "value": 7, "label": "A very happy person" }
+        {
+          "value": 1,
+          "label": "Not a very happy person"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "A very happy person"
+        }
       ]
     },
     {
@@ -30,13 +52,34 @@
       "text": "Compared to most of my peers, I consider myself:",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "Less happy" },
-        { "value": 2, "label": "2" },
-        { "value": 3, "label": "3" },
-        { "value": 4, "label": "4" },
-        { "value": 5, "label": "5" },
-        { "value": 6, "label": "6" },
-        { "value": 7, "label": "More happy" }
+        {
+          "value": 1,
+          "label": "Less happy"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "More happy"
+        }
       ]
     },
     {
@@ -44,13 +87,34 @@
       "text": "Some people are generally very happy. They enjoy life regardless of what is going on, getting the most out of everything. To what extent does this characterization describe you?",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "Not at all" },
-        { "value": 2, "label": "2" },
-        { "value": 3, "label": "3" },
-        { "value": 4, "label": "4" },
-        { "value": 5, "label": "5" },
-        { "value": 6, "label": "6" },
-        { "value": 7, "label": "A great deal" }
+        {
+          "value": 1,
+          "label": "Not at all"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "A great deal"
+        }
       ]
     },
     {
@@ -58,13 +122,34 @@
       "text": "Some people are generally not very happy. Although they are not depressed, they never seem as happy as they might be. To what extent does this characterization describe you?",
       "type": "likert",
       "choices": [
-        { "value": 1, "label": "A great deal" },
-        { "value": 2, "label": "2" },
-        { "value": 3, "label": "3" },
-        { "value": 4, "label": "4" },
-        { "value": 5, "label": "5" },
-        { "value": 6, "label": "6" },
-        { "value": 7, "label": "Not at all" }
+        {
+          "value": 1,
+          "label": "A great deal"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "Not at all"
+        }
       ]
     }
   ],
@@ -72,7 +157,9 @@
     "method": "sum_with_reverse",
     "maxTotal": 28,
     "maxItemScore": 7,
-    "reverseItems": [3],
+    "reverseItems": [
+      3
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -133,7 +220,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 4, "max": 28 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 4,
+      "max": 28
+    }
   }
 }

@@ -7,7 +7,8 @@
     "author": "Brown & Ryan (2003)",
     "license": "Free for research use",
     "reference": "Brown KW, Ryan RM. The benefits of being present: mindfulness and its role in psychological well-being. J Pers Soc Psychol. 2003;84(4):822-848.",
-    "instruction": "以下是关于日常体验的一些陈述。请根据每个陈述通常在多大程度上符合您的经历来作答。请根据您的实际经历而非您认为应该怎样来作答。"
+    "instruction": "以下是关于日常体验的一些陈述。请根据每个陈述通常在多大程度上符合您的经历来作答。请根据您的实际经历而非您认为应该怎样来作答。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

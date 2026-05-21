@@ -7,22 +7,62 @@
     "author": "Kessler, Barker, Colpe et al. (2003)",
     "license": "Public Domain",
     "reference": "Kessler RC, Barker PR, Colpe LJ, et al. Screening for serious mental illness in the general population. Arch Gen Psychiatry. 2003;60(2):184-189.",
-    "instruction": "以下问题询问您在过去 30 天内的感受。请为每个问题选择最能描述您出现该感受频率的选项。"
+    "instruction": "以下问题询问您在过去 30 天内的感受。请为每个问题选择最能描述您出现该感受频率的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "没有" },
-    { "value": 2, "label": "偶尔" },
-    { "value": 3, "label": "有时" },
-    { "value": 4, "label": "经常" },
-    { "value": 5, "label": "所有时间" }
+    {
+      "value": 1,
+      "label": "没有"
+    },
+    {
+      "value": 2,
+      "label": "偶尔"
+    },
+    {
+      "value": 3,
+      "label": "有时"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "所有时间"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "在过去 30 天内，您有多少时候感到紧张？", "type": "likert" },
-    { "index": 1, "text": "在过去 30 天内，您有多少时候紧张到什么都无法让您平静下来？", "type": "likert" },
-    { "index": 2, "text": "在过去 30 天内，您有多少时候感到绝望？", "type": "likert" },
-    { "index": 3, "text": "在过去 30 天内，您有多少时候感到抑郁？", "type": "likert" },
-    { "index": 4, "text": "在过去 30 天内，您有多少时候感到悲伤，以至于什么都无法让您高兴起来？", "type": "likert" },
-    { "index": 5, "text": "在过去 30 天内，您有多少时候觉得自己毫无价值？", "type": "likert" }
+    {
+      "index": 0,
+      "text": "在过去 30 天内，您有多少时候感到紧张？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "在过去 30 天内，您有多少时候紧张到什么都无法让您平静下来？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "在过去 30 天内，您有多少时候感到绝望？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "在过去 30 天内，您有多少时候感到抑郁？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "在过去 30 天内，您有多少时候感到悲伤，以至于什么都无法让您高兴起来？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "在过去 30 天内，您有多少时候觉得自己毫无价值？",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -74,7 +114,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 6, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
   }
 }

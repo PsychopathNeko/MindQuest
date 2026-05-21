@@ -4,25 +4,66 @@
     "name": "GAD-7 Generalized Anxiety Disorder Scale",
     "fullName": "Generalized Anxiety Disorder-7",
     "description": "The GAD-7 is a concise and efficient self-report screening tool for anxiety symptoms, consisting of 7 items used to assess the severity of generalized anxiety symptoms over the past two weeks. It can also be used to screen for panic disorder, social anxiety, and PTSD.",
-    "author": "Spitzer, Kroenke, Williams & L\u00f6we (2006)",
+    "author": "Spitzer, Kroenke, Williams & Löwe (2006)",
     "license": "Public Domain",
-    "reference": "Spitzer RL, Kroenke K, Williams JBW, L\u00f6we B. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. 2006;166(10):1092-1097.",
-    "instruction": "Over the last 2 weeks, how often have you been bothered by the following problems?"
+    "reference": "Spitzer RL, Kroenke K, Williams JBW, Löwe B. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. 2006;166(10):1092-1097.",
+    "instruction": "Over the last 2 weeks, how often have you been bothered by the following problems?",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Not at all" },
-    { "value": 1, "label": "Several days" },
-    { "value": 2, "label": "Over half the days" },
-    { "value": 3, "label": "Nearly every day" }
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "Several days"
+    },
+    {
+      "value": 2,
+      "label": "Over half the days"
+    },
+    {
+      "value": 3,
+      "label": "Nearly every day"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Feeling nervous, anxious, or on edge", "type": "likert" },
-    { "index": 1, "text": "Not being able to stop or control worrying", "type": "likert" },
-    { "index": 2, "text": "Worrying too much about different things", "type": "likert" },
-    { "index": 3, "text": "Trouble relaxing", "type": "likert" },
-    { "index": 4, "text": "Being so restless that it's hard to sit still", "type": "likert" },
-    { "index": 5, "text": "Becoming easily annoyed or irritable", "type": "likert" },
-    { "index": 6, "text": "Feeling afraid as if something awful might happen", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Feeling nervous, anxious, or on edge",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Not being able to stop or control worrying",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Worrying too much about different things",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Trouble relaxing",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Being so restless that it's hard to sit still",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Becoming easily annoyed or irritable",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Feeling afraid as if something awful might happen",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -90,7 +131,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 21 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 21
+    }
   }
 }

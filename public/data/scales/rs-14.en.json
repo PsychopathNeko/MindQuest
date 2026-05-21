@@ -7,32 +7,110 @@
     "author": "Wagnild (2009)",
     "license": "Free to use",
     "reference": "Wagnild G. A review of the Resilience Scale. J Nurs Meas. 2009;17(2):105-113.",
-    "instruction": "Please read each statement and select the number that best indicates your feelings about that statement. Respond to all statements."
+    "instruction": "Please read each statement and select the number that best indicates your feelings about that statement. Respond to all statements.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Strongly disagree" },
-    { "value": 2, "label": "Disagree" },
-    { "value": 3, "label": "Somewhat disagree" },
-    { "value": 4, "label": "Neither agree nor disagree" },
-    { "value": 5, "label": "Somewhat agree" },
-    { "value": 6, "label": "Agree" },
-    { "value": 7, "label": "Strongly agree" }
+    {
+      "value": 1,
+      "label": "Strongly disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat disagree"
+    },
+    {
+      "value": 4,
+      "label": "Neither agree nor disagree"
+    },
+    {
+      "value": 5,
+      "label": "Somewhat agree"
+    },
+    {
+      "value": 6,
+      "label": "Agree"
+    },
+    {
+      "value": 7,
+      "label": "Strongly agree"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I usually manage one way or another", "type": "likert" },
-    { "index": 1, "text": "I feel proud that I have accomplished things in life", "type": "likert" },
-    { "index": 2, "text": "I usually take things in stride", "type": "likert" },
-    { "index": 3, "text": "I am friends with myself", "type": "likert" },
-    { "index": 4, "text": "I feel that I can handle many things at a time", "type": "likert" },
-    { "index": 5, "text": "I am determined", "type": "likert" },
-    { "index": 6, "text": "I can get through difficult times because I've experienced difficulty before", "type": "likert" },
-    { "index": 7, "text": "I have self-discipline", "type": "likert" },
-    { "index": 8, "text": "I keep interested in things", "type": "likert" },
-    { "index": 9, "text": "I can usually find something to laugh about", "type": "likert" },
-    { "index": 10, "text": "My belief in myself gets me through hard times", "type": "likert" },
-    { "index": 11, "text": "In an emergency, I'm someone people can generally rely on", "type": "likert" },
-    { "index": 12, "text": "My life has meaning", "type": "likert" },
-    { "index": 13, "text": "When I'm in a difficult situation, I can usually find my way out of it", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I usually manage one way or another",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I feel proud that I have accomplished things in life",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I usually take things in stride",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am friends with myself",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I feel that I can handle many things at a time",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I am determined",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I can get through difficult times because I've experienced difficulty before",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I have self-discipline",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I keep interested in things",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I can usually find something to laugh about",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "My belief in myself gets me through hard times",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "In an emergency, I'm someone people can generally rely on",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "My life has meaning",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "When I'm in a difficult situation, I can usually find my way out of it",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -103,7 +181,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 14, "max": 98 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 14,
+      "max": 98
+    }
   }
 }

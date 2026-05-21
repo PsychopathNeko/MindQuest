@@ -7,7 +7,8 @@
     "author": "Bush et al. (1998)",
     "license": "Public Domain",
     "reference": "Bush K, Kivlahan DR, McDonell MB, Fihn SD, Bradley KA. The AUDIT alcohol consumption questions (AUDIT-C): an effective brief screening test for problem drinking. Arch Intern Med. 1998;158(16):1789-1795.",
-    "instruction": "请回答以下关于您饮酒情况的问题，选择最符合您饮酒习惯的选项。"
+    "instruction": "请回答以下关于您饮酒情况的问题，选择最符合您饮酒习惯的选项。",
+    "population": "一般人群（16岁以上）"
   },
   "commonChoices": null,
   "questions": [
@@ -16,11 +17,26 @@
       "text": "您多久喝一次含酒精的饮料？",
       "type": "single",
       "choices": [
-        { "value": 0, "label": "从不" },
-        { "value": 1, "label": "每月一次或更少" },
-        { "value": 2, "label": "每月2-4次" },
-        { "value": 3, "label": "每周2-3次" },
-        { "value": 4, "label": "每周4次或以上" }
+        {
+          "value": 0,
+          "label": "从不"
+        },
+        {
+          "value": 1,
+          "label": "每月一次或更少"
+        },
+        {
+          "value": 2,
+          "label": "每月2-4次"
+        },
+        {
+          "value": 3,
+          "label": "每周2-3次"
+        },
+        {
+          "value": 4,
+          "label": "每周4次或以上"
+        }
       ]
     },
     {
@@ -28,11 +44,26 @@
       "text": "在您饮酒的日子里，通常一天喝几杯标准酒精饮料？",
       "type": "single",
       "choices": [
-        { "value": 0, "label": "1或2杯" },
-        { "value": 1, "label": "3或4杯" },
-        { "value": 2, "label": "5或6杯" },
-        { "value": 3, "label": "7至9杯" },
-        { "value": 4, "label": "10杯或以上" }
+        {
+          "value": 0,
+          "label": "1或2杯"
+        },
+        {
+          "value": 1,
+          "label": "3或4杯"
+        },
+        {
+          "value": 2,
+          "label": "5或6杯"
+        },
+        {
+          "value": 3,
+          "label": "7至9杯"
+        },
+        {
+          "value": 4,
+          "label": "10杯或以上"
+        }
       ]
     },
     {
@@ -40,11 +71,26 @@
       "text": "您多久有一次在一个场合喝6杯或以上？",
       "type": "single",
       "choices": [
-        { "value": 0, "label": "从不" },
-        { "value": 1, "label": "少于每月一次" },
-        { "value": 2, "label": "每月一次" },
-        { "value": 3, "label": "每周一次" },
-        { "value": 4, "label": "每天或几乎每天" }
+        {
+          "value": 0,
+          "label": "从不"
+        },
+        {
+          "value": 1,
+          "label": "少于每月一次"
+        },
+        {
+          "value": 2,
+          "label": "每月一次"
+        },
+        {
+          "value": 3,
+          "label": "每周一次"
+        },
+        {
+          "value": 4,
+          "label": "每天或几乎每天"
+        }
       ]
     }
   ],
@@ -99,7 +145,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 12 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 12
+    }
   }
 }

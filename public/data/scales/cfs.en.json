@@ -7,26 +7,83 @@
     "author": "Chalder, Berelowitz, Pawlikowska, Watts, Wessely, Wright & Wallace (1993)",
     "license": "Free to use",
     "reference": "Chalder T, Berelowitz G, Pawlikowska T, Watts L, Wessely S, Wright D, Wallace EP. Development of a fatigue scale. J Psychosom Res. 1993;37(2):147-153.",
-    "instruction": "We would like to know more about any problems you have had with feeling tired, weak, or lacking in energy in the last month. Please answer ALL the questions by selecting the answer which applies to you most closely."
+    "instruction": "We would like to know more about any problems you have had with feeling tired, weak, or lacking in energy in the last month. Please answer ALL the questions by selecting the answer which applies to you most closely.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Better than usual" },
-    { "value": 1, "label": "No worse than usual" },
-    { "value": 2, "label": "Worse than usual" },
-    { "value": 3, "label": "Much worse than usual" }
+    {
+      "value": 0,
+      "label": "Better than usual"
+    },
+    {
+      "value": 1,
+      "label": "No worse than usual"
+    },
+    {
+      "value": 2,
+      "label": "Worse than usual"
+    },
+    {
+      "value": 3,
+      "label": "Much worse than usual"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Do you have problems with tiredness?", "type": "likert" },
-    { "index": 1, "text": "Do you need to rest more?", "type": "likert" },
-    { "index": 2, "text": "Do you feel sleepy or drowsy?", "type": "likert" },
-    { "index": 3, "text": "Do you have problems starting things?", "type": "likert" },
-    { "index": 4, "text": "Do you lack energy?", "type": "likert" },
-    { "index": 5, "text": "Do you have less strength in your muscles?", "type": "likert" },
-    { "index": 6, "text": "Do you feel weak?", "type": "likert" },
-    { "index": 7, "text": "Do you have difficulty concentrating?", "type": "likert" },
-    { "index": 8, "text": "Do you have problems thinking clearly?", "type": "likert" },
-    { "index": 9, "text": "Do you make slips of the tongue when speaking?", "type": "likert" },
-    { "index": 10, "text": "How is your memory?", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Do you have problems with tiredness?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Do you need to rest more?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Do you feel sleepy or drowsy?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Do you have problems starting things?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Do you lack energy?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Do you have less strength in your muscles?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Do you feel weak?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Do you have difficulty concentrating?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Do you have problems thinking clearly?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Do you make slips of the tongue when speaking?",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "How is your memory?",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
@@ -36,13 +93,26 @@
       {
         "id": "physical",
         "name": "Physical Fatigue",
-        "items": [0, 1, 2, 3, 4, 5, 6],
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
         "maxScore": 21
       },
       {
         "id": "mental",
         "name": "Mental Fatigue",
-        "items": [7, 8, 9, 10],
+        "items": [
+          7,
+          8,
+          9,
+          10
+        ],
         "maxScore": 12
       }
     ]
@@ -165,15 +235,27 @@
     }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["physical", "mental"],
+      "subscaleIds": [
+        "physical",
+        "mental"
+      ],
       "maxDisplayScore": 21
     },
     "radarConfig": {
       "indicators": [
-        { "name": "Physical Fatigue", "max": 21 },
-        { "name": "Mental Fatigue", "max": 12 }
+        {
+          "name": "Physical Fatigue",
+          "max": 21
+        },
+        {
+          "name": "Mental Fatigue",
+          "max": 12
+        }
       ]
     }
   }

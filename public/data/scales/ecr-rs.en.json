@@ -7,62 +7,235 @@
     "author": "Fraley RC, et al. (2011)",
     "license": "Free for research use",
     "reference": "Fraley RC, Heffernan ME, Vicary AM, Brumbaugh CC. The Experiences in Close Relationships-Relationship Structures questionnaire. Psychological Assessment. 2011;23(3):615-625.",
-    "instruction": "Please read each statement and indicate how much you agree or disagree with it as it applies to your close relationships."
+    "instruction": "Please read each statement and indicate how much you agree or disagree with it as it applies to your close relationships.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Strongly disagree" },
-    { "value": 2, "label": "Disagree" },
-    { "value": 3, "label": "Somewhat disagree" },
-    { "value": 4, "label": "Neutral" },
-    { "value": 5, "label": "Somewhat agree" },
-    { "value": 6, "label": "Agree" },
-    { "value": 7, "label": "Strongly agree" }
+    {
+      "value": 1,
+      "label": "Strongly disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat disagree"
+    },
+    {
+      "value": 4,
+      "label": "Neutral"
+    },
+    {
+      "value": 5,
+      "label": "Somewhat agree"
+    },
+    {
+      "value": 6,
+      "label": "Agree"
+    },
+    {
+      "value": 7,
+      "label": "Strongly agree"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "It helps to turn to this person in times of need.", "type": "likert" },
-    { "index": 1, "text": "I usually discuss my problems and concerns with this person.", "type": "likert" },
-    { "index": 2, "text": "I talk things over with this person.", "type": "likert" },
-    { "index": 3, "text": "I find it easy to depend on this person.", "type": "likert" },
-    { "index": 4, "text": "I don't feel comfortable opening up to this person.", "type": "likert" },
-    { "index": 5, "text": "I prefer not to show this person how I feel deep down.", "type": "likert" },
-    { "index": 6, "text": "I often worry that this person doesn't really care for me.", "type": "likert" },
-    { "index": 7, "text": "I'm afraid that this person may abandon me.", "type": "likert" },
-    { "index": 8, "text": "I worry that this person won't care about me as much as I care about them.", "type": "likert" },
-    { "index": 9, "text": "I don't fully trust this person.", "type": "likert" },
-    { "index": 10, "text": "I worry a fair amount about losing this person.", "type": "likert" },
-    { "index": 11, "text": "It makes me mad that I don't get the affection and support I need from this person.", "type": "likert" }
+    {
+      "index": 0,
+      "text": "It helps to turn to this person in times of need.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I usually discuss my problems and concerns with this person.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I talk things over with this person.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I find it easy to depend on this person.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I don't feel comfortable opening up to this person.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I prefer not to show this person how I feel deep down.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I often worry that this person doesn't really care for me.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I'm afraid that this person may abandon me.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I worry that this person won't care about me as much as I care about them.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I don't fully trust this person.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I worry a fair amount about losing this person.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "It makes me mad that I don't get the affection and support I need from this person.",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
     "maxTotal": 84,
     "maxItemScore": 7,
-    "reverseItems": [0, 1, 2, 3],
+    "reverseItems": [
+      0,
+      1,
+      2,
+      3
+    ],
     "subscales": [
-      { "id": "avoidance", "name": "Avoidance", "items": [0, 1, 2, 3, 4, 5], "maxScore": 42 },
-      { "id": "anxiety", "name": "Anxiety", "items": [6, 7, 8, 9, 10, 11], "maxScore": 42 }
+      {
+        "id": "avoidance",
+        "name": "Avoidance",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "maxScore": 42
+      },
+      {
+        "id": "anxiety",
+        "name": "Anxiety",
+        "items": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "maxScore": 42
+      }
     ]
   },
   "interpretation": {
     "ranges": [
-      { "min": 12, "max": 36, "level": "minimal", "label": "Secure Attachment", "description": "Your scores suggest a relatively secure attachment style with low avoidance and low anxiety.", "suggestions": ["Continue nurturing your close relationships", "Your relational patterns appear healthy and adaptive"] },
-      { "min": 37, "max": 54, "level": "mild", "label": "Moderate Attachment Concerns", "description": "Your scores suggest some attachment insecurity. Review subscale scores to understand whether avoidance or anxiety is more prominent.", "suggestions": ["Reflect on which relationships feel most secure and why", "Practice open communication with trusted individuals"] },
-      { "min": 55, "max": 84, "level": "severe", "label": "Significant Attachment Insecurity", "description": "Your scores suggest notable attachment insecurity that may affect relationship functioning.", "suggestions": ["Consider speaking with a therapist about relationship patterns", "Explore attachment-focused therapy approaches"] }
+      {
+        "min": 12,
+        "max": 36,
+        "level": "minimal",
+        "label": "Secure Attachment",
+        "description": "Your scores suggest a relatively secure attachment style with low avoidance and low anxiety.",
+        "suggestions": [
+          "Continue nurturing your close relationships",
+          "Your relational patterns appear healthy and adaptive"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 54,
+        "level": "mild",
+        "label": "Moderate Attachment Concerns",
+        "description": "Your scores suggest some attachment insecurity. Review subscale scores to understand whether avoidance or anxiety is more prominent.",
+        "suggestions": [
+          "Reflect on which relationships feel most secure and why",
+          "Practice open communication with trusted individuals"
+        ]
+      },
+      {
+        "min": 55,
+        "max": 84,
+        "level": "severe",
+        "label": "Significant Attachment Insecurity",
+        "description": "Your scores suggest notable attachment insecurity that may affect relationship functioning.",
+        "suggestions": [
+          "Consider speaking with a therapist about relationship patterns",
+          "Explore attachment-focused therapy approaches"
+        ]
+      }
     ],
     "subscaleRanges": {
       "avoidance": [
-        { "min": 6, "max": 18, "level": "normal", "label": "Low Avoidance", "description": "You are comfortable with closeness and depending on others." },
-        { "min": 19, "max": 30, "level": "mild", "label": "Moderate Avoidance", "description": "You sometimes find it difficult to open up or depend on others." },
-        { "min": 31, "max": 42, "level": "severe", "label": "High Avoidance", "description": "You tend to avoid closeness, self-disclosure, and depending on others." }
+        {
+          "min": 6,
+          "max": 18,
+          "level": "normal",
+          "label": "Low Avoidance",
+          "description": "You are comfortable with closeness and depending on others."
+        },
+        {
+          "min": 19,
+          "max": 30,
+          "level": "mild",
+          "label": "Moderate Avoidance",
+          "description": "You sometimes find it difficult to open up or depend on others."
+        },
+        {
+          "min": 31,
+          "max": 42,
+          "level": "severe",
+          "label": "High Avoidance",
+          "description": "You tend to avoid closeness, self-disclosure, and depending on others."
+        }
       ],
       "anxiety": [
-        { "min": 6, "max": 18, "level": "normal", "label": "Low Anxiety", "description": "You feel relatively secure and do not worry excessively about relationships." },
-        { "min": 19, "max": 30, "level": "mild", "label": "Moderate Anxiety", "description": "You sometimes worry about being abandoned or unloved." },
-        { "min": 31, "max": 42, "level": "severe", "label": "High Anxiety", "description": "You frequently worry about rejection, abandonment, and whether others truly care." }
+        {
+          "min": 6,
+          "max": 18,
+          "level": "normal",
+          "label": "Low Anxiety",
+          "description": "You feel relatively secure and do not worry excessively about relationships."
+        },
+        {
+          "min": 19,
+          "max": 30,
+          "level": "mild",
+          "label": "Moderate Anxiety",
+          "description": "You sometimes worry about being abandoned or unloved."
+        },
+        {
+          "min": 31,
+          "max": 42,
+          "level": "severe",
+          "label": "High Anxiety",
+          "description": "You frequently worry about rejection, abandonment, and whether others truly care."
+        }
       ]
     }
   },
   "report": {
-    "charts": ["bar"],
-    "barConfig": { "subscaleIds": ["avoidance", "anxiety"], "maxDisplayScore": 42 }
+    "charts": [
+      "bar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "avoidance",
+        "anxiety"
+      ],
+      "maxDisplayScore": 42
+    }
   }
 }

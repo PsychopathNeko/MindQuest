@@ -7,7 +7,8 @@
     "author": "Ames, Rose & Anderson (2006)",
     "license": "Free to use",
     "reference": "Ames DR, Rose P, Anderson CP. The NPI-16 as a short measure of narcissism. J Res Pers. 2006;40(4):440-450.",
-    "instruction": "对于以下每对陈述，请选择您最认同的那一个。没有对错之分。"
+    "instruction": "对于以下每对陈述，请选择您最认同的那一个。没有对错之分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": null,
   "questions": [

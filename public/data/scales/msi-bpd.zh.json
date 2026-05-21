@@ -7,7 +7,8 @@
     "author": "Zanarini, Vujanovic, Parachini, Boulanger, Frankenburg & Hennen (2003)",
     "license": "Free for research use",
     "reference": "Zanarini MC, Vujanovic AA, Parachini EA, Boulanger JL, Frankenburg FR, Hennen J. A screening measure for BPD: the McLean Screening Instrument for Borderline Personality Disorder (MSI-BPD). J Pers Disord. 2003;17(6):568-573.",
-    "instruction": "以下问题描述的是你可能有过的经历。请选择是或否。"
+    "instruction": "以下问题描述的是你可能有过的经历。请选择是或否。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {
@@ -140,5 +141,18 @@
       "min": 0,
       "max": 10
     }
+  },
+  "crisisConfig": {
+    "type": "item",
+    "items": [
+      {
+        "questionIndex": 3,
+        "threshold": 1
+      },
+      {
+        "questionIndex": 4,
+        "threshold": 1
+      }
+    ]
   }
 }

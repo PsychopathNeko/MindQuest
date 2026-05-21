@@ -7,34 +7,108 @@
     "author": "Rice, Richardson & Tueller (2014)",
     "license": "Free to use",
     "reference": "Rice SP, Richardson CME, Tueller S. The Short Form of the Revised Almost Perfect Scale. Journal of Personality Assessment. 2014;96(3):368-379.",
-    "instruction": "Please rate how much you agree with each statement."
+    "instruction": "Please rate how much you agree with each statement.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Strongly Disagree" },
-    { "value": 2, "label": "Disagree" },
-    { "value": 3, "label": "Slightly Disagree" },
-    { "value": 4, "label": "Neutral" },
-    { "value": 5, "label": "Slightly Agree" },
-    { "value": 6, "label": "Agree" },
-    { "value": 7, "label": "Strongly Agree" }
+    {
+      "value": 1,
+      "label": "Strongly Disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Slightly Disagree"
+    },
+    {
+      "value": 4,
+      "label": "Neutral"
+    },
+    {
+      "value": 5,
+      "label": "Slightly Agree"
+    },
+    {
+      "value": 6,
+      "label": "Agree"
+    },
+    {
+      "value": 7,
+      "label": "Strongly Agree"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I have high standards for my performance at work or at school", "type": "likert" },
-    { "index": 1, "text": "I am an orderly person", "type": "likert" },
-    { "index": 2, "text": "Neatness is important to me", "type": "likert" },
-    { "index": 3, "text": "I expect the best from myself", "type": "likert" },
-    { "index": 4, "text": "I often feel frustrated because I can't meet my goals", "type": "likert" },
-    { "index": 5, "text": "My best just never seems to be good enough for me", "type": "likert" },
-    { "index": 6, "text": "I rarely live up to my high standards", "type": "likert" },
-    { "index": 7, "text": "I am never satisfied with my accomplishments", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I have high standards for my performance at work or at school",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I am an orderly person",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Neatness is important to me",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I expect the best from myself",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I often feel frustrated because I can't meet my goals",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "My best just never seems to be good enough for me",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I rarely live up to my high standards",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I am never satisfied with my accomplishments",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
     "maxTotal": 56,
     "maxItemScore": 7,
     "subscales": [
-      { "id": "standards", "name": "Standards", "items": [0, 1, 2, 3], "maxScore": 28 },
-      { "id": "discrepancy", "name": "Discrepancy", "items": [4, 5, 6, 7], "maxScore": 28 }
+      {
+        "id": "standards",
+        "name": "Standards",
+        "items": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "discrepancy",
+        "name": "Discrepancy",
+        "items": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "maxScore": 28
+      }
     ]
   },
   "interpretation": {
@@ -125,15 +199,27 @@
     }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["standards", "discrepancy"],
+      "subscaleIds": [
+        "standards",
+        "discrepancy"
+      ],
       "maxDisplayScore": 28
     },
     "radarConfig": {
       "indicators": [
-        { "name": "Standards", "max": 28 },
-        { "name": "Discrepancy", "max": 28 }
+        {
+          "name": "Standards",
+          "max": 28
+        },
+        {
+          "name": "Discrepancy",
+          "max": 28
+        }
       ]
     }
   }

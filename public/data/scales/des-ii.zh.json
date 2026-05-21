@@ -7,44 +7,172 @@
     "author": "Bernstein & Putnam (1986), Carlson & Putnam (1993)",
     "license": "Public Domain",
     "reference": "Carlson EB, Putnam FW. An update on the Dissociative Experiences Scale. Dissociation. 1993;6(1):16-27.",
-    "instruction": "以下描述的是一些人在日常生活中可能有的体验。请根据这种体验在您的生活中发生的频率选择最符合的选项。"
+    "instruction": "以下描述的是一些人在日常生活中可能有的体验。请根据这种体验在您的生活中发生的频率选择最符合的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "从不 (0%)" },
-    { "value": 1, "label": "很少 (约10%)" },
-    { "value": 2, "label": "有时 (约30%)" },
-    { "value": 3, "label": "经常 (约50%)" },
-    { "value": 4, "label": "总是 (约80%+)" }
+    {
+      "value": 0,
+      "label": "从不 (0%)"
+    },
+    {
+      "value": 1,
+      "label": "很少 (约10%)"
+    },
+    {
+      "value": 2,
+      "label": "有时 (约30%)"
+    },
+    {
+      "value": 3,
+      "label": "经常 (约50%)"
+    },
+    {
+      "value": 4,
+      "label": "总是 (约80%+)"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "有些人有时在开车或乘车时突然意识到自己不记得旅途中的部分或全部经过", "type": "likert" },
-    { "index": 1, "text": "有些人有时在听别人说话时突然发现自己一个字也没听进去", "type": "likert" },
-    { "index": 2, "text": "有些人有时发现自己身处某个地方却不知道是怎么到那里的", "type": "likert" },
-    { "index": 3, "text": "有些人有时发现自己穿着不记得穿上的衣服", "type": "likert" },
-    { "index": 4, "text": "有些人有时在自己的物品中发现不记得买过的新东西", "type": "likert" },
-    { "index": 5, "text": "有些人有时被不认识的人搭话，对方叫他们另一个名字或坚称以前见过他们", "type": "likert" },
-    { "index": 6, "text": "有些人有时感觉自己站在旁边看着自己做事或说话", "type": "likert" },
-    { "index": 7, "text": "有些人有时被告知认不出自己的朋友或家人", "type": "likert" },
-    { "index": 8, "text": "有些人有时发现自己不记得生活中的重要事件（如婚礼或毕业典礼）", "type": "likert" },
-    { "index": 9, "text": "有些人有时被指控说谎，但他们自己觉得并没有说谎", "type": "likert" },
-    { "index": 10, "text": "有些人有时照镜子时认不出自己", "type": "likert" },
-    { "index": 11, "text": "有些人有时感觉周围的人、物和事不真实", "type": "likert" },
-    { "index": 12, "text": "有些人有时感觉自己的身体不属于自己", "type": "likert" },
-    { "index": 13, "text": "有些人有时非常生动地回忆过去的事，仿佛在重新经历", "type": "likert" },
-    { "index": 14, "text": "有些人有时不确定记忆中的事是否真的发生过，还是只是做了一个梦", "type": "likert" },
-    { "index": 15, "text": "有些人有时在熟悉的地方却觉得陌生和不真实", "type": "likert" },
-    { "index": 16, "text": "有些人有时看电视或电影时完全沉浸其中，以至于忘记了周围发生的事", "type": "likert" },
-    { "index": 17, "text": "有些人有时沉浸在幻想或白日梦中，感觉就像真实发生的一样", "type": "likert" },
-    { "index": 18, "text": "有些人有时发现自己能忽视疼痛", "type": "likert" },
-    { "index": 19, "text": "有些人有时呆呆地望着远处，什么都没想，没有意识到时间的流逝", "type": "likert" },
-    { "index": 20, "text": "有些人有时独处时会自言自语", "type": "likert" },
-    { "index": 21, "text": "有些人有时发现自己在不同场合表现得像完全不同的人", "type": "likert" },
-    { "index": 22, "text": "有些人有时发现自己在某些情境下能轻松做到通常很困难的事（如运动、工作、社交）", "type": "likert" },
-    { "index": 23, "text": "有些人有时发现自己不记得是否做过某件事，还是只是想过要做", "type": "likert" },
-    { "index": 24, "text": "有些人有时发现有证据表明自己做了不记得做过的事", "type": "likert" },
-    { "index": 25, "text": "有些人有时在自己的物品中发现不记得写过的文字或画过的画", "type": "likert" },
-    { "index": 26, "text": "有些人有时听到脑海中有声音在命令自己做事或评论自己正在做的事", "type": "likert" },
-    { "index": 27, "text": "有些人有时感觉自己像是隔着迷雾在看世界", "type": "likert" }
+    {
+      "index": 0,
+      "text": "有些人有时在开车或乘车时突然意识到自己不记得旅途中的部分或全部经过",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "有些人有时在听别人说话时突然发现自己一个字也没听进去",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "有些人有时发现自己身处某个地方却不知道是怎么到那里的",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "有些人有时发现自己穿着不记得穿上的衣服",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "有些人有时在自己的物品中发现不记得买过的新东西",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "有些人有时被不认识的人搭话，对方叫他们另一个名字或坚称以前见过他们",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "有些人有时感觉自己站在旁边看着自己做事或说话",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "有些人有时被告知认不出自己的朋友或家人",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "有些人有时发现自己不记得生活中的重要事件（如婚礼或毕业典礼）",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "有些人有时被指控说谎，但他们自己觉得并没有说谎",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "有些人有时照镜子时认不出自己",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "有些人有时感觉周围的人、物和事不真实",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "有些人有时感觉自己的身体不属于自己",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "有些人有时非常生动地回忆过去的事，仿佛在重新经历",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "有些人有时不确定记忆中的事是否真的发生过，还是只是做了一个梦",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "有些人有时在熟悉的地方却觉得陌生和不真实",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "有些人有时看电视或电影时完全沉浸其中，以至于忘记了周围发生的事",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "有些人有时沉浸在幻想或白日梦中，感觉就像真实发生的一样",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "有些人有时发现自己能忽视疼痛",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "有些人有时呆呆地望着远处，什么都没想，没有意识到时间的流逝",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "有些人有时独处时会自言自语",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "有些人有时发现自己在不同场合表现得像完全不同的人",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "有些人有时发现自己在某些情境下能轻松做到通常很困难的事（如运动、工作、社交）",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "有些人有时发现自己不记得是否做过某件事，还是只是想过要做",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "有些人有时发现有证据表明自己做了不记得做过的事",
+      "type": "likert"
+    },
+    {
+      "index": 25,
+      "text": "有些人有时在自己的物品中发现不记得写过的文字或画过的画",
+      "type": "likert"
+    },
+    {
+      "index": 26,
+      "text": "有些人有时听到脑海中有声音在命令自己做事或评论自己正在做的事",
+      "type": "likert"
+    },
+    {
+      "index": 27,
+      "text": "有些人有时感觉自己像是隔着迷雾在看世界",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -54,19 +182,43 @@
       {
         "id": "amnesia",
         "name": "遗忘",
-        "items": [3, 4, 5, 7, 8, 24, 25],
+        "items": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          24,
+          25
+        ],
         "maxScore": 28
       },
       {
         "id": "depersonalization",
         "name": "人格解体/现实解体",
-        "items": [6, 10, 11, 12, 15, 27],
+        "items": [
+          6,
+          10,
+          11,
+          12,
+          15,
+          27
+        ],
         "maxScore": 24
       },
       {
         "id": "absorption",
         "name": "沉浸/想象参与",
-        "items": [2, 13, 14, 16, 17, 18, 19, 22],
+        "items": [
+          2,
+          13,
+          14,
+          16,
+          17,
+          18,
+          19,
+          22
+        ],
         "maxScore": 32
       }
     ]
@@ -74,7 +226,8 @@
   "interpretation": {
     "ranges": [
       {
-        "min": 0, "max": 22,
+        "min": 0,
+        "max": 22,
         "level": "minimal",
         "label": "正常范围",
         "description": "您的解离体验频率处于正常范围，大多数人偶尔会有类似体验。",
@@ -84,7 +237,8 @@
         ]
       },
       {
-        "min": 23, "max": 44,
+        "min": 23,
+        "max": 44,
         "level": "mild",
         "label": "轻度解离体验",
         "description": "您的解离体验略高于平均水平，可能与压力或疲劳有关。",
@@ -95,7 +249,8 @@
         ]
       },
       {
-        "min": 45, "max": 67,
+        "min": 45,
+        "max": 67,
         "level": "moderate",
         "label": "中度解离体验",
         "description": "您的解离体验频率较高，可能提示存在解离性障碍或相关问题。建议进行专业评估。",
@@ -107,7 +262,8 @@
         ]
       },
       {
-        "min": 68, "max": 112,
+        "min": 68,
+        "max": 112,
         "level": "severe",
         "label": "显著解离体验",
         "description": "您报告了大量解离体验，强烈建议进行专业精神科/心理评估。高分可能与解离障碍、创伤后应激障碍等有关。",
@@ -121,24 +277,84 @@
     ],
     "subscaleRanges": {
       "amnesia": [
-        { "min": 0, "max": 7, "level": "minimal", "label": "低", "description": "遗忘维度得分较低。" },
-        { "min": 8, "max": 14, "level": "mild", "label": "中等", "description": "存在一些与遗忘相关的解离体验。" },
-        { "min": 15, "max": 28, "level": "moderate", "label": "高", "description": "遗忘相关解离体验频繁，建议关注。" }
+        {
+          "min": 0,
+          "max": 7,
+          "level": "minimal",
+          "label": "低",
+          "description": "遗忘维度得分较低。"
+        },
+        {
+          "min": 8,
+          "max": 14,
+          "level": "mild",
+          "label": "中等",
+          "description": "存在一些与遗忘相关的解离体验。"
+        },
+        {
+          "min": 15,
+          "max": 28,
+          "level": "moderate",
+          "label": "高",
+          "description": "遗忘相关解离体验频繁，建议关注。"
+        }
       ],
       "depersonalization": [
-        { "min": 0, "max": 6, "level": "minimal", "label": "低", "description": "人格解体/现实解体体验较少。" },
-        { "min": 7, "max": 12, "level": "mild", "label": "中等", "description": "存在一些人格解体或现实解体体验。" },
-        { "min": 13, "max": 24, "level": "moderate", "label": "高", "description": "人格解体/现实解体体验频繁，建议专业评估。" }
+        {
+          "min": 0,
+          "max": 6,
+          "level": "minimal",
+          "label": "低",
+          "description": "人格解体/现实解体体验较少。"
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "mild",
+          "label": "中等",
+          "description": "存在一些人格解体或现实解体体验。"
+        },
+        {
+          "min": 13,
+          "max": 24,
+          "level": "moderate",
+          "label": "高",
+          "description": "人格解体/现实解体体验频繁，建议专业评估。"
+        }
       ],
       "absorption": [
-        { "min": 0, "max": 8, "level": "minimal", "label": "低", "description": "沉浸/想象参与体验较少。" },
-        { "min": 9, "max": 16, "level": "mild", "label": "中等", "description": "存在一些沉浸或想象参与体验。" },
-        { "min": 17, "max": 32, "level": "moderate", "label": "高", "description": "沉浸/想象参与体验频繁。" }
+        {
+          "min": 0,
+          "max": 8,
+          "level": "minimal",
+          "label": "低",
+          "description": "沉浸/想象参与体验较少。"
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "level": "mild",
+          "label": "中等",
+          "description": "存在一些沉浸或想象参与体验。"
+        },
+        {
+          "min": 17,
+          "max": 32,
+          "level": "moderate",
+          "label": "高",
+          "description": "沉浸/想象参与体验频繁。"
+        }
       ]
     }
   },
   "report": {
-    "charts": ["gauge", "bar"],
-    "gaugeConfig": { "min": 0, "max": 112 }
+    "charts": [
+      "gauge",
+      "bar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 112
+    }
   }
 }

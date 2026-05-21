@@ -7,7 +7,8 @@
     "author": "Tolin et al. (2008)",
     "license": "Free to use",
     "reference": "Tolin DF, Frost RO, Steketee G. A brief interview for assessing compulsive hoarding: the Hoarding Rating Scale-Interview. Psychiatry Res. 2010;178(1):147-152.",
-    "instruction": "请根据过去一周的实际情况，选择最符合您状况的选项。"
+    "instruction": "请根据过去一周的实际情况，选择最符合您状况的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

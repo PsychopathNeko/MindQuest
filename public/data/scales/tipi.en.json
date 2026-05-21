@@ -7,7 +7,8 @@
     "author": "Gosling, Rentfrow & Swann (2003)",
     "license": "Free to use",
     "reference": "Gosling SD, Rentfrow PJ, Swann WB Jr. A very brief measure of the Big-Five personality domains. J Res Pers. 2003;37(6):504-528.",
-    "instruction": "Here are a number of personality traits that may or may not apply to you. Please indicate the extent to which you agree or disagree with each statement. I see myself as:"
+    "instruction": "Here are a number of personality traits that may or may not apply to you. Please indicate the extent to which you agree or disagree with each statement. I see myself as:",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

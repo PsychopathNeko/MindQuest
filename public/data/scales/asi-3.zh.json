@@ -7,7 +7,8 @@
     "author": "Taylor et al. (2007)",
     "license": "Free to use",
     "reference": "Taylor S, Zvolensky MJ, Cox BJ, Deacon B, Heimberg RG, Ledley DR, Abramowitz JS, Holaway RM, Sandin B, Stewart SH, Coles M, Eng W, Daly ES, Arrindell WA, Bouvard M, Cardenas SJ. Robust dimensions of anxiety sensitivity: development and initial validation of the Anxiety Sensitivity Index-3. Psychol Assess. 2007;19(2):176-188.",
-    "instruction": "请根据您对每个条目的同意程度，选择最合适的选项。"
+    "instruction": "请根据您对每个条目的同意程度，选择最合适的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

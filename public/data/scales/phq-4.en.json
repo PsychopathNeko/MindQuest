@@ -7,19 +7,48 @@
     "author": "Kroenke, Spitzer, Williams & Löwe (2009)",
     "license": "Public Domain",
     "reference": "Kroenke K, Spitzer RL, Williams JBW, Löwe B. An ultra-brief screening scale for anxiety and depression: the PHQ-4. Psychosomatics. 2009;50(6):613-621.",
-    "instruction": "Over the last 2 weeks, how often have you been bothered by the following problems?"
+    "instruction": "Over the last 2 weeks, how often have you been bothered by the following problems?",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Not at all" },
-    { "value": 1, "label": "Several days" },
-    { "value": 2, "label": "More than half the days" },
-    { "value": 3, "label": "Nearly every day" }
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "Several days"
+    },
+    {
+      "value": 2,
+      "label": "More than half the days"
+    },
+    {
+      "value": 3,
+      "label": "Nearly every day"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Little interest or pleasure in doing things", "type": "likert" },
-    { "index": 1, "text": "Feeling down, depressed, or hopeless", "type": "likert" },
-    { "index": 2, "text": "Feeling nervous, anxious, or on edge", "type": "likert" },
-    { "index": 3, "text": "Not being able to stop or control worrying", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Little interest or pleasure in doing things",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Feeling down, depressed, or hopeless",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Feeling nervous, anxious, or on edge",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Not being able to stop or control worrying",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
@@ -29,13 +58,19 @@
       {
         "id": "depression",
         "name": "Depression",
-        "items": [0, 1],
+        "items": [
+          0,
+          1
+        ],
         "maxScore": 6
       },
       {
         "id": "anxiety",
         "name": "Anxiety",
-        "items": [2, 3],
+        "items": [
+          2,
+          3
+        ],
         "maxScore": 6
       }
     ]
@@ -130,10 +165,19 @@
     }
   },
   "report": {
-    "charts": ["gauge", "bar"],
-    "gaugeConfig": { "min": 0, "max": 12 },
+    "charts": [
+      "gauge",
+      "bar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 12
+    },
     "barConfig": {
-      "subscaleIds": ["depression", "anxiety"],
+      "subscaleIds": [
+        "depression",
+        "anxiety"
+      ],
       "maxDisplayScore": 6
     }
   }

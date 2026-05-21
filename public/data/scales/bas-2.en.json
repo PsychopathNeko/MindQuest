@@ -7,26 +7,82 @@
     "author": "Tylka & Wood-Barcalow (2015)",
     "license": "Free to use",
     "reference": "Tylka TL, Wood-Barcalow NL. The Body Appreciation Scale-2: item refinement and psychometric evaluation. Body Image. 2015;12:53-67.",
-    "instruction": "Please indicate how often the following statements are true for you."
+    "instruction": "Please indicate how often the following statements are true for you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Never" },
-    { "value": 2, "label": "Seldom" },
-    { "value": 3, "label": "Sometimes" },
-    { "value": 4, "label": "Often" },
-    { "value": 5, "label": "Always" }
+    {
+      "value": 1,
+      "label": "Never"
+    },
+    {
+      "value": 2,
+      "label": "Seldom"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes"
+    },
+    {
+      "value": 4,
+      "label": "Often"
+    },
+    {
+      "value": 5,
+      "label": "Always"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I respect my body", "type": "likert" },
-    { "index": 1, "text": "I feel good about my body", "type": "likert" },
-    { "index": 2, "text": "On the whole, I am satisfied with my body", "type": "likert" },
-    { "index": 3, "text": "Despite its imperfections, I still like my body", "type": "likert" },
-    { "index": 4, "text": "I feel that my body has at least some good qualities", "type": "likert" },
-    { "index": 5, "text": "I take a positive attitude towards my body", "type": "likert" },
-    { "index": 6, "text": "I appreciate the different and unique characteristics of my body", "type": "likert" },
-    { "index": 7, "text": "I feel comfortable in my body", "type": "likert" },
-    { "index": 8, "text": "I am attentive to my body's needs", "type": "likert" },
-    { "index": 9, "text": "I feel like I am beautiful even if I am different from media images of attractive people", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I respect my body",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I feel good about my body",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "On the whole, I am satisfied with my body",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Despite its imperfections, I still like my body",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I feel that my body has at least some good qualities",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I take a positive attitude towards my body",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I appreciate the different and unique characteristics of my body",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I feel comfortable in my body",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I am attentive to my body's needs",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I feel like I am beautiful even if I am different from media images of attractive people",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -90,7 +146,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 10, "max": 50 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 50
+    }
   }
 }

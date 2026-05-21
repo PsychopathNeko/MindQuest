@@ -7,32 +7,98 @@
     "author": "Bartholomew K, Horowitz LM (1991)",
     "license": "Free to use",
     "reference": "Bartholomew K, Horowitz LM. Attachment styles among young adults: a test of a four-category model. J Pers Soc Psychol. 1991;61(2):226-244.",
-    "instruction": "Following are four general relationship styles that people often report. Please read each description and rate how well it describes your typical approach to close relationships."
+    "instruction": "Following are four general relationship styles that people often report. Please read each description and rate how well it describes your typical approach to close relationships.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Not at all like me" },
-    { "value": 2, "label": "Slightly like me" },
-    { "value": 3, "label": "Somewhat unlike me" },
-    { "value": 4, "label": "Neutral" },
-    { "value": 5, "label": "Somewhat like me" },
-    { "value": 6, "label": "Quite like me" },
-    { "value": 7, "label": "Very much like me" }
+    {
+      "value": 1,
+      "label": "Not at all like me"
+    },
+    {
+      "value": 2,
+      "label": "Slightly like me"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat unlike me"
+    },
+    {
+      "value": 4,
+      "label": "Neutral"
+    },
+    {
+      "value": 5,
+      "label": "Somewhat like me"
+    },
+    {
+      "value": 6,
+      "label": "Quite like me"
+    },
+    {
+      "value": 7,
+      "label": "Very much like me"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "It is easy for me to become emotionally close to others. I am comfortable depending on them and having them depend on me. I don't worry about being alone or having others not accept me.", "type": "likert" },
-    { "index": 1, "text": "I am uncomfortable getting close to others. I want emotionally close relationships, but I find it difficult to trust others completely, or to depend on them. I worry that I will be hurt if I allow myself to become too close to others.", "type": "likert" },
-    { "index": 2, "text": "I want to be completely emotionally intimate with others, but I often find that others are reluctant to get as close as I would like. I am uncomfortable being without close relationships, but I sometimes worry that others don't value me as much as I value them.", "type": "likert" },
-    { "index": 3, "text": "I am comfortable without close emotional relationships. It is very important to me to feel independent and self-sufficient, and I prefer not to depend on others or have others depend on me.", "type": "likert" }
+    {
+      "index": 0,
+      "text": "It is easy for me to become emotionally close to others. I am comfortable depending on them and having them depend on me. I don't worry about being alone or having others not accept me.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I am uncomfortable getting close to others. I want emotionally close relationships, but I find it difficult to trust others completely, or to depend on them. I worry that I will be hurt if I allow myself to become too close to others.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I want to be completely emotionally intimate with others, but I often find that others are reluctant to get as close as I would like. I am uncomfortable being without close relationships, but I sometimes worry that others don't value me as much as I value them.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am comfortable without close emotional relationships. It is very important to me to feel independent and self-sufficient, and I prefer not to depend on others or have others depend on me.",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
     "maxTotal": 28,
     "maxItemScore": 7,
     "subscales": [
-      { "id": "secure", "name": "Secure", "items": [0], "maxScore": 7 },
-      { "id": "fearful", "name": "Fearful", "items": [1], "maxScore": 7 },
-      { "id": "preoccupied", "name": "Preoccupied", "items": [2], "maxScore": 7 },
-      { "id": "dismissing", "name": "Dismissing", "items": [3], "maxScore": 7 }
+      {
+        "id": "secure",
+        "name": "Secure",
+        "items": [
+          0
+        ],
+        "maxScore": 7
+      },
+      {
+        "id": "fearful",
+        "name": "Fearful",
+        "items": [
+          1
+        ],
+        "maxScore": 7
+      },
+      {
+        "id": "preoccupied",
+        "name": "Preoccupied",
+        "items": [
+          2
+        ],
+        "maxScore": 7
+      },
+      {
+        "id": "dismissing",
+        "name": "Dismissing",
+        "items": [
+          3
+        ],
+        "maxScore": 7
+      }
     ]
   },
   "interpretation": {
@@ -74,31 +140,110 @@
     ],
     "subscaleRanges": {
       "secure": [
-        { "min": 1, "max": 3, "level": "low", "label": "Low Secure", "description": "You do not strongly identify with the secure attachment style. You may experience some discomfort with closeness or trust." },
-        { "min": 4, "max": 5, "level": "moderate", "label": "Moderate Secure", "description": "You show some secure attachment characteristics. You are somewhat comfortable with closeness and interdependence." },
-        { "min": 6, "max": 7, "level": "high", "label": "High Secure", "description": "You strongly identify with the secure attachment style. You are comfortable with emotional closeness, trust, and mutual dependence." }
+        {
+          "min": 1,
+          "max": 3,
+          "level": "low",
+          "label": "Low Secure",
+          "description": "You do not strongly identify with the secure attachment style. You may experience some discomfort with closeness or trust."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate Secure",
+          "description": "You show some secure attachment characteristics. You are somewhat comfortable with closeness and interdependence."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High Secure",
+          "description": "You strongly identify with the secure attachment style. You are comfortable with emotional closeness, trust, and mutual dependence."
+        }
       ],
       "fearful": [
-        { "min": 1, "max": 3, "level": "low", "label": "Low Fearful", "description": "You do not strongly identify with the fearful attachment style. You are generally not overly worried about being hurt in relationships." },
-        { "min": 4, "max": 5, "level": "moderate", "label": "Moderate Fearful", "description": "You show some fearful attachment characteristics. You may sometimes struggle between wanting closeness and fearing rejection." },
-        { "min": 6, "max": 7, "level": "high", "label": "High Fearful", "description": "You strongly identify with the fearful attachment style. You desire close relationships but fear being hurt, making intimacy difficult." }
+        {
+          "min": 1,
+          "max": 3,
+          "level": "low",
+          "label": "Low Fearful",
+          "description": "You do not strongly identify with the fearful attachment style. You are generally not overly worried about being hurt in relationships."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate Fearful",
+          "description": "You show some fearful attachment characteristics. You may sometimes struggle between wanting closeness and fearing rejection."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High Fearful",
+          "description": "You strongly identify with the fearful attachment style. You desire close relationships but fear being hurt, making intimacy difficult."
+        }
       ],
       "preoccupied": [
-        { "min": 1, "max": 3, "level": "low", "label": "Low Preoccupied", "description": "You do not strongly identify with the preoccupied attachment style. You generally do not excessively worry about others' availability." },
-        { "min": 4, "max": 5, "level": "moderate", "label": "Moderate Preoccupied", "description": "You show some preoccupied attachment characteristics. You may sometimes worry that others do not value you as much as you value them." },
-        { "min": 6, "max": 7, "level": "high", "label": "High Preoccupied", "description": "You strongly identify with the preoccupied attachment style. You strongly desire closeness and may worry excessively about relationship security." }
+        {
+          "min": 1,
+          "max": 3,
+          "level": "low",
+          "label": "Low Preoccupied",
+          "description": "You do not strongly identify with the preoccupied attachment style. You generally do not excessively worry about others' availability."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate Preoccupied",
+          "description": "You show some preoccupied attachment characteristics. You may sometimes worry that others do not value you as much as you value them."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High Preoccupied",
+          "description": "You strongly identify with the preoccupied attachment style. You strongly desire closeness and may worry excessively about relationship security."
+        }
       ],
       "dismissing": [
-        { "min": 1, "max": 3, "level": "low", "label": "Low Dismissing", "description": "You do not strongly identify with the dismissing attachment style. You are generally open to emotional closeness and interdependence." },
-        { "min": 4, "max": 5, "level": "moderate", "label": "Moderate Dismissing", "description": "You show some dismissing attachment characteristics. You value independence but may still desire some close relationships." },
-        { "min": 6, "max": 7, "level": "high", "label": "High Dismissing", "description": "You strongly identify with the dismissing attachment style. You highly value independence and self-sufficiency, preferring to avoid emotional dependence." }
+        {
+          "min": 1,
+          "max": 3,
+          "level": "low",
+          "label": "Low Dismissing",
+          "description": "You do not strongly identify with the dismissing attachment style. You are generally open to emotional closeness and interdependence."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate Dismissing",
+          "description": "You show some dismissing attachment characteristics. You value independence but may still desire some close relationships."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High Dismissing",
+          "description": "You strongly identify with the dismissing attachment style. You highly value independence and self-sufficiency, preferring to avoid emotional dependence."
+        }
       ]
     }
   },
   "report": {
-    "charts": ["bar"],
+    "charts": [
+      "bar"
+    ],
     "barConfig": {
-      "subscaleIds": ["secure", "fearful", "preoccupied", "dismissing"],
+      "subscaleIds": [
+        "secure",
+        "fearful",
+        "preoccupied",
+        "dismissing"
+      ],
       "maxDisplayScore": 7
     }
   }

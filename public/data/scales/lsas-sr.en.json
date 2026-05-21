@@ -7,39 +7,148 @@
     "author": "Liebowitz (1987)",
     "license": "Free to use",
     "reference": "Liebowitz MR. Social phobia. Mod Probl Pharmacopsychiatry. 1987;22:141-173.",
-    "instruction": "For each situation below, please rate the level of fear or anxiety you would experience. Select the option that best describes your typical reaction."
+    "instruction": "For each situation below, please rate the level of fear or anxiety you would experience. Select the option that best describes your typical reaction.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "None" },
-    { "value": 1, "label": "Mild" },
-    { "value": 2, "label": "Moderate" },
-    { "value": 3, "label": "Severe" }
+    {
+      "value": 0,
+      "label": "None"
+    },
+    {
+      "value": 1,
+      "label": "Mild"
+    },
+    {
+      "value": 2,
+      "label": "Moderate"
+    },
+    {
+      "value": 3,
+      "label": "Severe"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Telephoning in public", "type": "likert" },
-    { "index": 1, "text": "Participating in small groups", "type": "likert" },
-    { "index": 2, "text": "Eating in public places", "type": "likert" },
-    { "index": 3, "text": "Drinking with others in public places", "type": "likert" },
-    { "index": 4, "text": "Talking to people in authority", "type": "likert" },
-    { "index": 5, "text": "Acting, performing, or giving a talk in front of an audience", "type": "likert" },
-    { "index": 6, "text": "Going to a party", "type": "likert" },
-    { "index": 7, "text": "Working while being observed", "type": "likert" },
-    { "index": 8, "text": "Writing while being observed", "type": "likert" },
-    { "index": 9, "text": "Calling someone you don't know very well", "type": "likert" },
-    { "index": 10, "text": "Talking with people you don't know very well", "type": "likert" },
-    { "index": 11, "text": "Meeting strangers", "type": "likert" },
-    { "index": 12, "text": "Urinating in a public bathroom", "type": "likert" },
-    { "index": 13, "text": "Entering a room when others are already seated", "type": "likert" },
-    { "index": 14, "text": "Being the center of attention", "type": "likert" },
-    { "index": 15, "text": "Speaking up at a meeting", "type": "likert" },
-    { "index": 16, "text": "Taking a written test", "type": "likert" },
-    { "index": 17, "text": "Expressing a disagreement or disapproval to people you don't know very well", "type": "likert" },
-    { "index": 18, "text": "Looking at people you don't know very well in the eyes", "type": "likert" },
-    { "index": 19, "text": "Giving a report to a group", "type": "likert" },
-    { "index": 20, "text": "Trying to pick up someone", "type": "likert" },
-    { "index": 21, "text": "Returning goods to a store", "type": "likert" },
-    { "index": 22, "text": "Giving a party", "type": "likert" },
-    { "index": 23, "text": "Resisting a high pressure salesperson", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Telephoning in public",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Participating in small groups",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Eating in public places",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Drinking with others in public places",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Talking to people in authority",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Acting, performing, or giving a talk in front of an audience",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Going to a party",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Working while being observed",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Writing while being observed",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Calling someone you don't know very well",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Talking with people you don't know very well",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Meeting strangers",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Urinating in a public bathroom",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Entering a room when others are already seated",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Being the center of attention",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Speaking up at a meeting",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Taking a written test",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "Expressing a disagreement or disapproval to people you don't know very well",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "Looking at people you don't know very well in the eyes",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "Giving a report to a group",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "Trying to pick up someone",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "Returning goods to a store",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "Giving a party",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "Resisting a high pressure salesperson",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -104,7 +213,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 72 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 72
+    }
   }
 }

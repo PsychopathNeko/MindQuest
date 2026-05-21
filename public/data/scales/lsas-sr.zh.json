@@ -7,39 +7,148 @@
     "author": "Liebowitz (1987)",
     "license": "Free to use",
     "reference": "Liebowitz MR. Social phobia. Mod Probl Pharmacopsychiatry. 1987;22:141-173.",
-    "instruction": "以下列出了一些社交场景，请评估在每种情境中您会感受到的恐惧或焦虑程度，选择最符合您通常反应的选项。"
+    "instruction": "以下列出了一些社交场景，请评估在每种情境中您会感受到的恐惧或焦虑程度，选择最符合您通常反应的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "没有" },
-    { "value": 1, "label": "轻度" },
-    { "value": 2, "label": "中度" },
-    { "value": 3, "label": "重度" }
+    {
+      "value": 0,
+      "label": "没有"
+    },
+    {
+      "value": 1,
+      "label": "轻度"
+    },
+    {
+      "value": 2,
+      "label": "中度"
+    },
+    {
+      "value": 3,
+      "label": "重度"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "在公共场合打电话", "type": "likert" },
-    { "index": 1, "text": "参加小组活动", "type": "likert" },
-    { "index": 2, "text": "在公共场合吃东西", "type": "likert" },
-    { "index": 3, "text": "在公共场合与他人一起喝酒", "type": "likert" },
-    { "index": 4, "text": "与权威人士交谈", "type": "likert" },
-    { "index": 5, "text": "在观众面前表演、演出或发言", "type": "likert" },
-    { "index": 6, "text": "参加聚会", "type": "likert" },
-    { "index": 7, "text": "在被人观察时工作", "type": "likert" },
-    { "index": 8, "text": "在被人观察时写字", "type": "likert" },
-    { "index": 9, "text": "给不太熟悉的人打电话", "type": "likert" },
-    { "index": 10, "text": "与不太熟悉的人交谈", "type": "likert" },
-    { "index": 11, "text": "与陌生人见面", "type": "likert" },
-    { "index": 12, "text": "在公共卫生间如厕", "type": "likert" },
-    { "index": 13, "text": "进入一个别人已经就座的房间", "type": "likert" },
-    { "index": 14, "text": "成为众人关注的焦点", "type": "likert" },
-    { "index": 15, "text": "在会议上发言", "type": "likert" },
-    { "index": 16, "text": "参加笔试", "type": "likert" },
-    { "index": 17, "text": "向不太熟悉的人表达不同意见", "type": "likert" },
-    { "index": 18, "text": "与不太熟悉的人进行眼神接触", "type": "likert" },
-    { "index": 19, "text": "向一群人做报告", "type": "likert" },
-    { "index": 20, "text": "试图与某人搭讪", "type": "likert" },
-    { "index": 21, "text": "去商店退货", "type": "likert" },
-    { "index": 22, "text": "举办聚会", "type": "likert" },
-    { "index": 23, "text": "拒绝强势推销员", "type": "likert" }
+    {
+      "index": 0,
+      "text": "在公共场合打电话",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "参加小组活动",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "在公共场合吃东西",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "在公共场合与他人一起喝酒",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "与权威人士交谈",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "在观众面前表演、演出或发言",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "参加聚会",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "在被人观察时工作",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "在被人观察时写字",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "给不太熟悉的人打电话",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "与不太熟悉的人交谈",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "与陌生人见面",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "在公共卫生间如厕",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "进入一个别人已经就座的房间",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "成为众人关注的焦点",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "在会议上发言",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "参加笔试",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "向不太熟悉的人表达不同意见",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "与不太熟悉的人进行眼神接触",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "向一群人做报告",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "试图与某人搭讪",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "去商店退货",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "举办聚会",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "拒绝强势推销员",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -104,7 +213,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 72 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 72
+    }
   }
 }

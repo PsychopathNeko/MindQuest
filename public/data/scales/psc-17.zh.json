@@ -7,31 +7,109 @@
     "author": "Jellinek MS, et al. (1988); Gardner W, et al. (1999)",
     "license": "Free to use",
     "reference": "Gardner W, et al. The PSC-17: A brief pediatric symptom checklist with psychosocial problem subscales. Ambulatory Child Health. 1999;5:225-236.",
-    "instruction": "请根据您的孩子在过去一个月的表现，选择最符合的选项。"
+    "instruction": "请根据您的孩子在过去一个月的表现，选择最符合的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "从不" },
-    { "value": 1, "label": "有时" },
-    { "value": 2, "label": "经常" }
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 1,
+      "label": "有时"
+    },
+    {
+      "value": 2,
+      "label": "经常"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "感到悲伤、不开心。", "type": "likert" },
-    { "index": 1, "text": "感到绝望。", "type": "likert" },
-    { "index": 2, "text": "情绪低落或沮丧。", "type": "likert" },
-    { "index": 3, "text": "过度担忧。", "type": "likert" },
-    { "index": 4, "text": "看起来不太开心。", "type": "likert" },
-    { "index": 5, "text": "坐立不安，无法安静坐着。", "type": "likert" },
-    { "index": 6, "text": "白日做梦太多。", "type": "likert" },
-    { "index": 7, "text": "容易分心。", "type": "likert" },
-    { "index": 8, "text": "难以集中注意力。", "type": "likert" },
-    { "index": 9, "text": "表现得好像被什么驱动一样。", "type": "likert" },
-    { "index": 10, "text": "与他人打架。", "type": "likert" },
-    { "index": 11, "text": "不遵守规则。", "type": "likert" },
-    { "index": 12, "text": "不理解别人的感受。", "type": "likert" },
-    { "index": 13, "text": "戏弄他人。", "type": "likert" },
-    { "index": 14, "text": "责怪别人做了自己做的事。", "type": "likert" },
-    { "index": 15, "text": "拒绝分享。", "type": "likert" },
-    { "index": 16, "text": "未经允许拿别人的东西。", "type": "likert" }
+    {
+      "index": 0,
+      "text": "感到悲伤、不开心。",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "感到绝望。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "情绪低落或沮丧。",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "过度担忧。",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "看起来不太开心。",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "坐立不安，无法安静坐着。",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "白日做梦太多。",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "容易分心。",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "难以集中注意力。",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "表现得好像被什么驱动一样。",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "与他人打架。",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "不遵守规则。",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "不理解别人的感受。",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "戏弄他人。",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "责怪别人做了自己做的事。",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "拒绝分享。",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "未经允许拿别人的东西。",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
@@ -42,19 +120,39 @@
       {
         "id": "internalizing",
         "name": "内化问题",
-        "items": [0, 1, 2, 3, 4],
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
         "maxScore": 10
       },
       {
         "id": "attention",
         "name": "注意力问题",
-        "items": [5, 6, 7, 8, 9],
+        "items": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
         "maxScore": 10
       },
       {
         "id": "externalizing",
         "name": "外化问题",
-        "items": [10, 11, 12, 13, 14, 15, 16],
+        "items": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
         "maxScore": 14
       }
     ]
@@ -87,30 +185,82 @@
     ],
     "subscaleRanges": {
       "internalizing": [
-        { "min": 0, "max": 4, "level": "normal", "label": "正常", "description": "内化问题在正常范围。" },
-        { "min": 5, "max": 10, "level": "elevated", "label": "偏高", "description": "内化问题偏高，可能存在情绪困扰。" }
+        {
+          "min": 0,
+          "max": 4,
+          "level": "normal",
+          "label": "正常",
+          "description": "内化问题在正常范围。"
+        },
+        {
+          "min": 5,
+          "max": 10,
+          "level": "elevated",
+          "label": "偏高",
+          "description": "内化问题偏高，可能存在情绪困扰。"
+        }
       ],
       "attention": [
-        { "min": 0, "max": 6, "level": "normal", "label": "正常", "description": "注意力问题在正常范围。" },
-        { "min": 7, "max": 10, "level": "elevated", "label": "偏高", "description": "注意力问题偏高，可能需要进一步评估。" }
+        {
+          "min": 0,
+          "max": 6,
+          "level": "normal",
+          "label": "正常",
+          "description": "注意力问题在正常范围。"
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "elevated",
+          "label": "偏高",
+          "description": "注意力问题偏高，可能需要进一步评估。"
+        }
       ],
       "externalizing": [
-        { "min": 0, "max": 6, "level": "normal", "label": "正常", "description": "外化问题在正常范围。" },
-        { "min": 7, "max": 14, "level": "elevated", "label": "偏高", "description": "外化问题偏高，可能存在行为问题。" }
+        {
+          "min": 0,
+          "max": 6,
+          "level": "normal",
+          "label": "正常",
+          "description": "外化问题在正常范围。"
+        },
+        {
+          "min": 7,
+          "max": 14,
+          "level": "elevated",
+          "label": "偏高",
+          "description": "外化问题偏高，可能存在行为问题。"
+        }
       ]
     }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["internalizing", "attention", "externalizing"],
+      "subscaleIds": [
+        "internalizing",
+        "attention",
+        "externalizing"
+      ],
       "maxDisplayScore": 14
     },
     "radarConfig": {
       "indicators": [
-        { "name": "内化问题", "max": 10 },
-        { "name": "注意力问题", "max": 10 },
-        { "name": "外化问题", "max": 14 }
+        {
+          "name": "内化问题",
+          "max": 10
+        },
+        {
+          "name": "注意力问题",
+          "max": 10
+        },
+        {
+          "name": "外化问题",
+          "max": 14
+        }
       ]
     }
   }

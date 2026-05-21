@@ -7,34 +7,108 @@
     "author": "Rice, Richardson & Tueller (2014)",
     "license": "Free to use",
     "reference": "Rice SP, Richardson CME, Tueller S. The Short Form of the Revised Almost Perfect Scale. Journal of Personality Assessment. 2014;96(3):368-379.",
-    "instruction": "请根据你的真实想法和感受，选择最符合你情况的选项。"
+    "instruction": "请根据你的真实想法和感受，选择最符合你情况的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 1, "label": "非常不同意" },
-    { "value": 2, "label": "不同意" },
-    { "value": 3, "label": "有点不同意" },
-    { "value": 4, "label": "中立" },
-    { "value": 5, "label": "有点同意" },
-    { "value": 6, "label": "同意" },
-    { "value": 7, "label": "非常同意" }
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "中立"
+    },
+    {
+      "value": 5,
+      "label": "有点同意"
+    },
+    {
+      "value": 6,
+      "label": "同意"
+    },
+    {
+      "value": 7,
+      "label": "非常同意"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "我对自己在工作或学业上的表现有很高的标准", "type": "likert" },
-    { "index": 1, "text": "我是一个做事有条理的人", "type": "likert" },
-    { "index": 2, "text": "整洁对我来说很重要", "type": "likert" },
-    { "index": 3, "text": "我对自己期望很高", "type": "likert" },
-    { "index": 4, "text": "我经常因为无法达成自己的目标而感到沮丧", "type": "likert" },
-    { "index": 5, "text": "我觉得自己做到最好也还是不够好", "type": "likert" },
-    { "index": 6, "text": "我很少能达到自己的高标准", "type": "likert" },
-    { "index": 7, "text": "我对自己的成就从不满意", "type": "likert" }
+    {
+      "index": 0,
+      "text": "我对自己在工作或学业上的表现有很高的标准",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我是一个做事有条理的人",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "整洁对我来说很重要",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我对自己期望很高",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我经常因为无法达成自己的目标而感到沮丧",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我觉得自己做到最好也还是不够好",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我很少能达到自己的高标准",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我对自己的成就从不满意",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "subscale",
     "maxTotal": 56,
     "maxItemScore": 7,
     "subscales": [
-      { "id": "standards", "name": "高标准", "items": [0, 1, 2, 3], "maxScore": 28 },
-      { "id": "discrepancy", "name": "差距感", "items": [4, 5, 6, 7], "maxScore": 28 }
+      {
+        "id": "standards",
+        "name": "高标准",
+        "items": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "discrepancy",
+        "name": "差距感",
+        "items": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "maxScore": 28
+      }
     ]
   },
   "interpretation": {
@@ -125,15 +199,27 @@
     }
   },
   "report": {
-    "charts": ["bar", "radar"],
+    "charts": [
+      "bar",
+      "radar"
+    ],
     "barConfig": {
-      "subscaleIds": ["standards", "discrepancy"],
+      "subscaleIds": [
+        "standards",
+        "discrepancy"
+      ],
       "maxDisplayScore": 28
     },
     "radarConfig": {
       "indicators": [
-        { "name": "高标准", "max": 28 },
-        { "name": "差距感", "max": 28 }
+        {
+          "name": "高标准",
+          "max": 28
+        },
+        {
+          "name": "差距感",
+          "max": 28
+        }
       ]
     }
   }

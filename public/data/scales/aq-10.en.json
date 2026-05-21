@@ -7,33 +7,108 @@
     "author": "Allison, Auyeung & Baron-Cohen (2012)",
     "license": "Free to use",
     "reference": "Allison C, Auyeung B, Baron-Cohen S. Toward brief \"Red Flags\" for autism screening: The Short Autism Spectrum Quotient and the Short Quantitative Checklist for Autism in toddlers in 1,000 cases and 3,000 controls. J Am Acad Child Adolesc Psychiatry. 2012;51(2):202-212.",
-    "instruction": "Please read each statement below and select the option that best describes you."
+    "instruction": "Please read each statement below and select the option that best describes you.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Definitely Agree" },
-    { "value": 1, "label": "Slightly Agree" },
-    { "value": 2, "label": "Slightly Disagree" },
-    { "value": 3, "label": "Definitely Disagree" }
+    {
+      "value": 0,
+      "label": "Definitely Agree"
+    },
+    {
+      "value": 1,
+      "label": "Slightly Agree"
+    },
+    {
+      "value": 2,
+      "label": "Slightly Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Definitely Disagree"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I often notice small sounds when others do not", "type": "likert", "scoringDirection": "agree" },
-    { "index": 1, "text": "I usually concentrate more on the whole picture, rather than the small details", "type": "likert", "scoringDirection": "disagree" },
-    { "index": 2, "text": "I find it easy to do more than one thing at once", "type": "likert", "scoringDirection": "disagree" },
-    { "index": 3, "text": "If there is an interruption, I can switch back to what I was doing very quickly", "type": "likert", "scoringDirection": "disagree" },
-    { "index": 4, "text": "I find it easy to 'read between the lines' when someone is talking to me", "type": "likert", "scoringDirection": "disagree" },
-    { "index": 5, "text": "I know how to tell if someone listening to me is getting bored", "type": "likert", "scoringDirection": "disagree" },
-    { "index": 6, "text": "When I'm reading a story I find it difficult to work out the characters' intentions", "type": "likert", "scoringDirection": "agree" },
-    { "index": 7, "text": "I like to collect information about categories of things (e.g. types of car, types of bird, types of train, types of plant, etc.)", "type": "likert", "scoringDirection": "agree" },
-    { "index": 8, "text": "I find it easy to work out what someone is thinking or feeling just by looking at their face", "type": "likert", "scoringDirection": "disagree" },
-    { "index": 9, "text": "I find it difficult to work out people's intentions", "type": "likert", "scoringDirection": "agree" }
+    {
+      "index": 0,
+      "text": "I often notice small sounds when others do not",
+      "type": "likert",
+      "scoringDirection": "agree"
+    },
+    {
+      "index": 1,
+      "text": "I usually concentrate more on the whole picture, rather than the small details",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 2,
+      "text": "I find it easy to do more than one thing at once",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 3,
+      "text": "If there is an interruption, I can switch back to what I was doing very quickly",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 4,
+      "text": "I find it easy to 'read between the lines' when someone is talking to me",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 5,
+      "text": "I know how to tell if someone listening to me is getting bored",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 6,
+      "text": "When I'm reading a story I find it difficult to work out the characters' intentions",
+      "type": "likert",
+      "scoringDirection": "agree"
+    },
+    {
+      "index": 7,
+      "text": "I like to collect information about categories of things (e.g. types of car, types of bird, types of train, types of plant, etc.)",
+      "type": "likert",
+      "scoringDirection": "agree"
+    },
+    {
+      "index": 8,
+      "text": "I find it easy to work out what someone is thinking or feeling just by looking at their face",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 9,
+      "text": "I find it difficult to work out people's intentions",
+      "type": "likert",
+      "scoringDirection": "agree"
+    }
   ],
   "scoring": {
     "method": "special_aq10",
     "maxTotal": 10,
     "maxItemScore": 1,
     "description": "For agree items, score 1 if Definitely Agree or Slightly Agree; for disagree items, score 1 if Slightly Disagree or Definitely Disagree",
-    "agreeItems": [0, 6, 7, 9],
-    "disagreeItems": [1, 2, 3, 4, 5, 8],
+    "agreeItems": [
+      0,
+      6,
+      7,
+      9
+    ],
+    "disagreeItems": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -78,7 +153,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 10 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 10
+    }
   }
 }

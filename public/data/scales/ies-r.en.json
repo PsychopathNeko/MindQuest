@@ -7,7 +7,8 @@
     "author": "Weiss & Marmar (1997)",
     "license": "Free to use",
     "reference": "Weiss DS, Marmar CR. The Impact of Event Scale-Revised. In: Wilson JP, Keane TM, eds. Assessing Psychological Trauma and PTSD. New York: Guilford Press; 1997:399-411.",
-    "instruction": "Below is a list of difficulties people sometimes have after stressful life events. Please read each item and then indicate how distressing each difficulty has been for you during the past 7 days with respect to the event you experienced."
+    "instruction": "Below is a list of difficulties people sometimes have after stressful life events. Please read each item and then indicate how distressing each difficulty has been for you during the past 7 days with respect to the event you experienced.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

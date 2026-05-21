@@ -7,7 +7,8 @@
     "author": "Garnefski & Kraaij (2006)",
     "license": "Free to use",
     "reference": "Garnefski N, Kraaij V. Cognitive emotion regulation questionnaire - development of a short 18-item version (CERQ-short). Pers Individ Dif. 2006;41(6):1045-1053.",
-    "instruction": "Everyone gets confronted with negative or unpleasant events now and then. The following statements describe thoughts you might have after experiencing negative events. Please rate how often you generally think this way."
+    "instruction": "Everyone gets confronted with negative or unpleasant events now and then. The following statements describe thoughts you might have after experiencing negative events. Please rate how often you generally think this way.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

@@ -7,7 +7,8 @@
     "author": "Feldman, Joormann & Johnson (2008)",
     "license": "Free to use",
     "reference": "Feldman GC, Joormann J, Johnson SL. Responses to positive affect: A self-report measure of rumination and dampening. Cogn Ther Res. 2008;32(4):507-525.",
-    "instruction": "请回想您感到快乐或心情好的时候。请指出当您感到快乐或心情好时，您通常会怎么做。"
+    "instruction": "请回想您感到快乐或心情好的时候。请指出当您感到快乐或心情好时，您通常会怎么做。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

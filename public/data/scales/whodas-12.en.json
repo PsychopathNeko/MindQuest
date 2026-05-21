@@ -7,7 +7,8 @@
     "author": "World Health Organization (2010)",
     "license": "Free to use",
     "reference": "Ustun TB, Kostanjesek N, Chatterji S, Rehm J. Measuring health and disability: Manual for WHO Disability Assessment Schedule (WHODAS 2.0). World Health Organization. 2010.",
-    "instruction": "In the last 30 days, how much difficulty did you have in the following activities? Please select the most appropriate response for each item."
+    "instruction": "In the last 30 days, how much difficulty did you have in the following activities? Please select the most appropriate response for each item.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

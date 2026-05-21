@@ -7,7 +7,8 @@
     "author": "Stamm BH (2010)",
     "license": "Free to use",
     "reference": "Stamm BH. The Concise ProQOL Manual. 2nd ed. Pocatello, ID: ProQOL.org; 2010.",
-    "instruction": "以下问题关于您作为助人者的经历。请考虑过去30天内每个问题对您的适用程度。"
+    "instruction": "以下问题关于您作为助人者的经历。请考虑过去30天内每个问题对您的适用程度。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

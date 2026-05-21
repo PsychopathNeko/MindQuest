@@ -7,7 +7,8 @@
     "author": "Abramowitz JS, et al. (2010)",
     "license": "Free to use",
     "reference": "Abramowitz JS, et al. Psychol Assess. 2010;22(1):180-198.",
-    "instruction": "以下问题涉及四种不同类型的困扰。请根据过去一个月的实际体验进行评分。"
+    "instruction": "以下问题涉及四种不同类型的困扰。请根据过去一个月的实际体验进行评分。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

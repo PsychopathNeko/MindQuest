@@ -7,21 +7,57 @@
     "author": "Norman et al. (2006)",
     "license": "Public Domain",
     "reference": "Norman SB, et al. Development and validation of an Overall Anxiety Severity and Impairment Scale (OASIS). Depression and Anxiety. 2006;23(4):245-249.",
-    "instruction": "请回答过去一周内你的焦虑情况。"
+    "instruction": "请回答过去一周内你的焦虑情况。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "没有/从不" },
-    { "value": 1, "label": "很少/轻微" },
-    { "value": 2, "label": "有时/中等" },
-    { "value": 3, "label": "经常/严重" },
-    { "value": 4, "label": "持续/极其严重" }
+    {
+      "value": 0,
+      "label": "没有/从不"
+    },
+    {
+      "value": 1,
+      "label": "很少/轻微"
+    },
+    {
+      "value": 2,
+      "label": "有时/中等"
+    },
+    {
+      "value": 3,
+      "label": "经常/严重"
+    },
+    {
+      "value": 4,
+      "label": "持续/极其严重"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "在过去一周中，你有多频繁地感到焦虑", "type": "likert" },
-    { "index": 1, "text": "当你感到焦虑时，焦虑的程度有多强烈", "type": "likert" },
-    { "index": 2, "text": "你有多频繁因为焦虑而回避某些情境、场所或活动", "type": "likert" },
-    { "index": 3, "text": "焦虑在多大程度上干扰了你完成工作、学业或家务的能力", "type": "likert" },
-    { "index": 4, "text": "焦虑在多大程度上干扰了你的社交生活和人际关系", "type": "likert" }
+    {
+      "index": 0,
+      "text": "在过去一周中，你有多频繁地感到焦虑",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "当你感到焦虑时，焦虑的程度有多强烈",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "你有多频繁因为焦虑而回避某些情境、场所或活动",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "焦虑在多大程度上干扰了你完成工作、学业或家务的能力",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "焦虑在多大程度上干扰了你的社交生活和人际关系",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -86,7 +122,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 20 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 20
+    }
   }
 }

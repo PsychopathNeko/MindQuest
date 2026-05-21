@@ -7,7 +7,8 @@
     "author": "Nolen-Hoeksema & Morrow (1991)",
     "license": "Free to use",
     "reference": "Nolen-Hoeksema S, Morrow J. A prospective study of depression and posttraumatic stress symptoms after a natural disaster. J Pers Soc Psychol. 1991;61(1):115-121.",
-    "instruction": "Please indicate whether you almost never, sometimes, often, or almost always think or do each one when you feel down, sad, or depressed."
+    "instruction": "Please indicate whether you almost never, sometimes, often, or almost always think or do each one when you feel down, sad, or depressed.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

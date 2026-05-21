@@ -7,42 +7,142 @@
     "author": "Mattick & Clarke (1998)",
     "license": "Free to use",
     "reference": "Mattick RP, Clarke JC. Development and validation of measures of social phobia scrutiny fear and social interaction anxiety. Behav Res Ther. 1998;36(4):455-470.",
-    "instruction": "以下每个陈述描述了你在与他人互动时可能的感受。请根据每个陈述对你的适用程度选择相应选项。"
+    "instruction": "以下每个陈述描述了你在与他人互动时可能的感受。请根据每个陈述对你的适用程度选择相应选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
-    { "value": 0, "label": "完全不符合" },
-    { "value": 1, "label": "有一点符合" },
-    { "value": 2, "label": "中等程度符合" },
-    { "value": 3, "label": "非常符合" },
-    { "value": 4, "label": "极其符合" }
+    {
+      "value": 0,
+      "label": "完全不符合"
+    },
+    {
+      "value": 1,
+      "label": "有一点符合"
+    },
+    {
+      "value": 2,
+      "label": "中等程度符合"
+    },
+    {
+      "value": 3,
+      "label": "非常符合"
+    },
+    {
+      "value": 4,
+      "label": "极其符合"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "如果必须和权威人士说话，我会感到紧张", "type": "likert" },
-    { "index": 1, "text": "我很难与他人进行眼神接触", "type": "likert" },
-    { "index": 2, "text": "如果必须谈论自己或自己的感受，我会变得紧张", "type": "likert" },
-    { "index": 3, "text": "我发现很难和工作中的人自在地相处", "type": "likert" },
-    { "index": 4, "text": "我觉得和同龄人交朋友很容易", "type": "likert" },
-    { "index": 5, "text": "在街上遇到熟人时，我会变得紧张", "type": "likert" },
-    { "index": 6, "text": "在社交场合中混在人群里时，我感到不自在", "type": "likert" },
-    { "index": 7, "text": "如果只有我和另一个人单独在一起，我会感到紧张", "type": "likert" },
-    { "index": 8, "text": "在聚会等场合认识新朋友时，我感到很自在", "type": "likert" },
-    { "index": 9, "text": "我很难和其他人交谈", "type": "likert" },
-    { "index": 10, "text": "我觉得想到聊天的话题很容易", "type": "likert" },
-    { "index": 11, "text": "我担心表达自己时会显得笨拙", "type": "likert" },
-    { "index": 12, "text": "我发现很难不同意别人的观点", "type": "likert" },
-    { "index": 13, "text": "我很难和异性中有吸引力的人交谈", "type": "likert" },
-    { "index": 14, "text": "我发现自己在社交场合会担心不知道该说什么", "type": "likert" },
-    { "index": 15, "text": "和不太熟悉的人在一起时，我会感到紧张", "type": "likert" },
-    { "index": 16, "text": "我觉得在说话时会说出令人尴尬的话", "type": "likert" },
-    { "index": 17, "text": "在一群人中，我会担心自己被忽视", "type": "likert" },
-    { "index": 18, "text": "当我在别人面前讲话时，我会感到紧张", "type": "likert" },
-    { "index": 19, "text": "我怀疑别人是否真的喜欢我", "type": "likert" }
+    {
+      "index": 0,
+      "text": "如果必须和权威人士说话，我会感到紧张",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我很难与他人进行眼神接触",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "如果必须谈论自己或自己的感受，我会变得紧张",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我发现很难和工作中的人自在地相处",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我觉得和同龄人交朋友很容易",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "在街上遇到熟人时，我会变得紧张",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "在社交场合中混在人群里时，我感到不自在",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "如果只有我和另一个人单独在一起，我会感到紧张",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "在聚会等场合认识新朋友时，我感到很自在",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我很难和其他人交谈",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我觉得想到聊天的话题很容易",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我担心表达自己时会显得笨拙",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我发现很难不同意别人的观点",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我很难和异性中有吸引力的人交谈",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我发现自己在社交场合会担心不知道该说什么",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "和不太熟悉的人在一起时，我会感到紧张",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "我觉得在说话时会说出令人尴尬的话",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "在一群人中，我会担心自己被忽视",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "当我在别人面前讲话时，我会感到紧张",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "我怀疑别人是否真的喜欢我",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 80,
     "maxItemScore": 4,
-    "reverseItems": [4, 8, 10],
+    "reverseItems": [
+      4,
+      8,
+      10
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -104,7 +204,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 80 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 80
+    }
   }
 }

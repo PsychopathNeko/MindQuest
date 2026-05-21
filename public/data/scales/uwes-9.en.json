@@ -7,7 +7,8 @@
     "author": "Schaufeli WB, Bakker AB (2003)",
     "license": "Free to use",
     "reference": "Schaufeli WB, Bakker AB, Salanova M. The measurement of work engagement with a short questionnaire. Educ Psychol Meas. 2006;66(4):701-716.",
-    "instruction": "The following statements are about how you feel at work. Please read each statement carefully and decide if you ever feel this way about your job."
+    "instruction": "The following statements are about how you feel at work. Please read each statement carefully and decide if you ever feel this way about your job.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

@@ -7,17 +7,38 @@
     "author": "Kroenke, Spitzer & Williams (2003)",
     "license": "Public Domain",
     "reference": "Kroenke K, Spitzer RL, Williams JBW. The Patient Health Questionnaire-2: validity of a two-item depression screener. Med Care. 2003;41(11):1284-1292.",
-    "instruction": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+    "instruction": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 0, "label": "Not at all" },
-    { "value": 1, "label": "Several days" },
-    { "value": 2, "label": "More than half the days" },
-    { "value": 3, "label": "Nearly every day" }
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "Several days"
+    },
+    {
+      "value": 2,
+      "label": "More than half the days"
+    },
+    {
+      "value": 3,
+      "label": "Nearly every day"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Little interest or pleasure in doing things", "type": "likert" },
-    { "index": 1, "text": "Feeling down, depressed, or hopeless", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Little interest or pleasure in doing things",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Feeling down, depressed, or hopeless",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -56,7 +77,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 0, "max": 6 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 6
+    }
   }
 }

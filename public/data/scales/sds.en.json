@@ -7,41 +7,145 @@
     "author": "Zung (1965)",
     "license": "Public Domain",
     "reference": "Zung WWK. A self-rating depression scale. Arch Gen Psychiatry. 1965;12:63-70.",
-    "instruction": "Please read each statement and decide how much of the time the statement describes how you have been feeling during the past several days."
+    "instruction": "Please read each statement and decide how much of the time the statement describes how you have been feeling during the past several days.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "A little of the time" },
-    { "value": 2, "label": "Some of the time" },
-    { "value": 3, "label": "Good part of the time" },
-    { "value": 4, "label": "Most or all of the time" }
+    {
+      "value": 1,
+      "label": "A little of the time"
+    },
+    {
+      "value": 2,
+      "label": "Some of the time"
+    },
+    {
+      "value": 3,
+      "label": "Good part of the time"
+    },
+    {
+      "value": 4,
+      "label": "Most or all of the time"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I feel down-hearted and blue", "type": "likert" },
-    { "index": 1, "text": "Morning is when I feel the best", "type": "likert" },
-    { "index": 2, "text": "I have crying spells or feel like it", "type": "likert" },
-    { "index": 3, "text": "I have trouble sleeping at night", "type": "likert" },
-    { "index": 4, "text": "I eat as much as I used to", "type": "likert" },
-    { "index": 5, "text": "I still enjoy sex", "type": "likert" },
-    { "index": 6, "text": "I notice that I am losing weight", "type": "likert" },
-    { "index": 7, "text": "I have trouble with constipation", "type": "likert" },
-    { "index": 8, "text": "My heart beats faster than usual", "type": "likert" },
-    { "index": 9, "text": "I get tired for no reason", "type": "likert" },
-    { "index": 10, "text": "My mind is as clear as it used to be", "type": "likert" },
-    { "index": 11, "text": "I find it easy to do the things I used to", "type": "likert" },
-    { "index": 12, "text": "I am restless and can't keep still", "type": "likert" },
-    { "index": 13, "text": "I feel hopeful about the future", "type": "likert" },
-    { "index": 14, "text": "I am more irritable than usual", "type": "likert" },
-    { "index": 15, "text": "I find it easy to make decisions", "type": "likert" },
-    { "index": 16, "text": "I feel that I am useful and needed", "type": "likert" },
-    { "index": 17, "text": "My life is pretty full", "type": "likert" },
-    { "index": 18, "text": "I feel that others would be better off if I were dead", "type": "likert" },
-    { "index": 19, "text": "I still enjoy the things I used to do", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I feel down-hearted and blue",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Morning is when I feel the best",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I have crying spells or feel like it",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I have trouble sleeping at night",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I eat as much as I used to",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I still enjoy sex",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I notice that I am losing weight",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I have trouble with constipation",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "My heart beats faster than usual",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I get tired for no reason",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "My mind is as clear as it used to be",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I find it easy to do the things I used to",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I am restless and can't keep still",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I feel hopeful about the future",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I am more irritable than usual",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I find it easy to make decisions",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "I feel that I am useful and needed",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "My life is pretty full",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "I feel that others would be better off if I were dead",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "I still enjoy the things I used to do",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 80,
     "maxItemScore": 4,
-    "reverseItems": [1, 4, 5, 10, 11, 13, 15, 16, 17, 19],
+    "reverseItems": [
+      1,
+      4,
+      5,
+      10,
+      11,
+      13,
+      15,
+      16,
+      17,
+      19
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -101,7 +205,21 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 20, "max": 80 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 20,
+      "max": 80
+    }
+  },
+  "crisisConfig": {
+    "type": "item",
+    "items": [
+      {
+        "questionIndex": 18,
+        "threshold": 2
+      }
+    ]
   }
 }

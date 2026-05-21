@@ -7,27 +7,86 @@
     "author": "Kwon et al. (2013)",
     "license": "Free to use",
     "reference": "Kwon M, et al. The smartphone addiction scale: development and validation of a short version for adolescents. PLoS One. 2013;8(12):e83558.",
-    "instruction": "Please rate how much you agree with each statement about your smartphone use."
+    "instruction": "Please rate how much you agree with each statement about your smartphone use.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Strongly Disagree" },
-    { "value": 2, "label": "Disagree" },
-    { "value": 3, "label": "Somewhat Disagree" },
-    { "value": 4, "label": "Somewhat Agree" },
-    { "value": 5, "label": "Agree" },
-    { "value": 6, "label": "Strongly Agree" }
+    {
+      "value": 1,
+      "label": "Strongly Disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat Disagree"
+    },
+    {
+      "value": 4,
+      "label": "Somewhat Agree"
+    },
+    {
+      "value": 5,
+      "label": "Agree"
+    },
+    {
+      "value": 6,
+      "label": "Strongly Agree"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "Missing planned work due to smartphone use", "type": "likert" },
-    { "index": 1, "text": "Having a hard time concentrating in class, while doing assignments, or while working due to smartphone use", "type": "likert" },
-    { "index": 2, "text": "Feeling pain in the wrists or at the back of the neck while using a smartphone", "type": "likert" },
-    { "index": 3, "text": "Won't be able to stand not having a smartphone", "type": "likert" },
-    { "index": 4, "text": "Feeling impatient and fretful when I am not holding my smartphone", "type": "likert" },
-    { "index": 5, "text": "Having my smartphone in my mind even when I am not using it", "type": "likert" },
-    { "index": 6, "text": "I will never give up using my smartphone even when my daily life is already greatly affected by it", "type": "likert" },
-    { "index": 7, "text": "Constantly checking my smartphone so as not to miss conversations between other people on social media", "type": "likert" },
-    { "index": 8, "text": "Using my smartphone longer than I had intended", "type": "likert" },
-    { "index": 9, "text": "The people around me tell me that I use my smartphone too much", "type": "likert" }
+    {
+      "index": 0,
+      "text": "Missing planned work due to smartphone use",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Having a hard time concentrating in class, while doing assignments, or while working due to smartphone use",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Feeling pain in the wrists or at the back of the neck while using a smartphone",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Won't be able to stand not having a smartphone",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Feeling impatient and fretful when I am not holding my smartphone",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Having my smartphone in my mind even when I am not using it",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I will never give up using my smartphone even when my daily life is already greatly affected by it",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Constantly checking my smartphone so as not to miss conversations between other people on social media",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Using my smartphone longer than I had intended",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "The people around me tell me that I use my smartphone too much",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum",
@@ -92,7 +151,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 10, "max": 60 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 60
+    }
   }
 }

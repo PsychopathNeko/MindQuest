@@ -7,7 +7,8 @@
     "author": "Tennant et al. (2007)",
     "license": "Free to use",
     "reference": "Tennant R, et al. The Warwick-Edinburgh Mental Well-being Scale (WEMWBS). Health Qual Life Outcomes. 2007;5:63.",
-    "instruction": "Below are some statements about feelings and thoughts. Please select the option that best describes your experience over the past 2 weeks."
+    "instruction": "Below are some statements about feelings and thoughts. Please select the option that best describes your experience over the past 2 weeks.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
     {

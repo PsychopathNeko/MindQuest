@@ -7,7 +7,8 @@
     "author": "Pilowsky (1967)",
     "license": "Free for research use",
     "reference": "Pilowsky I. Dimensions of hypochondriasis. Br J Psychiatry. 1967;113(494):89-93.",
-    "instruction": "请根据你的实际感受选择最符合的选项。"
+    "instruction": "请根据你的实际感受选择最符合的选项。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {

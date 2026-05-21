@@ -7,28 +7,72 @@
     "author": "De Jong Gierveld & Van Tilburg (2006)",
     "license": "Free to use",
     "reference": "De Jong Gierveld J, Van Tilburg T. A 6-item scale for overall, emotional, and social loneliness. Research on Aging. 2006;28(5):582-598.",
-    "instruction": "Please rate how much you agree with each statement."
+    "instruction": "Please rate how much you agree with each statement.",
+    "population": "Adults (18+)"
   },
   "commonChoices": [
-    { "value": 1, "label": "Strongly Disagree" },
-    { "value": 2, "label": "Disagree" },
-    { "value": 3, "label": "Neutral" },
-    { "value": 4, "label": "Agree" },
-    { "value": 5, "label": "Strongly Agree" }
+    {
+      "value": 1,
+      "label": "Strongly Disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Neutral"
+    },
+    {
+      "value": 4,
+      "label": "Agree"
+    },
+    {
+      "value": 5,
+      "label": "Strongly Agree"
+    }
   ],
   "questions": [
-    { "index": 0, "text": "I experience a general sense of emptiness", "type": "likert" },
-    { "index": 1, "text": "I miss having people around me", "type": "likert" },
-    { "index": 2, "text": "I often feel rejected", "type": "likert" },
-    { "index": 3, "text": "There are plenty of people I can rely on when I have problems", "type": "likert" },
-    { "index": 4, "text": "There are many people I can trust completely", "type": "likert" },
-    { "index": 5, "text": "There are enough people I feel close to", "type": "likert" }
+    {
+      "index": 0,
+      "text": "I experience a general sense of emptiness",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I miss having people around me",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I often feel rejected",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "There are plenty of people I can rely on when I have problems",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "There are many people I can trust completely",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "There are enough people I feel close to",
+      "type": "likert"
+    }
   ],
   "scoring": {
     "method": "sum_with_reverse",
     "maxTotal": 30,
     "maxItemScore": 5,
-    "reverseItems": [3, 4, 5],
+    "reverseItems": [
+      3,
+      4,
+      5
+    ],
     "subscales": null
   },
   "interpretation": {
@@ -90,7 +134,12 @@
     "subscaleRanges": null
   },
   "report": {
-    "charts": ["gauge"],
-    "gaugeConfig": { "min": 6, "max": 30 }
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
   }
 }

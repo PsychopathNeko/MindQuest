@@ -7,7 +7,8 @@
     "author": "Ehring, Zetsche, Weidacker, Wahl, Schönfeld & Ehlers (2011)",
     "license": "Free for research use",
     "reference": "Ehring T, Zetsche U, Weidacker K, Wahl K, Schönfeld S, Ehlers A. The Perseverative Thinking Questionnaire (PTQ): validation of a content-independent measure of repetitive negative thinking. J Behav Ther Exp Psychiatry. 2011;42(2):225-232.",
-    "instruction": "请想想当你经历负面事件或问题时，你通常的思维方式。"
+    "instruction": "请想想当你经历负面事件或问题时，你通常的思维方式。",
+    "population": "成人（18岁以上）"
   },
   "commonChoices": [
     {
