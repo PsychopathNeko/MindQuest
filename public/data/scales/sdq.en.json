@@ -160,9 +160,7 @@
       10,
       13,
       20,
-      24,
-      0,
-      3
+      24
     ],
     "subscales": [
       {
@@ -205,9 +203,9 @@
         "id": "peer",
         "name": "Peer Relationship Problems",
         "items": [
-          3,
           5,
           10,
+          13,
           18,
           22
         ],
@@ -218,8 +216,8 @@
         "name": "Prosocial Behavior",
         "items": [
           0,
+          3,
           8,
-          13,
           16,
           19
         ],

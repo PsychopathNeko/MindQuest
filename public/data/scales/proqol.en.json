@@ -115,72 +115,72 @@
     },
     {
       "index": 16,
-      "text": "I have thoughts that I am a \"success\" as a helper.",
+      "text": "I am the person I always wanted to be.",
       "type": "likert"
     },
     {
       "index": 17,
-      "text": "I am overwhelmed because my case work load seems endless.",
-      "type": "likert"
-    },
-    {
-      "index": 18,
-      "text": "I avoid certain activities or situations because they remind me of frightening experiences of the people I help.",
-      "type": "likert"
-    },
-    {
-      "index": 19,
-      "text": "I am proud of what I can do to help.",
-      "type": "likert"
-    },
-    {
-      "index": 20,
-      "text": "As a result of my helping, I have intrusive, frightening thoughts.",
-      "type": "likert"
-    },
-    {
-      "index": 21,
-      "text": "I feel \"bogged down\" by the system.",
-      "type": "likert"
-    },
-    {
-      "index": 22,
-      "text": "I have happy thoughts and feelings about those I help and how I could help them.",
-      "type": "likert"
-    },
-    {
-      "index": 23,
-      "text": "I feel I can make a difference through my work.",
-      "type": "likert"
-    },
-    {
-      "index": 24,
-      "text": "I can't recall important parts of my work with trauma victims.",
-      "type": "likert"
-    },
-    {
-      "index": 25,
-      "text": "I am a very caring person.",
-      "type": "likert"
-    },
-    {
-      "index": 26,
-      "text": "I am happy that I chose to do this work.",
-      "type": "likert"
-    },
-    {
-      "index": 27,
       "text": "My work makes me feel satisfied.",
       "type": "likert"
     },
     {
+      "index": 18,
+      "text": "I feel worn out because of my work as a helper.",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "I have happy thoughts and feelings about those I help and how I could help them.",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "I feel overwhelmed because my case work load seems endless.",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "I believe I can make a difference through my work.",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "I avoid certain activities or situations because they remind me of frightening experiences of the people I help.",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "I am proud of what I can do to help.",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "As a result of my helping, I have intrusive, frightening thoughts.",
+      "type": "likert"
+    },
+    {
+      "index": 25,
+      "text": "I feel \"bogged down\" by the system.",
+      "type": "likert"
+    },
+    {
+      "index": 26,
+      "text": "I have thoughts that I am a \"success\" as a helper.",
+      "type": "likert"
+    },
+    {
+      "index": 27,
+      "text": "I can't recall important parts of my work with trauma victims.",
+      "type": "likert"
+    },
+    {
       "index": 28,
-      "text": "I have thoughts of being overwhelmed by my work as a helper.",
+      "text": "I am a very caring person.",
       "type": "likert"
     },
     {
       "index": 29,
-      "text": "I feel worn out because of my work as a helper.",
+      "text": "I am happy that I chose to do this work.",
       "type": "likert"
     }
   ],
@@ -190,8 +190,9 @@
     "maxItemScore": 5,
     "reverseItems": [
       0,
-      7,
-      27
+      3,
+      14,
+      16
     ],
     "subscales": [
       {

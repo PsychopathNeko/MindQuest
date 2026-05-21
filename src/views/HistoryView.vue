@@ -1,5 +1,7 @@
 <script setup>
 import { onMounted, ref, computed } from 'vue'
+import { useHead } from '@unhead/vue'
+import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
 import { useRouter } from 'vue-router'
 import { useHistory } from '@/composables/useHistory'
 import { exportAllData, importData } from '@/utils/storage'
@@ -11,6 +13,14 @@ const router = useRouter()
 const { records, loading, loadRecords, removeRecord, clearAll, formatDate } = useHistory()
 const { t } = useLocale()
 const { scales, tagGroups, loadIndex: loadScaleIndex } = useScaleLoader()
+const breadcrumbItems = computed(() => [
+  { label: t('nav.home'), to: { name: 'home' } },
+  { label: t('nav.history') }
+])
+
+useHead({
+  title: computed(() => `${t('nav.history')} - MindQuest`),
+})
 
 const selectedGroup = ref('')
 const showClearConfirm = ref(false)
@@ -46,7 +56,9 @@ function handleExport() {
   const a = document.createElement('a')
   a.href = url
   a.download = `mindquest-backup-${new Date().toISOString().slice(0, 10)}.json`
+  document.body.appendChild(a)
   a.click()
+  document.body.removeChild(a)
   URL.revokeObjectURL(url)
   importMessage.value = t('history.exportSuccess', { count: parsed.assessments.length })
   setTimeout(() => { importMessage.value = '' }, 3000)
@@ -116,6 +128,7 @@ function getSubscales(record) { const subs = record.data?.report?.subscaleReport
 </script>
 <template>
   <div class="history-view">
+    <BreadcrumbNav :items="breadcrumbItems" />
     <div class="container">
       <div class="page-header">
         <h1 class="page-title">{{ t('history.title') }}</h1>

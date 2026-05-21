@@ -34,7 +34,7 @@ useHead({
       content: computed(() =>
         scale.value
           ? `${scale.value.meta.name} - MindQuest`
-          : 'MindQuest 心灵探索'
+          : 'MindQuest'
       ),
     },
     {
@@ -47,8 +47,12 @@ useHead({
 })
 
 onServerPrefetch(async () => {
-  const data = await loadScale(scaleId.value)
-  scale.value = data
+  try {
+    const data = await loadScale(scaleId.value)
+    scale.value = data
+  } catch (e) {
+    // SSG will render loading state; client will hydrate and retry
+  }
 })
 
 onMounted(async () => {

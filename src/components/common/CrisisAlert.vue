@@ -15,10 +15,10 @@ const { t } = useLocale()
     <div class="crisis-hotlines">
       <p class="crisis-hotlines-title">{{ t('crisis.hotlineTitle') }}</p>
       <ul class="crisis-hotline-list">
-        <li><strong>{{ t('crisis.line1Label') }}</strong> {{ t('crisis.line1Number') }}</li>
-        <li><strong>{{ t('crisis.line2Label') }}</strong> {{ t('crisis.line2Number') }}</li>
-        <li><strong>{{ t('crisis.line3Label') }}</strong> {{ t('crisis.line3Number') }}</li>
-        <li><strong>{{ t('crisis.line4Label') }}</strong> {{ t('crisis.line4Number') }}</li>
+        <li><strong>{{ t('crisis.line1Label') }}</strong> <a :href="'tel:' + t('crisis.line1Number')" class="crisis-tel">{{ t('crisis.line1Number') }}</a></li>
+        <li><strong>{{ t('crisis.line2Label') }}</strong> <a :href="'tel:' + t('crisis.line2Number')" class="crisis-tel">{{ t('crisis.line2Number') }}</a></li>
+        <li><strong>{{ t('crisis.line3Label') }}</strong> <a :href="'tel:' + t('crisis.line3Number')" class="crisis-tel">{{ t('crisis.line3Number') }}</a></li>
+        <li><strong>{{ t('crisis.line4Label') }}</strong> <a :href="'tel:' + t('crisis.line4Number')" class="crisis-tel">{{ t('crisis.line4Number') }}</a></li>
       </ul>
     </div>
     <p class="crisis-action">{{ t('crisis.action') }}</p>
@@ -90,6 +90,14 @@ const { t } = useLocale()
 }
 .crisis-hotline-list strong {
   color: #dc2626;
+}
+.crisis-tel {
+  color: #dc2626;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.crisis-tel:hover {
+  color: #b91c1c;
 }
 .crisis-action {
   font-size: var(--font-size-sm);

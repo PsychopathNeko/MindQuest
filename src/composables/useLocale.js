@@ -291,7 +291,7 @@ const messages = {
 }
 
 function t(key, params) {
-  let str = messages[locale.value]?.[key] || messages.zh[key]
+  let str = messages[locale.value]?.[key] ?? messages.zh[key]
   if (!str) {
     if (import.meta.env.DEV) console.warn(`[i18n] Missing key: ${key}`)
     str = key
