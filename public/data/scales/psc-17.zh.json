@@ -8,7 +8,7 @@
     "license": "Free to use",
     "reference": "Gardner W, et al. The PSC-17: A brief pediatric symptom checklist with psychosocial problem subscales. Ambulatory Child Health. 1999;5:225-236.",
     "instruction": "请根据您的孩子在过去一个月的表现，选择最符合的选项。",
-    "population": "成人（18岁以上）"
+    "population": "儿童青少年（4-18岁，家长填写）"
   },
   "commonChoices": [
     {

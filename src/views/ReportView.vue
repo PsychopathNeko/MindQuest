@@ -142,6 +142,9 @@ function handlePrint() { if (typeof window !== 'undefined') window.print() }
       </div>
 
       <InterpretationCard v-if="report.level !== 'unknown' && report.description" :title="t('report.overallInterpretation')" :description="report.description" :level="report.level" />
+      <div v-else-if="hasSubscales" class="no-total-hint">
+        <p>{{ t('report.noTotalInterpretation') }}</p>
+      </div>
       <TimelineChart :assessments="scaleHistory" :max-score="gaugeMax" :min-score="gaugeMin" :show-subscales="hasSubscales" />
 
       <template v-if="hasSubscales">
@@ -178,6 +181,7 @@ function handlePrint() { if (typeof window !== 'undefined') window.print() }
 .action-buttons .btn { min-width: 120px; }
 .disclaimer { text-align: center; padding: var(--spacing-4); border-top: 1px solid var(--color-border); }
 .disclaimer p { font-size: var(--font-size-xs); color: var(--color-text-secondary); line-height: 1.6; margin: 0; }
+.no-total-hint { text-align: center; padding: var(--spacing-4); color: var(--color-text-secondary); font-size: var(--font-size-sm); font-style: italic; }
 .state-block { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-4); padding: var(--spacing-12) 0; color: var(--color-text-secondary); }
 .error-state { text-align: center; }
 .error-icon { width: 48px; height: 48px; border-radius: var(--border-radius-full); background-color: #fef2f2; color: var(--color-danger); display: flex; align-items: center; justify-content: center; font-size: var(--font-size-xl); font-weight: 700; }
