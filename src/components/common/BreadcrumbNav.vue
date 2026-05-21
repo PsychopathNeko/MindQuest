@@ -21,7 +21,7 @@ defineProps({
 
 <style scoped>
 .breadcrumb {
-  padding: var(--spacing-4) 0 0;
+  padding: 0;
   max-width: 720px;
   margin: 0 auto;
 }
@@ -53,7 +53,7 @@ defineProps({
   user-select: none;
 }
 @media (max-width: 640px) {
-  .breadcrumb { padding: var(--spacing-2) 0 0; }
+  .breadcrumb { padding: 0; }
   .breadcrumb-list { font-size: var(--font-size-xs); }
 }
 </style>

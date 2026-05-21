@@ -2,6 +2,7 @@
 import { onMounted, ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useHistory } from '@/composables/useHistory'
+import { exportAllData, importData } from '@/utils/storage'
 import { useScaleLoader } from '@/composables/useScaleLoader'
 import { useLocale } from '@/composables/useLocale'
 import { getSeverityColor } from '@/engine/reportEngine'
@@ -14,6 +15,8 @@ const { scales, tagGroups, loadIndex: loadScaleIndex } = useScaleLoader()
 const selectedGroup = ref('')
 const showClearConfirm = ref(false)
 const pendingDeleteKey = ref(null)
+const fileInput = ref(null)
+const importMessage = ref('')
 
 // No onServerPrefetch: history data comes from localStorage which is empty during SSG
 onMounted(() => { loadRecords(); loadScaleIndex() })
@@ -29,6 +32,47 @@ function cancelClearAll() { showClearConfirm.value = false }
 function executeClearAll() { clearAll(); showClearConfirm.value = false }
 function goHome() { router.push({ name: 'home' }) }
 function selectGroup(groupId) { selectedGroup.value = selectedGroup.value === groupId ? '' : groupId }
+
+function handleExport() {
+  const data = exportAllData()
+  const parsed = JSON.parse(data)
+  if (!parsed.assessments.length) {
+    importMessage.value = t('history.noData')
+    setTimeout(() => { importMessage.value = '' }, 3000)
+    return
+  }
+  const blob = new Blob([data], { type: 'application/json' })
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = `mindquest-backup-${new Date().toISOString().slice(0, 10)}.json`
+  a.click()
+  URL.revokeObjectURL(url)
+  importMessage.value = t('history.exportSuccess', { count: parsed.assessments.length })
+  setTimeout(() => { importMessage.value = '' }, 3000)
+}
+
+function triggerImport() {
+  fileInput.value?.click()
+}
+
+function handleImportFile(event) {
+  const file = event.target.files?.[0]
+  if (!file) return
+  const reader = new FileReader()
+  reader.onload = (e) => {
+    try {
+      const result = importData(e.target.result)
+      loadRecords()
+      importMessage.value = t('history.importSuccess', { imported: result.imported, skipped: result.skipped })
+    } catch {
+      importMessage.value = t('history.importError')
+    }
+    setTimeout(() => { importMessage.value = '' }, 5000)
+  }
+  reader.readAsText(file)
+  event.target.value = ''
+}
 
 const scaleTagMap = computed(() => {
   const m = new Map()
@@ -137,6 +181,19 @@ function getSubscales(record) { const subs = record.data?.report?.subscaleReport
           </div>
         </div>
 
+        <div class="data-actions">
+          <button class="btn btn-outline btn-data" @click="handleExport">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            {{ t('history.export') }}
+          </button>
+          <button class="btn btn-outline btn-data" @click="triggerImport">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            {{ t('history.import') }}
+          </button>
+          <input ref="fileInput" type="file" accept=".json" style="display:none" @change="handleImportFile" />
+          <p v-if="importMessage" class="data-message">{{ importMessage }}</p>
+        </div>
+
         <div class="clear-section">
           <template v-if="!showClearConfirm">
             <button class="btn btn-ghost btn-clear" @click="confirmClearAll">{{ t('history.clearAll') }}</button>
@@ -236,5 +293,28 @@ function getSubscales(record) { const subs = record.data?.report?.subscaleReport
 .btn-danger-solid:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
+}
+.data-actions {
+  max-width: 720px;
+  margin: var(--spacing-6) auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-3);
+  flex-wrap: wrap;
+}
+.btn-data {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  font-size: var(--font-size-sm);
+  padding: var(--spacing-2) var(--spacing-4);
+}
+.data-message {
+  width: 100%;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-primary);
+  margin: var(--spacing-2) 0 0;
 }
 </style>

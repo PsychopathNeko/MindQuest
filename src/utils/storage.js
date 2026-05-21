@@ -78,3 +78,51 @@ export function getAssessmentsForScale(scaleId) {
     .filter((item) => item.data.scaleId === scaleId)
     .sort((a, b) => (a.data.timestamp || 0) - (b.data.timestamp || 0))
 }
+
+
+/**
+ * Export all assessment data as a JSON string.
+ * @returns {string}
+ */
+export function exportAllData() {
+  const assessments = getAssessments()
+  const payload = {
+    version: 1,
+    exportedAt: new Date().toISOString(),
+    app: 'MindQuest',
+    assessments: assessments.map(a => a.data)
+  }
+  return JSON.stringify(payload, null, 2)
+}
+
+/**
+ * Import assessment data from a JSON string.
+ * Merges with existing data (skips duplicates by scaleId+timestamp).
+ * @param {string} jsonStr
+ * @returns {{ imported: number, skipped: number, errors: number }}
+ */
+export function importData(jsonStr) {
+  const result = { imported: 0, skipped: 0, errors: 0 }
+  let payload
+  try {
+    payload = JSON.parse(jsonStr)
+  } catch {
+    throw new Error('Invalid JSON format')
+  }
+  if (!payload.assessments || !Array.isArray(payload.assessments)) {
+    throw new Error('Invalid data format: missing assessments array')
+  }
+  const existing = new Set(getAssessments().map(a => `${a.data.scaleId}_${a.data.timestamp}`))
+  for (const item of payload.assessments) {
+    if (!item.scaleId || !item.timestamp) { result.errors++; continue }
+    const id = `${item.scaleId}_${item.timestamp}`
+    if (existing.has(id)) { result.skipped++; continue }
+    try {
+      saveAssessment(item)
+      result.imported++
+    } catch {
+      result.errors++
+    }
+  }
+  return result
+}

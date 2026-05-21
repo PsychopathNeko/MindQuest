@@ -139,6 +139,12 @@ const messages = {
     'crisis.line4Label': '希望24热线：',
     'crisis.line4Number': '400-161-9995',
     'crisis.action': '如果您正处于紧急危险中，请立即拨打 120 或前往最近的急诊室。',
+    'history.export': '导出数据',
+    'history.import': '导入数据',
+    'history.exportSuccess': '已导出 {count} 条记录',
+    'history.importSuccess': '导入完成：新增 {imported} 条，跳过 {skipped} 条重复',
+    'history.importError': '导入失败：文件格式无效',
+    'history.noData': '没有可导出的数据',
   },
   en: {
     'nav.home': 'Scales',
@@ -273,6 +279,12 @@ const messages = {
     'crisis.line4Label': 'Crisis Text Line (US): ',
     'crisis.line4Number': 'Text HOME to 741741',
     'crisis.action': 'If you are in immediate danger, please call emergency services (120 in China, 911 in US) or go to the nearest emergency room.',
+    'history.export': 'Export Data',
+    'history.import': 'Import Data',
+    'history.exportSuccess': 'Exported {count} records',
+    'history.importSuccess': 'Import complete: {imported} new, {skipped} skipped',
+    'history.importError': 'Import failed: invalid file format',
+    'history.noData': 'No data to export',
   },
 }
 
