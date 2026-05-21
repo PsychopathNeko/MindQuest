@@ -13,7 +13,10 @@ useHead({
   link: [{ rel: 'canonical', href: computed(() => `https://psychopathneko.github.io/MindQuest${route.path}`) }],
   meta: [
     { property: 'og:url', content: computed(() => `https://psychopathneko.github.io/MindQuest${route.path}`) },
-    { name: 'twitter:card', content: 'summary' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'MindQuest - 心灵探索' },
+    { name: 'twitter:description', content: '免费双语心理自评平台，收录 157+ 经过验证的心理量表' },
+    { name: 'twitter:image', content: 'https://psychopathneko.github.io/MindQuest/og-image.png' },
   ],
 })
 const sidebarOpen = ref(false)

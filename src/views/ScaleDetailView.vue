@@ -44,7 +44,7 @@ useHead({
       ),
     },
     { property: 'og:url', content: computed(() => `https://psychopathneko.github.io/MindQuest/scale/${scaleId.value}`) },
-    { name: 'twitter:card', content: 'summary' },
+    { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: computed(() => scale.value ? `${scale.value.meta.name} - MindQuest` : 'MindQuest') },
     { name: 'twitter:description', content: computed(() => scale.value ? scale.value.meta.description : '') },
   ],

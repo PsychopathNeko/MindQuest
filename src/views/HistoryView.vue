@@ -24,8 +24,9 @@ useHead({
     { name: 'description', content: computed(() => t('history.metaDescription') || t('nav.history')) },
     { property: 'og:title', content: computed(() => `${t('nav.history')} - MindQuest`) },
     { property: 'og:description', content: computed(() => t('history.metaDescription') || t('nav.history')) },
-    { name: 'twitter:card', content: 'summary' },
+    { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: computed(() => `${t('nav.history')} - MindQuest`) },
+    { name: 'twitter:description', content: computed(() => t('history.metaDescription') || t('nav.history')) },
   ],
 })
 
