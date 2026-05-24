@@ -90,9 +90,9 @@
     "maxItemScore": 5,
     "reverseItems": [
       1,
-      3,
       5,
       7,
+      8,
       9
     ],
     "subscales": [
@@ -156,7 +156,8 @@
         ],
         "maxScore": 10
       }
-    ]
+    ],
+    "minItemScore": 1
   },
   "interpretation": {
     "ranges": null,

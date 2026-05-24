@@ -15,10 +15,11 @@
  * Reverse a single item score.
  * @param {number} value   — the raw answer value
  * @param {number} maxItemScore — the maximum possible score for the item
+ * @param {number} minItemScore — the minimum possible score for the item (default 0)
  * @returns {number}
  */
-function reverseScore(value, maxItemScore) {
-  return maxItemScore - value
+function reverseScore(value, maxItemScore, minItemScore = 0) {
+  return (minItemScore + maxItemScore) - value
 }
 
 /**
@@ -27,9 +28,10 @@ function reverseScore(value, maxItemScore) {
  * @param {Object}   answers       — { questionIndex: selectedValue }
  * @param {number[]} reverseItems  — 0-based indices of items to reverse
  * @param {number}   maxItemScore  — max score per item (for reverse formula)
+ * @param {number}   minItemScore  — min score per item (for reverse formula, default 0)
  * @returns {{ items: Array<{index, raw, scored}>, scoredMap: Object }}
  */
-function buildItemDetails(answers, reverseItems = [], maxItemScore = 0) {
+function buildItemDetails(answers, reverseItems = [], maxItemScore = 0, minItemScore = 0) {
   const reverseSet = new Set(reverseItems)
   const items = []
   const scoredMap = {}
@@ -37,7 +39,7 @@ function buildItemDetails(answers, reverseItems = [], maxItemScore = 0) {
   for (const [key, raw] of Object.entries(answers)) {
     const index = Number(key)
     const isReverse = reverseSet.has(index)
-    const scored = isReverse ? reverseScore(raw, maxItemScore) : raw
+    const scored = isReverse ? reverseScore(raw, maxItemScore, minItemScore) : raw
     items.push({ index, raw, scored })
     scoredMap[index] = scored
   }
@@ -62,8 +64,8 @@ function scoreSum(answers, scoring = {}) {
 }
 
 function scoreSumWithReverse(answers, scoring) {
-  const { reverseItems = [], maxItemScore = 0 } = scoring
-  const { items } = buildItemDetails(answers, reverseItems, maxItemScore)
+  const { reverseItems = [], maxItemScore = 0, minItemScore = 0 } = scoring
+  const { items } = buildItemDetails(answers, reverseItems, maxItemScore, minItemScore)
   const scoredSet = scoring.scoredItems ? new Set(scoring.scoredItems) : null
   const total = items
     .filter(item => !scoredSet || scoredSet.has(item.index))
@@ -86,8 +88,8 @@ function scoreSubscale(answers, scoring) {
 }
 
 function scoreSubscaleWithReverse(answers, scoring) {
-  const { reverseItems = [], maxItemScore = 0 } = scoring
-  const { items, scoredMap } = buildItemDetails(answers, reverseItems, maxItemScore)
+  const { reverseItems = [], maxItemScore = 0, minItemScore = 0 } = scoring
+  const { items, scoredMap } = buildItemDetails(answers, reverseItems, maxItemScore, minItemScore)
 
   const subscales = scoring.subscales.map((sub) => {
     const score = sub.items.reduce((sum, idx) => sum + (scoredMap[idx] ?? 0), 0)
@@ -108,6 +110,7 @@ function scoreMeanSubscale(answers, scoring) {
   const subscales = scoring.subscales.map((sub) => {
     const reverseSet = new Set(sub.reverseItems ?? [])
     const maxItem = sub.maxItemScore ?? scoring.maxItemScore ?? 7
+    const minItem = sub.minItemScore ?? scoring.minItemScore ?? 0
 
     let sum = 0
     let count = 0
@@ -117,7 +120,7 @@ function scoreMeanSubscale(answers, scoring) {
       if (raw === undefined || raw === null) continue
 
       const isReverse = reverseSet.has(idx)
-      const scored = isReverse ? reverseScore(raw, maxItem) : raw
+      const scored = isReverse ? reverseScore(raw, maxItem, minItem) : raw
 
       sum += scored
       count += 1

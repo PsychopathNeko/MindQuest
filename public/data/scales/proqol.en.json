@@ -188,6 +188,7 @@
     "method": "subscale_with_reverse",
     "maxTotal": 150,
     "maxItemScore": 5,
+    "minItemScore": 1,
     "reverseItems": [
       0,
       3,

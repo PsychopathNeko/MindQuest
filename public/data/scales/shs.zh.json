@@ -124,7 +124,7 @@
       "choices": [
         {
           "value": 1,
-          "label": "非常符合"
+          "label": "完全不符合"
         },
         {
           "value": 2,
@@ -148,7 +148,7 @@
         },
         {
           "value": 7,
-          "label": "完全不符合"
+          "label": "非常符合"
         }
       ]
     }
@@ -160,7 +160,8 @@
     "reverseItems": [
       3
     ],
-    "subscales": null
+    "subscales": null,
+    "minItemScore": 1
   },
   "interpretation": {
     "ranges": [

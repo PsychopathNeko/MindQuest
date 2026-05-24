@@ -189,7 +189,7 @@
         "name": "积极应对",
         "items": [
           1,
-          24
+          6
         ],
         "maxScore": 8
       },
@@ -233,8 +233,8 @@
         "id": "positive_reframing",
         "name": "积极重构",
         "items": [
-          6,
-          17
+          11,
+          16
         ],
         "maxScore": 8
       },
@@ -243,7 +243,7 @@
         "name": "宣泄",
         "items": [
           8,
-          11
+          20
         ],
         "maxScore": 8
       },
@@ -261,7 +261,7 @@
         "name": "自我责备",
         "items": [
           12,
-          16
+          25
         ],
         "maxScore": 8
       },
@@ -270,7 +270,7 @@
         "name": "计划",
         "items": [
           13,
-          25
+          24
         ],
         "maxScore": 8
       },
@@ -278,7 +278,7 @@
         "id": "humor",
         "name": "幽默",
         "items": [
-          20,
+          17,
           27
         ],
         "maxScore": 8

@@ -111,6 +111,7 @@
     "method": "sum_with_reverse",
     "maxTotal": 91,
     "maxItemScore": 7,
+    "minItemScore": 1,
     "reverseItems": [
       0,
       1,

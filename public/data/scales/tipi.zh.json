@@ -95,7 +95,8 @@
   "scoring": {
     "method": "mean_subscale",
     "maxTotal": null,
-    "maxItemScore": 8,
+    "maxItemScore": 7,
+    "minItemScore": 1,
     "subscales": [
       {
         "id": "extraversion",
@@ -107,7 +108,8 @@
         "reverseItems": [
           5
         ],
-        "maxItemScore": 8
+        "maxItemScore": 7,
+        "minItemScore": 1
       },
       {
         "id": "agreeableness",
@@ -119,7 +121,8 @@
         "reverseItems": [
           1
         ],
-        "maxItemScore": 8
+        "maxItemScore": 7,
+        "minItemScore": 1
       },
       {
         "id": "conscientiousness",
@@ -131,7 +134,8 @@
         "reverseItems": [
           7
         ],
-        "maxItemScore": 8
+        "maxItemScore": 7,
+        "minItemScore": 1
       },
       {
         "id": "emotional_stability",
@@ -143,7 +147,8 @@
         "reverseItems": [
           3
         ],
-        "maxItemScore": 8
+        "maxItemScore": 7,
+        "minItemScore": 1
       },
       {
         "id": "openness",
@@ -155,7 +160,8 @@
         "reverseItems": [
           9
         ],
-        "maxItemScore": 8
+        "maxItemScore": 7,
+        "minItemScore": 1
       }
     ]
   },

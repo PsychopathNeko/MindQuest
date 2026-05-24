@@ -103,7 +103,8 @@
     }
   ],
   "scoring": {
-    "method": "subscale",
+    "method": "subscale_with_reverse",
+    "minItemScore": 1,
     "maxTotal": 84,
     "maxItemScore": 7,
     "reverseItems": [

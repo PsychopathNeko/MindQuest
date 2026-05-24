@@ -138,13 +138,13 @@
     "method": "subscale_with_reverse",
     "maxTotal": 100,
     "maxItemScore": 5,
+    "minItemScore": 1,
     "reverseItems": [
       3,
-      6,
+      4,
       9,
-      13,
-      14,
-      17
+      17,
+      18
     ],
     "subscales": [
       {
