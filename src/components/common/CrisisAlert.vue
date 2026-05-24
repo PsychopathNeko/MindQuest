@@ -18,7 +18,7 @@ const { t } = useLocale()
         <li><strong>{{ t('crisis.line1Label') }}</strong> <a :href="'tel:' + t('crisis.line1Number')" class="crisis-tel">{{ t('crisis.line1Number') }}</a></li>
         <li><strong>{{ t('crisis.line2Label') }}</strong> <a :href="'tel:' + t('crisis.line2Number')" class="crisis-tel">{{ t('crisis.line2Number') }}</a></li>
         <li><strong>{{ t('crisis.line3Label') }}</strong> <a :href="'tel:' + t('crisis.line3Number')" class="crisis-tel">{{ t('crisis.line3Number') }}</a></li>
-        <li><strong>{{ t('crisis.line4Label') }}</strong> <a :href="'sms:' + t('crisis.line4Number')" class="crisis-tel">{{ t('crisis.line4Display') || t('crisis.line4Number') }}</a></li>
+        <li><strong>{{ t('crisis.line4Label') }}</strong> <a :href="t('crisis.line4Href')" class="crisis-tel">{{ t('crisis.line4Display') }}</a></li>
       </ul>
     </div>
     <p class="crisis-action">{{ t('crisis.action') }}</p>

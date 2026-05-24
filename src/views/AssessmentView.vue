@@ -24,6 +24,7 @@ const {
 
 const slideDirection = ref('left')
 const showInstruction = ref(true)
+const submitting = ref(false)
 
 const currentChoices = computed(() => {
   if (!currentQuestion.value || !scale.value) return []
@@ -58,6 +59,8 @@ function handleKeydown(e) {
 }
 
 function submitResults() {
+  if (submitting.value) return
+  submitting.value = true
   const { answers: answerData, scores, report } = getResults()
   const timestamp = Date.now()
   const result = { scaleId: scaleId.value, scaleName: scale.value.meta.name, timestamp, answers: answerData, scores, report }
@@ -149,7 +152,7 @@ onBeforeUnmount(() => {
             <div class="nav-buttons">
               <button class="btn btn-outline" :disabled="!canGoBack" @click="handlePrev">{{ t('assess.prev') }}</button>
               <button v-if="!isComplete" class="btn btn-primary" :disabled="!canGoForward" @click="handleNext">{{ t('assess.next') }}</button>
-              <button v-else class="btn btn-primary btn-submit" @click="submitResults">{{ t('assess.viewResults') }}</button>
+              <button v-else class="btn btn-primary btn-submit" :disabled="submitting" @click="submitResults">{{ t('assess.viewResults') }}</button>
             </div>
           </div>
 

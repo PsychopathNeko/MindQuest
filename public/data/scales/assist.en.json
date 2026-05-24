@@ -1,0 +1,1946 @@
+{
+  "meta": {
+    "id": "assist",
+    "name": "ASSIST Alcohol, Smoking and Substance Involvement Screening Test",
+    "fullName": "WHO Alcohol, Smoking and Substance Involvement Screening Test V3.1",
+    "description": "The ASSIST is a multi-substance screening tool developed by the WHO. It assesses risk across 10 substance categories, with independent scoring for each substance to identify low, moderate, and high risk levels.",
+    "author": "WHO ASSIST Working Group (2010)",
+    "license": "CC BY-NC-SA 3.0 IGO (WHO)",
+    "reference": "WHO ASSIST Working Group. Alcohol, Smoking and Substance Involvement Screening Test (ASSIST). Geneva: WHO; 2010.",
+    "instruction": "Please answer the following questions based on your experience over the past three months. Each group of questions addresses one substance category. If you have never used a substance, select 'Never' or 'No, never'.",
+    "population": "Adults (18+)"
+  },
+  "questions": [
+    {
+      "index": 0,
+      "text": "In the past three months, how often have you used Tobacco Products (cigarettes, cigars, pipe, e-cigarettes, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 2,
+          "label": "Once or twice"
+        },
+        {
+          "value": 3,
+          "label": "Monthly"
+        },
+        {
+          "value": 4,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "In the past three months, how often have you had a strong desire or urge to use Tobacco Products (cigarettes, cigars, pipe, e-cigarettes, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 3,
+          "label": "Once or twice"
+        },
+        {
+          "value": 4,
+          "label": "Monthly"
+        },
+        {
+          "value": 5,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "During the past three months, how often has your use of Tobacco Products (cigarettes, cigars, pipe, e-cigarettes, etc.) led to health, social, legal, or financial problems?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 4,
+          "label": "Once or twice"
+        },
+        {
+          "value": 5,
+          "label": "Monthly"
+        },
+        {
+          "value": 6,
+          "label": "Weekly"
+        },
+        {
+          "value": 7,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "During the past three months, how often have you failed to do what was normally expected of you because of your use of Tobacco Products (cigarettes, cigars, pipe, e-cigarettes, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 5,
+          "label": "Once or twice"
+        },
+        {
+          "value": 6,
+          "label": "Monthly"
+        },
+        {
+          "value": 7,
+          "label": "Weekly"
+        },
+        {
+          "value": 8,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "Has a friend or relative or anyone else ever expressed concern about your use of Tobacco Products (cigarettes, cigars, pipe, e-cigarettes, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "Have you ever tried and failed to control, cut down or stop using Tobacco Products (cigarettes, cigars, pipe, e-cigarettes, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "In the past three months, how often have you used Alcoholic Beverages (beer, wine, spirits, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 2,
+          "label": "Once or twice"
+        },
+        {
+          "value": 3,
+          "label": "Monthly"
+        },
+        {
+          "value": 4,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "In the past three months, how often have you had a strong desire or urge to use Alcoholic Beverages (beer, wine, spirits, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 3,
+          "label": "Once or twice"
+        },
+        {
+          "value": 4,
+          "label": "Monthly"
+        },
+        {
+          "value": 5,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "During the past three months, how often has your use of Alcoholic Beverages (beer, wine, spirits, etc.) led to health, social, legal, or financial problems?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 4,
+          "label": "Once or twice"
+        },
+        {
+          "value": 5,
+          "label": "Monthly"
+        },
+        {
+          "value": 6,
+          "label": "Weekly"
+        },
+        {
+          "value": 7,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "During the past three months, how often have you failed to do what was normally expected of you because of your use of Alcoholic Beverages (beer, wine, spirits, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 5,
+          "label": "Once or twice"
+        },
+        {
+          "value": 6,
+          "label": "Monthly"
+        },
+        {
+          "value": 7,
+          "label": "Weekly"
+        },
+        {
+          "value": 8,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "Has a friend or relative or anyone else ever expressed concern about your use of Alcoholic Beverages (beer, wine, spirits, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "Have you ever tried and failed to control, cut down or stop using Alcoholic Beverages (beer, wine, spirits, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "In the past three months, how often have you used Cannabis (marijuana, hashish, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 2,
+          "label": "Once or twice"
+        },
+        {
+          "value": 3,
+          "label": "Monthly"
+        },
+        {
+          "value": 4,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "In the past three months, how often have you had a strong desire or urge to use Cannabis (marijuana, hashish, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 3,
+          "label": "Once or twice"
+        },
+        {
+          "value": 4,
+          "label": "Monthly"
+        },
+        {
+          "value": 5,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "During the past three months, how often has your use of Cannabis (marijuana, hashish, etc.) led to health, social, legal, or financial problems?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 4,
+          "label": "Once or twice"
+        },
+        {
+          "value": 5,
+          "label": "Monthly"
+        },
+        {
+          "value": 6,
+          "label": "Weekly"
+        },
+        {
+          "value": 7,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "During the past three months, how often have you failed to do what was normally expected of you because of your use of Cannabis (marijuana, hashish, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 5,
+          "label": "Once or twice"
+        },
+        {
+          "value": 6,
+          "label": "Monthly"
+        },
+        {
+          "value": 7,
+          "label": "Weekly"
+        },
+        {
+          "value": 8,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "Has a friend or relative or anyone else ever expressed concern about your use of Cannabis (marijuana, hashish, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "Have you ever tried and failed to control, cut down or stop using Cannabis (marijuana, hashish, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "In the past three months, how often have you used Cocaine (coke, crack, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 2,
+          "label": "Once or twice"
+        },
+        {
+          "value": 3,
+          "label": "Monthly"
+        },
+        {
+          "value": 4,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "In the past three months, how often have you had a strong desire or urge to use Cocaine (coke, crack, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 3,
+          "label": "Once or twice"
+        },
+        {
+          "value": 4,
+          "label": "Monthly"
+        },
+        {
+          "value": 5,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "During the past three months, how often has your use of Cocaine (coke, crack, etc.) led to health, social, legal, or financial problems?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 4,
+          "label": "Once or twice"
+        },
+        {
+          "value": 5,
+          "label": "Monthly"
+        },
+        {
+          "value": 6,
+          "label": "Weekly"
+        },
+        {
+          "value": 7,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "text": "During the past three months, how often have you failed to do what was normally expected of you because of your use of Cocaine (coke, crack, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 5,
+          "label": "Once or twice"
+        },
+        {
+          "value": 6,
+          "label": "Monthly"
+        },
+        {
+          "value": 7,
+          "label": "Weekly"
+        },
+        {
+          "value": 8,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "text": "Has a friend or relative or anyone else ever expressed concern about your use of Cocaine (coke, crack, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "text": "Have you ever tried and failed to control, cut down or stop using Cocaine (coke, crack, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "text": "In the past three months, how often have you used Amphetamine-Type Stimulants (methamphetamine, ecstasy, amphetamines, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 2,
+          "label": "Once or twice"
+        },
+        {
+          "value": 3,
+          "label": "Monthly"
+        },
+        {
+          "value": 4,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "text": "In the past three months, how often have you had a strong desire or urge to use Amphetamine-Type Stimulants (methamphetamine, ecstasy, amphetamines, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 3,
+          "label": "Once or twice"
+        },
+        {
+          "value": 4,
+          "label": "Monthly"
+        },
+        {
+          "value": 5,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "text": "During the past three months, how often has your use of Amphetamine-Type Stimulants (methamphetamine, ecstasy, amphetamines, etc.) led to health, social, legal, or financial problems?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 4,
+          "label": "Once or twice"
+        },
+        {
+          "value": 5,
+          "label": "Monthly"
+        },
+        {
+          "value": 6,
+          "label": "Weekly"
+        },
+        {
+          "value": 7,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "text": "During the past three months, how often have you failed to do what was normally expected of you because of your use of Amphetamine-Type Stimulants (methamphetamine, ecstasy, amphetamines, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 5,
+          "label": "Once or twice"
+        },
+        {
+          "value": 6,
+          "label": "Monthly"
+        },
+        {
+          "value": 7,
+          "label": "Weekly"
+        },
+        {
+          "value": 8,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "text": "Has a friend or relative or anyone else ever expressed concern about your use of Amphetamine-Type Stimulants (methamphetamine, ecstasy, amphetamines, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "text": "Have you ever tried and failed to control, cut down or stop using Amphetamine-Type Stimulants (methamphetamine, ecstasy, amphetamines, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "text": "In the past three months, how often have you used Inhalants (glue, petrol, paint thinner, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 2,
+          "label": "Once or twice"
+        },
+        {
+          "value": 3,
+          "label": "Monthly"
+        },
+        {
+          "value": 4,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "text": "In the past three months, how often have you had a strong desire or urge to use Inhalants (glue, petrol, paint thinner, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 3,
+          "label": "Once or twice"
+        },
+        {
+          "value": 4,
+          "label": "Monthly"
+        },
+        {
+          "value": 5,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "text": "During the past three months, how often has your use of Inhalants (glue, petrol, paint thinner, etc.) led to health, social, legal, or financial problems?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 4,
+          "label": "Once or twice"
+        },
+        {
+          "value": 5,
+          "label": "Monthly"
+        },
+        {
+          "value": 6,
+          "label": "Weekly"
+        },
+        {
+          "value": 7,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "text": "During the past three months, how often have you failed to do what was normally expected of you because of your use of Inhalants (glue, petrol, paint thinner, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 5,
+          "label": "Once or twice"
+        },
+        {
+          "value": 6,
+          "label": "Monthly"
+        },
+        {
+          "value": 7,
+          "label": "Weekly"
+        },
+        {
+          "value": 8,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "text": "Has a friend or relative or anyone else ever expressed concern about your use of Inhalants (glue, petrol, paint thinner, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "text": "Have you ever tried and failed to control, cut down or stop using Inhalants (glue, petrol, paint thinner, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "text": "In the past three months, how often have you used Sedatives or Sleeping Pills (diazepam, alprazolam, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 2,
+          "label": "Once or twice"
+        },
+        {
+          "value": 3,
+          "label": "Monthly"
+        },
+        {
+          "value": 4,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "text": "In the past three months, how often have you had a strong desire or urge to use Sedatives or Sleeping Pills (diazepam, alprazolam, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 3,
+          "label": "Once or twice"
+        },
+        {
+          "value": 4,
+          "label": "Monthly"
+        },
+        {
+          "value": 5,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "text": "During the past three months, how often has your use of Sedatives or Sleeping Pills (diazepam, alprazolam, etc.) led to health, social, legal, or financial problems?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 4,
+          "label": "Once or twice"
+        },
+        {
+          "value": 5,
+          "label": "Monthly"
+        },
+        {
+          "value": 6,
+          "label": "Weekly"
+        },
+        {
+          "value": 7,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "text": "During the past three months, how often have you failed to do what was normally expected of you because of your use of Sedatives or Sleeping Pills (diazepam, alprazolam, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 5,
+          "label": "Once or twice"
+        },
+        {
+          "value": 6,
+          "label": "Monthly"
+        },
+        {
+          "value": 7,
+          "label": "Weekly"
+        },
+        {
+          "value": 8,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "text": "Has a friend or relative or anyone else ever expressed concern about your use of Sedatives or Sleeping Pills (diazepam, alprazolam, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "text": "Have you ever tried and failed to control, cut down or stop using Sedatives or Sleeping Pills (diazepam, alprazolam, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "text": "In the past three months, how often have you used Hallucinogens (LSD, magic mushrooms, ketamine, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 2,
+          "label": "Once or twice"
+        },
+        {
+          "value": 3,
+          "label": "Monthly"
+        },
+        {
+          "value": 4,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "text": "In the past three months, how often have you had a strong desire or urge to use Hallucinogens (LSD, magic mushrooms, ketamine, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 3,
+          "label": "Once or twice"
+        },
+        {
+          "value": 4,
+          "label": "Monthly"
+        },
+        {
+          "value": 5,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "text": "During the past three months, how often has your use of Hallucinogens (LSD, magic mushrooms, ketamine, etc.) led to health, social, legal, or financial problems?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 4,
+          "label": "Once or twice"
+        },
+        {
+          "value": 5,
+          "label": "Monthly"
+        },
+        {
+          "value": 6,
+          "label": "Weekly"
+        },
+        {
+          "value": 7,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "text": "During the past three months, how often have you failed to do what was normally expected of you because of your use of Hallucinogens (LSD, magic mushrooms, ketamine, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 5,
+          "label": "Once or twice"
+        },
+        {
+          "value": 6,
+          "label": "Monthly"
+        },
+        {
+          "value": 7,
+          "label": "Weekly"
+        },
+        {
+          "value": 8,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "text": "Has a friend or relative or anyone else ever expressed concern about your use of Hallucinogens (LSD, magic mushrooms, ketamine, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "text": "Have you ever tried and failed to control, cut down or stop using Hallucinogens (LSD, magic mushrooms, ketamine, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "text": "In the past three months, how often have you used Opioids (heroin, morphine, codeine, fentanyl, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 2,
+          "label": "Once or twice"
+        },
+        {
+          "value": 3,
+          "label": "Monthly"
+        },
+        {
+          "value": 4,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "text": "In the past three months, how often have you had a strong desire or urge to use Opioids (heroin, morphine, codeine, fentanyl, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 3,
+          "label": "Once or twice"
+        },
+        {
+          "value": 4,
+          "label": "Monthly"
+        },
+        {
+          "value": 5,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "text": "During the past three months, how often has your use of Opioids (heroin, morphine, codeine, fentanyl, etc.) led to health, social, legal, or financial problems?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 4,
+          "label": "Once or twice"
+        },
+        {
+          "value": 5,
+          "label": "Monthly"
+        },
+        {
+          "value": 6,
+          "label": "Weekly"
+        },
+        {
+          "value": 7,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "text": "During the past three months, how often have you failed to do what was normally expected of you because of your use of Opioids (heroin, morphine, codeine, fentanyl, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 5,
+          "label": "Once or twice"
+        },
+        {
+          "value": 6,
+          "label": "Monthly"
+        },
+        {
+          "value": 7,
+          "label": "Weekly"
+        },
+        {
+          "value": 8,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "text": "Has a friend or relative or anyone else ever expressed concern about your use of Opioids (heroin, morphine, codeine, fentanyl, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "text": "Have you ever tried and failed to control, cut down or stop using Opioids (heroin, morphine, codeine, fentanyl, etc.)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "text": "In the past three months, how often have you used Other Substances (any psychoactive substance not listed above)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 2,
+          "label": "Once or twice"
+        },
+        {
+          "value": 3,
+          "label": "Monthly"
+        },
+        {
+          "value": 4,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "text": "In the past three months, how often have you had a strong desire or urge to use Other Substances (any psychoactive substance not listed above)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 3,
+          "label": "Once or twice"
+        },
+        {
+          "value": 4,
+          "label": "Monthly"
+        },
+        {
+          "value": 5,
+          "label": "Weekly"
+        },
+        {
+          "value": 6,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "text": "During the past three months, how often has your use of Other Substances (any psychoactive substance not listed above) led to health, social, legal, or financial problems?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 4,
+          "label": "Once or twice"
+        },
+        {
+          "value": 5,
+          "label": "Monthly"
+        },
+        {
+          "value": 6,
+          "label": "Weekly"
+        },
+        {
+          "value": 7,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "text": "During the past three months, how often have you failed to do what was normally expected of you because of your use of Other Substances (any psychoactive substance not listed above)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Never"
+        },
+        {
+          "value": 5,
+          "label": "Once or twice"
+        },
+        {
+          "value": 6,
+          "label": "Monthly"
+        },
+        {
+          "value": 7,
+          "label": "Weekly"
+        },
+        {
+          "value": 8,
+          "label": "Daily or almost daily"
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "text": "Has a friend or relative or anyone else ever expressed concern about your use of Other Substances (any psychoactive substance not listed above)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "text": "Have you ever tried and failed to control, cut down or stop using Other Substances (any psychoactive substance not listed above)?",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "No, never"
+        },
+        {
+          "value": 6,
+          "label": "Yes, in the past 3 months"
+        },
+        {
+          "value": 3,
+          "label": "Yes, but not in the past 3 months"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "minItemScore": 0,
+    "maxItemScore": 8,
+    "maxTotal": null,
+    "subscales": [
+      {
+        "id": "tobacco",
+        "name": "Tobacco Products",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "maxScore": 39
+      },
+      {
+        "id": "alcohol",
+        "name": "Alcoholic Beverages",
+        "items": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "maxScore": 39
+      },
+      {
+        "id": "cannabis",
+        "name": "Cannabis",
+        "items": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "maxScore": 39
+      },
+      {
+        "id": "cocaine",
+        "name": "Cocaine",
+        "items": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "maxScore": 39
+      },
+      {
+        "id": "amphetamine",
+        "name": "Amphetamine-Type Stimulants",
+        "items": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "maxScore": 39
+      },
+      {
+        "id": "inhalants",
+        "name": "Inhalants",
+        "items": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "maxScore": 39
+      },
+      {
+        "id": "sedatives",
+        "name": "Sedatives or Sleeping Pills",
+        "items": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        "maxScore": 39
+      },
+      {
+        "id": "hallucinogens",
+        "name": "Hallucinogens",
+        "items": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "maxScore": 39
+      },
+      {
+        "id": "opioids",
+        "name": "Opioids",
+        "items": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ],
+        "maxScore": 39
+      },
+      {
+        "id": "other",
+        "name": "Other Substances",
+        "items": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ],
+        "maxScore": 39
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 3,
+        "level": "normal",
+        "label": "Low Risk",
+        "description": "Overall substance use risk is low.",
+        "suggestions": [
+          "Continue maintaining a healthy lifestyle"
+        ]
+      },
+      {
+        "min": 4,
+        "max": 26,
+        "level": "moderate",
+        "label": "Moderate Risk",
+        "description": "Moderate substance use risk detected.",
+        "suggestions": [
+          "Consider reducing substance use",
+          "Learn about health effects of substance use"
+        ]
+      },
+      {
+        "min": 27,
+        "max": 39,
+        "level": "severe",
+        "label": "High Risk",
+        "description": "High substance use risk, possible dependence.",
+        "suggestions": [
+          "Professional help is strongly recommended",
+          "Consult a doctor or mental health professional"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "tobacco": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "normal",
+          "label": "Low Risk",
+          "description": "Your Tobacco Products use is at a low risk level."
+        },
+        {
+          "min": 4,
+          "max": 26,
+          "level": "moderate",
+          "label": "Moderate Risk",
+          "description": "Your Tobacco Products use poses moderate risk. Consider reducing or stopping use."
+        },
+        {
+          "min": 27,
+          "max": 39,
+          "level": "severe",
+          "label": "High Risk",
+          "description": "Your Tobacco Products use is at a high risk level. Professional help is strongly recommended."
+        }
+      ],
+      "alcohol": [
+        {
+          "min": 0,
+          "max": 10,
+          "level": "normal",
+          "label": "Low Risk",
+          "description": "Your alcohol use is at a low risk level."
+        },
+        {
+          "min": 11,
+          "max": 26,
+          "level": "moderate",
+          "label": "Moderate Risk",
+          "description": "Your alcohol use poses moderate risk. Consider reducing your intake."
+        },
+        {
+          "min": 27,
+          "max": 39,
+          "level": "severe",
+          "label": "High Risk",
+          "description": "Your alcohol use is at a high risk level. Professional help is strongly recommended."
+        }
+      ],
+      "cannabis": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "normal",
+          "label": "Low Risk",
+          "description": "Your Cannabis use is at a low risk level."
+        },
+        {
+          "min": 4,
+          "max": 26,
+          "level": "moderate",
+          "label": "Moderate Risk",
+          "description": "Your Cannabis use poses moderate risk. Consider reducing or stopping use."
+        },
+        {
+          "min": 27,
+          "max": 39,
+          "level": "severe",
+          "label": "High Risk",
+          "description": "Your Cannabis use is at a high risk level. Professional help is strongly recommended."
+        }
+      ],
+      "cocaine": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "normal",
+          "label": "Low Risk",
+          "description": "Your Cocaine use is at a low risk level."
+        },
+        {
+          "min": 4,
+          "max": 26,
+          "level": "moderate",
+          "label": "Moderate Risk",
+          "description": "Your Cocaine use poses moderate risk. Consider reducing or stopping use."
+        },
+        {
+          "min": 27,
+          "max": 39,
+          "level": "severe",
+          "label": "High Risk",
+          "description": "Your Cocaine use is at a high risk level. Professional help is strongly recommended."
+        }
+      ],
+      "amphetamine": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "normal",
+          "label": "Low Risk",
+          "description": "Your Amphetamine-Type Stimulants use is at a low risk level."
+        },
+        {
+          "min": 4,
+          "max": 26,
+          "level": "moderate",
+          "label": "Moderate Risk",
+          "description": "Your Amphetamine-Type Stimulants use poses moderate risk. Consider reducing or stopping use."
+        },
+        {
+          "min": 27,
+          "max": 39,
+          "level": "severe",
+          "label": "High Risk",
+          "description": "Your Amphetamine-Type Stimulants use is at a high risk level. Professional help is strongly recommended."
+        }
+      ],
+      "inhalants": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "normal",
+          "label": "Low Risk",
+          "description": "Your Inhalants use is at a low risk level."
+        },
+        {
+          "min": 4,
+          "max": 26,
+          "level": "moderate",
+          "label": "Moderate Risk",
+          "description": "Your Inhalants use poses moderate risk. Consider reducing or stopping use."
+        },
+        {
+          "min": 27,
+          "max": 39,
+          "level": "severe",
+          "label": "High Risk",
+          "description": "Your Inhalants use is at a high risk level. Professional help is strongly recommended."
+        }
+      ],
+      "sedatives": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "normal",
+          "label": "Low Risk",
+          "description": "Your Sedatives or Sleeping Pills use is at a low risk level."
+        },
+        {
+          "min": 4,
+          "max": 26,
+          "level": "moderate",
+          "label": "Moderate Risk",
+          "description": "Your Sedatives or Sleeping Pills use poses moderate risk. Consider reducing or stopping use."
+        },
+        {
+          "min": 27,
+          "max": 39,
+          "level": "severe",
+          "label": "High Risk",
+          "description": "Your Sedatives or Sleeping Pills use is at a high risk level. Professional help is strongly recommended."
+        }
+      ],
+      "hallucinogens": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "normal",
+          "label": "Low Risk",
+          "description": "Your Hallucinogens use is at a low risk level."
+        },
+        {
+          "min": 4,
+          "max": 26,
+          "level": "moderate",
+          "label": "Moderate Risk",
+          "description": "Your Hallucinogens use poses moderate risk. Consider reducing or stopping use."
+        },
+        {
+          "min": 27,
+          "max": 39,
+          "level": "severe",
+          "label": "High Risk",
+          "description": "Your Hallucinogens use is at a high risk level. Professional help is strongly recommended."
+        }
+      ],
+      "opioids": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "normal",
+          "label": "Low Risk",
+          "description": "Your Opioids use is at a low risk level."
+        },
+        {
+          "min": 4,
+          "max": 26,
+          "level": "moderate",
+          "label": "Moderate Risk",
+          "description": "Your Opioids use poses moderate risk. Consider reducing or stopping use."
+        },
+        {
+          "min": 27,
+          "max": 39,
+          "level": "severe",
+          "label": "High Risk",
+          "description": "Your Opioids use is at a high risk level. Professional help is strongly recommended."
+        }
+      ],
+      "other": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "normal",
+          "label": "Low Risk",
+          "description": "Your Other Substances use is at a low risk level."
+        },
+        {
+          "min": 4,
+          "max": 26,
+          "level": "moderate",
+          "label": "Moderate Risk",
+          "description": "Your Other Substances use poses moderate risk. Consider reducing or stopping use."
+        },
+        {
+          "min": 27,
+          "max": 39,
+          "level": "severe",
+          "label": "High Risk",
+          "description": "Your Other Substances use is at a high risk level. Professional help is strongly recommended."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "tobacco",
+        "alcohol",
+        "cannabis",
+        "cocaine",
+        "amphetamine",
+        "inhalants",
+        "sedatives",
+        "hallucinogens",
+        "opioids",
+        "other"
+      ],
+      "maxDisplayScore": 39
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Tobacco Products",
+          "max": 39
+        },
+        {
+          "name": "Alcoholic Beverages",
+          "max": 39
+        },
+        {
+          "name": "Cannabis",
+          "max": 39
+        },
+        {
+          "name": "Cocaine",
+          "max": 39
+        },
+        {
+          "name": "Amphetamine-Type Stimulants",
+          "max": 39
+        },
+        {
+          "name": "Inhalants",
+          "max": 39
+        },
+        {
+          "name": "Sedatives or Sleeping Pills",
+          "max": 39
+        },
+        {
+          "name": "Hallucinogens",
+          "max": 39
+        },
+        {
+          "name": "Opioids",
+          "max": 39
+        },
+        {
+          "name": "Other Substances",
+          "max": 39
+        }
+      ]
+    }
+  }
+}
