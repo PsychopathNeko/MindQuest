@@ -30,7 +30,6 @@ export default defineConfig({
     },
   },
   ssgOptions: {
-    script: 'async',
     includedRoutes() {
       return ['/', '/history', ...scaleRoutes]
     },
