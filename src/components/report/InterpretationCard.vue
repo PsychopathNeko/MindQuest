@@ -17,15 +17,30 @@ const borderColor = computed(() => getSeverityColor(props.level))
 
 const iconSymbol = computed(() => {
   switch (props.level) {
-    case 'minimal':
+    case 'none':
     case 'normal':
+    case 'minimal':
+    case 'good':
+    case 'strong':
+    case 'low':
       return '✓'
     case 'mild':
+    case 'possible':
+    case 'borderline':
       return 'i'
     case 'moderate':
+    case 'elevated':
+    case 'at_risk':
       return '!'
     case 'severe':
     case 'extremely_severe':
+    case 'very_severe':
+    case 'very_high':
+    case 'high':
+    case 'significant':
+    case 'clinical':
+    case 'abnormal':
+    case 'alexithymia':
       return '⚠'
     default:
       return 'i'
@@ -34,15 +49,30 @@ const iconSymbol = computed(() => {
 
 const iconClass = computed(() => {
   switch (props.level) {
-    case 'minimal':
+    case 'none':
     case 'normal':
+    case 'minimal':
+    case 'good':
+    case 'strong':
+    case 'low':
       return 'icon-check'
     case 'mild':
+    case 'possible':
+    case 'borderline':
       return 'icon-info'
     case 'moderate':
+    case 'elevated':
+    case 'at_risk':
       return 'icon-warning'
     case 'severe':
     case 'extremely_severe':
+    case 'very_severe':
+    case 'very_high':
+    case 'high':
+    case 'significant':
+    case 'clinical':
+    case 'abnormal':
+    case 'alexithymia':
       return 'icon-alert'
     default:
       return 'icon-info'

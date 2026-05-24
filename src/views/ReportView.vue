@@ -41,11 +41,29 @@ const maxTotal = computed(() => {
 })
 const gaugeMin = computed(() => { if (!scaleReport.value?.gaugeConfig) return 0; return scaleReport.value.gaugeConfig.min ?? 0 })
 const gaugeMax = computed(() => { if (!scaleReport.value?.gaugeConfig) return maxTotal.value; return scaleReport.value.gaugeConfig.max ?? maxTotal.value })
+const timelineMax = computed(() => {
+  if (scaleReport.value?.gaugeConfig?.max) return scaleReport.value.gaugeConfig.max
+  if (scale.value?.scoring?.maxTotal) return scale.value.scoring.maxTotal
+  // For profile scales (maxTotal: null), compute from subscale maxScores
+  if (scores.value?.subscales) {
+    return scores.value.subscales.reduce((sum, s) => sum + s.maxScore, 0)
+  }
+  return 100
+})
+const timelineMin = computed(() => {
+  if (scaleReport.value?.gaugeConfig?.min != null) return scaleReport.value.gaugeConfig.min
+  return 0
+})
 const scaleHistory = computed(() => {
   if (!scaleId.value) return []
   return getAssessmentsForScale(scaleId.value)
 })
-const showTotalScore = computed(() => { if (!scale.value) return false; return scale.value?.scoring?.method !== 'mean_subscale' })
+const showTotalScore = computed(() => {
+  if (!scale.value) return false
+  if (scale.value.scoring?.method === 'mean_subscale') return false
+  if (!scale.value.scoring?.maxTotal) return false
+  return true
+})
 
 const breadcrumbItems = computed(() => [
   { label: t('nav.home'), to: { name: 'home' } },
@@ -145,14 +163,14 @@ function handlePrint() { if (typeof window !== 'undefined') window.print() }
       <div v-else-if="hasSubscales" class="no-total-hint">
         <p>{{ t('report.noTotalInterpretation') }}</p>
       </div>
-      <TimelineChart :assessments="scaleHistory" :max-score="gaugeMax" :min-score="gaugeMin" :show-subscales="hasSubscales" />
+      <TimelineChart :assessments="scaleHistory" :max-score="timelineMax" :min-score="timelineMin" :show-subscales="hasSubscales" />
 
       <template v-if="hasSubscales">
         <div class="section-divider"><h2 class="section-title">{{ t('report.subscaleDetails') }}</h2></div>
         <div v-if="charts.includes('bar')" class="chart-section"><BarChart :subscales="scores.subscales" :subscale-reports="report.subscaleReports" /></div>
         <div v-if="charts.includes('radar')" class="chart-section"><RadarChart :subscales="scores.subscales" :subscale-reports="report.subscaleReports" /></div>
         <div v-if="report.subscaleReports" class="subscale-cards">
-          <InterpretationCard v-for="sub in report.subscaleReports" :key="sub.id" :title="sub.name + ': ' + sub.label" :description="sub.description" :level="sub.level" />
+          <InterpretationCard v-for="sub in report.subscaleReports" :key="sub.id" :title="sub.name + ' ' + sub.displayScore + '/' + sub.maxScore + ' — ' + sub.label" :description="sub.description" :level="sub.level" />
         </div>
       </template>
 

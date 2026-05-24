@@ -6,6 +6,7 @@ const STORAGE_KEY = 'mindquest_theme'
 // 'system' | 'light' | 'dark'
 const stored = isClient ? localStorage.getItem(STORAGE_KEY) : null
 const theme = ref(stored === 'light' || stored === 'dark' ? stored : 'system')
+const resolvedTheme = ref('light')
 
 function getSystemTheme() {
   if (!isClient) return 'light'
@@ -15,6 +16,7 @@ function getSystemTheme() {
 function applyTheme(mode) {
   if (!isClient) return
   const resolved = mode === 'system' ? getSystemTheme() : mode
+  resolvedTheme.value = resolved
   document.documentElement.setAttribute('data-theme', resolved)
 }
 
@@ -43,5 +45,5 @@ if (isClient) {
 applyTheme(theme.value)
 
 export function useTheme() {
-  return { theme, setTheme, cycleTheme }
+  return { theme, resolvedTheme, setTheme, cycleTheme }
 }

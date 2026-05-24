@@ -97,19 +97,28 @@ export function getSeverityColor(level) {
     case 'none':
     case 'normal':
     case 'minimal':
+    case 'good':
+    case 'strong':
       return '#10b981' // green
     case 'low':
       return '#14b8a6' // teal
     case 'mild':
     case 'possible':
+    case 'borderline':
       return '#f59e0b' // amber
     case 'moderate':
+    case 'elevated':
+    case 'at_risk':
       return '#f97316' // orange
     case 'high':
+    case 'significant':
       return '#f87171' // coral
     case 'severe':
     case 'very_severe':
     case 'extremely_severe':
+    case 'very_high':
+    case 'clinical':
+    case 'abnormal':
     case 'alexithymia':
       return '#ef4444' // red
     default:

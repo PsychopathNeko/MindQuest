@@ -1,5 +1,7 @@
+import { computed } from 'vue'
 import { getSeverityColor } from '@/engine/reportEngine'
 import { useLocale } from './useLocale'
+import { useTheme } from './useTheme'
 
 function escapeHtml(str) {
   if (typeof str !== 'string') return str
@@ -8,11 +10,31 @@ function escapeHtml(str) {
 
 export function useChartOptions() {
   const { t } = useLocale()
+  const { resolvedTheme } = useTheme()
+  const isDark = computed(() => resolvedTheme.value === 'dark')
+
+  function chartColors() {
+    const dark = isDark.value
+    return {
+      text: dark ? '#d1d5db' : '#374151',
+      textSub: dark ? '#9ca3af' : '#6b6183',
+      gridLine: dark ? '#3d3555' : '#e5e7eb',
+      splitLine: dark ? '#332e45' : '#f1f5f9',
+      splitArea: dark ? ['#252033', '#2d2845'] : ['#fafafa', '#f5f5f5'],
+      axisLine: dark ? '#3d3555' : '#e8e2ed',
+      gaugeTrack: dark ? '#3d3555' : '#e5e7eb',
+      tooltipBg: dark ? 'rgba(37,32,51,0.96)' : 'rgba(255,255,255,0.96)',
+      tooltipBorder: dark ? '#3d3555' : '#e8e2ed',
+      tooltipText: dark ? '#f0ecf5' : '#2d2640',
+      timelineSplitLine: dark ? '#332e45' : '#f1f0f4',
+    }
+  }
+
   return {
-    createGaugeOption,
-    createBarOption: (subscales, subscaleReports) => createBarOption(subscales, subscaleReports, t),
-    createRadarOption: (subscales, subscaleReports) => createRadarOption(subscales, subscaleReports, t),
-    createTimelineOption: (dataPoints, maxScore, minScore) => createTimelineOption(dataPoints, maxScore, minScore, t),
+    createGaugeOption: (score, maxScore, label, color, minScore) => createGaugeOption(score, maxScore, label, color, minScore, chartColors()),
+    createBarOption: (subscales, subscaleReports) => createBarOption(subscales, subscaleReports, t, chartColors()),
+    createRadarOption: (subscales, subscaleReports) => createRadarOption(subscales, subscaleReports, t, chartColors()),
+    createTimelineOption: (dataPoints, maxScore, minScore) => createTimelineOption(dataPoints, maxScore, minScore, t, chartColors()),
   }
 }
 
@@ -26,7 +48,7 @@ export function useChartOptions() {
  * @param {number} [minScore=0] - Minimum score (for scales like Rosenberg starting > 0)
  * @returns {Object} ECharts option
  */
-function createGaugeOption(score, maxScore, label, color, minScore = 0) {
+function createGaugeOption(score, maxScore, label, color, minScore = 0, colors = {}) {
   return {
     series: [
       {
@@ -51,7 +73,7 @@ function createGaugeOption(score, maxScore, label, color, minScore = 0) {
           roundCap: true,
           lineStyle: {
             width: 14,
-            color: [[1, '#e5e7eb']],
+            color: [[1, colors.gaugeTrack || '#e5e7eb']],
           },
         },
         axisTick: {
@@ -97,7 +119,7 @@ function createGaugeOption(score, maxScore, label, color, minScore = 0) {
  * @param {Function} t - Translation function
  * @returns {Object} ECharts option
  */
-function createBarOption(subscales, subscaleReports, t) {
+function createBarOption(subscales, subscaleReports, t, colors = {}) {
   const reportMap = {}
   if (subscaleReports) {
     subscaleReports.forEach((r) => {
@@ -113,7 +135,7 @@ function createBarOption(subscales, subscaleReports, t) {
     return report ? report.displayScore : s.score
   })
 
-  const colors = subscales.map((s) => {
+  const barColors = subscales.map((s) => {
     const report = reportMap[s.id]
     return report ? getSeverityColor(report.level) : '#7da2f7'
   })
@@ -155,7 +177,7 @@ function createBarOption(subscales, subscaleReports, t) {
       axisTick: { show: false },
       axisLabel: { show: false },
       splitLine: {
-        lineStyle: { color: '#f1f5f9', type: 'dashed' },
+        lineStyle: { color: colors.splitLine || '#f1f5f9', type: 'dashed' },
       },
     },
     yAxis: {
@@ -164,7 +186,7 @@ function createBarOption(subscales, subscaleReports, t) {
       axisLine: { show: false },
       axisTick: { show: false },
       axisLabel: {
-        color: '#374151',
+        color: colors.text || '#374151',
         fontSize: 13,
         fontWeight: 500,
       },
@@ -178,7 +200,7 @@ function createBarOption(subscales, subscaleReports, t) {
           .map((val, i) => ({
             value: val,
             itemStyle: {
-              color: colors[scores.length - 1 - i],
+              color: barColors[scores.length - 1 - i],
               borderRadius: [0, 4, 4, 0],
             },
           })),
@@ -186,7 +208,7 @@ function createBarOption(subscales, subscaleReports, t) {
         label: {
           show: true,
           position: 'right',
-          color: '#374151',
+          color: colors.text || '#374151',
           fontSize: 13,
           fontWeight: 600,
           formatter: '{c}',
@@ -206,7 +228,7 @@ function createBarOption(subscales, subscaleReports, t) {
  * @param {Function} t - Translation function
  * @returns {Object} ECharts option
  */
-function createRadarOption(subscales, subscaleReports, t) {
+function createRadarOption(subscales, subscaleReports, t, colors = {}) {
   const reportMap = {}
   if (subscaleReports) {
     subscaleReports.forEach((r) => {
@@ -234,20 +256,20 @@ function createRadarOption(subscales, subscaleReports, t) {
       shape: 'polygon',
       splitNumber: 4,
       axisName: {
-        color: '#374151',
+        color: colors.text || '#374151',
         fontSize: 12,
         fontWeight: 500,
       },
       splitLine: {
-        lineStyle: { color: '#e5e7eb' },
+        lineStyle: { color: colors.gridLine || '#e5e7eb' },
       },
       splitArea: {
         areaStyle: {
-          color: ['#fafafa', '#f5f5f5', '#fafafa', '#f5f5f5'],
+          color: colors.splitArea ? [colors.splitArea[0], colors.splitArea[1], colors.splitArea[0], colors.splitArea[1]] : ['#fafafa', '#f5f5f5', '#fafafa', '#f5f5f5'],
         },
       },
       axisLine: {
-        lineStyle: { color: '#e5e7eb' },
+        lineStyle: { color: colors.gridLine || '#e5e7eb' },
       },
     },
     tooltip: {
@@ -291,7 +313,7 @@ function createRadarOption(subscales, subscaleReports, t) {
  * @param {Function} t - Translation function
  * @returns {Object} ECharts option
  */
-function createTimelineOption(dataPoints, maxScore, minScore, t) {
+function createTimelineOption(dataPoints, maxScore, minScore, t, colors = {}) {
   const dates = dataPoints.map((d) => d.date)
   const totals = dataPoints.map((d) => d.total)
 
@@ -361,10 +383,10 @@ function createTimelineOption(dataPoints, maxScore, minScore, t) {
   return {
     tooltip: {
       trigger: 'axis',
-      backgroundColor: 'rgba(255,255,255,0.96)',
-      borderColor: '#e8e2ed',
+      backgroundColor: colors.tooltipBg || 'rgba(255,255,255,0.96)',
+      borderColor: colors.tooltipBorder || '#e8e2ed',
       borderWidth: 1,
-      textStyle: { color: '#2d2640', fontSize: 13 },
+      textStyle: { color: colors.tooltipText || '#2d2640', fontSize: 13 },
       formatter: (params) => {
         let html = `<div style="font-weight:600;margin-bottom:4px">${escapeHtml(params[0].axisValue)}</div>`
         params.forEach((p) => {
@@ -380,7 +402,7 @@ function createTimelineOption(dataPoints, maxScore, minScore, t) {
     legend: {
       show: subscaleNames.length > 0,
       bottom: 0,
-      textStyle: { color: '#6b6183', fontSize: 12 },
+      textStyle: { color: colors.textSub || '#6b6183', fontSize: 12 },
       itemWidth: 16,
       itemHeight: 8,
     },
@@ -394,9 +416,9 @@ function createTimelineOption(dataPoints, maxScore, minScore, t) {
     xAxis: {
       type: 'category',
       data: dates,
-      axisLine: { lineStyle: { color: '#e8e2ed' } },
+      axisLine: { lineStyle: { color: colors.axisLine || '#e8e2ed' } },
       axisTick: { show: false },
-      axisLabel: { color: '#6b6183', fontSize: 12 },
+      axisLabel: { color: colors.textSub || '#6b6183', fontSize: 12 },
     },
     yAxis: {
       type: 'value',
@@ -404,8 +426,8 @@ function createTimelineOption(dataPoints, maxScore, minScore, t) {
       max: maxScore,
       axisLine: { show: false },
       axisTick: { show: false },
-      axisLabel: { color: '#6b6183', fontSize: 12 },
-      splitLine: { lineStyle: { color: '#f1f0f4', type: 'dashed' } },
+      axisLabel: { color: colors.textSub || '#6b6183', fontSize: 12 },
+      splitLine: { lineStyle: { color: colors.timelineSplitLine || '#f1f0f4', type: 'dashed' } },
     },
     series: series,
     animationDuration: 800,
