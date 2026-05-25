@@ -21,7 +21,7 @@ onMounted(() => {
         {{ t('footer.disclaimer') }}
       </p>
       <p class="footer-copyright">
-        &copy; {{ new Date().getFullYear() }} MindQuest
+        &copy; {{ new Date().getFullYear() }} MindQuest · All rights reserved
       </p>
       <a
         href="https://cloud.umami.is/share/7xR84re9wujOCkSu"
