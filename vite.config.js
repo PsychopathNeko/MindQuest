@@ -42,16 +42,13 @@ export default defineConfig({
       writeFileSync('dist/404.html', html404)
       // Sitemap for search engines
       const origin = 'https://psychopathneko.github.io/MindQuest'
-      const today = '2026-05-21'
-      const urls = ['/', '/history', ...scaleRoutes]
+      const today = new Date().toISOString().slice(0, 10)
+      const urls = ['/', ...scaleRoutes]
       const urlEntries = urls.map(u => {
         let priority, changefreq
         if (u === '/') {
           priority = '1.0'
           changefreq = 'weekly'
-        } else if (u === '/history') {
-          priority = '0.3'
-          changefreq = 'monthly'
         } else {
           priority = '0.8'
           changefreq = 'monthly'
