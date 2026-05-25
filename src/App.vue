@@ -10,15 +10,19 @@ import AppSidebar from '@/components/common/AppSidebar.vue'
 const route = useRoute()
 const { t, locale } = useLocale()
 
+const siteOrigin = import.meta.env.BASE_URL === '/MindQuest/'
+  ? 'https://psychopathneko.github.io/MindQuest'
+  : 'https://mindquest-neko.vercel.app'
+
 useHead({
   htmlAttrs: { lang: computed(() => locale.value === 'zh' ? 'zh-CN' : 'en') },
-  link: [{ rel: 'canonical', href: computed(() => `https://psychopathneko.github.io/MindQuest${route.path}`) }],
+  link: [{ rel: 'canonical', href: computed(() => `${siteOrigin}${route.path}`) }],
   meta: [
-    { property: 'og:url', content: computed(() => `https://psychopathneko.github.io/MindQuest${route.path}`) },
+    { property: 'og:url', content: computed(() => `${siteOrigin}${route.path}`) },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: computed(() => t('meta.title')) },
     { name: 'twitter:description', content: computed(() => t('meta.description')) },
-    { name: 'twitter:image', content: 'https://psychopathneko.github.io/MindQuest/og-image.png' },
+    { name: 'twitter:image', content: `${siteOrigin}/og-image.png` },
   ],
 })
 const sidebarOpen = ref(false)

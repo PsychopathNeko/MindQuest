@@ -41,7 +41,9 @@ export default defineConfig({
       html404 = html404.replace('<meta name="robots" content="index, follow">', '<meta name="robots" content="noindex">')
       writeFileSync('dist/404.html', html404)
       // Sitemap for search engines
-      const origin = 'https://psychopathneko.github.io/MindQuest'
+      const origin = process.env.GITHUB_ACTIONS
+        ? 'https://psychopathneko.github.io/MindQuest'
+        : 'https://mindquest-neko.vercel.app'
       const today = new Date().toISOString().slice(0, 10)
       const urls = ['/', ...scaleRoutes]
       const urlEntries = urls.map(u => {
