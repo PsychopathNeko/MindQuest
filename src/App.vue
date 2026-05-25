@@ -2,20 +2,22 @@
 import { ref, watch, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useHead } from '@unhead/vue'
+import { useLocale } from '@/composables/useLocale'
 import AppHeader from '@/components/common/AppHeader.vue'
 import AppFooter from '@/components/common/AppFooter.vue'
 import AppSidebar from '@/components/common/AppSidebar.vue'
 
 const route = useRoute()
+const { t, locale } = useLocale()
 
 useHead({
-  htmlAttrs: { lang: 'zh-CN' },
+  htmlAttrs: { lang: computed(() => locale.value === 'zh' ? 'zh-CN' : 'en') },
   link: [{ rel: 'canonical', href: computed(() => `https://psychopathneko.github.io/MindQuest${route.path}`) }],
   meta: [
     { property: 'og:url', content: computed(() => `https://psychopathneko.github.io/MindQuest${route.path}`) },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'MindQuest - 心灵探索' },
-    { name: 'twitter:description', content: '免费双语心理自评平台，收录 157+ 经过验证的心理量表' },
+    { name: 'twitter:title', content: computed(() => t('meta.title')) },
+    { name: 'twitter:description', content: computed(() => t('meta.description')) },
     { name: 'twitter:image', content: 'https://psychopathneko.github.io/MindQuest/og-image.png' },
   ],
 })
@@ -28,7 +30,7 @@ watch(() => route.path, () => {
 
 <template>
   <div class="app-layout">
-    <a href="#main-content" class="skip-link">Skip to content</a>
+    <a href="#main-content" class="skip-link">{{ t('a11y.skipToContent') }}</a>
     <AppHeader @toggle-sidebar="sidebarOpen = !sidebarOpen" />
     <div class="app-body">
       <AppSidebar

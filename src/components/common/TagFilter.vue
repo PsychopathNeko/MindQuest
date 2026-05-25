@@ -74,7 +74,7 @@ const selectedCount = computed(() => props.selectedTags.length)
         class="expand-toggle"
         :class="{ 'is-expanded': expanded }"
         @click="expanded = !expanded"
-        :aria-label="expanded ? 'Collapse' : 'Expand'"
+        :aria-label="expanded ? t('a11y.collapse') : t('a11y.expand')"
       >
         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <polyline points="6 9 12 15 18 9"/>

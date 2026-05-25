@@ -143,8 +143,8 @@
     {
       "id": "socialanxiety",
       "label": {
-        "zh": "社交",
-        "en": "Social"
+        "zh": "社交焦虑",
+        "en": "Social Anxiety"
       }
     },
     {
@@ -164,7 +164,7 @@
     {
       "id": "perfectionism",
       "label": {
-        "zh": "完美",
+        "zh": "完美主义",
         "en": "Perfectionism"
       }
     },
@@ -178,8 +178,8 @@
     {
       "id": "autism",
       "label": {
-        "zh": "自闭",
-        "en": "Autism Spectrum"
+        "zh": "自闭症谱系",
+        "en": "Autism"
       }
     },
     {

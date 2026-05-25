@@ -158,7 +158,7 @@ onBeforeUnmount(() => {
 
           <div class="dots-section">
             <div class="dots-container">
-              <button v-for="(q, i) in scale.questions" :key="i" class="dot" :class="{ answered: answers[i] !== undefined, current: i === currentIndex }" @click="handleDotClick(i)" type="button" :aria-label="'Question ' + (i + 1)"></button>
+              <button v-for="(q, i) in scale.questions" :key="i" class="dot" :class="{ answered: answers[i] !== undefined, current: i === currentIndex }" @click="handleDotClick(i)" type="button" :aria-label="t('a11y.questionN', { n: i + 1 })"></button>
             </div>
           </div>
         </div>
