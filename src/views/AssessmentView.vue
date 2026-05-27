@@ -8,9 +8,11 @@ import { saveAssessment } from '@/utils/storage'
 import ProgressBar from '@/components/common/ProgressBar.vue'
 import QuestionRenderer from '@/components/questions/QuestionRenderer.vue'
 import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
+import { useQueue } from '@/composables/useQueue'
 
 const route = useRoute()
 const router = useRouter()
+const { removeFromQueue } = useQueue()
 const { loading, error, loadScale } = useScaleLoader()
 const { t } = useLocale()
 
@@ -75,6 +77,7 @@ function submitResults() {
     try { umami.track('scale_completed', { scaleId: scaleId.value, scaleName: scale.value.meta.name }) } catch (_) {}
   }
   fetch('https://api.counterapi.dev/v1/mindquest-psychopathneko/scale_completed/up').catch(() => {})
+  removeFromQueue(scaleId.value)
   router.push({ name: 'report', params: { id: scaleId.value }, query: { key } })
 }
 
