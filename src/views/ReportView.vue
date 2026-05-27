@@ -151,7 +151,7 @@ function handlePrint() { if (typeof window !== 'undefined') window.print() }
         <p class="report-timestamp">{{ t('report.completedAt') }}: {{ formattedTime }}</p>
       </template>
 
-      <ScoreSummary v-if="showTotalScore" :score="scores.total" :max-score="gaugeMax" :label="report.label" :level="report.level" :color="totalColor" />
+      <ScoreSummary v-if="showTotalScore && !charts.includes('gauge')" :score="scores.total" :max-score="gaugeMax" :label="report.label" :level="report.level" :color="totalColor" />
 
       <CrisisAlert v-if="showCrisisAlert" />
 
