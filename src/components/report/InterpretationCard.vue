@@ -97,5 +97,5 @@ const iconClass = computed(() => {
 .card-header { display: flex; align-items: center; gap: var(--spacing-3); margin-bottom: var(--spacing-3); }
 .card-icon { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: var(--border-radius-full); color: var(--color-text-inverse); font-size: var(--font-size-xs); font-weight: 700; flex-shrink: 0; }
 .card-title { font-size: var(--font-size-lg); font-weight: 600; color: var(--color-text-primary); margin: 0; }
-.card-description { font-size: var(--font-size-sm); color: var(--color-text-secondary); line-height: 1.7; margin: 0; }
+.card-description { font-size: var(--font-size-base); color: var(--color-text-secondary); line-height: 1.8; margin: 0; }
 </style>

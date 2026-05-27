@@ -16,6 +16,7 @@ import TimelineChart from '@/components/report/TimelineChart.vue'
 import { getAssessmentsForScale } from '@/utils/storage'
 import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
 import CrisisAlert from '@/components/common/CrisisAlert.vue'
+import SeverityRangeBar from '@/components/report/SeverityRangeBar.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -63,6 +64,13 @@ const showTotalScore = computed(() => {
   if (scale.value.scoring?.method === 'mean_subscale') return false
   if (!scale.value.scoring?.maxTotal) return false
   return true
+})
+
+const interpretationRanges = computed(() => scale.value?.interpretation?.ranges ?? [])
+const lookupTotal = computed(() => {
+  if (!scores.value || scores.value.total == null) return 0
+  const multiplier = scale.value?.interpretation?.multiplier ?? 1
+  return scores.value.total * multiplier
 })
 
 const breadcrumbItems = computed(() => [
@@ -149,6 +157,8 @@ function handlePrint() { if (typeof window !== 'undefined') window.print() }
       <template #title>
         <h1 class="report-main-title">{{ scaleName }}</h1>
         <p class="report-timestamp">{{ t('report.completedAt') }}: {{ formattedTime }}</p>
+        <p v-if="scale && scale.meta && scale.meta.description" class="scale-about">{{ scale.meta.description }}</p>
+        <p v-if="scale && scale.meta && scale.meta.author" class="scale-meta-line">{{ scale.meta.author }}<template v-if="scale.meta.population"> · {{ scale.meta.population }}</template></p>
       </template>
 
       <ScoreSummary v-if="showTotalScore && !charts.includes('gauge')" :score="scores.total" :max-score="gaugeMax" :label="report.label" :level="report.level" :color="totalColor" />
@@ -158,6 +168,8 @@ function handlePrint() { if (typeof window !== 'undefined') window.print() }
       <div v-if="charts.includes('gauge')" class="chart-section">
         <GaugeChart :score="scores.total" :max-score="gaugeMax" :min-score="gaugeMin" :label="report.label" :color="totalColor" />
       </div>
+
+      <SeverityRangeBar v-if="interpretationRanges.length > 1 && report && report.level !== 'unknown'" :ranges="interpretationRanges" :current-level="report.level" :current-score="lookupTotal" />
 
       <InterpretationCard v-if="report.level !== 'unknown' && report.description" :title="t('report.overallInterpretation')" :description="report.description" :level="report.level" />
       <div v-else-if="hasSubscales" class="no-total-hint">
@@ -189,6 +201,8 @@ function handlePrint() { if (typeof window !== 'undefined') window.print() }
 </template>
 
 <style scoped>
+.scale-about { font-size: var(--font-size-sm); color: var(--color-text-secondary); line-height: 1.7; margin: var(--spacing-3) auto 0; max-width: 560px; }
+.scale-meta-line { font-size: var(--font-size-xs); color: var(--color-text-secondary); opacity: 0.7; margin: var(--spacing-1) 0 0; }
 .report-main-title { font-size: var(--font-size-3xl); font-weight: 700; color: var(--color-text-primary); margin: 0 0 var(--spacing-2); }
 .report-timestamp { font-size: var(--font-size-sm); color: var(--color-text-secondary); margin: 0; }
 .chart-section { background-color: var(--color-surface); border-radius: var(--border-radius); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); padding: var(--spacing-4); }
