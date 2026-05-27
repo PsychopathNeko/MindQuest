@@ -1,0 +1,154 @@
+{
+  "qids-sr16": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "none",
+        "label": "No Depression",
+        "description": "Your score suggests no significant depressive symptoms. Your emotional functioning appears healthy, and you are not reporting notable changes in mood, energy, sleep, appetite, or concentration.",
+        "suggestions": [
+          "Continue maintaining healthy lifestyle habits that support your mood",
+          "Regular exercise, social engagement, and adequate sleep are protective factors"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "Your score indicates mild depressive symptoms. You may be experiencing some changes in mood, energy, sleep patterns, or appetite. While not severe, these symptoms are worth monitoring as they may affect your daily comfort and functioning.",
+        "suggestions": [
+          "Monitor your mood and symptoms over the coming weeks",
+          "Maintain regular physical activity and social connections",
+          "Practice stress management techniques such as mindfulness or relaxation exercises",
+          "Consult a healthcare provider if symptoms persist or worsen"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 15,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "Your score indicates moderate depressive symptoms that are likely affecting your daily functioning in areas such as work, relationships, or self-care. You may be experiencing persistent low mood, disrupted sleep, changes in appetite or weight, difficulty concentrating, or reduced interest in activities.",
+        "suggestions": [
+          "Consider consulting a mental health professional for evaluation",
+          "Evidence-based treatments such as CBT and interpersonal therapy are effective at this level",
+          "Maintain a structured daily routine to provide stability",
+          "Stay connected with supportive people in your life",
+          "Avoid using alcohol or drugs to cope with low mood"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 20,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "Your score suggests severe depressive symptoms that are significantly impairing your daily functioning and quality of life. You may be experiencing profound changes in sleep, appetite, energy, concentration, and feelings of hopelessness or worthlessness.",
+        "suggestions": [
+          "Seek professional help from a mental health provider as soon as possible",
+          "If you have thoughts of self-harm or suicide, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "A combination of psychotherapy and medication is often most effective for severe depression",
+          "Inform a trusted person about how you are feeling"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 27,
+        "level": "very_severe",
+        "label": "Very Severe Depression",
+        "description": "Your score indicates very severe depressive symptoms that require urgent professional attention. At this level, depression is likely causing profound impairment across all areas of your life. Effective treatments are available and seeking help immediately is critical.",
+        "suggestions": [
+          "Seek immediate consultation with a psychiatrist or mental health professional",
+          "If you are in crisis or having thoughts of suicide, call 988 or go to your nearest emergency room",
+          "Do not stay alone; ensure someone you trust knows about your situation",
+          "Intensive treatment, potentially including hospitalization, may be appropriate"
+        ]
+      }
+    ]
+  },
+  "pswq": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 39,
+        "level": "minimal",
+        "label": "Low Worry",
+        "description": "Your score suggests low levels of pathological worry. You appear to manage uncertainty and everyday concerns without excessive rumination. Some worry is a normal and adaptive response to life challenges.",
+        "suggestions": [
+          "Continue using your current effective coping strategies",
+          "Maintain activities and relationships that help manage everyday stress"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 59,
+        "level": "moderate",
+        "label": "Moderate Worry",
+        "description": "Your score indicates moderate levels of worry that may be affecting your daily comfort and functioning. You may find it difficult to control worry, experience worry that seems disproportionate to the situation, or notice that worrying interferes with concentration or sleep.",
+        "suggestions": [
+          "Practice worry management techniques such as setting aside a specific 'worry time'",
+          "Learn to distinguish between productive problem-solving and unproductive rumination",
+          "Regular exercise and mindfulness meditation can help reduce chronic worry",
+          "Consider consulting a mental health professional if worry is significantly affecting your daily life"
+        ]
+      },
+      {
+        "min": 60,
+        "max": 80,
+        "level": "severe",
+        "label": "Severe Pathological Worry",
+        "description": "Your score suggests severe pathological worry consistent with generalized anxiety disorder (GAD). At this level, worry is likely pervasive, difficult to control, and significantly interfering with your work, relationships, sleep, and overall well-being. Evidence-based treatment can be very effective.",
+        "suggestions": [
+          "Seek evaluation from a mental health professional experienced in anxiety disorders",
+          "Cognitive behavioral therapy (CBT) is the first-line treatment for GAD and chronic worry",
+          "Medication (such as SSRIs or SNRIs) may also be helpful, especially in combination with therapy",
+          "Practice grounding and relaxation techniques for acute episodes of worry",
+          "GAD is very treatable; most people improve significantly with appropriate help"
+        ]
+      }
+    ]
+  },
+  "mspss": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 36,
+        "level": "severe",
+        "label": "Low Perceived Social Support",
+        "description": "Your score suggests you perceive low levels of social support from family, friends, and significant others. Perceived lack of social support is a significant risk factor for depression, anxiety, and other mental health difficulties. Even if support is available, feeling unsupported can be very distressing.",
+        "suggestions": [
+          "Consider reaching out to a counselor or therapist who can help strengthen your support network",
+          "Identify one or two people you might feel comfortable reaching out to more",
+          "Community groups, volunteer activities, or support groups can help build new connections",
+          "If you are feeling isolated, a mental health professional can help develop strategies for building social connections"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 60,
+        "level": "moderate",
+        "label": "Moderate Perceived Social Support",
+        "description": "Your score indicates a moderate level of perceived social support. You have some supportive relationships but may feel that support is inconsistent or insufficient in certain areas. Strengthening these connections can enhance your resilience and well-being.",
+        "suggestions": [
+          "Identify which sources of support (family, friends, significant other) feel strongest and which could be strengthened",
+          "Practice expressing your needs to people in your life; others may not realize you need more support",
+          "Invest time in nurturing your existing relationships",
+          "Consider expanding your social network through shared activities or community involvement"
+        ]
+      },
+      {
+        "min": 61,
+        "max": 84,
+        "level": "minimal",
+        "label": "High Perceived Social Support",
+        "description": "Your score suggests you perceive high levels of social support from family, friends, and/or a significant other. Strong perceived social support is a powerful protective factor for mental health and is associated with greater resilience, better coping, and higher life satisfaction.",
+        "suggestions": [
+          "Continue nurturing the relationships that provide you with support",
+          "Express gratitude to the people who support you",
+          "Consider being a source of support for others in return"
+        ]
+      }
+    ]
+  }
+}

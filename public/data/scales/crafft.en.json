@@ -56,12 +56,11 @@
         "max": 1,
         "level": "minimal",
         "label": "Low Risk",
-        "description": "Your responses suggest low risk for substance-related problems. Continue making healthy choices.",
+        "description": "Your responses suggest low risk for substance-related problems. Scoring below the clinical cutoff of 2 indicates that current substance use patterns are not raising significant concerns for harmful consequences.",
         "suggestions": [
-          "Continue making safe and healthy choices regarding substance use",
-          "Learn about the risks associated with alcohol and drug use",
-          "Know how to say no in peer pressure situations",
-          "Talk to a trusted adult if you have questions about substance use"
+          "Continue making safe and healthy choices regarding alcohol and drug use",
+          "Stay informed about the specific health risks associated with substance use during adolescence",
+          "Practice confident strategies for handling peer pressure situations involving substance offers"
         ]
       },
       {
@@ -69,13 +68,13 @@
         "max": 6,
         "level": "severe",
         "label": "High Risk",
-        "description": "Your responses suggest a high risk for substance-related problems. A score of 2 or more indicates a need for further assessment.",
+        "description": "Your responses suggest high risk for substance-related problems. A CRAFFT score of 2 or higher is the validated clinical cutoff indicating need for further professional assessment and possible intervention.",
         "suggestions": [
-          "Talk to a trusted adult, school counselor, or healthcare provider about your substance use",
-          "Consider seeking a professional assessment",
-          "Never ride with a driver who has been using alcohol or drugs",
-          "Explore healthier ways to cope with stress and social pressure",
-          "Learn about local resources for young people with substance use concerns"
+          "Talk honestly to a trusted adult, school counselor, or healthcare provider about your substance use",
+          "Seek a comprehensive professional substance use assessment to understand the extent of risk",
+          "Never ride in a vehicle with a driver who has been using alcohol or drugs — plan safe transportation",
+          "Explore healthier coping strategies for dealing with stress, boredom, and social pressure",
+          "Learn about local adolescent-specific resources, hotlines, and programs for substance use concerns"
         ]
       }
     ],

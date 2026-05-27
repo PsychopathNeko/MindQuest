@@ -135,12 +135,12 @@
         "max": 24,
         "level": "severe",
         "label": "Low Hope",
-        "description": "Your hope level is low. You may lack confidence and pathways when facing difficulties.",
+        "description": "Your hope level is low, indicating limited confidence in finding pathways and sustaining motivation toward goals. Low hope is associated with greater vulnerability to depression, helplessness, and difficulty coping.",
         "suggestions": [
-          "Try setting small, achievable goals to build confidence",
-          "Learn problem-solving skills",
-          "Spend time with positive, optimistic people",
-          "Consider seeking counseling to enhance hopefulness"
+          "Start by setting small, concrete, and achievable goals to gradually rebuild your sense of accomplishment",
+          "Practice structured problem-solving skills to strengthen your capacity to find multiple paths to goals",
+          "Surround yourself with supportive and encouraging people who model hopeful thinking",
+          "Consider working with a counselor trained in hope-focused or strengths-based therapeutic approaches"
         ]
       },
       {
@@ -148,12 +148,12 @@
         "max": 40,
         "level": "mild",
         "label": "Below Average Hope",
-        "description": "Your hope is below average. You may occasionally feel lacking in motivation or direction when pursuing goals.",
+        "description": "Your hope is below average. You may sometimes feel uncertain about how to reach your goals or struggle to sustain motivation during setbacks. Strengthening pathways and agency thinking can improve well-being.",
         "suggestions": [
-          "Practice setting specific, measurable goals",
-          "Review past successes to boost confidence",
-          "Explore multiple pathways to achieve your goals",
-          "Cultivate positive self-talk"
+          "Practice setting specific, measurable goals and identifying at least two routes to achieve each one",
+          "Reflect on past successes to remind yourself of your capacity for achievement and problem-solving",
+          "Explore alternative strategies when your initial approach does not work, building flexible thinking",
+          "Cultivate positive self-talk by deliberately replacing self-defeating thoughts with realistic affirmations"
         ]
       },
       {
@@ -161,11 +161,11 @@
         "max": 56,
         "level": "normal",
         "label": "Above Average Hope",
-        "description": "Your hope is above average. You are generally good at setting goals and finding ways to achieve them.",
+        "description": "Your hope is above average. You are generally effective at setting meaningful goals, identifying viable pathways, and maintaining the motivation needed to pursue them even when obstacles arise.",
         "suggestions": [
-          "Continue maintaining positive goal-directed thinking",
-          "Use your hopefulness as motivation when facing challenges",
-          "Help others develop a sense of hope"
+          "Continue nurturing your hopeful outlook by setting progressively more challenging personal goals",
+          "When facing new challenges, draw on your established strengths in creative problem-solving",
+          "Share your hopeful perspective with others to inspire and uplift those around you"
         ]
       },
       {
@@ -173,11 +173,11 @@
         "max": 64,
         "level": "minimal",
         "label": "High Hope",
-        "description": "Your hope level is very high. You maintain a positive attitude and find multiple solutions when facing difficulties.",
+        "description": "Your hope level is very high. You maintain a strong sense of agency and readily generate multiple pathways to your goals. This robust hopefulness is a powerful psychological resource for resilience and success.",
         "suggestions": [
-          "Your high hope is a valuable psychological resource",
-          "Continue setting challenging goals",
-          "Use your positive mindset to help and encourage others"
+          "Your high hope is a valuable asset — continue investing in ambitious and meaningful goals",
+          "Challenge yourself with stretch goals that push your capabilities while maintaining realistic planning",
+          "Use your natural optimism and problem-solving ability to mentor and support others in need"
         ]
       }
     ],

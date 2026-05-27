@@ -106,10 +106,11 @@
         "max": 5,
         "level": "minimal",
         "label": "Low Risk",
-        "description": "You reported few psychotic-like experiences, not indicating elevated psychosis risk.",
+        "description": "You reported few psychotic-like experiences, indicating no elevated risk for psychosis at this time. Your perceptual and cognitive experiences appear to be within the normal range.",
         "suggestions": [
-          "No particular concern at this time",
-          "If persistent troubling thoughts or feelings occur, consult a professional"
+          "No particular clinical concern is indicated at this time based on your screening results",
+          "If you experience any persistent unusual perceptions, intrusive thoughts, or feelings of unreality in the future, consider consulting a professional",
+          "Maintain healthy lifestyle habits including adequate sleep, regular exercise, and stress management as general protective factors"
         ]
       },
       {
@@ -117,12 +118,12 @@
         "max": 8,
         "level": "mild",
         "label": "Attention Needed",
-        "description": "You reported some psychotic-like experiences, near the screening threshold (>=6). Monitor changes in these experiences.",
+        "description": "You reported several psychotic-like experiences, placing you near the clinical screening threshold. While not necessarily pathological, these experiences should be monitored for changes in frequency or intensity.",
         "suggestions": [
-          "Pay attention to the frequency and intensity of these experiences",
-          "Maintain regular routines and social activities",
-          "Reduce stress and substance use (e.g., cannabis, alcohol)",
-          "If experiences worsen or affect functioning, consult a psychiatrist"
+          "Pay close attention to the frequency, intensity, and duration of any unusual perceptual or cognitive experiences over the coming weeks",
+          "Maintain regular daily routines, consistent sleep schedules, and meaningful social connections as these support psychological stability",
+          "Minimize or eliminate use of psychoactive substances including cannabis and excessive alcohol, as these can exacerbate psychotic-like experiences",
+          "If these experiences increase in frequency, become more distressing, or begin to affect your daily functioning, consult a psychiatrist promptly"
         ]
       },
       {
@@ -130,12 +131,13 @@
         "max": 12,
         "level": "moderate",
         "label": "Screen Positive",
-        "description": "Your score exceeds the screening threshold, suggesting possible ultra-high risk for psychosis. This is not a diagnosis and requires professional evaluation.",
+        "description": "Your score exceeds the clinical screening threshold, suggesting possible ultra-high risk for psychosis. This is a screening result, not a diagnosis, and requires professional clinical evaluation for proper interpretation.",
         "suggestions": [
-          "Consider consulting a psychiatrist for professional evaluation",
-          "Early identification and intervention are important for outcomes",
-          "Maintain healthy lifestyle and social connections",
-          "Avoid psychoactive substances"
+          "Consider scheduling an appointment with a psychiatrist or psychologist for a comprehensive clinical evaluation of your experiences",
+          "Early identification and intervention for psychosis risk have strong evidence for improving long-term outcomes and preventing progression",
+          "Maintain a healthy lifestyle including regular sleep patterns, balanced nutrition, physical activity, and supportive social relationships",
+          "Completely avoid all psychoactive substances including cannabis, stimulants, and hallucinogens as these can significantly increase psychosis risk",
+          "Share your experiences with a trusted family member or friend who can provide emotional support and help monitor any changes"
         ]
       },
       {
@@ -143,12 +145,12 @@
         "max": 16,
         "level": "severe",
         "label": "Highly Positive",
-        "description": "You reported many psychotic-like experiences. A comprehensive psychiatric evaluation is strongly recommended. Early intervention can significantly improve outcomes.",
+        "description": "You reported many psychotic-like experiences, indicating a substantially elevated screening score. A comprehensive psychiatric evaluation is strongly recommended, as early intervention can significantly improve outcomes.",
         "suggestions": [
-          "Strongly recommend seeing a psychiatrist soon",
-          "Early intervention services can provide professional support",
-          "Let trusted family or friends know about your situation",
-          "Don't panic — having these experiences doesn't necessarily mean you have a mental illness"
+          "Strongly recommend scheduling an appointment with a psychiatrist as soon as possible for a thorough clinical assessment",
+          "Early intervention services specializing in psychosis risk can provide structured professional support and monitoring tailored to your needs",
+          "Inform trusted family members or close friends about your experiences so they can offer support and assist with accessing appropriate care",
+          "Remember that endorsing these experiences on a screening questionnaire does not mean you have a psychotic disorder, and many people with elevated scores do not develop psychosis"
         ]
       }
     ],

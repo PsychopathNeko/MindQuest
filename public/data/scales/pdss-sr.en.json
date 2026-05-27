@@ -82,10 +82,11 @@
         "max": 5,
         "level": "minimal",
         "label": "Minimal Panic Symptoms",
-        "description": "Your score suggests minimal or no significant panic disorder symptoms.",
+        "description": "Your score suggests minimal or no significant panic disorder symptoms over the past week. Panic attacks may be absent or very infrequent with little associated distress or avoidance. Continue maintaining healthy coping strategies that work for you.",
         "suggestions": [
-          "Continue maintaining healthy coping strategies",
-          "Practice regular stress management techniques"
+          "Continue maintaining healthy coping strategies and stress management practices",
+          "Practice regular relaxation techniques such as deep breathing or progressive muscle relaxation as preventive measures",
+          "If occasional anxiety arises, remind yourself that panic attacks, while distressing, are not medically dangerous"
         ]
       },
       {
@@ -93,12 +94,12 @@
         "max": 13,
         "level": "mild",
         "label": "Mild to Moderate Panic",
-        "description": "Your score indicates mild to moderate panic disorder symptoms. You may be experiencing some distress related to panic attacks.",
+        "description": "Your score indicates mild to moderate panic disorder symptoms, including some panic attacks, anticipatory anxiety, and avoidance. While not severely disabling, these symptoms may be causing meaningful distress and limiting certain activities.",
         "suggestions": [
-          "Learn about the nature of panic attacks and their harmlessness",
-          "Practice breathing retraining and relaxation techniques",
-          "Consider cognitive-behavioral approaches to manage anxiety",
-          "Keep a panic diary to identify triggers"
+          "Learn about the cognitive model of panic: panic attacks are caused by catastrophic misinterpretation of bodily sensations, not actual danger",
+          "Practice diaphragmatic breathing and interoceptive exposure exercises to reduce fear of physical sensations",
+          "Consider cognitive-behavioral therapy (CBT), which is the gold-standard treatment for panic disorder",
+          "Keep a panic diary to identify triggers, early warning signs, and patterns in your panic attacks"
         ]
       },
       {
@@ -106,12 +107,13 @@
         "max": 20,
         "level": "moderate",
         "label": "Moderate to Severe Panic",
-        "description": "Your score indicates moderate to severe panic disorder symptoms that are likely impacting your daily life.",
+        "description": "Your score indicates moderate to severe panic disorder symptoms that are likely impacting your daily life, work, and social activities. Avoidance behaviors may be restricting your activities and anticipatory anxiety may be causing persistent worry.",
         "suggestions": [
-          "Strongly consider seeking professional treatment",
-          "Cognitive-behavioral therapy (CBT) is highly effective for panic disorder",
-          "Discuss medication options with a psychiatrist",
-          "Avoid safety behaviors that maintain the cycle of panic"
+          "Professional treatment is strongly recommended; CBT with exposure therapy is highly effective for panic disorder",
+          "Discuss medication options with a psychiatrist, as SSRIs and SNRIs can significantly reduce panic symptoms",
+          "Gradually challenge avoidance behaviors with professional guidance, as avoidance maintains the panic cycle",
+          "Build a support network of trusted people who understand your condition and can provide encouragement",
+          "Avoid relying on safety behaviors or substances such as alcohol or benzodiazepines to cope with panic"
         ]
       },
       {
@@ -119,13 +121,13 @@
         "max": 28,
         "level": "severe",
         "label": "Severe Panic",
-        "description": "Your score indicates severe panic disorder symptoms with significant functional impairment.",
+        "description": "Your score indicates severe panic disorder symptoms with significant functional impairment across multiple life domains. You may experience frequent panic attacks, intense anticipatory anxiety, and extensive avoidance. Prompt treatment is essential.",
         "suggestions": [
-          "Please seek professional help as soon as possible",
-          "A combination of CBT and medication is often most effective for severe panic",
-          "Do not avoid situations out of fear; this reinforces the panic cycle",
-          "Build a support system and inform trusted people about your condition",
-          "Remember that panic disorder is highly treatable"
+          "Please seek professional help as soon as possible; severe panic disorder is highly treatable with proper intervention",
+          "If you feel you are in crisis or unable to cope, contact the 988 Suicide and Crisis Lifeline for immediate support",
+          "A combination of CBT and medication (such as SSRIs) is often the most effective approach for severe panic disorder",
+          "Do not avoid situations out of fear; avoidance reinforces the panic cycle and leads to increasing restriction of activities",
+          "Remember that panic disorder has among the highest treatment success rates of any mental health condition"
         ]
       }
     ],

@@ -108,10 +108,11 @@
         "max": 12,
         "level": "minimal",
         "label": "Low Overall Attachment Concern",
-        "description": "Your overall attachment ratings are low across all styles. This may indicate you haven't strongly identified with any particular pattern.",
+        "description": "Your overall attachment ratings are low across all four styles, suggesting you have not strongly identified with any particular relational pattern. This may reflect limited self-awareness about attachment or a balanced, flexible approach to relationships.",
         "suggestions": [
-          "Reflect on your relationship experiences to better understand your attachment tendencies",
-          "Consider discussing relationship patterns with a counselor"
+          "Reflect on your relationship experiences to better understand your attachment tendencies and emotional needs",
+          "Consider discussing relationship patterns with a counselor to gain deeper self-insight",
+          "Explore how your early caregiving experiences may have shaped your current relational style"
         ]
       },
       {
@@ -119,10 +120,11 @@
         "max": 20,
         "level": "normal",
         "label": "Moderate Attachment Pattern",
-        "description": "You show a moderate identification with one or more attachment styles. Review your subscale scores for more specific insights.",
+        "description": "You show moderate identification with one or more attachment styles. This indicates some awareness of how you typically approach closeness and independence in relationships. Review your subscale scores below for more specific insights into your dominant pattern.",
         "suggestions": [
-          "Review individual attachment style scores to understand your dominant pattern",
-          "Reflect on how your attachment style influences your relationships"
+          "Review individual attachment style scores to identify your dominant relational pattern and its implications",
+          "Reflect on how your attachment style influences your satisfaction and communication in close relationships",
+          "Practice open communication with partners about your needs for closeness and personal space"
         ]
       },
       {
@@ -130,11 +132,12 @@
         "max": 28,
         "level": "mild",
         "label": "Strong Attachment Identification",
-        "description": "You strongly identify with one or more attachment styles. Review your subscale profile for detailed insights.",
+        "description": "You strongly identify with one or more attachment styles, indicating well-defined relational tendencies. Review your subscale profile below for detailed insights into which patterns predominate and how they may affect your relationship functioning.",
         "suggestions": [
-          "Examine which specific attachment style(s) scored highest",
-          "Consider how these patterns affect your relationship satisfaction",
-          "If insecure patterns predominate, consider attachment-focused therapy"
+          "Examine which specific attachment style scored highest and consider how it shapes your relationship behaviors",
+          "Consider how strongly endorsed patterns affect your relationship satisfaction and conflict resolution",
+          "If insecure patterns predominate, consider attachment-focused therapy to develop more secure relational strategies",
+          "Discuss your attachment profile with a trusted partner or therapist to build mutual understanding"
         ]
       }
     ],
@@ -145,21 +148,21 @@
           "max": 3,
           "level": "low",
           "label": "Low Secure",
-          "description": "You do not strongly identify with the secure attachment style. You may experience some discomfort with closeness or trust."
+          "description": "You do not strongly identify with the secure attachment style. You may experience discomfort with emotional closeness or find it challenging to trust and depend on others. Building trust gradually through positive relational experiences can help strengthen secure tendencies."
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate Secure",
-          "description": "You show some secure attachment characteristics. You are somewhat comfortable with closeness and interdependence."
+          "description": "You show moderate secure attachment characteristics, indicating reasonable comfort with closeness and interdependence. While you can form trusting relationships, some situations may still trigger uncertainty about relying on others or being relied upon."
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High Secure",
-          "description": "You strongly identify with the secure attachment style. You are comfortable with emotional closeness, trust, and mutual dependence."
+          "description": "You strongly identify with the secure attachment style. You are comfortable with emotional closeness, trust others readily, and feel at ease with mutual dependence. This pattern is associated with greater relationship satisfaction and effective conflict resolution."
         }
       ],
       "fearful": [
@@ -168,21 +171,21 @@
           "max": 3,
           "level": "low",
           "label": "Low Fearful",
-          "description": "You do not strongly identify with the fearful attachment style. You are generally not overly worried about being hurt in relationships."
+          "description": "You do not strongly identify with the fearful attachment style. You are generally not overly worried about being hurt in close relationships and can approach intimacy without excessive anxiety. This suggests a relatively healthy comfort level with emotional vulnerability."
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate Fearful",
-          "description": "You show some fearful attachment characteristics. You may sometimes struggle between wanting closeness and fearing rejection."
+          "description": "You show moderate fearful attachment characteristics. You may sometimes struggle between wanting emotional closeness and fearing rejection or betrayal. This ambivalence can lead to hesitation in deepening relationships even when you desire more connection."
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High Fearful",
-          "description": "You strongly identify with the fearful attachment style. You desire close relationships but fear being hurt, making intimacy difficult."
+          "description": "You strongly identify with the fearful attachment style. You desire close relationships but fear being hurt, which makes intimacy feel risky and difficult. This pattern often involves both a negative view of self and distrust of others, creating significant relational distress."
         }
       ],
       "preoccupied": [
@@ -191,21 +194,21 @@
           "max": 3,
           "level": "low",
           "label": "Low Preoccupied",
-          "description": "You do not strongly identify with the preoccupied attachment style. You generally do not excessively worry about others' availability."
+          "description": "You do not strongly identify with the preoccupied attachment style. You generally do not excessively worry about whether others value you or are available when needed. This suggests a healthy level of relational self-confidence and emotional autonomy."
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate Preoccupied",
-          "description": "You show some preoccupied attachment characteristics. You may sometimes worry that others do not value you as much as you value them."
+          "description": "You show moderate preoccupied attachment characteristics. You may sometimes worry that others do not value you as much as you value them, leading to occasional reassurance-seeking. This can create tension when partners need more personal space."
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High Preoccupied",
-          "description": "You strongly identify with the preoccupied attachment style. You strongly desire closeness and may worry excessively about relationship security."
+          "description": "You strongly identify with the preoccupied attachment style. You strongly desire closeness and may worry excessively about relationship security and partner availability. This pattern often involves heightened emotional reactivity and difficulty tolerating separations."
         }
       ],
       "dismissing": [
@@ -214,21 +217,21 @@
           "max": 3,
           "level": "low",
           "label": "Low Dismissing",
-          "description": "You do not strongly identify with the dismissing attachment style. You are generally open to emotional closeness and interdependence."
+          "description": "You do not strongly identify with the dismissing attachment style. You are generally open to emotional closeness and comfortable with interdependence in relationships. This suggests you value both connection and autonomy without over-prioritizing independence."
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate Dismissing",
-          "description": "You show some dismissing attachment characteristics. You value independence but may still desire some close relationships."
+          "description": "You show moderate dismissing attachment characteristics. You value independence and self-sufficiency but can still engage in close relationships when motivated. You may occasionally downplay the importance of emotional needs or pull back when feeling vulnerable."
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High Dismissing",
-          "description": "You strongly identify with the dismissing attachment style. You highly value independence and self-sufficiency, preferring to avoid emotional dependence."
+          "description": "You strongly identify with the dismissing attachment style. You highly value independence and self-sufficiency, preferring to avoid emotional dependence on others. This pattern may limit relationship depth and can make it difficult for partners to feel emotionally connected."
         }
       ]
     }

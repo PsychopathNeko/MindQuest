@@ -77,10 +77,11 @@
         "max": 12,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your social media use is within a healthy range.",
+        "description": "Your social media use is within a healthy range and does not appear to interfere with your daily life or well-being. You demonstrate good self-regulation over your online activity and maintain a balanced relationship with social media platforms.",
         "suggestions": [
-          "Continue maintaining moderate social media usage habits",
-          "Be mindful of your screen time"
+          "Continue maintaining your moderate and balanced social media usage habits",
+          "Periodically check your screen time statistics to stay aware of any gradual increases",
+          "Be mindful of how social media content affects your mood and self-image"
         ]
       },
       {
@@ -88,11 +89,12 @@
         "max": 18,
         "level": "mild",
         "label": "Mild Risk",
-        "description": "You may have some unhealthy social media usage patterns.",
+        "description": "You show some signs of unhealthy social media usage patterns, such as spending more time than intended or feeling restless without access. While not yet significantly disruptive, these early warning signs suggest your relationship with social media may benefit from proactive adjustments.",
         "suggestions": [
-          "Set daily time limits for social media use",
-          "Turn off unnecessary push notifications",
-          "Develop offline social activities and hobbies"
+          "Set specific daily time limits for social media use using built-in screen time tools",
+          "Turn off non-essential push notifications to reduce habitual checking",
+          "Develop offline social activities and hobbies to diversify how you spend your leisure time",
+          "Establish phone-free periods during meals and before bedtime"
         ]
       },
       {
@@ -100,12 +102,13 @@
         "max": 24,
         "level": "moderate",
         "label": "Moderate Risk",
-        "description": "Social media use may already be affecting your daily life and interpersonal relationships.",
+        "description": "Your social media use is likely affecting your daily life, interpersonal relationships, and emotional well-being. You may find it difficult to stop scrolling, feel anxious when unable to check your accounts, or notice that social media is replacing meaningful offline activities.",
         "suggestions": [
-          "Consider trying a \"digital detox\"",
-          "Use screen time management tools",
-          "Reflect on how social media affects your mood",
-          "If you feel distressed, consider consulting a professional"
+          "Try a structured digital detox by designating full days or weekends without social media",
+          "Use app-specific screen time management tools to enforce daily usage limits",
+          "Reflect on how social media affects your mood, sleep quality, and self-esteem",
+          "Actively seek alternative leisure activities such as exercise, reading, or face-to-face socializing",
+          "If you feel distressed or unable to cut back on your own, consider consulting a mental health professional"
         ]
       },
       {
@@ -113,12 +116,13 @@
         "max": 30,
         "level": "severe",
         "label": "High Risk",
-        "description": "Your social media usage pattern has reached a problematic level and may be seriously affecting daily functioning.",
+        "description": "Your social media usage pattern has reached a problematic level consistent with behavioral addiction criteria. It is likely seriously affecting your daily functioning, work or academic performance, sleep, and relationships. Compulsive use despite negative consequences is a hallmark of this stage.",
         "suggestions": [
-          "Strongly recommended to consult a mental health professional",
-          "Create a detailed usage restriction plan",
-          "Find alternative ways to relax",
-          "Consider temporarily uninstalling your most-used social media apps"
+          "Strongly recommended to consult a mental health professional experienced in behavioral addictions",
+          "Create a detailed, written usage restriction plan with specific daily limits and accountability measures",
+          "Consider temporarily uninstalling your most-used social media apps to break the cycle",
+          "Ask trusted family members or friends to support and monitor your reduction efforts",
+          "Address any underlying emotional issues such as loneliness, anxiety, or low self-esteem that may drive compulsive use"
         ]
       }
     ],

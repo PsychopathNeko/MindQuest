@@ -148,10 +148,11 @@
         "max": 24,
         "level": "minimal",
         "label": "Low Aggression",
-        "description": "Your aggression level is low. You can control aggressive impulses well.",
+        "description": "Your overall aggression score is low, indicating that you generally manage anger and interpersonal conflict effectively. You are unlikely to resort to aggressive responses in most situations and tend to approach disagreements calmly and constructively.",
         "suggestions": [
-          "Continue maintaining good emotional management and conflict resolution skills",
-          "Your low aggression contributes to harmonious relationships"
+          "Continue maintaining your effective emotional regulation and conflict resolution skills, as these are valuable personal strengths",
+          "Your low aggression contributes positively to your relationships and social environment; stay mindful of preserving these patterns",
+          "Consider sharing your coping strategies with others who may benefit from learning constructive approaches to frustration"
         ]
       },
       {
@@ -159,11 +160,11 @@
         "max": 36,
         "level": "normal",
         "label": "Moderate Aggression",
-        "description": "Your aggression is at a moderate level, within the normal range for most people.",
+        "description": "Your aggression level falls within the average range for most adults. You may occasionally experience frustration or engage in arguments, but these responses are generally proportionate to the situation and do not typically cause significant interpersonal problems.",
         "suggestions": [
-          "Review subscale scores to understand your aggression patterns",
-          "Learn more effective communication and conflict resolution skills",
-          "Practice emotion regulation and anger management"
+          "Review your subscale scores to identify specific aggression patterns, such as whether anger, hostility, or verbal aggression is most prominent",
+          "Practice active listening and assertive communication techniques to express your needs without escalating conflicts",
+          "Develop a personal toolkit of calming strategies such as deep breathing, counting to ten, or briefly stepping away from heated situations"
         ]
       },
       {
@@ -171,12 +172,12 @@
         "max": 48,
         "level": "mild",
         "label": "Elevated Aggression",
-        "description": "Your aggression level is elevated. You may have difficulty controlling aggressive behavior in some situations.",
+        "description": "Your aggression score is elevated above the typical range. You may find it difficult to control aggressive impulses in certain situations, which could lead to conflict in relationships, work settings, or social interactions that affects your well-being.",
         "suggestions": [
-          "Learn anger management and conflict resolution techniques",
-          "Practice deep breathing and relaxation to manage anger",
-          "Consider seeking psychological counseling",
-          "Be aware of how aggression affects your relationships"
+          "Learn and regularly practice structured anger management techniques such as cognitive restructuring and progressive muscle relaxation",
+          "Identify your personal triggers for aggression and develop specific coping plans for each common trigger situation",
+          "Consider enrolling in an anger management workshop or program where you can practice skills in a supportive group setting",
+          "Monitor how elevated aggression may be affecting your relationships and professional life, and seek feedback from trusted others"
         ]
       },
       {
@@ -184,12 +185,13 @@
         "max": 60,
         "level": "moderate",
         "label": "High Aggression",
-        "description": "Your aggression level is very high. This may significantly impact your relationships and social adjustment.",
+        "description": "Your aggression level is very high and likely causing significant disruption in your interpersonal relationships, work performance, and overall social adjustment. Aggressive behavior at this intensity carries risks for both yourself and those around you.",
         "suggestions": [
-          "Consider seeking professional psychological help",
-          "Anger management training may be very beneficial",
-          "Avoid high-conflict environments and learn calming strategies",
-          "Be aware of potential legal and social consequences of aggressive behavior"
+          "Seeking professional psychological help from a therapist experienced in aggression and anger management is strongly recommended",
+          "Cognitive-behavioral therapy has strong evidence for reducing aggressive thoughts, hostile attributions, and aggressive behavior patterns",
+          "Actively avoid high-conflict environments and develop a safety plan for situations where you feel your aggression may escalate",
+          "Be aware that chronic high aggression is associated with legal consequences, relationship breakdown, and physical health problems",
+          "Consider whether substance use or underlying mental health conditions may be contributing to your elevated aggression levels"
         ]
       }
     ],
@@ -200,28 +202,28 @@
           "max": 6,
           "level": "minimal",
           "label": "Low",
-          "description": "Low physical aggression."
+          "description": "Your physical aggression score is low, indicating that you rarely consider or engage in physically aggressive acts. You are able to manage provocation without resorting to physical confrontation."
         },
         {
           "min": 7,
           "max": 9,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate physical aggression."
+          "description": "Your physical aggression is at a moderate level. While you may occasionally feel the urge to respond physically when provoked, you generally maintain control over these impulses in most situations."
         },
         {
           "min": 10,
           "max": 12,
           "level": "moderate",
           "label": "High",
-          "description": "High physical aggression."
+          "description": "Your physical aggression score is elevated, suggesting a notable tendency toward physical confrontation when provoked. This level may lead to situations that risk injury to yourself or others and warrant attention."
         },
         {
           "min": 13,
           "max": 15,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high physical aggression."
+          "description": "Your physical aggression is very high, indicating frequent readiness to use physical force in conflicts. This poses serious risks for personal safety, legal consequences, and relationship stability."
         }
       ],
       "verbal": [
@@ -230,28 +232,28 @@
           "max": 6,
           "level": "minimal",
           "label": "Low",
-          "description": "Low verbal aggression."
+          "description": "Your verbal aggression score is low, indicating that you generally communicate disagreements without resorting to arguments, harsh words, or verbal confrontation. You tend to express yourself calmly."
         },
         {
           "min": 7,
           "max": 9,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate verbal aggression."
+          "description": "Your verbal aggression is at a moderate level. You may sometimes get drawn into arguments or express disagreement in a forceful manner, but this does not dominate your communication style."
         },
         {
           "min": 10,
           "max": 12,
           "level": "moderate",
           "label": "High",
-          "description": "High verbal aggression."
+          "description": "Your verbal aggression is elevated, suggesting a pattern of argumentativeness and confrontational communication. This may create tension in relationships and reduce the effectiveness of your communication."
         },
         {
           "min": 13,
           "max": 15,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high verbal aggression."
+          "description": "Your verbal aggression is very high, indicating frequent and intense verbal confrontations. This level of verbal aggression can significantly damage relationships and create a hostile interpersonal environment."
         }
       ],
       "anger": [
@@ -260,28 +262,28 @@
           "max": 6,
           "level": "minimal",
           "label": "Low",
-          "description": "Low anger level."
+          "description": "Your anger score is low, indicating that you rarely experience intense irritability or difficulty controlling your temper. You are generally able to remain calm even in frustrating situations."
         },
         {
           "min": 7,
           "max": 9,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate anger level."
+          "description": "Your anger level is moderate. You may experience occasional irritability or temper flare-ups, but these are generally manageable and do not persist or escalate to problematic levels."
         },
         {
           "min": 10,
           "max": 12,
           "level": "moderate",
           "label": "High",
-          "description": "High anger level."
+          "description": "Your anger score is elevated, suggesting frequent irritability and difficulty controlling your temper. You may often feel like a powder keg, and this emotional volatility can affect your daily functioning."
         },
         {
           "min": 13,
           "max": 15,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high anger level."
+          "description": "Your anger level is very high, indicating persistent and intense anger that is difficult to control. This degree of anger significantly impairs emotional well-being and may lead to impulsive actions with serious consequences."
         }
       ],
       "hostility": [
@@ -290,28 +292,28 @@
           "max": 6,
           "level": "minimal",
           "label": "Low",
-          "description": "Low hostility level."
+          "description": "Your hostility score is low, indicating that you generally view others with trust and do not harbor feelings of resentment, suspicion, or perceived unfairness. You maintain a positive outlook toward others."
         },
         {
           "min": 7,
           "max": 9,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate hostility level."
+          "description": "Your hostility level is moderate. You may sometimes feel that life has treated you unfairly or question the motives of others, but these thoughts do not dominate your worldview or relationships."
         },
         {
           "min": 10,
           "max": 12,
           "level": "moderate",
           "label": "High",
-          "description": "High hostility level."
+          "description": "Your hostility score is elevated, suggesting a tendency toward cynical distrust, feelings of injustice, and jealousy. These hostile cognitions can erode relationships and contribute to chronic stress."
         },
         {
           "min": 13,
           "max": 15,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high hostility level."
+          "description": "Your hostility is very high, indicating pervasive suspicion, resentment, and feelings of being treated unfairly. This cognitive pattern can lead to social isolation, chronic anger, and significant interpersonal difficulties."
         }
       ]
     }

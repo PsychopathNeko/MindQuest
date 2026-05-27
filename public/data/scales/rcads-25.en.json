@@ -209,10 +209,11 @@
         "max": 24,
         "level": "normal",
         "label": "Normal Range",
-        "description": "Your anxiety and depression symptoms are within the normal range.",
+        "description": "Your total score on the RCADS-25 falls within the normal range, indicating that your anxiety and depression symptoms are not clinically concerning at this time. You may experience occasional worries or low mood, but these are within the typical range of emotional experiences for your age group.",
         "suggestions": [
-          "Continue maintaining good mental health",
-          "Stay socially engaged and active"
+          "Continue maintaining your current healthy habits including regular physical activity, adequate sleep, and social connections",
+          "Be aware that occasional stress and worry are normal parts of life and do not necessarily indicate a problem",
+          "If you notice a significant increase in anxiety or sadness in the future, consider re-taking this assessment to monitor any changes"
         ]
       },
       {
@@ -220,11 +221,12 @@
         "max": 49,
         "level": "elevated",
         "label": "Elevated Symptoms",
-        "description": "Your anxiety and/or depression symptoms are elevated and deserve attention.",
+        "description": "Your RCADS-25 score indicates elevated anxiety and/or depression symptoms that exceed the typical range. These symptoms may be causing noticeable distress or beginning to interfere with your daily activities, school performance, or social relationships. Early attention to these symptoms is advisable.",
         "suggestions": [
-          "Talk to a trusted adult about how you are feeling",
-          "Maintain regular exercise and healthy sleep habits",
-          "Consider talking to a school counselor"
+          "Talk to a trusted adult such as a parent, teacher, or school counselor about how you have been feeling recently",
+          "Maintain regular exercise and consistent sleep habits, as these have strong evidence for reducing both anxiety and depressive symptoms",
+          "Practice relaxation techniques such as deep breathing, progressive muscle relaxation, or mindfulness exercises when feeling anxious",
+          "Consider scheduling an appointment with a school counselor or mental health professional for a more thorough evaluation"
         ]
       },
       {
@@ -232,11 +234,13 @@
         "max": 75,
         "level": "clinical",
         "label": "Clinically Significant",
-        "description": "Your symptoms reach clinically significant levels. Professional evaluation is recommended.",
+        "description": "Your score on the RCADS-25 reaches clinically significant levels, suggesting that anxiety and/or depression symptoms are substantially impacting your daily functioning, well-being, and quality of life. Professional evaluation and intervention are strongly recommended to help you manage these symptoms effectively.",
         "suggestions": [
-          "Consult a mental health professional as soon as possible",
-          "Do not carry the burden alone; communicate with family or teachers",
-          "A professional assessment can help develop an appropriate intervention plan"
+          "Please consult a qualified mental health professional such as a psychologist or psychiatrist as soon as possible for a comprehensive clinical evaluation",
+          "Do not carry this burden alone; share your feelings with trusted family members, friends, or school staff who can provide support",
+          "A professional assessment can help determine the most appropriate evidence-based intervention plan, which may include cognitive behavioral therapy",
+          "If you experience thoughts of self-harm or hopelessness, please reach out to a crisis helpline or emergency services immediately",
+          "Remember that anxiety and depression are highly treatable conditions, and seeking help is a sign of strength, not weakness"
         ]
       }
     ],
@@ -247,21 +251,21 @@
           "max": 14,
           "level": "normal",
           "label": "Normal",
-          "description": "Anxiety symptoms within normal range."
+          "description": "Your anxiety subscale score is within the normal range. You may experience occasional worries or nervousness, but these feelings are typical and do not significantly disrupt your daily functioning or well-being."
         },
         {
           "min": 15,
           "max": 29,
           "level": "elevated",
           "label": "Elevated",
-          "description": "Elevated anxiety symptoms."
+          "description": "Your anxiety subscale score is elevated, indicating that anxiety symptoms such as excessive worry, physical tension, panic feelings, or social fears are noticeably present and may be affecting your concentration, sleep, or social interactions."
         },
         {
           "min": 30,
           "max": 45,
           "level": "clinical",
           "label": "Clinical",
-          "description": "Clinically significant anxiety symptoms."
+          "description": "Your anxiety subscale score is in the clinically significant range, suggesting persistent and intense anxiety symptoms that are substantially interfering with your daily life. Professional evaluation focusing on anxiety management strategies is strongly recommended."
         }
       ],
       "depression": [
@@ -270,21 +274,21 @@
           "max": 9,
           "level": "normal",
           "label": "Normal",
-          "description": "Depression symptoms within normal range."
+          "description": "Your depression subscale score is within the normal range. You generally maintain interest in activities, adequate energy levels, and a positive sense of self-worth in your daily life."
         },
         {
           "min": 10,
           "max": 19,
           "level": "elevated",
           "label": "Elevated",
-          "description": "Elevated depression symptoms."
+          "description": "Your depression subscale score is elevated, suggesting symptoms such as persistent sadness, loss of interest in previously enjoyed activities, fatigue, or feelings of worthlessness that may be impacting your mood and daily engagement."
         },
         {
           "min": 20,
           "max": 30,
           "level": "clinical",
           "label": "Clinical",
-          "description": "Clinically significant depression symptoms."
+          "description": "Your depression subscale score is in the clinically significant range, indicating pervasive depressive symptoms that are likely causing substantial distress and functional impairment. A professional evaluation for depression is strongly recommended."
         }
       ]
     }

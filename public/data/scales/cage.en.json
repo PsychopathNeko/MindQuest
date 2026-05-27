@@ -46,11 +46,11 @@
         "max": 0,
         "level": "minimal",
         "label": "No Alcohol Problems Indicated",
-        "description": "Your responses do not suggest alcohol-related problems.",
+        "description": "Your responses do not suggest the presence of alcohol-related problems. You appear to have a healthy relationship with alcohol, whether through moderate consumption or abstinence. No further clinical evaluation is indicated at this time.",
         "suggestions": [
-          "Continue maintaining healthy drinking habits or abstinence",
-          "Stay informed about the risks of excessive alcohol use",
-          "Be mindful of any changes in your drinking patterns"
+          "Continue maintaining your healthy drinking habits or abstinence from alcohol",
+          "Stay informed about the recommended alcohol intake guidelines and the risks of excessive drinking",
+          "Be mindful of any future changes in your drinking patterns and reassess periodically"
         ]
       },
       {
@@ -58,12 +58,12 @@
         "max": 1,
         "level": "mild",
         "label": "Possible Alcohol Problem",
-        "description": "Your response suggests a possible alcohol-related concern. Further evaluation may be helpful.",
+        "description": "Your response suggests a possible alcohol-related concern that warrants attention. While a single positive answer does not confirm an alcohol use disorder, it may indicate early signs of problematic drinking patterns. Further self-reflection or professional evaluation could be beneficial.",
         "suggestions": [
-          "Reflect on your relationship with alcohol",
-          "Consider discussing your drinking habits with a healthcare provider",
-          "Monitor your drinking patterns over the coming weeks",
-          "Learn about recommended alcohol intake guidelines"
+          "Reflect honestly on your relationship with alcohol and whether it has changed over time",
+          "Consider discussing your drinking habits with a healthcare provider at your next visit",
+          "Monitor your drinking patterns closely over the coming weeks using a simple diary or tracking app",
+          "Learn about recommended alcohol intake guidelines to establish a personal benchmark"
         ]
       },
       {
@@ -71,13 +71,12 @@
         "max": 4,
         "level": "severe",
         "label": "Probable Alcohol Problem",
-        "description": "Your responses suggest a probable alcohol use problem. A score of 2 or more is clinically significant and warrants further assessment.",
+        "description": "A score of 2 or more on the CAGE is clinically significant and indicates a probable alcohol use problem. Your responses suggest patterns consistent with alcohol dependence or harmful use, such as feeling the need to cut down, experiencing guilt, or using alcohol to manage withdrawal symptoms.",
         "suggestions": [
-          "Strongly recommended to seek professional evaluation for alcohol use",
-          "Consult with a healthcare provider or addiction specialist",
-          "Consider joining a support group for alcohol-related concerns",
-          "Talk openly with trusted family members or friends",
-          "Explore treatment options that may be available to you"
+          "Strongly recommended to seek a professional evaluation for alcohol use from a healthcare provider or addiction specialist",
+          "Consult with your primary care physician, who can assess your situation and recommend appropriate treatment options",
+          "Consider joining a support group such as Alcoholics Anonymous for peer support and structured recovery",
+          "Talk openly with trusted family members or friends who can provide emotional support during this process"
         ]
       }
     ],

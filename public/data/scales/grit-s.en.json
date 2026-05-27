@@ -121,12 +121,12 @@
         "max": 16,
         "level": "severe",
         "label": "Low Grit",
-        "description": "Your grit score is low, suggesting difficulty maintaining long-term goals and effort.",
+        "description": "Your grit score is low, suggesting substantial difficulty sustaining effort and interest toward long-term goals. You may frequently shift between projects or lose motivation when progress feels slow.",
         "suggestions": [
-          "Try setting smaller, achievable goals as stepping stones",
-          "Practice committing to one project at a time",
-          "Reflect on what truly matters to you long-term",
-          "Consider working with a coach or mentor"
+          "Begin by setting smaller, clearly defined goals that can serve as achievable stepping stones toward larger objectives",
+          "Practice committing to one project or goal at a time before taking on additional pursuits",
+          "Spend time reflecting on what truly matters to you in the long term to identify goals worth persevering toward",
+          "Consider working with a coach or mentor who can provide accountability and guidance on maintaining focus"
         ]
       },
       {
@@ -134,12 +134,12 @@
         "max": 24,
         "level": "mild",
         "label": "Below Average Grit",
-        "description": "Your grit is below average. You may sometimes struggle with maintaining focus on long-term goals.",
+        "description": "Your grit is below average, indicating that you may sometimes struggle to maintain consistent focus on long-term goals. Interest in new pursuits may occasionally divert attention from existing commitments.",
         "suggestions": [
-          "Identify your core passions and align goals accordingly",
-          "Build habits that support daily consistency",
-          "Track your progress to stay motivated",
-          "Learn from setbacks rather than being discouraged by them"
+          "Identify your core passions and align your goals with activities that genuinely inspire sustained interest",
+          "Build daily habits and routines that support consistency, such as dedicated work blocks and progress tracking",
+          "Track your progress visually using journals or apps to maintain motivation and recognize incremental gains",
+          "Learn to view setbacks as valuable learning opportunities rather than reasons to abandon your goals"
         ]
       },
       {
@@ -147,11 +147,11 @@
         "max": 32,
         "level": "normal",
         "label": "Above Average Grit",
-        "description": "Your grit is above average. You generally maintain effort and interest in your long-term goals.",
+        "description": "Your grit is above average, indicating that you generally maintain sustained effort and interest in your long-term goals. You demonstrate a healthy balance between persistence and adaptability in pursuing objectives.",
         "suggestions": [
-          "Continue cultivating your perseverance",
-          "Share your strategies for persistence with others",
-          "Challenge yourself with increasingly ambitious goals"
+          "Continue cultivating your perseverance by setting progressively more challenging goals for yourself",
+          "Share your strategies for persistence and follow-through with peers or colleagues who may benefit from them",
+          "Challenge yourself with increasingly ambitious long-term projects that stretch your capabilities"
         ]
       },
       {
@@ -159,11 +159,11 @@
         "max": 40,
         "level": "minimal",
         "label": "High Grit",
-        "description": "Your grit score is high. You demonstrate strong perseverance and sustained passion for your long-term goals.",
+        "description": "Your grit score is high, demonstrating exceptional perseverance and sustained passion for your long-term goals. You consistently follow through on commitments and maintain focus even when facing significant obstacles.",
         "suggestions": [
-          "Continue your excellent persistence habits",
-          "Ensure you also allow flexibility when goals need adjusting",
-          "Use your grit as a strength to inspire others"
+          "Continue your excellent persistence habits while remaining mindful of opportunities to rest and recharge",
+          "Ensure you also allow appropriate flexibility when circumstances require adjusting your goals or strategies",
+          "Use your grit as a strength to inspire and motivate others in collaborative and leadership settings"
         ]
       }
     ],

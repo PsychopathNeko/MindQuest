@@ -90,10 +90,12 @@
         "max": 18,
         "level": "severe",
         "label": "Low Gratitude",
-        "description": "Your gratitude disposition is low.",
+        "description": "Your gratitude level is below average, suggesting difficulty recognizing and appreciating positive aspects of life. Low gratitude is associated with reduced life satisfaction and well-being. Gratitude is a skill that can be cultivated with practice.",
         "suggestions": [
-          "Record 3 things you are grateful for each day",
-          "Write a gratitude letter to someone who helped you"
+          "Start a daily gratitude journal — write down three things you are grateful for each evening",
+          "Practice expressing appreciation to others through notes, messages, or verbal thanks",
+          "Try a ‘gratitude walk’ — notice and appreciate positive aspects of your surroundings during a daily walk",
+          "Reflect on past challenges you have overcome and what you learned from them"
         ]
       },
       {
@@ -101,10 +103,13 @@
         "max": 30,
         "level": "moderate",
         "label": "Moderate Gratitude",
-        "description": "Your gratitude disposition is moderate.",
+        "description": "You experience a moderate level of gratitude. You recognize some positive aspects of your life but may not consistently appreciate them. Deepening your gratitude practice can enhance life satisfaction, relationships, and psychological well-being.",
         "suggestions": [
-          "Continue cultivating gratitude habits",
-          "Express appreciation to others more often"
+          "Expand your gratitude journal to include both large and small daily blessings",
+          "Practice savoring positive experiences by pausing to fully appreciate good moments",
+          "Write a gratitude letter to someone who has positively impacted your life",
+          "Set reminders to pause and notice things you might take for granted",
+          "Try gratitude meditation focusing on appreciation for people and experiences in your life"
         ]
       },
       {
@@ -112,10 +117,11 @@
         "max": 42,
         "level": "minimal",
         "label": "High Gratitude",
-        "description": "Your gratitude disposition is high.",
+        "description": "You demonstrate a strong sense of gratitude, consistently recognizing and appreciating the positive aspects of life. High gratitude is associated with greater happiness, stronger relationships, better sleep, and enhanced resilience to stress.",
         "suggestions": [
-          "Continue maintaining your grateful mindset",
-          "Share your gratitude with others"
+          "Continue your gratitude practices to maintain this positive orientation",
+          "Share your appreciation with others to strengthen social bonds",
+          "Mentor others in developing gratitude skills through your example"
         ]
       }
     ],

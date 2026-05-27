@@ -89,10 +89,11 @@
         "max": 5,
         "level": "good",
         "label": "Good Sleep Quality",
-        "description": "Your sleep quality is good with no significant sleep problems.",
+        "description": "Your score indicates good overall sleep quality. Your sleep patterns, including duration, efficiency, and subjective quality, are within healthy ranges. Good sleep is foundational to both physical and mental health.",
         "suggestions": [
-          "Continue maintaining good sleep hygiene habits",
-          "Keep a regular sleep-wake schedule"
+          "Continue maintaining your current healthy sleep habits",
+          "Keep a consistent sleep schedule and comfortable sleep environment",
+          "Regular physical activity supports ongoing good sleep quality"
         ]
       },
       {
@@ -100,11 +101,12 @@
         "max": 10,
         "level": "mild",
         "label": "Fair Sleep Quality",
-        "description": "You have mild sleep difficulties. Consider improving sleep hygiene.",
+        "description": "Your score suggests fair sleep quality with some areas of difficulty. A global PSQI score above 5 is commonly used as a threshold indicating poor sleep quality. You may be experiencing issues with sleep latency, duration, efficiency, or daytime dysfunction.",
         "suggestions": [
-          "Establish a regular bedtime and wake-up schedule",
-          "Avoid electronic devices before bed",
-          "Limit caffeine and alcohol intake"
+          "Review your sleep habits and identify specific areas for improvement",
+          "Establish a consistent bedtime routine and limit caffeine and alcohol intake",
+          "Ensure your bedroom is optimized for sleep: dark, cool, quiet, and comfortable",
+          "Consider consulting a healthcare provider if sleep difficulties persist"
         ]
       },
       {
@@ -112,11 +114,13 @@
         "max": 18,
         "level": "moderate",
         "label": "Poor Sleep Quality",
-        "description": "You have moderate sleep problems that may affect daytime functioning.",
+        "description": "Your score indicates poor sleep quality across multiple dimensions. You are likely experiencing significant difficulties with falling asleep, staying asleep, insufficient sleep duration, or daytime consequences of poor sleep such as fatigue and impaired functioning.",
         "suggestions": [
-          "Consider consulting a sleep specialist",
-          "Learn relaxation techniques such as progressive muscle relaxation",
-          "Optimize your sleep environment (temperature, light, noise)"
+          "Consult a healthcare provider or sleep specialist for comprehensive evaluation",
+          "Cognitive behavioral therapy for insomnia (CBT-I) is the most effective treatment for chronic sleep problems",
+          "Identify and address any underlying conditions contributing to poor sleep",
+          "Avoid relying on alcohol or sedative medications as sleep aids",
+          "Maintain a sleep diary to share with your healthcare provider"
         ]
       },
       {
@@ -124,11 +128,12 @@
         "max": 27,
         "level": "severe",
         "label": "Very Poor Sleep Quality",
-        "description": "You have severe sleep problems. Seek professional help promptly.",
+        "description": "Your score suggests very poor sleep quality that is likely severely affecting your physical health, mental well-being, and daily functioning. Comprehensive evaluation by a sleep specialist is strongly recommended.",
         "suggestions": [
-          "Seek a medical sleep evaluation as soon as possible",
-          "Consider Cognitive Behavioral Therapy for Insomnia (CBT-I)",
-          "Rule out possible sleep disorders such as sleep apnea"
+          "Seek evaluation from a sleep specialist as soon as possible",
+          "A sleep study may be recommended to rule out sleep disorders such as sleep apnea",
+          "CBT-I combined with medical evaluation is the recommended approach",
+          "Address co-occurring health conditions that may be contributing to sleep problems"
         ]
       }
     ],

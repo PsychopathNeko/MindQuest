@@ -157,11 +157,12 @@
         "max": 14,
         "level": "severe",
         "label": "Languishing",
-        "description": "Your positive mental health is low.",
+        "description": "Your score suggests you are languishing — experiencing low levels of emotional, social, and psychological well-being. Languishing is characterized by a sense of emptiness, stagnation, and lack of engagement with life. While not the same as depression, languishing is associated with impaired functioning and lower quality of life.",
         "suggestions": [
-          "Focus on positive experiences",
-          "Build meaningful social connections",
-          "Consider consulting a professional"
+          "Consider consulting a mental health professional to explore your current experience",
+          "Engage in activities that foster connection, purpose, and personal growth",
+          "Small daily practices such as gratitude, social interaction, and physical activity can help shift toward greater well-being",
+          "Languishing is a recognized mental health state that can improve with intentional effort and support"
         ]
       },
       {
@@ -169,11 +170,11 @@
         "max": 42,
         "level": "moderate",
         "label": "Moderate Mental Health",
-        "description": "Your positive mental health is moderate.",
+        "description": "Your score indicates moderate mental health — you are neither languishing nor flourishing. You experience a mix of positive and challenging aspects in your emotional, social, and psychological life. This is the most common category and represents an opportunity for growth.",
         "suggestions": [
-          "Review subscale scores",
-          "Increase positive social activities",
-          "Practice gratitude and mindfulness"
+          "Identify areas of your life where you feel most and least fulfilled",
+          "Invest in activities and relationships that contribute to meaning and engagement",
+          "Review your subscale scores to see which dimensions of well-being could benefit from attention"
         ]
       },
       {
@@ -181,10 +182,11 @@
         "max": 70,
         "level": "minimal",
         "label": "Flourishing",
-        "description": "Your positive mental health is high.",
+        "description": "Your score suggests you are flourishing — experiencing high levels of emotional well-being, positive social functioning, and psychological well-being. Flourishing is associated with greater resilience, productivity, and life satisfaction.",
         "suggestions": [
-          "Continue maintaining your positive lifestyle",
-          "Share positive energy with others"
+          "Continue the practices, relationships, and activities that support your flourishing",
+          "Consider sharing your positive energy and strategies with others",
+          "Stay engaged in personal growth and meaningful pursuits"
         ]
       }
     ],
@@ -192,24 +194,24 @@
       "emotional": [
         {
           "min": 0,
-          "max": 5,
+          "max": 4,
           "level": "severe",
           "label": "Low",
-          "description": "Emotional well-being is low."
+          "description": "Low emotional well-being. You may be experiencing infrequent positive emotions, low life satisfaction, or reduced interest in daily activities. This dimension reflects your capacity for happiness and contentment."
         },
         {
-          "min": 6,
+          "min": 5,
           "max": 10,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Emotional well-being is moderate."
+          "description": "Moderate emotional well-being. You experience some positive emotions and life satisfaction, but there may be room for growth in cultivating positive affect and contentment in your daily life."
         },
         {
           "min": 11,
           "max": 15,
           "level": "minimal",
           "label": "High",
-          "description": "Emotional well-being is high."
+          "description": "High emotional well-being. You frequently experience positive emotions, happiness, and satisfaction with life. This emotional vitality is a valuable resource for resilience and overall health."
         }
       ],
       "social": [
@@ -218,21 +220,21 @@
           "max": 8,
           "level": "severe",
           "label": "Low",
-          "description": "Social well-being is low."
+          "description": "Low social well-being. You may feel that you do not belong to or contribute meaningfully to your community. Social well-being reflects your sense of connection to and functioning within society."
         },
         {
           "min": 9,
-          "max": 17,
+          "max": 18,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Social well-being is moderate."
+          "description": "Moderate social well-being. You have some sense of social belonging and contribution, but may feel disconnected in certain areas of social life. Strengthening community ties and social engagement may help."
         },
         {
-          "min": 18,
+          "min": 19,
           "max": 25,
           "level": "minimal",
           "label": "High",
-          "description": "Social well-being is high."
+          "description": "High social well-being. You feel a strong sense of belonging to your community, see society as meaningful, and feel you make a positive contribution. This social integration supports overall mental health."
         }
       ],
       "psychological": [
@@ -241,21 +243,21 @@
           "max": 10,
           "level": "severe",
           "label": "Low",
-          "description": "Psychological well-being is low."
+          "description": "Low psychological well-being. You may be experiencing limited personal growth, reduced sense of purpose, or difficulty managing your environment. This dimension reflects autonomy, mastery, and self-acceptance."
         },
         {
           "min": 11,
-          "max": 20,
+          "max": 22,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Psychological well-being is moderate."
+          "description": "Moderate psychological well-being. You experience some sense of purpose, personal growth, and self-acceptance, but there may be areas where you feel less fulfilled or autonomous. Exploring your values and goals can help."
         },
         {
-          "min": 21,
+          "min": 23,
           "max": 30,
           "level": "minimal",
           "label": "High",
-          "description": "Psychological well-being is high."
+          "description": "High psychological well-being. You have a strong sense of purpose, ongoing personal growth, positive self-regard, and autonomy. These psychological resources are protective factors for long-term mental health."
         }
       ]
     }

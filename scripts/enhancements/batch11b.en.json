@@ -1,0 +1,345 @@
+{
+  "docs": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 15,
+        "level": "minimal",
+        "label": "Minimal OCD Symptoms",
+        "description": "Your total score falls within the minimal range, indicating that obsessive-compulsive symptoms are not a significant concern at this time. You may experience occasional intrusive thoughts or mild preferences for order, but these do not cause meaningful distress or interfere with daily functioning.",
+        "suggestions": [
+          "No clinical concern is indicated at this time; continue maintaining your current healthy thought patterns and routines",
+          "Be aware that occasional intrusive thoughts are a normal human experience and do not require special intervention",
+          "If symptoms increase during stressful periods, consider re-taking this assessment to monitor any changes"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 30,
+        "level": "mild",
+        "label": "Mild OCD Symptoms",
+        "description": "Your score indicates mild obsessive-compulsive symptoms that may cause noticeable distress but remain largely manageable. You might spend some time on intrusive thoughts, engage in occasional compulsive behaviors, or avoid certain situations, though your overall daily functioning is mostly preserved.",
+        "suggestions": [
+          "Learn about the nature of OCD and how intrusive thoughts differ from intentions; understanding this distinction can reduce distress",
+          "Practice accepting unwanted thoughts without engaging in rituals or mental compulsions to neutralize them",
+          "Consider evidence-based CBT self-help workbooks focused on OCD, such as those using Exposure and Response Prevention principles",
+          "Review your subscale scores to identify which OCD dimension is most prominent and target your coping strategies accordingly"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 45,
+        "level": "moderate",
+        "label": "Moderate OCD Symptoms",
+        "description": "Your score indicates moderate obsessive-compulsive symptoms that are likely interfering with your daily functioning, relationships, or work productivity. You may spend considerable time on obsessions and compulsions, experience significant distress when unable to perform rituals, and avoid multiple situations.",
+        "suggestions": [
+          "Seek evaluation from a mental health professional who specializes in OCD, as symptoms at this level typically benefit from treatment",
+          "Exposure and Response Prevention (ERP) is the gold-standard psychotherapy for OCD and has strong evidence for effectiveness",
+          "Review your subscale scores to identify which OCD dimensions are most problematic and discuss these with your treatment provider",
+          "Selective serotonin reuptake inhibitors (SSRIs) may be recommended as part of your treatment plan if therapy alone is insufficient",
+          "Join an OCD support group to connect with others who understand your experience and can share effective coping strategies"
+        ]
+      },
+      {
+        "min": 46,
+        "max": 80,
+        "level": "severe",
+        "label": "Severe OCD Symptoms",
+        "description": "Your score indicates severe obsessive-compulsive symptoms causing significant impairment across multiple life domains including work, relationships, and self-care. You likely spend extensive time on obsessions and compulsions, experience intense distress, and may have substantially restricted your daily activities.",
+        "suggestions": [
+          "Please seek professional treatment as soon as possible; severe OCD is a highly treatable condition with proper intervention",
+          "A combination of ERP therapy and medication (typically SSRIs at higher doses) is often the most effective approach for severe OCD",
+          "OCD is a neurobiological condition, not a character flaw; effective evidence-based treatments can significantly reduce symptom severity",
+          "If current treatments have been insufficient, ask your provider about augmentation strategies or intensive outpatient OCD programs",
+          "Involve supportive family members or partners in your treatment, as family accommodation of OCD can inadvertently maintain symptoms"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "contamination": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "You report no significant contamination-related concerns. Routine hygiene practices are appropriate without excessive worry about dirt, germs, or chemicals. No intervention is needed for this dimension."
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "level": "mild",
+          "label": "Mild",
+          "description": "You experience mild contamination-related obsessions or compulsions, such as occasional excessive handwashing or discomfort with perceived contaminants. These concerns cause some distress but do not substantially interfere with daily activities."
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Contamination concerns are moderately affecting your daily life, potentially leading to time-consuming washing rituals, avoidance of public spaces, or difficulty touching commonly shared objects. Professional guidance using ERP techniques is recommended."
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe contamination obsessions and washing compulsions are dominating your daily routine, causing extensive avoidance and significant functional impairment. You may spend hours on decontamination rituals. Specialized OCD treatment is strongly recommended."
+        }
+      ],
+      "responsibility": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "You report no significant concerns about being responsible for harm or making catastrophic mistakes. Normal caution and checking behaviors are present without excessive worry or compulsive reassurance seeking."
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "level": "mild",
+          "label": "Mild",
+          "description": "You experience mild checking or reassurance-seeking behaviors driven by concerns about causing harm or being responsible for negative outcomes. These habits cause some distress but remain manageable within your daily routine."
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Responsibility-related obsessions and checking compulsions are moderately disrupting your daily functioning. You may repeatedly verify locks, appliances, or decisions, and seek excessive reassurance from others. ERP-based treatment can effectively address these patterns."
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe harm-related obsessions and checking compulsions are causing major impairment in your daily life. You likely spend extensive time on repetitive checking, experience intense guilt or anxiety, and significantly avoid situations where you might be responsible for harm."
+        }
+      ],
+      "unacceptable_thoughts": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "You report no significant distress from unwanted intrusive thoughts. Occasional odd or unpleasant thoughts may occur but are easily dismissed without engaging in mental rituals or avoidance behaviors."
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "level": "mild",
+          "label": "Mild",
+          "description": "You experience mild distress from unwanted intrusive thoughts of a violent, sexual, or immoral nature. These thoughts may cause guilt or anxiety, but you can generally manage the discomfort without major disruption to daily life."
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Unacceptable intrusive thoughts are causing moderate distress and may lead to mental rituals, avoidance of triggering situations, or significant self-doubt about your character. Professional support can help you understand that these thoughts do not reflect your true intentions."
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe distress from unwanted intrusive thoughts is significantly impairing your daily functioning and emotional well-being. You may engage in extensive mental rituals, avoid numerous situations, and experience intense shame or fear. Specialized OCD treatment is essential."
+        }
+      ],
+      "symmetry": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "You report no significant concerns about symmetry, order, or balance. Preferences for neatness or organization are within normal range and do not cause distress or consume excessive time."
+        },
+        {
+          "min": 5,
+          "max": 9,
+          "level": "mild",
+          "label": "Mild",
+          "description": "You experience a mild need for symmetry, exactness, or particular arrangements. Some extra time may be spent ordering or arranging items, but these behaviors do not substantially interfere with your productivity or relationships."
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Symmetry and ordering concerns are moderately affecting your daily life, potentially consuming significant time and causing distress when things feel unbalanced or incomplete. Tasks may take much longer due to the need to achieve a particular arrangement."
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe symmetry obsessions and ordering compulsions are dominating your daily routine and causing major functional impairment. You may spend hours arranging, counting, or repeating actions until they feel just right. Specialized treatment is strongly recommended."
+        }
+      ]
+    }
+  },
+  "sss-8": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 3,
+        "level": "minimal",
+        "label": "No/Minimal Somatic Symptoms",
+        "description": "Your somatic symptom burden is very low, falling within the normal range for the general population. You report minimal or no bothersome physical symptoms across gastrointestinal, pain, cardiopulmonary, and fatigue domains. This suggests good overall physical comfort and well-being.",
+        "suggestions": [
+          "Continue maintaining the healthy lifestyle habits that support your physical well-being",
+          "Occasional minor physical discomfort is a normal fluctuation and not a cause for concern",
+          "Regular exercise, balanced nutrition, and adequate sleep help prevent somatic symptom development"
+        ]
+      },
+      {
+        "min": 4,
+        "max": 7,
+        "level": "mild",
+        "label": "Mild Somatic Symptoms",
+        "description": "You report mild somatic symptoms that may be related to everyday stress, lifestyle factors, or minor physical conditions. These symptoms are noticeable but not significantly disabling. Attention to self-care and monitoring for changes is advisable.",
+        "suggestions": [
+          "Monitor your symptoms over time and note any patterns related to stress, diet, sleep, or activity levels",
+          "Regular physical exercise and structured relaxation techniques such as deep breathing may help reduce symptom burden",
+          "Ensure you are maintaining adequate sleep, hydration, and balanced nutrition as basic self-care measures",
+          "If symptoms persist beyond two weeks or worsen, consider scheduling an appointment with your primary care physician"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 11,
+        "level": "moderate",
+        "label": "Moderate Somatic Symptoms",
+        "description": "Your somatic symptom burden is moderate and may be affecting your daily functioning, work performance, or quality of life. Multiple physical symptoms across different body systems suggest a pattern that warrants medical attention and exploration of contributing factors.",
+        "suggestions": [
+          "Consider scheduling a medical appointment for a thorough physical examination to evaluate your symptoms",
+          "Understand the mind-body connection: psychological stress frequently manifests as physical symptoms and vice versa",
+          "Regular physical exercise and consistent sleep schedules can help reduce somatic symptom burden significantly",
+          "Explore whether current life stressors, anxiety, or mood changes may be contributing to your physical symptoms",
+          "Consider psychological counseling or stress management therapy if physical evaluations do not fully explain your symptoms"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 15,
+        "level": "severe",
+        "label": "High Somatic Symptoms",
+        "description": "Your somatic symptom burden is high and may be significantly affecting your daily activities, work capacity, and overall quality of life. You are experiencing substantial physical discomfort across multiple symptom domains. A comprehensive evaluation addressing both physical and psychological factors is recommended.",
+        "suggestions": [
+          "A comprehensive medical examination is recommended to identify any treatable physical conditions contributing to your symptoms",
+          "A concurrent mental health evaluation can help identify psychological factors that may be amplifying somatic symptoms",
+          "Learn about somatic symptom disorder and how the mind-body connection influences physical symptom perception and severity",
+          "An integrated treatment approach addressing both physical and psychological aspects simultaneously tends to be most effective",
+          "Track your symptoms daily to identify triggers, patterns, and fluctuations that can inform your treatment plan"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 32,
+        "level": "severe",
+        "label": "Very High Somatic Symptoms",
+        "description": "You report a very high somatic symptom burden indicating severe physical discomfort across multiple body systems. This level of symptom severity likely causes substantial impairment in daily functioning, work, and social activities. A comprehensive psychosomatic evaluation is strongly recommended.",
+        "suggestions": [
+          "Please see a healthcare provider soon for a thorough physical examination to rule out or treat any underlying medical conditions",
+          "A psychiatric or psychological consultation is also strongly recommended to evaluate stress-related or somatoform contributions",
+          "Severe somatic symptoms often require a comprehensive, multidisciplinary treatment plan integrating medical and psychological care",
+          "Do not dismiss or ignore the significant impact these symptoms are having on your quality of life; effective treatments are available"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "gastrointestinal": [
+        {
+          "min": 0,
+          "max": 1,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Minimal gastrointestinal symptoms reported. Your digestive system appears to be functioning comfortably without significant stomach or bowel complaints."
+        },
+        {
+          "min": 2,
+          "max": 3,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some gastrointestinal discomfort is present, including stomach or bowel problems that may be stress-related or dietary in nature. Monitor for persistent or worsening patterns."
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "level": "moderate",
+          "label": "High",
+          "description": "Notable gastrointestinal symptoms are reported. Persistent stomach or bowel problems at this level warrant medical evaluation to assess underlying causes and appropriate management."
+        }
+      ],
+      "pain": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Minimal pain symptoms across back, limbs, joints, and head. Your musculoskeletal and headache symptom burden is very low and within normal range."
+        },
+        {
+          "min": 4,
+          "max": 7,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate pain symptoms including back pain, joint discomfort, or headaches that may affect daily comfort and activity levels. Consider ergonomic adjustments and regular physical activity."
+        },
+        {
+          "min": 8,
+          "max": 12,
+          "level": "moderate",
+          "label": "High",
+          "description": "Notable pain symptoms reported across multiple areas. This level of musculoskeletal pain and headaches may significantly impact daily activities. Medical evaluation and pain management strategies are recommended."
+        }
+      ],
+      "cardiopulmonary": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Minimal cardiopulmonary symptoms reported. You are not experiencing significant chest pain, shortness of breath, or dizziness at this time."
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some cardiopulmonary discomfort including chest pain, breathing difficulties, or dizziness is present. While these may be benign, monitoring and medical evaluation are advisable if persistent."
+        },
+        {
+          "min": 6,
+          "max": 8,
+          "level": "moderate",
+          "label": "High",
+          "description": "Notable cardiopulmonary symptoms are reported including significant chest pain, shortness of breath, or dizziness. Medical evaluation is recommended to rule out cardiac or pulmonary conditions."
+        }
+      ],
+      "fatigue": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Minimal fatigue reported. Your energy levels and sleep quality appear to be adequate for daily functioning and responsibilities."
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate fatigue and some sleep difficulties are present, potentially affecting your daytime energy, concentration, and overall productivity. Attention to sleep hygiene may be helpful."
+        },
+        {
+          "min": 6,
+          "max": 8,
+          "level": "moderate",
+          "label": "High",
+          "description": "Notable fatigue and significant sleep problems are reported. This level of tiredness and sleep disruption may substantially impair daily functioning. Evaluation of sleep habits, underlying conditions, and stress factors is recommended."
+        }
+      ]
+    }
+  }
+}

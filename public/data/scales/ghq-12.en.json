@@ -111,37 +111,37 @@
         "max": 11,
         "level": "normal",
         "label": "Normal",
-        "description": "Your score is within the normal range, suggesting no significant psychological distress.",
+        "description": "Your score is within the normal range, suggesting no significant psychological distress. Your current mental well-being appears stable, and you are likely coping well with everyday demands and stressors.",
         "suggestions": [
-          "Continue maintaining your current healthy lifestyle",
-          "Keep up regular exercise, social activities, and sleep habits",
-          "Practice preventive stress management"
+          "Continue maintaining healthy habits that support your mental well-being",
+          "Keep up regular exercise, social engagement, and adequate sleep",
+          "Practice stress management as a preventive measure"
         ]
       },
       {
         "min": 12,
-        "max": 20,
+        "max": 23,
         "level": "mild",
-        "label": "Mild Distress",
-        "description": "Your score suggests some degree of psychological distress that may benefit from attention.",
+        "label": "Mild to Moderate Psychological Distress",
+        "description": "Your score is above the established caseness threshold of 12, suggesting evidence of psychological distress. You may be experiencing difficulty with concentration, sleep, decision-making, or feeling less confident than usual. These symptoms warrant monitoring and possibly further evaluation.",
         "suggestions": [
-          "Pay attention to your emotional well-being and identify sources of stress",
-          "Practice relaxation techniques such as deep breathing or meditation",
-          "Maintain social connections and talk to someone you trust",
-          "Consider seeking professional advice if symptoms persist"
+          "Pay attention to the specific areas where you notice reduced functioning",
+          "Ensure you are getting adequate sleep, nutrition, and physical activity",
+          "Talk to someone you trust about any concerns or worries",
+          "Consider consulting a healthcare professional if symptoms persist beyond a few weeks"
         ]
       },
       {
-        "min": 21,
+        "min": 24,
         "max": 36,
-        "level": "severe",
-        "label": "Significant Distress",
-        "description": "Your score indicates significant psychological distress. Professional support is recommended.",
+        "level": "significant",
+        "label": "Significant Psychological Distress",
+        "description": "Your score indicates significant psychological distress that warrants professional attention. At this level, you are likely experiencing notable difficulties in daily functioning, and a comprehensive evaluation is recommended to identify the underlying issues and appropriate support.",
         "suggestions": [
-          "Consult a mental health professional for further assessment",
-          "Prioritize self-care and reduce unnecessary stressors",
-          "Maintain regular routines for sleep, meals, and physical activity",
-          "Reach out to trusted friends, family, or a crisis service if needed"
+          "Seek evaluation from a mental health professional for a thorough assessment",
+          "The GHQ-12 is a general screening tool; further evaluation can identify specific areas of concern",
+          "Maintain daily routines and social connections to provide stability",
+          "Evidence-based treatments such as counseling or CBT can be very helpful"
         ]
       }
     ],

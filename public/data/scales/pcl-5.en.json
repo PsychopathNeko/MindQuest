@@ -196,36 +196,40 @@
         "max": 19,
         "level": "minimal",
         "label": "Below PTSD Threshold",
-        "description": "Your PTSD symptom score is low, below the clinical diagnostic threshold.",
+        "description": "Your PTSD symptom score is below the clinical diagnostic threshold. While you may have experienced a traumatic event, your current symptom level does not suggest a diagnosis of PTSD. Some post-trauma reactions are normal and may resolve on their own.",
         "suggestions": [
-          "If you still feel distressed, professional help is available",
-          "Continue healthy coping strategies",
-          "Monitor your emotional state"
+          "Continue using healthy coping strategies to process your experiences",
+          "Maintain regular routines, social connections, and physical activity",
+          "Monitor your symptoms, as they can sometimes emerge or worsen weeks or months after a traumatic event",
+          "If specific symptoms begin to cause distress, consider talking to a professional"
         ]
       },
       {
         "min": 20,
         "max": 32,
         "level": "mild",
-        "label": "Mild PTSD Symptoms",
-        "description": "You have some PTSD symptoms near or at clinical significance.",
+        "label": "Subthreshold PTSD Symptoms",
+        "description": "Your score is near the clinical threshold for PTSD (33 points). You may be experiencing some PTSD symptoms such as intrusive memories, avoidance of reminders, negative mood changes, or heightened arousal that are causing some distress but may not meet the full diagnostic criteria.",
         "suggestions": [
-          "Consider consulting a mental health professional",
-          "Practice relaxation and grounding techniques",
-          "Maintain your social support network"
+          "Consider seeking evaluation from a professional experienced in trauma",
+          "Learn about common trauma reactions to understand your experiences",
+          "Practice grounding techniques for managing intrusive memories or flashbacks",
+          "Maintain social connections and avoid isolating yourself",
+          "Monitor whether symptoms are stable, improving, or worsening over time"
         ]
       },
       {
         "min": 33,
         "max": 52,
         "level": "moderate",
-        "label": "Moderate PTSD Symptoms",
-        "description": "Your PTSD symptoms are moderate. The suggested clinical cutoff for PCL-5 is 33.",
+        "label": "Probable PTSD",
+        "description": "Your score is above the clinical cutoff of 33, suggesting probable PTSD. At this level, you are likely experiencing significant symptoms across intrusion, avoidance, negative cognition/mood, and arousal domains that are interfering with your daily functioning and quality of life.",
         "suggestions": [
-          "Strongly recommended to seek a trauma-specialized therapist",
-          "Consider evidence-based trauma treatments (CPT, PE, or EMDR)",
-          "Maintain regular daily routines",
-          "Avoid using alcohol or substances to cope"
+          "Seek professional evaluation from a trauma-specialized therapist",
+          "Evidence-based treatments for PTSD include Cognitive Processing Therapy (CPT), Prolonged Exposure (PE), and EMDR",
+          "Review your subscale scores below to understand which symptom clusters are most prominent",
+          "If you are experiencing nightmares or sleep disturbance, discuss these specifically with your provider",
+          "PTSD is very treatable; most people improve significantly with appropriate therapy"
         ]
       },
       {
@@ -233,12 +237,13 @@
         "max": 80,
         "level": "severe",
         "label": "Severe PTSD Symptoms",
-        "description": "Your PTSD symptoms are severe and likely significantly impact daily functioning.",
+        "description": "Your score indicates severe PTSD symptoms that are likely causing profound impairment in your daily functioning, relationships, and overall well-being. At this level, comprehensive professional treatment is essential.",
         "suggestions": [
-          "Please seek professional trauma treatment immediately",
-          "If in crisis, contact 988 Suicide and Crisis Lifeline",
-          "Create a safety plan for managing intense distress",
-          "Follow professional treatment recommendations closely"
+          "Seek professional help from a trauma-specialized therapist as soon as possible",
+          "If you are in crisis or having thoughts of self-harm, contact a crisis helpline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "Evidence-based trauma therapies (CPT, PE, EMDR) are effective even for severe PTSD",
+          "Inform a trusted person about what you are experiencing; social support is important for recovery",
+          "Focus on safety and basic self-care while engaging in professional treatment"
         ]
       }
     ],
@@ -248,29 +253,29 @@
           "min": 0,
           "max": 5,
           "level": "minimal",
-          "label": "Low",
-          "description": "Intrusion symptoms are low."
+          "label": "Minimal",
+          "description": "Minimal intrusion symptoms. You are not significantly troubled by unwanted memories, nightmares, or flashbacks related to the traumatic event."
         },
         {
           "min": 6,
           "max": 10,
           "level": "mild",
           "label": "Mild",
-          "description": "Some intrusion symptoms present."
+          "description": "Mild intrusion symptoms. You may occasionally experience unwanted memories, distressing dreams, or brief moments of re-experiencing the traumatic event."
         },
         {
           "min": 11,
           "max": 15,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Notable intrusion symptoms."
+          "description": "Moderate intrusion symptoms. Intrusive memories, nightmares, or flashbacks may be occurring frequently and causing significant distress. These symptoms reflect the mind's difficulty processing the traumatic experience."
         },
         {
           "min": 16,
           "max": 20,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe intrusion symptoms."
+          "description": "Severe intrusion symptoms. You are likely frequently troubled by vivid, unwanted re-experiencing of the trauma through memories, nightmares, or flashbacks. This level of intrusion typically requires professional trauma-focused therapy."
         }
       ],
       "avoidance": [
@@ -278,29 +283,29 @@
           "min": 0,
           "max": 2,
           "level": "minimal",
-          "label": "Low",
-          "description": "Avoidance symptoms are low."
+          "label": "Minimal",
+          "description": "Minimal avoidance. You are not significantly avoiding thoughts, feelings, or external reminders associated with the traumatic event."
         },
         {
           "min": 3,
           "max": 4,
           "level": "mild",
           "label": "Mild",
-          "description": "Some avoidance symptoms."
+          "description": "Mild avoidance. You may be making some effort to avoid thoughts, memories, or situations that remind you of the trauma, which may slightly limit your activities."
         },
         {
           "min": 5,
           "max": 6,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Notable avoidance symptoms."
+          "description": "Moderate avoidance. You are actively avoiding trauma-related thoughts, feelings, and situations. This avoidance may be restricting your daily activities and social engagement."
         },
         {
           "min": 7,
           "max": 8,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe avoidance symptoms."
+          "description": "Severe avoidance. You are extensively avoiding anything associated with the trauma, which is likely significantly restricting your life. While avoidance provides short-term relief, it maintains PTSD symptoms long-term."
         }
       ],
       "cognition_mood": [
@@ -308,29 +313,29 @@
           "min": 0,
           "max": 7,
           "level": "minimal",
-          "label": "Low",
-          "description": "Negative cognition and mood changes are low."
+          "label": "Minimal",
+          "description": "Minimal negative changes in thoughts and mood related to trauma. Your thinking patterns and emotional state do not appear significantly affected by the traumatic experience."
         },
         {
           "min": 8,
           "max": 14,
           "level": "mild",
           "label": "Mild",
-          "description": "Some negative changes."
+          "description": "Mild negative changes in cognitions and mood. You may experience some negative beliefs about yourself or the world, reduced interest in activities, or emotional numbness since the traumatic event."
         },
         {
           "min": 15,
           "max": 21,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Notable negative changes."
+          "description": "Moderate negative cognitive and mood changes. You may have persistent negative beliefs, feelings of detachment, difficulty experiencing positive emotions, or distorted thoughts about the cause of the trauma."
         },
         {
           "min": 22,
           "max": 28,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe negative changes."
+          "description": "Severe negative cognitive and mood changes. You are likely experiencing pervasive negative beliefs, emotional numbness, estrangement from others, and persistent inability to experience positive emotions. These changes significantly affect your quality of life."
         }
       ],
       "arousal": [
@@ -338,29 +343,29 @@
           "min": 0,
           "max": 6,
           "level": "minimal",
-          "label": "Low",
-          "description": "Arousal symptoms are low."
+          "label": "Minimal",
+          "description": "Minimal arousal and reactivity changes. You do not appear significantly affected by hypervigilance, startle responses, or other arousal-related PTSD symptoms."
         },
         {
           "min": 7,
           "max": 12,
           "level": "mild",
           "label": "Mild",
-          "description": "Some arousal symptoms."
+          "description": "Mild arousal symptoms. You may notice some increased irritability, difficulty concentrating, sleep problems, or heightened awareness of your surroundings since the traumatic event."
         },
         {
           "min": 13,
           "max": 18,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Notable arousal symptoms."
+          "description": "Moderate arousal symptoms. You are likely experiencing notable hypervigilance, exaggerated startle response, sleep disturbance, or irritability that interferes with your daily functioning and relationships."
         },
         {
           "min": 19,
           "max": 24,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe arousal symptoms."
+          "description": "Severe arousal symptoms. You are likely in a persistent state of heightened alertness with significant sleep disruption, irritability, concentration problems, and exaggerated startle responses. This level of arousal is exhausting and requires professional support."
         }
       ]
     }
@@ -404,5 +409,9 @@
         }
       ]
     }
+  },
+  "crisisConfig": {
+    "type": "level",
+    "levelThreshold": "severe"
   }
 }

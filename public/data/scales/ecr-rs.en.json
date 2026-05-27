@@ -149,10 +149,11 @@
         "max": 36,
         "level": "minimal",
         "label": "Secure Attachment",
-        "description": "Your scores suggest a relatively secure attachment style with low avoidance and low anxiety.",
+        "description": "Your scores suggest a relatively secure attachment style characterized by low avoidance and low anxiety in close relationships. You are comfortable with intimacy and interdependence, and do not excessively worry about abandonment.",
         "suggestions": [
-          "Continue nurturing your close relationships",
-          "Your relational patterns appear healthy and adaptive"
+          "Continue nurturing your close relationships through open communication, trust, and mutual support",
+          "Your relational patterns appear healthy and adaptive, serving as a strong foundation for emotional well-being",
+          "Be aware that attachment security can shift during major life transitions, so maintain your supportive relationship habits"
         ]
       },
       {
@@ -160,10 +161,12 @@
         "max": 54,
         "level": "mild",
         "label": "Moderate Attachment Concerns",
-        "description": "Your scores suggest some attachment insecurity. Review subscale scores to understand whether avoidance or anxiety is more prominent.",
+        "description": "Your scores suggest some degree of attachment insecurity that may manifest as worry about relationships or discomfort with closeness. Review your subscale scores to determine whether anxiety or avoidance is more prominent.",
         "suggestions": [
-          "Reflect on which relationships feel most secure and why",
-          "Practice open communication with trusted individuals"
+          "Reflect on which relationships feel most secure and identify what specific qualities make them feel safe",
+          "Practice open and honest communication with trusted individuals about your needs and concerns",
+          "Notice patterns of withdrawal or clinginess in your relationships and gently challenge those automatic responses",
+          "Consider reading about attachment theory to better understand your relational tendencies and their origins"
         ]
       },
       {
@@ -171,10 +174,13 @@
         "max": 84,
         "level": "severe",
         "label": "Significant Attachment Insecurity",
-        "description": "Your scores suggest notable attachment insecurity that may affect relationship functioning.",
+        "description": "Your scores suggest notable attachment insecurity that is likely affecting your relationship satisfaction and emotional well-being. High scores may reflect deep fears of abandonment, strong discomfort with intimacy, or both.",
         "suggestions": [
-          "Consider speaking with a therapist about relationship patterns",
-          "Explore attachment-focused therapy approaches"
+          "Consider speaking with a therapist who specializes in attachment and relationship issues for professional guidance",
+          "Explore attachment-focused therapy approaches such as Emotionally Focused Therapy or schema therapy",
+          "Practice identifying your emotional needs in relationships without judgment or self-criticism",
+          "Build awareness of how early relationship experiences may be shaping your current attachment patterns",
+          "Develop a self-soothing toolkit for moments when relationship anxiety or avoidance becomes overwhelming"
         ]
       }
     ],
@@ -185,21 +191,21 @@
           "max": 18,
           "level": "normal",
           "label": "Low Avoidance",
-          "description": "You are comfortable with closeness and depending on others."
+          "description": "You are comfortable with emotional closeness and depending on others in your relationships. You can openly share your feelings, seek support when needed, and trust that others will be responsive to you."
         },
         {
           "min": 19,
           "max": 30,
           "level": "mild",
           "label": "Moderate Avoidance",
-          "description": "You sometimes find it difficult to open up or depend on others."
+          "description": "You sometimes find it difficult to open up emotionally or depend on others, preferring self-reliance in stressful situations. This pattern may limit the depth and satisfaction of your close relationships over time."
         },
         {
           "min": 31,
           "max": 42,
           "level": "severe",
           "label": "High Avoidance",
-          "description": "You tend to avoid closeness, self-disclosure, and depending on others."
+          "description": "You tend to strongly avoid emotional closeness, self-disclosure, and depending on others in relationships. This defensive pattern often stems from early experiences and can prevent you from forming deeply satisfying bonds."
         }
       ],
       "anxiety": [
@@ -208,21 +214,21 @@
           "max": 18,
           "level": "normal",
           "label": "Low Anxiety",
-          "description": "You feel relatively secure and do not worry excessively about relationships."
+          "description": "You feel relatively secure in your relationships and do not worry excessively about abandonment or rejection. You can tolerate temporary separations and trust that important people in your life care about you."
         },
         {
           "min": 19,
           "max": 30,
           "level": "mild",
           "label": "Moderate Anxiety",
-          "description": "You sometimes worry about being abandoned or unloved."
+          "description": "You sometimes worry about being abandoned, unloved, or not valued enough by important people in your life. These concerns may lead to reassurance-seeking behaviors that can strain your relationships over time."
         },
         {
           "min": 31,
           "max": 42,
           "level": "severe",
           "label": "High Anxiety",
-          "description": "You frequently worry about rejection, abandonment, and whether others truly care."
+          "description": "You frequently worry about rejection, abandonment, and whether others truly care about you in your close relationships. This intense preoccupation can lead to emotional volatility and difficulty trusting partners."
         }
       ]
     }

@@ -87,10 +87,11 @@
         "max": 8,
         "level": "low",
         "label": "Low Fear of Negative Evaluation",
-        "description": "Your fear of negative evaluation is low. You are generally not overly concerned about others judgments.",
+        "description": "Your fear of negative evaluation is low, indicating that you are generally comfortable in social situations and not overly preoccupied with how others judge you. This suggests healthy self-confidence and social functioning.",
         "suggestions": [
-          "Continue maintaining your healthy perspective on social evaluation",
-          "Your confidence in social situations is a strength"
+          "Continue maintaining your healthy perspective on social evaluation and interpersonal interactions",
+          "Your confidence in social situations is a strength that supports both personal and professional relationships",
+          "Stay mindful that occasional social concern is normal, and your balanced approach serves you well"
         ]
       },
       {
@@ -98,11 +99,13 @@
         "max": 16,
         "level": "moderate",
         "label": "Moderate Fear of Negative Evaluation",
-        "description": "You have a moderate level of concern about being negatively evaluated by others.",
+        "description": "You have a moderate level of concern about being negatively evaluated by others, which may cause discomfort in some social situations. This degree of social worry is common but can escalate without active management strategies.",
         "suggestions": [
-          "Practice self-compassion when worrying about others opinions",
-          "Challenge negative thoughts about social evaluation",
-          "Consider whether your concerns are proportionate to the situation"
+          "Practice self-compassion when you notice yourself worrying about what others think of you",
+          "Challenge negative automatic thoughts about social evaluation by examining the evidence for and against them",
+          "Consider whether your concerns are proportionate to the actual social situation you are facing",
+          "Gradually expose yourself to mildly uncomfortable social situations to build confidence over time",
+          "Develop a brief grounding technique you can use when social anxiety arises in the moment"
         ]
       },
       {
@@ -110,11 +113,12 @@
         "max": 24,
         "level": "high",
         "label": "High Fear of Negative Evaluation",
-        "description": "You have a high level of fear of negative evaluation, which may be affecting your social functioning.",
+        "description": "You have a high level of fear of negative evaluation, which is likely interfering with your social functioning and daily activities. This pattern is a core feature of social anxiety disorder and responds well to structured treatment.",
         "suggestions": [
-          "Consider consulting a mental health professional",
-          "Cognitive behavioral therapy (CBT) can be very effective for social anxiety",
-          "Practice gradual exposure to feared social situations"
+          "Consider consulting a mental health professional who specializes in social anxiety for a comprehensive assessment",
+          "Cognitive behavioral therapy has strong evidence for reducing fear of negative evaluation and improving social confidence",
+          "Practice gradual exposure to feared social situations with the support of a therapist or trusted companion",
+          "Learn to identify and challenge cognitive distortions such as mind-reading and catastrophizing in social contexts"
         ]
       },
       {
@@ -122,11 +126,13 @@
         "max": 32,
         "level": "very_high",
         "label": "Very High Fear of Negative Evaluation",
-        "description": "Your fear of negative evaluation is very high and is likely significantly impacting your daily life and social interactions.",
+        "description": "Your fear of negative evaluation is very high and is likely significantly impacting your daily life, work, and social interactions. At this severity level, professional treatment is strongly recommended, as effective interventions exist.",
         "suggestions": [
-          "Strongly recommended to seek professional help",
-          "Social anxiety is highly treatable with evidence-based therapies",
-          "Discuss both therapy and medication options with a professional"
+          "Seeking professional help from a therapist experienced in social anxiety is strongly recommended at this level",
+          "Social anxiety is one of the most treatable anxiety disorders, with high response rates to evidence-based therapies",
+          "Discuss both psychotherapy and medication options with a qualified mental health professional",
+          "Remember that avoidance of social situations, while providing short-term relief, maintains and worsens fear over time",
+          "Consider group therapy for social anxiety, which provides both treatment and safe social practice opportunities"
         ]
       }
     ],

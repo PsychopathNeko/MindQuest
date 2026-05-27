@@ -193,32 +193,35 @@
         "max": 30,
         "level": "normal",
         "label": "Normal Range",
-        "description": "Your combined depression, anxiety, and stress scores are within the normal range.",
+        "description": "Your combined depression, anxiety, and stress scores are within the normal range. Your overall emotional functioning appears healthy. Review your individual subscale scores below for a more detailed picture of each emotional dimension.",
         "suggestions": [
-          "Continue maintaining good mental health",
-          "Keep up healthy habits and coping strategies"
+          "Continue maintaining healthy lifestyle habits that support emotional well-being",
+          "Review individual subscale scores for a more nuanced understanding of your emotional state"
         ]
       },
       {
         "min": 31,
         "max": 60,
         "level": "mild",
-        "label": "Mild Distress",
-        "description": "Your combined score indicates some level of emotional distress.",
+        "label": "Mild to Moderate Distress",
+        "description": "Your combined score indicates some level of emotional distress across depression, anxiety, and/or stress dimensions. Review your subscale scores below to identify which area(s) contribute most to your overall distress.",
         "suggestions": [
-          "Review subscale scores to identify the primary source of distress",
-          "Learn stress management and emotion regulation techniques"
+          "Review individual subscale scores to identify primary areas of concern",
+          "Practice stress management techniques such as mindfulness, deep breathing, or progressive muscle relaxation",
+          "Maintain regular exercise, sleep, and social routines",
+          "Consider consulting a mental health professional if any subscale score is elevated"
         ]
       },
       {
         "min": 61,
         "max": 126,
         "level": "moderate",
-        "label": "Moderate to Severe Distress",
-        "description": "Your combined score is elevated. Consider reviewing individual subscale scores and seeking professional help.",
+        "label": "Significant Distress",
+        "description": "Your combined score is elevated, indicating significant emotional distress. One or more of your subscale scores is likely in the moderate to severe range. Professional evaluation is recommended to identify appropriate support and intervention.",
         "suggestions": [
-          "Consider consulting a mental health professional",
-          "Review subscale scores to identify areas needing the most attention"
+          "Consult a mental health professional for a comprehensive evaluation",
+          "Review individual subscale scores to understand which dimensions need the most attention",
+          "Seek evidence-based treatment appropriate to your primary area of difficulty"
         ]
       }
     ],
@@ -229,35 +232,35 @@
           "max": 9,
           "level": "normal",
           "label": "Normal",
-          "description": "Depression subscale score is within the normal range."
+          "description": "Your depression subscale score is within the normal range. You do not appear to be experiencing significant depressive symptoms such as loss of interest, hopelessness, or lack of meaning."
         },
         {
           "min": 10,
           "max": 13,
           "level": "mild",
-          "label": "Mild Depression",
-          "description": "Mild depressive symptoms present. Monitor your mood changes."
+          "label": "Mild",
+          "description": "You are experiencing mild depressive symptoms. You may notice some reduction in motivation, enjoyment, or positive outlook. These symptoms are worth monitoring over the coming weeks."
         },
         {
           "min": 14,
           "max": 20,
           "level": "moderate",
-          "label": "Moderate Depression",
-          "description": "Notable depressive symptoms. Consider seeking professional help."
+          "label": "Moderate",
+          "description": "Your score indicates moderate depressive symptoms that may be affecting your daily functioning. You may experience persistent low mood, difficulty finding meaning, or reduced interest in activities. Professional evaluation is recommended."
         },
         {
           "min": 21,
           "max": 27,
           "level": "severe",
-          "label": "Severe Depression",
-          "description": "Severe depressive symptoms. Strongly recommended to seek medical attention."
+          "label": "Severe",
+          "description": "Your depression subscale score is in the severe range, suggesting significant depressive symptoms that are likely impairing your daily functioning and quality of life. Professional help is strongly recommended."
         },
         {
           "min": 28,
           "max": 42,
           "level": "extremely_severe",
-          "label": "Extremely Severe Depression",
-          "description": "Extremely severe depressive symptoms. Please seek professional help immediately."
+          "label": "Extremely Severe",
+          "description": "Your depression subscale score is in the extremely severe range. You are likely experiencing profound depressive symptoms including hopelessness, worthlessness, and loss of interest. Immediate professional intervention is essential."
         }
       ],
       "anxiety": [
@@ -266,35 +269,35 @@
           "max": 7,
           "level": "normal",
           "label": "Normal",
-          "description": "Anxiety subscale score is within the normal range."
+          "description": "Your anxiety subscale score is within the normal range. You do not appear to be experiencing significant anxiety symptoms such as excessive worry, panic, or physiological arousal."
         },
         {
           "min": 8,
           "max": 9,
           "level": "mild",
-          "label": "Mild Anxiety",
-          "description": "Mild anxiety symptoms present. Consider practicing relaxation techniques."
+          "label": "Mild",
+          "description": "You are experiencing mild anxiety symptoms. You may notice occasional nervousness, worry, or physical symptoms of anxiety such as a dry mouth or rapid heartbeat. Relaxation techniques may be helpful."
         },
         {
           "min": 10,
           "max": 14,
           "level": "moderate",
-          "label": "Moderate Anxiety",
-          "description": "Notable anxiety symptoms. Consider seeking professional help."
+          "label": "Moderate",
+          "description": "Your score indicates moderate anxiety symptoms that may be interfering with your comfort and daily activities. You may experience situational panic, persistent worry, or noticeable physical tension. Consider professional evaluation."
         },
         {
           "min": 15,
           "max": 19,
           "level": "severe",
-          "label": "Severe Anxiety",
-          "description": "Severe anxiety symptoms. Strongly recommended to seek medical attention."
+          "label": "Severe",
+          "description": "Your anxiety subscale score is in the severe range, suggesting significant anxiety that is likely affecting your daily functioning. You may experience frequent worry, panic-like symptoms, or physical manifestations of anxiety. Professional help is recommended."
         },
         {
           "min": 20,
           "max": 42,
           "level": "extremely_severe",
-          "label": "Extremely Severe Anxiety",
-          "description": "Extremely severe anxiety symptoms. Please seek professional help immediately."
+          "label": "Extremely Severe",
+          "description": "Your anxiety subscale score is in the extremely severe range, indicating very high levels of anxiety. You may be experiencing frequent or intense panic, overwhelming worry, or debilitating physical anxiety symptoms. Immediate professional support is strongly recommended."
         }
       ],
       "stress": [
@@ -303,35 +306,35 @@
           "max": 14,
           "level": "normal",
           "label": "Normal",
-          "description": "Stress subscale score is within the normal range."
+          "description": "Your stress subscale score is within the normal range. You appear to be managing everyday demands and pressures effectively without excessive tension or irritability."
         },
         {
           "min": 15,
           "max": 18,
           "level": "mild",
-          "label": "Mild Stress",
-          "description": "Mild stress symptoms present. Consider learning stress management techniques."
+          "label": "Mild",
+          "description": "You are experiencing mild stress symptoms. You may find it somewhat difficult to relax, feel occasionally irritable, or notice that you are more easily agitated than usual. Stress management practices may be beneficial."
         },
         {
           "min": 19,
           "max": 25,
           "level": "moderate",
-          "label": "Moderate Stress",
-          "description": "Notable stress symptoms. Consider adjusting your pace of life and seeking support."
+          "label": "Moderate",
+          "description": "Your score indicates moderate stress levels that may be affecting your ability to relax and function optimally. You may feel persistently tense, over-reactive, or find it hard to wind down. Consider active stress reduction strategies."
         },
         {
           "min": 26,
           "max": 33,
           "level": "severe",
-          "label": "Severe Stress",
-          "description": "Severe stress symptoms. Strongly recommended to seek professional support."
+          "label": "Severe",
+          "description": "Your stress subscale score is in the severe range, suggesting that stress is significantly affecting your well-being. You may feel constantly overwhelmed, easily upset, or unable to tolerate interruptions. Professional support for stress management is recommended."
         },
         {
           "min": 34,
           "max": 42,
           "level": "extremely_severe",
-          "label": "Extremely Severe Stress",
-          "description": "Extremely severe stress symptoms. Please seek professional help immediately."
+          "label": "Extremely Severe",
+          "description": "Your stress subscale score is in the extremely severe range, indicating that you are experiencing very high levels of stress that are likely severely impairing your functioning. You may feel completely overwhelmed, unable to cope, and highly reactive. Immediate professional support is recommended."
         }
       ]
     }
@@ -365,5 +368,14 @@
         }
       ]
     }
+  },
+  "crisisConfig": {
+    "type": "item",
+    "items": [
+      {
+        "questionIndex": 20,
+        "threshold": 2
+      }
+    ]
   }
 }

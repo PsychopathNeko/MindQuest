@@ -1,0 +1,149 @@
+{
+  "sd3": {
+    "ranges": [
+      {
+        "min": 27,
+        "max": 54,
+        "level": "minimal",
+        "label": "Low Dark Traits",
+        "description": "Your overall dark personality traits are low, indicating that manipulation, self-aggrandizement, and callousness are not prominent features of your interpersonal style. You tend to approach others with sincerity and mutual respect.",
+        "suggestions": [
+          "Continue nurturing your cooperative and empathic approach to relationships, as these qualities build lasting trust",
+          "Recognize that your low dark traits are a relational strength that supports healthy social bonds",
+          "Stay aware that being overly trusting can sometimes leave you vulnerable to exploitation by others"
+        ]
+      },
+      {
+        "min": 55,
+        "max": 81,
+        "level": "normal",
+        "label": "Moderate Dark Traits",
+        "description": "Your dark personality traits fall within the average range. Most adults score in this band, reflecting a typical balance between self-interest and concern for others that is common in everyday social functioning.",
+        "suggestions": [
+          "Reflect periodically on whether competitive or self-serving tendencies overshadow empathy in your interactions",
+          "Maintain clear ethical boundaries when pursuing personal goals, especially under pressure or high stakes",
+          "Strengthen relationships by actively practicing perspective-taking and genuine listening in conversations"
+        ]
+      },
+      {
+        "min": 82,
+        "max": 108,
+        "level": "mild",
+        "label": "Elevated Dark Traits",
+        "description": "Your dark personality trait scores are elevated above average, suggesting a tendency toward strategic manipulation, self-centered thinking, or reduced empathy. These patterns may create friction in close relationships over time.",
+        "suggestions": [
+          "Examine specific situations where you resort to manipulation and explore alternative approaches that respect others",
+          "Practice deliberate empathy exercises such as journaling from another person's perspective after conflicts",
+          "Seek feedback from trusted individuals about how your behavior affects them to gain honest external insight",
+          "Consider working with a therapist who specializes in interpersonal patterns to develop healthier strategies"
+        ]
+      },
+      {
+        "min": 109,
+        "max": 135,
+        "level": "moderate",
+        "label": "High Dark Traits",
+        "description": "Your dark personality traits are substantially elevated across one or more dimensions. This level of manipulativeness, grandiosity, or callousness can significantly impair relationship quality and long-term social adjustment.",
+        "suggestions": [
+          "Seek professional psychological support to explore the roots and consequences of these personality patterns",
+          "Commit to honest self-examination about how your behavior impacts partners, friends, and colleagues",
+          "Learn and practice skills for building reciprocal trust, such as active listening and emotional validation",
+          "Set concrete behavioral goals for reducing manipulative or exploitative actions in daily interactions",
+          "Monitor impulsive or retaliatory urges and develop healthier coping strategies through structured practice"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "machiavellianism": [
+        {
+          "min": 9,
+          "max": 18,
+          "level": "minimal",
+          "label": "Low",
+          "description": "You show low Machiavellianism, indicating you rarely use strategic manipulation or deception to advance your interests. You tend to be straightforward and value honesty in your dealings with others."
+        },
+        {
+          "min": 19,
+          "max": 27,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Your Machiavellianism is at a moderate level, reflecting occasional pragmatic or strategic thinking in social situations. While you can be calculated when necessary, it does not dominate your relational approach."
+        },
+        {
+          "min": 28,
+          "max": 36,
+          "level": "moderate",
+          "label": "High",
+          "description": "You display high Machiavellianism, suggesting a strong inclination toward strategic manipulation and cynical views about human nature. This pattern may undermine trust and authenticity in your closer relationships over time."
+        },
+        {
+          "min": 37,
+          "max": 45,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Your Machiavellianism is very high, indicating pervasive use of manipulation, deception, and exploitation in interpersonal contexts. Consider reviewing your relational patterns with a professional to foster more genuine connections."
+        }
+      ],
+      "narcissism": [
+        {
+          "min": 9,
+          "max": 18,
+          "level": "minimal",
+          "label": "Low",
+          "description": "You show low narcissism, suggesting you do not have an inflated sense of self-importance or a strong need for admiration. You are likely comfortable sharing the spotlight and valuing the contributions of others equally."
+        },
+        {
+          "min": 19,
+          "max": 27,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Your narcissism is at a moderate level, reflecting a healthy degree of self-confidence and desire for recognition. While you enjoy acknowledgment, it does not excessively dominate your social behavior."
+        },
+        {
+          "min": 28,
+          "max": 36,
+          "level": "moderate",
+          "label": "High",
+          "description": "You display high narcissism, indicating a strong sense of entitlement, need for admiration, and tendency to view yourself as superior. This may lead to interpersonal conflicts when others do not meet your expectations for special treatment."
+        },
+        {
+          "min": 37,
+          "max": 45,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Your narcissism is very high, suggesting pervasive grandiosity, entitlement, and self-focus that likely strain your relationships. Consider reflecting honestly on how your need for admiration affects those around you."
+        }
+      ],
+      "psychopathy": [
+        {
+          "min": 9,
+          "max": 18,
+          "level": "minimal",
+          "label": "Low",
+          "description": "You show low psychopathy traits, indicating good impulse control, genuine remorse when you cause harm, and a general concern for the well-being of others. You are unlikely to engage in reckless or callous behavior."
+        },
+        {
+          "min": 19,
+          "max": 27,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Your psychopathy traits are at a moderate level, reflecting some tolerance for risk and occasional emotional detachment. While you may sometimes act impulsively, you generally maintain social boundaries."
+        },
+        {
+          "min": 28,
+          "max": 36,
+          "level": "moderate",
+          "label": "High",
+          "description": "You display high psychopathy traits, suggesting reduced empathy, impulsive decision-making, and a retaliatory interpersonal style. These tendencies may lead to risky behavior and difficulty maintaining stable relationships."
+        },
+        {
+          "min": 37,
+          "max": 45,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Your psychopathy traits are very high, indicating pervasive callousness, impulsivity, and lack of remorse. Professional support is strongly recommended to address patterns that may harm both yourself and others."
+        }
+      ]
+    }
+  }
+}

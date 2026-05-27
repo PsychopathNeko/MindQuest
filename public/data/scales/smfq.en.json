@@ -104,35 +104,41 @@
         "min": 0,
         "max": 7,
         "level": "normal",
-        "label": "Normal Range",
-        "description": "Your depressive symptoms are within the normal range.",
+        "label": "Normal",
+        "description": "Your score is within the normal range, suggesting no significant depressive symptoms. Children and adolescents commonly experience some mood fluctuations, and your current emotional functioning appears healthy.",
         "suggestions": [
-          "Continue maintaining a positive outlook",
-          "Stay connected with friends and family"
+          "Continue encouraging open communication about feelings",
+          "Maintain regular routines including consistent sleep schedules",
+          "Support engagement in enjoyable activities and social interactions",
+          "Occasional sadness is a normal part of development"
         ]
       },
       {
         "min": 8,
         "max": 11,
         "level": "mild",
-        "label": "Mild Depression",
-        "description": "You may have mild depressive symptoms. Monitoring is recommended.",
+        "label": "Mild Depressive Symptoms",
+        "description": "Your score suggests mild depressive symptoms. At this level, a young person may show some changes in mood, energy, or interest in activities. These symptoms are worth monitoring but may not yet significantly impair daily functioning.",
         "suggestions": [
-          "Talk to someone you trust about how you feel",
-          "Increase outdoor activities and social engagement",
-          "Maintain a regular daily routine"
+          "Monitor mood changes over the coming weeks to see if they persist or worsen",
+          "Encourage regular physical activity, social engagement, and consistent sleep",
+          "Create a supportive environment where the young person feels safe expressing emotions",
+          "Consider speaking with a school counselor or pediatrician if concerns continue",
+          "Limit excessive screen time and encourage meaningful activities"
         ]
       },
       {
         "min": 12,
         "max": 26,
         "level": "significant",
-        "label": "Significant Depression",
-        "description": "Your depressive symptoms are significant (score >= 12 is the clinical cutoff). Professional help is recommended.",
+        "label": "Significant Depressive Symptoms",
+        "description": "Your score indicates significant depressive symptoms that are likely affecting daily functioning, school performance, and social relationships. At this level, professional evaluation is recommended to determine appropriate support and intervention.",
         "suggestions": [
-          "Consult a mental health professional for evaluation",
-          "Do not carry the burden alone; tell a parent or teacher",
-          "Depression is treatable, and seeking help early leads to better outcomes"
+          "Seek evaluation from a mental health professional experienced with youth",
+          "Talk to the young person's pediatrician or school counselor about available resources",
+          "Maintain a structured, supportive daily routine at home",
+          "Evidence-based treatments such as CBT or interpersonal therapy are effective for youth depression",
+          "If there are any concerns about self-harm, seek immediate professional help"
         ]
       }
     ],
@@ -146,5 +152,9 @@
       "min": 0,
       "max": 26
     }
+  },
+  "crisisConfig": {
+    "type": "level",
+    "levelThreshold": "significant"
   }
 }

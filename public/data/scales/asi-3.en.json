@@ -177,10 +177,11 @@
         "max": 18,
         "level": "low",
         "label": "Low Anxiety Sensitivity",
-        "description": "Your overall anxiety sensitivity is low. You are generally not overly concerned about anxiety-related sensations.",
+        "description": "Your overall anxiety sensitivity is low. You generally do not interpret normal bodily sensations as threatening or dangerous. This balanced perspective on physical and mental experiences is a protective factor.",
         "suggestions": [
-          "Continue maintaining your balanced perspective on bodily sensations",
-          "Your low anxiety sensitivity is a protective factor"
+          "Continue maintaining your balanced and adaptive perspective on bodily sensations and mental experiences",
+          "Your low anxiety sensitivity serves as a protective buffer against developing panic and anxiety disorders",
+          "Stay informed about anxiety symptoms so you can recognize changes early if they occur"
         ]
       },
       {
@@ -188,11 +189,13 @@
         "max": 36,
         "level": "moderate",
         "label": "Moderate Anxiety Sensitivity",
-        "description": "You have a moderate level of anxiety sensitivity. Some anxiety-related sensations may cause you concern.",
+        "description": "You have a moderate level of anxiety sensitivity. Certain anxiety-related sensations such as rapid heartbeat, racing thoughts, or visible nervousness may cause you notable concern or discomfort at times.",
         "suggestions": [
-          "Learn about the nature of anxiety and its physical symptoms",
-          "Practice relaxation techniques to manage physical sensations",
-          "Challenge catastrophic interpretations of bodily sensations"
+          "Educate yourself about the nature of anxiety and how physical symptoms are normal stress responses",
+          "Practice relaxation techniques such as diaphragmatic breathing and progressive muscle relaxation",
+          "Challenge catastrophic interpretations of bodily sensations by examining evidence for and against them",
+          "Keep a journal to track which sensations trigger worry and identify patterns in your anxiety responses",
+          "Consider consulting a therapist if anxiety sensitivity is beginning to limit your daily activities"
         ]
       },
       {
@@ -200,11 +203,12 @@
         "max": 54,
         "level": "high",
         "label": "High Anxiety Sensitivity",
-        "description": "Your anxiety sensitivity is high. You may frequently misinterpret normal bodily sensations as dangerous.",
+        "description": "Your anxiety sensitivity is high. You may frequently misinterpret normal bodily sensations as indicators of serious illness, mental breakdown, or social embarrassment, fueling a cycle of escalating anxiety.",
         "suggestions": [
-          "Consider consulting a mental health professional",
-          "Interoceptive exposure therapy can be very effective",
-          "Cognitive restructuring can help change fearful beliefs about sensations"
+          "Consulting a mental health professional experienced in anxiety disorders is strongly recommended",
+          "Interoceptive exposure therapy involving safe, gradual exposure to feared sensations is highly effective",
+          "Cognitive restructuring can help you develop more realistic interpretations of bodily sensations",
+          "Practice grounding techniques when physical sensations trigger anxious thoughts"
         ]
       },
       {
@@ -212,11 +216,12 @@
         "max": 72,
         "level": "very_high",
         "label": "Very High Anxiety Sensitivity",
-        "description": "Your anxiety sensitivity is very high. This level is strongly associated with panic disorder and other anxiety conditions.",
+        "description": "Your anxiety sensitivity is very high. This extreme level is strongly associated with panic disorder, generalized anxiety, and avoidance behaviors that can severely restrict daily life and functioning.",
         "suggestions": [
-          "Strongly recommended to seek professional help",
-          "Evidence-based treatments are highly effective for anxiety sensitivity",
-          "Discuss cognitive behavioral therapy options with a professional"
+          "Seeking professional help from a psychologist or psychiatrist is strongly recommended at this level",
+          "Evidence-based treatments such as cognitive behavioral therapy have strong efficacy for anxiety sensitivity",
+          "Discuss both therapy and potential medication options with a qualified mental health professional",
+          "Gradually and safely confronting feared sensations under professional guidance accelerates recovery"
         ]
       }
     ],

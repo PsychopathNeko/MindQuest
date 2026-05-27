@@ -1,0 +1,451 @@
+{
+  "odsis": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your depression level is within the normal range, with no significant depressive distress detected.",
+        "suggestions": [
+          "Continue maintaining your current mental health",
+          "Keep up an active lifestyle and social activities",
+          "Maintain regular exercise and good sleep habits"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "Your score suggests mild depression. You may occasionally feel low in mood or lack interest, but the impact on daily functioning is limited.",
+        "suggestions": [
+          "Increase engagement in pleasurable activities and social interactions",
+          "Maintain regular physical exercise",
+          "Pay attention to sleep hygiene and balanced nutrition",
+          "Consider consulting a professional if symptoms persist or worsen"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "Your score suggests moderate depression. Depressed mood may be noticeably interfering with your work, social life, or daily activities.",
+        "suggestions": [
+          "Consider seeking help from a counselor or psychiatrist",
+          "Try evidence-based psychological treatments such as cognitive-behavioral therapy",
+          "Maintain a daily activity schedule and avoid prolonged isolation",
+          "Inform a trusted family member or friend about your condition"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 20,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "Your score suggests severe depression, which may be significantly impairing your work ability, social functioning, and quality of life.",
+        "suggestions": [
+          "Seek professional psychological or psychiatric treatment as soon as possible",
+          "Inform family or friends about your condition for support",
+          "If you have thoughts of self-harm or suicide, please call a crisis hotline immediately",
+          "Do not suffer alone; professional help can effectively alleviate depression"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "pas": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 8,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your score indicates no significant panic or agoraphobia symptoms. You are functioning well in this area.",
+        "suggestions": [
+          "Continue maintaining healthy coping strategies",
+          "Practice regular relaxation and stress management"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 18,
+        "level": "mild",
+        "label": "Mild Panic/Agoraphobia",
+        "description": "You are experiencing mild symptoms of panic or agoraphobia. These symptoms may cause some discomfort but are not significantly impairing.",
+        "suggestions": [
+          "Learn about panic disorder and its symptoms",
+          "Practice breathing exercises and grounding techniques",
+          "Gradually expose yourself to feared situations with support",
+          "Consider consulting a mental health professional if symptoms persist"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 28,
+        "level": "moderate",
+        "label": "Moderate Panic/Agoraphobia",
+        "description": "You are experiencing moderate panic or agoraphobia symptoms that are likely affecting your daily functioning.",
+        "suggestions": [
+          "Seek evaluation from a mental health professional",
+          "Cognitive behavioral therapy (CBT) is highly effective for panic disorder",
+          "Practice regular relaxation techniques",
+          "Avoid caffeine and other stimulants that may worsen symptoms"
+        ]
+      },
+      {
+        "min": 29,
+        "max": 39,
+        "level": "severe",
+        "label": "Severe Panic/Agoraphobia",
+        "description": "Your symptoms are severe and likely causing significant impairment in multiple areas of life.",
+        "suggestions": [
+          "Strongly recommended to seek professional treatment promptly",
+          "Consider a combination of medication and psychotherapy",
+          "Reach out to your support network for help",
+          "Do not attempt to face feared situations alone without professional guidance"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 52,
+        "level": "severe",
+        "label": "Very Severe Panic/Agoraphobia",
+        "description": "Your symptoms are very severe. Panic attacks and avoidance behavior are likely dominating your daily life. Immediate professional help is strongly recommended.",
+        "suggestions": [
+          "Please contact a mental health professional or visit a hospital immediately",
+          "Medication may be necessary to reduce acute symptoms",
+          "Ensure you have a safety plan and support person available",
+          "Remember that panic disorder is highly treatable with proper care"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "phq-15": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Minimal Somatic Severity",
+        "description": "Your somatic symptom score is minimal. No significant physical symptom burden detected.",
+        "suggestions": [
+          "Continue maintaining a healthy lifestyle",
+          "Regular exercise and balanced diet support physical well-being",
+          "Practice stress management to prevent somatic symptoms"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "Low Somatic Severity",
+        "description": "You are experiencing a low level of somatic symptoms. These may be related to stress or other factors.",
+        "suggestions": [
+          "Monitor your symptoms and note any patterns",
+          "Practice relaxation techniques such as deep breathing or yoga",
+          "Ensure adequate sleep and regular exercise",
+          "If symptoms persist, consult a healthcare provider"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "Medium Somatic Severity",
+        "description": "Your somatic symptom level is moderate. These symptoms may be affecting your daily functioning.",
+        "suggestions": [
+          "Consider consulting a healthcare provider for evaluation",
+          "Explore stress management and relaxation strategies",
+          "Maintain a symptom diary to identify triggers",
+          "Consider whether psychological factors may be contributing"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 30,
+        "level": "severe",
+        "label": "High Somatic Severity",
+        "description": "Your somatic symptom level is high. This significant symptom burden warrants professional evaluation.",
+        "suggestions": [
+          "Seek medical evaluation to rule out underlying conditions",
+          "Consider consultation with both medical and mental health professionals",
+          "Cognitive behavioral therapy can be effective for somatic symptoms",
+          "Avoid excessive self-monitoring that may increase symptom focus"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "pps": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 24,
+        "level": "minimal",
+        "label": "Low Procrastination",
+        "description": "Your procrastination tendency is low. You have good time management and task completion abilities.",
+        "suggestions": [
+          "Continue maintaining your good action-oriented habits",
+          "Share your efficiency strategies with others"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "mild",
+        "label": "Moderate Procrastination",
+        "description": "You show some procrastination tendencies that occasionally affect your efficiency and ability to complete tasks on time.",
+        "suggestions": [
+          "Create a daily priority list",
+          "Use the 'two-minute rule' — if it takes less than two minutes, do it immediately",
+          "Reduce barriers to starting tasks (e.g., prepare your work environment in advance)"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "moderate",
+        "label": "High Procrastination",
+        "description": "Your procrastination behavior is quite noticeable, frequently causing delays on tasks and deadlines.",
+        "suggestions": [
+          "Consider learning time management techniques",
+          "Establish an accountability system with friends or colleagues",
+          "Try cognitive-behavioral strategies to combat procrastination thinking",
+          "Consider consulting a counselor"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "severe",
+        "label": "Severe Procrastination",
+        "description": "Your procrastination problem is very serious, significantly impacting your quality of life and sense of self-efficacy.",
+        "suggestions": [
+          "Recommend seeking professional counseling support",
+          "CBT and ACT are effective treatments for procrastination",
+          "Start with 'tiny habits' to rebuild your capacity for action",
+          "Address the emotional issues behind procrastination (e.g., anxiety, perfectionism)"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "prmq": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 32,
+        "level": "minimal",
+        "label": "Good Memory",
+        "description": "Your overall memory performance appears to be good, with infrequent memory failures in daily life.",
+        "suggestions": [
+          "Continue maintaining your current memory strategies",
+          "Keep up mentally stimulating activities",
+          "Maintain healthy lifestyle habits that support cognitive function"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 48,
+        "level": "mild",
+        "label": "Average Memory",
+        "description": "Your memory performance is within the average range. You experience occasional memory lapses that are common in daily life.",
+        "suggestions": [
+          "Use external aids like calendars and reminder apps for important tasks",
+          "Establish consistent routines to support prospective memory",
+          "Stay mentally active through reading, puzzles, or learning new skills",
+          "Ensure adequate sleep, as it is critical for memory consolidation"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 64,
+        "level": "moderate",
+        "label": "Poor Memory",
+        "description": "Your score suggests you experience memory failures more frequently than average. This may affect daily functioning.",
+        "suggestions": [
+          "Implement systematic reminder strategies (phone alarms, sticky notes, to-do lists)",
+          "Minimize distractions when trying to remember important information",
+          "Ensure adequate sleep, as sleep is critical for memory consolidation",
+          "Consider whether stress or multitasking may be contributing to memory lapses"
+        ]
+      },
+      {
+        "min": 65,
+        "max": 80,
+        "level": "severe",
+        "label": "Very Poor Memory",
+        "description": "Your score indicates frequent memory failures that may significantly impact daily life.",
+        "suggestions": [
+          "Consider consulting a healthcare professional for a thorough memory assessment",
+          "Use multiple external memory aids consistently",
+          "Simplify routines and reduce cognitive load where possible",
+          "Discuss with a professional whether underlying factors may be involved"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "prospective": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "normal",
+          "label": "Good Prospective Memory",
+          "description": "You generally remember to carry out planned actions and future intentions."
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "Average Prospective Memory",
+          "description": "You occasionally forget to carry out planned actions, which is within the normal range."
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "moderate",
+          "label": "Poor Prospective Memory",
+          "description": "You frequently forget to carry out intended actions. Consider using external reminders."
+        },
+        {
+          "min": 33,
+          "max": 40,
+          "level": "severe",
+          "label": "Very Poor Prospective Memory",
+          "description": "You very frequently forget planned actions. Systematic use of external aids is strongly recommended."
+        }
+      ],
+      "retrospective": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "normal",
+          "label": "Good Retrospective Memory",
+          "description": "You generally recall past events and previously learned information well."
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "Average Retrospective Memory",
+          "description": "You occasionally have difficulty recalling past events, which is within the normal range."
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "moderate",
+          "label": "Poor Retrospective Memory",
+          "description": "You frequently have difficulty remembering past events and information."
+        },
+        {
+          "min": 33,
+          "max": 40,
+          "level": "severe",
+          "label": "Very Poor Retrospective Memory",
+          "description": "You very frequently have difficulty recalling past events. Consider seeking professional assessment."
+        }
+      ]
+    }
+  },
+  "pss-4": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "minimal",
+        "label": "Low Stress",
+        "description": "Your perceived stress level is low. You appear to be coping well with life demands.",
+        "suggestions": [
+          "Continue maintaining your current coping strategies",
+          "Keep up healthy habits and routines",
+          "Practice preventive stress management techniques"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "moderate",
+        "label": "Moderate Stress",
+        "description": "Your perceived stress level is moderate. Consider enhancing your stress management strategies.",
+        "suggestions": [
+          "Identify and address your main sources of stress",
+          "Practice relaxation techniques regularly",
+          "Maintain work-life balance",
+          "Seek social support when needed"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 16,
+        "level": "severe",
+        "label": "High Stress",
+        "description": "Your perceived stress level is high. This may be affecting your well-being and warrants attention.",
+        "suggestions": [
+          "Consider completing the full PSS-10 for a more detailed assessment",
+          "Consult a mental health professional for stress management support",
+          "Implement immediate stress-reduction strategies",
+          "Review and prioritize your commitments"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "ptq": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 15,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your level of perseverative negative thinking is low. You can recover well from negative events.",
+        "suggestions": [
+          "Continue maintaining healthy thinking habits",
+          "Keep up mindfulness practices to sustain psychological resilience"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 30,
+        "level": "mild",
+        "label": "Mild Rumination",
+        "description": "You have some degree of repetitive negative thinking and may occasionally get caught in cycles of overthinking.",
+        "suggestions": [
+          "Learn mindfulness meditation to reduce ruminative thinking",
+          "Try shifting your attention to positive activities",
+          "Practice acceptance and letting-go techniques",
+          "Maintain regular physical exercise"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 45,
+        "level": "moderate",
+        "label": "Moderate Rumination",
+        "description": "Your perseverative negative thinking level is elevated. This may affect your daily functioning and emotional well-being.",
+        "suggestions": [
+          "Consider learning cognitive-behavioral techniques to break the rumination cycle",
+          "Consider seeking professional counseling",
+          "Practice mindfulness and relaxation techniques",
+          "Share your concerns with someone you trust"
+        ]
+      },
+      {
+        "min": 46,
+        "max": 60,
+        "level": "severe",
+        "label": "Severe Rumination",
+        "description": "Your perseverative negative thinking level is very high. This may significantly affect your mental health and daily life.",
+        "suggestions": [
+          "Strongly recommended to seek professional psychological help",
+          "Cognitive-behavioral therapy is very effective in reducing ruminative thinking",
+          "Avoid spending time alone overthinking; engage more with others",
+          "Monitor for co-occurring depression or anxiety symptoms"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  }
+}

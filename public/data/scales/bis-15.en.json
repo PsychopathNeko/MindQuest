@@ -155,10 +155,11 @@
         "max": 25,
         "level": "minimal",
         "label": "Low Impulsivity",
-        "description": "Your impulsivity level is low. You generally think things through before acting.",
+        "description": "Your impulsivity level is low, indicating that you generally think things through before acting and maintain good self-control in most situations. This reflects strong executive functioning and deliberate decision-making habits.",
         "suggestions": [
-          "Continue maintaining your thoughtful and planned approach to decisions",
-          "Being cautious is positive, but also allow some flexibility in adapting to changes"
+          "Continue maintaining your thoughtful and planned approach to decisions and actions",
+          "Being cautious is positive, but also allow some flexibility in adapting to unexpected changes",
+          "Your self-regulation skills are a strength that supports good outcomes in work and relationships"
         ]
       },
       {
@@ -166,11 +167,11 @@
         "max": 38,
         "level": "normal",
         "label": "Moderate Impulsivity",
-        "description": "Your impulsivity is within the normal range. You maintain a good balance between thinking and acting.",
+        "description": "Your impulsivity is within the normal range, suggesting a healthy balance between careful deliberation and spontaneous action. You are generally able to regulate impulses while remaining adaptable to changing circumstances.",
         "suggestions": [
-          "Continue maintaining your good self-regulation skills",
-          "Give yourself extra time to think before making important decisions",
-          "Keep practicing focus and planning skills"
+          "Continue maintaining your good self-regulation skills and balanced approach to decision-making",
+          "Give yourself extra time to think before making important financial or relationship decisions",
+          "Keep practicing focus and planning skills through structured daily routines and goal setting"
         ]
       },
       {
@@ -178,12 +179,12 @@
         "max": 48,
         "level": "mild",
         "label": "Elevated Impulsivity",
-        "description": "Your impulsivity is somewhat elevated. You may sometimes act without fully considering the consequences.",
+        "description": "Your impulsivity is somewhat elevated, meaning you may sometimes act or speak without fully considering the consequences. This pattern can occasionally lead to regrettable decisions or interpersonal misunderstandings.",
         "suggestions": [
-          "Try pausing for a few seconds before making decisions",
-          "Use to-do lists and schedules to enhance planning",
-          "Practice mindfulness meditation to improve self-awareness",
-          "If impulsive behavior causes problems, consider consulting a professional"
+          "Try pausing for a few seconds before making decisions, especially under emotional pressure or stress",
+          "Use to-do lists, calendars, and schedules to enhance your planning and organizational abilities",
+          "Practice mindfulness meditation regularly to improve self-awareness and impulse recognition",
+          "If impulsive behavior causes recurring problems in work or relationships, consider consulting a professional"
         ]
       },
       {
@@ -191,13 +192,13 @@
         "max": 60,
         "level": "moderate",
         "label": "High Impulsivity",
-        "description": "Your impulsivity level is high. You may frequently act without thinking, which can affect work, relationships, and daily life.",
+        "description": "Your impulsivity level is high, suggesting that you frequently act without adequate forethought. This pattern may be affecting multiple areas of your life including work performance, financial decisions, and interpersonal relationships.",
         "suggestions": [
-          "Consider consulting a mental health professional for evaluation",
-          "Learn delayed gratification and self-control techniques",
-          "Establish daily routines and structured lifestyle habits",
-          "Consider cognitive behavioral therapy to manage impulsive behavior",
-          "Explore whether impulsive behavior may be related to ADHD or other conditions"
+          "Consider consulting a mental health professional for a comprehensive evaluation of impulsive tendencies",
+          "Learn delayed gratification and self-control techniques such as the stop-think-act method",
+          "Establish structured daily routines and consistent lifestyle habits to reduce impulsive decision-making",
+          "Consider cognitive behavioral therapy, which has strong evidence for managing impulsive behavior patterns",
+          "Discuss with a professional whether impulsive behavior may be related to ADHD or other treatable conditions"
         ]
       }
     ],
@@ -208,28 +209,28 @@
           "max": 8,
           "level": "minimal",
           "label": "Low",
-          "description": "Attentional impulsivity is low. You have good ability to concentrate."
+          "description": "Attentional impulsivity is low. You demonstrate strong concentration abilities and can maintain focus on tasks without being easily distracted by irrelevant stimuli or wandering thoughts."
         },
         {
           "min": 9,
           "max": 13,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Attentional impulsivity is at a moderate level. You may sometimes have difficulty focusing."
+          "description": "Attentional impulsivity is at a moderate level. You may sometimes experience difficulty maintaining focus on tasks, particularly when they are complex, repetitive, or require sustained mental effort."
         },
         {
           "min": 14,
           "max": 17,
           "level": "high",
           "label": "High",
-          "description": "Attentional impulsivity is elevated. You may frequently have difficulty concentrating."
+          "description": "Attentional impulsivity is elevated. You may frequently have difficulty concentrating, find your mind wandering during important tasks, and struggle to complete activities requiring sustained attention."
         },
         {
           "min": 18,
           "max": 20,
           "level": "very_high",
           "label": "Very High",
-          "description": "Attentional impulsivity is very high. Significant difficulty with concentration; further evaluation recommended."
+          "description": "Attentional impulsivity is very high, indicating significant difficulty with concentration and sustained attention. This level of attentional difficulty warrants further professional evaluation and support."
         }
       ],
       "motor": [
@@ -238,28 +239,28 @@
           "max": 8,
           "level": "minimal",
           "label": "Low",
-          "description": "Motor impulsivity is low. Your actions are generally well-considered."
+          "description": "Motor impulsivity is low. Your actions are generally well-considered and deliberate, indicating that you tend to think before acting and rarely engage in impulsive physical behaviors."
         },
         {
           "min": 9,
           "max": 13,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Motor impulsivity is at a moderate level. You occasionally act without thinking."
+          "description": "Motor impulsivity is at a moderate level. You occasionally act without thinking things through completely, though these instances are infrequent and typically have limited negative consequences."
         },
         {
           "min": 14,
           "max": 17,
           "level": "high",
           "label": "High",
-          "description": "Motor impulsivity is elevated. Impulsive actions occur frequently."
+          "description": "Motor impulsivity is elevated, meaning impulsive actions such as speaking out of turn, making hasty purchases, or acting on urges occur frequently and may cause interpersonal difficulties."
         },
         {
           "min": 18,
           "max": 20,
           "level": "very_high",
           "label": "Very High",
-          "description": "Motor impulsivity is very high. You frequently act without thinking; consider seeking professional help."
+          "description": "Motor impulsivity is very high. You frequently act without thinking, which may lead to significant problems in daily functioning. Professional guidance is recommended to develop better behavioral control."
         }
       ],
       "nonplanning": [
@@ -268,28 +269,28 @@
           "max": 8,
           "level": "minimal",
           "label": "Low",
-          "description": "Non-planning impulsivity is low. You have good planning and foresight abilities."
+          "description": "Non-planning impulsivity is low. You demonstrate good planning and foresight abilities, regularly considering future consequences before making decisions and setting goals effectively."
         },
         {
           "min": 9,
           "max": 13,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Non-planning impulsivity is at a moderate level. You sometimes lack long-term planning."
+          "description": "Non-planning impulsivity is at a moderate level. You sometimes lack long-term planning and may occasionally make decisions without fully considering their future implications or consequences."
         },
         {
           "min": 14,
           "max": 17,
           "level": "high",
           "label": "High",
-          "description": "Non-planning impulsivity is elevated. You rarely plan ahead for the future."
+          "description": "Non-planning impulsivity is elevated. You rarely plan ahead for the future and tend to focus primarily on immediate gratification, which may affect financial stability and long-term goal achievement."
         },
         {
           "min": 18,
           "max": 20,
           "level": "very_high",
           "label": "Very High",
-          "description": "Non-planning impulsivity is very high. You almost never plan ahead; consider developing planning habits."
+          "description": "Non-planning impulsivity is very high. You almost never plan ahead or consider future consequences of your actions. Developing structured planning habits with professional guidance is strongly recommended."
         }
       ]
     }

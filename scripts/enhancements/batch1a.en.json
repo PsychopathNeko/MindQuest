@@ -1,0 +1,220 @@
+{
+  "ces-d": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 15,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your score is within the normal range, indicating no significant depressive symptoms. You appear to be coping well with everyday stressors, and your emotional functioning is healthy.",
+        "suggestions": [
+          "Continue maintaining a healthy lifestyle with regular exercise and balanced nutrition",
+          "Keep up regular social activities and nurture close relationships",
+          "Practice preventive mental health habits such as adequate sleep and stress management",
+          "Occasional mood fluctuations are a normal part of life"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 20,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "Your score suggests mild depressive symptoms that may be affecting your daily life. At this level, you may notice reduced energy, changes in sleep or appetite, or a general sense of sadness that comes and goes.",
+        "suggestions": [
+          "Pay attention to your emotional well-being and track mood patterns",
+          "Maintain regular sleep, exercise, and social routines",
+          "Try talking to a trusted friend or family member about how you feel",
+          "Consider journaling or mindfulness practices to process emotions",
+          "If symptoms persist for more than two weeks, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 25,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "Your score indicates moderate depressive symptoms that may be significantly affecting your daily functioning. You may experience persistent low mood, difficulty concentrating, social withdrawal, or loss of interest in previously enjoyed activities.",
+        "suggestions": [
+          "Consider consulting a mental health professional for a thorough evaluation",
+          "Maintain a structured daily routine to provide stability",
+          "Engage in regular physical activity, which has strong evidence for reducing depression",
+          "Avoid isolation; stay connected with supportive people in your life",
+          "Consider evidence-based psychotherapy such as cognitive behavioral therapy (CBT)"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 60,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "Your score suggests severe depressive symptoms that are likely significantly impairing your daily functioning, relationships, and quality of life. Professional help is strongly recommended at this level.",
+        "suggestions": [
+          "Seek consultation with a mental health professional as soon as possible",
+          "If you have thoughts of self-harm or suicide, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "Do not stay alone; inform a trusted person about your situation",
+          "Professional treatment, including therapy and/or medication, can be very effective",
+          "Focus on basic self-care: sleep, nutrition, and gentle physical activity"
+        ]
+      }
+    ]
+  },
+  "gds-15": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your score is within the normal range, suggesting no significant depressive symptoms. Your emotional well-being appears stable, which is positive for overall health in later life.",
+        "suggestions": [
+          "Continue engaging in social and physical activities that you enjoy",
+          "Maintain regular routines, hobbies, and meaningful social connections",
+          "Stay connected with family and friends to maintain emotional well-being",
+          "Regular physical activity, even short walks, supports both mental and physical health"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 8,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "Your score suggests mild depressive symptoms that may be affecting your quality of life. In older adults, depression can sometimes present as fatigue, social withdrawal, or physical complaints rather than overt sadness.",
+        "suggestions": [
+          "Talk to your doctor about how you have been feeling; depression is common and treatable at any age",
+          "Stay physically active; even short daily walks can significantly improve mood",
+          "Maintain social connections and engage in enjoyable activities",
+          "Consider joining a senior community group, class, or volunteer activity"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 11,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "Your score indicates moderate depressive symptoms that warrant professional attention. These symptoms may be interfering with daily activities, social engagement, and overall quality of life.",
+        "suggestions": [
+          "Consult your healthcare provider for a comprehensive evaluation",
+          "Psychotherapy and/or medication can be effective at any age; do not hesitate to explore options",
+          "Try to maintain daily routines and regular sleep patterns",
+          "Accept support from family and friends; letting others help is a strength, not a weakness",
+          "Be aware that some medications or medical conditions can contribute to depressive symptoms"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 15,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "Your score suggests severe depressive symptoms that are likely significantly affecting your daily life, independence, and well-being. Depression in older adults is very treatable, and seeking help is crucial.",
+        "suggestions": [
+          "Seek medical attention from your healthcare provider as soon as possible",
+          "Depression in older adults is very treatable; do not assume it is just part of aging",
+          "If you have thoughts of self-harm, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "Inform a family member or trusted person about your feelings",
+          "A combination of therapy and medication is often the most effective approach"
+        ]
+      }
+    ]
+  },
+  "k10": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 19,
+        "level": "minimal",
+        "label": "Likely to Be Well",
+        "description": "Your score suggests you are likely to be well with no significant psychological distress. Your current level of emotional functioning appears healthy and adaptive.",
+        "suggestions": [
+          "Continue maintaining your current healthy coping strategies",
+          "Keep up regular physical activity and social engagement",
+          "Practice stress management techniques as a preventive measure"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 24,
+        "level": "mild",
+        "label": "Mild Psychological Distress",
+        "description": "Your score indicates mild levels of psychological distress. You may be experiencing some emotional difficulties such as occasional worry, low mood, or restlessness that are beginning to affect daily comfort.",
+        "suggestions": [
+          "Monitor your emotional state over the coming weeks",
+          "Practice relaxation techniques such as deep breathing, progressive muscle relaxation, or mindfulness",
+          "Talk to a trusted friend or family member about how you feel",
+          "Maintain regular sleep, exercise, and nutrition routines",
+          "Consider consulting a healthcare professional if symptoms persist or worsen"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 29,
+        "level": "moderate",
+        "label": "Moderate Psychological Distress",
+        "description": "Your score indicates moderate levels of psychological distress that may be affecting your daily functioning. At this level, symptoms may include persistent worry, low energy, difficulty concentrating, or sleep problems.",
+        "suggestions": [
+          "Consider seeking help from a mental health professional for evaluation",
+          "Maintain regular routines for sleep, exercise, and nutrition",
+          "Reduce stressors where possible and prioritize self-care activities",
+          "Avoid using alcohol or drugs to cope with distress",
+          "Evidence-based therapies such as CBT can be very helpful at this level"
+        ]
+      },
+      {
+        "min": 30,
+        "max": 50,
+        "level": "severe",
+        "label": "Severe Psychological Distress",
+        "description": "Your score indicates severe psychological distress, which may indicate the presence of a serious mental health condition. This level of distress typically involves significant impairment in daily functioning and quality of life.",
+        "suggestions": [
+          "Please consult a mental health professional or your doctor as soon as possible",
+          "If you are in crisis, contact a crisis helpline (e.g., 988 Suicide & Crisis Lifeline)",
+          "Do not hesitate to reach out to trusted people in your life for support",
+          "Follow through with professional treatment recommendations",
+          "Remember that severe distress is treatable; many people recover with appropriate help"
+        ]
+      }
+    ]
+  },
+  "k6": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 13,
+        "level": "minimal",
+        "label": "No or Low Distress",
+        "description": "Your score suggests minimal psychological distress. You appear to be functioning well emotionally, and your current coping strategies are effective for managing everyday stressors.",
+        "suggestions": [
+          "Continue your current healthy habits and coping strategies",
+          "Maintain regular physical activity and social connections",
+          "Practice stress prevention techniques such as adequate sleep and relaxation"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 18,
+        "level": "moderate",
+        "label": "Moderate Psychological Distress",
+        "description": "Your score indicates moderate psychological distress that may be affecting your daily comfort and functioning. You may be experiencing symptoms such as nervousness, hopelessness, restlessness, or fatigue that interfere with your usual activities.",
+        "suggestions": [
+          "Pay attention to patterns in your emotional state and identify potential triggers",
+          "Practice evidence-based stress reduction techniques such as mindfulness meditation or deep breathing",
+          "Maintain social connections and consider talking to someone you trust about your feelings",
+          "Consider consulting a mental health professional for evaluation and support"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 30,
+        "level": "severe",
+        "label": "Severe Psychological Distress",
+        "description": "Your score indicates severe psychological distress that is likely significantly impairing your daily functioning. This level of distress is associated with a high probability of having a diagnosable mental health condition and warrants professional attention.",
+        "suggestions": [
+          "Seek consultation with a mental health professional as soon as possible",
+          "If you are in crisis or having thoughts of self-harm, contact a crisis helpline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "Reach out to trusted family members or friends for support",
+          "Professional treatment including therapy and/or medication can be very effective",
+          "Focus on basic self-care while seeking help: adequate sleep, nutrition, and gentle activity"
+        ]
+      }
+    ]
+  }
+}

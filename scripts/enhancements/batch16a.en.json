@@ -1,0 +1,452 @@
+{
+  "ace": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 0,
+        "level": "minimal",
+        "label": "No Adverse Experiences",
+        "description": "You reported no adverse childhood experiences. The absence of early adversity is a significant protective factor for your long-term physical and mental health outcomes across the lifespan.",
+        "suggestions": [
+          "Continue nurturing healthy, supportive relationships in your life",
+          "If you care for children, strive to maintain safe and stable environments for them",
+          "Consider learning about ACEs to support others who may have experienced childhood adversity"
+        ]
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "level": "mild",
+        "label": "Low Risk",
+        "description": "You reported one adverse childhood experience. Even a single ACE can have subtle effects on health and coping patterns. Awareness of this history can help you take proactive steps toward resilience.",
+        "suggestions": [
+          "Learn how childhood experiences can shape adult health behaviors and stress responses",
+          "Develop and maintain healthy coping strategies such as exercise, social connection, and mindfulness",
+          "Build a strong social support network of trusted friends and family members",
+          "Consider speaking with a counselor if past experiences still affect your daily life"
+        ]
+      },
+      {
+        "min": 2,
+        "max": 3,
+        "level": "moderate",
+        "label": "Moderate Risk",
+        "description": "You reported 2 to 3 adverse childhood experiences. Research shows the cumulative burden of multiple ACEs can increase vulnerability to chronic health conditions, mental health challenges, and maladaptive coping.",
+        "suggestions": [
+          "Prioritize your mental health by scheduling regular self-check-ins and wellness activities",
+          "Learn evidence-based stress management techniques such as deep breathing and progressive relaxation",
+          "Consider seeking professional counseling to process past experiences in a safe setting",
+          "Invest in building a reliable social support network to buffer against life stressors",
+          "Practice self-compassion and recognize that healing from childhood adversity is a gradual process"
+        ]
+      },
+      {
+        "min": 4,
+        "max": 10,
+        "level": "severe",
+        "label": "High Risk",
+        "description": "You reported 4 or more adverse childhood experiences. A high ACE score is strongly linked to elevated risk for depression, substance use, cardiovascular disease, and other serious health outcomes.",
+        "suggestions": [
+          "Seeking professional psychological support is strongly recommended to address the impact of multiple ACEs",
+          "Trauma-informed therapies such as EMDR or trauma-focused CBT can be highly effective for healing",
+          "Monitor both your physical and mental health closely and attend regular medical check-ups",
+          "Share your experiences with trusted people so you do not carry the burden alone",
+          "Remember that ACE scores are not destiny — with appropriate support, recovery is achievable"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "ahs": {
+    "ranges": [
+      {
+        "min": 8,
+        "max": 24,
+        "level": "severe",
+        "label": "Low Hope",
+        "description": "Your hope level is low, indicating limited confidence in finding pathways and sustaining motivation toward goals. Low hope is associated with greater vulnerability to depression, helplessness, and difficulty coping.",
+        "suggestions": [
+          "Start by setting small, concrete, and achievable goals to gradually rebuild your sense of accomplishment",
+          "Practice structured problem-solving skills to strengthen your capacity to find multiple paths to goals",
+          "Surround yourself with supportive and encouraging people who model hopeful thinking",
+          "Consider working with a counselor trained in hope-focused or strengths-based therapeutic approaches"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 40,
+        "level": "mild",
+        "label": "Below Average Hope",
+        "description": "Your hope is below average. You may sometimes feel uncertain about how to reach your goals or struggle to sustain motivation during setbacks. Strengthening pathways and agency thinking can improve well-being.",
+        "suggestions": [
+          "Practice setting specific, measurable goals and identifying at least two routes to achieve each one",
+          "Reflect on past successes to remind yourself of your capacity for achievement and problem-solving",
+          "Explore alternative strategies when your initial approach does not work, building flexible thinking",
+          "Cultivate positive self-talk by deliberately replacing self-defeating thoughts with realistic affirmations"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 56,
+        "level": "normal",
+        "label": "Above Average Hope",
+        "description": "Your hope is above average. You are generally effective at setting meaningful goals, identifying viable pathways, and maintaining the motivation needed to pursue them even when obstacles arise.",
+        "suggestions": [
+          "Continue nurturing your hopeful outlook by setting progressively more challenging personal goals",
+          "When facing new challenges, draw on your established strengths in creative problem-solving",
+          "Share your hopeful perspective with others to inspire and uplift those around you"
+        ]
+      },
+      {
+        "min": 57,
+        "max": 64,
+        "level": "minimal",
+        "label": "High Hope",
+        "description": "Your hope level is very high. You maintain a strong sense of agency and readily generate multiple pathways to your goals. This robust hopefulness is a powerful psychological resource for resilience and success.",
+        "suggestions": [
+          "Your high hope is a valuable asset — continue investing in ambitious and meaningful goals",
+          "Challenge yourself with stretch goals that push your capabilities while maintaining realistic planning",
+          "Use your natural optimism and problem-solving ability to mentor and support others in need"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "asi-3": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 18,
+        "level": "low",
+        "label": "Low Anxiety Sensitivity",
+        "description": "Your overall anxiety sensitivity is low. You generally do not interpret normal bodily sensations as threatening or dangerous. This balanced perspective on physical and mental experiences is a protective factor.",
+        "suggestions": [
+          "Continue maintaining your balanced and adaptive perspective on bodily sensations and mental experiences",
+          "Your low anxiety sensitivity serves as a protective buffer against developing panic and anxiety disorders",
+          "Stay informed about anxiety symptoms so you can recognize changes early if they occur"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 36,
+        "level": "moderate",
+        "label": "Moderate Anxiety Sensitivity",
+        "description": "You have a moderate level of anxiety sensitivity. Certain anxiety-related sensations such as rapid heartbeat, racing thoughts, or visible nervousness may cause you notable concern or discomfort at times.",
+        "suggestions": [
+          "Educate yourself about the nature of anxiety and how physical symptoms are normal stress responses",
+          "Practice relaxation techniques such as diaphragmatic breathing and progressive muscle relaxation",
+          "Challenge catastrophic interpretations of bodily sensations by examining evidence for and against them",
+          "Keep a journal to track which sensations trigger worry and identify patterns in your anxiety responses",
+          "Consider consulting a therapist if anxiety sensitivity is beginning to limit your daily activities"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 54,
+        "level": "high",
+        "label": "High Anxiety Sensitivity",
+        "description": "Your anxiety sensitivity is high. You may frequently misinterpret normal bodily sensations as indicators of serious illness, mental breakdown, or social embarrassment, fueling a cycle of escalating anxiety.",
+        "suggestions": [
+          "Consulting a mental health professional experienced in anxiety disorders is strongly recommended",
+          "Interoceptive exposure therapy involving safe, gradual exposure to feared sensations is highly effective",
+          "Cognitive restructuring can help you develop more realistic interpretations of bodily sensations",
+          "Practice grounding techniques when physical sensations trigger anxious thoughts"
+        ]
+      },
+      {
+        "min": 55,
+        "max": 72,
+        "level": "very_high",
+        "label": "Very High Anxiety Sensitivity",
+        "description": "Your anxiety sensitivity is very high. This extreme level is strongly associated with panic disorder, generalized anxiety, and avoidance behaviors that can severely restrict daily life and functioning.",
+        "suggestions": [
+          "Seeking professional help from a psychologist or psychiatrist is strongly recommended at this level",
+          "Evidence-based treatments such as cognitive behavioral therapy have strong efficacy for anxiety sensitivity",
+          "Discuss both therapy and potential medication options with a qualified mental health professional",
+          "Gradually and safely confronting feared sensations under professional guidance accelerates recovery"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "physical": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low",
+          "description": "Low concern about physical anxiety sensations."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate concern about physical anxiety sensations."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "High",
+          "description": "High concern about physical anxiety sensations."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high concern about physical anxiety sensations."
+        }
+      ],
+      "cognitive": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low",
+          "description": "Low concern about cognitive anxiety symptoms."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate concern about cognitive anxiety symptoms."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "High",
+          "description": "High concern about cognitive anxiety symptoms."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high concern about cognitive anxiety symptoms."
+        }
+      ],
+      "social": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low",
+          "description": "Low concern about social consequences of anxiety."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate concern about social consequences of anxiety."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "High",
+          "description": "High concern about social consequences of anxiety."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high concern about social consequences of anxiety."
+        }
+      ]
+    }
+  },
+  "asrm": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your score is within the normal range, with no indication of significant manic symptoms. Your mood, energy level, sleep patterns, and activity levels appear to be stable and well-regulated at this time.",
+        "suggestions": [
+          "Continue maintaining regular sleep schedules and daily routines to promote mood stability",
+          "Engage in a healthy lifestyle with balanced nutrition and regular physical activity",
+          "Monitor your mood periodically with self-assessments if you have a history of mood fluctuations"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "mild",
+        "label": "Mild Mania Tendency",
+        "description": "Your score exceeds the clinical screening cutoff of 6, suggesting a possible mild manic tendency. You may be experiencing elevated mood, increased energy, reduced sleep need, or heightened talkativeness.",
+        "suggestions": [
+          "Monitor your mood changes, energy levels, and sleep patterns closely over the coming days",
+          "Avoid excessive stimulation, risky financial decisions, and impulsive behaviors",
+          "Maintain a consistent daily routine with fixed sleep and wake times",
+          "Consider consulting a psychiatrist for a comprehensive clinical evaluation"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 15,
+        "level": "moderate",
+        "label": "Moderate Mania",
+        "description": "Your score suggests moderate manic symptoms. You are likely experiencing noticeable mood elevation, hyperactivity, pressured speech, and significantly decreased need for sleep that may impair judgment.",
+        "suggestions": [
+          "Consult a psychiatrist as soon as possible for formal assessment and treatment planning",
+          "Avoid making major life decisions, large purchases, or commitments during this period",
+          "Inform a trusted family member or close friend about your current condition for support",
+          "Prioritize maintaining regular sleep hours and eliminate stimulating substances like caffeine",
+          "If currently on medication, do not adjust dosages without consulting your prescribing physician"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 20,
+        "level": "severe",
+        "label": "Severe Mania",
+        "description": "Your score suggests severe manic symptoms including extremely elevated or irritable mood, dramatic sleep reduction, grandiose thinking, and potential loss of behavioral control requiring urgent care.",
+        "suggestions": [
+          "Seek immediate professional psychiatric treatment — this level of mania may require urgent care",
+          "Have a family member or trusted friend accompany you to a medical appointment as soon as possible",
+          "Avoid all major decisions, financial transactions, and high-risk activities until stabilized",
+          "If you are currently in treatment, contact your treating psychiatrist or crisis line immediately"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "audit-c": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 3,
+        "level": "minimal",
+        "label": "Low Risk",
+        "description": "Your alcohol consumption falls within the low-risk range. No significant concerns about problematic drinking habits were detected. Current patterns suggest minimal risk of alcohol-related health consequences.",
+        "suggestions": [
+          "Continue maintaining your moderate or abstinent drinking habits",
+          "Stay mindful of situations or social settings where alcohol consumption may gradually increase",
+          "Keep informed about recommended daily and weekly drinking limits for your age and sex"
+        ]
+      },
+      {
+        "min": 4,
+        "max": 7,
+        "level": "mild",
+        "label": "Hazardous Drinking",
+        "description": "Your drinking pattern suggests hazardous alcohol use that exceeds recommended limits and may progressively increase your risk for liver disease, injuries, mental health problems, and social difficulties.",
+        "suggestions": [
+          "Consider reducing both the amount and frequency of your alcohol consumption starting this week",
+          "Track your drinks using a diary or app to develop greater awareness of your actual consumption",
+          "Set clear personal limits before social events and commit to non-alcoholic alternatives",
+          "Discuss your drinking patterns with a healthcare provider during your next routine visit"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 12,
+        "level": "severe",
+        "label": "Harmful or Dependent Drinking",
+        "description": "Your drinking pattern suggests harmful alcohol use or possible dependence. This level of consumption carries significant risk for liver damage, cardiovascular disease, and impaired daily functioning.",
+        "suggestions": [
+          "Consulting a healthcare provider about your alcohol use is strongly recommended at this level",
+          "Consider seeking specialized addiction medicine or alcohol treatment services for assessment",
+          "Explore community resources such as support groups, counseling programs, or telephone helplines",
+          "Never drive or operate machinery after drinking — plan alternative transportation in advance"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "brs": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 13,
+        "level": "severe",
+        "label": "Low Resilience",
+        "description": "Your resilience level is low, indicating significant difficulty recovering from stress and adversity. You may feel overwhelmed by setbacks and take a long time to regain emotional balance after challenges.",
+        "suggestions": [
+          "Learn and regularly practice stress management techniques such as deep breathing and mindfulness",
+          "Actively build a social support network by connecting with friends, family, or community groups",
+          "Strengthen resilience gradually through consistent exercise, adequate sleep, and balanced nutrition",
+          "If you consistently struggle to cope with setbacks, seeking professional counseling is recommended",
+          "Start small — focus on recovering from minor daily stressors before tackling larger life challenges"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 18,
+        "level": "moderate",
+        "label": "Below Average Resilience",
+        "description": "Your resilience is below average. While you can cope with some stressors, more demanding situations may leave you feeling depleted or stuck. Building stronger recovery skills can improve your well-being.",
+        "suggestions": [
+          "Develop a repertoire of positive coping strategies including journaling, physical activity, and social engagement",
+          "Maintain consistent sleep and exercise routines, as these form the biological foundation of resilience",
+          "Practice acceptance and mindfulness to reduce emotional overreaction to difficult situations",
+          "Identify specific activities and practices that help you recharge and schedule them regularly",
+          "Consider reading about or attending workshops on resilience-building and adaptive coping skills"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "mild",
+        "label": "Normal Resilience",
+        "description": "You have a normal level of resilience and can generally recover well from most stressors and adversity. You bounce back from setbacks within a reasonable timeframe and maintain functional coping under pressure.",
+        "suggestions": [
+          "Continue maintaining and strengthening your existing resilience resources and coping strategies",
+          "When facing new types of challenges, flexibly adapt your proven approaches to fit the situation",
+          "Nurture your positive social relationships and healthy lifestyle habits that sustain your resilience",
+          "Consider setting slightly more ambitious recovery goals to further build your resilience capacity"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "level": "minimal",
+        "label": "High Resilience",
+        "description": "You demonstrate high resilience and can recover quickly and effectively from stress and adversity. Your strong bounce-back ability is a powerful psychological asset that protects your overall well-being.",
+        "suggestions": [
+          "Continue maintaining the habits and mindset that underpin your strong resilience",
+          "Your experience and perspective can help and encourage others who struggle with setbacks",
+          "While supporting others, remember to also monitor and care for your own mental health needs"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "crafft": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 1,
+        "level": "minimal",
+        "label": "Low Risk",
+        "description": "Your responses suggest low risk for substance-related problems. Scoring below the clinical cutoff of 2 indicates that current substance use patterns are not raising significant concerns for harmful consequences.",
+        "suggestions": [
+          "Continue making safe and healthy choices regarding alcohol and drug use",
+          "Stay informed about the specific health risks associated with substance use during adolescence",
+          "Practice confident strategies for handling peer pressure situations involving substance offers"
+        ]
+      },
+      {
+        "min": 2,
+        "max": 6,
+        "level": "severe",
+        "label": "High Risk",
+        "description": "Your responses suggest high risk for substance-related problems. A CRAFFT score of 2 or higher is the validated clinical cutoff indicating need for further professional assessment and possible intervention.",
+        "suggestions": [
+          "Talk honestly to a trusted adult, school counselor, or healthcare provider about your substance use",
+          "Seek a comprehensive professional substance use assessment to understand the extent of risk",
+          "Never ride in a vehicle with a driver who has been using alcohol or drugs — plan safe transportation",
+          "Explore healthier coping strategies for dealing with stress, boredom, and social pressure",
+          "Learn about local adolescent-specific resources, hotlines, and programs for substance use concerns"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  }
+}

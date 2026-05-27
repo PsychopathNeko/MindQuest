@@ -77,11 +77,11 @@
         "max": 9,
         "level": "minimal",
         "label": "Normal Range",
-        "description": "Your ADHD screening score is within the normal range. Adult ADHD is unlikely.",
+        "description": "Your ADHD screening score is within the normal range, suggesting that adult ADHD is unlikely based on your self-reported symptoms. Occasional difficulties with attention or restlessness are common and do not necessarily indicate a clinical condition.",
         "suggestions": [
-          "No further ADHD assessment is currently needed",
-          "If you still have attention or activity concerns, try time management techniques",
-          "Maintaining a healthy lifestyle helps with focus and concentration"
+          "No further ADHD assessment is currently indicated based on this screening result",
+          "If you occasionally struggle with focus or organization, general time management and productivity techniques can be helpful",
+          "Maintaining a healthy lifestyle with regular exercise, adequate sleep, and balanced nutrition supports optimal attention and concentration"
         ]
       },
       {
@@ -89,12 +89,12 @@
         "max": 13,
         "level": "mild",
         "label": "Possible ADHD",
-        "description": "Your score suggests possible ADHD symptoms. Further evaluation is recommended.",
+        "description": "Your score suggests possible ADHD symptoms that may warrant further clinical evaluation. While not conclusive, this result indicates that you endorsed enough attention and hyperactivity symptoms to merit a closer look by a qualified professional.",
         "suggestions": [
-          "Consider consulting a professional for a comprehensive ADHD evaluation",
-          "Learn about ADHD to improve self-understanding",
-          "Try using planners and reminder tools for daily organization",
-          "Regular exercise can help improve attention and hyperactivity symptoms"
+          "Consider scheduling a comprehensive ADHD evaluation with a psychiatrist or psychologist who specializes in adult ADHD",
+          "Learn about ADHD in adults from reputable sources to better understand the symptoms and how they may affect your life",
+          "Try using planners, reminder apps, and organizational tools to support daily task management while awaiting evaluation",
+          "Regular physical exercise has strong evidence for improving attention, executive function, and hyperactivity symptoms"
         ]
       },
       {
@@ -102,13 +102,13 @@
         "max": 24,
         "level": "moderate",
         "label": "Likely ADHD",
-        "description": "Your score is elevated and ADHD symptoms are likely present. Professional evaluation is strongly recommended.",
+        "description": "Your score is elevated and suggests that clinically significant ADHD symptoms are likely present. This result strongly supports seeking a formal diagnostic evaluation, as ADHD is a well-understood and highly treatable neurodevelopmental condition.",
         "suggestions": [
-          "Strongly recommended to seek evaluation from a psychiatrist or psychologist",
-          "ADHD is a treatable condition — both medication and behavioral interventions can help",
-          "While awaiting evaluation, learn ADHD coping strategies",
-          "Build external reminder and organizational systems for daily life",
-          "Ensure adequate sleep and regular exercise"
+          "A formal evaluation by a psychiatrist or psychologist experienced in adult ADHD is strongly recommended",
+          "ADHD is highly treatable with both medication and behavioral interventions; effective help is available",
+          "While awaiting evaluation, implement external support systems such as written schedules, timers, and structured routines",
+          "Build organizational systems for managing daily responsibilities, including breaking large tasks into smaller, manageable steps",
+          "Ensure adequate sleep and regular exercise, as both significantly affect attention and executive functioning"
         ]
       }
     ],

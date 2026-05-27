@@ -88,10 +88,11 @@
         "max": 9,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your mental health problems have minimal impact on your daily functioning.",
+        "description": "Your mental health problems have minimal or no impact on your daily functioning across work, home, social, and personal domains. You appear to be managing well and maintaining your ability to carry out everyday activities effectively.",
         "suggestions": [
-          "Continue maintaining your good functional status",
-          "Stay aware of early signs of psychological distress"
+          "Continue maintaining the habits, routines, and support systems that contribute to your good functional status",
+          "Stay aware of early signs of psychological distress so you can address them before they escalate",
+          "Regular self-check-ins on your well-being can help you sustain this level of functioning over time"
         ]
       },
       {
@@ -99,11 +100,12 @@
         "max": 19,
         "level": "mild",
         "label": "Mild Functional Impairment",
-        "description": "Your mental health problems have some impact on daily functioning, but it remains manageable.",
+        "description": "Your mental health problems are causing some noticeable impact on daily functioning, though it remains manageable. You may find certain areas of life more difficult than usual, particularly work performance or social engagement.",
         "suggestions": [
-          "Pay attention to the areas most affected",
-          "Try proactive coping and adjustment strategies",
-          "If symptoms persist, consider consulting a professional"
+          "Identify which specific domains of functioning are most affected and focus your coping efforts there",
+          "Try proactive adjustment strategies such as time management, pacing, and setting realistic daily goals",
+          "If symptoms persist for more than a few weeks, consider consulting a mental health professional for guidance",
+          "Maintain regular physical activity and social connections, as these are protective factors against further decline"
         ]
       },
       {
@@ -111,11 +113,13 @@
         "max": 29,
         "level": "moderate",
         "label": "Moderate Functional Impairment",
-        "description": "Your mental health problems are noticeably affecting your daily functioning. Seeking help is recommended.",
+        "description": "Your mental health problems are noticeably affecting daily functioning across multiple areas including work, relationships, and leisure. This level of impairment suggests that professional intervention could meaningfully improve your quality of life.",
         "suggestions": [
-          "Consider consulting a mental health professional",
-          "Prioritize the most severely affected areas",
-          "Build a social support network"
+          "Consulting a mental health professional is recommended to develop targeted strategies for improving your functioning",
+          "Prioritize the most severely affected areas of your life and work on those first with professional guidance",
+          "Build and strengthen your social support network, as supportive relationships can buffer against functional decline",
+          "Consider whether workplace accommodations or adjustments to your daily routine could reduce the burden on your functioning",
+          "Structured activity scheduling can help maintain engagement in important life domains despite psychological difficulties"
         ]
       },
       {
@@ -123,11 +127,12 @@
         "max": 40,
         "level": "severe",
         "label": "Severe Functional Impairment",
-        "description": "Your mental health problems are severely affecting your daily functioning. Professional help is strongly recommended.",
+        "description": "Your mental health problems are severely impairing daily functioning across work, home management, social activities, and relationships. This indicates a substantial reduction in quality of life that warrants prompt professional attention.",
         "suggestions": [
-          "Strongly recommended to seek professional help immediately",
-          "A comprehensive treatment plan may be needed",
-          "Ensure you have a safe and supportive environment"
+          "Seeking professional mental health help as soon as possible is strongly recommended at this level of functional impairment",
+          "A comprehensive treatment plan involving therapy and potentially medication may be needed to restore your functioning",
+          "Ensure you have a safe and supportive environment; inform trusted family members or friends about your difficulties",
+          "If you are unable to work or manage daily tasks, explore whether temporary accommodations or support services are available to you"
         ]
       }
     ],

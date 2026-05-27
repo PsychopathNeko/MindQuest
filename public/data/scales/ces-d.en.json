@@ -149,10 +149,11 @@
         "max": 15,
         "level": "normal",
         "label": "Normal",
-        "description": "Your score is within the normal range. No significant depressive symptoms detected.",
+        "description": "Your score is within the normal range, indicating no significant depressive symptoms. You appear to be coping well with everyday stressors, and your emotional functioning is healthy.",
         "suggestions": [
-          "Continue maintaining a healthy lifestyle",
-          "Keep up regular social activities and exercise",
+          "Continue maintaining a healthy lifestyle with regular exercise and balanced nutrition",
+          "Keep up regular social activities and nurture close relationships",
+          "Practice preventive mental health habits such as adequate sleep and stress management",
           "Occasional mood fluctuations are a normal part of life"
         ]
       },
@@ -161,11 +162,12 @@
         "max": 20,
         "level": "mild",
         "label": "Mild Depression",
-        "description": "Your score suggests mild depressive symptoms. These may be affecting your daily life to some extent.",
+        "description": "Your score suggests mild depressive symptoms that may be affecting your daily life. At this level, you may notice reduced energy, changes in sleep or appetite, or a general sense of sadness that comes and goes.",
         "suggestions": [
-          "Pay attention to your emotional well-being",
+          "Pay attention to your emotional well-being and track mood patterns",
           "Maintain regular sleep, exercise, and social routines",
-          "Try talking to a trusted friend or family member",
+          "Try talking to a trusted friend or family member about how you feel",
+          "Consider journaling or mindfulness practices to process emotions",
           "If symptoms persist for more than two weeks, consider consulting a professional"
         ]
       },
@@ -174,13 +176,13 @@
         "max": 25,
         "level": "moderate",
         "label": "Moderate Depression",
-        "description": "Your score indicates moderate depressive symptoms that may be significantly affecting your daily functioning.",
+        "description": "Your score indicates moderate depressive symptoms that may be significantly affecting your daily functioning. You may experience persistent low mood, difficulty concentrating, social withdrawal, or loss of interest in previously enjoyed activities.",
         "suggestions": [
-          "Consider consulting a mental health professional",
-          "Maintain a structured daily routine",
-          "Engage in regular physical activity",
-          "Avoid isolation; stay connected with supportive people",
-          "Consider psychotherapy (e.g., cognitive behavioral therapy)"
+          "Consider consulting a mental health professional for a thorough evaluation",
+          "Maintain a structured daily routine to provide stability",
+          "Engage in regular physical activity, which has strong evidence for reducing depression",
+          "Avoid isolation; stay connected with supportive people in your life",
+          "Consider evidence-based psychotherapy such as cognitive behavioral therapy (CBT)"
         ]
       },
       {
@@ -188,12 +190,13 @@
         "max": 60,
         "level": "severe",
         "label": "Severe Depression",
-        "description": "Your score suggests severe depressive symptoms. Professional help is strongly recommended.",
+        "description": "Your score suggests severe depressive symptoms that are likely significantly impairing your daily functioning, relationships, and quality of life. Professional help is strongly recommended at this level.",
         "suggestions": [
           "Seek consultation with a mental health professional as soon as possible",
-          "If you have thoughts of self-harm, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "If you have thoughts of self-harm or suicide, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
           "Do not stay alone; inform a trusted person about your situation",
-          "Professional treatment, including therapy and/or medication, can be very effective"
+          "Professional treatment, including therapy and/or medication, can be very effective",
+          "Focus on basic self-care: sleep, nutrition, and gentle physical activity"
         ]
       }
     ],
@@ -207,5 +210,9 @@
       "min": 0,
       "max": 60
     }
+  },
+  "crisisConfig": {
+    "type": "level",
+    "levelThreshold": "severe"
   }
 }

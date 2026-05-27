@@ -171,59 +171,66 @@
         "min": 0,
         "max": 20,
         "level": "none",
-        "label": "No Social Anxiety",
-        "description": "Your social anxiety level is within the normal range.",
+        "label": "No Social Phobia",
+        "description": "Your score is within the normal range, suggesting no clinically significant social anxiety. You appear to manage social situations comfortably and social interactions do not cause you excessive distress.",
         "suggestions": [
-          "Maintain active social engagement",
-          "Continue your confident social style"
+          "Continue engaging in social activities that you enjoy",
+          "Maintain your current social skills and connections",
+          "Some mild nervousness in unfamiliar social situations is completely normal"
         ]
       },
       {
         "min": 21,
         "max": 30,
         "level": "mild",
-        "label": "Mild Social Anxiety",
-        "description": "You have mild social anxiety symptoms.",
+        "label": "Mild Social Phobia",
+        "description": "Your score suggests mild social anxiety symptoms. You may experience noticeable discomfort in certain social situations such as public speaking, meeting new people, or being the center of attention, but these fears are not yet severely limiting your life.",
         "suggestions": [
-          "Gradually expose yourself to social situations that cause discomfort",
-          "Practice relaxation techniques",
-          "Challenge negative social thoughts"
+          "Gradually expose yourself to social situations that cause mild anxiety",
+          "Practice relaxation techniques before social events",
+          "Challenge negative thoughts about how others perceive you",
+          "Consider joining a social skills group or public speaking class to build confidence"
         ]
       },
       {
         "min": 31,
         "max": 40,
         "level": "moderate",
-        "label": "Moderate Social Anxiety",
-        "description": "You have moderate social anxiety symptoms that may affect social functioning.",
+        "label": "Moderate Social Phobia",
+        "description": "Your score indicates moderate social anxiety that is likely interfering with your daily functioning and social life. You may be avoiding important social, academic, or professional opportunities due to fear of negative evaluation or embarrassment.",
         "suggestions": [
-          "Consider consulting a mental health professional",
-          "Cognitive Behavioral Therapy is highly effective for social anxiety",
-          "Consider joining a social skills training group"
+          "Consider consulting a mental health professional for evaluation",
+          "Cognitive behavioral therapy (CBT) is highly effective for social anxiety disorder",
+          "Practice gradual, structured exposure to feared social situations",
+          "Learn and apply cognitive restructuring techniques to challenge anxious thoughts",
+          "Avoid using alcohol or other substances to cope with social anxiety"
         ]
       },
       {
         "min": 41,
         "max": 50,
         "level": "severe",
-        "label": "Severe Social Anxiety",
-        "description": "You have severe social anxiety symptoms.",
+        "label": "Severe Social Phobia",
+        "description": "Your score suggests severe social anxiety that is significantly impairing your daily functioning, relationships, and quality of life. At this level, social situations likely cause intense distress and you may be avoiding many everyday social interactions.",
         "suggestions": [
-          "Professional psychological treatment is strongly recommended",
-          "Medication may be helpful as an adjunct",
-          "Exposure therapy is a well-supported treatment approach"
+          "Seek professional treatment from a therapist experienced in anxiety disorders",
+          "CBT with exposure therapy is the first-line treatment for severe social anxiety",
+          "Medication (such as SSRIs) may be helpful in combination with therapy",
+          "Do not let avoidance become your primary coping strategy; professional support can help",
+          "Social anxiety disorder is very treatable; most people improve significantly with proper help"
         ]
       },
       {
         "min": 51,
         "max": 68,
         "level": "very_severe",
-        "label": "Very Severe Social Anxiety",
-        "description": "You have very severe social anxiety symptoms significantly affecting daily life.",
+        "label": "Very Severe Social Phobia",
+        "description": "Your score indicates very severe social anxiety that is likely causing profound impairment across all areas of your life. Professional intervention is strongly recommended, as untreated severe social anxiety can lead to depression, isolation, and other complications.",
         "suggestions": [
-          "Seek help from a psychiatrist or mental health professional as soon as possible",
-          "A combined treatment approach may be most effective",
-          "Do not let social anxiety prevent you from seeking help"
+          "Seek immediate consultation with a mental health professional",
+          "A combination of CBT and medication is often recommended for very severe cases",
+          "Inform a trusted person about your struggles; social support aids recovery",
+          "Remember that social anxiety disorder is one of the most treatable anxiety conditions"
         ]
       }
     ],

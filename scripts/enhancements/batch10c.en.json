@@ -1,0 +1,144 @@
+{
+  "phq-a": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your PHQ-A score falls within the normal range, indicating that you are not currently experiencing significant depressive symptoms. Most adolescents have occasional down days, and your responses suggest healthy emotional functioning overall.",
+        "suggestions": [
+          "Continue maintaining a healthy lifestyle with regular physical activity and balanced nutrition",
+          "Keep up with hobbies, sports, and social activities that bring you joy and fulfillment",
+          "Talk to a trusted adult such as a parent, teacher, or school counselor if you ever start feeling persistently down"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "Your score suggests you may be experiencing mild depressive symptoms that are worth monitoring. While these feelings may not yet significantly disrupt your daily routine, they deserve attention to prevent them from worsening over time.",
+        "suggestions": [
+          "Talk to a parent, teacher, or school counselor about how you have been feeling lately",
+          "Stay physically active through exercise, sports, or outdoor activities, as movement helps improve mood",
+          "Maintain a consistent sleep schedule by going to bed and waking up at the same time each day",
+          "Stay connected with friends and family rather than isolating yourself when feeling low"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "Your score indicates moderate depressive symptoms that are likely affecting your school performance, friendships, and daily activities. At this level, professional support can make a real difference in helping you feel better and regain your energy.",
+        "suggestions": [
+          "Talk to a trusted adult about what you are going through so they can help you get the right support",
+          "Ask your parent or guardian to schedule an appointment with a school counselor or mental health therapist",
+          "Stay physically active even in small ways, as regular exercise has been shown to reduce depressive symptoms",
+          "Try to maintain a daily routine with consistent mealtimes, sleep, and study periods",
+          "Limit excessive social media use and screen time, especially before bedtime"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 19,
+        "level": "severe",
+        "label": "Moderately Severe Depression",
+        "description": "Your score indicates moderately severe depressive symptoms that are significantly impacting your ability to function at school and at home. These symptoms are serious and warrant prompt professional evaluation and treatment.",
+        "suggestions": [
+          "Please talk to a parent, teacher, or school counselor as soon as possible about how you are feeling",
+          "A mental health professional such as a therapist or psychiatrist can provide effective treatment for depression",
+          "If you are having thoughts of hurting yourself, tell a trusted adult right away or call the 988 Suicide & Crisis Lifeline",
+          "Remember that depression is a treatable medical condition, not a personal weakness or character flaw",
+          "Avoid using alcohol, drugs, or other substances to cope with your feelings"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 27,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "Your score indicates severe depressive symptoms that require immediate professional attention. At this level, depression can profoundly affect every aspect of your life and may involve thoughts of self-harm. Please reach out for help right away.",
+        "suggestions": [
+          "Please tell a parent, teacher, or trusted adult about how you are feeling immediately and ask for help today",
+          "If you are having thoughts of suicide or self-harm, call the 988 Suicide & Crisis Lifeline right now by dialing or texting 988",
+          "You are not alone and you deserve help. Depression at this level is a serious but very treatable condition",
+          "Ask a trusted adult to help you connect with a mental health professional for an urgent evaluation"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "dast-10": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 0,
+        "level": "minimal",
+        "label": "No Problems Reported",
+        "description": "Your DAST-10 score indicates no drug-related problems over the past 12 months. Your responses suggest that you are not currently involved in problematic drug use and are maintaining a healthy, substance-free lifestyle.",
+        "suggestions": [
+          "Continue maintaining your current drug-free or responsible lifestyle choices",
+          "Stay informed about the health risks and legal consequences of recreational drug use",
+          "Be a supportive presence for friends or family members who may be struggling with substance use"
+        ]
+      },
+      {
+        "min": 1,
+        "max": 2,
+        "level": "mild",
+        "label": "Low Level",
+        "description": "Your score suggests a low level of drug-related problems. While not currently severe, these early indicators show that drug use may be beginning to affect certain areas of your life. Continued self-monitoring and awareness are advisable.",
+        "suggestions": [
+          "Pay close attention to your drug use patterns and honestly assess whether they are increasing over time",
+          "Consider discussing your substance use openly with a healthcare provider at your next visit",
+          "Develop and practice healthy coping strategies for stress, boredom, and emotional difficulties",
+          "Educate yourself about the risks of escalation from occasional to regular drug use"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "moderate",
+        "label": "Moderate Level",
+        "description": "Your score indicates a moderate level of drug-related problems that may be affecting your health, relationships, or daily responsibilities. A professional evaluation is recommended to assess whether a substance use disorder may be developing.",
+        "suggestions": [
+          "Schedule an appointment with a healthcare provider or addiction specialist for a comprehensive substance use assessment",
+          "Explore counseling or therapy options that specialize in substance use, such as cognitive behavioral therapy",
+          "Identify the specific triggers, situations, and emotional states that lead you to use drugs and develop alternative responses",
+          "Talk to someone you trust about your concerns, as social support is a key factor in successful behavior change",
+          "Consider attending a support group to connect with others who understand what you are going through"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "level": "severe",
+        "label": "Substantial Level",
+        "description": "Your score suggests a substantial level of drug-related problems consistent with a possible substance use disorder. Drug use at this level is likely causing significant harm to your physical health, mental well-being, and daily functioning.",
+        "suggestions": [
+          "Seek professional treatment for substance use as soon as possible from an addiction medicine specialist or treatment center",
+          "Consider enrolling in an intensive outpatient program or residential treatment program depending on your situation",
+          "Inform trusted family members or close friends about your situation so they can provide accountability and support",
+          "Avoid people, places, and situations that trigger or facilitate your drug use"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 10,
+        "level": "severe",
+        "label": "Severe Level",
+        "description": "Your score indicates a severe level of drug-related problems strongly suggestive of drug dependence. Immediate professional intervention is essential, as continued use at this level poses serious risks to your health, safety, and overall well-being.",
+        "suggestions": [
+          "Seek immediate professional help from an addiction treatment center, hospital emergency department, or your primary care provider",
+          "Do not attempt to stop using drugs suddenly on your own, as withdrawal from certain substances can be medically dangerous without supervision",
+          "Contact the SAMHSA National Helpline at 1-800-662-4357 for free confidential treatment referrals available 24/7",
+          "Let trusted family members or friends know about your situation so they can help you access and stay in treatment",
+          "Remember that substance use disorders are medical conditions and recovery is possible with proper professional support"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  }
+}

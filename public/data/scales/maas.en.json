@@ -126,12 +126,12 @@
         "max": 37,
         "level": "severe",
         "label": "Low Mindfulness",
-        "description": "Your mindful attention awareness is low. You frequently operate on autopilot in daily life.",
+        "description": "Your mindful attention awareness is low, indicating that you frequently operate on autopilot during daily activities. Reduced present-moment awareness is associated with higher stress reactivity and lower well-being.",
         "suggestions": [
-          "Start with 5 minutes of mindfulness meditation daily",
-          "Practice paying deliberate attention during routine activities",
-          "Reduce multitasking",
-          "Consider a mindfulness-based stress reduction program"
+          "Begin with just 5 minutes of guided mindfulness meditation daily and gradually increase duration",
+          "Practice paying deliberate, focused attention during routine activities such as eating and walking",
+          "Reduce habitual multitasking, which fragments attention and reinforces automatic pilot behavior",
+          "Consider enrolling in a structured Mindfulness-Based Stress Reduction program for guided training"
         ]
       },
       {
@@ -139,11 +139,13 @@
         "max": 60,
         "level": "moderate",
         "label": "Moderate Mindfulness",
-        "description": "Your mindful attention awareness is moderate. You sometimes stay present but have room for growth.",
+        "description": "Your mindful attention awareness is moderate. You sometimes maintain present-moment awareness but frequently shift into automatic processing. Building consistency in mindfulness practice can yield meaningful benefits.",
         "suggestions": [
-          "Increase the frequency and duration of mindfulness practice",
-          "Practice awareness during more daily activities",
-          "Try mindful eating, walking, or other exercises"
+          "Increase the frequency and duration of your mindfulness practice to build sustained awareness",
+          "Extend mindful awareness to more daily activities including conversations, meals, and commutes",
+          "Experiment with different mindfulness techniques such as mindful eating, walking, or body scanning",
+          "Notice when your mind wanders and gently redirect attention without self-judgment or frustration",
+          "Consider joining a mindfulness group or community for shared practice and mutual encouragement"
         ]
       },
       {
@@ -151,11 +153,11 @@
         "max": 90,
         "level": "minimal",
         "label": "High Mindfulness",
-        "description": "Your mindful attention awareness is high. You generally maintain awareness of present-moment experiences.",
+        "description": "Your mindful attention awareness is high. You generally maintain strong present-moment awareness during daily activities, which is associated with greater emotional regulation, reduced stress, and enhanced well-being.",
         "suggestions": [
-          "Continue your mindfulness practice routine",
-          "Explore deeper mindfulness techniques",
-          "Integrate mindfulness into more life situations"
+          "Continue and deepen your existing mindfulness practice routine to sustain these benefits",
+          "Explore advanced mindfulness techniques such as loving-kindness or open awareness meditation",
+          "Integrate mindful awareness into challenging situations where maintaining presence is most difficult"
         ]
       }
     ],

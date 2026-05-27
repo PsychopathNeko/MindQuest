@@ -1,0 +1,322 @@
+{
+  "isi": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 7,
+        "level": "minimal",
+        "label": "No Clinically Significant Insomnia",
+        "description": "Your score suggests no clinically significant insomnia. You appear to be sleeping well, with satisfactory sleep quality, quantity, and timing. Occasional nights of poor sleep are normal and not cause for concern.",
+        "suggestions": [
+          "Continue maintaining good sleep hygiene habits",
+          "Keep a consistent sleep-wake schedule, even on weekends",
+          "Ensure your sleep environment is comfortable, dark, and quiet"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 14,
+        "level": "mild",
+        "label": "Subthreshold Insomnia",
+        "description": "Your score indicates subthreshold insomnia symptoms. You may be experiencing some difficulty falling asleep, staying asleep, or waking too early. These problems may affect your daytime energy and functioning, even if they don't yet meet full clinical criteria.",
+        "suggestions": [
+          "Establish a consistent sleep schedule and relaxing bedtime routine",
+          "Avoid caffeine, alcohol, and screen use in the hours before bed",
+          "Practice relaxation techniques such as progressive muscle relaxation or deep breathing",
+          "If sleep difficulties persist for more than a month, consider consulting a healthcare provider"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 21,
+        "level": "moderate",
+        "label": "Clinical Insomnia (Moderate)",
+        "description": "Your score indicates moderate clinical insomnia. You are likely experiencing significant difficulty with sleep initiation, maintenance, or early morning awakening, along with notable daytime impairment such as fatigue, mood disturbance, or difficulty concentrating.",
+        "suggestions": [
+          "Consult a healthcare provider or sleep specialist for evaluation",
+          "Cognitive behavioral therapy for insomnia (CBT-I) is the first-line treatment and is highly effective",
+          "Avoid using over-the-counter sleep aids long-term without medical guidance",
+          "Maintain a sleep diary to identify patterns and discuss with your provider",
+          "Regular physical activity during the day can improve sleep quality"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 28,
+        "level": "severe",
+        "label": "Clinical Insomnia (Severe)",
+        "description": "Your score suggests severe clinical insomnia that is likely significantly impairing your daytime functioning, mood, cognitive performance, and quality of life. Comprehensive professional treatment is essential at this level.",
+        "suggestions": [
+          "Seek evaluation from a sleep specialist as soon as possible",
+          "CBT-I (cognitive behavioral therapy for insomnia) is the gold standard treatment, even for severe insomnia",
+          "Discuss all treatment options with your provider, including whether short-term medication may be appropriate",
+          "Address any co-occurring conditions (anxiety, depression, chronic pain) that may be contributing to insomnia"
+        ]
+      }
+    ]
+  },
+  "psqi": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "good",
+        "label": "Good Sleep Quality",
+        "description": "Your score indicates good overall sleep quality. Your sleep patterns, including duration, efficiency, and subjective quality, are within healthy ranges. Good sleep is foundational to both physical and mental health.",
+        "suggestions": [
+          "Continue maintaining your current healthy sleep habits",
+          "Keep a consistent sleep schedule and comfortable sleep environment",
+          "Regular physical activity supports ongoing good sleep quality"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "mild",
+        "label": "Fair Sleep Quality",
+        "description": "Your score suggests fair sleep quality with some areas of difficulty. A global PSQI score above 5 is commonly used as a threshold indicating poor sleep quality. You may be experiencing issues with sleep latency, duration, efficiency, or daytime dysfunction.",
+        "suggestions": [
+          "Review your sleep habits and identify specific areas for improvement",
+          "Establish a consistent bedtime routine and limit caffeine and alcohol intake",
+          "Ensure your bedroom is optimized for sleep: dark, cool, quiet, and comfortable",
+          "Consider consulting a healthcare provider if sleep difficulties persist"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 18,
+        "level": "moderate",
+        "label": "Poor Sleep Quality",
+        "description": "Your score indicates poor sleep quality across multiple dimensions. You are likely experiencing significant difficulties with falling asleep, staying asleep, insufficient sleep duration, or daytime consequences of poor sleep such as fatigue and impaired functioning.",
+        "suggestions": [
+          "Consult a healthcare provider or sleep specialist for comprehensive evaluation",
+          "Cognitive behavioral therapy for insomnia (CBT-I) is the most effective treatment for chronic sleep problems",
+          "Identify and address any underlying conditions contributing to poor sleep",
+          "Avoid relying on alcohol or sedative medications as sleep aids",
+          "Maintain a sleep diary to share with your healthcare provider"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 27,
+        "level": "severe",
+        "label": "Very Poor Sleep Quality",
+        "description": "Your score suggests very poor sleep quality that is likely severely affecting your physical health, mental well-being, and daily functioning. Comprehensive evaluation by a sleep specialist is strongly recommended.",
+        "suggestions": [
+          "Seek evaluation from a sleep specialist as soon as possible",
+          "A sleep study may be recommended to rule out sleep disorders such as sleep apnea",
+          "CBT-I combined with medical evaluation is the recommended approach",
+          "Address co-occurring health conditions that may be contributing to sleep problems"
+        ]
+      }
+    ]
+  },
+  "lot-r": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 8,
+        "level": "severe",
+        "label": "Pessimistic Orientation",
+        "description": "Your score suggests a predominantly pessimistic outlook. You tend to expect negative outcomes and may have difficulty seeing positive possibilities in uncertain situations. While dispositional pessimism can serve as a form of self-protection, persistent pessimism is associated with poorer health outcomes and reduced well-being.",
+        "suggestions": [
+          "Consider practicing cognitive restructuring to identify and challenge habitually negative expectations",
+          "Engage in activities that build a sense of mastery and competence",
+          "Mindfulness practices can help you observe pessimistic thoughts without being controlled by them"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 16,
+        "level": "moderate",
+        "label": "Moderate Optimism",
+        "description": "Your score indicates a moderate level of optimism. You have a balanced outlook, sometimes expecting positive outcomes and sometimes anticipating difficulties. This realistic perspective is common and can be adaptive.",
+        "suggestions": [
+          "Continue maintaining your balanced perspective while cultivating positive expectations where possible",
+          "Practice gratitude exercises to strengthen your awareness of positive aspects in your life",
+          "Set achievable goals to build confidence and a sense of positive anticipation"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 24,
+        "level": "minimal",
+        "label": "Optimistic Orientation",
+        "description": "Your score suggests a predominantly optimistic outlook. You generally expect positive outcomes and tend to see the bright side of uncertain situations. Dispositional optimism is consistently associated with better physical health, greater resilience, and higher life satisfaction.",
+        "suggestions": [
+          "Continue nurturing your optimistic outlook through positive social connections and meaningful activities",
+          "Your optimism is a valuable psychological resource; share it with others",
+          "Maintain realistic expectations alongside your positive outlook to make well-informed decisions"
+        ]
+      }
+    ]
+  },
+  "mdq": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Low Likelihood",
+        "description": "Your score suggests a low likelihood of bipolar spectrum disorder based on this screening tool. Your responses do not indicate a significant pattern of manic or hypomanic symptoms.",
+        "suggestions": [
+          "No clinical concern at this level based on screening",
+          "If you have specific mood concerns, discuss them with your healthcare provider",
+          "The MDQ is a screening tool, not a diagnostic instrument"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 6,
+        "level": "mild",
+        "label": "Borderline",
+        "description": "Your score is in the borderline range for bipolar spectrum screening. You may have endorsed some symptoms consistent with manic or hypomanic episodes. Further clinical evaluation may be helpful to clarify whether these experiences represent a mood disorder.",
+        "suggestions": [
+          "Consider discussing your mood patterns with a mental health professional",
+          "Keep a mood diary to track episodes of elevated or irritable mood, energy changes, and sleep patterns",
+          "The MDQ screens for possible bipolar features but cannot provide a diagnosis on its own",
+          "A thorough clinical interview is needed to differentiate bipolar disorder from other conditions"
+        ]
+      },
+      {
+        "min": 7,
+        "max": 13,
+        "level": "severe",
+        "label": "Positive Screen for Bipolar Disorder",
+        "description": "Your score is above the MDQ screening threshold, suggesting a positive screen for bipolar spectrum disorder. This means your responses are consistent with a history of manic or hypomanic symptoms. A comprehensive clinical evaluation by a qualified mental health professional is essential for proper diagnosis.",
+        "suggestions": [
+          "Seek evaluation from a psychiatrist or mental health professional experienced in mood disorders",
+          "A positive MDQ screen does not confirm a diagnosis; formal clinical assessment is required",
+          "If diagnosed, effective treatments are available including mood stabilizers and psychotherapy",
+          "Track your mood, sleep, and energy patterns to share with your clinician",
+          "Avoid alcohol and recreational drugs, which can worsen mood instability"
+        ]
+      }
+    ]
+  },
+  "scoff": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 1,
+        "level": "normal",
+        "label": "Low Risk",
+        "description": "Your score suggests low risk for an eating disorder. Your responses do not indicate significant concerns about eating behaviors, body image, or compensatory behaviors. Maintaining a healthy relationship with food and your body is important for overall well-being.",
+        "suggestions": [
+          "Continue maintaining a balanced approach to eating and physical activity",
+          "Be aware of cultural and social pressures regarding body image",
+          "Promote positive body image and intuitive eating practices"
+        ]
+      },
+      {
+        "min": 2,
+        "max": 5,
+        "level": "elevated",
+        "label": "Possible Eating Disorder",
+        "description": "Your score of 2 or more on the SCOFF indicates possible eating disorder symptoms that warrant further evaluation. You may be experiencing concerns about your eating behavior, body weight, or shape that could indicate an eating disorder such as anorexia nervosa, bulimia nervosa, or binge eating disorder.",
+        "suggestions": [
+          "Seek evaluation from a healthcare professional experienced in eating disorders",
+          "Early intervention significantly improves outcomes for eating disorders",
+          "Eating disorders are serious but treatable medical conditions, not lifestyle choices",
+          "Evidence-based treatments include cognitive behavioral therapy (CBT-E), family-based therapy, and nutritional counseling",
+          "If you are restricting food intake severely or purging, seek medical evaluation for potential physical complications"
+        ]
+      }
+    ]
+  },
+  "fs": {
+    "ranges": [
+      {
+        "min": 8,
+        "max": 24,
+        "level": "severe",
+        "label": "Low Flourishing",
+        "description": "Your score suggests low levels of psychological flourishing. You may be experiencing a lack of purpose, low self-esteem, limited social engagement, or a sense that your life lacks meaning and direction. These feelings are worth exploring with support.",
+        "suggestions": [
+          "Consider consulting a mental health professional to explore factors contributing to low well-being",
+          "Engage in activities that align with your values and provide a sense of purpose",
+          "Strengthen social connections; positive relationships are a key component of flourishing",
+          "Set small, achievable goals to build momentum and a sense of accomplishment"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 40,
+        "level": "moderate",
+        "label": "Moderate Flourishing",
+        "description": "Your score indicates a moderate level of psychological flourishing. You have some areas of strength in your life — such as purpose, relationships, or competence — but there may be room for growth in other areas. This is a common and normal range.",
+        "suggestions": [
+          "Identify the areas where you feel strongest and continue nurturing them",
+          "Explore new activities or challenges that could enhance your sense of meaning and engagement",
+          "Invest in deepening your close relationships and social connections"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 56,
+        "level": "minimal",
+        "label": "High Flourishing",
+        "description": "Your score suggests high levels of psychological flourishing. You experience a strong sense of purpose, positive relationships, competence, and overall well-being. You are thriving across multiple dimensions of psychological functioning.",
+        "suggestions": [
+          "Continue the activities and relationships that contribute to your flourishing",
+          "Consider mentoring or supporting others, which can further enhance your sense of purpose and connection",
+          "Stay open to new experiences and continued personal growth"
+        ]
+      }
+    ]
+  },
+  "wemwbs": {
+    "ranges": [
+      {
+        "min": 14,
+        "max": 31,
+        "level": "severe",
+        "label": "Very Low Well-Being",
+        "description": "Your score suggests very low mental well-being. You may be experiencing significant difficulties with positive emotions, functioning, and interpersonal relationships. This level of reduced well-being warrants professional attention to identify sources of difficulty and appropriate support.",
+        "suggestions": [
+          "Consider consulting a mental health professional for evaluation and support",
+          "Low well-being can be associated with depression or other mental health concerns; further assessment may be helpful",
+          "Focus on small, manageable activities that bring even modest positive feelings",
+          "Maintain social connections even when motivation is low"
+        ]
+      },
+      {
+        "min": 32,
+        "max": 40,
+        "level": "mild",
+        "label": "Below Average Well-Being",
+        "description": "Your score indicates below-average mental well-being. You may be experiencing less positive feeling and less effective daily functioning than is typical. There may be aspects of your life — relationships, work, or leisure — that could benefit from attention.",
+        "suggestions": [
+          "Identify specific areas of your life where you feel least satisfied and consider changes",
+          "Engage in regular physical activity, which is strongly linked to improved well-being",
+          "Practice activities that promote positive emotions such as gratitude, acts of kindness, or mindfulness",
+          "Consider talking to a counselor if low well-being persists"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 44,
+        "level": "normal",
+        "label": "Average Well-Being",
+        "description": "Your score falls within the average range for mental well-being. You are experiencing a typical level of positive emotions, satisfying relationships, and functional capacity. There is always room for growth, but your current level is within the normal population range.",
+        "suggestions": [
+          "Continue engaging in activities that contribute to your well-being",
+          "Explore new opportunities for personal growth and meaningful experiences",
+          "Maintain strong social connections and supportive relationships"
+        ]
+      },
+      {
+        "min": 45,
+        "max": 70,
+        "level": "minimal",
+        "label": "Above Average Well-Being",
+        "description": "Your score suggests above-average mental well-being. You are experiencing high levels of positive emotions, effective functioning, and satisfying relationships. Your psychological resources appear strong, which is a protective factor for mental health.",
+        "suggestions": [
+          "Continue the habits, relationships, and activities that contribute to your well-being",
+          "Share your positive energy by supporting and connecting with others",
+          "Stay engaged in meaningful activities and remain open to personal growth"
+        ]
+      }
+    ]
+  }
+}

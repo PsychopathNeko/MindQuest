@@ -101,10 +101,11 @@
         "max": 10,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your psychological distress level is within the normal range.",
+        "description": "Your psychological distress level is within the normal range, suggesting you are coping well with everyday challenges. Most people in the general population score here. Continue nurturing habits and relationships that support your well-being.",
         "suggestions": [
-          "Continue maintaining good mental health",
-          "Keep up healthy habits and social activities"
+          "Continue maintaining the healthy habits and routines that support your well-being",
+          "Stay socially connected and engaged in activities that bring you meaning and enjoyment",
+          "Be aware that mental health can fluctuate, and seeking support early during difficult periods is beneficial"
         ]
       },
       {
@@ -112,12 +113,12 @@
         "max": 20,
         "level": "mild",
         "label": "Mild Distress",
-        "description": "You are experiencing some psychological distress that may have a mild impact on daily life.",
+        "description": "You are experiencing mild psychological distress that may be affecting your mood, energy, or daily functioning. This is common during stressful life periods and often responds to self-care. If symptoms persist, consider professional consultation.",
         "suggestions": [
-          "Pay attention to your emotional changes",
-          "Learn stress management and relaxation techniques",
-          "Maintain social connections",
-          "Consider seeking professional help if distress persists"
+          "Pay attention to emotional changes and identify the specific stressors contributing to your distress",
+          "Practice evidence-based stress management techniques such as mindfulness, progressive muscle relaxation, or deep breathing",
+          "Maintain regular physical exercise, which has strong evidence for improving mood and reducing anxiety",
+          "Consider seeking professional help if your distress persists or begins to interfere with daily responsibilities"
         ]
       },
       {
@@ -125,12 +126,13 @@
         "max": 30,
         "level": "moderate",
         "label": "Moderate Distress",
-        "description": "Your psychological distress level is elevated and may noticeably affect work and daily functioning.",
+        "description": "Your psychological distress is elevated and likely affecting work, relationships, and daily functioning. This score falls in the clinical range seen in people seeking mental health services. Professional support can help develop coping strategies.",
         "suggestions": [
-          "Consider seeking counseling or therapy",
-          "Share your feelings with someone you trust",
-          "Maintain regular routines and physical exercise",
-          "Avoid unhealthy coping mechanisms"
+          "Seeking counseling or psychotherapy is recommended at this level of distress",
+          "Share your feelings with a trusted friend, family member, or colleague for emotional support",
+          "Maintain regular routines including consistent sleep, meals, and physical activity",
+          "Avoid relying on alcohol, substances, or other unhealthy coping mechanisms to manage your distress",
+          "Consider whether workplace or relationship issues may be contributing factors that need to be addressed"
         ]
       },
       {
@@ -138,12 +140,13 @@
         "max": 40,
         "level": "severe",
         "label": "Severe Distress",
-        "description": "Your psychological distress level is very high. Daily functioning may be significantly affected.",
+        "description": "Your psychological distress is very high and likely impairing daily functioning, work, and relationships. This level of distress typically warrants prompt professional intervention. Please prioritize seeking help, as effective treatments exist.",
         "suggestions": [
-          "Strongly recommended to seek professional mental health help immediately",
-          "If you have thoughts of self-harm, please contact a crisis helpline",
-          "Ensure you have trusted people around for support",
-          "Seeking help is a sign of strength, not weakness"
+          "Please seek professional mental health help as soon as possible; this level of distress is treatable",
+          "If you are having thoughts of self-harm or suicide, contact the 988 Suicide and Crisis Lifeline immediately",
+          "Ensure you have trusted people around you who can provide support during this difficult time",
+          "Seeking help is a sign of strength, not weakness, and effective treatments such as therapy and medication are available",
+          "Focus on basic self-care including sleep, nutrition, and safety while you arrange professional support"
         ]
       }
     ],

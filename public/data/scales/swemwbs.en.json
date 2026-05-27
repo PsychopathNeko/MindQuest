@@ -82,12 +82,12 @@
         "max": 14,
         "level": "severe",
         "label": "Low Well-Being",
-        "description": "Your mental well-being score is low, suggesting you may be experiencing significant difficulties in your day-to-day functioning and emotional health.",
+        "description": "Your mental well-being is significantly below average, indicating limited positive functioning, low optimism, and reduced engagement with life. This level of low well-being is associated with elevated risk for depression and anxiety, and professional support is recommended.",
         "suggestions": [
-          "Consider seeking support from a mental health professional",
-          "Talk to a trusted friend, family member, or support service",
-          "Try to establish small daily routines that bring structure",
-          "Be kind to yourself; recovery takes time"
+          "Seek support from a mental health professional to address persistent low well-being",
+          "Start with small daily activities that bring a sense of achievement or pleasure",
+          "Connect with supportive people — social relationships are key to well-being recovery",
+          "Establish regular sleep, exercise, and nutrition routines as a foundation for improvement"
         ]
       },
       {
@@ -95,12 +95,13 @@
         "max": 21,
         "level": "moderate",
         "label": "Below Average Well-Being",
-        "description": "Your mental well-being is below average. You may be finding some aspects of daily life challenging.",
+        "description": "Your mental well-being is below average, suggesting reduced positive feelings and functioning in daily life. You may experience lower confidence, less engagement with others, or diminished optimism. Targeted strategies can help improve your well-being over time.",
         "suggestions": [
-          "Identify activities that give you a sense of accomplishment or enjoyment",
-          "Stay connected with others and maintain social relationships",
-          "Consider mindfulness or relaxation practices",
-          "If you are struggling, do not hesitate to seek professional support"
+          "Identify specific areas of well-being that feel most lacking and focus efforts there",
+          "Increase engagement in meaningful activities such as hobbies, volunteering, or learning",
+          "Strengthen social connections by reaching out to friends, family, or community groups",
+          "Practice positive psychology exercises such as gratitude journaling or strengths identification",
+          "Consider speaking with a counselor if low well-being persists"
         ]
       },
       {
@@ -108,12 +109,12 @@
         "max": 28,
         "level": "mild",
         "label": "Above Average Well-Being",
-        "description": "Your mental well-being is above average. You generally feel positive about your functioning and relationships.",
+        "description": "Your mental well-being is above average, reflecting generally positive feelings and good functioning. You likely experience reasonable optimism, confidence, and engagement with the people and activities around you. Continue nurturing the habits that support your well-being.",
         "suggestions": [
-          "Continue engaging in activities that support your well-being",
-          "Maintain your social connections",
-          "Practice gratitude and positive thinking",
-          "Stay physically active to maintain good mental health"
+          "Maintain the relationships and activities that contribute to your positive well-being",
+          "Explore new interests or challenges to sustain growth and engagement",
+          "Practice mindfulness or reflection to deepen your appreciation of positive experiences",
+          "Support others around you — helping others also strengthens personal well-being"
         ]
       },
       {
@@ -121,11 +122,11 @@
         "max": 35,
         "level": "minimal",
         "label": "High Well-Being",
-        "description": "Your mental well-being is high. You feel optimistic, capable, and connected to others.",
+        "description": "Your mental well-being is high, indicating strong positive feelings, optimism, confidence, and active engagement with life. This level of well-being is a significant protective factor against mental health difficulties and supports resilience during challenging times.",
         "suggestions": [
-          "Keep up the positive habits that support your well-being",
-          "Consider helping others to further enhance your sense of purpose",
-          "Continue to nurture your relationships and personal growth"
+          "Continue the practices and relationships that sustain your high well-being",
+          "Use your positive resources to take on new challenges and support others",
+          "Stay mindful that well-being can fluctuate — maintain healthy habits even during good times"
         ]
       }
     ],

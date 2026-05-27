@@ -82,10 +82,11 @@
         "max": 7,
         "level": "minimal",
         "label": "No Clinically Significant Insomnia",
-        "description": "Your insomnia severity is very low.",
+        "description": "Your score suggests no clinically significant insomnia. You appear to be sleeping well, with satisfactory sleep quality, quantity, and timing. Occasional nights of poor sleep are normal and not cause for concern.",
         "suggestions": [
-          "Continue maintaining good sleep habits",
-          "Keep a regular sleep-wake schedule"
+          "Continue maintaining good sleep hygiene habits",
+          "Keep a consistent sleep-wake schedule, even on weekends",
+          "Ensure your sleep environment is comfortable, dark, and quiet"
         ]
       },
       {
@@ -93,11 +94,12 @@
         "max": 14,
         "level": "mild",
         "label": "Subthreshold Insomnia",
-        "description": "You have mild insomnia that may slightly affect daily life.",
+        "description": "Your score indicates subthreshold insomnia symptoms. You may be experiencing some difficulty falling asleep, staying asleep, or waking too early. These problems may affect your daytime energy and functioning, even if they don't yet meet full clinical criteria.",
         "suggestions": [
-          "Improve sleep hygiene habits",
-          "Avoid screens before bedtime",
-          "Reduce caffeine and alcohol intake"
+          "Establish a consistent sleep schedule and relaxing bedtime routine",
+          "Avoid caffeine, alcohol, and screen use in the hours before bed",
+          "Practice relaxation techniques such as progressive muscle relaxation or deep breathing",
+          "If sleep difficulties persist for more than a month, consider consulting a healthcare provider"
         ]
       },
       {
@@ -105,11 +107,13 @@
         "max": 21,
         "level": "moderate",
         "label": "Clinical Insomnia (Moderate)",
-        "description": "You have moderate insomnia that likely affects daily functioning.",
+        "description": "Your score indicates moderate clinical insomnia. You are likely experiencing significant difficulty with sleep initiation, maintenance, or early morning awakening, along with notable daytime impairment such as fatigue, mood disturbance, or difficulty concentrating.",
         "suggestions": [
-          "Consult a sleep medicine professional",
-          "Consider cognitive behavioral therapy for insomnia (CBT-I)",
-          "Maintain a regular sleep schedule"
+          "Consult a healthcare provider or sleep specialist for evaluation",
+          "Cognitive behavioral therapy for insomnia (CBT-I) is the first-line treatment and is highly effective",
+          "Avoid using over-the-counter sleep aids long-term without medical guidance",
+          "Maintain a sleep diary to identify patterns and discuss with your provider",
+          "Regular physical activity during the day can improve sleep quality"
         ]
       },
       {
@@ -117,10 +121,12 @@
         "max": 28,
         "level": "severe",
         "label": "Clinical Insomnia (Severe)",
-        "description": "You have severe insomnia significantly affecting daily functioning.",
+        "description": "Your score suggests severe clinical insomnia that is likely significantly impairing your daytime functioning, mood, cognitive performance, and quality of life. Comprehensive professional treatment is essential at this level.",
         "suggestions": [
-          "Seek medical evaluation from a sleep specialist promptly",
-          "Pharmacotherapy combined with psychotherapy may be needed"
+          "Seek evaluation from a sleep specialist as soon as possible",
+          "CBT-I (cognitive behavioral therapy for insomnia) is the gold standard treatment, even for severe insomnia",
+          "Discuss all treatment options with your provider, including whether short-term medication may be appropriate",
+          "Address any co-occurring conditions (anxiety, depression, chronic pain) that may be contributing to insomnia"
         ]
       }
     ],

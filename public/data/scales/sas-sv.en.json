@@ -101,10 +101,11 @@
         "max": 20,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your smartphone use is within a healthy range.",
+        "description": "Your smartphone use is within a healthy range and does not appear to interfere with your daily life, work, or relationships. You demonstrate good self-regulation over your device usage and maintain a balanced relationship with technology.",
         "suggestions": [
-          "Continue maintaining good smartphone usage habits",
-          "Regularly check your screen time"
+          "Continue maintaining your healthy smartphone usage habits and digital boundaries",
+          "Periodically review your screen time statistics to stay aware of usage patterns",
+          "Model healthy smartphone habits for family members and peers"
         ]
       },
       {
@@ -112,12 +113,12 @@
         "max": 33,
         "level": "mild",
         "label": "Mild Risk",
-        "description": "You may have some tendency toward excessive smartphone use, but it has not yet significantly impacted your life.",
+        "description": "You show some tendency toward excessive smartphone use, though it has not yet significantly impacted your life. You may notice occasional difficulty putting your phone down or checking it more frequently than intended. Early habit changes can prevent escalation.",
         "suggestions": [
-          "Set time limits for smartphone use",
-          "Put your phone away during meals and before bedtime",
-          "Enable Do Not Disturb mode to focus on work or studies",
-          "Try going for a walk without your phone"
+          "Set specific daily time limits for smartphone use using built-in screen time tools",
+          "Establish phone-free periods during meals, before bedtime, and during conversations",
+          "Enable Do Not Disturb or Focus mode during work, study, or important tasks",
+          "Try taking short walks or breaks without bringing your phone along"
         ]
       },
       {
@@ -125,13 +126,13 @@
         "max": 45,
         "level": "moderate",
         "label": "Moderate Risk",
-        "description": "Your smartphone use may already be affecting your daily life and health.",
+        "description": "Your smartphone use is likely affecting your daily life, health, and productivity. You may experience difficulty concentrating, physical discomfort in your neck or wrists, or tension in relationships due to excessive phone use. Active intervention is recommended.",
         "suggestions": [
-          "Use your phone's built-in screen time management features",
-          "Establish phone-free zones (e.g., bedroom, dining table)",
-          "Find alternative leisure activities",
-          "Pay attention to the impact on your neck and eyes",
-          "If you feel unable to control usage, consider consulting a professional"
+          "Use built-in screen time management features on your phone to set app-specific limits",
+          "Establish phone-free zones in your home such as the bedroom and dining table",
+          "Actively seek alternative leisure activities like reading, exercise, or in-person socializing",
+          "Pay attention to physical symptoms such as neck pain, eye strain, and disrupted sleep",
+          "If you feel unable to control your usage despite wanting to, consider consulting a mental health professional"
         ]
       },
       {
@@ -139,12 +140,13 @@
         "max": 60,
         "level": "severe",
         "label": "High Risk",
-        "description": "Your smartphone use has reached an excessive dependency level, seriously affecting daily functioning and physical/mental health.",
+        "description": "Your smartphone use has reached an excessive dependency level that is seriously affecting your daily functioning, relationships, and physical and mental health. This pattern suggests compulsive use that may require structured intervention and professional support.",
         "suggestions": [
-          "Strongly recommended to seek professional help",
-          "Create a detailed smartphone usage restriction plan",
-          "Ask family and friends to help monitor your usage",
-          "Consider using a basic phone during the withdrawal period"
+          "Strongly consider seeking professional help from a counselor specializing in behavioral addictions",
+          "Create a detailed, written smartphone usage restriction plan with specific goals and timelines",
+          "Ask trusted family members or friends to help monitor and support your usage reduction efforts",
+          "Consider temporarily switching to a basic phone during an initial digital detox period",
+          "Address any underlying emotional issues such as loneliness, anxiety, or boredom that may drive compulsive phone use"
         ]
       }
     ],

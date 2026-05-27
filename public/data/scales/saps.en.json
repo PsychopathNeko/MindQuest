@@ -118,10 +118,11 @@
         "max": 28,
         "level": "minimal",
         "label": "Non-perfectionist",
-        "description": "Your perfectionism tendency is low, with relatively low personal standards.",
+        "description": "Your overall perfectionism score is low, suggesting that you do not place excessively high demands on yourself or experience significant distress about your performance. While some goal-setting can be beneficial, you may benefit from setting more structured personal standards.",
         "suggestions": [
-          "Appropriately raising your expectations can promote growth",
-          "Set specific and measurable goals"
+          "Consider whether setting slightly higher but achievable personal goals might help you grow and reach your potential more fully",
+          "Establishing specific, measurable objectives in areas that matter to you can provide motivation and a sense of accomplishment",
+          "Reflect on whether low standards reflect genuine contentment or possible disengagement from personal growth opportunities"
         ]
       },
       {
@@ -129,10 +130,11 @@
         "max": 42,
         "level": "normal",
         "label": "Adaptive Perfectionist",
-        "description": "You have high standards but low discrepancy, which is a healthy form of perfectionism.",
+        "description": "Your score reflects adaptive perfectionism, characterized by high personal standards combined with a healthy ability to accept your performance. This balanced pattern is associated with achievement motivation, conscientiousness, and psychological well-being.",
         "suggestions": [
-          "Continue maintaining the balance between high standards and self-acceptance",
-          "Be mindful of standards gradually becoming unrealistic"
+          "Continue maintaining the healthy balance between striving for excellence and practicing self-acceptance when outcomes fall short",
+          "Stay vigilant for signs that your standards may be gradually becoming unrealistic or that self-criticism is increasing over time",
+          "Your adaptive perfectionism is a strength; channel it into meaningful goals while preserving flexibility and self-compassion"
         ]
       },
       {
@@ -140,12 +142,13 @@
         "max": 56,
         "level": "moderate",
         "label": "Maladaptive Perfectionist",
-        "description": "You not only have high standards but also frequently feel you cannot meet them, which may lead to anxiety, self-criticism, and procrastination.",
+        "description": "Your score indicates maladaptive perfectionism, meaning you hold very high standards but frequently feel you cannot meet them. This pattern is associated with chronic self-criticism, anxiety, procrastination, and reduced satisfaction with accomplishments.",
         "suggestions": [
-          "Learn to distinguish between 'good enough' and 'perfect'",
-          "Practice self-compassion and reduce self-criticism",
-          "Focus on progress rather than perfection",
-          "If perfectionism significantly impacts your life, consider consulting a mental health professional"
+          "Practice distinguishing between striving for excellence and demanding perfection; good enough is often genuinely sufficient",
+          "Develop self-compassion skills by treating yourself with the same kindness and understanding you would offer a friend",
+          "Focus on tracking your progress and effort rather than fixating on whether outcomes meet your ideal standards",
+          "Challenge all-or-nothing thinking patterns by recognizing that partial success and learning from mistakes are valuable outcomes",
+          "If perfectionism is significantly affecting your mental health or relationships, consider consulting a mental health professional"
         ]
       }
     ],
@@ -156,21 +159,21 @@
           "max": 14,
           "level": "mild",
           "label": "Low Standards",
-          "description": "You have relatively low personal expectations."
+          "description": "Your personal standards score is relatively low, indicating that you do not set particularly demanding expectations for yourself. While this may reduce performance-related stress, it could also limit your motivation to achieve your full potential."
         },
         {
           "min": 15,
           "max": 21,
           "level": "normal",
           "label": "Moderate Standards",
-          "description": "You have reasonable self-expectations."
+          "description": "Your personal standards are at a healthy moderate level. You set reasonable expectations for yourself that promote growth and achievement without creating excessive pressure or unrealistic demands on your performance."
         },
         {
           "min": 22,
           "max": 28,
           "level": "minimal",
           "label": "High Standards",
-          "description": "You have very high expectations and demands for yourself."
+          "description": "Your personal standards are very high, reflecting strong expectations for yourself across work and personal domains. High standards can drive achievement, but it is important to monitor whether they remain realistic and motivating rather than punishing."
         }
       ],
       "discrepancy": [
@@ -179,21 +182,21 @@
           "max": 11,
           "level": "minimal",
           "label": "Low Discrepancy",
-          "description": "You are generally able to accept your performance."
+          "description": "Your discrepancy score is low, indicating that you generally feel satisfied with your performance relative to your standards. This healthy pattern suggests you can accept imperfections and maintain self-esteem even when outcomes are not ideal."
         },
         {
           "min": 12,
           "max": 19,
           "level": "mild",
           "label": "Moderate Discrepancy",
-          "description": "You sometimes feel your performance is not good enough."
+          "description": "Your discrepancy score is moderate, suggesting that you sometimes feel your performance does not measure up to your expectations. Occasional self-criticism is normal, but persistent feelings of inadequacy may benefit from attention."
         },
         {
           "min": 20,
           "max": 28,
           "level": "moderate",
           "label": "High Discrepancy",
-          "description": "You frequently feel you cannot meet your standards, which may cause emotional distress."
+          "description": "Your discrepancy score is high, indicating that you frequently perceive a painful gap between your standards and your actual performance. This chronic sense of falling short is strongly linked to anxiety, depression, and reduced life satisfaction."
         }
       ]
     }

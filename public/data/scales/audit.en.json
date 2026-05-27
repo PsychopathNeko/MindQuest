@@ -278,39 +278,41 @@
       {
         "min": 0,
         "max": 7,
-        "level": "minimal",
-        "label": "Low-Risk Drinking",
-        "description": "Your drinking pattern is within the low-risk range.",
+        "level": "low",
+        "label": "Low Risk",
+        "description": "Your score indicates low-risk alcohol consumption. Your current drinking patterns do not appear to be causing significant health or social problems. Maintaining awareness of your alcohol use is a positive health behavior.",
         "suggestions": [
-          "Continue maintaining moderate or non-drinking habits",
-          "Be aware of safe drinking limits",
-          "Avoid alcohol in specific situations (e.g., driving, taking medication)"
+          "Continue to drink within recommended guidelines if you choose to drink",
+          "Be aware of situations that might lead to increased consumption",
+          "Know the recommended limits: no more than 2 standard drinks per day for men, 1 for women"
         ]
       },
       {
         "min": 8,
         "max": 15,
-        "level": "mild",
+        "level": "hazardous",
         "label": "Hazardous Drinking",
-        "description": "Your drinking pattern carries some risk and may be causing harm to your health.",
+        "description": "Your score suggests hazardous alcohol use that increases your risk for health problems, injuries, and social difficulties. At this level, your drinking pattern may not yet have caused significant harm, but it exceeds safe limits and warrants attention.",
         "suggestions": [
-          "Consider reducing your drinking amount and frequency",
-          "Learn about the health effects of excessive drinking",
-          "Set and follow weekly drinking limits",
-          "If reducing on your own is difficult, consult a doctor or professional"
+          "Consider reducing your alcohol consumption to lower-risk levels",
+          "Track your drinking patterns to identify triggers and high-risk situations",
+          "Set specific goals for reducing the quantity and frequency of drinking",
+          "Your healthcare provider can offer brief advice and support for cutting back",
+          "Avoid binge drinking episodes, which carry acute health risks"
         ]
       },
       {
         "min": 16,
         "max": 19,
-        "level": "moderate",
+        "level": "harmful",
         "label": "Harmful Drinking",
-        "description": "Your drinking pattern may already be causing physical and/or psychological harm.",
+        "description": "Your score indicates harmful alcohol use that is likely already causing damage to your physical health, mental well-being, or social relationships. At this level, alcohol is probably interfering with your daily functioning and may be leading to dependence.",
         "suggestions": [
-          "Seek professional help for a brief intervention",
-          "Seriously consider reducing or stopping alcohol use",
-          "Examine whether alcohol is affecting your work, relationships, and health",
-          "Consult a doctor about possible alcohol-related health issues"
+          "Consult your healthcare provider about your alcohol use for a thorough evaluation",
+          "Consider structured brief intervention or counseling programs",
+          "Reduce your alcohol consumption and track your progress",
+          "Be aware of withdrawal symptoms if you have been drinking heavily; seek medical advice before suddenly stopping",
+          "Consider involving a supportive family member or friend in your plan to cut back"
         ]
       },
       {
@@ -318,13 +320,13 @@
         "max": 40,
         "level": "severe",
         "label": "Possible Alcohol Dependence",
-        "description": "Your score suggests possible alcohol dependence, a serious health condition requiring professional treatment.",
+        "description": "Your score strongly suggests alcohol dependence, a serious medical condition that typically requires professional treatment. At this level, you may experience tolerance, withdrawal symptoms, loss of control over drinking, and significant impairment in daily life.",
         "suggestions": [
-          "Strongly recommended to seek professional treatment immediately",
-          "Consult an addiction medicine specialist or visit an alcohol treatment program",
-          "Do not attempt to stop drinking suddenly, as dangerous withdrawal symptoms may occur",
-          "Consider joining a support group (e.g., Alcoholics Anonymous)",
-          "Inform family and friends and seek social support"
+          "Seek professional help from a specialist in addiction medicine or substance use disorders",
+          "Do not attempt to stop drinking suddenly without medical supervision, as alcohol withdrawal can be medically dangerous",
+          "Treatment options include medically supervised detoxification, counseling, and medications that reduce cravings",
+          "Support groups such as AA or SMART Recovery can provide ongoing support",
+          "Recovery from alcohol dependence is possible; many people achieve long-term sobriety with proper help"
         ]
       }
     ],

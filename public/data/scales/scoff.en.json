@@ -61,10 +61,11 @@
         "max": 1,
         "level": "normal",
         "label": "Low Risk",
-        "description": "Your eating disorder screening result indicates low risk.",
+        "description": "Your score suggests low risk for an eating disorder. Your responses do not indicate significant concerns about eating behaviors, body image, or compensatory behaviors. Maintaining a healthy relationship with food and your body is important for overall well-being.",
         "suggestions": [
-          "Continue maintaining healthy and balanced eating habits",
-          "Maintain a positive body image"
+          "Continue maintaining a balanced approach to eating and physical activity",
+          "Be aware of cultural and social pressures regarding body image",
+          "Promote positive body image and intuitive eating practices"
         ]
       },
       {
@@ -72,11 +73,13 @@
         "max": 5,
         "level": "elevated",
         "label": "Possible Eating Disorder",
-        "description": "Your responses suggest possible eating disorder risk (score >= 2). Further evaluation is recommended.",
+        "description": "Your score of 2 or more on the SCOFF indicates possible eating disorder symptoms that warrant further evaluation. You may be experiencing concerns about your eating behavior, body weight, or shape that could indicate an eating disorder such as anorexia nervosa, bulimia nervosa, or binge eating disorder.",
         "suggestions": [
-          "Seek a professional eating disorder evaluation",
-          "Discuss your eating behaviors with a doctor or mental health professional",
-          "Eating disorders are treatable, and earlier intervention leads to better outcomes"
+          "Seek evaluation from a healthcare professional experienced in eating disorders",
+          "Early intervention significantly improves outcomes for eating disorders",
+          "Eating disorders are serious but treatable medical conditions, not lifestyle choices",
+          "Evidence-based treatments include cognitive behavioral therapy (CBT-E), family-based therapy, and nutritional counseling",
+          "If you are restricting food intake severely or purging, seek medical evaluation for potential physical complications"
         ]
       }
     ],

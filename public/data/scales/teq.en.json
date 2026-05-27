@@ -137,12 +137,12 @@
         "max": 16,
         "level": "severe",
         "label": "Low Empathy",
-        "description": "Your empathy score is low, indicating potential difficulty in understanding and feeling others’ emotions.",
+        "description": "Your empathy score is significantly below average, suggesting difficulty understanding or sharing others' emotional experiences. Low empathy can affect relationship quality, social functioning, and workplace collaboration. Empathy is a skill that can be developed with practice.",
         "suggestions": [
-          "Try to actively pay attention to others’ emotional expressions",
-          "Practice perspective-taking by imagining yourself in others’ situations",
-          "Consider seeking counseling to enhance empathy skills",
-          "Read books about emotional intelligence and empathy"
+          "Practice active listening — focus on understanding others' feelings before responding",
+          "Read fiction or watch character-driven stories to practice perspective-taking",
+          "Engage in volunteer work to broaden your exposure to diverse experiences and viewpoints",
+          "Consider whether difficulty with empathy is affecting your relationships and seek professional guidance if needed"
         ]
       },
       {
@@ -150,12 +150,12 @@
         "max": 32,
         "level": "mild",
         "label": "Below Average Empathy",
-        "description": "Your empathy is at a below-average level. You may sometimes find it difficult to fully feel others’ emotions.",
+        "description": "Your empathy is below average, indicating some capacity to understand others' emotions but room for meaningful growth. You may find it easier to empathize in some situations than others. Developing empathic skills can strengthen your relationships and social connections.",
         "suggestions": [
-          "Engage in more social activities to improve understanding of others",
-          "Practice active listening skills",
-          "Pay attention to nonverbal cues like facial expressions and body language",
-          "Try volunteering to strengthen compassion"
+          "Practice asking open-ended questions about others' experiences and feelings",
+          "Try to imagine how situations look from the other person's perspective before reacting",
+          "Pay attention to nonverbal cues such as facial expressions and tone of voice",
+          "Reflect on times when you felt deeply understood and consider what made that possible"
         ]
       },
       {
@@ -163,11 +163,11 @@
         "max": 48,
         "level": "normal",
         "label": "Above Average Empathy",
-        "description": "Your empathy is at an above-average level. You can generally understand and respond well to others’ emotions.",
+        "description": "Your empathy is above average, reflecting a strong ability to understand and share others' emotional experiences. This capacity supports healthy relationships, effective communication, and prosocial behavior. Continue nurturing this valuable interpersonal skill.",
         "suggestions": [
-          "Continue maintaining sensitivity to others’ feelings",
-          "Practice self-regulation while being empathetic",
-          "Use your empathy to build deeper interpersonal relationships"
+          "Maintain your empathic engagement while setting healthy emotional boundaries",
+          "Use your empathy to support others during difficult times",
+          "Be mindful of compassion fatigue if you frequently absorb others' distress"
         ]
       },
       {
@@ -175,11 +175,11 @@
         "max": 64,
         "level": "minimal",
         "label": "High Empathy",
-        "description": "Your empathy score is very high. You can deeply understand and feel others’ emotions.",
+        "description": "Your empathy is very high, indicating exceptional sensitivity to others' emotional states. While highly empathic people build strong connections and are valued in helping roles, it is important to maintain boundaries to prevent emotional exhaustion or compassion fatigue.",
         "suggestions": [
-          "Your empathy is a valuable social resource",
-          "Be mindful of protecting your own emotional health while empathizing with others",
-          "Set appropriate psychological boundaries to avoid empathy fatigue"
+          "Practice self-care and emotional boundary-setting to protect against compassion fatigue",
+          "Channel your empathy into meaningful activities such as mentoring, counseling, or advocacy",
+          "Learn grounding techniques for moments when others' emotions feel overwhelming"
         ]
       }
     ],

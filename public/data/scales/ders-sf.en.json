@@ -213,44 +213,53 @@
       {
         "min": 18,
         "max": 36,
-        "level": "minimal",
+        "level": "low",
         "label": "Good Emotion Regulation",
-        "description": "Your emotion regulation abilities are at a good level.",
+        "description": "Your score suggests effective emotion regulation skills. You appear to be able to understand, accept, and manage your emotions in adaptive ways. This is a protective factor for mental health and well-being.",
         "suggestions": [
-          "Continue maintaining your emotion regulation skills"
+          "Continue practicing the emotion regulation strategies that work well for you",
+          "Maintain awareness of your emotional patterns and responses",
+          "Consider sharing your effective coping strategies with others who might benefit"
         ]
       },
       {
         "min": 37,
         "max": 54,
-        "level": "mild",
-        "label": "Mild Difficulties",
-        "description": "You have some mild difficulties in emotion regulation.",
+        "level": "moderate",
+        "label": "Moderate Difficulties",
+        "description": "Your score indicates moderate difficulties with emotion regulation. You may sometimes struggle to understand your emotions, manage intense feelings, or use effective coping strategies when distressed. These difficulties may occasionally interfere with your daily functioning and relationships.",
         "suggestions": [
-          "Learn emotion regulation techniques",
-          "Practice mindfulness to enhance emotional awareness"
+          "Practice mindfulness to increase awareness of your emotional states",
+          "Learn specific emotion regulation skills such as cognitive reappraisal and distress tolerance",
+          "Consider dialectical behavior therapy (DBT) skills training, which specifically targets emotion regulation",
+          "Regular physical exercise can help improve emotional balance"
         ]
       },
       {
         "min": 55,
         "max": 72,
-        "level": "moderate",
-        "label": "Moderate Difficulties",
-        "description": "You have moderate difficulties in emotion regulation.",
+        "level": "high",
+        "label": "Significant Difficulties",
+        "description": "Your score suggests significant difficulties with emotion regulation that are likely affecting your daily functioning, relationships, and mental health. You may frequently feel overwhelmed by emotions, have difficulty understanding or accepting your feelings, or engage in impulsive behaviors when distressed.",
         "suggestions": [
-          "Consider seeking counseling",
-          "Learn DBT emotion regulation skills"
+          "Consider consulting a mental health professional for evaluation and support",
+          "Dialectical behavior therapy (DBT) is specifically designed to address emotion regulation difficulties",
+          "Practice basic distress tolerance techniques for acute emotional crises",
+          "Identify patterns in your emotional reactions to develop more adaptive responses",
+          "Emotion regulation skills can be learned and improved with practice and professional guidance"
         ]
       },
       {
         "min": 73,
         "max": 90,
-        "level": "severe",
+        "level": "very_high",
         "label": "Severe Difficulties",
-        "description": "You have severe difficulties in emotion regulation.",
+        "description": "Your score indicates severe difficulties with emotion regulation that are likely significantly impairing your daily functioning and quality of life. These difficulties may be contributing to or maintaining other mental health problems and warrant professional intervention.",
         "suggestions": [
-          "Strongly recommended to seek professional therapy",
-          "DBT is highly effective for emotion regulation difficulties"
+          "Seek professional help from a therapist experienced in emotion regulation difficulties",
+          "DBT (dialectical behavior therapy) is the evidence-based treatment of choice for severe emotion dysregulation",
+          "If you engage in self-harm or other dangerous behaviors when overwhelmed, please seek immediate help",
+          "Building emotion regulation skills takes time and professional support; be patient with the process"
         ]
       }
     ],

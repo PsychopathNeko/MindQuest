@@ -124,10 +124,11 @@
         "max": 3,
         "level": "minimal",
         "label": "No/Minimal Somatic Symptoms",
-        "description": "Your somatic symptom burden is very low, within the normal range.",
+        "description": "Your somatic symptom burden is very low, falling within the normal range for the general population. You report minimal or no bothersome physical symptoms across gastrointestinal, pain, cardiopulmonary, and fatigue domains. This suggests good overall physical comfort and well-being.",
         "suggestions": [
-          "Continue maintaining a healthy lifestyle",
-          "Occasional discomfort is a normal fluctuation"
+          "Continue maintaining the healthy lifestyle habits that support your physical well-being",
+          "Occasional minor physical discomfort is a normal fluctuation and not a cause for concern",
+          "Regular exercise, balanced nutrition, and adequate sleep help prevent somatic symptom development"
         ]
       },
       {
@@ -135,11 +136,12 @@
         "max": 7,
         "level": "mild",
         "label": "Mild Somatic Symptoms",
-        "description": "You have some mild somatic symptoms, possibly related to daily stress or lifestyle factors.",
+        "description": "You report mild somatic symptoms that may be related to everyday stress, lifestyle factors, or minor physical conditions. These symptoms are noticeable but not significantly disabling. Attention to self-care and monitoring for changes is advisable.",
         "suggestions": [
-          "Monitor symptom changes and maintain healthy routines",
-          "Regular exercise and relaxation may help",
-          "If symptoms persist beyond two weeks, consider seeing a doctor"
+          "Monitor your symptoms over time and note any patterns related to stress, diet, sleep, or activity levels",
+          "Regular physical exercise and structured relaxation techniques such as deep breathing may help reduce symptom burden",
+          "Ensure you are maintaining adequate sleep, hydration, and balanced nutrition as basic self-care measures",
+          "If symptoms persist beyond two weeks or worsen, consider scheduling an appointment with your primary care physician"
         ]
       },
       {
@@ -147,12 +149,13 @@
         "max": 11,
         "level": "moderate",
         "label": "Moderate Somatic Symptoms",
-        "description": "Your somatic symptom burden is moderate and may affect daily functioning. Consider seeking medical attention.",
+        "description": "Your somatic symptom burden is moderate and may be affecting your daily functioning, work performance, or quality of life. Multiple physical symptoms across different body systems suggest a pattern that warrants medical attention and exploration of contributing factors.",
         "suggestions": [
-          "Consider seeing a doctor for a physical examination",
-          "Understand the mind-body connection — psychological stress can manifest as physical symptoms",
-          "Regular exercise and adequate sleep may help",
-          "Consider psychological counseling if needed"
+          "Consider scheduling a medical appointment for a thorough physical examination to evaluate your symptoms",
+          "Understand the mind-body connection: psychological stress frequently manifests as physical symptoms and vice versa",
+          "Regular physical exercise and consistent sleep schedules can help reduce somatic symptom burden significantly",
+          "Explore whether current life stressors, anxiety, or mood changes may be contributing to your physical symptoms",
+          "Consider psychological counseling or stress management therapy if physical evaluations do not fully explain your symptoms"
         ]
       },
       {
@@ -160,12 +163,13 @@
         "max": 15,
         "level": "severe",
         "label": "High Somatic Symptoms",
-        "description": "Your somatic symptom burden is high and may significantly affect daily life and work.",
+        "description": "Your somatic symptom burden is high and may be significantly affecting your daily activities, work capacity, and overall quality of life. You are experiencing substantial physical discomfort across multiple symptom domains. A comprehensive evaluation addressing both physical and psychological factors is recommended.",
         "suggestions": [
-          "Recommend seeing a doctor for a comprehensive examination",
-          "Also consider a mental health evaluation",
-          "Learn about somatic symptom disorder",
-          "Integrated treatment (addressing both body and mind) is most effective"
+          "A comprehensive medical examination is recommended to identify any treatable physical conditions contributing to your symptoms",
+          "A concurrent mental health evaluation can help identify psychological factors that may be amplifying somatic symptoms",
+          "Learn about somatic symptom disorder and how the mind-body connection influences physical symptom perception and severity",
+          "An integrated treatment approach addressing both physical and psychological aspects simultaneously tends to be most effective",
+          "Track your symptoms daily to identify triggers, patterns, and fluctuations that can inform your treatment plan"
         ]
       },
       {
@@ -173,12 +177,12 @@
         "max": 32,
         "level": "severe",
         "label": "Very High Somatic Symptoms",
-        "description": "You reported a severe somatic symptom burden. A comprehensive psychosomatic evaluation is strongly recommended.",
+        "description": "You report a very high somatic symptom burden indicating severe physical discomfort across multiple body systems. This level of symptom severity likely causes substantial impairment in daily functioning, work, and social activities. A comprehensive psychosomatic evaluation is strongly recommended.",
         "suggestions": [
-          "Please see a doctor soon for a thorough physical examination",
-          "A psychiatric/psychological consultation is also recommended",
-          "Severe somatic symptoms may require a comprehensive treatment plan",
-          "Do not overlook the impact of these symptoms on quality of life"
+          "Please see a healthcare provider soon for a thorough physical examination to rule out or treat any underlying medical conditions",
+          "A psychiatric or psychological consultation is also strongly recommended to evaluate stress-related or somatoform contributions",
+          "Severe somatic symptoms often require a comprehensive, multidisciplinary treatment plan integrating medical and psychological care",
+          "Do not dismiss or ignore the significant impact these symptoms are having on your quality of life; effective treatments are available"
         ]
       }
     ],
@@ -189,21 +193,21 @@
           "max": 1,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal gastrointestinal symptoms."
+          "description": "Minimal gastrointestinal symptoms reported. Your digestive system appears to be functioning comfortably without significant stomach or bowel complaints."
         },
         {
           "min": 2,
           "max": 3,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some gastrointestinal discomfort."
+          "description": "Some gastrointestinal discomfort is present, including stomach or bowel problems that may be stress-related or dietary in nature. Monitor for persistent or worsening patterns."
         },
         {
           "min": 4,
           "max": 4,
           "level": "moderate",
           "label": "High",
-          "description": "Notable gastrointestinal symptoms."
+          "description": "Notable gastrointestinal symptoms are reported. Persistent stomach or bowel problems at this level warrant medical evaluation to assess underlying causes and appropriate management."
         }
       ],
       "pain": [
@@ -212,21 +216,21 @@
           "max": 3,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal pain symptoms."
+          "description": "Minimal pain symptoms across back, limbs, joints, and head. Your musculoskeletal and headache symptom burden is very low and within normal range."
         },
         {
           "min": 4,
           "max": 7,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some pain symptoms."
+          "description": "Moderate pain symptoms including back pain, joint discomfort, or headaches that may affect daily comfort and activity levels. Consider ergonomic adjustments and regular physical activity."
         },
         {
           "min": 8,
           "max": 12,
           "level": "moderate",
           "label": "High",
-          "description": "Notable pain symptoms. Attention recommended."
+          "description": "Notable pain symptoms reported across multiple areas. This level of musculoskeletal pain and headaches may significantly impact daily activities. Medical evaluation and pain management strategies are recommended."
         }
       ],
       "cardiopulmonary": [
@@ -235,21 +239,21 @@
           "max": 2,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal cardiopulmonary symptoms."
+          "description": "Minimal cardiopulmonary symptoms reported. You are not experiencing significant chest pain, shortness of breath, or dizziness at this time."
         },
         {
           "min": 3,
           "max": 5,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some cardiopulmonary discomfort."
+          "description": "Some cardiopulmonary discomfort including chest pain, breathing difficulties, or dizziness is present. While these may be benign, monitoring and medical evaluation are advisable if persistent."
         },
         {
           "min": 6,
           "max": 8,
           "level": "moderate",
           "label": "High",
-          "description": "Notable cardiopulmonary symptoms. Medical evaluation recommended."
+          "description": "Notable cardiopulmonary symptoms are reported including significant chest pain, shortness of breath, or dizziness. Medical evaluation is recommended to rule out cardiac or pulmonary conditions."
         }
       ],
       "fatigue": [
@@ -258,21 +262,21 @@
           "max": 2,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal fatigue."
+          "description": "Minimal fatigue reported. Your energy levels and sleep quality appear to be adequate for daily functioning and responsibilities."
         },
         {
           "min": 3,
           "max": 5,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some fatigue present."
+          "description": "Moderate fatigue and some sleep difficulties are present, potentially affecting your daytime energy, concentration, and overall productivity. Attention to sleep hygiene may be helpful."
         },
         {
           "min": 6,
           "max": 8,
           "level": "moderate",
           "label": "High",
-          "description": "Notable fatigue. Attention to sleep and rest recommended."
+          "description": "Notable fatigue and significant sleep problems are reported. This level of tiredness and sleep disruption may substantially impair daily functioning. Evaluation of sleep habits, underlying conditions, and stress factors is recommended."
         }
       ]
     }

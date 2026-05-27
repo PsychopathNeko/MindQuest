@@ -151,11 +151,11 @@
         "max": 44,
         "level": "normal",
         "label": "Normal",
-        "description": "Your score is within the normal range. No clinically significant anxiety symptoms detected.",
+        "description": "Your anxiety score is within the normal range, with no clinically significant anxiety symptoms detected. Your current level of nervousness and worry falls within healthy limits and does not suggest an anxiety disorder.",
         "suggestions": [
-          "Continue maintaining a healthy lifestyle",
-          "Practice relaxation techniques for general wellness",
-          "Keep up regular exercise and social activities"
+          "Continue maintaining a healthy lifestyle with regular physical exercise and balanced nutrition",
+          "Practice relaxation techniques such as deep breathing or meditation as part of your general wellness routine",
+          "Keep up regular social activities and connections to support your emotional well-being"
         ]
       },
       {
@@ -163,12 +163,12 @@
         "max": 59,
         "level": "mild",
         "label": "Mild Anxiety",
-        "description": "Your score suggests mild anxiety symptoms that may be affecting your daily life.",
+        "description": "Your score suggests mild anxiety symptoms that may be affecting your daily comfort and functioning. You may notice increased nervousness, physical tension, or worry that occasionally interferes with concentration or sleep.",
         "suggestions": [
-          "Learn and practice relaxation techniques (deep breathing, progressive muscle relaxation)",
-          "Maintain regular physical exercise",
-          "Reduce caffeine and stimulant intake",
-          "If symptoms persist, consider consulting a healthcare professional"
+          "Learn and regularly practice relaxation techniques such as deep breathing and progressive muscle relaxation",
+          "Maintain a consistent physical exercise routine, as regular activity is one of the most effective natural anxiety reducers",
+          "Reduce caffeine and stimulant intake, as these substances can significantly amplify anxiety symptoms",
+          "If symptoms persist for more than two weeks, consider scheduling a consultation with a healthcare professional"
         ]
       },
       {
@@ -176,13 +176,13 @@
         "max": 74,
         "level": "moderate",
         "label": "Moderate Anxiety",
-        "description": "Your score indicates moderate anxiety symptoms that may significantly affect your daily functioning.",
+        "description": "Your score indicates moderate anxiety symptoms that may be significantly affecting your daily functioning, work performance, and interpersonal relationships. Both psychological and physical symptoms of anxiety are likely present.",
         "suggestions": [
-          "Consult a mental health professional for evaluation",
-          "Cognitive behavioral therapy is highly effective for anxiety",
-          "Maintain a structured daily routine",
-          "Practice daily relaxation exercises",
-          "Avoid self-medication with alcohol or sedatives"
+          "Consult a mental health professional such as a therapist or psychiatrist for a thorough evaluation and treatment plan",
+          "Cognitive behavioral therapy has strong research evidence as an effective treatment for anxiety disorders",
+          "Maintain a structured daily routine including consistent sleep, meal, and activity schedules for stability",
+          "Practice daily relaxation exercises and consider incorporating mindfulness meditation into your routine",
+          "Avoid self-medication with alcohol, sedatives, or other substances, as they often worsen anxiety over time"
         ]
       },
       {
@@ -190,13 +190,12 @@
         "max": 80,
         "level": "severe",
         "label": "Severe Anxiety",
-        "description": "Your score suggests severe anxiety symptoms. Professional help is strongly recommended.",
+        "description": "Your score suggests severe anxiety symptoms that are likely causing major impairment in your daily life and overall functioning. Immediate professional evaluation and treatment are strongly recommended at this severity level.",
         "suggestions": [
-          "Seek immediate consultation with a psychiatrist",
-          "Medication combined with psychotherapy may be necessary",
-          "Ensure you have a reliable support system",
-          "Learn to recognize and manage panic symptoms",
-          "Do not hesitate to seek emergency help if needed"
+          "Seek immediate consultation with a psychiatrist or mental health professional for urgent evaluation",
+          "A combination of medication and psychotherapy is often the most effective approach for severe anxiety",
+          "Ensure you have a reliable support system of family and friends who understand your situation",
+          "Learn to recognize the physical signs of panic attacks and practice grounding techniques to manage acute episodes"
         ]
       }
     ],

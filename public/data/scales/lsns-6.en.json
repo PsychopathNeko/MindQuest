@@ -102,12 +102,13 @@
         "max": 11,
         "level": "at_risk",
         "label": "At Risk for Social Isolation",
-        "description": "Your total score suggests you may be at risk for social isolation. Limited social networks can impact both mental and physical health.",
+        "description": "Your total score suggests you may be at risk for social isolation, with limited social networks in both family and friendship domains. Social isolation is a significant health risk factor associated with increased morbidity and mortality.",
         "suggestions": [
-          "Consider reaching out to family or friends more regularly",
-          "Look for community activities or groups to join",
-          "Talk to a healthcare provider about resources for social engagement",
-          "Volunteering can be a great way to build social connections"
+          "Consider reaching out to family members or friends you have lost touch with to rebuild social connections",
+          "Look for community activities, clubs, religious organizations, or volunteer opportunities that align with your interests",
+          "Talk to a healthcare provider about local resources and programs designed to promote social engagement",
+          "Start with small, manageable social interactions and gradually increase their frequency and depth over time",
+          "Consider using technology such as video calls or social platforms to maintain connections with distant family and friends"
         ]
       },
       {
@@ -115,11 +116,13 @@
         "max": 17,
         "level": "moderate",
         "label": "Moderate Social Network",
-        "description": "You have a moderate level of social engagement. There may be room to strengthen your social connections.",
+        "description": "You have a moderate level of social engagement with some meaningful connections, but there may be room to strengthen your social network. Investing in both family and friend relationships can provide broader support and resilience.",
         "suggestions": [
-          "Continue nurturing your existing relationships",
-          "Consider expanding your social network",
-          "Maintain regular contact with family and friends"
+          "Continue nurturing your existing relationships through regular contact and meaningful interactions",
+          "Consider expanding your social network by joining new groups or activities that interest you",
+          "Maintain a balance between family and friend connections, as both serve different supportive functions",
+          "Schedule regular social activities to ensure consistent engagement rather than relying on spontaneous contact",
+          "Deepen existing relationships by sharing more personal matters and offering reciprocal support"
         ]
       },
       {
@@ -127,11 +130,12 @@
         "max": 30,
         "level": "strong",
         "label": "Strong Social Network",
-        "description": "You have a strong social network with good connections to both family and friends.",
+        "description": "You have a strong social network with good connections to both family and friends, providing robust social support. Strong social networks are protective against depression, cognitive decline, and many physical health conditions.",
         "suggestions": [
-          "Continue maintaining your strong social connections",
-          "Your social network is a valuable resource for well-being",
-          "Consider supporting others who may be socially isolated"
+          "Continue maintaining your strong social connections through regular meaningful interactions with family and friends",
+          "Your social network is a valuable resource for well-being, resilience, and health across the lifespan",
+          "Consider supporting others in your community who may be experiencing social isolation or loneliness",
+          "Stay open to forming new connections while maintaining the depth and quality of your existing relationships"
         ]
       }
     ],
@@ -142,21 +146,21 @@
           "max": 5,
           "level": "at_risk",
           "label": "At Risk",
-          "description": "Your family network is limited. You may benefit from strengthening family connections."
+          "description": "Your family network is limited, with few relatives you see regularly, confide in, or can call upon for help. Strengthening family connections or building alternative support systems can improve your overall social well-being."
         },
         {
           "min": 6,
           "max": 10,
           "level": "moderate",
           "label": "Moderate",
-          "description": "You have a moderate family network."
+          "description": "You have a moderate family network with some relatives you maintain contact with and feel comfortable turning to. There may be opportunities to deepen these connections or reconnect with other family members."
         },
         {
           "min": 11,
           "max": 15,
           "level": "strong",
           "label": "Strong",
-          "description": "You have a strong and supportive family network."
+          "description": "You have a strong and supportive family network, with multiple relatives you see regularly, confide in, and can rely on for help. This provides an important foundation for emotional support and practical assistance."
         }
       ],
       "friends": [
@@ -165,21 +169,21 @@
           "max": 5,
           "level": "at_risk",
           "label": "At Risk",
-          "description": "Your friend network is limited. You may benefit from building more friendships."
+          "description": "Your friend network is limited, with few friends you see regularly, confide in, or can call upon for help. Building friendships through shared activities or community involvement can significantly enhance your social support."
         },
         {
           "min": 6,
           "max": 10,
           "level": "moderate",
           "label": "Moderate",
-          "description": "You have a moderate friend network."
+          "description": "You have a moderate friend network with some friends you maintain contact with and feel comfortable turning to. Investing time in these friendships and seeking new social opportunities can strengthen this network."
         },
         {
           "min": 11,
           "max": 15,
           "level": "strong",
           "label": "Strong",
-          "description": "You have a strong and supportive friend network."
+          "description": "You have a strong and supportive friend network, with multiple friends you see regularly, confide in, and can rely on for help. Friendships provide unique social support that complements family relationships."
         }
       ]
     }

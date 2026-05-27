@@ -106,12 +106,12 @@
         "max": 17,
         "level": "severe",
         "label": "Very Low Wellbeing",
-        "description": "Your personal wellbeing score is very low, indicating significant dissatisfaction across multiple life domains.",
+        "description": "Your subjective well-being is very low across multiple life domains including standard of living, health, achievements, and relationships. This level of dissatisfaction is associated with significant distress and may indicate depression or other mental health concerns requiring professional attention.",
         "suggestions": [
-          "Consider seeking professional support from a counselor or psychologist",
-          "Identify the life domains causing the most dissatisfaction",
-          "Focus on basic self-care: adequate sleep, nutrition, and physical activity",
-          "Set small, achievable goals to build a sense of progress"
+          "Seek support from a mental health professional to explore underlying causes of low well-being",
+          "Identify one or two life domains where small, achievable improvements are possible",
+          "Connect with trusted friends, family, or community resources for social support",
+          "Establish basic self-care routines including regular sleep, nutrition, and physical activity"
         ]
       },
       {
@@ -119,12 +119,13 @@
         "max": 35,
         "level": "moderate",
         "label": "Low Wellbeing",
-        "description": "Your personal wellbeing score is below average. You may be experiencing dissatisfaction in several important life areas.",
+        "description": "Your well-being is below average, suggesting dissatisfaction in several life domains. While not critically low, this pattern may affect your motivation, relationships, and overall quality of life. Targeted improvements in specific areas can meaningfully boost your well-being.",
         "suggestions": [
-          "Reflect on which life domains need the most attention",
-          "Develop an action plan to address areas of dissatisfaction",
-          "Strengthen social connections and seek support",
-          "Engage in activities that bring you joy and meaning"
+          "Review which specific life domains scored lowest and focus improvement efforts there",
+          "Set realistic goals for areas you have most control over, such as health behaviors or social connections",
+          "Consider counseling to address persistent sources of dissatisfaction",
+          "Practice gratitude exercises to build awareness of positive aspects in your life",
+          "Engage in activities that provide a sense of purpose and accomplishment"
         ]
       },
       {
@@ -132,12 +133,12 @@
         "max": 52,
         "level": "mild",
         "label": "Moderate Wellbeing",
-        "description": "Your personal wellbeing is at a moderate level. You experience reasonable satisfaction in most areas.",
+        "description": "Your well-being is in the moderate range, reflecting reasonable satisfaction across most life domains with room for growth. Most people fall in this range. Identifying specific areas for enhancement can help you move toward a more fulfilling life experience.",
         "suggestions": [
-          "Continue nurturing the areas where you feel most satisfied",
-          "Identify specific domains for improvement and set goals",
-          "Maintain regular social engagement and community involvement",
-          "Practice gratitude and focus on positive aspects of your life"
+          "Identify your strongest life domains and leverage them to improve weaker areas",
+          "Invest in relationships and community involvement, which strongly predict well-being",
+          "Pursue meaningful goals aligned with your personal values",
+          "Maintain healthy lifestyle habits that support both physical and psychological well-being"
         ]
       },
       {
@@ -145,11 +146,11 @@
         "max": 70,
         "level": "minimal",
         "label": "High Wellbeing",
-        "description": "Your personal wellbeing score is high, indicating strong satisfaction across most life domains.",
+        "description": "Your subjective well-being is high, indicating satisfaction across multiple life domains. You perceive your standard of living, health, achievements, relationships, safety, and community connectedness positively. This level of well-being is a strong protective factor for mental and physical health.",
         "suggestions": [
-          "Continue maintaining the habits and relationships that support your wellbeing",
-          "Share your positive experiences and strategies with others",
-          "Stay engaged with your community and personal goals"
+          "Continue the habits and relationships that contribute to your high well-being",
+          "Share your positive outlook by supporting others in your community",
+          "Stay open to new experiences and challenges that sustain personal growth"
         ]
       }
     ],

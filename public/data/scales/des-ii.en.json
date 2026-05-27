@@ -230,10 +230,11 @@
         "max": 22,
         "level": "minimal",
         "label": "Normal Range",
-        "description": "Your dissociative experience frequency is within the normal range. Most people occasionally have similar experiences.",
+        "description": "Your dissociative experiences fall within the normal range. Most people occasionally experience brief moments of absorption, daydreaming, or automatic behavior that are entirely typical and not clinically significant.",
         "suggestions": [
-          "These experiences are normal to some extent",
-          "If particularly bothersome, note when and where they occur"
+          "These occasional dissociative experiences are a normal part of human cognition and attention",
+          "If certain experiences feel bothersome, note when and where they occur for self-awareness",
+          "Maintaining good sleep hygiene and stress management supports continued mental clarity"
         ]
       },
       {
@@ -241,11 +242,12 @@
         "max": 44,
         "level": "mild",
         "label": "Mild Dissociative Experiences",
-        "description": "Your dissociative experiences are slightly above average and may be related to stress or fatigue.",
+        "description": "Your dissociative experiences are mildly elevated above the population average. This may relate to ongoing stress, sleep deprivation, or anxiety, and warrants some self-monitoring to track changes over time.",
         "suggestions": [
-          "Monitor your stress levels and sleep quality",
-          "Mindfulness and grounding exercises may help reduce dissociation",
-          "If affecting daily functioning, consider consulting a professional"
+          "Monitor your stress levels and sleep quality, as both strongly influence dissociative experiences",
+          "Practice grounding and mindfulness exercises to strengthen present-moment awareness daily",
+          "Identify situations or triggers that seem to precede dissociative episodes for better self-understanding",
+          "If these experiences are increasing or affecting daily functioning, consult a mental health professional"
         ]
       },
       {
@@ -253,12 +255,13 @@
         "max": 67,
         "level": "moderate",
         "label": "Moderate Dissociative Experiences",
-        "description": "Your dissociative experience frequency is elevated, which may suggest a dissociative disorder or related condition. Professional evaluation is recommended.",
+        "description": "Your dissociative experience frequency is clinically elevated and may indicate a dissociative disorder or related condition such as PTSD. A comprehensive professional evaluation is recommended to clarify the pattern.",
         "suggestions": [
-          "Consider consulting a mental health professional for further evaluation",
-          "Learn about dissociative disorders",
-          "Practice grounding techniques (e.g., 5-4-3-2-1 sensory exercise)",
-          "Maintain regular routines and reduce controllable stressors"
+          "A professional evaluation by a clinician experienced with dissociative disorders is recommended",
+          "Learn about dissociative symptoms to better understand and communicate your experiences to others",
+          "Practice grounding techniques such as the 5-4-3-2-1 sensory exercise when feeling disconnected",
+          "Maintain regular daily routines and minimize controllable stressors to reduce dissociative episodes",
+          "Consider trauma-informed therapy approaches if your dissociation is linked to past traumatic events"
         ]
       },
       {
@@ -266,12 +269,12 @@
         "max": 112,
         "level": "severe",
         "label": "Significant Dissociative Experiences",
-        "description": "You reported frequent dissociative experiences. A comprehensive psychiatric/psychological evaluation is strongly recommended. High scores may be associated with dissociative disorders, PTSD, and related conditions.",
+        "description": "You report frequent and significant dissociative experiences. Scores at this level are strongly associated with dissociative disorders, complex PTSD, and related conditions requiring comprehensive clinical assessment.",
         "suggestions": [
-          "Strongly recommend consulting a psychiatrist or clinical psychologist",
-          "Dissociation may be related to early traumatic experiences",
-          "Trauma-focused therapy may be beneficial",
-          "Do not overlook the impact of these experiences on daily life"
+          "A thorough psychiatric or psychological evaluation by a dissociation specialist is strongly recommended",
+          "Dissociation often has roots in early traumatic experiences; trauma-focused therapy can be very effective",
+          "Develop a safety plan with your clinician for managing severe dissociative episodes in daily life",
+          "Do not underestimate the impact of these experiences on your safety, relationships, and daily functioning"
         ]
       }
     ],

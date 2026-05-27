@@ -99,11 +99,12 @@
         "min": 0,
         "max": 4,
         "level": "minimal",
-        "label": "Low Likelihood of Bipolar Disorder",
-        "description": "Your score is below the screening threshold.",
+        "label": "Low Likelihood",
+        "description": "Your score suggests a low likelihood of bipolar spectrum disorder based on this screening tool. Your responses do not indicate a significant pattern of manic or hypomanic symptoms.",
         "suggestions": [
-          "If you have mood concerns, you may still consult a professional",
-          "Monitor any changes in mood patterns"
+          "No clinical concern at this level based on screening",
+          "If you have specific mood concerns, discuss them with your healthcare provider",
+          "The MDQ is a screening tool, not a diagnostic instrument"
         ]
       },
       {
@@ -111,22 +112,26 @@
         "max": 6,
         "level": "mild",
         "label": "Borderline",
-        "description": "Your score is near the screening threshold.",
+        "description": "Your score is in the borderline range for bipolar spectrum screening. You may have endorsed some symptoms consistent with manic or hypomanic episodes. Further clinical evaluation may be helpful to clarify whether these experiences represent a mood disorder.",
         "suggestions": [
-          "Consider consulting a mental health professional for further evaluation",
-          "Track your mood patterns"
+          "Consider discussing your mood patterns with a mental health professional",
+          "Keep a mood diary to track episodes of elevated or irritable mood, energy changes, and sleep patterns",
+          "The MDQ screens for possible bipolar features but cannot provide a diagnosis on its own",
+          "A thorough clinical interview is needed to differentiate bipolar disorder from other conditions"
         ]
       },
       {
         "min": 7,
         "max": 13,
         "level": "severe",
-        "label": "Possible Bipolar Disorder",
-        "description": "Your score reaches the screening threshold. This is NOT a diagnosis and requires professional evaluation.",
+        "label": "Positive Screen for Bipolar Disorder",
+        "description": "Your score is above the MDQ screening threshold, suggesting a positive screen for bipolar spectrum disorder. This means your responses are consistent with a history of manic or hypomanic symptoms. A comprehensive clinical evaluation by a qualified mental health professional is essential for proper diagnosis.",
         "suggestions": [
-          "Strongly recommended to consult a psychiatrist promptly",
-          "Keep a detailed mood diary to share with your clinician",
-          "Do not self-diagnose; follow professional assessment"
+          "Seek evaluation from a psychiatrist or mental health professional experienced in mood disorders",
+          "A positive MDQ screen does not confirm a diagnosis; formal clinical assessment is required",
+          "If diagnosed, effective treatments are available including mood stabilizers and psychotherapy",
+          "Track your mood, sleep, and energy patterns to share with your clinician",
+          "Avoid alcohol and recreational drugs, which can worsen mood instability"
         ]
       }
     ],

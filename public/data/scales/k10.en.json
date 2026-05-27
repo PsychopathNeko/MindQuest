@@ -97,7 +97,7 @@
         "max": 19,
         "level": "minimal",
         "label": "Likely to Be Well",
-        "description": "Your score suggests you are likely to be well with no significant psychological distress.",
+        "description": "Your score suggests you are likely to be well with no significant psychological distress. Your current level of emotional functioning appears healthy and adaptive.",
         "suggestions": [
           "Continue maintaining your current healthy coping strategies",
           "Keep up regular physical activity and social engagement",
@@ -109,12 +109,13 @@
         "max": 24,
         "level": "mild",
         "label": "Mild Psychological Distress",
-        "description": "Your score indicates mild levels of psychological distress. You may be experiencing some emotional difficulties.",
+        "description": "Your score indicates mild levels of psychological distress. You may be experiencing some emotional difficulties such as occasional worry, low mood, or restlessness that are beginning to affect daily comfort.",
         "suggestions": [
           "Monitor your emotional state over the coming weeks",
-          "Practice relaxation techniques such as deep breathing or mindfulness",
+          "Practice relaxation techniques such as deep breathing, progressive muscle relaxation, or mindfulness",
           "Talk to a trusted friend or family member about how you feel",
-          "Consider consulting a healthcare professional if symptoms persist"
+          "Maintain regular sleep, exercise, and nutrition routines",
+          "Consider consulting a healthcare professional if symptoms persist or worsen"
         ]
       },
       {
@@ -122,12 +123,13 @@
         "max": 29,
         "level": "moderate",
         "label": "Moderate Psychological Distress",
-        "description": "Your score indicates moderate levels of psychological distress that may be affecting your daily functioning.",
+        "description": "Your score indicates moderate levels of psychological distress that may be affecting your daily functioning. At this level, symptoms may include persistent worry, low energy, difficulty concentrating, or sleep problems.",
         "suggestions": [
-          "Consider seeking help from a mental health professional",
+          "Consider seeking help from a mental health professional for evaluation",
           "Maintain regular routines for sleep, exercise, and nutrition",
-          "Reduce stressors where possible and prioritize self-care",
-          "Avoid using alcohol or drugs to cope with distress"
+          "Reduce stressors where possible and prioritize self-care activities",
+          "Avoid using alcohol or drugs to cope with distress",
+          "Evidence-based therapies such as CBT can be very helpful at this level"
         ]
       },
       {
@@ -135,12 +137,13 @@
         "max": 50,
         "level": "severe",
         "label": "Severe Psychological Distress",
-        "description": "Your score indicates severe psychological distress. It is strongly recommended that you seek professional help.",
+        "description": "Your score indicates severe psychological distress, which may indicate the presence of a serious mental health condition. This level of distress typically involves significant impairment in daily functioning and quality of life.",
         "suggestions": [
           "Please consult a mental health professional or your doctor as soon as possible",
           "If you are in crisis, contact a crisis helpline (e.g., 988 Suicide & Crisis Lifeline)",
-          "Do not hesitate to reach out to trusted people in your life",
-          "Follow through with professional treatment recommendations"
+          "Do not hesitate to reach out to trusted people in your life for support",
+          "Follow through with professional treatment recommendations",
+          "Remember that severe distress is treatable; many people recover with appropriate help"
         ]
       }
     ],
@@ -154,5 +157,9 @@
       "min": 10,
       "max": 50
     }
+  },
+  "crisisConfig": {
+    "type": "level",
+    "levelThreshold": "severe"
   }
 }

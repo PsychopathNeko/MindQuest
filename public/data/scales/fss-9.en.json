@@ -100,10 +100,11 @@
         "max": 27,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your fatigue level is within the normal range.",
+        "description": "Your fatigue level is within the normal range, indicating that tiredness does not significantly impair your daily activities. You appear to manage your energy well and recover adequately from physical and mental exertion.",
         "suggestions": [
-          "Continue maintaining healthy lifestyle habits",
-          "Ensure adequate sleep and regular exercise"
+          "Continue maintaining healthy lifestyle habits including regular sleep patterns",
+          "Ensure adequate sleep duration and engage in regular physical exercise",
+          "Stay hydrated and maintain a balanced diet to support sustained energy levels"
         ]
       },
       {
@@ -111,12 +112,12 @@
         "max": 36,
         "level": "mild",
         "label": "Mild Fatigue",
-        "description": "You may have some fatigue issues, but they have a relatively small impact on your life.",
+        "description": "You experience mild fatigue that may occasionally affect your motivation and physical functioning. While not severely disabling, this level of tiredness can reduce your overall productivity and enjoyment of daily activities if left unaddressed.",
         "suggestions": [
-          "Maintain a regular sleep schedule",
-          "Increase physical activity as appropriate",
-          "Ensure a balanced diet",
-          "If fatigue persists, consider screening for physical conditions"
+          "Maintain a consistent sleep schedule, aiming for 7-9 hours per night",
+          "Increase physical activity gradually, as regular exercise can paradoxically reduce fatigue",
+          "Ensure a balanced diet rich in whole grains, lean protein, and fresh vegetables",
+          "If fatigue persists beyond two weeks, consider screening for underlying conditions such as anemia or thyroid dysfunction"
         ]
       },
       {
@@ -124,12 +125,13 @@
         "max": 49,
         "level": "moderate",
         "label": "Moderate Fatigue",
-        "description": "Your fatigue is noticeably affecting your daily activities.",
+        "description": "Your fatigue is noticeably affecting your daily activities, physical functioning, and responsibilities. At this level, tiredness likely interferes with work performance, social engagement, and your ability to sustain physical effort throughout the day.",
         "suggestions": [
-          "Consider seeing a doctor to rule out underlying physical causes",
-          "Learn energy management techniques (e.g., activity-rest cycling)",
-          "Practice good sleep hygiene",
-          "Consider whether psychological factors (e.g., depression, anxiety) may be contributing"
+          "See a doctor to rule out underlying medical causes such as anemia, hypothyroidism, or sleep disorders",
+          "Learn energy management techniques such as activity-rest cycling and task prioritization",
+          "Practice good sleep hygiene by keeping a dark, cool bedroom and avoiding screens before bed",
+          "Consider whether psychological factors such as depression or anxiety may be contributing to your fatigue",
+          "Track your energy patterns in a diary to identify times of day when fatigue is worst"
         ]
       },
       {
@@ -137,12 +139,12 @@
         "max": 63,
         "level": "severe",
         "label": "Severe Fatigue",
-        "description": "Your fatigue is very severe and significantly affects daily functioning. A professional evaluation is recommended.",
+        "description": "Your fatigue is very severe and significantly impairs daily functioning, work capacity, and quality of life. This level of persistent exhaustion warrants prompt professional evaluation to identify and treat any underlying medical or psychological causes.",
         "suggestions": [
-          "Seek a comprehensive medical evaluation as soon as possible",
-          "A multidisciplinary treatment approach may be needed",
-          "Learn energy conservation strategies",
-          "Seek social support and assistance"
+          "Seek a comprehensive medical evaluation as soon as possible to identify potential underlying causes",
+          "A multidisciplinary treatment approach involving your primary care physician and specialists may be needed",
+          "Learn and apply energy conservation strategies to manage your most important daily activities",
+          "Seek social support from family, friends, or support groups for people living with chronic fatigue"
         ]
       }
     ],

@@ -85,10 +85,11 @@
         "max": 0,
         "level": "minimal",
         "label": "No Adverse Experiences",
-        "description": "You reported no adverse childhood experiences. This is a protective factor for long-term health.",
+        "description": "You reported no adverse childhood experiences. The absence of early adversity is a significant protective factor for your long-term physical and mental health outcomes across the lifespan.",
         "suggestions": [
-          "Continue maintaining healthy relationships and lifestyle",
-          "If you care about others' childhood experiences, learn how to provide support"
+          "Continue nurturing healthy, supportive relationships in your life",
+          "If you care for children, strive to maintain safe and stable environments for them",
+          "Consider learning about ACEs to support others who may have experienced childhood adversity"
         ]
       },
       {
@@ -96,11 +97,12 @@
         "max": 1,
         "level": "mild",
         "label": "Low Risk",
-        "description": "You reported 1 adverse childhood experience. Research shows even a small number of adverse experiences can have some impact on health.",
+        "description": "You reported one adverse childhood experience. Even a single ACE can have subtle effects on health and coping patterns. Awareness of this history can help you take proactive steps toward resilience.",
         "suggestions": [
-          "Learn about how childhood experiences can affect adult health",
-          "Develop healthy coping strategies and support networks",
-          "Consider talking to a professional if needed"
+          "Learn how childhood experiences can shape adult health behaviors and stress responses",
+          "Develop and maintain healthy coping strategies such as exercise, social connection, and mindfulness",
+          "Build a strong social support network of trusted friends and family members",
+          "Consider speaking with a counselor if past experiences still affect your daily life"
         ]
       },
       {
@@ -108,12 +110,13 @@
         "max": 3,
         "level": "moderate",
         "label": "Moderate Risk",
-        "description": "You reported 2-3 adverse childhood experiences. The cumulative effect of multiple adverse experiences may increase health risks.",
+        "description": "You reported 2 to 3 adverse childhood experiences. Research shows the cumulative burden of multiple ACEs can increase vulnerability to chronic health conditions, mental health challenges, and maladaptive coping.",
         "suggestions": [
-          "Pay attention to your mental health",
-          "Learn stress management and emotion regulation techniques",
-          "Consider seeking counseling to process past experiences",
-          "Build a strong social support network"
+          "Prioritize your mental health by scheduling regular self-check-ins and wellness activities",
+          "Learn evidence-based stress management techniques such as deep breathing and progressive relaxation",
+          "Consider seeking professional counseling to process past experiences in a safe setting",
+          "Invest in building a reliable social support network to buffer against life stressors",
+          "Practice self-compassion and recognize that healing from childhood adversity is a gradual process"
         ]
       },
       {
@@ -121,13 +124,13 @@
         "max": 10,
         "level": "severe",
         "label": "High Risk",
-        "description": "You reported 4 or more adverse childhood experiences. High ACE scores are significantly associated with increased risk of multiple physical and mental health problems in adulthood.",
+        "description": "You reported 4 or more adverse childhood experiences. A high ACE score is strongly linked to elevated risk for depression, substance use, cardiovascular disease, and other serious health outcomes.",
         "suggestions": [
-          "Strongly recommended to seek professional psychological help",
-          "Trauma-informed therapy can effectively help process childhood trauma",
-          "Monitor your physical and mental health; get regular check-ups",
-          "Do not carry the burden alone; share your experiences with trusted people",
-          "Remember: ACE scores are not destiny — with appropriate support and intervention, recovery is possible"
+          "Seeking professional psychological support is strongly recommended to address the impact of multiple ACEs",
+          "Trauma-informed therapies such as EMDR or trauma-focused CBT can be highly effective for healing",
+          "Monitor both your physical and mental health closely and attend regular medical check-ups",
+          "Share your experiences with trusted people so you do not carry the burden alone",
+          "Remember that ACE scores are not destiny — with appropriate support, recovery is achievable"
         ]
       }
     ],

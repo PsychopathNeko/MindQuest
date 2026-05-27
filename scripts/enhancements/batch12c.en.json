@@ -1,0 +1,90 @@
+{
+  "sdq": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 13,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your child's total difficulties score falls within the normal range, indicating that emotional, behavioral, and social functioning are generally age-appropriate with no clinically significant problems across assessed domains.",
+        "suggestions": [
+          "Continue fostering a warm, supportive home environment with open communication about feelings and daily experiences",
+          "Maintain regular routines and age-appropriate expectations, as consistency supports healthy emotional and behavioral development",
+          "Stay engaged with your child's school and social activities to monitor ongoing well-being and reinforce positive behaviors"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 16,
+        "level": "borderline",
+        "label": "Borderline",
+        "description": "Your child's total difficulties score is at a borderline level, suggesting emerging concerns that may warrant closer attention. Some emotional, behavioral, or social difficulties are present and should be monitored over time.",
+        "suggestions": [
+          "Monitor your child's emotional and behavioral patterns more closely over the coming weeks, noting any specific situations that trigger difficulties",
+          "Maintain open and regular communication with teachers and school staff to gain a broader perspective on your child's functioning across settings",
+          "Consider completing the SDQ again in three to six months to track whether difficulties are improving, stable, or worsening over time",
+          "If concerns persist or increase, consult a child psychologist or pediatrician who can conduct a more comprehensive developmental assessment"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 40,
+        "level": "abnormal",
+        "label": "Abnormal",
+        "description": "Your child's total difficulties score is in the abnormal range, indicating clinically significant emotional, behavioral, or social problems that likely affect daily functioning at home, school, or in peer relationships.",
+        "suggestions": [
+          "Seek a professional evaluation from a child and adolescent mental health specialist who can identify specific problem areas and recommend targeted interventions",
+          "Work collaboratively with your child's school to develop supportive strategies, as difficulties at this level often affect academic performance and peer interactions",
+          "Focus on understanding which specific domains are most affected by reviewing subscale patterns, as this guides the most appropriate type of professional support",
+          "Early professional intervention for children with elevated scores has strong evidence for improving long-term emotional, behavioral, and social outcomes",
+          "Ensure your child feels supported rather than blamed, as children with high difficulties scores benefit most from empathetic and patient caregiving approaches"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "perma": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 76,
+        "level": "minimal",
+        "label": "Low Well-being",
+        "description": "Your overall PERMA well-being score is low, suggesting that multiple dimensions of flourishing need attention. You may be experiencing limited positive emotions, weak social connections, low engagement, or unclear sense of purpose.",
+        "suggestions": [
+          "Start with small, achievable daily habits that promote well-being, such as writing down three things you are grateful for each evening before bed",
+          "Seek meaningful social connections by reaching out to trusted friends or family members, as positive relationships are one of the strongest predictors of well-being",
+          "Identify one activity that genuinely interests you and commit to engaging in it regularly, as even brief periods of flow can significantly boost overall well-being",
+          "Consider consulting a mental health professional or well-being coach who can help you develop a personalized plan for improving your psychological functioning",
+          "Be patient with yourself, as building well-being is a gradual process and even modest improvements in one PERMA dimension often create positive spillover effects"
+        ]
+      },
+      {
+        "min": 77,
+        "max": 153,
+        "level": "moderate",
+        "label": "Moderate Well-being",
+        "description": "Your well-being is at a moderate level, indicating a reasonable degree of flourishing with identifiable areas for growth. Some PERMA dimensions may be stronger than others, and targeted effort can help you achieve greater balance.",
+        "suggestions": [
+          "Review your subscale scores to identify which specific PERMA dimensions are lowest, and focus your improvement efforts on those particular areas first",
+          "Strengthen your sense of meaning by reflecting on your core values and aligning more of your daily activities with what you find genuinely important and purposeful",
+          "Invest in deepening your existing relationships through regular quality time, active listening, and expressing appreciation for the people who matter most to you",
+          "Set personally meaningful goals and track your progress toward them, as a sense of accomplishment contributes substantially to overall psychological well-being"
+        ]
+      },
+      {
+        "min": 154,
+        "max": 230,
+        "level": "high",
+        "label": "High Well-being",
+        "description": "Your overall PERMA well-being score is high, reflecting strong flourishing across multiple dimensions of positive psychological functioning including positive emotions, meaningful engagement, supportive relationships, and clear purpose.",
+        "suggestions": [
+          "Continue maintaining the habits and relationships that support your high well-being, and remain mindful of any changes that could disrupt this positive balance",
+          "Consider using your strengths to help others flourish, as mentoring, volunteering, and supporting others' growth can further enhance your own sense of meaning and connection",
+          "Periodically reassess your well-being to ensure sustained balance, as life transitions and new challenges can shift your PERMA profile over time"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  }
+}

@@ -107,11 +107,11 @@
         "max": 3,
         "level": "minimal",
         "label": "Low Risk",
-        "description": "Your alcohol consumption is within a low-risk range. No significant concerns about drinking habits detected.",
+        "description": "Your alcohol consumption falls within the low-risk range. No significant concerns about problematic drinking habits were detected. Current patterns suggest minimal risk of alcohol-related health consequences.",
         "suggestions": [
-          "Continue maintaining moderate or no drinking habits",
-          "Be mindful of situations where alcohol use may increase",
-          "Stay informed about recommended drinking limits"
+          "Continue maintaining your moderate or abstinent drinking habits",
+          "Stay mindful of situations or social settings where alcohol consumption may gradually increase",
+          "Keep informed about recommended daily and weekly drinking limits for your age and sex"
         ]
       },
       {
@@ -119,12 +119,12 @@
         "max": 7,
         "level": "mild",
         "label": "Hazardous Drinking",
-        "description": "Your drinking pattern suggests hazardous alcohol use that may increase risk of health problems.",
+        "description": "Your drinking pattern suggests hazardous alcohol use that exceeds recommended limits and may progressively increase your risk for liver disease, injuries, mental health problems, and social difficulties.",
         "suggestions": [
-          "Consider reducing the amount and frequency of your drinking",
-          "Track your alcohol consumption to become more aware of your habits",
-          "Set personal limits before you start drinking",
-          "Consider speaking with a healthcare provider about your drinking habits"
+          "Consider reducing both the amount and frequency of your alcohol consumption starting this week",
+          "Track your drinks using a diary or app to develop greater awareness of your actual consumption",
+          "Set clear personal limits before social events and commit to non-alcoholic alternatives",
+          "Discuss your drinking patterns with a healthcare provider during your next routine visit"
         ]
       },
       {
@@ -132,13 +132,12 @@
         "max": 12,
         "level": "severe",
         "label": "Harmful or Dependent Drinking",
-        "description": "Your drinking pattern suggests harmful alcohol use or possible dependence. This level of consumption carries significant health risks.",
+        "description": "Your drinking pattern suggests harmful alcohol use or possible dependence. This level of consumption carries significant risk for liver damage, cardiovascular disease, and impaired daily functioning.",
         "suggestions": [
-          "Strongly recommended to consult a healthcare provider about your alcohol use",
-          "Consider seeking specialized help for alcohol-related concerns",
-          "Explore resources such as support groups or counseling",
-          "Avoid driving or operating machinery after drinking",
-          "Talk to someone you trust about your drinking"
+          "Consulting a healthcare provider about your alcohol use is strongly recommended at this level",
+          "Consider seeking specialized addiction medicine or alcohol treatment services for assessment",
+          "Explore community resources such as support groups, counseling programs, or telephone helplines",
+          "Never drive or operate machinery after drinking — plan alternative transportation in advance"
         ]
       }
     ],

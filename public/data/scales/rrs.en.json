@@ -176,10 +176,11 @@
         "max": 33,
         "level": "minimal",
         "label": "Low Rumination",
-        "description": "Your rumination level is low.",
+        "description": "Your rumination levels are within a healthy range. You tend to process negative experiences without getting stuck in repetitive thought patterns, which supports adaptive emotional regulation and mental well-being.",
         "suggestions": [
-          "Continue your healthy coping strategies",
-          "Maintain awareness of your thought patterns"
+          "Continue using healthy coping strategies like physical activity and social connection",
+          "Practice mindfulness to maintain present-focused awareness",
+          "Keep a gratitude journal to reinforce positive thinking patterns"
         ]
       },
       {
@@ -187,11 +188,12 @@
         "max": 44,
         "level": "mild",
         "label": "Mild Rumination",
-        "description": "You show mild levels of ruminative thinking.",
+        "description": "You show some tendency toward repetitive negative thinking. While occasional rumination is normal, this pattern may increase vulnerability to low mood if left unchecked. Early intervention can prevent escalation.",
         "suggestions": [
-          "Practice redirecting attention from repetitive negative thinking",
-          "Engage in physical activity or hobbies when feeling down",
-          "Try mindfulness techniques"
+          "Try thought-stopping techniques when you notice repetitive negative thinking",
+          "Schedule ‘worry time’ — limit rumination to a specific 15-minute window daily",
+          "Engage in behavioral activation by planning enjoyable activities",
+          "Practice mindfulness meditation to develop observing rather than engaging with thoughts"
         ]
       },
       {
@@ -199,11 +201,13 @@
         "max": 55,
         "level": "moderate",
         "label": "Moderate Rumination",
-        "description": "You show moderate levels of ruminative thinking, which may prolong depressive episodes.",
+        "description": "Your score indicates a significant pattern of repetitive negative thinking. Moderate rumination is a well-established risk factor for depression and anxiety, and may be interfering with your problem-solving ability and daily functioning.",
         "suggestions": [
-          "Consider cognitive behavioral therapy techniques",
-          "Practice scheduled worry time",
-          "Develop behavioral activation strategies"
+          "Consider cognitive-behavioral therapy (CBT) to identify and challenge ruminative thought patterns",
+          "Practice rumination-focused CBT techniques such as functional analysis of thinking",
+          "Engage in regular physical exercise, which research shows reduces rumination",
+          "Try behavioral activation — replace brooding with concrete problem-solving actions",
+          "Consider consulting a mental health professional for personalized guidance"
         ]
       },
       {
@@ -211,12 +215,12 @@
         "max": 88,
         "level": "severe",
         "label": "High Rumination",
-        "description": "Your rumination level is high and may warrant professional attention.",
+        "description": "Your score reflects pervasive repetitive negative thinking that likely impacts your mood, concentration, and daily functioning. High rumination is strongly associated with depression and anxiety and typically benefits from professional intervention.",
         "suggestions": [
-          "Consider seeking professional help",
-          "Cognitive behavioral therapy or mindfulness-based therapy can be effective",
-          "Practice thought-stopping techniques",
-          "Build a strong social support network"
+          "Seek professional help — a therapist trained in CBT or rumination-focused therapy can provide structured support",
+          "Consider metacognitive therapy (MCT), which specifically targets repetitive thinking patterns",
+          "Engage in intensive mindfulness-based cognitive therapy (MBCT) to break the cycle of rumination",
+          "Prioritize physical activity and social engagement to interrupt ruminative cycles"
         ]
       }
     ],

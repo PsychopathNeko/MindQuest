@@ -177,13 +177,13 @@
         "max": 24,
         "level": "severe",
         "label": "Low Self-Compassion",
-        "description": "Your self-compassion level is low. You may be quite self-critical and have difficulty treating yourself with kindness during challenging times.",
+        "description": "Your self-compassion is quite low, suggesting a tendency toward self-criticism, isolation during difficult times, and over-identification with negative thoughts. Low self-compassion is associated with increased vulnerability to depression, anxiety, and burnout.",
         "suggestions": [
-          "Practice speaking to yourself as you would to a good friend",
-          "Recognize that suffering and imperfection are part of the shared human experience",
-          "Try self-compassion meditation or exercises",
-          "Consider reading about self-compassion",
-          "A therapist can help develop self-compassion skills"
+          "Practice self-compassion exercises from Kristin Neff’s work — try the self-compassion break meditation",
+          "Challenge your inner critic by asking ‘What would I say to a close friend in this situation?’",
+          "Explore Compassion-Focused Therapy (CFT) or Mindful Self-Compassion (MSC) programs",
+          "Practice self-kindness through physical gestures like placing a hand on your heart during difficult moments",
+          "Consider working with a therapist trained in self-compassion approaches"
         ]
       },
       {
@@ -191,12 +191,12 @@
         "max": 36,
         "level": "mild",
         "label": "Moderate Self-Compassion",
-        "description": "Your self-compassion is at a moderate level.",
+        "description": "Your self-compassion is at a moderate level. You show some ability to treat yourself kindly during difficulties but may still default to self-criticism under stress. Strengthening self-compassion skills can improve emotional resilience and well-being.",
         "suggestions": [
-          "Continue developing your self-compassion practice",
-          "Notice when you are being self-critical and try to reframe",
-          "Remind yourself that everyone makes mistakes",
-          "Practice mindfulness to observe your feelings without over-identifying"
+          "Practice loving-kindness meditation to cultivate warmth toward yourself and others",
+          "Notice self-critical thoughts and gently reframe them with self-compassion",
+          "Remind yourself that suffering and imperfection are shared human experiences",
+          "Try journaling about difficult experiences from a compassionate perspective"
         ]
       },
       {
@@ -204,11 +204,11 @@
         "max": 48,
         "level": "normal",
         "label": "Above Average Self-Compassion",
-        "description": "Your self-compassion is above average. You generally treat yourself with understanding and kindness.",
+        "description": "Your self-compassion is above average, indicating a healthy balance of self-kindness, common humanity, and mindful awareness during difficult times. This capacity helps buffer against stress and supports psychological flexibility.",
         "suggestions": [
-          "Continue maintaining your self-compassionate attitude",
-          "Share your self-compassion practices with others",
-          "Use your self-compassion as a resource during challenges"
+          "Maintain your self-compassion practices during challenging periods",
+          "Share self-compassion techniques with friends, family, or colleagues who might benefit",
+          "Continue developing mindfulness skills to support present-moment awareness"
         ]
       },
       {
@@ -216,11 +216,11 @@
         "max": 60,
         "level": "minimal",
         "label": "High Self-Compassion",
-        "description": "Your self-compassion level is high.",
+        "description": "Your self-compassion is very strong. You consistently treat yourself with kindness, recognize your struggles as part of the shared human experience, and maintain balanced awareness of your emotions. This is a significant protective factor for mental health.",
         "suggestions": [
-          "Continue your excellent self-compassion practice",
-          "Consider mentoring others in developing self-compassion",
-          "Your self-compassion is a valuable resource for well-being"
+          "Continue your self-compassion practices to sustain this valuable inner resource",
+          "Consider mentoring or teaching others about self-compassion",
+          "Use your strong self-compassion foundation to take on new challenges and growth opportunities"
         ]
       }
     ],

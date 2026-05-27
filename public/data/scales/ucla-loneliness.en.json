@@ -155,10 +155,11 @@
         "max": 34,
         "level": "low",
         "label": "Low Loneliness",
-        "description": "Your loneliness level is low. You appear to have satisfying social connections.",
+        "description": "Your loneliness score is low, indicating that you generally feel socially connected and satisfied with your relationships. You likely have meaningful bonds with others and do not frequently experience isolation or disconnection in daily life.",
         "suggestions": [
-          "Continue maintaining your social connections",
-          "Consider helping others who may feel lonely"
+          "Continue nurturing the relationships and social habits that contribute to your sense of connection",
+          "Consider reaching out to others who may be experiencing loneliness, as your support can make a meaningful difference",
+          "Stay engaged in community activities, clubs, or groups that align with your interests and values"
         ]
       },
       {
@@ -166,11 +167,13 @@
         "max": 49,
         "level": "moderate",
         "label": "Moderate Loneliness",
-        "description": "You have a moderate level of loneliness and may feel socially lacking in some areas.",
+        "description": "Your score indicates moderate loneliness. You may feel that some social needs are unmet or that connections lack the depth you desire. This is common and can be improved with intentional effort toward building meaningful relationships.",
         "suggestions": [
-          "Actively participate in social activities and interest groups",
-          "Cultivate deeper friendships",
-          "Consider community involvement such as volunteering"
+          "Actively seek opportunities to join social activities, interest groups, or community organizations where you can meet like-minded people",
+          "Focus on deepening existing friendships by initiating meaningful conversations and spending quality time together",
+          "Consider volunteering, as helping others often creates natural opportunities for social bonding and a sense of belonging",
+          "Practice reaching out to friends or family regularly, even when you do not feel like it, as social momentum builds over time",
+          "Reflect on whether any patterns of thinking or behavior may be contributing to feelings of disconnection"
         ]
       },
       {
@@ -178,11 +181,13 @@
         "max": 64,
         "level": "high",
         "label": "High Loneliness",
-        "description": "You have a high level of loneliness that may affect your mental health.",
+        "description": "Your score reflects high loneliness that may be affecting your emotional well-being, sleep, and mental health. Chronic loneliness at this level is associated with increased risk of depression and anxiety, and proactive intervention is important.",
         "suggestions": [
-          "Consider seeking counseling support",
-          "Try changing social patterns to increase meaningful social interactions",
-          "Social skills training may be helpful"
+          "Consider seeking professional counseling or therapy, as a therapist can help identify barriers to connection and develop social strategies",
+          "Explore structured social settings such as classes, support groups, or team activities where regular attendance fosters familiarity",
+          "Social skills training or assertiveness workshops can help if you find it difficult to initiate or maintain conversations",
+          "Limit excessive use of social media as a substitute for in-person interaction, as it can sometimes increase feelings of loneliness",
+          "Practice self-compassion and recognize that loneliness is a common human experience, not a personal failing"
         ]
       },
       {
@@ -190,11 +195,13 @@
         "max": 80,
         "level": "severe",
         "label": "Severe Loneliness",
-        "description": "You have severe loneliness that may significantly affect your physical and mental health.",
+        "description": "Your score indicates severe loneliness likely having significant impact on both mental and physical health. Prolonged loneliness is linked to depression, cardiovascular issues, and weakened immunity. Professional help is strongly recommended.",
         "suggestions": [
-          "Professional psychological help is strongly recommended",
-          "Loneliness can be improved through treatment",
-          "If experiencing depressive symptoms, attend to your emotional health as well"
+          "Seeking professional psychological help is strongly recommended, as severe loneliness often co-occurs with depression and anxiety that respond well to treatment",
+          "Cognitive-behavioral therapy can help challenge negative thought patterns about relationships and social interactions",
+          "If you are experiencing depressive symptoms alongside loneliness, please also address your emotional health with a clinician",
+          "Start with small, manageable social steps rather than overwhelming yourself with large social commitments",
+          "Crisis support is available if loneliness is causing thoughts of self-harm; contact the 988 Suicide and Crisis Lifeline"
         ]
       }
     ],

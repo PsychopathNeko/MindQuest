@@ -116,11 +116,11 @@
         "max": 8,
         "level": "severe",
         "label": "Pessimistic Orientation",
-        "description": "Your optimism level is low, tending toward a pessimistic outlook.",
+        "description": "Your score suggests a predominantly pessimistic outlook. You tend to expect negative outcomes and may have difficulty seeing positive possibilities in uncertain situations. While dispositional pessimism can serve as a form of self-protection, persistent pessimism is associated with poorer health outcomes and reduced well-being.",
         "suggestions": [
-          "Practice identifying and challenging negative thought patterns",
-          "Set small achievable goals to build confidence",
-          "Consider cognitive behavioral therapy"
+          "Consider practicing cognitive restructuring to identify and challenge habitually negative expectations",
+          "Engage in activities that build a sense of mastery and competence",
+          "Mindfulness practices can help you observe pessimistic thoughts without being controlled by them"
         ]
       },
       {
@@ -128,11 +128,11 @@
         "max": 16,
         "level": "moderate",
         "label": "Moderate Optimism",
-        "description": "Your optimism level is moderate.",
+        "description": "Your score indicates a moderate level of optimism. You have a balanced outlook, sometimes expecting positive outcomes and sometimes anticipating difficulties. This realistic perspective is common and can be adaptive.",
         "suggestions": [
-          "Continue developing positive thinking habits",
-          "Focus on the positive aspects of your life",
-          "Practice gratitude to enhance optimism"
+          "Continue maintaining your balanced perspective while cultivating positive expectations where possible",
+          "Practice gratitude exercises to strengthen your awareness of positive aspects in your life",
+          "Set achievable goals to build confidence and a sense of positive anticipation"
         ]
       },
       {
@@ -140,11 +140,11 @@
         "max": 24,
         "level": "minimal",
         "label": "Optimistic Orientation",
-        "description": "Your optimism level is high, generally maintaining a positive outlook.",
+        "description": "Your score suggests a predominantly optimistic outlook. You generally expect positive outcomes and tend to see the bright side of uncertain situations. Dispositional optimism is consistently associated with better physical health, greater resilience, and higher life satisfaction.",
         "suggestions": [
-          "Continue maintaining your optimistic mindset",
-          "Use your optimism as a strength when facing challenges",
-          "Maintain realistic yet positive expectations"
+          "Continue nurturing your optimistic outlook through positive social connections and meaningful activities",
+          "Your optimism is a valuable psychological resource; share it with others",
+          "Maintain realistic expectations alongside your positive outlook to make well-informed decisions"
         ]
       }
     ],

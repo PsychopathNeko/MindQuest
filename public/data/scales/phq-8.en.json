@@ -83,11 +83,11 @@
         "max": 4,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your depression score is within the normal range. No significant depressive symptoms detected.",
+        "description": "Your depression score is within the normal range, indicating no clinically significant depressive symptoms over the past two weeks. Your current emotional well-being appears stable and healthy.",
         "suggestions": [
-          "Continue maintaining a healthy lifestyle",
-          "Keep up regular exercise and social activities",
-          "Occasional mood fluctuations are normal; allow yourself time to relax"
+          "Continue your current healthy habits including regular physical activity and social engagement",
+          "Maintain a balanced lifestyle with adequate sleep, nutrition, and time for activities you enjoy",
+          "Remember that occasional mood fluctuations are normal and typically resolve on their own"
         ]
       },
       {
@@ -95,12 +95,12 @@
         "max": 9,
         "level": "mild",
         "label": "Mild Depression",
-        "description": "You may be experiencing some mild depressive symptoms that may slightly affect daily life.",
+        "description": "You may be experiencing mild depressive symptoms that could subtly affect your energy, motivation, or enjoyment of daily activities. These symptoms are common and often improve with proactive self-care and lifestyle adjustments.",
         "suggestions": [
-          "Practice self-care and maintain a regular sleep schedule and exercise routine",
-          "Try talking to a trusted friend or family member",
-          "Learn some relaxation and stress-reduction techniques",
-          "If symptoms persist, consider consulting a professional"
+          "Prioritize self-care by keeping a regular sleep schedule and incorporating daily physical activity into your routine",
+          "Reach out to a trusted friend or family member to share how you have been feeling",
+          "Practice stress reduction techniques such as mindfulness meditation, progressive muscle relaxation, or gentle yoga",
+          "If symptoms persist or worsen over the next few weeks, consider consulting a healthcare professional for guidance"
         ]
       },
       {
@@ -108,13 +108,13 @@
         "max": 14,
         "level": "moderate",
         "label": "Moderate Depression",
-        "description": "Your depressive symptoms are at a moderate level and may affect work, social life, and daily activities.",
+        "description": "Your depressive symptoms are at a moderate level and may be noticeably affecting your ability to function at work, maintain relationships, and manage daily responsibilities. Professional evaluation is advisable.",
         "suggestions": [
-          "Consider consulting a counselor or psychiatrist soon",
-          "Maintain a regular daily routine",
-          "Try physical exercise at least 3 times per week",
-          "Avoid alcohol and unhealthy coping strategies",
-          "Consider psychotherapy (e.g., cognitive behavioral therapy)"
+          "Schedule an appointment with a mental health professional such as a therapist, counselor, or psychiatrist for evaluation",
+          "Establish and maintain a consistent daily routine to provide structure and a sense of accomplishment",
+          "Aim for regular physical exercise, which has well-documented benefits for improving depressive symptoms",
+          "Avoid relying on alcohol, caffeine, or other substances to manage your mood, as they often worsen symptoms",
+          "Consider evidence-based treatments such as cognitive behavioral therapy, which is highly effective for depression"
         ]
       },
       {
@@ -122,12 +122,12 @@
         "max": 19,
         "level": "severe",
         "label": "Moderately Severe Depression",
-        "description": "Your depressive symptoms are quite severe. Daily functioning may be significantly affected. Please seek professional help.",
+        "description": "Your depressive symptoms are at a moderately severe level, likely causing significant impairment in your daily life, work, and personal relationships. Professional treatment is strongly recommended to support your recovery.",
         "suggestions": [
-          "Strongly recommended to seek medical attention from a psychiatrist",
-          "Medication combined with psychotherapy may be needed",
-          "Ensure you have a trusted support person nearby",
-          "Avoid being alone; stay connected with others"
+          "Consult a psychiatrist or mental health professional promptly, as this level of symptoms typically requires professional intervention",
+          "A combined approach of medication and psychotherapy is often most effective for moderately severe depression",
+          "Ensure you have at least one trusted person in your support network who knows how you are feeling",
+          "Try to maintain social connections even when you feel like withdrawing, as isolation tends to worsen depression"
         ]
       },
       {
@@ -135,12 +135,13 @@
         "max": 24,
         "level": "severe",
         "label": "Severe Depression",
-        "description": "Your depressive symptoms are very severe and may seriously affect daily functioning and quality of life. Please seek immediate professional help.",
+        "description": "Your depressive symptoms are very severe and are likely causing major disruption to your daily functioning and overall quality of life. Immediate professional evaluation and treatment are strongly recommended.",
         "suggestions": [
-          "Please contact a psychiatrist or visit a hospital immediately",
-          "If you have thoughts of self-harm, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
-          "Do not stay alone; inform family or friends of your situation",
-          "Follow professional treatment plans and take medications as prescribed"
+          "Please contact a mental health professional or visit a healthcare facility as soon as possible for urgent assessment",
+          "If you experience any thoughts of self-harm, reach out to a crisis helpline such as the 988 Lifeline immediately",
+          "Inform a trusted family member or friend about your situation so they can provide immediate support",
+          "Adhere closely to any treatment plans recommended by your healthcare providers, including prescribed medications",
+          "Understand that severe depression is a medical condition that responds well to treatment, and improvement is achievable"
         ]
       }
     ],

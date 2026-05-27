@@ -79,11 +79,11 @@
         "max": 0,
         "level": "minimal",
         "label": "No Problems Reported",
-        "description": "Your responses do not indicate any drug-related problems.",
+        "description": "Your DAST-10 score indicates no drug-related problems over the past 12 months. Your responses suggest that you are not currently involved in problematic drug use and are maintaining a healthy, substance-free lifestyle.",
         "suggestions": [
-          "Continue to maintain a drug-free lifestyle",
-          "Stay informed about the risks of drug use",
-          "Support friends or family members who may be struggling"
+          "Continue maintaining your current drug-free or responsible lifestyle choices",
+          "Stay informed about the health risks and legal consequences of recreational drug use",
+          "Be a supportive presence for friends or family members who may be struggling with substance use"
         ]
       },
       {
@@ -91,11 +91,12 @@
         "max": 2,
         "level": "mild",
         "label": "Low Level",
-        "description": "Your responses suggest a low level of drug-related problems. Monitoring is recommended.",
+        "description": "Your score suggests a low level of drug-related problems. While not currently severe, these early indicators show that drug use may be beginning to affect certain areas of your life. Continued self-monitoring and awareness are advisable.",
         "suggestions": [
-          "Be aware of your drug use patterns and their consequences",
-          "Consider discussing your drug use with a healthcare provider",
-          "Learn about healthy coping strategies for stress"
+          "Pay close attention to your drug use patterns and honestly assess whether they are increasing over time",
+          "Consider discussing your substance use openly with a healthcare provider at your next visit",
+          "Develop and practice healthy coping strategies for stress, boredom, and emotional difficulties",
+          "Educate yourself about the risks of escalation from occasional to regular drug use"
         ]
       },
       {
@@ -103,12 +104,13 @@
         "max": 5,
         "level": "moderate",
         "label": "Moderate Level",
-        "description": "Your responses suggest a moderate level of drug-related problems. Professional evaluation is recommended.",
+        "description": "Your score indicates a moderate level of drug-related problems that may be affecting your health, relationships, or daily responsibilities. A professional evaluation is recommended to assess whether a substance use disorder may be developing.",
         "suggestions": [
-          "Consider seeking a professional assessment for drug use",
-          "Explore counseling or therapy options",
-          "Identify triggers and develop alternative coping strategies",
-          "Talk to someone you trust about your concerns"
+          "Schedule an appointment with a healthcare provider or addiction specialist for a comprehensive substance use assessment",
+          "Explore counseling or therapy options that specialize in substance use, such as cognitive behavioral therapy",
+          "Identify the specific triggers, situations, and emotional states that lead you to use drugs and develop alternative responses",
+          "Talk to someone you trust about your concerns, as social support is a key factor in successful behavior change",
+          "Consider attending a support group to connect with others who understand what you are going through"
         ]
       },
       {
@@ -116,12 +118,12 @@
         "max": 8,
         "level": "severe",
         "label": "Substantial Level",
-        "description": "Your responses suggest a substantial level of drug-related problems. Intensive assessment and intervention are strongly recommended.",
+        "description": "Your score suggests a substantial level of drug-related problems consistent with a possible substance use disorder. Drug use at this level is likely causing significant harm to your physical health, mental well-being, and daily functioning.",
         "suggestions": [
-          "Seek professional treatment for drug use as soon as possible",
-          "Consider an intensive outpatient or inpatient treatment program",
-          "Inform trusted family members or friends for support",
-          "Avoid situations and people that trigger drug use"
+          "Seek professional treatment for substance use as soon as possible from an addiction medicine specialist or treatment center",
+          "Consider enrolling in an intensive outpatient program or residential treatment program depending on your situation",
+          "Inform trusted family members or close friends about your situation so they can provide accountability and support",
+          "Avoid people, places, and situations that trigger or facilitate your drug use"
         ]
       },
       {
@@ -129,12 +131,13 @@
         "max": 10,
         "level": "severe",
         "label": "Severe Level",
-        "description": "Your responses suggest a severe level of drug-related problems. Immediate professional intervention is necessary.",
+        "description": "Your score indicates a severe level of drug-related problems strongly suggestive of drug dependence. Immediate professional intervention is essential, as continued use at this level poses serious risks to your health, safety, and overall well-being.",
         "suggestions": [
-          "Seek immediate professional help for drug dependence",
-          "Contact an addiction treatment center or hospital",
-          "Do not attempt to stop suddenly without medical supervision",
-          "Reach out to crisis hotlines if you are in distress"
+          "Seek immediate professional help from an addiction treatment center, hospital emergency department, or your primary care provider",
+          "Do not attempt to stop using drugs suddenly on your own, as withdrawal from certain substances can be medically dangerous without supervision",
+          "Contact the SAMHSA National Helpline at 1-800-662-4357 for free confidential treatment referrals available 24/7",
+          "Let trusted family members or friends know about your situation so they can help you access and stay in treatment",
+          "Remember that substance use disorders are medical conditions and recovery is possible with proper professional support"
         ]
       }
     ],

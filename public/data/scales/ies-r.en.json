@@ -201,11 +201,11 @@
         "max": 23,
         "level": "normal",
         "label": "Normal Range",
-        "description": "Your score is within the normal range, suggesting that the event has not caused significant ongoing psychological distress.",
+        "description": "Your score indicates no clinically significant post-traumatic distress. The event does not appear to be causing ongoing psychological disruption to your daily life or emotional well-being.",
         "suggestions": [
-          "Continue maintaining healthy coping strategies",
-          "Allow yourself to process the experience at your own pace",
-          "Stay connected with supportive people in your life"
+          "Continue using your current healthy coping strategies to process the experience",
+          "Allow yourself to work through the event at a comfortable pace without pressure",
+          "Stay connected with supportive friends and family members"
         ]
       },
       {
@@ -213,12 +213,12 @@
         "max": 32,
         "level": "mild",
         "label": "Mild Impact",
-        "description": "Your score suggests some degree of post-traumatic distress that may warrant attention.",
+        "description": "Your score suggests mild post-traumatic distress that may benefit from monitoring. Some intrusive thoughts, avoidance behaviors, or heightened arousal related to the event may be present.",
         "suggestions": [
-          "Monitor your symptoms over the coming weeks",
-          "Practice stress management and self-care routines",
-          "Talk to someone you trust about your experiences",
-          "Consider consulting a mental health professional if symptoms persist"
+          "Monitor your symptoms over the next several weeks to track any changes in frequency or intensity",
+          "Incorporate regular self-care routines including adequate sleep, exercise, and relaxation practices",
+          "Talk openly with someone you trust about your experiences and feelings",
+          "Consider consulting a mental health professional if symptoms persist or worsen over time"
         ]
       },
       {
@@ -226,12 +226,13 @@
         "max": 36,
         "level": "moderate",
         "label": "Moderate Impact",
-        "description": "Your score indicates moderate post-traumatic distress. The event is having a notable impact on your well-being.",
+        "description": "Your score reflects moderate post-traumatic distress with a notable impact on your well-being. Intrusive memories, avoidance patterns, and hyperarousal symptoms may be interfering with daily functioning.",
         "suggestions": [
-          "Seek support from a mental health professional",
-          "Practice grounding and relaxation techniques",
-          "Maintain regular routines for sleep and daily activities",
-          "Avoid isolating yourself; stay connected with others"
+          "Seek support from a qualified mental health professional experienced in trauma treatment",
+          "Practice grounding techniques such as deep breathing, progressive muscle relaxation, or the 5-4-3-2-1 sensory exercise",
+          "Maintain consistent daily routines for sleep, meals, and physical activity to provide stability",
+          "Avoid isolating yourself and make intentional efforts to stay socially connected",
+          "Limit exposure to triggering content in media or conversations when possible"
         ]
       },
       {
@@ -239,12 +240,13 @@
         "max": 88,
         "level": "severe",
         "label": "Severe Impact",
-        "description": "Your score indicates severe post-traumatic distress significantly affecting your psychological well-being and daily functioning.",
+        "description": "Your score indicates severe post-traumatic distress that is significantly affecting your psychological functioning. This level of symptoms is consistent with a possible PTSD diagnosis requiring professional evaluation.",
         "suggestions": [
-          "Please seek professional help from a trauma-specialized therapist",
-          "If you are in crisis, contact a crisis helpline (e.g., 988 Suicide & Crisis Lifeline)",
-          "Create a safety plan for managing intense distress",
-          "Follow professional treatment recommendations closely"
+          "Please seek professional help from a therapist specializing in trauma-focused treatments such as EMDR or CPT",
+          "If you are in crisis, contact a crisis helpline immediately (e.g., 988 Suicide and Crisis Lifeline)",
+          "Develop a safety plan with a professional for managing episodes of intense distress",
+          "Follow through consistently with professional treatment recommendations and scheduled appointments",
+          "Reach out to trusted individuals who can provide immediate emotional support during difficult moments"
         ]
       }
     ],
@@ -255,28 +257,28 @@
           "max": 8,
           "level": "normal",
           "label": "Low",
-          "description": "Intrusion symptoms are within the normal range."
+          "description": "Intrusive re-experiencing symptoms are within the normal range. You are not significantly troubled by unwanted memories, flashbacks, or distressing dreams related to the event."
         },
         {
           "min": 9,
           "max": 16,
           "level": "mild",
           "label": "Mild",
-          "description": "Some intrusive thoughts, memories, or dreams related to the event."
+          "description": "You are experiencing mild intrusion symptoms. Occasional unwanted thoughts, memories, or dreams about the event may surface but remain manageable in daily life."
         },
         {
           "min": 17,
           "max": 24,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Notable intrusive symptoms that may disrupt daily life."
+          "description": "Intrusion symptoms are at a moderate level and may be disrupting your concentration, sleep, or emotional stability. Flashbacks or vivid memories of the event may occur with notable frequency."
         },
         {
           "min": 25,
           "max": 32,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe intrusion symptoms significantly impacting functioning."
+          "description": "Severe intrusion symptoms are significantly impairing your functioning. Persistent unwanted memories, intense flashbacks, and distressing nightmares may dominate your daily experience."
         }
       ],
       "avoidance": [
@@ -285,28 +287,28 @@
           "max": 8,
           "level": "normal",
           "label": "Low",
-          "description": "Avoidance symptoms are within the normal range."
+          "description": "Avoidance symptoms are within the normal range. You are not significantly restricting your activities or suppressing thoughts and feelings related to the traumatic event."
         },
         {
           "min": 9,
           "max": 16,
           "level": "mild",
           "label": "Mild",
-          "description": "Some avoidance of reminders related to the event."
+          "description": "You show mild avoidance patterns. You may occasionally steer away from reminders, conversations, or places associated with the event, but this does not substantially limit your life."
         },
         {
           "min": 17,
           "max": 24,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Notable avoidance patterns that may limit activities."
+          "description": "Avoidance behaviors are at a moderate level and may be limiting your activities and social engagement. You may actively avoid situations, people, or feelings connected to the event."
         },
         {
           "min": 25,
           "max": 32,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe avoidance significantly restricting daily life."
+          "description": "Severe avoidance is significantly restricting your daily life and relationships. Extensive efforts to avoid trauma-related thoughts, feelings, and situations may be narrowing your world considerably."
         }
       ],
       "hyperarousal": [
@@ -315,28 +317,28 @@
           "max": 6,
           "level": "normal",
           "label": "Low",
-          "description": "Hyperarousal symptoms are within the normal range."
+          "description": "Hyperarousal symptoms are within the normal range. Your sleep, concentration, and startle responses do not appear to be significantly affected by the traumatic event."
         },
         {
           "min": 7,
           "max": 12,
           "level": "mild",
           "label": "Mild",
-          "description": "Some hyperarousal symptoms such as difficulty sleeping or irritability."
+          "description": "You are experiencing mild hyperarousal symptoms. Occasional sleep difficulties, irritability, or heightened vigilance may be present but remain at a manageable level."
         },
         {
           "min": 13,
           "max": 18,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Notable hyperarousal affecting daily functioning."
+          "description": "Hyperarousal symptoms are at a moderate level and may be noticeably affecting your daily functioning. Persistent irritability, concentration problems, and exaggerated startle responses are likely."
         },
         {
           "min": 19,
           "max": 24,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe hyperarousal symptoms."
+          "description": "Severe hyperarousal symptoms are substantially impairing your daily life. Chronic sleep disturbance, intense irritability, hypervigilance, and exaggerated startle reactions require professional intervention."
         }
       ]
     }
@@ -375,5 +377,9 @@
         }
       ]
     }
+  },
+  "crisisConfig": {
+    "type": "level",
+    "levelThreshold": "severe"
   }
 }

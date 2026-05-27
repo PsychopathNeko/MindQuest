@@ -180,10 +180,11 @@
         "max": 32,
         "level": "minimal",
         "label": "Low Difficulty",
-        "description": "You have low difficulty in emotion regulation. You generally manage your emotions effectively.",
+        "description": "Your emotion regulation abilities are well-developed. You generally manage intense feelings effectively, maintain behavioral control during distress, and recover from emotional upsets without significant disruption to daily functioning.",
         "suggestions": [
-          "Continue maintaining your emotion regulation skills",
-          "Your emotional resilience is a valuable asset in daily life"
+          "Continue maintaining your effective emotion regulation skills through regular self-reflection",
+          "Your emotional resilience is a valuable asset; keep nurturing it through healthy habits",
+          "Consider sharing your coping strategies with others who may benefit from your experience"
         ]
       },
       {
@@ -191,12 +192,12 @@
         "max": 48,
         "level": "mild",
         "label": "Moderate Difficulty",
-        "description": "You have moderate difficulty in emotion regulation. You may sometimes struggle to manage intense emotions effectively.",
+        "description": "You experience moderate difficulty regulating emotions. Intense feelings may occasionally overwhelm your coping resources, leading to temporary disruptions in concentration, goal-directed behavior, or interpersonal interactions.",
         "suggestions": [
-          "Practice mindfulness to increase emotional awareness",
-          "Learn about cognitive reappraisal strategies",
-          "Regular exercise can help improve emotional regulation",
-          "Consider journaling to better understand your emotional patterns"
+          "Practice mindfulness meditation regularly to increase awareness of emotional states as they arise",
+          "Learn cognitive reappraisal strategies to reframe distressing situations more constructively",
+          "Regular aerobic exercise has strong evidence for improving emotional regulation capacity",
+          "Consider journaling daily to identify patterns in your emotional triggers and reactions"
         ]
       },
       {
@@ -204,12 +205,13 @@
         "max": 64,
         "level": "moderate",
         "label": "High Difficulty",
-        "description": "You have high difficulty in emotion regulation. Intense emotions may significantly interfere with your daily functioning and well-being.",
+        "description": "You have high difficulty managing emotions. Intense emotional episodes may frequently interfere with your ability to complete tasks, maintain relationships, and sustain psychological well-being across multiple life domains.",
         "suggestions": [
-          "Consider seeking professional support from a therapist",
-          "Dialectical Behavior Therapy (DBT) skills can be very helpful",
-          "Practice distress tolerance techniques during intense emotions",
-          "Build a support network you can reach out to when overwhelmed"
+          "Consulting a therapist trained in emotion regulation approaches is recommended at this level",
+          "Dialectical Behavior Therapy skills for distress tolerance and emotion regulation can be highly effective",
+          "Practice grounding techniques such as the 5-4-3-2-1 sensory exercise during emotional overwhelm",
+          "Build a reliable support network of people you can reach out to when feeling emotionally overwhelmed",
+          "Develop a personalized emotion regulation plan with both preventive and in-the-moment strategies"
         ]
       },
       {
@@ -217,12 +219,12 @@
         "max": 80,
         "level": "severe",
         "label": "Very High Difficulty",
-        "description": "You have very high difficulty in emotion regulation. This level of difficulty may substantially impact your relationships, work, and overall quality of life.",
+        "description": "You report very high difficulty with emotion regulation. This degree of dysregulation likely has substantial negative impact on your relationships, occupational functioning, self-image, and overall quality of life.",
         "suggestions": [
-          "Strongly recommended to seek professional therapy",
-          "DBT or emotion-focused therapy can be highly effective",
-          "Develop a safety plan for times of extreme emotional distress",
-          "Consistent therapeutic support can lead to significant improvement"
+          "Seeking professional therapy from a licensed mental health provider is strongly recommended",
+          "Dialectical Behavior Therapy or emotion-focused therapy can produce significant improvements",
+          "Develop a safety plan with a therapist for managing episodes of extreme emotional distress",
+          "Consistent, ongoing therapeutic support offers the best path toward meaningful and lasting improvement"
         ]
       }
     ],

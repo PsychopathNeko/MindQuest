@@ -160,10 +160,11 @@
         "max": 40,
         "level": "minimal",
         "label": "Low Procrastination",
-        "description": "Your procrastination tendency is low. You manage your time and complete tasks effectively.",
+        "description": "Your procrastination tendency is low. You demonstrate strong self-regulation, consistently initiate tasks in a timely manner, and manage deadlines effectively across personal and professional responsibilities.",
         "suggestions": [
-          "Continue maintaining your good time management habits",
-          "Consider sharing your self-discipline strategies with others"
+          "Continue maintaining your excellent time management and self-discipline habits",
+          "Consider mentoring others who struggle with procrastination using your effective strategies",
+          "Stay mindful during high-stress periods when even disciplined individuals may slip temporarily"
         ]
       },
       {
@@ -171,12 +172,12 @@
         "max": 60,
         "level": "mild",
         "label": "Moderate Procrastination",
-        "description": "You show some degree of procrastination behavior that occasionally affects your efficiency.",
+        "description": "You show a moderate procrastination pattern that occasionally delays task completion and reduces productivity. While not severely impairing, this tendency may cause unnecessary stress and missed opportunities.",
         "suggestions": [
-          "Try breaking large tasks into smaller steps",
-          "Use the Pomodoro Technique to improve focus",
-          "Set specific deadlines for yourself",
-          "Reduce environmental distractions"
+          "Break large or overwhelming tasks into smaller, concrete action steps with specific deadlines",
+          "Use the Pomodoro Technique or similar time-blocking methods to sustain focused work sessions",
+          "Set personal deadlines that precede actual deadlines to create a buffer against delays",
+          "Reduce environmental distractions by creating a dedicated, organized workspace for focused tasks"
         ]
       },
       {
@@ -184,12 +185,13 @@
         "max": 80,
         "level": "moderate",
         "label": "High Procrastination",
-        "description": "Your procrastination behavior is quite noticeable and likely affects your work, studies, and daily life frequently.",
+        "description": "Your procrastination pattern is pronounced and likely affects your work performance, academic outcomes, and daily responsibilities on a regular basis. Chronic delay may erode self-confidence and increase anxiety.",
         "suggestions": [
-          "Consider using task management tools (such as to-do lists)",
-          "Find an accountability partner for mutual support",
-          "Explore the psychological reasons behind your procrastination (e.g., perfectionism, fear of failure)",
-          "Consider seeking professional counseling"
+          "Use task management tools such as structured to-do lists or digital planners to track commitments",
+          "Find an accountability partner who can provide regular check-ins and mutual encouragement",
+          "Explore the psychological drivers behind your procrastination, such as perfectionism or fear of failure",
+          "Consider cognitive-behavioral counseling focused specifically on procrastination and avoidance patterns",
+          "Practice self-compassion rather than self-criticism when you notice procrastination tendencies arising"
         ]
       },
       {
@@ -197,12 +199,12 @@
         "max": 100,
         "level": "severe",
         "label": "Severe Procrastination",
-        "description": "Your procrastination problem is very serious and likely has significant negative impacts on your work, relationships, and self-esteem.",
+        "description": "Your procrastination is severe and pervasive. This level of chronic avoidance likely causes significant harm to your career, relationships, finances, and self-esteem, warranting professional intervention.",
         "suggestions": [
-          "Strongly recommend seeking help from a mental health professional",
-          "Cognitive Behavioral Therapy (CBT) is highly effective for procrastination",
-          "Start with the smallest tasks to gradually build confidence in task completion",
-          "Pay attention to the emotional burden of procrastination and practice self-compassion"
+          "Seeking help from a mental health professional experienced with procrastination is strongly recommended",
+          "Cognitive Behavioral Therapy has demonstrated strong effectiveness for chronic procrastination patterns",
+          "Start with the smallest possible task step to gradually rebuild your confidence in task completion",
+          "Address the emotional burden of procrastination with self-compassion and structured professional support"
         ]
       }
     ],

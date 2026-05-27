@@ -1,0 +1,586 @@
+{
+  "ders-16": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 32,
+        "level": "minimal",
+        "label": "Low Difficulty",
+        "description": "Your emotion regulation abilities are well-developed. You generally manage intense feelings effectively, maintain behavioral control during distress, and recover from emotional upsets without significant disruption to daily functioning.",
+        "suggestions": [
+          "Continue maintaining your effective emotion regulation skills through regular self-reflection",
+          "Your emotional resilience is a valuable asset; keep nurturing it through healthy habits",
+          "Consider sharing your coping strategies with others who may benefit from your experience"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 48,
+        "level": "mild",
+        "label": "Moderate Difficulty",
+        "description": "You experience moderate difficulty regulating emotions. Intense feelings may occasionally overwhelm your coping resources, leading to temporary disruptions in concentration, goal-directed behavior, or interpersonal interactions.",
+        "suggestions": [
+          "Practice mindfulness meditation regularly to increase awareness of emotional states as they arise",
+          "Learn cognitive reappraisal strategies to reframe distressing situations more constructively",
+          "Regular aerobic exercise has strong evidence for improving emotional regulation capacity",
+          "Consider journaling daily to identify patterns in your emotional triggers and reactions"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 64,
+        "level": "moderate",
+        "label": "High Difficulty",
+        "description": "You have high difficulty managing emotions. Intense emotional episodes may frequently interfere with your ability to complete tasks, maintain relationships, and sustain psychological well-being across multiple life domains.",
+        "suggestions": [
+          "Consulting a therapist trained in emotion regulation approaches is recommended at this level",
+          "Dialectical Behavior Therapy skills for distress tolerance and emotion regulation can be highly effective",
+          "Practice grounding techniques such as the 5-4-3-2-1 sensory exercise during emotional overwhelm",
+          "Build a reliable support network of people you can reach out to when feeling emotionally overwhelmed",
+          "Develop a personalized emotion regulation plan with both preventive and in-the-moment strategies"
+        ]
+      },
+      {
+        "min": 65,
+        "max": 80,
+        "level": "severe",
+        "label": "Very High Difficulty",
+        "description": "You report very high difficulty with emotion regulation. This degree of dysregulation likely has substantial negative impact on your relationships, occupational functioning, self-image, and overall quality of life.",
+        "suggestions": [
+          "Seeking professional therapy from a licensed mental health provider is strongly recommended",
+          "Dialectical Behavior Therapy or emotion-focused therapy can produce significant improvements",
+          "Develop a safety plan with a therapist for managing episodes of extreme emotional distress",
+          "Consistent, ongoing therapeutic support offers the best path toward meaningful and lasting improvement"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "clarity": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "minimal",
+          "label": "High Clarity",
+          "description": "Good understanding of your emotions."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average Clarity",
+          "description": "Sometimes difficulty making sense of feelings."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "severe",
+          "label": "Low Clarity",
+          "description": "Significant difficulty understanding your emotions."
+        }
+      ],
+      "goals": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "Low Impact",
+          "description": "Emotions minimally affect goal-directed behavior."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "normal",
+          "label": "Moderate Impact",
+          "description": "Emotions sometimes interfere with getting things done."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "severe",
+          "label": "High Impact",
+          "description": "Emotions severely impair task completion and focus."
+        }
+      ],
+      "impulse": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "Good Control",
+          "description": "Maintains behavioral control when upset."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "normal",
+          "label": "Average Control",
+          "description": "Sometimes difficulty controlling behaviors when upset."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "severe",
+          "label": "Poor Control",
+          "description": "Significant difficulty controlling behavior when emotionally upset."
+        }
+      ],
+      "nonacceptance": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "High Acceptance",
+          "description": "Can accept emotional reactions without self-judgment."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "normal",
+          "label": "Average Acceptance",
+          "description": "Sometimes self-critical about emotional reactions."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "severe",
+          "label": "Low Acceptance",
+          "description": "Strong secondary negative reactions to own emotions."
+        }
+      ],
+      "strategies": [
+        {
+          "min": 5,
+          "max": 10,
+          "level": "minimal",
+          "label": "Rich Strategies",
+          "description": "Multiple effective emotion regulation strategies available."
+        },
+        {
+          "min": 11,
+          "max": 17,
+          "level": "normal",
+          "label": "Average Strategies",
+          "description": "Some strategies available but may feel stuck at times."
+        },
+        {
+          "min": 18,
+          "max": 25,
+          "level": "severe",
+          "label": "Limited Strategies",
+          "description": "Lacks effective coping strategies when emotionally distressed."
+        }
+      ]
+    }
+  },
+  "des-ii": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 22,
+        "level": "minimal",
+        "label": "Normal Range",
+        "description": "Your dissociative experiences fall within the normal range. Most people occasionally experience brief moments of absorption, daydreaming, or automatic behavior that are entirely typical and not clinically significant.",
+        "suggestions": [
+          "These occasional dissociative experiences are a normal part of human cognition and attention",
+          "If certain experiences feel bothersome, note when and where they occur for self-awareness",
+          "Maintaining good sleep hygiene and stress management supports continued mental clarity"
+        ]
+      },
+      {
+        "min": 23,
+        "max": 44,
+        "level": "mild",
+        "label": "Mild Dissociative Experiences",
+        "description": "Your dissociative experiences are mildly elevated above the population average. This may relate to ongoing stress, sleep deprivation, or anxiety, and warrants some self-monitoring to track changes over time.",
+        "suggestions": [
+          "Monitor your stress levels and sleep quality, as both strongly influence dissociative experiences",
+          "Practice grounding and mindfulness exercises to strengthen present-moment awareness daily",
+          "Identify situations or triggers that seem to precede dissociative episodes for better self-understanding",
+          "If these experiences are increasing or affecting daily functioning, consult a mental health professional"
+        ]
+      },
+      {
+        "min": 45,
+        "max": 67,
+        "level": "moderate",
+        "label": "Moderate Dissociative Experiences",
+        "description": "Your dissociative experience frequency is clinically elevated and may indicate a dissociative disorder or related condition such as PTSD. A comprehensive professional evaluation is recommended to clarify the pattern.",
+        "suggestions": [
+          "A professional evaluation by a clinician experienced with dissociative disorders is recommended",
+          "Learn about dissociative symptoms to better understand and communicate your experiences to others",
+          "Practice grounding techniques such as the 5-4-3-2-1 sensory exercise when feeling disconnected",
+          "Maintain regular daily routines and minimize controllable stressors to reduce dissociative episodes",
+          "Consider trauma-informed therapy approaches if your dissociation is linked to past traumatic events"
+        ]
+      },
+      {
+        "min": 68,
+        "max": 112,
+        "level": "severe",
+        "label": "Significant Dissociative Experiences",
+        "description": "You report frequent and significant dissociative experiences. Scores at this level are strongly associated with dissociative disorders, complex PTSD, and related conditions requiring comprehensive clinical assessment.",
+        "suggestions": [
+          "A thorough psychiatric or psychological evaluation by a dissociation specialist is strongly recommended",
+          "Dissociation often has roots in early traumatic experiences; trauma-focused therapy can be very effective",
+          "Develop a safety plan with your clinician for managing severe dissociative episodes in daily life",
+          "Do not underestimate the impact of these experiences on your safety, relationships, and daily functioning"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "amnesia": [
+        {
+          "min": 0,
+          "max": 7,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low amnesia-related dissociative experiences."
+        },
+        {
+          "min": 8,
+          "max": 14,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some amnesia-related dissociative experiences present."
+        },
+        {
+          "min": 15,
+          "max": 28,
+          "level": "moderate",
+          "label": "High",
+          "description": "Frequent amnesia-related dissociative experiences. Attention recommended."
+        }
+      ],
+      "depersonalization": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Few depersonalization/derealization experiences."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some depersonalization or derealization experiences."
+        },
+        {
+          "min": 13,
+          "max": 24,
+          "level": "moderate",
+          "label": "High",
+          "description": "Frequent depersonalization/derealization experiences. Professional evaluation recommended."
+        }
+      ],
+      "absorption": [
+        {
+          "min": 0,
+          "max": 8,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low absorption/imaginative involvement experiences."
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some absorption or imaginative involvement experiences."
+        },
+        {
+          "min": 17,
+          "max": 32,
+          "level": "moderate",
+          "label": "High",
+          "description": "Frequent absorption/imaginative involvement experiences."
+        }
+      ]
+    }
+  },
+  "gps": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 40,
+        "level": "minimal",
+        "label": "Low Procrastination",
+        "description": "Your procrastination tendency is low. You demonstrate strong self-regulation, consistently initiate tasks in a timely manner, and manage deadlines effectively across personal and professional responsibilities.",
+        "suggestions": [
+          "Continue maintaining your excellent time management and self-discipline habits",
+          "Consider mentoring others who struggle with procrastination using your effective strategies",
+          "Stay mindful during high-stress periods when even disciplined individuals may slip temporarily"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 60,
+        "level": "mild",
+        "label": "Moderate Procrastination",
+        "description": "You show a moderate procrastination pattern that occasionally delays task completion and reduces productivity. While not severely impairing, this tendency may cause unnecessary stress and missed opportunities.",
+        "suggestions": [
+          "Break large or overwhelming tasks into smaller, concrete action steps with specific deadlines",
+          "Use the Pomodoro Technique or similar time-blocking methods to sustain focused work sessions",
+          "Set personal deadlines that precede actual deadlines to create a buffer against delays",
+          "Reduce environmental distractions by creating a dedicated, organized workspace for focused tasks"
+        ]
+      },
+      {
+        "min": 61,
+        "max": 80,
+        "level": "moderate",
+        "label": "High Procrastination",
+        "description": "Your procrastination pattern is pronounced and likely affects your work performance, academic outcomes, and daily responsibilities on a regular basis. Chronic delay may erode self-confidence and increase anxiety.",
+        "suggestions": [
+          "Use task management tools such as structured to-do lists or digital planners to track commitments",
+          "Find an accountability partner who can provide regular check-ins and mutual encouragement",
+          "Explore the psychological drivers behind your procrastination, such as perfectionism or fear of failure",
+          "Consider cognitive-behavioral counseling focused specifically on procrastination and avoidance patterns",
+          "Practice self-compassion rather than self-criticism when you notice procrastination tendencies arising"
+        ]
+      },
+      {
+        "min": 81,
+        "max": 100,
+        "level": "severe",
+        "label": "Severe Procrastination",
+        "description": "Your procrastination is severe and pervasive. This level of chronic avoidance likely causes significant harm to your career, relationships, finances, and self-esteem, warranting professional intervention.",
+        "suggestions": [
+          "Seeking help from a mental health professional experienced with procrastination is strongly recommended",
+          "Cognitive Behavioral Therapy has demonstrated strong effectiveness for chronic procrastination patterns",
+          "Start with the smallest possible task step to gradually rebuild your confidence in task completion",
+          "Address the emotional burden of procrastination with self-compassion and structured professional support"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "hrs-sr": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "No Hoarding Problems",
+        "description": "Your hoarding behaviors fall within the normal range. You demonstrate typical patterns of acquiring, organizing, and discarding possessions without significant difficulty or distress related to these activities.",
+        "suggestions": [
+          "Maintain your regular habits of organizing and periodically reviewing belongings",
+          "Mild reluctance to discard certain sentimental items is entirely normal and expected",
+          "Continue practicing thoughtful acquisition habits to prevent future accumulation issues"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 17,
+        "level": "mild",
+        "label": "Mild Hoarding",
+        "description": "You show mild hoarding tendencies including some difficulty discarding items or mild clutter. While not yet significantly impairing daily life, these patterns may gradually worsen without proactive management.",
+        "suggestions": [
+          "Establish regular decluttering routines, such as reviewing one area of your home each week",
+          "Before purchasing items, pause and evaluate whether you genuinely need and will use them",
+          "Practice the one-in-one-out rule: remove an existing item whenever you acquire something new",
+          "If difficulties increase over time, consider consulting a professional before patterns solidify"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 26,
+        "level": "moderate",
+        "label": "Moderate Hoarding",
+        "description": "Your hoarding behavior has reached clinically significant levels. Clutter, difficulty discarding, or excessive acquisition likely affects your living space, daily routines, and may cause notable emotional distress.",
+        "suggestions": [
+          "Consulting a mental health professional experienced with hoarding disorder is recommended",
+          "Cognitive Behavioral Therapy specifically adapted for hoarding has strong evidence of effectiveness",
+          "Address clutter gradually by clearing small areas rather than attempting overwhelming large-scale cleanouts",
+          "Educate yourself about hoarding disorder to better understand the psychological mechanisms involved",
+          "Seek understanding and practical support from trusted family members or friends during the process"
+        ]
+      },
+      {
+        "min": 27,
+        "max": 40,
+        "level": "severe",
+        "label": "Severe Hoarding",
+        "description": "You report severe hoarding problems that substantially impact your quality of life, physical safety, and social functioning. Professional intervention is strongly recommended to address these significant challenges.",
+        "suggestions": [
+          "Consulting a psychiatrist or hoarding disorder specialist therapist is strongly recommended",
+          "Hoarding disorder is a recognized, treatable condition with effective professional interventions available",
+          "Do not allow shame or embarrassment to prevent you from seeking the help you deserve",
+          "Medication combined with specialized CBT may provide the most comprehensive treatment approach",
+          "Prioritize basic safety in your living environment while working on longer-term therapeutic goals"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "igds-sf9": {
+    "ranges": [
+      {
+        "min": 9,
+        "max": 21,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your gaming behavior falls within the normal range with no indicators of Internet Gaming Disorder. Gaming appears to be a healthy recreational activity that does not interfere with your responsibilities or well-being.",
+        "suggestions": [
+          "Continue maintaining healthy and balanced gaming habits alongside other life activities",
+          "Stay aware of your gaming time and its impact on sleep, work, and social relationships",
+          "Model healthy gaming behavior for peers and younger family members in your environment"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 30,
+        "level": "mild",
+        "label": "At Risk",
+        "description": "You show some patterns of problematic gaming behavior that place you at risk for developing Internet Gaming Disorder. Gaming may occasionally interfere with sleep, responsibilities, or social engagement.",
+        "suggestions": [
+          "Set clear daily time limits for gaming sessions and use built-in parental or timer controls",
+          "Actively develop and invest in hobbies and social activities that do not involve gaming",
+          "Monitor the impact of gaming on your sleep quality, academic or work performance, and relationships",
+          "If you find it increasingly difficult to control gaming time, consider consulting a professional early"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 36,
+        "level": "moderate",
+        "label": "High Risk",
+        "description": "Your gaming behavior has noticeably impacted multiple areas of daily life including social relationships, academic or occupational performance, and physical health. Professional guidance is recommended at this level.",
+        "suggestions": [
+          "Consulting a mental health professional experienced with behavioral addictions is recommended",
+          "Gradually reduce gaming time using a structured schedule rather than attempting abrupt cessation",
+          "Identify and develop alternative sources of relaxation, achievement, and social connection offline",
+          "Openly discuss your gaming habits with someone you trust for external perspective and accountability",
+          "Address underlying emotional needs that gaming may be fulfilling, such as stress relief or escapism"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 45,
+        "level": "severe",
+        "label": "Probable Gaming Disorder",
+        "description": "Your score suggests probable Internet Gaming Disorder. Gaming has severely affected your daily functioning, relationships, and well-being, meeting criteria that warrant immediate professional clinical attention.",
+        "suggestions": [
+          "Seeking evaluation from a psychiatrist or psychotherapist specializing in gaming addiction is urgent",
+          "Professional behavioral intervention therapy can effectively address compulsive gaming patterns",
+          "Build a support system by informing family and close friends about the severity of the situation",
+          "Consider environmental controls such as limiting unsupervised access to gaming devices and accounts"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "maas": {
+    "ranges": [
+      {
+        "min": 15,
+        "max": 37,
+        "level": "severe",
+        "label": "Low Mindfulness",
+        "description": "Your mindful attention awareness is low, indicating that you frequently operate on autopilot during daily activities. Reduced present-moment awareness is associated with higher stress reactivity and lower well-being.",
+        "suggestions": [
+          "Begin with just 5 minutes of guided mindfulness meditation daily and gradually increase duration",
+          "Practice paying deliberate, focused attention during routine activities such as eating and walking",
+          "Reduce habitual multitasking, which fragments attention and reinforces automatic pilot behavior",
+          "Consider enrolling in a structured Mindfulness-Based Stress Reduction program for guided training"
+        ]
+      },
+      {
+        "min": 38,
+        "max": 60,
+        "level": "moderate",
+        "label": "Moderate Mindfulness",
+        "description": "Your mindful attention awareness is moderate. You sometimes maintain present-moment awareness but frequently shift into automatic processing. Building consistency in mindfulness practice can yield meaningful benefits.",
+        "suggestions": [
+          "Increase the frequency and duration of your mindfulness practice to build sustained awareness",
+          "Extend mindful awareness to more daily activities including conversations, meals, and commutes",
+          "Experiment with different mindfulness techniques such as mindful eating, walking, or body scanning",
+          "Notice when your mind wanders and gently redirect attention without self-judgment or frustration",
+          "Consider joining a mindfulness group or community for shared practice and mutual encouragement"
+        ]
+      },
+      {
+        "min": 61,
+        "max": 90,
+        "level": "minimal",
+        "label": "High Mindfulness",
+        "description": "Your mindful attention awareness is high. You generally maintain strong present-moment awareness during daily activities, which is associated with greater emotional regulation, reduced stress, and enhanced well-being.",
+        "suggestions": [
+          "Continue and deepen your existing mindfulness practice routine to sustain these benefits",
+          "Explore advanced mindfulness techniques such as loving-kindness or open awareness meditation",
+          "Integrate mindful awareness into challenging situations where maintaining presence is most difficult"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "npi-16": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 3,
+        "level": "minimal",
+        "label": "Low Narcissism",
+        "description": "Your score indicates low narcissistic traits. You tend toward modesty, may undervalue your own qualities, and generally prioritize others over self-promotion in social interactions and relationships.",
+        "suggestions": [
+          "While modesty is admirable, ensure you also recognize and appreciate your genuine strengths",
+          "Practice healthy self-assertion and advocacy when your needs or contributions deserve recognition",
+          "Balance your natural humility with confidence in the abilities and qualities you genuinely possess"
+        ]
+      },
+      {
+        "min": 4,
+        "max": 6,
+        "level": "normal",
+        "label": "Below Average",
+        "description": "Your narcissism score is below average, reflecting a healthy balance of self-regard and consideration for others. You demonstrate appropriate self-confidence without excessive self-focus or entitlement patterns.",
+        "suggestions": [
+          "Continue maintaining your balanced and grounded perspective on yourself and your accomplishments",
+          "Your healthy self-awareness and interpersonal sensitivity are positive qualities worth preserving",
+          "Feel comfortable acknowledging your achievements openly without concern about appearing boastful"
+        ]
+      },
+      {
+        "min": 7,
+        "max": 9,
+        "level": "mild",
+        "label": "Average",
+        "description": "Your narcissism score falls within the average range for the general population. This reflects typical levels of self-confidence, ambition, and desire for recognition that most people experience.",
+        "suggestions": [
+          "Your level of self-regard is well within the normal and healthy range for most adults",
+          "Continue balancing healthy confidence and ambition with genuine empathy and concern for others",
+          "Remain aware of how your self-confidence is perceived by colleagues, friends, and family members"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 12,
+        "level": "moderate",
+        "label": "Above Average",
+        "description": "Your score is above average, suggesting elevated narcissistic traits including heightened self-importance, stronger need for admiration, and potentially reduced sensitivity to the perspectives of others.",
+        "suggestions": [
+          "Practice active listening by focusing on understanding others before sharing your own perspective",
+          "Seek honest, constructive feedback from people you trust about how your behavior affects them",
+          "Reflect regularly on how your actions and communication style may impact those around you",
+          "Examine whether your expectations of special treatment or admiration from others are proportionate",
+          "Consider developing deeper empathy through volunteering or perspective-taking exercises"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 16,
+        "level": "severe",
+        "label": "High Narcissism",
+        "description": "Your score indicates a high level of narcissistic traits including strong feelings of superiority, pronounced need for admiration, sense of entitlement, and potential difficulty with genuine empathy.",
+        "suggestions": [
+          "Reflect carefully on your close relationships and honestly assess how others respond to your behavior",
+          "Practice perspective-taking by genuinely considering situations from the viewpoint of other people",
+          "A counselor or therapist can help you explore these traits in a supportive, non-judgmental setting",
+          "Work on building genuine reciprocity and mutual respect in your personal and professional relationships"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  }
+}

@@ -124,11 +124,11 @@
         "max": 10,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your fatigue levels are within the normal range. No significant fatigue concerns detected.",
+        "description": "Your fatigue levels are within the normal range, with no clinically significant physical or mental fatigue detected. Your energy levels appear adequate for managing daily activities and responsibilities effectively.",
         "suggestions": [
-          "Continue maintaining good sleep hygiene and regular physical activity",
-          "Keep a balanced diet and stay hydrated",
-          "Monitor your energy levels if you notice changes"
+          "Continue maintaining good sleep hygiene with a consistent sleep schedule of seven to nine hours per night",
+          "Keep up regular physical activity and a balanced diet to sustain your current energy levels",
+          "Monitor your energy levels over time and take note of any changes in fatigue patterns"
         ]
       },
       {
@@ -136,12 +136,12 @@
         "max": 16,
         "level": "mild",
         "label": "Mild Fatigue",
-        "description": "You are experiencing mild fatigue that may slightly impact your daily functioning.",
+        "description": "You are experiencing mild fatigue that may slightly affect your daily functioning and productivity. Both physical stamina and mental sharpness may be somewhat reduced compared to your usual baseline.",
         "suggestions": [
-          "Ensure you are getting adequate sleep (7-9 hours per night)",
-          "Review your daily schedule for opportunities to rest",
-          "Consider light exercise to boost energy levels",
-          "If fatigue persists, consult a healthcare provider"
+          "Ensure you are consistently getting adequate sleep of seven to nine hours each night with a regular bedtime routine",
+          "Review your daily schedule to identify opportunities for short rest breaks that can help restore energy",
+          "Incorporate light to moderate exercise such as walking or stretching to naturally boost your energy levels",
+          "If fatigue persists for more than two weeks, consult a healthcare provider to rule out underlying medical causes"
         ]
       },
       {
@@ -149,12 +149,13 @@
         "max": 24,
         "level": "moderate",
         "label": "Moderate Fatigue",
-        "description": "You are experiencing moderate fatigue that may be affecting your work, social activities, and overall quality of life.",
+        "description": "You are experiencing moderate fatigue that is likely affecting your work performance, social activities, and overall quality of life. Both physical endurance and cognitive functioning may be noticeably compromised.",
         "suggestions": [
-          "Consult a healthcare provider to rule out medical causes",
-          "Prioritize rest and energy management throughout the day",
-          "Consider pacing strategies to manage your activities",
-          "Review medications and lifestyle factors that may contribute to fatigue"
+          "Consult a healthcare provider to investigate potential medical causes such as thyroid dysfunction, anemia, or sleep disorders",
+          "Implement energy management and pacing strategies by alternating periods of activity with scheduled rest throughout the day",
+          "Prioritize essential tasks and delegate or postpone less critical responsibilities to conserve your limited energy",
+          "Review all current medications and lifestyle factors with your doctor to identify contributors to your fatigue",
+          "Consider keeping a fatigue diary to track patterns and identify triggers that worsen your symptoms"
         ]
       },
       {
@@ -162,12 +163,12 @@
         "max": 33,
         "level": "severe",
         "label": "Severe Fatigue",
-        "description": "You are experiencing severe fatigue that likely significantly impacts your daily functioning and quality of life.",
+        "description": "You are experiencing severe fatigue that is likely significantly impairing your daily functioning, work capacity, and quality of life. This level of exhaustion warrants prompt medical evaluation.",
         "suggestions": [
-          "Seek medical evaluation promptly to identify underlying causes",
-          "Discuss treatment options with your healthcare provider",
-          "Practice strict energy conservation and pacing",
-          "Consider psychological support if fatigue is linked to mood or stress"
+          "Seek medical evaluation promptly to identify and address any underlying physical or psychological causes of your fatigue",
+          "Discuss comprehensive treatment options with your healthcare provider, including medication review and sleep assessment",
+          "Practice strict energy conservation and pacing to prevent post-exertional worsening of your symptoms",
+          "Consider psychological support if your fatigue is linked to chronic stress, mood disorders, or burnout"
         ]
       }
     ],
@@ -178,28 +179,28 @@
           "max": 5,
           "level": "minimal",
           "label": "Normal Physical Fatigue",
-          "description": "Your physical fatigue is within the normal range."
+          "description": "Your physical fatigue is within the normal range. Your body energy reserves and physical stamina appear adequate for daily demands."
         },
         {
           "min": 6,
           "max": 10,
           "level": "mild",
           "label": "Mild Physical Fatigue",
-          "description": "You are experiencing mild physical fatigue. Ensure adequate rest and physical activity."
+          "description": "You are experiencing mild physical fatigue. Tiredness, muscle weakness, or reduced stamina may be present but remain manageable with adequate rest."
         },
         {
           "min": 11,
           "max": 16,
           "level": "moderate",
           "label": "Moderate Physical Fatigue",
-          "description": "You are experiencing notable physical fatigue. Consider consulting a healthcare provider."
+          "description": "You are experiencing notable physical fatigue that may be limiting your physical activities and endurance. Consider consulting a healthcare provider."
         },
         {
           "min": 17,
           "max": 21,
           "level": "severe",
           "label": "Severe Physical Fatigue",
-          "description": "You are experiencing severe physical fatigue. Medical evaluation is recommended."
+          "description": "You are experiencing severe physical fatigue that significantly limits your physical functioning. Medical evaluation is recommended to identify causes."
         }
       ],
       "mental": [
@@ -208,28 +209,28 @@
           "max": 3,
           "level": "minimal",
           "label": "Normal Mental Fatigue",
-          "description": "Your mental fatigue is within the normal range."
+          "description": "Your mental fatigue is within the normal range. Your concentration, memory, and cognitive clarity appear to be functioning well."
         },
         {
           "min": 4,
           "max": 6,
           "level": "mild",
           "label": "Mild Mental Fatigue",
-          "description": "You are experiencing mild mental fatigue. Ensure adequate rest and cognitive breaks."
+          "description": "You are experiencing mild mental fatigue. Occasional difficulty with concentration or word-finding may occur but does not significantly impair functioning."
         },
         {
           "min": 7,
           "max": 9,
           "level": "moderate",
           "label": "Moderate Mental Fatigue",
-          "description": "You are experiencing notable mental fatigue that may affect concentration and memory."
+          "description": "You are experiencing notable mental fatigue that may be affecting your concentration, memory, and ability to think clearly during daily tasks."
         },
         {
           "min": 10,
           "max": 12,
           "level": "severe",
           "label": "Severe Mental Fatigue",
-          "description": "You are experiencing severe mental fatigue. Consider seeking professional evaluation."
+          "description": "You are experiencing severe mental fatigue with significant cognitive impairment. Professional evaluation is recommended to address these symptoms."
         }
       ]
     }

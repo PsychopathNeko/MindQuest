@@ -274,11 +274,13 @@
         "max": 76,
         "level": "minimal",
         "label": "Low Well-being",
-        "description": "Your overall PERMA score is low, suggesting significant room for improvement in well-being.",
+        "description": "Your overall PERMA well-being score is low, suggesting that multiple dimensions of flourishing need attention. You may be experiencing limited positive emotions, weak social connections, low engagement, or unclear sense of purpose.",
         "suggestions": [
-          "Try keeping a daily gratitude journal to cultivate positive emotions",
-          "Seek activities that fully engage your attention and skills",
-          "Consider professional counseling for support"
+          "Start with small, achievable daily habits that promote well-being, such as writing down three things you are grateful for each evening before bed",
+          "Seek meaningful social connections by reaching out to trusted friends or family members, as positive relationships are one of the strongest predictors of well-being",
+          "Identify one activity that genuinely interests you and commit to engaging in it regularly, as even brief periods of flow can significantly boost overall well-being",
+          "Consider consulting a mental health professional or well-being coach who can help you develop a personalized plan for improving your psychological functioning",
+          "Be patient with yourself, as building well-being is a gradual process and even modest improvements in one PERMA dimension often create positive spillover effects"
         ]
       },
       {
@@ -286,11 +288,12 @@
         "max": 153,
         "level": "moderate",
         "label": "Moderate Well-being",
-        "description": "Your well-being is at a moderate level, with some dimensions having room for growth.",
+        "description": "Your well-being is at a moderate level, indicating a reasonable degree of flourishing with identifiable areas for growth. Some PERMA dimensions may be stronger than others, and targeted effort can help you achieve greater balance.",
         "suggestions": [
-          "Focus on improving dimensions where you scored lower",
-          "Strengthen social connections and relationship quality",
-          "Identify sources of meaning and purpose in your life"
+          "Review your subscale scores to identify which specific PERMA dimensions are lowest, and focus your improvement efforts on those particular areas first",
+          "Strengthen your sense of meaning by reflecting on your core values and aligning more of your daily activities with what you find genuinely important and purposeful",
+          "Invest in deepening your existing relationships through regular quality time, active listening, and expressing appreciation for the people who matter most to you",
+          "Set personally meaningful goals and track your progress toward them, as a sense of accomplishment contributes substantially to overall psychological well-being"
         ]
       },
       {
@@ -298,223 +301,15 @@
         "max": 230,
         "level": "high",
         "label": "High Well-being",
-        "description": "Your overall well-being is high, with balanced development across dimensions.",
+        "description": "Your overall PERMA well-being score is high, reflecting strong flourishing across multiple dimensions of positive psychological functioning including positive emotions, meaningful engagement, supportive relationships, and clear purpose.",
         "suggestions": [
-          "Continue maintaining your positive lifestyle",
-          "Helping others can further enhance your own well-being",
-          "Continue monitoring balance across all dimensions"
+          "Continue maintaining the habits and relationships that support your high well-being, and remain mindful of any changes that could disrupt this positive balance",
+          "Consider using your strengths to help others flourish, as mentoring, volunteering, and supporting others' growth can further enhance your own sense of meaning and connection",
+          "Periodically reassess your well-being to ensure sustained balance, as life transitions and new challenges can shift your PERMA profile over time"
         ]
       }
     ],
-    "subscaleRanges": {
-      "positive_emotion": [
-        {
-          "min": 0,
-          "max": 10,
-          "level": "low",
-          "label": "Low",
-          "description": "You experience few positive emotions in daily life."
-        },
-        {
-          "min": 11,
-          "max": 20,
-          "level": "moderate",
-          "label": "Moderate",
-          "description": "You experience some positive emotions, with room for growth."
-        },
-        {
-          "min": 21,
-          "max": 30,
-          "level": "high",
-          "label": "High",
-          "description": "You frequently experience positive emotions, feeling joyful and content."
-        }
-      ],
-      "engagement": [
-        {
-          "min": 0,
-          "max": 10,
-          "level": "low",
-          "label": "Low",
-          "description": "You lack engagement and immersion in daily activities."
-        },
-        {
-          "min": 11,
-          "max": 20,
-          "level": "moderate",
-          "label": "Moderate",
-          "description": "You feel engaged in some activities, but not consistently."
-        },
-        {
-          "min": 21,
-          "max": 30,
-          "level": "high",
-          "label": "High",
-          "description": "You frequently experience flow and full engagement in activities."
-        }
-      ],
-      "relationships": [
-        {
-          "min": 0,
-          "max": 10,
-          "level": "low",
-          "label": "Low",
-          "description": "Your relationships are weak, lacking supportive social connections."
-        },
-        {
-          "min": 11,
-          "max": 20,
-          "level": "moderate",
-          "label": "Moderate",
-          "description": "You have some social relationships, but closeness and support could be strengthened."
-        },
-        {
-          "min": 21,
-          "max": 30,
-          "level": "high",
-          "label": "High",
-          "description": "You have strong relationships and feel loved and supported."
-        }
-      ],
-      "meaning": [
-        {
-          "min": 0,
-          "max": 10,
-          "level": "low",
-          "label": "Low",
-          "description": "You rarely feel that your life has meaning and purpose."
-        },
-        {
-          "min": 11,
-          "max": 20,
-          "level": "moderate",
-          "label": "Moderate",
-          "description": "You have some sense of meaning, but it is not fully clear."
-        },
-        {
-          "min": 21,
-          "max": 30,
-          "level": "high",
-          "label": "High",
-          "description": "You strongly feel that your life is meaningful with clear purpose."
-        }
-      ],
-      "accomplishment": [
-        {
-          "min": 0,
-          "max": 10,
-          "level": "low",
-          "label": "Low",
-          "description": "You rarely feel you are making progress or achieving goals."
-        },
-        {
-          "min": 11,
-          "max": 20,
-          "level": "moderate",
-          "label": "Moderate",
-          "description": "You have some sense of accomplishment, with room for growth."
-        },
-        {
-          "min": 21,
-          "max": 30,
-          "level": "high",
-          "label": "High",
-          "description": "You frequently feel you are progressing and achieving meaningful goals."
-        }
-      ],
-      "negative_emotion": [
-        {
-          "min": 0,
-          "max": 10,
-          "level": "low",
-          "label": "Low",
-          "description": "You experience few negative emotions. Your emotional state is positive."
-        },
-        {
-          "min": 11,
-          "max": 20,
-          "level": "moderate",
-          "label": "Moderate",
-          "description": "You experience some negative emotions. Attention to emotional regulation is recommended."
-        },
-        {
-          "min": 21,
-          "max": 30,
-          "level": "high",
-          "label": "High",
-          "description": "You experience frequent negative emotions. Emotion management techniques or professional help is recommended."
-        }
-      ],
-      "health": [
-        {
-          "min": 0,
-          "max": 10,
-          "level": "low",
-          "label": "Low",
-          "description": "Your subjective health perception is poor."
-        },
-        {
-          "min": 11,
-          "max": 20,
-          "level": "moderate",
-          "label": "Moderate",
-          "description": "Your health is fair. Attention to physical wellness is recommended."
-        },
-        {
-          "min": 21,
-          "max": 30,
-          "level": "high",
-          "label": "High",
-          "description": "Your subjective health perception is good and positive."
-        }
-      ],
-      "loneliness": [
-        {
-          "min": 0,
-          "max": 3,
-          "level": "low",
-          "label": "Low",
-          "description": "Low loneliness. Your social connections are good."
-        },
-        {
-          "min": 4,
-          "max": 6,
-          "level": "moderate",
-          "label": "Moderate",
-          "description": "Some loneliness is present. Consider expanding your social circle."
-        },
-        {
-          "min": 7,
-          "max": 10,
-          "level": "high",
-          "label": "High",
-          "description": "Significant loneliness. Actively seeking social support is recommended."
-        }
-      ],
-      "happiness": [
-        {
-          "min": 0,
-          "max": 3,
-          "level": "low",
-          "label": "Low",
-          "description": "Overall happiness is low with limited life satisfaction."
-        },
-        {
-          "min": 4,
-          "max": 6,
-          "level": "moderate",
-          "label": "Moderate",
-          "description": "Some happiness is present, with room for improvement."
-        },
-        {
-          "min": 7,
-          "max": 10,
-          "level": "high",
-          "label": "High",
-          "description": "Overall happiness is high. You feel satisfied and joyful about life."
-        }
-      ]
-    }
+    "subscaleRanges": null
   },
   "report": {
     "charts": [

@@ -1,0 +1,220 @@
+{
+  "ucla-loneliness": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 34,
+        "level": "low",
+        "label": "Low Loneliness",
+        "description": "Your loneliness score is low, indicating that you generally feel socially connected and satisfied with your relationships. You likely have meaningful bonds with others and do not frequently experience isolation or disconnection in daily life.",
+        "suggestions": [
+          "Continue nurturing the relationships and social habits that contribute to your sense of connection",
+          "Consider reaching out to others who may be experiencing loneliness, as your support can make a meaningful difference",
+          "Stay engaged in community activities, clubs, or groups that align with your interests and values"
+        ]
+      },
+      {
+        "min": 35,
+        "max": 49,
+        "level": "moderate",
+        "label": "Moderate Loneliness",
+        "description": "Your score indicates moderate loneliness. You may feel that some social needs are unmet or that connections lack the depth you desire. This is common and can be improved with intentional effort toward building meaningful relationships.",
+        "suggestions": [
+          "Actively seek opportunities to join social activities, interest groups, or community organizations where you can meet like-minded people",
+          "Focus on deepening existing friendships by initiating meaningful conversations and spending quality time together",
+          "Consider volunteering, as helping others often creates natural opportunities for social bonding and a sense of belonging",
+          "Practice reaching out to friends or family regularly, even when you do not feel like it, as social momentum builds over time",
+          "Reflect on whether any patterns of thinking or behavior may be contributing to feelings of disconnection"
+        ]
+      },
+      {
+        "min": 50,
+        "max": 64,
+        "level": "high",
+        "label": "High Loneliness",
+        "description": "Your score reflects high loneliness that may be affecting your emotional well-being, sleep, and mental health. Chronic loneliness at this level is associated with increased risk of depression and anxiety, and proactive intervention is important.",
+        "suggestions": [
+          "Consider seeking professional counseling or therapy, as a therapist can help identify barriers to connection and develop social strategies",
+          "Explore structured social settings such as classes, support groups, or team activities where regular attendance fosters familiarity",
+          "Social skills training or assertiveness workshops can help if you find it difficult to initiate or maintain conversations",
+          "Limit excessive use of social media as a substitute for in-person interaction, as it can sometimes increase feelings of loneliness",
+          "Practice self-compassion and recognize that loneliness is a common human experience, not a personal failing"
+        ]
+      },
+      {
+        "min": 65,
+        "max": 80,
+        "level": "severe",
+        "label": "Severe Loneliness",
+        "description": "Your score indicates severe loneliness likely having significant impact on both mental and physical health. Prolonged loneliness is linked to depression, cardiovascular issues, and weakened immunity. Professional help is strongly recommended.",
+        "suggestions": [
+          "Seeking professional psychological help is strongly recommended, as severe loneliness often co-occurs with depression and anxiety that respond well to treatment",
+          "Cognitive-behavioral therapy can help challenge negative thought patterns about relationships and social interactions",
+          "If you are experiencing depressive symptoms alongside loneliness, please also address your emotional health with a clinician",
+          "Start with small, manageable social steps rather than overwhelming yourself with large social commitments",
+          "Crisis support is available if loneliness is causing thoughts of self-harm; contact the 988 Suicide and Crisis Lifeline"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "wsas": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your mental health problems have minimal or no impact on your daily functioning across work, home, social, and personal domains. You appear to be managing well and maintaining your ability to carry out everyday activities effectively.",
+        "suggestions": [
+          "Continue maintaining the habits, routines, and support systems that contribute to your good functional status",
+          "Stay aware of early signs of psychological distress so you can address them before they escalate",
+          "Regular self-check-ins on your well-being can help you sustain this level of functioning over time"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 19,
+        "level": "mild",
+        "label": "Mild Functional Impairment",
+        "description": "Your mental health problems are causing some noticeable impact on daily functioning, though it remains manageable. You may find certain areas of life more difficult than usual, particularly work performance or social engagement.",
+        "suggestions": [
+          "Identify which specific domains of functioning are most affected and focus your coping efforts there",
+          "Try proactive adjustment strategies such as time management, pacing, and setting realistic daily goals",
+          "If symptoms persist for more than a few weeks, consider consulting a mental health professional for guidance",
+          "Maintain regular physical activity and social connections, as these are protective factors against further decline"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 29,
+        "level": "moderate",
+        "label": "Moderate Functional Impairment",
+        "description": "Your mental health problems are noticeably affecting daily functioning across multiple areas including work, relationships, and leisure. This level of impairment suggests that professional intervention could meaningfully improve your quality of life.",
+        "suggestions": [
+          "Consulting a mental health professional is recommended to develop targeted strategies for improving your functioning",
+          "Prioritize the most severely affected areas of your life and work on those first with professional guidance",
+          "Build and strengthen your social support network, as supportive relationships can buffer against functional decline",
+          "Consider whether workplace accommodations or adjustments to your daily routine could reduce the burden on your functioning",
+          "Structured activity scheduling can help maintain engagement in important life domains despite psychological difficulties"
+        ]
+      },
+      {
+        "min": 30,
+        "max": 40,
+        "level": "severe",
+        "label": "Severe Functional Impairment",
+        "description": "Your mental health problems are severely impairing daily functioning across work, home management, social activities, and relationships. This indicates a substantial reduction in quality of life that warrants prompt professional attention.",
+        "suggestions": [
+          "Seeking professional mental health help as soon as possible is strongly recommended at this level of functional impairment",
+          "A comprehensive treatment plan involving therapy and potentially medication may be needed to restore your functioning",
+          "Ensure you have a safe and supportive environment; inform trusted family members or friends about your difficulties",
+          "If you are unable to work or manage daily tasks, explore whether temporary accommodations or support services are available to you"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "asrs": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "Normal Range",
+        "description": "Your ADHD screening score is within the normal range, suggesting that adult ADHD is unlikely based on your self-reported symptoms. Occasional difficulties with attention or restlessness are common and do not necessarily indicate a clinical condition.",
+        "suggestions": [
+          "No further ADHD assessment is currently indicated based on this screening result",
+          "If you occasionally struggle with focus or organization, general time management and productivity techniques can be helpful",
+          "Maintaining a healthy lifestyle with regular exercise, adequate sleep, and balanced nutrition supports optimal attention and concentration"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 13,
+        "level": "mild",
+        "label": "Possible ADHD",
+        "description": "Your score suggests possible ADHD symptoms that may warrant further clinical evaluation. While not conclusive, this result indicates that you endorsed enough attention and hyperactivity symptoms to merit a closer look by a qualified professional.",
+        "suggestions": [
+          "Consider scheduling a comprehensive ADHD evaluation with a psychiatrist or psychologist who specializes in adult ADHD",
+          "Learn about ADHD in adults from reputable sources to better understand the symptoms and how they may affect your life",
+          "Try using planners, reminder apps, and organizational tools to support daily task management while awaiting evaluation",
+          "Regular physical exercise has strong evidence for improving attention, executive function, and hyperactivity symptoms"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 24,
+        "level": "moderate",
+        "label": "Likely ADHD",
+        "description": "Your score is elevated and suggests that clinically significant ADHD symptoms are likely present. This result strongly supports seeking a formal diagnostic evaluation, as ADHD is a well-understood and highly treatable neurodevelopmental condition.",
+        "suggestions": [
+          "A formal evaluation by a psychiatrist or psychologist experienced in adult ADHD is strongly recommended",
+          "ADHD is highly treatable with both medication and behavioral interventions; effective help is available",
+          "While awaiting evaluation, implement external support systems such as written schedules, timers, and structured routines",
+          "Build organizational systems for managing daily responsibilities, including breaking large tasks into smaller, manageable steps",
+          "Ensure adequate sleep and regular exercise, as both significantly affect attention and executive functioning"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "eat-26": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "Normal Range",
+        "description": "Your eating attitudes are within the normal range, with no significant concerns about disordered eating patterns. You appear to have a generally healthy relationship with food and your body, without excessive preoccupation with weight or dieting.",
+        "suggestions": [
+          "Continue maintaining balanced and flexible eating habits that nourish both your body and your enjoyment of food",
+          "Focus on overall nutritional well-being and physical activity rather than strict calorie counting or weight numbers",
+          "Be aware that eating attitudes can change during stressful periods; stay mindful of your relationship with food"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 19,
+        "level": "mild",
+        "label": "Mild Concern",
+        "description": "You show some elevated concern about eating, weight, or body image, though your score does not yet reach the clinical threshold. These attitudes may reflect common societal pressures around appearance, but monitoring for escalation is advisable.",
+        "suggestions": [
+          "Be mindful of overly restrictive dieting behaviors that could develop into unhealthy patterns over time",
+          "Cultivate a healthy and flexible relationship with food by focusing on nourishment rather than restriction",
+          "If eating concerns are affecting your quality of life, mood, or social activities, consider consulting a professional",
+          "Challenge unrealistic body image standards promoted by media and social platforms"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 39,
+        "level": "moderate",
+        "label": "Further Evaluation Recommended",
+        "description": "Your score reaches the clinical concern threshold of 20 or above, indicating possible eating disorder risk. This does not confirm a diagnosis but strongly suggests that professional evaluation by an eating disorder specialist is warranted.",
+        "suggestions": [
+          "Consulting an eating disorder specialist or mental health professional for a comprehensive evaluation is strongly recommended",
+          "A score of 20 or above on the EAT-26 indicates possible eating disorder risk that should be taken seriously",
+          "Watch for behaviors such as extreme dietary restriction, binge eating, purging, or compulsive exercise",
+          "Monitor your physical health indicators including weight stability, menstrual regularity, and energy levels",
+          "Share your concerns with a trusted person who can support you through the evaluation process"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 78,
+        "level": "severe",
+        "label": "High Concern",
+        "description": "Your score is very high, strongly suggesting eating disorder-related attitudes and behaviors significantly affecting your health. Eating disorders are serious medical conditions, but they are treatable with proper professional care and support.",
+        "suggestions": [
+          "Please seek evaluation and treatment from an eating disorder specialist as soon as possible",
+          "Eating disorders are serious but highly treatable conditions; recovery is achievable with appropriate professional support",
+          "Do not face this alone; inform a trusted family member or friend who can provide support and accountability",
+          "Monitor your physical health closely and avoid extreme dietary restriction, purging, or other compensatory behaviors",
+          "If you are in medical distress due to eating behaviors, seek emergency medical care immediately"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  }
+}

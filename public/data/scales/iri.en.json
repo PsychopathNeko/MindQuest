@@ -255,10 +255,12 @@
         "max": 37,
         "level": "minimal",
         "label": "Low Empathy",
-        "description": "Your overall empathy score is below average.",
+        "description": "Your overall empathy score is low, suggesting limited tendency to take others’ perspectives, feel concern for others, or share in others’ emotional experiences. While empathy exists on a spectrum, developing empathic skills can improve relationships and social functioning.",
         "suggestions": [
-          "Practice active listening",
-          "Try to consider others' perspectives"
+          "Practice active listening — focus fully on understanding others’ perspectives before responding",
+          "Read fiction or watch films and try to deeply consider characters’ inner experiences",
+          "Engage in volunteer work or community service to broaden exposure to diverse life experiences",
+          "Consider whether low empathy is impacting your relationships and seek professional guidance if needed"
         ]
       },
       {
@@ -266,10 +268,12 @@
         "max": 74,
         "level": "mild",
         "label": "Moderate Empathy",
-        "description": "Your empathy score is in the typical range.",
+        "description": "Your empathy is in the moderate range. You show some capacity for understanding and sharing others’ emotional experiences. Review your subscale scores to see which dimensions of empathy are stronger or weaker for you.",
         "suggestions": [
-          "Continue developing empathic skills",
-          "Attend to cognitive and emotional empathy"
+          "Review subscale scores to identify empathy dimensions you can strengthen",
+          "Practice perspective-taking by actively imagining how others experience situations",
+          "Develop emotional vocabulary to better recognize and understand others’ feelings",
+          "Engage in conversations where you prioritize understanding over responding"
         ]
       },
       {
@@ -277,10 +281,11 @@
         "max": 112,
         "level": "normal",
         "label": "High Empathy",
-        "description": "Your empathy score is above average.",
+        "description": "Your empathy is well-developed across multiple dimensions. You readily understand and share others’ emotional experiences. While this is generally beneficial for relationships, ensure you maintain healthy emotional boundaries to prevent empathic burnout.",
         "suggestions": [
-          "Be mindful of emotional boundaries",
-          "Channel empathy into prosocial actions"
+          "Practice healthy emotional boundaries to prevent compassion fatigue",
+          "Use your strong empathy skills to support others while protecting your own well-being",
+          "If personal distress subscale is high, learn grounding techniques to manage emotional contagion"
         ]
       }
     ],
@@ -291,21 +296,21 @@
           "max": 9,
           "level": "normal",
           "label": "Low",
-          "description": "Challenging to adopt others' viewpoints."
+          "description": "Your tendency to spontaneously adopt others’ viewpoints is low. Perspective-taking is a cognitive empathy skill that can be developed through deliberate practice, improving communication and conflict resolution."
         },
         {
           "min": 10,
           "max": 19,
           "level": "mild",
           "label": "Moderate",
-          "description": "Reasonable perspective-taking ability."
+          "description": "You show moderate ability to consider others’ points of view. Continuing to practice seeing situations from multiple perspectives can enhance your interpersonal effectiveness and social understanding."
         },
         {
           "min": 20,
           "max": 28,
           "level": "minimal",
           "label": "High",
-          "description": "Skilled at understanding others' views."
+          "description": "You readily adopt others’ psychological perspectives, which supports effective communication, conflict resolution, and relationship quality. This cognitive empathy skill is valuable in both personal and professional contexts."
         }
       ],
       "fantasy": [
@@ -314,21 +319,21 @@
           "max": 9,
           "level": "normal",
           "label": "Low",
-          "description": "Rarely immerse in fictional scenarios."
+          "description": "You have a limited tendency to imagine yourself in fictional characters’ situations. While not problematic, engaging more with narratives can stimulate imagination and indirectly enhance empathic understanding."
         },
         {
           "min": 10,
           "max": 19,
           "level": "mild",
           "label": "Moderate",
-          "description": "Sometimes identify with fictional characters."
+          "description": "You moderately engage with fictional characters’ experiences. This imaginative capacity can serve as a safe practice ground for understanding diverse emotional perspectives and life situations."
         },
         {
           "min": 20,
           "max": 28,
           "level": "minimal",
           "label": "High",
-          "description": "Readily transpose into fictional situations."
+          "description": "You strongly identify with fictional characters, readily imagining their thoughts and feelings. This rich imaginative capacity can enhance emotional understanding, though very high levels may sometimes blur fiction and reality."
         }
       ],
       "empathic_concern": [
@@ -337,21 +342,21 @@
           "max": 9,
           "level": "normal",
           "label": "Low",
-          "description": "Less sympathy for others in distress."
+          "description": "Your tendency to feel warmth, concern, and compassion for others in distress is low. Low empathic concern may affect relationship quality. Volunteering and exposure to others’ experiences can help develop compassionate responding."
         },
         {
           "min": 10,
           "max": 19,
           "level": "mild",
           "label": "Moderate",
-          "description": "Typical sympathy and concern."
+          "description": "You show moderate feelings of concern and sympathy for others experiencing difficulties. This other-oriented emotional response is central to prosocial behavior and healthy relationships."
         },
         {
           "min": 20,
           "max": 28,
           "level": "minimal",
           "label": "High",
-          "description": "Strong compassion for others."
+          "description": "You demonstrate strong feelings of warmth and concern for others in distress. High empathic concern motivates helping behavior and strengthens social bonds, and is a key component of compassionate care."
         }
       ],
       "personal_distress": [
@@ -360,21 +365,21 @@
           "max": 9,
           "level": "minimal",
           "label": "Low",
-          "description": "Remain calm in emotional situations."
+          "description": "You experience minimal personal distress when witnessing others’ negative experiences. Low personal distress indicates good emotional regulation and the ability to remain composed while still being empathic."
         },
         {
           "min": 10,
           "max": 19,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some discomfort in tense situations."
+          "description": "You experience moderate personal distress in response to others’ difficult situations. Some self-oriented anxiety in empathic situations is normal, but if it interferes with helping behavior, grounding techniques may help."
         },
         {
           "min": 20,
           "max": 28,
           "level": "severe",
           "label": "High",
-          "description": "Significant anxiety in emotional situations."
+          "description": "You experience significant personal distress when witnessing others’ negative experiences. High personal distress can be overwhelming and may actually impair your ability to help others. Developing emotional regulation and grounding skills is recommended."
         }
       ]
     }

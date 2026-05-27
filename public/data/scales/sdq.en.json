@@ -232,10 +232,11 @@
         "max": 13,
         "level": "normal",
         "label": "Normal",
-        "description": "Total difficulties score is within normal range (excluding prosocial subscale).",
+        "description": "Your child's total difficulties score falls within the normal range, indicating that emotional, behavioral, and social functioning are generally age-appropriate with no clinically significant problems across assessed domains.",
         "suggestions": [
-          "Continue monitoring the child's mental health development",
-          "Maintain a supportive family communication environment"
+          "Continue fostering a warm, supportive home environment with open communication about feelings and daily experiences",
+          "Maintain regular routines and age-appropriate expectations, as consistency supports healthy emotional and behavioral development",
+          "Stay engaged with your child's school and social activities to monitor ongoing well-being and reinforce positive behaviors"
         ]
       },
       {
@@ -243,11 +244,12 @@
         "max": 16,
         "level": "borderline",
         "label": "Borderline",
-        "description": "Total difficulties score is at a borderline level. Monitoring is advised.",
+        "description": "Your child's total difficulties score is at a borderline level, suggesting emerging concerns that may warrant closer attention. Some emotional, behavioral, or social difficulties are present and should be monitored over time.",
         "suggestions": [
-          "Monitor the child's behavioral and emotional changes closely",
-          "Maintain communication with school teachers",
-          "Consider a more detailed assessment"
+          "Monitor your child's emotional and behavioral patterns more closely over the coming weeks, noting any specific situations that trigger difficulties",
+          "Maintain open and regular communication with teachers and school staff to gain a broader perspective on your child's functioning across settings",
+          "Consider completing the SDQ again in three to six months to track whether difficulties are improving, stable, or worsening over time",
+          "If concerns persist or increase, consult a child psychologist or pediatrician who can conduct a more comprehensive developmental assessment"
         ]
       },
       {
@@ -255,131 +257,17 @@
         "max": 40,
         "level": "abnormal",
         "label": "Abnormal",
-        "description": "Total difficulties score is elevated. Professional evaluation is recommended.",
+        "description": "Your child's total difficulties score is in the abnormal range, indicating clinically significant emotional, behavioral, or social problems that likely affect daily functioning at home, school, or in peer relationships.",
         "suggestions": [
-          "Consult a child mental health professional",
-          "Focus on specific problem dimensions for targeted intervention",
-          "Early intervention helps improve outcomes"
+          "Seek a professional evaluation from a child and adolescent mental health specialist who can identify specific problem areas and recommend targeted interventions",
+          "Work collaboratively with your child's school to develop supportive strategies, as difficulties at this level often affect academic performance and peer interactions",
+          "Focus on understanding which specific domains are most affected by reviewing subscale patterns, as this guides the most appropriate type of professional support",
+          "Early professional intervention for children with elevated scores has strong evidence for improving long-term emotional, behavioral, and social outcomes",
+          "Ensure your child feels supported rather than blamed, as children with high difficulties scores benefit most from empathetic and patient caregiving approaches"
         ]
       }
     ],
-    "subscaleRanges": {
-      "emotional": [
-        {
-          "min": 0,
-          "max": 3,
-          "level": "normal",
-          "label": "Normal",
-          "description": "Emotional symptoms within normal range."
-        },
-        {
-          "min": 4,
-          "max": 4,
-          "level": "borderline",
-          "label": "Borderline",
-          "description": "Emotional symptoms at borderline level."
-        },
-        {
-          "min": 5,
-          "max": 10,
-          "level": "abnormal",
-          "label": "Abnormal",
-          "description": "Elevated emotional symptoms."
-        }
-      ],
-      "conduct": [
-        {
-          "min": 0,
-          "max": 2,
-          "level": "normal",
-          "label": "Normal",
-          "description": "Conduct problems within normal range."
-        },
-        {
-          "min": 3,
-          "max": 3,
-          "level": "borderline",
-          "label": "Borderline",
-          "description": "Conduct problems at borderline level."
-        },
-        {
-          "min": 4,
-          "max": 10,
-          "level": "abnormal",
-          "label": "Abnormal",
-          "description": "Elevated conduct problems."
-        }
-      ],
-      "hyperactivity": [
-        {
-          "min": 0,
-          "max": 5,
-          "level": "normal",
-          "label": "Normal",
-          "description": "Hyperactivity/inattention within normal range."
-        },
-        {
-          "min": 6,
-          "max": 6,
-          "level": "borderline",
-          "label": "Borderline",
-          "description": "Hyperactivity/inattention at borderline level."
-        },
-        {
-          "min": 7,
-          "max": 10,
-          "level": "abnormal",
-          "label": "Abnormal",
-          "description": "Elevated hyperactivity/inattention."
-        }
-      ],
-      "peer": [
-        {
-          "min": 0,
-          "max": 2,
-          "level": "normal",
-          "label": "Normal",
-          "description": "Peer problems within normal range."
-        },
-        {
-          "min": 3,
-          "max": 3,
-          "level": "borderline",
-          "label": "Borderline",
-          "description": "Peer problems at borderline level."
-        },
-        {
-          "min": 4,
-          "max": 10,
-          "level": "abnormal",
-          "label": "Abnormal",
-          "description": "Elevated peer problems."
-        }
-      ],
-      "prosocial": [
-        {
-          "min": 6,
-          "max": 10,
-          "level": "normal",
-          "label": "Normal",
-          "description": "Prosocial behavior within normal range."
-        },
-        {
-          "min": 5,
-          "max": 5,
-          "level": "borderline",
-          "label": "Borderline",
-          "description": "Prosocial behavior at borderline level."
-        },
-        {
-          "min": 0,
-          "max": 4,
-          "level": "abnormal",
-          "label": "Abnormal",
-          "description": "Low prosocial behavior."
-        }
-      ]
-    }
+    "subscaleRanges": null
   },
   "report": {
     "charts": [

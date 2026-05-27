@@ -197,10 +197,11 @@
         "max": 51,
         "level": "none",
         "label": "No Alexithymia",
-        "description": "Your ability to identify and express emotions is within the normal range.",
+        "description": "Your score indicates good emotional awareness and the ability to identify, describe, and reflect on your feelings. You appear comfortable with emotional experiences and can effectively communicate your inner states to others.",
         "suggestions": [
-          "Continue maintaining good emotional awareness",
-          "Sharing feelings with others supports mental health"
+          "Continue developing your emotional intelligence through self-reflection and mindfulness",
+          "Maintain open emotional communication in your relationships",
+          "Use your emotional awareness skills to support others who may struggle with identifying feelings"
         ]
       },
       {
@@ -208,11 +209,12 @@
         "max": 60,
         "level": "possible",
         "label": "Possible Alexithymia",
-        "description": "You may have some degree of alexithymia.",
+        "description": "Your score falls in the borderline range, suggesting some difficulty with emotional awareness. You may sometimes struggle to distinguish between emotions and physical sensations, or find it hard to describe your feelings to others. This pattern is worth monitoring.",
         "suggestions": [
-          "Practice identifying and naming your emotions",
-          "Keeping an emotion journal may be helpful",
-          "Consider emotional awareness training"
+          "Practice emotion labeling — try to name your feelings several times throughout the day",
+          "Keep an emotion journal to track patterns in how you experience and express feelings",
+          "Explore body-based awareness practices like yoga or progressive muscle relaxation to connect physical sensations with emotions",
+          "Consider psychoeducation about emotions through books or workshops"
         ]
       },
       {
@@ -220,11 +222,13 @@
         "max": 100,
         "level": "alexithymia",
         "label": "Alexithymia",
-        "description": "Your score suggests alexithymia, with significant difficulty in identifying and expressing emotions.",
+        "description": "Your score suggests significant difficulty identifying, describing, and processing emotions. Alexithymia can affect relationships, physical health, and psychological well-being. It is associated with higher rates of depression, anxiety, and somatic complaints, and may benefit from professional support.",
         "suggestions": [
-          "Consider consulting a mental health professional",
-          "Psychotherapy can help improve emotional awareness",
-          "Body sensation awareness practices (e.g., mindfulness) may be beneficial"
+          "Consider seeking professional help — therapies such as mentalization-based therapy or emotion-focused therapy can help develop emotional awareness",
+          "Practice structured emotion identification exercises using emotion wheels or feeling charts",
+          "Explore body-awareness practices to develop connections between physical sensations and emotional states",
+          "Engage in creative expression (art, music, writing) as alternative channels for emotional processing",
+          "Build a support system of trusted people who can help you recognize and process emotional experiences"
         ]
       }
     ],
@@ -234,22 +238,22 @@
           "min": 7,
           "max": 16,
           "level": "low",
-          "label": "Normal",
-          "description": "Your ability to identify emotions is normal. You can recognize and distinguish your feelings well."
+          "label": "Low",
+          "description": "You show good ability to identify your emotions and distinguish them from physical sensations. This skill supports effective emotional regulation and helps you respond appropriately to your emotional needs."
         },
         {
           "min": 17,
           "max": 25,
           "level": "moderate",
-          "label": "Moderate Difficulty",
-          "description": "You have some difficulty identifying emotions, sometimes struggling to distinguish different emotional experiences."
+          "label": "Moderate",
+          "description": "You show some difficulty recognizing and identifying your emotions. You may sometimes confuse emotional arousal with physical symptoms, or feel unsure about what emotion you are experiencing."
         },
         {
           "min": 26,
           "max": 35,
           "level": "high",
-          "label": "Significant Difficulty",
-          "description": "You have significant difficulty identifying emotions. Professional training to improve emotional awareness is recommended."
+          "label": "High",
+          "description": "You have significant difficulty identifying your emotions. This can lead to confusion about internal states, difficulty knowing what you need, and may manifest as unexplained physical complaints. Emotion identification training may be beneficial."
         }
       ],
       "difficulty_describing": [
@@ -257,22 +261,22 @@
           "min": 5,
           "max": 11,
           "level": "low",
-          "label": "Normal",
-          "description": "Your ability to describe emotions is normal. You can express your feelings in words well."
+          "label": "Low",
+          "description": "You can effectively describe your feelings to others. This skill supports clear emotional communication, helps others understand your needs, and facilitates emotional processing through verbalization."
         },
         {
           "min": 12,
           "max": 18,
           "level": "moderate",
-          "label": "Moderate Difficulty",
-          "description": "You have some difficulty describing emotions, sometimes struggling to find the right words for your feelings."
+          "label": "Moderate",
+          "description": "You show some difficulty putting your emotions into words. This may lead to miscommunication in relationships or a sense that others don’t fully understand your experiences. Expanding your emotional vocabulary can help."
         },
         {
           "min": 19,
           "max": 25,
           "level": "high",
-          "label": "Significant Difficulty",
-          "description": "You have significant difficulty describing emotions. Practicing with an emotion journal is recommended."
+          "label": "High",
+          "description": "You find it quite difficult to describe your emotional experiences to others. This can create barriers in relationships and limit the benefits of social support. Working with a therapist on emotional expression skills is recommended."
         }
       ],
       "externally_oriented": [
@@ -280,22 +284,22 @@
           "min": 8,
           "max": 18,
           "level": "low",
-          "label": "Normal",
-          "description": "Your thinking style is introspective, with good attention to inner experiences."
+          "label": "Low",
+          "description": "You show good orientation toward inner emotional life rather than exclusively focusing on external events. This introspective capacity supports self-reflection, emotional depth, and psychological insight."
         },
         {
           "min": 19,
           "max": 29,
           "level": "moderate",
-          "label": "Moderately Externally Oriented",
-          "description": "Your thinking tends toward external matters, with less attention to inner emotional experiences."
+          "label": "Moderate",
+          "description": "You show a moderate tendency to focus on external events rather than inner emotional experiences. While practical thinking has its merits, balancing it with emotional reflection can enhance self-understanding."
         },
         {
           "min": 30,
           "max": 40,
           "level": "high",
-          "label": "Highly Externally Oriented",
-          "description": "Your thinking is strongly oriented toward external matters. Mindfulness and reflective practices are recommended."
+          "label": "High",
+          "description": "You strongly prefer focusing on external events and practical details rather than internal emotional experiences. This externally oriented thinking style can limit emotional self-awareness and make psychological processing more difficult."
         }
       ]
     }

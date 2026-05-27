@@ -83,11 +83,11 @@
         "max": 12,
         "level": "minimal",
         "label": "Low Loneliness",
-        "description": "Your loneliness level is low. You have good social support and emotional connections.",
+        "description": "Your loneliness level is low, indicating healthy emotional bonds and adequate social connections. You feel supported by those around you and experience a sense of belonging in your relationships.",
         "suggestions": [
-          "Continue maintaining an active social life",
-          "Cherish your existing relationships",
-          "Keep in regular contact with friends and family"
+          "Continue nurturing your existing friendships and family connections through regular meaningful interactions",
+          "Maintain your current social engagement habits that contribute to your emotional well-being",
+          "Consider offering support to others who may be experiencing loneliness, as helping strengthens bonds"
         ]
       },
       {
@@ -95,12 +95,12 @@
         "max": 18,
         "level": "mild",
         "label": "Moderate Loneliness",
-        "description": "You experience some degree of loneliness and may benefit from more social support or emotional connections.",
+        "description": "You are experiencing moderate loneliness, suggesting some gaps in either emotional intimacy or social contact. While you may have some connections, certain relational needs may not be fully met at this time.",
         "suggestions": [
-          "Try reaching out to friends or family proactively",
-          "Join social activities or interest groups",
-          "Practice expressing your emotional needs",
-          "If loneliness persists, consider talking to a counselor"
+          "Reach out proactively to friends or family members you have not spoken with recently to rebuild connections",
+          "Consider joining community groups, clubs, or classes aligned with your interests to expand your social network",
+          "Practice openly expressing your emotional needs to people you trust rather than keeping feelings to yourself",
+          "If loneliness persists despite your efforts, consider talking to a counselor about strategies for deeper connection"
         ]
       },
       {
@@ -108,13 +108,13 @@
         "max": 24,
         "level": "moderate",
         "label": "High Loneliness",
-        "description": "Your loneliness level is high and may be affecting your mood and quality of life.",
+        "description": "Your loneliness level is high, indicating significant deficits in both emotional closeness and social integration. This degree of loneliness may be negatively affecting your mood, sleep, and overall quality of life.",
         "suggestions": [
-          "Actively expand your social network by joining community activities",
-          "Consider joining a support group or volunteering",
-          "Practice building deeper emotional connections with others",
-          "Consider consulting a mental health professional",
-          "Monitor whether loneliness is accompanied by depression or anxiety"
+          "Actively expand your social network by participating in community events, volunteer work, or group activities",
+          "Seek opportunities for meaningful one-on-one conversations rather than relying solely on surface-level interactions",
+          "Consider joining a peer support group where you can share experiences and build connections with others",
+          "Consult a mental health professional to explore underlying patterns that may contribute to feelings of isolation",
+          "Monitor whether your loneliness is accompanied by symptoms of depression or anxiety that may need attention"
         ]
       },
       {
@@ -122,13 +122,12 @@
         "max": 30,
         "level": "severe",
         "label": "Severe Loneliness",
-        "description": "Your loneliness is very severe and may be seriously affecting your mental health and daily functioning. Please seek professional help.",
+        "description": "Your loneliness is severe, suggesting profound emotional and social isolation that may be significantly impairing your mental health and daily functioning. Professional support is strongly recommended.",
         "suggestions": [
-          "Strongly recommended to consult a mental health professional",
-          "Avoid isolating yourself; try to interact with at least one person daily",
-          "Consider psychotherapy to improve relational patterns",
-          "Monitor for possible depression or anxiety symptoms",
-          "Call a mental health helpline for immediate support"
+          "Seek professional support from a therapist or counselor experienced in addressing social isolation and loneliness",
+          "Make a deliberate effort to interact with at least one person each day, even through brief conversations",
+          "Consider psychotherapy to identify and modify relational patterns that may be maintaining your isolation",
+          "Monitor closely for co-occurring depression or anxiety symptoms and report them to a healthcare provider"
         ]
       }
     ],

@@ -226,10 +226,11 @@
         "max": 7,
         "level": "minimal",
         "label": "Few Hypomanic Features",
-        "description": "You reported few hypomanic symptoms, below the screening threshold.",
+        "description": "You reported few hypomanic symptoms, scoring well below the clinical screening threshold of 14. Periods of elevated mood or increased activity have not been a prominent feature of your experience. No particular concern is indicated at this time.",
         "suggestions": [
-          "No particular concern at this time",
-          "If you experience mood fluctuations, consider consulting a professional"
+          "No particular concern is indicated at this time based on your screening results",
+          "If you experience significant mood fluctuations in the future, consider re-taking this screening",
+          "Being aware of your baseline mood patterns can help you recognize meaningful changes early"
         ]
       },
       {
@@ -237,11 +238,12 @@
         "max": 13,
         "level": "mild",
         "label": "Some Hypomanic Features",
-        "description": "You reported some hypomanic symptoms, but below the screening threshold (14). Consider monitoring mood changes.",
+        "description": "You reported some hypomanic symptoms but scored below the screening threshold of 14. While not screen-positive, this indicates features worth monitoring. Tracking mood patterns over time can help you and your clinician identify meaningful changes.",
         "suggestions": [
-          "Pay attention to patterns and duration of mood fluctuations",
-          "Keeping a mood diary can help with self-understanding",
-          "If mood swings affect daily life, consider consulting a professional"
+          "Pay attention to the pattern and duration of mood fluctuations, especially periods of unusually high energy",
+          "Keeping a daily mood diary can help you identify cycles and triggers for mood changes",
+          "If mood swings begin to affect your work, relationships, or sleep, consider consulting a mental health professional",
+          "Learn about the difference between normal mood variation and clinically significant hypomania"
         ]
       },
       {
@@ -249,12 +251,13 @@
         "max": 19,
         "level": "moderate",
         "label": "Screen Positive",
-        "description": "Your score meets or exceeds the standard screening threshold (>=14), suggesting possible bipolar spectrum features. This is not a diagnosis and requires professional evaluation.",
+        "description": "Your score meets or exceeds the screening threshold of 14, suggesting possible bipolar spectrum features. This is a screening result, not a diagnosis. A comprehensive assessment by a psychiatrist is needed to determine if bipolar disorder is present.",
         "suggestions": [
-          "Consider consulting a psychiatrist for further evaluation",
-          "Keep detailed records of mood patterns for your appointment",
-          "Learn about bipolar spectrum disorders",
-          "Do not self-diagnose; respect professional assessment"
+          "Consult a psychiatrist or clinical psychologist for a comprehensive diagnostic evaluation",
+          "Keep detailed records of your mood patterns, sleep changes, and energy levels to share with your clinician",
+          "Learn about bipolar spectrum disorders from reputable sources to understand what this screening result means",
+          "Do not self-diagnose or self-medicate based on a screening score alone; professional assessment is essential",
+          "If you are currently taking antidepressants, inform your prescriber about this screening result"
         ]
       },
       {
@@ -262,63 +265,16 @@
         "max": 32,
         "level": "severe",
         "label": "Prominent Hypomanic Features",
-        "description": "You reported many hypomanic symptoms. A comprehensive psychiatric evaluation is strongly recommended.",
+        "description": "You reported many hypomanic symptoms, scoring well above the clinical screening threshold. This strongly suggests bipolar spectrum features requiring professional evaluation. A comprehensive psychiatric assessment is recommended to guide treatment.",
         "suggestions": [
-          "Strongly recommended to see a psychiatrist soon",
-          "Document patterns of mood elevation and depression",
-          "Provide your doctor with a complete mood history",
-          "If currently on medication, do not adjust dosage on your own"
+          "Strongly recommended to schedule an appointment with a psychiatrist as soon as possible",
+          "Document your detailed mood history, including periods of both elevation and depression, for your clinician",
+          "Provide your doctor with a complete history of all mood episodes and their impact on your functioning",
+          "If you are currently on medication, do not adjust dosage or stop taking it without medical guidance"
         ]
       }
     ],
-    "subscaleRanges": {
-      "active_elated": [
-        {
-          "min": 0,
-          "max": 5,
-          "level": "minimal",
-          "label": "Low",
-          "description": "Low score on the Active/Elated dimension."
-        },
-        {
-          "min": 6,
-          "max": 10,
-          "level": "mild",
-          "label": "Moderate",
-          "description": "Some active/elated features present."
-        },
-        {
-          "min": 11,
-          "max": 16,
-          "level": "moderate",
-          "label": "High",
-          "description": "Prominent active/elated features such as increased energy, confidence, and sociability."
-        }
-      ],
-      "risk_irritable": [
-        {
-          "min": 0,
-          "max": 2,
-          "level": "minimal",
-          "label": "Low",
-          "description": "Low score on the Risk-Taking/Irritable dimension."
-        },
-        {
-          "min": 3,
-          "max": 5,
-          "level": "mild",
-          "label": "Moderate",
-          "description": "Some risk-taking or irritability tendencies."
-        },
-        {
-          "min": 6,
-          "max": 9,
-          "level": "moderate",
-          "label": "High",
-          "description": "Prominent risk-taking/irritable features such as impulsive spending, distractibility, and irritability."
-        }
-      ]
-    }
+    "subscaleRanges": null
   },
   "report": {
     "charts": [

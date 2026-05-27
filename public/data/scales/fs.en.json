@@ -95,11 +95,12 @@
         "max": 24,
         "level": "severe",
         "label": "Low Flourishing",
-        "description": "Your psychological flourishing is low.",
+        "description": "Your score suggests low levels of psychological flourishing. You may be experiencing a lack of purpose, low self-esteem, limited social engagement, or a sense that your life lacks meaning and direction. These feelings are worth exploring with support.",
         "suggestions": [
-          "Set small achievable goals",
-          "Cultivate supportive relationships",
-          "Consider consulting a mental health professional"
+          "Consider consulting a mental health professional to explore factors contributing to low well-being",
+          "Engage in activities that align with your values and provide a sense of purpose",
+          "Strengthen social connections; positive relationships are a key component of flourishing",
+          "Set small, achievable goals to build momentum and a sense of accomplishment"
         ]
       },
       {
@@ -107,10 +108,11 @@
         "max": 40,
         "level": "moderate",
         "label": "Moderate Flourishing",
-        "description": "Your flourishing is moderate with room for improvement.",
+        "description": "Your score indicates a moderate level of psychological flourishing. You have some areas of strength in your life — such as purpose, relationships, or competence — but there may be room for growth in other areas. This is a common and normal range.",
         "suggestions": [
-          "Reflect on areas for enhancement",
-          "Practice gratitude and optimistic thinking"
+          "Identify the areas where you feel strongest and continue nurturing them",
+          "Explore new activities or challenges that could enhance your sense of meaning and engagement",
+          "Invest in deepening your close relationships and social connections"
         ]
       },
       {
@@ -118,10 +120,11 @@
         "max": 56,
         "level": "minimal",
         "label": "High Flourishing",
-        "description": "Your psychological flourishing is high.",
+        "description": "Your score suggests high levels of psychological flourishing. You experience a strong sense of purpose, positive relationships, competence, and overall well-being. You are thriving across multiple dimensions of psychological functioning.",
         "suggestions": [
-          "Continue your positive lifestyle",
-          "Share positive experiences with others"
+          "Continue the activities and relationships that contribute to your flourishing",
+          "Consider mentoring or supporting others, which can further enhance your sense of purpose and connection",
+          "Stay open to new experiences and continued personal growth"
         ]
       }
     ],

@@ -1,0 +1,263 @@
+{
+  "ess": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "minimal",
+        "label": "Lower Normal Daytime Sleepiness",
+        "description": "Your daytime sleepiness level is within the normal range, indicating adequate sleep quality and duration. You appear to maintain good alertness throughout typical daily activities.",
+        "suggestions": [
+          "Continue maintaining your current sleep hygiene habits and consistent sleep-wake schedule",
+          "Stay physically active during the day to support restorative sleep quality at night",
+          "Avoid excessive caffeine intake in the afternoon and evening hours"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "mild",
+        "label": "Higher Normal Daytime Sleepiness",
+        "description": "Your daytime sleepiness is at the higher end of the normal range. While not clinically significant, this level suggests room for improvement in sleep habits or overall sleep quality.",
+        "suggestions": [
+          "Ensure you are consistently getting 7-9 hours of quality sleep each night",
+          "Limit exposure to electronic screens at least one hour before bedtime to support natural melatonin production",
+          "Evaluate whether stress, irregular work schedules, or lifestyle factors may be affecting your sleep quality",
+          "Consult a healthcare provider if daytime sleepiness begins to interfere with your daily performance or safety"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 12,
+        "level": "moderate",
+        "label": "Mild Excessive Daytime Sleepiness",
+        "description": "Your daytime sleepiness is mildly elevated above the normal range. This may indicate insufficient sleep duration, poor sleep quality, or an underlying sleep disturbance that warrants attention.",
+        "suggestions": [
+          "Keep a detailed sleep diary for at least two weeks to identify patterns in your sleep quality and duration",
+          "Evaluate and reduce factors that may impair sleep such as caffeine, alcohol, heavy meals before bed, and irregular schedules",
+          "Create an optimal sleep environment by ensuring your bedroom is dark, quiet, cool, and free from electronic distractions",
+          "Consider consulting a sleep medicine specialist if sleepiness persists despite improving sleep habits",
+          "Avoid napping for more than 20 minutes during the day as prolonged naps can disrupt nighttime sleep architecture"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 15,
+        "level": "severe",
+        "label": "Moderate Excessive Daytime Sleepiness",
+        "description": "Your daytime sleepiness is moderately elevated, suggesting a possible underlying sleep disorder. Medical evaluation is recommended as this level of sleepiness may impair alertness during critical activities.",
+        "suggestions": [
+          "Schedule an appointment with a sleep medicine specialist for a thorough clinical evaluation",
+          "A polysomnography or home sleep apnea test may be recommended to assess for conditions like obstructive sleep apnea",
+          "Exercise caution when driving or operating machinery, as your level of sleepiness may impair reaction time and judgment",
+          "Discuss with your physician whether any current medications may be contributing to your excessive daytime sleepiness"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 24,
+        "level": "severe",
+        "label": "Severe Excessive Daytime Sleepiness",
+        "description": "Your daytime sleepiness is severely elevated, strongly suggesting an underlying sleep disorder such as sleep apnea or narcolepsy. Prompt medical evaluation is essential for your health and safety.",
+        "suggestions": [
+          "Seek urgent evaluation from a sleep medicine specialist to identify the cause of your severe daytime sleepiness",
+          "Undergo a comprehensive sleep study including polysomnography and potentially a multiple sleep latency test",
+          "Avoid driving, operating heavy machinery, or performing safety-critical tasks until you have been properly diagnosed and treated",
+          "Inform household members and close contacts about your condition so they can provide support and monitor for safety concerns",
+          "Ask your doctor about interim management strategies while awaiting definitive diagnosis and treatment"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "mlq": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 30,
+        "level": "mild",
+        "label": "Low Meaning in Life",
+        "description": "Your overall meaning in life score is low, suggesting limited perceived purpose and relatively little active exploration of meaning. This pattern may be associated with feelings of emptiness or disengagement.",
+        "suggestions": [
+          "Begin exploring your personal values by reflecting on activities and relationships that have felt most meaningful to you in the past",
+          "Engage in volunteering, community service, or helping others, as prosocial behavior is strongly linked to increased sense of purpose",
+          "Share your thoughts and feelings with trusted friends, family members, or a counselor to gain new perspectives on your life direction",
+          "Try journaling about moments when you feel most alive and engaged, as these can reveal sources of latent meaning"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 50,
+        "level": "normal",
+        "label": "Moderate Meaning in Life",
+        "description": "You have a moderate sense of meaning in life and are somewhat engaged in exploring your purpose. Some areas of your life likely feel meaningful while others may still be developing or uncertain.",
+        "suggestions": [
+          "Continue exploring what matters most to you by trying new activities, deepening existing interests, and reflecting on your core values",
+          "Create a personal mission statement or list of life priorities to clarify and strengthen your sense of direction",
+          "Set specific goals that align with your identified values, and track your progress toward achieving them over time"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 70,
+        "level": "minimal",
+        "label": "High Meaning in Life",
+        "description": "You have a strong sense of meaning and purpose in your life. You clearly understand what matters to you and are actively living in alignment with your values and goals.",
+        "suggestions": [
+          "Continue living intentionally and nurturing the relationships, activities, and commitments that give your life meaning",
+          "Consider mentoring or supporting others in discovering their own sense of purpose, as sharing wisdom deepens personal meaning",
+          "Remain open to growth and new experiences, as meaning can evolve and deepen through life transitions and fresh challenges"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "presence": [
+        {
+          "min": 5,
+          "max": 15,
+          "level": "severe",
+          "label": "Low Presence",
+          "description": "You currently experience little felt sense of meaning in your life. Daily activities may feel purposeless or disconnected from your deeper values and aspirations."
+        },
+        {
+          "min": 16,
+          "max": 25,
+          "level": "mild",
+          "label": "Moderate Presence",
+          "description": "You have a moderate sense of meaning in your life. You sometimes feel purposeful and connected to what matters, but this experience may be inconsistent across situations."
+        },
+        {
+          "min": 26,
+          "max": 35,
+          "level": "minimal",
+          "label": "High Presence",
+          "description": "You clearly and consistently feel that your life is meaningful. You have a strong sense of purpose that provides direction and satisfaction in your daily experience."
+        }
+      ],
+      "search": [
+        {
+          "min": 5,
+          "max": 15,
+          "level": "minimal",
+          "label": "Low Search",
+          "description": "You are not actively searching for meaning in your life. This may reflect contentment with your current sense of purpose or a lack of motivation to explore existential questions."
+        },
+        {
+          "min": 16,
+          "max": 25,
+          "level": "normal",
+          "label": "Moderate Search",
+          "description": "You are moderately engaged in exploring the meaning of your life. You occasionally reflect on purpose and direction, balancing curiosity with acceptance of your current situation."
+        },
+        {
+          "min": 26,
+          "max": 35,
+          "level": "mild",
+          "label": "High Search",
+          "description": "You are actively and intensely searching for meaning and purpose in your life. This strong drive to explore existential questions may reflect a transitional period or deep philosophical engagement."
+        }
+      ]
+    }
+  },
+  "aq-10": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "minimal",
+        "label": "Normal Range",
+        "description": "Your score is within the normal range, indicating no significant autism spectrum traits. Your social communication, attention flexibility, and imaginative abilities appear typical.",
+        "suggestions": [
+          "This result suggests you are unlikely to be on the autism spectrum based on this brief screening measure",
+          "If you continue to have specific concerns about social interaction or sensory processing, consider discussing them with a healthcare professional",
+          "Remember that this is a screening tool and does not replace comprehensive clinical evaluation"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "mild",
+        "label": "Borderline Range",
+        "description": "Your score is in the borderline range, suggesting some possible autism spectrum traits in areas such as social communication or attention switching. This does not constitute a diagnosis.",
+        "suggestions": [
+          "This borderline score does not imply a diagnosis but may warrant further self-observation and professional consultation",
+          "If these traits cause difficulties in your social relationships, work, or daily routines, consider seeking a comprehensive evaluation",
+          "Learning about autism spectrum conditions and neurodiversity can help with greater self-understanding and acceptance",
+          "Consider speaking with a psychologist or psychiatrist who specializes in adult autism spectrum assessment"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "moderate",
+        "label": "Further Assessment Recommended",
+        "description": "Your score is elevated, suggesting notable autism spectrum traits across multiple domains. A comprehensive professional assessment is recommended to determine whether these traits meet diagnostic criteria.",
+        "suggestions": [
+          "Contact a clinical psychologist or psychiatrist experienced in autism spectrum assessment for a comprehensive diagnostic evaluation",
+          "This screening result is not a diagnosis and requires in-depth clinical assessment including developmental history and behavioral observation",
+          "Understanding your unique cognitive and social profile can help you develop personalized strategies for managing daily challenges",
+          "Explore local autism support resources, online communities, and advocacy organizations that can provide information and peer support",
+          "Regardless of the diagnostic outcome, identifying your strengths and challenges can improve self-awareness and quality of life"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "pq-16": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "minimal",
+        "label": "Low Risk",
+        "description": "You reported few psychotic-like experiences, indicating no elevated risk for psychosis at this time. Your perceptual and cognitive experiences appear to be within the normal range.",
+        "suggestions": [
+          "No particular clinical concern is indicated at this time based on your screening results",
+          "If you experience any persistent unusual perceptions, intrusive thoughts, or feelings of unreality in the future, consider consulting a professional",
+          "Maintain healthy lifestyle habits including adequate sleep, regular exercise, and stress management as general protective factors"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "level": "mild",
+        "label": "Attention Needed",
+        "description": "You reported several psychotic-like experiences, placing you near the clinical screening threshold. While not necessarily pathological, these experiences should be monitored for changes in frequency or intensity.",
+        "suggestions": [
+          "Pay close attention to the frequency, intensity, and duration of any unusual perceptual or cognitive experiences over the coming weeks",
+          "Maintain regular daily routines, consistent sleep schedules, and meaningful social connections as these support psychological stability",
+          "Minimize or eliminate use of psychoactive substances including cannabis and excessive alcohol, as these can exacerbate psychotic-like experiences",
+          "If these experiences increase in frequency, become more distressing, or begin to affect your daily functioning, consult a psychiatrist promptly"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 12,
+        "level": "moderate",
+        "label": "Screen Positive",
+        "description": "Your score exceeds the clinical screening threshold, suggesting possible ultra-high risk for psychosis. This is a screening result, not a diagnosis, and requires professional clinical evaluation for proper interpretation.",
+        "suggestions": [
+          "Consider scheduling an appointment with a psychiatrist or psychologist for a comprehensive clinical evaluation of your experiences",
+          "Early identification and intervention for psychosis risk have strong evidence for improving long-term outcomes and preventing progression",
+          "Maintain a healthy lifestyle including regular sleep patterns, balanced nutrition, physical activity, and supportive social relationships",
+          "Completely avoid all psychoactive substances including cannabis, stimulants, and hallucinogens as these can significantly increase psychosis risk",
+          "Share your experiences with a trusted family member or friend who can provide emotional support and help monitor any changes"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 16,
+        "level": "severe",
+        "label": "Highly Positive",
+        "description": "You reported many psychotic-like experiences, indicating a substantially elevated screening score. A comprehensive psychiatric evaluation is strongly recommended, as early intervention can significantly improve outcomes.",
+        "suggestions": [
+          "Strongly recommend scheduling an appointment with a psychiatrist as soon as possible for a thorough clinical assessment",
+          "Early intervention services specializing in psychosis risk can provide structured professional support and monitoring tailored to your needs",
+          "Inform trusted family members or close friends about your experiences so they can offer support and assist with accessing appropriate care",
+          "Remember that endorsing these experiences on a screening questionnaire does not mean you have a psychotic disorder, and many people with elevated scores do not develop psychosis"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  }
+}

@@ -182,10 +182,12 @@
         "max": 50,
         "level": "mild",
         "label": "Low Overall Affect",
-        "description": "Both PA and NA are relatively low.",
+        "description": "Your overall emotional engagement appears reduced, with lower levels of both positive and negative affect. This pattern may reflect emotional numbing, disengagement, or a period of low emotional intensity. Exploring activities that promote emotional vitality may be helpful.",
         "suggestions": [
-          "Review subscale scores",
-          "Consider activities boosting positive emotions"
+          "Engage in activities that have previously brought you joy or excitement",
+          "Practice identifying and labeling your emotions throughout the day",
+          "Consider whether this reflects a temporary state or a persistent pattern worth exploring with a professional",
+          "Try novel experiences to stimulate emotional engagement"
         ]
       },
       {
@@ -193,10 +195,11 @@
         "max": 100,
         "level": "normal",
         "label": "Moderate to High Affect",
-        "description": "Overall emotional experience is moderate to high.",
+        "description": "Your emotional engagement is within a typical range. Review your positive and negative affect subscale scores for a more nuanced picture of your emotional balance. The ideal pattern involves high positive affect combined with low negative affect.",
         "suggestions": [
-          "Review PA/NA balance",
-          "Maintain positive emotion activities"
+          "Review your subscale scores — aim for high positive affect and low negative affect",
+          "Practice activities that boost positive emotions such as exercise, socializing, and pursuing hobbies",
+          "If negative affect is elevated, consider stress management techniques like deep breathing or progressive relaxation"
         ]
       }
     ],
@@ -206,22 +209,22 @@
           "min": 10,
           "max": 20,
           "level": "severe",
-          "label": "Low PA",
-          "description": "Low positive affect."
+          "label": "Low",
+          "description": "Your positive affect is low, indicating reduced experiences of enthusiasm, alertness, and active engagement. Low positive affect is a hallmark of depression and may signal anhedonia — difficulty experiencing pleasure. Consider activities that promote positive emotions."
         },
         {
           "min": 21,
           "max": 30,
           "level": "mild",
-          "label": "Moderate PA",
-          "description": "Moderate positive affect."
+          "label": "Moderate",
+          "description": "Your positive affect is moderate. You experience some positive emotions but there is room for growth. Behavioral activation — scheduling enjoyable and meaningful activities — can help boost positive emotional experiences."
         },
         {
           "min": 31,
           "max": 50,
           "level": "minimal",
-          "label": "High PA",
-          "description": "High positive affect."
+          "label": "High",
+          "description": "Your positive affect is strong, indicating frequent experiences of enthusiasm, interest, and active engagement with life. High positive affect is associated with greater resilience, better social relationships, and improved physical health."
         }
       ],
       "negative_affect": [
@@ -229,22 +232,22 @@
           "min": 10,
           "max": 15,
           "level": "minimal",
-          "label": "Very Low NA",
-          "description": "Very low negative affect."
+          "label": "Low",
+          "description": "Your negative affect is low, indicating minimal distressing emotions such as guilt, fear, or hostility. Low negative affect suggests good emotional regulation and is associated with greater life satisfaction and psychological health."
         },
         {
           "min": 16,
           "max": 25,
           "level": "normal",
-          "label": "Moderate NA",
-          "description": "Moderate negative affect."
+          "label": "Moderate",
+          "description": "Your negative affect is in the moderate range. Some negative emotions are a normal part of the human experience. Monitor whether stress or specific situations are driving elevated negative feelings."
         },
         {
           "min": 26,
           "max": 50,
           "level": "severe",
-          "label": "High NA",
-          "description": "High negative affect."
+          "label": "High",
+          "description": "Your negative affect is elevated, indicating frequent experiences of distressing emotions such as anxiety, anger, guilt, or fear. Persistently high negative affect is associated with psychological distress and warrants professional attention."
         }
       ]
     }

@@ -117,11 +117,12 @@
         "max": 4,
         "level": "normal",
         "label": "Normal",
-        "description": "Your score is within the normal range. No significant depressive symptoms detected.",
+        "description": "Your score is within the normal range, suggesting no significant depressive symptoms. Your emotional well-being appears stable, which is positive for overall health in later life.",
         "suggestions": [
-          "Continue engaging in social and physical activities",
-          "Maintain regular routines and hobbies",
-          "Stay connected with family and friends"
+          "Continue engaging in social and physical activities that you enjoy",
+          "Maintain regular routines, hobbies, and meaningful social connections",
+          "Stay connected with family and friends to maintain emotional well-being",
+          "Regular physical activity, even short walks, supports both mental and physical health"
         ]
       },
       {
@@ -129,12 +130,12 @@
         "max": 8,
         "level": "mild",
         "label": "Mild Depression",
-        "description": "Your score suggests mild depressive symptoms. These may be affecting your quality of life.",
+        "description": "Your score suggests mild depressive symptoms that may be affecting your quality of life. In older adults, depression can sometimes present as fatigue, social withdrawal, or physical complaints rather than overt sadness.",
         "suggestions": [
-          "Talk to your doctor about how you have been feeling",
-          "Stay physically active; even short walks can help",
+          "Talk to your doctor about how you have been feeling; depression is common and treatable at any age",
+          "Stay physically active; even short daily walks can significantly improve mood",
           "Maintain social connections and engage in enjoyable activities",
-          "Consider joining a senior community group or activity"
+          "Consider joining a senior community group, class, or volunteer activity"
         ]
       },
       {
@@ -142,12 +143,13 @@
         "max": 11,
         "level": "moderate",
         "label": "Moderate Depression",
-        "description": "Your score indicates moderate depressive symptoms. Professional evaluation is recommended.",
+        "description": "Your score indicates moderate depressive symptoms that warrant professional attention. These symptoms may be interfering with daily activities, social engagement, and overall quality of life.",
         "suggestions": [
           "Consult your healthcare provider for a comprehensive evaluation",
-          "Psychotherapy and/or medication can be effective at any age",
+          "Psychotherapy and/or medication can be effective at any age; do not hesitate to explore options",
           "Try to maintain daily routines and regular sleep patterns",
-          "Accept support from family and friends"
+          "Accept support from family and friends; letting others help is a strength, not a weakness",
+          "Be aware that some medications or medical conditions can contribute to depressive symptoms"
         ]
       },
       {
@@ -155,12 +157,13 @@
         "max": 15,
         "level": "severe",
         "label": "Severe Depression",
-        "description": "Your score suggests severe depressive symptoms. Please seek professional help promptly.",
+        "description": "Your score suggests severe depressive symptoms that are likely significantly affecting your daily life, independence, and well-being. Depression in older adults is very treatable, and seeking help is crucial.",
         "suggestions": [
           "Seek medical attention from your healthcare provider as soon as possible",
-          "Depression in older adults is very treatable; do not hesitate to seek help",
+          "Depression in older adults is very treatable; do not assume it is just part of aging",
           "If you have thoughts of self-harm, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
-          "Inform a family member or trusted person about your feelings"
+          "Inform a family member or trusted person about your feelings",
+          "A combination of therapy and medication is often the most effective approach"
         ]
       }
     ],
@@ -174,5 +177,9 @@
       "min": 0,
       "max": 15
     }
+  },
+  "crisisConfig": {
+    "type": "level",
+    "levelThreshold": "severe"
   }
 }

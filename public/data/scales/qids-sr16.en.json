@@ -158,10 +158,10 @@
         "max": 5,
         "level": "none",
         "label": "No Depression",
-        "description": "Your depressive symptom score is within the normal range.",
+        "description": "Your score suggests no significant depressive symptoms. Your emotional functioning appears healthy, and you are not reporting notable changes in mood, energy, sleep, appetite, or concentration.",
         "suggestions": [
-          "Maintain healthy lifestyle habits",
-          "Continue engaging in social relationships and activities"
+          "Continue maintaining healthy lifestyle habits that support your mood",
+          "Regular exercise, social engagement, and adequate sleep are protective factors"
         ]
       },
       {
@@ -169,11 +169,12 @@
         "max": 10,
         "level": "mild",
         "label": "Mild Depression",
-        "description": "You have mild depressive symptoms.",
+        "description": "Your score indicates mild depressive symptoms. You may be experiencing some changes in mood, energy, sleep patterns, or appetite. While not severe, these symptoms are worth monitoring as they may affect your daily comfort and functioning.",
         "suggestions": [
-          "Increase physical activity and outdoor time",
-          "Maintain a regular sleep schedule",
-          "Stay connected with friends and family"
+          "Monitor your mood and symptoms over the coming weeks",
+          "Maintain regular physical activity and social connections",
+          "Practice stress management techniques such as mindfulness or relaxation exercises",
+          "Consult a healthcare provider if symptoms persist or worsen"
         ]
       },
       {
@@ -181,11 +182,13 @@
         "max": 15,
         "level": "moderate",
         "label": "Moderate Depression",
-        "description": "You have moderate depressive symptoms. Further evaluation is recommended.",
+        "description": "Your score indicates moderate depressive symptoms that are likely affecting your daily functioning in areas such as work, relationships, or self-care. You may be experiencing persistent low mood, disrupted sleep, changes in appetite or weight, difficulty concentrating, or reduced interest in activities.",
         "suggestions": [
-          "Consult a mental health professional",
-          "Consider psychotherapy such as Cognitive Behavioral Therapy",
-          "Focus on self-care and ensuring basic needs are met"
+          "Consider consulting a mental health professional for evaluation",
+          "Evidence-based treatments such as CBT and interpersonal therapy are effective at this level",
+          "Maintain a structured daily routine to provide stability",
+          "Stay connected with supportive people in your life",
+          "Avoid using alcohol or drugs to cope with low mood"
         ]
       },
       {
@@ -193,11 +196,12 @@
         "max": 20,
         "level": "severe",
         "label": "Severe Depression",
-        "description": "You have severe depressive symptoms requiring professional intervention.",
+        "description": "Your score suggests severe depressive symptoms that are significantly impairing your daily functioning and quality of life. You may be experiencing profound changes in sleep, appetite, energy, concentration, and feelings of hopelessness or worthlessness.",
         "suggestions": [
-          "Seek psychiatric evaluation as soon as possible",
-          "Medication combined with psychotherapy may be needed",
-          "Ensure you have a safety support network"
+          "Seek professional help from a mental health provider as soon as possible",
+          "If you have thoughts of self-harm or suicide, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "A combination of psychotherapy and medication is often most effective for severe depression",
+          "Inform a trusted person about how you are feeling"
         ]
       },
       {
@@ -205,11 +209,12 @@
         "max": 27,
         "level": "very_severe",
         "label": "Very Severe Depression",
-        "description": "Your depressive symptoms are very severe. Seek help immediately.",
+        "description": "Your score indicates very severe depressive symptoms that require urgent professional attention. At this level, depression is likely causing profound impairment across all areas of your life. Effective treatments are available and seeking help immediately is critical.",
         "suggestions": [
-          "Contact a psychiatrist or emergency services immediately",
-          "If having suicidal thoughts, call a crisis hotline",
-          "Do not be alone; inform family or friends of your condition"
+          "Seek immediate consultation with a psychiatrist or mental health professional",
+          "If you are in crisis or having thoughts of suicide, call 988 or go to your nearest emergency room",
+          "Do not stay alone; ensure someone you trust knows about your situation",
+          "Intensive treatment, potentially including hospitalization, may be appropriate"
         ]
       }
     ],

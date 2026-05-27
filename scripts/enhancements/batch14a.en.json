@@ -1,0 +1,259 @@
+{
+  "phq-9": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your depression score is within the normal range, suggesting no clinically significant depressive symptoms over the past two weeks. Occasional low mood is a normal part of life and does not indicate a problem.",
+        "suggestions": [
+          "Continue maintaining a healthy lifestyle with regular exercise and balanced nutrition",
+          "Keep up regular social activities and connections with people you enjoy",
+          "Allow yourself time to relax and recharge when you feel occasional low mood"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "You may be experiencing mild depressive symptoms such as low mood or reduced interest that could slightly affect your daily functioning. These symptoms are common and often respond well to lifestyle changes and self-care strategies.",
+        "suggestions": [
+          "Practice consistent self-care by maintaining a regular sleep schedule and daily exercise routine",
+          "Talk to a trusted friend or family member about how you have been feeling lately",
+          "Learn and practice relaxation techniques such as deep breathing, mindfulness, or journaling",
+          "If symptoms persist beyond two weeks, consider scheduling a visit with a healthcare professional"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "Your depressive symptoms are at a moderate level and are likely affecting your work performance, social relationships, and daily activities. Professional evaluation is recommended to determine whether treatment would be beneficial.",
+        "suggestions": [
+          "Consider scheduling an appointment with a counselor, therapist, or psychiatrist for professional evaluation",
+          "Maintain a structured daily routine including regular wake times, meals, and physical activity",
+          "Engage in physical exercise at least three to four times per week, as it has proven antidepressant effects",
+          "Avoid using alcohol or other substances as coping strategies, as they can worsen depression",
+          "Explore evidence-based psychotherapy options such as cognitive behavioral therapy or behavioral activation"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 19,
+        "level": "severe",
+        "label": "Moderately Severe Depression",
+        "description": "Your depressive symptoms are at a moderately severe level and are likely significantly impairing your daily functioning and quality of life. Seeking professional mental health support is strongly recommended at this stage.",
+        "suggestions": [
+          "Seeking evaluation from a psychiatrist or mental health professional is strongly recommended at this severity level",
+          "A combination of medication and psychotherapy is often the most effective treatment for this level of depression",
+          "Make sure you have a trusted person you can reach out to when you are struggling",
+          "Stay connected with others and avoid isolating yourself, even when motivation is low"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 27,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "Your depressive symptoms are very severe and are likely seriously affecting all areas of your daily life. Immediate professional help is essential, and if you have thoughts of self-harm, please reach out for crisis support right away.",
+        "suggestions": [
+          "Please contact a psychiatrist or visit a hospital emergency department as soon as possible for urgent evaluation",
+          "If you are having thoughts of self-harm or suicide, please call the 988 Suicide and Crisis Lifeline (US) or 400-161-9995 (China) immediately",
+          "Do not stay alone; inform a trusted family member or friend about your current situation right away",
+          "Follow your treatment recommendations closely, including taking medications exactly as prescribed",
+          "Remember that severe depression is a treatable medical condition and recovery is possible with proper support"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "phq-8": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your depression score is within the normal range, indicating no clinically significant depressive symptoms over the past two weeks. Your current emotional well-being appears stable and healthy.",
+        "suggestions": [
+          "Continue your current healthy habits including regular physical activity and social engagement",
+          "Maintain a balanced lifestyle with adequate sleep, nutrition, and time for activities you enjoy",
+          "Remember that occasional mood fluctuations are normal and typically resolve on their own"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "You may be experiencing mild depressive symptoms that could subtly affect your energy, motivation, or enjoyment of daily activities. These symptoms are common and often improve with proactive self-care and lifestyle adjustments.",
+        "suggestions": [
+          "Prioritize self-care by keeping a regular sleep schedule and incorporating daily physical activity into your routine",
+          "Reach out to a trusted friend or family member to share how you have been feeling",
+          "Practice stress reduction techniques such as mindfulness meditation, progressive muscle relaxation, or gentle yoga",
+          "If symptoms persist or worsen over the next few weeks, consider consulting a healthcare professional for guidance"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "Moderate Depression",
+        "description": "Your depressive symptoms are at a moderate level and may be noticeably affecting your ability to function at work, maintain relationships, and manage daily responsibilities. Professional evaluation is advisable.",
+        "suggestions": [
+          "Schedule an appointment with a mental health professional such as a therapist, counselor, or psychiatrist for evaluation",
+          "Establish and maintain a consistent daily routine to provide structure and a sense of accomplishment",
+          "Aim for regular physical exercise, which has well-documented benefits for improving depressive symptoms",
+          "Avoid relying on alcohol, caffeine, or other substances to manage your mood, as they often worsen symptoms",
+          "Consider evidence-based treatments such as cognitive behavioral therapy, which is highly effective for depression"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 19,
+        "level": "severe",
+        "label": "Moderately Severe Depression",
+        "description": "Your depressive symptoms are at a moderately severe level, likely causing significant impairment in your daily life, work, and personal relationships. Professional treatment is strongly recommended to support your recovery.",
+        "suggestions": [
+          "Consult a psychiatrist or mental health professional promptly, as this level of symptoms typically requires professional intervention",
+          "A combined approach of medication and psychotherapy is often most effective for moderately severe depression",
+          "Ensure you have at least one trusted person in your support network who knows how you are feeling",
+          "Try to maintain social connections even when you feel like withdrawing, as isolation tends to worsen depression"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 24,
+        "level": "severe",
+        "label": "Severe Depression",
+        "description": "Your depressive symptoms are very severe and are likely causing major disruption to your daily functioning and overall quality of life. Immediate professional evaluation and treatment are strongly recommended.",
+        "suggestions": [
+          "Please contact a mental health professional or visit a healthcare facility as soon as possible for urgent assessment",
+          "If you experience any thoughts of self-harm, reach out to a crisis helpline such as the 988 Lifeline immediately",
+          "Inform a trusted family member or friend about your situation so they can provide immediate support",
+          "Adhere closely to any treatment plans recommended by your healthcare providers, including prescribed medications",
+          "Understand that severe depression is a medical condition that responds well to treatment, and improvement is achievable"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "gad-7": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your anxiety score is within the normal range, suggesting no clinically significant anxiety symptoms over the past two weeks. Your current level of worry and nervousness falls within healthy limits.",
+        "suggestions": [
+          "Continue maintaining your current well-being through regular exercise and healthy stress management habits",
+          "Practice preventive relaxation activities such as deep breathing, meditation, or spending time in nature",
+          "Keep up a regular routine that includes adequate sleep, balanced nutrition, and enjoyable activities"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "Mild Anxiety",
+        "description": "You may be experiencing mild anxiety symptoms such as excessive worry or nervousness that could slightly interfere with your daily comfort and concentration. These symptoms often respond well to self-help strategies.",
+        "suggestions": [
+          "Learn and regularly practice relaxation techniques such as progressive muscle relaxation or mindfulness meditation",
+          "Maintain consistent physical exercise, which is one of the most effective natural anxiety reducers",
+          "Reduce caffeine and stimulant intake, as these can amplify anxiety symptoms significantly",
+          "Try keeping a worry journal to identify triggers and practice challenging irrational thoughts"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "Moderate Anxiety",
+        "description": "Your anxiety symptoms are at a moderate level and are likely noticeably affecting your work performance, social interactions, and overall daily functioning. Professional evaluation is recommended at this stage.",
+        "suggestions": [
+          "Consider consulting a therapist, counselor, or psychiatrist for professional evaluation and treatment planning",
+          "Cognitive behavioral therapy has strong research support as an effective treatment for generalized anxiety",
+          "Incorporate daily relaxation or mindfulness exercises into your routine to help manage persistent worry",
+          "Maintain regular sleep and exercise habits, as disruptions in these areas can significantly worsen anxiety",
+          "Avoid excessive use of alcohol, sedatives, or sleep medications as strategies for managing anxiety symptoms"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 21,
+        "level": "severe",
+        "label": "Severe Anxiety",
+        "description": "Your anxiety symptoms are at a severe level and are likely significantly impairing your ability to function in daily life, work, and relationships. Prompt professional evaluation and treatment are strongly recommended.",
+        "suggestions": [
+          "Seeking evaluation from a psychiatrist or mental health professional is strongly recommended at this severity level",
+          "A combination of medication and psychotherapy such as CBT is often the most effective approach for severe anxiety",
+          "Build and maintain a reliable support system of people who understand your situation and can offer help",
+          "Learn to recognize the physical signs of panic attacks and practice grounding techniques to manage them",
+          "Work with a professional to gradually face anxiety-provoking situations rather than avoiding them"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "phq-4": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your total score is within the normal range, indicating no significant symptoms of anxiety or depression over the past two weeks. Your current psychological well-being appears to be in a healthy state.",
+        "suggestions": [
+          "Continue maintaining a balanced lifestyle with regular exercise, adequate sleep, and social engagement",
+          "Keep practicing healthy stress management habits that support your overall emotional well-being",
+          "Remember that brief periods of stress or low mood are a normal part of life and typically resolve naturally"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "mild",
+        "label": "Mild Distress",
+        "description": "You may be experiencing mild psychological distress involving some anxiety or depressive symptoms. These symptoms are common and may reflect recent stress, but monitoring them over time is a good practice.",
+        "suggestions": [
+          "Pay closer attention to your emotional well-being and notice patterns in when you feel most stressed or low",
+          "Practice daily stress management techniques such as deep breathing, mindfulness, or gentle physical exercise",
+          "Maintain regular sleep and exercise routines, as both have a strong positive impact on mood and anxiety",
+          "If symptoms continue or worsen, consider completing the full PHQ-9 or GAD-7 for a more detailed assessment"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "level": "moderate",
+        "label": "Moderate Distress",
+        "description": "Your score indicates moderate psychological distress that may involve both anxiety and depressive symptoms affecting your daily life. A more detailed assessment is recommended to better understand your specific needs.",
+        "suggestions": [
+          "Consider completing the full PHQ-9 and GAD-7 assessments to get a more detailed picture of your symptoms",
+          "Consult a healthcare professional for a comprehensive evaluation to determine whether treatment would be helpful",
+          "Practice daily relaxation and stress management techniques to help reduce your current level of distress",
+          "Maintain and strengthen your social connections and support networks, as social support is protective",
+          "Establish consistent daily routines for sleep, meals, and activity to provide structure and stability"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 12,
+        "level": "severe",
+        "label": "Severe Distress",
+        "description": "Your score suggests significant psychological distress that is likely substantially impacting your daily functioning and quality of life. Professional evaluation and support are strongly recommended at this level.",
+        "suggestions": [
+          "Seek consultation with a mental health professional promptly for a thorough evaluation and treatment planning",
+          "Complete the full PHQ-9 and GAD-7 assessments to help identify whether depression, anxiety, or both are primary concerns",
+          "Ensure you have a reliable support system of trusted people you can reach out to when you are struggling",
+          "Remember that effective treatments exist for both anxiety and depression, and seeking help is a sign of strength"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  }
+}

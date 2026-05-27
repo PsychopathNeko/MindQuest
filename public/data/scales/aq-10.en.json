@@ -118,10 +118,11 @@
         "max": 2,
         "level": "minimal",
         "label": "Normal Range",
-        "description": "Your score is within the normal range, showing no significant autism spectrum traits.",
+        "description": "Your score is within the normal range, indicating no significant autism spectrum traits. Your social communication, attention flexibility, and imaginative abilities appear typical.",
         "suggestions": [
-          "This result suggests you are unlikely to be on the autism spectrum",
-          "If you still have concerns, consult a professional for a more comprehensive evaluation"
+          "This result suggests you are unlikely to be on the autism spectrum based on this brief screening measure",
+          "If you continue to have specific concerns about social interaction or sensory processing, consider discussing them with a healthcare professional",
+          "Remember that this is a screening tool and does not replace comprehensive clinical evaluation"
         ]
       },
       {
@@ -129,11 +130,12 @@
         "max": 5,
         "level": "mild",
         "label": "Borderline Range",
-        "description": "Your score is in the borderline range, suggesting some possible autism spectrum traits.",
+        "description": "Your score is in the borderline range, suggesting some possible autism spectrum traits in areas such as social communication or attention switching. This does not constitute a diagnosis.",
         "suggestions": [
-          "This score does not imply a diagnosis, but may warrant further attention",
-          "If these traits affect your daily life, consider consulting a professional",
-          "Learning about autism spectrum conditions can help with self-understanding"
+          "This borderline score does not imply a diagnosis but may warrant further self-observation and professional consultation",
+          "If these traits cause difficulties in your social relationships, work, or daily routines, consider seeking a comprehensive evaluation",
+          "Learning about autism spectrum conditions and neurodiversity can help with greater self-understanding and acceptance",
+          "Consider speaking with a psychologist or psychiatrist who specializes in adult autism spectrum assessment"
         ]
       },
       {
@@ -141,12 +143,13 @@
         "max": 10,
         "level": "moderate",
         "label": "Further Assessment Recommended",
-        "description": "Your score is elevated, suggesting possible autism spectrum traits. A more comprehensive professional assessment is recommended.",
+        "description": "Your score is elevated, suggesting notable autism spectrum traits across multiple domains. A comprehensive professional assessment is recommended to determine whether these traits meet diagnostic criteria.",
         "suggestions": [
-          "Consider contacting a professional for a comprehensive autism spectrum assessment",
-          "This screening result is not a diagnosis and requires professional clinical evaluation",
-          "Regardless of the outcome, understanding your characteristics helps develop suitable coping strategies",
-          "Look for local autism support resources and communities"
+          "Contact a clinical psychologist or psychiatrist experienced in autism spectrum assessment for a comprehensive diagnostic evaluation",
+          "This screening result is not a diagnosis and requires in-depth clinical assessment including developmental history and behavioral observation",
+          "Understanding your unique cognitive and social profile can help you develop personalized strategies for managing daily challenges",
+          "Explore local autism support resources, online communities, and advocacy organizations that can provide information and peer support",
+          "Regardless of the diagnostic outcome, identifying your strengths and challenges can improve self-awareness and quality of life"
         ]
       }
     ],

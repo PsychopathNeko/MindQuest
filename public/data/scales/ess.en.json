@@ -83,11 +83,11 @@
         "max": 5,
         "level": "minimal",
         "label": "Lower Normal Daytime Sleepiness",
-        "description": "Your daytime sleepiness level is within the normal range. You appear to be well-rested during the day.",
+        "description": "Your daytime sleepiness level is within the normal range, indicating adequate sleep quality and duration. You appear to maintain good alertness throughout typical daily activities.",
         "suggestions": [
-          "Continue maintaining good sleep habits",
-          "Keep a regular sleep-wake schedule",
-          "Stay physically active to support sleep quality"
+          "Continue maintaining your current sleep hygiene habits and consistent sleep-wake schedule",
+          "Stay physically active during the day to support restorative sleep quality at night",
+          "Avoid excessive caffeine intake in the afternoon and evening hours"
         ]
       },
       {
@@ -95,12 +95,12 @@
         "max": 10,
         "level": "mild",
         "label": "Higher Normal Daytime Sleepiness",
-        "description": "Your daytime sleepiness level is average, at the higher end of the normal range.",
+        "description": "Your daytime sleepiness is at the higher end of the normal range. While not clinically significant, this level suggests room for improvement in sleep habits or overall sleep quality.",
         "suggestions": [
-          "Ensure you are getting 7-9 hours of sleep per night",
-          "Avoid electronic devices before bedtime",
-          "Consider whether stress or lifestyle factors affect your sleep",
-          "Consult a doctor if sleepiness affects your daily activities"
+          "Ensure you are consistently getting 7-9 hours of quality sleep each night",
+          "Limit exposure to electronic screens at least one hour before bedtime to support natural melatonin production",
+          "Evaluate whether stress, irregular work schedules, or lifestyle factors may be affecting your sleep quality",
+          "Consult a healthcare provider if daytime sleepiness begins to interfere with your daily performance or safety"
         ]
       },
       {
@@ -108,12 +108,13 @@
         "max": 12,
         "level": "moderate",
         "label": "Mild Excessive Daytime Sleepiness",
-        "description": "Your daytime sleepiness is mildly elevated. There may be an issue with sleep duration or quality.",
+        "description": "Your daytime sleepiness is mildly elevated above the normal range. This may indicate insufficient sleep duration, poor sleep quality, or an underlying sleep disturbance that warrants attention.",
         "suggestions": [
-          "Evaluate your sleep duration and quality",
-          "Rule out factors that may impair sleep (caffeine, alcohol, stress)",
-          "Consider consulting a sleep specialist",
-          "Keep a sleep diary to track patterns"
+          "Keep a detailed sleep diary for at least two weeks to identify patterns in your sleep quality and duration",
+          "Evaluate and reduce factors that may impair sleep such as caffeine, alcohol, heavy meals before bed, and irregular schedules",
+          "Create an optimal sleep environment by ensuring your bedroom is dark, quiet, cool, and free from electronic distractions",
+          "Consider consulting a sleep medicine specialist if sleepiness persists despite improving sleep habits",
+          "Avoid napping for more than 20 minutes during the day as prolonged naps can disrupt nighttime sleep architecture"
         ]
       },
       {
@@ -121,12 +122,12 @@
         "max": 15,
         "level": "severe",
         "label": "Moderate Excessive Daytime Sleepiness",
-        "description": "Your daytime sleepiness is moderately elevated. A sleep disorder may be present, and medical evaluation is recommended.",
+        "description": "Your daytime sleepiness is moderately elevated, suggesting a possible underlying sleep disorder. Medical evaluation is recommended as this level of sleepiness may impair alertness during critical activities.",
         "suggestions": [
-          "Consult a sleep medicine specialist soon",
-          "A polysomnography (sleep study) may be recommended",
-          "Be cautious when driving or operating machinery",
-          "Avoid tasks requiring high alertness until evaluated"
+          "Schedule an appointment with a sleep medicine specialist for a thorough clinical evaluation",
+          "A polysomnography or home sleep apnea test may be recommended to assess for conditions like obstructive sleep apnea",
+          "Exercise caution when driving or operating machinery, as your level of sleepiness may impair reaction time and judgment",
+          "Discuss with your physician whether any current medications may be contributing to your excessive daytime sleepiness"
         ]
       },
       {
@@ -134,12 +135,13 @@
         "max": 24,
         "level": "severe",
         "label": "Severe Excessive Daytime Sleepiness",
-        "description": "Your daytime sleepiness is severely elevated. Please seek medical evaluation to rule out sleep apnea, narcolepsy, or other sleep disorders.",
+        "description": "Your daytime sleepiness is severely elevated, strongly suggesting an underlying sleep disorder such as sleep apnea or narcolepsy. Prompt medical evaluation is essential for your health and safety.",
         "suggestions": [
-          "Seek immediate medical evaluation from a sleep specialist",
-          "Undergo a comprehensive sleep assessment",
-          "Avoid driving and hazardous activities until diagnosed and treated",
-          "Inform family members of your condition for safety"
+          "Seek urgent evaluation from a sleep medicine specialist to identify the cause of your severe daytime sleepiness",
+          "Undergo a comprehensive sleep study including polysomnography and potentially a multiple sleep latency test",
+          "Avoid driving, operating heavy machinery, or performing safety-critical tasks until you have been properly diagnosed and treated",
+          "Inform household members and close contacts about your condition so they can provide support and monitor for safety concerns",
+          "Ask your doctor about interim management strategies while awaiting definitive diagnosis and treatment"
         ]
       }
     ],

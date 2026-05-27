@@ -1,0 +1,310 @@
+{
+  "ies-r": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 23,
+        "level": "normal",
+        "label": "Normal Range",
+        "description": "Your score indicates no clinically significant post-traumatic distress. The event does not appear to be causing ongoing psychological disruption to your daily life or emotional well-being.",
+        "suggestions": [
+          "Continue using your current healthy coping strategies to process the experience",
+          "Allow yourself to work through the event at a comfortable pace without pressure",
+          "Stay connected with supportive friends and family members"
+        ]
+      },
+      {
+        "min": 24,
+        "max": 32,
+        "level": "mild",
+        "label": "Mild Impact",
+        "description": "Your score suggests mild post-traumatic distress that may benefit from monitoring. Some intrusive thoughts, avoidance behaviors, or heightened arousal related to the event may be present.",
+        "suggestions": [
+          "Monitor your symptoms over the next several weeks to track any changes in frequency or intensity",
+          "Incorporate regular self-care routines including adequate sleep, exercise, and relaxation practices",
+          "Talk openly with someone you trust about your experiences and feelings",
+          "Consider consulting a mental health professional if symptoms persist or worsen over time"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 36,
+        "level": "moderate",
+        "label": "Moderate Impact",
+        "description": "Your score reflects moderate post-traumatic distress with a notable impact on your well-being. Intrusive memories, avoidance patterns, and hyperarousal symptoms may be interfering with daily functioning.",
+        "suggestions": [
+          "Seek support from a qualified mental health professional experienced in trauma treatment",
+          "Practice grounding techniques such as deep breathing, progressive muscle relaxation, or the 5-4-3-2-1 sensory exercise",
+          "Maintain consistent daily routines for sleep, meals, and physical activity to provide stability",
+          "Avoid isolating yourself and make intentional efforts to stay socially connected",
+          "Limit exposure to triggering content in media or conversations when possible"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 88,
+        "level": "severe",
+        "label": "Severe Impact",
+        "description": "Your score indicates severe post-traumatic distress that is significantly affecting your psychological functioning. This level of symptoms is consistent with a possible PTSD diagnosis requiring professional evaluation.",
+        "suggestions": [
+          "Please seek professional help from a therapist specializing in trauma-focused treatments such as EMDR or CPT",
+          "If you are in crisis, contact a crisis helpline immediately (e.g., 988 Suicide and Crisis Lifeline)",
+          "Develop a safety plan with a professional for managing episodes of intense distress",
+          "Follow through consistently with professional treatment recommendations and scheduled appointments",
+          "Reach out to trusted individuals who can provide immediate emotional support during difficult moments"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "intrusion": [
+        {
+          "min": 0,
+          "max": 8,
+          "level": "normal",
+          "label": "Low",
+          "description": "Intrusive re-experiencing symptoms are within the normal range. You are not significantly troubled by unwanted memories, flashbacks, or distressing dreams related to the event."
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "level": "mild",
+          "label": "Mild",
+          "description": "You are experiencing mild intrusion symptoms. Occasional unwanted thoughts, memories, or dreams about the event may surface but remain manageable in daily life."
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Intrusion symptoms are at a moderate level and may be disrupting your concentration, sleep, or emotional stability. Flashbacks or vivid memories of the event may occur with notable frequency."
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe intrusion symptoms are significantly impairing your functioning. Persistent unwanted memories, intense flashbacks, and distressing nightmares may dominate your daily experience."
+        }
+      ],
+      "avoidance": [
+        {
+          "min": 0,
+          "max": 8,
+          "level": "normal",
+          "label": "Low",
+          "description": "Avoidance symptoms are within the normal range. You are not significantly restricting your activities or suppressing thoughts and feelings related to the traumatic event."
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "level": "mild",
+          "label": "Mild",
+          "description": "You show mild avoidance patterns. You may occasionally steer away from reminders, conversations, or places associated with the event, but this does not substantially limit your life."
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Avoidance behaviors are at a moderate level and may be limiting your activities and social engagement. You may actively avoid situations, people, or feelings connected to the event."
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe avoidance is significantly restricting your daily life and relationships. Extensive efforts to avoid trauma-related thoughts, feelings, and situations may be narrowing your world considerably."
+        }
+      ],
+      "hyperarousal": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "normal",
+          "label": "Low",
+          "description": "Hyperarousal symptoms are within the normal range. Your sleep, concentration, and startle responses do not appear to be significantly affected by the traumatic event."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "mild",
+          "label": "Mild",
+          "description": "You are experiencing mild hyperarousal symptoms. Occasional sleep difficulties, irritability, or heightened vigilance may be present but remain at a manageable level."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Hyperarousal symptoms are at a moderate level and may be noticeably affecting your daily functioning. Persistent irritability, concentration problems, and exaggerated startle responses are likely."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe hyperarousal symptoms are substantially impairing your daily life. Chronic sleep disturbance, intense irritability, hypervigilance, and exaggerated startle reactions require professional intervention."
+        }
+      ]
+    }
+  },
+  "stai-6": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 10,
+        "level": "minimal",
+        "label": "Low Anxiety",
+        "description": "Your current state anxiety is low, indicating that you feel calm and relaxed at this moment. You are managing your emotional state well with no significant tension or worry detected.",
+        "suggestions": [
+          "Continue maintaining your current state of calm and emotional equilibrium",
+          "Practice regular relaxation techniques such as deep breathing to sustain your well-being over time",
+          "Take note of the strategies and circumstances that help you feel at ease for future reference"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 14,
+        "level": "mild",
+        "label": "Mild Anxiety",
+        "description": "You are experiencing mild state anxiety, which is a common response to everyday situations. Some tension or worry may be present, but it is not significantly impairing your current functioning.",
+        "suggestions": [
+          "Try deep breathing exercises or progressive muscle relaxation to ease your current tension",
+          "Identify any immediate stressors in your environment and address them if possible",
+          "Engage in a brief mindfulness or grounding exercise to center yourself in the present moment",
+          "Consider a short physical activity break such as a walk to help regulate your arousal level"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 18,
+        "level": "moderate",
+        "label": "Moderate Anxiety",
+        "description": "Your current anxiety level is moderate, suggesting noticeable tension and worry at this moment. You may benefit from active coping strategies to reduce your state of arousal and regain composure.",
+        "suggestions": [
+          "Practice grounding techniques such as the 5-4-3-2-1 sensory exercise to anchor yourself in the present",
+          "Take a break from the situation causing anxiety if it is safe and feasible to do so",
+          "Talk to someone you trust about what you are experiencing right now",
+          "Use structured relaxation exercises such as guided imagery or body scan meditation",
+          "Reduce stimulant intake such as caffeine that may be amplifying your anxiety response"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "severe",
+        "label": "High Anxiety",
+        "description": "Your state anxiety is high, indicating significant tension, worry, and discomfort at this moment. This level of acute anxiety may be impairing your ability to think clearly and function effectively.",
+        "suggestions": [
+          "Seek immediate support from a trusted person, counselor, or mental health professional",
+          "Practice slow, deep diaphragmatic breathing to activate your parasympathetic nervous system",
+          "Remove yourself from overwhelming or distressing situations if it is safe to do so",
+          "Consider consulting a mental health professional if this level of anxiety occurs frequently"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "oasis": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your overall anxiety severity is within the normal range, with no significant anxiety-related distress or functional impairment detected. Your current emotional state appears stable and well-regulated.",
+        "suggestions": [
+          "Continue maintaining your current mental health habits and coping strategies",
+          "Keep up regular exercise and relaxation routines that support emotional well-being",
+          "Nurture your social support network as a protective factor against future stress"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "Mild Anxiety",
+        "description": "Your score indicates mild overall anxiety. You may occasionally feel tense, worried, or on edge, but the impact on your work, social life, and daily activities remains limited.",
+        "suggestions": [
+          "Learn and regularly practice deep breathing and progressive muscle relaxation techniques",
+          "Maintain a consistent routine of physical exercise to help regulate your anxiety levels",
+          "Identify your specific anxiety triggers and develop proactive strategies to manage them",
+          "Consider consulting a mental health professional if your anxiety continues to increase over time"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "Moderate Anxiety",
+        "description": "Your score suggests moderate anxiety that may be noticeably interfering with your daily functioning. Work performance, social interactions, and routine activities may be affected by persistent worry.",
+        "suggestions": [
+          "Consider seeking help from a counselor, psychologist, or psychiatrist for professional guidance",
+          "Learn structured anxiety management techniques such as cognitive-behavioral strategies and thought challenging",
+          "Reduce or eliminate excessive caffeine and alcohol consumption as these can worsen anxiety symptoms",
+          "Establish consistent daily routines with dedicated time for relaxation and enjoyable activities",
+          "Practice exposure techniques by gradually and safely confronting avoided situations to build confidence"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 20,
+        "level": "severe",
+        "label": "Severe Anxiety",
+        "description": "Your score indicates severe overall anxiety that is likely significantly impairing your occupational, social, and personal functioning. Persistent and intense anxiety at this level warrants prompt professional attention.",
+        "suggestions": [
+          "Seek professional psychological or psychiatric treatment as soon as possible for comprehensive evaluation",
+          "Inform trusted family members or friends about your condition so they can provide meaningful support",
+          "Work to gradually face anxiety-provoking situations with professional guidance rather than relying on avoidance",
+          "If you are in crisis or experiencing overwhelming distress, contact a mental health crisis hotline immediately"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "pss-10": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 13,
+        "level": "minimal",
+        "label": "Low Stress",
+        "description": "Your perceived stress level is low, indicating that you are managing life demands effectively. You appear to feel in control of important aspects of your life and are coping well with daily challenges.",
+        "suggestions": [
+          "Continue maintaining your current effective coping strategies and balanced lifestyle habits",
+          "Keep up healthy routines including regular exercise, adequate sleep, and social engagement",
+          "Practice mindfulness or relaxation techniques proactively to sustain your well-being over time"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 26,
+        "level": "moderate",
+        "label": "Moderate Stress",
+        "description": "Your perceived stress is at a moderate level, suggesting that life demands may sometimes feel unpredictable or difficult to manage. Enhanced stress management strategies could help restore a greater sense of control.",
+        "suggestions": [
+          "Identify your primary sources of stress and develop targeted strategies to address them proactively",
+          "Practice daily stress management techniques including deep breathing, meditation, or physical exercise",
+          "Maintain a balanced work-life schedule with clear boundaries between professional and personal time",
+          "Consider speaking with a counselor or therapist if stress feels overwhelming or unmanageable",
+          "Prioritize consistent sleep hygiene and regular physical activity as foundational stress buffers"
+        ]
+      },
+      {
+        "min": 27,
+        "max": 40,
+        "level": "severe",
+        "label": "High Stress",
+        "description": "Your perceived stress level is high, indicating that life demands feel substantially overwhelming and uncontrollable. This sustained level of stress may be negatively affecting both your physical and mental health.",
+        "suggestions": [
+          "Consider consulting a mental health professional for structured support and evidence-based stress interventions",
+          "Implement immediate stress-reduction strategies including regular exercise, social support, and relaxation practices",
+          "Review and adjust your current commitments and workload to reduce unnecessary sources of pressure",
+          "Practice daily relaxation or mindfulness exercises to counteract the physiological effects of chronic stress",
+          "Avoid relying on unhealthy coping mechanisms such as excessive alcohol, caffeine, or social withdrawal"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  }
+}

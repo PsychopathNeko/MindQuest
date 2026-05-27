@@ -135,10 +135,10 @@
         "max": 39,
         "level": "minimal",
         "label": "Low Worry",
-        "description": "Your worry level is low. Generalized anxiety is unlikely.",
+        "description": "Your score suggests low levels of pathological worry. You appear to manage uncertainty and everyday concerns without excessive rumination. Some worry is a normal and adaptive response to life challenges.",
         "suggestions": [
-          "Continue maintaining your current mental health",
-          "Moderate worry is a normal coping mechanism"
+          "Continue using your current effective coping strategies",
+          "Maintain activities and relationships that help manage everyday stress"
         ]
       },
       {
@@ -146,23 +146,26 @@
         "max": 59,
         "level": "moderate",
         "label": "Moderate Worry",
-        "description": "You have a moderate tendency to worry, and may worry excessively in some situations.",
+        "description": "Your score indicates moderate levels of worry that may be affecting your daily comfort and functioning. You may find it difficult to control worry, experience worry that seems disproportionate to the situation, or notice that worrying interferes with concentration or sleep.",
         "suggestions": [
-          "Learn mindfulness meditation techniques to manage worry",
-          "Practice distinguishing productive from unproductive worry",
-          "Set designated 'worry time' to limit overthinking"
+          "Practice worry management techniques such as setting aside a specific 'worry time'",
+          "Learn to distinguish between productive problem-solving and unproductive rumination",
+          "Regular exercise and mindfulness meditation can help reduce chronic worry",
+          "Consider consulting a mental health professional if worry is significantly affecting your daily life"
         ]
       },
       {
         "min": 60,
         "max": 80,
         "level": "severe",
-        "label": "High Worry",
-        "description": "You have a severe tendency to worry, consistent with features of generalized anxiety disorder.",
+        "label": "Severe Pathological Worry",
+        "description": "Your score suggests severe pathological worry consistent with generalized anxiety disorder (GAD). At this level, worry is likely pervasive, difficult to control, and significantly interfering with your work, relationships, sleep, and overall well-being. Evidence-based treatment can be very effective.",
         "suggestions": [
-          "Consider seeking professional psychological counseling or therapy",
-          "Cognitive Behavioral Therapy (CBT) is highly effective for excessive worry",
-          "Discuss medication options with a healthcare provider"
+          "Seek evaluation from a mental health professional experienced in anxiety disorders",
+          "Cognitive behavioral therapy (CBT) is the first-line treatment for GAD and chronic worry",
+          "Medication (such as SSRIs or SNRIs) may also be helpful, especially in combination with therapy",
+          "Practice grounding and relaxation techniques for acute episodes of worry",
+          "GAD is very treatable; most people improve significantly with appropriate help"
         ]
       }
     ],

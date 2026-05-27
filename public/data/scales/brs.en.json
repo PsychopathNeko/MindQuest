@@ -83,12 +83,13 @@
         "max": 13,
         "level": "severe",
         "label": "Low Resilience",
-        "description": "Your resilience level is low. You may have difficulty recovering from stress and adversity.",
+        "description": "Your resilience level is low, indicating significant difficulty recovering from stress and adversity. You may feel overwhelmed by setbacks and take a long time to regain emotional balance after challenges.",
         "suggestions": [
-          "Learn and practice stress management techniques",
-          "Build a social support network and seek help from others",
-          "Strengthen resilience through regular exercise, meditation, and other practices",
-          "If you consistently struggle to cope with difficulties, consider professional counseling"
+          "Learn and regularly practice stress management techniques such as deep breathing and mindfulness",
+          "Actively build a social support network by connecting with friends, family, or community groups",
+          "Strengthen resilience gradually through consistent exercise, adequate sleep, and balanced nutrition",
+          "If you consistently struggle to cope with setbacks, seeking professional counseling is recommended",
+          "Start small — focus on recovering from minor daily stressors before tackling larger life challenges"
         ]
       },
       {
@@ -96,12 +97,13 @@
         "max": 18,
         "level": "moderate",
         "label": "Below Average Resilience",
-        "description": "Your resilience is below average. You may need more time to recover from adversity in some situations.",
+        "description": "Your resilience is below average. While you can cope with some stressors, more demanding situations may leave you feeling depleted or stuck. Building stronger recovery skills can improve your well-being.",
         "suggestions": [
-          "Develop positive coping strategies",
-          "Maintain regular sleep and exercise habits",
-          "Practice acceptance and mindfulness to reduce overreaction to difficulties",
-          "Find activities and ways to recharge"
+          "Develop a repertoire of positive coping strategies including journaling, physical activity, and social engagement",
+          "Maintain consistent sleep and exercise routines, as these form the biological foundation of resilience",
+          "Practice acceptance and mindfulness to reduce emotional overreaction to difficult situations",
+          "Identify specific activities and practices that help you recharge and schedule them regularly",
+          "Consider reading about or attending workshops on resilience-building and adaptive coping skills"
         ]
       },
       {
@@ -109,11 +111,12 @@
         "max": 24,
         "level": "mild",
         "label": "Normal Resilience",
-        "description": "You have a normal level of resilience and can recover well from most stressors and adversity.",
+        "description": "You have a normal level of resilience and can generally recover well from most stressors and adversity. You bounce back from setbacks within a reasonable timeframe and maintain functional coping under pressure.",
         "suggestions": [
-          "Continue maintaining and strengthening your resilience resources",
-          "Flexibly apply your existing coping strategies when facing new challenges",
-          "Maintain positive social relationships and a healthy lifestyle"
+          "Continue maintaining and strengthening your existing resilience resources and coping strategies",
+          "When facing new types of challenges, flexibly adapt your proven approaches to fit the situation",
+          "Nurture your positive social relationships and healthy lifestyle habits that sustain your resilience",
+          "Consider setting slightly more ambitious recovery goals to further build your resilience capacity"
         ]
       },
       {
@@ -121,11 +124,11 @@
         "max": 30,
         "level": "minimal",
         "label": "High Resilience",
-        "description": "You have high resilience and can recover quickly and effectively from stress and adversity.",
+        "description": "You demonstrate high resilience and can recover quickly and effectively from stress and adversity. Your strong bounce-back ability is a powerful psychological asset that protects your overall well-being.",
         "suggestions": [
-          "Continue maintaining your strong resilience",
-          "Your experience can help and encourage others",
-          "While helping others, remember to also look after your own mental health"
+          "Continue maintaining the habits and mindset that underpin your strong resilience",
+          "Your experience and perspective can help and encourage others who struggle with setbacks",
+          "While supporting others, remember to also monitor and care for your own mental health needs"
         ]
       }
     ],

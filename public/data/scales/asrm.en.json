@@ -72,11 +72,11 @@
         "max": 5,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your score is within the normal range, with no indication of significant manic symptoms.",
+        "description": "Your score is within the normal range, with no indication of significant manic symptoms. Your mood, energy level, sleep patterns, and activity levels appear to be stable and well-regulated at this time.",
         "suggestions": [
-          "Maintain regular sleep and daily routines",
-          "Continue a healthy lifestyle",
-          "Monitor your mood periodically with self-assessments if you experience mood fluctuations"
+          "Continue maintaining regular sleep schedules and daily routines to promote mood stability",
+          "Engage in a healthy lifestyle with balanced nutrition and regular physical activity",
+          "Monitor your mood periodically with self-assessments if you have a history of mood fluctuations"
         ]
       },
       {
@@ -84,12 +84,12 @@
         "max": 10,
         "level": "mild",
         "label": "Mild Mania Tendency",
-        "description": "Your score suggests a possible mild manic tendency (a score of 6 or above is the screening cutoff). You may be experiencing elevated mood, increased energy, or reduced need for sleep.",
+        "description": "Your score exceeds the clinical screening cutoff of 6, suggesting a possible mild manic tendency. You may be experiencing elevated mood, increased energy, reduced sleep need, or heightened talkativeness.",
         "suggestions": [
-          "Monitor your mood changes and sleep patterns closely",
-          "Avoid excessive stimulation and risky behaviors",
-          "Maintain a regular daily routine",
-          "Consider consulting a psychiatrist for further evaluation"
+          "Monitor your mood changes, energy levels, and sleep patterns closely over the coming days",
+          "Avoid excessive stimulation, risky financial decisions, and impulsive behaviors",
+          "Maintain a consistent daily routine with fixed sleep and wake times",
+          "Consider consulting a psychiatrist for a comprehensive clinical evaluation"
         ]
       },
       {
@@ -97,12 +97,13 @@
         "max": 15,
         "level": "moderate",
         "label": "Moderate Mania",
-        "description": "Your score suggests moderate manic symptoms. You may be experiencing noticeable mood elevation, hyperactivity, and decreased need for sleep.",
+        "description": "Your score suggests moderate manic symptoms. You are likely experiencing noticeable mood elevation, hyperactivity, pressured speech, and significantly decreased need for sleep that may impair judgment.",
         "suggestions": [
-          "Consult a psychiatrist as soon as possible",
-          "Avoid making major decisions or acting impulsively",
-          "Inform a trusted family member or friend about your condition",
-          "Maintain regular sleep hours and avoid stimulating substances"
+          "Consult a psychiatrist as soon as possible for formal assessment and treatment planning",
+          "Avoid making major life decisions, large purchases, or commitments during this period",
+          "Inform a trusted family member or close friend about your current condition for support",
+          "Prioritize maintaining regular sleep hours and eliminate stimulating substances like caffeine",
+          "If currently on medication, do not adjust dosages without consulting your prescribing physician"
         ]
       },
       {
@@ -110,12 +111,12 @@
         "max": 20,
         "level": "severe",
         "label": "Severe Mania",
-        "description": "Your score suggests severe manic symptoms, which may include extremely elevated mood, significant sleep reduction, and loss of behavioral control.",
+        "description": "Your score suggests severe manic symptoms including extremely elevated or irritable mood, dramatic sleep reduction, grandiose thinking, and potential loss of behavioral control requiring urgent care.",
         "suggestions": [
-          "Seek immediate professional psychiatric treatment",
-          "Have a family member or friend accompany you to a medical appointment",
-          "Avoid all major decisions and high-risk behaviors",
-          "If currently in treatment, contact your treating physician immediately"
+          "Seek immediate professional psychiatric treatment — this level of mania may require urgent care",
+          "Have a family member or trusted friend accompany you to a medical appointment as soon as possible",
+          "Avoid all major decisions, financial transactions, and high-risk activities until stabilized",
+          "If you are currently in treatment, contact your treating psychiatrist or crisis line immediately"
         ]
       }
     ],

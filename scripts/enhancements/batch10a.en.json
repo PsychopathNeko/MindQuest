@@ -1,0 +1,230 @@
+{
+  "uwes-9": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 17,
+        "level": "low",
+        "label": "Low Work Engagement",
+        "description": "Your work engagement level is low, indicating limited vigor, dedication, and absorption in your work. You may feel disconnected from your job, lacking enthusiasm and energy. This pattern can affect both productivity and job satisfaction over time.",
+        "suggestions": [
+          "Reflect on whether your current role aligns with your personal values and career goals",
+          "Discuss potential work content adjustments or new responsibilities with your supervisor",
+          "Identify small aspects of your work that bring a sense of achievement or meaning"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 35,
+        "level": "moderate",
+        "label": "Moderate Work Engagement",
+        "description": "Your work engagement is at a moderate level, with some periods of energy and enthusiasm alongside times of disconnection. You have a reasonable foundation to build upon, and targeted strategies can help you reach a more consistently engaged state.",
+        "suggestions": [
+          "Set challenging but achievable goals to create a sense of progress and mastery",
+          "Develop supportive social relationships with colleagues in your workplace",
+          "Seek more autonomy, skill variety, and growth opportunities in your role",
+          "Identify your peak energy periods and schedule meaningful work during those times",
+          "Celebrate small wins to build positive momentum and reinforce engagement"
+        ]
+      },
+      {
+        "min": 36,
+        "max": 54,
+        "level": "high",
+        "label": "High Work Engagement",
+        "description": "Your work engagement is high, reflecting strong vigor, dedication, and absorption. You find your work meaningful, feel energized by your tasks, and become deeply immersed in what you do. This level of engagement is associated with greater performance and well-being.",
+        "suggestions": [
+          "Continue maintaining your high work engagement while monitoring for early signs of overwork",
+          "Be mindful of work-life balance to prevent burnout, as even passionate workers need recovery time",
+          "Share your positive energy and help colleagues enhance their own work engagement"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "vigor": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low Vigor",
+          "description": "You lack energy and vitality at work, often feeling exhausted and unmotivated. Low vigor can impair your resilience to workplace challenges and reduce your willingness to invest effort in tasks."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "Moderate Vigor",
+          "description": "You have some energy at work, though it fluctuates throughout the day. Building physical health habits and optimizing your work schedule can help sustain more consistent energy levels."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "High Vigor",
+          "description": "You are full of energy, vitality, and mental resilience at work. You feel strong and willing to invest sustained effort, even when facing challenges. This robust energy fuels consistent high performance."
+        }
+      ],
+      "dedication": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low Dedication",
+          "description": "You lack enthusiasm and identification with your work, possibly feeling it is meaningless or uninspiring. Low dedication can diminish your sense of purpose and reduce job satisfaction over time."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "Moderate Dedication",
+          "description": "You have some enthusiasm and commitment to your work, with room for growth. Finding deeper meaning in your tasks and connecting them to broader goals can strengthen your sense of dedication."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "High Dedication",
+          "description": "You are passionate and proud of your work, finding it highly meaningful and inspiring. High dedication reflects a strong sense of significance and challenge that keeps you deeply committed to your role."
+        }
+      ],
+      "absorption": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "low",
+          "label": "Low Absorption",
+          "description": "You find it difficult to concentrate at work and are easily distracted. Low absorption means you rarely experience a state of flow, which can limit both your productivity and your sense of fulfillment."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "moderate",
+          "label": "Moderate Absorption",
+          "description": "You can maintain some focus at work, though occasional distractions pull you away. Reducing interruptions and creating a more structured work environment can help you achieve deeper concentration."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "high",
+          "label": "High Absorption",
+          "description": "You are highly focused and immersed in your work, frequently entering a state of flow where time seems to pass quickly. This deep engagement allows you to produce your best work and experience genuine satisfaction."
+        }
+      ]
+    }
+  },
+  "fss-9": {
+    "ranges": [
+      {
+        "min": 9,
+        "max": 27,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your fatigue level is within the normal range, indicating that tiredness does not significantly impair your daily activities. You appear to manage your energy well and recover adequately from physical and mental exertion.",
+        "suggestions": [
+          "Continue maintaining healthy lifestyle habits including regular sleep patterns",
+          "Ensure adequate sleep duration and engage in regular physical exercise",
+          "Stay hydrated and maintain a balanced diet to support sustained energy levels"
+        ]
+      },
+      {
+        "min": 28,
+        "max": 36,
+        "level": "mild",
+        "label": "Mild Fatigue",
+        "description": "You experience mild fatigue that may occasionally affect your motivation and physical functioning. While not severely disabling, this level of tiredness can reduce your overall productivity and enjoyment of daily activities if left unaddressed.",
+        "suggestions": [
+          "Maintain a consistent sleep schedule, aiming for 7-9 hours per night",
+          "Increase physical activity gradually, as regular exercise can paradoxically reduce fatigue",
+          "Ensure a balanced diet rich in whole grains, lean protein, and fresh vegetables",
+          "If fatigue persists beyond two weeks, consider screening for underlying conditions such as anemia or thyroid dysfunction"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 49,
+        "level": "moderate",
+        "label": "Moderate Fatigue",
+        "description": "Your fatigue is noticeably affecting your daily activities, physical functioning, and responsibilities. At this level, tiredness likely interferes with work performance, social engagement, and your ability to sustain physical effort throughout the day.",
+        "suggestions": [
+          "See a doctor to rule out underlying medical causes such as anemia, hypothyroidism, or sleep disorders",
+          "Learn energy management techniques such as activity-rest cycling and task prioritization",
+          "Practice good sleep hygiene by keeping a dark, cool bedroom and avoiding screens before bed",
+          "Consider whether psychological factors such as depression or anxiety may be contributing to your fatigue",
+          "Track your energy patterns in a diary to identify times of day when fatigue is worst"
+        ]
+      },
+      {
+        "min": 50,
+        "max": 63,
+        "level": "severe",
+        "label": "Severe Fatigue",
+        "description": "Your fatigue is very severe and significantly impairs daily functioning, work capacity, and quality of life. This level of persistent exhaustion warrants prompt professional evaluation to identify and treat any underlying medical or psychological causes.",
+        "suggestions": [
+          "Seek a comprehensive medical evaluation as soon as possible to identify potential underlying causes",
+          "A multidisciplinary treatment approach involving your primary care physician and specialists may be needed",
+          "Learn and apply energy conservation strategies to manage your most important daily activities",
+          "Seek social support from family, friends, or support groups for people living with chronic fatigue"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "sas-sv": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your smartphone use is within a healthy range and does not appear to interfere with your daily life, work, or relationships. You demonstrate good self-regulation over your device usage and maintain a balanced relationship with technology.",
+        "suggestions": [
+          "Continue maintaining your healthy smartphone usage habits and digital boundaries",
+          "Periodically review your screen time statistics to stay aware of usage patterns",
+          "Model healthy smartphone habits for family members and peers"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 33,
+        "level": "mild",
+        "label": "Mild Risk",
+        "description": "You show some tendency toward excessive smartphone use, though it has not yet significantly impacted your life. You may notice occasional difficulty putting your phone down or checking it more frequently than intended. Early habit changes can prevent escalation.",
+        "suggestions": [
+          "Set specific daily time limits for smartphone use using built-in screen time tools",
+          "Establish phone-free periods during meals, before bedtime, and during conversations",
+          "Enable Do Not Disturb or Focus mode during work, study, or important tasks",
+          "Try taking short walks or breaks without bringing your phone along"
+        ]
+      },
+      {
+        "min": 34,
+        "max": 45,
+        "level": "moderate",
+        "label": "Moderate Risk",
+        "description": "Your smartphone use is likely affecting your daily life, health, and productivity. You may experience difficulty concentrating, physical discomfort in your neck or wrists, or tension in relationships due to excessive phone use. Active intervention is recommended.",
+        "suggestions": [
+          "Use built-in screen time management features on your phone to set app-specific limits",
+          "Establish phone-free zones in your home such as the bedroom and dining table",
+          "Actively seek alternative leisure activities like reading, exercise, or in-person socializing",
+          "Pay attention to physical symptoms such as neck pain, eye strain, and disrupted sleep",
+          "If you feel unable to control your usage despite wanting to, consider consulting a mental health professional"
+        ]
+      },
+      {
+        "min": 46,
+        "max": 60,
+        "level": "severe",
+        "label": "High Risk",
+        "description": "Your smartphone use has reached an excessive dependency level that is seriously affecting your daily functioning, relationships, and physical and mental health. This pattern suggests compulsive use that may require structured intervention and professional support.",
+        "suggestions": [
+          "Strongly consider seeking professional help from a counselor specializing in behavioral addictions",
+          "Create a detailed, written smartphone usage restriction plan with specific goals and timelines",
+          "Ask trusted family members or friends to help monitor and support your usage reduction efforts",
+          "Consider temporarily switching to a basic phone during an initial digital detox period",
+          "Address any underlying emotional issues such as loneliness, anxiety, or boredom that may drive compulsive phone use"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  }
+}

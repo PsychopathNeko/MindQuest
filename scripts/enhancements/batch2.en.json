@@ -1,0 +1,272 @@
+{
+  "spin": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 20,
+        "level": "none",
+        "label": "No Social Phobia",
+        "description": "Your score is within the normal range, suggesting no clinically significant social anxiety. You appear to manage social situations comfortably and social interactions do not cause you excessive distress.",
+        "suggestions": [
+          "Continue engaging in social activities that you enjoy",
+          "Maintain your current social skills and connections",
+          "Some mild nervousness in unfamiliar social situations is completely normal"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "Mild Social Phobia",
+        "description": "Your score suggests mild social anxiety symptoms. You may experience noticeable discomfort in certain social situations such as public speaking, meeting new people, or being the center of attention, but these fears are not yet severely limiting your life.",
+        "suggestions": [
+          "Gradually expose yourself to social situations that cause mild anxiety",
+          "Practice relaxation techniques before social events",
+          "Challenge negative thoughts about how others perceive you",
+          "Consider joining a social skills group or public speaking class to build confidence"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "moderate",
+        "label": "Moderate Social Phobia",
+        "description": "Your score indicates moderate social anxiety that is likely interfering with your daily functioning and social life. You may be avoiding important social, academic, or professional opportunities due to fear of negative evaluation or embarrassment.",
+        "suggestions": [
+          "Consider consulting a mental health professional for evaluation",
+          "Cognitive behavioral therapy (CBT) is highly effective for social anxiety disorder",
+          "Practice gradual, structured exposure to feared social situations",
+          "Learn and apply cognitive restructuring techniques to challenge anxious thoughts",
+          "Avoid using alcohol or other substances to cope with social anxiety"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 50,
+        "level": "severe",
+        "label": "Severe Social Phobia",
+        "description": "Your score suggests severe social anxiety that is significantly impairing your daily functioning, relationships, and quality of life. At this level, social situations likely cause intense distress and you may be avoiding many everyday social interactions.",
+        "suggestions": [
+          "Seek professional treatment from a therapist experienced in anxiety disorders",
+          "CBT with exposure therapy is the first-line treatment for severe social anxiety",
+          "Medication (such as SSRIs) may be helpful in combination with therapy",
+          "Do not let avoidance become your primary coping strategy; professional support can help",
+          "Social anxiety disorder is very treatable; most people improve significantly with proper help"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 68,
+        "level": "very_severe",
+        "label": "Very Severe Social Phobia",
+        "description": "Your score indicates very severe social anxiety that is likely causing profound impairment across all areas of your life. Professional intervention is strongly recommended, as untreated severe social anxiety can lead to depression, isolation, and other complications.",
+        "suggestions": [
+          "Seek immediate consultation with a mental health professional",
+          "A combination of CBT and medication is often recommended for very severe cases",
+          "Inform a trusted person about your struggles; social support aids recovery",
+          "Remember that social anxiety disorder is one of the most treatable anxiety conditions"
+        ]
+      }
+    ]
+  },
+  "audit": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 7,
+        "level": "low",
+        "label": "Low Risk",
+        "description": "Your score indicates low-risk alcohol consumption. Your current drinking patterns do not appear to be causing significant health or social problems. Maintaining awareness of your alcohol use is a positive health behavior.",
+        "suggestions": [
+          "Continue to drink within recommended guidelines if you choose to drink",
+          "Be aware of situations that might lead to increased consumption",
+          "Know the recommended limits: no more than 2 standard drinks per day for men, 1 for women"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 15,
+        "level": "hazardous",
+        "label": "Hazardous Drinking",
+        "description": "Your score suggests hazardous alcohol use that increases your risk for health problems, injuries, and social difficulties. At this level, your drinking pattern may not yet have caused significant harm, but it exceeds safe limits and warrants attention.",
+        "suggestions": [
+          "Consider reducing your alcohol consumption to lower-risk levels",
+          "Track your drinking patterns to identify triggers and high-risk situations",
+          "Set specific goals for reducing the quantity and frequency of drinking",
+          "Your healthcare provider can offer brief advice and support for cutting back",
+          "Avoid binge drinking episodes, which carry acute health risks"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 19,
+        "level": "harmful",
+        "label": "Harmful Drinking",
+        "description": "Your score indicates harmful alcohol use that is likely already causing damage to your physical health, mental well-being, or social relationships. At this level, alcohol is probably interfering with your daily functioning and may be leading to dependence.",
+        "suggestions": [
+          "Consult your healthcare provider about your alcohol use for a thorough evaluation",
+          "Consider structured brief intervention or counseling programs",
+          "Reduce your alcohol consumption and track your progress",
+          "Be aware of withdrawal symptoms if you have been drinking heavily; seek medical advice before suddenly stopping",
+          "Consider involving a supportive family member or friend in your plan to cut back"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 40,
+        "level": "severe",
+        "label": "Possible Alcohol Dependence",
+        "description": "Your score strongly suggests alcohol dependence, a serious medical condition that typically requires professional treatment. At this level, you may experience tolerance, withdrawal symptoms, loss of control over drinking, and significant impairment in daily life.",
+        "suggestions": [
+          "Seek professional help from a specialist in addiction medicine or substance use disorders",
+          "Do not attempt to stop drinking suddenly without medical supervision, as alcohol withdrawal can be medically dangerous",
+          "Treatment options include medically supervised detoxification, counseling, and medications that reduce cravings",
+          "Support groups such as AA or SMART Recovery can provide ongoing support",
+          "Recovery from alcohol dependence is possible; many people achieve long-term sobriety with proper help"
+        ]
+      }
+    ]
+  },
+  "ghq-12": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 11,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your score is within the normal range, suggesting no significant psychological distress. Your current mental well-being appears stable, and you are likely coping well with everyday demands and stressors.",
+        "suggestions": [
+          "Continue maintaining healthy habits that support your mental well-being",
+          "Keep up regular exercise, social engagement, and adequate sleep",
+          "Practice stress management as a preventive measure"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 23,
+        "level": "mild",
+        "label": "Mild to Moderate Psychological Distress",
+        "description": "Your score is above the established caseness threshold of 12, suggesting evidence of psychological distress. You may be experiencing difficulty with concentration, sleep, decision-making, or feeling less confident than usual. These symptoms warrant monitoring and possibly further evaluation.",
+        "suggestions": [
+          "Pay attention to the specific areas where you notice reduced functioning",
+          "Ensure you are getting adequate sleep, nutrition, and physical activity",
+          "Talk to someone you trust about any concerns or worries",
+          "Consider consulting a healthcare professional if symptoms persist beyond a few weeks"
+        ]
+      },
+      {
+        "min": 24,
+        "max": 36,
+        "level": "significant",
+        "label": "Significant Psychological Distress",
+        "description": "Your score indicates significant psychological distress that warrants professional attention. At this level, you are likely experiencing notable difficulties in daily functioning, and a comprehensive evaluation is recommended to identify the underlying issues and appropriate support.",
+        "suggestions": [
+          "Seek evaluation from a mental health professional for a thorough assessment",
+          "The GHQ-12 is a general screening tool; further evaluation can identify specific areas of concern",
+          "Maintain daily routines and social connections to provide stability",
+          "Evidence-based treatments such as counseling or CBT can be very helpful"
+        ]
+      }
+    ]
+  },
+  "assist": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 3,
+        "level": "low",
+        "label": "Low Risk",
+        "description": "Your score indicates low-risk substance use. Your current patterns of substance use do not appear to pose significant health risks. Maintaining awareness of substance use is a positive health behavior.",
+        "suggestions": [
+          "Continue to be mindful about substance use and its effects on your health",
+          "Be aware of situations or stressors that might increase the temptation to use substances",
+          "Maintain healthy coping strategies for managing stress"
+        ]
+      },
+      {
+        "min": 4,
+        "max": 26,
+        "level": "moderate",
+        "label": "Moderate Risk",
+        "description": "Your score suggests moderate-risk substance use that may be affecting your health, social relationships, or daily functioning. At this level, your substance use patterns warrant attention and you would benefit from a brief intervention or further discussion with a healthcare provider.",
+        "suggestions": [
+          "Discuss your substance use patterns with your healthcare provider",
+          "Consider setting specific goals to reduce your substance use",
+          "Identify triggers and high-risk situations for substance use",
+          "Explore healthier coping strategies for stress, boredom, or social pressure",
+          "Brief interventions have been shown to be effective at this level of risk"
+        ]
+      },
+      {
+        "min": 27,
+        "max": 39,
+        "level": "high",
+        "label": "High Risk",
+        "description": "Your score indicates high-risk substance use that is likely causing significant harm to your health, relationships, and daily functioning. This level of use is associated with substance dependence, and professional treatment is strongly recommended.",
+        "suggestions": [
+          "Seek professional assessment from a specialist in addiction or substance use disorders",
+          "Professional treatment options include counseling, behavioral therapies, and medication-assisted treatment",
+          "Do not attempt to stop suddenly without medical guidance, especially for alcohol, benzodiazepines, or opioids",
+          "Support groups and peer recovery programs can provide ongoing support",
+          "Recovery is possible; many people achieve sustained improvement with appropriate help"
+        ]
+      }
+    ]
+  },
+  "ders-sf": {
+    "ranges": [
+      {
+        "min": 18,
+        "max": 36,
+        "level": "low",
+        "label": "Good Emotion Regulation",
+        "description": "Your score suggests effective emotion regulation skills. You appear to be able to understand, accept, and manage your emotions in adaptive ways. This is a protective factor for mental health and well-being.",
+        "suggestions": [
+          "Continue practicing the emotion regulation strategies that work well for you",
+          "Maintain awareness of your emotional patterns and responses",
+          "Consider sharing your effective coping strategies with others who might benefit"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 54,
+        "level": "moderate",
+        "label": "Moderate Difficulties",
+        "description": "Your score indicates moderate difficulties with emotion regulation. You may sometimes struggle to understand your emotions, manage intense feelings, or use effective coping strategies when distressed. These difficulties may occasionally interfere with your daily functioning and relationships.",
+        "suggestions": [
+          "Practice mindfulness to increase awareness of your emotional states",
+          "Learn specific emotion regulation skills such as cognitive reappraisal and distress tolerance",
+          "Consider dialectical behavior therapy (DBT) skills training, which specifically targets emotion regulation",
+          "Regular physical exercise can help improve emotional balance"
+        ]
+      },
+      {
+        "min": 55,
+        "max": 72,
+        "level": "high",
+        "label": "Significant Difficulties",
+        "description": "Your score suggests significant difficulties with emotion regulation that are likely affecting your daily functioning, relationships, and mental health. You may frequently feel overwhelmed by emotions, have difficulty understanding or accepting your feelings, or engage in impulsive behaviors when distressed.",
+        "suggestions": [
+          "Consider consulting a mental health professional for evaluation and support",
+          "Dialectical behavior therapy (DBT) is specifically designed to address emotion regulation difficulties",
+          "Practice basic distress tolerance techniques for acute emotional crises",
+          "Identify patterns in your emotional reactions to develop more adaptive responses",
+          "Emotion regulation skills can be learned and improved with practice and professional guidance"
+        ]
+      },
+      {
+        "min": 73,
+        "max": 90,
+        "level": "very_high",
+        "label": "Severe Difficulties",
+        "description": "Your score indicates severe difficulties with emotion regulation that are likely significantly impairing your daily functioning and quality of life. These difficulties may be contributing to or maintaining other mental health problems and warrant professional intervention.",
+        "suggestions": [
+          "Seek professional help from a therapist experienced in emotion regulation difficulties",
+          "DBT (dialectical behavior therapy) is the evidence-based treatment of choice for severe emotion dysregulation",
+          "If you engage in self-harm or other dangerous behaviors when overwhelmed, please seek immediate help",
+          "Building emotion regulation skills takes time and professional support; be patient with the process"
+        ]
+      }
+    ]
+  }
+}

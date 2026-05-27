@@ -1615,11 +1615,13 @@
       {
         "min": 0,
         "max": 3,
-        "level": "normal",
+        "level": "low",
         "label": "Low Risk",
-        "description": "Overall substance use risk is low.",
+        "description": "Your score indicates low-risk substance use. Your current patterns of substance use do not appear to pose significant health risks. Maintaining awareness of substance use is a positive health behavior.",
         "suggestions": [
-          "Continue maintaining a healthy lifestyle"
+          "Continue to be mindful about substance use and its effects on your health",
+          "Be aware of situations or stressors that might increase the temptation to use substances",
+          "Maintain healthy coping strategies for managing stress"
         ]
       },
       {
@@ -1627,21 +1629,27 @@
         "max": 26,
         "level": "moderate",
         "label": "Moderate Risk",
-        "description": "Moderate substance use risk detected.",
+        "description": "Your score suggests moderate-risk substance use that may be affecting your health, social relationships, or daily functioning. At this level, your substance use patterns warrant attention and you would benefit from a brief intervention or further discussion with a healthcare provider.",
         "suggestions": [
-          "Consider reducing substance use",
-          "Learn about health effects of substance use"
+          "Discuss your substance use patterns with your healthcare provider",
+          "Consider setting specific goals to reduce your substance use",
+          "Identify triggers and high-risk situations for substance use",
+          "Explore healthier coping strategies for stress, boredom, or social pressure",
+          "Brief interventions have been shown to be effective at this level of risk"
         ]
       },
       {
         "min": 27,
         "max": 39,
-        "level": "severe",
+        "level": "high",
         "label": "High Risk",
-        "description": "High substance use risk, possible dependence.",
+        "description": "Your score indicates high-risk substance use that is likely causing significant harm to your health, relationships, and daily functioning. This level of use is associated with substance dependence, and professional treatment is strongly recommended.",
         "suggestions": [
-          "Professional help is strongly recommended",
-          "Consult a doctor or mental health professional"
+          "Seek professional assessment from a specialist in addiction or substance use disorders",
+          "Professional treatment options include counseling, behavioral therapies, and medication-assisted treatment",
+          "Do not attempt to stop suddenly without medical guidance, especially for alcohol, benzodiazepines, or opioids",
+          "Support groups and peer recovery programs can provide ongoing support",
+          "Recovery is possible; many people achieve sustained improvement with appropriate help"
         ]
       }
     ],

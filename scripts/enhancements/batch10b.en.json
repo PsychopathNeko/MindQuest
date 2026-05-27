@@ -1,0 +1,161 @@
+{
+  "bsmas": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 12,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your social media use is within a healthy range and does not appear to interfere with your daily life or well-being. You demonstrate good self-regulation over your online activity and maintain a balanced relationship with social media platforms.",
+        "suggestions": [
+          "Continue maintaining your moderate and balanced social media usage habits",
+          "Periodically check your screen time statistics to stay aware of any gradual increases",
+          "Be mindful of how social media content affects your mood and self-image"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 18,
+        "level": "mild",
+        "label": "Mild Risk",
+        "description": "You show some signs of unhealthy social media usage patterns, such as spending more time than intended or feeling restless without access. While not yet significantly disruptive, these early warning signs suggest your relationship with social media may benefit from proactive adjustments.",
+        "suggestions": [
+          "Set specific daily time limits for social media use using built-in screen time tools",
+          "Turn off non-essential push notifications to reduce habitual checking",
+          "Develop offline social activities and hobbies to diversify how you spend your leisure time",
+          "Establish phone-free periods during meals and before bedtime"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "moderate",
+        "label": "Moderate Risk",
+        "description": "Your social media use is likely affecting your daily life, interpersonal relationships, and emotional well-being. You may find it difficult to stop scrolling, feel anxious when unable to check your accounts, or notice that social media is replacing meaningful offline activities.",
+        "suggestions": [
+          "Try a structured digital detox by designating full days or weekends without social media",
+          "Use app-specific screen time management tools to enforce daily usage limits",
+          "Reflect on how social media affects your mood, sleep quality, and self-esteem",
+          "Actively seek alternative leisure activities such as exercise, reading, or face-to-face socializing",
+          "If you feel distressed or unable to cut back on your own, consider consulting a mental health professional"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "level": "severe",
+        "label": "High Risk",
+        "description": "Your social media usage pattern has reached a problematic level consistent with behavioral addiction criteria. It is likely seriously affecting your daily functioning, work or academic performance, sleep, and relationships. Compulsive use despite negative consequences is a hallmark of this stage.",
+        "suggestions": [
+          "Strongly recommended to consult a mental health professional experienced in behavioral addictions",
+          "Create a detailed, written usage restriction plan with specific daily limits and accountability measures",
+          "Consider temporarily uninstalling your most-used social media apps to break the cycle",
+          "Ask trusted family members or friends to support and monitor your reduction efforts",
+          "Address any underlying emotional issues such as loneliness, anxiety, or low self-esteem that may drive compulsive use"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "pgsi": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 0,
+        "level": "minimal",
+        "label": "Non-Problem Gambling",
+        "description": "You did not report any signs of problem gambling. Your responses suggest that gambling, if present at all, is recreational and well-controlled. You do not appear to be at risk for gambling-related harm at this time.",
+        "suggestions": [
+          "Continue maintaining healthy recreational habits and responsible attitudes toward gambling",
+          "If you do gamble, always set firm time and money limits before you begin",
+          "Stay informed about the warning signs of problem gambling so you can recognize changes early"
+        ]
+      },
+      {
+        "min": 1,
+        "max": 2,
+        "level": "mild",
+        "label": "Low Risk Gambling",
+        "description": "You reported minor gambling-related concerns at a low risk level. While these issues are not currently severe, they indicate that gambling is beginning to have a small but noticeable presence in your life. Maintaining awareness now can help prevent escalation.",
+        "suggestions": [
+          "Maintain honest self-awareness about your gambling behavior and its effects on your life",
+          "Set clear and strict limits on both gambling time and money before each session",
+          "Never use gambling as a way to cope with stress, boredom, or emotional difficulties",
+          "Track your gambling expenditures over time to identify any upward trends"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 7,
+        "level": "moderate",
+        "label": "Moderate Risk Gambling",
+        "description": "Your gambling behavior is causing some negative consequences and may be moving beyond recreational activity. You may be spending more money or time than intended, chasing losses, or experiencing guilt or relationship strain related to gambling.",
+        "suggestions": [
+          "Seriously examine how gambling is affecting your finances, relationships, and emotional health",
+          "Set strict gambling budgets and stick to them without exception, never chasing losses",
+          "Consider calling a gambling helpline for confidential advice and support",
+          "Learn about cognitive distortions common in gambling, such as the illusion of control and the gambler's fallacy",
+          "Explore healthier alternative activities to fill the time and excitement that gambling currently provides"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 27,
+        "level": "severe",
+        "label": "Problem Gambling",
+        "description": "Your gambling behavior has caused significant negative consequences across multiple areas of your life, meeting criteria for problem gambling. You may be experiencing financial hardship, damaged relationships, emotional distress, or loss of control over your gambling behavior.",
+        "suggestions": [
+          "Strongly recommended to seek professional gambling treatment from a qualified counselor or therapist",
+          "Let trusted family members or friends know about your situation so they can provide support",
+          "Consider enrolling in a self-exclusion program to ban yourself from gambling venues and online platforms",
+          "Address any underlying emotional or mental health issues such as depression or anxiety that may fuel gambling",
+          "Join a peer support group such as Gamblers Anonymous to connect with others in recovery"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "cage": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 0,
+        "level": "minimal",
+        "label": "No Alcohol Problems Indicated",
+        "description": "Your responses do not suggest the presence of alcohol-related problems. You appear to have a healthy relationship with alcohol, whether through moderate consumption or abstinence. No further clinical evaluation is indicated at this time.",
+        "suggestions": [
+          "Continue maintaining your healthy drinking habits or abstinence from alcohol",
+          "Stay informed about the recommended alcohol intake guidelines and the risks of excessive drinking",
+          "Be mindful of any future changes in your drinking patterns and reassess periodically"
+        ]
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "level": "mild",
+        "label": "Possible Alcohol Problem",
+        "description": "Your response suggests a possible alcohol-related concern that warrants attention. While a single positive answer does not confirm an alcohol use disorder, it may indicate early signs of problematic drinking patterns. Further self-reflection or professional evaluation could be beneficial.",
+        "suggestions": [
+          "Reflect honestly on your relationship with alcohol and whether it has changed over time",
+          "Consider discussing your drinking habits with a healthcare provider at your next visit",
+          "Monitor your drinking patterns closely over the coming weeks using a simple diary or tracking app",
+          "Learn about recommended alcohol intake guidelines to establish a personal benchmark"
+        ]
+      },
+      {
+        "min": 2,
+        "max": 4,
+        "level": "severe",
+        "label": "Probable Alcohol Problem",
+        "description": "A score of 2 or more on the CAGE is clinically significant and indicates a probable alcohol use problem. Your responses suggest patterns consistent with alcohol dependence or harmful use, such as feeling the need to cut down, experiencing guilt, or using alcohol to manage withdrawal symptoms.",
+        "suggestions": [
+          "Strongly recommended to seek a professional evaluation for alcohol use from a healthcare provider or addiction specialist",
+          "Consult with your primary care physician, who can assess your situation and recommend appropriate treatment options",
+          "Consider joining a support group such as Alcoholics Anonymous for peer support and structured recovery",
+          "Talk openly with trusted family members or friends who can provide emotional support during this process"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  }
+}

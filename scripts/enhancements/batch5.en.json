@@ -1,0 +1,199 @@
+{
+  "oci-r": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 20,
+        "level": "minimal",
+        "label": "Non-Clinical Range",
+        "description": "Your score is within the non-clinical range, suggesting no significant obsessive-compulsive symptoms. You do not appear to be experiencing repetitive intrusive thoughts or compulsive behaviors that cause distress or interfere with daily life.",
+        "suggestions": [
+          "No clinical concern at this level",
+          "Occasional intrusive thoughts are a normal human experience",
+          "Continue your current healthy functioning"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "Mild OCD Symptoms",
+        "description": "Your score suggests mild obsessive-compulsive symptoms. The clinical cutoff for the OCI-R is typically around 21, so your score may warrant further evaluation. You may experience some intrusive thoughts or repetitive behaviors that cause mild distress but are generally manageable.",
+        "suggestions": [
+          "Consider further evaluation if symptoms are causing distress or interfering with daily activities",
+          "Learn about the nature of intrusive thoughts — they are common and do not reflect your character",
+          "Avoid engaging in compulsive behaviors to reduce anxiety, as this reinforces the OCD cycle",
+          "Cognitive behavioral therapy (CBT) with exposure and response prevention (ERP) is the gold standard treatment for OCD"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "moderate",
+        "label": "Moderate OCD Symptoms",
+        "description": "Your score indicates moderate obsessive-compulsive symptoms that are likely causing significant distress and interfering with your daily functioning. You may spend considerable time on obsessive thoughts or compulsive rituals, and these may be affecting your work, relationships, or quality of life.",
+        "suggestions": [
+          "Seek evaluation from a mental health professional experienced in treating OCD",
+          "Exposure and response prevention (ERP), a form of CBT, is the most effective therapy for OCD",
+          "Review your subscale scores to identify which OCD symptom domains are most prominent",
+          "Medication (SSRIs) can be effective for OCD, often in combination with therapy",
+          "Resist the urge to seek reassurance or perform compulsions, as these maintain the cycle"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 72,
+        "level": "severe",
+        "label": "Severe OCD Symptoms",
+        "description": "Your score suggests severe obsessive-compulsive symptoms that are likely significantly impairing your daily functioning, relationships, and quality of life. OCD at this level can be extremely distressing, but it is important to know that effective treatments exist.",
+        "suggestions": [
+          "Seek professional help from an OCD specialist as soon as possible",
+          "ERP (exposure and response prevention) therapy is effective even for severe OCD",
+          "Medication (SSRIs, often at higher doses than used for depression) may be recommended",
+          "Intensive outpatient or residential OCD treatment programs may be appropriate for severe cases",
+          "OCD is one of the most treatable mental health conditions; significant improvement is achievable with proper treatment"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "hoarding": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "Minimal hoarding symptoms. You do not appear to have significant difficulty discarding possessions or excessive accumulation of items."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Mild to Moderate",
+          "description": "Mild to moderate hoarding tendencies. You may have some difficulty discarding items or feel compelled to acquire things you do not need, which may be starting to cause clutter or distress."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "Significant",
+          "description": "Significant hoarding symptoms. You likely experience substantial difficulty discarding possessions, excessive acquisition, and clutter that may be interfering with the use of living spaces and daily functioning."
+        }
+      ],
+      "checking": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "Minimal checking behaviors. You do not appear to be excessively checking locks, appliances, or other things due to doubt or fear of harm."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Mild to Moderate",
+          "description": "Mild to moderate checking behaviors. You may repeatedly check things like doors, appliances, or your work due to persistent doubt. This may be consuming noticeable time and causing some distress."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "Significant",
+          "description": "Significant checking compulsions. You are likely spending considerable time on repetitive checking behaviors driven by intense doubt or fear that something bad will happen. This significantly interferes with daily activities."
+        }
+      ],
+      "ordering": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "Minimal ordering or symmetry concerns. You do not appear to be excessively preoccupied with arranging objects or achieving symmetry."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Mild to Moderate",
+          "description": "Mild to moderate ordering and symmetry concerns. You may feel compelled to arrange objects in a particular way or experience distress when things are not symmetrical or 'just right.'"
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "Significant",
+          "description": "Significant ordering and symmetry compulsions. You are likely spending substantial time arranging, organizing, or adjusting things to achieve a sense of 'rightness.' This preoccupation is significantly interfering with your daily functioning."
+        }
+      ],
+      "neutralizing": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "Minimal neutralizing or mental rituals. You do not appear to engage significantly in mental compulsions such as counting, repeating phrases, or 'undoing' thoughts."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Mild to Moderate",
+          "description": "Mild to moderate neutralizing behaviors. You may engage in some mental rituals like counting, repeating words, or thinking 'good' thoughts to counteract intrusive thoughts."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "Significant",
+          "description": "Significant neutralizing compulsions. You are likely engaging in frequent mental rituals to reduce anxiety caused by intrusive thoughts. These covert compulsions can be just as impairing as visible rituals."
+        }
+      ],
+      "washing": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "Minimal washing or contamination concerns. You do not appear to be excessively worried about germs, contamination, or cleanliness."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Mild to Moderate",
+          "description": "Mild to moderate contamination concerns and washing behaviors. You may wash your hands more than necessary or avoid certain objects or places due to contamination fears."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "Significant",
+          "description": "Significant contamination obsessions and washing compulsions. You are likely spending substantial time on cleaning or washing rituals and avoiding situations perceived as contaminated. This is significantly interfering with your daily life."
+        }
+      ],
+      "obsessing": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Minimal",
+          "description": "Minimal obsessive thoughts. You are not significantly troubled by persistent, unwanted intrusive thoughts that cause distress."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Mild to Moderate",
+          "description": "Mild to moderate obsessive thoughts. You may experience recurring unwanted thoughts (about harm, religion, sexuality, or other themes) that cause distress and are difficult to dismiss."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "severe",
+          "label": "Significant",
+          "description": "Significant obsessive thinking. You are likely tormented by persistent, intrusive thoughts that cause intense distress. Remember that having intrusive thoughts does not mean you will act on them; they are a symptom, not a reflection of your values."
+        }
+      ]
+    }
+  }
+}

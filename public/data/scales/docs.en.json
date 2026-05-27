@@ -196,10 +196,11 @@
         "max": 15,
         "level": "minimal",
         "label": "Minimal OCD Symptoms",
-        "description": "Your score indicates minimal obsessive-compulsive symptoms within the normal range.",
+        "description": "Your total score falls within the minimal range, indicating that obsessive-compulsive symptoms are not a significant concern at this time. You may experience occasional intrusive thoughts or mild preferences for order, but these do not cause meaningful distress or interfere with daily functioning.",
         "suggestions": [
-          "No clinical concern at this time",
-          "Continue maintaining healthy thought patterns"
+          "No clinical concern is indicated at this time; continue maintaining your current healthy thought patterns and routines",
+          "Be aware that occasional intrusive thoughts are a normal human experience and do not require special intervention",
+          "If symptoms increase during stressful periods, consider re-taking this assessment to monitor any changes"
         ]
       },
       {
@@ -207,11 +208,12 @@
         "max": 30,
         "level": "mild",
         "label": "Mild OCD Symptoms",
-        "description": "Mild obsessive-compulsive symptoms that may cause some distress but are manageable.",
+        "description": "Your score indicates mild obsessive-compulsive symptoms that may cause noticeable distress but remain largely manageable. You might spend some time on intrusive thoughts, engage in occasional compulsive behaviors, or avoid certain situations, though your overall daily functioning is mostly preserved.",
         "suggestions": [
-          "Learn about OCD and intrusive thoughts",
-          "Practice accepting thoughts without rituals",
-          "Consider CBT-based self-help resources"
+          "Learn about the nature of OCD and how intrusive thoughts differ from intentions; understanding this distinction can reduce distress",
+          "Practice accepting unwanted thoughts without engaging in rituals or mental compulsions to neutralize them",
+          "Consider evidence-based CBT self-help workbooks focused on OCD, such as those using Exposure and Response Prevention principles",
+          "Review your subscale scores to identify which OCD dimension is most prominent and target your coping strategies accordingly"
         ]
       },
       {
@@ -219,11 +221,13 @@
         "max": 45,
         "level": "moderate",
         "label": "Moderate OCD Symptoms",
-        "description": "Moderate symptoms likely affecting your daily functioning.",
+        "description": "Your score indicates moderate obsessive-compulsive symptoms that are likely interfering with your daily functioning, relationships, or work productivity. You may spend considerable time on obsessions and compulsions, experience significant distress when unable to perform rituals, and avoid multiple situations.",
         "suggestions": [
-          "Seek evaluation from an OCD specialist",
-          "Exposure and Response Prevention (ERP) is gold-standard treatment",
-          "Review subscale scores to identify problematic dimensions"
+          "Seek evaluation from a mental health professional who specializes in OCD, as symptoms at this level typically benefit from treatment",
+          "Exposure and Response Prevention (ERP) is the gold-standard psychotherapy for OCD and has strong evidence for effectiveness",
+          "Review your subscale scores to identify which OCD dimensions are most problematic and discuss these with your treatment provider",
+          "Selective serotonin reuptake inhibitors (SSRIs) may be recommended as part of your treatment plan if therapy alone is insufficient",
+          "Join an OCD support group to connect with others who understand your experience and can share effective coping strategies"
         ]
       },
       {
@@ -231,11 +235,13 @@
         "max": 80,
         "level": "severe",
         "label": "Severe OCD Symptoms",
-        "description": "Severe symptoms causing significant impairment in daily life, work, and relationships.",
+        "description": "Your score indicates severe obsessive-compulsive symptoms causing significant impairment across multiple life domains including work, relationships, and self-care. You likely spend extensive time on obsessions and compulsions, experience intense distress, and may have substantially restricted your daily activities.",
         "suggestions": [
-          "Please seek professional treatment as soon as possible",
-          "ERP therapy combined with medication may be most effective",
-          "OCD is a highly treatable condition"
+          "Please seek professional treatment as soon as possible; severe OCD is a highly treatable condition with proper intervention",
+          "A combination of ERP therapy and medication (typically SSRIs at higher doses) is often the most effective approach for severe OCD",
+          "OCD is a neurobiological condition, not a character flaw; effective evidence-based treatments can significantly reduce symptom severity",
+          "If current treatments have been insufficient, ask your provider about augmentation strategies or intensive outpatient OCD programs",
+          "Involve supportive family members or partners in your treatment, as family accommodation of OCD can inadvertently maintain symptoms"
         ]
       }
     ],
@@ -246,28 +252,28 @@
           "max": 4,
           "level": "minimal",
           "label": "Minimal",
-          "description": "No significant contamination concerns."
+          "description": "You report no significant contamination-related concerns. Routine hygiene practices are appropriate without excessive worry about dirt, germs, or chemicals. No intervention is needed for this dimension."
         },
         {
           "min": 5,
           "max": 9,
           "level": "mild",
           "label": "Mild",
-          "description": "Mild contamination-related obsessions or compulsions."
+          "description": "You experience mild contamination-related obsessions or compulsions, such as occasional excessive handwashing or discomfort with perceived contaminants. These concerns cause some distress but do not substantially interfere with daily activities."
         },
         {
           "min": 10,
           "max": 14,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate contamination concerns affecting daily life."
+          "description": "Contamination concerns are moderately affecting your daily life, potentially leading to time-consuming washing rituals, avoidance of public spaces, or difficulty touching commonly shared objects. Professional guidance using ERP techniques is recommended."
         },
         {
           "min": 15,
           "max": 20,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe contamination obsessions and washing compulsions."
+          "description": "Severe contamination obsessions and washing compulsions are dominating your daily routine, causing extensive avoidance and significant functional impairment. You may spend hours on decontamination rituals. Specialized OCD treatment is strongly recommended."
         }
       ],
       "responsibility": [
@@ -276,28 +282,28 @@
           "max": 4,
           "level": "minimal",
           "label": "Minimal",
-          "description": "No significant harm-related concerns."
+          "description": "You report no significant concerns about being responsible for harm or making catastrophic mistakes. Normal caution and checking behaviors are present without excessive worry or compulsive reassurance seeking."
         },
         {
           "min": 5,
           "max": 9,
           "level": "mild",
           "label": "Mild",
-          "description": "Mild checking or reassurance-seeking behaviors."
+          "description": "You experience mild checking or reassurance-seeking behaviors driven by concerns about causing harm or being responsible for negative outcomes. These habits cause some distress but remain manageable within your daily routine."
         },
         {
           "min": 10,
           "max": 14,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate responsibility and checking concerns."
+          "description": "Responsibility-related obsessions and checking compulsions are moderately disrupting your daily functioning. You may repeatedly verify locks, appliances, or decisions, and seek excessive reassurance from others. ERP-based treatment can effectively address these patterns."
         },
         {
           "min": 15,
           "max": 20,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe harm obsessions and checking compulsions."
+          "description": "Severe harm-related obsessions and checking compulsions are causing major impairment in your daily life. You likely spend extensive time on repetitive checking, experience intense guilt or anxiety, and significantly avoid situations where you might be responsible for harm."
         }
       ],
       "unacceptable_thoughts": [
@@ -306,28 +312,28 @@
           "max": 4,
           "level": "minimal",
           "label": "Minimal",
-          "description": "No significant intrusive thought concerns."
+          "description": "You report no significant distress from unwanted intrusive thoughts. Occasional odd or unpleasant thoughts may occur but are easily dismissed without engaging in mental rituals or avoidance behaviors."
         },
         {
           "min": 5,
           "max": 9,
           "level": "mild",
           "label": "Mild",
-          "description": "Mild distress from unwanted intrusive thoughts."
+          "description": "You experience mild distress from unwanted intrusive thoughts of a violent, sexual, or immoral nature. These thoughts may cause guilt or anxiety, but you can generally manage the discomfort without major disruption to daily life."
         },
         {
           "min": 10,
           "max": 14,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate distress from unacceptable thoughts."
+          "description": "Unacceptable intrusive thoughts are causing moderate distress and may lead to mental rituals, avoidance of triggering situations, or significant self-doubt about your character. Professional support can help you understand that these thoughts do not reflect your true intentions."
         },
         {
           "min": 15,
           "max": 20,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe distress from intrusive thoughts."
+          "description": "Severe distress from unwanted intrusive thoughts is significantly impairing your daily functioning and emotional well-being. You may engage in extensive mental rituals, avoid numerous situations, and experience intense shame or fear. Specialized OCD treatment is essential."
         }
       ],
       "symmetry": [
@@ -336,28 +342,28 @@
           "max": 4,
           "level": "minimal",
           "label": "Minimal",
-          "description": "No significant symmetry concerns."
+          "description": "You report no significant concerns about symmetry, order, or balance. Preferences for neatness or organization are within normal range and do not cause distress or consume excessive time."
         },
         {
           "min": 5,
           "max": 9,
           "level": "mild",
           "label": "Mild",
-          "description": "Mild need for symmetry or ordering."
+          "description": "You experience a mild need for symmetry, exactness, or particular arrangements. Some extra time may be spent ordering or arranging items, but these behaviors do not substantially interfere with your productivity or relationships."
         },
         {
           "min": 10,
           "max": 14,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate symmetry concerns affecting daily life."
+          "description": "Symmetry and ordering concerns are moderately affecting your daily life, potentially consuming significant time and causing distress when things feel unbalanced or incomplete. Tasks may take much longer due to the need to achieve a particular arrangement."
         },
         {
           "min": 15,
           "max": 20,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe symmetry obsessions and ordering compulsions."
+          "description": "Severe symmetry obsessions and ordering compulsions are dominating your daily routine and causing major functional impairment. You may spend hours arranging, counting, or repeating actions until they feel just right. Specialized treatment is strongly recommended."
         }
       ]
     }

@@ -164,10 +164,11 @@
         "max": 14,
         "level": "normal",
         "label": "Normal Range",
-        "description": "Total score is within normal range. No significant psychosocial problems detected.",
+        "description": "Your child’s total score is within the normal range, indicating no significant psychosocial problems across the domains assessed. Children scoring in this range are generally functioning well emotionally, behaviorally, and socially.",
         "suggestions": [
-          "Continue monitoring your child's mental health",
-          "Maintain good parent-child communication"
+          "Continue monitoring your child’s emotional and behavioral health through regular open conversations",
+          "Maintain consistent routines and age-appropriate expectations to support ongoing healthy development",
+          "Stay engaged with your child’s school and peer activities to reinforce positive social functioning"
         ]
       },
       {
@@ -175,11 +176,13 @@
         "max": 34,
         "level": "elevated",
         "label": "Clinically Significant",
-        "description": "Total score reaches clinically significant level. Further evaluation is recommended.",
+        "description": "Your child’s total score has reached a clinically significant level, suggesting meaningful psychosocial difficulties that warrant further professional evaluation. Review the subscale scores to identify specific areas of concern.",
         "suggestions": [
-          "Consult a child mental health professional for detailed evaluation",
-          "Review subscale scores to identify specific problem areas",
-          "Communicate with teachers about the child's school behavior"
+          "Consult a child mental health professional for a comprehensive evaluation to identify specific problem areas",
+          "Review the subscale scores to determine whether internalizing, attention, or externalizing problems are most prominent",
+          "Communicate with teachers and school counselors about your child’s behavior across different settings",
+          "Maintain a supportive and nonjudgmental home environment while seeking appropriate professional guidance",
+          "Consider completing the PSC-17 again after three months to track changes following any interventions"
         ]
       }
     ],
@@ -190,14 +193,14 @@
           "max": 4,
           "level": "normal",
           "label": "Normal",
-          "description": "Internalizing problems within normal range."
+          "description": "Your child’s internalizing score is within the normal range, suggesting no significant emotional difficulties such as sadness, worry, or hopelessness. Children in this range are generally coping well with their emotional experiences."
         },
         {
           "min": 5,
           "max": 10,
           "level": "elevated",
           "label": "Elevated",
-          "description": "Elevated internalizing problems, possible emotional distress."
+          "description": "Your child’s internalizing score is elevated, indicating possible emotional distress such as persistent sadness, excessive worry, or feelings of hopelessness. Further evaluation by a mental health professional is recommended."
         }
       ],
       "attention": [
@@ -206,14 +209,14 @@
           "max": 6,
           "level": "normal",
           "label": "Normal",
-          "description": "Attention problems within normal range."
+          "description": "Your child’s attention score is within the normal range, indicating that concentration, focus, and activity levels are generally age-appropriate. No significant attention-related difficulties are suggested by this score."
         },
         {
           "min": 7,
           "max": 10,
           "level": "elevated",
           "label": "Elevated",
-          "description": "Elevated attention problems, further evaluation may be needed."
+          "description": "Your child’s attention score is elevated, suggesting difficulties with concentration, restlessness, or distractibility that may be affecting school performance. Further evaluation for attention-related problems is recommended."
         }
       ],
       "externalizing": [
@@ -222,14 +225,14 @@
           "max": 6,
           "level": "normal",
           "label": "Normal",
-          "description": "Externalizing problems within normal range."
+          "description": "Your child’s externalizing score is within the normal range, suggesting that behavioral conduct, peer interactions, and rule-following are generally appropriate for their age. No significant behavioral concerns are indicated."
         },
         {
           "min": 7,
           "max": 14,
           "level": "elevated",
           "label": "Elevated",
-          "description": "Elevated externalizing problems, possible behavioral issues."
+          "description": "Your child’s externalizing score is elevated, indicating possible behavioral problems such as fighting, defiance, or difficulty understanding the feelings of others. Professional assessment can help identify targeted behavioral interventions."
         }
       ]
     }

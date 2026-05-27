@@ -91,10 +91,11 @@
         "max": 18,
         "level": "minimal",
         "label": "No Body Shape Concern",
-        "description": "Your body shape concern is within the normal range with no significant body image distress.",
+        "description": "Your body shape concern is within the normal range, indicating no significant body image distress. You appear to have a healthy relationship with your physical appearance and do not experience problematic preoccupation with body shape.",
         "suggestions": [
-          "Continue maintaining a healthy body image",
-          "Appreciate your body for its functionality rather than just appearance"
+          "Continue maintaining a healthy and balanced body image by focusing on overall well-being",
+          "Appreciate your body for its functionality, health, and the activities it allows you to enjoy",
+          "Be a positive influence by promoting body acceptance and healthy attitudes in your social environment"
         ]
       },
       {
@@ -102,11 +103,12 @@
         "max": 25,
         "level": "mild",
         "label": "Mild Body Shape Concern",
-        "description": "You have mild body shape concerns and occasional dissatisfaction with your body.",
+        "description": "You have mild body shape concerns and occasional dissatisfaction with your physical appearance. While these feelings are common, they may sometimes cause discomfort or lead to negative self-evaluation based on appearance.",
         "suggestions": [
-          "Be mindful of the impact of social media and culture on body image",
-          "Cultivate a positive attitude toward your body",
-          "Choose clothing and activities that make you feel comfortable"
+          "Be mindful of how social media, advertising, and cultural beauty standards may influence your body image",
+          "Cultivate a positive and compassionate attitude toward your body by focusing on what it can do",
+          "Choose clothing and physical activities that make you feel comfortable and confident in your body",
+          "Practice gratitude for your body health and unique characteristics rather than comparing with idealized images"
         ]
       },
       {
@@ -114,12 +116,13 @@
         "max": 33,
         "level": "moderate",
         "label": "Moderate Body Shape Concern",
-        "description": "You have moderate body shape concerns and dissatisfaction, which may affect daily life and self-esteem.",
+        "description": "You have moderate body shape concerns and dissatisfaction that may be affecting your daily life, self-esteem, and social interactions. This level of body image distress warrants attention and proactive self-care strategies.",
         "suggestions": [
-          "Pay attention to mental health related to body image",
-          "Reduce frequent body checking with scales and mirrors",
-          "Consider discussing body image issues with a counselor",
-          "Practice mindfulness to cultivate body acceptance"
+          "Pay attention to your mental health related to body image and recognize when these concerns are excessive",
+          "Reduce frequent body checking behaviors such as weighing yourself repeatedly or scrutinizing your reflection",
+          "Consider discussing your body image concerns with a counselor or therapist who specializes in this area",
+          "Practice mindfulness and body acceptance exercises to develop a more compassionate relationship with your body",
+          "Limit exposure to social media content that promotes unrealistic body standards or triggers body comparison"
         ]
       },
       {
@@ -127,12 +130,13 @@
         "max": 48,
         "level": "severe",
         "label": "Severe Body Shape Concern",
-        "description": "You have severe body shape concerns and dissatisfaction, which may significantly affect quality of life and could be a risk factor for eating disorders.",
+        "description": "You have severe body shape concerns and dissatisfaction that may be significantly affecting your quality of life, daily functioning, and emotional well-being. This level of distress is a recognized risk factor for eating disorders.",
         "suggestions": [
-          "Strongly recommended to seek professional psychological help",
-          "Body image distress may be related to eating disorders; a comprehensive evaluation is recommended",
-          "Avoid extreme dieting or exercise behaviors",
-          "Seek supportive social environments and communities"
+          "Seeking professional psychological help from a therapist specializing in body image is strongly recommended",
+          "Body image distress at this level may be related to or develop into an eating disorder, so comprehensive evaluation is advisable",
+          "Avoid extreme dieting, compensatory exercise, or other potentially harmful behaviors aimed at changing your body shape",
+          "Seek supportive social environments and communities that promote body diversity and acceptance",
+          "Consider evidence-based treatments such as cognitive behavioral therapy specifically designed for body image concerns"
         ]
       }
     ],

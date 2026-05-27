@@ -165,10 +165,11 @@
         "max": 32,
         "level": "minimal",
         "label": "Low Burnout",
-        "description": "Low levels of burnout.",
+        "description": "Your overall burnout score is low, suggesting healthy engagement with your work. You do not appear to be experiencing significant exhaustion or disengagement from your professional role.",
         "suggestions": [
-          "Maintain healthy work habits",
-          "Continue current coping strategies"
+          "Continue maintaining a healthy relationship with your work",
+          "Preserve the strategies that help you stay engaged and energized",
+          "Be mindful of early signs of exhaustion or disengagement"
         ]
       },
       {
@@ -176,10 +177,12 @@
         "max": 48,
         "level": "mild",
         "label": "Moderate Burnout",
-        "description": "Moderate burnout levels.",
+        "description": "Your score suggests moderate levels of burnout. You may be experiencing some combination of exhaustion and disengagement from your work. Review your subscale scores to understand whether exhaustion, disengagement, or both are the primary concerns.",
         "suggestions": [
-          "Monitor your energy levels",
-          "Consider workload adjustments"
+          "Review subscale scores to identify whether exhaustion, disengagement, or both are most prominent",
+          "Evaluate your workload and consider adjustments to prevent further burnout",
+          "Engage in restorative activities outside of work to recharge",
+          "Talk to a trusted colleague, supervisor, or counselor about your experience"
         ]
       },
       {
@@ -187,10 +190,13 @@
         "max": 64,
         "level": "severe",
         "label": "High Burnout",
-        "description": "High levels of burnout.",
+        "description": "Your score indicates high burnout characterized by significant exhaustion and/or disengagement from your work. This level of burnout is likely affecting your professional performance, personal well-being, and relationships. Meaningful intervention is recommended.",
         "suggestions": [
-          "Seek professional support",
-          "Evaluate your work situation seriously"
+          "Seek professional support from a counselor, therapist, or employee assistance program",
+          "Evaluate whether systemic changes to your work situation are needed",
+          "Prioritize rest and recovery; burnout recovery requires sustained effort",
+          "Consider whether a temporary break or workload reduction is possible",
+          "Burnout is a systemic issue, not a personal weakness; structural solutions are often needed"
         ]
       }
     ],
@@ -199,46 +205,46 @@
         {
           "min": 8,
           "max": 16,
-          "level": "normal",
+          "level": "minimal",
           "label": "Low",
-          "description": "Low exhaustion."
+          "description": "Low exhaustion. You do not appear to be experiencing significant physical, cognitive, or emotional fatigue related to your work. Your energy levels seem adequate for your professional demands."
         },
         {
           "min": 17,
           "max": 24,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate exhaustion."
+          "description": "Moderate exhaustion. You are experiencing noticeable fatigue — physical, cognitive, or emotional — that may be affecting your capacity to perform at your best. Work demands may be exceeding your available resources."
         },
         {
           "min": 25,
           "max": 32,
           "level": "severe",
           "label": "High",
-          "description": "High exhaustion."
+          "description": "High exhaustion. You are likely feeling severely drained by your work, with persistent fatigue that does not resolve with normal rest. This level of exhaustion can affect both your professional performance and personal health."
         }
       ],
       "disengagement": [
         {
           "min": 8,
           "max": 16,
-          "level": "normal",
+          "level": "minimal",
           "label": "Low",
-          "description": "Low disengagement."
+          "description": "Low disengagement. You appear to be actively engaged with and interested in your work. You find your professional role meaningful and are emotionally connected to your work activities."
         },
         {
           "min": 17,
           "max": 24,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate disengagement."
+          "description": "Moderate disengagement. You may be experiencing some emotional distancing from your work, reduced interest, or cynicism about your professional role. This can be an early warning sign of deepening burnout."
         },
         {
           "min": 25,
           "max": 32,
           "level": "severe",
           "label": "High",
-          "description": "High disengagement."
+          "description": "High disengagement. You are likely feeling emotionally detached from your work, with little interest or sense of meaning in your professional activities. This may manifest as cynicism, going through the motions, or withdrawing from work relationships."
         }
       ]
     }

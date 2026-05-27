@@ -79,11 +79,11 @@
         "max": 10,
         "level": "minimal",
         "label": "Low Anxiety",
-        "description": "Your state anxiety level is low. You appear to be feeling calm and relaxed at this moment.",
+        "description": "Your current state anxiety is low, indicating that you feel calm and relaxed at this moment. You are managing your emotional state well with no significant tension or worry detected.",
         "suggestions": [
-          "Continue maintaining your current state of calm",
-          "Practice regular relaxation techniques to sustain well-being",
-          "Note what strategies help you feel at ease for future reference"
+          "Continue maintaining your current state of calm and emotional equilibrium",
+          "Practice regular relaxation techniques such as deep breathing to sustain your well-being over time",
+          "Take note of the strategies and circumstances that help you feel at ease for future reference"
         ]
       },
       {
@@ -91,11 +91,12 @@
         "max": 14,
         "level": "mild",
         "label": "Mild Anxiety",
-        "description": "You are experiencing mild state anxiety. This is a common level that most people experience in everyday situations.",
+        "description": "You are experiencing mild state anxiety, which is a common response to everyday situations. Some tension or worry may be present, but it is not significantly impairing your current functioning.",
         "suggestions": [
-          "Try deep breathing or progressive muscle relaxation",
-          "Identify any immediate stressors and address them if possible",
-          "Engage in a brief mindfulness exercise"
+          "Try deep breathing exercises or progressive muscle relaxation to ease your current tension",
+          "Identify any immediate stressors in your environment and address them if possible",
+          "Engage in a brief mindfulness or grounding exercise to center yourself in the present moment",
+          "Consider a short physical activity break such as a walk to help regulate your arousal level"
         ]
       },
       {
@@ -103,12 +104,13 @@
         "max": 18,
         "level": "moderate",
         "label": "Moderate Anxiety",
-        "description": "Your current anxiety level is moderate. You may benefit from using coping strategies to manage your state of tension.",
+        "description": "Your current anxiety level is moderate, suggesting noticeable tension and worry at this moment. You may benefit from active coping strategies to reduce your state of arousal and regain composure.",
         "suggestions": [
-          "Practice grounding techniques (e.g., 5-4-3-2-1 sensory exercise)",
-          "Take a break from the situation causing anxiety if possible",
-          "Consider talking to someone about what you are feeling",
-          "Use structured relaxation exercises"
+          "Practice grounding techniques such as the 5-4-3-2-1 sensory exercise to anchor yourself in the present",
+          "Take a break from the situation causing anxiety if it is safe and feasible to do so",
+          "Talk to someone you trust about what you are experiencing right now",
+          "Use structured relaxation exercises such as guided imagery or body scan meditation",
+          "Reduce stimulant intake such as caffeine that may be amplifying your anxiety response"
         ]
       },
       {
@@ -116,12 +118,12 @@
         "max": 24,
         "level": "severe",
         "label": "High Anxiety",
-        "description": "Your state anxiety level is high. You are experiencing significant tension and worry at this moment, which may impair your functioning.",
+        "description": "Your state anxiety is high, indicating significant tension, worry, and discomfort at this moment. This level of acute anxiety may be impairing your ability to think clearly and function effectively.",
         "suggestions": [
-          "Seek immediate support from a trusted person or professional",
-          "Practice calming strategies such as slow, deep breathing",
-          "Remove yourself from overwhelming situations if safe to do so",
-          "Consider consulting a mental health professional if this level persists"
+          "Seek immediate support from a trusted person, counselor, or mental health professional",
+          "Practice slow, deep diaphragmatic breathing to activate your parasympathetic nervous system",
+          "Remove yourself from overwhelming or distressing situations if it is safe to do so",
+          "Consider consulting a mental health professional if this level of anxiety occurs frequently"
         ]
       }
     ],

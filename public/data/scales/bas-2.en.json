@@ -97,12 +97,12 @@
         "max": 20,
         "level": "severe",
         "label": "Low Body Appreciation",
-        "description": "Your body appreciation and acceptance is low. You may have a negative body image.",
+        "description": "Your body appreciation and acceptance is low, suggesting a predominantly negative body image. You may struggle to recognize positive qualities of your body and frequently experience dissatisfaction with your physical appearance.",
         "suggestions": [
-          "Focus on your body's functionality rather than appearance",
-          "Practice self-compassion and body gratitude",
-          "Reduce exposure to appearance-related social media content",
-          "If body image concerns significantly affect your life, consider seeking professional help"
+          "Focus on what your body can do for you functionally rather than evaluating its appearance",
+          "Practice self-compassion and body gratitude by acknowledging one positive aspect of your body each day",
+          "Reduce exposure to appearance-focused social media content that promotes unrealistic beauty standards",
+          "If body image concerns significantly affect your life and well-being, consider seeking professional support from a therapist"
         ]
       },
       {
@@ -110,12 +110,13 @@
         "max": 30,
         "level": "moderate",
         "label": "Below Average Body Appreciation",
-        "description": "Your body appreciation is below average. You may be dissatisfied with some aspects of your body.",
+        "description": "Your body appreciation is below average, indicating some dissatisfaction with aspects of your physical appearance. While you may recognize some positive qualities, negative body perceptions tend to dominate your self-image.",
         "suggestions": [
-          "Try writing down one positive thing about your body each day",
-          "Choose activities and clothing that make your body feel comfortable",
-          "Reduce comparisons with others' appearances",
-          "Cultivate gratitude for your body's functions"
+          "Try writing down one positive thing about your body each day to gradually shift your perspective toward appreciation",
+          "Choose physical activities and clothing that make your body feel comfortable, strong, and capable",
+          "Reduce comparisons with the appearances of others, recognizing that beauty comes in many diverse forms",
+          "Cultivate gratitude for the functions and health of your body by paying attention to what it does well for you",
+          "Consider exploring body image workshops or self-help resources that promote positive body image development"
         ]
       },
       {
@@ -123,11 +124,12 @@
         "max": 40,
         "level": "mild",
         "label": "Moderate Body Appreciation",
-        "description": "You have a moderate level of body appreciation and acceptance, with a generally positive attitude.",
+        "description": "You have a moderate level of body appreciation and acceptance, with a generally positive attitude toward your physical self. You are able to acknowledge the value of your body despite recognizing some imperfections.",
         "suggestions": [
-          "Continue cultivating a positive attitude toward your body",
-          "Maintain regular physical activity and enjoy the pleasure of movement",
-          "Practice intuitive eating and listen to your body's needs"
+          "Continue cultivating a positive and accepting attitude toward your body through regular self-affirmation",
+          "Maintain regular physical activity and enjoy the pleasure of movement rather than exercising solely for appearance",
+          "Practice intuitive eating by listening to hunger and fullness cues from your body rather than following restrictive diets",
+          "Celebrate the unique characteristics of your body and the diverse ways bodies can be beautiful and functional"
         ]
       },
       {
@@ -135,11 +137,11 @@
         "max": 50,
         "level": "minimal",
         "label": "High Body Appreciation",
-        "description": "You have a high level of body appreciation and acceptance, with a positive body image.",
+        "description": "You have a high level of body appreciation and acceptance, reflecting a strongly positive body image. You respect, care for, and feel comfortable in your body, and you do not let media ideals define your self-worth.",
         "suggestions": [
-          "Continue maintaining your positive attitude toward your body",
-          "Your body appreciation can serve as a positive example for others",
-          "Continue caring for and respecting your body's needs"
+          "Continue maintaining your positive and appreciative attitude toward your body and physical self",
+          "Your strong body appreciation can serve as a positive example and inspiration for others around you",
+          "Continue caring for and respecting the needs of your body through balanced nutrition, activity, and rest"
         ]
       }
     ],

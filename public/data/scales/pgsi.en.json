@@ -88,10 +88,11 @@
         "max": 0,
         "level": "minimal",
         "label": "Non-Problem Gambling",
-        "description": "You did not report any signs of problem gambling.",
+        "description": "You did not report any signs of problem gambling. Your responses suggest that gambling, if present at all, is recreational and well-controlled. You do not appear to be at risk for gambling-related harm at this time.",
         "suggestions": [
-          "Continue maintaining healthy recreational habits",
-          "If you do gamble, set time and money limits"
+          "Continue maintaining healthy recreational habits and responsible attitudes toward gambling",
+          "If you do gamble, always set firm time and money limits before you begin",
+          "Stay informed about the warning signs of problem gambling so you can recognize changes early"
         ]
       },
       {
@@ -99,11 +100,12 @@
         "max": 2,
         "level": "mild",
         "label": "Low Risk Gambling",
-        "description": "You reported minor gambling-related issues at a low risk level.",
+        "description": "You reported minor gambling-related concerns at a low risk level. While these issues are not currently severe, they indicate that gambling is beginning to have a small but noticeable presence in your life. Maintaining awareness now can help prevent escalation.",
         "suggestions": [
-          "Maintain self-awareness about gambling behavior",
-          "Set clear limits on gambling time and money",
-          "Don't use gambling to cope with stress or emotional issues"
+          "Maintain honest self-awareness about your gambling behavior and its effects on your life",
+          "Set clear and strict limits on both gambling time and money before each session",
+          "Never use gambling as a way to cope with stress, boredom, or emotional difficulties",
+          "Track your gambling expenditures over time to identify any upward trends"
         ]
       },
       {
@@ -111,12 +113,13 @@
         "max": 7,
         "level": "moderate",
         "label": "Moderate Risk Gambling",
-        "description": "Your gambling behavior may be causing some negative consequences. Consider taking action.",
+        "description": "Your gambling behavior is causing some negative consequences and may be moving beyond recreational activity. You may be spending more money or time than intended, chasing losses, or experiencing guilt or relationship strain related to gambling.",
         "suggestions": [
-          "Seriously examine how gambling affects your life",
-          "Set strict gambling budgets and stick to them",
-          "Consider seeking professional help or calling a gambling helpline",
-          "Learn about risk factors for problem gambling"
+          "Seriously examine how gambling is affecting your finances, relationships, and emotional health",
+          "Set strict gambling budgets and stick to them without exception, never chasing losses",
+          "Consider calling a gambling helpline for confidential advice and support",
+          "Learn about cognitive distortions common in gambling, such as the illusion of control and the gambler's fallacy",
+          "Explore healthier alternative activities to fill the time and excitement that gambling currently provides"
         ]
       },
       {
@@ -124,13 +127,13 @@
         "max": 27,
         "level": "severe",
         "label": "Problem Gambling",
-        "description": "Your gambling behavior has caused significant negative consequences, meeting criteria for problem gambling. Professional help is strongly recommended.",
+        "description": "Your gambling behavior has caused significant negative consequences across multiple areas of your life, meeting criteria for problem gambling. You may be experiencing financial hardship, damaged relationships, emotional distress, or loss of control over your gambling behavior.",
         "suggestions": [
-          "Strongly recommend seeking professional gambling treatment",
-          "Let trusted family or friends know about your situation",
-          "Consider self-exclusion programs (banning yourself from gambling venues)",
-          "Address underlying emotional or mental health issues",
-          "Join a support group (e.g., Gamblers Anonymous)"
+          "Strongly recommended to seek professional gambling treatment from a qualified counselor or therapist",
+          "Let trusted family members or friends know about your situation so they can provide support",
+          "Consider enrolling in a self-exclusion program to ban yourself from gambling venues and online platforms",
+          "Address any underlying emotional or mental health issues such as depression or anxiety that may fuel gambling",
+          "Join a peer support group such as Gamblers Anonymous to connect with others in recovery"
         ]
       }
     ],

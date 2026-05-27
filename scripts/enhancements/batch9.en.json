@@ -1,0 +1,700 @@
+{
+  "rrs": {
+    "ranges": [
+      {
+        "min": 22,
+        "max": 33,
+        "level": "minimal",
+        "label": "Low Rumination",
+        "description": "Your rumination levels are within a healthy range. You tend to process negative experiences without getting stuck in repetitive thought patterns, which supports adaptive emotional regulation and mental well-being.",
+        "suggestions": [
+          "Continue using healthy coping strategies like physical activity and social connection",
+          "Practice mindfulness to maintain present-focused awareness",
+          "Keep a gratitude journal to reinforce positive thinking patterns"
+        ]
+      },
+      {
+        "min": 34,
+        "max": 44,
+        "level": "mild",
+        "label": "Mild Rumination",
+        "description": "You show some tendency toward repetitive negative thinking. While occasional rumination is normal, this pattern may increase vulnerability to low mood if left unchecked. Early intervention can prevent escalation.",
+        "suggestions": [
+          "Try thought-stopping techniques when you notice repetitive negative thinking",
+          "Schedule ‘worry time’ — limit rumination to a specific 15-minute window daily",
+          "Engage in behavioral activation by planning enjoyable activities",
+          "Practice mindfulness meditation to develop observing rather than engaging with thoughts"
+        ]
+      },
+      {
+        "min": 45,
+        "max": 55,
+        "level": "moderate",
+        "label": "Moderate Rumination",
+        "description": "Your score indicates a significant pattern of repetitive negative thinking. Moderate rumination is a well-established risk factor for depression and anxiety, and may be interfering with your problem-solving ability and daily functioning.",
+        "suggestions": [
+          "Consider cognitive-behavioral therapy (CBT) to identify and challenge ruminative thought patterns",
+          "Practice rumination-focused CBT techniques such as functional analysis of thinking",
+          "Engage in regular physical exercise, which research shows reduces rumination",
+          "Try behavioral activation — replace brooding with concrete problem-solving actions",
+          "Consider consulting a mental health professional for personalized guidance"
+        ]
+      },
+      {
+        "min": 56,
+        "max": 88,
+        "level": "severe",
+        "label": "High Rumination",
+        "description": "Your score reflects pervasive repetitive negative thinking that likely impacts your mood, concentration, and daily functioning. High rumination is strongly associated with depression and anxiety and typically benefits from professional intervention.",
+        "suggestions": [
+          "Seek professional help — a therapist trained in CBT or rumination-focused therapy can provide structured support",
+          "Consider metacognitive therapy (MCT), which specifically targets repetitive thinking patterns",
+          "Engage in intensive mindfulness-based cognitive therapy (MBCT) to break the cycle of rumination",
+          "Prioritize physical activity and social engagement to interrupt ruminative cycles"
+        ]
+      }
+    ]
+  },
+  "ffmq-15": {
+    "ranges": [
+      {
+        "min": 15,
+        "max": 35,
+        "level": "severe",
+        "label": "Low Mindfulness",
+        "description": "Your overall mindfulness level is low, suggesting difficulty staying present, observing experiences non-judgmentally, and responding thoughtfully rather than reacting automatically. Developing mindfulness skills can significantly improve emotional regulation and well-being.",
+        "suggestions": [
+          "Start with brief guided mindfulness meditations (5-10 minutes daily) using an app like Headspace or Calm",
+          "Practice informal mindfulness during daily activities such as eating or walking",
+          "Consider a structured Mindfulness-Based Stress Reduction (MBSR) course",
+          "Try body scan exercises to develop greater awareness of physical sensations",
+          "Read introductory books on mindfulness such as ‘Full Catastrophe Living’ by Jon Kabat-Zinn"
+        ]
+      },
+      {
+        "min": 36,
+        "max": 55,
+        "level": "moderate",
+        "label": "Moderate Mindfulness",
+        "description": "You demonstrate moderate mindfulness abilities with room for growth. You may find that some facets of mindfulness come more naturally than others. Targeted practice in your weaker areas can enhance overall present-moment awareness.",
+        "suggestions": [
+          "Review your subscale scores to identify specific facets needing development",
+          "Increase your daily meditation practice gradually toward 15-20 minutes",
+          "Explore different meditation styles — loving-kindness, body scan, or breath focus — to find what works best",
+          "Practice non-judgmental awareness during emotionally challenging moments",
+          "Consider joining a mindfulness meditation group for community support"
+        ]
+      },
+      {
+        "min": 56,
+        "max": 75,
+        "level": "minimal",
+        "label": "High Mindfulness",
+        "description": "Your mindfulness skills are well-developed across multiple facets. You demonstrate strong capacity for present-moment awareness, non-judgmental observation, and mindful responding. These skills serve as protective factors for mental health.",
+        "suggestions": [
+          "Maintain your mindfulness practice to sustain these beneficial skills",
+          "Consider deepening your practice through retreat experiences or advanced meditation",
+          "Share your mindfulness skills with others — teaching reinforces personal practice"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "observing": [
+        {
+          "min": 3,
+          "max": 7,
+          "level": "severe",
+          "label": "Low",
+          "description": "You may have difficulty noticing internal and external experiences such as bodily sensations, emotions, sounds, and sights. Developing observing skills helps build the foundation for mindful awareness and emotional intelligence."
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You show moderate ability to notice and attend to present-moment experiences. Continued practice in sensory awareness exercises can strengthen this foundational mindfulness skill."
+        },
+        {
+          "min": 12,
+          "max": 15,
+          "level": "minimal",
+          "label": "High",
+          "description": "You demonstrate strong observing skills, readily noticing internal sensations, emotions, and external stimuli. This awareness provides a solid foundation for all other mindfulness facets."
+        }
+      ],
+      "describing": [
+        {
+          "min": 3,
+          "max": 7,
+          "level": "severe",
+          "label": "Low",
+          "description": "You may find it challenging to put your inner experiences into words. Difficulty describing feelings can hinder emotional processing and interpersonal communication. Labeling emotions practice can help develop this skill."
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You have a moderate ability to articulate your internal experiences. Building vocabulary for emotions and practicing affect labeling can further develop this communication-enhancing mindfulness facet."
+        },
+        {
+          "min": 12,
+          "max": 15,
+          "level": "minimal",
+          "label": "High",
+          "description": "You are skilled at describing your inner experiences with words. This ability enhances emotional processing, self-understanding, and effective communication with others about your internal states."
+        }
+      ],
+      "actaware": [
+        {
+          "min": 3,
+          "max": 7,
+          "level": "severe",
+          "label": "Low",
+          "description": "You frequently operate on autopilot, engaging in activities without full attention. Low acting-with-awareness increases risk of accidents, errors, and missing important experiences. Mindful attention training can help."
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You show moderate ability to stay present during activities rather than operating on autopilot. Practicing single-tasking and bringing deliberate attention to routine activities can strengthen this facet."
+        },
+        {
+          "min": 12,
+          "max": 15,
+          "level": "minimal",
+          "label": "High",
+          "description": "You demonstrate strong ability to stay present and attentive during daily activities. Acting with awareness helps you engage fully in experiences and reduces errors from distraction or autopilot behavior."
+        }
+      ],
+      "nonjudge": [
+        {
+          "min": 3,
+          "max": 7,
+          "level": "severe",
+          "label": "Low",
+          "description": "You tend to be highly self-critical and judgmental about your thoughts and feelings. This inner criticism can amplify negative emotions and contribute to anxiety and depression. Self-compassion practice can help."
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You show moderate ability to accept your thoughts and feelings without judgment. Continuing to practice self-compassion and acceptance can reduce unnecessary emotional suffering and self-criticism."
+        },
+        {
+          "min": 12,
+          "max": 15,
+          "level": "minimal",
+          "label": "High",
+          "description": "You demonstrate strong ability to accept your thoughts and feelings without evaluation. This non-judgmental stance reduces emotional reactivity and supports psychological flexibility and resilience."
+        }
+      ],
+      "nonreact": [
+        {
+          "min": 3,
+          "max": 7,
+          "level": "severe",
+          "label": "Low",
+          "description": "You tend to react strongly and automatically to your inner experiences. Low non-reactivity means emotions may feel overwhelming or controlling. Learning to observe without immediately reacting can build emotional resilience."
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You show moderate ability to let thoughts and feelings come and go without being caught up in them. Continued meditation practice can further develop this equanimity and emotional balance."
+        },
+        {
+          "min": 12,
+          "max": 15,
+          "level": "minimal",
+          "label": "High",
+          "description": "You demonstrate strong ability to observe internal experiences without being carried away by them. This equanimity allows you to respond thoughtfully rather than react impulsively to emotional triggers."
+        }
+      ]
+    }
+  },
+  "gq-6": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 18,
+        "level": "severe",
+        "label": "Low Gratitude",
+        "description": "Your gratitude level is below average, suggesting difficulty recognizing and appreciating positive aspects of life. Low gratitude is associated with reduced life satisfaction and well-being. Gratitude is a skill that can be cultivated with practice.",
+        "suggestions": [
+          "Start a daily gratitude journal — write down three things you are grateful for each evening",
+          "Practice expressing appreciation to others through notes, messages, or verbal thanks",
+          "Try a ‘gratitude walk’ — notice and appreciate positive aspects of your surroundings during a daily walk",
+          "Reflect on past challenges you have overcome and what you learned from them"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 30,
+        "level": "moderate",
+        "label": "Moderate Gratitude",
+        "description": "You experience a moderate level of gratitude. You recognize some positive aspects of your life but may not consistently appreciate them. Deepening your gratitude practice can enhance life satisfaction, relationships, and psychological well-being.",
+        "suggestions": [
+          "Expand your gratitude journal to include both large and small daily blessings",
+          "Practice savoring positive experiences by pausing to fully appreciate good moments",
+          "Write a gratitude letter to someone who has positively impacted your life",
+          "Set reminders to pause and notice things you might take for granted",
+          "Try gratitude meditation focusing on appreciation for people and experiences in your life"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 42,
+        "level": "minimal",
+        "label": "High Gratitude",
+        "description": "You demonstrate a strong sense of gratitude, consistently recognizing and appreciating the positive aspects of life. High gratitude is associated with greater happiness, stronger relationships, better sleep, and enhanced resilience to stress.",
+        "suggestions": [
+          "Continue your gratitude practices to maintain this positive orientation",
+          "Share your appreciation with others to strengthen social bonds",
+          "Mentor others in developing gratitude skills through your example"
+        ]
+      }
+    ]
+  },
+  "panas": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 50,
+        "level": "mild",
+        "label": "Low Overall Affect",
+        "description": "Your overall emotional engagement appears reduced, with lower levels of both positive and negative affect. This pattern may reflect emotional numbing, disengagement, or a period of low emotional intensity. Exploring activities that promote emotional vitality may be helpful.",
+        "suggestions": [
+          "Engage in activities that have previously brought you joy or excitement",
+          "Practice identifying and labeling your emotions throughout the day",
+          "Consider whether this reflects a temporary state or a persistent pattern worth exploring with a professional",
+          "Try novel experiences to stimulate emotional engagement"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 100,
+        "level": "normal",
+        "label": "Moderate to High Affect",
+        "description": "Your emotional engagement is within a typical range. Review your positive and negative affect subscale scores for a more nuanced picture of your emotional balance. The ideal pattern involves high positive affect combined with low negative affect.",
+        "suggestions": [
+          "Review your subscale scores — aim for high positive affect and low negative affect",
+          "Practice activities that boost positive emotions such as exercise, socializing, and pursuing hobbies",
+          "If negative affect is elevated, consider stress management techniques like deep breathing or progressive relaxation"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "positive_affect": [
+        {
+          "min": 10,
+          "max": 20,
+          "level": "severe",
+          "label": "Low",
+          "description": "Your positive affect is low, indicating reduced experiences of enthusiasm, alertness, and active engagement. Low positive affect is a hallmark of depression and may signal anhedonia — difficulty experiencing pleasure. Consider activities that promote positive emotions."
+        },
+        {
+          "min": 21,
+          "max": 30,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Your positive affect is moderate. You experience some positive emotions but there is room for growth. Behavioral activation — scheduling enjoyable and meaningful activities — can help boost positive emotional experiences."
+        },
+        {
+          "min": 31,
+          "max": 50,
+          "level": "minimal",
+          "label": "High",
+          "description": "Your positive affect is strong, indicating frequent experiences of enthusiasm, interest, and active engagement with life. High positive affect is associated with greater resilience, better social relationships, and improved physical health."
+        }
+      ],
+      "negative_affect": [
+        {
+          "min": 10,
+          "max": 15,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Your negative affect is low, indicating minimal distressing emotions such as guilt, fear, or hostility. Low negative affect suggests good emotional regulation and is associated with greater life satisfaction and psychological health."
+        },
+        {
+          "min": 16,
+          "max": 25,
+          "level": "normal",
+          "label": "Moderate",
+          "description": "Your negative affect is in the moderate range. Some negative emotions are a normal part of the human experience. Monitor whether stress or specific situations are driving elevated negative feelings."
+        },
+        {
+          "min": 26,
+          "max": 50,
+          "level": "severe",
+          "label": "High",
+          "description": "Your negative affect is elevated, indicating frequent experiences of distressing emotions such as anxiety, anger, guilt, or fear. Persistently high negative affect is associated with psychological distress and warrants professional attention."
+        }
+      ]
+    }
+  },
+  "scs-sf": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 24,
+        "level": "severe",
+        "label": "Low Self-Compassion",
+        "description": "Your self-compassion is quite low, suggesting a tendency toward self-criticism, isolation during difficult times, and over-identification with negative thoughts. Low self-compassion is associated with increased vulnerability to depression, anxiety, and burnout.",
+        "suggestions": [
+          "Practice self-compassion exercises from Kristin Neff’s work — try the self-compassion break meditation",
+          "Challenge your inner critic by asking ‘What would I say to a close friend in this situation?’",
+          "Explore Compassion-Focused Therapy (CFT) or Mindful Self-Compassion (MSC) programs",
+          "Practice self-kindness through physical gestures like placing a hand on your heart during difficult moments",
+          "Consider working with a therapist trained in self-compassion approaches"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "mild",
+        "label": "Moderate Self-Compassion",
+        "description": "Your self-compassion is at a moderate level. You show some ability to treat yourself kindly during difficulties but may still default to self-criticism under stress. Strengthening self-compassion skills can improve emotional resilience and well-being.",
+        "suggestions": [
+          "Practice loving-kindness meditation to cultivate warmth toward yourself and others",
+          "Notice self-critical thoughts and gently reframe them with self-compassion",
+          "Remind yourself that suffering and imperfection are shared human experiences",
+          "Try journaling about difficult experiences from a compassionate perspective"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "normal",
+        "label": "Above Average Self-Compassion",
+        "description": "Your self-compassion is above average, indicating a healthy balance of self-kindness, common humanity, and mindful awareness during difficult times. This capacity helps buffer against stress and supports psychological flexibility.",
+        "suggestions": [
+          "Maintain your self-compassion practices during challenging periods",
+          "Share self-compassion techniques with friends, family, or colleagues who might benefit",
+          "Continue developing mindfulness skills to support present-moment awareness"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "minimal",
+        "label": "High Self-Compassion",
+        "description": "Your self-compassion is very strong. You consistently treat yourself with kindness, recognize your struggles as part of the shared human experience, and maintain balanced awareness of your emotions. This is a significant protective factor for mental health.",
+        "suggestions": [
+          "Continue your self-compassion practices to sustain this valuable inner resource",
+          "Consider mentoring or teaching others about self-compassion",
+          "Use your strong self-compassion foundation to take on new challenges and growth opportunities"
+        ]
+      }
+    ]
+  },
+  "iri": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 37,
+        "level": "minimal",
+        "label": "Low Empathy",
+        "description": "Your overall empathy score is low, suggesting limited tendency to take others’ perspectives, feel concern for others, or share in others’ emotional experiences. While empathy exists on a spectrum, developing empathic skills can improve relationships and social functioning.",
+        "suggestions": [
+          "Practice active listening — focus fully on understanding others’ perspectives before responding",
+          "Read fiction or watch films and try to deeply consider characters’ inner experiences",
+          "Engage in volunteer work or community service to broaden exposure to diverse life experiences",
+          "Consider whether low empathy is impacting your relationships and seek professional guidance if needed"
+        ]
+      },
+      {
+        "min": 38,
+        "max": 74,
+        "level": "mild",
+        "label": "Moderate Empathy",
+        "description": "Your empathy is in the moderate range. You show some capacity for understanding and sharing others’ emotional experiences. Review your subscale scores to see which dimensions of empathy are stronger or weaker for you.",
+        "suggestions": [
+          "Review subscale scores to identify empathy dimensions you can strengthen",
+          "Practice perspective-taking by actively imagining how others experience situations",
+          "Develop emotional vocabulary to better recognize and understand others’ feelings",
+          "Engage in conversations where you prioritize understanding over responding"
+        ]
+      },
+      {
+        "min": 75,
+        "max": 112,
+        "level": "normal",
+        "label": "High Empathy",
+        "description": "Your empathy is well-developed across multiple dimensions. You readily understand and share others’ emotional experiences. While this is generally beneficial for relationships, ensure you maintain healthy emotional boundaries to prevent empathic burnout.",
+        "suggestions": [
+          "Practice healthy emotional boundaries to prevent compassion fatigue",
+          "Use your strong empathy skills to support others while protecting your own well-being",
+          "If personal distress subscale is high, learn grounding techniques to manage emotional contagion"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "perspective_taking": [
+        {
+          "min": 0,
+          "max": 9,
+          "level": "normal",
+          "label": "Low",
+          "description": "Your tendency to spontaneously adopt others’ viewpoints is low. Perspective-taking is a cognitive empathy skill that can be developed through deliberate practice, improving communication and conflict resolution."
+        },
+        {
+          "min": 10,
+          "max": 19,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "You show moderate ability to consider others’ points of view. Continuing to practice seeing situations from multiple perspectives can enhance your interpersonal effectiveness and social understanding."
+        },
+        {
+          "min": 20,
+          "max": 28,
+          "level": "minimal",
+          "label": "High",
+          "description": "You readily adopt others’ psychological perspectives, which supports effective communication, conflict resolution, and relationship quality. This cognitive empathy skill is valuable in both personal and professional contexts."
+        }
+      ],
+      "fantasy": [
+        {
+          "min": 0,
+          "max": 9,
+          "level": "normal",
+          "label": "Low",
+          "description": "You have a limited tendency to imagine yourself in fictional characters’ situations. While not problematic, engaging more with narratives can stimulate imagination and indirectly enhance empathic understanding."
+        },
+        {
+          "min": 10,
+          "max": 19,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "You moderately engage with fictional characters’ experiences. This imaginative capacity can serve as a safe practice ground for understanding diverse emotional perspectives and life situations."
+        },
+        {
+          "min": 20,
+          "max": 28,
+          "level": "minimal",
+          "label": "High",
+          "description": "You strongly identify with fictional characters, readily imagining their thoughts and feelings. This rich imaginative capacity can enhance emotional understanding, though very high levels may sometimes blur fiction and reality."
+        }
+      ],
+      "empathic_concern": [
+        {
+          "min": 0,
+          "max": 9,
+          "level": "normal",
+          "label": "Low",
+          "description": "Your tendency to feel warmth, concern, and compassion for others in distress is low. Low empathic concern may affect relationship quality. Volunteering and exposure to others’ experiences can help develop compassionate responding."
+        },
+        {
+          "min": 10,
+          "max": 19,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "You show moderate feelings of concern and sympathy for others experiencing difficulties. This other-oriented emotional response is central to prosocial behavior and healthy relationships."
+        },
+        {
+          "min": 20,
+          "max": 28,
+          "level": "minimal",
+          "label": "High",
+          "description": "You demonstrate strong feelings of warmth and concern for others in distress. High empathic concern motivates helping behavior and strengthens social bonds, and is a key component of compassionate care."
+        }
+      ],
+      "personal_distress": [
+        {
+          "min": 0,
+          "max": 9,
+          "level": "minimal",
+          "label": "Low",
+          "description": "You experience minimal personal distress when witnessing others’ negative experiences. Low personal distress indicates good emotional regulation and the ability to remain composed while still being empathic."
+        },
+        {
+          "min": 10,
+          "max": 19,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "You experience moderate personal distress in response to others’ difficult situations. Some self-oriented anxiety in empathic situations is normal, but if it interferes with helping behavior, grounding techniques may help."
+        },
+        {
+          "min": 20,
+          "max": 28,
+          "level": "severe",
+          "label": "High",
+          "description": "You experience significant personal distress when witnessing others’ negative experiences. High personal distress can be overwhelming and may actually impair your ability to help others. Developing emotional regulation and grounding skills is recommended."
+        }
+      ]
+    }
+  },
+  "tas-20": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 51,
+        "level": "none",
+        "label": "No Alexithymia",
+        "description": "Your score indicates good emotional awareness and the ability to identify, describe, and reflect on your feelings. You appear comfortable with emotional experiences and can effectively communicate your inner states to others.",
+        "suggestions": [
+          "Continue developing your emotional intelligence through self-reflection and mindfulness",
+          "Maintain open emotional communication in your relationships",
+          "Use your emotional awareness skills to support others who may struggle with identifying feelings"
+        ]
+      },
+      {
+        "min": 52,
+        "max": 60,
+        "level": "possible",
+        "label": "Possible Alexithymia",
+        "description": "Your score falls in the borderline range, suggesting some difficulty with emotional awareness. You may sometimes struggle to distinguish between emotions and physical sensations, or find it hard to describe your feelings to others. This pattern is worth monitoring.",
+        "suggestions": [
+          "Practice emotion labeling — try to name your feelings several times throughout the day",
+          "Keep an emotion journal to track patterns in how you experience and express feelings",
+          "Explore body-based awareness practices like yoga or progressive muscle relaxation to connect physical sensations with emotions",
+          "Consider psychoeducation about emotions through books or workshops"
+        ]
+      },
+      {
+        "min": 61,
+        "max": 100,
+        "level": "alexithymia",
+        "label": "Alexithymia",
+        "description": "Your score suggests significant difficulty identifying, describing, and processing emotions. Alexithymia can affect relationships, physical health, and psychological well-being. It is associated with higher rates of depression, anxiety, and somatic complaints, and may benefit from professional support.",
+        "suggestions": [
+          "Consider seeking professional help — therapies such as mentalization-based therapy or emotion-focused therapy can help develop emotional awareness",
+          "Practice structured emotion identification exercises using emotion wheels or feeling charts",
+          "Explore body-awareness practices to develop connections between physical sensations and emotional states",
+          "Engage in creative expression (art, music, writing) as alternative channels for emotional processing",
+          "Build a support system of trusted people who can help you recognize and process emotional experiences"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "difficulty_identifying": [
+        {
+          "min": 7,
+          "max": 16,
+          "level": "low",
+          "label": "Low",
+          "description": "You show good ability to identify your emotions and distinguish them from physical sensations. This skill supports effective emotional regulation and helps you respond appropriately to your emotional needs."
+        },
+        {
+          "min": 17,
+          "max": 25,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You show some difficulty recognizing and identifying your emotions. You may sometimes confuse emotional arousal with physical symptoms, or feel unsure about what emotion you are experiencing."
+        },
+        {
+          "min": 26,
+          "max": 35,
+          "level": "high",
+          "label": "High",
+          "description": "You have significant difficulty identifying your emotions. This can lead to confusion about internal states, difficulty knowing what you need, and may manifest as unexplained physical complaints. Emotion identification training may be beneficial."
+        }
+      ],
+      "difficulty_describing": [
+        {
+          "min": 5,
+          "max": 11,
+          "level": "low",
+          "label": "Low",
+          "description": "You can effectively describe your feelings to others. This skill supports clear emotional communication, helps others understand your needs, and facilitates emotional processing through verbalization."
+        },
+        {
+          "min": 12,
+          "max": 18,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You show some difficulty putting your emotions into words. This may lead to miscommunication in relationships or a sense that others don’t fully understand your experiences. Expanding your emotional vocabulary can help."
+        },
+        {
+          "min": 19,
+          "max": 25,
+          "level": "high",
+          "label": "High",
+          "description": "You find it quite difficult to describe your emotional experiences to others. This can create barriers in relationships and limit the benefits of social support. Working with a therapist on emotional expression skills is recommended."
+        }
+      ],
+      "externally_oriented": [
+        {
+          "min": 8,
+          "max": 18,
+          "level": "low",
+          "label": "Low",
+          "description": "You show good orientation toward inner emotional life rather than exclusively focusing on external events. This introspective capacity supports self-reflection, emotional depth, and psychological insight."
+        },
+        {
+          "min": 19,
+          "max": 29,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You show a moderate tendency to focus on external events rather than inner emotional experiences. While practical thinking has its merits, balancing it with emotional reflection can enhance self-understanding."
+        },
+        {
+          "min": 30,
+          "max": 40,
+          "level": "high",
+          "label": "High",
+          "description": "You strongly prefer focusing on external events and practical details rather than internal emotional experiences. This externally oriented thinking style can limit emotional self-awareness and make psychological processing more difficult."
+        }
+      ]
+    }
+  },
+  "dar-5": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your anger reactions are within the normal range. You manage frustration and anger effectively, without significant impairment in your daily functioning or relationships. Maintaining healthy anger management skills is beneficial for long-term well-being.",
+        "suggestions": [
+          "Continue using effective anger management strategies",
+          "Practice stress reduction techniques to prevent anger buildup",
+          "Maintain open communication in your relationships about frustrations"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 8,
+        "level": "mild",
+        "label": "Mild",
+        "description": "You experience mildly elevated anger reactions. While not severely problematic, you may notice occasional difficulty controlling anger intensity or duration. Learning additional anger management techniques can help prevent escalation.",
+        "suggestions": [
+          "Practice the ‘pause and breathe’ technique — take slow deep breaths before responding when angry",
+          "Identify your anger triggers and develop specific coping plans for each",
+          "Use physical activity as a healthy outlet for frustration and tension",
+          "Try cognitive reappraisal — reframe situations to reduce anger intensity"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 13,
+        "level": "moderate",
+        "label": "Moderate",
+        "description": "Your anger reactions are moderately elevated, suggesting notable difficulty with anger intensity, duration, or expression. This level of anger may be affecting your relationships, work performance, or physical health through chronic stress activation.",
+        "suggestions": [
+          "Consider anger management counseling or a structured anger management program",
+          "Practice progressive muscle relaxation to reduce physiological arousal associated with anger",
+          "Keep an anger diary to identify patterns, triggers, and early warning signs",
+          "Learn assertive communication skills to express needs without aggression",
+          "Explore whether underlying issues like stress, depression, or past trauma contribute to anger"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 20,
+        "level": "severe",
+        "label": "Severe",
+        "description": "Your anger reactions are significantly elevated, indicating serious difficulty managing anger that is likely impacting your relationships, work, and overall quality of life. Professional intervention is strongly recommended to develop healthier anger regulation strategies.",
+        "suggestions": [
+          "Seek professional help from a therapist specializing in anger management or emotion regulation",
+          "Consider cognitive-behavioral therapy (CBT) which has strong evidence for treating anger problems",
+          "Develop a safety plan for managing intense anger episodes, including removing yourself from triggering situations",
+          "Explore whether medication consultation may be helpful, particularly if anger co-occurs with depression or anxiety"
+        ]
+      }
+    ]
+  }
+}

@@ -185,10 +185,11 @@
         "max": 9,
         "level": "minimal",
         "label": "Normal Range",
-        "description": "Your eating attitudes are within the normal range with no abnormal eating behavior patterns.",
+        "description": "Your eating attitudes are within the normal range, with no significant concerns about disordered eating patterns. You appear to have a generally healthy relationship with food and your body, without excessive preoccupation with weight or dieting.",
         "suggestions": [
-          "Continue maintaining healthy eating habits",
-          "Focus on nutritional balance rather than weight numbers"
+          "Continue maintaining balanced and flexible eating habits that nourish both your body and your enjoyment of food",
+          "Focus on overall nutritional well-being and physical activity rather than strict calorie counting or weight numbers",
+          "Be aware that eating attitudes can change during stressful periods; stay mindful of your relationship with food"
         ]
       },
       {
@@ -196,11 +197,12 @@
         "max": 19,
         "level": "mild",
         "label": "Mild Concern",
-        "description": "You show some concern about eating and weight, but not yet at a clinical level.",
+        "description": "You show some elevated concern about eating, weight, or body image, though your score does not yet reach the clinical threshold. These attitudes may reflect common societal pressures around appearance, but monitoring for escalation is advisable.",
         "suggestions": [
-          "Be careful not to overly restrict your diet",
-          "Cultivate a healthy relationship with food",
-          "If eating concerns affect quality of life, consider consulting a professional"
+          "Be mindful of overly restrictive dieting behaviors that could develop into unhealthy patterns over time",
+          "Cultivate a healthy and flexible relationship with food by focusing on nourishment rather than restriction",
+          "If eating concerns are affecting your quality of life, mood, or social activities, consider consulting a professional",
+          "Challenge unrealistic body image standards promoted by media and social platforms"
         ]
       },
       {
@@ -208,12 +210,13 @@
         "max": 39,
         "level": "moderate",
         "label": "Further Evaluation Recommended",
-        "description": "Your score reaches the clinical concern level and may indicate eating disorder risk. Professional evaluation is recommended.",
+        "description": "Your score reaches the clinical concern threshold of 20 or above, indicating possible eating disorder risk. This does not confirm a diagnosis but strongly suggests that professional evaluation by an eating disorder specialist is warranted.",
         "suggestions": [
-          "Strongly recommended to consult an eating disorder specialist",
-          "This score suggests possible eating disorder risk",
-          "Watch for extreme dieting or exercise behaviors",
-          "Monitor physical health indicators"
+          "Consulting an eating disorder specialist or mental health professional for a comprehensive evaluation is strongly recommended",
+          "A score of 20 or above on the EAT-26 indicates possible eating disorder risk that should be taken seriously",
+          "Watch for behaviors such as extreme dietary restriction, binge eating, purging, or compulsive exercise",
+          "Monitor your physical health indicators including weight stability, menstrual regularity, and energy levels",
+          "Share your concerns with a trusted person who can support you through the evaluation process"
         ]
       },
       {
@@ -221,12 +224,13 @@
         "max": 78,
         "level": "severe",
         "label": "High Concern",
-        "description": "Your score is very high, strongly suggesting eating disorder-related attitudes and behaviors. Please seek professional help promptly.",
+        "description": "Your score is very high, strongly suggesting eating disorder-related attitudes and behaviors significantly affecting your health. Eating disorders are serious medical conditions, but they are treatable with proper professional care and support.",
         "suggestions": [
-          "Please seek eating disorder treatment immediately",
-          "Eating disorders are serious but treatable conditions",
-          "Do not face this alone; inform family or friends",
-          "Monitor physical health; avoid extreme dietary restriction or compensatory behaviors"
+          "Please seek evaluation and treatment from an eating disorder specialist as soon as possible",
+          "Eating disorders are serious but highly treatable conditions; recovery is achievable with appropriate professional support",
+          "Do not face this alone; inform a trusted family member or friend who can provide support and accountability",
+          "Monitor your physical health closely and avoid extreme dietary restriction, purging, or other compensatory behaviors",
+          "If you are in medical distress due to eating behaviors, seek emergency medical care immediately"
         ]
       }
     ],
@@ -240,5 +244,9 @@
       "min": 0,
       "max": 78
     }
+  },
+  "crisisConfig": {
+    "type": "level",
+    "levelThreshold": "severe"
   }
 }

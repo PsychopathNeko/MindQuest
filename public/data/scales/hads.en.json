@@ -377,10 +377,10 @@
         "max": 14,
         "level": "normal",
         "label": "Normal",
-        "description": "Your combined anxiety and depression scores are within the normal range.",
+        "description": "Your combined anxiety and depression scores are within the normal range, suggesting no significant emotional distress. Review your individual subscale scores below for a more specific picture of your anxiety and depression levels.",
         "suggestions": [
-          "Continue maintaining good mental health",
-          "Keep up healthy habits and coping strategies"
+          "Continue maintaining healthy lifestyle habits",
+          "Review individual subscale scores for more detail"
         ]
       },
       {
@@ -388,21 +388,24 @@
         "max": 21,
         "level": "borderline",
         "label": "Borderline",
-        "description": "Your combined score suggests some level of emotional distress that may warrant monitoring.",
+        "description": "Your combined score suggests some emotional distress that may warrant monitoring. Review your anxiety and depression subscale scores to identify which area contributes more to your overall score, as targeted intervention is more effective.",
         "suggestions": [
-          "Review the individual subscale scores for anxiety and depression",
-          "Consider consulting a healthcare provider if symptoms persist"
+          "Review subscale scores to identify the primary area of concern",
+          "Monitor your symptoms over the coming weeks",
+          "Practice stress management and self-care activities",
+          "Consider consulting a healthcare professional if symptoms persist"
         ]
       },
       {
         "min": 22,
         "max": 42,
         "level": "abnormal",
-        "label": "Abnormal",
-        "description": "Your combined score indicates significant emotional distress. Professional evaluation is recommended.",
+        "label": "Significant Distress",
+        "description": "Your combined score indicates significant emotional distress in anxiety and/or depression. At this level, professional evaluation is recommended. The HADS is widely used in medical settings and elevated scores may reflect psychological responses to health conditions as well as standalone mental health concerns.",
         "suggestions": [
-          "Seek professional help from a healthcare provider",
-          "Review subscale scores to identify whether anxiety, depression, or both are elevated"
+          "Consult your healthcare provider for evaluation and appropriate referral",
+          "Review your subscale scores to understand whether anxiety, depression, or both are contributing",
+          "Evidence-based treatments are effective for both hospital-related and general anxiety and depression"
         ]
       }
     ],
@@ -413,21 +416,21 @@
           "max": 7,
           "level": "normal",
           "label": "Normal",
-          "description": "Anxiety subscale score is within the normal range."
+          "description": "Your anxiety subscale score is within the normal range. You do not appear to be experiencing clinically significant anxiety symptoms in the context of your health or daily life."
         },
         {
           "min": 8,
           "max": 10,
           "level": "borderline",
-          "label": "Borderline Abnormal",
-          "description": "Borderline anxiety level. Monitoring is recommended."
+          "label": "Borderline",
+          "description": "Your anxiety score is in the borderline range, suggesting some anxiety symptoms that warrant monitoring. You may be experiencing worry, tension, or restlessness that is noticeable but not yet severely impairing. Further assessment may be helpful."
         },
         {
           "min": 11,
           "max": 21,
           "level": "abnormal",
-          "label": "Abnormal",
-          "description": "Clinically significant anxiety symptoms. Professional evaluation is recommended."
+          "label": "Clinical Anxiety",
+          "description": "Your anxiety subscale score is in the clinical range, indicating significant anxiety symptoms. You may be experiencing persistent worry, panic, tension, or fear that is interfering with your daily functioning. Professional evaluation and treatment are recommended."
         }
       ],
       "depression": [
@@ -436,21 +439,21 @@
           "max": 7,
           "level": "normal",
           "label": "Normal",
-          "description": "Depression subscale score is within the normal range."
+          "description": "Your depression subscale score is within the normal range. You do not appear to be experiencing significant depressive symptoms such as loss of interest, reduced pleasure, or persistent low mood."
         },
         {
           "min": 8,
           "max": 10,
           "level": "borderline",
-          "label": "Borderline Abnormal",
-          "description": "Borderline depression level. Monitoring is recommended."
+          "label": "Borderline",
+          "description": "Your depression score is in the borderline range, suggesting some depressive symptoms that warrant monitoring. You may notice reduced enjoyment of activities, slowed thinking, or a general sense of not feeling yourself. Follow-up assessment may be beneficial."
         },
         {
           "min": 11,
           "max": 21,
           "level": "abnormal",
-          "label": "Abnormal",
-          "description": "Clinically significant depressive symptoms. Professional evaluation is recommended."
+          "label": "Clinical Depression",
+          "description": "Your depression subscale score is in the clinical range, indicating significant depressive symptoms. You may be experiencing loss of interest in activities, persistent low mood, or feelings of hopelessness. Professional evaluation and treatment are recommended."
         }
       ]
     }

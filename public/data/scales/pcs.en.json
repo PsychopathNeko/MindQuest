@@ -147,10 +147,11 @@
         "max": 13,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your pain catastrophizing level is low. You cope well with pain experiences.",
+        "description": "Your pain catastrophizing score is low, indicating that you generally cope well with pain experiences without excessive worry, rumination, or feelings of helplessness. You are able to maintain perspective about pain and its likely outcomes.",
         "suggestions": [
-          "Continue maintaining positive pain coping strategies",
-          "Seek appropriate pain management when needed"
+          "Continue maintaining your effective and balanced approach to coping with pain experiences when they arise",
+          "Seek appropriate medical care for pain management when needed, while maintaining confidence in your ability to handle discomfort",
+          "Your healthy pain coping style is a protective factor; staying physically active and engaged in life helps sustain this resilience"
         ]
       },
       {
@@ -158,12 +159,12 @@
         "max": 26,
         "level": "mild",
         "label": "Mild Catastrophizing",
-        "description": "You have some degree of pain catastrophizing and may occasionally exaggerate the threat of pain.",
+        "description": "You show some tendency toward pain catastrophizing, occasionally exaggerating the threat of pain or feeling unable to cope. While not severe, these patterns can amplify pain perception and may interfere with effective pain management strategies.",
         "suggestions": [
-          "Learn pain management and coping skills",
-          "Practice relaxation and mindfulness techniques",
-          "Maintain moderate physical activity",
-          "Consult a pain management specialist if needed"
+          "Learn evidence-based pain management skills such as pacing activities, relaxation techniques, and cognitive coping strategies",
+          "Practice mindfulness meditation, which has strong research support for reducing pain catastrophizing and improving pain tolerance",
+          "Maintain regular moderate physical activity, as movement is one of the most effective strategies for managing pain and preventing deconditioning",
+          "If pain is persistent or worsening, consult a pain management specialist who can offer a comprehensive multimodal treatment approach"
         ]
       },
       {
@@ -171,12 +172,13 @@
         "max": 39,
         "level": "moderate",
         "label": "Moderate Catastrophizing",
-        "description": "Your pain catastrophizing level is elevated. This may increase the risk of chronic pain and affect recovery.",
+        "description": "Your pain catastrophizing is moderately elevated, suggesting that you frequently ruminate about pain, magnify its threat, or feel helpless when experiencing it. This pattern is clinically significant and associated with increased chronic pain risk and slower recovery.",
         "suggestions": [
-          "Consider seeking professional pain management help",
-          "Cognitive-behavioral therapy can effectively reduce catastrophizing",
-          "Learn to distinguish pain sensations from thoughts about pain",
-          "Discuss comprehensive pain management with your healthcare team"
+          "Consulting a pain psychologist or mental health professional with expertise in chronic pain management is recommended at this level",
+          "Cognitive-behavioral therapy for pain has strong evidence for reducing catastrophizing, improving coping, and decreasing pain-related disability",
+          "Practice separating the physical sensation of pain from your thoughts and emotional reactions about it, as these are distinct processes",
+          "Discuss a comprehensive pain management plan with your healthcare team that addresses both physical and psychological components of pain",
+          "Gradually increase engagement in valued activities despite pain, as avoidance often worsens both catastrophizing and functional disability"
         ]
       },
       {
@@ -184,12 +186,12 @@
         "max": 52,
         "level": "severe",
         "label": "Severe Catastrophizing",
-        "description": "Your pain catastrophizing level is very high. This may significantly affect your pain experience and daily functioning.",
+        "description": "Your pain catastrophizing score is very high, indicating intense and persistent rumination, magnification, and helplessness related to pain. This level significantly amplifies pain perception and is strongly associated with disability, depression, and poor treatment outcomes.",
         "suggestions": [
-          "Strongly recommended to seek help from a pain psychologist",
-          "Comprehensive pain management (medication + psychological + physical therapy) may be most effective",
-          "Avoid excessive focus and rumination about pain",
-          "Build a social support network"
+          "Seeking help from a pain psychologist or multidisciplinary pain clinic is strongly recommended, as catastrophizing at this level requires professional intervention",
+          "A comprehensive treatment approach combining psychological therapy, medical management, and physical rehabilitation is likely to be most effective",
+          "Avoid the cycle of excessive pain monitoring and rumination by scheduling structured activities and focusing attention on engaging tasks",
+          "Build and lean on a social support network, as isolation tends to worsen catastrophizing and pain-related suffering"
         ]
       }
     ],
@@ -200,28 +202,28 @@
           "max": 6,
           "level": "minimal",
           "label": "Low",
-          "description": "Low helplessness score."
+          "description": "Your helplessness score is low, indicating that you generally feel capable of coping with pain and do not perceive it as an overwhelming or uncontrollable experience. You maintain a sense of agency when dealing with pain."
         },
         {
           "min": 7,
           "max": 12,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some helplessness present."
+          "description": "You show some feelings of helplessness regarding pain, occasionally feeling that you cannot go on or that pain will never improve. These thoughts are present but do not yet dominate your pain experience."
         },
         {
           "min": 13,
           "max": 18,
           "level": "moderate",
           "label": "High",
-          "description": "High helplessness. Consider learning active coping strategies."
+          "description": "Your helplessness score is elevated, suggesting frequent feelings that pain is unbearable and beyond your ability to cope. Learning active coping strategies and challenging helpless thinking patterns can meaningfully reduce this distress."
         },
         {
           "min": 19,
           "max": 24,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high helplessness. Consider seeking professional help."
+          "description": "Your helplessness is very high, indicating a pervasive sense that pain is overwhelming and uncontrollable. This level of helplessness strongly predicts poor pain outcomes and warrants professional psychological intervention."
         }
       ],
       "magnification": [
@@ -230,28 +232,28 @@
           "max": 3,
           "level": "minimal",
           "label": "Low",
-          "description": "Low magnification score."
+          "description": "Your magnification score is low, suggesting that you do not tend to exaggerate the seriousness or threat of pain. You are able to maintain a realistic perspective on pain sensations without catastrophic amplification."
         },
         {
           "min": 4,
           "max": 6,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some magnification tendency."
+          "description": "You show some tendency to magnify the threat of pain, occasionally worrying that something serious may happen or that pain will worsen. This moderate amplification can increase anxiety around pain episodes."
         },
         {
           "min": 7,
           "max": 9,
           "level": "moderate",
           "label": "High",
-          "description": "High magnification tendency."
+          "description": "Your magnification score is elevated, indicating a strong tendency to amplify pain sensations and expect the worst possible outcomes. This pattern heightens fear and anxiety, which in turn can increase actual pain perception."
         },
         {
           "min": 10,
           "max": 12,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high magnification tendency."
+          "description": "Your magnification is very high, reflecting an intense tendency to perceive pain as extremely threatening and expect catastrophic consequences. This amplification cycle significantly worsens the overall pain experience."
         }
       ],
       "rumination": [
@@ -260,28 +262,28 @@
           "max": 4,
           "level": "minimal",
           "label": "Low",
-          "description": "Low rumination score."
+          "description": "Your rumination score is low, indicating that you are generally able to redirect your attention away from pain rather than dwelling on it. You do not become mentally preoccupied with pain sensations or their implications."
         },
         {
           "min": 5,
           "max": 8,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some rumination present."
+          "description": "You show some tendency toward pain rumination, occasionally finding it difficult to stop thinking about pain or wanting it to go away. These repetitive thoughts are present but do not fully consume your attention."
         },
         {
           "min": 9,
           "max": 12,
           "level": "moderate",
           "label": "High",
-          "description": "High rumination."
+          "description": "Your rumination score is elevated, suggesting that you frequently cannot stop thinking about pain, how much it hurts, or how much you want it to stop. This mental preoccupation intensifies suffering beyond the physical sensation itself."
         },
         {
           "min": 13,
           "max": 16,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high rumination."
+          "description": "Your rumination is very high, indicating persistent and intrusive preoccupation with pain that dominates your mental life. This intense cognitive fixation on pain significantly amplifies distress and impairs your ability to function."
         }
       ]
     }

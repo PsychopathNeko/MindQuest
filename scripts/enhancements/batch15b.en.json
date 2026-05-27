@@ -1,0 +1,276 @@
+{
+  "djgls": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 12,
+        "level": "minimal",
+        "label": "Low Loneliness",
+        "description": "Your loneliness level is low, indicating healthy emotional bonds and adequate social connections. You feel supported by those around you and experience a sense of belonging in your relationships.",
+        "suggestions": [
+          "Continue nurturing your existing friendships and family connections through regular meaningful interactions",
+          "Maintain your current social engagement habits that contribute to your emotional well-being",
+          "Consider offering support to others who may be experiencing loneliness, as helping strengthens bonds"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 18,
+        "level": "mild",
+        "label": "Moderate Loneliness",
+        "description": "You are experiencing moderate loneliness, suggesting some gaps in either emotional intimacy or social contact. While you may have some connections, certain relational needs may not be fully met at this time.",
+        "suggestions": [
+          "Reach out proactively to friends or family members you have not spoken with recently to rebuild connections",
+          "Consider joining community groups, clubs, or classes aligned with your interests to expand your social network",
+          "Practice openly expressing your emotional needs to people you trust rather than keeping feelings to yourself",
+          "If loneliness persists despite your efforts, consider talking to a counselor about strategies for deeper connection"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "moderate",
+        "label": "High Loneliness",
+        "description": "Your loneliness level is high, indicating significant deficits in both emotional closeness and social integration. This degree of loneliness may be negatively affecting your mood, sleep, and overall quality of life.",
+        "suggestions": [
+          "Actively expand your social network by participating in community events, volunteer work, or group activities",
+          "Seek opportunities for meaningful one-on-one conversations rather than relying solely on surface-level interactions",
+          "Consider joining a peer support group where you can share experiences and build connections with others",
+          "Consult a mental health professional to explore underlying patterns that may contribute to feelings of isolation",
+          "Monitor whether your loneliness is accompanied by symptoms of depression or anxiety that may need attention"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "level": "severe",
+        "label": "Severe Loneliness",
+        "description": "Your loneliness is severe, suggesting profound emotional and social isolation that may be significantly impairing your mental health and daily functioning. Professional support is strongly recommended.",
+        "suggestions": [
+          "Seek professional support from a therapist or counselor experienced in addressing social isolation and loneliness",
+          "Make a deliberate effort to interact with at least one person each day, even through brief conversations",
+          "Consider psychotherapy to identify and modify relational patterns that may be maintaining your isolation",
+          "Monitor closely for co-occurring depression or anxiety symptoms and report them to a healthcare provider"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "cfs": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 10,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your fatigue levels are within the normal range, with no clinically significant physical or mental fatigue detected. Your energy levels appear adequate for managing daily activities and responsibilities effectively.",
+        "suggestions": [
+          "Continue maintaining good sleep hygiene with a consistent sleep schedule of seven to nine hours per night",
+          "Keep up regular physical activity and a balanced diet to sustain your current energy levels",
+          "Monitor your energy levels over time and take note of any changes in fatigue patterns"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 16,
+        "level": "mild",
+        "label": "Mild Fatigue",
+        "description": "You are experiencing mild fatigue that may slightly affect your daily functioning and productivity. Both physical stamina and mental sharpness may be somewhat reduced compared to your usual baseline.",
+        "suggestions": [
+          "Ensure you are consistently getting adequate sleep of seven to nine hours each night with a regular bedtime routine",
+          "Review your daily schedule to identify opportunities for short rest breaks that can help restore energy",
+          "Incorporate light to moderate exercise such as walking or stretching to naturally boost your energy levels",
+          "If fatigue persists for more than two weeks, consult a healthcare provider to rule out underlying medical causes"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 24,
+        "level": "moderate",
+        "label": "Moderate Fatigue",
+        "description": "You are experiencing moderate fatigue that is likely affecting your work performance, social activities, and overall quality of life. Both physical endurance and cognitive functioning may be noticeably compromised.",
+        "suggestions": [
+          "Consult a healthcare provider to investigate potential medical causes such as thyroid dysfunction, anemia, or sleep disorders",
+          "Implement energy management and pacing strategies by alternating periods of activity with scheduled rest throughout the day",
+          "Prioritize essential tasks and delegate or postpone less critical responsibilities to conserve your limited energy",
+          "Review all current medications and lifestyle factors with your doctor to identify contributors to your fatigue",
+          "Consider keeping a fatigue diary to track patterns and identify triggers that worsen your symptoms"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 33,
+        "level": "severe",
+        "label": "Severe Fatigue",
+        "description": "You are experiencing severe fatigue that is likely significantly impairing your daily functioning, work capacity, and quality of life. This level of exhaustion warrants prompt medical evaluation.",
+        "suggestions": [
+          "Seek medical evaluation promptly to identify and address any underlying physical or psychological causes of your fatigue",
+          "Discuss comprehensive treatment options with your healthcare provider, including medication review and sleep assessment",
+          "Practice strict energy conservation and pacing to prevent post-exertional worsening of your symptoms",
+          "Consider psychological support if your fatigue is linked to chronic stress, mood disorders, or burnout"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "physical": [
+        {
+          "min": 0,
+          "max": 5,
+          "level": "minimal",
+          "label": "Normal Physical Fatigue",
+          "description": "Your physical fatigue is within the normal range. Your body energy reserves and physical stamina appear adequate for daily demands."
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "mild",
+          "label": "Mild Physical Fatigue",
+          "description": "You are experiencing mild physical fatigue. Tiredness, muscle weakness, or reduced stamina may be present but remain manageable with adequate rest."
+        },
+        {
+          "min": 11,
+          "max": 16,
+          "level": "moderate",
+          "label": "Moderate Physical Fatigue",
+          "description": "You are experiencing notable physical fatigue that may be limiting your physical activities and endurance. Consider consulting a healthcare provider."
+        },
+        {
+          "min": 17,
+          "max": 21,
+          "level": "severe",
+          "label": "Severe Physical Fatigue",
+          "description": "You are experiencing severe physical fatigue that significantly limits your physical functioning. Medical evaluation is recommended to identify causes."
+        }
+      ],
+      "mental": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "minimal",
+          "label": "Normal Mental Fatigue",
+          "description": "Your mental fatigue is within the normal range. Your concentration, memory, and cognitive clarity appear to be functioning well."
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "level": "mild",
+          "label": "Mild Mental Fatigue",
+          "description": "You are experiencing mild mental fatigue. Occasional difficulty with concentration or word-finding may occur but does not significantly impair functioning."
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "moderate",
+          "label": "Moderate Mental Fatigue",
+          "description": "You are experiencing notable mental fatigue that may be affecting your concentration, memory, and ability to think clearly during daily tasks."
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "severe",
+          "label": "Severe Mental Fatigue",
+          "description": "You are experiencing severe mental fatigue with significant cognitive impairment. Professional evaluation is recommended to address these symptoms."
+        }
+      ]
+    }
+  },
+  "cd-risc-2": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "severe",
+        "label": "Low Resilience",
+        "description": "Your resilience level is low, suggesting significant difficulty adapting to change and recovering from adversity. You may feel overwhelmed by challenges that others seem to handle more easily.",
+        "suggestions": [
+          "Seek social support from trusted friends, family, or community members rather than facing difficulties alone",
+          "Learn and practice specific techniques for adapting to change, such as problem-solving and cognitive reframing",
+          "Consider working with a mental health professional to develop and strengthen your resilience skills",
+          "Start with small, manageable challenges and gradually build your confidence in coping with adversity"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "moderate",
+        "label": "Moderate Resilience",
+        "description": "Your resilience is at a moderate level, indicating that you can cope with some stressors reasonably well but may struggle when facing more significant challenges or multiple pressures simultaneously.",
+        "suggestions": [
+          "Continue developing your coping skills through deliberate practice and reflection on past successes",
+          "Maintain and strengthen your positive social network as it serves as a crucial buffer against stress",
+          "Build resilience through regular exercise, healthy sleep habits, and consistent self-care routines",
+          "Practice positive self-talk and cognitive reframing to shift your perspective on challenging situations",
+          "Set realistic goals and celebrate small achievements to build confidence in your ability to overcome obstacles"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "level": "minimal",
+        "label": "High Resilience",
+        "description": "You demonstrate high resilience, indicating a strong ability to adapt to change, recover from setbacks, and maintain psychological well-being even during stressful periods. This is a valuable personal strength.",
+        "suggestions": [
+          "Continue maintaining your strong adaptability and coping strategies that have served you well",
+          "Consider mentoring or supporting others who are struggling, as your resilience can inspire those around you",
+          "While helping others, remember to attend to your own self-care and recognize your own limits"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "grit-s": {
+    "ranges": [
+      {
+        "min": 8,
+        "max": 16,
+        "level": "severe",
+        "label": "Low Grit",
+        "description": "Your grit score is low, suggesting substantial difficulty sustaining effort and interest toward long-term goals. You may frequently shift between projects or lose motivation when progress feels slow.",
+        "suggestions": [
+          "Begin by setting smaller, clearly defined goals that can serve as achievable stepping stones toward larger objectives",
+          "Practice committing to one project or goal at a time before taking on additional pursuits",
+          "Spend time reflecting on what truly matters to you in the long term to identify goals worth persevering toward",
+          "Consider working with a coach or mentor who can provide accountability and guidance on maintaining focus"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 24,
+        "level": "mild",
+        "label": "Below Average Grit",
+        "description": "Your grit is below average, indicating that you may sometimes struggle to maintain consistent focus on long-term goals. Interest in new pursuits may occasionally divert attention from existing commitments.",
+        "suggestions": [
+          "Identify your core passions and align your goals with activities that genuinely inspire sustained interest",
+          "Build daily habits and routines that support consistency, such as dedicated work blocks and progress tracking",
+          "Track your progress visually using journals or apps to maintain motivation and recognize incremental gains",
+          "Learn to view setbacks as valuable learning opportunities rather than reasons to abandon your goals"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 32,
+        "level": "normal",
+        "label": "Above Average Grit",
+        "description": "Your grit is above average, indicating that you generally maintain sustained effort and interest in your long-term goals. You demonstrate a healthy balance between persistence and adaptability in pursuing objectives.",
+        "suggestions": [
+          "Continue cultivating your perseverance by setting progressively more challenging goals for yourself",
+          "Share your strategies for persistence and follow-through with peers or colleagues who may benefit from them",
+          "Challenge yourself with increasingly ambitious long-term projects that stretch your capabilities"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 40,
+        "level": "minimal",
+        "label": "High Grit",
+        "description": "Your grit score is high, demonstrating exceptional perseverance and sustained passion for your long-term goals. You consistently follow through on commitments and maintain focus even when facing significant obstacles.",
+        "suggestions": [
+          "Continue your excellent persistence habits while remaining mindful of opportunities to rest and recharge",
+          "Ensure you also allow appropriate flexibility when circumstances require adjusting your goals or strategies",
+          "Use your grit as a strength to inspire and motivate others in collaborative and leadership settings"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  }
+}

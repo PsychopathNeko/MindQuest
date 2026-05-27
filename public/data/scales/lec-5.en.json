@@ -120,10 +120,11 @@
         "max": 0,
         "level": "minimal",
         "label": "No Trauma Exposure",
-        "description": "You did not report experiencing any potentially traumatic events.",
+        "description": "You did not report experiencing any of the 17 potentially traumatic events listed. This screening result is favorable, though it does not assess all possible life stressors. If you have other concerns, professional support remains available.",
         "suggestions": [
-          "This is a good result",
-          "If you have other mental health concerns, professional help is still available"
+          "Continue maintaining your current well-being and coping strategies",
+          "Stay informed about healthy stress management techniques for the future",
+          "If you have other mental health concerns not covered by this checklist, professional help is still available"
         ]
       },
       {
@@ -131,11 +132,12 @@
         "max": 3,
         "level": "mild",
         "label": "Low Trauma Exposure",
-        "description": "You have experienced a small number of potentially traumatic events.",
+        "description": "You reported exposure to a small number of potentially traumatic events. Even limited trauma exposure can sometimes lead to lasting psychological effects. Monitoring your well-being and seeking help if distressing symptoms arise is advisable.",
         "suggestions": [
-          "If these events still bother you, consider speaking with a professional",
-          "Monitor your mental health",
-          "Practice healthy coping strategies"
+          "Monitor yourself for trauma-related symptoms such as intrusive memories, avoidance, or hypervigilance",
+          "Practice healthy coping strategies including regular exercise, adequate sleep, and social connection",
+          "If these events continue to bother you or cause nightmares or flashbacks, consider speaking with a mental health professional",
+          "The PCL-5 (PTSD Checklist) can help assess whether you are experiencing post-traumatic stress symptoms"
         ]
       },
       {
@@ -143,11 +145,13 @@
         "max": 8,
         "level": "moderate",
         "label": "Moderate Trauma Exposure",
-        "description": "You have experienced several potentially traumatic events.",
+        "description": "You reported exposure to several potentially traumatic events. Multiple trauma exposures increase the risk of developing PTSD and other stress-related conditions. A follow-up mental health assessment is recommended to evaluate your well-being.",
         "suggestions": [
-          "Consider a further mental health assessment",
-          "If you have PTSD symptoms, consult a professional",
-          "Consider completing the PCL-5 to assess PTSD symptoms"
+          "Consider completing the PCL-5 to screen for PTSD symptoms related to your trauma exposure",
+          "A professional mental health assessment can help determine whether you would benefit from treatment",
+          "Trauma-focused therapies such as CPT or EMDR are effective evidence-based treatments if symptoms are present",
+          "Maintain supportive social connections, as social support is a strong protective factor after trauma",
+          "Avoid using alcohol or substances as a way to cope with distressing memories"
         ]
       },
       {
@@ -155,11 +159,13 @@
         "max": 17,
         "level": "severe",
         "label": "High Trauma Exposure",
-        "description": "You have experienced many potentially traumatic events. A detailed mental health evaluation is recommended.",
+        "description": "You reported exposure to many potentially traumatic events, indicating a high cumulative trauma burden. Cumulative trauma significantly increases the risk of PTSD, depression, and anxiety. A comprehensive mental health evaluation is recommended.",
         "suggestions": [
-          "A comprehensive mental health assessment is strongly recommended",
-          "Connect with a trauma-specialized therapist",
-          "If needed, contact a crisis helpline (e.g., 988 Suicide & Crisis Lifeline)"
+          "A comprehensive trauma-informed mental health assessment is strongly recommended as soon as possible",
+          "Connect with a therapist who specializes in trauma treatment, such as CPT, PE, or EMDR",
+          "If you are experiencing crisis-level distress, contact the 988 Suicide and Crisis Lifeline",
+          "Build and maintain a safety plan that includes trusted people and coping strategies",
+          "Remember that seeking help is a sign of strength, and effective treatments for trauma-related conditions are available"
         ]
       }
     ],

@@ -57,12 +57,12 @@
         "max": 2,
         "level": "severe",
         "label": "Low Resilience",
-        "description": "Your resilience level is low. You may find it quite difficult to cope with change and stress.",
+        "description": "Your resilience level is low, suggesting significant difficulty adapting to change and recovering from adversity. You may feel overwhelmed by challenges that others seem to handle more easily.",
         "suggestions": [
-          "Seek social support; do not face difficulties alone",
-          "Learn techniques and strategies for adapting to change",
-          "Consider professional help to strengthen resilience",
-          "Start with small challenges and gradually build coping ability"
+          "Seek social support from trusted friends, family, or community members rather than facing difficulties alone",
+          "Learn and practice specific techniques for adapting to change, such as problem-solving and cognitive reframing",
+          "Consider working with a mental health professional to develop and strengthen your resilience skills",
+          "Start with small, manageable challenges and gradually build your confidence in coping with adversity"
         ]
       },
       {
@@ -70,12 +70,13 @@
         "max": 5,
         "level": "moderate",
         "label": "Moderate Resilience",
-        "description": "Your resilience is at a moderate level. You can cope with stress and change reasonably well in some situations.",
+        "description": "Your resilience is at a moderate level, indicating that you can cope with some stressors reasonably well but may struggle when facing more significant challenges or multiple pressures simultaneously.",
         "suggestions": [
-          "Continue developing coping skills",
-          "Maintain a positive social network",
-          "Strengthen resilience through regular exercise and healthy habits",
-          "Practice positive self-talk and cognitive reframing"
+          "Continue developing your coping skills through deliberate practice and reflection on past successes",
+          "Maintain and strengthen your positive social network as it serves as a crucial buffer against stress",
+          "Build resilience through regular exercise, healthy sleep habits, and consistent self-care routines",
+          "Practice positive self-talk and cognitive reframing to shift your perspective on challenging situations",
+          "Set realistic goals and celebrate small achievements to build confidence in your ability to overcome obstacles"
         ]
       },
       {
@@ -83,11 +84,11 @@
         "max": 8,
         "level": "minimal",
         "label": "High Resilience",
-        "description": "You have high resilience and can effectively adapt to change and recover from stress.",
+        "description": "You demonstrate high resilience, indicating a strong ability to adapt to change, recover from setbacks, and maintain psychological well-being even during stressful periods. This is a valuable personal strength.",
         "suggestions": [
-          "Continue maintaining your strong adaptability",
-          "Your resilience qualities can help and encourage those around you",
-          "While helping others, also attend to your own self-care"
+          "Continue maintaining your strong adaptability and coping strategies that have served you well",
+          "Consider mentoring or supporting others who are struggling, as your resilience can inspire those around you",
+          "While helping others, remember to attend to your own self-care and recognize your own limits"
         ]
       }
     ],

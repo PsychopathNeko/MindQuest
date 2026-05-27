@@ -76,38 +76,39 @@
         "min": 6,
         "max": 13,
         "level": "minimal",
-        "label": "Low Distress",
-        "description": "Your score suggests low levels of psychological distress. You are likely functioning well.",
+        "label": "No or Low Distress",
+        "description": "Your score suggests minimal psychological distress. You appear to be functioning well emotionally, and your current coping strategies are effective for managing everyday stressors.",
         "suggestions": [
-          "Continue maintaining healthy habits and coping strategies",
-          "Stay connected with supportive people in your life",
-          "Practice regular self-care and stress prevention"
+          "Continue your current healthy habits and coping strategies",
+          "Maintain regular physical activity and social connections",
+          "Practice stress prevention techniques such as adequate sleep and relaxation"
         ]
       },
       {
         "min": 14,
         "max": 18,
         "level": "moderate",
-        "label": "Moderate Distress",
-        "description": "Your score indicates moderate psychological distress. You may benefit from additional support.",
+        "label": "Moderate Psychological Distress",
+        "description": "Your score indicates moderate psychological distress that may be affecting your daily comfort and functioning. You may be experiencing symptoms such as nervousness, hopelessness, restlessness, or fatigue that interfere with your usual activities.",
         "suggestions": [
-          "Consider speaking with a healthcare professional about your emotional well-being",
-          "Practice stress management techniques such as mindfulness or exercise",
-          "Maintain regular sleep and daily routines",
-          "Reach out to trusted friends or family for support"
+          "Pay attention to patterns in your emotional state and identify potential triggers",
+          "Practice evidence-based stress reduction techniques such as mindfulness meditation or deep breathing",
+          "Maintain social connections and consider talking to someone you trust about your feelings",
+          "Consider consulting a mental health professional for evaluation and support"
         ]
       },
       {
         "min": 19,
         "max": 30,
         "level": "severe",
-        "label": "Severe Distress",
-        "description": "Your score indicates severe psychological distress, which may suggest serious mental illness. Professional evaluation is strongly recommended.",
+        "label": "Severe Psychological Distress",
+        "description": "Your score indicates severe psychological distress that is likely significantly impairing your daily functioning. This level of distress is associated with a high probability of having a diagnosable mental health condition and warrants professional attention.",
         "suggestions": [
-          "Please seek help from a mental health professional as soon as possible",
-          "If you are in crisis, contact a crisis helpline (e.g., 988 Suicide & Crisis Lifeline)",
-          "Talk to someone you trust about how you are feeling",
-          "Follow through with professional treatment and support"
+          "Seek consultation with a mental health professional as soon as possible",
+          "If you are in crisis or having thoughts of self-harm, contact a crisis helpline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "Reach out to trusted family members or friends for support",
+          "Professional treatment including therapy and/or medication can be very effective",
+          "Focus on basic self-care while seeking help: adequate sleep, nutrition, and gentle activity"
         ]
       }
     ],
@@ -121,5 +122,9 @@
       "min": 6,
       "max": 30
     }
+  },
+  "crisisConfig": {
+    "type": "level",
+    "levelThreshold": "severe"
   }
 }

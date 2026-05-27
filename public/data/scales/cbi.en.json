@@ -187,10 +187,11 @@
         "max": 25,
         "level": "minimal",
         "label": "Low Burnout",
-        "description": "Your overall burnout level is low.",
+        "description": "Your overall burnout score is low, suggesting you are managing your work and personal demands effectively. You do not appear to be experiencing significant physical or emotional exhaustion related to your daily activities.",
         "suggestions": [
-          "Maintain your current work-life balance",
-          "Continue healthy coping strategies"
+          "Continue maintaining a healthy work-life balance",
+          "Keep up strategies that help you manage stress and recharge",
+          "Be aware of early signs of burnout to maintain your current well-being"
         ]
       },
       {
@@ -198,10 +199,12 @@
         "max": 50,
         "level": "mild",
         "label": "Moderate Burnout",
-        "description": "You are showing signs of moderate burnout.",
+        "description": "Your overall burnout score suggests moderate levels of burnout. You may be experiencing some physical or emotional exhaustion that is affecting your energy, motivation, or satisfaction. Review your subscale scores to identify whether the primary source is personal, work-related, or client-related.",
         "suggestions": [
-          "Identify the main sources of burnout",
-          "Set boundaries between work and personal life"
+          "Review your subscale scores to identify the primary source of burnout",
+          "Evaluate your current workload and set boundaries where possible",
+          "Prioritize self-care activities including rest, exercise, and social connection",
+          "Consider discussing workload concerns with your supervisor or mentor"
         ]
       },
       {
@@ -209,10 +212,13 @@
         "max": 76,
         "level": "severe",
         "label": "Severe Burnout",
-        "description": "You are experiencing significant burnout across multiple domains.",
+        "description": "Your overall burnout score is high, indicating severe burnout that is likely significantly affecting your physical health, emotional well-being, and professional functioning. At this level, meaningful changes to your work situation and/or professional support are important.",
         "suggestions": [
-          "Seek professional support",
-          "Consider making changes to your work situation"
+          "Seek support from a mental health professional or employee assistance program",
+          "Evaluate whether structural changes to your work situation are possible and necessary",
+          "Prioritize recovery activities and set firm boundaries around work time",
+          "Consider discussing your situation with trusted colleagues or supervisors",
+          "Burnout is a response to chronic workplace stress, not a personal failure"
         ]
       }
     ],
@@ -220,70 +226,70 @@
       "personal": [
         {
           "min": 0,
-          "max": 8,
-          "level": "normal",
+          "max": 25,
+          "level": "minimal",
           "label": "Low",
-          "description": "Low personal burnout."
+          "description": "Low personal burnout. You do not appear to be experiencing significant general fatigue or exhaustion unrelated to work. Your overall energy and vitality appear adequate."
         },
         {
-          "min": 9,
-          "max": 16,
+          "min": 26,
+          "max": 50,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate personal burnout."
+          "description": "Moderate personal burnout. You may be feeling somewhat physically and emotionally drained in general, regardless of work. This may reflect lifestyle factors, health issues, or the cumulative effect of multiple demands."
         },
         {
-          "min": 17,
-          "max": 24,
+          "min": 51,
+          "max": 76,
           "level": "severe",
           "label": "High",
-          "description": "Severe personal burnout."
+          "description": "High personal burnout. You are likely experiencing significant physical and emotional exhaustion that pervades your daily life beyond just work. Attending to your overall health and self-care is important."
         }
       ],
       "work": [
         {
           "min": 0,
-          "max": 9,
-          "level": "normal",
+          "max": 25,
+          "level": "minimal",
           "label": "Low",
-          "description": "Low work-related burnout."
+          "description": "Low work-related burnout. Your work does not appear to be causing you significant exhaustion or distress. You are likely managing your professional responsibilities effectively."
         },
         {
-          "min": 10,
-          "max": 19,
+          "min": 26,
+          "max": 50,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate work-related burnout."
+          "description": "Moderate work-related burnout. You are experiencing some exhaustion and strain directly related to your work. Workload, time pressure, or lack of resources may be contributing factors."
         },
         {
-          "min": 20,
-          "max": 28,
+          "min": 51,
+          "max": 76,
           "level": "severe",
           "label": "High",
-          "description": "Severe work-related burnout."
+          "description": "High work-related burnout. Your work is causing you significant physical and emotional exhaustion. Work conditions, demands, or lack of support may need to change. Consider discussing this with your supervisor or HR."
         }
       ],
       "client": [
         {
           "min": 0,
-          "max": 8,
-          "level": "normal",
+          "max": 25,
+          "level": "minimal",
           "label": "Low",
-          "description": "Low client-related burnout."
+          "description": "Low client-related burnout. Working with clients, patients, or students does not appear to be causing you significant exhaustion. You are maintaining adequate emotional resources for interpersonal work."
         },
         {
-          "min": 9,
-          "max": 16,
+          "min": 26,
+          "max": 50,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate client-related burnout."
+          "description": "Moderate client-related burnout. You are experiencing some exhaustion specifically related to working with clients or patients. Compassion fatigue or emotional demands of interpersonal work may be contributing factors."
         },
         {
-          "min": 17,
-          "max": 24,
+          "min": 51,
+          "max": 76,
           "level": "severe",
           "label": "High",
-          "description": "Severe client-related burnout."
+          "description": "High client-related burnout. The emotional demands of working with clients or patients are causing you significant exhaustion. This may affect the quality of care you provide. Supervision, peer support, and self-care are essential."
         }
       ]
     }

@@ -94,55 +94,55 @@
     "ranges": [
       {
         "min": 0,
-        "max": 9,
+        "max": 7,
         "level": "minimal",
-        "label": "No Depression",
-        "description": "Your score is below the screening cutoff (10). No significant depressive symptoms are indicated.",
+        "label": "Minimal Symptoms",
+        "description": "Your score suggests minimal depressive symptoms. Your emotional functioning appears healthy, and you are coping well with everyday stressors. The CES-D-10 is a brief screening tool, and this result is reassuring.",
         "suggestions": [
-          "Continue maintaining a healthy lifestyle",
-          "Keep up regular exercise and social activities",
-          "Monitor mood changes; occasional low mood is normal"
+          "Continue maintaining healthy habits that support emotional well-being",
+          "Keep up regular exercise, social activities, and balanced nutrition",
+          "Practice stress prevention through adequate sleep and relaxation techniques"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 9,
+        "level": "mild",
+        "label": "Mild Depressive Symptoms",
+        "description": "Your score indicates mild depressive symptoms that are worth monitoring. You may be experiencing some emotional discomfort, changes in sleep or energy, or reduced enjoyment of daily activities.",
+        "suggestions": [
+          "Monitor your mood over the next few weeks to see if symptoms persist",
+          "Maintain regular routines for sleep, exercise, and social engagement",
+          "Practice self-care activities that you find restorative and enjoyable",
+          "Consider talking to a trusted person about how you are feeling"
         ]
       },
       {
         "min": 10,
         "max": 14,
-        "level": "mild",
-        "label": "Mild Depressive Symptoms",
-        "description": "Your score has reached the screening cutoff (>=10), indicating clinically significant depressive symptoms.",
+        "level": "moderate",
+        "label": "Moderate Depressive Symptoms",
+        "description": "Your score indicates moderate depressive symptoms that may be affecting your daily functioning. A score of 10 or above on the CES-D-10 is commonly used as a screening threshold for clinically significant depression, and further evaluation is recommended.",
         "suggestions": [
-          "Practice self-care and maintain a regular sleep schedule",
-          "Increase physical exercise and social activities",
-          "Try talking to someone you trust about your feelings",
-          "Consider consulting a mental health professional for further evaluation"
+          "Consider consulting a mental health professional for a comprehensive evaluation",
+          "Maintain regular physical activity, which has strong evidence for reducing depression",
+          "Stay connected with supportive people and avoid social withdrawal",
+          "Consider evidence-based approaches such as cognitive behavioral therapy (CBT)",
+          "A structured daily routine can help provide stability during difficult periods"
         ]
       },
       {
         "min": 15,
-        "max": 21,
-        "level": "moderate",
-        "label": "Moderate Depressive Symptoms",
-        "description": "Your depressive symptoms are at a moderate level and may be affecting your daily life and social functioning.",
-        "suggestions": [
-          "Consider consulting a counselor or psychiatrist soon",
-          "Maintain a regular daily routine",
-          "Engage in physical exercise at least 3 times per week",
-          "Avoid alcohol and unhealthy coping strategies",
-          "Consider psychotherapy (e.g., cognitive behavioral therapy)"
-        ]
-      },
-      {
-        "min": 22,
         "max": 30,
         "level": "severe",
         "label": "Severe Depressive Symptoms",
-        "description": "Your depressive symptoms are quite severe and are likely significantly affecting daily functioning. Please seek professional help promptly.",
+        "description": "Your score suggests severe depressive symptoms that are likely significantly impacting your daily functioning, relationships, and quality of life. This score strongly suggests the need for professional evaluation and intervention.",
         "suggestions": [
-          "Please seek medical attention from a psychiatrist as soon as possible",
-          "Medication combined with psychotherapy may be needed",
+          "Seek consultation with a mental health professional as soon as possible",
           "If you have thoughts of self-harm or suicide, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
-          "Do not stay alone; inform family or friends of your situation",
-          "Ensure you have a trusted support person nearby"
+          "Inform a trusted family member or friend about how you are feeling",
+          "Professional treatment including therapy and/or medication can be very effective",
+          "Focus on basic self-care: adequate sleep, nutrition, and gentle activity"
         ]
       }
     ],

@@ -148,35 +148,38 @@
         "min": 12,
         "max": 36,
         "level": "severe",
-        "label": "Low Social Support",
-        "description": "Your perceived social support is low.",
+        "label": "Low Perceived Social Support",
+        "description": "Your score suggests you perceive low levels of social support from family, friends, and significant others. Perceived lack of social support is a significant risk factor for depression, anxiety, and other mental health difficulties. Even if support is available, feeling unsupported can be very distressing.",
         "suggestions": [
-          "Try reaching out to family and friends more often",
-          "Consider joining interest groups or community organizations",
-          "If feeling isolated, consult a professional"
+          "Consider reaching out to a counselor or therapist who can help strengthen your support network",
+          "Identify one or two people you might feel comfortable reaching out to more",
+          "Community groups, volunteer activities, or support groups can help build new connections",
+          "If you are feeling isolated, a mental health professional can help develop strategies for building social connections"
         ]
       },
       {
         "min": 37,
         "max": 60,
         "level": "moderate",
-        "label": "Moderate Social Support",
-        "description": "Your perceived social support is moderate.",
+        "label": "Moderate Perceived Social Support",
+        "description": "Your score indicates a moderate level of perceived social support. You have some supportive relationships but may feel that support is inconsistent or insufficient in certain areas. Strengthening these connections can enhance your resilience and well-being.",
         "suggestions": [
-          "Check subscale scores to see which area needs strengthening",
-          "Actively strengthen connections with family and friends"
+          "Identify which sources of support (family, friends, significant other) feel strongest and which could be strengthened",
+          "Practice expressing your needs to people in your life; others may not realize you need more support",
+          "Invest time in nurturing your existing relationships",
+          "Consider expanding your social network through shared activities or community involvement"
         ]
       },
       {
         "min": 61,
         "max": 84,
         "level": "minimal",
-        "label": "High Social Support",
-        "description": "Your perceived social support is high.",
+        "label": "High Perceived Social Support",
+        "description": "Your score suggests you perceive high levels of social support from family, friends, and/or a significant other. Strong perceived social support is a powerful protective factor for mental health and is associated with greater resilience, better coping, and higher life satisfaction.",
         "suggestions": [
-          "Continue maintaining your social network",
-          "Do not hesitate to seek help when needed",
-          "Also provide support to others"
+          "Continue nurturing the relationships that provide you with support",
+          "Express gratitude to the people who support you",
+          "Consider being a source of support for others in return"
         ]
       }
     ],

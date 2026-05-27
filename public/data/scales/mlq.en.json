@@ -134,11 +134,12 @@
         "max": 30,
         "level": "mild",
         "label": "Low Meaning in Life",
-        "description": "You currently have relatively low levels of both perceived and sought meaning in life.",
+        "description": "Your overall meaning in life score is low, suggesting limited perceived purpose and relatively little active exploration of meaning. This pattern may be associated with feelings of emptiness or disengagement.",
         "suggestions": [
-          "Try exploring your personal values and interests",
-          "Engage in volunteering or community activities",
-          "Share your thoughts and feelings with people important to you"
+          "Begin exploring your personal values by reflecting on activities and relationships that have felt most meaningful to you in the past",
+          "Engage in volunteering, community service, or helping others, as prosocial behavior is strongly linked to increased sense of purpose",
+          "Share your thoughts and feelings with trusted friends, family members, or a counselor to gain new perspectives on your life direction",
+          "Try journaling about moments when you feel most alive and engaged, as these can reveal sources of latent meaning"
         ]
       },
       {
@@ -146,11 +147,11 @@
         "max": 50,
         "level": "normal",
         "label": "Moderate Meaning in Life",
-        "description": "You have a moderate sense of meaning and are somewhat engaged in exploring life's purpose.",
+        "description": "You have a moderate sense of meaning in life and are somewhat engaged in exploring your purpose. Some areas of your life likely feel meaningful while others may still be developing or uncertain.",
         "suggestions": [
-          "Continue exploring what matters to you",
-          "Reflect on and document your core values",
-          "Set goals that align with your values"
+          "Continue exploring what matters most to you by trying new activities, deepening existing interests, and reflecting on your core values",
+          "Create a personal mission statement or list of life priorities to clarify and strengthen your sense of direction",
+          "Set specific goals that align with your identified values, and track your progress toward achieving them over time"
         ]
       },
       {
@@ -158,11 +159,11 @@
         "max": 70,
         "level": "minimal",
         "label": "High Meaning in Life",
-        "description": "You have a clear understanding of your life's meaning and actively pursue purpose.",
+        "description": "You have a strong sense of meaning and purpose in your life. You clearly understand what matters to you and are actively living in alignment with your values and goals.",
         "suggestions": [
-          "Continue living a meaningful lifestyle",
-          "Help others discover meaning in their lives",
-          "Continue exploring and growing in new areas"
+          "Continue living intentionally and nurturing the relationships, activities, and commitments that give your life meaning",
+          "Consider mentoring or supporting others in discovering their own sense of purpose, as sharing wisdom deepens personal meaning",
+          "Remain open to growth and new experiences, as meaning can evolve and deepen through life transitions and fresh challenges"
         ]
       }
     ],
@@ -173,21 +174,21 @@
           "max": 15,
           "level": "severe",
           "label": "Low Presence",
-          "description": "You currently feel little sense of meaning in your life."
+          "description": "You currently experience little felt sense of meaning in your life. Daily activities may feel purposeless or disconnected from your deeper values and aspirations."
         },
         {
           "min": 16,
           "max": 25,
           "level": "mild",
           "label": "Moderate Presence",
-          "description": "You have some sense of meaning in your life."
+          "description": "You have a moderate sense of meaning in your life. You sometimes feel purposeful and connected to what matters, but this experience may be inconsistent across situations."
         },
         {
           "min": 26,
           "max": 35,
           "level": "minimal",
           "label": "High Presence",
-          "description": "You clearly feel that your life is meaningful."
+          "description": "You clearly and consistently feel that your life is meaningful. You have a strong sense of purpose that provides direction and satisfaction in your daily experience."
         }
       ],
       "search": [
@@ -196,21 +197,21 @@
           "max": 15,
           "level": "minimal",
           "label": "Low Search",
-          "description": "You are not actively searching for meaning in life."
+          "description": "You are not actively searching for meaning in your life. This may reflect contentment with your current sense of purpose or a lack of motivation to explore existential questions."
         },
         {
           "min": 16,
           "max": 25,
           "level": "normal",
           "label": "Moderate Search",
-          "description": "You are moderately exploring the meaning of life."
+          "description": "You are moderately engaged in exploring the meaning of your life. You occasionally reflect on purpose and direction, balancing curiosity with acceptance of your current situation."
         },
         {
           "min": 26,
           "max": 35,
           "level": "mild",
           "label": "High Search",
-          "description": "You are actively searching for and exploring the meaning of life."
+          "description": "You are actively and intensely searching for meaning and purpose in your life. This strong drive to explore existential questions may reflect a transitional period or deep philosophical engagement."
         }
       ]
     }

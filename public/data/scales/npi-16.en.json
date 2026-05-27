@@ -266,11 +266,11 @@
         "max": 3,
         "level": "minimal",
         "label": "Low Narcissism",
-        "description": "Your score indicates a low level of narcissistic traits. You tend to be modest and may undervalue your own qualities.",
+        "description": "Your score indicates low narcissistic traits. You tend toward modesty, may undervalue your own qualities, and generally prioritize others over self-promotion in social interactions and relationships.",
         "suggestions": [
-          "Your modesty is admirable, but ensure you also recognize your strengths",
-          "Practice healthy self-assertion when appropriate",
-          "Balance humility with confidence in your abilities"
+          "While modesty is admirable, ensure you also recognize and appreciate your genuine strengths",
+          "Practice healthy self-assertion and advocacy when your needs or contributions deserve recognition",
+          "Balance your natural humility with confidence in the abilities and qualities you genuinely possess"
         ]
       },
       {
@@ -278,11 +278,11 @@
         "max": 6,
         "level": "normal",
         "label": "Below Average",
-        "description": "Your narcissism score is below the average range. You demonstrate a healthy balance of self-regard.",
+        "description": "Your narcissism score is below average, reflecting a healthy balance of self-regard and consideration for others. You demonstrate appropriate self-confidence without excessive self-focus or entitlement patterns.",
         "suggestions": [
-          "Continue maintaining a balanced perspective on yourself",
-          "Your self-awareness is a positive quality",
-          "Feel free to acknowledge your accomplishments"
+          "Continue maintaining your balanced and grounded perspective on yourself and your accomplishments",
+          "Your healthy self-awareness and interpersonal sensitivity are positive qualities worth preserving",
+          "Feel comfortable acknowledging your achievements openly without concern about appearing boastful"
         ]
       },
       {
@@ -290,11 +290,11 @@
         "max": 9,
         "level": "mild",
         "label": "Average",
-        "description": "Your narcissism score falls within the average range. Most people score in this range, reflecting typical levels of self-confidence.",
+        "description": "Your narcissism score falls within the average range for the general population. This reflects typical levels of self-confidence, ambition, and desire for recognition that most people experience.",
         "suggestions": [
-          "Your level of self-regard is within the normal range",
-          "Continue to balance confidence with empathy for others",
-          "Be mindful of how your self-confidence is perceived by others"
+          "Your level of self-regard is well within the normal and healthy range for most adults",
+          "Continue balancing healthy confidence and ambition with genuine empathy and concern for others",
+          "Remain aware of how your self-confidence is perceived by colleagues, friends, and family members"
         ]
       },
       {
@@ -302,12 +302,13 @@
         "max": 12,
         "level": "moderate",
         "label": "Above Average",
-        "description": "Your score is above average, suggesting relatively elevated narcissistic traits such as self-importance and need for admiration.",
+        "description": "Your score is above average, suggesting elevated narcissistic traits including heightened self-importance, stronger need for admiration, and potentially reduced sensitivity to the perspectives of others.",
         "suggestions": [
-          "Practice active listening and showing genuine interest in others",
-          "Seek honest feedback from trusted people in your life",
-          "Reflect on how your behavior may affect those around you",
-          "Consider whether your expectations of others are reasonable"
+          "Practice active listening by focusing on understanding others before sharing your own perspective",
+          "Seek honest, constructive feedback from people you trust about how your behavior affects them",
+          "Reflect regularly on how your actions and communication style may impact those around you",
+          "Examine whether your expectations of special treatment or admiration from others are proportionate",
+          "Consider developing deeper empathy through volunteering or perspective-taking exercises"
         ]
       },
       {
@@ -315,12 +316,12 @@
         "max": 16,
         "level": "severe",
         "label": "High Narcissism",
-        "description": "Your score indicates a high level of narcissistic traits. This may include strong feelings of superiority, need for admiration, and sense of entitlement.",
+        "description": "Your score indicates a high level of narcissistic traits including strong feelings of superiority, pronounced need for admiration, sense of entitlement, and potential difficulty with genuine empathy.",
         "suggestions": [
-          "Consider reflecting on your relationships and how others respond to you",
-          "Practice empathy by considering situations from others' perspectives",
-          "A counselor or therapist can help explore these traits in a supportive environment",
-          "Work on developing genuine reciprocity in your relationships"
+          "Reflect carefully on your close relationships and honestly assess how others respond to your behavior",
+          "Practice perspective-taking by genuinely considering situations from the viewpoint of other people",
+          "A counselor or therapist can help you explore these traits in a supportive, non-judgmental setting",
+          "Work on building genuine reciprocity and mutual respect in your personal and professional relationships"
         ]
       }
     ],

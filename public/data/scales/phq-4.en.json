@@ -82,11 +82,11 @@
         "max": 2,
         "level": "normal",
         "label": "Normal",
-        "description": "Your total score is within the normal range. No significant psychological distress detected.",
+        "description": "Your total score is within the normal range, indicating no significant symptoms of anxiety or depression over the past two weeks. Your current psychological well-being appears to be in a healthy state.",
         "suggestions": [
-          "Continue maintaining a healthy lifestyle",
-          "Keep up regular exercise and social activities",
-          "Practice relaxation techniques for general well-being"
+          "Continue maintaining a balanced lifestyle with regular exercise, adequate sleep, and social engagement",
+          "Keep practicing healthy stress management habits that support your overall emotional well-being",
+          "Remember that brief periods of stress or low mood are a normal part of life and typically resolve naturally"
         ]
       },
       {
@@ -94,12 +94,12 @@
         "max": 5,
         "level": "mild",
         "label": "Mild Distress",
-        "description": "You may be experiencing mild psychological distress. Review your subscale scores for more specific information.",
+        "description": "You may be experiencing mild psychological distress involving some anxiety or depressive symptoms. These symptoms are common and may reflect recent stress, but monitoring them over time is a good practice.",
         "suggestions": [
-          "Pay attention to your emotional well-being",
-          "Practice stress management techniques",
-          "Maintain regular sleep and exercise routines",
-          "If symptoms persist, consider consulting a professional"
+          "Pay closer attention to your emotional well-being and notice patterns in when you feel most stressed or low",
+          "Practice daily stress management techniques such as deep breathing, mindfulness, or gentle physical exercise",
+          "Maintain regular sleep and exercise routines, as both have a strong positive impact on mood and anxiety",
+          "If symptoms continue or worsen, consider completing the full PHQ-9 or GAD-7 for a more detailed assessment"
         ]
       },
       {
@@ -107,12 +107,13 @@
         "max": 8,
         "level": "moderate",
         "label": "Moderate Distress",
-        "description": "Your score indicates moderate psychological distress. Consider completing the full PHQ-9 and/or GAD-7 for more detailed assessment.",
+        "description": "Your score indicates moderate psychological distress that may involve both anxiety and depressive symptoms affecting your daily life. A more detailed assessment is recommended to better understand your specific needs.",
         "suggestions": [
-          "Consider completing the full PHQ-9 and GAD-7 assessments",
-          "Consult a healthcare professional for further evaluation",
-          "Practice daily relaxation and stress management",
-          "Maintain social connections and support networks"
+          "Consider completing the full PHQ-9 and GAD-7 assessments to get a more detailed picture of your symptoms",
+          "Consult a healthcare professional for a comprehensive evaluation to determine whether treatment would be helpful",
+          "Practice daily relaxation and stress management techniques to help reduce your current level of distress",
+          "Maintain and strengthen your social connections and support networks, as social support is protective",
+          "Establish consistent daily routines for sleep, meals, and activity to provide structure and stability"
         ]
       },
       {
@@ -120,49 +121,16 @@
         "max": 12,
         "level": "severe",
         "label": "Severe Distress",
-        "description": "Your score suggests severe psychological distress. Professional evaluation and support are strongly recommended.",
+        "description": "Your score suggests significant psychological distress that is likely substantially impacting your daily functioning and quality of life. Professional evaluation and support are strongly recommended at this level.",
         "suggestions": [
-          "Seek consultation with a mental health professional promptly",
-          "Complete the full PHQ-9 and GAD-7 for detailed assessment",
-          "Ensure you have a reliable support system",
-          "Do not hesitate to seek help; treatment is effective"
+          "Seek consultation with a mental health professional promptly for a thorough evaluation and treatment planning",
+          "Complete the full PHQ-9 and GAD-7 assessments to help identify whether depression, anxiety, or both are primary concerns",
+          "Ensure you have a reliable support system of trusted people you can reach out to when you are struggling",
+          "Remember that effective treatments exist for both anxiety and depression, and seeking help is a sign of strength"
         ]
       }
     ],
-    "subscaleRanges": {
-      "depression": [
-        {
-          "min": 0,
-          "max": 2,
-          "level": "normal",
-          "label": "Normal",
-          "description": "Depression subscale score is within the normal range."
-        },
-        {
-          "min": 3,
-          "max": 6,
-          "level": "moderate",
-          "label": "Possible Depression",
-          "description": "Score suggests possible depression. Consider completing the full PHQ-9."
-        }
-      ],
-      "anxiety": [
-        {
-          "min": 0,
-          "max": 2,
-          "level": "normal",
-          "label": "Normal",
-          "description": "Anxiety subscale score is within the normal range."
-        },
-        {
-          "min": 3,
-          "max": 6,
-          "level": "moderate",
-          "label": "Possible Anxiety",
-          "description": "Score suggests possible anxiety. Consider completing the full GAD-7."
-        }
-      ]
-    }
+    "subscaleRanges": null
   },
   "report": {
     "charts": [

@@ -92,10 +92,11 @@
         "max": 21,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your gaming behavior is within the normal range with no signs of Internet Gaming Disorder.",
+        "description": "Your gaming behavior falls within the normal range with no indicators of Internet Gaming Disorder. Gaming appears to be a healthy recreational activity that does not interfere with your responsibilities or well-being.",
         "suggestions": [
-          "Continue maintaining healthy gaming habits",
-          "Be mindful of balancing gaming time with other activities"
+          "Continue maintaining healthy and balanced gaming habits alongside other life activities",
+          "Stay aware of your gaming time and its impact on sleep, work, and social relationships",
+          "Model healthy gaming behavior for peers and younger family members in your environment"
         ]
       },
       {
@@ -103,12 +104,12 @@
         "max": 30,
         "level": "mild",
         "label": "At Risk",
-        "description": "You may have some unhealthy gaming behavior patterns. Consider monitoring the impact of gaming on your daily life.",
+        "description": "You show some patterns of problematic gaming behavior that place you at risk for developing Internet Gaming Disorder. Gaming may occasionally interfere with sleep, responsibilities, or social engagement.",
         "suggestions": [
-          "Set a daily time limit for gaming",
-          "Develop other hobbies and interests",
-          "Monitor the impact of gaming on sleep and work/studies",
-          "If you find it hard to control, consider consulting a professional"
+          "Set clear daily time limits for gaming sessions and use built-in parental or timer controls",
+          "Actively develop and invest in hobbies and social activities that do not involve gaming",
+          "Monitor the impact of gaming on your sleep quality, academic or work performance, and relationships",
+          "If you find it increasingly difficult to control gaming time, consider consulting a professional early"
         ]
       },
       {
@@ -116,12 +117,13 @@
         "max": 36,
         "level": "moderate",
         "label": "High Risk",
-        "description": "Your gaming behavior has noticeably impacted your daily life. Seeking professional help is recommended.",
+        "description": "Your gaming behavior has noticeably impacted multiple areas of daily life including social relationships, academic or occupational performance, and physical health. Professional guidance is recommended at this level.",
         "suggestions": [
-          "Consider consulting a mental health professional",
-          "Gradually reduce gaming time",
-          "Find alternative ways to relax and socialize",
-          "Talk to someone you trust about your gaming habits"
+          "Consulting a mental health professional experienced with behavioral addictions is recommended",
+          "Gradually reduce gaming time using a structured schedule rather than attempting abrupt cessation",
+          "Identify and develop alternative sources of relaxation, achievement, and social connection offline",
+          "Openly discuss your gaming habits with someone you trust for external perspective and accountability",
+          "Address underlying emotional needs that gaming may be fulfilling, such as stress relief or escapism"
         ]
       },
       {
@@ -129,12 +131,12 @@
         "max": 45,
         "level": "severe",
         "label": "Probable Gaming Disorder",
-        "description": "Your score suggests a possible Internet Gaming Disorder. Gaming has severely affected your daily functioning. Professional help is strongly recommended.",
+        "description": "Your score suggests probable Internet Gaming Disorder. Gaming has severely affected your daily functioning, relationships, and well-being, meeting criteria that warrant immediate professional clinical attention.",
         "suggestions": [
-          "Strongly recommended to consult a psychiatrist or psychotherapist as soon as possible",
-          "Consider professional behavioral intervention therapy",
-          "Build a support system by letting family and friends know about the situation",
-          "Avoid unrestricted access to gaming devices when alone"
+          "Seeking evaluation from a psychiatrist or psychotherapist specializing in gaming addiction is urgent",
+          "Professional behavioral intervention therapy can effectively address compulsive gaming patterns",
+          "Build a support system by informing family and close friends about the severity of the situation",
+          "Consider environmental controls such as limiting unsupervised access to gaming devices and accounts"
         ]
       }
     ],

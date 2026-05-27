@@ -255,12 +255,13 @@
         "min": 0,
         "max": 8,
         "level": "normal",
-        "label": "Normal",
-        "description": "Your score is within the normal range. No significant depressive symptoms detected.",
+        "label": "Low Risk",
+        "description": "Your score suggests low risk for perinatal depression. Your emotional adjustment during the perinatal period appears to be within a healthy range. Mood fluctuations are common during pregnancy and postpartum, and your current level of functioning appears good.",
         "suggestions": [
-          "Continue taking care of yourself and your baby",
-          "Maintain social connections and support networks",
-          "Rest when possible and accept help from others"
+          "Continue monitoring your mood as hormonal and life changes continue",
+          "Maintain supportive relationships and accept help when offered",
+          "Ensure adequate rest, nutrition, and physical activity appropriate for your stage",
+          "Baby blues (mild mood changes in the first two weeks postpartum) are normal and usually resolve on their own"
         ]
       },
       {
@@ -268,38 +269,41 @@
         "max": 11,
         "level": "mild",
         "label": "Possible Depression",
-        "description": "Your score suggests possible depression. Monitoring and further evaluation may be beneficial.",
+        "description": "Your score indicates possible depressive symptoms that warrant monitoring. During the perinatal period, hormonal changes, sleep deprivation, and the major life transition of parenthood can contribute to emotional difficulties. Early attention to these symptoms can prevent worsening.",
         "suggestions": [
-          "Talk to your healthcare provider about how you are feeling",
-          "Reach out to family or friends for support",
-          "Ensure you are getting adequate rest",
-          "Consider repeating this screening in 2-4 weeks"
+          "Talk to your obstetrician, midwife, or primary care provider about how you are feeling",
+          "Ensure you have adequate social support and practical help with childcare",
+          "Prioritize rest whenever possible; sleep deprivation significantly affects mood",
+          "Consider joining a new parent support group for shared experiences and encouragement",
+          "Rescreen in 2-4 weeks to monitor whether symptoms improve or worsen"
         ]
       },
       {
         "min": 12,
-        "max": 13,
+        "max": 19,
         "level": "moderate",
-        "label": "Fairly High Possibility of Depression",
-        "description": "Your score indicates a fairly high possibility of depression. Professional evaluation is recommended.",
+        "label": "Probable Depression",
+        "description": "Your score suggests probable perinatal depression that warrants professional evaluation. These symptoms may be affecting your ability to care for yourself and your baby, your relationship with your partner, and your overall well-being. Perinatal depression is common and highly treatable.",
         "suggestions": [
-          "Consult your healthcare provider or a mental health professional",
-          "Postnatal depression is treatable and common; seeking help is a sign of strength",
-          "Maintain daily routines as much as possible",
-          "Accept help with baby care to ensure you have time for self-care"
+          "Seek evaluation from a healthcare provider experienced in perinatal mental health",
+          "Evidence-based treatments such as CBT and interpersonal therapy are effective and safe during the perinatal period",
+          "Do not hesitate to accept help with childcare and household tasks",
+          "Some antidepressant medications are considered safe during pregnancy and breastfeeding; discuss options with your doctor",
+          "Remember that seeking help is a sign of strength, not weakness, and benefits both you and your baby"
         ]
       },
       {
-        "min": 14,
+        "min": 20,
         "max": 30,
         "level": "severe",
-        "label": "Probable Depression",
-        "description": "Your score suggests probable depression. Please seek professional help promptly.",
+        "label": "Severe Depression",
+        "description": "Your score indicates severe depressive symptoms during the perinatal period that require immediate professional attention. At this level, symptoms are likely significantly impairing your functioning and may affect bonding with your baby. Effective treatments are available and important to pursue promptly.",
         "suggestions": [
-          "Seek professional help from your healthcare provider as soon as possible",
-          "If you have thoughts of harming yourself or your baby, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
-          "Do not feel ashamed; postnatal depression is a medical condition, not a personal failing",
-          "Effective treatments including therapy and medication are available"
+          "Contact your healthcare provider or a perinatal mental health specialist as soon as possible",
+          "If you have thoughts of harming yourself or your baby, call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline or Postpartum Support International: 1-800-944-4773)",
+          "Do not leave yourself alone if you are feeling unsafe; ask a family member or friend to stay with you",
+          "Comprehensive treatment including therapy and/or medication is essential",
+          "With proper treatment, perinatal depression resolves in the vast majority of cases"
         ]
       }
     ],
