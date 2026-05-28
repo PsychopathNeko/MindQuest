@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "id": "iat-20",
+    "name": "IAT Internet Addiction Test",
+    "fullName": "Internet Addiction Test",
+    "description": "The IAT is a 20-item questionnaire measuring the extent of internet use on daily life, social interactions, work, and emotions. It is the most widely used tool in internet addiction research.",
+    "author": "Young (1998)",
+    "license": "Free to use",
+    "reference": "Young KS. Internet addiction: The emergence of a new clinical disorder. CyberPsychology & Behavior. 1998;1(3):237-244.",
+    "instruction": "Please rate how often each statement applies to you.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Rarely"
+    },
+    {
+      "value": 2,
+      "label": "Occasionally"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes"
+    },
+    {
+      "value": 4,
+      "label": "Often"
+    },
+    {
+      "value": 5,
+      "label": "Always"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "How often do you find that you stay online longer than you intended",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "How often do you neglect household chores to spend more time online",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "How often do you prefer the excitement of the internet to intimacy with your partner",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "How often do you form new relationships with fellow online users",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "How often do others in your life complain to you about the amount of time you spend online",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "How often do your grades or school work suffer because of the amount of time you spend online",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "How often do you check your email/social media before something else that you need to do",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "How often does your job performance or productivity suffer because of the internet",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "How often do you become defensive or secretive when anyone asks you what you do online",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "How often do you block out disturbing thoughts about your life with soothing thoughts of the internet",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "How often do you find yourself anticipating when you will go online again",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "How often do you fear that life without the internet would be boring, empty, and joyless",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "How often do you snap, yell, or act annoyed if someone bothers you while you are online",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "How often do you lose sleep due to late-night log-ins",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "How often do you feel preoccupied with the internet when offline, or fantasize about being online",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "How often do you find yourself saying 'just a few more minutes' when online",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "How often do you try to cut down the amount of time you spend online and fail",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "How often do you try to hide how long you've been online",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "How often do you choose to spend more time online over going out with others",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "How often do you feel depressed, moody, or nervous when you are offline, which goes away once you are back online",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 100,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 39,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your internet usage is within the normal range. No significant signs of internet addiction detected.",
+        "suggestions": [
+          "Continue maintaining healthy internet habits",
+          "Balance your online and offline activities",
+          "Maintain a rich social life and diverse hobbies"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 59,
+        "level": "mild",
+        "label": "Mild Internet Addiction",
+        "description": "Your internet usage may be starting to affect your daily life. Consider monitoring your online time and habits.",
+        "suggestions": [
+          "Set daily time limits for internet use and stick to them",
+          "Develop leisure activities that don't rely on the internet",
+          "Pay attention to the impact of internet use on your sleep and work",
+          "If you find it hard to control, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 60,
+        "max": 79,
+        "level": "moderate",
+        "label": "Moderate Internet Addiction",
+        "description": "Internet use is causing noticeable problems in your daily life, social interactions, or work performance.",
+        "suggestions": [
+          "Consider seeking professional help from a counselor",
+          "Create a specific plan to reduce internet time with family support",
+          "Increase outdoor activities and face-to-face social interactions",
+          "Identify emotional triggers or situations that lead to excessive use",
+          "Consider using screen time management tools"
+        ]
+      },
+      {
+        "min": 80,
+        "max": 100,
+        "level": "severe",
+        "label": "Severe Internet Addiction",
+        "description": "Internet use is severely impacting your quality of life, relationships, and daily functioning. Please seek professional help immediately.",
+        "suggestions": [
+          "Strongly recommended to consult a psychiatrist or psychotherapist immediately",
+          "Structured treatment programs (e.g., cognitive behavioral therapy) may be needed",
+          "Inform family and friends about your difficulties and seek support",
+          "Gradually reduce internet time rather than quitting abruptly",
+          "Address possible underlying emotional issues (e.g., depression, anxiety)"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 20,
+      "max": 100
+    }
+  }
+}

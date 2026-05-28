@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "id": "rrs",
+    "name": "RRS Ruminative Response Scale",
+    "fullName": "Ruminative Response Scale",
+    "description": "The RRS is a 22-item self-report measure of ruminative responses to depressed mood, including Brooding and Reflection subscales.",
+    "author": "Nolen-Hoeksema & Morrow (1991)",
+    "license": "Free to use",
+    "reference": "Nolen-Hoeksema S, Morrow J. A prospective study of depression and posttraumatic stress symptoms after a natural disaster. J Pers Soc Psychol. 1991;61(1):115-121.",
+    "instruction": "Please indicate whether you almost never, sometimes, often, or almost always think or do each one when you feel down, sad, or depressed.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Almost never"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes"
+    },
+    {
+      "value": 3,
+      "label": "Often"
+    },
+    {
+      "value": 4,
+      "label": "Almost always"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Think about how alone you feel",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Think \"I won't be able to do my job if I don't snap out of this\"",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Think about your feelings of fatigue and achiness",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Think about how hard it is to concentrate",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Think \"What am I doing to deserve this?\"",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Think about how passive and unmotivated you feel",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Analyze recent events to try to understand why you are depressed",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Think about how you don't seem to feel anything anymore",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Think \"Why can't I get going?\"",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Think \"Why do I always react this way?\"",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Go away by yourself and think about why you feel this way",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Write down what you are thinking about and analyze it",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Think about a recent situation, wishing it had gone better",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Think \"I won't be able to concentrate if I keep feeling this way\"",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Think \"Why do I have problems other people don't have?\"",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Think \"Why can't I handle things better?\"",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Think about how sad you feel",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "Think about all your shortcomings, failings, faults, mistakes",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "Think about how you don't feel up to doing anything",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "Analyze your personality to try to understand why you are depressed",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "Go someplace alone to think about your feelings",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "Think about how angry you are with yourself",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 88,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "brooding",
+        "name": "Brooding",
+        "items": [
+          4,
+          7,
+          10,
+          12,
+          15
+        ]
+      },
+      {
+        "id": "reflection",
+        "name": "Reflection",
+        "items": [
+          6,
+          8,
+          11,
+          16,
+          20
+        ]
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 22,
+        "max": 33,
+        "level": "minimal",
+        "label": "Low Rumination",
+        "description": "Your rumination level is low.",
+        "suggestions": [
+          "Continue your healthy coping strategies",
+          "Maintain awareness of your thought patterns"
+        ]
+      },
+      {
+        "min": 34,
+        "max": 44,
+        "level": "mild",
+        "label": "Mild Rumination",
+        "description": "You show mild levels of ruminative thinking.",
+        "suggestions": [
+          "Practice redirecting attention from repetitive negative thinking",
+          "Engage in physical activity or hobbies when feeling down",
+          "Try mindfulness techniques"
+        ]
+      },
+      {
+        "min": 45,
+        "max": 55,
+        "level": "moderate",
+        "label": "Moderate Rumination",
+        "description": "You show moderate levels of ruminative thinking, which may prolong depressive episodes.",
+        "suggestions": [
+          "Consider cognitive behavioral therapy techniques",
+          "Practice scheduled worry time",
+          "Develop behavioral activation strategies"
+        ]
+      },
+      {
+        "min": 56,
+        "max": 88,
+        "level": "severe",
+        "label": "High Rumination",
+        "description": "Your rumination level is high and may warrant professional attention.",
+        "suggestions": [
+          "Consider seeking professional help",
+          "Cognitive behavioral therapy or mindfulness-based therapy can be effective",
+          "Practice thought-stopping techniques",
+          "Build a strong social support network"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar"
+    ],
+    "gaugeConfig": {
+      "min": 22,
+      "max": 88
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "brooding",
+        "reflection"
+      ],
+      "maxDisplayScore": 20
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "id": "aq-10",
+    "name": "AQ-10 Autism Spectrum Quotient",
+    "fullName": "Autism Spectrum Quotient-10",
+    "description": "The AQ-10 is a brief screening version of the Autism Spectrum Quotient (AQ-50), consisting of 10 items designed to quickly identify individuals who may need further assessment for autism spectrum traits. It evaluates social skills, attention switching, attention to detail, communication, and imagination.",
+    "author": "Allison, Auyeung & Baron-Cohen (2012)",
+    "license": "Free to use",
+    "reference": "Allison C, Auyeung B, Baron-Cohen S. Toward brief \"Red Flags\" for autism screening: The Short Autism Spectrum Quotient and the Short Quantitative Checklist for Autism in toddlers in 1,000 cases and 3,000 controls. J Am Acad Child Adolesc Psychiatry. 2012;51(2):202-212.",
+    "instruction": "Please read each statement below and select the option that best describes you.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Definitely Agree"
+    },
+    {
+      "value": 1,
+      "label": "Slightly Agree"
+    },
+    {
+      "value": 2,
+      "label": "Slightly Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Definitely Disagree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I often notice small sounds when others do not",
+      "type": "likert",
+      "scoringDirection": "agree"
+    },
+    {
+      "index": 1,
+      "text": "I usually concentrate more on the whole picture, rather than the small details",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 2,
+      "text": "I find it easy to do more than one thing at once",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 3,
+      "text": "If there is an interruption, I can switch back to what I was doing very quickly",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 4,
+      "text": "I find it easy to 'read between the lines' when someone is talking to me",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 5,
+      "text": "I know how to tell if someone listening to me is getting bored",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 6,
+      "text": "When I'm reading a story I find it difficult to work out the characters' intentions",
+      "type": "likert",
+      "scoringDirection": "agree"
+    },
+    {
+      "index": 7,
+      "text": "I like to collect information about categories of things (e.g. types of car, types of bird, types of train, types of plant, etc.)",
+      "type": "likert",
+      "scoringDirection": "agree"
+    },
+    {
+      "index": 8,
+      "text": "I find it easy to work out what someone is thinking or feeling just by looking at their face",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 9,
+      "text": "I find it difficult to work out people's intentions",
+      "type": "likert",
+      "scoringDirection": "agree"
+    }
+  ],
+  "scoring": {
+    "method": "special_aq10",
+    "maxTotal": 10,
+    "maxItemScore": 1,
+    "description": "For agree items, score 1 if Definitely Agree or Slightly Agree; for disagree items, score 1 if Slightly Disagree or Definitely Disagree",
+    "agreeItems": [
+      0,
+      6,
+      7,
+      9
+    ],
+    "disagreeItems": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "minimal",
+        "label": "Normal Range",
+        "description": "Your score is within the normal range, showing no significant autism spectrum traits.",
+        "suggestions": [
+          "This result suggests you are unlikely to be on the autism spectrum",
+          "If you still have concerns, consult a professional for a more comprehensive evaluation"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "mild",
+        "label": "Borderline Range",
+        "description": "Your score is in the borderline range, suggesting some possible autism spectrum traits.",
+        "suggestions": [
+          "This score does not imply a diagnosis, but may warrant further attention",
+          "If these traits affect your daily life, consider consulting a professional",
+          "Learning about autism spectrum conditions can help with self-understanding"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "moderate",
+        "label": "Further Assessment Recommended",
+        "description": "Your score is elevated, suggesting possible autism spectrum traits. A more comprehensive professional assessment is recommended.",
+        "suggestions": [
+          "Consider contacting a professional for a comprehensive autism spectrum assessment",
+          "This screening result is not a diagnosis and requires professional clinical evaluation",
+          "Regardless of the outcome, understanding your characteristics helps develop suitable coping strategies",
+          "Look for local autism support resources and communities"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 10
+    }
+  }
+}

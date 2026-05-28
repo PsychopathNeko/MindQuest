@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "id": "ius-12",
+    "name": "IUS-12 无法忍受不确定性量表简版",
+    "fullName": "Intolerance of Uncertainty Scale-12",
+    "description": "IUS-12 是无法忍受不确定性量表的12题简版，用于测量个体对模糊情境、不确定性和未来事件的反应。该量表评估两个因子：前瞻性焦虑（对可预测性的需求）和抑制性焦虑（因不确定性导致的行动瘫痪）。",
+    "author": "Carleton, Norton & Asmundson (2007)",
+    "license": "Free to use",
+    "reference": "Carleton RN, Norton MA, Asmundson GJ. Fearing the unknown: A short version of the Intolerance of Uncertainty Scale. J Anxiety Disord. 2007;21(1):105-117.",
+    "instruction": "请选择最能描述每个陈述与您自身特征相符程度的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "完全不符合"
+    },
+    {
+      "value": 2,
+      "label": "有点符合"
+    },
+    {
+      "value": 3,
+      "label": "比较符合"
+    },
+    {
+      "value": 4,
+      "label": "很符合"
+    },
+    {
+      "value": 5,
+      "label": "完全符合"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "无法预见的事件令我非常不安。",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "没有获得所需的全部信息让我感到沮丧。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "不确定性使我无法充实地生活。",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "人应该总是提前做好准备以避免意外。",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "即使做了最好的计划，一个小小的意外事件也能毁掉一切。",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "当需要行动时，不确定性使我无法动弹。",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "当我不确定时，我无法正常发挥。",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我总是想知道未来会发生什么。",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我无法忍受被出其不意。",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "最微小的疑虑也能让我停止行动。",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我应该能够提前安排好一切。",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我必须远离所有不确定的情境。",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 60,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "prospective",
+        "name": "前瞻性焦虑",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "maxScore": 35
+      },
+      {
+        "id": "inhibitory",
+        "name": "抑制性焦虑",
+        "items": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "maxScore": 25
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 24,
+        "level": "minimal",
+        "label": "低不确定性不耐受",
+        "description": "您对不确定性的耐受程度良好，能够较好地应对模糊和不可预测的情境。",
+        "suggestions": [
+          "继续发挥您在不确定情境中的灵活性优势",
+          "保持健康的应对策略",
+          "将您的适应能力作为应对挑战的优势"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "moderate",
+        "label": "中度不确定性不耐受",
+        "description": "您对不确定性的不耐受处于中等水平，某些模糊情境可能会让您感到不适或担忧。",
+        "suggestions": [
+          "练习接受不确定性是生活的正常部分",
+          "挑战关于未知结果的灾难化思维",
+          "尝试逐步暴露于不确定的情境",
+          "发展灵活的计划策略"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "high",
+        "label": "高不确定性不耐受",
+        "description": "您对不确定性的不耐受程度较高，模糊性和不可预测性可能给您带来显著的困扰，并可能影响日常功能。",
+        "suggestions": [
+          "考虑使用认知行为策略来应对与不确定性相关的焦虑",
+          "练习正念以保持当下的觉知",
+          "从容忍小的不确定性开始，逐步增加暴露程度",
+          "咨询心理健康专业人士获取结构化支持"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "severe",
+        "label": "极高不确定性不耐受",
+        "description": "您对不确定性的不耐受程度非常高，这种对不确定性的不适可能严重影响您的日常生活和幸福感。",
+        "suggestions": [
+          "强烈建议寻求有焦虑障碍治疗经验的心理治疗师的帮助",
+          "探索循证治疗方法，如认知行为疗法或元认知疗法",
+          "建立日常焦虑管理常规",
+          "避免过度寻求保证，这可能维持焦虑循环"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "prospective": [
+        {
+          "min": 7,
+          "max": 14,
+          "level": "minimal",
+          "label": "低",
+          "description": "前瞻性焦虑较低，您能较好地应对对未来事件的预期。"
+        },
+        {
+          "min": 15,
+          "max": 21,
+          "level": "moderate",
+          "label": "中度",
+          "description": "中度前瞻性焦虑，您有时会担心未来的不确定性。"
+        },
+        {
+          "min": 22,
+          "max": 28,
+          "level": "high",
+          "label": "高",
+          "description": "前瞻性焦虑较高，未来的不可预测性给您带来较大困扰。"
+        },
+        {
+          "min": 29,
+          "max": 35,
+          "level": "severe",
+          "label": "极高",
+          "description": "前瞻性焦虑非常高，您对未来的不确定性感到强烈的痛苦。"
+        }
+      ],
+      "inhibitory": [
+        {
+          "min": 5,
+          "max": 10,
+          "level": "minimal",
+          "label": "低",
+          "description": "抑制性焦虑较低，不确定性不会显著阻碍您的行动。"
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "moderate",
+          "label": "中度",
+          "description": "中度抑制性焦虑，不确定性有时会使您犹豫不决。"
+        },
+        {
+          "min": 16,
+          "max": 20,
+          "level": "high",
+          "label": "高",
+          "description": "抑制性焦虑较高，不确定性经常使您在决策和行动方面感到瘫痪。"
+        },
+        {
+          "min": 21,
+          "max": 25,
+          "level": "severe",
+          "label": "极高",
+          "description": "抑制性焦虑非常高，不确定性严重损害了您的行动和决策能力。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "prospective",
+        "inhibitory"
+      ],
+      "maxDisplayScore": 35
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "前瞻性焦虑",
+          "max": 35
+        },
+        {
+          "name": "抑制性焦虑",
+          "max": 25
+        }
+      ]
+    }
+  }
+}

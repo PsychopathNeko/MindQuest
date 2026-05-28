@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "id": "swemwbs",
+    "name": "SWEMWBS 华威爱丁堡心理幸福感量表简版",
+    "fullName": "Short Warwick-Edinburgh Mental Well-Being Scale",
+    "description": "SWEMWBS 是由完整版 14 条目 WEMWBS 精简而成的 7 条目量表，侧重于评估心理功能而非单纯的情绪感受，提供反映过去两周整体心理幸福感的单一得分。",
+    "author": "Stewart-Brown, Tennant, Tennant, Platt, Parkinson & Weich (2009)",
+    "license": "Free to use",
+    "reference": "Stewart-Brown S, et al. Internal construct validity of the Warwick-Edinburgh Mental Well-Being Scale (WEMWBS): a Rasch analysis using data from the Scottish Health Education Population Survey. Health Qual Life Outcomes. 2009;7:15.",
+    "instruction": "以下是一些关于感受和想法的陈述。请选择最能描述您过去两周体验的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "从来没有"
+    },
+    {
+      "value": 2,
+      "label": "很少"
+    },
+    {
+      "value": 3,
+      "label": "有些时候"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "一直都是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我对未来感到乐观",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我感到自己是有用的",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我感到放松",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我能很好地处理问题",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我思维清晰",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我感到与他人亲近",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我能自己做决定",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 35,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 7,
+        "max": 14,
+        "level": "severe",
+        "label": "幸福感低",
+        "description": "您的心理幸福感得分较低，表明您在日常功能和情绪健康方面可能面临较大困难。",
+        "suggestions": [
+          "建议寻求心理健康专业人士的支持",
+          "与信任的朋友、家人或支持服务机构交谈",
+          "尝试建立带来结构感的小型日常习惯",
+          "对自己宽容一些，恢复需要时间"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 21,
+        "level": "moderate",
+        "label": "幸福感低于平均",
+        "description": "您的心理幸福感低于平均水平，日常生活的某些方面可能让您感到有挑战。",
+        "suggestions": [
+          "识别能带给您成就感或乐趣的活动",
+          "保持与他人的联系和社交关系",
+          "考虑正念或放松练习",
+          "如果感到困难，不要犹豫寻求专业支持"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 28,
+        "level": "mild",
+        "label": "幸福感高于平均",
+        "description": "您的心理幸福感高于平均水平，对自身功能和人际关系总体感觉良好。",
+        "suggestions": [
+          "继续参与支持幸福感的活动",
+          "维持社交联系",
+          "练习感恩和积极思考",
+          "保持体育活动以维护良好的心理健康"
+        ]
+      },
+      {
+        "min": 29,
+        "max": 35,
+        "level": "minimal",
+        "label": "幸福感高",
+        "description": "您的心理幸福感很高，感到乐观、有能力并与他人有良好的联系。",
+        "suggestions": [
+          "继续保持支持幸福感的积极习惯",
+          "考虑帮助他人以进一步增强目标感",
+          "继续培养人际关系和个人成长"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 7,
+      "max": 35
+    }
+  }
+}

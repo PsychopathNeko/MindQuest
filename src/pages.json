@@ -1,0 +1,63 @@
+{
+  "pages": [
+    { "path": "pages/home/index", "style": { "navigationBarTitleText": "MindQuest" } },
+    { "path": "pages/scale-detail/index", "style": { "navigationBarTitleText": "量表详情" } },
+    { "path": "pages/assessment/index", "style": { "navigationBarTitleText": "测评", "navigationStyle": "custom" } },
+    { "path": "pages/report/index", "style": { "navigationBarTitleText": "测评报告" } },
+    { "path": "pages/history/index", "style": { "navigationBarTitleText": "历史记录" } },
+    { "path": "pages/profile/index", "style": { "navigationBarTitleText": "我的" } }
+  ],
+  "subPackages": [
+    {
+      "root": "scales-data-a",
+      "pages": [{ "path": "index", "style": { "navigationBarTitleText": "" } }]
+    },
+    {
+      "root": "scales-data-b",
+      "pages": [{ "path": "index", "style": { "navigationBarTitleText": "" } }]
+    },
+    {
+      "root": "scales-data-c",
+      "pages": [{ "path": "index", "style": { "navigationBarTitleText": "" } }]
+    }
+  ],
+  "preloadRule": {
+    "pages/home/index": {
+      "network": "all",
+      "packages": ["scales-data-a", "scales-data-b", "scales-data-c"]
+    }
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "MindQuest",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f8f7fc",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#8e8e93",
+    "selectedColor": "#7da2f7",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "量表库",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/history/index",
+        "text": "历史",
+        "iconPath": "static/tab-history.png",
+        "selectedIconPath": "static/tab-history-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/tab-profile.png",
+        "selectedIconPath": "static/tab-profile-active.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "id": "prmq",
+    "name": "PRMQ Prospective and Retrospective Memory Questionnaire",
+    "fullName": "Prospective and Retrospective Memory Questionnaire",
+    "description": "The PRMQ is a 16-item self-report measure that assesses the frequency of everyday memory failures. It distinguishes between prospective memory (remembering to do things in the future) and retrospective memory (recalling past events and information).",
+    "author": "Smith et al. (2000)",
+    "license": "Free to use",
+    "reference": "Smith G, Della Sala S, Logie RH, Maylor EA. Prospective and retrospective memory in normal ageing and dementia: a questionnaire study. Mem Cognit. 2000;28(6):881-889.",
+    "instruction": "The following questions are about the kinds of memory mistakes that everyone makes from time to time. Please indicate how often each of these things happens to you.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Never"
+    },
+    {
+      "value": 2,
+      "label": "Rarely"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes"
+    },
+    {
+      "value": 4,
+      "label": "Quite often"
+    },
+    {
+      "value": 5,
+      "label": "Very often"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Do you decide to do something in a few minutes' time and then forget to do it?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Do you fail to recognize a place you have visited before?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Do you fail to do something you were supposed to do a few minutes later even though it's there in front of you?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Do you forget something that you were told a few minutes before?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Do you forget appointments if you are not prompted by someone else or by a reminder?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Do you fail to recognize a character in a radio or television show from scene to scene?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Do you forget to buy something you planned to buy, like a birthday card, even when you see the shop?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Do you fail to recall things that have happened to you in the last few days?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Do you repeat the same story to the same person on different occasions?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Do you intend to take something with you but minutes later leave it behind?",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Do you mislay something that you have just put down, like a magazine or glasses?",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Do you fail to mention or give something to a visitor that you were asked to pass on?",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Do you look at something without realizing you have seen it moments before?",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "If you tried to contact a friend or relative who was out, would you forget to try again later?",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Do you forget what you watched on television the previous day?",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Do you forget to tell someone something you had meant to mention a few minutes ago?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 80,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "prospective",
+        "name": "Prospective Memory",
+        "items": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "maxScore": 40
+      },
+      {
+        "id": "retrospective",
+        "name": "Retrospective Memory",
+        "items": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15
+        ],
+        "maxScore": 40
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 32,
+        "level": "minimal",
+        "label": "Good Memory",
+        "description": "Your overall memory performance appears to be good, with infrequent memory failures in daily life.",
+        "suggestions": [
+          "Continue maintaining your current memory strategies",
+          "Keep up mentally stimulating activities",
+          "Maintain healthy lifestyle habits that support cognitive function"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 48,
+        "level": "mild",
+        "label": "Average Memory",
+        "description": "Your memory performance is within the average range. You experience occasional memory lapses that are common in daily life.",
+        "suggestions": [
+          "Use external aids like calendars and reminder apps for important tasks",
+          "Establish consistent routines to support prospective memory",
+          "Stay mentally active through reading, puzzles, or learning new skills",
+          "Ensure adequate sleep, as it is critical for memory consolidation"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 64,
+        "level": "moderate",
+        "label": "Poor Memory",
+        "description": "Your score suggests you experience memory failures more frequently than average. This may affect daily functioning.",
+        "suggestions": [
+          "Implement systematic reminder strategies (phone alarms, sticky notes, to-do lists)",
+          "Minimize distractions when trying to remember important information",
+          "Ensure adequate sleep, as sleep is critical for memory consolidation",
+          "Consider whether stress or multitasking may be contributing to memory lapses"
+        ]
+      },
+      {
+        "min": 65,
+        "max": 80,
+        "level": "severe",
+        "label": "Very Poor Memory",
+        "description": "Your score indicates frequent memory failures that may significantly impact daily life.",
+        "suggestions": [
+          "Consider consulting a healthcare professional for a thorough memory assessment",
+          "Use multiple external memory aids consistently",
+          "Simplify routines and reduce cognitive load where possible",
+          "Discuss with a professional whether underlying factors may be involved"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "prospective": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "normal",
+          "label": "Good Prospective Memory",
+          "description": "You generally remember to carry out planned actions and future intentions."
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "Average Prospective Memory",
+          "description": "You occasionally forget to carry out planned actions, which is within the normal range."
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "moderate",
+          "label": "Poor Prospective Memory",
+          "description": "You frequently forget to carry out intended actions. Consider using external reminders."
+        },
+        {
+          "min": 33,
+          "max": 40,
+          "level": "severe",
+          "label": "Very Poor Prospective Memory",
+          "description": "You very frequently forget planned actions. Systematic use of external aids is strongly recommended."
+        }
+      ],
+      "retrospective": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "normal",
+          "label": "Good Retrospective Memory",
+          "description": "You generally recall past events and previously learned information well."
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "Average Retrospective Memory",
+          "description": "You occasionally have difficulty recalling past events, which is within the normal range."
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "moderate",
+          "label": "Poor Retrospective Memory",
+          "description": "You frequently have difficulty remembering past events and information."
+        },
+        {
+          "min": 33,
+          "max": 40,
+          "level": "severe",
+          "label": "Very Poor Retrospective Memory",
+          "description": "You very frequently have difficulty recalling past events. Consider seeking professional assessment."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "prospective",
+        "retrospective"
+      ],
+      "maxDisplayScore": 40
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Prospective Memory",
+          "max": 40
+        },
+        {
+          "name": "Retrospective Memory",
+          "max": 40
+        }
+      ]
+    }
+  }
+}

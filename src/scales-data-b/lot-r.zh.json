@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "id": "lot-r",
+    "name": "LOT-R 生活取向测验修订版",
+    "fullName": "Life Orientation Test-Revised",
+    "description": "LOT-R 是一份包含 10 个条目的自评量表（6项计分，4项填充），用于评估个体的乐观与悲观倾向，是最广泛使用的乐观人格特质测量工具。",
+    "author": "Scheier, Carver & Bridges (1994)",
+    "license": "Free for research use",
+    "reference": "Scheier MF, Carver CS, Bridges MW. Distinguishing optimism from neuroticism (and trait anxiety, self-mastery, and self-esteem): a reevaluation of the Life Orientation Test. J Pers Soc Psychol. 1994;67(6):1063-1078.",
+    "instruction": "请根据您的实际感受，评估以下陈述与您的契合程度。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "非常不同意"
+    },
+    {
+      "value": 1,
+      "label": "不同意"
+    },
+    {
+      "value": 2,
+      "label": "中立"
+    },
+    {
+      "value": 3,
+      "label": "同意"
+    },
+    {
+      "value": 4,
+      "label": "非常同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "在不确定的时候，我通常期望最好的结果",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我很容易放松自己",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "如果事情可能出错，对我来说就会出错",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我总是对自己的未来持乐观态度",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我很喜欢和朋友们在一起",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "忙碌对我来说很重要",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我几乎不期望事情会按照我的方式发展",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我不容易感到不安",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我很少指望好事会发生在我身上",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "总的来说，我预期会有更多好事而不是坏事发生在我身上",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 24,
+    "maxItemScore": 4,
+    "reverseItems": [
+      2,
+      6,
+      8
+    ],
+    "scoredItems": [
+      0,
+      2,
+      3,
+      6,
+      8,
+      9
+    ],
+    "fillerItems": [
+      1,
+      4,
+      5,
+      7
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 8,
+        "level": "severe",
+        "label": "悲观倾向",
+        "description": "您的乐观倾向较低，倾向于对未来持悲观态度。",
+        "suggestions": [
+          "练习识别和挑战消极思维模式",
+          "设定小的、可实现的目标以建立信心",
+          "考虑认知行为疗法来调整思维方式",
+          "与积极的人多交往"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 16,
+        "level": "moderate",
+        "label": "中等乐观",
+        "description": "您的乐观倾向处于中等水平。",
+        "suggestions": [
+          "继续培养积极的思维方式",
+          "关注生活中的积极面",
+          "练习感恩以增强乐观情绪"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 24,
+        "level": "minimal",
+        "label": "乐观倾向",
+        "description": "您的乐观倾向较高，通常对未来持积极态度。",
+        "suggestions": [
+          "继续保持乐观的心态",
+          "在面对挑战时利用您的乐观作为力量",
+          "保持现实而积极的期望"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 24
+    }
+  }
+}

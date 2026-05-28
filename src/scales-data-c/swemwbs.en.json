@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "id": "swemwbs",
+    "name": "SWEMWBS Short Warwick-Edinburgh Mental Well-Being Scale",
+    "fullName": "Short Warwick-Edinburgh Mental Well-Being Scale",
+    "description": "The SWEMWBS is a 7-item scale derived from the full 14-item WEMWBS, measuring mental well-being with a focus on functioning rather than feeling. It provides a single score reflecting overall mental well-being over the past two weeks.",
+    "author": "Stewart-Brown, Tennant, Tennant, Platt, Parkinson & Weich (2009)",
+    "license": "Free to use",
+    "reference": "Stewart-Brown S, Tennant A, Tennant R, Platt S, Parkinson J, Weich S. Internal construct validity of the Warwick-Edinburgh Mental Well-Being Scale (WEMWBS): a Rasch analysis using data from the Scottish Health Education Population Survey. Health Qual Life Outcomes. 2009;7:15.",
+    "instruction": "Below are some statements about feelings and thoughts. Please select the option that best describes your experience of each over the last 2 weeks.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "None of the time"
+    },
+    {
+      "value": 2,
+      "label": "Rarely"
+    },
+    {
+      "value": 3,
+      "label": "Some of the time"
+    },
+    {
+      "value": 4,
+      "label": "Often"
+    },
+    {
+      "value": 5,
+      "label": "All of the time"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I've been feeling optimistic about the future",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I've been feeling useful",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I've been feeling relaxed",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I've been dealing with problems well",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I've been thinking clearly",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I've been feeling close to other people",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I've been able to make up my own mind about things",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 35,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 7,
+        "max": 14,
+        "level": "severe",
+        "label": "Low Well-Being",
+        "description": "Your mental well-being score is low, suggesting you may be experiencing significant difficulties in your day-to-day functioning and emotional health.",
+        "suggestions": [
+          "Consider seeking support from a mental health professional",
+          "Talk to a trusted friend, family member, or support service",
+          "Try to establish small daily routines that bring structure",
+          "Be kind to yourself; recovery takes time"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 21,
+        "level": "moderate",
+        "label": "Below Average Well-Being",
+        "description": "Your mental well-being is below average. You may be finding some aspects of daily life challenging.",
+        "suggestions": [
+          "Identify activities that give you a sense of accomplishment or enjoyment",
+          "Stay connected with others and maintain social relationships",
+          "Consider mindfulness or relaxation practices",
+          "If you are struggling, do not hesitate to seek professional support"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 28,
+        "level": "mild",
+        "label": "Above Average Well-Being",
+        "description": "Your mental well-being is above average. You generally feel positive about your functioning and relationships.",
+        "suggestions": [
+          "Continue engaging in activities that support your well-being",
+          "Maintain your social connections",
+          "Practice gratitude and positive thinking",
+          "Stay physically active to maintain good mental health"
+        ]
+      },
+      {
+        "min": 29,
+        "max": 35,
+        "level": "minimal",
+        "label": "High Well-Being",
+        "description": "Your mental well-being is high. You feel optimistic, capable, and connected to others.",
+        "suggestions": [
+          "Keep up the positive habits that support your well-being",
+          "Consider helping others to further enhance your sense of purpose",
+          "Continue to nurture your relationships and personal growth"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 7,
+      "max": 35
+    }
+  }
+}

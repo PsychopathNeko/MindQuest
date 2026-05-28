@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "isi",
+    "name": "ISI 失眠严重指数",
+    "fullName": "Insomnia Severity Index",
+    "description": "ISI 是一份包含 7 个条目的自评量表，用于评估失眠的性质、严重程度和影响，广泛应用于临床和研究中的失眠筛查。",
+    "author": "Morin CM (1993)",
+    "license": "Free for clinical use",
+    "reference": "Bastien CH, Vallieres A, Morin CM. Validation of the Insomnia Severity Index as an outcome measure for insomnia research. Sleep Med. 2001;2(4):297-307.",
+    "instruction": "请评估您过去两周内失眠问题的严重程度。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "没有"
+    },
+    {
+      "value": 1,
+      "label": "轻微"
+    },
+    {
+      "value": 2,
+      "label": "中等"
+    },
+    {
+      "value": 3,
+      "label": "严重"
+    },
+    {
+      "value": 4,
+      "label": "非常严重"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "入睡困难的严重程度",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "维持睡眠困难的严重程度",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "早醒问题的严重程度",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "您对目前的睡眠模式满意/不满意的程度如何",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您的失眠问题在多大程度上影响了您的日常功能（如疲劳、注意力、记忆力、情绪等）",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "他人在多大程度上注意到您的失眠问题影响了您的生活质量",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "您对目前的失眠问题担忧/苦恼的程度如何",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 28,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 7,
+        "level": "minimal",
+        "label": "无临床意义的失眠",
+        "description": "您的失眠严重程度很低，没有临床意义的失眠。",
+        "suggestions": [
+          "继续保持良好的睡眠习惯",
+          "保持规律的作息时间"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 14,
+        "level": "mild",
+        "label": "轻度失眠",
+        "description": "您存在轻度失眠，可能对日常生活有轻微影响。",
+        "suggestions": [
+          "改善睡眠卫生习惯",
+          "避免睡前使用电子设备",
+          "减少咖啡因和酒精摄入",
+          "如症状持续，建议咨询医生"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 21,
+        "level": "moderate",
+        "label": "中度失眠",
+        "description": "您存在中度失眠，可能明显影响日常功能。",
+        "suggestions": [
+          "建议咨询睡眠医学专业人士",
+          "考虑认知行为治疗失眠的方法（CBT-I）",
+          "保持规律的睡眠时间表",
+          "避免白天补觉"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 28,
+        "level": "severe",
+        "label": "重度失眠",
+        "description": "您存在重度失眠，严重影响日常功能和生活质量。",
+        "suggestions": [
+          "请尽快就医，咨询睡眠医学专科医生",
+          "可能需要药物治疗结合心理治疗",
+          "注意失眠可能伴随的其他健康问题"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 28
+    }
+  }
+}

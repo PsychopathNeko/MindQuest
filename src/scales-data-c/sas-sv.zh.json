@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "id": "sas-sv",
+    "name": "SAS-SV 智能手机成瘾量表简版",
+    "fullName": "Smartphone Addiction Scale - Short Version",
+    "description": "SAS-SV 是一份 10 题简版量表，用于评估智能手机过度使用和成瘾倾向。",
+    "author": "Kwon et al. (2013)",
+    "license": "Free to use",
+    "reference": "Kwon M, et al. The smartphone addiction scale: development and validation of a short version for adolescents. PLoS One. 2013;8(12):e83558.",
+    "instruction": "请根据你的实际情况，选择最符合你手机使用行为的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "有点同意"
+    },
+    {
+      "value": 5,
+      "label": "同意"
+    },
+    {
+      "value": 6,
+      "label": "非常同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "因为使用手机而耽误了计划中的工作或学习",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "因为使用手机而难以集中注意力上课、做作业或工作",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "使用手机时感到手腕或脖子后面疼痛",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "觉得自己无法忍受没有手机的生活",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "不拿着手机就会感到急躁和焦虑",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "即使不在使用手机，脑海中也总是想着手机",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "即使手机使用已经严重影响了日常生活，我也不会放弃使用",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "不断查看手机以免错过社交平台上的对话或动态",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "使用手机的时间总是比预期的更长",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "周围的人告诉我，我使用手机太多了",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 60,
+    "maxItemScore": 6,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的手机使用处于健康范围。",
+        "suggestions": [
+          "继续保持良好的手机使用习惯",
+          "定期检查自己的屏幕使用时间"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 33,
+        "level": "mild",
+        "label": "轻度风险",
+        "description": "您可能存在一些过度使用手机的倾向，但尚未对生活造成显著影响。",
+        "suggestions": [
+          "设定手机使用时间限制",
+          "用餐和睡前放下手机",
+          "开启勿扰模式专注工作学习",
+          "尝试不带手机外出散步"
+        ]
+      },
+      {
+        "min": 34,
+        "max": 45,
+        "level": "moderate",
+        "label": "中度风险",
+        "description": "您的手机使用可能已经对日常生活和健康产生了一定影响。",
+        "suggestions": [
+          "使用手机自带的屏幕时间管理功能",
+          "建立无手机区域（如卧室、餐桌）",
+          "寻找替代性的休闲活动",
+          "注意手机使用对颈椎和眼睛的影响",
+          "如感到无法自控，建议咨询专业人士"
+        ]
+      },
+      {
+        "min": 46,
+        "max": 60,
+        "level": "severe",
+        "label": "高度风险",
+        "description": "您的手机使用已达到过度依赖水平，严重影响日常功能和身心健康。",
+        "suggestions": [
+          "强烈建议寻求专业帮助",
+          "制定详细的手机使用限制计划",
+          "请家人朋友协助监督",
+          "考虑使用功能较少的备用手机度过戒断期"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 60
+    }
+  }
+}

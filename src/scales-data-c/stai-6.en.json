@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "id": "stai-6",
+    "name": "STAI-6 State Anxiety Inventory Short Form",
+    "fullName": "State-Trait Anxiety Inventory 6-Item Short Form",
+    "description": "The STAI-6 is a 6-item short form of the Spielberger State-Trait Anxiety Inventory (STAI) state scale. It provides a rapid and reliable measure of state anxiety, suitable for repeated assessments and time-limited settings while maintaining good psychometric properties.",
+    "author": "Marteau & Bekker (1992)",
+    "license": "Free to use",
+    "reference": "Marteau TM, Bekker H. The development of a six-item short-form of the state scale of the Spielberger State-Trait Anxiety Inventory (STAI). Br J Clin Psychol. 1992;31(3):301-306.",
+    "instruction": "A number of statements which people have used to describe themselves are given below. Read each statement and then select the most appropriate response to indicate how you feel right now, at this moment.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Not at all"
+    },
+    {
+      "value": 2,
+      "label": "Somewhat"
+    },
+    {
+      "value": 3,
+      "label": "Moderately so"
+    },
+    {
+      "value": 4,
+      "label": "Very much so"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I feel calm",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I am tense",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I feel upset",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am relaxed",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I feel content",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I am worried",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 24,
+    "maxItemScore": 4,
+    "minItemScore": 1,
+    "reverseItems": [
+      0,
+      3,
+      4
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 10,
+        "level": "minimal",
+        "label": "Low Anxiety",
+        "description": "Your state anxiety level is low. You appear to be feeling calm and relaxed at this moment.",
+        "suggestions": [
+          "Continue maintaining your current state of calm",
+          "Practice regular relaxation techniques to sustain well-being",
+          "Note what strategies help you feel at ease for future reference"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 14,
+        "level": "mild",
+        "label": "Mild Anxiety",
+        "description": "You are experiencing mild state anxiety. This is a common level that most people experience in everyday situations.",
+        "suggestions": [
+          "Try deep breathing or progressive muscle relaxation",
+          "Identify any immediate stressors and address them if possible",
+          "Engage in a brief mindfulness exercise"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 18,
+        "level": "moderate",
+        "label": "Moderate Anxiety",
+        "description": "Your current anxiety level is moderate. You may benefit from using coping strategies to manage your state of tension.",
+        "suggestions": [
+          "Practice grounding techniques (e.g., 5-4-3-2-1 sensory exercise)",
+          "Take a break from the situation causing anxiety if possible",
+          "Consider talking to someone about what you are feeling",
+          "Use structured relaxation exercises"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "severe",
+        "label": "High Anxiety",
+        "description": "Your state anxiety level is high. You are experiencing significant tension and worry at this moment, which may impair your functioning.",
+        "suggestions": [
+          "Seek immediate support from a trusted person or professional",
+          "Practice calming strategies such as slow, deep breathing",
+          "Remove yourself from overwhelming situations if safe to do so",
+          "Consider consulting a mental health professional if this level persists"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 24
+    }
+  }
+}

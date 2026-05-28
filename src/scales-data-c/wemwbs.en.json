@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "wemwbs",
+    "name": "WEMWBS Warwick-Edinburgh Mental Well-Being Scale",
+    "fullName": "Warwick-Edinburgh Mental Well-Being Scale",
+    "description": "The WEMWBS is a 14-item scale measuring positive mental well-being, covering subjective well-being and psychological functioning.",
+    "author": "Tennant et al. (2007)",
+    "license": "Free to use",
+    "reference": "Tennant R, et al. The Warwick-Edinburgh Mental Well-being Scale (WEMWBS). Health Qual Life Outcomes. 2007;5:63.",
+    "instruction": "Below are some statements about feelings and thoughts. Please select the option that best describes your experience over the past 2 weeks.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "None of the time"
+    },
+    {
+      "value": 2,
+      "label": "Rarely"
+    },
+    {
+      "value": 3,
+      "label": "Some of the time"
+    },
+    {
+      "value": 4,
+      "label": "Often"
+    },
+    {
+      "value": 5,
+      "label": "All of the time"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I have been feeling optimistic about the future",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I have been feeling useful",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I have been feeling relaxed",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I have been feeling interested in other people",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I have had energy to spare",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I have been dealing with problems well",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I have been thinking clearly",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I have been feeling good about myself",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I have been feeling close to other people",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I have been feeling confident",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I have been able to make up my own mind about things",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I have been feeling loved",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I have been interested in new things",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I have been feeling cheerful",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 70,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 14,
+        "max": 31,
+        "level": "severe",
+        "label": "Very Low Well-Being",
+        "description": "Your mental well-being score is very low.",
+        "suggestions": [
+          "Consider seeking professional support",
+          "Focus on basic self-care",
+          "Reach out to trusted people",
+          "Small daily activities can help"
+        ]
+      },
+      {
+        "min": 32,
+        "max": 40,
+        "level": "mild",
+        "label": "Below Average",
+        "description": "Your mental well-being is below average.",
+        "suggestions": [
+          "Identify joyful activities",
+          "Strengthen social connections",
+          "Practice gratitude",
+          "Consider counseling"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 44,
+        "level": "normal",
+        "label": "Average",
+        "description": "Your mental well-being is average.",
+        "suggestions": [
+          "Continue positive habits",
+          "Stay connected",
+          "Keep engaging in meaningful activities"
+        ]
+      },
+      {
+        "min": 45,
+        "max": 70,
+        "level": "minimal",
+        "label": "Above Average",
+        "description": "Your mental well-being is above average.",
+        "suggestions": [
+          "Continue current practices",
+          "Share strategies with others",
+          "Stay engaged in purposeful activities"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 14,
+      "max": 70
+    }
+  }
+}

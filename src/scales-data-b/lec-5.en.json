@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "lec-5",
+    "name": "LEC-5 Life Events Checklist",
+    "fullName": "Life Events Checklist for DSM-5",
+    "description": "The LEC-5 is a 17-item screening tool to assess exposure to potentially traumatic events, designed as a companion instrument to the PCL-5.",
+    "author": "Weathers et al. (2013)",
+    "license": "Public Domain",
+    "reference": "Weathers FW, Blake DD, Schnurr PP, Kaloupek DG, Marx BP, Keane TM. The Life Events Checklist for DSM-5 (LEC-5). National Center for PTSD; 2013.",
+    "instruction": "Listed below are a number of difficult or stressful things that sometimes happen to people. For each event, please indicate whether it happened to you.",
+    "population": "General population (16+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Happened to me"
+    },
+    {
+      "value": 0,
+      "label": "Did not happen"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Natural disaster (e.g., flood, hurricane, tornado, earthquake)",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Fire or explosion",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Transportation accident (e.g., car accident, boat accident, train wreck, plane crash)",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Serious accident at work, home, or during recreational activity",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Exposure to toxic substance (e.g., dangerous chemicals, radiation)",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Physical assault (e.g., being attacked, hit, slapped, kicked, beaten up)",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Assault with a weapon (e.g., being shot, stabbed, threatened with a knife, gun, bomb)",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Sexual assault (rape, attempted rape, made to perform any type of sexual act through force or threat of harm)",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Other unwanted or uncomfortable sexual experience",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Combat or exposure to a war-zone (in the military or as a civilian)",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Captivity (e.g., being kidnapped, abducted, held hostage, prisoner of war)",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Life-threatening illness or injury",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Severe human suffering",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Sudden violent death (e.g., homicide, suicide)",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Sudden accidental death",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Serious injury, harm, or death you caused to someone else",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Any other very stressful event or experience",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 17,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 0,
+        "level": "minimal",
+        "label": "No Trauma Exposure",
+        "description": "You did not report experiencing any potentially traumatic events.",
+        "suggestions": [
+          "This is a good result",
+          "If you have other mental health concerns, professional help is still available"
+        ]
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "level": "mild",
+        "label": "Low Trauma Exposure",
+        "description": "You have experienced a small number of potentially traumatic events.",
+        "suggestions": [
+          "If these events still bother you, consider speaking with a professional",
+          "Monitor your mental health",
+          "Practice healthy coping strategies"
+        ]
+      },
+      {
+        "min": 4,
+        "max": 8,
+        "level": "moderate",
+        "label": "Moderate Trauma Exposure",
+        "description": "You have experienced several potentially traumatic events.",
+        "suggestions": [
+          "Consider a further mental health assessment",
+          "If you have PTSD symptoms, consult a professional",
+          "Consider completing the PCL-5 to assess PTSD symptoms"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 17,
+        "level": "severe",
+        "label": "High Trauma Exposure",
+        "description": "You have experienced many potentially traumatic events. A detailed mental health evaluation is recommended.",
+        "suggestions": [
+          "A comprehensive mental health assessment is strongly recommended",
+          "Connect with a trauma-specialized therapist",
+          "If needed, contact a crisis helpline (e.g., 988 Suicide & Crisis Lifeline)"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 17
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "id": "pwi",
+    "name": "PWI Personal Wellbeing Index",
+    "fullName": "Personal Wellbeing Index",
+    "description": "The PWI is a 7-item scale that measures subjective wellbeing across seven quality of life domains. Each item corresponds to a life domain and is rated on an 11-point scale from 0 (completely dissatisfied) to 10 (completely satisfied).",
+    "author": "International Wellbeing Group (2013)",
+    "license": "Free to use",
+    "reference": "International Wellbeing Group. Personal Wellbeing Index. 5th Edition. Melbourne: Australian Centre on Quality of Life, Deakin University; 2013.",
+    "instruction": "The following questions ask how satisfied you feel, on a scale from 0 to 10, about different aspects of your life.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "0 (Completely dissatisfied)"
+    },
+    {
+      "value": 1,
+      "label": "1"
+    },
+    {
+      "value": 2,
+      "label": "2"
+    },
+    {
+      "value": 3,
+      "label": "3"
+    },
+    {
+      "value": 4,
+      "label": "4"
+    },
+    {
+      "value": 5,
+      "label": "5 (Neutral)"
+    },
+    {
+      "value": 6,
+      "label": "6"
+    },
+    {
+      "value": 7,
+      "label": "7"
+    },
+    {
+      "value": 8,
+      "label": "8"
+    },
+    {
+      "value": 9,
+      "label": "9"
+    },
+    {
+      "value": 10,
+      "label": "10 (Completely satisfied)"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "How satisfied are you with your standard of living?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "How satisfied are you with your health?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "How satisfied are you with what you are achieving in life?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "How satisfied are you with your personal relationships?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "How satisfied are you with how safe you feel?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "How satisfied are you with feeling part of your community?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "How satisfied are you with your future security?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 70,
+    "maxItemScore": 10,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 17,
+        "level": "severe",
+        "label": "Very Low Wellbeing",
+        "description": "Your personal wellbeing score is very low, indicating significant dissatisfaction across multiple life domains.",
+        "suggestions": [
+          "Consider seeking professional support from a counselor or psychologist",
+          "Identify the life domains causing the most dissatisfaction",
+          "Focus on basic self-care: adequate sleep, nutrition, and physical activity",
+          "Set small, achievable goals to build a sense of progress"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 35,
+        "level": "moderate",
+        "label": "Low Wellbeing",
+        "description": "Your personal wellbeing score is below average. You may be experiencing dissatisfaction in several important life areas.",
+        "suggestions": [
+          "Reflect on which life domains need the most attention",
+          "Develop an action plan to address areas of dissatisfaction",
+          "Strengthen social connections and seek support",
+          "Engage in activities that bring you joy and meaning"
+        ]
+      },
+      {
+        "min": 36,
+        "max": 52,
+        "level": "mild",
+        "label": "Moderate Wellbeing",
+        "description": "Your personal wellbeing is at a moderate level. You experience reasonable satisfaction in most areas.",
+        "suggestions": [
+          "Continue nurturing the areas where you feel most satisfied",
+          "Identify specific domains for improvement and set goals",
+          "Maintain regular social engagement and community involvement",
+          "Practice gratitude and focus on positive aspects of your life"
+        ]
+      },
+      {
+        "min": 53,
+        "max": 70,
+        "level": "minimal",
+        "label": "High Wellbeing",
+        "description": "Your personal wellbeing score is high, indicating strong satisfaction across most life domains.",
+        "suggestions": [
+          "Continue maintaining the habits and relationships that support your wellbeing",
+          "Share your positive experiences and strategies with others",
+          "Stay engaged with your community and personal goals"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 70
+    }
+  }
+}

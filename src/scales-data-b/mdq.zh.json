@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "id": "mdq",
+    "name": "MDQ 心境障碍问卷",
+    "fullName": "Mood Disorder Questionnaire",
+    "description": "MDQ 是一份包含 13 个条目的筛查工具，用于识别可能存在双相障碍的个体。评分为前13题\"是\"的数量，7分及以上提示双相障碍可能。",
+    "author": "Hirschfeld et al. (2000)",
+    "license": "Free for clinical use",
+    "reference": "Hirschfeld RM, Williams JB, Spitzer RL, et al. Development and validation of a screening instrument for bipolar spectrum disorder: the Mood Disorder Questionnaire. Am J Psychiatry. 2000;157(11):1873-1875.",
+    "instruction": "以下问题涉及您是否曾经在同一时期内有过以下经历，请回答是或否。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "是"
+    },
+    {
+      "value": 0,
+      "label": "否"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "您是否曾经有过一段时间，感觉自己的心情非常好或兴奋，以至于其他人认为您不正常，或者您的兴奋导致了麻烦",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "您是否曾经有过一段时间，非常易怒，以至于会大声叫喊、与人争吵或打架",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "您是否曾经有过一段时间，自信心比平时强很多",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "您是否曾经有过一段时间，睡眠比平时少很多但仍然不觉得累",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您是否曾经有过一段时间，说话比平时多很多或说话速度很快",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "您是否曾经有过一段时间，思维飞速运转，无法减慢",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "您是否曾经有过一段时间，很容易被周围的事物分散注意力，以至于难以集中精力或坚持做一件事",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "您是否曾经有过一段时间，精力比平时充沛很多",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "您是否曾经有过一段时间，比平时更加活跃或做的事情比平时多很多",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "您是否曾经有过一段时间，比平时更喜欢社交或外出，例如半夜给朋友打电话",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "您是否曾经有过一段时间，对性的兴趣比平时强烈很多",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "您是否曾经有过一段时间，做了一些不寻常的事情，或者别人认为过分、愚蠢或冒险的事情",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "您是否曾经有过一段时间，花钱花得让自己或家人陷入困境",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 13,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "双相障碍可能性较低",
+        "description": "您的得分未达到双相障碍筛查阈值。",
+        "suggestions": [
+          "如有情绪困扰，仍可咨询专业人士",
+          "关注情绪变化规律"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 6,
+        "level": "mild",
+        "label": "双相障碍可能性边缘",
+        "description": "您的得分接近筛查阈值，建议关注。",
+        "suggestions": [
+          "建议咨询心理健康专业人士进行进一步评估",
+          "监测情绪变化模式"
+        ]
+      },
+      {
+        "min": 7,
+        "max": 13,
+        "level": "severe",
+        "label": "双相障碍可能性较高",
+        "description": "您的得分达到筛查阈值，提示可能存在双相障碍。请注意，这不是诊断，需要专业评估确认。",
+        "suggestions": [
+          "强烈建议尽快咨询精神科医生",
+          "详细记录情绪变化模式以便就诊时提供信息",
+          "不要自行诊断，尊重专业评估结果"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 13
+    }
+  }
+}

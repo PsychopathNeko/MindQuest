@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "id": "lot-r",
+    "name": "LOT-R Life Orientation Test",
+    "fullName": "Life Orientation Test-Revised",
+    "description": "The LOT-R is a 10-item self-report measure (6 scored, 4 fillers) assessing dispositional optimism vs. pessimism. It is the most widely used measure of optimism as a personality trait.",
+    "author": "Scheier, Carver & Bridges (1994)",
+    "license": "Free for research use",
+    "reference": "Scheier MF, Carver CS, Bridges MW. Distinguishing optimism from neuroticism (and trait anxiety, self-mastery, and self-esteem): a reevaluation of the Life Orientation Test. J Pers Soc Psychol. 1994;67(6):1063-1078.",
+    "instruction": "Please indicate how much you agree with each statement.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Strongly disagree"
+    },
+    {
+      "value": 1,
+      "label": "Disagree"
+    },
+    {
+      "value": 2,
+      "label": "Neutral"
+    },
+    {
+      "value": 3,
+      "label": "Agree"
+    },
+    {
+      "value": 4,
+      "label": "Strongly agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "In uncertain times, I usually expect the best",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "It is easy for me to relax",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "If something can go wrong for me, it will",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am always optimistic about my future",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I enjoy my friends a lot",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "It is important for me to keep busy",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I hardly ever expect things to go my way",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I do not get upset too easily",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I rarely count on good things happening to me",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Overall, I expect more good things to happen to me than bad",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 24,
+    "maxItemScore": 4,
+    "reverseItems": [
+      2,
+      6,
+      8
+    ],
+    "scoredItems": [
+      0,
+      2,
+      3,
+      6,
+      8,
+      9
+    ],
+    "fillerItems": [
+      1,
+      4,
+      5,
+      7
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 8,
+        "level": "severe",
+        "label": "Pessimistic Orientation",
+        "description": "Your optimism level is low, tending toward a pessimistic outlook.",
+        "suggestions": [
+          "Practice identifying and challenging negative thought patterns",
+          "Set small achievable goals to build confidence",
+          "Consider cognitive behavioral therapy"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 16,
+        "level": "moderate",
+        "label": "Moderate Optimism",
+        "description": "Your optimism level is moderate.",
+        "suggestions": [
+          "Continue developing positive thinking habits",
+          "Focus on the positive aspects of your life",
+          "Practice gratitude to enhance optimism"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 24,
+        "level": "minimal",
+        "label": "Optimistic Orientation",
+        "description": "Your optimism level is high, generally maintaining a positive outlook.",
+        "suggestions": [
+          "Continue maintaining your optimistic mindset",
+          "Use your optimism as a strength when facing challenges",
+          "Maintain realistic yet positive expectations"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 24
+    }
+  }
+}

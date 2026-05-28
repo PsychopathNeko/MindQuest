@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "id": "ces-d",
+    "name": "CES-D 流调学研究中心抑郁量表",
+    "fullName": "Center for Epidemiologic Studies Depression Scale",
+    "description": "CES-D 是一份20题的抑郁自评量表，专为一般人群设计，测量过去一周内抑郁症状出现的频率。它是流行病学研究中使用最广泛的抑郁筛查工具之一。",
+    "author": "Radloff (1977)",
+    "license": "Public Domain",
+    "reference": "Radloff LS. The CES-D Scale: A self-report depression scale for research in the general population. Appl Psychol Meas. 1977;1(3):385-401.",
+    "instruction": "以下是一些您可能有过的感受或行为方式，请指出在过去一周内您有这种感觉的频率。",
+    "population": "一般人群（15岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "很少或没有（不到1天）"
+    },
+    {
+      "value": 1,
+      "label": "有时（1-2天）"
+    },
+    {
+      "value": 2,
+      "label": "时常（3-4天）"
+    },
+    {
+      "value": 3,
+      "label": "多数时间或持续（5-7天）"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我被一些平常不会困扰我的事情所困扰",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我不想吃东西，胃口不好",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "即使有家人或朋友帮助，我也无法摆脱忧郁",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我觉得自己和别人一样好",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我难以集中精力做事",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我感到抑郁",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我觉得做每件事都很费劲",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我对未来充满希望",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我觉得自己的人生是失败的",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我感到恐惧",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我睡眠不安稳",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我感到快乐",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我比平时说话少了",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我感到孤独",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "人们对我不友善",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我享受生活",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "我有哭泣的时候",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "我感到悲伤",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "我觉得别人不喜欢我",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "我提不起劲来做事",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 60,
+    "maxItemScore": 3,
+    "reverseItems": [
+      3,
+      7,
+      11,
+      15
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 15,
+        "level": "normal",
+        "label": "正常",
+        "description": "您的得分处于正常范围，未发现明显的抑郁症状。",
+        "suggestions": [
+          "继续保持健康的生活方式",
+          "保持规律的社交活动和运动",
+          "偶尔的情绪波动是生活中的正常现象"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 20,
+        "level": "mild",
+        "label": "轻度抑郁",
+        "description": "您的得分提示轻度抑郁症状，这些症状可能在一定程度上影响您的日常生活。",
+        "suggestions": [
+          "关注自己的情绪健康",
+          "保持规律的睡眠、运动和社交作息",
+          "尝试与信任的朋友或家人倾诉",
+          "如症状持续超过两周，建议咨询专业人士"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 25,
+        "level": "moderate",
+        "label": "中度抑郁",
+        "description": "您的得分提示中度抑郁症状，可能正在显著影响您的日常功能。",
+        "suggestions": [
+          "建议咨询心理健康专业人士",
+          "保持有规律的日常作息",
+          "坚持规律的体育锻炼",
+          "避免孤立自己，与支持您的人保持联系",
+          "可考虑心理治疗（如认知行为疗法）"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 60,
+        "level": "severe",
+        "label": "重度抑郁",
+        "description": "您的得分提示严重的抑郁症状，强烈建议寻求专业帮助。",
+        "suggestions": [
+          "请尽快咨询心理健康专业人士",
+          "如有自伤想法，请立即拨打心理危机热线：400-161-9995",
+          "不要独处，告知信任的人您的状况",
+          "专业治疗（包括心理治疗和/或药物治疗）效果显著"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 60
+    }
+  }
+}

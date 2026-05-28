@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "id": "phq-2",
+    "name": "PHQ-2 Patient Health Questionnaire",
+    "fullName": "Patient Health Questionnaire-2",
+    "description": "The PHQ-2 is an ultra-brief 2-item depression screening tool derived from the first two items of the PHQ-9 (anhedonia and depressed mood). It serves as a first-step screening instrument to identify individuals who may need further evaluation with the full PHQ-9.",
+    "author": "Kroenke, Spitzer & Williams (2003)",
+    "license": "Public Domain",
+    "reference": "Kroenke K, Spitzer RL, Williams JBW. The Patient Health Questionnaire-2: validity of a two-item depression screener. Med Care. 2003;41(11):1284-1292.",
+    "instruction": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "Several days"
+    },
+    {
+      "value": 2,
+      "label": "More than half the days"
+    },
+    {
+      "value": 3,
+      "label": "Nearly every day"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Little interest or pleasure in doing things",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Feeling down, depressed, or hopeless",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 6,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your score is within the normal range. No significant depressive symptoms detected by this brief screen.",
+        "suggestions": [
+          "Continue maintaining a healthy lifestyle",
+          "Keep up regular exercise and social activities",
+          "Occasional mood fluctuations are normal"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 6,
+        "level": "moderate",
+        "label": "Possible Depression",
+        "description": "Your score suggests possible depression. This brief screening indicates that further evaluation is recommended.",
+        "suggestions": [
+          "Consider completing the full PHQ-9 for a more detailed assessment",
+          "Consult a healthcare professional for a comprehensive evaluation",
+          "Pay attention to changes in your mood, sleep, and appetite",
+          "Maintain social connections and engage in activities you enjoy"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 6
+    }
+  }
+}

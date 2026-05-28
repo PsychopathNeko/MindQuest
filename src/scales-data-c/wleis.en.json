@@ -1,0 +1,387 @@
+{
+  "meta": {
+    "id": "wleis",
+    "name": "WLEIS Emotional Intelligence Scale",
+    "fullName": "Wong and Law Emotional Intelligence Scale",
+    "description": "The WLEIS is a 16-item self-report scale that assesses four dimensions of emotional intelligence: Self-Emotion Appraisal (SEA), Others’ Emotion Appraisal (OEA), Use of Emotion (UOE), and Regulation of Emotion (ROE). It is a concise and reliable measure widely used in organizational behavior and psychology research.",
+    "author": "Wong & Law (2002)",
+    "license": "Free for research use",
+    "reference": "Wong CS, Law KS. The effects of leader and follower emotional intelligence on performance and attitude: an exploratory study. Leadersh Q. 2002;13(3):243-274.",
+    "instruction": "Please rate each statement based on your true feelings.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Strongly Disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Slightly Disagree"
+    },
+    {
+      "value": 4,
+      "label": "Neutral"
+    },
+    {
+      "value": 5,
+      "label": "Slightly Agree"
+    },
+    {
+      "value": 6,
+      "label": "Agree"
+    },
+    {
+      "value": 7,
+      "label": "Strongly Agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I have a good sense of why I have certain feelings most of the time",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I have good understanding of my own emotions",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I really understand what I feel",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I always know whether or not I am happy",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I always know my friends’ emotions from their behavior",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I am a good observer of others’ emotions",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I am sensitive to the feelings and emotions of others",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I have good understanding of the emotions of people around me",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I always set goals for myself and then try my best to achieve them",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I always tell myself I am a competent person",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I am a self-motivated person",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I would always encourage myself to try my best",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I am able to control my temper and handle difficulties rationally",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I am quite capable of controlling my own emotions",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I can always calm down quickly when I am very angry",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I have good control of my own emotions",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 112,
+    "maxItemScore": 7,
+    "subscales": [
+      {
+        "id": "sea",
+        "name": "Self-Emotion Appraisal",
+        "items": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "oea",
+        "name": "Others’ Emotion Appraisal",
+        "items": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "uoe",
+        "name": "Use of Emotion",
+        "items": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "roe",
+        "name": "Regulation of Emotion",
+        "items": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "maxScore": 28
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 48,
+        "level": "severe",
+        "label": "Low EI",
+        "description": "Your emotional intelligence score is low. You may have difficulty identifying, understanding, and managing emotions.",
+        "suggestions": [
+          "Learn to identify and name your emotions",
+          "Practice observing others’ emotional cues",
+          "Develop self-motivation habits",
+          "Consider EI training or psychological counseling"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 80,
+        "level": "mild",
+        "label": "Moderate EI",
+        "description": "Your emotional intelligence is at a moderate level. There is room for improvement in certain EI dimensions.",
+        "suggestions": [
+          "Review subscale scores and target areas for improvement",
+          "Practice positive self-talk and emotion regulation",
+          "Pay more attention to others’ emotional expressions",
+          "Set goals and practice self-motivation"
+        ]
+      },
+      {
+        "min": 81,
+        "max": 96,
+        "level": "normal",
+        "label": "High EI",
+        "description": "Your emotional intelligence is high. You can understand and manage your own and others’ emotions well.",
+        "suggestions": [
+          "Continue maintaining strong emotional management skills",
+          "Use your EI to enhance relationship quality",
+          "Exercise emotional leadership at work and in life"
+        ]
+      },
+      {
+        "min": 97,
+        "max": 112,
+        "level": "minimal",
+        "label": "Very High EI",
+        "description": "Your emotional intelligence is very high. You excel in emotion recognition, understanding, utilization, and regulation.",
+        "suggestions": [
+          "Your high EI is a valuable social and professional resource",
+          "Help others improve their emotional management skills",
+          "Serve as an emotional guide in team settings"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "sea": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low self-emotion appraisal ability."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate self-emotion appraisal ability."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "moderate",
+          "label": "High",
+          "description": "High self-emotion appraisal ability."
+        },
+        {
+          "min": 25,
+          "max": 28,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high self-emotion appraisal ability."
+        }
+      ],
+      "oea": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low others’ emotion appraisal ability."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate others’ emotion appraisal ability."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "moderate",
+          "label": "High",
+          "description": "High others’ emotion appraisal ability."
+        },
+        {
+          "min": 25,
+          "max": 28,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high others’ emotion appraisal ability."
+        }
+      ],
+      "uoe": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low use of emotion ability."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate use of emotion ability."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "moderate",
+          "label": "High",
+          "description": "High use of emotion ability."
+        },
+        {
+          "min": 25,
+          "max": 28,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high use of emotion ability."
+        }
+      ],
+      "roe": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low regulation of emotion ability."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate regulation of emotion ability."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "moderate",
+          "label": "High",
+          "description": "High regulation of emotion ability."
+        },
+        {
+          "min": 25,
+          "max": 28,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high regulation of emotion ability."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "sea",
+        "oea",
+        "uoe",
+        "roe"
+      ],
+      "maxDisplayScore": 28
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Self-Emotion Appraisal",
+          "max": 28
+        },
+        {
+          "name": "Others’ Emotion Appraisal",
+          "max": 28
+        },
+        {
+          "name": "Use of Emotion",
+          "max": 28
+        },
+        {
+          "name": "Regulation of Emotion",
+          "max": 28
+        }
+      ]
+    }
+  }
+}

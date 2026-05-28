@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "id": "pswq",
+    "name": "PSWQ Penn State Worry Questionnaire",
+    "fullName": "Penn State Worry Questionnaire",
+    "description": "The PSWQ is a 16-item scale measuring trait worry, a core feature of generalized anxiety disorder.",
+    "author": "Meyer TJ, et al. (1990)",
+    "license": "Free to use",
+    "reference": "Meyer TJ, et al. Development and validation of the Penn State Worry Questionnaire. Behav Res Ther. 1990;28(6):487-495.",
+    "instruction": "Rate each of the following statements on a scale that best describes how typical each is of you.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Not at all typical of me"
+    },
+    {
+      "value": 2,
+      "label": "Not very typical of me"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat typical of me"
+    },
+    {
+      "value": 4,
+      "label": "Fairly typical of me"
+    },
+    {
+      "value": 5,
+      "label": "Very typical of me"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "If I do not have enough time to do everything, I do not worry about it.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "My worries overwhelm me.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I do not tend to worry about things.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Many situations make me worry.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I know I should not worry about things, but I just cannot help it.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "When I am under pressure I worry a lot.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I am always worrying about something.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I find it easy to dismiss worrisome thoughts.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "As soon as I finish one task, I start to worry about everything else I have to do.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I never worry about anything.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "When there is nothing more I can do about a concern, I do not worry about it any more.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I have been a worrier all my life.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I notice that I have been worrying about things.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Once I start worrying, I cannot stop.",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I worry all the time.",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I worry about projects until they are all done.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 80,
+    "maxItemScore": 5,
+    "minItemScore": 1,
+    "reverseItems": [
+      0,
+      2,
+      7,
+      9,
+      10
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 39,
+        "level": "minimal",
+        "label": "Low Worry",
+        "description": "Your worry level is low. Generalized anxiety is unlikely.",
+        "suggestions": [
+          "Continue maintaining your current mental health",
+          "Moderate worry is a normal coping mechanism"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 59,
+        "level": "moderate",
+        "label": "Moderate Worry",
+        "description": "You have a moderate tendency to worry, and may worry excessively in some situations.",
+        "suggestions": [
+          "Learn mindfulness meditation techniques to manage worry",
+          "Practice distinguishing productive from unproductive worry",
+          "Set designated 'worry time' to limit overthinking"
+        ]
+      },
+      {
+        "min": 60,
+        "max": 80,
+        "level": "severe",
+        "label": "High Worry",
+        "description": "You have a severe tendency to worry, consistent with features of generalized anxiety disorder.",
+        "suggestions": [
+          "Consider seeking professional psychological counseling or therapy",
+          "Cognitive Behavioral Therapy (CBT) is highly effective for excessive worry",
+          "Discuss medication options with a healthcare provider"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 16,
+      "max": 80
+    }
+  }
+}

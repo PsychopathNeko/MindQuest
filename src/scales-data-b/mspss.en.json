@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "id": "mspss",
+    "name": "MSPSS Perceived Social Support Scale",
+    "fullName": "Multidimensional Scale of Perceived Social Support",
+    "description": "The MSPSS is a 12-item self-report measure of perceived social support from three sources: family, friends, and a significant other.",
+    "author": "Zimet et al. (1988)",
+    "license": "Free for research use",
+    "reference": "Zimet GD, Dahlem NW, Zimet SG, Farley GK. The Multidimensional Scale of Perceived Social Support. J Pers Assess. 1988;52(1):30-41.",
+    "instruction": "Please read each statement carefully and indicate how you feel about each.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Very strongly disagree"
+    },
+    {
+      "value": 2,
+      "label": "Strongly disagree"
+    },
+    {
+      "value": 3,
+      "label": "Mildly disagree"
+    },
+    {
+      "value": 4,
+      "label": "Neutral"
+    },
+    {
+      "value": 5,
+      "label": "Mildly agree"
+    },
+    {
+      "value": 6,
+      "label": "Strongly agree"
+    },
+    {
+      "value": 7,
+      "label": "Very strongly agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "There is a special person who is around when I am in need",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "There is a special person with whom I can share my joys and sorrows",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "My family really tries to help me",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I get the emotional help and support I need from my family",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I have a special person who is a real source of comfort to me",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "My friends really try to help me",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I can count on my friends when things go wrong",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I can talk about my problems with my family",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I have friends with whom I can share my joys and sorrows",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "There is a special person in my life who cares about my feelings",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "My family is willing to help me make decisions",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I can talk about my problems with my friends",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 84,
+    "maxItemScore": 7,
+    "subscales": [
+      {
+        "id": "family",
+        "name": "Family",
+        "items": [
+          2,
+          3,
+          7,
+          10
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "friends",
+        "name": "Friends",
+        "items": [
+          5,
+          6,
+          8,
+          11
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "significant_other",
+        "name": "Significant Other",
+        "items": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "maxScore": 28
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 36,
+        "level": "severe",
+        "label": "Low Social Support",
+        "description": "Your perceived social support is low.",
+        "suggestions": [
+          "Try reaching out to family and friends more often",
+          "Consider joining interest groups or community organizations",
+          "If feeling isolated, consult a professional"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 60,
+        "level": "moderate",
+        "label": "Moderate Social Support",
+        "description": "Your perceived social support is moderate.",
+        "suggestions": [
+          "Check subscale scores to see which area needs strengthening",
+          "Actively strengthen connections with family and friends"
+        ]
+      },
+      {
+        "min": 61,
+        "max": 84,
+        "level": "minimal",
+        "label": "High Social Support",
+        "description": "Your perceived social support is high.",
+        "suggestions": [
+          "Continue maintaining your social network",
+          "Do not hesitate to seek help when needed",
+          "Also provide support to others"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "family": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "severe",
+          "label": "Low",
+          "description": "Perceived family support is low."
+        },
+        {
+          "min": 13,
+          "max": 20,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Perceived family support is moderate."
+        },
+        {
+          "min": 21,
+          "max": 28,
+          "level": "minimal",
+          "label": "High",
+          "description": "Perceived family support is high."
+        }
+      ],
+      "friends": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "severe",
+          "label": "Low",
+          "description": "Perceived friend support is low."
+        },
+        {
+          "min": 13,
+          "max": 20,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Perceived friend support is moderate."
+        },
+        {
+          "min": 21,
+          "max": 28,
+          "level": "minimal",
+          "label": "High",
+          "description": "Perceived friend support is high."
+        }
+      ],
+      "significant_other": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "severe",
+          "label": "Low",
+          "description": "Perceived significant other support is low."
+        },
+        {
+          "min": 13,
+          "max": 20,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Perceived significant other support is moderate."
+        },
+        {
+          "min": 21,
+          "max": 28,
+          "level": "minimal",
+          "label": "High",
+          "description": "Perceived significant other support is high."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "family",
+        "friends",
+        "significant_other"
+      ],
+      "maxDisplayScore": 28
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Family",
+          "max": 28
+        },
+        {
+          "name": "Friends",
+          "max": 28
+        },
+        {
+          "name": "Significant Other",
+          "max": 28
+        }
+      ]
+    }
+  }
+}

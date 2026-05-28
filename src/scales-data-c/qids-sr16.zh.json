@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "id": "qids-sr16",
+    "name": "QIDS-SR16 快速抑郁症状问卷",
+    "fullName": "快速抑郁症状自评量表-16项",
+    "description": "QIDS-SR16是一份16题的自评量表，详细评估DSM定义的九大抑郁症状域：悲伤情绪、注意力、自我评价、自杀意念、兴趣、精力、睡眠、食欲和精神运动变化。",
+    "author": "Rush AJ, et al. (2003)",
+    "license": "Public Domain",
+    "reference": "Rush AJ, et al. The 16-Item Quick Inventory of Depressive Symptomatology (QIDS), clinician rating (QIDS-C), and self-report (QIDS-SR): a psychometric evaluation in patients with chronic major depression. Biol Psychiatry. 2003;54(5):573-583.",
+    "instruction": "请根据过去七天的情况，选择最符合您状况的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "无/不适用"
+    },
+    {
+      "value": 1,
+      "label": "轻度"
+    },
+    {
+      "value": 2,
+      "label": "中度"
+    },
+    {
+      "value": 3,
+      "label": "重度"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "入睡困难：您需要多长时间才能入睡？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "夜间睡眠：您在夜间是否会醒来（不包括起夜）？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "早醒：您是否在计划起床时间之前就醒来？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "睡眠过多：您每天的睡眠时间是否过长（包括午睡）？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "悲伤情绪：您感到悲伤的频率和程度如何？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "食欲减退：您的食欲是否减退？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "食欲增加：您的食欲是否增加？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "体重减轻：您最近是否体重减轻（非刻意节食）？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "体重增加：您最近是否体重增加？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "注意力/决策：您集中注意力或做决定的能力如何？",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "自我评价：您如何看待自己？",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "自杀意念：您是否有关于死亡或自杀的想法？",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "兴趣：您对活动或人的兴趣程度如何？",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "精力/疲劳：您的精力水平如何？",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "精神运动迟缓：您是否感觉动作或说话变慢了？",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "精神运动性激越：您是否感到坐立不安或需要不停走动？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "domain_max",
+    "maxTotal": 27,
+    "maxItemScore": 3,
+    "domainGroups": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ],
+      [
+        11
+      ],
+      [
+        12
+      ],
+      [
+        13
+      ],
+      [
+        14,
+        15
+      ]
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "none",
+        "label": "无抑郁",
+        "description": "您的抑郁症状评分在正常范围内。",
+        "suggestions": [
+          "保持健康的生活习惯",
+          "继续维护社交关系和活动参与"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "mild",
+        "label": "轻度抑郁",
+        "description": "您有轻度抑郁症状。",
+        "suggestions": [
+          "增加体育活动和户外时间",
+          "保持规律的睡眠作息",
+          "与亲友保持联系"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 15,
+        "level": "moderate",
+        "label": "中度抑郁",
+        "description": "您有中度抑郁症状，建议进一步评估。",
+        "suggestions": [
+          "建议咨询心理健康专业人员",
+          "考虑心理治疗如认知行为治疗",
+          "关注自我照顾，确保基本需求得到满足"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 20,
+        "level": "severe",
+        "label": "重度抑郁",
+        "description": "您有重度抑郁症状，需要专业干预。",
+        "suggestions": [
+          "尽快寻求精神科医生评估",
+          "可能需要药物治疗结合心理治疗",
+          "确保有安全支持网络"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 27,
+        "level": "very_severe",
+        "label": "极重度抑郁",
+        "description": "您的抑郁症状非常严重，需要立即寻求帮助。",
+        "suggestions": [
+          "立即联系精神科医生或急诊",
+          "如有自杀念头请拨打心理危机热线",
+          "不要独处，告知亲友您的状况"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 27
+    }
+  },
+  "crisisConfig": {
+    "type": "item",
+    "items": [
+      {
+        "questionIndex": 11,
+        "threshold": 1
+      }
+    ]
+  }
+}

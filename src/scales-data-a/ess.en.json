@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "id": "ess",
+    "name": "ESS Epworth Sleepiness Scale",
+    "fullName": "Epworth Sleepiness Scale",
+    "description": "The ESS is an 8-item self-report questionnaire that measures general level of daytime sleepiness. Respondents rate the likelihood of dozing off in 8 common situations, widely used to screen for sleep disorders.",
+    "author": "Johns MW (1991)",
+    "license": "Free for clinical use",
+    "reference": "Johns MW. A new method for measuring daytime sleepiness: the Epworth sleepiness scale. Sleep. 1991;14(6):540-545.",
+    "instruction": "How likely are you to doze off or fall asleep in the following situations, in contrast to feeling just tired? This refers to your usual way of life in recent times. Even if you have not done some of these things recently, try to work out how they would have affected you.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Would never doze"
+    },
+    {
+      "value": 1,
+      "label": "Slight chance of dozing"
+    },
+    {
+      "value": 2,
+      "label": "Moderate chance of dozing"
+    },
+    {
+      "value": 3,
+      "label": "High chance of dozing"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Sitting and reading",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Watching TV",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Sitting, inactive in a public place (e.g., a theater or a meeting)",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "As a passenger in a car for an hour without a break",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Lying down to rest in the afternoon when circumstances permit",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Sitting and talking to someone",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Sitting quietly after a lunch without alcohol",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "In a car, while stopped for a few minutes in traffic",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 24,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "minimal",
+        "label": "Lower Normal Daytime Sleepiness",
+        "description": "Your daytime sleepiness level is within the normal range. You appear to be well-rested during the day.",
+        "suggestions": [
+          "Continue maintaining good sleep habits",
+          "Keep a regular sleep-wake schedule",
+          "Stay physically active to support sleep quality"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "mild",
+        "label": "Higher Normal Daytime Sleepiness",
+        "description": "Your daytime sleepiness level is average, at the higher end of the normal range.",
+        "suggestions": [
+          "Ensure you are getting 7-9 hours of sleep per night",
+          "Avoid electronic devices before bedtime",
+          "Consider whether stress or lifestyle factors affect your sleep",
+          "Consult a doctor if sleepiness affects your daily activities"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 12,
+        "level": "moderate",
+        "label": "Mild Excessive Daytime Sleepiness",
+        "description": "Your daytime sleepiness is mildly elevated. There may be an issue with sleep duration or quality.",
+        "suggestions": [
+          "Evaluate your sleep duration and quality",
+          "Rule out factors that may impair sleep (caffeine, alcohol, stress)",
+          "Consider consulting a sleep specialist",
+          "Keep a sleep diary to track patterns"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 15,
+        "level": "severe",
+        "label": "Moderate Excessive Daytime Sleepiness",
+        "description": "Your daytime sleepiness is moderately elevated. A sleep disorder may be present, and medical evaluation is recommended.",
+        "suggestions": [
+          "Consult a sleep medicine specialist soon",
+          "A polysomnography (sleep study) may be recommended",
+          "Be cautious when driving or operating machinery",
+          "Avoid tasks requiring high alertness until evaluated"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 24,
+        "level": "severe",
+        "label": "Severe Excessive Daytime Sleepiness",
+        "description": "Your daytime sleepiness is severely elevated. Please seek medical evaluation to rule out sleep apnea, narcolepsy, or other sleep disorders.",
+        "suggestions": [
+          "Seek immediate medical evaluation from a sleep specialist",
+          "Undergo a comprehensive sleep assessment",
+          "Avoid driving and hazardous activities until diagnosed and treated",
+          "Inform family members of your condition for safety"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 24
+    }
+  }
+}

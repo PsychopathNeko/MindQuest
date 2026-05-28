@@ -1,0 +1,565 @@
+{
+  "meta": {
+    "id": "perma",
+    "name": "PERMA Profiler",
+    "fullName": "PERMA Profiler",
+    "description": "The PERMA Profiler is a 23-item well-being measure based on Seligman's PERMA model, assessing Positive Emotion, Engagement, Relationships, Meaning, and Accomplishment.",
+    "author": "Butler & Kern (2016)",
+    "license": "Free to use",
+    "reference": "Butler J, Kern ML. The PERMA-Profiler: A brief multidimensional measure of flourishing. International Journal of Wellbeing. 2016;6(3):1-48.",
+    "instruction": "Please rate each of the following questions on a scale from 0 to 10 based on your honest feelings.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "0 - Never/Not at all"
+    },
+    {
+      "value": 1,
+      "label": "1"
+    },
+    {
+      "value": 2,
+      "label": "2"
+    },
+    {
+      "value": 3,
+      "label": "3"
+    },
+    {
+      "value": 4,
+      "label": "4"
+    },
+    {
+      "value": 5,
+      "label": "5 - Sometimes/Moderate"
+    },
+    {
+      "value": 6,
+      "label": "6"
+    },
+    {
+      "value": 7,
+      "label": "7"
+    },
+    {
+      "value": 8,
+      "label": "8"
+    },
+    {
+      "value": 9,
+      "label": "9"
+    },
+    {
+      "value": 10,
+      "label": "10 - Always/Completely"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "How often do you feel positive?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "How often do you become absorbed in what you are doing?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "How often do you feel loved?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "How often do you feel that what you do in your life is valuable and worthwhile?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "In general, to what extent do you feel contented?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "To what extent do you generally feel you have a sense of direction in your life?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "To what extent do you receive help and support from others when you need it?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "How often do you feel you are making progress towards accomplishing your goals?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "How often are you able to handle your responsibilities?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "In general, to what extent do you feel excited and interested in things?",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "In general, to what extent do you lead a purposeful and meaningful life?",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "In general, to what extent do you feel that what you do in your life is engaging?",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "How satisfied are you with your personal relationships?",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "How often do you achieve the important goals you have set for yourself?",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "In general, to what extent do you feel that you have a sense of purpose?",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "How often do you feel anxious?",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "How often do you feel angry?",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "How often do you feel sad?",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "In general, how would you say your health is?",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "How satisfied are you with your current physical health?",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "Compared to others of your same age and sex, how is your health?",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "To what extent do you feel lonely in your daily life?",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "In general, to what extent do you feel happy?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 230,
+    "maxItemScore": 10,
+    "reverseItems": [],
+    "subscales": [
+      {
+        "id": "positive_emotion",
+        "name": "Positive Emotion",
+        "items": [
+          0,
+          4,
+          11
+        ],
+        "maxScore": 30
+      },
+      {
+        "id": "engagement",
+        "name": "Engagement",
+        "items": [
+          1,
+          5,
+          9
+        ],
+        "maxScore": 30
+      },
+      {
+        "id": "relationships",
+        "name": "Relationships",
+        "items": [
+          2,
+          6,
+          12
+        ],
+        "maxScore": 30
+      },
+      {
+        "id": "meaning",
+        "name": "Meaning",
+        "items": [
+          3,
+          10,
+          14
+        ],
+        "maxScore": 30
+      },
+      {
+        "id": "accomplishment",
+        "name": "Accomplishment",
+        "items": [
+          7,
+          8,
+          13
+        ],
+        "maxScore": 30
+      },
+      {
+        "id": "negative_emotion",
+        "name": "Negative Emotion",
+        "items": [
+          15,
+          16,
+          17
+        ],
+        "maxScore": 30
+      },
+      {
+        "id": "health",
+        "name": "Health",
+        "items": [
+          18,
+          19,
+          20
+        ],
+        "maxScore": 30
+      },
+      {
+        "id": "loneliness",
+        "name": "Loneliness",
+        "items": [
+          21
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "happiness",
+        "name": "Overall Happiness",
+        "items": [
+          22
+        ],
+        "maxScore": 10
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 76,
+        "level": "minimal",
+        "label": "Low Well-being",
+        "description": "Your overall PERMA score is low, suggesting significant room for improvement in well-being.",
+        "suggestions": [
+          "Try keeping a daily gratitude journal to cultivate positive emotions",
+          "Seek activities that fully engage your attention and skills",
+          "Consider professional counseling for support"
+        ]
+      },
+      {
+        "min": 77,
+        "max": 153,
+        "level": "moderate",
+        "label": "Moderate Well-being",
+        "description": "Your well-being is at a moderate level, with some dimensions having room for growth.",
+        "suggestions": [
+          "Focus on improving dimensions where you scored lower",
+          "Strengthen social connections and relationship quality",
+          "Identify sources of meaning and purpose in your life"
+        ]
+      },
+      {
+        "min": 154,
+        "max": 230,
+        "level": "high",
+        "label": "High Well-being",
+        "description": "Your overall well-being is high, with balanced development across dimensions.",
+        "suggestions": [
+          "Continue maintaining your positive lifestyle",
+          "Helping others can further enhance your own well-being",
+          "Continue monitoring balance across all dimensions"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "positive_emotion": [
+        {
+          "min": 0,
+          "max": 10,
+          "level": "low",
+          "label": "Low",
+          "description": "You experience few positive emotions in daily life."
+        },
+        {
+          "min": 11,
+          "max": 20,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You experience some positive emotions, with room for growth."
+        },
+        {
+          "min": 21,
+          "max": 30,
+          "level": "high",
+          "label": "High",
+          "description": "You frequently experience positive emotions, feeling joyful and content."
+        }
+      ],
+      "engagement": [
+        {
+          "min": 0,
+          "max": 10,
+          "level": "low",
+          "label": "Low",
+          "description": "You lack engagement and immersion in daily activities."
+        },
+        {
+          "min": 11,
+          "max": 20,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You feel engaged in some activities, but not consistently."
+        },
+        {
+          "min": 21,
+          "max": 30,
+          "level": "high",
+          "label": "High",
+          "description": "You frequently experience flow and full engagement in activities."
+        }
+      ],
+      "relationships": [
+        {
+          "min": 0,
+          "max": 10,
+          "level": "low",
+          "label": "Low",
+          "description": "Your relationships are weak, lacking supportive social connections."
+        },
+        {
+          "min": 11,
+          "max": 20,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You have some social relationships, but closeness and support could be strengthened."
+        },
+        {
+          "min": 21,
+          "max": 30,
+          "level": "high",
+          "label": "High",
+          "description": "You have strong relationships and feel loved and supported."
+        }
+      ],
+      "meaning": [
+        {
+          "min": 0,
+          "max": 10,
+          "level": "low",
+          "label": "Low",
+          "description": "You rarely feel that your life has meaning and purpose."
+        },
+        {
+          "min": 11,
+          "max": 20,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You have some sense of meaning, but it is not fully clear."
+        },
+        {
+          "min": 21,
+          "max": 30,
+          "level": "high",
+          "label": "High",
+          "description": "You strongly feel that your life is meaningful with clear purpose."
+        }
+      ],
+      "accomplishment": [
+        {
+          "min": 0,
+          "max": 10,
+          "level": "low",
+          "label": "Low",
+          "description": "You rarely feel you are making progress or achieving goals."
+        },
+        {
+          "min": 11,
+          "max": 20,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You have some sense of accomplishment, with room for growth."
+        },
+        {
+          "min": 21,
+          "max": 30,
+          "level": "high",
+          "label": "High",
+          "description": "You frequently feel you are progressing and achieving meaningful goals."
+        }
+      ],
+      "negative_emotion": [
+        {
+          "min": 0,
+          "max": 10,
+          "level": "low",
+          "label": "Low",
+          "description": "You experience few negative emotions. Your emotional state is positive."
+        },
+        {
+          "min": 11,
+          "max": 20,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "You experience some negative emotions. Attention to emotional regulation is recommended."
+        },
+        {
+          "min": 21,
+          "max": 30,
+          "level": "high",
+          "label": "High",
+          "description": "You experience frequent negative emotions. Emotion management techniques or professional help is recommended."
+        }
+      ],
+      "health": [
+        {
+          "min": 0,
+          "max": 10,
+          "level": "low",
+          "label": "Low",
+          "description": "Your subjective health perception is poor."
+        },
+        {
+          "min": 11,
+          "max": 20,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Your health is fair. Attention to physical wellness is recommended."
+        },
+        {
+          "min": 21,
+          "max": 30,
+          "level": "high",
+          "label": "High",
+          "description": "Your subjective health perception is good and positive."
+        }
+      ],
+      "loneliness": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low loneliness. Your social connections are good."
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Some loneliness is present. Consider expanding your social circle."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "high",
+          "label": "High",
+          "description": "Significant loneliness. Actively seeking social support is recommended."
+        }
+      ],
+      "happiness": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Overall happiness is low with limited life satisfaction."
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Some happiness is present, with room for improvement."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "high",
+          "label": "High",
+          "description": "Overall happiness is high. You feel satisfied and joyful about life."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "positive_emotion",
+        "engagement",
+        "relationships",
+        "meaning",
+        "accomplishment",
+        "negative_emotion",
+        "health"
+      ],
+      "maxDisplayScore": 30
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Positive Emotion",
+          "max": 30
+        },
+        {
+          "name": "Engagement",
+          "max": 30
+        },
+        {
+          "name": "Relationships",
+          "max": 30
+        },
+        {
+          "name": "Meaning",
+          "max": 30
+        },
+        {
+          "name": "Accomplishment",
+          "max": 30
+        },
+        {
+          "name": "Health",
+          "max": 30
+        }
+      ]
+    }
+  }
+}

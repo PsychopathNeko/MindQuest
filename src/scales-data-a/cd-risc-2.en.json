@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "id": "cd-risc-2",
+    "name": "CD-RISC-2 Connor-Davidson Resilience Scale",
+    "fullName": "Connor-Davidson Resilience Scale-2",
+    "description": "The CD-RISC-2 is a 2-item ultra-brief version of the Connor-Davidson Resilience Scale, extracting the two most core items from the original 25-item scale for rapid assessment of resilience to stress and adversity.",
+    "author": "Vaishnavi, Connor & Davidson (2007)",
+    "license": "Free to use",
+    "reference": "Vaishnavi S, Connor K, Davidson JRT. An abbreviated version of the Connor-Davidson Resilience Scale (CD-RISC), the CD-RISC2: psychometric properties and applications in psychopharmacological trials. Psychiatry Res. 2007;152(2-3):293-297.",
+    "instruction": "Please indicate how much the following statements have applied to you over the past month.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not true at all"
+    },
+    {
+      "value": 1,
+      "label": "Rarely true"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes true"
+    },
+    {
+      "value": 3,
+      "label": "Often true"
+    },
+    {
+      "value": 4,
+      "label": "True nearly all the time"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Able to adapt to change",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Tend to bounce back after illness or hardship",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 8,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "severe",
+        "label": "Low Resilience",
+        "description": "Your resilience level is low. You may find it quite difficult to cope with change and stress.",
+        "suggestions": [
+          "Seek social support; do not face difficulties alone",
+          "Learn techniques and strategies for adapting to change",
+          "Consider professional help to strengthen resilience",
+          "Start with small challenges and gradually build coping ability"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "moderate",
+        "label": "Moderate Resilience",
+        "description": "Your resilience is at a moderate level. You can cope with stress and change reasonably well in some situations.",
+        "suggestions": [
+          "Continue developing coping skills",
+          "Maintain a positive social network",
+          "Strengthen resilience through regular exercise and healthy habits",
+          "Practice positive self-talk and cognitive reframing"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "level": "minimal",
+        "label": "High Resilience",
+        "description": "You have high resilience and can effectively adapt to change and recover from stress.",
+        "suggestions": [
+          "Continue maintaining your strong adaptability",
+          "Your resilience qualities can help and encourage those around you",
+          "While helping others, also attend to your own self-care"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 8
+    }
+  }
+}

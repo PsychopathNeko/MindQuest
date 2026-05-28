@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "id": "maas",
+    "name": "MAAS Mindful Attention Awareness Scale",
+    "fullName": "Mindful Attention Awareness Scale",
+    "description": "The MAAS is a 15-item self-report scale measuring the frequency of mindful states in daily life. All items are worded such that higher scores indicate greater mindfulness (less autopilot behavior).",
+    "author": "Brown & Ryan (2003)",
+    "license": "Free for research use",
+    "reference": "Brown KW, Ryan RM. The benefits of being present: mindfulness and its role in psychological well-being. J Pers Soc Psychol. 2003;84(4):822-848.",
+    "instruction": "Below is a collection of statements about your everyday experience. Please indicate how frequently or infrequently you currently have each experience. Please answer according to what really reflects your experience rather than what you think your experience should be.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Almost always"
+    },
+    {
+      "value": 2,
+      "label": "Very frequently"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat frequently"
+    },
+    {
+      "value": 4,
+      "label": "Somewhat infrequently"
+    },
+    {
+      "value": 5,
+      "label": "Very infrequently"
+    },
+    {
+      "value": 6,
+      "label": "Almost never"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I could be experiencing some emotion and not be conscious of it until some time later",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I break or spill things because of carelessness, not paying attention, or thinking of something else",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I find it difficult to stay focused on what is happening in the present",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I tend to walk quickly to get where I am going without paying attention to what I experience along the way",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I tend not to notice feelings of physical tension or discomfort until they really grab my attention",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I forget a person's name almost as soon as I have been told it for the first time",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "It seems I am running on automatic without much awareness of what I am doing",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I rush through activities without being really attentive to them",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I get so focused on the goal I want to achieve that I lose touch with what I am doing right now to get there",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I do jobs or tasks automatically, without being aware of what I am doing",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I find myself listening to someone with one ear, doing something else at the same time",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I drive places on automatic pilot and then wonder why I went there",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I find myself preoccupied with the future or the past",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I find myself doing things without paying attention",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I snack without being aware that I am eating",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 90,
+    "maxItemScore": 6,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 15,
+        "max": 37,
+        "level": "severe",
+        "label": "Low Mindfulness",
+        "description": "Your mindful attention awareness is low. You frequently operate on autopilot in daily life.",
+        "suggestions": [
+          "Start with 5 minutes of mindfulness meditation daily",
+          "Practice paying deliberate attention during routine activities",
+          "Reduce multitasking",
+          "Consider a mindfulness-based stress reduction program"
+        ]
+      },
+      {
+        "min": 38,
+        "max": 60,
+        "level": "moderate",
+        "label": "Moderate Mindfulness",
+        "description": "Your mindful attention awareness is moderate. You sometimes stay present but have room for growth.",
+        "suggestions": [
+          "Increase the frequency and duration of mindfulness practice",
+          "Practice awareness during more daily activities",
+          "Try mindful eating, walking, or other exercises"
+        ]
+      },
+      {
+        "min": 61,
+        "max": 90,
+        "level": "minimal",
+        "label": "High Mindfulness",
+        "description": "Your mindful attention awareness is high. You generally maintain awareness of present-moment experiences.",
+        "suggestions": [
+          "Continue your mindfulness practice routine",
+          "Explore deeper mindfulness techniques",
+          "Integrate mindfulness into more life situations"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 15,
+      "max": 90
+    }
+  }
+}

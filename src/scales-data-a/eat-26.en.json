@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "id": "eat-26",
+    "name": "EAT-26 Eating Attitudes Test",
+    "fullName": "Eating Attitudes Test-26",
+    "description": "The EAT-26 is a widely used 26-item self-report measure for screening abnormal eating attitudes and behaviors. It assesses dieting behavior, food preoccupation, and oral control, serving as an effective tool for identifying eating disorder risk. A score of 20 or above suggests further professional evaluation.",
+    "author": "Garner et al. (1982)",
+    "license": "Free to use",
+    "reference": "Garner DM, Olmsted MP, Bohr Y, Garfinkel PE. The Eating Attitudes Test: psychometric features and clinical correlates. Psychol Med. 1982;12(4):871-878.",
+    "instruction": "Please choose the response that best applies to each of the following statements.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Never"
+    },
+    {
+      "value": 0,
+      "label": "Rarely"
+    },
+    {
+      "value": 0,
+      "label": "Sometimes"
+    },
+    {
+      "value": 1,
+      "label": "Often"
+    },
+    {
+      "value": 2,
+      "label": "Usually"
+    },
+    {
+      "value": 3,
+      "label": "Always"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Am terrified about being overweight",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Avoid eating when I am hungry",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Find myself preoccupied with food",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Have gone on eating binges where I feel that I may not be able to stop",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Cut my food into small pieces",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Aware of the calorie content of foods that I eat",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Particularly avoid food with a high carbohydrate content (bread, rice, potatoes, etc.)",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Feel that others would prefer if I ate more",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Vomit after I have eaten",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Feel extremely guilty after eating",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Am preoccupied with a desire to be thinner",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Think about burning up calories when I exercise",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Other people think that I am too thin",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Am preoccupied with the thought of having fat on my body",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Take longer than others to eat my meals",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Avoid foods with sugar in them",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Eat diet foods",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "Feel that food controls my life",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "Display self-control around food",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "Feel that others pressure me to eat",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "Give too much time and thought to food",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "Feel uncomfortable after eating sweets",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "Engage in dieting behavior",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "Like my stomach to be empty",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "Have the impulse to vomit after meals",
+      "type": "likert"
+    },
+    {
+      "index": 25,
+      "text": "Enjoy trying new rich foods",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 78,
+    "maxItemScore": 3,
+    "description": "Scoring: Always=3, Usually=2, Often=1, Sometimes/Rarely/Never=0. Item 26 is reverse scored.",
+    "reverseItems": [
+      25
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "Normal Range",
+        "description": "Your eating attitudes are within the normal range with no abnormal eating behavior patterns.",
+        "suggestions": [
+          "Continue maintaining healthy eating habits",
+          "Focus on nutritional balance rather than weight numbers"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 19,
+        "level": "mild",
+        "label": "Mild Concern",
+        "description": "You show some concern about eating and weight, but not yet at a clinical level.",
+        "suggestions": [
+          "Be careful not to overly restrict your diet",
+          "Cultivate a healthy relationship with food",
+          "If eating concerns affect quality of life, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 39,
+        "level": "moderate",
+        "label": "Further Evaluation Recommended",
+        "description": "Your score reaches the clinical concern level and may indicate eating disorder risk. Professional evaluation is recommended.",
+        "suggestions": [
+          "Strongly recommended to consult an eating disorder specialist",
+          "This score suggests possible eating disorder risk",
+          "Watch for extreme dieting or exercise behaviors",
+          "Monitor physical health indicators"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 78,
+        "level": "severe",
+        "label": "High Concern",
+        "description": "Your score is very high, strongly suggesting eating disorder-related attitudes and behaviors. Please seek professional help promptly.",
+        "suggestions": [
+          "Please seek eating disorder treatment immediately",
+          "Eating disorders are serious but treatable conditions",
+          "Do not face this alone; inform family or friends",
+          "Monitor physical health; avoid extreme dietary restriction or compensatory behaviors"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 78
+    }
+  }
+}

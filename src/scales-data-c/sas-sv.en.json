@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "id": "sas-sv",
+    "name": "SAS-SV Smartphone Addiction Scale",
+    "fullName": "Smartphone Addiction Scale - Short Version",
+    "description": "The SAS-SV is a 10-item brief scale for assessing smartphone overuse and addiction tendency.",
+    "author": "Kwon et al. (2013)",
+    "license": "Free to use",
+    "reference": "Kwon M, et al. The smartphone addiction scale: development and validation of a short version for adolescents. PLoS One. 2013;8(12):e83558.",
+    "instruction": "Please rate how much you agree with each statement about your smartphone use.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Strongly Disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat Disagree"
+    },
+    {
+      "value": 4,
+      "label": "Somewhat Agree"
+    },
+    {
+      "value": 5,
+      "label": "Agree"
+    },
+    {
+      "value": 6,
+      "label": "Strongly Agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Missing planned work due to smartphone use",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Having a hard time concentrating in class, while doing assignments, or while working due to smartphone use",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Feeling pain in the wrists or at the back of the neck while using a smartphone",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Won't be able to stand not having a smartphone",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Feeling impatient and fretful when I am not holding my smartphone",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Having my smartphone in my mind even when I am not using it",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I will never give up using my smartphone even when my daily life is already greatly affected by it",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Constantly checking my smartphone so as not to miss conversations between other people on social media",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Using my smartphone longer than I had intended",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "The people around me tell me that I use my smartphone too much",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 60,
+    "maxItemScore": 6,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your smartphone use is within a healthy range.",
+        "suggestions": [
+          "Continue maintaining good smartphone usage habits",
+          "Regularly check your screen time"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 33,
+        "level": "mild",
+        "label": "Mild Risk",
+        "description": "You may have some tendency toward excessive smartphone use, but it has not yet significantly impacted your life.",
+        "suggestions": [
+          "Set time limits for smartphone use",
+          "Put your phone away during meals and before bedtime",
+          "Enable Do Not Disturb mode to focus on work or studies",
+          "Try going for a walk without your phone"
+        ]
+      },
+      {
+        "min": 34,
+        "max": 45,
+        "level": "moderate",
+        "label": "Moderate Risk",
+        "description": "Your smartphone use may already be affecting your daily life and health.",
+        "suggestions": [
+          "Use your phone's built-in screen time management features",
+          "Establish phone-free zones (e.g., bedroom, dining table)",
+          "Find alternative leisure activities",
+          "Pay attention to the impact on your neck and eyes",
+          "If you feel unable to control usage, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 46,
+        "max": 60,
+        "level": "severe",
+        "label": "High Risk",
+        "description": "Your smartphone use has reached an excessive dependency level, seriously affecting daily functioning and physical/mental health.",
+        "suggestions": [
+          "Strongly recommended to seek professional help",
+          "Create a detailed smartphone usage restriction plan",
+          "Ask family and friends to help monitor your usage",
+          "Consider using a basic phone during the withdrawal period"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 60
+    }
+  }
+}

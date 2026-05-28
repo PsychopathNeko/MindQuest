@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "id": "olbi",
+    "name": "OLBI 奥登堡倦怠量表",
+    "fullName": "奥登堡倦怠量表",
+    "description": "OLBI是一份16项量表，评估倦怠的两个核心维度：耗竭和疏离。",
+    "author": "Demerouti E, et al. (2003)",
+    "license": "Free for research use",
+    "reference": "Demerouti E, et al. J Vocat Behav. 2003;62(3):473-488.",
+    "instruction": "请指出您对以下关于工作的陈述的同意程度。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常同意"
+    },
+    {
+      "value": 2,
+      "label": "同意"
+    },
+    {
+      "value": 3,
+      "label": "不同意"
+    },
+    {
+      "value": 4,
+      "label": "非常不同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我总能在工作中发现新的、有趣的方面。",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "有时还没到工作岗位我就觉得累了。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我越来越经常以消极的方式谈论工作。",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "下班后，我需要比以前更多的时间放松和恢复。",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我能很好地承受工作压力。",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "最近我工作时思考越来越少，几乎是机械地完成任务。",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我觉得工作是一种积极的挑战。",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "工作时我经常感到情感上被掉空。",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "随着时间的推移，人会对这类工作变得漠不关心。",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "工作后我有足够的精力进行休闲活动。",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "有时我对工作任务感到厌恶。",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "工作后我通常感到筋疲力尽。",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "这是我能想象自己做的唯一类型的工作。",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "通常我能很好地管理我的工作量。",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我觉得自己对工作越来越投入。",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "工作时我通常感到精力充沛。",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "maxTotal": 64,
+    "maxItemScore": 4,
+    "minItemScore": 1,
+    "reverseItems": [
+      0,
+      4,
+      6,
+      9,
+      12,
+      13,
+      14,
+      15
+    ],
+    "subscales": [
+      {
+        "id": "exhaustion",
+        "name": "耗竭",
+        "items": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15
+        ],
+        "maxScore": 32
+      },
+      {
+        "id": "disengagement",
+        "name": "疏离",
+        "items": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "maxScore": 32
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 32,
+        "level": "minimal",
+        "label": "倦怠程度低",
+        "description": "倦怠水平较低。",
+        "suggestions": [
+          "保持健康的工作习惯",
+          "继续当前的应对策略"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 48,
+        "level": "mild",
+        "label": "中度倦怠",
+        "description": "存在中度倦怠。",
+        "suggestions": [
+          "监测您的精力水平",
+          "考虑调整工作量"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 64,
+        "level": "severe",
+        "label": "严重倦怠",
+        "description": "倦怠水平较高。",
+        "suggestions": [
+          "寻求专业支持",
+          "认真评估工作状况"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "exhaustion": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "normal",
+          "label": "低",
+          "description": "耗竭程度低。"
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "中等",
+          "description": "中度耗竭。"
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "severe",
+          "label": "高",
+          "description": "严重耗竭。"
+        }
+      ],
+      "disengagement": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "normal",
+          "label": "低",
+          "description": "疏离程度低。"
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "中等",
+          "description": "中度疏离。"
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "severe",
+          "label": "高",
+          "description": "严重疏离。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "exhaustion",
+        "disengagement"
+      ],
+      "maxDisplayScore": 32
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "id": "gad-2",
+    "name": "GAD-2 焦虑筛查简版",
+    "fullName": "Generalized Anxiety Disorder-2",
+    "description": "GAD-2 是一份超简版的2题焦虑筛查工具，源自 GAD-7 的前两个条目。作为快速初步筛查工具，用于识别需要进一步使用完整 GAD-7 评估的个体。",
+    "author": "Kroenke, Spitzer, Williams & Löwe (2007)",
+    "license": "Public Domain",
+    "reference": "Kroenke K, Spitzer RL, Williams JBW, Monahan PO, Löwe B. Anxiety disorders in primary care: prevalence, impairment, comorbidity, and detection. Ann Intern Med. 2007;146(5):317-325.",
+    "instruction": "回想一下过去两周的生活，以下这些感受出现的频率如何？请放心作答，没有对错之分。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "好几天"
+    },
+    {
+      "value": 2,
+      "label": "一半以上天数"
+    },
+    {
+      "value": 3,
+      "label": "几乎每天"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "感觉紧张、焦虑或烦躁",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "不能够停止或控制担忧",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 6,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "normal",
+        "label": "正常",
+        "description": "您的得分处于正常范围，此次简短筛查未发现明显的焦虑症状。",
+        "suggestions": [
+          "继续保持当前的良好状态",
+          "适当练习放松活动以维持身心健康",
+          "偶尔的担忧是生活中的正常现象"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 6,
+        "level": "moderate",
+        "label": "可能存在焦虑",
+        "description": "您的得分提示可能存在焦虑症状，建议进行更详细的评估。",
+        "suggestions": [
+          "建议完成完整版 GAD-7 以获得更详细的评估",
+          "咨询医疗专业人员进行进一步评估",
+          "练习放松技巧，如深呼吸或冥想",
+          "关注自己的担忧模式并识别诱因"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 6
+    }
+  }
+}

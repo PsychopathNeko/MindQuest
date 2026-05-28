@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "id": "cage-aid",
+    "name": "CAGE-AID Substance Abuse Screening",
+    "fullName": "CAGE Adapted to Include Drugs",
+    "description": "The CAGE-AID is a 4-item screening tool adapted from the original CAGE questionnaire to include both alcohol and drug use. It is a brief, validated instrument for identifying potential substance use problems in primary care and clinical settings.",
+    "author": "Brown & Rounds (1995)",
+    "license": "Free to use",
+    "reference": "Brown RL, Rounds LA. Conjoint screening questionnaires for alcohol and other drug abuse: criterion validity in a primary care practice. Wis Med J. 1995;94(3):135-140.",
+    "instruction": "Please answer each question honestly with Yes or No. These questions refer to your use of alcohol and/or drugs.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Yes"
+    },
+    {
+      "value": 0,
+      "label": "No"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Have you ever felt you ought to Cut down on your drinking or drug use?",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "Have people Annoyed you by criticizing your drinking or drug use?",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "Have you ever felt bad or Guilty about your drinking or drug use?",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "Have you ever had a drink or used drugs first thing in the morning to steady your nerves or to get rid of a hangover (Eye-opener)?",
+      "type": "yesno"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 4,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 1,
+        "level": "minimal",
+        "label": "Screen Negative",
+        "description": "Your responses do not suggest a substance use problem. A score below 2 is considered a negative screen.",
+        "suggestions": [
+          "Continue maintaining healthy habits regarding alcohol and drug use",
+          "Stay informed about the risks of substance misuse",
+          "Be mindful of any changes in your substance use patterns"
+        ]
+      },
+      {
+        "min": 2,
+        "max": 4,
+        "level": "severe",
+        "label": "Screen Positive",
+        "description": "Your responses suggest a possible alcohol or drug use problem. A score of 2 or more is clinically significant and warrants further assessment by a healthcare professional.",
+        "suggestions": [
+          "Strongly recommended to seek professional evaluation for substance use",
+          "Consult with a healthcare provider or addiction specialist",
+          "Consider joining a support group for substance-related concerns",
+          "Talk openly with trusted family members or friends about your substance use",
+          "Explore treatment options that may be available to you"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 4
+    }
+  }
+}

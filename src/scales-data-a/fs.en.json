@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "id": "fs",
+    "name": "FS Flourishing Scale",
+    "fullName": "Flourishing Scale",
+    "description": "The FS is an 8-item self-report measure of flourishing, assessing important aspects of human functioning including relationships, self-esteem, purpose, and optimism.",
+    "author": "Diener et al. (2010)",
+    "license": "Free for research use",
+    "reference": "Diener E, Wirtz D, Tov W, et al. New well-being measures: Short scales to assess flourishing and positive and negative feelings. Soc Indic Res. 2010;97(2):143-156.",
+    "instruction": "Below are statements about yourself. Please indicate how much you agree or disagree with each.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Strongly disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Slightly disagree"
+    },
+    {
+      "value": 4,
+      "label": "Neither agree nor disagree"
+    },
+    {
+      "value": 5,
+      "label": "Slightly agree"
+    },
+    {
+      "value": 6,
+      "label": "Agree"
+    },
+    {
+      "value": 7,
+      "label": "Strongly agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I lead a purposeful and meaningful life",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "My social relationships are supportive and rewarding",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I am engaged and interested in my daily activities",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I actively contribute to the happiness and well-being of others",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I am competent and capable in the activities that are important to me",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I am a good person and live a good life",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I am optimistic about my future",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "People respect me",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 56,
+    "maxItemScore": 7,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 8,
+        "max": 24,
+        "level": "severe",
+        "label": "Low Flourishing",
+        "description": "Your psychological flourishing is low.",
+        "suggestions": [
+          "Set small achievable goals",
+          "Cultivate supportive relationships",
+          "Consider consulting a mental health professional"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 40,
+        "level": "moderate",
+        "label": "Moderate Flourishing",
+        "description": "Your flourishing is moderate with room for improvement.",
+        "suggestions": [
+          "Reflect on areas for enhancement",
+          "Practice gratitude and optimistic thinking"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 56,
+        "level": "minimal",
+        "label": "High Flourishing",
+        "description": "Your psychological flourishing is high.",
+        "suggestions": [
+          "Continue your positive lifestyle",
+          "Share positive experiences with others"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 8,
+      "max": 56
+    }
+  }
+}

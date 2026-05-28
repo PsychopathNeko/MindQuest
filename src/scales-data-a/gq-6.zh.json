@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "id": "gq-6",
+    "name": "GQ-6 感恩问卷",
+    "fullName": "Gratitude Questionnaire-6",
+    "description": "GQ-6 是一份包含 6 个条目的自评量表，用于评估个体的感恩倾向。",
+    "author": "McCullough, Emmons & Tsang (2002)",
+    "license": "Free for research use",
+    "reference": "McCullough ME, Emmons RA, Tsang JA. The grateful disposition: a conceptual and empirical topography. J Pers Soc Psychol. 2002;82(1):112-127.",
+    "instruction": "请根据您的实际感受，评估以下陈述与您的契合程度。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "中立"
+    },
+    {
+      "value": 5,
+      "label": "有点同意"
+    },
+    {
+      "value": 6,
+      "label": "同意"
+    },
+    {
+      "value": 7,
+      "label": "非常同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我的生活中有很多值得感恩的事情",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "如果我必须列出所有感恩的事情，那将是一个很长的清单",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "当我看看这个世界，我看不到太多值得感恩的东西",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我感激许多不同的人",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "随着年龄增长，我发现自己越来越能够欣赏曾经在我生命中出现过的人、事件和情境",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "在我对某人或某事表示感激之前，通常要等很长时间",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 42,
+    "maxItemScore": 7,
+    "minItemScore": 1,
+    "reverseItems": [
+      2,
+      5
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 18,
+        "level": "severe",
+        "label": "感恩水平较低",
+        "description": "您的感恩倾向较低。",
+        "suggestions": [
+          "每天记录3件值得感恩的事",
+          "写感恩信给帮助过您的人",
+          "关注日常生活中的积极面"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 30,
+        "level": "moderate",
+        "label": "感恩水平中等",
+        "description": "您的感恩倾向中等。",
+        "suggestions": [
+          "继续培养感恩习惯",
+          "更多地表达对他人的感激"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 42,
+        "level": "minimal",
+        "label": "感恩水平较高",
+        "description": "您的感恩倾向较高。",
+        "suggestions": [
+          "继续保持感恩心态",
+          "将感恩传递给身边的人"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 42
+    }
+  }
+}

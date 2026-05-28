@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "swls",
+    "name": "SWLS 生活满意度量表",
+    "fullName": "Satisfaction With Life Scale",
+    "description": "SWLS 是一份包含 5 个条目的量表，用于测量个体对自身生活满意度的整体认知判断，评估个体根据自己选定的标准对生活质量的总体评价。",
+    "author": "Diener, Emmons, Larsen & Griffin (1985)",
+    "license": "Free to use",
+    "reference": "Diener E, Emmons RA, Larsen RJ, Griffin S. The Satisfaction With Life Scale. J Pers Assess. 1985;49(1):71-75.",
+    "instruction": "以下是五个关于生活满意度的陈述，请根据你的实际感受选择最符合你的选项，答案没有对错之分。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "既不同意也不反对"
+    },
+    {
+      "value": 5,
+      "label": "有点同意"
+    },
+    {
+      "value": 6,
+      "label": "同意"
+    },
+    {
+      "value": 7,
+      "label": "非常同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "在大多数方面，我的生活接近我的理想",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我的生活条件非常好",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我对自己的生活感到满意",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "到目前为止，我已经得到了生活中我想要的重要东西",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "如果我能重新活过，我几乎不会改变什么",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 35,
+    "maxItemScore": 7,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 5,
+        "max": 14,
+        "level": "severe",
+        "label": "生活满意度低",
+        "description": "您的生活满意度评分较低，表明您对当前生活状况存在较大的不满。",
+        "suggestions": [
+          "找出生活中最让您感到不满意的具体方面",
+          "设定小而可实现的目标，逐步做出积极改变",
+          "考虑向心理咨询师寻求提升生活满意度的策略",
+          "练习感恩，记录日常生活中的积极面",
+          "探索符合自身价值观的新活动或社交关系"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 19,
+        "level": "mild",
+        "label": "略低于平均水平",
+        "description": "您的生活满意度略低于平均水平，可能在某些方面存在不满意的情况。",
+        "suggestions": [
+          "反思您最希望改变生活的哪些方面",
+          "注重加强人际关系和社会联系",
+          "思考日常活动是否与个人价值观一致",
+          "尝试设定对您有意义的目标"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 25,
+        "level": "normal",
+        "label": "平均水平",
+        "description": "您的生活满意度处于平均范围，您对生活的大多数方面基本满意。",
+        "suggestions": [
+          "继续保持均衡的生活方式",
+          "继续培养有意义的人际关系",
+          "保持开放心态，接纳新体验和个人成长"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 35,
+        "level": "minimal",
+        "label": "生活满意度高",
+        "description": "您的生活满意度很高，您对当前的生活状况和整体生活质量感到非常积极。",
+        "suggestions": [
+          "继续保持那些有助于幸福感的习惯和做法",
+          "将积极的心态分享给身边的人",
+          "持续参与有意义的活动和人际关系"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 5,
+      "max": 35
+    }
+  }
+}

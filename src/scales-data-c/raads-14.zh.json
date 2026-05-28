@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "id": "raads-14",
+    "name": "RAADS-14 自闭症谱系筛查量表",
+    "fullName": "Ritvo Autism Asperger Diagnostic Scale-14",
+    "description": "RAADS-14 是一份 14 题自评筛查量表，用于评估成人自闭症谱系特征，涵盖社交互动、语言交流、感觉运动和特殊兴趣等方面。",
+    "author": "Eriksson, Andersen & Bejerot (2013)",
+    "license": "Free to use",
+    "reference": "Eriksson JM, Andersen LM, Bejerot S. RAADS-14 Screen: validity of a screening tool for autism spectrum disorder in an adult psychiatric population. Molecular Autism. 2013;4(1):49.",
+    "instruction": "请选择最符合你情况的选项。有些题目需要区分小时候（16岁前）和现在的情况。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "从未如此"
+    },
+    {
+      "value": 1,
+      "label": "仅在16岁前如此"
+    },
+    {
+      "value": 2,
+      "label": "仅在现在如此"
+    },
+    {
+      "value": 3,
+      "label": "现在和小时候都如此"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我很难理解别人的感受，很难站在别人的角度想问题",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我经常在对话中使用来自电影或电视的台词或短语",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "当别人告诉我，我表现得不够体贴或粗鲁时，我常常感到惊讶",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "有时我说话太大声或太小声，自己却没有意识到",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我经常不知道在社交场合该如何表现",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我能理解别人心里的想法和感受（\"换位思考\"）",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我很难理解一些俗语或比喻的意思，例如\"你是我的心头肉\"",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我只喜欢和那些与我有共同兴趣爱好的人交谈",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我更关注细节而不是整体概念",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我总是很注意食物在嘴里的口感，这对我来说比味道更重要",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "当我与好朋友或家人分开很长时间后，我会非常想念他们",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "有时我说了心里想的话却无意中冒犯了别人",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我只喜欢思考和谈论少数几个我感兴趣的话题",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我宁愿自己一个人去餐厅吃饭，也不愿和认识的人一起",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 42,
+    "maxItemScore": 3,
+    "reverseItems": [
+      5,
+      10
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 13,
+        "level": "minimal",
+        "label": "低于阈值",
+        "description": "您的评分低于自闭症谱系特征的筛查阈值，不太可能存在自闭症谱系障碍。",
+        "suggestions": [
+          "此结果仅为初步筛查",
+          "如有其他方面的困扰，可咨询相关专业人士"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 25,
+        "level": "mild",
+        "label": "中等ASD特征",
+        "description": "您的评分超过筛查阈值，可能存在一些自闭症谱系特征。这不意味着确诊，建议进行进一步专业评估。",
+        "suggestions": [
+          "建议寻求专业的神经发育评估",
+          "了解自闭症谱系的相关知识",
+          "探索适合自己的社交和沟通策略",
+          "加入相关支持社群可能有帮助"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 42,
+        "level": "moderate",
+        "label": "较高ASD特征",
+        "description": "您的评分较高，提示存在较为明显的自闭症谱系特征。强烈建议进行专业的诊断评估。",
+        "suggestions": [
+          "强烈建议寻求专业的自闭症谱系障碍评估",
+          "正式诊断需要由专业临床医生进行",
+          "获得诊断可以帮助理解自己并获得支持",
+          "了解神经多样性（neurodiversity）的理念"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 42
+    }
+  }
+}

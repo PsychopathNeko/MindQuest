@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "id": "scs-sf",
+    "name": "SCS-SF 自我关怀量表简版",
+    "fullName": "自我关怀量表简版",
+    "description": "SCS-SF是一份12题的自我关怀简短测量工具，评估六个成分：自我善待、自我评判、共同人性、孤立感、正念和过度认同。",
+    "author": "Raes et al. (2011)",
+    "license": "Free to use",
+    "reference": "Raes F, Pommier E, Neff KD, Van Gucht D. Construction and factorial validation of a short form of the Self-Compassion Scale. Clin Psychol Psychother. 2011;18(3):250-255.",
+    "instruction": "请仔细阅读每个陈述，并指出您以所描述方式行事的频率。请放心作答，没有对错之分。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "几乎从不"
+    },
+    {
+      "value": 2,
+      "label": "很少"
+    },
+    {
+      "value": 3,
+      "label": "有时"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "几乎总是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "当我在重要的事情上失败时，我会被自卑感所吞噬",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我试着对自己不喜欢的那些性格方面保持理解和耐心",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "当痛苦的事情发生时，我倾向于把事件夸大化",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "当我情绪低落时，我倾向于觉得大多数其他人可能比我更快乐",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我试着把自己的失败看作人类共有经历的一部分",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "当我经历非常困难的时期时，我会给自己所需要的关爱和温柔",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "当某事让我不安时，我试着让自己的情绪保持平衡",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "当我在重要的事情上失败时，我倾向于觉得在失败中只有自己孤身一人",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "当我情绪低落时，我试着以好奇和开放的态度来面对自己的感受",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "当我在某些方面感到不足时，我试着提醒自己，大多数人都会有不足感",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我对自己的缺点和不足持不赞成和批判的态度",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我对自己不喜欢的那些性格方面不够宽容和耐心",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 60,
+    "maxItemScore": 5,
+    "minItemScore": 1,
+    "reverseItems": [
+      0,
+      2,
+      3,
+      7,
+      10,
+      11
+    ],
+    "subscales": [
+      {
+        "id": "self_kindness",
+        "name": "自我善待",
+        "items": [
+          1,
+          5
+        ]
+      },
+      {
+        "id": "self_judgment",
+        "name": "自我评判",
+        "items": [
+          10,
+          11
+        ],
+        "reverseItems": [
+          10,
+          11
+        ]
+      },
+      {
+        "id": "common_humanity",
+        "name": "共同人性",
+        "items": [
+          4,
+          9
+        ]
+      },
+      {
+        "id": "isolation",
+        "name": "孤立感",
+        "items": [
+          3,
+          7
+        ],
+        "reverseItems": [
+          3,
+          7
+        ]
+      },
+      {
+        "id": "mindfulness",
+        "name": "正念",
+        "items": [
+          6,
+          8
+        ]
+      },
+      {
+        "id": "over_identification",
+        "name": "过度认同",
+        "items": [
+          0,
+          2
+        ],
+        "reverseItems": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 24,
+        "level": "severe",
+        "label": "低自我关怀",
+        "description": "您的自我关怀水平较低。您可能相当自我批评，在困难时期难以善待自己。",
+        "suggestions": [
+          "练习像对待好朋友一样与自己对话",
+          "认识到痛苦和不完美是人类共有经历",
+          "尝试自我关怀冥想或练习",
+          "心理咨询师可以帮助发展自我关怀技能"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "mild",
+        "label": "中等自我关怀",
+        "description": "您的自我关怀处于中等水平。",
+        "suggestions": [
+          "继续发展自我关怀实践",
+          "提醒自己每个人都会犯错",
+          "练习正念观察感受"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "normal",
+        "label": "高于平均自我关怀",
+        "description": "您的自我关怀高于平均水平。",
+        "suggestions": [
+          "继续保持自我关怀态度",
+          "与他人分享实践"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "minimal",
+        "label": "高自我关怀",
+        "description": "您的自我关怀水平很高。",
+        "suggestions": [
+          "继续保持出色的自我关怀实践",
+          "您的自我关怀是幸福感的宝贵资源"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 12,
+      "max": 60
+    }
+  }
+}

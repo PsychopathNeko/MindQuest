@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "id": "aaq-ii",
+    "name": "AAQ-II 接纳与行动问卷",
+    "fullName": "Acceptance and Action Questionnaire-II",
+    "description": "AAQ-II 是一份评估心理灵活性和经验性回避的7题自评量表。经验性回避是指个体试图回避、压制或改变不愉快的内在体验（想法、感受、身体感觉），即使这样做会造成长期伤害。该量表广泛用于接纳与承诺疗法（ACT）的研究和临床评估。",
+    "author": "Bond et al. (2011)",
+    "license": "Free to use",
+    "reference": "Bond FW, Hayes SC, Baer RA, et al. Preliminary psychometric properties of the Acceptance and Action Questionnaire-II: a revised measure of psychological inflexibility and experiential avoidance. Behav Ther. 2011;42(4):676-688.",
+    "instruction": "以下列出了一些陈述，请根据每个陈述对你的真实程度进行评分。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "从不"
+    },
+    {
+      "value": 2,
+      "label": "很少"
+    },
+    {
+      "value": 3,
+      "label": "偶尔"
+    },
+    {
+      "value": 4,
+      "label": "有时"
+    },
+    {
+      "value": 5,
+      "label": "经常"
+    },
+    {
+      "value": 6,
+      "label": "几乎总是"
+    },
+    {
+      "value": 7,
+      "label": "总是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我的痛苦经历和回忆使我难以过上有价值的生活",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我害怕自己的感受",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我担心自己无法控制忧虑和感受",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我的痛苦回忆阻碍了我拥有充实的生活",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "情绪困扰给我的生活带来了很多问题",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我觉得我的大部分生活活动都受到了限制",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "忧虑影响了我的成功之路",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 49,
+    "maxItemScore": 7,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 7,
+        "max": 17,
+        "level": "minimal",
+        "label": "心理灵活性高",
+        "description": "您的经验性回避水平很低，表明您拥有较高的心理灵活性，能够有效接纳内在体验。",
+        "suggestions": [
+          "继续保持开放和接纳的态度",
+          "坚持练习正念和自我觉察",
+          "分享您的应对策略，帮助他人"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 24,
+        "level": "mild",
+        "label": "轻度经验性回避",
+        "description": "您存在轻度的经验性回避倾向，可能在某些情况下试图逃避不愉快的内在体验。",
+        "suggestions": [
+          "练习正念冥想，增强对内在体验的觉察",
+          "尝试接纳而非控制不愉快的想法和感受",
+          "了解接纳与承诺疗法（ACT）的基本理念"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 32,
+        "level": "moderate",
+        "label": "中度经验性回避",
+        "description": "您存在中度的经验性回避，不愉快的想法和感受可能在较大程度上影响了您的生活。",
+        "suggestions": [
+          "建议尝试接纳与承诺疗法（ACT）相关的心理咨询",
+          "学习价值导向的行动，即使有不舒服的感受也坚持有意义的行动",
+          "减少对负面想法的过度纠缠",
+          "定期进行正念练习"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 49,
+        "level": "severe",
+        "label": "高度经验性回避",
+        "description": "您的经验性回避水平较高，这可能严重限制了您的生活质量和心理健康。",
+        "suggestions": [
+          "强烈建议寻求专业心理咨询帮助",
+          "接纳与承诺疗法（ACT）对经验性回避有显著疗效",
+          "不要独自面对困扰，与信任的人分享您的体验",
+          "在专业指导下逐步练习接纳不愉快的内在体验"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 7,
+      "max": 49
+    }
+  }
+}

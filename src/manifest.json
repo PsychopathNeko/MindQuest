@@ -1,0 +1,36 @@
+{
+  "name": "MindQuest",
+  "appid": "__UNI__MINDQUEST",
+  "description": "心灵探索 - 心理自评小程序",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "h5": {
+    "title": "MindQuest",
+    "router": {
+      "mode": "history",
+      "base": "/"
+    },
+    "optimization": {
+      "treeShaking": {
+        "enable": true
+      }
+    }
+  },
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "enhance": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "optimization": {
+      "subPackages": true
+    },
+    "permission": {},
+    "requiredPrivateInfos": []
+  }
+}

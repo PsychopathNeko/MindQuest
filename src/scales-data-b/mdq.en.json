@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "id": "mdq",
+    "name": "MDQ Mood Disorder Questionnaire",
+    "fullName": "Mood Disorder Questionnaire",
+    "description": "The MDQ is a 13-item screening instrument for bipolar spectrum disorder. A score of 7 or more suggests possible bipolar disorder requiring professional evaluation.",
+    "author": "Hirschfeld et al. (2000)",
+    "license": "Free for clinical use",
+    "reference": "Hirschfeld RM, Williams JB, Spitzer RL, et al. Development and validation of a screening instrument for bipolar spectrum disorder: the Mood Disorder Questionnaire. Am J Psychiatry. 2000;157(11):1873-1875.",
+    "instruction": "Has there ever been a period of time when you were not your usual self and...",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Yes"
+    },
+    {
+      "value": 0,
+      "label": "No"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "You felt so good or so hyper that other people thought you were not your normal self, or you were so hyper that you got into trouble",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "You were so irritable that you shouted at people or started fights or arguments",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "You felt much more self-confident than usual",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "You got much less sleep than usual and found you did not really miss it",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "You were much more talkative or spoke much faster than usual",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Thoughts raced through your head and you could not slow your mind down",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "You were so easily distracted by things around you that you had trouble concentrating or staying on track",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "You had much more energy than usual",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "You were much more active or did many more things than usual",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "You were much more social or outgoing than usual; for example, you telephoned friends in the middle of the night",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "You were much more interested in sex than usual",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "You did things that were unusual for you or that other people might have thought were excessive, foolish, or risky",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Spending money got you or your family into trouble",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 13,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Low Likelihood of Bipolar Disorder",
+        "description": "Your score is below the screening threshold.",
+        "suggestions": [
+          "If you have mood concerns, you may still consult a professional",
+          "Monitor any changes in mood patterns"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 6,
+        "level": "mild",
+        "label": "Borderline",
+        "description": "Your score is near the screening threshold.",
+        "suggestions": [
+          "Consider consulting a mental health professional for further evaluation",
+          "Track your mood patterns"
+        ]
+      },
+      {
+        "min": 7,
+        "max": 13,
+        "level": "severe",
+        "label": "Possible Bipolar Disorder",
+        "description": "Your score reaches the screening threshold. This is NOT a diagnosis and requires professional evaluation.",
+        "suggestions": [
+          "Strongly recommended to consult a psychiatrist promptly",
+          "Keep a detailed mood diary to share with your clinician",
+          "Do not self-diagnose; follow professional assessment"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 13
+    }
+  }
+}

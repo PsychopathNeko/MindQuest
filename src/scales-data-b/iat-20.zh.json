@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "id": "iat-20",
+    "name": "IAT 网络成瘾测试",
+    "fullName": "Internet Addiction Test",
+    "description": "IAT 是一份20题量表，评估网络使用对日常生活、社交、工作和情绪的影响程度，是网络成瘾研究中最广泛使用的工具。",
+    "author": "Young (1998)",
+    "license": "Free to use",
+    "reference": "Young KS. Internet addiction: The emergence of a new clinical disorder. CyberPsychology & Behavior. 1998;1(3):237-244.",
+    "instruction": "请根据你的实际上网情况，选择最符合的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "很少"
+    },
+    {
+      "value": 2,
+      "label": "偶尔"
+    },
+    {
+      "value": 3,
+      "label": "有时"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "总是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "你发现自己上网的时间比预期的更长",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "你忽略了家务以便有更多时间上网",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "你更喜欢在网上找刺激，而不是与伴侣亲密",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "你在网上结交新朋友",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "身边的人抱怨你花在网上的时间太多",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "你的成绩或学业因为上网时间过多而受到影响",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "你先查看邮件/社交媒体，然后才去做需要做的事",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "你的工作效率或产出因为网络而受到影响",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "当别人问你在网上做什么时，你会变得防备或含糊其辞",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "你用网络上的想法来屏蔽生活中烦恼的念头",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "你发现自己会期待下次上网的时间",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "你担心没有网络生活会变得无聊和空虚",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "当别人在你上网时打扰你，你会生气或大叫",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "你因为深夜上网而睡眠不足",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "不上网时你心不在焉或幻想自己在上网",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "你发现自己在上网时说\"就再几分钟\"",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "你试图减少上网时间但失败了",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "你试图隐瞒自己的上网时间",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "你选择多花时间上网而不是和别人外出",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "不上网时你感到抑郁、烦躁或情绪不好，而一上网这些情绪就消失了",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 100,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 39,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的网络使用处于正常范围，当前未表现出明显的网络成瘾倾向。",
+        "suggestions": [
+          "继续保持健康的上网习惯",
+          "合理安排上网与线下活动的时间",
+          "保持丰富的现实社交和兴趣爱好"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 59,
+        "level": "mild",
+        "label": "轻度网络成瘾",
+        "description": "您的网络使用可能开始对日常生活产生一些影响，建议关注上网时间和习惯。",
+        "suggestions": [
+          "设定每日上网时间限制并严格遵守",
+          "培养不依赖网络的休闲活动",
+          "注意上网对睡眠和工作效率的影响",
+          "如感到难以控制，建议咨询专业人士"
+        ]
+      },
+      {
+        "min": 60,
+        "max": 79,
+        "level": "moderate",
+        "label": "中度网络成瘾",
+        "description": "网络使用已经对您的日常生活、社交或工作产生了明显的负面影响。",
+        "suggestions": [
+          "建议寻求心理咨询师的专业帮助",
+          "制定具体的减少上网计划并请家人监督",
+          "增加户外运动和面对面社交活动",
+          "识别触发过度上网的情绪或情境",
+          "考虑使用屏幕时间管理工具"
+        ]
+      },
+      {
+        "min": 80,
+        "max": 100,
+        "level": "severe",
+        "label": "重度网络成瘾",
+        "description": "网络使用已严重影响您的生活质量、人际关系和日常功能，请尽快寻求专业帮助。",
+        "suggestions": [
+          "强烈建议立即咨询精神科医生或心理治疗师",
+          "可能需要结构化的治疗方案（如认知行为疗法）",
+          "告知家人和朋友你的困境并寻求支持",
+          "逐步减少上网时间，避免突然完全戒断",
+          "关注网络成瘾背后可能存在的情绪问题（如抑郁、焦虑）"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 20,
+      "max": 100
+    }
+  }
+}

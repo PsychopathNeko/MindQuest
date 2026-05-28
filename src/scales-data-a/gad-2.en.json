@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "id": "gad-2",
+    "name": "GAD-2 Generalized Anxiety Disorder Brief",
+    "fullName": "Generalized Anxiety Disorder-2",
+    "description": "The GAD-2 is an ultra-brief 2-item anxiety screening tool derived from the first two items of the GAD-7. It serves as a rapid first-step screening instrument to identify individuals who may benefit from further evaluation with the full GAD-7.",
+    "author": "Kroenke, Spitzer, Williams & Löwe (2007)",
+    "license": "Public Domain",
+    "reference": "Kroenke K, Spitzer RL, Williams JBW, Monahan PO, Löwe B. Anxiety disorders in primary care: prevalence, impairment, comorbidity, and detection. Ann Intern Med. 2007;146(5):317-325.",
+    "instruction": "Over the last 2 weeks, how often have you been bothered by the following problems?",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "Several days"
+    },
+    {
+      "value": 2,
+      "label": "More than half the days"
+    },
+    {
+      "value": 3,
+      "label": "Nearly every day"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Feeling nervous, anxious, or on edge",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Not being able to stop or control worrying",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 6,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your score is within the normal range. No significant anxiety symptoms detected by this brief screen.",
+        "suggestions": [
+          "Continue maintaining your current well-being",
+          "Practice relaxation activities for general wellness",
+          "Occasional worry is a normal part of life"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 6,
+        "level": "moderate",
+        "label": "Possible Anxiety",
+        "description": "Your score suggests possible anxiety. This brief screening indicates that further evaluation is recommended.",
+        "suggestions": [
+          "Consider completing the full GAD-7 for a more detailed assessment",
+          "Consult a healthcare professional for further evaluation",
+          "Practice relaxation techniques such as deep breathing or meditation",
+          "Monitor your worry patterns and identify triggers"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 6
+    }
+  }
+}

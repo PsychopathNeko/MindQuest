@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "id": "mlq",
+    "name": "MLQ 生命意义感问卷",
+    "fullName": "Meaning in Life Questionnaire",
+    "description": "MLQ 是一份10题量表，评估生命意义感的两个维度：意义存在感（当前感受到的生命意义）和意义寻求感（主动探索生命意义的程度）。",
+    "author": "Steger et al. (2006)",
+    "license": "Free to use",
+    "reference": "Steger MF, et al. The Meaning in Life Questionnaire: Assessing the presence of and search for meaning in life. Journal of Counseling Psychology. 2006;53(1):80-93.",
+    "instruction": "请根据你的真实感受，选择最符合你情况的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "完全不同意"
+    },
+    {
+      "value": 2,
+      "label": "大部分不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "既不同意也不反对"
+    },
+    {
+      "value": 5,
+      "label": "有点同意"
+    },
+    {
+      "value": 6,
+      "label": "大部分同意"
+    },
+    {
+      "value": 7,
+      "label": "完全同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我理解自己生命的意义",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我正在寻找某种能让我的生命有意义的事物",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我总是在探索自己的人生目标",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我的人生有明确的使命感",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我清楚是什么让我的生命有意义",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我发现了令人满意的人生目标",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我总是在寻找生命中值得我为之奋斗的东西",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我正在寻找我的人生目标或使命",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我的生活没有明确的目的",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我正在寻找生命的意义",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "maxTotal": 70,
+    "maxItemScore": 7,
+    "minItemScore": 1,
+    "reverseItems": [
+      8
+    ],
+    "subscales": [
+      {
+        "id": "presence",
+        "name": "意义存在",
+        "items": [
+          0,
+          3,
+          4,
+          5,
+          8
+        ],
+        "maxScore": 35
+      },
+      {
+        "id": "search",
+        "name": "意义寻求",
+        "items": [
+          1,
+          2,
+          6,
+          7,
+          9
+        ],
+        "maxScore": 35
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 30,
+        "level": "mild",
+        "label": "生命意义感较低",
+        "description": "您当前对生命意义的感知和探索都相对较少。",
+        "suggestions": [
+          "尝试探索自己的价值观和兴趣",
+          "参与志愿服务或社区活动",
+          "与重要的人分享你的想法和感受"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 50,
+        "level": "normal",
+        "label": "生命意义感中等",
+        "description": "您对生命意义有一定的感知和探索。",
+        "suggestions": [
+          "继续探索对你有意义的事物",
+          "反思并记录你的核心价值观",
+          "设定与价值观一致的目标"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 70,
+        "level": "minimal",
+        "label": "生命意义感较高",
+        "description": "您对生命意义有清晰的认识和积极的追求。",
+        "suggestions": [
+          "继续保持有意义的生活方式",
+          "帮助他人发现生命意义",
+          "在新领域中继续探索和成长"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "presence": [
+        {
+          "min": 5,
+          "max": 15,
+          "level": "severe",
+          "label": "存在感低",
+          "description": "您目前较少感受到生命的意义。"
+        },
+        {
+          "min": 16,
+          "max": 25,
+          "level": "mild",
+          "label": "存在感中等",
+          "description": "您对生命意义有一定感知。"
+        },
+        {
+          "min": 26,
+          "max": 35,
+          "level": "minimal",
+          "label": "存在感高",
+          "description": "您清楚地感受到自己的人生是有意义的。"
+        }
+      ],
+      "search": [
+        {
+          "min": 5,
+          "max": 15,
+          "level": "minimal",
+          "label": "寻求感低",
+          "description": "您目前不太积极寻找生命意义。"
+        },
+        {
+          "min": 16,
+          "max": 25,
+          "level": "normal",
+          "label": "寻求感中等",
+          "description": "您对生命意义有适度的探索。"
+        },
+        {
+          "min": 26,
+          "max": 35,
+          "level": "mild",
+          "label": "寻求感高",
+          "description": "您正在积极寻找和探索生命意义。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "presence",
+        "search"
+      ],
+      "maxDisplayScore": 35
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "意义存在",
+          "max": 35
+        },
+        {
+          "name": "意义寻求",
+          "max": 35
+        }
+      ]
+    }
+  }
+}

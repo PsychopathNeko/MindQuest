@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "id": "dts",
+    "name": "DTS 痛苦忍受量表",
+    "fullName": "Distress Tolerance Scale",
+    "description": "DTS 是一份包含 15 个条目的自评量表，评估个体感知的忍受情绪痛苦的能力。采用 5 点评分，得分越高表明痛苦忍受力越强。",
+    "author": "Simons & Gaher (2005)",
+    "license": "Free to use",
+    "reference": "Simons JS, Gaher RM. The Distress Tolerance Scale: Development and validation of a self-report measure. Motivation and Emotion. 2005;29(2):83-102.",
+    "instruction": "请仔细阅读每条陈述，并选择您对每条的同意或不同意程度。请想想当您感到痛苦或心烦意乱时的通常感受。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常同意"
+    },
+    {
+      "value": 2,
+      "label": "比较同意"
+    },
+    {
+      "value": 3,
+      "label": "同意和不同意各半"
+    },
+    {
+      "value": 4,
+      "label": "比较不同意"
+    },
+    {
+      "value": 5,
+      "label": "非常不同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "感到痛苦或心烦对我来说是无法忍受的",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "当我感到痛苦或心烦时，我满脑子想的都是自己感觉有多糟糕",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我的痛苦感受如此强烈，以至于完全将我吞没",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "没有什么比感到痛苦或心烦更糟糕的了",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我能像大多数人一样忍受痛苦或心烦的感觉",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我觉得自己感到痛苦或心烦是不可接受的",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我会不惜一切代价避免感到痛苦或心烦",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "别人似乎比我更能忍受痛苦或心烦的感觉",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "感到痛苦或心烦对我来说总是一场大灾难",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "当我感到痛苦或心烦时，我会为自己感到羞耻",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我对痛苦或心烦的感受让我害怕",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我会不惜一切代价来停止痛苦或心烦的感觉",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "当我感到痛苦或心烦时，我必须立即做些什么来解决",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "当我感到痛苦或心烦时，我忍不住专注于这种痛苦感觉有多糟糕",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我无法做任何事情让痛苦或心烦变得可以忍受",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 75,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 15,
+        "max": 30,
+        "level": "severe",
+        "label": "痛苦忍受力很低",
+        "description": "您对情绪痛苦的忍受力很低，当消极情绪出现时可能感到不堪重负，难以应对。",
+        "suggestions": [
+          "建议寻求专业治疗师帮助，学习痛苦忍受技能（如辩证行为疗法）",
+          "学习扎根技术以应对急性痛苦时刻",
+          "练习正念，以不评判的态度观察情绪",
+          "与信任的人一起制定危机应对计划"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 45,
+        "level": "moderate",
+        "label": "痛苦忍受力较低",
+        "description": "您对情绪痛苦的忍受力低于平均水平，不愉快的情绪可能让您感到难以管理，并可能导致回避行为。",
+        "suggestions": [
+          "练习接受不舒服的情绪是暂时的体验",
+          "心烦时尝试深呼吸或渐进式肌肉放松",
+          "逐步让自己接触轻微的不适感以建立忍受力",
+          "考虑接受以情绪调节技能为重点的心理治疗"
+        ]
+      },
+      {
+        "min": 46,
+        "max": 60,
+        "level": "mild",
+        "label": "痛苦忍受力中等",
+        "description": "您对情绪痛苦有中等程度的忍受能力，通常能管理消极情绪，但在特别强烈的时候可能会有困难。",
+        "suggestions": [
+          "继续发展情绪调节技能",
+          "保持健康的应对策略，如运动和社交支持",
+          "在困难时刻练习自我关怀"
+        ]
+      },
+      {
+        "min": 61,
+        "max": 75,
+        "level": "minimal",
+        "label": "痛苦忍受力高",
+        "description": "您对情绪痛苦有很强的忍受能力，通常能承受消极情绪而不感到不堪重负或需要立即逃避。",
+        "suggestions": [
+          "继续保持您的韧性和应对策略",
+          "与可能受益的人分享您的策略",
+          "关注自己的情绪健康，需要时寻求支持"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 15,
+      "max": 75
+    }
+  }
+}

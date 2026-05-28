@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "id": "psas",
+    "name": "PSAS 睡前唤醒量表",
+    "fullName": "Pre-Sleep Arousal Scale",
+    "description": "PSAS 是一份包含16个条目的自评量表，用于评估试图入睡时的唤醒水平。它包括两个分量表：认知唤醒和躯体唤醒。",
+    "author": "Nicassio et al. (1985)",
+    "license": "Free to use",
+    "reference": "Nicassio PM, Mendlowitz DR, Fussell JJ, Petras L. The phenomenology of the pre-sleep state: The development of the pre-sleep arousal scale. Behav Res Ther. 1985;23(3):263-271.",
+    "instruction": "请描述当您在卧室试图入睡时，以下每种情况的体验程度。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "完全没有"
+    },
+    {
+      "value": 2,
+      "label": "轻微"
+    },
+    {
+      "value": 3,
+      "label": "中等"
+    },
+    {
+      "value": 4,
+      "label": "很多"
+    },
+    {
+      "value": 5,
+      "label": "极度"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "担心入睡",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "回顾或思考当天的事件",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "抑郁或焦虑的想法",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "担心睡眠以外的问题",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "精神警觉、活跃",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "无法停止思考",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "想法不断在脑中盘旋",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "被环境中的声音干扰",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "心跳加速、砰砰跳或不规则跳动",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "身体有紧张不安的感觉",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "呼吸急促或呼吸困难",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "肌肉紧绷、紧张的感觉",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "手、脚或身体发冷",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "胃部不适（胃部打结或紧张感）",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "手掌或身体其他部位出汗",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "口腔或喉咽干燥",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 80,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "cognitive",
+        "name": "认知唤醒",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "maxScore": 40
+      },
+      {
+        "id": "somatic",
+        "name": "躯体唤醒",
+        "items": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "maxScore": 40
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 32,
+        "level": "minimal",
+        "label": "低睡前唤醒",
+        "description": "您的睡前唤醒水平较低。",
+        "suggestions": [
+          "继续保持您的健康睡眠习惯"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 48,
+        "level": "mild",
+        "label": "中度睡前唤醒",
+        "description": "您的睡前唤醒水平中等。",
+        "suggestions": [
+          "睡前练习放松技术",
+          "建立舒缓的睡前习惯",
+          "限制咖啡因摄入"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 64,
+        "level": "moderate",
+        "label": "高睡前唤醒",
+        "description": "您的睡前唤醒水平较高。",
+        "suggestions": [
+          "考虑接受失眠认知行为治疗（CBT-I）",
+          "考虑咨询睡眠专家"
+        ]
+      },
+      {
+        "min": 65,
+        "max": 80,
+        "level": "severe",
+        "label": "非常高的睡前唤醒",
+        "description": "您的睡前唤醒水平非常高。",
+        "suggestions": [
+          "寻求睡眠专家或心理治疗师的专业帮助",
+          "CBT-I 是治疗失眠相关唤醒的金标准"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "cognitive": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "minimal",
+          "label": "低认知唤醒",
+          "description": "睡前精神激活程度极低。"
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "中度认知唤醒",
+          "description": "睡前有一些奔涌的想法或担忧。"
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "moderate",
+          "label": "高认知唤醒",
+          "description": "睡前经常出现奔涌的想法和精神警觉。"
+        },
+        {
+          "min": 33,
+          "max": 40,
+          "level": "severe",
+          "label": "非常高的认知唤醒",
+          "description": "强烈的精神激活，显著干扰入睡。"
+        }
+      ],
+      "somatic": [
+        {
+          "min": 8,
+          "max": 16,
+          "level": "minimal",
+          "label": "低躯体唤醒",
+          "description": "睡前身体症状极少。"
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "mild",
+          "label": "中度躯体唤醒",
+          "description": "睡前有一些身体紧张或躯体症状。"
+        },
+        {
+          "min": 25,
+          "max": 32,
+          "level": "moderate",
+          "label": "高躯体唤醒",
+          "description": "睡前经常出现肌肉紧张、心跳加速等症状。"
+        },
+        {
+          "min": 33,
+          "max": 40,
+          "level": "severe",
+          "label": "非常高的躯体唤醒",
+          "description": "强烈的躯体唤醒症状，显著干扰放松和入睡。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "cognitive",
+        "somatic"
+      ],
+      "maxDisplayScore": 40
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "认知唤醒",
+          "max": 40
+        },
+        {
+          "name": "躯体唤醒",
+          "max": 40
+        }
+      ]
+    }
+  }
+}

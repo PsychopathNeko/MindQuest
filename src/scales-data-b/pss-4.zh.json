@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "id": "pss-4",
+    "name": "PSS-4 知觉压力量表简版",
+    "fullName": "Perceived Stress Scale-4",
+    "description": "PSS-4 是知觉压力量表的4题简版，选取 PSS-10 中的第2、4、5、10题。适用于时间有限的场景（如电话访谈或重复测量），可快速评估知觉压力水平。",
+    "author": "Cohen, Kamarck & Mermelstein (1983)",
+    "license": "Free to use",
+    "reference": "Cohen S, Kamarck T, Mermelstein R. A global measure of perceived stress. J Health Soc Behav. 1983;24(4):385-396.",
+    "instruction": "以下问题询问您在过去一个月内的感受和想法。请指出您有某种感受或想法的频率。",
+    "population": "一般人群（12岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 1,
+      "label": "几乎不"
+    },
+    {
+      "value": 2,
+      "label": "有时"
+    },
+    {
+      "value": 3,
+      "label": "时常"
+    },
+    {
+      "value": 4,
+      "label": "非常频繁"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "在过去一个月中，您感到无法控制生活中重要事情的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "在过去一个月中，您对处理个人问题的能力感到自信的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "在过去一个月中，您感到事情在按您的方式发展的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "在过去一个月中，您感到困难堆积太多以至于无法克服的频率如何？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 16,
+    "maxItemScore": 4,
+    "reverseItems": [
+      1,
+      2
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "minimal",
+        "label": "低压力",
+        "description": "您的知觉压力水平较低，您似乎在良好地应对生活需求。",
+        "suggestions": [
+          "继续保持当前的应对策略",
+          "坚持健康的生活习惯和作息",
+          "练习预防性的压力管理技巧"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "moderate",
+        "label": "中等压力",
+        "description": "您的知觉压力处于中等水平，建议加强压力管理策略。",
+        "suggestions": [
+          "识别并应对主要的压力来源",
+          "定期练习放松技巧",
+          "保持工作与生活的平衡",
+          "需要时寻求社交支持"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 16,
+        "level": "severe",
+        "label": "高压力",
+        "description": "您的知觉压力水平较高，这可能正在影响您的身心健康，需要引起重视。",
+        "suggestions": [
+          "建议完成完整版 PSS-10 以获得更详细的评估",
+          "咨询心理健康专业人士获取压力管理支持",
+          "立即采取减压策略",
+          "审视并优先安排您的事务"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 16
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "id": "pc-ptsd-5",
+    "name": "PC-PTSD-5 初级保健PTSD筛查量表",
+    "fullName": "Primary Care PTSD Screen for DSM-5",
+    "description": "PC-PTSD-5 是一份5题的简短筛查工具，用于在初级保健环境中识别可能患有创伤后应激障碍(PTSD)的个体。该量表基于DSM-5的PTSD诊断标准设计，评估与创伤性事件相关的五种核心症状。",
+    "author": "Prins, Bovin, Smolenski et al. (2016)",
+    "license": "Public Domain",
+    "reference": "Prins A, Bovin MJ, Smolenski DJ, et al. The Primary Care PTSD Screen for DSM-5 (PC-PTSD-5): development and evaluation within a veteran primary care sample. J Gen Intern Med. 2016;31(10):1206-1211.",
+    "instruction": "有时候，一些非常有压力的事件或经历会发生在人身上，例如严重的事故、火灾、灾难、身体或性侵害，或者被迫离开家园。请回答以下关于过去一个月内与此类创伤性事件相关的体验。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "做过关于这件事的噩梦，或者在不想去想的时候却不由自主地想起了它？",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "努力不去想它，或者刻意回避让你想起它的情境？",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "持续保持警觉、警惕或容易受到惊吓？",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "感到麻木或与人、活动或周围环境脱离？",
+      "type": "yesno"
+    },
+    {
+      "index": 4,
+      "text": "感到内疚，或无法停止责怪自己或他人对这件事的责任？",
+      "type": "yesno"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 5,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "minimal",
+        "label": "筛查阴性",
+        "description": "您的得分低于筛查切点（3分），未提示存在可能的PTSD。但请注意，这并不能完全排除PTSD或其他创伤相关问题。",
+        "suggestions": [
+          "如果您经历了创伤性事件，请关注自身的情绪变化",
+          "继续保持健康的应对方式",
+          "如果创伤相关症状持续或加重，建议重新评估",
+          "保持与亲友的支持性联系"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "severe",
+        "label": "筛查阳性",
+        "description": "您的得分达到或超过筛查切点（≥3分），提示可能存在PTSD。建议进行进一步的专业评估以确认诊断。",
+        "suggestions": [
+          "建议尽快咨询心理健康专业人士进行全面评估",
+          "创伤聚焦的认知行为疗法（TF-CBT）和EMDR是循证有效的PTSD治疗方法",
+          "不要独自承受，告知信任的人您的感受",
+          "避免使用酒精或药物来应对症状",
+          "保持规律的作息和日常活动",
+          "如有严重困扰或危机，请拨打心理危机热线：400-161-9995"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 5
+    }
+  }
+}

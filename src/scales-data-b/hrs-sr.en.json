@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "id": "hrs-sr",
+    "name": "HRS-SR Hoarding Rating Scale",
+    "fullName": "Hoarding Rating Scale - Self Report",
+    "description": "The HRS-SR is a 5-item self-report tool for quickly assessing hoarding severity. Developed by Tolin et al., it covers clutter, difficulty discarding, excessive acquisition, distress, and functional impairment.",
+    "author": "Tolin et al. (2008)",
+    "license": "Free to use",
+    "reference": "Tolin DF, Frost RO, Steketee G. A brief interview for assessing compulsive hoarding: the Hoarding Rating Scale-Interview. Psychiatry Res. 2010;178(1):147-152.",
+    "instruction": "Based on the past week, please select the option that best describes your situation.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "None"
+    },
+    {
+      "value": 1,
+      "label": "Mild"
+    },
+    {
+      "value": 2,
+      "label": "Moderate"
+    },
+    {
+      "value": 3,
+      "label": "Considerable"
+    },
+    {
+      "value": 4,
+      "label": "Severe"
+    },
+    {
+      "value": 5,
+      "label": "Very severe"
+    },
+    {
+      "value": 6,
+      "label": "Extreme"
+    },
+    {
+      "value": 7,
+      "label": "Very extreme"
+    },
+    {
+      "value": 8,
+      "label": "Most extreme"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Because of the clutter or number of possessions, how difficult is it to use the rooms in your home?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "How difficult is it for you to discard (throw away, recycle, sell, or give away) ordinary things?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "To what extent do you have a problem with collecting free things or buying more things than you need or can use or can afford?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "To what extent do you experience emotional distress because of clutter, difficulty discarding, or problems with buying or acquiring things?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "To what extent do you experience impairment in your life (daily routine, job/school, social activities, family activities, financial difficulties) because of clutter, difficulty discarding, or problems with buying or acquiring things?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 40,
+    "maxItemScore": 8,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "No Hoarding Problems",
+        "description": "Your hoarding behavior is within normal range with no significant hoarding problems.",
+        "suggestions": [
+          "Maintain regular habits of organizing belongings",
+          "Mild difficulty discarding is normal"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 17,
+        "level": "mild",
+        "label": "Mild Hoarding",
+        "description": "You show some mild hoarding tendencies that may not yet significantly affect daily life.",
+        "suggestions": [
+          "Develop regular decluttering and organizing habits",
+          "Think before purchasing — do you really need this?",
+          "Try the 'one in, one out' rule — discard an old item when acquiring a new one",
+          "If difficulties increase, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 26,
+        "level": "moderate",
+        "label": "Moderate Hoarding",
+        "description": "Your hoarding behavior has reached clinically significant levels (>=14 is typically considered screen-positive) and may affect living space and daily functioning.",
+        "suggestions": [
+          "Consider consulting a mental health professional",
+          "Cognitive Behavioral Therapy (CBT) has good outcomes for hoarding disorder",
+          "Clear items gradually rather than all at once",
+          "Learn about hoarding disorder",
+          "Seek support and understanding from family and friends"
+        ]
+      },
+      {
+        "min": 27,
+        "max": 40,
+        "level": "severe",
+        "label": "Severe Hoarding",
+        "description": "You reported severe hoarding problems that may significantly impact quality of life, safety, and social functioning. Professional help is strongly recommended.",
+        "suggestions": [
+          "Strongly recommend consulting a psychiatrist or hoarding specialist therapist",
+          "Hoarding disorder is treatable",
+          "Don't let shame prevent you from seeking help",
+          "Medication (e.g., SSRIs) combined with CBT may be helpful",
+          "Ensure basic safety in your living environment"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 40
+    }
+  }
+}

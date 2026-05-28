@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "id": "scoff",
+    "name": "SCOFF Eating Disorder Screen",
+    "fullName": "SCOFF Eating Disorder Screening Questionnaire",
+    "description": "The SCOFF is a 5-item rapid screening tool for identifying possible eating disorder risk, including anorexia nervosa and bulimia nervosa.",
+    "author": "Morgan JF, Reid F, Lacey JH (1999)",
+    "license": "Free to use",
+    "reference": "Morgan JF, Reid F, Lacey JH. The SCOFF questionnaire: assessment of a new screening tool for eating disorders. BMJ. 1999;319(7223):1467-1468.",
+    "instruction": "Please answer the following questions about your eating behaviors with Yes or No.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "No"
+    },
+    {
+      "value": 1,
+      "label": "Yes"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Do you make yourself Sick because you feel uncomfortably full?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Do you worry you have lost Control over how much you eat?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Have you recently lost more than One stone (14 lbs / 6 kg) in a 3-month period?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Do you believe yourself to be Fat when others say you are too thin?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Would you say that Food dominates your life?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 5,
+    "maxItemScore": 1,
+    "reverseItems": [],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 1,
+        "level": "normal",
+        "label": "Low Risk",
+        "description": "Your eating disorder screening result indicates low risk.",
+        "suggestions": [
+          "Continue maintaining healthy and balanced eating habits",
+          "Maintain a positive body image"
+        ]
+      },
+      {
+        "min": 2,
+        "max": 5,
+        "level": "elevated",
+        "label": "Possible Eating Disorder",
+        "description": "Your responses suggest possible eating disorder risk (score >= 2). Further evaluation is recommended.",
+        "suggestions": [
+          "Seek a professional eating disorder evaluation",
+          "Discuss your eating behaviors with a doctor or mental health professional",
+          "Eating disorders are treatable, and earlier intervention leads to better outcomes"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 5
+    }
+  }
+}

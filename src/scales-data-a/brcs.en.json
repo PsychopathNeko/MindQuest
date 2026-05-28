@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "id": "brcs",
+    "name": "BRCS Brief Resilient Coping Scale",
+    "fullName": "Brief Resilient Coping Scale",
+    "description": "The BRCS is a 4-item scale designed to capture tendencies to cope with stress in a highly adaptive manner. It measures the ability to creatively and flexibly handle difficult situations, reflecting resilient coping as an active problem-solving approach to adversity.",
+    "author": "Sinclair & Wallston (2004)",
+    "license": "Free to use",
+    "reference": "Sinclair VG, Wallston KA. The development and psychometric evaluation of the Brief Resilient Coping Scale. Assessment. 2004;11(1):94-101.",
+    "instruction": "Please indicate the extent to which each of the following statements describes your behavior and actions.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Does not describe me at all"
+    },
+    {
+      "value": 2,
+      "label": "Does not describe me"
+    },
+    {
+      "value": 3,
+      "label": "Neutral"
+    },
+    {
+      "value": 4,
+      "label": "Describes me"
+    },
+    {
+      "value": 5,
+      "label": "Describes me very well"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I look for creative ways to alter difficult situations",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Regardless of what happens to me, I believe I can control my reaction to it",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I believe that I can grow in positive ways by dealing with difficult situations",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I actively look for ways to replace the losses I encounter in life",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 20,
+    "maxItemScore": 5,
+    "reverseItems": [],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 4,
+        "max": 8,
+        "level": "severe",
+        "label": "Low Resilience",
+        "description": "You have low resilient coping. You may have difficulty finding adaptive ways to deal with stressful situations.",
+        "suggestions": [
+          "Try to identify at least one positive aspect in each challenge you face",
+          "Build a network of supportive relationships",
+          "Practice problem-solving by breaking large problems into smaller steps",
+          "Consider speaking with a counselor about developing coping strategies"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 12,
+        "level": "moderate",
+        "label": "Moderate Resilience",
+        "description": "You have moderate resilient coping abilities. You sometimes find creative solutions but may struggle with particularly challenging situations.",
+        "suggestions": [
+          "Continue developing your problem-solving skills",
+          "Practice reframing negative situations in a more balanced way",
+          "Engage in activities that build confidence and mastery",
+          "Reflect on past difficulties you have successfully overcome"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 16,
+        "level": "mild",
+        "label": "Moderately High Resilience",
+        "description": "You have moderately high resilient coping. You generally approach difficulties with adaptive strategies and can often find creative solutions.",
+        "suggestions": [
+          "Continue applying your flexible approach to challenges",
+          "Share your coping strategies with others who may benefit",
+          "Keep building on your strengths while acknowledging areas for growth",
+          "Maintain practices that support your resilience"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 20,
+        "level": "minimal",
+        "label": "High Resilience",
+        "description": "You have high resilient coping. You consistently approach adversity with creativity, flexibility, and active problem-solving.",
+        "suggestions": [
+          "Continue maintaining your strong resilient coping style",
+          "Your approach to difficulties can inspire and help others",
+          "Remember to balance active coping with self-care",
+          "Stay open to learning new strategies even when current ones work well"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 4,
+      "max": 20
+    }
+  }
+}

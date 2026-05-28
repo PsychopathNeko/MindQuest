@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "id": "phq-15",
+    "name": "PHQ-15 身体症状严重度量表",
+    "fullName": "Patient Health Questionnaire-15",
+    "description": "PHQ-15 是一份15题的躯体症状严重程度自评量表，涵盖初级医疗中最常见的躯体症状，可用于筛查躯体化障碍和监测症状严重程度。",
+    "author": "Kroenke, Spitzer & Williams (2002)",
+    "license": "Public Domain",
+    "reference": "Kroenke K, Spitzer RL, Williams JBW. The PHQ-15: validity of a new measure for evaluating the severity of somatic symptoms. Psychosom Med. 2002;64(2):258-266.",
+    "instruction": "在过去4周内，以下这些问题对您的困扰程度如何？",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "有一些困扰"
+    },
+    {
+      "value": 2,
+      "label": "非常困扰"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "胃痛",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "背痛",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "手臂、腿部或关节（膝盖、髋部等）疼痛",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "月经痉挛或经期问题（仅限女性）",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "头痛",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "胸痛",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "头晕",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "昏厥",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "心跳加速或心悸",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "呼吸急促",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "性交时疼痛或出现问题",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "便秘、腹泻或排便异常",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "恶心、胀气或消化不良",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "感到疲倦或精力不足",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "入睡困难",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 30,
+    "maxItemScore": 2,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "极轻度躯体症状",
+        "description": "您的躯体症状评分极低，未发现明显的身体症状负担。",
+        "suggestions": [
+          "继续保持健康的生活方式",
+          "规律运动和均衡饮食有助于身体健康",
+          "适当进行压力管理以预防躯体症状"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "轻度躯体症状",
+        "description": "您正在经历轻度的躯体症状，这些症状可能与压力或其他因素有关。",
+        "suggestions": [
+          "监测您的症状并注意是否存在规律",
+          "练习放松技巧，如深呼吸或瑜伽",
+          "保证充足的睡眠和规律的运动",
+          "如症状持续，建议咨询医疗人员"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "中度躯体症状",
+        "description": "您的躯体症状处于中等水平，这些症状可能正在影响您的日常功能。",
+        "suggestions": [
+          "建议咨询医疗人员进行评估",
+          "探索压力管理和放松策略",
+          "记录症状日记以识别诱因",
+          "考虑心理因素是否可能产生影响"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 30,
+        "level": "severe",
+        "label": "重度躯体症状",
+        "description": "您的躯体症状水平较高，建议进行专业评估以排除潜在的身体疾病。",
+        "suggestions": [
+          "寻求医疗评估以排除潜在疾病",
+          "考虑同时咨询内科医生和心理健康专业人士",
+          "认知行为疗法对躯体症状有良好效果",
+          "避免过度关注症状，以免加重不适感"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 30
+    }
+  }
+}

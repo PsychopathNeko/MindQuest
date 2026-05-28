@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "id": "ces-d-10",
+    "name": "CES-D-10 Depression Scale Short Form",
+    "fullName": "Center for Epidemiologic Studies Depression Scale-10",
+    "description": "The CES-D-10 is a 10-item short form of the CES-D used for rapid screening of depressive symptoms. Selected from the original 20-item version, it maintains good reliability and validity, making it particularly suitable for large-scale epidemiological surveys and primary care screening. It assesses the frequency of depression-related symptoms over the past week.",
+    "author": "Andresen, Malmgren, Carter & Patrick (1994)",
+    "license": "Public Domain",
+    "reference": "Andresen EM, Malmgren JA, Carter WB, Patrick DL. Screening for depression in well older adults: evaluation of a short form of the CES-D. Am J Prev Med. 1994;10(2):77-84.",
+    "instruction": "Below is a list of some ways you may have felt or behaved. Please indicate how often you have felt this way during the past week.",
+    "population": "General population (15+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Rarely or none of the time (less than 1 day)"
+    },
+    {
+      "value": 1,
+      "label": "Some or a little of the time (1-2 days)"
+    },
+    {
+      "value": 2,
+      "label": "Occasionally or a moderate amount of the time (3-4 days)"
+    },
+    {
+      "value": 3,
+      "label": "All of the time (5-7 days)"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I was bothered by things that usually don't bother me",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I had trouble keeping my mind on what I was doing",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I felt depressed",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I felt that everything I did was an effort",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I felt hopeful about the future",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I felt fearful",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "My sleep was restless",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I was happy",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I felt lonely",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I could not get going",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 30,
+    "maxItemScore": 3,
+    "reverseItems": [
+      4,
+      7
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "No Depression",
+        "description": "Your score is below the screening cutoff (10). No significant depressive symptoms are indicated.",
+        "suggestions": [
+          "Continue maintaining a healthy lifestyle",
+          "Keep up regular exercise and social activities",
+          "Monitor mood changes; occasional low mood is normal"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "mild",
+        "label": "Mild Depressive Symptoms",
+        "description": "Your score has reached the screening cutoff (>=10), indicating clinically significant depressive symptoms.",
+        "suggestions": [
+          "Practice self-care and maintain a regular sleep schedule",
+          "Increase physical exercise and social activities",
+          "Try talking to someone you trust about your feelings",
+          "Consider consulting a mental health professional for further evaluation"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 21,
+        "level": "moderate",
+        "label": "Moderate Depressive Symptoms",
+        "description": "Your depressive symptoms are at a moderate level and may be affecting your daily life and social functioning.",
+        "suggestions": [
+          "Consider consulting a counselor or psychiatrist soon",
+          "Maintain a regular daily routine",
+          "Engage in physical exercise at least 3 times per week",
+          "Avoid alcohol and unhealthy coping strategies",
+          "Consider psychotherapy (e.g., cognitive behavioral therapy)"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 30,
+        "level": "severe",
+        "label": "Severe Depressive Symptoms",
+        "description": "Your depressive symptoms are quite severe and are likely significantly affecting daily functioning. Please seek professional help promptly.",
+        "suggestions": [
+          "Please seek medical attention from a psychiatrist as soon as possible",
+          "Medication combined with psychotherapy may be needed",
+          "If you have thoughts of self-harm or suicide, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
+          "Do not stay alone; inform family or friends of your situation",
+          "Ensure you have a trusted support person nearby"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 30
+    }
+  }
+}

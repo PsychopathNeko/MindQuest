@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "id": "ecr-rs",
+    "name": "ECR-RS 依恋量表",
+    "fullName": "亲密关系体验量表-关系结构版",
+    "description": "ECR-RS 是一份包含12个条目的自评量表，用于评估成人依恋的两个核心维度：依恋回避和依恋焦虑。",
+    "author": "Fraley RC, et al. (2011)",
+    "license": "Free for research use",
+    "reference": "Fraley RC, Heffernan ME, Vicary AM, Brumbaugh CC. The Experiences in Close Relationships-Relationship Structures questionnaire. Psychological Assessment. 2011;23(3):615-625.",
+    "instruction": "请阅读以下每个陈述，并根据它在您亲密关系中的适用程度，选择您同意或不同意的程度。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "中立"
+    },
+    {
+      "value": 5,
+      "label": "有点同意"
+    },
+    {
+      "value": 6,
+      "label": "同意"
+    },
+    {
+      "value": 7,
+      "label": "非常同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "在需要帮助的时候，向这个人求助是有用的。",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我通常会和这个人讨论我的问题和担忧。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我会和这个人倾诉心事。",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我觉得依赖这个人很容易。",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我不太愿意对这个人敞开心扉。",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我不愿意让这个人知道我内心深处的感受。",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我经常担心这个人并不真正在乎我。",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我害怕这个人会抛弃我。",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我担心这个人不会像我在乎他/她那样在乎我。",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我不完全信任这个人。",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我很担心失去这个人。",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我无法从这个人那里得到我需要的关爱和支持，这让我很生气。",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "minItemScore": 1,
+    "maxTotal": 84,
+    "maxItemScore": 7,
+    "reverseItems": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "subscales": [
+      {
+        "id": "avoidance",
+        "name": "回避",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "maxScore": 42
+      },
+      {
+        "id": "anxiety",
+        "name": "焦虑",
+        "items": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "maxScore": 42
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 36,
+        "level": "minimal",
+        "label": "安全型依恋",
+        "description": "您的得分表明依恋风格相对安全，回避和焦虑程度较低。",
+        "suggestions": [
+          "继续培养和维护亲密关系",
+          "您的关系模式看起来健康且适应良好"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 54,
+        "level": "mild",
+        "label": "中度依恋困扰",
+        "description": "您的得分表明存在一定程度的依恋不安全感。请查看分量表得分以了解回避还是焦虑更为突出。",
+        "suggestions": [
+          "思考哪些关系让您感到最安全以及原因",
+          "练习与信任的人进行开放沟通"
+        ]
+      },
+      {
+        "min": 55,
+        "max": 84,
+        "level": "severe",
+        "label": "明显依恋不安全",
+        "description": "您的得分表明存在显著的依恋不安全感，可能影响关系功能。",
+        "suggestions": [
+          "考虑与心理治疗师讨论您的关系模式",
+          "探索以依恋为焦点的治疗方法"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "avoidance": [
+        {
+          "min": 6,
+          "max": 18,
+          "level": "normal",
+          "label": "低回避",
+          "description": "您对亲密关系和依赖他人感到舒适。"
+        },
+        {
+          "min": 19,
+          "max": 30,
+          "level": "mild",
+          "label": "中度回避",
+          "description": "您有时会觉得难以向他人敞开心扉或依赖他人。"
+        },
+        {
+          "min": 31,
+          "max": 42,
+          "level": "severe",
+          "label": "高回避",
+          "description": "您倾向于回避亲密、自我表露和依赖他人。"
+        }
+      ],
+      "anxiety": [
+        {
+          "min": 6,
+          "max": 18,
+          "level": "normal",
+          "label": "低焦虑",
+          "description": "您在关系中感到相对安全，不会过度担忧。"
+        },
+        {
+          "min": 19,
+          "max": 30,
+          "level": "mild",
+          "label": "中度焦虑",
+          "description": "您有时会担心被抛弃或不被爱。"
+        },
+        {
+          "min": 31,
+          "max": 42,
+          "level": "severe",
+          "label": "高焦虑",
+          "description": "您经常担心被拒绝、被抛弃以及他人是否真正在乎您。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "avoidance",
+        "anxiety"
+      ],
+      "maxDisplayScore": 42
+    }
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "id": "pcl-5",
+    "name": "PCL-5 PTSD Checklist",
+    "fullName": "PTSD Checklist for DSM-5",
+    "description": "The PCL-5 is a 20-item self-report measure assessing DSM-5 PTSD symptom severity across four clusters: intrusion, avoidance, negative alterations in cognition and mood, and alterations in arousal and reactivity.",
+    "author": "Weathers et al. (2013)",
+    "license": "Public Domain",
+    "reference": "Weathers FW, Litz BT, Keane TM, Palmieri PA, Marx BP, Schnurr PP. The PTSD Checklist for DSM-5 (PCL-5). National Center for PTSD; 2013.",
+    "instruction": "Below is a list of problems that people sometimes have in response to a very stressful experience. Please read each problem carefully and then indicate how much you have been bothered by that problem in the past month.",
+    "population": "General population (16+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "A little bit"
+    },
+    {
+      "value": 2,
+      "label": "Moderately"
+    },
+    {
+      "value": 3,
+      "label": "Quite a bit"
+    },
+    {
+      "value": 4,
+      "label": "Extremely"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Repeated, disturbing, and unwanted memories of the stressful experience",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Repeated, disturbing dreams of the stressful experience",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Suddenly feeling or acting as if the stressful experience were actually happening again (as if you were actually back there reliving it)",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Feeling very upset when something reminded you of the stressful experience",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Having strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating)",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Avoiding memories, thoughts, or feelings related to the stressful experience",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Avoiding external reminders of the stressful experience (for example, people, places, conversations, activities, objects, or situations)",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Trouble remembering important parts of the stressful experience",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Having strong negative beliefs about yourself, other people, or the world",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Blaming yourself or someone else for the stressful experience or what happened after it",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Having strong negative feelings such as fear, horror, anger, guilt, or shame",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Loss of interest in activities that you used to enjoy",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Feeling distant or cut off from other people",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Trouble experiencing positive feelings (for example, being unable to feel happiness or have loving feelings for people close to you)",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Irritable behavior, angry outbursts, or acting aggressively",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Taking too many risks or doing things that could cause you harm",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Being superalert or watchful or on guard",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "Feeling jumpy or easily startled",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "Having difficulty concentrating",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "Trouble falling or staying asleep",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 80,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "intrusion",
+        "name": "Intrusion",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "maxScore": 20
+      },
+      {
+        "id": "avoidance",
+        "name": "Avoidance",
+        "items": [
+          5,
+          6
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "cognition_mood",
+        "name": "Negative Cognition and Mood",
+        "items": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "arousal",
+        "name": "Arousal and Reactivity",
+        "items": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "maxScore": 24
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 19,
+        "level": "minimal",
+        "label": "Below PTSD Threshold",
+        "description": "Your PTSD symptom score is low, below the clinical diagnostic threshold.",
+        "suggestions": [
+          "If you still feel distressed, professional help is available",
+          "Continue healthy coping strategies",
+          "Monitor your emotional state"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 32,
+        "level": "mild",
+        "label": "Mild PTSD Symptoms",
+        "description": "You have some PTSD symptoms near or at clinical significance.",
+        "suggestions": [
+          "Consider consulting a mental health professional",
+          "Practice relaxation and grounding techniques",
+          "Maintain your social support network"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 52,
+        "level": "moderate",
+        "label": "Moderate PTSD Symptoms",
+        "description": "Your PTSD symptoms are moderate. The suggested clinical cutoff for PCL-5 is 33.",
+        "suggestions": [
+          "Strongly recommended to seek a trauma-specialized therapist",
+          "Consider evidence-based trauma treatments (CPT, PE, or EMDR)",
+          "Maintain regular daily routines",
+          "Avoid using alcohol or substances to cope"
+        ]
+      },
+      {
+        "min": 53,
+        "max": 80,
+        "level": "severe",
+        "label": "Severe PTSD Symptoms",
+        "description": "Your PTSD symptoms are severe and likely significantly impact daily functioning.",
+        "suggestions": [
+          "Please seek professional trauma treatment immediately",
+          "If in crisis, contact 988 Suicide and Crisis Lifeline",
+          "Create a safety plan for managing intense distress",
+          "Follow professional treatment recommendations closely"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "intrusion": [
+        {
+          "min": 0,
+          "max": 5,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Intrusion symptoms are low."
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Some intrusion symptoms present."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Notable intrusion symptoms."
+        },
+        {
+          "min": 16,
+          "max": 20,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe intrusion symptoms."
+        }
+      ],
+      "avoidance": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Avoidance symptoms are low."
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Some avoidance symptoms."
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Notable avoidance symptoms."
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe avoidance symptoms."
+        }
+      ],
+      "cognition_mood": [
+        {
+          "min": 0,
+          "max": 7,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Negative cognition and mood changes are low."
+        },
+        {
+          "min": 8,
+          "max": 14,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Some negative changes."
+        },
+        {
+          "min": 15,
+          "max": 21,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Notable negative changes."
+        },
+        {
+          "min": 22,
+          "max": 28,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe negative changes."
+        }
+      ],
+      "arousal": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Arousal symptoms are low."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "mild",
+          "label": "Mild",
+          "description": "Some arousal symptoms."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Notable arousal symptoms."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "severe",
+          "label": "Severe",
+          "description": "Severe arousal symptoms."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar",
+      "radar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 80
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "intrusion",
+        "avoidance",
+        "cognition_mood",
+        "arousal"
+      ],
+      "maxDisplayScore": 28
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Intrusion",
+          "max": 20
+        },
+        {
+          "name": "Avoidance",
+          "max": 8
+        },
+        {
+          "name": "Negative Cognition and Mood",
+          "max": 28
+        },
+        {
+          "name": "Arousal and Reactivity",
+          "max": 24
+        }
+      ]
+    }
+  }
+}

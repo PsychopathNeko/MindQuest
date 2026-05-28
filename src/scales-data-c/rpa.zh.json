@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "id": "rpa",
+    "name": "RPA 积极情感反应量表",
+    "fullName": "Responses to Positive Affect Scale",
+    "description": "RPA 是一份包含17个条目的自评量表，用于评估个体在体验积极情绪时的典型反应方式。该量表捕捉三种反应风格：抑制（削弱积极感受）、自我聚焦积极反刍（关注自我）和情绪聚焦积极反刍（关注情绪体验本身）。该量表有助于理解个体在品味或抑制积极情绪方面的个体差异。",
+    "author": "Feldman, Joormann & Johnson (2008)",
+    "license": "Free to use",
+    "reference": "Feldman GC, Joormann J, Johnson SL. Responses to positive affect: A self-report measure of rumination and dampening. Cogn Ther Res. 2008;32(4):507-525.",
+    "instruction": "请回想您感到快乐或心情好的时候。请指出当您感到快乐或心情好时，您通常会怎么做。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "几乎从不"
+    },
+    {
+      "value": 2,
+      "label": "有时"
+    },
+    {
+      "value": 3,
+      "label": "经常"
+    },
+    {
+      "value": 4,
+      "label": "几乎总是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "想到\"我不配拥有这些。\"",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "想到那些不顺利的事情。",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "想到\"这好得不像是真的。\"",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "想到可能会出错的事情。",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "想到\"我不配有这么好的感觉。\"",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "提醒自己这些感觉不会持续太久。",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "想到\"别人会觉得我在炫耀。\"",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "想到事情可以变得更好的方式。",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "想到自己有多快乐。",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "想到自己有多强大。",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "想到自己有多么自豪。",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "想到\"我正在实现一切目标。\"",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "细细品味这个时刻。",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "想到自己有多幸运。",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "想到发生在自己身上的好事。",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "感觉自己什么都能做到。",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "注意到自己充满活力。",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 68,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "dampening",
+        "name": "抑制",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "maxScore": 32
+      },
+      {
+        "id": "self_focused",
+        "name": "自我聚焦积极反刍",
+        "items": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "maxScore": 16
+      },
+      {
+        "id": "emotion_focused",
+        "name": "情绪聚焦积极反刍",
+        "items": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "maxScore": 20
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 17,
+        "max": 33,
+        "level": "minimal",
+        "label": "低总体反应",
+        "description": "您对积极情感的总体反应在所有领域均较低。您可能没有以任何特定方式强烈地参与积极情绪。",
+        "suggestions": [
+          "查看各分量表得分以获得更有意义的解释",
+          "思考您是否倾向于注意和参与积极情绪",
+          "练习在愉快体验发生时关注它们"
+        ]
+      },
+      {
+        "min": 34,
+        "max": 50,
+        "level": "moderate",
+        "label": "中度总体反应",
+        "description": "您对积极情绪表现出中等水平的总体反应。请查看分量表得分以了解您在抑制与品味之间的平衡。",
+        "suggestions": [
+          "关注分量表分析以获取个性化见解",
+          "如果抑制得分相对高于积极反刍，请练习品味练习",
+          "培养对感觉良好时如何反应的觉知"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 68,
+        "level": "high",
+        "label": "高总体反应",
+        "description": "您对积极情绪表现出高水平的参与。请查看分量表得分以确定这是否反映了健康的品味还是过度的抑制。",
+        "suggestions": [
+          "仔细查看分量表得分以了解您的反应模式",
+          "如果抑制得分较高，请努力允许自己充分享受积极时刻",
+          "如果积极反刍得分较高，请继续培养这种适应性的反应方式"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "dampening": [
+        {
+          "min": 8,
+          "max": 14,
+          "level": "minimal",
+          "label": "低抑制",
+          "description": "您很少抑制积极情绪，倾向于允许自己充分体验和享受积极感受。"
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "level": "moderate",
+          "label": "中度抑制",
+          "description": "您有时会通过想到负面事物或贬低好感觉来抑制积极情绪。"
+        },
+        {
+          "min": 21,
+          "max": 26,
+          "level": "high",
+          "label": "高抑制",
+          "description": "您经常抑制积极情绪。这种倾向可能减少您从积极体验中获益的能力。"
+        },
+        {
+          "min": 27,
+          "max": 32,
+          "level": "severe",
+          "label": "极高抑制",
+          "description": "您非常频繁地抑制积极情绪。这种模式与抑郁易感性和降低的幸福感有关。"
+        }
+      ],
+      "self_focused": [
+        {
+          "min": 4,
+          "max": 7,
+          "level": "minimal",
+          "label": "低",
+          "description": "您在感到积极时很少关注自我（如自豪感、力量感、成就感）。"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "moderate",
+          "label": "中度",
+          "description": "您在积极时刻有时会反思个人优势和成就。"
+        },
+        {
+          "min": 11,
+          "max": 13,
+          "level": "high",
+          "label": "高",
+          "description": "您在体验积极情绪时经常关注个人自豪感和成就。"
+        },
+        {
+          "min": 14,
+          "max": 16,
+          "level": "severe",
+          "label": "极高",
+          "description": "您非常频繁地进行自我聚焦的积极反刍，强烈地将积极感受与个人价值联系起来。"
+        }
+      ],
+      "emotion_focused": [
+        {
+          "min": 5,
+          "max": 9,
+          "level": "minimal",
+          "label": "低",
+          "description": "您很少品味或关注积极情绪体验本身。"
+        },
+        {
+          "min": 10,
+          "max": 13,
+          "level": "moderate",
+          "label": "中度",
+          "description": "您有时会品味当下并关注积极的情绪体验。"
+        },
+        {
+          "min": 14,
+          "max": 17,
+          "level": "high",
+          "label": "高",
+          "description": "您经常品味积极时刻并积极参与积极的情绪体验。"
+        },
+        {
+          "min": 18,
+          "max": 20,
+          "level": "severe",
+          "label": "极高",
+          "description": "您非常频繁地品味和沉浸在积极的情绪体验中。这是一种适应性的反应方式。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "dampening",
+        "self_focused",
+        "emotion_focused"
+      ],
+      "maxDisplayScore": 32
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "抑制",
+          "max": 32
+        },
+        {
+          "name": "自我聚焦",
+          "max": 16
+        },
+        {
+          "name": "情绪聚焦",
+          "max": 20
+        }
+      ]
+    }
+  }
+}

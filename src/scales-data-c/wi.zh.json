@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "wi",
+    "name": "WI 怀特利指数",
+    "fullName": "Whiteley Index",
+    "description": "WI 是一份包含 14 个条目的自评量表，用于评估健康焦虑（疑病症）的严重程度。它测量个体对身体症状的过度关注和对疾病的不合理担忧，是评估健康焦虑的经典工具。",
+    "author": "Pilowsky (1967)",
+    "license": "Free for research use",
+    "reference": "Pilowsky I. Dimensions of hypochondriasis. Br J Psychiatry. 1967;113(494):89-93.",
+    "instruction": "请根据你的实际感受选择最符合的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "完全没有"
+    },
+    {
+      "value": 2,
+      "label": "有一点"
+    },
+    {
+      "value": 3,
+      "label": "中等程度"
+    },
+    {
+      "value": 4,
+      "label": "相当多"
+    },
+    {
+      "value": 5,
+      "label": "非常多"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "你是否经常担心自己可能患有严重的疾病",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "你是否被许多不同的症状所困扰",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "你是否经常注意到身体不同部位的各种疼痛和不适",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "你是否过于关注自己的健康状况",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "你是否经常出现不寻常的身体症状",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "当你从医生那里或报纸上了解到某种疾病后，你会担心自己也得了这种病",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "如果你感到生病，而有人说你看起来不错，你是否会感到烦恼",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "你是否在身体的许多不同部位感到疼痛",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "你是否经常担心身体出了什么问题",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "你是否觉得很难相信医生说你没有问题",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "即使检查正常，你是否仍然担心自己的健康",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "当别人告诉你没事时，你是否仍然对自己的症状感到担忧",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "你是否发现自己经常在想自己的身体",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "你是否比同龄人更常去看医生",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 70,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 14,
+        "max": 28,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的健康焦虑水平处于正常范围，对身体健康的关注程度适当。",
+        "suggestions": [
+          "继续保持合理的健康关注",
+          "定期体检以维护健康"
+        ]
+      },
+      {
+        "min": 29,
+        "max": 42,
+        "level": "mild",
+        "label": "轻度健康焦虑",
+        "description": "您存在一定程度的健康焦虑，可能偶尔对身体症状过度担忧。",
+        "suggestions": [
+          "学习区分正常身体感觉和疾病信号",
+          "避免过度搜索疾病信息",
+          "练习正念和放松技巧以减少对身体症状的过度关注",
+          "如持续担忧，考虑咨询医生"
+        ]
+      },
+      {
+        "min": 43,
+        "max": 56,
+        "level": "moderate",
+        "label": "中度健康焦虑",
+        "description": "您的健康焦虑水平较高，对身体症状的过度关注可能影响日常生活。",
+        "suggestions": [
+          "建议寻求心理咨询帮助",
+          "认知行为疗法对健康焦虑非常有效",
+          "减少反复就医和过度检查的行为",
+          "学习接受不确定性的技巧"
+        ]
+      },
+      {
+        "min": 57,
+        "max": 70,
+        "level": "severe",
+        "label": "重度健康焦虑",
+        "description": "您的健康焦虑水平很高，对疾病的过度担忧可能严重影响您的生活质量。",
+        "suggestions": [
+          "强烈建议寻求专业心理健康帮助",
+          "认知行为疗法是治疗健康焦虑的首选方法",
+          "避免反复就医和检查以获取安慰",
+          "与专业人士讨论是否需要药物辅助治疗"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 14,
+      "max": 70
+    }
+  }
+}

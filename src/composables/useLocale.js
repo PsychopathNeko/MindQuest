@@ -1,0 +1,244 @@
+import { ref } from 'vue'
+
+const STORAGE_KEY = 'mindquest_locale'
+
+function getStoredLocale() {
+  try {
+    const val = uni.getStorageSync(STORAGE_KEY)
+    return val === 'en' ? 'en' : 'zh'
+  } catch {
+    return 'zh'
+  }
+}
+
+const locale = ref(getStoredLocale())
+
+const messages = {
+  zh: {
+    'nav.home': '量表库',
+    'nav.history': '历史记录',
+    'nav.profile': '我的',
+    'home.title': '心灵探索',
+    'home.subtitle': '认识自己，是变得更好的第一步',
+    'home.loading': '加载中...',
+    'home.loadError': '加载失败',
+    'home.retry': '重试',
+    'home.scaleCount': '共 {count} 个量表',
+    'home.noMatch': '没有匹配的量表',
+    'home.clearFilter': '清除筛选',
+    'home.loadMore': '上拉加载更多...',
+    'filter.all': '全部',
+    'filter.recommended': '试试看',
+    'filter.allGroups': '全部',
+    'search.placeholder': '搜索量表...',
+    'card.questions': '{count} 题',
+    'card.minutes': '约 {count} 分钟',
+    'card.start': '开始测评',
+    'card.addToQueue': '加入队列',
+    'detail.author': '作者',
+    'detail.questionCount': '题目数量',
+    'detail.questionUnit': '题',
+    'detail.estimatedTime': '预计时间',
+    'detail.minutes': '分钟',
+    'detail.reference': '参考文献',
+    'detail.instruction': '测评指导语',
+    'detail.startAssessment': '开始测评',
+    'detail.population': '适用人群',
+    'detail.relatedScales': '相关量表',
+    'assess.exit': '退出测评',
+    'assess.exitTitle': '提示',
+    'assess.questionNumber': '第 {current} / {total} 题',
+    'assess.prev': '上一题',
+    'assess.next': '下一题',
+    'assess.viewResults': '查看结果',
+    'assess.confirmExit': '确定要退出测评吗？已作答的进度已自动保存为草稿。',
+    'assess.draftFound': '检测到上次未完成的测评进度，是否恢复？',
+    'assess.restoreDraft': '恢复进度',
+    'assess.discardDraft': '重新开始',
+    'report.notFound': '记录未找到',
+    'report.completedAt': '完成时间',
+    'report.overallInterpretation': '总体结果解读',
+    'report.subscaleDetails': '分维度详情',
+    'report.retake': '重新测评',
+    'report.disclaimer': '免责声明: 本测评结果仅供参考，不构成任何医学诊断或治疗建议。如您感到困扰或需要帮助，请咨询专业的心理健康服务人员。',
+    'report.noTotalInterpretation': '本量表采用分维度解读，请查看下方各维度详情。',
+    'report.startNext': '继续下一个：{name}',
+    'report.backHome': '返回首页',
+    'report.exportPdf': '导出 PDF',
+    'report.generatingPdf': '正在生成...',
+    'history.title': '测评历史',
+    'history.recordCount': '条记录',
+    'history.empty': '暂无测评记录',
+    'history.emptyHint': '完成一次心理测评后，记录将会显示在这里',
+    'history.startAssessment': '开始测评',
+    'history.totalScore': '总分',
+    'history.viewReport': '查看报告',
+    'history.delete': '删除',
+    'history.confirmDelete': '确认删除该记录？',
+    'history.cancel': '取消',
+    'history.clearAll': '清除所有记录',
+    'history.clearConfirm': '确定要清除所有测评记录吗？此操作不可撤销。',
+    'history.confirmClear': '确认清除',
+    'history.scoreSuffix': '分',
+    'suggestion.title': '建议',
+    'queue.title': '测评队列',
+    'queue.empty': '队列为空',
+    'queue.emptyHint': '点击“加入队列”将量表添加到这里',
+    'queue.clear': '清空队列',
+    'queue.start': '开始',
+    'queue.remove': '移除',
+    'lang.toggle': '切换语言',
+    'theme.system': '跟随系统',
+    'theme.light': '浅色模式',
+    'theme.dark': '深色模式',
+    'crisis.title': '请关注您的安全',
+    'crisis.description': '根据您的回答，我们注意到您可能正在经历一些困难的想法或感受。请知道，帮助是可以获得的，您并不孤单。',
+    'crisis.hotlineTitle': '24小时心理援助热线',
+    'crisis.line1Label': '全国心理援助热线：',
+    'crisis.line1Number': '12356',
+    'crisis.line2Label': '北京心理危机研究与干预中心：',
+    'crisis.line2Number': '010-82951332',
+    'crisis.line3Label': '希望24热线：',
+    'crisis.line3Number': '400-161-9995',
+    'crisis.line4Label': '查找更多求助中心（国际）',
+    'crisis.line4Href': 'https://www.iasp.info/resources/Crisis_Centres/',
+    'crisis.action': '如果您正处于危险之中，请立即拨打 120 或前往最近的急诊室。',
+    'profile.title': '我的',
+    'profile.language': '语言',
+    'profile.theme': '主题',
+    'profile.about': '关于',
+    'profile.version': '版本',
+    'profile.disclaimer': '免责声明',
+    'profile.disclaimerText': '本小程序量表仅供自我了解参考，不构成医学诊断。如有心理健康困扰，请咨询专业人士。',
+    'yesno.yes': '是',
+    'yesno.no': '否',
+  },
+  en: {
+    'nav.home': 'Scales',
+    'nav.history': 'History',
+    'nav.profile': 'Me',
+    'home.title': 'Explore Your Mind',
+    'home.subtitle': 'Know yourself — the first step to becoming better',
+    'home.loading': 'Loading...',
+    'home.loadError': 'Loading failed',
+    'home.retry': 'Retry',
+    'home.scaleCount': '{count} scales',
+    'home.noMatch': 'No matching scales',
+    'home.clearFilter': 'Clear filters',
+    'home.loadMore': 'Pull up to load more...',
+    'filter.all': 'All',
+    'filter.recommended': 'Try these',
+    'filter.allGroups': 'All',
+    'search.placeholder': 'Search scales...',
+    'card.questions': '{count} items',
+    'card.minutes': '~{count} min',
+    'card.start': 'Start',
+    'card.addToQueue': 'Add to Queue',
+    'detail.author': 'Author',
+    'detail.questionCount': 'Questions',
+    'detail.questionUnit': 'items',
+    'detail.estimatedTime': 'Est. Time',
+    'detail.minutes': 'min',
+    'detail.reference': 'Reference',
+    'detail.instruction': 'Instructions',
+    'detail.startAssessment': 'Start Assessment',
+    'detail.population': 'Target Population',
+    'detail.relatedScales': 'Related Scales',
+    'assess.exit': 'Exit',
+    'assess.exitTitle': 'Confirm',
+    'assess.questionNumber': 'Q {current} / {total}',
+    'assess.prev': 'Previous',
+    'assess.next': 'Next',
+    'assess.viewResults': 'View Results',
+    'assess.confirmExit': 'Are you sure you want to exit? Your progress has been saved as a draft.',
+    'assess.draftFound': 'A previous unfinished assessment was found. Would you like to restore it?',
+    'assess.restoreDraft': 'Restore',
+    'assess.discardDraft': 'Start Over',
+    'report.notFound': 'Record not found',
+    'report.completedAt': 'Completed',
+    'report.overallInterpretation': 'Overall Interpretation',
+    'report.subscaleDetails': 'Subscale Details',
+    'report.retake': 'Retake',
+    'report.disclaimer': 'Disclaimer: This assessment is for reference only and does not constitute medical diagnosis or treatment advice.',
+    'report.noTotalInterpretation': 'This scale uses subscale-based interpretation. See subscale details below.',
+    'report.startNext': 'Continue: {name}',
+    'report.backHome': 'Back to Home',
+    'report.exportPdf': 'Export PDF',
+    'report.generatingPdf': 'Generating...',
+    'history.title': 'Assessment History',
+    'history.recordCount': 'records',
+    'history.empty': 'No assessment records',
+    'history.emptyHint': 'Records will appear here after completing an assessment',
+    'history.startAssessment': 'Start Assessment',
+    'history.totalScore': 'Total',
+    'history.viewReport': 'View Report',
+    'history.delete': 'Delete',
+    'history.confirmDelete': 'Delete this record?',
+    'history.cancel': 'Cancel',
+    'history.clearAll': 'Clear All Records',
+    'history.clearConfirm': 'Clear all assessment records? This cannot be undone.',
+    'history.confirmClear': 'Confirm Clear',
+    'history.scoreSuffix': '',
+    'suggestion.title': 'Suggestions',
+    'queue.title': 'Assessment Queue',
+    'queue.empty': 'Queue is empty',
+    'queue.emptyHint': 'Click "Add to Queue" to add scales here',
+    'queue.clear': 'Clear Queue',
+    'queue.start': 'Start',
+    'queue.remove': 'Remove',
+    'lang.toggle': 'Switch Language',
+    'theme.system': 'System',
+    'theme.light': 'Light',
+    'theme.dark': 'Dark',
+    'crisis.title': 'Your Safety Matters',
+    'crisis.description': 'Based on your responses, we noticed you may be experiencing some difficult thoughts or feelings. Please know that help is available and you are not alone.',
+    'crisis.hotlineTitle': '24/7 Crisis Hotlines',
+    'crisis.line1Label': '988 Suicide & Crisis Lifeline (US): ',
+    'crisis.line1Number': '988',
+    'crisis.line2Label': 'Samaritans (UK/IE): ',
+    'crisis.line2Number': '116 123',
+    'crisis.line3Label': 'Crisis Text Line (US): Text HOME to ',
+    'crisis.line3Number': '741741',
+    'crisis.line4Label': 'Find a Crisis Center (International)',
+    'crisis.line4Href': 'https://www.iasp.info/resources/Crisis_Centres/',
+    'crisis.action': 'If you are in immediate danger, please call 911 (US) or 999 (UK) or your local emergency number.',
+    'profile.title': 'Me',
+    'profile.language': 'Language',
+    'profile.theme': 'Theme',
+    'profile.about': 'About',
+    'profile.version': 'Version',
+    'profile.disclaimer': 'Disclaimer',
+    'profile.disclaimerText': 'Scales on this app are for self-understanding only and do not constitute medical diagnosis. Please consult a professional for mental health concerns.',
+    'yesno.yes': 'Yes',
+    'yesno.no': 'No',
+  },
+}
+
+function t(key, params) {
+  let str = messages[locale.value]?.[key] ?? messages.zh[key]
+  if (!str) {
+    str = key
+  }
+  if (params) {
+    for (const [k, v] of Object.entries(params)) {
+      str = str.replaceAll(`{${k}}`, v)
+    }
+  }
+  return str
+}
+
+function setLocale(newLocale) {
+  if (newLocale !== 'zh' && newLocale !== 'en') return
+  locale.value = newLocale
+  try {
+    uni.setStorageSync(STORAGE_KEY, newLocale)
+  } catch {}
+}
+
+function toggleLocale() {
+  setLocale(locale.value === 'zh' ? 'en' : 'zh')
+}
+
+export function useLocale() {
+  return { locale, t, setLocale, toggleLocale }
+}

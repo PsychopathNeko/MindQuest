@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "id": "mhc-sf",
+    "name": "MHC-SF 心理健康连续体简表",
+    "fullName": "Mental Health Continuum-Short Form",
+    "description": "MHC-SF 是一份包含 14 个条目的自评量表，评估情感幸福感、社会幸福感和心理幸福感三个维度。",
+    "author": "Keyes CLM (2005)",
+    "license": "Free for research use",
+    "reference": "Keyes CLM. Mental illness and/or mental health? Investigating axioms of the complete state model of health. J Consult Clin Psychol. 2005;73(3):539-548.",
+    "instruction": "请回想过去一个月，以下各种感受出现的频率如何？",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 1,
+      "label": "一两次"
+    },
+    {
+      "value": 2,
+      "label": "大约每周一次"
+    },
+    {
+      "value": 3,
+      "label": "大约每周两三次"
+    },
+    {
+      "value": 4,
+      "label": "几乎每天"
+    },
+    {
+      "value": 5,
+      "label": "每天"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "感到快乐",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "对生活感兴趣",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "感到满足",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "觉得自己对社会有重要的贡献",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "觉得自己属于一个社区（如社会团体、学校、社区）",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "觉得我们的社会正在变得更好",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "觉得人们基本上是善良的",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "觉得社会的运作方式对自己有意义",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "觉得自己喜欢自己个性的大部分方面",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "善于管理日常生活中的责任",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "与他人有温暖而信任的关系",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "有推动自己成长和变得更好的经历",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "有信心去思考或表达自己的想法和意见",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "觉得自己的生活有方向和意义",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 70,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "emotional",
+        "name": "情感幸福感",
+        "items": [
+          0,
+          1,
+          2
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "social",
+        "name": "社会幸福感",
+        "items": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "maxScore": 25
+      },
+      {
+        "id": "psychological",
+        "name": "心理幸福感",
+        "items": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "maxScore": 30
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 14,
+        "level": "severe",
+        "label": "心理健康水平较低",
+        "description": "您的积极心理健康水平较低。",
+        "suggestions": [
+          "关注日常积极体验",
+          "培养有意义的社会联系",
+          "考虑咨询心理健康专业人士"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 42,
+        "level": "moderate",
+        "label": "心理健康水平中等",
+        "description": "您的积极心理健康水平中等。",
+        "suggestions": [
+          "关注各维度得分找出提升方向",
+          "增加积极社交活动",
+          "练习感恩和正念"
+        ]
+      },
+      {
+        "min": 43,
+        "max": 70,
+        "level": "minimal",
+        "label": "心理健康水平较高",
+        "description": "您的积极心理健康水平较高，心理处于繁荣状态。",
+        "suggestions": [
+          "继续保持积极的生活方式",
+          "将积极能量传递给他人"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "emotional": [
+        {
+          "min": 0,
+          "max": 5,
+          "level": "severe",
+          "label": "低",
+          "description": "情感幸福感较低。"
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "moderate",
+          "label": "中",
+          "description": "情感幸福感中等。"
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "minimal",
+          "label": "高",
+          "description": "情感幸福感较高。"
+        }
+      ],
+      "social": [
+        {
+          "min": 0,
+          "max": 8,
+          "level": "severe",
+          "label": "低",
+          "description": "社会幸福感较低。"
+        },
+        {
+          "min": 9,
+          "max": 17,
+          "level": "moderate",
+          "label": "中",
+          "description": "社会幸福感中等。"
+        },
+        {
+          "min": 18,
+          "max": 25,
+          "level": "minimal",
+          "label": "高",
+          "description": "社会幸福感较高。"
+        }
+      ],
+      "psychological": [
+        {
+          "min": 0,
+          "max": 10,
+          "level": "severe",
+          "label": "低",
+          "description": "心理幸福感较低。"
+        },
+        {
+          "min": 11,
+          "max": 20,
+          "level": "moderate",
+          "label": "中",
+          "description": "心理幸福感中等。"
+        },
+        {
+          "min": 21,
+          "max": 30,
+          "level": "minimal",
+          "label": "高",
+          "description": "心理幸福感较高。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "emotional",
+        "social",
+        "psychological"
+      ],
+      "maxDisplayScore": 30
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "情感幸福感",
+          "max": 15
+        },
+        {
+          "name": "社会幸福感",
+          "max": 25
+        },
+        {
+          "name": "心理幸福感",
+          "max": 30
+        }
+      ]
+    }
+  }
+}

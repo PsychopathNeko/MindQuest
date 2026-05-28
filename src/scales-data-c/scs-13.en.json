@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "id": "scs-13",
+    "name": "SCS-13 Self-Control Scale",
+    "shortName": "SCS-13",
+    "fullName": "Brief Self-Control Scale",
+    "description": "The SCS-13 is a 13-item brief version of the Self-Control Scale that measures individual differences in self-control. It assesses the ability to override or change inner responses, interrupt undesired behavioral tendencies, and refrain from acting on impulses.",
+    "author": "Tangney, Baumeister & Boone (2004)",
+    "questionCount": 13,
+    "estimatedMinutes": 3,
+    "license": "Free for research use",
+    "reference": "Tangney JP, Baumeister RF, Boone AL. High self-control predicts good adjustment, less pathology, better grades, and interpersonal success. J Pers. 2004;72(2):271-324.",
+    "instruction": "Using the scale provided, please indicate how much each of the following statements reflects how you typically are.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Not at all like me"
+    },
+    {
+      "value": 2,
+      "label": "A little like me"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat like me"
+    },
+    {
+      "value": 4,
+      "label": "Mostly like me"
+    },
+    {
+      "value": 5,
+      "label": "Very much like me"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I am good at resisting temptation.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I have a hard time breaking bad habits.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I am lazy.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I say inappropriate things.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I do certain things that are bad for me, if they are fun.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I refuse things that are bad for me.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I wish I had more self-discipline.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "People would say that I have iron self-discipline.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Pleasure and fun sometimes keep me from getting work done.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I have trouble concentrating.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I am able to work effectively toward long-term goals.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Sometimes I can't stop myself from doing something, even if I know it is wrong.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I often act without thinking through all the alternatives.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 65,
+    "maxItemScore": 5,
+    "minItemScore": 1,
+    "reverseItems": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      11,
+      12
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 13,
+        "max": 26,
+        "level": "severe",
+        "label": "Low Self-Control",
+        "description": "Your self-control score is low, suggesting significant difficulty in regulating impulses, habits, and behavior.",
+        "suggestions": [
+          "Start with small, achievable goals to gradually build self-discipline",
+          "Use implementation intentions (if-then plans) to manage impulses",
+          "Remove temptations from your environment when possible",
+          "Consider working with a counselor on behavior change strategies"
+        ]
+      },
+      {
+        "min": 27,
+        "max": 39,
+        "level": "moderate",
+        "label": "Below Average Self-Control",
+        "description": "Your self-control is below average. You may sometimes struggle with impulses and maintaining discipline in certain areas.",
+        "suggestions": [
+          "Identify specific triggers that undermine your self-control",
+          "Practice delayed gratification in small daily decisions",
+          "Establish consistent routines to reduce reliance on willpower",
+          "Get adequate sleep, as fatigue depletes self-control resources"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 52,
+        "level": "mild",
+        "label": "Above Average Self-Control",
+        "description": "Your self-control is above average. You generally manage impulses well and can maintain focus on your goals.",
+        "suggestions": [
+          "Continue strengthening your self-regulation habits",
+          "Be mindful of situations where self-control may be depleted",
+          "Balance self-discipline with self-compassion",
+          "Use your self-control strengths to pursue meaningful long-term goals"
+        ]
+      },
+      {
+        "min": 53,
+        "max": 65,
+        "level": "minimal",
+        "label": "High Self-Control",
+        "description": "Your self-control is high. You demonstrate strong ability to resist temptation, break bad habits, and maintain discipline.",
+        "suggestions": [
+          "Continue maintaining your strong self-regulation practices",
+          "Ensure you also allow flexibility and spontaneity in your life",
+          "Use your self-control as a resource to model healthy habits for others",
+          "Remember that balance between control and relaxation is important"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 13,
+      "max": 65
+    }
+  }
+}

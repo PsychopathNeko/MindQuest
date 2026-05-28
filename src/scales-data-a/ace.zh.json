@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "id": "ace",
+    "name": "ACE 童年不良经历问卷",
+    "fullName": "Adverse Childhood Experiences Questionnaire",
+    "description": "ACE 问卷是一份评估18岁之前童年不良经历的10题筛查工具。它涵盖了虐待（身体、情感、性）、忽视（身体、情感）以及家庭功能障碍（家庭暴力、物质滥用、精神疾病、父母分离、家庭成员入狱）等方面。ACE得分越高，成年后出现健康问题的风险越大。",
+    "author": "Felitti et al. (1998)",
+    "license": "Public Domain",
+    "reference": "Felitti VJ, Anda RF, Nordenberg D, et al. Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: the Adverse Childhood Experiences (ACE) Study. Am J Prev Med. 1998;14(4):245-258.",
+    "instruction": "在您18岁生日之前，以下情况是否发生过？请如实回答每个问题。",
+    "population": "成人（回顾童年经历）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "否"
+    },
+    {
+      "value": 1,
+      "label": "是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "父母或家中其他成年人是否经常对你辱骂、侮辱、贬低，或者做出让你害怕自己会受到身体伤害的行为？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "父母或家中其他成年人是否经常推搡、抓住、掌掴或向你扔东西，或者曾经打得你身上有伤痕或受伤？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "是否有成年人或比你大至少5岁的人曾经对你进行过性接触、试图与你发生性行为或实际与你发生了性行为？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "你是否经常觉得家里没有人爱你或认为你重要，或者家人之间不互相关心、亲近或支持？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "你是否经常觉得没有足够的食物吃，不得不穿脏衣服，或者没有人保护你？或者你的父母因为喝醉酒或吸毒而无法照顾你或在你需要时带你去看医生？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "你的父母是否曾经分居或离婚？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "你的母亲（或继母）是否经常被推搡、抓住、掌掴或被扔东西？或者有时或经常被踢、咬、拳打或被硬物击打？或者曾被反复打几分钟或被刀或枪威胁？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "你是否与有酗酒问题或使用非法毒品的人一起生活过？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "你的家庭成员中是否有人患有抑郁症或精神疾病，或者曾试图自杀？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "你的家庭成员中是否有人曾经入狱？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 10,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 0,
+        "level": "minimal",
+        "label": "无不良经历",
+        "description": "您未报告童年不良经历，这对长期健康是一个保护因素。",
+        "suggestions": [
+          "继续维护健康的人际关系和生活方式",
+          "如果您关心他人的童年经历，可以学习如何提供支持"
+        ]
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "level": "mild",
+        "label": "低风险",
+        "description": "您报告了1项童年不良经历。研究表明即使少量的不良经历也可能对健康产生一定影响。",
+        "suggestions": [
+          "了解童年经历如何影响成年后的健康",
+          "培养健康的应对策略和支持网络",
+          "如有需要，可以考虑与专业人士交流"
+        ]
+      },
+      {
+        "min": 2,
+        "max": 3,
+        "level": "moderate",
+        "label": "中等风险",
+        "description": "您报告了2-3项童年不良经历。多项不良经历的累积效应可能增加健康风险。",
+        "suggestions": [
+          "建议关注自身心理健康状况",
+          "学习压力管理和情绪调节技巧",
+          "考虑寻求心理咨询帮助处理过去的经历",
+          "建立稳固的社会支持网络"
+        ]
+      },
+      {
+        "min": 4,
+        "max": 10,
+        "level": "severe",
+        "label": "高风险",
+        "description": "您报告了4项或更多童年不良经历。高ACE得分与成年后多种身心健康问题的风险增加显著相关。",
+        "suggestions": [
+          "强烈建议寻求专业心理帮助",
+          "创伤知情的心理治疗可以有效帮助处理童年创伤",
+          "关注身心健康，定期体检",
+          "不要独自承受，与信任的人分享您的经历",
+          "记住：ACE得分不是命运，通过适当的支持和干预可以促进康复"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 10
+    }
+  }
+}

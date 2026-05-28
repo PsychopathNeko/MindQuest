@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "id": "dast-10",
+    "name": "DAST-10 药物滥用筛查测试",
+    "fullName": "药物滥用筛查测试-10项版",
+    "description": "DAST-10是一份简短的10题自评筛查工具，用于识别滥用精神活性药物的个体。它能提供药物滥用相关后果严重程度的量化指标。",
+    "author": "Skinner (1982)",
+    "license": "Public Domain",
+    "reference": "Skinner HA. The Drug Abuse Screening Test. Addict Behav. 1982;7(4):363-371.",
+    "instruction": "以下问题涉及您在过去12个月中可能使用药物（不包括酒精和烟草）的情况。请回答「是」或「否」。",
+    "population": "一般人群（16岁以上）"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "您是否曾使用过非医疗需要的药物？",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "您是否同时滥用多种药物？",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "您是否总是能够在想停止时就停止使用药物？",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "您是否因为使用药物而出现过意识丧失或闪回？",
+      "type": "yesno"
+    },
+    {
+      "index": 4,
+      "text": "您是否曾因使用药物而感到不安或内疚？",
+      "type": "yesno"
+    },
+    {
+      "index": 5,
+      "text": "您的配偶（或父母）是否曾抱怨您使用药物？",
+      "type": "yesno"
+    },
+    {
+      "index": 6,
+      "text": "您是否因为使用药物而忽视了家庭？",
+      "type": "yesno"
+    },
+    {
+      "index": 7,
+      "text": "您是否曾为了获得药物而从事违法活动？",
+      "type": "yesno"
+    },
+    {
+      "index": 8,
+      "text": "您在停止使用药物时是否出现过戒断症状（感到不适）？",
+      "type": "yesno"
+    },
+    {
+      "index": 9,
+      "text": "您是否因使用药物而出现过健康问题（如记忆力减退、肝炎、抽搐、出血等）？",
+      "type": "yesno"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 10,
+    "maxItemScore": 1,
+    "reverseItems": [
+      2
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 0,
+        "level": "minimal",
+        "label": "未报告问题",
+        "description": "您的回答未提示存在药物相关问题。",
+        "suggestions": [
+          "继续保持无药物滥用的生活方式",
+          "了解药物使用的风险",
+          "支持可能正在挣扎的朋友或家人"
+        ]
+      },
+      {
+        "min": 1,
+        "max": 2,
+        "level": "mild",
+        "label": "低度问题",
+        "description": "您的回答提示存在低度药物相关问题，建议持续关注。",
+        "suggestions": [
+          "注意您的药物使用模式及其后果",
+          "考虑与医疗保健提供者讨论您的药物使用情况",
+          "学习健康的压力应对策略"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "moderate",
+        "label": "中度问题",
+        "description": "您的回答提示存在中度药物相关问题，建议进行专业评估。",
+        "suggestions": [
+          "考虑就药物使用进行专业评估",
+          "探索心理咨询或治疗方案",
+          "识别触发因素并发展替代应对策略",
+          "与您信任的人谈谈您的困扰"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "level": "severe",
+        "label": "重度问题",
+        "description": "您的回答提示存在重度药物相关问题，强烈建议进行深入评估和干预。",
+        "suggestions": [
+          "尽快就药物使用问题寻求专业治疗",
+          "考虑强化门诊或住院治疗方案",
+          "告知信任的家人或朋友以获得支持",
+          "避免触发药物使用的情境和人群"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 10,
+        "level": "severe",
+        "label": "严重问题",
+        "description": "您的回答提示存在严重的药物相关问题，需要立即进行专业干预。",
+        "suggestions": [
+          "请立即就药物依赖问题寻求专业帮助",
+          "联系成瘾治疗中心或医院",
+          "不要在没有医疗监督的情况下突然停药",
+          "如果您感到痛苦，请拨打心理危机热线"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 10
+    }
+  }
+}

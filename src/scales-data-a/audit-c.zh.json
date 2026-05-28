@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "id": "audit-c",
+    "name": "AUDIT-C 酒精筛查简版",
+    "fullName": "酒精使用障碍识别测试-消费量版",
+    "description": "AUDIT-C是一份简短的3题酒精筛查工具，源自完整AUDIT量表的前3个问题。它可以识别危险饮酒或活跃的酒精使用障碍，广泛应用于初级保健场所。",
+    "author": "Bush et al. (1998)",
+    "license": "Public Domain",
+    "reference": "Bush K, Kivlahan DR, McDonell MB, Fihn SD, Bradley KA. The AUDIT alcohol consumption questions (AUDIT-C): an effective brief screening test for problem drinking. Arch Intern Med. 1998;158(16):1789-1795.",
+    "instruction": "请回答以下关于您饮酒情况的问题，选择最符合您饮酒习惯的选项。",
+    "population": "一般人群（16岁以上）"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "您多久喝一次含酒精的饮料？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 0,
+          "label": "从不"
+        },
+        {
+          "value": 1,
+          "label": "每月一次或更少"
+        },
+        {
+          "value": 2,
+          "label": "每月2-4次"
+        },
+        {
+          "value": 3,
+          "label": "每周2-3次"
+        },
+        {
+          "value": 4,
+          "label": "每周4次或以上"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "在您饮酒的日子里，通常一天喝几杯标准酒精饮料？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 0,
+          "label": "1或2杯"
+        },
+        {
+          "value": 1,
+          "label": "3或4杯"
+        },
+        {
+          "value": 2,
+          "label": "5或6杯"
+        },
+        {
+          "value": 3,
+          "label": "7至9杯"
+        },
+        {
+          "value": 4,
+          "label": "10杯或以上"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "您多久有一次在一个场合喝6杯或以上？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 0,
+          "label": "从不"
+        },
+        {
+          "value": 1,
+          "label": "少于每月一次"
+        },
+        {
+          "value": 2,
+          "label": "每月一次"
+        },
+        {
+          "value": 3,
+          "label": "每周一次"
+        },
+        {
+          "value": 4,
+          "label": "每天或几乎每天"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 12,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 3,
+        "level": "minimal",
+        "label": "低风险",
+        "description": "您的酒精消费量处于低风险范围，未发现明显的饮酒问题。",
+        "suggestions": [
+          "继续保持适度或不饮酒的习惯",
+          "注意可能导致饮酒增加的情境",
+          "了解推荐的饮酒限量标准"
+        ]
+      },
+      {
+        "min": 4,
+        "max": 7,
+        "level": "mild",
+        "label": "危险饮酒",
+        "description": "您的饮酒模式提示存在危险饮酒行为，可能增加健康问题的风险。",
+        "suggestions": [
+          "考虑减少饮酒量和饮酒频率",
+          "记录您的饮酒量以提高自我意识",
+          "在开始饮酒前为自己设定限量",
+          "考虑与医疗保健提供者讨论您的饮酒习惯"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 12,
+        "level": "severe",
+        "label": "有害饮酒或依赖",
+        "description": "您的饮酒模式提示存在有害饮酒或可能的酒精依赖。这一水平的饮酒量存在显著的健康风险。",
+        "suggestions": [
+          "强烈建议就您的饮酒情况咨询医疗保健提供者",
+          "考虑寻求酒精相关问题的专业帮助",
+          "了解互助团体或心理咨询等资源",
+          "饮酒后避免驾驶或操作机械",
+          "与您信任的人谈谈您的饮酒情况"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 12
+    }
+  }
+}

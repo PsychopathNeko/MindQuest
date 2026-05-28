@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "id": "pq-16",
+    "name": "PQ-16 Prodromal Questionnaire",
+    "fullName": "Prodromal Questionnaire-16",
+    "description": "The PQ-16 is a 16-item self-report screening tool for identifying psychotic-like experiences and ultra-high risk states for psychosis, abbreviated from the PQ-92 by Ising et al.",
+    "author": "Ising et al. (2012)",
+    "license": "Free to use",
+    "reference": "Ising HK, Veling W, Loewy RL, et al. The validity of the 16-item version of the Prodromal Questionnaire (PQ-16) to screen for ultra high risk of developing psychosis in the general help-seeking population. Schizophr Bull. 2012;38(6):1288-1296.",
+    "instruction": "Please read each statement below and indicate whether you have ever had such an experience. Select Yes or No.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "I sometimes feel that my thoughts don't belong to me",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "I sometimes have unusual sensations such as being touched, pulled, or pressed on my body",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "Sometimes I see things that other people can't see",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "I have had unusual or mystical experiences",
+      "type": "yesno"
+    },
+    {
+      "index": 4,
+      "text": "I sometimes feel that my thoughts are known to others",
+      "type": "yesno"
+    },
+    {
+      "index": 5,
+      "text": "I sometimes feel I can hear sounds that other people can't hear",
+      "type": "yesno"
+    },
+    {
+      "index": 6,
+      "text": "I have felt that someone or some force is controlling my actions",
+      "type": "yesno"
+    },
+    {
+      "index": 7,
+      "text": "I sometimes have difficulty concentrating because of too many unrelated thoughts",
+      "type": "yesno"
+    },
+    {
+      "index": 8,
+      "text": "I have felt that there is a barrier between me and the world around me",
+      "type": "yesno"
+    },
+    {
+      "index": 9,
+      "text": "I sometimes feel that TV or radio content is specifically directed at me",
+      "type": "yesno"
+    },
+    {
+      "index": 10,
+      "text": "I sometimes feel that people are talking about me or watching me behind my back",
+      "type": "yesno"
+    },
+    {
+      "index": 11,
+      "text": "I have had thoughts that made me think I might be going crazy",
+      "type": "yesno"
+    },
+    {
+      "index": 12,
+      "text": "I sometimes feel there is something wrong with my thinking or speech",
+      "type": "yesno"
+    },
+    {
+      "index": 13,
+      "text": "I sometimes feel that things or people are not what they appear to be",
+      "type": "yesno"
+    },
+    {
+      "index": 14,
+      "text": "Sometimes my thoughts race so fast I can't keep up with them",
+      "type": "yesno"
+    },
+    {
+      "index": 15,
+      "text": "I find it hard to understand what people are saying even when they speak clearly",
+      "type": "yesno"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 16,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "minimal",
+        "label": "Low Risk",
+        "description": "You reported few psychotic-like experiences, not indicating elevated psychosis risk.",
+        "suggestions": [
+          "No particular concern at this time",
+          "If persistent troubling thoughts or feelings occur, consult a professional"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "level": "mild",
+        "label": "Attention Needed",
+        "description": "You reported some psychotic-like experiences, near the screening threshold (>=6). Monitor changes in these experiences.",
+        "suggestions": [
+          "Pay attention to the frequency and intensity of these experiences",
+          "Maintain regular routines and social activities",
+          "Reduce stress and substance use (e.g., cannabis, alcohol)",
+          "If experiences worsen or affect functioning, consult a psychiatrist"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 12,
+        "level": "moderate",
+        "label": "Screen Positive",
+        "description": "Your score exceeds the screening threshold, suggesting possible ultra-high risk for psychosis. This is not a diagnosis and requires professional evaluation.",
+        "suggestions": [
+          "Consider consulting a psychiatrist for professional evaluation",
+          "Early identification and intervention are important for outcomes",
+          "Maintain healthy lifestyle and social connections",
+          "Avoid psychoactive substances"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 16,
+        "level": "severe",
+        "label": "Highly Positive",
+        "description": "You reported many psychotic-like experiences. A comprehensive psychiatric evaluation is strongly recommended. Early intervention can significantly improve outcomes.",
+        "suggestions": [
+          "Strongly recommend seeing a psychiatrist soon",
+          "Early intervention services can provide professional support",
+          "Let trusted family or friends know about your situation",
+          "Don't panic — having these experiences doesn't necessarily mean you have a mental illness"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 16
+    }
+  }
+}

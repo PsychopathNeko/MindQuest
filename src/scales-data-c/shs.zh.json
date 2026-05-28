@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "id": "shs",
+    "name": "SHS 主观幸福感量表",
+    "fullName": "Subjective Happiness Scale",
+    "description": "SHS 是一份简短的4题自评量表，用于测量个体整体的主观幸福感水平。该量表采用整体评价方式，不依赖于特定的幸福感来源，是目前应用最广泛的幸福感测量工具之一。",
+    "author": "Lyubomirsky & Lepper (1999)",
+    "license": "Free to use",
+    "reference": "Lyubomirsky S, Lepper HS. A measure of subjective happiness: preliminary reliability and construct validation. Social Indicators Research. 1999;46(2):137-155.",
+    "instruction": "请阅读以下每个陈述，选择最符合你情况的选项。每题有1到7个等级，请根据自己的真实感受选择。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "总体而言，我认为自己是：",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 1,
+          "label": "不是一个很快乐的人"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "一个非常快乐的人"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "与大多数同龄人相比，我认为自己是：",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 1,
+          "label": "不太快乐"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "更加快乐"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "有些人通常非常快乐，无论发生什么事都能享受生活，并从中获得最大的乐趣。这个描述在多大程度上符合你？",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 1,
+          "label": "完全不符合"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "非常符合"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "有些人通常不是很快乐，虽然没有抑郁，但似乎从未像自己期望的那样快乐。这个描述在多大程度上符合你？",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 1,
+          "label": "完全不符合"
+        },
+        {
+          "value": 2,
+          "label": "2"
+        },
+        {
+          "value": 3,
+          "label": "3"
+        },
+        {
+          "value": 4,
+          "label": "4"
+        },
+        {
+          "value": 5,
+          "label": "5"
+        },
+        {
+          "value": 6,
+          "label": "6"
+        },
+        {
+          "value": 7,
+          "label": "非常符合"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 28,
+    "maxItemScore": 7,
+    "reverseItems": [
+      3
+    ],
+    "subscales": null,
+    "minItemScore": 1
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 4,
+        "max": 11,
+        "level": "low",
+        "label": "低幸福感",
+        "description": "您的主观幸福感水平较低，可能在生活中较少体验到快乐和满足感。",
+        "suggestions": [
+          "尝试关注生活中的积极面，养成感恩的习惯",
+          "增加与亲友的社交互动",
+          "参与让自己感到愉悦的活动，如运动、兴趣爱好",
+          "如果持续感到不快乐，建议咨询心理专业人士"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 18,
+        "level": "moderate",
+        "label": "中等幸福感",
+        "description": "您的主观幸福感处于中等水平，对生活有一定程度的满意和快乐体验。",
+        "suggestions": [
+          "继续培养积极的生活习惯",
+          "尝试新的兴趣活动，丰富生活体验",
+          "与他人建立更深层的连接",
+          "练习正念冥想，提升当下的幸福感知"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 23,
+        "level": "high",
+        "label": "较高幸福感",
+        "description": "您的主观幸福感水平较高，通常能从生活中体验到较多的快乐和满足。",
+        "suggestions": [
+          "保持当前的积极生活方式",
+          "将幸福感传递给周围的人",
+          "继续追求有意义的目标和活动",
+          "珍惜并维护让你感到幸福的关系和活动"
+        ]
+      },
+      {
+        "min": 24,
+        "max": 28,
+        "level": "very_high",
+        "label": "高幸福感",
+        "description": "您的主观幸福感水平很高，您通常对生活感到非常满意和快乐。",
+        "suggestions": [
+          "恭喜您拥有很高的幸福感！继续保持",
+          "分享您的积极态度，帮助他人提升幸福感",
+          "继续投入有意义的活动和人际关系",
+          "保持感恩和正念的习惯"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 4,
+      "max": 28
+    }
+  }
+}

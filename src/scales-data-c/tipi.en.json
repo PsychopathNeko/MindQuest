@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "id": "tipi",
+    "name": "TIPI Ten-Item Personality Inventory",
+    "fullName": "Ten-Item Personality Inventory",
+    "description": "The TIPI is an ultra-brief version of the Big Five personality scale, using only 10 items to quickly assess five personality dimensions: Extraversion, Agreeableness, Conscientiousness, Emotional Stability, and Openness. It is suitable for time-limited research and rapid screening.",
+    "author": "Gosling, Rentfrow & Swann (2003)",
+    "license": "Free to use",
+    "reference": "Gosling SD, Rentfrow PJ, Swann WB Jr. A very brief measure of the Big-Five personality domains. J Res Pers. 2003;37(6):504-528.",
+    "instruction": "Here are a number of personality traits that may or may not apply to you. Please indicate the extent to which you agree or disagree with each statement. I see myself as:",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Disagree strongly"
+    },
+    {
+      "value": 2,
+      "label": "Disagree moderately"
+    },
+    {
+      "value": 3,
+      "label": "Disagree a little"
+    },
+    {
+      "value": 4,
+      "label": "Neither agree nor disagree"
+    },
+    {
+      "value": 5,
+      "label": "Agree a little"
+    },
+    {
+      "value": 6,
+      "label": "Agree moderately"
+    },
+    {
+      "value": 7,
+      "label": "Agree strongly"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Extraverted, enthusiastic",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Critical, quarrelsome",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Dependable, self-disciplined",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Anxious, easily upset",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Open to new experiences, complex",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Reserved, quiet",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Sympathetic, warm",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Disorganized, careless",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Calm, emotionally stable",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Conventional, uncreative",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "mean_subscale",
+    "maxTotal": null,
+    "maxItemScore": 7,
+    "minItemScore": 1,
+    "subscales": [
+      {
+        "id": "extraversion",
+        "name": "Extraversion",
+        "items": [
+          0,
+          5
+        ],
+        "reverseItems": [
+          5
+        ],
+        "maxItemScore": 7,
+        "minItemScore": 1
+      },
+      {
+        "id": "agreeableness",
+        "name": "Agreeableness",
+        "items": [
+          1,
+          6
+        ],
+        "reverseItems": [
+          1
+        ],
+        "maxItemScore": 7,
+        "minItemScore": 1
+      },
+      {
+        "id": "conscientiousness",
+        "name": "Conscientiousness",
+        "items": [
+          2,
+          7
+        ],
+        "reverseItems": [
+          7
+        ],
+        "maxItemScore": 7,
+        "minItemScore": 1
+      },
+      {
+        "id": "emotional_stability",
+        "name": "Emotional Stability",
+        "items": [
+          3,
+          8
+        ],
+        "reverseItems": [
+          3
+        ],
+        "maxItemScore": 7,
+        "minItemScore": 1
+      },
+      {
+        "id": "openness",
+        "name": "Openness",
+        "items": [
+          4,
+          9
+        ],
+        "reverseItems": [
+          9
+        ],
+        "maxItemScore": 7,
+        "minItemScore": 1
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": null,
+    "subscaleRanges": {
+      "extraversion": [
+        {
+          "min": 1,
+          "max": 2.5,
+          "level": "severe",
+          "label": "Low",
+          "description": "Low extraversion; tends toward introversion, quietness, and solitude."
+        },
+        {
+          "min": 2.5,
+          "max": 4.5,
+          "level": "normal",
+          "label": "Average",
+          "description": "Average extraversion; able to balance socializing and alone time."
+        },
+        {
+          "min": 4.5,
+          "max": 5.5,
+          "level": "mild",
+          "label": "Above Average",
+          "description": "Above average extraversion; tends to enjoy social interaction and group activities."
+        },
+        {
+          "min": 5.5,
+          "max": 7,
+          "level": "minimal",
+          "label": "High",
+          "description": "High extraversion; outgoing and enthusiastic, enjoys social activities, and is energetic."
+        }
+      ],
+      "agreeableness": [
+        {
+          "min": 1,
+          "max": 2.5,
+          "level": "severe",
+          "label": "Low",
+          "description": "Low agreeableness; tends toward independence, competitiveness, and questioning others."
+        },
+        {
+          "min": 2.5,
+          "max": 4.5,
+          "level": "normal",
+          "label": "Average",
+          "description": "Average agreeableness; able to balance cooperation and assertiveness."
+        },
+        {
+          "min": 4.5,
+          "max": 5.5,
+          "level": "mild",
+          "label": "Above Average",
+          "description": "Above average agreeableness; tends to be friendly and considerate."
+        },
+        {
+          "min": 5.5,
+          "max": 7,
+          "level": "minimal",
+          "label": "High",
+          "description": "High agreeableness; compassionate, cooperative, and caring about others."
+        }
+      ],
+      "conscientiousness": [
+        {
+          "min": 1,
+          "max": 2.5,
+          "level": "severe",
+          "label": "Low",
+          "description": "Low conscientiousness; tends to be flexible and spontaneous, with less focus on details and planning."
+        },
+        {
+          "min": 2.5,
+          "max": 4.5,
+          "level": "normal",
+          "label": "Average",
+          "description": "Average conscientiousness; able to balance order and flexibility."
+        },
+        {
+          "min": 4.5,
+          "max": 5.5,
+          "level": "mild",
+          "label": "Above Average",
+          "description": "Above average conscientiousness; tends to be organized and self-disciplined."
+        },
+        {
+          "min": 5.5,
+          "max": 7,
+          "level": "minimal",
+          "label": "High",
+          "description": "High conscientiousness; thorough, responsible, organized, and highly self-disciplined."
+        }
+      ],
+      "emotional_stability": [
+        {
+          "min": 1,
+          "max": 2.5,
+          "level": "severe",
+          "label": "Low",
+          "description": "Low emotional stability; prone to anxiety and mood swings."
+        },
+        {
+          "min": 2.5,
+          "max": 4.5,
+          "level": "normal",
+          "label": "Average",
+          "description": "Average emotional stability; generally able to manage emotions well most of the time."
+        },
+        {
+          "min": 4.5,
+          "max": 5.5,
+          "level": "mild",
+          "label": "Above Average",
+          "description": "Above average emotional stability; tends to be calm and resilient."
+        },
+        {
+          "min": 5.5,
+          "max": 7,
+          "level": "minimal",
+          "label": "High",
+          "description": "High emotional stability; calm, composed, highly resilient, and not easily affected by emotions."
+        }
+      ],
+      "openness": [
+        {
+          "min": 1,
+          "max": 2.5,
+          "level": "severe",
+          "label": "Low",
+          "description": "Low openness; tends toward tradition, practicality, and preference for the familiar."
+        },
+        {
+          "min": 2.5,
+          "max": 4.5,
+          "level": "normal",
+          "label": "Average",
+          "description": "Average openness; able to balance innovation and tradition."
+        },
+        {
+          "min": 4.5,
+          "max": 5.5,
+          "level": "mild",
+          "label": "Above Average",
+          "description": "Above average openness; tends to be curious and imaginative."
+        },
+        {
+          "min": 5.5,
+          "max": 7,
+          "level": "minimal",
+          "label": "High",
+          "description": "High openness; curious, creative, and open to new experiences and perspectives."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "radar",
+      "bar"
+    ],
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Extraversion",
+          "max": 7
+        },
+        {
+          "name": "Agreeableness",
+          "max": 7
+        },
+        {
+          "name": "Conscientiousness",
+          "max": 7
+        },
+        {
+          "name": "Emotional Stability",
+          "max": 7
+        },
+        {
+          "name": "Openness",
+          "max": 7
+        }
+      ]
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "extraversion",
+        "agreeableness",
+        "conscientiousness",
+        "emotional_stability",
+        "openness"
+      ],
+      "maxDisplayScore": 7
+    }
+  }
+}

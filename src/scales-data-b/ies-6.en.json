@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": "ies-6",
+    "name": "IES-6 Impact of Event Scale-6",
+    "fullName": "Impact of Event Scale-6",
+    "description": "The IES-6 is a brief 6-item self-report measure derived from the IES-R that assesses subjective distress caused by traumatic events. It captures the three core dimensions of post-traumatic stress (intrusion, avoidance, and hyperarousal) with just two items per dimension, making it suitable for screening purposes.",
+    "author": "Thoresen et al. (2010)",
+    "license": "Free to use",
+    "reference": "Thoresen S, Tambs K, Hussain A, Heir T, Johansen VA, Bisson JI. Brief measure of posttraumatic stress reactions: Impact of Event Scale-6. J Loss Trauma. 2010;15(3):238-247.",
+    "instruction": "Below is a list of difficulties people sometimes have after stressful life events. Please read each item and indicate how distressing each difficulty has been for you during the past 7 days.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "A little bit"
+    },
+    {
+      "value": 2,
+      "label": "Moderately"
+    },
+    {
+      "value": 3,
+      "label": "Quite a bit"
+    },
+    {
+      "value": 4,
+      "label": "Extremely"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I thought about it when I didn’t mean to",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I felt watchful or on guard",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Other things kept making me think about it",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I was aware that I still had a lot of feelings about it, but I didn’t deal with them",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I tried not to think about it",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I had trouble concentrating",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 24,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 6,
+        "level": "minimal",
+        "label": "Subclinical",
+        "description": "Your score is within the subclinical range, suggesting that the stressful event has not caused significant ongoing psychological distress.",
+        "suggestions": [
+          "Continue maintaining your current coping strategies",
+          "Allow yourself to process the experience at your own pace",
+          "Stay connected with supportive people in your life"
+        ]
+      },
+      {
+        "min": 7,
+        "max": 12,
+        "level": "mild",
+        "label": "Mild Distress",
+        "description": "Your score suggests mild post-traumatic distress. You may be experiencing some intrusive thoughts, avoidance behaviors, or heightened alertness.",
+        "suggestions": [
+          "Monitor your symptoms over the coming weeks",
+          "Practice relaxation techniques such as deep breathing or mindfulness",
+          "Talk to someone you trust about your experiences",
+          "Maintain regular routines for sleep and daily activities"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 18,
+        "level": "moderate",
+        "label": "Moderate Distress",
+        "description": "Your score indicates moderate post-traumatic distress. The event is having a notable impact on your well-being and may be interfering with daily functioning.",
+        "suggestions": [
+          "Consider seeking support from a mental health professional",
+          "Practice grounding techniques when intrusive thoughts occur",
+          "Maintain a structured daily routine",
+          "Avoid isolating yourself; stay connected with others"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "severe",
+        "label": "Severe Distress",
+        "description": "Your score indicates severe post-traumatic distress that is likely significantly affecting your well-being and daily functioning.",
+        "suggestions": [
+          "Please seek professional help from a trauma-specialized therapist",
+          "Evidence-based treatments such as EMDR or trauma-focused CBT can be very effective",
+          "If you are in crisis, contact a crisis helpline immediately",
+          "Create a safety plan for managing intense distress"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 24
+    }
+  }
+}

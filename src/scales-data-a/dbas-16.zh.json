@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "id": "dbas-16",
+    "name": "DBAS-16 睡眠功能失调信念和态度量表",
+    "fullName": "睡眠功能失调信念和态度量表16项版",
+    "description": "DBAS-16 是一份包含 16 个条目的自评量表，评估与睡眠相关的认知，包括对睡眠的信念、态度、期望和归因。关于睡眠的功能失调信念在维持失眠中起着关键作用，也是失眠认知行为治疗（CBT-I）的主要干预目标。",
+    "author": "Morin et al. (2007)",
+    "license": "Free to use",
+    "reference": "Morin CM, Vallieres A, Ivers H. Dysfunctional beliefs and attitudes about sleep (DBAS): Validation of a brief version (DBAS-16). Sleep. 2007;30(11):1547-1554.",
+    "instruction": "以下列出了一些关于睡眠的信念和态度。请从0（非常不同意）到10（非常同意）中选择一个数字，表示您对每条陈述的认同程度。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "非常不同意"
+    },
+    {
+      "value": 1,
+      "label": "1"
+    },
+    {
+      "value": 2,
+      "label": "2"
+    },
+    {
+      "value": 3,
+      "label": "3"
+    },
+    {
+      "value": 4,
+      "label": "4"
+    },
+    {
+      "value": 5,
+      "label": "中立"
+    },
+    {
+      "value": 6,
+      "label": "6"
+    },
+    {
+      "value": 7,
+      "label": "7"
+    },
+    {
+      "value": 8,
+      "label": "8"
+    },
+    {
+      "value": 9,
+      "label": "9"
+    },
+    {
+      "value": 10,
+      "label": "非常同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我需要8小时的睡眠才能感觉精力充沛，白天才能正常运转",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "当我某晚没有获得足够的睡眠时，我需要在第二天通过午睡或在第二天晚上睡更长时间来补觉",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我担心慢性失眠可能会对我的身体健康产生严重后果",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我担心自己可能会失去控制睡眠的能力",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我知道睡不好之后，第二天的日常活动会受到影响",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "为了白天保持警觉和正常运转，我认为吃安眠药总比睡不好要强",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "当我白天感到烦躁、沮丧或焦虑时，主要是因为前一晚没有睡好",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "如果某一晚睡得不好，我知道整个星期的睡眠计划都会被打乱",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "如果晚上没有充足的睡眠，我第二天几乎无法正常运转",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我永远无法预测自己会睡得好还是不好",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我几乎没有能力管理睡眠不佳带来的负面后果",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "当我感到疲倦、没有精力或白天似乎无法正常运转时，通常是因为前一晚没有睡好",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我认为失眠本质上是化学物质失衡的结果",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我觉得失眠正在毁掉我享受生活的能力，阻碍我做自己想做的事",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "药物可能是解决失眠的唯一方法",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "睡不好之后，我会回避或取消社交、家庭等方面的安排",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 160,
+    "maxItemScore": 10,
+    "reverseItems": [],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 40,
+        "level": "minimal",
+        "label": "功能失调信念低",
+        "description": "您的得分表明关于睡眠的功能失调信念和态度较少。您通常对睡眠持有现实的期望和态度。",
+        "suggestions": [
+          "继续保持对睡眠的健康和现实的态度",
+          "保持良好的睡眠卫生习惯",
+          "了解基于循证的良好睡眠策略"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 80,
+        "level": "mild",
+        "label": "功能失调信念偏轻",
+        "description": "您的得分表明存在一些关于睡眠的功能失调信念。某些不切实际的期望或对睡眠的担忧可能在加重睡眠困难。",
+        "suggestions": [
+          "了解睡眠的正常变异性和睡眠需求",
+          "挑战「一晚睡不好就会毁掉第二天」的信念",
+          "避免过度监控自己的睡眠模式",
+          "考虑了解认知行为方法对睡眠的帮助"
+        ]
+      },
+      {
+        "min": 81,
+        "max": 120,
+        "level": "moderate",
+        "label": "功能失调信念中等",
+        "description": "您的得分表明存在中等程度的睡眠功能失调信念。这些信念可能在维持睡眠困难并增加与睡眠相关的焦虑。",
+        "suggestions": [
+          "考虑接受失眠认知行为治疗（CBT-I）",
+          "努力挑战关于睡眠不佳后果的灾难化思维",
+          "减少将安眠药作为主要解决方案的依赖",
+          "睡前练习放松技巧",
+          "与医疗保健提供者讨论您的睡眠问题"
+        ]
+      },
+      {
+        "min": 121,
+        "max": 160,
+        "level": "severe",
+        "label": "功能失调信念高",
+        "description": "您的得分表明关于睡眠的功能失调信念和态度程度较高。强烈的不适应认知可能在很大程度上导致失眠和与睡眠相关的痛苦。",
+        "suggestions": [
+          "强烈建议寻求失眠认知行为治疗（CBT-I）",
+          "睡眠专家可以帮助重构关于睡眠的不良信念",
+          "挑战「药物是解决睡眠问题的唯一方法」的信念",
+          "了解睡眠是一个自然过程，无法被强迫——减少对睡眠的刻意控制往往有所帮助",
+          "纠正关于睡眠不佳的白天后果的灾难化思维"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 160
+    }
+  }
+}

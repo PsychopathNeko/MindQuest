@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "id": "core-10",
+    "name": "CORE-10 临床结果常规评估",
+    "fullName": "Clinical Outcomes in Routine Evaluation-10",
+    "description": "CORE-10 是一份包含 10 个条目的简短自评量表，用于评估心理困扰的总体水平。它涵盖焦虑、抑郁、创伤、身体功能、社会功能和风险等维度，广泛应用于临床实践中的常规结果监测。",
+    "author": "Connell & Barkham (2007)",
+    "license": "Free for research use",
+    "reference": "Connell J, Barkham M. CORE-10 User Manual, Version 1.1. CORE System Trust, 2007.",
+    "instruction": "请根据过去一周的情况选择最符合你的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "偶尔"
+    },
+    {
+      "value": 2,
+      "label": "有时"
+    },
+    {
+      "value": 3,
+      "label": "经常"
+    },
+    {
+      "value": 4,
+      "label": "几乎一直"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我感到紧张或焦虑",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我觉得自己有可以求助的人",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我觉得自己无法应对困难",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "说话、走路或穿衣比平时更慢",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我已经失去了对生活的兴趣",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我对自己生气",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我对自己的身体健康和精力感觉良好",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我不想见人",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我感到情绪低落或不开心",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "不想活的念头出现在我脑海中",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 40,
+    "maxItemScore": 4,
+    "reverseItems": [
+      1,
+      6
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 10,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的心理困扰水平处于正常范围，当前未表现出明显的心理健康问题。",
+        "suggestions": [
+          "继续保持良好的心理状态",
+          "保持健康的生活习惯和社交活动"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 20,
+        "level": "mild",
+        "label": "轻度困扰",
+        "description": "您存在一定程度的心理困扰，可能对日常生活有轻微影响。",
+        "suggestions": [
+          "关注自身情绪变化",
+          "学习压力管理和放松技巧",
+          "保持与他人的社交联系",
+          "如持续困扰，考虑寻求专业帮助"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "moderate",
+        "label": "中度困扰",
+        "description": "您的心理困扰水平较高，可能对工作和日常功能产生明显影响。",
+        "suggestions": [
+          "建议寻求心理咨询或治疗",
+          "与信任的人分享您的感受",
+          "保持规律的生活作息和体育锻炼",
+          "避免使用不健康的应对方式"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "severe",
+        "label": "重度困扰",
+        "description": "您的心理困扰水平很高，日常功能可能受到严重影响。",
+        "suggestions": [
+          "强烈建议尽快寻求专业心理健康帮助",
+          "如有自伤想法，请立即联系危机热线：400-161-9995",
+          "确保身边有可信赖的支持者",
+          "不要独自承受，寻求帮助是勇敢的表现"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 40
+    }
+  },
+  "crisisConfig": {
+    "type": "item",
+    "items": [
+      {
+        "questionIndex": 9,
+        "threshold": 1
+      }
+    ]
+  }
+}

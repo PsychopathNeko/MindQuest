@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "id": "phq-4",
+    "name": "PHQ-4 Patient Health Questionnaire",
+    "fullName": "Patient Health Questionnaire-4",
+    "description": "The PHQ-4 is a 4-item ultra-brief screening tool that combines the PHQ-2 (depression) and GAD-2 (anxiety) to provide a quick assessment of both depressive and anxiety symptoms. It is useful as a first-step screening in primary care and general population surveys.",
+    "author": "Kroenke, Spitzer, Williams & Löwe (2009)",
+    "license": "Public Domain",
+    "reference": "Kroenke K, Spitzer RL, Williams JBW, Löwe B. An ultra-brief screening scale for anxiety and depression: the PHQ-4. Psychosomatics. 2009;50(6):613-621.",
+    "instruction": "Over the last 2 weeks, how often have you been bothered by the following problems?",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "Several days"
+    },
+    {
+      "value": 2,
+      "label": "More than half the days"
+    },
+    {
+      "value": 3,
+      "label": "Nearly every day"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Little interest or pleasure in doing things",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Feeling down, depressed, or hopeless",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Feeling nervous, anxious, or on edge",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Not being able to stop or control worrying",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 12,
+    "maxItemScore": 3,
+    "subscales": [
+      {
+        "id": "depression",
+        "name": "Depression",
+        "items": [
+          0,
+          1
+        ],
+        "maxScore": 6
+      },
+      {
+        "id": "anxiety",
+        "name": "Anxiety",
+        "items": [
+          2,
+          3
+        ],
+        "maxScore": 6
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your total score is within the normal range. No significant psychological distress detected.",
+        "suggestions": [
+          "Continue maintaining a healthy lifestyle",
+          "Keep up regular exercise and social activities",
+          "Practice relaxation techniques for general well-being"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "mild",
+        "label": "Mild Distress",
+        "description": "You may be experiencing mild psychological distress. Review your subscale scores for more specific information.",
+        "suggestions": [
+          "Pay attention to your emotional well-being",
+          "Practice stress management techniques",
+          "Maintain regular sleep and exercise routines",
+          "If symptoms persist, consider consulting a professional"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "level": "moderate",
+        "label": "Moderate Distress",
+        "description": "Your score indicates moderate psychological distress. Consider completing the full PHQ-9 and/or GAD-7 for more detailed assessment.",
+        "suggestions": [
+          "Consider completing the full PHQ-9 and GAD-7 assessments",
+          "Consult a healthcare professional for further evaluation",
+          "Practice daily relaxation and stress management",
+          "Maintain social connections and support networks"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 12,
+        "level": "severe",
+        "label": "Severe Distress",
+        "description": "Your score suggests severe psychological distress. Professional evaluation and support are strongly recommended.",
+        "suggestions": [
+          "Seek consultation with a mental health professional promptly",
+          "Complete the full PHQ-9 and GAD-7 for detailed assessment",
+          "Ensure you have a reliable support system",
+          "Do not hesitate to seek help; treatment is effective"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "depression": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "normal",
+          "label": "Normal",
+          "description": "Depression subscale score is within the normal range."
+        },
+        {
+          "min": 3,
+          "max": 6,
+          "level": "moderate",
+          "label": "Possible Depression",
+          "description": "Score suggests possible depression. Consider completing the full PHQ-9."
+        }
+      ],
+      "anxiety": [
+        {
+          "min": 0,
+          "max": 2,
+          "level": "normal",
+          "label": "Normal",
+          "description": "Anxiety subscale score is within the normal range."
+        },
+        {
+          "min": 3,
+          "max": 6,
+          "level": "moderate",
+          "label": "Possible Anxiety",
+          "description": "Score suggests possible anxiety. Consider completing the full GAD-7."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 12
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "depression",
+        "anxiety"
+      ],
+      "maxDisplayScore": 6
+    }
+  }
+}

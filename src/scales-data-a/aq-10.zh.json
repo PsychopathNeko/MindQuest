@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "id": "aq-10",
+    "name": "AQ-10 自闭症谱系商数简版",
+    "fullName": "Autism Spectrum Quotient-10",
+    "description": "AQ-10 是自闭症谱系商数（AQ-50）的简版筛查工具，由10个条目组成，用于快速识别可能需要进一步评估的自闭症谱系特征。该量表评估社交技能、注意力转换、注意力细节、沟通和想象力等方面。",
+    "author": "Allison, Auyeung & Baron-Cohen (2012)",
+    "license": "Free to use",
+    "reference": "Allison C, Auyeung B, Baron-Cohen S. Toward brief \"Red Flags\" for autism screening: The Short Autism Spectrum Quotient and the Short Quantitative Checklist for Autism in toddlers in 1,000 cases and 3,000 controls. J Am Acad Child Adolesc Psychiatry. 2012;51(2):202-212.",
+    "instruction": "请阅读以下每个陈述，选择最符合您情况的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全同意"
+    },
+    {
+      "value": 1,
+      "label": "比较同意"
+    },
+    {
+      "value": 2,
+      "label": "比较不同意"
+    },
+    {
+      "value": 3,
+      "label": "完全不同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我经常注意到别人不会注意到的微小声音",
+      "type": "likert",
+      "scoringDirection": "agree"
+    },
+    {
+      "index": 1,
+      "text": "我通常更关注事物的整体而不是细节",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 2,
+      "text": "我发现自己可以很容易地同时做多件事情",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 3,
+      "text": "如果被打断，我能很快回到之前正在做的事情上",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 4,
+      "text": "我发现很容易读懂字里行间的意思",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 5,
+      "text": "我知道如何判断别人听我说话时是否感到无聊",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 6,
+      "text": "当我在读一个故事的时候，我发现很难弄清楚人物的意图",
+      "type": "likert",
+      "scoringDirection": "agree"
+    },
+    {
+      "index": 7,
+      "text": "我喜欢收集各类信息（如汽车类型、鸟类种类、火车类型、植物种类等）",
+      "type": "likert",
+      "scoringDirection": "agree"
+    },
+    {
+      "index": 8,
+      "text": "我发现很容易通过看脸来判断一个人在想什么或感觉如何",
+      "type": "likert",
+      "scoringDirection": "disagree"
+    },
+    {
+      "index": 9,
+      "text": "我发现很难弄清楚别人的意图",
+      "type": "likert",
+      "scoringDirection": "agree"
+    }
+  ],
+  "scoring": {
+    "method": "special_aq10",
+    "maxTotal": 10,
+    "maxItemScore": 1,
+    "description": "对于标记为agree的题目，选择'完全同意'或'比较同意'得1分；对于标记为disagree的题目，选择'比较不同意'或'完全不同意'得1分",
+    "agreeItems": [
+      0,
+      6,
+      7,
+      9
+    ],
+    "disagreeItems": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "minimal",
+        "label": "正常范围",
+        "description": "您的得分在正常范围内，未显示出明显的自闭症谱系特征。",
+        "suggestions": [
+          "此结果表明您不太可能处于自闭症谱系",
+          "如仍有疑虑，可以咨询专业人士进行更全面的评估"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "mild",
+        "label": "边缘范围",
+        "description": "您的得分处于边缘范围，可能存在一些自闭症谱系特征。",
+        "suggestions": [
+          "此得分并不意味着诊断，但可能值得进一步关注",
+          "如果这些特征影响了日常生活，建议咨询专业人士",
+          "了解自闭症谱系的相关知识有助于自我理解"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "moderate",
+        "label": "建议进一步评估",
+        "description": "您的得分较高，提示可能存在自闭症谱系特征，建议进行更全面的专业评估。",
+        "suggestions": [
+          "建议尽早联系专业人士进行全面的自闭症谱系评估",
+          "此筛查结果并非诊断，需要专业临床评估确认",
+          "无论结果如何，了解自己的特点有助于制定适合的应对策略",
+          "寻找当地的自闭症支持资源和社区"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 10
+    }
+  }
+}

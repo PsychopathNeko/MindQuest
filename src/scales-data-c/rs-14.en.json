@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "id": "rs-14",
+    "name": "RS-14 Resilience Scale",
+    "fullName": "Resilience Scale 14-Item",
+    "description": "The RS-14 is a 14-item self-report measure of resilience, defined as a positive personality characteristic that enhances individual adaptation. It captures core qualities of resilience including self-reliance, meaning, equanimity, perseverance, and existential aloneness. It is the short form of the original 25-item Resilience Scale.",
+    "author": "Wagnild (2009)",
+    "license": "Free to use",
+    "reference": "Wagnild G. A review of the Resilience Scale. J Nurs Meas. 2009;17(2):105-113.",
+    "instruction": "Please read each statement and select the number that best indicates your feelings about that statement. Respond to all statements.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Strongly disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat disagree"
+    },
+    {
+      "value": 4,
+      "label": "Neither agree nor disagree"
+    },
+    {
+      "value": 5,
+      "label": "Somewhat agree"
+    },
+    {
+      "value": 6,
+      "label": "Agree"
+    },
+    {
+      "value": 7,
+      "label": "Strongly agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I usually manage one way or another",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I feel proud that I have accomplished things in life",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I usually take things in stride",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am friends with myself",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I feel that I can handle many things at a time",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I am determined",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I can get through difficult times because I've experienced difficulty before",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I have self-discipline",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I keep interested in things",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I can usually find something to laugh about",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "My belief in myself gets me through hard times",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "In an emergency, I'm someone people can generally rely on",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "My life has meaning",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "When I'm in a difficult situation, I can usually find my way out of it",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 98,
+    "maxItemScore": 7,
+    "reverseItems": [],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 14,
+        "max": 56,
+        "level": "severe",
+        "label": "Low Resilience",
+        "description": "Your score indicates a low level of resilience. You may find it difficult to cope with stress and adversity, and you may struggle to bounce back from setbacks.",
+        "suggestions": [
+          "Consider seeking support from a counselor or therapist to build coping skills",
+          "Start with small, achievable goals to build a sense of accomplishment",
+          "Build a network of supportive relationships you can rely on",
+          "Practice self-compassion and acknowledge that resilience can be developed over time",
+          "Explore mindfulness or relaxation techniques to manage stress"
+        ]
+      },
+      {
+        "min": 57,
+        "max": 73,
+        "level": "moderate",
+        "label": "Below Average Resilience",
+        "description": "Your score indicates below average resilience. You have some coping abilities but may find it challenging to manage prolonged or severe stress.",
+        "suggestions": [
+          "Work on identifying and building upon your existing strengths",
+          "Practice reframing negative situations in a more balanced perspective",
+          "Gradually take on challenges to build confidence in your ability to cope",
+          "Strengthen your support network and don't hesitate to ask for help",
+          "Develop routines and habits that promote well-being"
+        ]
+      },
+      {
+        "min": 74,
+        "max": 90,
+        "level": "mild",
+        "label": "Above Average Resilience",
+        "description": "Your score indicates above average resilience. You generally cope well with life's challenges and can adapt to most stressful situations.",
+        "suggestions": [
+          "Continue applying your effective coping strategies",
+          "Share your resilience skills with others who may benefit",
+          "Keep maintaining the practices that support your well-being",
+          "Stay open to learning new ways to handle adversity",
+          "Use your strengths to help others in your community"
+        ]
+      },
+      {
+        "min": 91,
+        "max": 98,
+        "level": "minimal",
+        "label": "High Resilience",
+        "description": "Your score indicates high resilience. You have strong personal resources for coping with adversity, including self-reliance, determination, and a sense of meaning in life.",
+        "suggestions": [
+          "Continue maintaining your strong resilient approach to life",
+          "Your resilience is a valuable asset — consider mentoring others",
+          "Remember to balance active coping with adequate self-care and rest",
+          "Stay engaged in activities that bring meaning and fulfillment",
+          "Recognize that even highly resilient individuals benefit from support"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 14,
+      "max": 98
+    }
+  }
+}

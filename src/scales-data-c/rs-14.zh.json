@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "id": "rs-14",
+    "name": "RS-14 心理弹性量表",
+    "fullName": "心理弹性量表14项版",
+    "description": "RS-14 是一份包含 14 个条目的心理弹性自评量表，评估促进个体适应的积极人格特质。它涵盖心理弹性的核心品质，包括自我依赖、意义感、平和心态、坚持不懈和独处能力。它是原始 25 项心理弹性量表的简版。",
+    "author": "Wagnild (2009)",
+    "license": "Free to use",
+    "reference": "Wagnild G. A review of the Resilience Scale. J Nurs Meas. 2009;17(2):105-113.",
+    "instruction": "请阅读每条陈述，选择最能代表您感受的选项。请回答所有条目。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "有些不同意"
+    },
+    {
+      "value": 4,
+      "label": "既不同意也不反对"
+    },
+    {
+      "value": 5,
+      "label": "有些同意"
+    },
+    {
+      "value": 6,
+      "label": "同意"
+    },
+    {
+      "value": 7,
+      "label": "非常同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我通常总能想办法解决问题",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我为自己在生活中取得的成就感到自豪",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我通常能从容应对事情",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我和自己相处融洽",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我觉得自己能同时处理很多事情",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我是一个意志坚定的人",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "因为之前经历过困难，我能度过艰难时期",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我有自律能力",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我对事物保持兴趣",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我通常能找到值得开心的事",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "对自己的信念帮助我度过艰难时期",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "在紧急情况下，我是别人通常可以依靠的人",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我的生活是有意义的",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "当我处于困境中时，我通常能找到出路",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 98,
+    "maxItemScore": 7,
+    "reverseItems": [],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 14,
+        "max": 56,
+        "level": "severe",
+        "label": "心理弹性低",
+        "description": "您的得分显示心理弹性水平较低。您可能在面对压力和逆境时较难应对，从挫折中恢复可能比较困难。",
+        "suggestions": [
+          "考虑寻求心理咨询师或治疗师的支持，以培养应对技能",
+          "从小目标开始，逐步建立成就感",
+          "建立可以依靠的社会支持网络",
+          "对自己保持同理心，心理弹性可以随时间逐步培养",
+          "尝试正念或放松技巧来管理压力"
+        ]
+      },
+      {
+        "min": 57,
+        "max": 73,
+        "level": "moderate",
+        "label": "心理弹性偏低",
+        "description": "您的得分显示心理弹性水平偏低。您具有一定的应对能力，但在面对持续或严重的压力时可能会感到困难。",
+        "suggestions": [
+          "识别并发展您现有的优势",
+          "练习用更平衡的视角重新看待消极情境",
+          "逐步接受挑战，增强对自身应对能力的信心",
+          "加强支持网络，不要犹豫向他人寻求帮助",
+          "养成促进身心健康的日常习惯"
+        ]
+      },
+      {
+        "min": 74,
+        "max": 90,
+        "level": "mild",
+        "label": "心理弹性较高",
+        "description": "您的得分显示心理弹性水平较高。您通常能较好地应对生活中的挑战，能够适应大多数压力情境。",
+        "suggestions": [
+          "继续运用您有效的应对策略",
+          "与他人分享您的心理弹性技巧",
+          "保持支撑您身心健康的各种做法",
+          "保持开放心态，学习应对逆境的新方法",
+          "利用您的优势帮助社区中的他人"
+        ]
+      },
+      {
+        "min": 91,
+        "max": 98,
+        "level": "minimal",
+        "label": "心理弹性高",
+        "description": "您的得分显示心理弹性水平很高。您拥有强大的个人资源来应对逆境，包括自我依赖、坚定意志和生活意义感。",
+        "suggestions": [
+          "继续保持您坚韧的生活态度",
+          "您的心理弹性是宝贵的财富，可以考虑帮助指导他人",
+          "记得在积极应对与充分自我关怀之间保持平衡",
+          "继续参与带来意义和满足感的活动",
+          "即使是高度坚韧的人也需要他人的支持"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 14,
+      "max": 98
+    }
+  }
+}

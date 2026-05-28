@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "id": "brcs",
+    "name": "BRCS 简短心理弹性应对量表",
+    "fullName": "Brief Resilient Coping Scale",
+    "description": "BRCS 是一个4题量表，旨在评估以高度适应性方式应对压力的倾向。它测量创造性和灵活地处理困难情境的能力，反映了韧性应对作为一种积极解决问题的方式来面对逆境。",
+    "author": "Sinclair & Wallston (2004)",
+    "license": "Free to use",
+    "reference": "Sinclair VG, Wallston KA. The development and psychometric evaluation of the Brief Resilient Coping Scale. Assessment. 2004;11(1):94-101.",
+    "instruction": "请指出以下每个陈述在多大程度上描述了你的行为和做法。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "完全不符合"
+    },
+    {
+      "value": 2,
+      "label": "不太符合"
+    },
+    {
+      "value": 3,
+      "label": "中立"
+    },
+    {
+      "value": 4,
+      "label": "比较符合"
+    },
+    {
+      "value": 5,
+      "label": "非常符合"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我会寻找创造性的方法来改变困难的处境",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "不管发生什么事，我相信我能控制自己对此的反应",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我相信通过应对困难情境，我可以在积极的方面得到成长",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我积极寻找方法来弥补生活中遇到的损失",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 20,
+    "maxItemScore": 5,
+    "reverseItems": [],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 4,
+        "max": 8,
+        "level": "severe",
+        "label": "低心理弹性",
+        "description": "您的弹性应对能力较低。面对压力情境时，您可能难以找到适应性的应对方式。",
+        "suggestions": [
+          "尝试在每个面临的挑战中找到至少一个积极方面",
+          "建立支持性的人际关系网络",
+          "通过将大问题分解为小步骤来练习问题解决",
+          "建议与心理咨询师讨论如何发展应对策略"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 12,
+        "level": "moderate",
+        "label": "中等心理弹性",
+        "description": "您有中等的弹性应对能力。有时能找到创造性的解决方案，但面对特别具有挑战性的情况时可能会感到困难。",
+        "suggestions": [
+          "继续发展您的问题解决能力",
+          "练习以更平衡的方式重新看待消极情境",
+          "参与能建立自信心和掌控感的活动",
+          "回想过去成功克服的困难经历"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 16,
+        "level": "mild",
+        "label": "中高心理弹性",
+        "description": "您有中等偏高的弹性应对能力。通常能以适应性策略面对困难，并经常能找到创造性的解决方案。",
+        "suggestions": [
+          "继续运用灵活的方式面对挑战",
+          "与可能从中受益的人分享您的应对策略",
+          "在认可成长空间的同时继续发挥您的优势",
+          "保持支持您心理弹性的实践"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 20,
+        "level": "minimal",
+        "label": "高心理弹性",
+        "description": "您有很高的弹性应对能力。您能持续以创造性、灵活性和积极问题解决的方式面对逆境。",
+        "suggestions": [
+          "继续保持您强大的弹性应对方式",
+          "您面对困难的方式可以启发和帮助他人",
+          "记得在积极应对的同时注意自我关怀",
+          "即使当前策略有效，也保持对学习新策略的开放态度"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 4,
+      "max": 20
+    }
+  }
+}

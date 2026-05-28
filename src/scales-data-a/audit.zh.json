@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "id": "audit",
+    "name": "AUDIT 酒精使用障碍识别测试",
+    "fullName": "Alcohol Use Disorders Identification Test",
+    "description": "AUDIT 是世界卫生组织（WHO）开发的10题筛查工具，用于识别危险饮酒模式和可能的酒精使用障碍。它评估饮酒量、饮酒依赖症状和酒精相关危害三个方面。",
+    "author": "Saunders et al. (1993)",
+    "license": "Public Domain",
+    "reference": "Saunders JB, Aasland OG, Babor TF, de la Fuente JR, Grant M. Development of the Alcohol Use Disorders Identification Test (AUDIT): WHO Collaborative Project on Early Detection of Persons with Harmful Alcohol Use-II. Addiction. 1993;88(6):791-804.",
+    "instruction": "以下问题涉及您过去一年的饮酒情况。请选择最符合您情况的选项。",
+    "population": "一般人群（16岁以上）"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "你多久喝一次含酒精的饮料？",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "从不"
+        },
+        {
+          "value": 1,
+          "label": "每月一次或更少"
+        },
+        {
+          "value": 2,
+          "label": "每月2-4次"
+        },
+        {
+          "value": 3,
+          "label": "每周2-3次"
+        },
+        {
+          "value": 4,
+          "label": "每周4次或以上"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "在饮酒的日子里，你通常喝多少标准杯？",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "1-2杯"
+        },
+        {
+          "value": 1,
+          "label": "3-4杯"
+        },
+        {
+          "value": 2,
+          "label": "5-6杯"
+        },
+        {
+          "value": 3,
+          "label": "7-9杯"
+        },
+        {
+          "value": 4,
+          "label": "10杯或以上"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "你多久会在一次饮酒场合中喝6杯或以上？",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "从不"
+        },
+        {
+          "value": 1,
+          "label": "少于每月一次"
+        },
+        {
+          "value": 2,
+          "label": "每月一次"
+        },
+        {
+          "value": 3,
+          "label": "每周一次"
+        },
+        {
+          "value": 4,
+          "label": "每天或几乎每天"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "在过去一年中，你多久会发现自己一旦开始喝酒就停不下来？",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "从不"
+        },
+        {
+          "value": 1,
+          "label": "少于每月一次"
+        },
+        {
+          "value": 2,
+          "label": "每月一次"
+        },
+        {
+          "value": 3,
+          "label": "每周一次"
+        },
+        {
+          "value": 4,
+          "label": "每天或几乎每天"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "在过去一年中，你多久因为饮酒而无法完成通常应该做的事情？",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "从不"
+        },
+        {
+          "value": 1,
+          "label": "少于每月一次"
+        },
+        {
+          "value": 2,
+          "label": "每月一次"
+        },
+        {
+          "value": 3,
+          "label": "每周一次"
+        },
+        {
+          "value": 4,
+          "label": "每天或几乎每天"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "在过去一年中，你多久需要在早晨先喝一杯才能让自己振作起来？",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "从不"
+        },
+        {
+          "value": 1,
+          "label": "少于每月一次"
+        },
+        {
+          "value": 2,
+          "label": "每月一次"
+        },
+        {
+          "value": 3,
+          "label": "每周一次"
+        },
+        {
+          "value": 4,
+          "label": "每天或几乎每天"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "在过去一年中，你多久在饮酒后感到内疚或后悔？",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "从不"
+        },
+        {
+          "value": 1,
+          "label": "少于每月一次"
+        },
+        {
+          "value": 2,
+          "label": "每月一次"
+        },
+        {
+          "value": 3,
+          "label": "每周一次"
+        },
+        {
+          "value": 4,
+          "label": "每天或几乎每天"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "在过去一年中，你多久因为饮酒而无法记住前一天晚上发生的事情？",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "从不"
+        },
+        {
+          "value": 1,
+          "label": "少于每月一次"
+        },
+        {
+          "value": 2,
+          "label": "每月一次"
+        },
+        {
+          "value": 3,
+          "label": "每周一次"
+        },
+        {
+          "value": 4,
+          "label": "每天或几乎每天"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "你或他人是否因为你饮酒而受到伤害？",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "没有"
+        },
+        {
+          "value": 2,
+          "label": "有，但不是在过去一年内"
+        },
+        {
+          "value": 4,
+          "label": "有，在过去一年内"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "是否有亲属、朋友、医生或其他健康工作者关注过你的饮酒或建议你减少饮酒？",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "没有"
+        },
+        {
+          "value": 2,
+          "label": "有，但不是在过去一年内"
+        },
+        {
+          "value": 4,
+          "label": "有，在过去一年内"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 40,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 7,
+        "level": "minimal",
+        "label": "低风险饮酒",
+        "description": "您的饮酒模式处于低风险范围。",
+        "suggestions": [
+          "继续保持适度饮酒或不饮酒的习惯",
+          "了解安全饮酒的限量标准",
+          "注意在特定情况下（如驾驶、服药期间）避免饮酒"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 15,
+        "level": "mild",
+        "label": "危险饮酒",
+        "description": "您的饮酒模式存在一定风险，可能正在对健康造成损害。",
+        "suggestions": [
+          "建议减少饮酒量和频率",
+          "了解过量饮酒对健康的影响",
+          "设定每周饮酒的上限并遵守",
+          "如果难以自行减少，建议咨询医生或专业人士"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 19,
+        "level": "moderate",
+        "label": "有害饮酒",
+        "description": "您的饮酒模式可能已经对身体和/或心理健康造成了损害。",
+        "suggestions": [
+          "建议寻求专业帮助，进行简短干预",
+          "认真考虑减少或停止饮酒",
+          "检查酒精是否影响了工作、人际关系和健康",
+          "咨询医生了解可能的酒精相关健康问题"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 40,
+        "level": "severe",
+        "label": "可能的酒精依赖",
+        "description": "您的得分提示可能存在酒精依赖，这是一种严重的健康状况，需要专业治疗。",
+        "suggestions": [
+          "强烈建议立即寻求专业治疗",
+          "咨询成瘾医学专家或前往戒酒门诊",
+          "不要尝试突然停止饮酒，因为可能出现危险的戒断症状",
+          "考虑加入互助团体（如AA匿名戒酒会）",
+          "告知家人和朋友，寻求社会支持"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 40
+    }
+  }
+}

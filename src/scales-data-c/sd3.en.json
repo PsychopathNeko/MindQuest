@@ -1,0 +1,400 @@
+{
+  "meta": {
+    "id": "sd3",
+    "name": "SD3 Short Dark Triad",
+    "fullName": "Short Dark Triad",
+    "description": "The SD3 is a 27-item self-report scale that assesses the three dimensions of the Dark Triad: Machiavellianism, Narcissism, and Psychopathy. It is a concise and efficient measure widely used in personality psychology research.",
+    "author": "Jones & Paulhus (2014)",
+    "license": "Free for research use",
+    "reference": "Jones DN, Paulhus DL. Introducing the Short Dark Triad (SD3): a brief measure of dark personality traits. Assessment. 2014;21(1):28-41.",
+    "instruction": "Please rate how much you agree with each statement.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Strongly Disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Neutral"
+    },
+    {
+      "value": 4,
+      "label": "Agree"
+    },
+    {
+      "value": 5,
+      "label": "Strongly Agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "It’s wise to keep track of information that you can use against people later",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Wait for the right time to get back at people rather than show anger immediately",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Make sure your plans benefit yourself, not just others",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Most people can be manipulated",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "You need to sweet-talk people sometimes to get what you want",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "It’s important to protect yourself when dealing with others",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "It’s better to have others do things for you than do them yourself",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Most people are only out for themselves",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Getting what you want is more important than being moral",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "People often say I’m a special person",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I like to get acquainted with important people",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I feel I’m more special than most people",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I like to be the center of attention",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I feel I am a born leader",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I hate being just another face in the crowd",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I have compared myself to famous people and felt just as talented",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "I like it when people pay special attention to me",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "I feel I deserve more respect than the average person",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "I like to get revenge on people",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "I tend to not think before I act in dangerous situations",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "Payback is a rule I follow",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "I rarely feel genuine remorse",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "If someone messes with me, I get back at them",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "Cutting corners may be necessary to succeed",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "People often say I’m too reckless",
+      "type": "likert"
+    },
+    {
+      "index": 25,
+      "text": "I seek out thrill-seeking experiences",
+      "type": "likert"
+    },
+    {
+      "index": 26,
+      "text": "People say I’m often insensitive",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 135,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "machiavellianism",
+        "name": "Machiavellianism",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "maxScore": 45
+      },
+      {
+        "id": "narcissism",
+        "name": "Narcissism",
+        "items": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "maxScore": 45
+      },
+      {
+        "id": "psychopathy",
+        "name": "Psychopathy",
+        "items": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "maxScore": 45
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 27,
+        "max": 54,
+        "level": "minimal",
+        "label": "Low Dark Traits",
+        "description": "Your dark personality traits score is low, indicating you rarely use manipulative strategies in interpersonal interactions.",
+        "suggestions": [
+          "Continue maintaining sincere and cooperative interpersonal approaches",
+          "Your empathy and moral sense are your strengths"
+        ]
+      },
+      {
+        "min": 55,
+        "max": 81,
+        "level": "normal",
+        "label": "Moderate Dark Traits",
+        "description": "Your dark personality traits are at a moderate level. Most people fall within this range.",
+        "suggestions": [
+          "Be mindful of the impact of your behavior on others",
+          "Maintain ethical boundaries while pursuing your goals",
+          "Cultivate empathy and a spirit of cooperation"
+        ]
+      },
+      {
+        "min": 82,
+        "max": 108,
+        "level": "mild",
+        "label": "Elevated Dark Traits",
+        "description": "Your dark personality traits score is elevated. You may tend to use manipulative or self-serving strategies in relationships.",
+        "suggestions": [
+          "Reflect on how your behavioral patterns affect your relationships",
+          "Practice perspective-taking and empathy",
+          "Consider seeking counseling to explore healthier interpersonal approaches"
+        ]
+      },
+      {
+        "min": 109,
+        "max": 135,
+        "level": "moderate",
+        "label": "High Dark Traits",
+        "description": "Your dark personality traits score is high. This may significantly impact your interpersonal relationships and social adjustment.",
+        "suggestions": [
+          "Consider seeking professional psychological counseling",
+          "Be aware of the impact of your behavior on those around you",
+          "Learn to build mutually trusting and beneficial relationships"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "machiavellianism": [
+        {
+          "min": 9,
+          "max": 18,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low Machiavellianism tendency."
+        },
+        {
+          "min": 19,
+          "max": 27,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate Machiavellianism tendency."
+        },
+        {
+          "min": 28,
+          "max": 36,
+          "level": "moderate",
+          "label": "High",
+          "description": "High Machiavellianism tendency; inclined to manipulate others."
+        },
+        {
+          "min": 37,
+          "max": 45,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high Machiavellianism tendency. Consider reviewing interpersonal patterns."
+        }
+      ],
+      "narcissism": [
+        {
+          "min": 9,
+          "max": 18,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low narcissism tendency."
+        },
+        {
+          "min": 19,
+          "max": 27,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate narcissism tendency."
+        },
+        {
+          "min": 28,
+          "max": 36,
+          "level": "moderate",
+          "label": "High",
+          "description": "High narcissism tendency; may be excessively self-focused."
+        },
+        {
+          "min": 37,
+          "max": 45,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high narcissism tendency. Consider reflecting on self-perception."
+        }
+      ],
+      "psychopathy": [
+        {
+          "min": 9,
+          "max": 18,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low psychopathy tendency."
+        },
+        {
+          "min": 19,
+          "max": 27,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate psychopathy tendency."
+        },
+        {
+          "min": 28,
+          "max": 36,
+          "level": "moderate",
+          "label": "High",
+          "description": "High psychopathy tendency; may lack remorse and impulse control."
+        },
+        {
+          "min": 37,
+          "max": 45,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high psychopathy tendency. Consider seeking professional help."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "machiavellianism",
+        "narcissism",
+        "psychopathy"
+      ],
+      "maxDisplayScore": 45
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Machiavellianism",
+          "max": 45
+        },
+        {
+          "name": "Narcissism",
+          "max": 45
+        },
+        {
+          "name": "Psychopathy",
+          "max": 45
+        }
+      ]
+    }
+  }
+}

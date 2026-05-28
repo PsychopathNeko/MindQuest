@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "id": "psqi",
+    "name": "PSQI 匹兹堡睡眠质量指数",
+    "fullName": "匹兹堡睡眠质量指数（简化自评版）",
+    "description": "PSQI简化自评版包含9个核心条目，评估过去一个月的睡眠质量，涵盖主观睡眠质量、入睡时间、睡眠时长、睡眠效率、睡眠障碍、安眠药使用和日间功能障碍。",
+    "author": "Buysse DJ, et al. (1989)",
+    "license": "Free to use",
+    "reference": "Buysse DJ, et al. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989;28(2):193-213.",
+    "instruction": "以下问题关于您过去一个月的睡眠习惯，请选择最符合您情况的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "没有困难/非常好"
+    },
+    {
+      "value": 1,
+      "label": "轻微困难/较好"
+    },
+    {
+      "value": 2,
+      "label": "中度困难/较差"
+    },
+    {
+      "value": 3,
+      "label": "严重困难/非常差"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "过去一个月，总体而言，您觉得自己的睡眠质量如何？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "过去一个月，您通常需要多长时间才能入睡？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "过去一个月，您每晚实际睡眠时间有多少？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "过去一个月，您多久会在半夜或凌晨醒来？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "过去一个月，您多久会因为呼吸不畅而睡不好？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "过去一个月，您多久会因为疼痛而睡不好？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "过去一个月，您多久需要使用安眠药物才能入睡？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "过去一个月，您在开车、吃饭或进行社交活动时，多久会难以保持清醒？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "过去一个月，您在多大程度上因为困倦而难以保持做事的热情？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 27,
+    "maxItemScore": 3,
+    "reverseItems": [],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "good",
+        "label": "睡眠质量良好",
+        "description": "您的睡眠质量良好，没有明显的睡眠问题。",
+        "suggestions": [
+          "继续保持良好的睡眠卫生习惯",
+          "保持规律的作息时间"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "mild",
+        "label": "睡眠质量一般",
+        "description": "您存在轻度睡眠问题，建议关注睡眠卫生。",
+        "suggestions": [
+          "建立规律的就寝和起床时间",
+          "避免睡前使用电子设备",
+          "限制咖啡因和酒精摄入"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 18,
+        "level": "moderate",
+        "label": "睡眠质量较差",
+        "description": "您存在中度睡眠问题，可能影响日间功能。",
+        "suggestions": [
+          "考虑咨询睡眠专科医生",
+          "学习放松技巧如渐进式肌肉放松",
+          "改善睡眠环境（温度、光线、噪音）"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 27,
+        "level": "severe",
+        "label": "睡眠质量很差",
+        "description": "您存在严重的睡眠问题，建议立即寻求专业帮助。",
+        "suggestions": [
+          "建议尽快就医进行睡眠评估",
+          "考虑认知行为治疗失眠（CBT-I）",
+          "排除可能的睡眠疾病如睡眠呼吸暂停"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 27
+    }
+  }
+}

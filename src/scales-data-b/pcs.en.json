@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "id": "pcs",
+    "name": "PCS Pain Catastrophizing Scale",
+    "fullName": "Pain Catastrophizing Scale",
+    "description": "The PCS is a 13-item self-report scale that assesses catastrophic thinking related to pain experiences. It includes three dimensions: Helplessness, Magnification, and Rumination, and is widely used in pain management and clinical research.",
+    "author": "Sullivan, Bishop & Pivik (1995)",
+    "license": "Free for research use",
+    "reference": "Sullivan MJL, Bishop SR, Pivik J. The Pain Catastrophizing Scale: development and validation. Psychol Assess. 1995;7(4):524-532.",
+    "instruction": "When you are in pain, you may have various thoughts and feelings. Please rate how often you experience each of these when in pain.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not at all"
+    },
+    {
+      "value": 1,
+      "label": "To a slight degree"
+    },
+    {
+      "value": 2,
+      "label": "To a moderate degree"
+    },
+    {
+      "value": 3,
+      "label": "To a great degree"
+    },
+    {
+      "value": 4,
+      "label": "All the time"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I worry all the time about whether the pain will end",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I feel I can’t go on",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "It’s terrible and I think it’s never going to get any better",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "It’s awful and I feel that it overwhelms me",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I feel I can’t stand it anymore",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I become afraid that the pain will get worse",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I keep thinking of other painful events",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I anxiously want the pain to go away",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I can’t seem to keep it out of my mind",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I keep thinking about how much it hurts",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I keep thinking about how badly I want the pain to stop",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "There’s nothing I can do to reduce the intensity of the pain",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I wonder whether something serious may happen",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 52,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "helplessness",
+        "name": "Helplessness",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "maxScore": 24
+      },
+      {
+        "id": "magnification",
+        "name": "Magnification",
+        "items": [
+          6,
+          7,
+          12
+        ],
+        "maxScore": 12
+      },
+      {
+        "id": "rumination",
+        "name": "Rumination",
+        "items": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "maxScore": 16
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 13,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your pain catastrophizing level is low. You cope well with pain experiences.",
+        "suggestions": [
+          "Continue maintaining positive pain coping strategies",
+          "Seek appropriate pain management when needed"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 26,
+        "level": "mild",
+        "label": "Mild Catastrophizing",
+        "description": "You have some degree of pain catastrophizing and may occasionally exaggerate the threat of pain.",
+        "suggestions": [
+          "Learn pain management and coping skills",
+          "Practice relaxation and mindfulness techniques",
+          "Maintain moderate physical activity",
+          "Consult a pain management specialist if needed"
+        ]
+      },
+      {
+        "min": 27,
+        "max": 39,
+        "level": "moderate",
+        "label": "Moderate Catastrophizing",
+        "description": "Your pain catastrophizing level is elevated. This may increase the risk of chronic pain and affect recovery.",
+        "suggestions": [
+          "Consider seeking professional pain management help",
+          "Cognitive-behavioral therapy can effectively reduce catastrophizing",
+          "Learn to distinguish pain sensations from thoughts about pain",
+          "Discuss comprehensive pain management with your healthcare team"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 52,
+        "level": "severe",
+        "label": "Severe Catastrophizing",
+        "description": "Your pain catastrophizing level is very high. This may significantly affect your pain experience and daily functioning.",
+        "suggestions": [
+          "Strongly recommended to seek help from a pain psychologist",
+          "Comprehensive pain management (medication + psychological + physical therapy) may be most effective",
+          "Avoid excessive focus and rumination about pain",
+          "Build a social support network"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "helplessness": [
+        {
+          "min": 0,
+          "max": 6,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low helplessness score."
+        },
+        {
+          "min": 7,
+          "max": 12,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some helplessness present."
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "level": "moderate",
+          "label": "High",
+          "description": "High helplessness. Consider learning active coping strategies."
+        },
+        {
+          "min": 19,
+          "max": 24,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high helplessness. Consider seeking professional help."
+        }
+      ],
+      "magnification": [
+        {
+          "min": 0,
+          "max": 3,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low magnification score."
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some magnification tendency."
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "level": "moderate",
+          "label": "High",
+          "description": "High magnification tendency."
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high magnification tendency."
+        }
+      ],
+      "rumination": [
+        {
+          "min": 0,
+          "max": 4,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low rumination score."
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Some rumination present."
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "level": "moderate",
+          "label": "High",
+          "description": "High rumination."
+        },
+        {
+          "min": 13,
+          "max": 16,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high rumination."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "helplessness",
+        "magnification",
+        "rumination"
+      ],
+      "maxDisplayScore": 24
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Helplessness",
+          "max": 24
+        },
+        {
+          "name": "Magnification",
+          "max": 12
+        },
+        {
+          "name": "Rumination",
+          "max": 16
+        }
+      ]
+    }
+  }
+}

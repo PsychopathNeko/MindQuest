@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "id": "ghq-12",
+    "name": "GHQ-12 一般健康问卷",
+    "fullName": "General Health Questionnaire-12",
+    "description": "GHQ-12 是一种广泛使用的筛查工具，用于检测非精神病性精神障碍和一般心理困扰。包含 12 个条目，涵盖紧张感、抑郁、应对困难、焦虑相关失眠和缺乏信心等方面。",
+    "author": "Goldberg & Williams (1988)",
+    "license": "Free to use",
+    "reference": "Goldberg DP, Williams P. A User's Guide to the General Health Questionnaire. Windsor: NFER-Nelson; 1988.",
+    "instruction": "我们想了解您最近几周的整体健康状况。请根据您的实际情况选择最接近的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "和平时一样"
+    },
+    {
+      "value": 2,
+      "label": "比平时多"
+    },
+    {
+      "value": 3,
+      "label": "比平时多得多"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "能够集中注意力做事？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "因为担忧而失眠？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "觉得自己在事情中发挥了有用的作用？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "觉得自己有能力做出决定？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "一直感到压力很大？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "觉得自己无法克服困难？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "能够享受日常活动？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "能够勇敢面对问题？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "感到不开心和沮丧？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "对自己失去信心？",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "觉得自己是一个没有价值的人？",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "总的来说，觉得自己还算快乐？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 36,
+    "maxItemScore": 3,
+    "reverseItems": [
+      0,
+      2,
+      3,
+      6,
+      7,
+      11
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 11,
+        "level": "normal",
+        "label": "正常",
+        "description": "您的评分在正常范围内，没有明显的心理困扰。",
+        "suggestions": [
+          "继续保持当前健康的生活方式",
+          "保持规律的运动、社交和睡眠习惯",
+          "做好预防性压力管理"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 20,
+        "level": "mild",
+        "label": "轻度困扰",
+        "description": "您的评分提示存在一定程度的心理困扰，需要关注。",
+        "suggestions": [
+          "关注自己的情绪状态，识别压力来源",
+          "练习深呼吸或冥想等放松技巧",
+          "保持社交联系，与信任的人倾诉",
+          "如症状持续，建议寻求专业建议"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 36,
+        "level": "severe",
+        "label": "显著困扰",
+        "description": "您的评分表明存在显著的心理困扰，建议寻求专业支持。",
+        "suggestions": [
+          "建议咨询心理健康专业人士进行进一步评估",
+          "优先进行自我关爱，减少不必要的压力源",
+          "保持规律的睡眠、饮食和运动作息",
+          "如有需要，向信任的朋友、家人或危机服务机构求助"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 36
+    }
+  }
+}

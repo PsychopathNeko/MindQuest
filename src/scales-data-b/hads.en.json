@@ -1,0 +1,483 @@
+{
+  "meta": {
+    "id": "hads",
+    "name": "HADS Hospital Anxiety and Depression Scale",
+    "fullName": "Hospital Anxiety and Depression Scale",
+    "description": "The HADS is a 14-item self-report scale designed to detect anxiety and depression in medical outpatient settings. It avoids somatic symptoms that might be confused with physical illness, making it particularly suitable for hospital patients.",
+    "author": "Zigmond & Snaith (1983)",
+    "license": "Free to use",
+    "reference": "Zigmond AS, Snaith RP. The Hospital Anxiety and Depression Scale. Acta Psychiatr Scand. 1983;67(6):361-370.",
+    "instruction": "Read each item and select the reply which comes closest to how you have been feeling in the past week. Your immediate reaction to each item will probably be more accurate than a long thought-out response.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "I feel tense or wound up",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "Most of the time"
+        },
+        {
+          "value": 2,
+          "label": "A lot of the time"
+        },
+        {
+          "value": 1,
+          "label": "From time to time, occasionally"
+        },
+        {
+          "value": 0,
+          "label": "Not at all"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "I still enjoy the things I used to enjoy",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Definitely as much"
+        },
+        {
+          "value": 1,
+          "label": "Not quite so much"
+        },
+        {
+          "value": 2,
+          "label": "Only a little"
+        },
+        {
+          "value": 3,
+          "label": "Hardly at all"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "I get a sort of frightened feeling as if something awful is about to happen",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "Very definitely and quite badly"
+        },
+        {
+          "value": 2,
+          "label": "Yes, but not too badly"
+        },
+        {
+          "value": 1,
+          "label": "A little, but it does not worry me"
+        },
+        {
+          "value": 0,
+          "label": "Not at all"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "I can laugh and see the funny side of things",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "As much as I always could"
+        },
+        {
+          "value": 1,
+          "label": "Not quite so much now"
+        },
+        {
+          "value": 2,
+          "label": "Definitely not so much now"
+        },
+        {
+          "value": 3,
+          "label": "Not at all"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "Worrying thoughts go through my mind",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "A great deal of the time"
+        },
+        {
+          "value": 2,
+          "label": "A lot of the time"
+        },
+        {
+          "value": 1,
+          "label": "Not very often"
+        },
+        {
+          "value": 0,
+          "label": "Only occasionally"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "I feel cheerful",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Most of the time"
+        },
+        {
+          "value": 1,
+          "label": "Sometimes"
+        },
+        {
+          "value": 2,
+          "label": "Not often"
+        },
+        {
+          "value": 3,
+          "label": "Not at all"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "I can sit at ease and feel relaxed",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Definitely"
+        },
+        {
+          "value": 1,
+          "label": "Usually"
+        },
+        {
+          "value": 2,
+          "label": "Not often"
+        },
+        {
+          "value": 3,
+          "label": "Not at all"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "I feel as if I am slowed down",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "Nearly all the time"
+        },
+        {
+          "value": 2,
+          "label": "Very often"
+        },
+        {
+          "value": 1,
+          "label": "Sometimes"
+        },
+        {
+          "value": 0,
+          "label": "Not at all"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "I get a sort of frightened feeling like butterflies in the stomach",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Not at all"
+        },
+        {
+          "value": 1,
+          "label": "Occasionally"
+        },
+        {
+          "value": 2,
+          "label": "Quite often"
+        },
+        {
+          "value": 3,
+          "label": "Very often"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "I have lost interest in my appearance",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "Definitely"
+        },
+        {
+          "value": 2,
+          "label": "I do not take as much care as I should"
+        },
+        {
+          "value": 1,
+          "label": "I may not take quite as much care"
+        },
+        {
+          "value": 0,
+          "label": "I take just as much care as ever"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "I feel restless as if I have to be on the move",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "Very much indeed"
+        },
+        {
+          "value": 2,
+          "label": "Quite a lot"
+        },
+        {
+          "value": 1,
+          "label": "Not very much"
+        },
+        {
+          "value": 0,
+          "label": "Not at all"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "I look forward with enjoyment to things",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "As much as I ever did"
+        },
+        {
+          "value": 1,
+          "label": "Rather less than I used to"
+        },
+        {
+          "value": 2,
+          "label": "Definitely less than I used to"
+        },
+        {
+          "value": 3,
+          "label": "Hardly at all"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "I get sudden feelings of panic",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "Very often indeed"
+        },
+        {
+          "value": 2,
+          "label": "Quite often"
+        },
+        {
+          "value": 1,
+          "label": "Not very often"
+        },
+        {
+          "value": 0,
+          "label": "Not at all"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "I can enjoy a good book or radio or TV program",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "Often"
+        },
+        {
+          "value": 1,
+          "label": "Sometimes"
+        },
+        {
+          "value": 2,
+          "label": "Not often"
+        },
+        {
+          "value": 3,
+          "label": "Hardly ever"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 42,
+    "maxItemScore": 3,
+    "subscales": [
+      {
+        "id": "anxiety",
+        "name": "Anxiety",
+        "items": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12
+        ],
+        "maxScore": 21
+      },
+      {
+        "id": "depression",
+        "name": "Depression",
+        "items": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13
+        ],
+        "maxScore": 21
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 14,
+        "level": "normal",
+        "label": "Normal",
+        "description": "Your combined anxiety and depression scores are within the normal range.",
+        "suggestions": [
+          "Continue maintaining good mental health",
+          "Keep up healthy habits and coping strategies"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 21,
+        "level": "borderline",
+        "label": "Borderline",
+        "description": "Your combined score suggests some level of emotional distress that may warrant monitoring.",
+        "suggestions": [
+          "Review the individual subscale scores for anxiety and depression",
+          "Consider consulting a healthcare provider if symptoms persist"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 42,
+        "level": "abnormal",
+        "label": "Abnormal",
+        "description": "Your combined score indicates significant emotional distress. Professional evaluation is recommended.",
+        "suggestions": [
+          "Seek professional help from a healthcare provider",
+          "Review subscale scores to identify whether anxiety, depression, or both are elevated"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "anxiety": [
+        {
+          "min": 0,
+          "max": 7,
+          "level": "normal",
+          "label": "Normal",
+          "description": "Anxiety subscale score is within the normal range."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "borderline",
+          "label": "Borderline Abnormal",
+          "description": "Borderline anxiety level. Monitoring is recommended."
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "level": "abnormal",
+          "label": "Abnormal",
+          "description": "Clinically significant anxiety symptoms. Professional evaluation is recommended."
+        }
+      ],
+      "depression": [
+        {
+          "min": 0,
+          "max": 7,
+          "level": "normal",
+          "label": "Normal",
+          "description": "Depression subscale score is within the normal range."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "borderline",
+          "label": "Borderline Abnormal",
+          "description": "Borderline depression level. Monitoring is recommended."
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "level": "abnormal",
+          "label": "Abnormal",
+          "description": "Clinically significant depressive symptoms. Professional evaluation is recommended."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "anxiety",
+        "depression"
+      ],
+      "maxDisplayScore": 21
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Anxiety",
+          "max": 21
+        },
+        {
+          "name": "Depression",
+          "max": 21
+        }
+      ]
+    }
+  }
+}

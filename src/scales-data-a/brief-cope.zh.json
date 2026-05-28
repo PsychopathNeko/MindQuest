@@ -1,0 +1,850 @@
+{
+  "meta": {
+    "id": "brief-cope",
+    "name": "Brief-COPE 简明应对方式问卷",
+    "fullName": "Brief COPE Inventory",
+    "description": "Brief-COPE 是一份包含 28 个条目的自评量表，测量人们在应对压力事件时使用的 14 种不同应对策略。它是完整版 COPE 问卷的简版，广泛应用于健康心理学和压力研究领域。",
+    "author": "Carver (1997)",
+    "license": "Free to use",
+    "reference": "Carver CS. You want to measure coping but your protocol is too long: consider the Brief COPE. Int J Behav Med. 1997;4(1):92-100.",
+    "instruction": "以下条目询问您在应对压力事件时的做法。每个条目描述了一种特定的应对方式。请根据您的实际情况，选择最符合您做法的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "我完全没有这样做"
+    },
+    {
+      "value": 2,
+      "label": "我偶尔这样做"
+    },
+    {
+      "value": 3,
+      "label": "我有时这样做"
+    },
+    {
+      "value": 4,
+      "label": "我经常这样做"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我通过投入工作或其他活动来转移注意力",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我集中精力去做一些事情来改善处境",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我对自己说\"这不是真的\"",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我借助酒精或其他药物来让自己感觉好一些",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我从他人那里获得情感上的支持",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我放弃了尝试去处理问题",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我采取行动来努力改善处境",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我拒绝相信事情已经发生了",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我说一些话来宣泄不愉快的感受",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我从他人那里获得帮助和建议",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我借助酒精或其他药物来帮助自己度过难关",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我试着从不同的角度看待问题，使它看起来更积极",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我批评自己",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我尝试制定应对策略",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我从某人那里获得安慰和理解",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我放弃了应对的努力",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "我努力从正在发生的事情中寻找积极的一面",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "我拿这件事开玩笑",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "我做一些事情来少想一些，比如看电影、看电视、阅读、做白日梦、睡觉或购物",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "我接受了事情已经发生的现实",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "我表达自己的负面情绪",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "我尝试从宗教或精神信仰中寻找安慰",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "我尝试从他人那里获得关于该怎么做的建议或帮助",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "我学着与之共处",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "我认真思考该采取哪些步骤",
+      "type": "likert"
+    },
+    {
+      "index": 25,
+      "text": "我因为发生的事情而责怪自己",
+      "type": "likert"
+    },
+    {
+      "index": 26,
+      "text": "我祈祷或冥想",
+      "type": "likert"
+    },
+    {
+      "index": 27,
+      "text": "我调侃这件事情",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 112,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "self_distraction",
+        "name": "自我分散注意",
+        "items": [
+          0,
+          18
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "active_coping",
+        "name": "积极应对",
+        "items": [
+          1,
+          6
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "denial",
+        "name": "否认",
+        "items": [
+          2,
+          7
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "substance_use",
+        "name": "物质使用",
+        "items": [
+          3,
+          10
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "emotional_support",
+        "name": "情感支持",
+        "items": [
+          4,
+          14
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "behavioral_disengagement",
+        "name": "行为脱离",
+        "items": [
+          5,
+          15
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "positive_reframing",
+        "name": "积极重构",
+        "items": [
+          11,
+          16
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "venting",
+        "name": "宣泄",
+        "items": [
+          8,
+          20
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "instrumental_support",
+        "name": "工具性支持",
+        "items": [
+          9,
+          22
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "self_blame",
+        "name": "自我责备",
+        "items": [
+          12,
+          25
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "planning",
+        "name": "计划",
+        "items": [
+          13,
+          24
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "humor",
+        "name": "幽默",
+        "items": [
+          17,
+          27
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "acceptance",
+        "name": "接受",
+        "items": [
+          19,
+          23
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "religion",
+        "name": "宗教",
+        "items": [
+          21,
+          26
+        ],
+        "maxScore": 8
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 28,
+        "max": 56,
+        "level": "low",
+        "label": "低应对投入",
+        "description": "您在总体上使用应对策略的程度较低。",
+        "suggestions": [
+          "考虑探索不同的应对策略",
+          "即使是小小的应对努力也能带来改变"
+        ]
+      },
+      {
+        "min": 57,
+        "max": 84,
+        "level": "moderate",
+        "label": "中等应对投入",
+        "description": "您使用应对策略的程度适中。请查看各分量表得分。",
+        "suggestions": [
+          "审视哪些应对策略对您最有帮助",
+          "考虑您的应对方式中是否包含足够的适应性策略"
+        ]
+      },
+      {
+        "min": 85,
+        "max": 112,
+        "level": "high",
+        "label": "高应对投入",
+        "description": "您使用应对策略的程度较高。请查看分量表详情。",
+        "suggestions": [
+          "查看分量表得分，确保更多依赖适应性策略",
+          "如果物质使用或回避分量表得分较高，建议咨询专业人士"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "self_distraction": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用自我分散注意作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用自我分散注意作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用自我分散注意作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用自我分散注意作为应对策略。"
+        }
+      ],
+      "active_coping": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用积极应对作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用积极应对作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用积极应对作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用积极应对作为应对策略。"
+        }
+      ],
+      "denial": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用否认作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用否认作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用否认作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用否认作为应对策略。"
+        }
+      ],
+      "substance_use": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用物质使用作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用物质使用作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用物质使用作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用物质使用作为应对策略。"
+        }
+      ],
+      "emotional_support": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用情感支持作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用情感支持作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用情感支持作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用情感支持作为应对策略。"
+        }
+      ],
+      "behavioral_disengagement": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用行为脱离作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用行为脱离作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用行为脱离作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用行为脱离作为应对策略。"
+        }
+      ],
+      "positive_reframing": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用积极重构作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用积极重构作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用积极重构作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用积极重构作为应对策略。"
+        }
+      ],
+      "venting": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用宣泄作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用宣泄作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用宣泄作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用宣泄作为应对策略。"
+        }
+      ],
+      "instrumental_support": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用工具性支持作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用工具性支持作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用工具性支持作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用工具性支持作为应对策略。"
+        }
+      ],
+      "self_blame": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用自我责备作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用自我责备作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用自我责备作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用自我责备作为应对策略。"
+        }
+      ],
+      "planning": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用计划作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用计划作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用计划作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用计划作为应对策略。"
+        }
+      ],
+      "humor": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用幽默作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用幽默作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用幽默作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用幽默作为应对策略。"
+        }
+      ],
+      "acceptance": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用接受作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用接受作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用接受作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用接受作为应对策略。"
+        }
+      ],
+      "religion": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "低",
+          "description": "较少使用宗教作为应对策略。"
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "中等",
+          "description": "适度使用宗教作为应对策略。"
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "高",
+          "description": "较多使用宗教作为应对策略。"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "非常高",
+          "description": "非常频繁地使用宗教作为应对策略。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "self_distraction",
+        "active_coping",
+        "denial",
+        "substance_use",
+        "emotional_support",
+        "behavioral_disengagement",
+        "positive_reframing",
+        "venting",
+        "instrumental_support",
+        "self_blame",
+        "planning",
+        "humor",
+        "acceptance",
+        "religion"
+      ],
+      "maxDisplayScore": 8
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "自我分散注意",
+          "max": 8
+        },
+        {
+          "name": "积极应对",
+          "max": 8
+        },
+        {
+          "name": "否认",
+          "max": 8
+        },
+        {
+          "name": "物质使用",
+          "max": 8
+        },
+        {
+          "name": "情感支持",
+          "max": 8
+        },
+        {
+          "name": "行为脱离",
+          "max": 8
+        },
+        {
+          "name": "积极重构",
+          "max": 8
+        },
+        {
+          "name": "宣泄",
+          "max": 8
+        },
+        {
+          "name": "工具性支持",
+          "max": 8
+        },
+        {
+          "name": "自我责备",
+          "max": 8
+        },
+        {
+          "name": "计划",
+          "max": 8
+        },
+        {
+          "name": "幽默",
+          "max": 8
+        },
+        {
+          "name": "接受",
+          "max": 8
+        },
+        {
+          "name": "宗教",
+          "max": 8
+        }
+      ]
+    }
+  }
+}

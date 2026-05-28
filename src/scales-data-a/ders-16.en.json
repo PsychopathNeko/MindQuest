@@ -1,0 +1,387 @@
+{
+  "meta": {
+    "id": "ders-16",
+    "name": "DERS-16 Difficulties in Emotion Regulation Scale",
+    "fullName": "Difficulties in Emotion Regulation Scale - 16 Item Version",
+    "description": "The DERS-16 is a 16-item brief version of the Difficulties in Emotion Regulation Scale, assessing difficulties in emotion regulation across five dimensions: clarity, goals, impulse, nonacceptance, and strategies. It provides a comprehensive yet efficient measure of emotion dysregulation.",
+    "author": "Bjureberg et al. (2016)",
+    "license": "Free to use",
+    "reference": "Bjureberg J, Ljotsson B, Tull MT, et al. Development and validation of a brief version of the Difficulties in Emotion Regulation Scale: The DERS-16. J Psychopathol Behav Assess. 2016;38(2):284-296.",
+    "instruction": "Please indicate how often the following statements apply to you.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Almost Never (0-10%)"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes (11-35%)"
+    },
+    {
+      "value": 3,
+      "label": "About Half the Time (36-65%)"
+    },
+    {
+      "value": 4,
+      "label": "Most of the Time (66-90%)"
+    },
+    {
+      "value": 5,
+      "label": "Almost Always (91-100%)"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I have difficulty making sense out of my feelings",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "When I’m upset, I have difficulty controlling my behaviors",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "When I’m upset, I have difficulty getting work done",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "When I’m upset, I become irritated with myself for feeling that way",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "When I’m upset, I start to feel very bad about myself",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "When I’m upset, I have difficulty thinking about anything else",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I have difficulty understanding my feelings",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "When I’m upset, I have difficulty focusing on other things",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "When I’m upset, I feel out of control",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "When I’m upset, I feel ashamed with myself for feeling that way",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "When I’m upset, I believe that wallowing in it is all I can do",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "When I’m upset, it takes me a long time to feel better",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "When I’m upset, I become out of control",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "When I’m upset, I feel guilty for feeling that way",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "When I’m upset, I have difficulty concentrating",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "When I’m upset, I have no idea how I will end up feeling",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 80,
+    "maxItemScore": 5,
+    "reverseItems": [],
+    "subscales": [
+      {
+        "id": "clarity",
+        "name": "Lack of Clarity",
+        "items": [
+          0,
+          6
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "goals",
+        "name": "Goals",
+        "items": [
+          2,
+          7,
+          11
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "impulse",
+        "name": "Impulse",
+        "items": [
+          1,
+          8,
+          12
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "nonacceptance",
+        "name": "Nonacceptance",
+        "items": [
+          3,
+          9,
+          13
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "strategies",
+        "name": "Strategies",
+        "items": [
+          4,
+          5,
+          10,
+          14,
+          15
+        ],
+        "maxScore": 25
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 16,
+        "max": 32,
+        "level": "minimal",
+        "label": "Low Difficulty",
+        "description": "You have low difficulty in emotion regulation. You generally manage your emotions effectively.",
+        "suggestions": [
+          "Continue maintaining your emotion regulation skills",
+          "Your emotional resilience is a valuable asset in daily life"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 48,
+        "level": "mild",
+        "label": "Moderate Difficulty",
+        "description": "You have moderate difficulty in emotion regulation. You may sometimes struggle to manage intense emotions effectively.",
+        "suggestions": [
+          "Practice mindfulness to increase emotional awareness",
+          "Learn about cognitive reappraisal strategies",
+          "Regular exercise can help improve emotional regulation",
+          "Consider journaling to better understand your emotional patterns"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 64,
+        "level": "moderate",
+        "label": "High Difficulty",
+        "description": "You have high difficulty in emotion regulation. Intense emotions may significantly interfere with your daily functioning and well-being.",
+        "suggestions": [
+          "Consider seeking professional support from a therapist",
+          "Dialectical Behavior Therapy (DBT) skills can be very helpful",
+          "Practice distress tolerance techniques during intense emotions",
+          "Build a support network you can reach out to when overwhelmed"
+        ]
+      },
+      {
+        "min": 65,
+        "max": 80,
+        "level": "severe",
+        "label": "Very High Difficulty",
+        "description": "You have very high difficulty in emotion regulation. This level of difficulty may substantially impact your relationships, work, and overall quality of life.",
+        "suggestions": [
+          "Strongly recommended to seek professional therapy",
+          "DBT or emotion-focused therapy can be highly effective",
+          "Develop a safety plan for times of extreme emotional distress",
+          "Consistent therapeutic support can lead to significant improvement"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "clarity": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "minimal",
+          "label": "High Clarity",
+          "description": "Good understanding of your emotions."
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "Average Clarity",
+          "description": "Sometimes difficulty making sense of feelings."
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "severe",
+          "label": "Low Clarity",
+          "description": "Significant difficulty understanding your emotions."
+        }
+      ],
+      "goals": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "Low Impact",
+          "description": "Emotions minimally affect goal-directed behavior."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "normal",
+          "label": "Moderate Impact",
+          "description": "Emotions sometimes interfere with getting things done."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "severe",
+          "label": "High Impact",
+          "description": "Emotions severely impair task completion and focus."
+        }
+      ],
+      "impulse": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "Good Control",
+          "description": "Maintains behavioral control when upset."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "normal",
+          "label": "Average Control",
+          "description": "Sometimes difficulty controlling behaviors when upset."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "severe",
+          "label": "Poor Control",
+          "description": "Significant difficulty controlling behavior when emotionally upset."
+        }
+      ],
+      "nonacceptance": [
+        {
+          "min": 3,
+          "max": 6,
+          "level": "minimal",
+          "label": "High Acceptance",
+          "description": "Can accept emotional reactions without self-judgment."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "level": "normal",
+          "label": "Average Acceptance",
+          "description": "Sometimes self-critical about emotional reactions."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "severe",
+          "label": "Low Acceptance",
+          "description": "Strong secondary negative reactions to own emotions."
+        }
+      ],
+      "strategies": [
+        {
+          "min": 5,
+          "max": 10,
+          "level": "minimal",
+          "label": "Rich Strategies",
+          "description": "Multiple effective emotion regulation strategies available."
+        },
+        {
+          "min": 11,
+          "max": 17,
+          "level": "normal",
+          "label": "Average Strategies",
+          "description": "Some strategies available but may feel stuck at times."
+        },
+        {
+          "min": 18,
+          "max": 25,
+          "level": "severe",
+          "label": "Limited Strategies",
+          "description": "Lacks effective coping strategies when emotionally distressed."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "clarity",
+        "goals",
+        "impulse",
+        "nonacceptance",
+        "strategies"
+      ],
+      "maxDisplayScore": 25
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Lack of Clarity",
+          "max": 10
+        },
+        {
+          "name": "Goals",
+          "max": 15
+        },
+        {
+          "name": "Impulse",
+          "max": 15
+        },
+        {
+          "name": "Nonacceptance",
+          "max": 15
+        },
+        {
+          "name": "Strategies",
+          "max": 25
+        }
+      ]
+    }
+  }
+}

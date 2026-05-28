@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "id": "djgls",
+    "name": "DJGLS 孤独感量表",
+    "fullName": "De Jong Gierveld Loneliness Scale",
+    "description": "DJGLS 是一份6题简短量表，评估情感孤独和社交孤独两个维度，是国际上使用最广泛的孤独感测量工具之一。",
+    "author": "De Jong Gierveld & Van Tilburg (2006)",
+    "license": "Free to use",
+    "reference": "De Jong Gierveld J, Van Tilburg T. A 6-item scale for overall, emotional, and social loneliness. Research on Aging. 2006;28(5):582-598.",
+    "instruction": "请根据你的真实感受选择最符合的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "完全不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "一般"
+    },
+    {
+      "value": 4,
+      "label": "同意"
+    },
+    {
+      "value": 5,
+      "label": "完全同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我经常感到一种空虚感",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我非常想念身边有人陪伴",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我经常感到被别人排斥",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "有很多人是我可以完全信任的",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "有足够多的人让我在需要时可以依靠",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我的朋友圈子足够大",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 30,
+    "maxItemScore": 5,
+    "minItemScore": 1,
+    "reverseItems": [
+      3,
+      4,
+      5
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 12,
+        "level": "minimal",
+        "label": "低孤独感",
+        "description": "您的孤独感水平较低，拥有良好的社交支持和情感联系。",
+        "suggestions": [
+          "继续保持积极的社交生活",
+          "珍惜现有的人际关系",
+          "保持与亲友的定期联系"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 18,
+        "level": "mild",
+        "label": "中等孤独感",
+        "description": "您有一定程度的孤独感，可能在某些方面需要更多的社交支持或情感联系。",
+        "suggestions": [
+          "尝试主动联系朋友或家人",
+          "参加社交活动或兴趣团体",
+          "学会表达自己的情感需求",
+          "如果感到持续孤独，可以考虑向心理咨询师倾诉"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "moderate",
+        "label": "较高孤独感",
+        "description": "您的孤独感水平较高，这可能正在影响您的情绪和生活质量。",
+        "suggestions": [
+          "建议积极拓展社交网络，参加社区活动",
+          "考虑加入支持小组或志愿者组织",
+          "练习与他人建立深层次的情感连接",
+          "建议咨询心理健康专业人士",
+          "关注孤独感是否伴随抑郁或焦虑症状"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "level": "severe",
+        "label": "严重孤独感",
+        "description": "您的孤独感非常严重，可能严重影响您的心理健康和日常功能，建议寻求专业帮助。",
+        "suggestions": [
+          "强烈建议咨询心理健康专业人士",
+          "不要将自己孤立起来，尝试每天与至少一个人交流",
+          "考虑心理治疗以改善人际关系模式",
+          "关注可能存在的抑郁或焦虑情绪",
+          "拨打心理援助热线获取即时支持"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
+  }
+}

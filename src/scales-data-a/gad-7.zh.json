@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "id": "gad-7",
+    "name": "GAD-7 广泛性焦虑量表",
+    "fullName": "Generalized Anxiety Disorder-7",
+    "description": "GAD-7 是一份简洁高效的焦虑症状自评筛查工具，由 7 个条目组成，用于评估过去两周内广泛性焦虑症状的严重程度，也可用于筛查恐慌障碍、社交焦虑和创伤后应激障碍。",
+    "author": "Spitzer, Kroenke, Williams & Löwe (2006)",
+    "license": "Public Domain",
+    "reference": "Spitzer RL, Kroenke K, Williams JBW, Löwe B. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. 2006;166(10):1092-1097.",
+    "instruction": "回想一下过去两周，以下这些感受出现的频率如何？请根据你的真实体验来选择。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "好几天"
+    },
+    {
+      "value": 2,
+      "label": "一半以上天数"
+    },
+    {
+      "value": 3,
+      "label": "几乎每天"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "感觉紧张、焦虑或烦躁",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "不能够停止或控制担忧",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "对各种各样的事情担忧过多",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "很难放松下来",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "由于不安而无法静坐",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "变得容易烦恼或急躁",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "感到似乎将有可怕的事情发生",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 21,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的焦虑症状评分处于正常范围，当前未表现出明显的焦虑困扰。",
+        "suggestions": [
+          "继续保持当前的良好状态",
+          "适当进行放松活动，如深呼吸、冥想",
+          "保持规律的运动习惯"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "轻度焦虑",
+        "description": "您可能正在经历一些轻度的焦虑症状，这些症状可能对日常生活产生轻微影响。",
+        "suggestions": [
+          "学习并练习放松技巧（如渐进性肌肉放松、正念冥想）",
+          "保持规律的体育锻炼",
+          "减少咖啡因摄入",
+          "尝试记录引发焦虑的情境并理性分析",
+          "如症状持续，建议咨询专业人士"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "中度焦虑",
+        "description": "您的焦虑症状处于中等水平，可能对工作、社交和日常生活产生明显影响。",
+        "suggestions": [
+          "建议咨询心理咨询师或精神科医生",
+          "认知行为疗法（CBT）对焦虑非常有效",
+          "每天进行放松练习",
+          "保持规律的睡眠和运动",
+          "避免过度使用酒精或安眠药物"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 21,
+        "level": "severe",
+        "label": "重度焦虑",
+        "description": "您的焦虑症状较为严重，可能显著影响日常功能，建议尽快寻求专业帮助。",
+        "suggestions": [
+          "强烈建议尽快就医，咨询精神科医生",
+          "可能需要药物治疗结合心理治疗",
+          "确保有可信赖的支持系统",
+          "学习识别和管理恐慌发作",
+          "避免回避行为，在专业指导下逐步面对焦虑情境"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 21
+    }
+  }
+}

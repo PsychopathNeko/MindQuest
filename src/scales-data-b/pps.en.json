@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "id": "pps",
+    "name": "PPS Pure Procrastination Scale",
+    "fullName": "Pure Procrastination Scale",
+    "description": "The PPS is a 12-item scale focused on measuring pure procrastination behavior, free from confounding factors. It is one of the most recommended measures in current procrastination research.",
+    "author": "Steel (2010)",
+    "license": "Free to use",
+    "reference": "Steel P. Arousal, avoidant and decisional procrastinators: Do they exist? Personality and Individual Differences. 2010;48(8):926-934.",
+    "instruction": "Please rate how true each statement is of your typical behavior.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Very Seldom True"
+    },
+    {
+      "value": 2,
+      "label": "Seldom True"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes True"
+    },
+    {
+      "value": 4,
+      "label": "Often True"
+    },
+    {
+      "value": 5,
+      "label": "Very Often True"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I delay making decisions until it's too late",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Even after I make a decision I delay acting upon it",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I waste a lot of time on trivial matters before getting to the final decisions",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "In preparation for some deadlines, I often waste time by doing other things",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Even jobs that require little else except sitting down and doing them, I find that they seldom get done for days",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I often find myself performing tasks that I had intended to do days before",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I am a person who has a 'I'll do it tomorrow' habit",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I generally delay before starting on work I have to do",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I find myself running out of time",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I don't get things done on time",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I am not very good at meeting deadlines",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Putting things off till the last minute has cost me money in the past",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 60,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 24,
+        "level": "minimal",
+        "label": "Low Procrastination",
+        "description": "Your procrastination tendency is low. You have good time management and task completion abilities.",
+        "suggestions": [
+          "Continue maintaining your good action-oriented habits",
+          "Share your efficiency strategies with others"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "mild",
+        "label": "Moderate Procrastination",
+        "description": "You show some procrastination tendencies that occasionally affect your efficiency and ability to complete tasks on time.",
+        "suggestions": [
+          "Create a daily priority list",
+          "Use the 'two-minute rule' — if it takes less than two minutes, do it immediately",
+          "Reduce barriers to starting tasks (e.g., prepare your work environment in advance)"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "moderate",
+        "label": "High Procrastination",
+        "description": "Your procrastination behavior is quite noticeable, frequently causing delays on tasks and deadlines.",
+        "suggestions": [
+          "Consider learning time management techniques",
+          "Establish an accountability system with friends or colleagues",
+          "Try cognitive-behavioral strategies to combat procrastination thinking",
+          "Consider consulting a counselor"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "severe",
+        "label": "Severe Procrastination",
+        "description": "Your procrastination problem is very serious, significantly impacting your quality of life and sense of self-efficacy.",
+        "suggestions": [
+          "Recommend seeking professional counseling support",
+          "CBT and ACT are effective treatments for procrastination",
+          "Start with 'tiny habits' to rebuild your capacity for action",
+          "Address the emotional issues behind procrastination (e.g., anxiety, perfectionism)"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 12,
+      "max": 60
+    }
+  }
+}

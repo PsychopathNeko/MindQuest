@@ -1,0 +1,850 @@
+{
+  "meta": {
+    "id": "brief-cope",
+    "name": "Brief-COPE Coping Inventory",
+    "fullName": "Brief COPE Inventory",
+    "description": "The Brief-COPE is a 28-item self-report scale that measures 14 distinct coping strategies people use in response to stressful life events. It is a shortened version of the full COPE Inventory and is widely used in health psychology and stress research.",
+    "author": "Carver (1997)",
+    "license": "Free to use",
+    "reference": "Carver CS. You want to measure coping but your protocol is too long: consider the Brief COPE. Int J Behav Med. 1997;4(1):92-100.",
+    "instruction": "The following items ask what you have been doing to cope with a stressful event. Each item says something about a particular way of coping. Please indicate the extent to which you have been doing what the item says.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "I haven't been doing this at all"
+    },
+    {
+      "value": 2,
+      "label": "I've been doing this a little bit"
+    },
+    {
+      "value": 3,
+      "label": "I've been doing this a medium amount"
+    },
+    {
+      "value": 4,
+      "label": "I've been doing this a lot"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I've been turning to work or other activities to take my mind off things.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I've been concentrating my efforts on doing something about the situation I'm in.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I've been saying to myself \"this isn't real.\"",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I've been using alcohol or other drugs to make myself feel better.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I've been getting emotional support from others.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I've been giving up trying to deal with it.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I've been taking action to try to make the situation better.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I've been refusing to believe that it has happened.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I've been saying things to let my unpleasant feelings escape.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I've been getting help and advice from other people.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I've been using alcohol or other drugs to help me get through it.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I've been trying to see it in a different light, to make it seem more positive.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I've been criticizing myself.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I've been trying to come up with a strategy about what to do.",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I've been getting comfort and understanding from someone.",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "I've been giving up the attempt to cope.",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "I've been looking for something good in what is happening.",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "I've been making jokes about it.",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "I've been doing something to think about it less, such as going to movies, watching TV, reading, daydreaming, sleeping, or shopping.",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "I've been accepting the reality of the fact that it has happened.",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "I've been expressing my negative feelings.",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "I've been trying to find comfort in my religion or spiritual beliefs.",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "I've been trying to get advice or help from other people about what to do.",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "I've been learning to live with it.",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "I've been thinking hard about what steps to take.",
+      "type": "likert"
+    },
+    {
+      "index": 25,
+      "text": "I've been blaming myself for things that happened.",
+      "type": "likert"
+    },
+    {
+      "index": 26,
+      "text": "I've been praying or meditating.",
+      "type": "likert"
+    },
+    {
+      "index": 27,
+      "text": "I've been making fun of the situation.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 112,
+    "maxItemScore": 4,
+    "subscales": [
+      {
+        "id": "self_distraction",
+        "name": "Self-distraction",
+        "items": [
+          0,
+          18
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "active_coping",
+        "name": "Active coping",
+        "items": [
+          1,
+          6
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "denial",
+        "name": "Denial",
+        "items": [
+          2,
+          7
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "substance_use",
+        "name": "Substance use",
+        "items": [
+          3,
+          10
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "emotional_support",
+        "name": "Use of emotional support",
+        "items": [
+          4,
+          14
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "behavioral_disengagement",
+        "name": "Behavioral disengagement",
+        "items": [
+          5,
+          15
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "positive_reframing",
+        "name": "Positive reframing",
+        "items": [
+          11,
+          16
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "venting",
+        "name": "Venting",
+        "items": [
+          8,
+          20
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "instrumental_support",
+        "name": "Use of instrumental support",
+        "items": [
+          9,
+          22
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "self_blame",
+        "name": "Self-blame",
+        "items": [
+          12,
+          25
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "planning",
+        "name": "Planning",
+        "items": [
+          13,
+          24
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "humor",
+        "name": "Humor",
+        "items": [
+          17,
+          27
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "acceptance",
+        "name": "Acceptance",
+        "items": [
+          19,
+          23
+        ],
+        "maxScore": 8
+      },
+      {
+        "id": "religion",
+        "name": "Religion",
+        "items": [
+          21,
+          26
+        ],
+        "maxScore": 8
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 28,
+        "max": 56,
+        "level": "low",
+        "label": "Low Coping Engagement",
+        "description": "You report relatively low use of coping strategies overall.",
+        "suggestions": [
+          "Consider exploring different coping strategies",
+          "Even small coping efforts can make a difference"
+        ]
+      },
+      {
+        "min": 57,
+        "max": 84,
+        "level": "moderate",
+        "label": "Moderate Coping Engagement",
+        "description": "You report moderate use of coping strategies. Review the subscale scores.",
+        "suggestions": [
+          "Examine which coping strategies are most helpful for you",
+          "Consider whether your coping mix includes enough adaptive strategies"
+        ]
+      },
+      {
+        "min": 85,
+        "max": 112,
+        "level": "high",
+        "label": "High Coping Engagement",
+        "description": "You report high use of coping strategies. Check the subscale breakdown.",
+        "suggestions": [
+          "Review subscale scores to ensure you rely more on adaptive strategies",
+          "High substance use or avoidance scores may warrant professional consultation"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "self_distraction": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of self-distraction as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of self-distraction as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of self-distraction as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of self-distraction as a coping strategy."
+        }
+      ],
+      "active_coping": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of active coping as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of active coping as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of active coping as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of active coping as a coping strategy."
+        }
+      ],
+      "denial": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of denial as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of denial as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of denial as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of denial as a coping strategy."
+        }
+      ],
+      "substance_use": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of substance use as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of substance use as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of substance use as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of substance use as a coping strategy."
+        }
+      ],
+      "emotional_support": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of emotional support as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of emotional support as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of emotional support as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of emotional support as a coping strategy."
+        }
+      ],
+      "behavioral_disengagement": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of behavioral disengagement as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of behavioral disengagement as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of behavioral disengagement as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of behavioral disengagement as a coping strategy."
+        }
+      ],
+      "positive_reframing": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of positive reframing as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of positive reframing as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of positive reframing as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of positive reframing as a coping strategy."
+        }
+      ],
+      "venting": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of venting as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of venting as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of venting as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of venting as a coping strategy."
+        }
+      ],
+      "instrumental_support": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of instrumental support as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of instrumental support as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of instrumental support as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of instrumental support as a coping strategy."
+        }
+      ],
+      "self_blame": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of self-blame as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of self-blame as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of self-blame as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of self-blame as a coping strategy."
+        }
+      ],
+      "planning": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of planning as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of planning as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of planning as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of planning as a coping strategy."
+        }
+      ],
+      "humor": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of humor as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of humor as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of humor as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of humor as a coping strategy."
+        }
+      ],
+      "acceptance": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of acceptance as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of acceptance as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of acceptance as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of acceptance as a coping strategy."
+        }
+      ],
+      "religion": [
+        {
+          "min": 2,
+          "max": 3,
+          "level": "low",
+          "label": "Low",
+          "description": "Low use of religion as a coping strategy."
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate use of religion as a coping strategy."
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "level": "high",
+          "label": "High",
+          "description": "High use of religion as a coping strategy."
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "level": "very_high",
+          "label": "Very High",
+          "description": "Very high use of religion as a coping strategy."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "self_distraction",
+        "active_coping",
+        "denial",
+        "substance_use",
+        "emotional_support",
+        "behavioral_disengagement",
+        "positive_reframing",
+        "venting",
+        "instrumental_support",
+        "self_blame",
+        "planning",
+        "humor",
+        "acceptance",
+        "religion"
+      ],
+      "maxDisplayScore": 8
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Self-distraction",
+          "max": 8
+        },
+        {
+          "name": "Active coping",
+          "max": 8
+        },
+        {
+          "name": "Denial",
+          "max": 8
+        },
+        {
+          "name": "Substance use",
+          "max": 8
+        },
+        {
+          "name": "Emotional support",
+          "max": 8
+        },
+        {
+          "name": "Disengagement",
+          "max": 8
+        },
+        {
+          "name": "Positive reframing",
+          "max": 8
+        },
+        {
+          "name": "Venting",
+          "max": 8
+        },
+        {
+          "name": "Instrumental support",
+          "max": 8
+        },
+        {
+          "name": "Self-blame",
+          "max": 8
+        },
+        {
+          "name": "Planning",
+          "max": 8
+        },
+        {
+          "name": "Humor",
+          "max": 8
+        },
+        {
+          "name": "Acceptance",
+          "max": 8
+        },
+        {
+          "name": "Religion",
+          "max": 8
+        }
+      ]
+    }
+  }
+}

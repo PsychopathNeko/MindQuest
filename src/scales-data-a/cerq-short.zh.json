@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "id": "cerq-short",
+    "name": "CERQ-Short 认知情绪调节问卷简版",
+    "fullName": "Cognitive Emotion Regulation Questionnaire-Short",
+    "description": "CERQ-Short 是认知情绪调节问卷的18题简版，评估个体在经历负性事件后所使用的9种认知情绪调节策略。这些策略分为适应性（如积极重新关注、积极重新评价、理性分析、接纳、重新规划）和非适应性（如自我责备、反刍、灾难化、责备他人）两大类。",
+    "author": "Garnefski & Kraaij (2006)",
+    "license": "Free to use",
+    "reference": "Garnefski N, Kraaij V. Cognitive emotion regulation questionnaire - development of a short 18-item version (CERQ-short). Pers Individ Dif. 2006;41(6):1045-1053.",
+    "instruction": "每个人都会经历消极或不愉快的事件，不同的人对此有不同的反应方式。以下陈述描述了人们在经历消极或不愉快事件后可能有的想法。请根据您通常的想法进行评分。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "几乎从不"
+    },
+    {
+      "value": 2,
+      "label": "偶尔"
+    },
+    {
+      "value": 3,
+      "label": "有时"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "几乎总是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我觉得是我自己造成了这种经历",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我认为我必须接受发生的事情",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我经常想到我对所发生的事情有什么感受",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我想一些与此无关的愉快事情",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我想想我能从这种情况中学到什么",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我想这件事并没有那么糟糕，其他事情可能更糟",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我一直在想我犯了什么错误",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我想想自己能做些什么来改善这种情况",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我觉得是别人造成了这种情况",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我觉得我是那个应该为此负责的人",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我认为我必须接受这种情况",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我全神贯注于我对所经历事情的想法和感受",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我想一些愉快的事情而不是实际发生的事情",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我想这段经历也有积极的一面",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我想比起别人所经历的，这件事还不算太糟",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我不断地思考这有多么可怕",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "我想想一个可以最好地处理这种情况的计划",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "我觉得是别人应该为此负责",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": null,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "self_blame",
+        "name": "自我责备",
+        "items": [
+          0,
+          9
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "acceptance",
+        "name": "接纳",
+        "items": [
+          1,
+          10
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "rumination",
+        "name": "反刍",
+        "items": [
+          2,
+          11
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "positive_refocusing",
+        "name": "积极重新关注",
+        "items": [
+          3,
+          12
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "positive_reappraisal",
+        "name": "积极重新评价",
+        "items": [
+          4,
+          13
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "putting_into_perspective",
+        "name": "理性分析",
+        "items": [
+          5,
+          14
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "catastrophizing",
+        "name": "灾难化",
+        "items": [
+          6,
+          15
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "planning",
+        "name": "重新规划",
+        "items": [
+          7,
+          16
+        ],
+        "maxScore": 10
+      },
+      {
+        "id": "other_blame",
+        "name": "责备他人",
+        "items": [
+          8,
+          17
+        ],
+        "maxScore": 10
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": null,
+    "subscaleRanges": {
+      "self_blame": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "minimal",
+          "label": "低",
+          "description": "您很少使用自我责备的认知策略。"
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "中等",
+          "description": "您有时会使用自我责备策略，属于正常范围。"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "severe",
+          "label": "高",
+          "description": "您频繁使用自我责备策略，这是一种非适应性策略，过度使用可能影响心理健康。"
+        }
+      ],
+      "acceptance": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "低",
+          "description": "您较少使用接纳策略。"
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "中等",
+          "description": "您能适度接纳已发生的事情。"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "高",
+          "description": "您善于接纳无法改变的事实，这是一种适应性策略。"
+        }
+      ],
+      "rumination": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "minimal",
+          "label": "低",
+          "description": "您很少陷入反刍思维。"
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "中等",
+          "description": "您有时会反复思考负性事件。"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "severe",
+          "label": "高",
+          "description": "您频繁使用反刍策略，这是一种非适应性策略，与抑郁风险增加有关。"
+        }
+      ],
+      "positive_refocusing": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "低",
+          "description": "您较少将注意力转向积极事物。"
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "中等",
+          "description": "您有时会将注意力转向积极的事物。"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "高",
+          "description": "您善于将注意力转向愉快的事物，这有助于情绪调节。"
+        }
+      ],
+      "positive_reappraisal": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "低",
+          "description": "您较少从积极角度重新评价事件。"
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "中等",
+          "description": "您有时能从负性事件中寻找积极意义。"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "高",
+          "description": "您善于从负性事件中发现积极意义，这是最具保护性的策略之一。"
+        }
+      ],
+      "putting_into_perspective": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "低",
+          "description": "您较少使用理性分析来看待事件。"
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "中等",
+          "description": "您有时能将事情放在更广阔的视角中看待。"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "高",
+          "description": "您善于将事件放在更广阔的视角中看待，减轻其影响。"
+        }
+      ],
+      "catastrophizing": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "minimal",
+          "label": "低",
+          "description": "您很少将事情灾难化。"
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "中等",
+          "description": "您有时会夸大事件的负面影响。"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "severe",
+          "label": "高",
+          "description": "您频繁使用灾难化策略，这是最不适应的策略之一，与焦虑和抑郁密切相关。"
+        }
+      ],
+      "planning": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "severe",
+          "label": "低",
+          "description": "您较少考虑如何应对和改善情况。"
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "中等",
+          "description": "您有时会制定应对计划。"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "minimal",
+          "label": "高",
+          "description": "您善于制定应对计划来改善情况，这是一种适应性策略。"
+        }
+      ],
+      "other_blame": [
+        {
+          "min": 2,
+          "max": 4,
+          "level": "minimal",
+          "label": "低",
+          "description": "您很少将责任归咎于他人。"
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "level": "normal",
+          "label": "中等",
+          "description": "您有时会将事情归因于他人。"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "severe",
+          "label": "高",
+          "description": "您频繁将责任归咎于他人，这是一种非适应性策略。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "self_blame",
+        "acceptance",
+        "rumination",
+        "positive_refocusing",
+        "positive_reappraisal",
+        "putting_into_perspective",
+        "catastrophizing",
+        "planning",
+        "other_blame"
+      ],
+      "maxDisplayScore": 10
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "自我责备",
+          "max": 10
+        },
+        {
+          "name": "接纳",
+          "max": 10
+        },
+        {
+          "name": "反刍",
+          "max": 10
+        },
+        {
+          "name": "积极重新关注",
+          "max": 10
+        },
+        {
+          "name": "积极重新评价",
+          "max": 10
+        },
+        {
+          "name": "理性分析",
+          "max": 10
+        },
+        {
+          "name": "灾难化",
+          "max": 10
+        },
+        {
+          "name": "重新规划",
+          "max": 10
+        },
+        {
+          "name": "责备他人",
+          "max": 10
+        }
+      ]
+    }
+  }
+}

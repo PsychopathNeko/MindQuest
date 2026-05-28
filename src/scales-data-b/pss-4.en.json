@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "id": "pss-4",
+    "name": "PSS-4 Perceived Stress Scale Brief",
+    "fullName": "Perceived Stress Scale-4",
+    "description": "The PSS-4 is a 4-item brief version of the Perceived Stress Scale, using items 2, 4, 5, and 10 from the PSS-10. It provides a rapid assessment of perceived stress and is suitable for situations where time is limited, such as telephone interviews or repeated measurements.",
+    "author": "Cohen, Kamarck & Mermelstein (1983)",
+    "license": "Free to use",
+    "reference": "Cohen S, Kamarck T, Mermelstein R. A global measure of perceived stress. J Health Soc Behav. 1983;24(4):385-396.",
+    "instruction": "The questions in this scale ask you about your feelings and thoughts during the last month. In each case, please indicate how often you felt or thought a certain way.",
+    "population": "General population (12+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Never"
+    },
+    {
+      "value": 1,
+      "label": "Almost never"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes"
+    },
+    {
+      "value": 3,
+      "label": "Fairly often"
+    },
+    {
+      "value": 4,
+      "label": "Very often"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "In the last month, how often have you felt that you were unable to control the important things in your life?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "In the last month, how often have you felt confident about your ability to handle your personal problems?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "In the last month, how often have you felt that things were going your way?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 16,
+    "maxItemScore": 4,
+    "reverseItems": [
+      1,
+      2
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "minimal",
+        "label": "Low Stress",
+        "description": "Your perceived stress level is low. You appear to be coping well with life demands.",
+        "suggestions": [
+          "Continue maintaining your current coping strategies",
+          "Keep up healthy habits and routines",
+          "Practice preventive stress management techniques"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "moderate",
+        "label": "Moderate Stress",
+        "description": "Your perceived stress level is moderate. Consider enhancing your stress management strategies.",
+        "suggestions": [
+          "Identify and address your main sources of stress",
+          "Practice relaxation techniques regularly",
+          "Maintain work-life balance",
+          "Seek social support when needed"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 16,
+        "level": "severe",
+        "label": "High Stress",
+        "description": "Your perceived stress level is high. This may be affecting your well-being and warrants attention.",
+        "suggestions": [
+          "Consider completing the full PSS-10 for a more detailed assessment",
+          "Consult a mental health professional for stress management support",
+          "Implement immediate stress-reduction strategies",
+          "Review and prioritize your commitments"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 16
+    }
+  }
+}

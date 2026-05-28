@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "id": "lsns-6",
+    "name": "LSNS-6 Lubben社会网络量表",
+    "fullName": "Lubben Social Network Scale-6",
+    "description": "LSNS-6 是一份包含 6 个条目的自评量表，通过测量家庭和朋友网络的规模和亲密程度来评估老年人的社会隔离状况。总分低于 12 分被认为存在社会隔离风险。",
+    "author": "Lubben et al. (2006)",
+    "license": "Free to use",
+    "reference": "Lubben J, Blozik E, Gillmann G, Iliffe S, von Renteln Kruse W, Beck JC, Stuck AE. Performance of an abbreviated version of the Lubben Social Network Scale among three European community-dwelling older adult populations. Gerontologist. 2006;46(4):503-513.",
+    "instruction": "以下问题是关于您的社交网络的。请尽可能准确地回答每个问题。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "没有"
+    },
+    {
+      "value": 1,
+      "label": "一人"
+    },
+    {
+      "value": 2,
+      "label": "两人"
+    },
+    {
+      "value": 3,
+      "label": "三到四人"
+    },
+    {
+      "value": 4,
+      "label": "五到八人"
+    },
+    {
+      "value": 5,
+      "label": "九人及以上"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "您每月至少见面或联系一次的亲属有多少？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "您可以放心地与之谈论私人事务的亲属有多少？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "您感觉足够亲近、可以向其求助的亲属有多少？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "您每月至少见面或联系一次的朋友有多少？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您可以放心地与之谈论私人事务的朋友有多少？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "您感觉足够亲近、可以向其求助的朋友有多少？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 30,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "family",
+        "name": "家庭",
+        "items": [
+          0,
+          1,
+          2
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "friends",
+        "name": "朋友",
+        "items": [
+          3,
+          4,
+          5
+        ],
+        "maxScore": 15
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 11,
+        "level": "at_risk",
+        "label": "存在社会隔离风险",
+        "description": "您的总分提示可能存在社会隔离风险。有限的社交网络可能影响身心健康。",
+        "suggestions": [
+          "考虑更经常地联系家人或朋友",
+          "寻找社区活动或团体加入",
+          "向医疗专业人员咨询社交参与的资源",
+          "志愿服务是建立社交联系的好方式"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 17,
+        "level": "moderate",
+        "label": "中等社交网络",
+        "description": "您的社交参与程度中等，社交联系仍有加强的空间。",
+        "suggestions": [
+          "继续维护现有的人际关系",
+          "考虑扩展您的社交网络",
+          "保持与家人和朋友的定期联系"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 30,
+        "level": "strong",
+        "label": "强社交网络",
+        "description": "您拥有强大的社交网络，与家人和朋友都保持着良好的联系。",
+        "suggestions": [
+          "继续保持您强大的社交联系",
+          "您的社交网络是促进幸福感的宝贵资源",
+          "考虑帮助那些可能处于社会隔离状态的人"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "family": [
+        {
+          "min": 0,
+          "max": 5,
+          "level": "at_risk",
+          "label": "存在风险",
+          "description": "您的家庭网络有限，加强家庭联系可能对您有益。"
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "moderate",
+          "label": "中等",
+          "description": "您有中等程度的家庭网络。"
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "strong",
+          "label": "强",
+          "description": "您拥有强大且支持性的家庭网络。"
+        }
+      ],
+      "friends": [
+        {
+          "min": 0,
+          "max": 5,
+          "level": "at_risk",
+          "label": "存在风险",
+          "description": "您的朋友网络有限，建立更多友谊可能对您有益。"
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "moderate",
+          "label": "中等",
+          "description": "您有中等程度的朋友网络。"
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "strong",
+          "label": "强",
+          "description": "您拥有强大且支持性的朋友网络。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "family",
+        "friends"
+      ],
+      "maxDisplayScore": 15
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "家庭",
+          "max": 15
+        },
+        {
+          "name": "朋友",
+          "max": 15
+        }
+      ]
+    }
+  }
+}

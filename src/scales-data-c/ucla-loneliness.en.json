@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "id": "ucla-loneliness",
+    "name": "UCLA Loneliness Scale",
+    "fullName": "UCLA Loneliness Scale Version 3",
+    "description": "The UCLA Loneliness Scale is a 20-item measure assessing subjective feelings of loneliness and social isolation.",
+    "author": "Russell D (1996)",
+    "license": "Free to use",
+    "reference": "Russell D. UCLA Loneliness Scale (Version 3): Reliability, validity, and factor structure. J Pers Assess. 1996;66(1):20-40.",
+    "instruction": "Indicate how often each of the statements below is descriptive of you.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Never"
+    },
+    {
+      "value": 2,
+      "label": "Rarely"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes"
+    },
+    {
+      "value": 4,
+      "label": "Always"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I feel in tune with the people around me.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I lack companionship.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "There is no one I can turn to.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I do not feel alone.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I feel part of a group of friends.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I have a lot in common with the people around me.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I am no longer close to anyone.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "My interests and ideas are not shared by those around me.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I am an outgoing person.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "There are people I feel close to.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I feel left out.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "My social relationships are superficial.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "No one really knows me well.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I feel isolated from others.",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "I can find companionship when I want it.",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "There are people who really understand me.",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "I am unhappy being so withdrawn.",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "People are around me but not with me.",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "There are people I can talk to.",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "There are people I can turn to.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 80,
+    "maxItemScore": 4,
+    "minItemScore": 1,
+    "reverseItems": [
+      0,
+      4,
+      5,
+      8,
+      9,
+      14,
+      15,
+      18,
+      19
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 20,
+        "max": 34,
+        "level": "low",
+        "label": "Low Loneliness",
+        "description": "Your loneliness level is low. You appear to have satisfying social connections.",
+        "suggestions": [
+          "Continue maintaining your social connections",
+          "Consider helping others who may feel lonely"
+        ]
+      },
+      {
+        "min": 35,
+        "max": 49,
+        "level": "moderate",
+        "label": "Moderate Loneliness",
+        "description": "You have a moderate level of loneliness and may feel socially lacking in some areas.",
+        "suggestions": [
+          "Actively participate in social activities and interest groups",
+          "Cultivate deeper friendships",
+          "Consider community involvement such as volunteering"
+        ]
+      },
+      {
+        "min": 50,
+        "max": 64,
+        "level": "high",
+        "label": "High Loneliness",
+        "description": "You have a high level of loneliness that may affect your mental health.",
+        "suggestions": [
+          "Consider seeking counseling support",
+          "Try changing social patterns to increase meaningful social interactions",
+          "Social skills training may be helpful"
+        ]
+      },
+      {
+        "min": 65,
+        "max": 80,
+        "level": "severe",
+        "label": "Severe Loneliness",
+        "description": "You have severe loneliness that may significantly affect your physical and mental health.",
+        "suggestions": [
+          "Professional psychological help is strongly recommended",
+          "Loneliness can be improved through treatment",
+          "If experiencing depressive symptoms, attend to your emotional health as well"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 20,
+      "max": 80
+    }
+  }
+}

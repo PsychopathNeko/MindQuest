@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "id": "ede-qs",
+    "name": "EDE-QS 进食障碍检查问卷简版",
+    "fullName": "Eating Disorder Examination Questionnaire - Short Form",
+    "description": "EDE-QS 是进食障碍检查问卷（EDE-Q）的12题简版，旨在提供简短而可靠的进食障碍心理病理评估。总分达到15分及以上提示可能存在进食障碍问题，建议进一步评估。",
+    "author": "Gideon et al. (2016)",
+    "license": "Free to use",
+    "reference": "Gideon N, Hawkes N, Mond J, et al. Development and psychometric validation of the EDE-QS, a 12 item short form of the Eating Disorder Examination Questionnaire (EDE-Q). PLoS ONE. 2016;11(5):e0152744.",
+    "instruction": "在过去一周中...",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "0 天"
+    },
+    {
+      "value": 1,
+      "label": "1-2 天"
+    },
+    {
+      "value": 2,
+      "label": "3-5 天"
+    },
+    {
+      "value": 3,
+      "label": "6-7 天"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "您是否有意限制进食量以影响体型或体重？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "您是否为了影响体型或体重而长时间（8小时或以上）不进食？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "对食物或其热量的思考是否使您更难集中注意力做感兴趣的事？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "对体型或体重的思考是否使您更难集中注意力做感兴趣的事？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您是否明确担心自己可能会增重或变胖？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "您是否有强烈的减重欲望？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "您是否试图通过催吐或服用泻药来控制体重或体型？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "您是否以强迫性的方式运动来控制体重、体型或脂肪量？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "您是否有过对进食失去控制的感觉？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "在过去7天中，您有多少天偷偷进食？",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "您对自己的体重有多不满意？",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "您对自己的体型有多不满意？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 36,
+    "maxItemScore": 3,
+    "reverseItems": [],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 7,
+        "level": "minimal",
+        "label": "无显著问题",
+        "description": "您的回答未显示明显的进食障碍问题。您与食物和身体形象的关系处于健康范围内。",
+        "suggestions": [
+          "继续保持与食物健康平衡的关系",
+          "练习身体欣赏，感恩身体能为您做的事",
+          "注意社会对身体形象的压力"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 14,
+        "level": "mild",
+        "label": "轻度关注",
+        "description": "您的回答表明在饮食、体重或体型方面存在一些轻度关注。虽然这些可能不代表临床进食障碍，但值得关注。",
+        "suggestions": [
+          "反思您对食物和身体的态度",
+          "避免限制性节食，注重均衡营养",
+          "在身体形象方面练习自我关怀",
+          "如果问题持续存在，建议咨询医疗专业人士"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 22,
+        "level": "moderate",
+        "label": "中度关注",
+        "description": "您的得分高于临床分界值，提示可能存在进食障碍心理病理。这些问题可能正在影响您的日常生活和幸福感。",
+        "suggestions": [
+          "建议就进食问题寻求专业评估",
+          "与医疗保健提供者讨论您的饮食模式",
+          "了解针对进食困难的循证治疗方法",
+          "记住进食障碍是可治疗的，康复是可能的"
+        ]
+      },
+      {
+        "min": 23,
+        "max": 36,
+        "level": "severe",
+        "label": "高度关注",
+        "description": "您的回答表明存在显著的进食障碍问题，可能正在影响您的身心健康。强烈建议进行专业评估。",
+        "suggestions": [
+          "强烈建议尽快寻求专业评估",
+          "联系进食障碍专科医生进行全面评估",
+          "进食障碍是严重但可治疗的疾病",
+          "专业人士的支持可以带来显著的改变",
+          "考虑拨打进食障碍热线获取即时指导"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 36
+    }
+  }
+}

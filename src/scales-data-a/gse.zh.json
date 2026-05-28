@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "id": "gse",
+    "name": "GSE 一般自我效能感量表",
+    "fullName": "General Self-Efficacy Scale",
+    "description": "GSE 是一份评估个体对自己应对各种困难情境能力信心的10题量表，广泛用于全球40多个国家。",
+    "author": "Schwarzer & Jerusalem (1995)",
+    "license": "Free to use",
+    "reference": "Schwarzer R, Jerusalem M. Generalized Self-Efficacy scale. In: Weinman J, et al., eds. Measures in health psychology. 1995:35-37.",
+    "instruction": "请根据你对自己的真实感受来选择最符合的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "完全不正确"
+    },
+    {
+      "value": 2,
+      "label": "有点正确"
+    },
+    {
+      "value": 3,
+      "label": "多数正确"
+    },
+    {
+      "value": 4,
+      "label": "完全正确"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "如果我尽力去做的话，我总是能够解决问题的",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "即使别人反对我，我仍有办法取得我所要的",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "对我来说，坚持理想和达成目标是轻而易举的",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我自信能有效地应付任何突如其来的事情",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "以我的才智，我定能应付意料之外的情况",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "如果我付出必要的努力，我一定能解决大多数的难题",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我能冷静地面对困难，因为我信赖自己处理问题的能力",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "面对一个难题时，我通常能找到几个解决方法",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "有麻烦的时候，我通常能想到一些应付的方法",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "无论什么事在我身上发生，我都能够应付自如",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 40,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20,
+        "level": "severe",
+        "label": "自我效能感较低",
+        "description": "您的自我效能感得分较低，说明您对自己应对困难和挑战的能力信心不足。这可能影响您面对问题时的主动性和坚持性。",
+        "suggestions": [
+          "从小目标开始，逐步积累成功体验",
+          "回顾过去曾成功克服困难的经历，增强信心",
+          "向身边成功应对挑战的人学习经验",
+          "如持续感到无力应对，可寻求心理咨询师帮助"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "自我效能感中等",
+        "description": "您的自我效能感处于中等水平，在面对大多数情境时有一定的信心，但面对较大挑战时可能会有所动摇。",
+        "suggestions": [
+          "持续挑战自己，拓展舒适区",
+          "关注并记录自己的成就和进步",
+          "学习有效的问题解决和压力管理策略",
+          "培养积极的自我对话习惯"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "minimal",
+        "label": "自我效能感较高",
+        "description": "您的自我效能感得分较高，您对自己应对各种困难和挑战的能力充满信心。您倾向于积极面对问题并坚持不懈。",
+        "suggestions": [
+          "继续保持积极的心态和应对方式",
+          "将您的经验和信心分享给他人",
+          "设定更高的目标以持续成长",
+          "注意保持自信与谦虚之间的平衡"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 40
+    }
+  }
+}

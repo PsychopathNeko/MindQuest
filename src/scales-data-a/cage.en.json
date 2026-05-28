@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "id": "cage",
+    "name": "CAGE Alcohol Screening Questionnaire",
+    "fullName": "CAGE Questionnaire",
+    "description": "The CAGE is a widely used 4-item screening tool for identifying alcohol problems. The name is an acronym of its four questions: Cut down, Annoyed, Guilty, and Eye-opener. It is one of the most commonly used screening instruments in clinical practice.",
+    "author": "Ewing (1984)",
+    "license": "Public Domain",
+    "reference": "Ewing JA. Detecting alcoholism: the CAGE questionnaire. JAMA. 1984;252(14):1905-1907.",
+    "instruction": "Please answer each question honestly with Yes or No.",
+    "population": "General population (16+)"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "Have you ever felt you should Cut down on your drinking?",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "Have people Annoyed you by criticizing your drinking?",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "Have you ever felt bad or Guilty about your drinking?",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "Have you ever had a drink first thing in the morning to steady your nerves or to get rid of a hangover (Eye-opener)?",
+      "type": "yesno"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 4,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 0,
+        "level": "minimal",
+        "label": "No Alcohol Problems Indicated",
+        "description": "Your responses do not suggest alcohol-related problems.",
+        "suggestions": [
+          "Continue maintaining healthy drinking habits or abstinence",
+          "Stay informed about the risks of excessive alcohol use",
+          "Be mindful of any changes in your drinking patterns"
+        ]
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "level": "mild",
+        "label": "Possible Alcohol Problem",
+        "description": "Your response suggests a possible alcohol-related concern. Further evaluation may be helpful.",
+        "suggestions": [
+          "Reflect on your relationship with alcohol",
+          "Consider discussing your drinking habits with a healthcare provider",
+          "Monitor your drinking patterns over the coming weeks",
+          "Learn about recommended alcohol intake guidelines"
+        ]
+      },
+      {
+        "min": 2,
+        "max": 4,
+        "level": "severe",
+        "label": "Probable Alcohol Problem",
+        "description": "Your responses suggest a probable alcohol use problem. A score of 2 or more is clinically significant and warrants further assessment.",
+        "suggestions": [
+          "Strongly recommended to seek professional evaluation for alcohol use",
+          "Consult with a healthcare provider or addiction specialist",
+          "Consider joining a support group for alcohol-related concerns",
+          "Talk openly with trusted family members or friends",
+          "Explore treatment options that may be available to you"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 4
+    }
+  }
+}

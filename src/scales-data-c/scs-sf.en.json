@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "id": "scs-sf",
+    "name": "SCS-SF Self-Compassion Scale Short Form",
+    "fullName": "Self-Compassion Scale - Short Form",
+    "description": "The SCS-SF is a 12-item brief measure of self-compassion, assessing six components: Self-Kindness, Self-Judgment, Common Humanity, Isolation, Mindfulness, and Over-Identification.",
+    "author": "Raes et al. (2011)",
+    "license": "Free to use",
+    "reference": "Raes F, Pommier E, Neff KD, Van Gucht D. Construction and factorial validation of a short form of the Self-Compassion Scale. Clin Psychol Psychother. 2011;18(3):250-255.",
+    "instruction": "Please read each statement carefully and indicate how often you behave in the stated manner.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Almost never"
+    },
+    {
+      "value": 2,
+      "label": "Rarely"
+    },
+    {
+      "value": 3,
+      "label": "Sometimes"
+    },
+    {
+      "value": 4,
+      "label": "Often"
+    },
+    {
+      "value": 5,
+      "label": "Almost always"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "When I fail at something important to me I become consumed by feelings of inadequacy",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I try to be understanding and patient towards those aspects of my personality I don't like",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "When something painful happens I tend to blow the incident out of proportion",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "When I'm feeling down, I tend to feel like most other people are probably happier than I am",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I try to see my failings as part of the human condition",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "When I'm going through a very hard time, I give myself the caring and tenderness I need",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "When something upsets me I try to keep my emotions in balance",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "When I fail at something that's important to me, I tend to feel alone in my failure",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "When I'm feeling down I try to approach my feelings with curiosity and openness",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "When I feel inadequate in some way, I try to remind myself that feelings of inadequacy are shared by most people",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I'm disapproving and judgmental about my own flaws and inadequacies",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I'm intolerant and impatient towards those aspects of my personality I don't like",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 60,
+    "maxItemScore": 5,
+    "minItemScore": 1,
+    "reverseItems": [
+      0,
+      2,
+      3,
+      7,
+      10,
+      11
+    ],
+    "subscales": [
+      {
+        "id": "self_kindness",
+        "name": "Self-Kindness",
+        "items": [
+          1,
+          5
+        ]
+      },
+      {
+        "id": "self_judgment",
+        "name": "Self-Judgment",
+        "items": [
+          10,
+          11
+        ],
+        "reverseItems": [
+          10,
+          11
+        ]
+      },
+      {
+        "id": "common_humanity",
+        "name": "Common Humanity",
+        "items": [
+          4,
+          9
+        ]
+      },
+      {
+        "id": "isolation",
+        "name": "Isolation",
+        "items": [
+          3,
+          7
+        ],
+        "reverseItems": [
+          3,
+          7
+        ]
+      },
+      {
+        "id": "mindfulness",
+        "name": "Mindfulness",
+        "items": [
+          6,
+          8
+        ]
+      },
+      {
+        "id": "over_identification",
+        "name": "Over-Identification",
+        "items": [
+          0,
+          2
+        ],
+        "reverseItems": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 24,
+        "level": "severe",
+        "label": "Low Self-Compassion",
+        "description": "Your self-compassion level is low. You may be quite self-critical and have difficulty treating yourself with kindness during challenging times.",
+        "suggestions": [
+          "Practice speaking to yourself as you would to a good friend",
+          "Recognize that suffering and imperfection are part of the shared human experience",
+          "Try self-compassion meditation or exercises",
+          "Consider reading about self-compassion",
+          "A therapist can help develop self-compassion skills"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "mild",
+        "label": "Moderate Self-Compassion",
+        "description": "Your self-compassion is at a moderate level.",
+        "suggestions": [
+          "Continue developing your self-compassion practice",
+          "Notice when you are being self-critical and try to reframe",
+          "Remind yourself that everyone makes mistakes",
+          "Practice mindfulness to observe your feelings without over-identifying"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "normal",
+        "label": "Above Average Self-Compassion",
+        "description": "Your self-compassion is above average. You generally treat yourself with understanding and kindness.",
+        "suggestions": [
+          "Continue maintaining your self-compassionate attitude",
+          "Share your self-compassion practices with others",
+          "Use your self-compassion as a resource during challenges"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "minimal",
+        "label": "High Self-Compassion",
+        "description": "Your self-compassion level is high.",
+        "suggestions": [
+          "Continue your excellent self-compassion practice",
+          "Consider mentoring others in developing self-compassion",
+          "Your self-compassion is a valuable resource for well-being"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 12,
+      "max": 60
+    }
+  }
+}

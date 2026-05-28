@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "id": "aaq-ii",
+    "name": "AAQ-II Acceptance and Action Questionnaire",
+    "fullName": "Acceptance and Action Questionnaire-II",
+    "description": "The AAQ-II is a 7-item self-report measure of psychological flexibility and experiential avoidance. Experiential avoidance refers to attempts to avoid, suppress, or alter unpleasant internal experiences (thoughts, feelings, bodily sensations) even when doing so causes long-term harm. It is widely used in Acceptance and Commitment Therapy (ACT) research and clinical assessment.",
+    "author": "Bond et al. (2011)",
+    "license": "Free to use",
+    "reference": "Bond FW, Hayes SC, Baer RA, et al. Preliminary psychometric properties of the Acceptance and Action Questionnaire-II: a revised measure of psychological inflexibility and experiential avoidance. Behav Ther. 2011;42(4):676-688.",
+    "instruction": "Below you will find a list of statements. Please rate how true each statement is for you.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Never true"
+    },
+    {
+      "value": 2,
+      "label": "Very seldom true"
+    },
+    {
+      "value": 3,
+      "label": "Seldom true"
+    },
+    {
+      "value": 4,
+      "label": "Sometimes true"
+    },
+    {
+      "value": 5,
+      "label": "Frequently true"
+    },
+    {
+      "value": 6,
+      "label": "Almost always true"
+    },
+    {
+      "value": 7,
+      "label": "Always true"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "My painful experiences and memories make it difficult for me to live a life that I would value",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I'm afraid of my feelings",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I worry about not being able to control my worries and feelings",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "My painful memories prevent me from having a fulfilling life",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Emotions cause problems in my life",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "It seems like most people are handling their lives better than I am",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Worries get in the way of my success",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 49,
+    "maxItemScore": 7,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 7,
+        "max": 17,
+        "level": "minimal",
+        "label": "High Psychological Flexibility",
+        "description": "Your experiential avoidance level is very low, indicating high psychological flexibility and effective acceptance of internal experiences.",
+        "suggestions": [
+          "Continue maintaining an open and accepting attitude",
+          "Keep practicing mindfulness and self-awareness",
+          "Share your coping strategies to help others"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 24,
+        "level": "mild",
+        "label": "Mild Experiential Avoidance",
+        "description": "You show mild experiential avoidance tendencies and may sometimes try to escape unpleasant internal experiences.",
+        "suggestions": [
+          "Practice mindfulness meditation to enhance awareness of internal experiences",
+          "Try accepting rather than controlling unpleasant thoughts and feelings",
+          "Learn about the basic principles of Acceptance and Commitment Therapy (ACT)"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 32,
+        "level": "moderate",
+        "label": "Moderate Experiential Avoidance",
+        "description": "You show moderate experiential avoidance. Unpleasant thoughts and feelings may significantly affect your life.",
+        "suggestions": [
+          "Consider trying ACT-based psychological counseling",
+          "Learn values-directed action — pursue meaningful activities even with uncomfortable feelings",
+          "Reduce over-engagement with negative thoughts",
+          "Practice mindfulness regularly"
+        ]
+      },
+      {
+        "min": 33,
+        "max": 49,
+        "level": "severe",
+        "label": "High Experiential Avoidance",
+        "description": "Your experiential avoidance level is high, which may severely limit your quality of life and mental health.",
+        "suggestions": [
+          "Strongly recommended to seek professional psychological help",
+          "Acceptance and Commitment Therapy (ACT) has shown significant effectiveness for experiential avoidance",
+          "Do not face your struggles alone; share your experiences with trusted people",
+          "Gradually practice accepting unpleasant internal experiences under professional guidance"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 7,
+      "max": 49
+    }
+  }
+}

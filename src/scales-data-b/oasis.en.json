@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "id": "oasis",
+    "name": "OASIS Overall Anxiety Severity and Impairment Scale",
+    "fullName": "Overall Anxiety Severity and Impairment Scale",
+    "description": "The OASIS is a brief 5-item scale that assesses the frequency, intensity, and functional impairment of overall anxiety, applicable across all anxiety disorder types.",
+    "author": "Norman et al. (2006)",
+    "license": "Public Domain",
+    "reference": "Norman SB, et al. Development and validation of an Overall Anxiety Severity and Impairment Scale (OASIS). Depression and Anxiety. 2006;23(4):245-249.",
+    "instruction": "Please answer about your anxiety over the past week.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "None/Never"
+    },
+    {
+      "value": 1,
+      "label": "Infrequent/Mild"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes/Moderate"
+    },
+    {
+      "value": 3,
+      "label": "Frequent/Severe"
+    },
+    {
+      "value": 4,
+      "label": "Constant/Extreme"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "In the past week, how often have you felt anxious",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "When you have felt anxious, how intense or severe was your anxiety",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "How often did you avoid situations, places, or activities because of anxiety",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "How much did anxiety interfere with your ability to do work, school, or household tasks",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "How much did anxiety interfere with your social life and relationships",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 20,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 4,
+        "level": "minimal",
+        "label": "Normal",
+        "description": "Your anxiety level is within the normal range, with no significant anxiety distress detected.",
+        "suggestions": [
+          "Continue maintaining your current mental health",
+          "Keep up regular exercise and relaxation habits",
+          "Maintain a strong social support network"
+        ]
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "level": "mild",
+        "label": "Mild Anxiety",
+        "description": "Your score suggests mild anxiety. You may occasionally feel tense or worried, but the impact on daily functioning is limited.",
+        "suggestions": [
+          "Learn and practice deep breathing and progressive muscle relaxation",
+          "Maintain regular physical exercise",
+          "Identify and address your anxiety triggers",
+          "Consider consulting a professional if anxiety continues to increase"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 14,
+        "level": "moderate",
+        "label": "Moderate Anxiety",
+        "description": "Your score suggests moderate anxiety. Anxiety may be noticeably interfering with your work, social life, or daily activities.",
+        "suggestions": [
+          "Consider seeking help from a counselor or psychiatrist",
+          "Systematically learn anxiety management techniques such as cognitive-behavioral strategies",
+          "Avoid excessive use of caffeine and alcohol",
+          "Establish regular routines and dedicated relaxation time"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 20,
+        "level": "severe",
+        "label": "Severe Anxiety",
+        "description": "Your score suggests severe anxiety, which may be significantly impairing your work ability, social functioning, and quality of life.",
+        "suggestions": [
+          "Seek professional psychological or psychiatric treatment as soon as possible",
+          "Inform family or friends about your condition for support",
+          "Avoid avoidance behaviors; try to gradually face anxiety-provoking situations in a safe environment",
+          "If in crisis, please call a mental health crisis hotline"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 20
+    }
+  }
+}

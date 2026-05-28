@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "id": "pss-10",
+    "name": "PSS-10 知觉压力量表",
+    "fullName": "Perceived Stress Scale-10",
+    "description": "PSS-10 是一份10题的自评量表，测量个体对生活中各种情况的压力感知程度。评估过去一个月内受访者感到生活不可预测、不可控制和负荷过重的程度，是使用最广泛的知觉压力测量工具。",
+    "author": "Cohen, Kamarck & Mermelstein (1983)",
+    "license": "Free to use",
+    "reference": "Cohen S, Kamarck T, Mermelstein R. A global measure of perceived stress. J Health Soc Behav. 1983;24(4):385-396.",
+    "instruction": "以下问题询问您在过去一个月内的感受和想法。请指出您有某种感受或想法的频率。",
+    "population": "一般人群（12岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 1,
+      "label": "几乎不"
+    },
+    {
+      "value": 2,
+      "label": "有时"
+    },
+    {
+      "value": 3,
+      "label": "时常"
+    },
+    {
+      "value": 4,
+      "label": "非常频繁"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "在过去一个月中，您因为意外发生的事情而感到心烦意乱的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "在过去一个月中，您感到无法控制生活中重要事情的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "在过去一个月中，您感到紧张和有压力的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "在过去一个月中，您对处理个人问题的能力感到自信的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "在过去一个月中，您感到事情在按您的方式发展的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "在过去一个月中，您发现无法应对所有必须做的事情的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "在过去一个月中，您能够控制生活中烦心事的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "在过去一个月中，您感到一切尽在掌握中的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "在过去一个月中，您因为超出控制范围的事情而愤怒的频率如何？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "在过去一个月中，您感到困难堆积太多以至于无法克服的频率如何？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 40,
+    "maxItemScore": 4,
+    "reverseItems": [
+      3,
+      4,
+      6,
+      7
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 13,
+        "level": "minimal",
+        "label": "低压力",
+        "description": "您的知觉压力水平较低，您似乎在良好地应对生活需求。",
+        "suggestions": [
+          "继续保持当前的应对策略",
+          "坚持规律运动和充足睡眠等健康习惯",
+          "练习正念或放松技巧以维持身心健康"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 26,
+        "level": "moderate",
+        "label": "中等压力",
+        "description": "您的知觉压力处于中等水平，加强压力管理策略可能会对您有益。",
+        "suggestions": [
+          "识别主要的压力来源并积极应对",
+          "练习压力管理技巧（深呼吸、冥想、运动）",
+          "保持工作与生活的平衡",
+          "如果感到压力难以承受，考虑与心理咨询师交谈",
+          "优先保证充足的睡眠和规律的体育活动"
+        ]
+      },
+      {
+        "min": 27,
+        "max": 40,
+        "level": "severe",
+        "label": "高压力",
+        "description": "您的知觉压力水平较高，这种程度的压力可能正在影响您的身心健康。",
+        "suggestions": [
+          "建议咨询心理健康专业人士获取支持",
+          "立即采取减压策略（运动、放松、社交支持）",
+          "审视并尽可能调整您的承诺和工作负荷",
+          "每天练习放松或正念练习",
+          "避免不健康的应对方式，如过量饮酒或咖啡因"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 40
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "id": "pss-10",
+    "name": "PSS-10 Perceived Stress Scale",
+    "fullName": "Perceived Stress Scale-10",
+    "description": "The PSS-10 is a 10-item self-report scale that measures the degree to which situations in one's life are appraised as stressful. It assesses how unpredictable, uncontrollable, and overloaded respondents find their lives over the past month. It is the most widely used psychological instrument for measuring perceived stress.",
+    "author": "Cohen, Kamarck & Mermelstein (1983)",
+    "license": "Free to use",
+    "reference": "Cohen S, Kamarck T, Mermelstein R. A global measure of perceived stress. J Health Soc Behav. 1983;24(4):385-396.",
+    "instruction": "The questions in this scale ask you about your feelings and thoughts during the last month. In each case, please indicate how often you felt or thought a certain way.",
+    "population": "General population (12+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Never"
+    },
+    {
+      "value": 1,
+      "label": "Almost never"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes"
+    },
+    {
+      "value": 3,
+      "label": "Fairly often"
+    },
+    {
+      "value": 4,
+      "label": "Very often"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "In the last month, how often have you been upset because of something that happened unexpectedly?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "In the last month, how often have you felt that you were unable to control the important things in your life?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "In the last month, how often have you felt nervous and \"stressed\"?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "In the last month, how often have you felt confident about your ability to handle your personal problems?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "In the last month, how often have you felt that things were going your way?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "In the last month, how often have you found that you could not cope with all the things that you had to do?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "In the last month, how often have you been able to control irritations in your life?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "In the last month, how often have you felt that you were on top of things?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "In the last month, how often have you been angered because of things that happened that were outside of your control?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 40,
+    "maxItemScore": 4,
+    "reverseItems": [
+      3,
+      4,
+      6,
+      7
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 13,
+        "level": "minimal",
+        "label": "Low Stress",
+        "description": "Your perceived stress level is low. You appear to be managing life demands well.",
+        "suggestions": [
+          "Continue maintaining your current coping strategies",
+          "Keep up healthy habits such as regular exercise and adequate sleep",
+          "Practice mindfulness or relaxation techniques for ongoing well-being"
+        ]
+      },
+      {
+        "min": 14,
+        "max": 26,
+        "level": "moderate",
+        "label": "Moderate Stress",
+        "description": "Your perceived stress level is moderate. You may benefit from enhanced stress management strategies.",
+        "suggestions": [
+          "Identify your main sources of stress and address them proactively",
+          "Practice stress management techniques (deep breathing, meditation, exercise)",
+          "Maintain a balanced work-life schedule",
+          "Consider talking to a counselor if stress feels overwhelming",
+          "Prioritize adequate sleep and regular physical activity"
+        ]
+      },
+      {
+        "min": 27,
+        "max": 40,
+        "level": "severe",
+        "label": "High Stress",
+        "description": "Your perceived stress level is high. This level of stress may be affecting your physical and mental health.",
+        "suggestions": [
+          "Consider consulting a mental health professional for support",
+          "Implement immediate stress-reduction strategies (exercise, relaxation, social support)",
+          "Review and adjust your commitments and workload where possible",
+          "Practice daily relaxation or mindfulness exercises",
+          "Avoid unhealthy coping mechanisms such as excessive alcohol or caffeine"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 40
+    }
+  }
+}

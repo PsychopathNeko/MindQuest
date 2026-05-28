@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "id": "fmi-14",
+    "name": "FMI-14 Freiburg Mindfulness Inventory",
+    "fullName": "Freiburg Mindfulness Inventory",
+    "description": "The FMI-14 is a 14-item self-report scale measuring mindfulness as a general human capacity. It captures the ability to be present and non-judgmental in everyday experiences. The scale is suitable for use with both meditators and non-meditators, assessing mindfulness as a trait that varies across individuals.",
+    "author": "Walach et al. (2006)",
+    "license": "Free to use",
+    "reference": "Walach H, Buchheld N, Buttenmuller V, Kleinknecht N, Schmidt S. Measuring mindfulness — the Freiburg Mindfulness Inventory (FMI). Personality and Individual Differences. 2006;40(8):1543-1555.",
+    "instruction": "Please rate each statement according to how frequently or infrequently you have had each experience over the last 14 days.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Rarely"
+    },
+    {
+      "value": 2,
+      "label": "Occasionally"
+    },
+    {
+      "value": 3,
+      "label": "Fairly often"
+    },
+    {
+      "value": 4,
+      "label": "Almost always"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I am open to the experience of the present moment.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I sense my body, whether eating, cooking, cleaning or talking.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "When I notice an absence of mind, I gently return to the experience of the here and now.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am able to appreciate myself.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I pay attention to what's behind my actions.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I see my mistakes and difficulties without judging them.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I feel connected to my experience in the here-and-now.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I accept unpleasant experiences.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I am friendly to myself when things go wrong.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I watch my feelings without getting lost in them.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "In difficult situations, I can pause without immediately reacting.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I experience moments of inner peace and ease, even when things get hectic and stressful.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I am impatient with myself and with others.",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "I am able to smile when I notice how I sometimes make life difficult.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 56,
+    "maxItemScore": 4,
+    "minItemScore": 1,
+    "reverseItems": [
+      12
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 14,
+        "max": 25,
+        "level": "severe",
+        "label": "Low Mindfulness",
+        "description": "Your mindfulness level is low. You may often find yourself on autopilot, reacting impulsively to situations rather than responding with awareness.",
+        "suggestions": [
+          "Begin with short daily mindfulness exercises, such as 5 minutes of focused breathing",
+          "Practice bringing attention to routine activities like eating or walking",
+          "Consider joining a beginner mindfulness or meditation class",
+          "Try using a guided meditation app to build a regular practice"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 36,
+        "level": "moderate",
+        "label": "Moderate Mindfulness",
+        "description": "You have a moderate level of mindfulness. You are sometimes able to stay present and aware, but may still get caught up in automatic reactions at times.",
+        "suggestions": [
+          "Increase the duration and consistency of your mindfulness practice",
+          "Practice observing your thoughts and emotions without judgment throughout the day",
+          "Try body scan exercises to deepen body awareness",
+          "Explore mindful communication in your relationships"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 46,
+        "level": "mild",
+        "label": "High Mindfulness",
+        "description": "You demonstrate a high level of mindfulness. You are generally able to stay present, accept experiences without judgment, and respond thoughtfully to challenges.",
+        "suggestions": [
+          "Continue your mindfulness practice to maintain and deepen your skills",
+          "Explore advanced practices such as loving-kindness or insight meditation",
+          "Consider how your mindfulness can benefit others around you",
+          "Challenge yourself with mindfulness in more difficult situations"
+        ]
+      },
+      {
+        "min": 47,
+        "max": 56,
+        "level": "minimal",
+        "label": "Very High Mindfulness",
+        "description": "You have a very high level of mindfulness. You consistently demonstrate present-moment awareness, non-judgmental acceptance, and equanimity in daily life.",
+        "suggestions": [
+          "Maintain your strong mindfulness practice",
+          "Consider sharing your experience through teaching or mentoring others",
+          "Continue deepening your practice through retreats or advanced study",
+          "Use your mindfulness skills to support your overall wellbeing and relationships"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 14,
+      "max": 56
+    }
+  }
+}

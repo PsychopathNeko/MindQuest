@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "id": "mhc-sf",
+    "name": "MHC-SF Mental Health Continuum",
+    "fullName": "Mental Health Continuum-Short Form",
+    "description": "The MHC-SF is a 14-item self-report measure of positive mental health assessing emotional, social, and psychological well-being.",
+    "author": "Keyes CLM (2005)",
+    "license": "Free for research use",
+    "reference": "Keyes CLM. Mental illness and/or mental health? Investigating axioms of the complete state model of health. J Consult Clin Psychol. 2005;73(3):539-548.",
+    "instruction": "During the past month, how often did you feel...",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Never"
+    },
+    {
+      "value": 1,
+      "label": "Once or twice"
+    },
+    {
+      "value": 2,
+      "label": "About once a week"
+    },
+    {
+      "value": 3,
+      "label": "About 2 or 3 times a week"
+    },
+    {
+      "value": 4,
+      "label": "Almost every day"
+    },
+    {
+      "value": 5,
+      "label": "Every day"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Happy",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Interested in life",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Satisfied with life",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "That you had something important to contribute to society",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "That you belonged to a community (like a social group, your school, or your neighborhood)",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "That our society is becoming a better place for people",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "That people are basically good",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "That the way our society works makes sense to you",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "That you liked most parts of your personality",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Good at managing the responsibilities of your daily life",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "That you had warm and trusting relationships with others",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "That you had experiences that challenged you to grow and become a better person",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Confident to think or express your own ideas and opinions",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "That your life has a sense of direction or meaning to it",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 70,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "emotional",
+        "name": "Emotional Well-being",
+        "items": [
+          0,
+          1,
+          2
+        ],
+        "maxScore": 15
+      },
+      {
+        "id": "social",
+        "name": "Social Well-being",
+        "items": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "maxScore": 25
+      },
+      {
+        "id": "psychological",
+        "name": "Psychological Well-being",
+        "items": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "maxScore": 30
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 14,
+        "level": "severe",
+        "label": "Languishing",
+        "description": "Your positive mental health is low.",
+        "suggestions": [
+          "Focus on positive experiences",
+          "Build meaningful social connections",
+          "Consider consulting a professional"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 42,
+        "level": "moderate",
+        "label": "Moderate Mental Health",
+        "description": "Your positive mental health is moderate.",
+        "suggestions": [
+          "Review subscale scores",
+          "Increase positive social activities",
+          "Practice gratitude and mindfulness"
+        ]
+      },
+      {
+        "min": 43,
+        "max": 70,
+        "level": "minimal",
+        "label": "Flourishing",
+        "description": "Your positive mental health is high.",
+        "suggestions": [
+          "Continue maintaining your positive lifestyle",
+          "Share positive energy with others"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "emotional": [
+        {
+          "min": 0,
+          "max": 5,
+          "level": "severe",
+          "label": "Low",
+          "description": "Emotional well-being is low."
+        },
+        {
+          "min": 6,
+          "max": 10,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Emotional well-being is moderate."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "minimal",
+          "label": "High",
+          "description": "Emotional well-being is high."
+        }
+      ],
+      "social": [
+        {
+          "min": 0,
+          "max": 8,
+          "level": "severe",
+          "label": "Low",
+          "description": "Social well-being is low."
+        },
+        {
+          "min": 9,
+          "max": 17,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Social well-being is moderate."
+        },
+        {
+          "min": 18,
+          "max": 25,
+          "level": "minimal",
+          "label": "High",
+          "description": "Social well-being is high."
+        }
+      ],
+      "psychological": [
+        {
+          "min": 0,
+          "max": 10,
+          "level": "severe",
+          "label": "Low",
+          "description": "Psychological well-being is low."
+        },
+        {
+          "min": 11,
+          "max": 20,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Psychological well-being is moderate."
+        },
+        {
+          "min": 21,
+          "max": 30,
+          "level": "minimal",
+          "label": "High",
+          "description": "Psychological well-being is high."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "emotional",
+        "social",
+        "psychological"
+      ],
+      "maxDisplayScore": 30
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Emotional Well-being",
+          "max": 15
+        },
+        {
+          "name": "Social Well-being",
+          "max": 25
+        },
+        {
+          "name": "Psychological Well-being",
+          "max": 30
+        }
+      ]
+    }
+  }
+}

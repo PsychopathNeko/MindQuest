@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "id": "rosenberg",
+    "name": "Rosenberg Self-Esteem Scale",
+    "fullName": "Rosenberg Self-Esteem Scale",
+    "description": "The Rosenberg Self-Esteem Scale (RSES) is the most widely used measure of self-esteem, consisting of 10 items that assess an individual's overall feelings of self-worth and self-acceptance. The scale includes both positively and negatively worded items.",
+    "author": "Rosenberg (1965)",
+    "license": "Public Domain",
+    "reference": "Rosenberg M. Society and the Adolescent Self-Image. Princeton, NJ: Princeton University Press; 1965.",
+    "instruction": "Below is a list of statements dealing with your general feelings about yourself. Please indicate how strongly you agree or disagree with each statement.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Strongly Disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Agree"
+    },
+    {
+      "value": 4,
+      "label": "Strongly Agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I feel that I am a person of worth, at least on an equal plane with others",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I feel that I have a number of good qualities",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "All in all, I am inclined to feel that I am a failure",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am able to do things as well as most other people",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I feel I do not have much to be proud of",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I take a positive attitude toward myself",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "On the whole, I am satisfied with myself",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I wish I could have more respect for myself",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I certainly feel useless at times",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "At times I think I am no good at all",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 40,
+    "maxItemScore": 4,
+    "minItemScore": 1,
+    "reverseItems": [
+      2,
+      4,
+      7,
+      8,
+      9
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 25,
+        "level": "severe",
+        "label": "Low Self-Esteem",
+        "description": "Your self-esteem level is low. You may hold a negative view of your self-worth and tend toward self-criticism.",
+        "suggestions": [
+          "Try recording your daily positive achievements and strengths",
+          "Reduce negative comparisons with others",
+          "Practice self-affirmation and positive self-talk",
+          "Consider consulting a counselor for self-acceptance training",
+          "Read self-growth books and cultivate a growth mindset"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 29,
+        "level": "mild",
+        "label": "Below Average",
+        "description": "Your self-esteem level is in the low-average range. You may experience self-doubt in certain situations.",
+        "suggestions": [
+          "Acknowledge and affirm your achievements and strengths",
+          "Set reasonable self-expectations",
+          "Practice self-compassion and treat yourself kindly",
+          "Develop hobbies that give you a sense of accomplishment"
+        ]
+      },
+      {
+        "min": 30,
+        "max": 34,
+        "level": "normal",
+        "label": "Average",
+        "description": "Your self-esteem level is within the normal range, with a reasonably objective self-perception and moderate self-affirmation.",
+        "suggestions": [
+          "Continue maintaining a healthy self-awareness",
+          "Trust in your abilities when facing challenges",
+          "Stay open-minded and accept constructive feedback"
+        ]
+      },
+      {
+        "min": 35,
+        "max": 40,
+        "level": "minimal",
+        "label": "High Self-Esteem",
+        "description": "Your self-esteem level is high, with a positive self-evaluation and strong confidence. You are well-equipped to handle life's challenges.",
+        "suggestions": [
+          "Continue maintaining a positive self-perception",
+          "Stay humble and considerate of others' feelings",
+          "Use your confidence to inspire and help those around you"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 40
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "id": "cage-aid",
+    "name": "CAGE-AID 药物滥用筛查问卷",
+    "fullName": "CAGE问卷改编版（含药物使用）",
+    "description": "CAGE-AID 是在经典 CAGE 问卷基础上改编的 4 题筛查工具，将筛查范围从单纯的酒精问题扩展到同时涵盖酒精和药物使用。它是初级保健和临床环境中识别潜在物质使用问题的简短且经过验证的工具。",
+    "author": "Brown & Rounds (1995)",
+    "license": "Free to use",
+    "reference": "Brown RL, Rounds LA. Conjoint screening questionnaires for alcohol and other drug abuse: criterion validity in a primary care practice. Wis Med J. 1995;94(3):135-140.",
+    "instruction": "请如实回答以下每个问题，选择「是」或「否」。这些问题涉及您的饮酒和/或药物使用情况。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "是"
+    },
+    {
+      "value": 0,
+      "label": "否"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "您是否曾感到自己应该减少饮酒或药物使用？",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "是否有人因为批评您饮酒或使用药物而让您感到恼怒？",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "您是否曾因为饮酒或使用药物而感到内疚或不安？",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "您是否曾在早晨起床后第一件事就是喝酒或使用药物来稳定神经或消除宿醉？",
+      "type": "yesno"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 4,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 1,
+        "level": "minimal",
+        "label": "筛查阴性",
+        "description": "您的回答未提示存在物质使用问题。得分低于2分被视为阴性筛查结果。",
+        "suggestions": [
+          "继续保持健康的饮酒和用药习惯",
+          "了解物质滥用的健康风险",
+          "注意物质使用模式的任何变化"
+        ]
+      },
+      {
+        "min": 2,
+        "max": 4,
+        "level": "severe",
+        "label": "筛查阳性",
+        "description": "您的回答提示可能存在酒精或药物使用问题。得分2分或以上具有临床意义，建议接受医疗专业人员的进一步评估。",
+        "suggestions": [
+          "强烈建议就物质使用问题寻求专业评估",
+          "咨询医疗保健提供者或成瘾专家",
+          "考虑加入物质使用相关的互助团体",
+          "与信任的家人或朋友坦诚交流您的物质使用情况",
+          "了解可用的治疗方案"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 4
+    }
+  }
+}

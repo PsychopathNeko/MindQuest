@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "id": "dast-10",
+    "name": "DAST-10 Drug Abuse Screening Test",
+    "fullName": "Drug Abuse Screening Test-10",
+    "description": "The DAST-10 is a brief, 10-item self-report screening instrument for identifying individuals who are abusing psychoactive drugs. It yields a quantitative index of the degree of consequences related to drug abuse.",
+    "author": "Skinner (1982)",
+    "license": "Public Domain",
+    "reference": "Skinner HA. The Drug Abuse Screening Test. Addict Behav. 1982;7(4):363-371.",
+    "instruction": "The following questions concern information about your potential involvement with drugs, excluding alcohol and tobacco, during the past 12 months. Please answer Yes or No.",
+    "population": "General population (16+)"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "Have you used drugs other than those required for medical reasons?",
+      "type": "yesno"
+    },
+    {
+      "index": 1,
+      "text": "Do you abuse more than one drug at a time?",
+      "type": "yesno"
+    },
+    {
+      "index": 2,
+      "text": "Are you always able to stop using drugs when you want to?",
+      "type": "yesno"
+    },
+    {
+      "index": 3,
+      "text": "Have you ever had blackouts or flashbacks as a result of drug use?",
+      "type": "yesno"
+    },
+    {
+      "index": 4,
+      "text": "Do you ever feel bad or guilty about your drug use?",
+      "type": "yesno"
+    },
+    {
+      "index": 5,
+      "text": "Does your spouse (or parents) ever complain about your involvement with drugs?",
+      "type": "yesno"
+    },
+    {
+      "index": 6,
+      "text": "Have you neglected your family because of your use of drugs?",
+      "type": "yesno"
+    },
+    {
+      "index": 7,
+      "text": "Have you engaged in illegal activities in order to obtain drugs?",
+      "type": "yesno"
+    },
+    {
+      "index": 8,
+      "text": "Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs?",
+      "type": "yesno"
+    },
+    {
+      "index": 9,
+      "text": "Have you had medical problems as a result of your drug use (e.g., memory loss, hepatitis, convulsions, bleeding)?",
+      "type": "yesno"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 10,
+    "maxItemScore": 1,
+    "reverseItems": [
+      2
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 0,
+        "level": "minimal",
+        "label": "No Problems Reported",
+        "description": "Your responses do not indicate any drug-related problems.",
+        "suggestions": [
+          "Continue to maintain a drug-free lifestyle",
+          "Stay informed about the risks of drug use",
+          "Support friends or family members who may be struggling"
+        ]
+      },
+      {
+        "min": 1,
+        "max": 2,
+        "level": "mild",
+        "label": "Low Level",
+        "description": "Your responses suggest a low level of drug-related problems. Monitoring is recommended.",
+        "suggestions": [
+          "Be aware of your drug use patterns and their consequences",
+          "Consider discussing your drug use with a healthcare provider",
+          "Learn about healthy coping strategies for stress"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "moderate",
+        "label": "Moderate Level",
+        "description": "Your responses suggest a moderate level of drug-related problems. Professional evaluation is recommended.",
+        "suggestions": [
+          "Consider seeking a professional assessment for drug use",
+          "Explore counseling or therapy options",
+          "Identify triggers and develop alternative coping strategies",
+          "Talk to someone you trust about your concerns"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "level": "severe",
+        "label": "Substantial Level",
+        "description": "Your responses suggest a substantial level of drug-related problems. Intensive assessment and intervention are strongly recommended.",
+        "suggestions": [
+          "Seek professional treatment for drug use as soon as possible",
+          "Consider an intensive outpatient or inpatient treatment program",
+          "Inform trusted family members or friends for support",
+          "Avoid situations and people that trigger drug use"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 10,
+        "level": "severe",
+        "label": "Severe Level",
+        "description": "Your responses suggest a severe level of drug-related problems. Immediate professional intervention is necessary.",
+        "suggestions": [
+          "Seek immediate professional help for drug dependence",
+          "Contact an addiction treatment center or hospital",
+          "Do not attempt to stop suddenly without medical supervision",
+          "Reach out to crisis hotlines if you are in distress"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 10
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "id": "igds-sf9",
+    "name": "IGDS-SF9 网络游戏障碍量表",
+    "fullName": "Internet Gaming Disorder Scale - Short Form 9",
+    "description": "IGDS-SF9 是基于 DSM-5 网络游戏障碍诊断标准开发的 9 题简版自评量表，用于评估游戏成瘾的严重程度。",
+    "author": "Pontes & Griffiths (2015)",
+    "license": "Free to use",
+    "reference": "Pontes HM, Griffiths MD. Measuring DSM-5 internet gaming disorder: Development and validation of a short psychometric scale. Computers in Human Behavior. 2015;45:137-143.",
+    "instruction": "请根据过去12个月内你的游戏行为，选择最符合你情况的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "从不"
+    },
+    {
+      "value": 2,
+      "label": "很少"
+    },
+    {
+      "value": 3,
+      "label": "有时"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "非常频繁"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我发现自己总是在想与游戏相关的事情（如回忆以前的游戏活动、计划下一次游戏、想着如何赚取更多游戏币等）",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "当我试图减少或停止游戏时，我会感到烦躁、焦虑甚至悲伤",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我觉得需要花越来越多的时间玩游戏才能获得满足感或愉悦感",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我总是无法成功控制或停止自己的游戏行为",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "由于沉迷游戏，我对以前的爱好和其他娱乐活动失去了兴趣",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "尽管知道游戏已经对我的人际关系造成了问题，我仍然继续玩",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我曾对家人、朋友或他人隐瞒自己的实际游戏时间",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我玩游戏是为了暂时逃避或缓解负面情绪（如无助感、内疚、焦虑）",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "因为游戏，我曾失去或差点失去重要的人际关系、工作或学业机会",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 45,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 9,
+        "max": 21,
+        "level": "minimal",
+        "label": "正常",
+        "description": "您的游戏行为处于正常范围，未显示出网络游戏障碍的迹象。",
+        "suggestions": [
+          "继续保持健康的游戏习惯",
+          "注意平衡游戏时间与其他活动"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 30,
+        "level": "mild",
+        "label": "有风险",
+        "description": "您可能存在一些不健康的游戏行为模式，建议关注游戏对日常生活的影响。",
+        "suggestions": [
+          "设定每日游戏时间上限",
+          "培养其他兴趣爱好",
+          "留意游戏对睡眠和学业/工作的影响",
+          "如感到难以自控，建议咨询专业人士"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 36,
+        "level": "moderate",
+        "label": "高风险",
+        "description": "您的游戏行为已经对日常生活产生了明显的负面影响，建议寻求专业帮助。",
+        "suggestions": [
+          "建议咨询心理健康专业人士",
+          "逐步减少游戏时间",
+          "寻找替代性的放松和社交方式",
+          "与信任的人谈谈你的游戏习惯"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 45,
+        "level": "severe",
+        "label": "疑似游戏障碍",
+        "description": "您的评分提示可能存在网络游戏障碍，游戏行为已严重影响日常功能，强烈建议寻求专业帮助。",
+        "suggestions": [
+          "强烈建议尽快咨询精神科医生或心理治疗师",
+          "考虑接受专业的行为干预治疗",
+          "建立支持系统，让家人朋友了解情况",
+          "避免独处时无限制接触游戏设备"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 9,
+      "max": 45
+    }
+  }
+}

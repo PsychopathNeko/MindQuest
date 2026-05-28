@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "id": "erq",
+    "name": "ERQ Emotion Regulation Questionnaire",
+    "fullName": "Emotion Regulation Questionnaire",
+    "description": "The ERQ is a 10-item scale assessing two emotion regulation strategies: cognitive reappraisal (changing how one thinks about a situation to alter its emotional impact) and expressive suppression (inhibiting emotional expression). Cognitive reappraisal is generally considered more adaptive, while excessive use of expressive suppression may be associated with negative mental health outcomes.",
+    "author": "Gross & John (2003)",
+    "license": "Free to use",
+    "reference": "Gross JJ, John OP. Individual differences in two emotion regulation processes: implications for affect, relationships, and well-being. J Pers Soc Psychol. 2003;85(2):348-362.",
+    "instruction": "We would like to ask you some questions about your emotional life, in particular, how you control and regulate your emotions. Please rate the extent to which you agree with each statement.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Strongly disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Slightly disagree"
+    },
+    {
+      "value": 4,
+      "label": "Neutral"
+    },
+    {
+      "value": 5,
+      "label": "Slightly agree"
+    },
+    {
+      "value": 6,
+      "label": "Agree"
+    },
+    {
+      "value": 7,
+      "label": "Strongly agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "When I want to feel more positive emotion (such as joy or amusement), I change what I am thinking about",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I keep my emotions to myself",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "When I want to feel less negative emotion (such as sadness or anger), I change what I am thinking about",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "When I am feeling positive emotions, I am careful not to express them",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "When I am faced with a stressful situation, I make myself think about it in a way that helps me stay calm",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I control my emotions by not expressing them",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "When I want to feel more positive emotion, I change the way I am thinking about the situation",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I control my emotions by changing the way I think about the situation I am in",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "When I am feeling negative emotions, I make sure not to express them",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "When I want to feel less negative emotion, I change the way I am thinking about the situation",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": null,
+    "maxItemScore": 7,
+    "subscales": [
+      {
+        "id": "reappraisal",
+        "name": "Cognitive Reappraisal",
+        "items": [
+          0,
+          2,
+          4,
+          6,
+          7,
+          9
+        ],
+        "maxScore": 42
+      },
+      {
+        "id": "suppression",
+        "name": "Expressive Suppression",
+        "items": [
+          1,
+          3,
+          5,
+          8
+        ],
+        "maxScore": 28
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": null,
+    "subscaleRanges": {
+      "reappraisal": [
+        {
+          "min": 6,
+          "max": 18,
+          "level": "severe",
+          "label": "Low",
+          "description": "You rarely use cognitive reappraisal. This adaptive strategy, when underused, may limit emotional regulation flexibility."
+        },
+        {
+          "min": 19,
+          "max": 30,
+          "level": "normal",
+          "label": "Average",
+          "description": "You use cognitive reappraisal at a moderate frequency."
+        },
+        {
+          "min": 31,
+          "max": 42,
+          "level": "minimal",
+          "label": "High",
+          "description": "You frequently use cognitive reappraisal, which is associated with better emotional well-being and interpersonal relationships."
+        }
+      ],
+      "suppression": [
+        {
+          "min": 4,
+          "max": 12,
+          "level": "minimal",
+          "label": "Low",
+          "description": "You rarely suppress emotional expression. Moderate emotional expression is beneficial for relationships and mental health."
+        },
+        {
+          "min": 13,
+          "max": 20,
+          "level": "normal",
+          "label": "Average",
+          "description": "You use expressive suppression at a moderate frequency."
+        },
+        {
+          "min": 21,
+          "max": 28,
+          "level": "severe",
+          "label": "High",
+          "description": "You frequently suppress emotional expression. Excessive suppression may be associated with lower well-being and social support. Consider learning more flexible emotion regulation approaches."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "reappraisal",
+        "suppression"
+      ],
+      "maxDisplayScore": 42
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Cognitive Reappraisal",
+          "max": 42
+        },
+        {
+          "name": "Expressive Suppression",
+          "max": 28
+        }
+      ]
+    }
+  }
+}

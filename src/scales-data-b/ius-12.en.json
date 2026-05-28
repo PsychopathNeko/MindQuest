@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "id": "ius-12",
+    "name": "IUS-12 Intolerance of Uncertainty Scale Short Form",
+    "fullName": "Intolerance of Uncertainty Scale-12",
+    "description": "The IUS-12 is a 12-item short form of the Intolerance of Uncertainty Scale that measures reactions to ambiguous situations, uncertainty, and future events. It assesses two factors: Prospective Anxiety (desire for predictability) and Inhibitory Anxiety (paralysis of action due to uncertainty).",
+    "author": "Carleton, Norton & Asmundson (2007)",
+    "license": "Free to use",
+    "reference": "Carleton RN, Norton MA, Asmundson GJ. Fearing the unknown: A short version of the Intolerance of Uncertainty Scale. J Anxiety Disord. 2007;21(1):105-117.",
+    "instruction": "Please select the answer that best corresponds to how much each statement is characteristic of you.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Not at all characteristic of me"
+    },
+    {
+      "value": 2,
+      "label": "A little characteristic of me"
+    },
+    {
+      "value": 3,
+      "label": "Somewhat characteristic of me"
+    },
+    {
+      "value": 4,
+      "label": "Very characteristic of me"
+    },
+    {
+      "value": 5,
+      "label": "Entirely characteristic of me"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Unforeseen events upset me greatly.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "It frustrates me not having all the information I need.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Uncertainty keeps me from living a full life.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "One should always look ahead so as to avoid surprises.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "A small unforeseen event can spoil everything, even with the best of planning.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "When it's time to act, uncertainty paralyzes me.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "When I am uncertain, I can't function very well.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I always want to know what the future has in store for me.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I can't stand being taken by surprise.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "The smallest doubt can stop me from acting.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I should be able to organize everything in advance.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I must get away from all uncertain situations.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 60,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "prospective",
+        "name": "Prospective Anxiety",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "maxScore": 35
+      },
+      {
+        "id": "inhibitory",
+        "name": "Inhibitory Anxiety",
+        "items": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "maxScore": 25
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 24,
+        "level": "minimal",
+        "label": "Low Intolerance of Uncertainty",
+        "description": "Your intolerance of uncertainty is low. You appear to cope well with ambiguous and unpredictable situations.",
+        "suggestions": [
+          "Continue leveraging your flexibility in uncertain situations",
+          "Maintain healthy coping strategies",
+          "Use your adaptability as a strength in challenging circumstances"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "moderate",
+        "label": "Moderate Intolerance of Uncertainty",
+        "description": "You have a moderate level of intolerance of uncertainty. Some ambiguous situations may cause you discomfort or worry.",
+        "suggestions": [
+          "Practice accepting uncertainty as a normal part of life",
+          "Challenge catastrophic thinking about unknown outcomes",
+          "Try gradual exposure to uncertain situations",
+          "Develop flexible planning strategies"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "high",
+        "label": "High Intolerance of Uncertainty",
+        "description": "Your intolerance of uncertainty is high. Ambiguity and unpredictability likely cause you significant distress and may interfere with daily functioning.",
+        "suggestions": [
+          "Consider cognitive-behavioral strategies to address uncertainty-related anxiety",
+          "Practice mindfulness to stay grounded in the present moment",
+          "Work on tolerating small uncertainties and gradually increasing exposure",
+          "Consult a mental health professional for structured support"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "severe",
+        "label": "Very High Intolerance of Uncertainty",
+        "description": "Your intolerance of uncertainty is very high. This level of discomfort with uncertainty may significantly impair your daily life and well-being.",
+        "suggestions": [
+          "Strongly consider seeking professional help from a therapist experienced in anxiety disorders",
+          "Explore evidence-based treatments such as CBT or metacognitive therapy",
+          "Implement daily anxiety management routines",
+          "Avoid excessive reassurance-seeking, which can maintain the cycle"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "prospective": [
+        {
+          "min": 7,
+          "max": 14,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low prospective anxiety. You handle anticipation of future events well."
+        },
+        {
+          "min": 15,
+          "max": 21,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate prospective anxiety. You sometimes worry about future uncertainties."
+        },
+        {
+          "min": 22,
+          "max": 28,
+          "level": "high",
+          "label": "High",
+          "description": "High prospective anxiety. The unpredictability of the future causes you significant concern."
+        },
+        {
+          "min": 29,
+          "max": 35,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high prospective anxiety. You experience intense distress about future uncertainties."
+        }
+      ],
+      "inhibitory": [
+        {
+          "min": 5,
+          "max": 10,
+          "level": "minimal",
+          "label": "Low",
+          "description": "Low inhibitory anxiety. Uncertainty does not significantly hinder your actions."
+        },
+        {
+          "min": 11,
+          "max": 15,
+          "level": "moderate",
+          "label": "Moderate",
+          "description": "Moderate inhibitory anxiety. Uncertainty sometimes holds you back from taking action."
+        },
+        {
+          "min": 16,
+          "max": 20,
+          "level": "high",
+          "label": "High",
+          "description": "High inhibitory anxiety. Uncertainty frequently paralyzes your decision-making and actions."
+        },
+        {
+          "min": 21,
+          "max": 25,
+          "level": "severe",
+          "label": "Very High",
+          "description": "Very high inhibitory anxiety. Uncertainty severely impairs your ability to act and make decisions."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "prospective",
+        "inhibitory"
+      ],
+      "maxDisplayScore": 35
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Prospective Anxiety",
+          "max": 35
+        },
+        {
+          "name": "Inhibitory Anxiety",
+          "max": 25
+        }
+      ]
+    }
+  }
+}

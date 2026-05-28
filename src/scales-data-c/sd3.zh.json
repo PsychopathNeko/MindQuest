@@ -1,0 +1,400 @@
+{
+  "meta": {
+    "id": "sd3",
+    "name": "SD3 暗黑人格三联征量表",
+    "fullName": "Short Dark Triad",
+    "description": "SD3 是一份包含 27 个条目的自评量表，用于评估暗黑人格三联征的三个维度：马基雅维利主义、自恋和精神病态。该量表简洁高效，广泛应用于人格心理学研究。",
+    "author": "Jones & Paulhus (2014)",
+    "license": "Free for research use",
+    "reference": "Jones DN, Paulhus DL. Introducing the Short Dark Triad (SD3): a brief measure of dark personality traits. Assessment. 2014;21(1):28-41.",
+    "instruction": "请根据你对以下陈述的同意程度来选择。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "不同意"
+    },
+    {
+      "value": 3,
+      "label": "中立"
+    },
+    {
+      "value": 4,
+      "label": "同意"
+    },
+    {
+      "value": 5,
+      "label": "非常同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "明智的做法是记住有用的信息以便将来利用他人",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "等待合适时机向别人报复，而不是立即表露愤怒",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "确保你的计划能让自己获利，而不仅仅是别人",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "多数人都可以被操纵",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "为了达到目的，有时需要对别人甜言蜜语",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "与人打交道时要注意保护自己的利益",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "与自己动手相比，让别人为你做事更好",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "大多数人只关心自己的利益",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "为了得到想要的东西，不必在意道德",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "人们常常说我是一个特别的人",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我喜欢结识重要人物",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我觉得自己比一般人更特别",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "我喜欢成为众人关注的焦点",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我觉得自己天生就是领导者",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我讨厌在人群中不被注意到",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我曾和名人相比，觉得自己也很优秀",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "我喜欢别人对我表示特别的关注",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "我认为自己应该得到比普通人更多的尊重",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "我喜欢向别人报复",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "我在危险的情况下倾向于不假思索",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "以牙还牙是我遵守的重要法则",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "我觉得自己很少有真正的悔恨",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "有人搞我，我肯定会搞回去",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "跟别人打交道中可能需要走捷径才能成功",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "人们常说我太不顾后果了",
+      "type": "likert"
+    },
+    {
+      "index": 25,
+      "text": "我寻求刺激和新鲜感",
+      "type": "likert"
+    },
+    {
+      "index": 26,
+      "text": "别人总说我没心没肺",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 135,
+    "maxItemScore": 5,
+    "subscales": [
+      {
+        "id": "machiavellianism",
+        "name": "马基雅维利主义",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "maxScore": 45
+      },
+      {
+        "id": "narcissism",
+        "name": "自恋",
+        "items": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "maxScore": 45
+      },
+      {
+        "id": "psychopathy",
+        "name": "精神病态",
+        "items": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "maxScore": 45
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 27,
+        "max": 54,
+        "level": "minimal",
+        "label": "低暗黑特质",
+        "description": "您的暗黑人格特质得分较低，表明您在人际交往中较少使用操纵性策略。",
+        "suggestions": [
+          "继续保持真诚和合作的人际交往方式",
+          "您的共情能力和道德感是您的优势"
+        ]
+      },
+      {
+        "min": 55,
+        "max": 81,
+        "level": "normal",
+        "label": "中等暗黑特质",
+        "description": "您的暗黑人格特质处于中等水平，大多数人都在这个范围内。",
+        "suggestions": [
+          "关注自身行为对他人的影响",
+          "在追求目标时保持道德底线",
+          "培养同理心和合作精神"
+        ]
+      },
+      {
+        "min": 82,
+        "max": 108,
+        "level": "mild",
+        "label": "较高暗黑特质",
+        "description": "您的暗黑人格特质得分较高，可能在人际关系中倾向于使用操纵性或自利策略。",
+        "suggestions": [
+          "反思自身行为模式对人际关系的影响",
+          "练习换位思考和共情",
+          "考虑寻求心理咨询以探索更健康的人际交往方式"
+        ]
+      },
+      {
+        "min": 109,
+        "max": 135,
+        "level": "moderate",
+        "label": "高暗黑特质",
+        "description": "您的暗黑人格特质得分很高，这可能显著影响您的人际关系和社会适应。",
+        "suggestions": [
+          "建议寻求专业心理咨询",
+          "关注自身行为对周围人的影响",
+          "学习建立互信互利的人际关系"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "machiavellianism": [
+        {
+          "min": 9,
+          "max": 18,
+          "level": "minimal",
+          "label": "低",
+          "description": "马基雅维利主义倾向较低。"
+        },
+        {
+          "min": 19,
+          "max": 27,
+          "level": "mild",
+          "label": "中等",
+          "description": "马基雅维利主义倾向处于中等水平。"
+        },
+        {
+          "min": 28,
+          "max": 36,
+          "level": "moderate",
+          "label": "较高",
+          "description": "马基雅维利主义倾向较高，倾向于操纵他人。"
+        },
+        {
+          "min": 37,
+          "max": 45,
+          "level": "severe",
+          "label": "高",
+          "description": "马基雅维利主义倾向很高，建议关注人际交往模式。"
+        }
+      ],
+      "narcissism": [
+        {
+          "min": 9,
+          "max": 18,
+          "level": "minimal",
+          "label": "低",
+          "description": "自恋倾向较低。"
+        },
+        {
+          "min": 19,
+          "max": 27,
+          "level": "mild",
+          "label": "中等",
+          "description": "自恋倾向处于中等水平。"
+        },
+        {
+          "min": 28,
+          "max": 36,
+          "level": "moderate",
+          "label": "较高",
+          "description": "自恋倾向较高，可能过度关注自我。"
+        },
+        {
+          "min": 37,
+          "max": 45,
+          "level": "severe",
+          "label": "高",
+          "description": "自恋倾向很高，建议关注自我认知。"
+        }
+      ],
+      "psychopathy": [
+        {
+          "min": 9,
+          "max": 18,
+          "level": "minimal",
+          "label": "低",
+          "description": "精神病态倾向较低。"
+        },
+        {
+          "min": 19,
+          "max": 27,
+          "level": "mild",
+          "label": "中等",
+          "description": "精神病态倾向处于中等水平。"
+        },
+        {
+          "min": 28,
+          "max": 36,
+          "level": "moderate",
+          "label": "较高",
+          "description": "精神病态倾向较高，可能缺乏悔恨和冲动控制。"
+        },
+        {
+          "min": 37,
+          "max": 45,
+          "level": "severe",
+          "label": "高",
+          "description": "精神病态倾向很高，建议寻求专业帮助。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "machiavellianism",
+        "narcissism",
+        "psychopathy"
+      ],
+      "maxDisplayScore": 45
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "马基雅维利主义",
+          "max": 45
+        },
+        {
+          "name": "自恋",
+          "max": 45
+        },
+        {
+          "name": "精神病态",
+          "max": 45
+        }
+      ]
+    }
+  }
+}

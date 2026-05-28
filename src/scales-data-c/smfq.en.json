@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "id": "smfq",
+    "name": "SMFQ Short Mood and Feelings Questionnaire",
+    "fullName": "Short Mood and Feelings Questionnaire",
+    "description": "The SMFQ is a 13-item scale measuring depressive symptoms in children and adolescents (aged 6-17).",
+    "author": "Angold A, et al. (1995)",
+    "license": "Free to use",
+    "reference": "Angold A, et al. Development of a short questionnaire for use in epidemiological studies of depression in children and adolescents. Int J Methods Psychiatr Res. 1995;5:237-249.",
+    "instruction": "These sentences describe how people may feel or act. For each item, please select how much you have felt or acted this way in the past two weeks.",
+    "population": "Children and adolescents (6-17)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not true"
+    },
+    {
+      "value": 1,
+      "label": "Sometimes"
+    },
+    {
+      "value": 2,
+      "label": "True"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I felt miserable or unhappy.",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I didn't enjoy anything at all.",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I felt so tired I just sat around and did nothing.",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I was very restless.",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I felt I was no good anymore.",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I cried a lot.",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I found it hard to think properly or concentrate.",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I hated myself.",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "I was a bad person.",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I felt lonely.",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "I thought nobody really loved me.",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "I thought I could never be as good as other kids.",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "I did everything wrong.",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 26,
+    "maxItemScore": 2,
+    "reverseItems": [],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 7,
+        "level": "normal",
+        "label": "Normal Range",
+        "description": "Your depressive symptoms are within the normal range.",
+        "suggestions": [
+          "Continue maintaining a positive outlook",
+          "Stay connected with friends and family"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 11,
+        "level": "mild",
+        "label": "Mild Depression",
+        "description": "You may have mild depressive symptoms. Monitoring is recommended.",
+        "suggestions": [
+          "Talk to someone you trust about how you feel",
+          "Increase outdoor activities and social engagement",
+          "Maintain a regular daily routine"
+        ]
+      },
+      {
+        "min": 12,
+        "max": 26,
+        "level": "significant",
+        "label": "Significant Depression",
+        "description": "Your depressive symptoms are significant (score >= 12 is the clinical cutoff). Professional help is recommended.",
+        "suggestions": [
+          "Consult a mental health professional for evaluation",
+          "Do not carry the burden alone; tell a parent or teacher",
+          "Depression is treatable, and seeking help early leads to better outcomes"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 26
+    }
+  }
+}

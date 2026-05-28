@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "id": "k10",
+    "name": "K10 凯斯勒心理困扰量表",
+    "fullName": "Kessler Psychological Distress Scale",
+    "description": "K10 是一份包含 10 个条目的问卷，用于测量非特异性心理困扰。它评估个体在过去 4 周内经历的焦虑和抑郁症状水平。",
+    "author": "Kessler, Andrews, Colpe et al. (2002)",
+    "license": "Public Domain",
+    "reference": "Kessler RC, Andrews G, Colpe LJ, et al. Short screening scales to monitor population prevalences and trends in non-specific psychological distress. Psychol Med. 2002;32(6):959-976.",
+    "instruction": "以下问题询问您在过去 4 周内的感受。请为每个问题选择最能描述您出现该感受频率的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "没有"
+    },
+    {
+      "value": 2,
+      "label": "偶尔"
+    },
+    {
+      "value": 3,
+      "label": "有时"
+    },
+    {
+      "value": 4,
+      "label": "经常"
+    },
+    {
+      "value": 5,
+      "label": "所有时间"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "在过去 4 周内，您有多少时候会无缘无故地感到疲倦？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "在过去 4 周内，您有多少时候感到紧张？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "在过去 4 周内，您有多少时候紧张到什么都无法让您平静下来？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "在过去 4 周内，您有多少时候感到绝望？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "在过去 4 周内，您有多少时候感到坐立不安？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "在过去 4 周内，您有多少时候感到烦躁不安以至于无法静坐？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "在过去 4 周内，您有多少时候感到抑郁？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "在过去 4 周内，您有多少时候觉得做任何事都很费力？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "在过去 4 周内，您有多少时候感到悲伤，以至于什么都无法让您高兴起来？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "在过去 4 周内，您有多少时候觉得自己毫无价值？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 50,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 19,
+        "level": "minimal",
+        "label": "心理状况良好",
+        "description": "您的评分表明您目前心理状况良好，没有明显的心理困扰。",
+        "suggestions": [
+          "继续保持当前健康的应对方式",
+          "保持规律的体育锻炼和社交活动",
+          "作为预防措施，练习压力管理技巧"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 24,
+        "level": "mild",
+        "label": "轻度心理困扰",
+        "description": "您的评分表明存在轻度心理困扰，可能正在经历一些情绪困难。",
+        "suggestions": [
+          "在未来几周内关注自己的情绪状态",
+          "练习深呼吸或正念等放松技巧",
+          "与信任的朋友或家人谈谈您的感受",
+          "如果症状持续，考虑咨询医疗专业人员"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 29,
+        "level": "moderate",
+        "label": "中度心理困扰",
+        "description": "您的评分表明存在中度心理困扰，可能已经影响到日常功能。",
+        "suggestions": [
+          "建议寻求心理健康专业人士的帮助",
+          "保持规律的睡眠、运动和饮食习惯",
+          "尽可能减少压力源，优先进行自我关爱",
+          "避免使用酒精或药物来应对困扰"
+        ]
+      },
+      {
+        "min": 30,
+        "max": 50,
+        "level": "severe",
+        "label": "重度心理困扰",
+        "description": "您的评分表明存在重度心理困扰，强烈建议您尽快寻求专业帮助。",
+        "suggestions": [
+          "请尽快咨询心理健康专业人士或您的医生",
+          "如遇到危机情况，请拨打心理危机热线：400-161-9995",
+          "不要犹豫，向您信任的人寻求帮助",
+          "遵循专业治疗建议"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 50
+    }
+  }
+}

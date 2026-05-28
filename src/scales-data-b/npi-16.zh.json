@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "id": "npi-16",
+    "name": "NPI-16 自恋人格量表",
+    "fullName": "自恋人格量表-16项版",
+    "description": "NPI-16是自恋人格量表的简版，使用16个迫选题目测量亚临床自恋。每个题目呈现两个陈述；一个反映自恋倾向，另一个则不。",
+    "author": "Ames, Rose & Anderson (2006)",
+    "license": "Free to use",
+    "reference": "Ames DR, Rose P, Anderson CP. The NPI-16 as a short measure of narcissism. J Res Pers. 2006;40(4):440-450.",
+    "instruction": "对于以下每对陈述，请选择您最认同的那一个。没有对错之分。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 1,
+          "label": "我非常喜欢成为关注的焦点"
+        },
+        {
+          "value": 0,
+          "label": "成为关注的焦点让我不舒服"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 0,
+          "label": "我和大多数人没什么不同"
+        },
+        {
+          "value": 1,
+          "label": "我认为自己是一个特别的人"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 1,
+          "label": "每个人都喜欢听我的故事"
+        },
+        {
+          "value": 0,
+          "label": "有时候我会讲一些好故事"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 1,
+          "label": "我通常能得到应有的尊重"
+        },
+        {
+          "value": 0,
+          "label": "我坚持要得到应有的尊重"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 0,
+          "label": "我不介意服从命令"
+        },
+        {
+          "value": 1,
+          "label": "我喜欢对他人拥有权威"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 1,
+          "label": "我将来会成为一个了不起的人"
+        },
+        {
+          "value": 0,
+          "label": "我希望我将来能成功"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 0,
+          "label": "人们有时会相信我说的话"
+        },
+        {
+          "value": 1,
+          "label": "我能让任何人相信我想让他们相信的任何事"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 1,
+          "label": "我对别人期望很高"
+        },
+        {
+          "value": 0,
+          "label": "我喜欢为别人做事"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 1,
+          "label": "我喜欢成为关注的中心"
+        },
+        {
+          "value": 0,
+          "label": "我更喜欢融入人群"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 1,
+          "label": "我是一个不同寻常的人"
+        },
+        {
+          "value": 0,
+          "label": "我和大多数人很像"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 1,
+          "label": "我总是知道自己在做什么"
+        },
+        {
+          "value": 0,
+          "label": "有时我不确定自己在做什么"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 0,
+          "label": "我不喜欢发现自己在操控别人"
+        },
+        {
+          "value": 1,
+          "label": "我发现操控别人很容易"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 1,
+          "label": "我坚持要得到我应得的尊重"
+        },
+        {
+          "value": 0,
+          "label": "我通常能得到我应得的尊重"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 0,
+          "label": "我尽量不炫耀"
+        },
+        {
+          "value": 1,
+          "label": "如果有机会我可能会炫耀"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 1,
+          "label": "我比其他人更有能力"
+        },
+        {
+          "value": 0,
+          "label": "我可以从其他人那里学到很多"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "您更认同哪个说法？",
+      "type": "single",
+      "choices": [
+        {
+          "value": 1,
+          "label": "我有强烈的权力欲"
+        },
+        {
+          "value": 0,
+          "label": "为了权力本身而追求权力对我没有吸引力"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 16,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 3,
+        "level": "minimal",
+        "label": "低自恋",
+        "description": "您的得分表明自恋特质水平较低。您倾向于谦虚，可能会低估自己的优点。",
+        "suggestions": [
+          "您的谦虚令人敬佩，但也要确保认识到自己的优势",
+          "在适当时练习健康的自我主张",
+          "在谦逊与能力自信之间保持平衡"
+        ]
+      },
+      {
+        "min": 4,
+        "max": 6,
+        "level": "normal",
+        "label": "低于平均",
+        "description": "您的自恋得分低于平均范围，表现出健康的自我评价平衡。",
+        "suggestions": [
+          "继续保持对自己的均衡看法",
+          "您的自我意识是一种积极的品质",
+          "请放心地承认自己的成就"
+        ]
+      },
+      {
+        "min": 7,
+        "max": 9,
+        "level": "mild",
+        "label": "平均水平",
+        "description": "您的自恋得分处于平均范围内。大多数人的得分都在这个范围，反映了典型的自信和自尊水平。",
+        "suggestions": [
+          "您的自尊水平在正常范围内",
+          "继续在自信与对他人的共情之间保持平衡",
+          "注意您的自信如何被他人感知"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 12,
+        "level": "moderate",
+        "label": "高于平均",
+        "description": "您的得分高于平均水平，提示存在相对较高的自恋特质，如自我重要感和对赞赏的需求。",
+        "suggestions": [
+          "练习积极倾听并对他人表现出真诚的兴趣",
+          "向您信任的人寻求诚实的反馈",
+          "反思您的行为可能如何影响周围的人",
+          "考虑您对他人的期望是否合理"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 16,
+        "level": "severe",
+        "label": "高自恋",
+        "description": "您的得分表明自恋特质水平较高。这可能包括强烈的优越感、对赞赏的需求和特权感。",
+        "suggestions": [
+          "考虑反思您的人际关系以及他人如何回应您",
+          "通过从他人角度考虑问题来练习共情",
+          "心理咨询师可以在支持性环境中帮助探索这些特质",
+          "努力在人际关系中发展真正的互惠"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 16
+    }
+  }
+}

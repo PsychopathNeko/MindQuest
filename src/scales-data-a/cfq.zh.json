@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "id": "cfq",
+    "name": "CFQ 认知失败问卷",
+    "fullName": "Cognitive Failures Questionnaire",
+    "description": "CFQ是一份25题的自评量表，用于测量日常生活中的认知失败，包括知觉、记忆和动作方面的失误。评估过去六个月内常见日常差错的发生频率。",
+    "author": "Broadbent, Cooper, FitzGerald & Parkes (1982)",
+    "license": "Free to use",
+    "reference": "Broadbent DE, Cooper PF, FitzGerald P, Parkes KR. The Cognitive Failures Questionnaire (CFQ) and its correlates. Br J Clin Psychol. 1982;21(1):1-16.",
+    "instruction": "以下问题涉及每个人都会偶尔犯的小错误，但有些错误比其他错误发生得更频繁。请根据过去六个月内这些情况发生的频率作答。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 1,
+      "label": "很少"
+    },
+    {
+      "value": 2,
+      "label": "偶尔"
+    },
+    {
+      "value": 3,
+      "label": "经常"
+    },
+    {
+      "value": 4,
+      "label": "非常频繁"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "您是否会读了一段内容后发现自己根本没在想这件事，必须重新再读一遍？",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "您是否会忘记自己为什么从房间的一个地方走到另一个地方？",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "您是否会没注意到路上的路标？",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "您在给别人指路时是否会混淆左右方向？",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "您是否会撞到别人？",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "您是否会忘记自己有没有关灯、关火或锁门？",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "您在与人初次见面时是否会没听清对方的名字？",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "您是否会说了某句话后才意识到可能会冒犯到别人？",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "您在做其他事情时是否会没听到别人在跟您说话？",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "您是否会发脾气后又后悔？",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "您是否会把重要的信件搁置好几天没有回复？",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "您是否会忘记一条熟悉但不常走的路该往哪个方向拐？",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "您在超市里是否会找不到想要的东西（尽管它就在那里）？",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "您是否会突然怀疑自己刚才用的某个词是否正确？",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "您是否难以做出决定？",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "您是否会忘记约会？",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "您是否会忘记把报纸或书之类的东西放在了哪里？",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "您是否会不小心把想留下的东西扔掉，反而留下了本该扔掉的东西？",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "您是否会在应该认真听的时候走神发呆？",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "您是否会忘记别人的名字？",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "您是否会在家里开始做一件事，然后被分散注意力去做了另一件事？",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "您是否会有某件事明明就在嘴边却怎么也想不起来的情况？",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "您是否会忘记自己去商店要买什么？",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "您是否会掉落东西？",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "您是否会发现自己不知道该说什么好？",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 100,
+    "maxItemScore": 4,
+    "reverseItems": [],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 24,
+        "level": "minimal",
+        "label": "认知失败频率低",
+        "description": "您的得分表明日常认知失败的频率较低，您在日常生活中保持了良好的注意力控制和记忆力。",
+        "suggestions": [
+          "继续保持当前的注意力水平",
+          "坚持充足睡眠和规律运动等健康习惯",
+          "练习正念以保持认知敏锐度"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 49,
+        "level": "mild",
+        "label": "低于平均水平",
+        "description": "您的得分低于人群平均水平，表明小认知差错的发生频率相对正常。",
+        "suggestions": [
+          "考虑使用清单或提醒来管理重要任务",
+          "在需要集中注意力时减少同时处理多项任务",
+          "确保充足的睡眠并管理压力水平"
+        ]
+      },
+      {
+        "min": 50,
+        "max": 74,
+        "level": "moderate",
+        "label": "高于平均水平",
+        "description": "您的得分高于人群平均水平，表明您比大多数人更频繁地经历认知失败。",
+        "suggestions": [
+          "制定组织策略，如待办事项清单和日历",
+          "在执行重要任务时减少环境中的干扰",
+          "优先保证高质量的睡眠和压力管理",
+          "考虑疲劳、压力或情绪是否可能是影响因素",
+          "练习专注于单一任务而非同时处理多项任务"
+        ]
+      },
+      {
+        "min": 75,
+        "max": 100,
+        "level": "severe",
+        "label": "认知失败频率高",
+        "description": "您的得分表明认知失败的频率较高，这可能与压力、疲劳、焦虑或注意力困难有关。",
+        "suggestions": [
+          "建议咨询医疗专业人士以排除潜在原因",
+          "建立完善的组织系统（提醒、闹钟、清单）",
+          "处理可能的影响因素，如睡眠不足或慢性压力",
+          "练习注意力训练或正念冥想",
+          "与专业人士讨论是否需要进一步的认知评估"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 100
+    }
+  }
+}

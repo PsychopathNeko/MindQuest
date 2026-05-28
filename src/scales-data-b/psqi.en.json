@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "id": "psqi",
+    "name": "PSQI Pittsburgh Sleep Quality Index",
+    "fullName": "Pittsburgh Sleep Quality Index (Simplified Self-Report)",
+    "description": "The simplified PSQI self-report contains 9 core items assessing sleep quality over the past month, covering subjective sleep quality, sleep latency, sleep duration, sleep efficiency, sleep disturbances, use of sleep medication, and daytime dysfunction.",
+    "author": "Buysse DJ, et al. (1989)",
+    "license": "Free to use",
+    "reference": "Buysse DJ, et al. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989;28(2):193-213.",
+    "instruction": "The following questions relate to your usual sleep habits during the past month only. Please select the most appropriate response for each question.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "No difficulty/Very good"
+    },
+    {
+      "value": 1,
+      "label": "Slight difficulty/Fairly good"
+    },
+    {
+      "value": 2,
+      "label": "Moderate difficulty/Fairly bad"
+    },
+    {
+      "value": 3,
+      "label": "Severe difficulty/Very bad"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "During the past month, how would you rate your overall sleep quality?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "During the past month, how long (in minutes) has it usually taken you to fall asleep each night?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "During the past month, how many hours of actual sleep did you get at night?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "During the past month, how often have you had trouble sleeping because you wake up in the middle of the night or early morning?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "During the past month, how often have you had trouble sleeping because you cannot breathe comfortably?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "During the past month, how often have you had trouble sleeping because you have pain?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "During the past month, how often have you taken medicine to help you sleep?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "During the past month, how often have you had trouble staying awake while driving, eating meals, or engaging in social activity?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "During the past month, how much of a problem has it been for you to keep up enough enthusiasm to get things done?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 27,
+    "maxItemScore": 3,
+    "reverseItems": [],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "good",
+        "label": "Good Sleep Quality",
+        "description": "Your sleep quality is good with no significant sleep problems.",
+        "suggestions": [
+          "Continue maintaining good sleep hygiene habits",
+          "Keep a regular sleep-wake schedule"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "mild",
+        "label": "Fair Sleep Quality",
+        "description": "You have mild sleep difficulties. Consider improving sleep hygiene.",
+        "suggestions": [
+          "Establish a regular bedtime and wake-up schedule",
+          "Avoid electronic devices before bed",
+          "Limit caffeine and alcohol intake"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 18,
+        "level": "moderate",
+        "label": "Poor Sleep Quality",
+        "description": "You have moderate sleep problems that may affect daytime functioning.",
+        "suggestions": [
+          "Consider consulting a sleep specialist",
+          "Learn relaxation techniques such as progressive muscle relaxation",
+          "Optimize your sleep environment (temperature, light, noise)"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 27,
+        "level": "severe",
+        "label": "Very Poor Sleep Quality",
+        "description": "You have severe sleep problems. Seek professional help promptly.",
+        "suggestions": [
+          "Seek a medical sleep evaluation as soon as possible",
+          "Consider Cognitive Behavioral Therapy for Insomnia (CBT-I)",
+          "Rule out possible sleep disorders such as sleep apnea"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 27
+    }
+  }
+}

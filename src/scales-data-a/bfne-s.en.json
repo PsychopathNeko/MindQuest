@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "id": "bfne-s",
+    "name": "BFNE-S Brief Fear of Negative Evaluation Scale",
+    "fullName": "Brief Fear of Negative Evaluation Scale - Straightforward Items",
+    "description": "The BFNE-S is an 8-item self-report scale measuring fear of negative evaluation, a core feature of social anxiety. It uses only the straightforward (non-reverse-scored) items from the original 12-item BFNE, which have demonstrated superior psychometric properties.",
+    "author": "Rodebaugh et al. (2004)",
+    "license": "Free to use",
+    "reference": "Rodebaugh TL, Woods CM, Thissen DM, Heimberg RG, Chambless DL, Rapee RM. More information from fewer questions: the factor structure and item properties of the original and Brief Fear of Negative Evaluation Scale. Psychol Assess. 2004;16(2):169-181.",
+    "instruction": "Read each of the following statements carefully and indicate how characteristic it is of you.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Not at all characteristic of me"
+    },
+    {
+      "value": 1,
+      "label": "Slightly characteristic of me"
+    },
+    {
+      "value": 2,
+      "label": "Moderately characteristic of me"
+    },
+    {
+      "value": 3,
+      "label": "Very characteristic of me"
+    },
+    {
+      "value": 4,
+      "label": "Entirely characteristic of me"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I worry about what other people will think of me even when I know it does not make any difference",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I am frequently afraid of other people noticing my shortcomings",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I am afraid that others will not approve of me",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I am afraid that people will find fault with me",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "When I am talking to someone, I worry about what they may be thinking about me",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I am usually worried about what kind of impression I make",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Sometimes I think I am too concerned with what other people think of me",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "I often worry that I will say or do the wrong things",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 32,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 8,
+        "level": "low",
+        "label": "Low Fear of Negative Evaluation",
+        "description": "Your fear of negative evaluation is low. You are generally not overly concerned about others judgments.",
+        "suggestions": [
+          "Continue maintaining your healthy perspective on social evaluation",
+          "Your confidence in social situations is a strength"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 16,
+        "level": "moderate",
+        "label": "Moderate Fear of Negative Evaluation",
+        "description": "You have a moderate level of concern about being negatively evaluated by others.",
+        "suggestions": [
+          "Practice self-compassion when worrying about others opinions",
+          "Challenge negative thoughts about social evaluation",
+          "Consider whether your concerns are proportionate to the situation"
+        ]
+      },
+      {
+        "min": 17,
+        "max": 24,
+        "level": "high",
+        "label": "High Fear of Negative Evaluation",
+        "description": "You have a high level of fear of negative evaluation, which may be affecting your social functioning.",
+        "suggestions": [
+          "Consider consulting a mental health professional",
+          "Cognitive behavioral therapy (CBT) can be very effective for social anxiety",
+          "Practice gradual exposure to feared social situations"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 32,
+        "level": "very_high",
+        "label": "Very High Fear of Negative Evaluation",
+        "description": "Your fear of negative evaluation is very high and is likely significantly impacting your daily life and social interactions.",
+        "suggestions": [
+          "Strongly recommended to seek professional help",
+          "Social anxiety is highly treatable with evidence-based therapies",
+          "Discuss both therapy and medication options with a professional"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 32
+    }
+  }
+}

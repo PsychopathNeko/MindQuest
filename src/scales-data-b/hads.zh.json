@@ -1,0 +1,483 @@
+{
+  "meta": {
+    "id": "hads",
+    "name": "HADS 医院焦虑抑郁量表",
+    "fullName": "Hospital Anxiety and Depression Scale",
+    "description": "HADS 是一份包含 14 个条目的自评量表，用于检测综合医院门诊患者的焦虑和抑郁症状。它避免了可能与躯体疾病混淆的躯体症状，特别适用于综合医院患者。",
+    "author": "Zigmond & Snaith (1983)",
+    "license": "Free to use",
+    "reference": "Zigmond AS, Snaith RP. The Hospital Anxiety and Depression Scale. Acta Psychiatr Scand. 1983;67(6):361-370.",
+    "instruction": "请阅读以下每个条目，选择最接近您过去一周感受的选项。不要在每个条目上花费太长时间，您的第一反应可能比深思熟虑的回答更准确。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": null,
+  "questions": [
+    {
+      "index": 0,
+      "text": "我感到紧张或不安",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "大部分时间"
+        },
+        {
+          "value": 2,
+          "label": "很多时候"
+        },
+        {
+          "value": 1,
+          "label": "有时候"
+        },
+        {
+          "value": 0,
+          "label": "完全没有"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "我仍然能从以前喜欢的事情中获得乐趣",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "和以前一样多"
+        },
+        {
+          "value": 1,
+          "label": "不如以前那么多"
+        },
+        {
+          "value": 2,
+          "label": "只有一点点"
+        },
+        {
+          "value": 3,
+          "label": "几乎完全没有"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "我有一种恐惧感，好像有什么可怕的事情即将发生",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "非常明显而且很严重"
+        },
+        {
+          "value": 2,
+          "label": "是的，但不太严重"
+        },
+        {
+          "value": 1,
+          "label": "有一点，但我并不担心"
+        },
+        {
+          "value": 0,
+          "label": "完全没有"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "我能笑着看到事物有趣的一面",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "和以前一样"
+        },
+        {
+          "value": 1,
+          "label": "现在不如以前那么多"
+        },
+        {
+          "value": 2,
+          "label": "现在确实不如以前那么多"
+        },
+        {
+          "value": 3,
+          "label": "完全不能"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "忧虑的想法在我脑中萦绕",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "大部分时间"
+        },
+        {
+          "value": 2,
+          "label": "很多时候"
+        },
+        {
+          "value": 1,
+          "label": "不太经常"
+        },
+        {
+          "value": 0,
+          "label": "只是偶尔"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "我感到心情愉快",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "大部分时间"
+        },
+        {
+          "value": 1,
+          "label": "有时候"
+        },
+        {
+          "value": 2,
+          "label": "不太经常"
+        },
+        {
+          "value": 3,
+          "label": "完全没有"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "我能安心坐着并感到放松",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "完全可以"
+        },
+        {
+          "value": 1,
+          "label": "通常可以"
+        },
+        {
+          "value": 2,
+          "label": "不太经常"
+        },
+        {
+          "value": 3,
+          "label": "完全不能"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "我感觉做什么事都慢吞吞的",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "几乎所有时间"
+        },
+        {
+          "value": 2,
+          "label": "非常经常"
+        },
+        {
+          "value": 1,
+          "label": "有时候"
+        },
+        {
+          "value": 0,
+          "label": "完全没有"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "我有一种恐惧感，像胃里有蝴蝶在飞",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "完全没有"
+        },
+        {
+          "value": 1,
+          "label": "偶尔"
+        },
+        {
+          "value": 2,
+          "label": "经常"
+        },
+        {
+          "value": 3,
+          "label": "非常经常"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "我对自己的外表不感兴趣了",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "确实如此"
+        },
+        {
+          "value": 2,
+          "label": "我不像以前那么注意了"
+        },
+        {
+          "value": 1,
+          "label": "我可能不太像以前那么注意了"
+        },
+        {
+          "value": 0,
+          "label": "我和以前一样注意"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "我感到坐立不安，好像必须走动",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "非常明显"
+        },
+        {
+          "value": 2,
+          "label": "相当多"
+        },
+        {
+          "value": 1,
+          "label": "不太多"
+        },
+        {
+          "value": 0,
+          "label": "完全没有"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "我对未来的事情充满期待",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "和以前一样多"
+        },
+        {
+          "value": 1,
+          "label": "比以前少了一些"
+        },
+        {
+          "value": 2,
+          "label": "确实比以前少了很多"
+        },
+        {
+          "value": 3,
+          "label": "几乎没有"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "我突然感到恐慌",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 3,
+          "label": "非常频繁"
+        },
+        {
+          "value": 2,
+          "label": "经常"
+        },
+        {
+          "value": 1,
+          "label": "不太经常"
+        },
+        {
+          "value": 0,
+          "label": "完全没有"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "我能享受一本好书、广播或电视节目",
+      "type": "likert",
+      "choices": [
+        {
+          "value": 0,
+          "label": "经常"
+        },
+        {
+          "value": 1,
+          "label": "有时候"
+        },
+        {
+          "value": 2,
+          "label": "不太经常"
+        },
+        {
+          "value": 3,
+          "label": "很少"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "method": "subscale",
+    "maxTotal": 42,
+    "maxItemScore": 3,
+    "subscales": [
+      {
+        "id": "anxiety",
+        "name": "焦虑",
+        "items": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12
+        ],
+        "maxScore": 21
+      },
+      {
+        "id": "depression",
+        "name": "抑郁",
+        "items": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13
+        ],
+        "maxScore": 21
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 14,
+        "level": "normal",
+        "label": "正常",
+        "description": "您的焦虑和抑郁综合得分在正常范围内。",
+        "suggestions": [
+          "继续保持良好的心理状态",
+          "保持健康的生活习惯和应对策略"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 21,
+        "level": "borderline",
+        "label": "临界",
+        "description": "您的综合得分提示存在一定程度的情绪困扰，需要关注。",
+        "suggestions": [
+          "查看焦虑和抑郁各分量表得分",
+          "如症状持续，建议咨询医疗专业人员"
+        ]
+      },
+      {
+        "min": 22,
+        "max": 42,
+        "level": "abnormal",
+        "label": "异常",
+        "description": "您的综合得分提示存在明显的情绪困扰，建议进行专业评估。",
+        "suggestions": [
+          "建议尽快咨询医疗专业人员",
+          "查看分量表得分以确定是焦虑、抑郁还是两者均升高"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "anxiety": [
+        {
+          "min": 0,
+          "max": 7,
+          "level": "normal",
+          "label": "正常",
+          "description": "焦虑分量表得分在正常范围内。"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "borderline",
+          "label": "临界异常",
+          "description": "焦虑水平处于临界状态，建议关注。"
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "level": "abnormal",
+          "label": "异常",
+          "description": "存在有临床意义的焦虑症状，建议进行专业评估。"
+        }
+      ],
+      "depression": [
+        {
+          "min": 0,
+          "max": 7,
+          "level": "normal",
+          "label": "正常",
+          "description": "抑郁分量表得分在正常范围内。"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "level": "borderline",
+          "label": "临界异常",
+          "description": "抑郁水平处于临界状态，建议关注。"
+        },
+        {
+          "min": 11,
+          "max": 21,
+          "level": "abnormal",
+          "label": "异常",
+          "description": "存在有临床意义的抑郁症状，建议进行专业评估。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "bar",
+      "radar"
+    ],
+    "barConfig": {
+      "subscaleIds": [
+        "anxiety",
+        "depression"
+      ],
+      "maxDisplayScore": 21
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "焦虑",
+          "max": 21
+        },
+        {
+          "name": "抑郁",
+          "max": 21
+        }
+      ]
+    }
+  }
+}

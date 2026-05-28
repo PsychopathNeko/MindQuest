@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "essi",
+    "name": "ESSI ENRICHD Social Support Instrument",
+    "fullName": "ENRICHD Social Support Instrument",
+    "description": "The ESSI is a brief 6-item self-report measure of perceived social support. It assesses the availability of emotional support, informational support, instrumental support, and affectionate support. Originally developed for cardiac patients in the ENRICHD trial, it is widely used across clinical and community populations.",
+    "author": "Mitchell et al. (2003)",
+    "license": "Free to use",
+    "reference": "Mitchell PH, Powell L, Blumenthal J, et al. A short social support measure for patients recovering from myocardial infarction: The ENRICHD Social Support Instrument. J Cardiopulm Rehabil. 2003;23(6):398-403.",
+    "instruction": "Please read each statement carefully and indicate how much of the time each statement is true for you.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "None of the time"
+    },
+    {
+      "value": 2,
+      "label": "A little of the time"
+    },
+    {
+      "value": 3,
+      "label": "Some of the time"
+    },
+    {
+      "value": 4,
+      "label": "Most of the time"
+    },
+    {
+      "value": 5,
+      "label": "All of the time"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "Is there someone available to you whom you can count on to listen to you when you need to talk?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "Is there someone available to give you good advice about a problem?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Is there someone available to you who shows you love and affection?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "Is there someone available to help you with daily chores?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "Can you count on anyone to provide you with emotional support (talking over problems or helping you make a difficult decision)?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "Do you have as much contact as you would like with someone you feel close to, someone in whom you can trust and confide?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 30,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 12,
+        "level": "severe",
+        "label": "Low Social Support",
+        "description": "Your score indicates a low level of perceived social support. You may feel that few people are available to help or support you emotionally.",
+        "suggestions": [
+          "Consider reaching out to community organizations, support groups, or religious communities",
+          "Try reconnecting with old friends or family members",
+          "Volunteer or join clubs to expand your social network",
+          "Consider talking to a counselor about building social connections",
+          "Online communities can also provide valuable support"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 18,
+        "level": "moderate",
+        "label": "Moderate Social Support",
+        "description": "Your score indicates a moderate level of social support. You have some support available but may feel it is not always sufficient.",
+        "suggestions": [
+          "Identify areas where you need more support and communicate your needs",
+          "Strengthen existing relationships through regular contact",
+          "Explore joining interest-based groups or activities",
+          "Practice asking for help when you need it",
+          "Consider couples or family counseling to improve close relationships"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "mild",
+        "label": "High Social Support",
+        "description": "Your score indicates a high level of social support. You generally feel well-supported by those around you.",
+        "suggestions": [
+          "Continue nurturing your supportive relationships",
+          "Express gratitude to those who support you",
+          "Consider ways to reciprocate the support you receive",
+          "Maintain regular social contact to keep connections strong"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "level": "minimal",
+        "label": "Very High Social Support",
+        "description": "Your score indicates a very high level of perceived social support. You feel strongly supported in multiple areas of your life.",
+        "suggestions": [
+          "Continue maintaining your strong social network",
+          "Share your social support strategies with others who may be more isolated",
+          "Use your support network as a resource during challenging times",
+          "Consider mentoring or supporting others in need"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": "who-5",
+    "name": "WHO-5 Well-Being Index",
+    "fullName": "WHO-5 Well-Being Index",
+    "description": "The WHO-5 is a short, self-reported measure of current mental well-being developed by the World Health Organization. It consists of 5 positively worded items assessing subjective well-being over the past two weeks. It can also be used as a screening tool for depression, where low scores indicate a need for further evaluation.",
+    "author": "WHO (1998)",
+    "license": "Public Domain",
+    "reference": "Topp CW, Østergaard SD, Søndergaard S, Bech P. The WHO-5 Well-Being Index: a systematic review of the literature. Psychother Psychosom. 2015;84(3):167-176.",
+    "instruction": "Please indicate for each of the five statements which is closest to how you have been feeling over the last two weeks.",
+    "population": "General population (9+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "At no time"
+    },
+    {
+      "value": 1,
+      "label": "Some of the time"
+    },
+    {
+      "value": 2,
+      "label": "Less than half of the time"
+    },
+    {
+      "value": 3,
+      "label": "More than half of the time"
+    },
+    {
+      "value": 4,
+      "label": "Most of the time"
+    },
+    {
+      "value": 5,
+      "label": "All of the time"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I have felt cheerful and in good spirits",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I have felt calm and relaxed",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I have felt active and vigorous",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I woke up feeling fresh and rested",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "My daily life has been filled with things that interest me",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 25,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 7,
+        "level": "severe",
+        "label": "Poor Well-Being",
+        "description": "Your well-being score is very low, which may indicate significant emotional distress or possible depression. Further evaluation is recommended.",
+        "suggestions": [
+          "Consider consulting a healthcare professional for a depression screening",
+          "Reach out to a trusted friend, family member, or counselor",
+          "Try to engage in activities that previously brought you joy",
+          "Prioritize basic self-care: sleep, nutrition, and gentle movement"
+        ]
+      },
+      {
+        "min": 8,
+        "max": 12,
+        "level": "moderate",
+        "label": "Low Well-Being",
+        "description": "Your well-being score is below average. You may be experiencing reduced positive emotions and energy.",
+        "suggestions": [
+          "Consider a more detailed mental health assessment",
+          "Increase engagement in pleasurable and meaningful activities",
+          "Practice regular physical exercise",
+          "Maintain social connections and share your feelings with others"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 17,
+        "level": "mild",
+        "label": "Moderate Well-Being",
+        "description": "Your well-being is at a moderate level. There is room for improvement in your overall sense of well-being.",
+        "suggestions": [
+          "Continue to build positive daily habits",
+          "Practice gratitude and mindfulness exercises",
+          "Ensure adequate sleep and physical activity",
+          "Engage in social activities and maintain supportive relationships"
+        ]
+      },
+      {
+        "min": 18,
+        "max": 25,
+        "level": "normal",
+        "label": "High Well-Being",
+        "description": "Your well-being score is high. You are experiencing good levels of positive emotions, energy, and engagement with life.",
+        "suggestions": [
+          "Continue maintaining your positive lifestyle habits",
+          "Share your well-being strategies with others",
+          "Stay engaged with activities that bring you fulfillment",
+          "Practice resilience-building to sustain your well-being"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 25
+    }
+  }
+}

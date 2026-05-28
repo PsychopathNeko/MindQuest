@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "id": "pps",
+    "name": "PPS 纯粹拖延量表",
+    "fullName": "Pure Procrastination Scale",
+    "description": "PPS 是一份 12 题量表，聚焦评估纯粹的拖延行为特征，不含其他干扰因素，是当前拖延研究中最推荐的测量工具之一。",
+    "author": "Steel (2010)",
+    "license": "Free to use",
+    "reference": "Steel P. Arousal, avoidant and decisional procrastinators: Do they exist? Personality and Individual Differences. 2010;48(8):926-934.",
+    "instruction": "请根据你的实际行为习惯，选择最符合你情况的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常不符合"
+    },
+    {
+      "value": 2,
+      "label": "不太符合"
+    },
+    {
+      "value": 3,
+      "label": "一般"
+    },
+    {
+      "value": 4,
+      "label": "比较符合"
+    },
+    {
+      "value": 5,
+      "label": "非常符合"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我总是拖到太迟才做决定",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "即使做了决定，我也会拖延不去执行",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "在做最终决定之前，我在琐事上浪费了大量时间",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "在准备截止日期的工作时，我经常把时间浪费在其他事情上",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "即使是只需要坐下来就能完成的工作，我也常常拖上好几天",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我经常发现自己在做几天前就应该做完的事情",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我是一个有\"明天再说\"习惯的人",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我经常推迟开始必须做的工作",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我发现自己总是在赶时间",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我不能按时完成事情",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我不太擅长遵守截止日期",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "把事情拖到最后一刻曾让我付出过金钱代价",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 60,
+    "maxItemScore": 5,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 12,
+        "max": 24,
+        "level": "minimal",
+        "label": "低拖延",
+        "description": "您的拖延倾向很低，时间管理和任务完成能力良好。",
+        "suggestions": [
+          "继续保持良好的行动力",
+          "与他人分享你的高效策略"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 36,
+        "level": "mild",
+        "label": "中等拖延",
+        "description": "您存在一定的拖延倾向，偶尔会影响效率和按时完成任务。",
+        "suggestions": [
+          "制定每日优先事项清单",
+          "使用\"两分钟规则\"——能两分钟内完成的立刻做",
+          "减少开始任务的阻力（如提前准备好工作环境）"
+        ]
+      },
+      {
+        "min": 37,
+        "max": 48,
+        "level": "moderate",
+        "label": "较高拖延",
+        "description": "您的拖延行为较为明显，经常延误任务和截止日期。",
+        "suggestions": [
+          "建议学习时间管理技巧",
+          "与朋友或同事建立互相监督机制",
+          "尝试认知行为策略来对抗拖延思维",
+          "考虑咨询心理咨询师"
+        ]
+      },
+      {
+        "min": 49,
+        "max": 60,
+        "level": "severe",
+        "label": "严重拖延",
+        "description": "您的拖延问题非常严重，对生活质量和自我效能感产生了显著影响。",
+        "suggestions": [
+          "建议寻求专业的心理咨询帮助",
+          "CBT和ACT对拖延治疗效果良好",
+          "从\"微小习惯\"开始重建行动力",
+          "关注拖延背后的情绪问题（如焦虑、完美主义）"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 12,
+      "max": 60
+    }
+  }
+}

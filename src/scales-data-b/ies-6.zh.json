@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": "ies-6",
+    "name": "IES-6 事件影响量表-6",
+    "fullName": "Impact of Event Scale-6",
+    "description": "IES-6 是从 IES-R 中衍生出的简短6条目自评量表，用于评估创伤事件引起的主观痛苦。它以每个维度两个条目的方式捕捉创伤后应激的三个核心维度（侵入、回避和高唤醒），适合用于快速筛查。",
+    "author": "Thoresen et al. (2010)",
+    "license": "Free to use",
+    "reference": "Thoresen S, Tambs K, Hussain A, Heir T, Johansen VA, Bisson JI. Brief measure of posttraumatic stress reactions: Impact of Event Scale-6. J Loss Trauma. 2010;15(3):238-247.",
+    "instruction": "以下是人们在经历压力性生活事件后有时会遇到的困难。请阅读每一项，并指出在过去7天内每项困难对您的困扰程度。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全没有"
+    },
+    {
+      "value": 1,
+      "label": "有一点"
+    },
+    {
+      "value": 2,
+      "label": "中等程度"
+    },
+    {
+      "value": 3,
+      "label": "相当多"
+    },
+    {
+      "value": 4,
+      "label": "非常严重"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我不由自主地想到这件事",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我感到警惕或提防",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "其他事物不断让我想起这件事",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我意识到自己对此仍有很多感受，但我没有去处理",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我试图不去想它",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我难以集中注意力",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 24,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 6,
+        "level": "minimal",
+        "label": "亚临床水平",
+        "description": "您的得分处于亚临床范围，表明该压力事件未造成显著的持续心理困扰。",
+        "suggestions": [
+          "继续保持当前的应对策略",
+          "允许自己按照自己的节奏处理这段经历",
+          "保持与支持性的人的联系"
+        ]
+      },
+      {
+        "min": 7,
+        "max": 12,
+        "level": "mild",
+        "label": "轻度困扰",
+        "description": "您的得分表明存在轻度创伤后困扰。您可能正在经历一些与事件相关的侵入性想法、回避行为或高度警觉。",
+        "suggestions": [
+          "在接下来几周内监测您的症状变化",
+          "练习放松技术，如深呼吸或正念冐想",
+          "与您信任的人谈谈您的经历",
+          "保持规律的睡眠和日常作息"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 18,
+        "level": "moderate",
+        "label": "中度困扰",
+        "description": "您的得分表明中度创伤后困扰，该事件对您的身心健康产生了明显影响。",
+        "suggestions": [
+          "建议寻求心理健康专业人士的支持",
+          "当侵入性想法出现时，练习接地技术",
+          "保持有结构的日常作息",
+          "避免孤立自己，保持社交联系"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "severe",
+        "label": "严重困扰",
+        "description": "您的得分表明严重的创伤后困扰，可能显著影响您的心理健康和日常功能。",
+        "suggestions": [
+          "请寻求专业创伤治疗师的帮助",
+          "EMDR 或创伤聚焦 CBT 等循证治疗方法非常有效",
+          "如处于危机中，请拨打心理援助热线：400-161-9995",
+          "制定管理强烈痛苦的安全计划"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 24
+    }
+  }
+}

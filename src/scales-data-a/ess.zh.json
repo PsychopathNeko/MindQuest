@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "id": "ess",
+    "name": "ESS Epworth嗜睡量表",
+    "fullName": "Epworth Sleepiness Scale",
+    "description": "ESS 是一份包含 8 个条目的自评量表，用于评估日间嗜睡程度。受试者需评估在8种日常情境中打瞌睡的可能性，广泛应用于睡眠障碍的临床筛查。",
+    "author": "Johns MW (1991)",
+    "license": "Free for clinical use",
+    "reference": "Johns MW. A new method for measuring daytime sleepiness: the Epworth sleepiness scale. Sleep. 1991;14(6):540-545.",
+    "instruction": "您在下列情况下打瞌睡（不仅仅是感到疲倦）的可能性有多大？请根据您最近的日常生活情况作答。即使您最近没有做过其中某些事情，也请尽量想象如果处于该情境中，您打瞌睡的可能性。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "从不打瞌睡"
+    },
+    {
+      "value": 1,
+      "label": "轻微可能打瞌睡"
+    },
+    {
+      "value": 2,
+      "label": "中度可能打瞌睡"
+    },
+    {
+      "value": 3,
+      "label": "很可能打瞌睡"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "坐着阅读时",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "看电视时",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "在公共场合安静地坐着（如剧场或开会）",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "作为乘客在车上连续坐一小时",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "下午躺下休息时",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "坐着与人交谈时",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "午餐后（未饮酒）安静地坐着",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "开车时遇到交通堵塞停了几分钟",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 24,
+    "maxItemScore": 3,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 5,
+        "level": "minimal",
+        "label": "嗜睡程度较低",
+        "description": "您的日间嗜睡程度处于正常范围内，白天精神状态良好。",
+        "suggestions": [
+          "继续保持良好的睡眠习惯",
+          "保持规律的作息时间",
+          "适量运动以维持良好的睡眠质量"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 10,
+        "level": "mild",
+        "label": "平均嗜睡水平",
+        "description": "您的日间嗜睡程度处于平均水平，属于正常范围的高端。",
+        "suggestions": [
+          "注意是否有睡眠不足的情况",
+          "保持每晚7-9小时的充足睡眠",
+          "避免睡前使用电子设备",
+          "如嗜睡影响工作生活，建议咨询医生"
+        ]
+      },
+      {
+        "min": 11,
+        "max": 12,
+        "level": "moderate",
+        "label": "轻度过度嗜睡",
+        "description": "您的日间嗜睡程度轻度偏高，可能存在睡眠不足或睡眠质量问题。",
+        "suggestions": [
+          "评估自己的睡眠时间和质量",
+          "排除可能影响睡眠的因素（咖啡因、酒精、压力）",
+          "建议咨询睡眠医学专业人士",
+          "考虑进行睡眠日记记录"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 15,
+        "level": "severe",
+        "label": "中度过度嗜睡",
+        "description": "您的日间嗜睡程度中度偏高，可能存在睡眠障碍，建议就医评估。",
+        "suggestions": [
+          "建议尽快咨询睡眠医学专科医生",
+          "可能需要进行多导睡眠监测检查",
+          "注意驾驶和操作机械时的安全",
+          "避免在需要高度警觉的情况下工作"
+        ]
+      },
+      {
+        "min": 16,
+        "max": 24,
+        "level": "severe",
+        "label": "重度过度嗜睡",
+        "description": "您的日间嗜睡程度严重偏高，强烈建议就医排查睡眠呼吸暂停、发作性睡病等疾病。",
+        "suggestions": [
+          "请立即就医，咨询睡眠医学专科医生",
+          "进行全面的睡眠评估和检查",
+          "在获得诊断和治疗前，避免驾驶和危险操作",
+          "告知家人您的嗜睡状况以确保安全"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 24
+    }
+  }
+}

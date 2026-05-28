@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "lec-5",
+    "name": "LEC-5 生活事件清单",
+    "fullName": "Life Events Checklist for DSM-5",
+    "description": "LEC-5 是一份包含 17 个条目的筛查工具，用于评估个体是否经历过各种潜在创伤性事件，是 PCL-5 的配套工具。",
+    "author": "Weathers et al. (2013)",
+    "license": "Public Domain",
+    "reference": "Weathers FW, Blake DD, Schnurr PP, Kaloupek DG, Marx BP, Keane TM. The Life Events Checklist for DSM-5 (LEC-5). National Center for PTSD; 2013.",
+    "instruction": "以下列出了一些人们有时会经历的困难或压力性事件。请对每个事件，选择最能描述您经历的选项。",
+    "population": "一般人群（16岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "发生在我身上"
+    },
+    {
+      "value": 0,
+      "label": "没有发生过"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "自然灾害（如洪水、飓风、龙卷风、地震）",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "火灾或爆炸",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "交通事故（如车祸、船只事故、火车失事、飞机坠毁）",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "工作、家中或休闲活动中的严重事故",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "暴露于有毒物质（如危险化学品、辐射）",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "身体攻击（如被打、被踢、被殴打、被武器攻击）",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "武器攻击（如被枪击、被刀捅、被威胁用刀或枪）",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "性侵犯（如强奸、企图强奸、被迫进行任何形式的性行为）",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "其他不想要的或不舒服的性经历",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "战斗或暴露于战区（在军队或平民中）",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "被囚禁（如被绑架、被劫持、战俘）",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "威胁生命的疾病或伤害",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "严重的人类苦难",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "突然的暴力死亡（如凶杀、自杀）",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "突然的意外死亡",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "因您造成的他人严重伤害或死亡",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "任何其他非常压力性的事件或经历",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 17,
+    "maxItemScore": 1,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 0,
+        "level": "minimal",
+        "label": "无创伤暴露",
+        "description": "您未报告经历过任何潜在创伤性事件。",
+        "suggestions": [
+          "这是一个良好的结果",
+          "如果您有其他心理健康方面的担忧，仍然可以寻求专业帮助"
+        ]
+      },
+      {
+        "min": 1,
+        "max": 3,
+        "level": "mild",
+        "label": "少量创伤暴露",
+        "description": "您经历过少量潜在创伤性事件。",
+        "suggestions": [
+          "如果这些事件仍然困扰您，考虑与专业人士交谈",
+          "关注自己的心理健康状况",
+          "练习健康的应对方式"
+        ]
+      },
+      {
+        "min": 4,
+        "max": 8,
+        "level": "moderate",
+        "label": "中等创伤暴露",
+        "description": "您经历过多种潜在创伤性事件。",
+        "suggestions": [
+          "建议进行进一步的心理健康评估",
+          "如有创伤后应激症状，建议咨询专业人士",
+          "考虑完成PCL-5以评估PTSD症状"
+        ]
+      },
+      {
+        "min": 9,
+        "max": 17,
+        "level": "severe",
+        "label": "较多创伤暴露",
+        "description": "您经历过大量潜在创伤性事件，建议进行详细的心理健康评估。",
+        "suggestions": [
+          "强烈建议进行全面的心理健康评估",
+          "与创伤治疗专业人士联系",
+          "如有需要，请拨打心理援助热线：400-161-9995"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 17
+    }
+  }
+}

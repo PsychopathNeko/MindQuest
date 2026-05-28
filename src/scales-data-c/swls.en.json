@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "swls",
+    "name": "SWLS Satisfaction With Life Scale",
+    "fullName": "Satisfaction With Life Scale",
+    "description": "The SWLS is a 5-item scale designed to measure global cognitive judgments of one's life satisfaction. It assesses an individual's overall assessment of their quality of life according to their own chosen criteria.",
+    "author": "Diener, Emmons, Larsen & Griffin (1985)",
+    "license": "Free to use",
+    "reference": "Diener E, Emmons RA, Larsen RJ, Griffin S. The Satisfaction With Life Scale. J Pers Assess. 1985;49(1):71-75.",
+    "instruction": "Below are five statements that you may agree or disagree with. Using the 1-7 scale below, indicate your agreement with each item.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Strongly disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Slightly disagree"
+    },
+    {
+      "value": 4,
+      "label": "Neither agree nor disagree"
+    },
+    {
+      "value": 5,
+      "label": "Slightly agree"
+    },
+    {
+      "value": 6,
+      "label": "Agree"
+    },
+    {
+      "value": 7,
+      "label": "Strongly agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "In most ways my life is close to my ideal",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "The conditions of my life are excellent",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "I am satisfied with my life",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "So far I have gotten the important things I want in life",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "If I could live my life over, I would change almost nothing",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 35,
+    "maxItemScore": 7,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 5,
+        "max": 14,
+        "level": "severe",
+        "label": "Low Life Satisfaction",
+        "description": "Your life satisfaction score is low, indicating significant dissatisfaction with your current life circumstances.",
+        "suggestions": [
+          "Identify specific areas of your life that feel most unsatisfying",
+          "Set small, achievable goals to create positive changes",
+          "Consider talking to a counselor about strategies to improve life satisfaction",
+          "Practice gratitude by noting positive aspects of your daily life",
+          "Explore new activities or social connections that align with your values"
+        ]
+      },
+      {
+        "min": 15,
+        "max": 19,
+        "level": "mild",
+        "label": "Below Average Satisfaction",
+        "description": "Your life satisfaction is slightly below average. You may have some areas of dissatisfaction that could be addressed.",
+        "suggestions": [
+          "Reflect on what aspects of your life you would most like to change",
+          "Focus on strengthening relationships and social connections",
+          "Consider whether your daily activities align with your personal values",
+          "Try setting meaningful goals that matter to you"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 25,
+        "level": "normal",
+        "label": "Average Satisfaction",
+        "description": "Your life satisfaction is within the average range. You are generally content with most areas of your life.",
+        "suggestions": [
+          "Continue maintaining a balanced lifestyle",
+          "Keep nurturing meaningful relationships",
+          "Stay open to new experiences and personal growth"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 35,
+        "level": "minimal",
+        "label": "High Life Satisfaction",
+        "description": "Your life satisfaction is high. You feel very positive about your life circumstances and overall quality of life.",
+        "suggestions": [
+          "Continue the practices and habits that contribute to your well-being",
+          "Share your positive outlook and support others around you",
+          "Stay engaged with meaningful activities and relationships"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 5,
+      "max": 35
+    }
+  }
+}

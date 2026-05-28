@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "id": "tipi",
+    "name": "TIPI 十项人格量表",
+    "fullName": "Ten-Item Personality Inventory",
+    "description": "TIPI 是大五人格量表的超简版，仅用 10 个条目快速评估外向性、宜人性、尽责性、情绪稳定性和开放性五个人格维度，适用于时间有限的研究和快速筛查场景。",
+    "author": "Gosling, Rentfrow & Swann (2003)",
+    "license": "Free to use",
+    "reference": "Gosling SD, Rentfrow PJ, Swann WB Jr. A very brief measure of the Big-Five personality domains. J Res Pers. 2003;37(6):504-528.",
+    "instruction": "每道题包含一对性格特质，请凭直觉判断它在多大程度上符合你。不需要纠结于完美匹配，选最接近的就好。我觉得自己是——",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "非常不同意"
+    },
+    {
+      "value": 2,
+      "label": "比较不同意"
+    },
+    {
+      "value": 3,
+      "label": "有点不同意"
+    },
+    {
+      "value": 4,
+      "label": "既不同意也不反对"
+    },
+    {
+      "value": 5,
+      "label": "有点同意"
+    },
+    {
+      "value": 6,
+      "label": "比较同意"
+    },
+    {
+      "value": 7,
+      "label": "非常同意"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "外向的、热情的",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "爱批评人的、好争论的",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "可靠的、自律的",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "焦虑的、容易烦躁的",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "对新体验持开放态度的、兴趣广泛的",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "保守的、安静的",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "有同情心的、热心的",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "无组织的、粗心的",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "冷静的、情绪稳定的",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "传统的、缺乏创造力的",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "mean_subscale",
+    "maxTotal": null,
+    "maxItemScore": 7,
+    "minItemScore": 1,
+    "subscales": [
+      {
+        "id": "extraversion",
+        "name": "外向性",
+        "items": [
+          0,
+          5
+        ],
+        "reverseItems": [
+          5
+        ],
+        "maxItemScore": 7,
+        "minItemScore": 1
+      },
+      {
+        "id": "agreeableness",
+        "name": "宜人性",
+        "items": [
+          1,
+          6
+        ],
+        "reverseItems": [
+          1
+        ],
+        "maxItemScore": 7,
+        "minItemScore": 1
+      },
+      {
+        "id": "conscientiousness",
+        "name": "尽责性",
+        "items": [
+          2,
+          7
+        ],
+        "reverseItems": [
+          7
+        ],
+        "maxItemScore": 7,
+        "minItemScore": 1
+      },
+      {
+        "id": "emotional_stability",
+        "name": "情绪稳定性",
+        "items": [
+          3,
+          8
+        ],
+        "reverseItems": [
+          3
+        ],
+        "maxItemScore": 7,
+        "minItemScore": 1
+      },
+      {
+        "id": "openness",
+        "name": "开放性",
+        "items": [
+          4,
+          9
+        ],
+        "reverseItems": [
+          9
+        ],
+        "maxItemScore": 7,
+        "minItemScore": 1
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": null,
+    "subscaleRanges": {
+      "extraversion": [
+        {
+          "min": 1,
+          "max": 2.5,
+          "level": "severe",
+          "label": "低",
+          "description": "外向性较低，倾向于内向、安静和独处。"
+        },
+        {
+          "min": 2.5,
+          "max": 4.5,
+          "level": "normal",
+          "label": "中等",
+          "description": "外向性处于中等水平，能在社交与独处之间保持平衡。"
+        },
+        {
+          "min": 4.5,
+          "max": 5.5,
+          "level": "mild",
+          "label": "较高",
+          "description": "外向性较高，比较喜欢社交互动和群体活动。"
+        },
+        {
+          "min": 5.5,
+          "max": 7,
+          "level": "minimal",
+          "label": "高",
+          "description": "外向性高，热情外向，享受社交活动，精力充沛。"
+        }
+      ],
+      "agreeableness": [
+        {
+          "min": 1,
+          "max": 2.5,
+          "level": "severe",
+          "label": "低",
+          "description": "宜人性较低，倾向于独立、竞争和质疑他人。"
+        },
+        {
+          "min": 2.5,
+          "max": 4.5,
+          "level": "normal",
+          "label": "中等",
+          "description": "宜人性处于中等水平，能在合作与坚持己见之间保持平衡。"
+        },
+        {
+          "min": 4.5,
+          "max": 5.5,
+          "level": "mild",
+          "label": "较高",
+          "description": "宜人性较高，比较友善和体谅他人。"
+        },
+        {
+          "min": 5.5,
+          "max": 7,
+          "level": "minimal",
+          "label": "高",
+          "description": "宜人性高，富有同情心，乐于合作，关心他人。"
+        }
+      ],
+      "conscientiousness": [
+        {
+          "min": 1,
+          "max": 2.5,
+          "level": "severe",
+          "label": "低",
+          "description": "尽责性较低，倾向于灵活随性，不太注重细节和计划。"
+        },
+        {
+          "min": 2.5,
+          "max": 4.5,
+          "level": "normal",
+          "label": "中等",
+          "description": "尽责性处于中等水平，能在有序与灵活之间保持平衡。"
+        },
+        {
+          "min": 4.5,
+          "max": 5.5,
+          "level": "mild",
+          "label": "较高",
+          "description": "尽责性较高，比较有条理和自律。"
+        },
+        {
+          "min": 5.5,
+          "max": 7,
+          "level": "minimal",
+          "label": "高",
+          "description": "尽责性高，做事认真负责，有条理，自律性强。"
+        }
+      ],
+      "emotional_stability": [
+        {
+          "min": 1,
+          "max": 2.5,
+          "level": "severe",
+          "label": "低",
+          "description": "情绪稳定性较低，容易焦虑和情绪波动。"
+        },
+        {
+          "min": 2.5,
+          "max": 4.5,
+          "level": "normal",
+          "label": "中等",
+          "description": "情绪稳定性处于中等水平，大多数时候能较好地管理情绪。"
+        },
+        {
+          "min": 4.5,
+          "max": 5.5,
+          "level": "mild",
+          "label": "较高",
+          "description": "情绪稳定性较高，比较冷静和抗压。"
+        },
+        {
+          "min": 5.5,
+          "max": 7,
+          "level": "minimal",
+          "label": "高",
+          "description": "情绪稳定性高，冷静沉着，抗压能力强，不易受情绪影响。"
+        }
+      ],
+      "openness": [
+        {
+          "min": 1,
+          "max": 2.5,
+          "level": "severe",
+          "label": "低",
+          "description": "开放性较低，倾向于传统、务实和偏好熟悉的事物。"
+        },
+        {
+          "min": 2.5,
+          "max": 4.5,
+          "level": "normal",
+          "label": "中等",
+          "description": "开放性处于中等水平，能在创新与传统之间保持平衡。"
+        },
+        {
+          "min": 4.5,
+          "max": 5.5,
+          "level": "mild",
+          "label": "较高",
+          "description": "开放性较高，比较有好奇心和想象力。"
+        },
+        {
+          "min": 5.5,
+          "max": 7,
+          "level": "minimal",
+          "label": "高",
+          "description": "开放性高，富有好奇心和创造力，乐于接受新事物和新观点。"
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "radar",
+      "bar"
+    ],
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "外向性",
+          "max": 7
+        },
+        {
+          "name": "宜人性",
+          "max": 7
+        },
+        {
+          "name": "尽责性",
+          "max": 7
+        },
+        {
+          "name": "情绪稳定性",
+          "max": 7
+        },
+        {
+          "name": "开放性",
+          "max": 7
+        }
+      ]
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "extraversion",
+        "agreeableness",
+        "conscientiousness",
+        "emotional_stability",
+        "openness"
+      ],
+      "maxDisplayScore": 7
+    }
+  }
+}

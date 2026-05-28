@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "id": "ssosh",
+    "name": "SSOSH Self-Stigma of Seeking Help Scale",
+    "fullName": "Self-Stigma of Seeking Help Scale",
+    "description": "The SSOSH is a 10-item scale measuring self-stigma associated with seeking psychological help. It assesses the degree to which individuals perceive that seeking professional help would reduce their self-regard. Higher scores indicate greater self-stigma, which may serve as a barrier to help-seeking behavior.",
+    "author": "Vogel et al. (2006)",
+    "license": "Free to use",
+    "reference": "Vogel DL, Wade NG, Haake S. Measuring the self-stigma associated with seeking psychological help. J Couns Psychol. 2006;53(3):325-337.",
+    "instruction": "People at times find that they face problems that they consider seeking help for. This can bring up reactions about what seeking help would mean. Please indicate your degree of agreement or disagreement with each statement.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Strongly Disagree"
+    },
+    {
+      "value": 2,
+      "label": "Disagree"
+    },
+    {
+      "value": 3,
+      "label": "Neutral"
+    },
+    {
+      "value": 4,
+      "label": "Agree"
+    },
+    {
+      "value": 5,
+      "label": "Strongly Agree"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I would feel inadequate if I went to a therapist for psychological help",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "My self-confidence would NOT be threatened if I sought professional help",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Seeking psychological help would make me feel less intelligent",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "My self-esteem would increase if I talked to a therapist about my problems",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "My view of myself would not change just because I made an appointment with a therapist",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "It would make me feel inferior to ask a therapist for help",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "I would feel okay about myself if I made the decision to seek professional help",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "If I went to a therapist, I would be less satisfied with myself",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "My self-confidence would remain the same if I sought help for a problem I could not solve",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "I would feel worse about myself if I could not solve my own problems",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 50,
+    "maxItemScore": 5,
+    "minItemScore": 1,
+    "reverseItems": [
+      1,
+      3,
+      4,
+      6,
+      8
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20,
+        "level": "minimal",
+        "label": "Low Self-Stigma",
+        "description": "You have low self-stigma associated with seeking psychological help. You are unlikely to view help-seeking as a threat to your self-image.",
+        "suggestions": [
+          "Continue maintaining your open attitude toward seeking help",
+          "Your willingness to seek help when needed is a valuable resource",
+          "You can serve as a positive role model for others who may be hesitant about seeking help"
+        ]
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "mild",
+        "label": "Mild Self-Stigma",
+        "description": "You have mild self-stigma about seeking psychological help. While generally open, you may sometimes feel slightly uncomfortable about the idea of professional help.",
+        "suggestions": [
+          "Recognize that seeking help is a sign of strength, not weakness",
+          "Consider that most people benefit from professional support at some point in life",
+          "Challenge any self-critical thoughts about needing help",
+          "Learn more about the therapeutic process to reduce uncertainty"
+        ]
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "moderate",
+        "label": "Moderate Self-Stigma",
+        "description": "You have moderate self-stigma about seeking help. Concerns about self-image may significantly influence your willingness to seek professional psychological support.",
+        "suggestions": [
+          "Reflect on where these beliefs about help-seeking come from",
+          "Consider that seeking help demonstrates self-awareness and courage",
+          "Talk to trusted friends or family members about their experiences with therapy",
+          "If you are experiencing psychological distress, the benefits of seeking help far outweigh any perceived stigma"
+        ]
+      },
+      {
+        "min": 41,
+        "max": 50,
+        "level": "severe",
+        "label": "High Self-Stigma",
+        "description": "You have high self-stigma about seeking psychological help. Strong concerns about self-image may serve as a significant barrier to getting the support you need.",
+        "suggestions": [
+          "Recognize that high self-stigma can prevent you from accessing beneficial support",
+          "Many successful and capable people seek and benefit from therapy",
+          "Consider exploring anonymous or online counseling as a first step",
+          "Challenge the belief that needing help means you are inadequate",
+          "If you are struggling, please consider reaching out despite these feelings"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 10,
+      "max": 50
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "id": "cd-risc-2",
+    "name": "CD-RISC-2 心理韧性量表超简版",
+    "fullName": "Connor-Davidson Resilience Scale-2",
+    "description": "CD-RISC-2 是Connor-Davidson心理韧性量表的2题超简版，提取了原始25题量表中最核心的两个条目，用于快速评估个体应对压力和逆境的心理韧性水平。",
+    "author": "Vaishnavi, Connor & Davidson (2007)",
+    "license": "Free to use",
+    "reference": "Vaishnavi S, Connor K, Davidson JRT. An abbreviated version of the Connor-Davidson Resilience Scale (CD-RISC), the CD-RISC2: psychometric properties and applications in psychopharmacological trials. Psychiatry Res. 2007;152(2-3):293-297.",
+    "instruction": "请根据您过去一个月的实际感受，评估以下陈述的符合程度。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "完全不符合"
+    },
+    {
+      "value": 1,
+      "label": "很少符合"
+    },
+    {
+      "value": 2,
+      "label": "有时符合"
+    },
+    {
+      "value": 3,
+      "label": "经常符合"
+    },
+    {
+      "value": 4,
+      "label": "几乎总是符合"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我能够适应变化",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我倾向于在压力/疾病之后恢复过来",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "maxTotal": 8,
+    "maxItemScore": 4,
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 2,
+        "level": "severe",
+        "label": "低韧性",
+        "description": "您的心理韧性水平较低，可能在面对变化和压力时感到较大困难。",
+        "suggestions": [
+          "寻求社会支持，不要独自面对困难",
+          "学习适应变化的技巧和策略",
+          "考虑寻求专业心理帮助来增强韧性",
+          "从小的挑战开始，逐步建立应对能力"
+        ]
+      },
+      {
+        "min": 3,
+        "max": 5,
+        "level": "moderate",
+        "label": "中等韧性",
+        "description": "您的心理韧性处于中等水平，在某些情况下能够较好地应对压力和变化。",
+        "suggestions": [
+          "继续发展应对技能",
+          "保持积极的社交网络",
+          "通过规律运动和良好的生活习惯增强韧性",
+          "练习积极的自我对话和认知重构"
+        ]
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "level": "minimal",
+        "label": "高韧性",
+        "description": "您拥有很高的心理韧性，能够有效地适应变化并从压力中恢复。",
+        "suggestions": [
+          "继续保持您强大的适应能力",
+          "您的韧性品质可以帮助和鼓励身边的人",
+          "在帮助他人的同时也要关注自我照顾"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 8
+    }
+  }
+}

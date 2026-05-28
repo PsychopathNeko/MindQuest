@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "id": "eat-26",
+    "name": "EAT-26 进食态度测试",
+    "fullName": "Eating Attitudes Test-26",
+    "description": "EAT-26 是一份广泛使用的26题自评量表，用于筛查异常的进食态度和行为。它评估节食行为、对食物的关注和口腔控制等方面，是识别进食障碍风险的有效工具。得分20分及以上建议进一步专业评估。",
+    "author": "Garner et al. (1982)",
+    "license": "Free to use",
+    "reference": "Garner DM, Olmsted MP, Bohr Y, Garfinkel PE. The Eating Attitudes Test: psychometric features and clinical correlates. Psychol Med. 1982;12(4):871-878.",
+    "instruction": "请根据以下每个陈述选择最符合您近期情况的选项。",
+    "population": "成人（18岁以上）"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "从不"
+    },
+    {
+      "value": 0,
+      "label": "很少"
+    },
+    {
+      "value": 0,
+      "label": "有时"
+    },
+    {
+      "value": 1,
+      "label": "经常"
+    },
+    {
+      "value": 2,
+      "label": "通常"
+    },
+    {
+      "value": 3,
+      "label": "总是"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "我害怕自己体重超标",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "我在饥饿时也会避免进食",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "我发现自己一心想着食物",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "我曾经无法控制地大量进食",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "我把食物切成很小的碎块",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "我了解我所吃食物的热量含量",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "我特别避免吃含碳水化合物高的食物（如面包、米饭、土豆等）",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "我觉得别人希望我多吃一些",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "我在吃完东西后会呕吐",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "我在吃完东西后感到非常内疚",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "我一心想着要更瘦",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "我在运动时会想到正在燃烧的热量",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "其他人认为我太瘦了",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "我一心想着身体上有脂肪",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "我比别人花更长的时间吃饭",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "我避免吃含糖的食物",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "我吃减肥食品",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "我觉得食物控制了我的生活",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "我在饮食方面表现出自我控制",
+      "type": "likert"
+    },
+    {
+      "index": 19,
+      "text": "我觉得别人强迫我吃东西",
+      "type": "likert"
+    },
+    {
+      "index": 20,
+      "text": "我在食物上花费太多时间和精力",
+      "type": "likert"
+    },
+    {
+      "index": 21,
+      "text": "吃完甜食后我感到不舒服",
+      "type": "likert"
+    },
+    {
+      "index": 22,
+      "text": "我参与节食行为",
+      "type": "likert"
+    },
+    {
+      "index": 23,
+      "text": "我喜欢胃是空的感觉",
+      "type": "likert"
+    },
+    {
+      "index": 24,
+      "text": "我有吃完饭后想呕吐的冲动",
+      "type": "likert"
+    },
+    {
+      "index": 25,
+      "text": "我享受尝试新的丰富美食",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 78,
+    "maxItemScore": 3,
+    "description": "评分规则：总是=3分，通常=2分，经常=1分，有时/很少/从不=0分。第25题反向计分。",
+    "reverseItems": [
+      25
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 9,
+        "level": "minimal",
+        "label": "正常范围",
+        "description": "您的进食态度处于正常范围，未显示出异常的进食行为模式。",
+        "suggestions": [
+          "继续保持健康的饮食习惯",
+          "关注营养均衡而非体重数字"
+        ]
+      },
+      {
+        "min": 10,
+        "max": 19,
+        "level": "mild",
+        "label": "轻度关注",
+        "description": "您存在一些对进食和体重的关注，但尚未达到临床关注水平。",
+        "suggestions": [
+          "注意不要过度限制饮食",
+          "培养与食物的健康关系",
+          "如果对饮食的关注影响了生活质量，可以咨询专业人士"
+        ]
+      },
+      {
+        "min": 20,
+        "max": 39,
+        "level": "moderate",
+        "label": "建议进一步评估",
+        "description": "您的得分达到临床关注水平，可能存在进食障碍风险。建议进行专业评估。",
+        "suggestions": [
+          "强烈建议咨询进食障碍专业人士",
+          "此得分提示可能存在进食障碍风险",
+          "注意是否存在极端的饮食或运动行为",
+          "关注身体健康指标"
+        ]
+      },
+      {
+        "min": 40,
+        "max": 78,
+        "level": "severe",
+        "label": "高度关注",
+        "description": "您的得分很高，强烈提示存在进食障碍相关的态度和行为。请尽快寻求专业帮助。",
+        "suggestions": [
+          "请立即寻求进食障碍专业治疗",
+          "进食障碍是严重但可治疗的疾病",
+          "不要独自面对，告知家人或朋友",
+          "关注身体健康，避免极端的饮食限制或补偿行为"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 78
+    }
+  }
+}

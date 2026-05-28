@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "ncs-6",
+    "name": "NCS-6 Need for Cognition Scale Brief",
+    "fullName": "Need for Cognition Scale - 6 Item Short Form",
+    "description": "The NCS-6 is a brief version of the Need for Cognition Scale, measuring an individual's tendency to engage in and enjoy effortful thinking. Higher scores indicate a greater intrinsic motivation to think deeply about complex topics.",
+    "author": "Cacioppo JT, Petty RE (1984)",
+    "license": "Free to use",
+    "reference": "Cacioppo JT, Petty RE, Kao CF. The efficient assessment of need for cognition. J Pers Assess. 1984;48(3):306-307.",
+    "instruction": "For each of the statements below, please indicate how much you agree that the statement is characteristic of you.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 1,
+      "label": "Extremely uncharacteristic of me"
+    },
+    {
+      "value": 2,
+      "label": "Somewhat uncharacteristic of me"
+    },
+    {
+      "value": 3,
+      "label": "Uncertain"
+    },
+    {
+      "value": 4,
+      "label": "Somewhat characteristic of me"
+    },
+    {
+      "value": 5,
+      "label": "Extremely characteristic of me"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "I would prefer complex to simple problems",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "I like to have the responsibility of handling a situation that requires a lot of thinking",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "Thinking is not my idea of fun",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "I would rather do something that requires little thought than something that is sure to challenge my thinking abilities",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "I really enjoy a task that involves coming up with new solutions to problems",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "I prefer my life to be filled with puzzles that I must solve",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "sum_with_reverse",
+    "maxTotal": 30,
+    "maxItemScore": 5,
+    "minItemScore": 1,
+    "reverseItems": [
+      2,
+      3
+    ],
+    "subscales": null
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 6,
+        "max": 12,
+        "level": "severe",
+        "label": "Low Need for Cognition",
+        "description": "You tend to prefer tasks that require less cognitive effort. You may find complex thinking somewhat unpleasant or unengaging.",
+        "suggestions": [
+          "Try small, engaging puzzles or brainteasers to build cognitive enjoyment",
+          "Break complex tasks into smaller, manageable steps",
+          "Explore topics that genuinely interest you to make thinking more rewarding",
+          "Consider that cognitive engagement can be developed with practice"
+        ]
+      },
+      {
+        "min": 13,
+        "max": 18,
+        "level": "mild",
+        "label": "Moderate Need for Cognition",
+        "description": "You have an average tendency toward cognitive engagement. You sometimes enjoy thinking deeply but may prefer simpler tasks at other times.",
+        "suggestions": [
+          "Challenge yourself with new learning opportunities",
+          "Engage in discussions that require critical thinking",
+          "Read diverse materials to expand intellectual curiosity"
+        ]
+      },
+      {
+        "min": 19,
+        "max": 24,
+        "level": "normal",
+        "label": "Above Average Need for Cognition",
+        "description": "You generally enjoy thinking deeply and find intellectual challenges satisfying. You tend to seek out cognitively demanding activities.",
+        "suggestions": [
+          "Continue pursuing intellectually stimulating activities",
+          "Share your love of thinking with others through teaching or mentoring",
+          "Balance cognitive engagement with rest and relaxation"
+        ]
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "level": "minimal",
+        "label": "High Need for Cognition",
+        "description": "You strongly enjoy effortful thinking and are highly motivated to engage in complex cognitive activities. You find great satisfaction in intellectual challenges.",
+        "suggestions": [
+          "Continue embracing your love of learning and thinking",
+          "Seek out challenging problems that stretch your abilities",
+          "Remember to be patient with those who may prefer less cognitive effort"
+        ]
+      }
+    ],
+    "subscaleRanges": null
+  },
+  "report": {
+    "charts": [
+      "gauge"
+    ],
+    "gaugeConfig": {
+      "min": 6,
+      "max": 30
+    }
+  }
+}

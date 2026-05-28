@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "id": "cbi",
+    "name": "CBI Copenhagen Burnout Inventory",
+    "fullName": "Copenhagen Burnout Inventory",
+    "description": "The CBI is a 19-item scale assessing burnout across three domains: personal, work-related, and client-related burnout.",
+    "author": "Kristensen TS, et al. (2005)",
+    "license": "Free for research use",
+    "reference": "Kristensen TS, et al. Work & Stress. 2005;19(3):192-207.",
+    "instruction": "Please indicate how often each statement applies to you based on your experience over the past few weeks.",
+    "population": "Adults (18+)"
+  },
+  "commonChoices": [
+    {
+      "value": 0,
+      "label": "Never/Almost never"
+    },
+    {
+      "value": 1,
+      "label": "Seldom"
+    },
+    {
+      "value": 2,
+      "label": "Sometimes"
+    },
+    {
+      "value": 3,
+      "label": "Often"
+    },
+    {
+      "value": 4,
+      "label": "Always"
+    }
+  ],
+  "questions": [
+    {
+      "index": 0,
+      "text": "How often do you feel tired?",
+      "type": "likert"
+    },
+    {
+      "index": 1,
+      "text": "How often are you physically exhausted?",
+      "type": "likert"
+    },
+    {
+      "index": 2,
+      "text": "How often are you emotionally exhausted?",
+      "type": "likert"
+    },
+    {
+      "index": 3,
+      "text": "How often do you think: \"I can't take it anymore\"?",
+      "type": "likert"
+    },
+    {
+      "index": 4,
+      "text": "How often do you feel worn out?",
+      "type": "likert"
+    },
+    {
+      "index": 5,
+      "text": "How often do you feel weak and susceptible to illness?",
+      "type": "likert"
+    },
+    {
+      "index": 6,
+      "text": "Is your work emotionally exhausting?",
+      "type": "likert"
+    },
+    {
+      "index": 7,
+      "text": "Do you feel burnt out because of your work?",
+      "type": "likert"
+    },
+    {
+      "index": 8,
+      "text": "Does your work frustrate you?",
+      "type": "likert"
+    },
+    {
+      "index": 9,
+      "text": "Do you feel worn out at the end of the working day?",
+      "type": "likert"
+    },
+    {
+      "index": 10,
+      "text": "Are you exhausted in the morning at the thought of another day at work?",
+      "type": "likert"
+    },
+    {
+      "index": 11,
+      "text": "Do you feel that every working hour is tiring for you?",
+      "type": "likert"
+    },
+    {
+      "index": 12,
+      "text": "Do you have enough energy for family and friends during leisure time?",
+      "type": "likert"
+    },
+    {
+      "index": 13,
+      "text": "Do you find it hard to work with clients/patients?",
+      "type": "likert"
+    },
+    {
+      "index": 14,
+      "text": "Do you find it frustrating to work with clients/patients?",
+      "type": "likert"
+    },
+    {
+      "index": 15,
+      "text": "Does it drain your energy to work with clients/patients?",
+      "type": "likert"
+    },
+    {
+      "index": 16,
+      "text": "Do you feel that you give more than you get back when you work with clients/patients?",
+      "type": "likert"
+    },
+    {
+      "index": 17,
+      "text": "Are you tired of working with clients/patients?",
+      "type": "likert"
+    },
+    {
+      "index": 18,
+      "text": "Do you sometimes wonder how long you will be able to continue working with clients/patients?",
+      "type": "likert"
+    }
+  ],
+  "scoring": {
+    "method": "subscale_with_reverse",
+    "minItemScore": 0,
+    "maxTotal": 76,
+    "maxItemScore": 4,
+    "reverseItems": [
+      12
+    ],
+    "subscales": [
+      {
+        "id": "personal",
+        "name": "Personal Burnout",
+        "items": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "maxScore": 24
+      },
+      {
+        "id": "work",
+        "name": "Work-related Burnout",
+        "items": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "maxScore": 28
+      },
+      {
+        "id": "client",
+        "name": "Client-related Burnout",
+        "items": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "maxScore": 24
+      }
+    ]
+  },
+  "interpretation": {
+    "ranges": [
+      {
+        "min": 0,
+        "max": 25,
+        "level": "minimal",
+        "label": "Low Burnout",
+        "description": "Your overall burnout level is low.",
+        "suggestions": [
+          "Maintain your current work-life balance",
+          "Continue healthy coping strategies"
+        ]
+      },
+      {
+        "min": 26,
+        "max": 50,
+        "level": "mild",
+        "label": "Moderate Burnout",
+        "description": "You are showing signs of moderate burnout.",
+        "suggestions": [
+          "Identify the main sources of burnout",
+          "Set boundaries between work and personal life"
+        ]
+      },
+      {
+        "min": 51,
+        "max": 76,
+        "level": "severe",
+        "label": "Severe Burnout",
+        "description": "You are experiencing significant burnout across multiple domains.",
+        "suggestions": [
+          "Seek professional support",
+          "Consider making changes to your work situation"
+        ]
+      }
+    ],
+    "subscaleRanges": {
+      "personal": [
+        {
+          "min": 0,
+          "max": 8,
+          "level": "normal",
+          "label": "Low",
+          "description": "Low personal burnout."
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate personal burnout."
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "severe",
+          "label": "High",
+          "description": "Severe personal burnout."
+        }
+      ],
+      "work": [
+        {
+          "min": 0,
+          "max": 9,
+          "level": "normal",
+          "label": "Low",
+          "description": "Low work-related burnout."
+        },
+        {
+          "min": 10,
+          "max": 19,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate work-related burnout."
+        },
+        {
+          "min": 20,
+          "max": 28,
+          "level": "severe",
+          "label": "High",
+          "description": "Severe work-related burnout."
+        }
+      ],
+      "client": [
+        {
+          "min": 0,
+          "max": 8,
+          "level": "normal",
+          "label": "Low",
+          "description": "Low client-related burnout."
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "level": "mild",
+          "label": "Moderate",
+          "description": "Moderate client-related burnout."
+        },
+        {
+          "min": 17,
+          "max": 24,
+          "level": "severe",
+          "label": "High",
+          "description": "Severe client-related burnout."
+        }
+      ]
+    }
+  },
+  "report": {
+    "charts": [
+      "gauge",
+      "bar",
+      "radar"
+    ],
+    "gaugeConfig": {
+      "min": 0,
+      "max": 76
+    },
+    "barConfig": {
+      "subscaleIds": [
+        "personal",
+        "work",
+        "client"
+      ],
+      "maxDisplayScore": 28
+    },
+    "radarConfig": {
+      "indicators": [
+        {
+          "name": "Personal Burnout",
+          "max": 24
+        },
+        {
+          "name": "Work-related Burnout",
+          "max": 28
+        },
+        {
+          "name": "Client-related Burnout",
+          "max": 24
+        }
+      ]
+    }
+  }
+}
