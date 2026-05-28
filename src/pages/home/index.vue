@@ -179,6 +179,22 @@ function updateHomeMeta() {
   }
   canonical.href = window.location.origin + '/'
 
+  // Update OG tags
+  const ogUpdates = {
+    'og:title': t('app.title'),
+    'og:description': t('app.description'),
+    'og:url': window.location.origin + '/',
+  }
+  for (const [prop, content] of Object.entries(ogUpdates)) {
+    let tag = document.querySelector(`meta[property="${prop}"]`)
+    if (!tag) {
+      tag = document.createElement('meta')
+      tag.setAttribute('property', prop)
+      document.head.appendChild(tag)
+    }
+    tag.content = content
+  }
+
   // Add hreflang for home
   const hreflangs = [
     { lang: 'zh-CN', href: `${window.location.origin}/?lang=zh` },
@@ -215,7 +231,7 @@ onShow(() => {
       description: 'Free online psychological self-assessment platform with 100+ validated scales.',
       potentialAction: {
         '@type': 'SearchAction',
-        target: { '@type': 'EntryPoint', urlTemplate: window.location.origin + '/pages/home/index?q={search_term_string}' },
+        target: { '@type': 'EntryPoint', urlTemplate: window.location.origin + '/?q={search_term_string}' },
         'query-input': 'required name=search_term_string'
       }
     })

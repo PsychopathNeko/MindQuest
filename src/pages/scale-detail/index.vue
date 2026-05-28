@@ -137,6 +137,9 @@ function updatePageMeta(scaleData) {
   const author = scaleData.meta?.author || ''
   const qCount = scaleData.questions?.length || 0
 
+  // Update document title
+  document.title = `${name} - MindQuest`
+
   // Update meta description
   let metaDesc = document.querySelector('meta[name="description"]')
   if (!metaDesc) {

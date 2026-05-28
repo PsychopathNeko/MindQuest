@@ -20,12 +20,6 @@ let xml = `<?xml version="1.0" encoding="UTF-8"?>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>${BASE_URL}/history</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
 `
 
 for (const scale of indexData.scales) {
@@ -44,4 +38,4 @@ xml += `</urlset>
 // Ensure output dir exists
 fs.mkdirSync(path.dirname(outputPath), { recursive: true })
 fs.writeFileSync(outputPath, xml, 'utf-8')
-console.log(`Sitemap generated with ${indexData.scales.length + 2} URLs at ${outputPath}`)
+console.log(`Sitemap generated with ${indexData.scales.length + 1} URLs at ${outputPath}`)
