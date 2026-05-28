@@ -75,6 +75,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import { onShow } from '@dcloudio/uni-app'
 import { useLocale } from '../../composables/useLocale'
 import { useTheme } from '../../composables/useTheme'
 import { useQueue } from '../../composables/useQueue'
@@ -98,6 +99,41 @@ function startQueue(item) {
     url: `/pages/assessment/index?id=${item.id}`
   })
 }
+
+function updateProfileMeta() {
+  // #ifdef H5
+  document.title = t('nav.profile') + ' - MindQuest'
+
+  let metaDesc = document.querySelector('meta[name="description"]')
+  if (!metaDesc) {
+    metaDesc = document.createElement('meta')
+    metaDesc.name = 'description'
+    document.head.appendChild(metaDesc)
+  }
+  metaDesc.content = 'MindQuest settings and preferences'
+
+  let canonical = document.querySelector('link[rel="canonical"]')
+  if (!canonical) {
+    canonical = document.createElement('link')
+    canonical.rel = 'canonical'
+    document.head.appendChild(canonical)
+  }
+  canonical.href = `${window.location.origin}/profile`
+
+  // Profile is personal - don't index
+  let robotsMeta = document.querySelector('meta[name="robots"]')
+  if (!robotsMeta) {
+    robotsMeta = document.createElement('meta')
+    robotsMeta.name = 'robots'
+    document.head.appendChild(robotsMeta)
+  }
+  robotsMeta.content = 'noindex, nofollow'
+  // #endif
+}
+
+onShow(() => {
+  updateProfileMeta()
+})
 </script>
 
 <style scoped>

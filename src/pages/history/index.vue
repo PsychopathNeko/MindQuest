@@ -124,6 +124,48 @@ function updateHistoryMeta() {
     document.head.appendChild(canonical)
   }
   canonical.href = `${window.location.origin}/history`
+
+  // OG tags
+  const ogUpdates = {
+    'og:title': t('nav.history') + ' - MindQuest',
+    'og:description': 'View your psychological assessment history - MindQuest',
+    'og:url': `${window.location.origin}/history`,
+  }
+  for (const [prop, content] of Object.entries(ogUpdates)) {
+    let tag = document.querySelector(`meta[property="${prop}"]`)
+    if (!tag) {
+      tag = document.createElement('meta')
+      tag.setAttribute('property', prop)
+      document.head.appendChild(tag)
+    }
+    tag.content = content
+  }
+
+  // hreflang
+  const hreflangs = [
+    { lang: 'zh-CN', href: `${window.location.origin}/history?lang=zh` },
+    { lang: 'en', href: `${window.location.origin}/history?lang=en` },
+    { lang: 'x-default', href: `${window.location.origin}/history` },
+  ]
+  hreflangs.forEach(({ lang, href }) => {
+    let link = document.querySelector(`link[hreflang="${lang}"]`)
+    if (!link) {
+      link = document.createElement('link')
+      link.rel = 'alternate'
+      link.hreflang = lang
+      document.head.appendChild(link)
+    }
+    link.href = href
+  })
+
+  // History is personal - noindex
+  let robotsMeta = document.querySelector('meta[name="robots"]')
+  if (!robotsMeta) {
+    robotsMeta = document.createElement('meta')
+    robotsMeta.name = 'robots'
+    document.head.appendChild(robotsMeta)
+  }
+  robotsMeta.content = 'noindex, follow'
   // #endif
 }
 

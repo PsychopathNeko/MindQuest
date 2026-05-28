@@ -158,6 +158,15 @@ function updatePageMeta(scaleData) {
     tag.content = content
   }
 
+  // Update og:url to clean URL
+  let ogUrl = document.querySelector('meta[property="og:url"]')
+  if (!ogUrl) {
+    ogUrl = document.createElement('meta')
+    ogUrl.setAttribute('property', 'og:url')
+    document.head.appendChild(ogUrl)
+  }
+  ogUrl.content = `${window.location.origin}/scales/${scaleId.value}`
+
   // Update canonical URL
   const cleanUrl = `${window.location.origin}/scales/${scaleId.value}`
   let canonical = document.querySelector('link[rel="canonical"]')
