@@ -182,7 +182,7 @@ function updatePageMeta(scaleData) {
 
   // Update hreflang tags
   const hreflangs = [
-    { lang: 'zh-CN', href: `${cleanUrl}?lang=zh` },
+    { lang: 'zh', href: `${cleanUrl}?lang=zh` },
     { lang: 'en', href: `${cleanUrl}?lang=en` },
     { lang: 'x-default', href: cleanUrl },
   ]

@@ -12,11 +12,11 @@ export default {
       const { setLocale } = useLocale()
       setLocale(langParam)
     }
-    // #endif
-    this.updateHtmlLang()
-    this.updateTabBarLabels()
-    // #ifdef H5
-    const locale = uni.getStorageSync('mindquest_locale') || 'zh'
+    // Use langParam directly to avoid race condition: setLocale() writes to
+    // storage, but reading back immediately may return the old value.
+    const locale = langParam || uni.getStorageSync('mindquest_locale') || 'zh'
+    this.updateHtmlLang(locale)
+    this.updateTabBarLabels(locale)
     this.updateSeoMeta(locale)
     // #endif
   },
@@ -30,10 +30,10 @@ export default {
   },
   onHide() {},
   methods: {
-    updateHtmlLang() {
+    updateHtmlLang(localeOverride) {
       // #ifdef H5
       try {
-        const locale = uni.getStorageSync('mindquest_locale') || 'zh'
+        const locale = localeOverride || uni.getStorageSync('mindquest_locale') || 'zh'
         document.documentElement.lang = locale === 'en' ? 'en' : 'zh-CN'
       } catch {}
       // #endif
@@ -51,9 +51,9 @@ export default {
       }
       // #endif
     },
-    updateTabBarLabels() {
+    updateTabBarLabels(localeOverride) {
       try {
-        const locale = uni.getStorageSync('mindquest_locale') || 'zh'
+        const locale = localeOverride || uni.getStorageSync('mindquest_locale') || 'zh'
         const labels = locale === 'en'
           ? ['Scales', 'History', 'Me']
           : ['量表库', '历史', '我的']

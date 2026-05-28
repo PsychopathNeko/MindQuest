@@ -197,7 +197,7 @@ function updateHomeMeta() {
 
   // Add hreflang for home
   const hreflangs = [
-    { lang: 'zh-CN', href: `${window.location.origin}/?lang=zh` },
+    { lang: 'zh', href: `${window.location.origin}/?lang=zh` },
     { lang: 'en', href: `${window.location.origin}/?lang=en` },
     { lang: 'x-default', href: `${window.location.origin}/` },
   ]
@@ -218,6 +218,12 @@ onShow(() => {
   updateHomeMeta()
   loadIndex()
   // #ifdef H5
+  const urlParams = new URLSearchParams(window.location.search)
+  const qParam = urlParams.get('q')
+  if (qParam && searchQuery) {
+    searchQuery.value = qParam
+  }
+
   if (!document.getElementById('site-jsonld')) {
     const script = document.createElement('script')
     script.type = 'application/ld+json'

@@ -128,6 +128,22 @@ function updateProfileMeta() {
     document.head.appendChild(robotsMeta)
   }
   robotsMeta.content = 'noindex, nofollow'
+
+  // OG tags
+  const ogUpdates = {
+    'og:title': t('nav.profile') + ' - MindQuest',
+    'og:description': 'MindQuest settings and preferences',
+    'og:url': `${window.location.origin}/profile`,
+  }
+  for (const [prop, content] of Object.entries(ogUpdates)) {
+    let tag = document.querySelector(`meta[property="${prop}"]`)
+    if (!tag) {
+      tag = document.createElement('meta')
+      tag.setAttribute('property', prop)
+      document.head.appendChild(tag)
+    }
+    tag.content = content
+  }
   // #endif
 }
 

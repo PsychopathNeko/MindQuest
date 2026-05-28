@@ -366,7 +366,7 @@ function updateReportMeta() {
   const name = record.value?.scaleName || ''
   
   // Update document title
-  document.title = `${name} Report - MindQuest`
+  document.title = `${name} ${t('report.report')} - MindQuest`
 
   // Update meta description
   let metaDesc = document.querySelector('meta[name="description"]')
@@ -394,6 +394,22 @@ function updateReportMeta() {
     document.head.appendChild(robotsMeta)
   }
   robotsMeta.content = 'noindex, nofollow'
+
+  // OG tags for report
+  const ogUpdates = {
+    'og:title': `${name} ${t('report.report')} - MindQuest`,
+    'og:description': `${name} - MindQuest`,
+    'og:url': window.location.href,
+  }
+  for (const [prop, content] of Object.entries(ogUpdates)) {
+    let tag = document.querySelector(`meta[property="${prop}"]`)
+    if (!tag) {
+      tag = document.createElement('meta')
+      tag.setAttribute('property', prop)
+      document.head.appendChild(tag)
+    }
+    tag.content = content
+  }
   // #endif
 }
 

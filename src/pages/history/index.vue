@@ -143,7 +143,7 @@ function updateHistoryMeta() {
 
   // hreflang
   const hreflangs = [
-    { lang: 'zh-CN', href: `${window.location.origin}/history?lang=zh` },
+    { lang: 'zh', href: `${window.location.origin}/history?lang=zh` },
     { lang: 'en', href: `${window.location.origin}/history?lang=en` },
     { lang: 'x-default', href: `${window.location.origin}/history` },
   ]

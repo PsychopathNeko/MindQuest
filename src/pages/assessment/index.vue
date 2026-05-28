@@ -52,6 +52,8 @@
           v-for="choice in currentChoices"
           :key="choice.value"
           :class="['choice-item', answers[currentIndex] === choice.value ? 'choice-selected' : '']"
+          :role="'radio'"
+          :aria-checked="answers[currentIndex] === choice.value ? 'true' : 'false'"
           @tap="handleSelect(choice.value)"
         >
           <view class="choice-radio">
@@ -226,7 +228,7 @@ function updateAssessmentMeta() {
 
   // hreflang
   const hreflangs = [
-    { lang: 'zh-CN', href: `${cleanUrl}?lang=zh` },
+    { lang: 'zh', href: `${cleanUrl}?lang=zh` },
     { lang: 'en', href: `${cleanUrl}?lang=en` },
     { lang: 'x-default', href: cleanUrl },
   ]
