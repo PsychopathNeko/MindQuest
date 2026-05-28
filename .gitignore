@@ -26,3 +26,6 @@ npm-debug.log*
 # uni-app
 .hbuilderx/
 unpackage/
+
+# WeChat Mini Program
+cloudfunctions/
