@@ -144,7 +144,7 @@ function updatePageMeta(scaleData) {
     metaDesc.name = 'description'
     document.head.appendChild(metaDesc)
   }
-  metaDesc.content = `${name} - ${desc.slice(0, 120)}. ${qCount} questions.`
+  metaDesc.content = `${name} - ${desc.slice(0, 150)}`
 
   // Update OG tags
   const ogTags = { 'og:title': name + ' - MindQuest', 'og:description': desc.slice(0, 200) }
@@ -157,6 +157,33 @@ function updatePageMeta(scaleData) {
     }
     tag.content = content
   }
+
+  // Update canonical URL
+  const cleanUrl = `${window.location.origin}/scales/${scaleId.value}`
+  let canonical = document.querySelector('link[rel="canonical"]')
+  if (!canonical) {
+    canonical = document.createElement('link')
+    canonical.rel = 'canonical'
+    document.head.appendChild(canonical)
+  }
+  canonical.href = cleanUrl
+
+  // Update hreflang tags
+  const hreflangs = [
+    { lang: 'zh-CN', href: `${cleanUrl}?lang=zh` },
+    { lang: 'en', href: `${cleanUrl}?lang=en` },
+    { lang: 'x-default', href: cleanUrl },
+  ]
+  hreflangs.forEach(({ lang, href }) => {
+    let link = document.querySelector(`link[hreflang="${lang}"]`)
+    if (!link) {
+      link = document.createElement('link')
+      link.rel = 'alternate'
+      link.hreflang = lang
+      document.head.appendChild(link)
+    }
+    link.href = href
+  })
 
   // Inject JSON-LD structured data
   let ldScript = document.getElementById('scale-jsonld')
@@ -171,7 +198,7 @@ function updatePageMeta(scaleData) {
     '@type': 'MedicalWebPage',
     name: name + ' - MindQuest',
     description: desc,
-    url: window.location.href,
+    url: `${window.location.origin}/scales/${scaleId.value}`,
     about: {
       '@type': 'MedicalTest',
       name: name,
@@ -191,7 +218,7 @@ function updatePageMeta(scaleData) {
 }
 
 function navigateToScale(id) {
-  uni.redirectTo({
+  uni.navigateTo({
     url: `/pages/scale-detail/index?id=${id}`
   })
 }

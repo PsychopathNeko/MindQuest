@@ -32,12 +32,22 @@
       </view>
 
       <!-- Question area -->
+      <!-- #ifdef H5 -->
+      <view class="question-area" role="group" :aria-label="currentQuestion && currentQuestion.text">
+      <!-- #endif -->
+      <!-- #ifndef H5 -->
       <view class="question-area">
+      <!-- #endif -->
         <text class="question-text">{{ currentQuestion && currentQuestion.text }}</text>
       </view>
 
       <!-- Choices -->
+      <!-- #ifdef H5 -->
+      <view class="choices-area" role="radiogroup">
+      <!-- #endif -->
+      <!-- #ifndef H5 -->
       <view class="choices-area">
+      <!-- #endif -->
         <view
           v-for="choice in currentChoices"
           :key="choice.value"
@@ -169,6 +179,60 @@ function handleDiscardDraft() {
   draftData.value = null
 }
 
+function updateAssessmentMeta() {
+  // #ifdef H5
+  if (!scale.value) return
+  const name = scale.value.meta?.name || ''
+  const desc = scale.value.meta?.description || ''
+  const qCount = scale.value.questions?.length || 0
+
+  // Update document title (actual <title> tag)
+  document.title = `${name} - MindQuest`
+
+  // Update meta description
+  let metaDesc = document.querySelector('meta[name="description"]')
+  if (!metaDesc) {
+    metaDesc = document.createElement('meta')
+    metaDesc.name = 'description'
+    document.head.appendChild(metaDesc)
+  }
+  metaDesc.content = `${name} - ${desc.slice(0, 120)}`
+
+  // Update canonical
+  const cleanUrl = `${window.location.origin}/assessments/${scaleId.value}`
+  let canonical = document.querySelector('link[rel="canonical"]')
+  if (!canonical) {
+    canonical = document.createElement('link')
+    canonical.rel = 'canonical'
+    document.head.appendChild(canonical)
+  }
+  canonical.href = cleanUrl
+
+  // Inject JSON-LD
+  let ldScript = document.getElementById('assessment-jsonld')
+  if (!ldScript) {
+    ldScript = document.createElement('script')
+    ldScript.type = 'application/ld+json'
+    ldScript.id = 'assessment-jsonld'
+    document.head.appendChild(ldScript)
+  }
+  ldScript.textContent = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Quiz',
+    name: `${name} - MindQuest`,
+    description: desc,
+    url: cleanUrl,
+    numberOfQuestions: qCount,
+    educationalAlignment: {
+      '@type': 'AlignmentObject',
+      alignmentType: 'assesses',
+      targetName: 'Mental Health',
+    },
+    isPartOf: { '@type': 'WebSite', name: 'MindQuest', url: window.location.origin },
+  })
+  // #endif
+}
+
 function submitAssessment() {
   const results = getResults()
   // Extract chart configuration from scale data
@@ -203,6 +267,7 @@ onLoad((options) => {
       scale.value = data
       scaleName.value = data.meta?.name || scaleId.value
       uni.setNavigationBarTitle({ title: scaleName.value + ' - MindQuest' })
+      updateAssessmentMeta()
       // Check for saved draft
       const draft = getDraft(scaleId.value)
       if (draft && draft.questionCount === data.questions.length && Object.keys(draft.answers || {}).length > 0) {

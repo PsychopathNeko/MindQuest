@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN" id="html-root">
   <head>
+    <link rel="dns-prefetch" href="https://mindquest.app" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MindQuest - 心理自评量表平台 | Psychological Self-Assessment</title>
@@ -17,11 +18,16 @@
     <meta property="og:locale" content="zh_CN" />
     <meta property="og:locale:alternate" content="en_US" />
     <meta property="og:site_name" content="MindQuest" />
+    <meta property="og:image" content="https://mindquest.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="MindQuest - Psychological Self-Assessment Platform" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="MindQuest - Psychological Self-Assessment" />
     <meta name="twitter:description" content="100+ validated psychological scales. Free, bilingual, private." />
+    <meta name="twitter:image" content="https://mindquest.app/og-image.png" />
 
     <!-- App metadata -->
     <meta name="application-name" content="MindQuest" />
@@ -33,6 +39,16 @@
 
     <!--preload-links-->
     <!--app-context-->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "MindQuest",
+      "url": "https://mindquest.app",
+      "description": "Professional psychological self-assessment platform with 158 validated scales",
+      "sameAs": []
+    }
+    </script>
   </head>
   <body>
     <div id="app"><!--app-html--></div>

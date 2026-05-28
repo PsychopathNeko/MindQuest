@@ -158,7 +158,48 @@ function goToScale(id) {
   uni.navigateTo({ url: `/pages/scale-detail/index?id=${id}` })
 }
 
+function updateHomeMeta() {
+  // #ifdef H5
+  document.title = t('app.title') || 'MindQuest - Psychological Self-Assessment'
+
+  let metaDesc = document.querySelector('meta[name="description"]')
+  if (!metaDesc) {
+    metaDesc = document.createElement('meta')
+    metaDesc.name = 'description'
+    document.head.appendChild(metaDesc)
+  }
+  metaDesc.content = t('app.description') || 'Professional psychological self-assessment platform with 158 validated scales'
+
+  // Set canonical for home
+  let canonical = document.querySelector('link[rel="canonical"]')
+  if (!canonical) {
+    canonical = document.createElement('link')
+    canonical.rel = 'canonical'
+    document.head.appendChild(canonical)
+  }
+  canonical.href = window.location.origin + '/'
+
+  // Add hreflang for home
+  const hreflangs = [
+    { lang: 'zh-CN', href: `${window.location.origin}/?lang=zh` },
+    { lang: 'en', href: `${window.location.origin}/?lang=en` },
+    { lang: 'x-default', href: `${window.location.origin}/` },
+  ]
+  hreflangs.forEach(({ lang, href }) => {
+    let link = document.querySelector(`link[hreflang="${lang}"]`)
+    if (!link) {
+      link = document.createElement('link')
+      link.rel = 'alternate'
+      link.hreflang = lang
+      document.head.appendChild(link)
+    }
+    link.href = href
+  })
+  // #endif
+}
+
 onShow(() => {
+  updateHomeMeta()
   loadIndex()
   // #ifdef H5
   if (!document.getElementById('site-jsonld')) {

@@ -16,23 +16,24 @@ let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>${BASE_URL}/</loc>
+    <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>${today}</lastmod>
   </url>
   <url>
-    <loc>${BASE_URL}/pages/history/index</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <loc>${BASE_URL}/history</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 `
 
 for (const scale of indexData.scales) {
   xml += `  <url>
-    <loc>${BASE_URL}/pages/scale-detail/index?id=${encodeURIComponent(scale.id)}</loc>
+    <loc>${BASE_URL}/scales/${encodeURIComponent(scale.id)}</loc>
+    <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>${today}</lastmod>
   </url>
 `
 }

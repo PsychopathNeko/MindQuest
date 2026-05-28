@@ -148,7 +148,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, defineAsyncComponent } from 'vue'
 import { onLoad } from '@dcloudio/uni-app'
 import { useLocale } from '../../composables/useLocale'
 import { useHistory } from '../../composables/useHistory'
@@ -156,9 +156,9 @@ import { useTheme } from '../../composables/useTheme'
 import { useQueue } from '../../composables/useQueue'
 import { getSeverityColor, getScorePercentage } from '../../engine/reportEngine'
 import { getAssessment } from '../../utils/storage'
-import GaugeChart from '../../components/GaugeChart.vue'
-import BarChart from '../../components/BarChart.vue'
-import RadarChart from '../../components/RadarChart.vue'
+const GaugeChart = defineAsyncComponent(() => import('../../components/GaugeChart.vue'))
+const BarChart = defineAsyncComponent(() => import('../../components/BarChart.vue'))
+const RadarChart = defineAsyncComponent(() => import('../../components/RadarChart.vue'))
 
 const { t, locale } = useLocale()
 const { formatDate } = useHistory()
@@ -361,6 +361,42 @@ async function handleExportPdf() {
 }
 // #endif
 
+function updateReportMeta() {
+  // #ifdef H5
+  const name = record.value?.scaleName || ''
+  
+  // Update document title
+  document.title = `${name} Report - MindQuest`
+
+  // Update meta description
+  let metaDesc = document.querySelector('meta[name="description"]')
+  if (!metaDesc) {
+    metaDesc = document.createElement('meta')
+    metaDesc.name = 'description'
+    document.head.appendChild(metaDesc)
+  }
+  metaDesc.content = `${name} assessment report - MindQuest`
+
+  // Set canonical
+  let canonical = document.querySelector('link[rel="canonical"]')
+  if (!canonical) {
+    canonical = document.createElement('link')
+    canonical.rel = 'canonical'
+    document.head.appendChild(canonical)
+  }
+  canonical.href = window.location.href.split('?')[0]
+
+  // Add noindex for personal report pages
+  let robotsMeta = document.querySelector('meta[name="robots"]')
+  if (!robotsMeta) {
+    robotsMeta = document.createElement('meta')
+    robotsMeta.name = 'robots'
+    document.head.appendChild(robotsMeta)
+  }
+  robotsMeta.content = 'noindex, nofollow'
+  // #endif
+}
+
 onLoad((options) => {
   const storageKey = options.key ? decodeURIComponent(options.key) : ''
   if (storageKey) {
@@ -369,6 +405,7 @@ onLoad((options) => {
       record.value = data
       // Update page title for H5 SEO
       uni.setNavigationBarTitle({ title: data.scaleName + ' - MindQuest' })
+      updateReportMeta()
     }
   }
 })

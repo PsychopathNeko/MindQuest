@@ -3,7 +3,8 @@
  * Run after H5 build: node scripts/prerender.js
  *
  * Generates /pages/scale-detail/index.html with query params embedded
- * as individual HTML files at dist/build/h5/scales/{id}.html
+ * as individual HTML files at dist/build/h5/prerendered/{id}.html
+ * and also at dist/build/h5/prerendered/scales/{id}/index.html for clean URLs
  */
 const fs = require('fs')
 const path = require('path')
@@ -13,11 +14,28 @@ const H5_DIR = path.join(__dirname, '..', 'dist', 'build', 'h5')
 const INDEX_PATH = path.join(__dirname, '..', 'src', 'static', 'scales', '_index.json')
 const OUTPUT_DIR = path.join(H5_DIR, 'prerendered')
 
+async function renderWithRetry(browser, url, selector, maxRetries = 2) {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    const page = await browser.newPage()
+    try {
+      await page.goto(url, { waitUntil: 'networkidle0', timeout: 15000 })
+      await page.waitForSelector(selector, { timeout: 8000 }).catch(() => {})
+      const html = await page.content()
+      return html
+    } catch (err) {
+      if (attempt === maxRetries) throw err
+      console.warn(`  Retry ${attempt + 1} for ${url}`)
+    } finally {
+      await page.close()
+    }
+  }
+}
+
 async function prerender() {
   const indexData = JSON.parse(fs.readFileSync(INDEX_PATH, 'utf-8'))
   const scaleIds = indexData.scales.map(s => s.id)
 
-  console.log(`Prerendering ${scaleIds.length} scale pages...`)
+  console.log(`Prerendering ${scaleIds.length} scale pages + homepage...`)
 
   fs.mkdirSync(OUTPUT_DIR, { recursive: true })
 
@@ -40,28 +58,43 @@ async function prerender() {
   const port = server.address().port
   const baseUrl = `http://localhost:${port}`
 
+  // Prerender homepage
+  const homePage = await browser.newPage()
+  try {
+    await homePage.goto(`${baseUrl}/`, { waitUntil: 'networkidle0', timeout: 15000 })
+    await homePage.waitForSelector('.scale-card', { timeout: 8000 }).catch(() => {})
+    const homeHtml = await homePage.content()
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'index.html'), homeHtml, 'utf-8')
+    console.log('  Homepage prerendered')
+  } catch (err) {
+    console.warn(`  Failed: homepage - ${err.message}`)
+  } finally {
+    await homePage.close()
+  }
+
   let rendered = 0
   const BATCH_SIZE = 5
 
   for (let i = 0; i < scaleIds.length; i += BATCH_SIZE) {
     const batch = scaleIds.slice(i, i + BATCH_SIZE)
     await Promise.all(batch.map(async (id) => {
-      const page = await browser.newPage()
       try {
         const url = `${baseUrl}/pages/scale-detail/index?id=${encodeURIComponent(id)}`
-        await page.goto(url, { waitUntil: 'networkidle0', timeout: 15000 })
-        // Wait for content to render
-        await page.waitForSelector('.detail-title', { timeout: 8000 }).catch(() => {})
+        const html = await renderWithRetry(browser, url, '.detail-title')
 
-        const html = await page.content()
+        // Write flat file (legacy)
         const outFile = path.join(OUTPUT_DIR, `${id}.html`)
         fs.writeFileSync(outFile, html, 'utf-8')
+
+        // Write clean URL directory structure
+        const scaleDir = path.join(OUTPUT_DIR, 'scales', id)
+        fs.mkdirSync(scaleDir, { recursive: true })
+        fs.writeFileSync(path.join(scaleDir, 'index.html'), html, 'utf-8')
+
         rendered++
         if (rendered % 20 === 0) console.log(`  ${rendered}/${scaleIds.length}`)
       } catch (err) {
         console.warn(`  Failed: ${id} - ${err.message}`)
-      } finally {
-        await page.close()
       }
     }))
   }

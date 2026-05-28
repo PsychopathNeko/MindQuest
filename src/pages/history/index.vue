@@ -105,8 +105,31 @@ function goHome() {
   uni.switchTab({ url: '/pages/home/index' })
 }
 
+function updateHistoryMeta() {
+  // #ifdef H5
+  document.title = t('nav.history') + ' - MindQuest'
+
+  let metaDesc = document.querySelector('meta[name="description"]')
+  if (!metaDesc) {
+    metaDesc = document.createElement('meta')
+    metaDesc.name = 'description'
+    document.head.appendChild(metaDesc)
+  }
+  metaDesc.content = 'View your psychological assessment history - MindQuest'
+
+  let canonical = document.querySelector('link[rel="canonical"]')
+  if (!canonical) {
+    canonical = document.createElement('link')
+    canonical.rel = 'canonical'
+    document.head.appendChild(canonical)
+  }
+  canonical.href = `${window.location.origin}/history`
+  // #endif
+}
+
 onShow(() => {
   loadRecords()
+  updateHistoryMeta()
 })
 
 onMounted(() => {

@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /pages/assessment/
 
 Sitemap: https://mindquest.app/sitemap.xml

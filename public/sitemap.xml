@@ -2,961 +2,962 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mindquest.app/</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/history/index</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://mindquest.app/history</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=phq-9</loc>
+    <loc>https://mindquest.app/scales/phq-9</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=gad-7</loc>
+    <loc>https://mindquest.app/scales/gad-7</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=dass-21</loc>
+    <loc>https://mindquest.app/scales/dass-21</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=rosenberg</loc>
+    <loc>https://mindquest.app/scales/rosenberg</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=tipi</loc>
+    <loc>https://mindquest.app/scales/tipi</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=phq-2</loc>
+    <loc>https://mindquest.app/scales/phq-2</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=phq-4</loc>
+    <loc>https://mindquest.app/scales/phq-4</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=phq-15</loc>
+    <loc>https://mindquest.app/scales/phq-15</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=gad-2</loc>
+    <loc>https://mindquest.app/scales/gad-2</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ces-d</loc>
+    <loc>https://mindquest.app/scales/ces-d</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=sds</loc>
+    <loc>https://mindquest.app/scales/sds</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=sas</loc>
+    <loc>https://mindquest.app/scales/sas</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=epds</loc>
+    <loc>https://mindquest.app/scales/epds</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=gds-15</loc>
+    <loc>https://mindquest.app/scales/gds-15</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=pss-10</loc>
+    <loc>https://mindquest.app/scales/pss-10</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=pss-4</loc>
+    <loc>https://mindquest.app/scales/pss-4</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=who-5</loc>
+    <loc>https://mindquest.app/scales/who-5</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=swls</loc>
+    <loc>https://mindquest.app/scales/swls</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=k10</loc>
+    <loc>https://mindquest.app/scales/k10</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=k6</loc>
+    <loc>https://mindquest.app/scales/k6</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ghq-12</loc>
+    <loc>https://mindquest.app/scales/ghq-12</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=pcl-5</loc>
+    <loc>https://mindquest.app/scales/pcl-5</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ies-r</loc>
+    <loc>https://mindquest.app/scales/ies-r</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ace</loc>
+    <loc>https://mindquest.app/scales/ace</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=isi</loc>
+    <loc>https://mindquest.app/scales/isi</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ess</loc>
+    <loc>https://mindquest.app/scales/ess</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=psqi</loc>
+    <loc>https://mindquest.app/scales/psqi</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=audit</loc>
+    <loc>https://mindquest.app/scales/audit</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=audit-c</loc>
+    <loc>https://mindquest.app/scales/audit-c</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=cage</loc>
+    <loc>https://mindquest.app/scales/cage</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=dast-10</loc>
+    <loc>https://mindquest.app/scales/dast-10</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=crafft</loc>
+    <loc>https://mindquest.app/scales/crafft</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=pswq</loc>
+    <loc>https://mindquest.app/scales/pswq</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=spin</loc>
+    <loc>https://mindquest.app/scales/spin</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=lsas-sr</loc>
+    <loc>https://mindquest.app/scales/lsas-sr</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=pdss-sr</loc>
+    <loc>https://mindquest.app/scales/pdss-sr</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=oci-r</loc>
+    <loc>https://mindquest.app/scales/oci-r</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=wemwbs</loc>
+    <loc>https://mindquest.app/scales/wemwbs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=panas</loc>
+    <loc>https://mindquest.app/scales/panas</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=mhc-sf</loc>
+    <loc>https://mindquest.app/scales/mhc-sf</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=fs</loc>
+    <loc>https://mindquest.app/scales/fs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=lot-r</loc>
+    <loc>https://mindquest.app/scales/lot-r</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=gq-6</loc>
+    <loc>https://mindquest.app/scales/gq-6</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=bfi-10</loc>
+    <loc>https://mindquest.app/scales/bfi-10</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=npi-16</loc>
+    <loc>https://mindquest.app/scales/npi-16</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=scs-sf</loc>
+    <loc>https://mindquest.app/scales/scs-sf</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=grit-s</loc>
+    <loc>https://mindquest.app/scales/grit-s</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ders-sf</loc>
+    <loc>https://mindquest.app/scales/ders-sf</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=erq</loc>
+    <loc>https://mindquest.app/scales/erq</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=rrs</loc>
+    <loc>https://mindquest.app/scales/rrs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=cerq-short</loc>
+    <loc>https://mindquest.app/scales/cerq-short</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ffmq-15</loc>
+    <loc>https://mindquest.app/scales/ffmq-15</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=maas</loc>
+    <loc>https://mindquest.app/scales/maas</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=aaq-ii</loc>
+    <loc>https://mindquest.app/scales/aaq-ii</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ucla-loneliness</loc>
+    <loc>https://mindquest.app/scales/ucla-loneliness</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=mspss</loc>
+    <loc>https://mindquest.app/scales/mspss</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ecr-rs</loc>
+    <loc>https://mindquest.app/scales/ecr-rs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=iri</loc>
+    <loc>https://mindquest.app/scales/iri</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=cbi</loc>
+    <loc>https://mindquest.app/scales/cbi</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=olbi</loc>
+    <loc>https://mindquest.app/scales/olbi</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=uwes-9</loc>
+    <loc>https://mindquest.app/scales/uwes-9</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=eat-26</loc>
+    <loc>https://mindquest.app/scales/eat-26</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=scoff</loc>
+    <loc>https://mindquest.app/scales/scoff</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=bas-2</loc>
+    <loc>https://mindquest.app/scales/bas-2</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=tas-20</loc>
+    <loc>https://mindquest.app/scales/tas-20</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=aq-10</loc>
+    <loc>https://mindquest.app/scales/aq-10</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=asrs</loc>
+    <loc>https://mindquest.app/scales/asrs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=brs</loc>
+    <loc>https://mindquest.app/scales/brs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=cd-risc-2</loc>
+    <loc>https://mindquest.app/scales/cd-risc-2</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=sdq</loc>
+    <loc>https://mindquest.app/scales/sdq</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=psc-17</loc>
+    <loc>https://mindquest.app/scales/psc-17</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=mdq</loc>
+    <loc>https://mindquest.app/scales/mdq</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=hcl-32</loc>
+    <loc>https://mindquest.app/scales/hcl-32</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=qids-sr16</loc>
+    <loc>https://mindquest.app/scales/qids-sr16</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=smfq</loc>
+    <loc>https://mindquest.app/scales/smfq</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=perma</loc>
+    <loc>https://mindquest.app/scales/perma</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=proqol</loc>
+    <loc>https://mindquest.app/scales/proqol</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=phq-a</loc>
+    <loc>https://mindquest.app/scales/phq-a</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=rcads-25</loc>
+    <loc>https://mindquest.app/scales/rcads-25</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=pas</loc>
+    <loc>https://mindquest.app/scales/pas</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=docs</loc>
+    <loc>https://mindquest.app/scales/docs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=bsq-8c</loc>
+    <loc>https://mindquest.app/scales/bsq-8c</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ncs-6</loc>
+    <loc>https://mindquest.app/scales/ncs-6</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=rq</loc>
+    <loc>https://mindquest.app/scales/rq</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=jss-9</loc>
+    <loc>https://mindquest.app/scales/jss-9</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=lec-5</loc>
+    <loc>https://mindquest.app/scales/lec-5</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=igds-sf9</loc>
+    <loc>https://mindquest.app/scales/igds-sf9</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=bsmas</loc>
+    <loc>https://mindquest.app/scales/bsmas</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=sas-sv</loc>
+    <loc>https://mindquest.app/scales/sas-sv</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=gps</loc>
+    <loc>https://mindquest.app/scales/gps</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=pps</loc>
+    <loc>https://mindquest.app/scales/pps</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=saps</loc>
+    <loc>https://mindquest.app/scales/saps</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=dar-5</loc>
+    <loc>https://mindquest.app/scales/dar-5</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=raads-14</loc>
+    <loc>https://mindquest.app/scales/raads-14</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=gse</loc>
+    <loc>https://mindquest.app/scales/gse</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=asrm</loc>
+    <loc>https://mindquest.app/scales/asrm</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=oasis</loc>
+    <loc>https://mindquest.app/scales/oasis</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=odsis</loc>
+    <loc>https://mindquest.app/scales/odsis</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=wsas</loc>
+    <loc>https://mindquest.app/scales/wsas</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=fss-9</loc>
+    <loc>https://mindquest.app/scales/fss-9</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=mlq</loc>
+    <loc>https://mindquest.app/scales/mlq</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=iat-20</loc>
+    <loc>https://mindquest.app/scales/iat-20</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=djgls</loc>
+    <loc>https://mindquest.app/scales/djgls</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=bis-15</loc>
+    <loc>https://mindquest.app/scales/bis-15</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=sd3</loc>
+    <loc>https://mindquest.app/scales/sd3</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=teq</loc>
+    <loc>https://mindquest.app/scales/teq</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ptq</loc>
+    <loc>https://mindquest.app/scales/ptq</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=msi-bpd</loc>
+    <loc>https://mindquest.app/scales/msi-bpd</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=pcs</loc>
+    <loc>https://mindquest.app/scales/pcs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=core-10</loc>
+    <loc>https://mindquest.app/scales/core-10</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ahs</loc>
+    <loc>https://mindquest.app/scales/ahs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=wleis</loc>
+    <loc>https://mindquest.app/scales/wleis</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=bpaq-sf</loc>
+    <loc>https://mindquest.app/scales/bpaq-sf</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=wi</loc>
+    <loc>https://mindquest.app/scales/wi</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=shs</loc>
+    <loc>https://mindquest.app/scales/shs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=sias</loc>
+    <loc>https://mindquest.app/scales/sias</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ces-d-10</loc>
+    <loc>https://mindquest.app/scales/ces-d-10</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=pc-ptsd-5</loc>
+    <loc>https://mindquest.app/scales/pc-ptsd-5</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ssosh</loc>
+    <loc>https://mindquest.app/scales/ssosh</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ders-16</loc>
+    <loc>https://mindquest.app/scales/ders-16</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=brcs</loc>
+    <loc>https://mindquest.app/scales/brcs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ede-qs</loc>
+    <loc>https://mindquest.app/scales/ede-qs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=stai-6</loc>
+    <loc>https://mindquest.app/scales/stai-6</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ius-12</loc>
+    <loc>https://mindquest.app/scales/ius-12</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=rpa</loc>
+    <loc>https://mindquest.app/scales/rpa</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=whodas-12</loc>
+    <loc>https://mindquest.app/scales/whodas-12</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=cage-aid</loc>
+    <loc>https://mindquest.app/scales/cage-aid</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=cd-risc-10</loc>
+    <loc>https://mindquest.app/scales/cd-risc-10</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=cfs</loc>
+    <loc>https://mindquest.app/scales/cfs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=dbas-16</loc>
+    <loc>https://mindquest.app/scales/dbas-16</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=dts</loc>
+    <loc>https://mindquest.app/scales/dts</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=essi</loc>
+    <loc>https://mindquest.app/scales/essi</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=fmi-14</loc>
+    <loc>https://mindquest.app/scales/fmi-14</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=fomo</loc>
+    <loc>https://mindquest.app/scales/fomo</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=phq-8</loc>
+    <loc>https://mindquest.app/scales/phq-8</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=rs-14</loc>
+    <loc>https://mindquest.app/scales/rs-14</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=sbq-r</loc>
+    <loc>https://mindquest.app/scales/sbq-r</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=scs-13</loc>
+    <loc>https://mindquest.app/scales/scs-13</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=spane</loc>
+    <loc>https://mindquest.app/scales/spane</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=swemwbs</loc>
+    <loc>https://mindquest.app/scales/swemwbs</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=asi-3</loc>
+    <loc>https://mindquest.app/scales/asi-3</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=bfne-s</loc>
+    <loc>https://mindquest.app/scales/bfne-s</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=brief-cope</loc>
+    <loc>https://mindquest.app/scales/brief-cope</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=cfq</loc>
+    <loc>https://mindquest.app/scales/cfq</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=hads</loc>
+    <loc>https://mindquest.app/scales/hads</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=ies-6</loc>
+    <loc>https://mindquest.app/scales/ies-6</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=lsns-6</loc>
+    <loc>https://mindquest.app/scales/lsns-6</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=prmq</loc>
+    <loc>https://mindquest.app/scales/prmq</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=psas</loc>
+    <loc>https://mindquest.app/scales/psas</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=pwi</loc>
+    <loc>https://mindquest.app/scales/pwi</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=soc-13</loc>
+    <loc>https://mindquest.app/scales/soc-13</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=des-ii</loc>
+    <loc>https://mindquest.app/scales/des-ii</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=pq-16</loc>
+    <loc>https://mindquest.app/scales/pq-16</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=sss-8</loc>
+    <loc>https://mindquest.app/scales/sss-8</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=pgsi</loc>
+    <loc>https://mindquest.app/scales/pgsi</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=icg</loc>
+    <loc>https://mindquest.app/scales/icg</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=hrs-sr</loc>
+    <loc>https://mindquest.app/scales/hrs-sr</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
-    <loc>https://mindquest.app/pages/scale-detail/index?id=assist</loc>
+    <loc>https://mindquest.app/scales/assist</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-27</lastmod>
   </url>
 </urlset>

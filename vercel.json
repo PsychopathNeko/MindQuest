@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/scales/:id", "destination": "/pages/scale-detail/index?id=:id" },
+    { "source": "/assessments/:id", "destination": "/pages/assessment/index?id=:id" },
+    { "source": "/reports/:key", "destination": "/pages/report/index?key=:key" },
+    { "source": "/history", "destination": "/pages/history/index" },
+    { "source": "/profile", "destination": "/pages/profile/index" }
+  ],
+  "trailingSlash": false
+}

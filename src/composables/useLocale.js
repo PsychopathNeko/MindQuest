@@ -15,6 +15,8 @@ const locale = ref(getStoredLocale())
 
 const messages = {
   zh: {
+    'app.title': 'MindQuest - 心理自评量表平台',
+    'app.description': '专业心理自评量表平台，提供158个经过验证的心理量表',
     'nav.home': '量表库',
     'nav.history': '历史记录',
     'nav.profile': '我的',
@@ -114,6 +116,8 @@ const messages = {
     'yesno.no': '否',
   },
   en: {
+    'app.title': 'MindQuest - Psychological Self-Assessment',
+    'app.description': 'Professional psychological self-assessment platform with 158 validated scales',
     'nav.home': 'Scales',
     'nav.history': 'History',
     'nav.profile': 'Me',
