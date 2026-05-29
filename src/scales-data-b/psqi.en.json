@@ -89,13 +89,13 @@
         "max": 5,
         "level": "good",
         "label": "Good Sleep Quality",
-        "description": "Your sleep quality is good with no significant sleep problems. Mild sleep difficulties are quite common. Adjusting your sleep habits and environment can often bring improvement.",
+        "description": "Your sleep quality is good with no significant sleep problems. This indicates that your sleep quality and patterns are in good condition, allowing you to get adequate rest.",
         "suggestions": [
           "Continue maintaining good sleep hygiene habits",
           "Keep a regular sleep-wake schedule",
-          "Establish fixed bedtime and wake-up times",
-          "Reduce screen use one hour before bed",
-          "Create a relaxing bedtime ritual (such as reading or a warm bath)"
+          "Continue maintaining your good sleep habits",
+          "Keep a consistent sleep schedule",
+          "Avoid screen time and stimulating activities before bed"
         ]
       },
       {

@@ -260,13 +260,13 @@
         "max": 40,
         "level": "abnormal",
         "label": "Abnormal",
-        "description": "Total difficulties score is elevated. Professional evaluation is recommended. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+        "description": "Total difficulties score is elevated. Professional evaluation is recommended. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Consult a child mental health professional",
           "Focus on specific problem dimensions for targeted intervention",
           "Early intervention helps improve outcomes",
-          "Continue maintaining a healthy lifestyle and mental well-being",
-          "Focus on personal growth and positive experiences"
+          "Schedule a mental health professional assessment as soon as possible",
+          "Make sure you have trusted people around you for support"
         ]
       }
     ],
@@ -304,12 +304,13 @@
           "max": 10,
           "level": "abnormal",
           "label": "Abnormal",
-          "description": "Elevated emotional symptoms. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "description": "Elevated emotional symptoms. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
           "suggestions": [
-            "Continue maintaining a healthy lifestyle and mental well-being",
-            "Focus on personal growth and positive experiences",
-            "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
           ]
         }
       ],
@@ -346,12 +347,13 @@
           "max": 10,
           "level": "abnormal",
           "label": "Abnormal",
-          "description": "Elevated conduct problems. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "description": "Elevated conduct problems. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
           "suggestions": [
-            "Continue maintaining a healthy lifestyle and mental well-being",
-            "Focus on personal growth and positive experiences",
-            "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
           ]
         }
       ],
@@ -386,11 +388,12 @@
           "max": 10,
           "level": "abnormal",
           "label": "Abnormal",
-          "description": "Elevated hyperactivity/inattention. This indicates that the relevant behavioral characteristics are within the normal range with no significant functional impact.",
+          "description": "Elevated hyperactivity/inattention. Your behavioral characteristic scores are elevated and may be considerably affecting daily functioning. Professional assessment and support is recommended.",
           "suggestions": [
-            "Understand your behavioral characteristics and leverage your strengths",
-            "Maintain your current effective coping strategies",
-            "Seek information and support when needed"
+            "Seek professional assessment and ongoing support",
+            "A combination of behavioral interventions and other support measures may be needed",
+            "Work with family and relevant organizations to develop a support plan",
+            "Focus on overall physical and mental well-being and quality of life"
           ]
         }
       ],
@@ -427,12 +430,13 @@
           "max": 10,
           "level": "abnormal",
           "label": "Abnormal",
-          "description": "Elevated peer problems. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "description": "Elevated peer problems. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
           "suggestions": [
-            "Continue maintaining a healthy lifestyle and mental well-being",
-            "Focus on personal growth and positive experiences",
-            "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
           ]
         }
       ],
@@ -469,12 +473,13 @@
           "max": 4,
           "level": "abnormal",
           "label": "Abnormal",
-          "description": "Low prosocial behavior. This indicates that your social functioning and relationships are in good condition, maintaining satisfactory social connections.",
+          "description": "Low prosocial behavior. Your social concerns are notable and may be significantly affecting your relationships and quality of life. Professional support is recommended.",
           "suggestions": [
-            "Continue maintaining your current social relationships",
-            "Keep an open and communicative attitude",
-            "Participate in social activities that interest you",
-            "Focus on the quality rather than quantity of relationships"
+            "Seek professional counseling support",
+            "Professional treatment for social anxiety or loneliness can be very effective",
+            "Start practicing gradually in safe social environments",
+            "Ensure basic interpersonal connections and support",
+            "Develop a social improvement plan under professional guidance"
           ]
         }
       ]

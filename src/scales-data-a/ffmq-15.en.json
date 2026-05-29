@@ -182,13 +182,13 @@
         "max": 35,
         "level": "severe",
         "label": "Low Mindfulness",
-        "description": "Your mindfulness level is low. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+        "description": "Your mindfulness level is low. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Try 5-10 minutes of mindfulness meditation daily",
           "Consider a Mindfulness-Based Stress Reduction program",
           "Practice deliberate attention to everyday activities",
-          "Schedule a mental health professional assessment as soon as possible",
-          "Make sure you have trusted people around you for support"
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others"
         ]
       },
       {
@@ -196,13 +196,13 @@
         "max": 55,
         "level": "moderate",
         "label": "Moderate Mindfulness",
-        "description": "Your mindfulness is moderate with room for growth. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+        "description": "Your mindfulness is moderate with room for growth. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Review subscale scores for improvement areas",
           "Continue regular mindfulness practice",
           "Practice observing thoughts without judgment",
-          "Consider consulting a mental health professional",
-          "Identify your specific sources of concern"
+          "Continue maintaining your positive lifestyle",
+          "Share your experiences and positive feelings with others"
         ]
       },
       {
@@ -210,13 +210,13 @@
         "max": 75,
         "level": "minimal",
         "label": "High Mindfulness",
-        "description": "Your mindfulness level is high. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+        "description": "Your mindfulness level is high. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Continue your mindfulness practice",
           "Explore advanced mindfulness techniques",
           "Integrate mindfulness into more daily activities",
-          "Continue maintaining a healthy lifestyle and mental well-being",
-          "Focus on personal growth and positive experiences"
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging"
         ]
       }
     ],
@@ -227,13 +227,12 @@
           "max": 7,
           "level": "severe",
           "label": "Low",
-          "description": "Low awareness of sensory experiences. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "description": "Low awareness of sensory experiences. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Schedule a mental health professional assessment as soon as possible",
-            "Make sure you have trusted people around you for support",
-            "Follow the treatment plan recommended by your professional",
-            "Maintain basic daily self-care routines",
-            "If you feel overwhelmed, call a mental health helpline for immediate support"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         },
         {
@@ -241,13 +240,12 @@
           "max": 11,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Sometimes notices sensory experiences. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "description": "Sometimes notices sensory experiences. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
           "suggestions": [
-            "Consider consulting a mental health professional",
-            "Identify your specific sources of concern",
-            "Maintain a structured daily routine",
-            "Try relaxation and coping methods that suit you",
-            "Engage in meaningful activities and social interactions"
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
           ]
         },
         {
@@ -255,12 +253,13 @@
           "max": 15,
           "level": "minimal",
           "label": "High",
-          "description": "Skilled at noticing sensory experiences. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "description": "Skilled at noticing sensory experiences. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Continue maintaining a healthy lifestyle and mental well-being",
-            "Focus on personal growth and positive experiences",
-            "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         }
       ],
@@ -270,13 +269,12 @@
           "max": 7,
           "level": "severe",
           "label": "Low",
-          "description": "Difficulty putting inner experiences into words. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "description": "Difficulty putting inner experiences into words. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Schedule a mental health professional assessment as soon as possible",
-            "Make sure you have trusted people around you for support",
-            "Follow the treatment plan recommended by your professional",
-            "Maintain basic daily self-care routines",
-            "If you feel overwhelmed, call a mental health helpline for immediate support"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         },
         {
@@ -284,13 +282,12 @@
           "max": 11,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Able to describe inner experiences to some extent. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "description": "Able to describe inner experiences to some extent. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
           "suggestions": [
-            "Consider consulting a mental health professional",
-            "Identify your specific sources of concern",
-            "Maintain a structured daily routine",
-            "Try relaxation and coping methods that suit you",
-            "Engage in meaningful activities and social interactions"
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
           ]
         },
         {
@@ -298,12 +295,13 @@
           "max": 15,
           "level": "minimal",
           "label": "High",
-          "description": "Skilled at articulating feelings and thoughts. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "description": "Skilled at articulating feelings and thoughts. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Continue maintaining a healthy lifestyle and mental well-being",
-            "Focus on personal growth and positive experiences",
-            "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         }
       ],
@@ -313,13 +311,12 @@
           "max": 7,
           "level": "severe",
           "label": "Low",
-          "description": "Often on autopilot or distracted. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "description": "Often on autopilot or distracted. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Schedule a mental health professional assessment as soon as possible",
-            "Make sure you have trusted people around you for support",
-            "Follow the treatment plan recommended by your professional",
-            "Maintain basic daily self-care routines",
-            "If you feel overwhelmed, call a mental health helpline for immediate support"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         },
         {
@@ -327,13 +324,12 @@
           "max": 11,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Sometimes able to focus on present activities. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "description": "Sometimes able to focus on present activities. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
           "suggestions": [
-            "Consider consulting a mental health professional",
-            "Identify your specific sources of concern",
-            "Maintain a structured daily routine",
-            "Try relaxation and coping methods that suit you",
-            "Engage in meaningful activities and social interactions"
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
           ]
         },
         {
@@ -341,12 +337,13 @@
           "max": 15,
           "level": "minimal",
           "label": "High",
-          "description": "Maintains high awareness during daily activities. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "description": "Maintains high awareness during daily activities. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Continue maintaining a healthy lifestyle and mental well-being",
-            "Focus on personal growth and positive experiences",
-            "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         }
       ],
@@ -356,13 +353,12 @@
           "max": 7,
           "level": "severe",
           "label": "Low",
-          "description": "Frequently judges own thoughts negatively. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "description": "Frequently judges own thoughts negatively. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Schedule a mental health professional assessment as soon as possible",
-            "Make sure you have trusted people around you for support",
-            "Follow the treatment plan recommended by your professional",
-            "Maintain basic daily self-care routines",
-            "If you feel overwhelmed, call a mental health helpline for immediate support"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         },
         {
@@ -370,13 +366,12 @@
           "max": 11,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Sometimes accepts inner experiences without judgment. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "description": "Sometimes accepts inner experiences without judgment. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
           "suggestions": [
-            "Consider consulting a mental health professional",
-            "Identify your specific sources of concern",
-            "Maintain a structured daily routine",
-            "Try relaxation and coping methods that suit you",
-            "Engage in meaningful activities and social interactions"
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
           ]
         },
         {
@@ -384,12 +379,13 @@
           "max": 15,
           "level": "minimal",
           "label": "High",
-          "description": "Approaches inner experiences with openness. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "description": "Approaches inner experiences with openness. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Continue maintaining a healthy lifestyle and mental well-being",
-            "Focus on personal growth and positive experiences",
-            "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         }
       ],
@@ -399,13 +395,12 @@
           "max": 7,
           "level": "severe",
           "label": "Low",
-          "description": "Easily carried away by inner experiences. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "description": "Easily carried away by inner experiences. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Schedule a mental health professional assessment as soon as possible",
-            "Make sure you have trusted people around you for support",
-            "Follow the treatment plan recommended by your professional",
-            "Maintain basic daily self-care routines",
-            "If you feel overwhelmed, call a mental health helpline for immediate support"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         },
         {
@@ -413,13 +408,12 @@
           "max": 11,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Sometimes maintains distance from inner experiences. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "description": "Sometimes maintains distance from inner experiences. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
           "suggestions": [
-            "Consider consulting a mental health professional",
-            "Identify your specific sources of concern",
-            "Maintain a structured daily routine",
-            "Try relaxation and coping methods that suit you",
-            "Engage in meaningful activities and social interactions"
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
           ]
         },
         {
@@ -427,12 +421,13 @@
           "max": 15,
           "level": "minimal",
           "label": "High",
-          "description": "Observes inner experiences without being caught up. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "description": "Observes inner experiences without being caught up. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Continue maintaining a healthy lifestyle and mental well-being",
-            "Focus on personal growth and positive experiences",
-            "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         }
       ]

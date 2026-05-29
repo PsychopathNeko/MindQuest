@@ -213,13 +213,12 @@
           "max": 20,
           "level": "severe",
           "label": "Low PA",
-          "description": "Low positive affect. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "description": "Low positive affect. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Schedule a mental health professional assessment as soon as possible",
-            "Make sure you have trusted people around you for support",
-            "Follow the treatment plan recommended by your professional",
-            "Maintain basic daily self-care routines",
-            "If you feel overwhelmed, call a mental health helpline for immediate support"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         },
         {
@@ -227,13 +226,13 @@
           "max": 30,
           "level": "mild",
           "label": "Moderate PA",
-          "description": "Moderate positive affect. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "description": "Moderate positive affect. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
           "suggestions": [
-            "Focus on self-care with good routines and regular exercise",
-            "Learn simple relaxation and stress-relief techniques",
-            "Stay in communication with people you trust",
-            "If symptoms persist or worsen, consider consulting a professional",
-            "Maintain a positive outlook on life"
+            "Increase the frequency of positive social activities",
+            "Develop a hobby that gives you a sense of accomplishment",
+            "Focus on your strengths and existing resources",
+            "Set meaningful personal goals",
+            "Maintain regular exercise and outdoor activities"
           ]
         },
         {
@@ -241,12 +240,13 @@
           "max": 50,
           "level": "minimal",
           "label": "High PA",
-          "description": "High positive affect. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "description": "High positive affect. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Continue maintaining a healthy lifestyle and mental well-being",
-            "Focus on personal growth and positive experiences",
-            "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         }
       ],
