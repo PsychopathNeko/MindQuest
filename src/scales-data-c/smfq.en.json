@@ -105,10 +105,13 @@
         "max": 7,
         "level": "normal",
         "label": "Normal Range",
-        "description": "Your depressive symptoms are within the normal range.",
+        "description": "Your depressive symptoms are within the normal range. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Continue maintaining a positive outlook",
-          "Stay connected with friends and family"
+          "Stay connected with friends and family",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy",
+          "Practice gratitude by noting positive moments in your life"
         ]
       },
       {
@@ -116,11 +119,13 @@
         "max": 11,
         "level": "mild",
         "label": "Mild Depression",
-        "description": "You may have mild depressive symptoms. Monitoring is recommended.",
+        "description": "You may have mild depressive symptoms. Monitoring is recommended. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
         "suggestions": [
           "Talk to someone you trust about how you feel",
           "Increase outdoor activities and social engagement",
-          "Maintain a regular daily routine"
+          "Maintain a regular daily routine",
+          "Try 30 minutes of aerobic exercise daily, such as walking or cycling",
+          "Maintain a regular sleep schedule and avoid staying up late"
         ]
       },
       {
@@ -128,11 +133,13 @@
         "max": 26,
         "level": "significant",
         "label": "Significant Depression",
-        "description": "Your depressive symptoms are significant (score >= 12 is the clinical cutoff). Professional help is recommended.",
+        "description": "Your depressive symptoms are significant (score >= 12 is the clinical cutoff). Professional help is recommended. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
         "suggestions": [
           "Consult a mental health professional for evaluation",
           "Do not carry the burden alone; tell a parent or teacher",
-          "Depression is treatable, and seeking help early leads to better outcomes"
+          "Depression is treatable, and seeking help early leads to better outcomes",
+          "Try 30 minutes of aerobic exercise daily, such as walking or cycling",
+          "Maintain a regular sleep schedule and avoid staying up late"
         ]
       }
     ],

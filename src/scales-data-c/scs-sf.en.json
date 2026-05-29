@@ -177,7 +177,7 @@
         "max": 24,
         "level": "severe",
         "label": "Low Self-Compassion",
-        "description": "Your self-compassion level is low. You may be quite self-critical and have difficulty treating yourself with kindness during challenging times.",
+        "description": "Your self-compassion level is low. You may be quite self-critical and have difficulty treating yourself with kindness during challenging times. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Practice speaking to yourself as you would to a good friend",
           "Recognize that suffering and imperfection are part of the shared human experience",
@@ -191,12 +191,13 @@
         "max": 36,
         "level": "mild",
         "label": "Moderate Self-Compassion",
-        "description": "Your self-compassion is at a moderate level.",
+        "description": "Your self-compassion is at a moderate level. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Continue developing your self-compassion practice",
           "Notice when you are being self-critical and try to reframe",
           "Remind yourself that everyone makes mistakes",
-          "Practice mindfulness to observe your feelings without over-identifying"
+          "Practice mindfulness to observe your feelings without over-identifying",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -204,11 +205,13 @@
         "max": 48,
         "level": "normal",
         "label": "Above Average Self-Compassion",
-        "description": "Your self-compassion is above average. You generally treat yourself with understanding and kindness.",
+        "description": "Your self-compassion is above average. You generally treat yourself with understanding and kindness. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your self-compassionate attitude",
           "Share your self-compassion practices with others",
-          "Use your self-compassion as a resource during challenges"
+          "Use your self-compassion as a resource during challenges",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -216,11 +219,13 @@
         "max": 60,
         "level": "minimal",
         "label": "High Self-Compassion",
-        "description": "Your self-compassion level is high.",
+        "description": "Your self-compassion level is high. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue your excellent self-compassion practice",
           "Consider mentoring others in developing self-compassion",
-          "Your self-compassion is a valuable resource for well-being"
+          "Your self-compassion is a valuable resource for well-being",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       }
     ],

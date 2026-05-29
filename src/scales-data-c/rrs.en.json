@@ -176,10 +176,13 @@
         "max": 33,
         "level": "minimal",
         "label": "Low Rumination",
-        "description": "Your rumination level is low.",
+        "description": "Your rumination level is low. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Continue your healthy coping strategies",
-          "Maintain awareness of your thought patterns"
+          "Maintain awareness of your thought patterns",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy",
+          "Practice gratitude by noting positive moments in your life"
         ]
       },
       {
@@ -187,11 +190,13 @@
         "max": 44,
         "level": "mild",
         "label": "Mild Rumination",
-        "description": "You show mild levels of ruminative thinking.",
+        "description": "You show mild levels of ruminative thinking. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
         "suggestions": [
           "Practice redirecting attention from repetitive negative thinking",
           "Engage in physical activity or hobbies when feeling down",
-          "Try mindfulness techniques"
+          "Try mindfulness techniques",
+          "Try 30 minutes of aerobic exercise daily, such as walking or cycling",
+          "Maintain a regular sleep schedule and avoid staying up late"
         ]
       },
       {
@@ -199,11 +204,13 @@
         "max": 55,
         "level": "moderate",
         "label": "Moderate Rumination",
-        "description": "You show moderate levels of ruminative thinking, which may prolong depressive episodes.",
+        "description": "You show moderate levels of ruminative thinking, which may prolong depressive episodes. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
         "suggestions": [
           "Consider cognitive behavioral therapy techniques",
           "Practice scheduled worry time",
-          "Develop behavioral activation strategies"
+          "Develop behavioral activation strategies",
+          "Consider consulting a mental health counselor for professional guidance",
+          "Try self-help exercises based on cognitive behavioral therapy (CBT)"
         ]
       },
       {
@@ -211,12 +218,13 @@
         "max": 88,
         "level": "severe",
         "label": "High Rumination",
-        "description": "Your rumination level is high and may warrant professional attention.",
+        "description": "Your rumination level is high and may warrant professional attention. Your score suggests notable emotional distress that may be significantly affecting your quality of life. Reaching out to a mental health professional is recommended.",
         "suggestions": [
           "Consider seeking professional help",
           "Cognitive behavioral therapy or mindfulness-based therapy can be effective",
           "Practice thought-stopping techniques",
-          "Build a strong social support network"
+          "Build a strong social support network",
+          "Schedule an appointment with a mental health professional as soon as possible"
         ]
       }
     ],

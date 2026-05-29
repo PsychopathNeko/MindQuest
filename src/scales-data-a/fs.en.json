@@ -95,13 +95,13 @@
         "max": 24,
         "level": "severe",
         "label": "Low Flourishing",
-        "description": "Your psychological flourishing is low. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "description": "Your psychological flourishing is low. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Set small achievable goals",
           "Cultivate supportive relationships",
           "Consider consulting a mental health professional",
-          "Keep up the habits and activities that bring you happiness",
-          "Share your positive experiences with others"
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging"
         ]
       },
       {
@@ -123,13 +123,13 @@
         "max": 56,
         "level": "minimal",
         "label": "High Flourishing",
-        "description": "Your psychological flourishing is high. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "description": "Your psychological flourishing is high. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue your positive lifestyle",
           "Share positive experiences with others",
-          "Try doing one fulfilling activity each day",
-          "Stay connected with friends and family to build a sense of belonging",
-          "Explore new interests and activities"
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others",
+          "Maintain gratitude and mindfulness practices"
         ]
       }
     ],

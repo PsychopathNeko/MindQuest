@@ -1,0 +1,80 @@
+{
+  "depression": {
+    "normal": "This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
+    "mild": "These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
+    "moderate": "At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
+    "severe": "Your score suggests notable emotional distress that may be significantly affecting your quality of life. Reaching out to a mental health professional is recommended."
+  },
+  "anxiety": {
+    "normal": "This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+    "mild": "Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
+    "moderate": "At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
+    "severe": "Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended."
+  },
+  "stress": {
+    "normal": "This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+    "mild": "Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
+    "moderate": "At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+    "severe": "Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended."
+  },
+  "trauma": {
+    "normal": "This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
+    "mild": "Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
+    "moderate": "At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
+    "severe": "Your trauma-related reactions are quite pronounced and may be significantly impacting your functioning. Professional trauma-focused support is recommended."
+  },
+  "sleep": {
+    "normal": "This indicates that your sleep quality and patterns are in good condition, allowing you to get adequate rest.",
+    "mild": "Mild sleep difficulties are quite common. Adjusting your sleep habits and environment can often bring improvement.",
+    "moderate": "At this level, sleep problems may cause daytime fatigue and affect your concentration and emotional stability.",
+    "severe": "Your sleep difficulties are significant and may be considerably affecting your daytime functioning and overall health. Consulting a sleep specialist is recommended."
+  },
+  "substance": {
+    "normal": "This indicates that your current substance-use-related risk is low and within a healthy range.",
+    "mild": "A mild risk level suggests it may be helpful to pay attention to your usage patterns and maintain self-awareness.",
+    "moderate": "Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
+    "severe": "Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended."
+  },
+  "eating": {
+    "normal": "This indicates that your eating attitudes and behaviors are within a healthy range, and your relationship with food is generally positive.",
+    "mild": "Mild eating-related concerns are fairly common. Paying attention to your eating patterns and feelings can help maintain a healthy relationship with food.",
+    "moderate": "Your score suggests that eating attitudes or behaviors may be affecting your physical and emotional well-being to some extent.",
+    "severe": "Your eating-related concerns are notable and may be significantly affecting your nutritional status and mental health. Consulting a professional is recommended."
+  },
+  "wellbeing": {
+    "normal": "This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+    "mild": "Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
+    "moderate": "This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+    "severe": "Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation."
+  },
+  "personality": {
+    "normal": "This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+    "mild": "This level of trait expression is slightly above average but within the normal range of individual variation.",
+    "moderate": "This trait is notably expressed and may influence your interpersonal interactions and self-perception in certain situations.",
+    "severe": "This personality dimension score is elevated and may significantly influence your behavior patterns and relationships across various contexts. Further exploration is recommended."
+  },
+  "behavioral": {
+    "normal": "This indicates that the relevant behavioral characteristics are within the normal range with no significant functional impact.",
+    "mild": "Mild behavioral differences are common. Understanding your own patterns can help you adapt more effectively to different environments.",
+    "moderate": "At this level, behavioral characteristics may have some impact on learning, work, or social interactions. Understanding and adapting strategies can be helpful.",
+    "severe": "Your behavioral characteristic scores are elevated and may be considerably affecting daily functioning. Professional assessment and support is recommended."
+  },
+  "somatic": {
+    "normal": "This indicates that you are currently experiencing minimal physical discomfort, with somatic symptoms within the normal range.",
+    "mild": "Mild physical discomfort is common. Rest and healthy lifestyle habits can often help alleviate these symptoms.",
+    "moderate": "At this level, physical symptoms may cause discomfort and affect your daily activities and emotional state.",
+    "severe": "Your somatic symptom scores are elevated, and these discomforts may be significantly affecting your quality of life. Both medical and psychological evaluation is recommended."
+  },
+  "social": {
+    "normal": "This indicates that your social functioning and relationships are in good condition, maintaining satisfactory social connections.",
+    "mild": "Mild social concerns are common in everyday life. Expanding social activities and expressing your feelings may be helpful.",
+    "moderate": "At this level, social difficulties may cause feelings of isolation or discomfort in interpersonal interactions, affecting life satisfaction.",
+    "severe": "Your social concerns are notable and may be significantly affecting your relationships and quality of life. Professional support is recommended."
+  },
+  "general": {
+    "normal": "This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+    "mild": "Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+    "moderate": "At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+    "severe": "Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended."
+  }
+}

@@ -162,11 +162,13 @@
         "max": 12,
         "level": "minimal",
         "label": "No Disability",
-        "description": "Your total score indicates no significant disability. You are functioning well across the assessed domains.",
+        "description": "Your total score indicates no significant disability. You are functioning well across the assessed domains. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your current level of functioning",
           "Engage in health-promoting activities to preserve your well-being",
-          "Monitor any changes in your functioning over time"
+          "Monitor any changes in your functioning over time",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -174,12 +176,13 @@
         "max": 24,
         "level": "mild",
         "label": "Mild Disability",
-        "description": "Your total score indicates mild disability. Some areas of daily functioning may be affected to a limited degree.",
+        "description": "Your total score indicates mild disability. Some areas of daily functioning may be affected to a limited degree. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Identify the domains where you experience the most difficulty",
           "Consider adaptive strategies or tools to support daily activities",
           "Discuss any concerns with your healthcare provider",
-          "Maintain physical activity appropriate to your abilities"
+          "Maintain physical activity appropriate to your abilities",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -187,12 +190,13 @@
         "max": 36,
         "level": "moderate",
         "label": "Moderate Disability",
-        "description": "Your total score indicates moderate disability. Several areas of daily functioning are notably affected.",
+        "description": "Your total score indicates moderate disability. Several areas of daily functioning are notably affected. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Consult with healthcare professionals about rehabilitation options",
           "Explore assistive devices or environmental modifications",
           "Seek support services for areas of greatest difficulty",
-          "Review your subscale scores to prioritize intervention areas"
+          "Review your subscale scores to prioritize intervention areas",
+          "Consider consulting a mental health professional"
         ]
       },
       {
@@ -200,12 +204,13 @@
         "max": 48,
         "level": "severe",
         "label": "Severe Disability",
-        "description": "Your total score indicates severe disability. Many areas of daily functioning are significantly impaired and require professional support.",
+        "description": "Your total score indicates severe disability. Many areas of daily functioning are significantly impaired and require professional support. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Seek comprehensive assessment from a multidisciplinary team",
           "Explore available disability support services and programs",
           "Discuss treatment and rehabilitation options with your healthcare provider",
-          "Consider applying for relevant support and assistance programs"
+          "Consider applying for relevant support and assistance programs",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       }
     ],
@@ -216,28 +221,55 @@
           "max": 2,
           "level": "minimal",
           "label": "None",
-          "description": "No significant difficulty with cognition."
+          "description": "No significant difficulty with cognition. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 3,
           "max": 4,
           "level": "mild",
           "label": "Mild",
-          "description": "Mild difficulty with concentration and memory."
+          "description": "Mild difficulty with concentration and memory. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 5,
           "max": 6,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate cognitive difficulties affecting daily tasks."
+          "description": "Moderate cognitive difficulties affecting daily tasks. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 7,
           "max": 8,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe cognitive difficulties significantly impairing daily functioning."
+          "description": "Severe cognitive difficulties significantly impairing daily functioning. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "mobility": [
@@ -246,28 +278,55 @@
           "max": 2,
           "level": "minimal",
           "label": "None",
-          "description": "No significant difficulty with mobility."
+          "description": "No significant difficulty with mobility. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 3,
           "max": 4,
           "level": "mild",
           "label": "Mild",
-          "description": "Mild difficulty with standing and walking."
+          "description": "Mild difficulty with standing and walking. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 5,
           "max": 6,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate mobility limitations affecting daily activities."
+          "description": "Moderate mobility limitations affecting daily activities. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 7,
           "max": 8,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe mobility difficulties significantly limiting movement."
+          "description": "Severe mobility difficulties significantly limiting movement. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "self_care": [
@@ -276,28 +335,55 @@
           "max": 2,
           "level": "minimal",
           "label": "None",
-          "description": "No significant difficulty with self-care."
+          "description": "No significant difficulty with self-care. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 3,
           "max": 4,
           "level": "mild",
           "label": "Mild",
-          "description": "Mild difficulty with washing and dressing."
+          "description": "Mild difficulty with washing and dressing. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 5,
           "max": 6,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate self-care difficulties requiring some assistance."
+          "description": "Moderate self-care difficulties requiring some assistance. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 7,
           "max": 8,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe self-care difficulties requiring substantial assistance."
+          "description": "Severe self-care difficulties requiring substantial assistance. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "getting_along": [
@@ -306,28 +392,55 @@
           "max": 2,
           "level": "minimal",
           "label": "None",
-          "description": "No significant difficulty getting along with others."
+          "description": "No significant difficulty getting along with others. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 3,
           "max": 4,
           "level": "mild",
           "label": "Mild",
-          "description": "Mild difficulty in social interactions and relationships."
+          "description": "Mild difficulty in social interactions and relationships. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 5,
           "max": 6,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate difficulty maintaining relationships and interacting with others."
+          "description": "Moderate difficulty maintaining relationships and interacting with others. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 7,
           "max": 8,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe difficulty in social interactions significantly impairing relationships."
+          "description": "Severe difficulty in social interactions significantly impairing relationships. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "life_activities": [
@@ -336,28 +449,55 @@
           "max": 2,
           "level": "minimal",
           "label": "None",
-          "description": "No significant difficulty with life activities."
+          "description": "No significant difficulty with life activities. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 3,
           "max": 4,
           "level": "mild",
           "label": "Mild",
-          "description": "Mild difficulty with day-to-day work and important activities."
+          "description": "Mild difficulty with day-to-day work and important activities. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 5,
           "max": 6,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate difficulty performing work and daily activities effectively."
+          "description": "Moderate difficulty performing work and daily activities effectively. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 7,
           "max": 8,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe difficulty with daily activities and work, requiring significant support."
+          "description": "Severe difficulty with daily activities and work, requiring significant support. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "participation": [
@@ -366,28 +506,55 @@
           "max": 2,
           "level": "minimal",
           "label": "None",
-          "description": "No significant difficulty with participation."
+          "description": "No significant difficulty with participation. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 3,
           "max": 4,
           "level": "mild",
           "label": "Mild",
-          "description": "Mild emotional impact and limited difficulty participating in community activities."
+          "description": "Mild emotional impact and limited difficulty participating in community activities. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 5,
           "max": 6,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate emotional impact and participation restrictions."
+          "description": "Moderate emotional impact and participation restrictions. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 7,
           "max": 8,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe emotional impact and major participation restrictions in community life."
+          "description": "Severe emotional impact and major participation restrictions in community life. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ]
     }

@@ -61,10 +61,13 @@
         "max": 1,
         "level": "normal",
         "label": "Low Risk",
-        "description": "Your eating disorder screening result indicates low risk.",
+        "description": "Your eating disorder screening result indicates low risk. This indicates that your eating attitudes and behaviors are within a healthy range, and your relationship with food is generally positive.",
         "suggestions": [
           "Continue maintaining healthy and balanced eating habits",
-          "Maintain a positive body image"
+          "Maintain a positive body image",
+          "Enjoy the pleasure and nutrition that food provides",
+          "Maintain a positive attitude toward your body",
+          "Avoid excessive focus on weight or body shape"
         ]
       },
       {
@@ -72,11 +75,13 @@
         "max": 5,
         "level": "elevated",
         "label": "Possible Eating Disorder",
-        "description": "Your responses suggest possible eating disorder risk (score >= 2). Further evaluation is recommended.",
+        "description": "Your responses suggest possible eating disorder risk (score >= 2). Further evaluation is recommended. Mild eating-related concerns are fairly common. Paying attention to your eating patterns and feelings can help maintain a healthy relationship with food.",
         "suggestions": [
           "Seek a professional eating disorder evaluation",
           "Discuss your eating behaviors with a doctor or mental health professional",
-          "Eating disorders are treatable, and earlier intervention leads to better outcomes"
+          "Eating disorders are treatable, and earlier intervention leads to better outcomes",
+          "Practice mindful eating, paying attention to physical sensations while eating",
+          "Avoid extreme dietary restrictions"
         ]
       }
     ],

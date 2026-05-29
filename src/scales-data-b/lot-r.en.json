@@ -116,13 +116,13 @@
         "max": 8,
         "level": "severe",
         "label": "Pessimistic Orientation",
-        "description": "Your optimism level is low, tending toward a pessimistic outlook. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "description": "Your optimism level is low, tending toward a pessimistic outlook. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Practice identifying and challenging negative thought patterns",
           "Set small achievable goals to build confidence",
           "Consider cognitive behavioral therapy",
-          "Keep up the habits and activities that bring you happiness",
-          "Share your positive experiences with others"
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging"
         ]
       },
       {
@@ -144,13 +144,13 @@
         "max": 24,
         "level": "minimal",
         "label": "Optimistic Orientation",
-        "description": "Your optimism level is high, generally maintaining a positive outlook. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "description": "Your optimism level is high, generally maintaining a positive outlook. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue maintaining your optimistic mindset",
           "Use your optimism as a strength when facing challenges",
           "Maintain realistic yet positive expectations",
-          "Try doing one fulfilling activity each day",
-          "Stay connected with friends and family to build a sense of belonging"
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others"
         ]
       }
     ],

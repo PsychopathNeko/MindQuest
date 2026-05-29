@@ -88,10 +88,13 @@
         "max": 9,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your mental health problems have minimal impact on your daily functioning.",
+        "description": "Your mental health problems have minimal impact on your daily functioning. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your good functional status",
-          "Stay aware of early signs of psychological distress"
+          "Stay aware of early signs of psychological distress",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -99,11 +102,13 @@
         "max": 19,
         "level": "mild",
         "label": "Mild Functional Impairment",
-        "description": "Your mental health problems have some impact on daily functioning, but it remains manageable.",
+        "description": "Your mental health problems have some impact on daily functioning, but it remains manageable. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Pay attention to the areas most affected",
           "Try proactive coping and adjustment strategies",
-          "If symptoms persist, consider consulting a professional"
+          "If symptoms persist, consider consulting a professional",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       },
       {
@@ -111,11 +116,13 @@
         "max": 29,
         "level": "moderate",
         "label": "Moderate Functional Impairment",
-        "description": "Your mental health problems are noticeably affecting your daily functioning. Seeking help is recommended.",
+        "description": "Your mental health problems are noticeably affecting your daily functioning. Seeking help is recommended. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Consider consulting a mental health professional",
           "Prioritize the most severely affected areas",
-          "Build a social support network"
+          "Build a social support network",
+          "Identify your specific sources of concern",
+          "Maintain a structured daily routine"
         ]
       },
       {
@@ -123,11 +130,13 @@
         "max": 40,
         "level": "severe",
         "label": "Severe Functional Impairment",
-        "description": "Your mental health problems are severely affecting your daily functioning. Professional help is strongly recommended.",
+        "description": "Your mental health problems are severely affecting your daily functioning. Professional help is strongly recommended. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional help immediately",
           "A comprehensive treatment plan may be needed",
-          "Ensure you have a safe and supportive environment"
+          "Ensure you have a safe and supportive environment",
+          "Schedule a mental health professional assessment as soon as possible",
+          "Make sure you have trusted people around you for support"
         ]
       }
     ],

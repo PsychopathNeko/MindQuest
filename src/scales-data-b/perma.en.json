@@ -529,13 +529,12 @@
           "max": 10,
           "level": "low",
           "label": "Low",
-          "description": "You experience few negative emotions. Your emotional state is positive. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "You experience few negative emotions. Your emotional state is positive. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         },
         {
@@ -556,12 +555,13 @@
           "max": 30,
           "level": "high",
           "label": "High",
-          "description": "You experience frequent negative emotions. Emotion management techniques or professional help is recommended. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "You experience frequent negative emotions. Emotion management techniques or professional help is recommended. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         }
       ],
@@ -613,13 +613,12 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low loneliness. Your social connections are good. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low loneliness. Your social connections are good. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         },
         {
@@ -640,12 +639,13 @@
           "max": 10,
           "level": "high",
           "label": "High",
-          "description": "Significant loneliness. Actively seeking social support is recommended. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Significant loneliness. Actively seeking social support is recommended. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         }
       ],

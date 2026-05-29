@@ -137,12 +137,13 @@
         "max": 16,
         "level": "severe",
         "label": "Low Empathy",
-        "description": "Your empathy score is low, indicating potential difficulty in understanding and feeling others’ emotions.",
+        "description": "Your empathy score is low, indicating potential difficulty in understanding and feeling others’ emotions. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Try to actively pay attention to others’ emotional expressions",
           "Practice perspective-taking by imagining yourself in others’ situations",
           "Consider seeking counseling to enhance empathy skills",
-          "Read books about emotional intelligence and empathy"
+          "Read books about emotional intelligence and empathy",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       },
       {
@@ -150,12 +151,13 @@
         "max": 32,
         "level": "mild",
         "label": "Below Average Empathy",
-        "description": "Your empathy is at a below-average level. You may sometimes find it difficult to fully feel others’ emotions.",
+        "description": "Your empathy is at a below-average level. You may sometimes find it difficult to fully feel others’ emotions. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Engage in more social activities to improve understanding of others",
           "Practice active listening skills",
           "Pay attention to nonverbal cues like facial expressions and body language",
-          "Try volunteering to strengthen compassion"
+          "Try volunteering to strengthen compassion",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -163,11 +165,13 @@
         "max": 48,
         "level": "normal",
         "label": "Above Average Empathy",
-        "description": "Your empathy is at an above-average level. You can generally understand and respond well to others’ emotions.",
+        "description": "Your empathy is at an above-average level. You can generally understand and respond well to others’ emotions. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining sensitivity to others’ feelings",
           "Practice self-regulation while being empathetic",
-          "Use your empathy to build deeper interpersonal relationships"
+          "Use your empathy to build deeper interpersonal relationships",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -175,11 +179,13 @@
         "max": 64,
         "level": "minimal",
         "label": "High Empathy",
-        "description": "Your empathy score is very high. You can deeply understand and feel others’ emotions.",
+        "description": "Your empathy score is very high. You can deeply understand and feel others’ emotions. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Your empathy is a valuable social resource",
           "Be mindful of protecting your own emotional health while empathizing with others",
-          "Set appropriate psychological boundaries to avoid empathy fatigue"
+          "Set appropriate psychological boundaries to avoid empathy fatigue",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       }
     ],

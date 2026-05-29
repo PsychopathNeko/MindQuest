@@ -127,12 +127,13 @@
         "max": 26,
         "level": "severe",
         "label": "Low Self-Control",
-        "description": "Your self-control score is low, suggesting significant difficulty in regulating impulses, habits, and behavior.",
+        "description": "Your self-control score is low, suggesting significant difficulty in regulating impulses, habits, and behavior. This personality dimension score is elevated and may significantly influence your behavior patterns and relationships across various contexts. Further exploration is recommended.",
         "suggestions": [
           "Start with small, achievable goals to gradually build self-discipline",
           "Use implementation intentions (if-then plans) to manage impulses",
           "Remove temptations from your environment when possible",
-          "Consider working with a counselor on behavior change strategies"
+          "Consider working with a counselor on behavior change strategies",
+          "Consider discussing the impact of personality traits with a counselor"
         ]
       },
       {
@@ -140,12 +141,13 @@
         "max": 39,
         "level": "moderate",
         "label": "Below Average Self-Control",
-        "description": "Your self-control is below average. You may sometimes struggle with impulses and maintaining discipline in certain areas.",
+        "description": "Your self-control is below average. You may sometimes struggle with impulses and maintaining discipline in certain areas. This trait is notably expressed and may influence your interpersonal interactions and self-perception in certain situations.",
         "suggestions": [
           "Identify specific triggers that undermine your self-control",
           "Practice delayed gratification in small daily decisions",
           "Establish consistent routines to reduce reliance on willpower",
-          "Get adequate sleep, as fatigue depletes self-control resources"
+          "Get adequate sleep, as fatigue depletes self-control resources",
+          "Gain deeper insight into how this trait affects your relationships"
         ]
       },
       {
@@ -153,12 +155,13 @@
         "max": 52,
         "level": "mild",
         "label": "Above Average Self-Control",
-        "description": "Your self-control is above average. You generally manage impulses well and can maintain focus on your goals.",
+        "description": "Your self-control is above average. You generally manage impulses well and can maintain focus on your goals. This level of trait expression is slightly above average but within the normal range of individual variation.",
         "suggestions": [
           "Continue strengthening your self-regulation habits",
           "Be mindful of situations where self-control may be depleted",
           "Balance self-discipline with self-compassion",
-          "Use your self-control strengths to pursue meaningful long-term goals"
+          "Use your self-control strengths to pursue meaningful long-term goals",
+          "Learn how this trait influences your behavior and relationships"
         ]
       },
       {
@@ -166,12 +169,13 @@
         "max": 65,
         "level": "minimal",
         "label": "High Self-Control",
-        "description": "Your self-control is high. You demonstrate strong ability to resist temptation, break bad habits, and maintain discipline.",
+        "description": "Your self-control is high. You demonstrate strong ability to resist temptation, break bad habits, and maintain discipline. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
         "suggestions": [
           "Continue maintaining your strong self-regulation practices",
           "Ensure you also allow flexibility and spontaneity in your life",
           "Use your self-control as a resource to model healthy habits for others",
-          "Remember that balance between control and relaxation is important"
+          "Remember that balance between control and relaxation is important",
+          "Understanding your personality traits supports personal growth"
         ]
       }
     ],

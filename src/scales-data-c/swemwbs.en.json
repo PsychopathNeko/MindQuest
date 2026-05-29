@@ -82,12 +82,13 @@
         "max": 14,
         "level": "severe",
         "label": "Low Well-Being",
-        "description": "Your mental well-being score is low, suggesting you may be experiencing significant difficulties in your day-to-day functioning and emotional health.",
+        "description": "Your mental well-being score is low, suggesting you may be experiencing significant difficulties in your day-to-day functioning and emotional health. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Consider seeking support from a mental health professional",
           "Talk to a trusted friend, family member, or support service",
           "Try to establish small daily routines that bring structure",
-          "Be kind to yourself; recovery takes time"
+          "Be kind to yourself; recovery takes time",
+          "Try doing one fulfilling activity each day"
         ]
       },
       {
@@ -95,12 +96,13 @@
         "max": 21,
         "level": "moderate",
         "label": "Below Average Well-Being",
-        "description": "Your mental well-being is below average. You may be finding some aspects of daily life challenging.",
+        "description": "Your mental well-being is below average. You may be finding some aspects of daily life challenging. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
         "suggestions": [
           "Identify activities that give you a sense of accomplishment or enjoyment",
           "Stay connected with others and maintain social relationships",
           "Consider mindfulness or relaxation practices",
-          "If you are struggling, do not hesitate to seek professional support"
+          "If you are struggling, do not hesitate to seek professional support",
+          "Increase the frequency of positive social activities"
         ]
       },
       {
@@ -108,12 +110,13 @@
         "max": 28,
         "level": "mild",
         "label": "Above Average Well-Being",
-        "description": "Your mental well-being is above average. You generally feel positive about your functioning and relationships.",
+        "description": "Your mental well-being is above average. You generally feel positive about your functioning and relationships. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Continue engaging in activities that support your well-being",
           "Maintain your social connections",
           "Practice gratitude and positive thinking",
-          "Stay physically active to maintain good mental health"
+          "Stay physically active to maintain good mental health",
+          "Continue maintaining your positive lifestyle"
         ]
       },
       {
@@ -121,11 +124,13 @@
         "max": 35,
         "level": "minimal",
         "label": "High Well-Being",
-        "description": "Your mental well-being is high. You feel optimistic, capable, and connected to others.",
+        "description": "Your mental well-being is high. You feel optimistic, capable, and connected to others. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Keep up the positive habits that support your well-being",
           "Consider helping others to further enhance your sense of purpose",
-          "Continue to nurture your relationships and personal growth"
+          "Continue to nurture your relationships and personal growth",
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others"
         ]
       }
     ],

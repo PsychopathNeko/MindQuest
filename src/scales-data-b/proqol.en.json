@@ -258,13 +258,13 @@
           "max": 22,
           "level": "low",
           "label": "Low",
-          "description": "Low compassion satisfaction. You may not feel fulfilled by your helping work. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "description": "Low compassion satisfaction. You may not feel fulfilled by your helping work. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Continue using your effective stress management strategies",
-            "Regularly check in with yourself and engage in relaxation activities",
-            "Maintain a healthy work-life balance",
-            "Cultivate hobbies and interests that bring you joy",
-            "Nurture healthy social relationships"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         },
         {
@@ -272,13 +272,12 @@
           "max": 41,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate compassion satisfaction. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "description": "Moderate compassion satisfaction. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
           "suggestions": [
-            "Consider discussing stress management strategies with a counselor",
-            "Evaluate and adjust major stressors in your work or personal life",
-            "Build daily habits of relaxation and self-care",
-            "Consider reducing unnecessary commitments and responsibilities",
-            "Ensure adequate sleep time"
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
           ]
         },
         {
@@ -286,13 +285,12 @@
           "max": 50,
           "level": "high",
           "label": "High",
-          "description": "High compassion satisfaction. You gain significant positive rewards from helping. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "description": "High compassion satisfaction. You gain significant positive rewards from helping. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Seek professional counseling support",
-            "Evaluate whether adjustments to your current work or life situation are needed",
-            "Learn emergency stress-relief techniques for high-pressure moments",
-            "Ensure basic needs for sleep, nutrition, and rest are met",
-            "Consider temporarily reducing workload or seeking help to share responsibilities"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         }
       ],

@@ -118,10 +118,13 @@
         "max": 28,
         "level": "minimal",
         "label": "Non-perfectionist",
-        "description": "Your perfectionism tendency is low, with relatively low personal standards.",
+        "description": "Your perfectionism tendency is low, with relatively low personal standards. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
         "suggestions": [
           "Appropriately raising your expectations can promote growth",
-          "Set specific and measurable goals"
+          "Set specific and measurable goals",
+          "Understanding your personality traits supports personal growth",
+          "Every person has unique strengths and value in their personality",
+          "Flexibly apply your traits in different situations"
         ]
       },
       {
@@ -129,10 +132,13 @@
         "max": 42,
         "level": "normal",
         "label": "Adaptive Perfectionist",
-        "description": "You have high standards but low discrepancy, which is a healthy form of perfectionism.",
+        "description": "You have high standards but low discrepancy, which is a healthy form of perfectionism. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
         "suggestions": [
           "Continue maintaining the balance between high standards and self-acceptance",
-          "Be mindful of standards gradually becoming unrealistic"
+          "Be mindful of standards gradually becoming unrealistic",
+          "Understanding your personality traits supports personal growth",
+          "Every person has unique strengths and value in their personality",
+          "Flexibly apply your traits in different situations"
         ]
       },
       {
@@ -140,12 +146,13 @@
         "max": 56,
         "level": "moderate",
         "label": "Maladaptive Perfectionist",
-        "description": "You not only have high standards but also frequently feel you cannot meet them, which may lead to anxiety, self-criticism, and procrastination.",
+        "description": "You not only have high standards but also frequently feel you cannot meet them, which may lead to anxiety, self-criticism, and procrastination. This trait is notably expressed and may influence your interpersonal interactions and self-perception in certain situations.",
         "suggestions": [
           "Learn to distinguish between 'good enough' and 'perfect'",
           "Practice self-compassion and reduce self-criticism",
           "Focus on progress rather than perfection",
-          "If perfectionism significantly impacts your life, consider consulting a mental health professional"
+          "If perfectionism significantly impacts your life, consider consulting a mental health professional",
+          "Gain deeper insight into how this trait affects your relationships"
         ]
       }
     ],
@@ -156,21 +163,37 @@
           "max": 14,
           "level": "mild",
           "label": "Low Standards",
-          "description": "You have relatively low personal expectations."
+          "description": "You have relatively low personal expectations. This level of trait expression is slightly above average but within the normal range of individual variation.",
+          "suggestions": [
+            "Learn how this trait influences your behavior and relationships",
+            "Leverage the positive aspects of this trait",
+            "Learn adaptive coping strategies when needed",
+            "Communicate with others to foster mutual understanding"
+          ]
         },
         {
           "min": 15,
           "max": 21,
           "level": "normal",
           "label": "Moderate Standards",
-          "description": "You have reasonable self-expectations."
+          "description": "You have reasonable self-expectations. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         },
         {
           "min": 22,
           "max": 28,
           "level": "minimal",
           "label": "High Standards",
-          "description": "You have very high expectations and demands for yourself."
+          "description": "You have very high expectations and demands for yourself. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         }
       ],
       "discrepancy": [
@@ -179,21 +202,38 @@
           "max": 11,
           "level": "minimal",
           "label": "Low Discrepancy",
-          "description": "You are generally able to accept your performance."
+          "description": "You are generally able to accept your performance. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         },
         {
           "min": 12,
           "max": 19,
           "level": "mild",
           "label": "Moderate Discrepancy",
-          "description": "You sometimes feel your performance is not good enough."
+          "description": "You sometimes feel your performance is not good enough. This level of trait expression is slightly above average but within the normal range of individual variation.",
+          "suggestions": [
+            "Learn how this trait influences your behavior and relationships",
+            "Leverage the positive aspects of this trait",
+            "Learn adaptive coping strategies when needed",
+            "Communicate with others to foster mutual understanding"
+          ]
         },
         {
           "min": 20,
           "max": 28,
           "level": "moderate",
           "label": "High Discrepancy",
-          "description": "You frequently feel you cannot meet your standards, which may cause emotional distress."
+          "description": "You frequently feel you cannot meet your standards, which may cause emotional distress. This trait is notably expressed and may influence your interpersonal interactions and self-perception in certain situations.",
+          "suggestions": [
+            "Gain deeper insight into how this trait affects your relationships",
+            "Learn to adjust your behavior in different situations",
+            "If the trait causes distress, consider consulting a professional",
+            "Develop self-awareness and emotional management skills"
+          ]
         }
       ]
     }

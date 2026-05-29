@@ -117,10 +117,13 @@
         "max": 13,
         "level": "minimal",
         "label": "Below Threshold",
-        "description": "Your score is below the autism spectrum screening threshold. It is unlikely that you have autism spectrum disorder.",
+        "description": "Your score is below the autism spectrum screening threshold. It is unlikely that you have autism spectrum disorder. This indicates that the relevant behavioral characteristics are within the normal range with no significant functional impact.",
         "suggestions": [
           "This result is only a preliminary screening",
-          "If you have concerns in other areas, consider consulting a professional"
+          "If you have concerns in other areas, consider consulting a professional",
+          "Understand your behavioral characteristics and leverage your strengths",
+          "Maintain your current effective coping strategies",
+          "Seek information and support when needed"
         ]
       },
       {
@@ -133,7 +136,8 @@
           "Consider seeking a professional neurodevelopmental assessment",
           "Learn about autism spectrum conditions",
           "Explore social and communication strategies that work for you",
-          "Joining a support community may be helpful"
+          "Joining a support community may be helpful",
+          "Learn about your behavioral patterns and characteristics"
         ]
       },
       {
@@ -141,12 +145,13 @@
         "max": 42,
         "level": "moderate",
         "label": "Elevated ASD Traits",
-        "description": "Your score is elevated, suggesting notable autism spectrum traits. A professional diagnostic assessment is strongly recommended.",
+        "description": "Your score is elevated, suggesting notable autism spectrum traits. A professional diagnostic assessment is strongly recommended. At this level, behavioral characteristics may have some impact on learning, work, or social interactions. Understanding and adapting strategies can be helpful.",
         "suggestions": [
           "Strongly recommended to seek a professional autism spectrum assessment",
           "A formal diagnosis must be made by a qualified clinician",
           "Receiving a diagnosis can help you understand yourself and access support",
-          "Learn about the concept of neurodiversity"
+          "Learn about the concept of neurodiversity",
+          "Consider a more comprehensive professional assessment"
         ]
       }
     ],

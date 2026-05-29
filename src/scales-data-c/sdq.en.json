@@ -232,10 +232,13 @@
         "max": 13,
         "level": "normal",
         "label": "Normal",
-        "description": "Total difficulties score is within normal range (excluding prosocial subscale).",
+        "description": "Total difficulties score is within normal range (excluding prosocial subscale). This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue monitoring the child's mental health development",
-          "Maintain a supportive family communication environment"
+          "Maintain a supportive family communication environment",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -243,11 +246,13 @@
         "max": 16,
         "level": "borderline",
         "label": "Borderline",
-        "description": "Total difficulties score is at a borderline level. Monitoring is advised.",
+        "description": "Total difficulties score is at a borderline level. Monitoring is advised. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Monitor the child's behavioral and emotional changes closely",
           "Maintain communication with school teachers",
-          "Consider a more detailed assessment"
+          "Consider a more detailed assessment",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       },
       {
@@ -255,11 +260,13 @@
         "max": 40,
         "level": "abnormal",
         "label": "Abnormal",
-        "description": "Total difficulties score is elevated. Professional evaluation is recommended.",
+        "description": "Total difficulties score is elevated. Professional evaluation is recommended. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Consult a child mental health professional",
           "Focus on specific problem dimensions for targeted intervention",
-          "Early intervention helps improve outcomes"
+          "Early intervention helps improve outcomes",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       }
     ],
@@ -270,21 +277,40 @@
           "max": 3,
           "level": "normal",
           "label": "Normal",
-          "description": "Emotional symptoms within normal range."
+          "description": "Emotional symptoms within normal range. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 4,
           "max": 4,
           "level": "borderline",
           "label": "Borderline",
-          "description": "Emotional symptoms at borderline level."
+          "description": "Emotional symptoms at borderline level. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 5,
           "max": 10,
           "level": "abnormal",
           "label": "Abnormal",
-          "description": "Elevated emotional symptoms."
+          "description": "Elevated emotional symptoms. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "conduct": [
@@ -293,21 +319,40 @@
           "max": 2,
           "level": "normal",
           "label": "Normal",
-          "description": "Conduct problems within normal range."
+          "description": "Conduct problems within normal range. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 3,
           "max": 3,
           "level": "borderline",
           "label": "Borderline",
-          "description": "Conduct problems at borderline level."
+          "description": "Conduct problems at borderline level. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 4,
           "max": 10,
           "level": "abnormal",
           "label": "Abnormal",
-          "description": "Elevated conduct problems."
+          "description": "Elevated conduct problems. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "hyperactivity": [
@@ -316,21 +361,37 @@
           "max": 5,
           "level": "normal",
           "label": "Normal",
-          "description": "Hyperactivity/inattention within normal range."
+          "description": "Hyperactivity/inattention within normal range. This indicates that the relevant behavioral characteristics are within the normal range with no significant functional impact.",
+          "suggestions": [
+            "Understand your behavioral characteristics and leverage your strengths",
+            "Maintain your current effective coping strategies",
+            "Seek information and support when needed"
+          ]
         },
         {
           "min": 6,
           "max": 6,
           "level": "borderline",
           "label": "Borderline",
-          "description": "Hyperactivity/inattention at borderline level."
+          "description": "Hyperactivity/inattention at borderline level. Mild behavioral differences are common. Understanding your own patterns can help you adapt more effectively to different environments.",
+          "suggestions": [
+            "Learn about your behavioral patterns and characteristics",
+            "Use planners and reminders to help organize daily activities",
+            "Communicate your needs to others when necessary",
+            "Leverage your unique strengths and creativity"
+          ]
         },
         {
           "min": 7,
           "max": 10,
           "level": "abnormal",
           "label": "Abnormal",
-          "description": "Elevated hyperactivity/inattention."
+          "description": "Elevated hyperactivity/inattention. This indicates that the relevant behavioral characteristics are within the normal range with no significant functional impact.",
+          "suggestions": [
+            "Understand your behavioral characteristics and leverage your strengths",
+            "Maintain your current effective coping strategies",
+            "Seek information and support when needed"
+          ]
         }
       ],
       "peer": [
@@ -339,21 +400,40 @@
           "max": 2,
           "level": "normal",
           "label": "Normal",
-          "description": "Peer problems within normal range."
+          "description": "Peer problems within normal range. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 3,
           "max": 3,
           "level": "borderline",
           "label": "Borderline",
-          "description": "Peer problems at borderline level."
+          "description": "Peer problems at borderline level. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 4,
           "max": 10,
           "level": "abnormal",
           "label": "Abnormal",
-          "description": "Elevated peer problems."
+          "description": "Elevated peer problems. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "prosocial": [
@@ -362,21 +442,40 @@
           "max": 10,
           "level": "normal",
           "label": "Normal",
-          "description": "Prosocial behavior within normal range."
+          "description": "Prosocial behavior within normal range. This indicates that your social functioning and relationships are in good condition, maintaining satisfactory social connections.",
+          "suggestions": [
+            "Continue maintaining your current social relationships",
+            "Keep an open and communicative attitude",
+            "Participate in social activities that interest you",
+            "Focus on the quality rather than quantity of relationships"
+          ]
         },
         {
           "min": 5,
           "max": 5,
           "level": "borderline",
           "label": "Borderline",
-          "description": "Prosocial behavior at borderline level."
+          "description": "Prosocial behavior at borderline level. Mild social concerns are common in everyday life. Expanding social activities and expressing your feelings may be helpful.",
+          "suggestions": [
+            "Try proactively joining social activities or interest groups",
+            "Practice social skills and assertive communication",
+            "Use online platforms to expand your social network",
+            "Share your feelings with someone you trust",
+            "Start with small social interactions and gradually expand"
+          ]
         },
         {
           "min": 0,
           "max": 4,
           "level": "abnormal",
           "label": "Abnormal",
-          "description": "Low prosocial behavior."
+          "description": "Low prosocial behavior. This indicates that your social functioning and relationships are in good condition, maintaining satisfactory social connections.",
+          "suggestions": [
+            "Continue maintaining your current social relationships",
+            "Keep an open and communicative attitude",
+            "Participate in social activities that interest you",
+            "Focus on the quality rather than quantity of relationships"
+          ]
         }
       ]
     }

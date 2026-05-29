@@ -108,10 +108,13 @@
         "max": 12,
         "level": "minimal",
         "label": "Low Overall Attachment Concern",
-        "description": "Your overall attachment ratings are low across all styles. This may indicate you haven't strongly identified with any particular pattern.",
+        "description": "Your overall attachment ratings are low across all styles. This may indicate you haven't strongly identified with any particular pattern. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Reflect on your relationship experiences to better understand your attachment tendencies",
-          "Consider discussing relationship patterns with a counselor"
+          "Consider discussing relationship patterns with a counselor",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -119,10 +122,13 @@
         "max": 20,
         "level": "normal",
         "label": "Moderate Attachment Pattern",
-        "description": "You show a moderate identification with one or more attachment styles. Review your subscale scores for more specific insights.",
+        "description": "You show a moderate identification with one or more attachment styles. Review your subscale scores for more specific insights. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Review individual attachment style scores to understand your dominant pattern",
-          "Reflect on how your attachment style influences your relationships"
+          "Reflect on how your attachment style influences your relationships",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -130,11 +136,13 @@
         "max": 28,
         "level": "mild",
         "label": "Strong Attachment Identification",
-        "description": "You strongly identify with one or more attachment styles. Review your subscale profile for detailed insights.",
+        "description": "You strongly identify with one or more attachment styles. Review your subscale profile for detailed insights. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Examine which specific attachment style(s) scored highest",
           "Consider how these patterns affect your relationship satisfaction",
-          "If insecure patterns predominate, consider attachment-focused therapy"
+          "If insecure patterns predominate, consider attachment-focused therapy",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       }
     ],
@@ -145,21 +153,41 @@
           "max": 3,
           "level": "low",
           "label": "Low Secure",
-          "description": "You do not strongly identify with the secure attachment style. You may experience some discomfort with closeness or trust."
+          "description": "You do not strongly identify with the secure attachment style. You may experience some discomfort with closeness or trust. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate Secure",
-          "description": "You show some secure attachment characteristics. You are somewhat comfortable with closeness and interdependence."
+          "description": "You show some secure attachment characteristics. You are somewhat comfortable with closeness and interdependence. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High Secure",
-          "description": "You strongly identify with the secure attachment style. You are comfortable with emotional closeness, trust, and mutual dependence."
+          "description": "You strongly identify with the secure attachment style. You are comfortable with emotional closeness, trust, and mutual dependence. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "fearful": [
@@ -168,21 +196,41 @@
           "max": 3,
           "level": "low",
           "label": "Low Fearful",
-          "description": "You do not strongly identify with the fearful attachment style. You are generally not overly worried about being hurt in relationships."
+          "description": "You do not strongly identify with the fearful attachment style. You are generally not overly worried about being hurt in relationships. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate Fearful",
-          "description": "You show some fearful attachment characteristics. You may sometimes struggle between wanting closeness and fearing rejection."
+          "description": "You show some fearful attachment characteristics. You may sometimes struggle between wanting closeness and fearing rejection. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High Fearful",
-          "description": "You strongly identify with the fearful attachment style. You desire close relationships but fear being hurt, making intimacy difficult."
+          "description": "You strongly identify with the fearful attachment style. You desire close relationships but fear being hurt, making intimacy difficult. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "preoccupied": [
@@ -191,21 +239,41 @@
           "max": 3,
           "level": "low",
           "label": "Low Preoccupied",
-          "description": "You do not strongly identify with the preoccupied attachment style. You generally do not excessively worry about others' availability."
+          "description": "You do not strongly identify with the preoccupied attachment style. You generally do not excessively worry about others' availability. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate Preoccupied",
-          "description": "You show some preoccupied attachment characteristics. You may sometimes worry that others do not value you as much as you value them."
+          "description": "You show some preoccupied attachment characteristics. You may sometimes worry that others do not value you as much as you value them. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High Preoccupied",
-          "description": "You strongly identify with the preoccupied attachment style. You strongly desire closeness and may worry excessively about relationship security."
+          "description": "You strongly identify with the preoccupied attachment style. You strongly desire closeness and may worry excessively about relationship security. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "dismissing": [
@@ -214,21 +282,41 @@
           "max": 3,
           "level": "low",
           "label": "Low Dismissing",
-          "description": "You do not strongly identify with the dismissing attachment style. You are generally open to emotional closeness and interdependence."
+          "description": "You do not strongly identify with the dismissing attachment style. You are generally open to emotional closeness and interdependence. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate Dismissing",
-          "description": "You show some dismissing attachment characteristics. You value independence but may still desire some close relationships."
+          "description": "You show some dismissing attachment characteristics. You value independence but may still desire some close relationships. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High Dismissing",
-          "description": "You strongly identify with the dismissing attachment style. You highly value independence and self-sufficiency, preferring to avoid emotional dependence."
+          "description": "You strongly identify with the dismissing attachment style. You highly value independence and self-sufficiency, preferring to avoid emotional dependence.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ]
     }

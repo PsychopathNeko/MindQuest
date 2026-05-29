@@ -101,7 +101,7 @@
         "max": 25,
         "level": "severe",
         "label": "Low Self-Esteem",
-        "description": "Your self-esteem level is low. You may hold a negative view of your self-worth and tend toward self-criticism.",
+        "description": "Your self-esteem level is low. You may hold a negative view of your self-worth and tend toward self-criticism. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Try recording your daily positive achievements and strengths",
           "Reduce negative comparisons with others",
@@ -115,12 +115,13 @@
         "max": 29,
         "level": "mild",
         "label": "Below Average",
-        "description": "Your self-esteem level is in the low-average range. You may experience self-doubt in certain situations.",
+        "description": "Your self-esteem level is in the low-average range. You may experience self-doubt in certain situations. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Acknowledge and affirm your achievements and strengths",
           "Set reasonable self-expectations",
           "Practice self-compassion and treat yourself kindly",
-          "Develop hobbies that give you a sense of accomplishment"
+          "Develop hobbies that give you a sense of accomplishment",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -128,11 +129,13 @@
         "max": 34,
         "level": "normal",
         "label": "Average",
-        "description": "Your self-esteem level is within the normal range, with a reasonably objective self-perception and moderate self-affirmation.",
+        "description": "Your self-esteem level is within the normal range, with a reasonably objective self-perception and moderate self-affirmation. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining a healthy self-awareness",
           "Trust in your abilities when facing challenges",
-          "Stay open-minded and accept constructive feedback"
+          "Stay open-minded and accept constructive feedback",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -140,11 +143,13 @@
         "max": 40,
         "level": "minimal",
         "label": "High Self-Esteem",
-        "description": "Your self-esteem level is high, with a positive self-evaluation and strong confidence. You are well-equipped to handle life's challenges.",
+        "description": "Your self-esteem level is high, with a positive self-evaluation and strong confidence. You are well-equipped to handle life's challenges. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining a positive self-perception",
           "Stay humble and considerate of others' feelings",
-          "Use your confidence to inspire and help those around you"
+          "Use your confidence to inspire and help those around you",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       }
     ],

@@ -209,10 +209,13 @@
         "max": 24,
         "level": "normal",
         "label": "Normal Range",
-        "description": "Your anxiety and depression symptoms are within the normal range.",
+        "description": "Your anxiety and depression symptoms are within the normal range. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Continue maintaining good mental health",
-          "Stay socially engaged and active"
+          "Stay socially engaged and active",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy",
+          "Practice gratitude by noting positive moments in your life"
         ]
       },
       {
@@ -220,11 +223,13 @@
         "max": 49,
         "level": "elevated",
         "label": "Elevated Symptoms",
-        "description": "Your anxiety and/or depression symptoms are elevated and deserve attention.",
+        "description": "Your anxiety and/or depression symptoms are elevated and deserve attention. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
         "suggestions": [
           "Talk to a trusted adult about how you are feeling",
           "Maintain regular exercise and healthy sleep habits",
-          "Consider talking to a school counselor"
+          "Consider talking to a school counselor",
+          "Try 30 minutes of aerobic exercise daily, such as walking or cycling",
+          "Maintain a regular sleep schedule and avoid staying up late"
         ]
       },
       {
@@ -232,11 +237,13 @@
         "max": 75,
         "level": "clinical",
         "label": "Clinically Significant",
-        "description": "Your symptoms reach clinically significant levels. Professional evaluation is recommended.",
+        "description": "Your symptoms reach clinically significant levels. Professional evaluation is recommended. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
         "suggestions": [
           "Consult a mental health professional as soon as possible",
           "Do not carry the burden alone; communicate with family or teachers",
-          "A professional assessment can help develop an appropriate intervention plan"
+          "A professional assessment can help develop an appropriate intervention plan",
+          "Consider consulting a mental health counselor for professional guidance",
+          "Try self-help exercises based on cognitive behavioral therapy (CBT)"
         ]
       }
     ],
@@ -247,21 +254,42 @@
           "max": 14,
           "level": "normal",
           "label": "Normal",
-          "description": "Anxiety symptoms within normal range."
+          "description": "Anxiety symptoms within normal range. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 15,
           "max": 29,
           "level": "elevated",
           "label": "Elevated",
-          "description": "Elevated anxiety symptoms."
+          "description": "Elevated anxiety symptoms. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
+          "suggestions": [
+            "Learn and practice progressive muscle relaxation",
+            "Try 5-10 minutes of mindfulness meditation daily",
+            "Reduce caffeine and stimulant intake",
+            "Record situations that trigger anxiety and try to analyze them rationally",
+            "Exercise regularly, at least three times a week"
+          ]
         },
         {
           "min": 30,
           "max": 45,
           "level": "clinical",
           "label": "Clinical",
-          "description": "Clinically significant anxiety symptoms."
+          "description": "Clinically significant anxiety symptoms. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
+          "suggestions": [
+            "Consider consulting a counselor or psychiatrist",
+            "Cognitive behavioral therapy (CBT) is highly effective for anxiety",
+            "Practice relaxation techniques daily and maintain regular exercise",
+            "Identify and reduce avoidance behaviors; gradually face anxiety-provoking situations",
+            "Maintain regular sleep and exercise habits"
+          ]
         }
       ],
       "depression": [
@@ -270,21 +298,42 @@
           "max": 9,
           "level": "normal",
           "label": "Normal",
-          "description": "Depression symptoms within normal range."
+          "description": "Depression symptoms within normal range. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
+          "suggestions": [
+            "Maintain regular social activities and hobbies",
+            "Set aside time each day for activities you enjoy",
+            "Practice gratitude by noting positive moments in your life",
+            "Keep a consistent sleep schedule and exercise routine",
+            "Stay connected with friends and family"
+          ]
         },
         {
           "min": 10,
           "max": 19,
           "level": "elevated",
           "label": "Elevated",
-          "description": "Elevated depression symptoms."
+          "description": "Elevated depression symptoms. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
+          "suggestions": [
+            "Try 30 minutes of aerobic exercise daily, such as walking or cycling",
+            "Maintain a regular sleep schedule and avoid staying up late",
+            "Practice mindfulness meditation or deep breathing exercises",
+            "Stay in touch with trusted friends or family members",
+            "Reduce time spent alone and engage in social activities"
+          ]
         },
         {
           "min": 20,
           "max": 30,
           "level": "clinical",
           "label": "Clinical",
-          "description": "Clinically significant depression symptoms."
+          "description": "Clinically significant depression symptoms. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
+          "suggestions": [
+            "Consider consulting a mental health counselor for professional guidance",
+            "Try self-help exercises based on cognitive behavioral therapy (CBT)",
+            "Wake up at a fixed time each day to establish daily structure",
+            "Set small, achievable daily goals to gradually restore activity levels",
+            "Reduce alcohol intake and avoid unhealthy coping strategies"
+          ]
         }
       ]
     }

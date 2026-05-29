@@ -170,12 +170,13 @@
         "max": 11,
         "level": "low",
         "label": "Low Happiness",
-        "description": "Your subjective happiness level is low. You may be experiencing less joy and satisfaction in daily life.",
+        "description": "Your subjective happiness level is low. You may be experiencing less joy and satisfaction in daily life. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Try focusing on the positive aspects of your life and cultivate a gratitude practice",
           "Increase social interactions with friends and family",
           "Engage in activities that bring you pleasure, such as exercise or hobbies",
-          "If persistent unhappiness continues, consider consulting a mental health professional"
+          "If persistent unhappiness continues, consider consulting a mental health professional",
+          "Try doing one fulfilling activity each day"
         ]
       },
       {
@@ -183,12 +184,13 @@
         "max": 18,
         "level": "moderate",
         "label": "Moderate Happiness",
-        "description": "Your subjective happiness is at a moderate level. You experience some degree of satisfaction and joy in life.",
+        "description": "Your subjective happiness is at a moderate level. You experience some degree of satisfaction and joy in life. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Continue developing positive life habits",
           "Explore new interests and activities to enrich your experiences",
           "Build deeper connections with others",
-          "Practice mindfulness meditation to enhance present-moment happiness"
+          "Practice mindfulness meditation to enhance present-moment happiness",
+          "Continue maintaining your positive lifestyle"
         ]
       },
       {
@@ -196,12 +198,13 @@
         "max": 23,
         "level": "high",
         "label": "Moderately High Happiness",
-        "description": "Your subjective happiness level is moderately high. You generally experience considerable joy and satisfaction in life.",
+        "description": "Your subjective happiness level is moderately high. You generally experience considerable joy and satisfaction in life. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Maintain your current positive lifestyle",
           "Share your happiness with those around you",
           "Continue pursuing meaningful goals and activities",
-          "Cherish and nurture the relationships and activities that bring you happiness"
+          "Cherish and nurture the relationships and activities that bring you happiness",
+          "Keep up the habits and activities that bring you happiness"
         ]
       },
       {
@@ -209,12 +212,13 @@
         "max": 28,
         "level": "very_high",
         "label": "High Happiness",
-        "description": "Your subjective happiness level is very high. You generally feel very satisfied and happy with life.",
+        "description": "Your subjective happiness level is very high. You generally feel very satisfied and happy with life. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Congratulations on your high level of happiness! Keep it up",
           "Share your positive attitude and help others improve their well-being",
           "Continue investing in meaningful activities and relationships",
-          "Maintain your gratitude and mindfulness practices"
+          "Maintain your gratitude and mindfulness practices",
+          "Keep up the habits and activities that bring you happiness"
         ]
       }
     ],

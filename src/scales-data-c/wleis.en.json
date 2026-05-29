@@ -180,12 +180,13 @@
         "max": 48,
         "level": "severe",
         "label": "Low EI",
-        "description": "Your emotional intelligence score is low. You may have difficulty identifying, understanding, and managing emotions.",
+        "description": "Your emotional intelligence score is low. You may have difficulty identifying, understanding, and managing emotions. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Learn to identify and name your emotions",
           "Practice observing others’ emotional cues",
           "Develop self-motivation habits",
-          "Consider EI training or psychological counseling"
+          "Consider EI training or psychological counseling",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       },
       {
@@ -193,12 +194,13 @@
         "max": 80,
         "level": "mild",
         "label": "Moderate EI",
-        "description": "Your emotional intelligence is at a moderate level. There is room for improvement in certain EI dimensions.",
+        "description": "Your emotional intelligence is at a moderate level. There is room for improvement in certain EI dimensions. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Review subscale scores and target areas for improvement",
           "Practice positive self-talk and emotion regulation",
           "Pay more attention to others’ emotional expressions",
-          "Set goals and practice self-motivation"
+          "Set goals and practice self-motivation",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -206,11 +208,13 @@
         "max": 96,
         "level": "normal",
         "label": "High EI",
-        "description": "Your emotional intelligence is high. You can understand and manage your own and others’ emotions well.",
+        "description": "Your emotional intelligence is high. You can understand and manage your own and others’ emotions well. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining strong emotional management skills",
           "Use your EI to enhance relationship quality",
-          "Exercise emotional leadership at work and in life"
+          "Exercise emotional leadership at work and in life",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -218,11 +222,13 @@
         "max": 112,
         "level": "minimal",
         "label": "Very High EI",
-        "description": "Your emotional intelligence is very high. You excel in emotion recognition, understanding, utilization, and regulation.",
+        "description": "Your emotional intelligence is very high. You excel in emotion recognition, understanding, utilization, and regulation. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Your high EI is a valuable social and professional resource",
           "Help others improve their emotional management skills",
-          "Serve as an emotional guide in team settings"
+          "Serve as an emotional guide in team settings",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       }
     ],
@@ -233,28 +239,55 @@
           "max": 12,
           "level": "minimal",
           "label": "Low",
-          "description": "Low self-emotion appraisal ability."
+          "description": "Low self-emotion appraisal ability. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 13,
           "max": 18,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate self-emotion appraisal ability."
+          "description": "Moderate self-emotion appraisal ability. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 19,
           "max": 24,
           "level": "moderate",
           "label": "High",
-          "description": "High self-emotion appraisal ability."
+          "description": "High self-emotion appraisal ability. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 25,
           "max": 28,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high self-emotion appraisal ability."
+          "description": "Very high self-emotion appraisal ability. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "oea": [
@@ -263,28 +296,55 @@
           "max": 12,
           "level": "minimal",
           "label": "Low",
-          "description": "Low others’ emotion appraisal ability."
+          "description": "Low others’ emotion appraisal ability. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 13,
           "max": 18,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate others’ emotion appraisal ability."
+          "description": "Moderate others’ emotion appraisal ability. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 19,
           "max": 24,
           "level": "moderate",
           "label": "High",
-          "description": "High others’ emotion appraisal ability."
+          "description": "High others’ emotion appraisal ability. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 25,
           "max": 28,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high others’ emotion appraisal ability."
+          "description": "Very high others’ emotion appraisal ability. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "uoe": [
@@ -293,28 +353,55 @@
           "max": 12,
           "level": "minimal",
           "label": "Low",
-          "description": "Low use of emotion ability."
+          "description": "Low use of emotion ability. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 13,
           "max": 18,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate use of emotion ability."
+          "description": "Moderate use of emotion ability. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 19,
           "max": 24,
           "level": "moderate",
           "label": "High",
-          "description": "High use of emotion ability."
+          "description": "High use of emotion ability. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 25,
           "max": 28,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high use of emotion ability."
+          "description": "Very high use of emotion ability. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "roe": [
@@ -323,28 +410,55 @@
           "max": 12,
           "level": "minimal",
           "label": "Low",
-          "description": "Low regulation of emotion ability."
+          "description": "Low regulation of emotion ability. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 13,
           "max": 18,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate regulation of emotion ability."
+          "description": "Moderate regulation of emotion ability. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 19,
           "max": 24,
           "level": "moderate",
           "label": "High",
-          "description": "High regulation of emotion ability."
+          "description": "High regulation of emotion ability. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 25,
           "max": 28,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high regulation of emotion ability."
+          "description": "Very high regulation of emotion ability. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ]
     }

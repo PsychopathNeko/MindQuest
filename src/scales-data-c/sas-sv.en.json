@@ -101,10 +101,13 @@
         "max": 20,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your smartphone use is within a healthy range.",
+        "description": "Your smartphone use is within a healthy range. This indicates that your current substance-use-related risk is low and within a healthy range.",
         "suggestions": [
           "Continue maintaining good smartphone usage habits",
-          "Regularly check your screen time"
+          "Regularly check your screen time",
+          "Continue maintaining a healthy lifestyle",
+          "Stay informed about risks related to substance use",
+          "Maintain the ability to make autonomous choices in social situations"
         ]
       },
       {
@@ -112,12 +115,13 @@
         "max": 33,
         "level": "mild",
         "label": "Mild Risk",
-        "description": "You may have some tendency toward excessive smartphone use, but it has not yet significantly impacted your life.",
+        "description": "You may have some tendency toward excessive smartphone use, but it has not yet significantly impacted your life. A mild risk level suggests it may be helpful to pay attention to your usage patterns and maintain self-awareness.",
         "suggestions": [
           "Set time limits for smartphone use",
           "Put your phone away during meals and before bedtime",
           "Enable Do Not Disturb mode to focus on work or studies",
-          "Try going for a walk without your phone"
+          "Try going for a walk without your phone",
+          "Pay attention to your usage patterns and frequency"
         ]
       },
       {
@@ -125,7 +129,7 @@
         "max": 45,
         "level": "moderate",
         "label": "Moderate Risk",
-        "description": "Your smartphone use may already be affecting your daily life and health.",
+        "description": "Your smartphone use may already be affecting your daily life and health. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
         "suggestions": [
           "Use your phone's built-in screen time management features",
           "Establish phone-free zones (e.g., bedroom, dining table)",
@@ -139,12 +143,13 @@
         "max": 60,
         "level": "severe",
         "label": "High Risk",
-        "description": "Your smartphone use has reached an excessive dependency level, seriously affecting daily functioning and physical/mental health.",
+        "description": "Your smartphone use has reached an excessive dependency level, seriously affecting daily functioning and physical/mental health. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional help",
           "Create a detailed smartphone usage restriction plan",
           "Ask family and friends to help monitor your usage",
-          "Consider using a basic phone during the withdrawal period"
+          "Consider using a basic phone during the withdrawal period",
+          "Seek professional addiction treatment as soon as possible"
         ]
       }
     ],

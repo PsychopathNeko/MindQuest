@@ -140,7 +140,7 @@
         "max": 73,
         "level": "moderate",
         "label": "Below Average Resilience",
-        "description": "Your score indicates below average resilience. You have some coping abilities but may find it challenging to manage prolonged or severe stress.",
+        "description": "Your score indicates below average resilience. You have some coping abilities but may find it challenging to manage prolonged or severe stress. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
         "suggestions": [
           "Work on identifying and building upon your existing strengths",
           "Practice reframing negative situations in a more balanced perspective",
@@ -154,7 +154,7 @@
         "max": 90,
         "level": "mild",
         "label": "Above Average Resilience",
-        "description": "Your score indicates above average resilience. You generally cope well with life's challenges and can adapt to most stressful situations.",
+        "description": "Your score indicates above average resilience. You generally cope well with life's challenges and can adapt to most stressful situations. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Continue applying your effective coping strategies",
           "Share your resilience skills with others who may benefit",

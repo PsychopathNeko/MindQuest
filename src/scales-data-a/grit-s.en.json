@@ -121,13 +121,13 @@
         "max": 16,
         "level": "severe",
         "label": "Low Grit",
-        "description": "Your grit score is low, suggesting difficulty maintaining long-term goals and effort. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "description": "Your grit score is low, suggesting difficulty maintaining long-term goals and effort. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Try setting smaller, achievable goals as stepping stones",
           "Practice committing to one project at a time",
           "Reflect on what truly matters to you long-term",
           "Consider working with a coach or mentor",
-          "Keep up the habits and activities that bring you happiness"
+          "Try doing one fulfilling activity each day"
         ]
       },
       {
@@ -149,13 +149,13 @@
         "max": 32,
         "level": "normal",
         "label": "Above Average Grit",
-        "description": "Your grit is above average. You generally maintain effort and interest in your long-term goals. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "description": "Your grit is above average. You generally maintain effort and interest in your long-term goals. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Continue cultivating your perseverance",
           "Share your strategies for persistence with others",
           "Challenge yourself with increasingly ambitious goals",
-          "Try doing one fulfilling activity each day",
-          "Stay connected with friends and family to build a sense of belonging"
+          "Continue maintaining your positive lifestyle",
+          "Share your experiences and positive feelings with others"
         ]
       },
       {
@@ -163,13 +163,13 @@
         "max": 40,
         "level": "minimal",
         "label": "High Grit",
-        "description": "Your grit score is high. You demonstrate strong perseverance and sustained passion for your long-term goals. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "description": "Your grit score is high. You demonstrate strong perseverance and sustained passion for your long-term goals. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue your excellent persistence habits",
           "Ensure you also allow flexibility when goals need adjusting",
           "Use your grit as a strength to inspire others",
-          "Try doing one fulfilling activity each day",
-          "Stay connected with friends and family to build a sense of belonging"
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others"
         ]
       }
     ],

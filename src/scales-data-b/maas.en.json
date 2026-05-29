@@ -126,13 +126,13 @@
         "max": 37,
         "level": "severe",
         "label": "Low Mindfulness",
-        "description": "Your mindful attention awareness is low. You frequently operate on autopilot in daily life. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "description": "Your mindful attention awareness is low. You frequently operate on autopilot in daily life. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Start with 5 minutes of mindfulness meditation daily",
           "Practice paying deliberate attention during routine activities",
           "Reduce multitasking",
           "Consider a mindfulness-based stress reduction program",
-          "Keep up the habits and activities that bring you happiness"
+          "Try doing one fulfilling activity each day"
         ]
       },
       {
@@ -154,13 +154,13 @@
         "max": 90,
         "level": "minimal",
         "label": "High Mindfulness",
-        "description": "Your mindful attention awareness is high. You generally maintain awareness of present-moment experiences. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "description": "Your mindful attention awareness is high. You generally maintain awareness of present-moment experiences. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue your mindfulness practice routine",
           "Explore deeper mindfulness techniques",
           "Integrate mindfulness into more life situations",
-          "Try doing one fulfilling activity each day",
-          "Stay connected with friends and family to build a sense of belonging"
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others"
         ]
       }
     ],

@@ -76,12 +76,13 @@
         "max": 7,
         "level": "severe",
         "label": "Poor Well-Being",
-        "description": "Your well-being score is very low, which may indicate significant emotional distress or possible depression. Further evaluation is recommended.",
+        "description": "Your well-being score is very low, which may indicate significant emotional distress or possible depression. Further evaluation is recommended. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Consider consulting a healthcare professional for a depression screening",
           "Reach out to a trusted friend, family member, or counselor",
           "Try to engage in activities that previously brought you joy",
-          "Prioritize basic self-care: sleep, nutrition, and gentle movement"
+          "Prioritize basic self-care: sleep, nutrition, and gentle movement",
+          "Try doing one fulfilling activity each day"
         ]
       },
       {
@@ -89,12 +90,13 @@
         "max": 12,
         "level": "moderate",
         "label": "Low Well-Being",
-        "description": "Your well-being score is below average. You may be experiencing reduced positive emotions and energy.",
+        "description": "Your well-being score is below average. You may be experiencing reduced positive emotions and energy. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
         "suggestions": [
           "Consider a more detailed mental health assessment",
           "Increase engagement in pleasurable and meaningful activities",
           "Practice regular physical exercise",
-          "Maintain social connections and share your feelings with others"
+          "Maintain social connections and share your feelings with others",
+          "Increase the frequency of positive social activities"
         ]
       },
       {
@@ -102,12 +104,13 @@
         "max": 17,
         "level": "mild",
         "label": "Moderate Well-Being",
-        "description": "Your well-being is at a moderate level. There is room for improvement in your overall sense of well-being.",
+        "description": "Your well-being is at a moderate level. There is room for improvement in your overall sense of well-being. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Continue to build positive daily habits",
           "Practice gratitude and mindfulness exercises",
           "Ensure adequate sleep and physical activity",
-          "Engage in social activities and maintain supportive relationships"
+          "Engage in social activities and maintain supportive relationships",
+          "Continue maintaining your positive lifestyle"
         ]
       },
       {
@@ -115,12 +118,13 @@
         "max": 25,
         "level": "normal",
         "label": "High Well-Being",
-        "description": "Your well-being score is high. You are experiencing good levels of positive emotions, energy, and engagement with life.",
+        "description": "Your well-being score is high. You are experiencing good levels of positive emotions, energy, and engagement with life. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue maintaining your positive lifestyle habits",
           "Share your well-being strategies with others",
           "Stay engaged with activities that bring you fulfillment",
-          "Practice resilience-building to sustain your well-being"
+          "Practice resilience-building to sustain your well-being",
+          "Keep up the habits and activities that bring you happiness"
         ]
       }
     ],

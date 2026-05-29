@@ -172,10 +172,13 @@
         "max": 20,
         "level": "none",
         "label": "No Social Anxiety",
-        "description": "Your social anxiety level is within the normal range.",
+        "description": "Your social anxiety level is within the normal range. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Maintain active social engagement",
-          "Continue your confident social style"
+          "Continue your confident social style",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching",
+          "Keep up a regular exercise routine"
         ]
       },
       {
@@ -183,11 +186,13 @@
         "max": 30,
         "level": "mild",
         "label": "Mild Social Anxiety",
-        "description": "You have mild social anxiety symptoms.",
+        "description": "You have mild social anxiety symptoms. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
         "suggestions": [
           "Gradually expose yourself to social situations that cause discomfort",
           "Practice relaxation techniques",
-          "Challenge negative social thoughts"
+          "Challenge negative social thoughts",
+          "Learn and practice progressive muscle relaxation",
+          "Try 5-10 minutes of mindfulness meditation daily"
         ]
       },
       {
@@ -195,11 +200,13 @@
         "max": 40,
         "level": "moderate",
         "label": "Moderate Social Anxiety",
-        "description": "You have moderate social anxiety symptoms that may affect social functioning.",
+        "description": "You have moderate social anxiety symptoms that may affect social functioning. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Consider consulting a mental health professional",
           "Cognitive Behavioral Therapy is highly effective for social anxiety",
-          "Consider joining a social skills training group"
+          "Consider joining a social skills training group",
+          "Consider consulting a counselor or psychiatrist",
+          "Cognitive behavioral therapy (CBT) is highly effective for anxiety"
         ]
       },
       {
@@ -207,11 +214,13 @@
         "max": 50,
         "level": "severe",
         "label": "Severe Social Anxiety",
-        "description": "You have severe social anxiety symptoms.",
+        "description": "You have severe social anxiety symptoms. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Professional psychological treatment is strongly recommended",
           "Medication may be helpful as an adjunct",
-          "Exposure therapy is a well-supported treatment approach"
+          "Exposure therapy is a well-supported treatment approach",
+          "Schedule a professional assessment as soon as possible",
+          "A combination of medication and psychotherapy may be beneficial"
         ]
       },
       {
@@ -219,11 +228,13 @@
         "max": 68,
         "level": "very_severe",
         "label": "Very Severe Social Anxiety",
-        "description": "You have very severe social anxiety symptoms significantly affecting daily life.",
+        "description": "You have very severe social anxiety symptoms significantly affecting daily life. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Seek help from a psychiatrist or mental health professional as soon as possible",
           "A combined treatment approach may be most effective",
-          "Do not let social anxiety prevent you from seeking help"
+          "Do not let social anxiety prevent you from seeking help",
+          "Schedule a professional assessment as soon as possible",
+          "A combination of medication and psychotherapy may be beneficial"
         ]
       }
     ],
@@ -234,21 +245,42 @@
           "max": 12,
           "level": "low",
           "label": "Low Fear",
-          "description": "Social fear symptoms are mild. Fear in social situations is not prominent."
+          "description": "Social fear symptoms are mild. Fear in social situations is not prominent. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 13,
           "max": 24,
           "level": "moderate",
           "label": "Moderate Fear",
-          "description": "Some degree of social fear is present. Certain social situations may cause notable discomfort."
+          "description": "Some degree of social fear is present. Certain social situations may cause notable discomfort. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
+          "suggestions": [
+            "Consider consulting a counselor or psychiatrist",
+            "Cognitive behavioral therapy (CBT) is highly effective for anxiety",
+            "Practice relaxation techniques daily and maintain regular exercise",
+            "Identify and reduce avoidance behaviors; gradually face anxiety-provoking situations",
+            "Maintain regular sleep and exercise habits"
+          ]
         },
         {
           "min": 25,
           "max": 36,
           "level": "high",
           "label": "High Fear",
-          "description": "Social fear symptoms are severe. Professional help is recommended."
+          "description": "Social fear symptoms are severe. Professional help is recommended. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         }
       ],
       "avoidance": [
@@ -257,21 +289,41 @@
           "max": 6,
           "level": "low",
           "label": "Low Avoidance",
-          "description": "Social avoidance behavior is minimal. You can participate in social activities well."
+          "description": "Social avoidance behavior is minimal. You can participate in social activities well. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
+          "suggestions": [
+            "Continue maintaining your good psychological health",
+            "Stay emotionally connected with friends and family",
+            "Focus on personal growth and positive experiences",
+            "Remember to seek support if you face difficult events in the future"
+          ]
         },
         {
           "min": 7,
           "max": 13,
           "level": "moderate",
           "label": "Moderate Avoidance",
-          "description": "Some social avoidance is present. You may tend to escape certain social situations."
+          "description": "Some social avoidance is present. You may tend to escape certain social situations. At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
+          "suggestions": [
+            "Consider consulting a professional trained in trauma therapy",
+            "Trauma-Focused CBT (TF-CBT) or EMDR may be helpful",
+            "Build a sense of safety and daily routine",
+            "Learn emotional regulation and coping skills",
+            "Avoid using alcohol or substances to cope"
+          ]
         },
         {
           "min": 14,
           "max": 20,
           "level": "high",
           "label": "High Avoidance",
-          "description": "Social avoidance is significant, seriously affecting social participation. Professional help is recommended."
+          "description": "Social avoidance is significant, seriously affecting social participation. Professional help is recommended. Your trauma-related reactions are quite pronounced and may be significantly impacting your functioning. Professional trauma-focused support is recommended.",
+          "suggestions": [
+            "Contact a trauma therapy specialist as soon as possible",
+            "Process traumatic memories in a safe environment",
+            "Develop a safety plan and crisis coping strategies",
+            "Ensure you have a supportive social network",
+            "Follow professional guidance for a gradual recovery process"
+          ]
         }
       ],
       "physiological": [
@@ -280,21 +332,42 @@
           "max": 4,
           "level": "low",
           "label": "Low Physiological Response",
-          "description": "Physiological reactions in social situations are mild."
+          "description": "Physiological reactions in social situations are mild. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 5,
           "max": 8,
           "level": "moderate",
           "label": "Moderate Physiological Response",
-          "description": "Some physiological discomfort in social situations, such as rapid heartbeat or sweating."
+          "description": "Some physiological discomfort in social situations, such as rapid heartbeat or sweating. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
+          "suggestions": [
+            "Consider consulting a counselor or psychiatrist",
+            "Cognitive behavioral therapy (CBT) is highly effective for anxiety",
+            "Practice relaxation techniques daily and maintain regular exercise",
+            "Identify and reduce avoidance behaviors; gradually face anxiety-provoking situations",
+            "Maintain regular sleep and exercise habits"
+          ]
         },
         {
           "min": 9,
           "max": 12,
           "level": "high",
           "label": "Strong Physiological Response",
-          "description": "Physiological reactions in social situations are intense. Relaxation techniques and professional help are recommended."
+          "description": "Physiological reactions in social situations are intense. Relaxation techniques and professional help are recommended. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         }
       ]
     }

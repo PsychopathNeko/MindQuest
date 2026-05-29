@@ -124,10 +124,13 @@
         "max": 3,
         "level": "minimal",
         "label": "No/Minimal Somatic Symptoms",
-        "description": "Your somatic symptom burden is very low, within the normal range.",
+        "description": "Your somatic symptom burden is very low, within the normal range. This indicates that you are currently experiencing minimal physical discomfort, with somatic symptoms within the normal range.",
         "suggestions": [
           "Continue maintaining a healthy lifestyle",
-          "Occasional discomfort is a normal fluctuation"
+          "Occasional discomfort is a normal fluctuation",
+          "Continue maintaining healthy lifestyle habits",
+          "Get regular check-ups to maintain physical health",
+          "Keep up moderate exercise and a balanced diet"
         ]
       },
       {
@@ -135,11 +138,13 @@
         "max": 7,
         "level": "mild",
         "label": "Mild Somatic Symptoms",
-        "description": "You have some mild somatic symptoms, possibly related to daily stress or lifestyle factors.",
+        "description": "You have some mild somatic symptoms, possibly related to daily stress or lifestyle factors. Mild physical discomfort is common. Rest and healthy lifestyle habits can often help alleviate these symptoms.",
         "suggestions": [
           "Monitor symptom changes and maintain healthy routines",
           "Regular exercise and relaxation may help",
-          "If symptoms persist beyond two weeks, consider seeing a doctor"
+          "If symptoms persist beyond two weeks, consider seeing a doctor",
+          "Pay attention to your body signals and rest when needed",
+          "Maintain regular exercise and healthy eating habits"
         ]
       },
       {
@@ -147,12 +152,13 @@
         "max": 11,
         "level": "moderate",
         "label": "Moderate Somatic Symptoms",
-        "description": "Your somatic symptom burden is moderate and may affect daily functioning. Consider seeking medical attention.",
+        "description": "Your somatic symptom burden is moderate and may affect daily functioning. Consider seeking medical attention. At this level, physical symptoms may cause discomfort and affect your daily activities and emotional state.",
         "suggestions": [
           "Consider seeing a doctor for a physical examination",
           "Understand the mind-body connection — psychological stress can manifest as physical symptoms",
           "Regular exercise and adequate sleep may help",
-          "Consider psychological counseling if needed"
+          "Consider psychological counseling if needed",
+          "Consider consulting a doctor for a physical examination"
         ]
       },
       {
@@ -160,12 +166,13 @@
         "max": 15,
         "level": "severe",
         "label": "High Somatic Symptoms",
-        "description": "Your somatic symptom burden is high and may significantly affect daily life and work.",
+        "description": "Your somatic symptom burden is high and may significantly affect daily life and work. Your somatic symptom scores are elevated, and these discomforts may be significantly affecting your quality of life. Both medical and psychological evaluation is recommended.",
         "suggestions": [
           "Recommend seeing a doctor for a comprehensive examination",
           "Also consider a mental health evaluation",
           "Learn about somatic symptom disorder",
-          "Integrated treatment (addressing both body and mind) is most effective"
+          "Integrated treatment (addressing both body and mind) is most effective",
+          "Consult a doctor for a comprehensive physical examination as soon as possible"
         ]
       },
       {
@@ -173,12 +180,13 @@
         "max": 32,
         "level": "severe",
         "label": "Very High Somatic Symptoms",
-        "description": "You reported a severe somatic symptom burden. A comprehensive psychosomatic evaluation is strongly recommended.",
+        "description": "You reported a severe somatic symptom burden. A comprehensive psychosomatic evaluation is strongly recommended. Your somatic symptom scores are elevated, and these discomforts may be significantly affecting your quality of life. Both medical and psychological evaluation is recommended.",
         "suggestions": [
           "Please see a doctor soon for a thorough physical examination",
           "A psychiatric/psychological consultation is also recommended",
           "Severe somatic symptoms may require a comprehensive treatment plan",
-          "Do not overlook the impact of these symptoms on quality of life"
+          "Do not overlook the impact of these symptoms on quality of life",
+          "Consult a doctor for a comprehensive physical examination as soon as possible"
         ]
       }
     ],
@@ -189,21 +197,40 @@
           "max": 1,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal gastrointestinal symptoms."
+          "description": "Minimal gastrointestinal symptoms. This indicates that you are currently experiencing minimal physical discomfort, with somatic symptoms within the normal range.",
+          "suggestions": [
+            "Continue maintaining healthy lifestyle habits",
+            "Get regular check-ups to maintain physical health",
+            "Keep up moderate exercise and a balanced diet"
+          ]
         },
         {
           "min": 2,
           "max": 3,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some gastrointestinal discomfort."
+          "description": "Some gastrointestinal discomfort. Mild physical discomfort is common. Rest and healthy lifestyle habits can often help alleviate these symptoms.",
+          "suggestions": [
+            "Pay attention to your body signals and rest when needed",
+            "Maintain regular exercise and healthy eating habits",
+            "Learn relaxation techniques to relieve physical tension",
+            "Ensure adequate sleep",
+            "If symptoms persist, consult a doctor to rule out physical conditions"
+          ]
         },
         {
           "min": 4,
           "max": 4,
           "level": "moderate",
           "label": "High",
-          "description": "Notable gastrointestinal symptoms."
+          "description": "Notable gastrointestinal symptoms. At this level, physical symptoms may cause discomfort and affect your daily activities and emotional state.",
+          "suggestions": [
+            "Consider consulting a doctor for a physical examination",
+            "Understand the relationship between mind and body",
+            "Learn stress management and relaxation techniques",
+            "Maintain moderate exercise and social activities",
+            "Keep a symptom diary to help track changes"
+          ]
         }
       ],
       "pain": [
@@ -212,21 +239,40 @@
           "max": 3,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal pain symptoms."
+          "description": "Minimal pain symptoms. This indicates that you are currently experiencing minimal physical discomfort, with somatic symptoms within the normal range.",
+          "suggestions": [
+            "Continue maintaining healthy lifestyle habits",
+            "Get regular check-ups to maintain physical health",
+            "Keep up moderate exercise and a balanced diet"
+          ]
         },
         {
           "min": 4,
           "max": 7,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some pain symptoms."
+          "description": "Some pain symptoms. Mild physical discomfort is common. Rest and healthy lifestyle habits can often help alleviate these symptoms.",
+          "suggestions": [
+            "Pay attention to your body signals and rest when needed",
+            "Maintain regular exercise and healthy eating habits",
+            "Learn relaxation techniques to relieve physical tension",
+            "Ensure adequate sleep",
+            "If symptoms persist, consult a doctor to rule out physical conditions"
+          ]
         },
         {
           "min": 8,
           "max": 12,
           "level": "moderate",
           "label": "High",
-          "description": "Notable pain symptoms. Attention recommended."
+          "description": "Notable pain symptoms. Attention recommended. At this level, physical symptoms may cause discomfort and affect your daily activities and emotional state.",
+          "suggestions": [
+            "Consider consulting a doctor for a physical examination",
+            "Understand the relationship between mind and body",
+            "Learn stress management and relaxation techniques",
+            "Maintain moderate exercise and social activities",
+            "Keep a symptom diary to help track changes"
+          ]
         }
       ],
       "cardiopulmonary": [
@@ -235,21 +281,40 @@
           "max": 2,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal cardiopulmonary symptoms."
+          "description": "Minimal cardiopulmonary symptoms. This indicates that you are currently experiencing minimal physical discomfort, with somatic symptoms within the normal range.",
+          "suggestions": [
+            "Continue maintaining healthy lifestyle habits",
+            "Get regular check-ups to maintain physical health",
+            "Keep up moderate exercise and a balanced diet"
+          ]
         },
         {
           "min": 3,
           "max": 5,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some cardiopulmonary discomfort."
+          "description": "Some cardiopulmonary discomfort. Mild physical discomfort is common. Rest and healthy lifestyle habits can often help alleviate these symptoms.",
+          "suggestions": [
+            "Pay attention to your body signals and rest when needed",
+            "Maintain regular exercise and healthy eating habits",
+            "Learn relaxation techniques to relieve physical tension",
+            "Ensure adequate sleep",
+            "If symptoms persist, consult a doctor to rule out physical conditions"
+          ]
         },
         {
           "min": 6,
           "max": 8,
           "level": "moderate",
           "label": "High",
-          "description": "Notable cardiopulmonary symptoms. Medical evaluation recommended."
+          "description": "Notable cardiopulmonary symptoms. Medical evaluation recommended. At this level, physical symptoms may cause discomfort and affect your daily activities and emotional state.",
+          "suggestions": [
+            "Consider consulting a doctor for a physical examination",
+            "Understand the relationship between mind and body",
+            "Learn stress management and relaxation techniques",
+            "Maintain moderate exercise and social activities",
+            "Keep a symptom diary to help track changes"
+          ]
         }
       ],
       "fatigue": [
@@ -258,21 +323,40 @@
           "max": 2,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal fatigue."
+          "description": "Minimal fatigue. This indicates that you are currently experiencing minimal physical discomfort, with somatic symptoms within the normal range.",
+          "suggestions": [
+            "Continue maintaining healthy lifestyle habits",
+            "Get regular check-ups to maintain physical health",
+            "Keep up moderate exercise and a balanced diet"
+          ]
         },
         {
           "min": 3,
           "max": 5,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some fatigue present."
+          "description": "Some fatigue present. Mild physical discomfort is common. Rest and healthy lifestyle habits can often help alleviate these symptoms.",
+          "suggestions": [
+            "Pay attention to your body signals and rest when needed",
+            "Maintain regular exercise and healthy eating habits",
+            "Learn relaxation techniques to relieve physical tension",
+            "Ensure adequate sleep",
+            "If symptoms persist, consult a doctor to rule out physical conditions"
+          ]
         },
         {
           "min": 6,
           "max": 8,
           "level": "moderate",
           "label": "High",
-          "description": "Notable fatigue. Attention to sleep and rest recommended."
+          "description": "Notable fatigue. Attention to sleep and rest recommended. At this level, physical symptoms may cause discomfort and affect your daily activities and emotional state.",
+          "suggestions": [
+            "Consider consulting a doctor for a physical examination",
+            "Understand the relationship between mind and body",
+            "Learn stress management and relaxation techniques",
+            "Maintain moderate exercise and social activities",
+            "Keep a symptom diary to help track changes"
+          ]
         }
       ]
     }

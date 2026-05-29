@@ -157,13 +157,13 @@
         "max": 14,
         "level": "severe",
         "label": "Languishing",
-        "description": "Your positive mental health is low. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "description": "Your positive mental health is low. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Focus on positive experiences",
           "Build meaningful social connections",
           "Consider consulting a professional",
-          "Keep up the habits and activities that bring you happiness",
-          "Share your positive experiences with others"
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging"
         ]
       },
       {
@@ -185,13 +185,13 @@
         "max": 70,
         "level": "minimal",
         "label": "Flourishing",
-        "description": "Your positive mental health is high. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "description": "Your positive mental health is high. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue maintaining your positive lifestyle",
           "Share positive energy with others",
-          "Try doing one fulfilling activity each day",
-          "Stay connected with friends and family to build a sense of belonging",
-          "Explore new interests and activities"
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others",
+          "Maintain gratitude and mindfulness practices"
         ]
       }
     ],
@@ -235,7 +235,8 @@
             "Continue maintaining a healthy lifestyle and mental well-being",
             "Focus on personal growth and positive experiences",
             "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Remember to seek support when facing difficulties",
+            "Keep up the habits and activities that bring you happiness"
           ]
         }
       ],
@@ -278,7 +279,8 @@
             "Continue maintaining your current social relationships",
             "Keep an open and communicative attitude",
             "Participate in social activities that interest you",
-            "Focus on the quality rather than quantity of relationships"
+            "Focus on the quality rather than quantity of relationships",
+            "Keep up the habits and activities that bring you happiness"
           ]
         }
       ],
@@ -288,12 +290,13 @@
           "max": 10,
           "level": "severe",
           "label": "Low",
-          "description": "Psychological well-being is low. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Psychological well-being is low. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         },
         {
@@ -314,13 +317,12 @@
           "max": 30,
           "level": "minimal",
           "label": "High",
-          "description": "Psychological well-being is high. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Psychological well-being is high. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         }
       ]

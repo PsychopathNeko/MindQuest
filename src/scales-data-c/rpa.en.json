@@ -167,11 +167,13 @@
         "max": 33,
         "level": "minimal",
         "label": "Low Overall Response",
-        "description": "Your overall response to positive affect is low across all domains. You may not strongly engage with positive emotions in any particular way.",
+        "description": "Your overall response to positive affect is low across all domains. You may not strongly engage with positive emotions in any particular way. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Review your subscale scores for a more meaningful interpretation",
           "Consider whether you tend to notice and engage with positive emotions",
-          "Practice paying attention to pleasant experiences as they occur"
+          "Practice paying attention to pleasant experiences as they occur",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -179,11 +181,13 @@
         "max": 50,
         "level": "moderate",
         "label": "Moderate Overall Response",
-        "description": "You show a moderate overall level of response to positive emotions. Check subscale scores to see your balance of dampening versus savoring.",
+        "description": "You show a moderate overall level of response to positive emotions. Check subscale scores to see your balance of dampening versus savoring. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Focus on the subscale breakdown for personalized insights",
           "If dampening is high relative to positive rumination, practice savoring exercises",
-          "Cultivate awareness of how you respond when feeling good"
+          "Cultivate awareness of how you respond when feeling good",
+          "Consider consulting a mental health professional",
+          "Identify your specific sources of concern"
         ]
       },
       {
@@ -195,7 +199,9 @@
         "suggestions": [
           "Review subscale scores carefully to understand your response pattern",
           "If dampening is elevated, work on allowing yourself to fully enjoy positive moments",
-          "If positive rumination is high, continue nurturing this adaptive response style"
+          "If positive rumination is high, continue nurturing this adaptive response style",
+          "Schedule a mental health professional assessment as soon as possible",
+          "Make sure you have trusted people around you for support"
         ]
       }
     ],
@@ -206,28 +212,55 @@
           "max": 14,
           "level": "minimal",
           "label": "Low Dampening",
-          "description": "You rarely dampen your positive emotions. You tend to allow yourself to fully experience and enjoy positive feelings."
+          "description": "You rarely dampen your positive emotions. You tend to allow yourself to fully experience and enjoy positive feelings. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 15,
           "max": 20,
           "level": "moderate",
           "label": "Moderate Dampening",
-          "description": "You sometimes dampen your positive emotions by thinking about negatives or discounting good feelings."
+          "description": "You sometimes dampen your positive emotions by thinking about negatives or discounting good feelings. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 21,
           "max": 26,
           "level": "high",
           "label": "High Dampening",
-          "description": "You frequently dampen positive emotions. This tendency may reduce your ability to benefit from positive experiences."
+          "description": "You frequently dampen positive emotions. This tendency may reduce your ability to benefit from positive experiences. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 27,
           "max": 32,
           "level": "severe",
           "label": "Very High Dampening",
-          "description": "You very often dampen your positive emotions. This pattern is associated with vulnerability to depression and reduced well-being."
+          "description": "You very often dampen your positive emotions. This pattern is associated with vulnerability to depression and reduced well-being. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "self_focused": [
@@ -236,28 +269,55 @@
           "max": 7,
           "level": "minimal",
           "label": "Low",
-          "description": "You rarely focus on yourself (e.g., pride, strength, achievement) when feeling positive."
+          "description": "You rarely focus on yourself (e.g., pride, strength, achievement) when feeling positive. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "moderate",
           "label": "Moderate",
-          "description": "You sometimes reflect on your personal strengths and accomplishments during positive moments."
+          "description": "You sometimes reflect on your personal strengths and accomplishments during positive moments. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 11,
           "max": 13,
           "level": "high",
           "label": "High",
-          "description": "You often focus on personal pride and achievement when experiencing positive emotions."
+          "description": "You often focus on personal pride and achievement when experiencing positive emotions. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 14,
           "max": 16,
           "level": "severe",
           "label": "Very High",
-          "description": "You very frequently engage in self-focused positive rumination, strongly connecting positive feelings to personal worth."
+          "description": "You very frequently engage in self-focused positive rumination, strongly connecting positive feelings to personal worth. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "emotion_focused": [
@@ -266,28 +326,55 @@
           "max": 9,
           "level": "minimal",
           "label": "Low",
-          "description": "You rarely savor or focus on the positive emotional experience itself."
+          "description": "You rarely savor or focus on the positive emotional experience itself. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 10,
           "max": 13,
           "level": "moderate",
           "label": "Moderate",
-          "description": "You sometimes savor the moment and focus on your positive emotional experiences."
+          "description": "You sometimes savor the moment and focus on your positive emotional experiences. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 14,
           "max": 17,
           "level": "high",
           "label": "High",
-          "description": "You often savor positive moments and actively engage with your positive emotional experiences."
+          "description": "You often savor positive moments and actively engage with your positive emotional experiences. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 18,
           "max": 20,
           "level": "severe",
           "label": "Very High",
-          "description": "You very frequently savor and immerse yourself in positive emotional experiences. This is an adaptive response style."
+          "description": "You very frequently savor and immerse yourself in positive emotional experiences. This is an adaptive response style. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ]
     }

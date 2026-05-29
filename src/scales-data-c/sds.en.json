@@ -156,11 +156,13 @@
         "max": 44,
         "level": "normal",
         "label": "Normal",
-        "description": "Your score is within the normal range. No clinically significant depressive symptoms detected.",
+        "description": "Your score is within the normal range. No clinically significant depressive symptoms detected. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Continue maintaining a healthy lifestyle",
           "Keep up regular exercise and social activities",
-          "Practice good sleep hygiene"
+          "Practice good sleep hygiene",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy"
         ]
       },
       {
@@ -168,12 +170,13 @@
         "max": 59,
         "level": "mild",
         "label": "Mild Depression",
-        "description": "Your score suggests mild depressive symptoms that may be affecting your daily life.",
+        "description": "Your score suggests mild depressive symptoms that may be affecting your daily life. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
         "suggestions": [
           "Pay attention to changes in your mood and energy levels",
           "Maintain regular exercise and social engagement",
           "Try relaxation techniques such as deep breathing or meditation",
-          "Consider consulting a healthcare professional if symptoms persist"
+          "Consider consulting a healthcare professional if symptoms persist",
+          "Try 30 minutes of aerobic exercise daily, such as walking or cycling"
         ]
       },
       {
@@ -181,12 +184,13 @@
         "max": 69,
         "level": "moderate",
         "label": "Moderate Depression",
-        "description": "Your score indicates moderate depressive symptoms. These may significantly affect your daily functioning.",
+        "description": "Your score indicates moderate depressive symptoms. These may significantly affect your daily functioning. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
         "suggestions": [
           "Consult a mental health professional for evaluation",
           "Consider psychotherapy (e.g., cognitive behavioral therapy)",
           "Maintain a structured daily routine",
-          "Avoid alcohol and other substances that may worsen depression"
+          "Avoid alcohol and other substances that may worsen depression",
+          "Consider consulting a mental health counselor for professional guidance"
         ]
       },
       {
@@ -194,12 +198,13 @@
         "max": 80,
         "level": "severe",
         "label": "Severe Depression",
-        "description": "Your score suggests severe depressive symptoms. Immediate professional help is strongly recommended.",
+        "description": "Your score suggests severe depressive symptoms. Immediate professional help is strongly recommended. Your score suggests notable emotional distress that may be significantly affecting your quality of life. Reaching out to a mental health professional is recommended.",
         "suggestions": [
           "Seek immediate consultation with a psychiatrist",
           "If you have thoughts of self-harm, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
           "Do not stay alone; inform family or friends of your situation",
-          "Professional treatment including medication and therapy is essential"
+          "Professional treatment including medication and therapy is essential",
+          "Schedule an appointment with a mental health professional as soon as possible"
         ]
       }
     ],

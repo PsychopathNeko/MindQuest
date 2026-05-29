@@ -197,10 +197,13 @@
         "max": 51,
         "level": "none",
         "label": "No Alexithymia",
-        "description": "Your ability to identify and express emotions is within the normal range.",
+        "description": "Your ability to identify and express emotions is within the normal range. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining good emotional awareness",
-          "Sharing feelings with others supports mental health"
+          "Sharing feelings with others supports mental health",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -208,11 +211,13 @@
         "max": 60,
         "level": "possible",
         "label": "Possible Alexithymia",
-        "description": "You may have some degree of alexithymia.",
+        "description": "You may have some degree of alexithymia. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Practice identifying and naming your emotions",
           "Keeping an emotion journal may be helpful",
-          "Consider emotional awareness training"
+          "Consider emotional awareness training",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       },
       {
@@ -220,11 +225,13 @@
         "max": 100,
         "level": "alexithymia",
         "label": "Alexithymia",
-        "description": "Your score suggests alexithymia, with significant difficulty in identifying and expressing emotions.",
+        "description": "Your score suggests alexithymia, with significant difficulty in identifying and expressing emotions. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Consider consulting a mental health professional",
           "Psychotherapy can help improve emotional awareness",
-          "Body sensation awareness practices (e.g., mindfulness) may be beneficial"
+          "Body sensation awareness practices (e.g., mindfulness) may be beneficial",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       }
     ],
@@ -235,21 +242,41 @@
           "max": 16,
           "level": "low",
           "label": "Normal",
-          "description": "Your ability to identify emotions is normal. You can recognize and distinguish your feelings well."
+          "description": "Your ability to identify emotions is normal. You can recognize and distinguish your feelings well. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 17,
           "max": 25,
           "level": "moderate",
           "label": "Moderate Difficulty",
-          "description": "You have some difficulty identifying emotions, sometimes struggling to distinguish different emotional experiences."
+          "description": "You have some difficulty identifying emotions, sometimes struggling to distinguish different emotional experiences. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 26,
           "max": 35,
           "level": "high",
           "label": "Significant Difficulty",
-          "description": "You have significant difficulty identifying emotions. Professional training to improve emotional awareness is recommended."
+          "description": "You have significant difficulty identifying emotions. Professional training to improve emotional awareness is recommended. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "difficulty_describing": [
@@ -258,21 +285,41 @@
           "max": 11,
           "level": "low",
           "label": "Normal",
-          "description": "Your ability to describe emotions is normal. You can express your feelings in words well."
+          "description": "Your ability to describe emotions is normal. You can express your feelings in words well. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 12,
           "max": 18,
           "level": "moderate",
           "label": "Moderate Difficulty",
-          "description": "You have some difficulty describing emotions, sometimes struggling to find the right words for your feelings."
+          "description": "You have some difficulty describing emotions, sometimes struggling to find the right words for your feelings. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 19,
           "max": 25,
           "level": "high",
           "label": "Significant Difficulty",
-          "description": "You have significant difficulty describing emotions. Practicing with an emotion journal is recommended."
+          "description": "You have significant difficulty describing emotions. Practicing with an emotion journal is recommended. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "externally_oriented": [
@@ -281,21 +328,41 @@
           "max": 18,
           "level": "low",
           "label": "Normal",
-          "description": "Your thinking style is introspective, with good attention to inner experiences."
+          "description": "Your thinking style is introspective, with good attention to inner experiences. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 19,
           "max": 29,
           "level": "moderate",
           "label": "Moderately Externally Oriented",
-          "description": "Your thinking tends toward external matters, with less attention to inner emotional experiences."
+          "description": "Your thinking tends toward external matters, with less attention to inner emotional experiences. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 30,
           "max": 40,
           "level": "high",
           "label": "Highly Externally Oriented",
-          "description": "Your thinking is strongly oriented toward external matters. Mindfulness and reflective practices are recommended."
+          "description": "Your thinking is strongly oriented toward external matters. Mindfulness and reflective practices are recommended. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ]
     }

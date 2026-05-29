@@ -158,10 +158,13 @@
         "max": 5,
         "level": "none",
         "label": "No Depression",
-        "description": "Your depressive symptom score is within the normal range.",
+        "description": "Your depressive symptom score is within the normal range. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Maintain healthy lifestyle habits",
-          "Continue engaging in social relationships and activities"
+          "Continue engaging in social relationships and activities",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy",
+          "Practice gratitude by noting positive moments in your life"
         ]
       },
       {
@@ -169,11 +172,13 @@
         "max": 10,
         "level": "mild",
         "label": "Mild Depression",
-        "description": "You have mild depressive symptoms.",
+        "description": "You have mild depressive symptoms. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
         "suggestions": [
           "Increase physical activity and outdoor time",
           "Maintain a regular sleep schedule",
-          "Stay connected with friends and family"
+          "Stay connected with friends and family",
+          "Try 30 minutes of aerobic exercise daily, such as walking or cycling",
+          "Maintain a regular sleep schedule and avoid staying up late"
         ]
       },
       {
@@ -181,11 +186,13 @@
         "max": 15,
         "level": "moderate",
         "label": "Moderate Depression",
-        "description": "You have moderate depressive symptoms. Further evaluation is recommended.",
+        "description": "You have moderate depressive symptoms. Further evaluation is recommended. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
         "suggestions": [
           "Consult a mental health professional",
           "Consider psychotherapy such as Cognitive Behavioral Therapy",
-          "Focus on self-care and ensuring basic needs are met"
+          "Focus on self-care and ensuring basic needs are met",
+          "Consider consulting a mental health counselor for professional guidance",
+          "Try self-help exercises based on cognitive behavioral therapy (CBT)"
         ]
       },
       {
@@ -193,11 +200,13 @@
         "max": 20,
         "level": "severe",
         "label": "Severe Depression",
-        "description": "You have severe depressive symptoms requiring professional intervention.",
+        "description": "You have severe depressive symptoms requiring professional intervention. Your score suggests notable emotional distress that may be significantly affecting your quality of life. Reaching out to a mental health professional is recommended.",
         "suggestions": [
           "Seek psychiatric evaluation as soon as possible",
           "Medication combined with psychotherapy may be needed",
-          "Ensure you have a safety support network"
+          "Ensure you have a safety support network",
+          "Schedule an appointment with a mental health professional as soon as possible",
+          "You can call a mental health helpline for immediate support"
         ]
       },
       {
@@ -205,11 +214,13 @@
         "max": 27,
         "level": "very_severe",
         "label": "Very Severe Depression",
-        "description": "Your depressive symptoms are very severe. Seek help immediately.",
+        "description": "Your depressive symptoms are very severe. Seek help immediately. Your score suggests notable emotional distress that may be significantly affecting your quality of life. Reaching out to a mental health professional is recommended.",
         "suggestions": [
           "Contact a psychiatrist or emergency services immediately",
           "If having suicidal thoughts, call a crisis hotline",
-          "Do not be alone; inform family or friends of your condition"
+          "Do not be alone; inform family or friends of your condition",
+          "Schedule an appointment with a mental health professional as soon as possible",
+          "You can call a mental health helpline for immediate support"
         ]
       }
     ],

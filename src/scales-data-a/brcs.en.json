@@ -68,13 +68,13 @@
         "max": 8,
         "level": "severe",
         "label": "Low Resilience",
-        "description": "You have low resilient coping. You may have difficulty finding adaptive ways to deal with stressful situations. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "description": "You have low resilient coping. You may have difficulty finding adaptive ways to deal with stressful situations. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Try to identify at least one positive aspect in each challenge you face",
           "Build a network of supportive relationships",
           "Practice problem-solving by breaking large problems into smaller steps",
           "Consider speaking with a counselor about developing coping strategies",
-          "Keep up the habits and activities that bring you happiness"
+          "Try doing one fulfilling activity each day"
         ]
       },
       {
@@ -82,13 +82,13 @@
         "max": 12,
         "level": "moderate",
         "label": "Moderate Resilience",
-        "description": "You have moderate resilient coping abilities. You sometimes find creative solutions but may struggle with particularly challenging situations. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+        "description": "You have moderate resilient coping abilities. You sometimes find creative solutions but may struggle with particularly challenging situations. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
         "suggestions": [
           "Continue developing your problem-solving skills",
           "Practice reframing negative situations in a more balanced way",
           "Engage in activities that build confidence and mastery",
           "Reflect on past difficulties you have successfully overcome",
-          "Continue maintaining your positive lifestyle"
+          "Increase the frequency of positive social activities"
         ]
       },
       {
@@ -96,13 +96,13 @@
         "max": 16,
         "level": "mild",
         "label": "Moderately High Resilience",
-        "description": "You have moderately high resilient coping. You generally approach difficulties with adaptive strategies and can often find creative solutions. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
+        "description": "You have moderately high resilient coping. You generally approach difficulties with adaptive strategies and can often find creative solutions. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Continue applying your flexible approach to challenges",
           "Share your coping strategies with others who may benefit",
           "Keep building on your strengths while acknowledging areas for growth",
           "Maintain practices that support your resilience",
-          "Increase the frequency of positive social activities"
+          "Continue maintaining your positive lifestyle"
         ]
       },
       {
@@ -110,13 +110,13 @@
         "max": 20,
         "level": "minimal",
         "label": "High Resilience",
-        "description": "You have high resilient coping. You consistently approach adversity with creativity, flexibility, and active problem-solving. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "description": "You have high resilient coping. You consistently approach adversity with creativity, flexibility, and active problem-solving. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue maintaining your strong resilient coping style",
           "Your approach to difficulties can inspire and help others",
           "Remember to balance active coping with self-care",
           "Stay open to learning new strategies even when current ones work well",
-          "Try doing one fulfilling activity each day"
+          "Keep up the habits and activities that bring you happiness"
         ]
       }
     ],

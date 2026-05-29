@@ -1,0 +1,81 @@
+{
+  "depression": [
+    "depression",
+    "抑郁"
+  ],
+  "anxiety": [
+    "anxiety",
+    "焦虑"
+  ],
+  "stress": [
+    "stress",
+    "压力",
+    "burnout",
+    "职业倒怠"
+  ],
+  "trauma": [
+    "trauma",
+    "ptsd",
+    "创伤"
+  ],
+  "sleep": [
+    "sleep",
+    "睡眠"
+  ],
+  "substance": [
+    "substance",
+    "addiction",
+    "alcohol",
+    "成瘾",
+    "物质"
+  ],
+  "eating": [
+    "eating",
+    "饮食",
+    "进食"
+  ],
+  "wellbeing": [
+    "wellbeing",
+    "happiness",
+    "life-satisfaction",
+    "flourishing",
+    "resilience",
+    "幸福",
+    "生活满意",
+    "心理韧性",
+    "正念"
+  ],
+  "personality": [
+    "personality",
+    "人格",
+    "big-five",
+    "narcissism",
+    "自恋"
+  ],
+  "behavioral": [
+    "behavioral",
+    "adhd",
+    "autism",
+    "注意力",
+    "行为"
+  ],
+  "somatic": [
+    "somatic",
+    "pain",
+    "fatigue",
+    "身体",
+    "疼痛",
+    "疲劳"
+  ],
+  "social": [
+    "social",
+    "loneliness",
+    "社交",
+    "孤独"
+  ],
+  "general": [
+    "mental-health",
+    "心理健康",
+    "screening"
+  ]
+}

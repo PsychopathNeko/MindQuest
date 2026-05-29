@@ -155,10 +155,13 @@
         "max": 34,
         "level": "low",
         "label": "Low Loneliness",
-        "description": "Your loneliness level is low. You appear to have satisfying social connections.",
+        "description": "Your loneliness level is low. You appear to have satisfying social connections. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your social connections",
-          "Consider helping others who may feel lonely"
+          "Consider helping others who may feel lonely",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -166,11 +169,13 @@
         "max": 49,
         "level": "moderate",
         "label": "Moderate Loneliness",
-        "description": "You have a moderate level of loneliness and may feel socially lacking in some areas.",
+        "description": "You have a moderate level of loneliness and may feel socially lacking in some areas. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Actively participate in social activities and interest groups",
           "Cultivate deeper friendships",
-          "Consider community involvement such as volunteering"
+          "Consider community involvement such as volunteering",
+          "Consider consulting a mental health professional",
+          "Identify your specific sources of concern"
         ]
       },
       {
@@ -178,11 +183,13 @@
         "max": 64,
         "level": "high",
         "label": "High Loneliness",
-        "description": "You have a high level of loneliness that may affect your mental health.",
+        "description": "You have a high level of loneliness that may affect your mental health. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Consider seeking counseling support",
           "Try changing social patterns to increase meaningful social interactions",
-          "Social skills training may be helpful"
+          "Social skills training may be helpful",
+          "Schedule a mental health professional assessment as soon as possible",
+          "Make sure you have trusted people around you for support"
         ]
       },
       {
@@ -190,11 +197,13 @@
         "max": 80,
         "level": "severe",
         "label": "Severe Loneliness",
-        "description": "You have severe loneliness that may significantly affect your physical and mental health.",
+        "description": "You have severe loneliness that may significantly affect your physical and mental health. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Professional psychological help is strongly recommended",
           "Loneliness can be improved through treatment",
-          "If experiencing depressive symptoms, attend to your emotional health as well"
+          "If experiencing depressive symptoms, attend to your emotional health as well",
+          "Schedule a mental health professional assessment as soon as possible",
+          "Make sure you have trusted people around you for support"
         ]
       }
     ],

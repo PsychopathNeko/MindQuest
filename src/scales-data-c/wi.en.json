@@ -117,10 +117,13 @@
         "max": 28,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your health anxiety level is within the normal range. Your concern about physical health is appropriate.",
+        "description": "Your health anxiety level is within the normal range. Your concern about physical health is appropriate. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining reasonable health awareness",
-          "Get regular check-ups to maintain your health"
+          "Get regular check-ups to maintain your health",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching",
+          "Keep up a regular exercise routine"
         ]
       },
       {
@@ -128,12 +131,13 @@
         "max": 42,
         "level": "mild",
         "label": "Mild Health Anxiety",
-        "description": "You have some degree of health anxiety and may occasionally worry excessively about bodily symptoms.",
+        "description": "You have some degree of health anxiety and may occasionally worry excessively about bodily symptoms. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
         "suggestions": [
           "Learn to distinguish normal bodily sensations from disease signals",
           "Avoid excessive online searching about diseases",
           "Practice mindfulness and relaxation techniques to reduce body-focused attention",
-          "If worry persists, consider consulting a doctor"
+          "If worry persists, consider consulting a doctor",
+          "Learn and practice progressive muscle relaxation"
         ]
       },
       {
@@ -141,12 +145,13 @@
         "max": 56,
         "level": "moderate",
         "label": "Moderate Health Anxiety",
-        "description": "Your health anxiety level is elevated. Excessive attention to bodily symptoms may affect daily life.",
+        "description": "Your health anxiety level is elevated. Excessive attention to bodily symptoms may affect daily life. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Consider seeking psychological counseling",
           "Cognitive-behavioral therapy is very effective for health anxiety",
           "Reduce repeated medical visits and excessive testing",
-          "Learn techniques for accepting uncertainty"
+          "Learn techniques for accepting uncertainty",
+          "Consider consulting a counselor or psychiatrist"
         ]
       },
       {
@@ -154,12 +159,13 @@
         "max": 70,
         "level": "severe",
         "label": "Severe Health Anxiety",
-        "description": "Your health anxiety level is very high. Excessive worry about illness may seriously affect your quality of life.",
+        "description": "Your health anxiety level is very high. Excessive worry about illness may seriously affect your quality of life. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional mental health help",
           "Cognitive-behavioral therapy is the first-line treatment for health anxiety",
           "Avoid repeated medical visits and tests for reassurance",
-          "Discuss with a professional whether medication may be helpful"
+          "Discuss with a professional whether medication may be helpful",
+          "Schedule a professional assessment as soon as possible"
         ]
       }
     ],

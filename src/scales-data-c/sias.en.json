@@ -152,11 +152,13 @@
         "max": 19,
         "level": "minimal",
         "label": "No/Low Social Anxiety",
-        "description": "Your social interaction anxiety level is low. You generally do not experience significant anxiety or discomfort in social situations.",
+        "description": "Your social interaction anxiety level is low. You generally do not experience significant anxiety or discomfort in social situations. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining your good social interaction skills",
           "Actively participate in various social activities",
-          "Occasional social discomfort is normal and nothing to worry about"
+          "Occasional social discomfort is normal and nothing to worry about",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching"
         ]
       },
       {
@@ -164,12 +166,13 @@
         "max": 33,
         "level": "moderate",
         "label": "Moderate Social Anxiety",
-        "description": "Your social interaction anxiety is at a moderate level. You may feel uncomfortable or nervous in certain social situations.",
+        "description": "Your social interaction anxiety is at a moderate level. You may feel uncomfortable or nervous in certain social situations. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Try gradually approaching social situations that make you anxious",
           "Learn social skills and relaxation techniques",
           "Challenge negative thoughts about social situations",
-          "If social anxiety is affecting your daily life, consider consulting a professional"
+          "If social anxiety is affecting your daily life, consider consulting a professional",
+          "Consider consulting a counselor or psychiatrist"
         ]
       },
       {
@@ -177,7 +180,7 @@
         "max": 52,
         "level": "severe",
         "label": "High Social Anxiety",
-        "description": "Your social interaction anxiety level is high, exceeding the clinical screening cutoff (34). Social situations likely cause you significant distress.",
+        "description": "Your social interaction anxiety level is high, exceeding the clinical screening cutoff (34). Social situations likely cause you significant distress. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "It is recommended to consult a mental health professional for assessment",
           "Cognitive Behavioral Therapy (CBT) is highly effective for social anxiety",
@@ -191,7 +194,7 @@
         "max": 80,
         "level": "very_severe",
         "label": "Very High Social Anxiety",
-        "description": "Your social interaction anxiety level is very high. Social situations are very likely to severely affect your daily functioning and quality of life.",
+        "description": "Your social interaction anxiety level is very high. Social situations are very likely to severely affect your daily functioning and quality of life. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional mental health treatment",
           "Medication combined with psychotherapy may be needed",

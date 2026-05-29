@@ -57,13 +57,13 @@
         "max": 2,
         "level": "severe",
         "label": "Low Resilience",
-        "description": "Your resilience level is low. You may find it quite difficult to cope with change and stress. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "description": "Your resilience level is low. You may find it quite difficult to cope with change and stress. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Seek social support; do not face difficulties alone",
           "Learn techniques and strategies for adapting to change",
           "Consider professional help to strengthen resilience",
           "Start with small challenges and gradually build coping ability",
-          "Keep up the habits and activities that bring you happiness"
+          "Try doing one fulfilling activity each day"
         ]
       },
       {
@@ -85,13 +85,13 @@
         "max": 8,
         "level": "minimal",
         "label": "High Resilience",
-        "description": "You have high resilience and can effectively adapt to change and recover from stress. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "description": "You have high resilience and can effectively adapt to change and recover from stress. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue maintaining your strong adaptability",
           "Your resilience qualities can help and encourage those around you",
           "While helping others, also attend to your own self-care",
-          "Try doing one fulfilling activity each day",
-          "Stay connected with friends and family to build a sense of belonging"
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others"
         ]
       }
     ],

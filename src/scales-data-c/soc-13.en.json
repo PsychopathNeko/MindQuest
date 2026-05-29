@@ -133,12 +133,13 @@
         "max": 31,
         "level": "severe",
         "label": "Very Low Coherence",
-        "description": "Your sense of coherence is very low. You may find it difficult to see the world as comprehensible, manageable, and meaningful.",
+        "description": "Your sense of coherence is very low. You may find it difficult to see the world as comprehensible, manageable, and meaningful. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
         "suggestions": [
           "Consider seeking professional support from a counselor or psychologist",
           "Start with small, manageable goals to build a sense of control",
           "Identify activities that give you a sense of meaning and purpose",
-          "Build supportive social connections"
+          "Build supportive social connections",
+          "Seek professional counseling support"
         ]
       },
       {
@@ -146,12 +147,13 @@
         "max": 52,
         "level": "moderate",
         "label": "Low Coherence",
-        "description": "Your sense of coherence is below average. You may sometimes struggle to find meaning, predictability, or manageability in life events.",
+        "description": "Your sense of coherence is below average. You may sometimes struggle to find meaning, predictability, or manageability in life events. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
         "suggestions": [
           "Reflect on your personal values and what gives your life meaning",
           "Develop problem-solving skills to enhance feelings of manageability",
           "Seek social support when facing challenges",
-          "Engage in activities that provide structure and routine"
+          "Engage in activities that provide structure and routine",
+          "Consider discussing stress management strategies with a counselor"
         ]
       },
       {
@@ -164,7 +166,8 @@
           "Continue building on your existing coping strategies",
           "Seek new experiences that challenge and engage you",
           "Strengthen social bonds and community connections",
-          "Practice gratitude and reflect on positive experiences"
+          "Practice gratitude and reflect on positive experiences",
+          "Identify your main sources of stress and try to address them gradually"
         ]
       },
       {
@@ -172,11 +175,13 @@
         "max": 91,
         "level": "minimal",
         "label": "Strong Coherence",
-        "description": "Your sense of coherence is strong. You tend to see life as comprehensible, manageable, and meaningful, which supports effective stress management.",
+        "description": "Your sense of coherence is strong. You tend to see life as comprehensible, manageable, and meaningful, which supports effective stress management. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
         "suggestions": [
           "Continue maintaining your positive outlook and coping strategies",
           "Share your resilience skills with others who may benefit",
-          "Stay engaged with meaningful activities and relationships"
+          "Stay engaged with meaningful activities and relationships",
+          "Continue using your effective stress management strategies",
+          "Regularly check in with yourself and engage in relaxation activities"
         ]
       }
     ],

@@ -80,7 +80,7 @@
         "max": 14,
         "level": "severe",
         "label": "Low Life Satisfaction",
-        "description": "Your life satisfaction score is low, indicating significant dissatisfaction with your current life circumstances.",
+        "description": "Your life satisfaction score is low, indicating significant dissatisfaction with your current life circumstances. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Identify specific areas of your life that feel most unsatisfying",
           "Set small, achievable goals to create positive changes",
@@ -94,12 +94,13 @@
         "max": 19,
         "level": "mild",
         "label": "Below Average Satisfaction",
-        "description": "Your life satisfaction is slightly below average. You may have some areas of dissatisfaction that could be addressed.",
+        "description": "Your life satisfaction is slightly below average. You may have some areas of dissatisfaction that could be addressed. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
         "suggestions": [
           "Reflect on what aspects of your life you would most like to change",
           "Focus on strengthening relationships and social connections",
           "Consider whether your daily activities align with your personal values",
-          "Try setting meaningful goals that matter to you"
+          "Try setting meaningful goals that matter to you",
+          "Increase the frequency of positive social activities"
         ]
       },
       {
@@ -107,11 +108,13 @@
         "max": 25,
         "level": "normal",
         "label": "Average Satisfaction",
-        "description": "Your life satisfaction is within the average range. You are generally content with most areas of your life.",
+        "description": "Your life satisfaction is within the average range. You are generally content with most areas of your life. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Continue maintaining a balanced lifestyle",
           "Keep nurturing meaningful relationships",
-          "Stay open to new experiences and personal growth"
+          "Stay open to new experiences and personal growth",
+          "Continue maintaining your positive lifestyle",
+          "Share your experiences and positive feelings with others"
         ]
       },
       {
@@ -119,11 +122,13 @@
         "max": 35,
         "level": "minimal",
         "label": "High Life Satisfaction",
-        "description": "Your life satisfaction is high. You feel very positive about your life circumstances and overall quality of life.",
+        "description": "Your life satisfaction is high. You feel very positive about your life circumstances and overall quality of life. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue the practices and habits that contribute to your well-being",
           "Share your positive outlook and support others around you",
-          "Stay engaged with meaningful activities and relationships"
+          "Stay engaged with meaningful activities and relationships",
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others"
         ]
       }
     ],

@@ -134,12 +134,13 @@
         "max": 24,
         "level": "severe",
         "label": "Low Well-Being",
-        "description": "Your overall emotional experience suggests low well-being. Negative feelings may be dominating your daily experience.",
+        "description": "Your overall emotional experience suggests low well-being. Negative feelings may be dominating your daily experience. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Consider speaking with a mental health professional",
           "Try to engage in activities that bring you joy or satisfaction",
           "Reach out to supportive friends or family members",
-          "Practice small daily acts of self-care"
+          "Practice small daily acts of self-care",
+          "Try doing one fulfilling activity each day"
         ]
       },
       {
@@ -147,12 +148,13 @@
         "max": 36,
         "level": "moderate",
         "label": "Below Average Well-Being",
-        "description": "Your emotional experience is below average. You may be experiencing more negative feelings than positive ones.",
+        "description": "Your emotional experience is below average. You may be experiencing more negative feelings than positive ones. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
         "suggestions": [
           "Identify activities and situations that boost your positive emotions",
           "Consider stress management techniques such as mindfulness or exercise",
           "Monitor your emotional patterns over time",
-          "If feelings persist, consider consulting a counselor"
+          "If feelings persist, consider consulting a counselor",
+          "Increase the frequency of positive social activities"
         ]
       },
       {
@@ -160,11 +162,13 @@
         "max": 48,
         "level": "mild",
         "label": "Above Average Well-Being",
-        "description": "Your emotional experience is above average, indicating a generally positive outlook with a good balance of feelings.",
+        "description": "Your emotional experience is above average, indicating a generally positive outlook with a good balance of feelings. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Continue engaging in activities that bring positive experiences",
           "Maintain your social connections and supportive relationships",
-          "Practice gratitude to reinforce positive emotional patterns"
+          "Practice gratitude to reinforce positive emotional patterns",
+          "Continue maintaining your positive lifestyle",
+          "Share your experiences and positive feelings with others"
         ]
       },
       {
@@ -172,11 +176,13 @@
         "max": 60,
         "level": "minimal",
         "label": "High Well-Being",
-        "description": "Your emotional experience indicates high well-being. You frequently experience positive feelings and rarely experience negative ones.",
+        "description": "Your emotional experience indicates high well-being. You frequently experience positive feelings and rarely experience negative ones. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Keep up your healthy lifestyle and coping strategies",
           "Share your positivity with others",
-          "Continue to nurture the relationships and activities that support your well-being"
+          "Continue to nurture the relationships and activities that support your well-being",
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others"
         ]
       }
     ],
@@ -187,28 +193,54 @@
           "max": 12,
           "level": "severe",
           "label": "Low Positive Feelings",
-          "description": "You rarely experience positive emotions. Consider seeking ways to introduce more enjoyable activities into your life."
+          "description": "You rarely experience positive emotions. Consider seeking ways to introduce more enjoyable activities into your life. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "suggestions": [
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
+          ]
         },
         {
           "min": 13,
           "max": 18,
           "level": "moderate",
           "label": "Moderate Positive Feelings",
-          "description": "You sometimes experience positive emotions but there is room for improvement."
+          "description": "You sometimes experience positive emotions but there is room for improvement. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "suggestions": [
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
+          ]
         },
         {
           "min": 19,
           "max": 24,
           "level": "mild",
           "label": "High Positive Feelings",
-          "description": "You frequently experience positive emotions, indicating good emotional health."
+          "description": "You frequently experience positive emotions, indicating good emotional health. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
+          "suggestions": [
+            "Increase the frequency of positive social activities",
+            "Develop a hobby that gives you a sense of accomplishment",
+            "Focus on your strengths and existing resources",
+            "Set meaningful personal goals",
+            "Maintain regular exercise and outdoor activities"
+          ]
         },
         {
           "min": 25,
           "max": 30,
           "level": "minimal",
           "label": "Very High Positive Feelings",
-          "description": "You very frequently experience positive emotions, reflecting excellent emotional well-being."
+          "description": "You very frequently experience positive emotions, reflecting excellent emotional well-being. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "suggestions": [
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
+          ]
         }
       ],
       "negative": [
@@ -217,28 +249,54 @@
           "max": 12,
           "level": "minimal",
           "label": "Low Negative Feelings",
-          "description": "You rarely experience negative emotions, indicating good emotional health."
+          "description": "You rarely experience negative emotions, indicating good emotional health. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "suggestions": [
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
+          ]
         },
         {
           "min": 13,
           "max": 18,
           "level": "mild",
           "label": "Moderate Negative Feelings",
-          "description": "You sometimes experience negative emotions, which is within the normal range."
+          "description": "You sometimes experience negative emotions, which is within the normal range. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
+          "suggestions": [
+            "Increase the frequency of positive social activities",
+            "Develop a hobby that gives you a sense of accomplishment",
+            "Focus on your strengths and existing resources",
+            "Set meaningful personal goals",
+            "Maintain regular exercise and outdoor activities"
+          ]
         },
         {
           "min": 19,
           "max": 24,
           "level": "moderate",
           "label": "High Negative Feelings",
-          "description": "You frequently experience negative emotions. Consider strategies to manage stress and difficult feelings."
+          "description": "You frequently experience negative emotions. Consider strategies to manage stress and difficult feelings. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "suggestions": [
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
+          ]
         },
         {
           "min": 25,
           "max": 30,
           "level": "severe",
           "label": "Very High Negative Feelings",
-          "description": "You very frequently experience negative emotions. Professional support is recommended."
+          "description": "You very frequently experience negative emotions. Professional support is recommended. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "suggestions": [
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
+          ]
         }
       ]
     }

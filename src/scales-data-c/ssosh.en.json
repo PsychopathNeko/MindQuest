@@ -105,11 +105,13 @@
         "max": 20,
         "level": "minimal",
         "label": "Low Self-Stigma",
-        "description": "You have low self-stigma associated with seeking psychological help. You are unlikely to view help-seeking as a threat to your self-image.",
+        "description": "You have low self-stigma associated with seeking psychological help. You are unlikely to view help-seeking as a threat to your self-image. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your open attitude toward seeking help",
           "Your willingness to seek help when needed is a valuable resource",
-          "You can serve as a positive role model for others who may be hesitant about seeking help"
+          "You can serve as a positive role model for others who may be hesitant about seeking help",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -122,7 +124,8 @@
           "Recognize that seeking help is a sign of strength, not weakness",
           "Consider that most people benefit from professional support at some point in life",
           "Challenge any self-critical thoughts about needing help",
-          "Learn more about the therapeutic process to reduce uncertainty"
+          "Learn more about the therapeutic process to reduce uncertainty",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -135,7 +138,8 @@
           "Reflect on where these beliefs about help-seeking come from",
           "Consider that seeking help demonstrates self-awareness and courage",
           "Talk to trusted friends or family members about their experiences with therapy",
-          "If you are experiencing psychological distress, the benefits of seeking help far outweigh any perceived stigma"
+          "If you are experiencing psychological distress, the benefits of seeking help far outweigh any perceived stigma",
+          "Consider consulting a mental health professional"
         ]
       },
       {

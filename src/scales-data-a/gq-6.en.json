@@ -90,13 +90,13 @@
         "max": 18,
         "level": "severe",
         "label": "Low Gratitude",
-        "description": "Your gratitude disposition is low. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "description": "Your gratitude disposition is low. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Record 3 things you are grateful for each day",
           "Write a gratitude letter to someone who helped you",
-          "Keep up the habits and activities that bring you happiness",
-          "Share your positive experiences with others",
-          "Maintain gratitude and mindfulness practices"
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging",
+          "Explore new interests and activities"
         ]
       },
       {
@@ -118,13 +118,13 @@
         "max": 42,
         "level": "minimal",
         "label": "High Gratitude",
-        "description": "Your gratitude disposition is high. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "description": "Your gratitude disposition is high. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue maintaining your grateful mindset",
           "Share your gratitude with others",
-          "Try doing one fulfilling activity each day",
-          "Stay connected with friends and family to build a sense of belonging",
-          "Explore new interests and activities"
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others",
+          "Maintain gratitude and mindfulness practices"
         ]
       }
     ],

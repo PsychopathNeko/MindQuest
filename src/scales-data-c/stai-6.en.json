@@ -79,11 +79,13 @@
         "max": 10,
         "level": "minimal",
         "label": "Low Anxiety",
-        "description": "Your state anxiety level is low. You appear to be feeling calm and relaxed at this moment.",
+        "description": "Your state anxiety level is low. You appear to be feeling calm and relaxed at this moment. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining your current state of calm",
           "Practice regular relaxation techniques to sustain well-being",
-          "Note what strategies help you feel at ease for future reference"
+          "Note what strategies help you feel at ease for future reference",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching"
         ]
       },
       {
@@ -91,11 +93,13 @@
         "max": 14,
         "level": "mild",
         "label": "Mild Anxiety",
-        "description": "You are experiencing mild state anxiety. This is a common level that most people experience in everyday situations.",
+        "description": "You are experiencing mild state anxiety. This is a common level that most people experience in everyday situations. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
         "suggestions": [
           "Try deep breathing or progressive muscle relaxation",
           "Identify any immediate stressors and address them if possible",
-          "Engage in a brief mindfulness exercise"
+          "Engage in a brief mindfulness exercise",
+          "Learn and practice progressive muscle relaxation",
+          "Try 5-10 minutes of mindfulness meditation daily"
         ]
       },
       {
@@ -103,12 +107,13 @@
         "max": 18,
         "level": "moderate",
         "label": "Moderate Anxiety",
-        "description": "Your current anxiety level is moderate. You may benefit from using coping strategies to manage your state of tension.",
+        "description": "Your current anxiety level is moderate. You may benefit from using coping strategies to manage your state of tension. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Practice grounding techniques (e.g., 5-4-3-2-1 sensory exercise)",
           "Take a break from the situation causing anxiety if possible",
           "Consider talking to someone about what you are feeling",
-          "Use structured relaxation exercises"
+          "Use structured relaxation exercises",
+          "Consider consulting a counselor or psychiatrist"
         ]
       },
       {
@@ -116,12 +121,13 @@
         "max": 24,
         "level": "severe",
         "label": "High Anxiety",
-        "description": "Your state anxiety level is high. You are experiencing significant tension and worry at this moment, which may impair your functioning.",
+        "description": "Your state anxiety level is high. You are experiencing significant tension and worry at this moment, which may impair your functioning. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Seek immediate support from a trusted person or professional",
           "Practice calming strategies such as slow, deep breathing",
           "Remove yourself from overwhelming situations if safe to do so",
-          "Consider consulting a mental health professional if this level persists"
+          "Consider consulting a mental health professional if this level persists",
+          "Schedule a professional assessment as soon as possible"
         ]
       }
     ],
