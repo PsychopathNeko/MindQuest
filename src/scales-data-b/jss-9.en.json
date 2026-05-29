@@ -117,12 +117,13 @@
         "max": 31,
         "level": "mild",
         "label": "Dissatisfied",
-        "description": "Your score suggests moderate job dissatisfaction. Some aspects of your work are not meeting your expectations.",
+        "description": "Your score suggests moderate job dissatisfaction. Some aspects of your work are not meeting your expectations. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Identify which specific facets (pay, recognition, supervision) need the most attention",
           "Have an open conversation with your supervisor about your concerns",
           "Explore training or development opportunities that could improve your situation",
-          "Build stronger connections with supportive coworkers"
+          "Build stronger connections with supportive coworkers",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -130,12 +131,13 @@
         "max": 43,
         "level": "normal",
         "label": "Ambivalent",
-        "description": "Your score reflects mixed feelings about your job. You may be satisfied with some aspects and dissatisfied with others.",
+        "description": "Your score reflects mixed feelings about your job. You may be satisfied with some aspects and dissatisfied with others. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Identify which aspects you find most and least satisfying",
           "Focus on building on the positive elements of your job",
           "Address areas of concern proactively with your employer",
-          "Consider professional development to expand your options"
+          "Consider professional development to expand your options",
+          "Continue maintaining a healthy lifestyle and mental well-being"
         ]
       },
       {
@@ -143,12 +145,13 @@
         "max": 54,
         "level": "minimal",
         "label": "Satisfied",
-        "description": "Your score indicates overall satisfaction with your job. You feel positively about most aspects of your work environment.",
+        "description": "Your score indicates overall satisfaction with your job. You feel positively about most aspects of your work environment. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue engaging in activities that contribute to your job satisfaction",
           "Share your positive experiences to help create a better workplace for others",
           "Stay aware of potential burnout even when satisfied",
-          "Continue seeking growth and development opportunities"
+          "Continue seeking growth and development opportunities",
+          "Continue maintaining a healthy lifestyle and mental well-being"
         ]
       }
     ],

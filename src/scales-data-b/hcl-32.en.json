@@ -226,10 +226,13 @@
         "max": 7,
         "level": "minimal",
         "label": "Few Hypomanic Features",
-        "description": "You reported few hypomanic symptoms, below the screening threshold.",
+        "description": "You reported few hypomanic symptoms, below the screening threshold. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "No particular concern at this time",
-          "If you experience mood fluctuations, consider consulting a professional"
+          "If you experience mood fluctuations, consider consulting a professional",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -237,11 +240,13 @@
         "max": 13,
         "level": "mild",
         "label": "Some Hypomanic Features",
-        "description": "You reported some hypomanic symptoms, but below the screening threshold (14). Consider monitoring mood changes.",
+        "description": "You reported some hypomanic symptoms, but below the screening threshold (14). Consider monitoring mood changes. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Pay attention to patterns and duration of mood fluctuations",
           "Keeping a mood diary can help with self-understanding",
-          "If mood swings affect daily life, consider consulting a professional"
+          "If mood swings affect daily life, consider consulting a professional",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       },
       {
@@ -254,7 +259,8 @@
           "Consider consulting a psychiatrist for further evaluation",
           "Keep detailed records of mood patterns for your appointment",
           "Learn about bipolar spectrum disorders",
-          "Do not self-diagnose; respect professional assessment"
+          "Do not self-diagnose; respect professional assessment",
+          "Consider consulting a mental health professional"
         ]
       },
       {
@@ -262,12 +268,13 @@
         "max": 32,
         "level": "severe",
         "label": "Prominent Hypomanic Features",
-        "description": "You reported many hypomanic symptoms. A comprehensive psychiatric evaluation is strongly recommended.",
+        "description": "You reported many hypomanic symptoms. A comprehensive psychiatric evaluation is strongly recommended. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Strongly recommended to see a psychiatrist soon",
           "Document patterns of mood elevation and depression",
           "Provide your doctor with a complete mood history",
-          "If currently on medication, do not adjust dosage on your own"
+          "If currently on medication, do not adjust dosage on your own",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       }
     ],
@@ -278,21 +285,41 @@
           "max": 5,
           "level": "minimal",
           "label": "Low",
-          "description": "Low score on the Active/Elated dimension."
+          "description": "Low score on the Active/Elated dimension. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 6,
           "max": 10,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some active/elated features present."
+          "description": "Some active/elated features present. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 11,
           "max": 16,
           "level": "moderate",
           "label": "High",
-          "description": "Prominent active/elated features such as increased energy, confidence, and sociability."
+          "description": "Prominent active/elated features such as increased energy, confidence, and sociability. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         }
       ],
       "risk_irritable": [
@@ -301,21 +328,41 @@
           "max": 2,
           "level": "minimal",
           "label": "Low",
-          "description": "Low score on the Risk-Taking/Irritable dimension."
+          "description": "Low score on the Risk-Taking/Irritable dimension. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 3,
           "max": 5,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some risk-taking or irritability tendencies."
+          "description": "Some risk-taking or irritability tendencies. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 6,
           "max": 9,
           "level": "moderate",
           "label": "High",
-          "description": "Prominent risk-taking/irritable features such as impulsive spending, distractibility, and irritability."
+          "description": "Prominent risk-taking/irritable features such as impulsive spending, distractibility, and irritability. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         }
       ]
     }

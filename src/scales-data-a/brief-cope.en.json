@@ -310,10 +310,13 @@
         "max": 56,
         "level": "low",
         "label": "Low Coping Engagement",
-        "description": "You report relatively low use of coping strategies overall.",
+        "description": "You report relatively low use of coping strategies overall. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
         "suggestions": [
           "Consider exploring different coping strategies",
-          "Even small coping efforts can make a difference"
+          "Even small coping efforts can make a difference",
+          "Continue using your effective stress management strategies",
+          "Regularly check in with yourself and engage in relaxation activities",
+          "Maintain a healthy work-life balance"
         ]
       },
       {
@@ -321,10 +324,13 @@
         "max": 84,
         "level": "moderate",
         "label": "Moderate Coping Engagement",
-        "description": "You report moderate use of coping strategies. Review the subscale scores.",
+        "description": "You report moderate use of coping strategies. Review the subscale scores. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
         "suggestions": [
           "Examine which coping strategies are most helpful for you",
-          "Consider whether your coping mix includes enough adaptive strategies"
+          "Consider whether your coping mix includes enough adaptive strategies",
+          "Consider discussing stress management strategies with a counselor",
+          "Evaluate and adjust major stressors in your work or personal life",
+          "Build daily habits of relaxation and self-care"
         ]
       },
       {
@@ -332,10 +338,13 @@
         "max": 112,
         "level": "high",
         "label": "High Coping Engagement",
-        "description": "You report high use of coping strategies. Check the subscale breakdown.",
+        "description": "You report high use of coping strategies. Check the subscale breakdown. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
         "suggestions": [
           "Review subscale scores to ensure you rely more on adaptive strategies",
-          "High substance use or avoidance scores may warrant professional consultation"
+          "High substance use or avoidance scores may warrant professional consultation",
+          "Seek professional counseling support",
+          "Evaluate whether adjustments to your current work or life situation are needed",
+          "Learn emergency stress-relief techniques for high-pressure moments"
         ]
       }
     ],
@@ -346,28 +355,56 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of self-distraction as a coping strategy."
+          "description": "Low use of self-distraction as a coping strategy. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of self-distraction as a coping strategy."
+          "description": "Moderate use of self-distraction as a coping strategy. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of self-distraction as a coping strategy."
+          "description": "High use of self-distraction as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of self-distraction as a coping strategy."
+          "description": "Very high use of self-distraction as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "active_coping": [
@@ -376,28 +413,56 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of active coping as a coping strategy."
+          "description": "Low use of active coping as a coping strategy. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of active coping as a coping strategy."
+          "description": "Moderate use of active coping as a coping strategy. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of active coping as a coping strategy."
+          "description": "High use of active coping as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of active coping as a coping strategy."
+          "description": "Very high use of active coping as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "denial": [
@@ -406,28 +471,56 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of denial as a coping strategy."
+          "description": "Low use of denial as a coping strategy. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of denial as a coping strategy."
+          "description": "Moderate use of denial as a coping strategy. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of denial as a coping strategy."
+          "description": "High use of denial as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of denial as a coping strategy."
+          "description": "Very high use of denial as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "substance_use": [
@@ -436,28 +529,56 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of substance use as a coping strategy."
+          "description": "Low use of substance use as a coping strategy. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of substance use as a coping strategy."
+          "description": "Moderate use of substance use as a coping strategy. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of substance use as a coping strategy."
+          "description": "High use of substance use as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of substance use as a coping strategy."
+          "description": "Very high use of substance use as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "emotional_support": [
@@ -466,28 +587,55 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of emotional support as a coping strategy."
+          "description": "Low use of emotional support as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of emotional support as a coping strategy."
+          "description": "Moderate use of emotional support as a coping strategy. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of emotional support as a coping strategy."
+          "description": "High use of emotional support as a coping strategy. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of emotional support as a coping strategy."
+          "description": "Very high use of emotional support as a coping strategy. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "behavioral_disengagement": [
@@ -496,28 +644,52 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of behavioral disengagement as a coping strategy."
+          "description": "Low use of behavioral disengagement as a coping strategy. This indicates that the relevant behavioral characteristics are within the normal range with no significant functional impact.",
+          "suggestions": [
+            "Understand your behavioral characteristics and leverage your strengths",
+            "Maintain your current effective coping strategies",
+            "Seek information and support when needed"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of behavioral disengagement as a coping strategy."
+          "description": "Moderate use of behavioral disengagement as a coping strategy. At this level, behavioral characteristics may have some impact on learning, work, or social interactions. Understanding and adapting strategies can be helpful.",
+          "suggestions": [
+            "Consider a more comprehensive professional assessment",
+            "Learn specific behavioral management strategies and skills",
+            "Communicate with your school or workplace to obtain appropriate support",
+            "Try establishing structured daily routines",
+            "Consider attending relevant skill-building courses"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of behavioral disengagement as a coping strategy."
+          "description": "High use of behavioral disengagement as a coping strategy. Your behavioral characteristic scores are elevated and may be considerably affecting daily functioning. Professional assessment and support is recommended.",
+          "suggestions": [
+            "Seek professional assessment and ongoing support",
+            "A combination of behavioral interventions and other support measures may be needed",
+            "Work with family and relevant organizations to develop a support plan",
+            "Focus on overall physical and mental well-being and quality of life"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of behavioral disengagement as a coping strategy."
+          "description": "Very high use of behavioral disengagement as a coping strategy. Your behavioral characteristic scores are elevated and may be considerably affecting daily functioning. Professional assessment and support is recommended.",
+          "suggestions": [
+            "Seek professional assessment and ongoing support",
+            "A combination of behavioral interventions and other support measures may be needed",
+            "Work with family and relevant organizations to develop a support plan",
+            "Focus on overall physical and mental well-being and quality of life"
+          ]
         }
       ],
       "positive_reframing": [
@@ -526,28 +698,56 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of positive reframing as a coping strategy."
+          "description": "Low use of positive reframing as a coping strategy. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of positive reframing as a coping strategy."
+          "description": "Moderate use of positive reframing as a coping strategy. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of positive reframing as a coping strategy."
+          "description": "High use of positive reframing as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of positive reframing as a coping strategy."
+          "description": "Very high use of positive reframing as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "venting": [
@@ -556,28 +756,56 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of venting as a coping strategy."
+          "description": "Low use of venting as a coping strategy. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of venting as a coping strategy."
+          "description": "Moderate use of venting as a coping strategy. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of venting as a coping strategy."
+          "description": "High use of venting as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of venting as a coping strategy."
+          "description": "Very high use of venting as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "instrumental_support": [
@@ -586,28 +814,56 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of instrumental support as a coping strategy."
+          "description": "Low use of instrumental support as a coping strategy. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of instrumental support as a coping strategy."
+          "description": "Moderate use of instrumental support as a coping strategy. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of instrumental support as a coping strategy."
+          "description": "High use of instrumental support as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of instrumental support as a coping strategy."
+          "description": "Very high use of instrumental support as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "self_blame": [
@@ -616,28 +872,56 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of self-blame as a coping strategy."
+          "description": "Low use of self-blame as a coping strategy. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of self-blame as a coping strategy."
+          "description": "Moderate use of self-blame as a coping strategy. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of self-blame as a coping strategy."
+          "description": "High use of self-blame as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of self-blame as a coping strategy."
+          "description": "Very high use of self-blame as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "planning": [
@@ -646,28 +930,56 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of planning as a coping strategy."
+          "description": "Low use of planning as a coping strategy. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of planning as a coping strategy."
+          "description": "Moderate use of planning as a coping strategy. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of planning as a coping strategy."
+          "description": "High use of planning as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of planning as a coping strategy."
+          "description": "Very high use of planning as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "humor": [
@@ -676,28 +988,56 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of humor as a coping strategy."
+          "description": "Low use of humor as a coping strategy. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of humor as a coping strategy."
+          "description": "Moderate use of humor as a coping strategy. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of humor as a coping strategy."
+          "description": "High use of humor as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of humor as a coping strategy."
+          "description": "Very high use of humor as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "acceptance": [
@@ -706,28 +1046,56 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of acceptance as a coping strategy."
+          "description": "Low use of acceptance as a coping strategy. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of acceptance as a coping strategy."
+          "description": "Moderate use of acceptance as a coping strategy. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of acceptance as a coping strategy."
+          "description": "High use of acceptance as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of acceptance as a coping strategy."
+          "description": "Very high use of acceptance as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "religion": [
@@ -736,28 +1104,56 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of religion as a coping strategy."
+          "description": "Low use of religion as a coping strategy. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of religion as a coping strategy."
+          "description": "Moderate use of religion as a coping strategy. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 6,
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of religion as a coping strategy."
+          "description": "High use of religion as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 8,
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of religion as a coping strategy."
+          "description": "Very high use of religion as a coping strategy. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ]
     }

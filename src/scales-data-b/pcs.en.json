@@ -147,10 +147,13 @@
         "max": 13,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your pain catastrophizing level is low. You cope well with pain experiences.",
+        "description": "Your pain catastrophizing level is low. You cope well with pain experiences. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
         "suggestions": [
           "Continue maintaining positive pain coping strategies",
-          "Seek appropriate pain management when needed"
+          "Seek appropriate pain management when needed",
+          "Continue using your effective stress management strategies",
+          "Regularly check in with yourself and engage in relaxation activities",
+          "Maintain a healthy work-life balance"
         ]
       },
       {
@@ -158,12 +161,13 @@
         "max": 26,
         "level": "mild",
         "label": "Mild Catastrophizing",
-        "description": "You have some degree of pain catastrophizing and may occasionally exaggerate the threat of pain.",
+        "description": "You have some degree of pain catastrophizing and may occasionally exaggerate the threat of pain. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
         "suggestions": [
           "Learn pain management and coping skills",
           "Practice relaxation and mindfulness techniques",
           "Maintain moderate physical activity",
-          "Consult a pain management specialist if needed"
+          "Consult a pain management specialist if needed",
+          "Identify your main sources of stress and try to address them gradually"
         ]
       },
       {
@@ -171,12 +175,13 @@
         "max": 39,
         "level": "moderate",
         "label": "Moderate Catastrophizing",
-        "description": "Your pain catastrophizing level is elevated. This may increase the risk of chronic pain and affect recovery.",
+        "description": "Your pain catastrophizing level is elevated. This may increase the risk of chronic pain and affect recovery. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
         "suggestions": [
           "Consider seeking professional pain management help",
           "Cognitive-behavioral therapy can effectively reduce catastrophizing",
           "Learn to distinguish pain sensations from thoughts about pain",
-          "Discuss comprehensive pain management with your healthcare team"
+          "Discuss comprehensive pain management with your healthcare team",
+          "Consider discussing stress management strategies with a counselor"
         ]
       },
       {
@@ -184,12 +189,13 @@
         "max": 52,
         "level": "severe",
         "label": "Severe Catastrophizing",
-        "description": "Your pain catastrophizing level is very high. This may significantly affect your pain experience and daily functioning.",
+        "description": "Your pain catastrophizing level is very high. This may significantly affect your pain experience and daily functioning. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
         "suggestions": [
           "Strongly recommended to seek help from a pain psychologist",
           "Comprehensive pain management (medication + psychological + physical therapy) may be most effective",
           "Avoid excessive focus and rumination about pain",
-          "Build a social support network"
+          "Build a social support network",
+          "Seek professional counseling support"
         ]
       }
     ],
@@ -200,28 +206,56 @@
           "max": 6,
           "level": "minimal",
           "label": "Low",
-          "description": "Low helplessness score."
+          "description": "Low helplessness score. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 7,
           "max": 12,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some helplessness present."
+          "description": "Some helplessness present. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
+          "suggestions": [
+            "Identify your main sources of stress and try to address them gradually",
+            "Learn time management and prioritization skills",
+            "Set aside 15-30 minutes daily for relaxation activities",
+            "Maintain moderate exercise and healthy eating habits",
+            "Practice saying no and setting reasonable boundaries"
+          ]
         },
         {
           "min": 13,
           "max": 18,
           "level": "moderate",
           "label": "High",
-          "description": "High helplessness. Consider learning active coping strategies."
+          "description": "High helplessness. Consider learning active coping strategies. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 19,
           "max": 24,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high helplessness. Consider seeking professional help."
+          "description": "Very high helplessness. Consider seeking professional help. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "magnification": [
@@ -230,28 +264,56 @@
           "max": 3,
           "level": "minimal",
           "label": "Low",
-          "description": "Low magnification score."
+          "description": "Low magnification score. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 4,
           "max": 6,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some magnification tendency."
+          "description": "Some magnification tendency. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
+          "suggestions": [
+            "Identify your main sources of stress and try to address them gradually",
+            "Learn time management and prioritization skills",
+            "Set aside 15-30 minutes daily for relaxation activities",
+            "Maintain moderate exercise and healthy eating habits",
+            "Practice saying no and setting reasonable boundaries"
+          ]
         },
         {
           "min": 7,
           "max": 9,
           "level": "moderate",
           "label": "High",
-          "description": "High magnification tendency."
+          "description": "High magnification tendency. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 10,
           "max": 12,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high magnification tendency."
+          "description": "Very high magnification tendency. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "rumination": [
@@ -260,28 +322,56 @@
           "max": 4,
           "level": "minimal",
           "label": "Low",
-          "description": "Low rumination score."
+          "description": "Low rumination score. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 5,
           "max": 8,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some rumination present."
+          "description": "Some rumination present. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
+          "suggestions": [
+            "Identify your main sources of stress and try to address them gradually",
+            "Learn time management and prioritization skills",
+            "Set aside 15-30 minutes daily for relaxation activities",
+            "Maintain moderate exercise and healthy eating habits",
+            "Practice saying no and setting reasonable boundaries"
+          ]
         },
         {
           "min": 9,
           "max": 12,
           "level": "moderate",
           "label": "High",
-          "description": "High rumination."
+          "description": "High rumination. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 13,
           "max": 16,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high rumination."
+          "description": "Very high rumination. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ]
     }

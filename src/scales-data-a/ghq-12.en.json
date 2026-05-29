@@ -111,11 +111,13 @@
         "max": 11,
         "level": "normal",
         "label": "Normal",
-        "description": "Your score is within the normal range, suggesting no significant psychological distress.",
+        "description": "Your score is within the normal range, suggesting no significant psychological distress. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your current healthy lifestyle",
           "Keep up regular exercise, social activities, and sleep habits",
-          "Practice preventive stress management"
+          "Practice preventive stress management",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -123,12 +125,13 @@
         "max": 20,
         "level": "mild",
         "label": "Mild Distress",
-        "description": "Your score suggests some degree of psychological distress that may benefit from attention.",
+        "description": "Your score suggests some degree of psychological distress that may benefit from attention. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Pay attention to your emotional well-being and identify sources of stress",
           "Practice relaxation techniques such as deep breathing or meditation",
           "Maintain social connections and talk to someone you trust",
-          "Consider seeking professional advice if symptoms persist"
+          "Consider seeking professional advice if symptoms persist",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -136,12 +139,13 @@
         "max": 36,
         "level": "severe",
         "label": "Significant Distress",
-        "description": "Your score indicates significant psychological distress. Professional support is recommended.",
+        "description": "Your score indicates significant psychological distress. Professional support is recommended. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Consult a mental health professional for further assessment",
           "Prioritize self-care and reduce unnecessary stressors",
           "Maintain regular routines for sleep, meals, and physical activity",
-          "Reach out to trusted friends, family, or a crisis service if needed"
+          "Reach out to trusted friends, family, or a crisis service if needed",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       }
     ],

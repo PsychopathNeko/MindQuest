@@ -77,11 +77,13 @@
         "max": 9,
         "level": "minimal",
         "label": "Normal Range",
-        "description": "Your ADHD screening score is within the normal range. Adult ADHD is unlikely.",
+        "description": "Your ADHD screening score is within the normal range. Adult ADHD is unlikely. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "No further ADHD assessment is currently needed",
           "If you still have attention or activity concerns, try time management techniques",
-          "Maintaining a healthy lifestyle helps with focus and concentration"
+          "Maintaining a healthy lifestyle helps with focus and concentration",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -89,12 +91,13 @@
         "max": 13,
         "level": "mild",
         "label": "Possible ADHD",
-        "description": "Your score suggests possible ADHD symptoms. Further evaluation is recommended.",
+        "description": "Your score suggests possible ADHD symptoms. Further evaluation is recommended. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Consider consulting a professional for a comprehensive ADHD evaluation",
           "Learn about ADHD to improve self-understanding",
           "Try using planners and reminder tools for daily organization",
-          "Regular exercise can help improve attention and hyperactivity symptoms"
+          "Regular exercise can help improve attention and hyperactivity symptoms",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -102,7 +105,7 @@
         "max": 24,
         "level": "moderate",
         "label": "Likely ADHD",
-        "description": "Your score is elevated and ADHD symptoms are likely present. Professional evaluation is strongly recommended.",
+        "description": "Your score is elevated and ADHD symptoms are likely present. Professional evaluation is strongly recommended. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Strongly recommended to seek evaluation from a psychiatrist or psychologist",
           "ADHD is a treatable condition — both medication and behavioral interventions can help",

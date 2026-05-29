@@ -77,11 +77,13 @@
         "max": 6,
         "level": "minimal",
         "label": "Subclinical",
-        "description": "Your score is within the subclinical range, suggesting that the stressful event has not caused significant ongoing psychological distress.",
+        "description": "Your score is within the subclinical range, suggesting that the stressful event has not caused significant ongoing psychological distress. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
         "suggestions": [
           "Continue maintaining your current coping strategies",
           "Allow yourself to process the experience at your own pace",
-          "Stay connected with supportive people in your life"
+          "Stay connected with supportive people in your life",
+          "Continue maintaining your good psychological health",
+          "Stay emotionally connected with friends and family"
         ]
       },
       {
@@ -89,12 +91,13 @@
         "max": 12,
         "level": "mild",
         "label": "Mild Distress",
-        "description": "Your score suggests mild post-traumatic distress. You may be experiencing some intrusive thoughts, avoidance behaviors, or heightened alertness.",
+        "description": "Your score suggests mild post-traumatic distress. You may be experiencing some intrusive thoughts, avoidance behaviors, or heightened alertness. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
         "suggestions": [
           "Monitor your symptoms over the coming weeks",
           "Practice relaxation techniques such as deep breathing or mindfulness",
           "Talk to someone you trust about your experiences",
-          "Maintain regular routines for sleep and daily activities"
+          "Maintain regular routines for sleep and daily activities",
+          "Allow yourself time and space to process your emotions"
         ]
       },
       {
@@ -107,7 +110,8 @@
           "Consider seeking support from a mental health professional",
           "Practice grounding techniques when intrusive thoughts occur",
           "Maintain a structured daily routine",
-          "Avoid isolating yourself; stay connected with others"
+          "Avoid isolating yourself; stay connected with others",
+          "Consider consulting a professional trained in trauma therapy"
         ]
       },
       {
@@ -115,12 +119,13 @@
         "max": 24,
         "level": "severe",
         "label": "Severe Distress",
-        "description": "Your score indicates severe post-traumatic distress that is likely significantly affecting your well-being and daily functioning.",
+        "description": "Your score indicates severe post-traumatic distress that is likely significantly affecting your well-being and daily functioning. Your trauma-related reactions are quite pronounced and may be significantly impacting your functioning. Professional trauma-focused support is recommended.",
         "suggestions": [
           "Please seek professional help from a trauma-specialized therapist",
           "Evidence-based treatments such as EMDR or trauma-focused CBT can be very effective",
           "If you are in crisis, contact a crisis helpline immediately",
-          "Create a safety plan for managing intense distress"
+          "Create a safety plan for managing intense distress",
+          "Contact a trauma therapy specialist as soon as possible"
         ]
       }
     ],

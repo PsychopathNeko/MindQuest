@@ -100,10 +100,12 @@
         "max": 27,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your fatigue level is within the normal range.",
+        "description": "Your fatigue level is within the normal range. This indicates that you are currently experiencing minimal physical discomfort, with somatic symptoms within the normal range.",
         "suggestions": [
           "Continue maintaining healthy lifestyle habits",
-          "Ensure adequate sleep and regular exercise"
+          "Ensure adequate sleep and regular exercise",
+          "Get regular check-ups to maintain physical health",
+          "Keep up moderate exercise and a balanced diet"
         ]
       },
       {
@@ -111,12 +113,13 @@
         "max": 36,
         "level": "mild",
         "label": "Mild Fatigue",
-        "description": "You may have some fatigue issues, but they have a relatively small impact on your life.",
+        "description": "You may have some fatigue issues, but they have a relatively small impact on your life. Mild physical discomfort is common. Rest and healthy lifestyle habits can often help alleviate these symptoms.",
         "suggestions": [
           "Maintain a regular sleep schedule",
           "Increase physical activity as appropriate",
           "Ensure a balanced diet",
-          "If fatigue persists, consider screening for physical conditions"
+          "If fatigue persists, consider screening for physical conditions",
+          "Pay attention to your body signals and rest when needed"
         ]
       },
       {
@@ -124,12 +127,13 @@
         "max": 49,
         "level": "moderate",
         "label": "Moderate Fatigue",
-        "description": "Your fatigue is noticeably affecting your daily activities.",
+        "description": "Your fatigue is noticeably affecting your daily activities. At this level, physical symptoms may cause discomfort and affect your daily activities and emotional state.",
         "suggestions": [
           "Consider seeing a doctor to rule out underlying physical causes",
           "Learn energy management techniques (e.g., activity-rest cycling)",
           "Practice good sleep hygiene",
-          "Consider whether psychological factors (e.g., depression, anxiety) may be contributing"
+          "Consider whether psychological factors (e.g., depression, anxiety) may be contributing",
+          "Consider consulting a doctor for a physical examination"
         ]
       },
       {
@@ -137,12 +141,13 @@
         "max": 63,
         "level": "severe",
         "label": "Severe Fatigue",
-        "description": "Your fatigue is very severe and significantly affects daily functioning. A professional evaluation is recommended.",
+        "description": "Your fatigue is very severe and significantly affects daily functioning. A professional evaluation is recommended. Your somatic symptom scores are elevated, and these discomforts may be significantly affecting your quality of life. Both medical and psychological evaluation is recommended.",
         "suggestions": [
           "Seek a comprehensive medical evaluation as soon as possible",
           "A multidisciplinary treatment approach may be needed",
           "Learn energy conservation strategies",
-          "Seek social support and assistance"
+          "Seek social support and assistance",
+          "Consult a doctor for a comprehensive physical examination as soon as possible"
         ]
       }
     ],

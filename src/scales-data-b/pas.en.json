@@ -112,10 +112,13 @@
         "max": 8,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your score indicates no significant panic or agoraphobia symptoms. You are functioning well in this area.",
+        "description": "Your score indicates no significant panic or agoraphobia symptoms. You are functioning well in this area. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining healthy coping strategies",
-          "Practice regular relaxation and stress management"
+          "Practice regular relaxation and stress management",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching",
+          "Keep up a regular exercise routine"
         ]
       },
       {
@@ -123,12 +126,13 @@
         "max": 18,
         "level": "mild",
         "label": "Mild Panic/Agoraphobia",
-        "description": "You are experiencing mild symptoms of panic or agoraphobia. These symptoms may cause some discomfort but are not significantly impairing.",
+        "description": "You are experiencing mild symptoms of panic or agoraphobia. These symptoms may cause some discomfort but are not significantly impairing. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
         "suggestions": [
           "Learn about panic disorder and its symptoms",
           "Practice breathing exercises and grounding techniques",
           "Gradually expose yourself to feared situations with support",
-          "Consider consulting a mental health professional if symptoms persist"
+          "Consider consulting a mental health professional if symptoms persist",
+          "Learn and practice progressive muscle relaxation"
         ]
       },
       {
@@ -136,12 +140,13 @@
         "max": 28,
         "level": "moderate",
         "label": "Moderate Panic/Agoraphobia",
-        "description": "You are experiencing moderate panic or agoraphobia symptoms that are likely affecting your daily functioning.",
+        "description": "You are experiencing moderate panic or agoraphobia symptoms that are likely affecting your daily functioning. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Seek evaluation from a mental health professional",
           "Cognitive behavioral therapy (CBT) is highly effective for panic disorder",
           "Practice regular relaxation techniques",
-          "Avoid caffeine and other stimulants that may worsen symptoms"
+          "Avoid caffeine and other stimulants that may worsen symptoms",
+          "Consider consulting a counselor or psychiatrist"
         ]
       },
       {
@@ -149,12 +154,13 @@
         "max": 39,
         "level": "severe",
         "label": "Severe Panic/Agoraphobia",
-        "description": "Your symptoms are severe and likely causing significant impairment in multiple areas of life.",
+        "description": "Your symptoms are severe and likely causing significant impairment in multiple areas of life. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional treatment promptly",
           "Consider a combination of medication and psychotherapy",
           "Reach out to your support network for help",
-          "Do not attempt to face feared situations alone without professional guidance"
+          "Do not attempt to face feared situations alone without professional guidance",
+          "Schedule a professional assessment as soon as possible"
         ]
       },
       {
@@ -167,7 +173,8 @@
           "Please contact a mental health professional or visit a hospital immediately",
           "Medication may be necessary to reduce acute symptoms",
           "Ensure you have a safety plan and support person available",
-          "Remember that panic disorder is highly treatable with proper care"
+          "Remember that panic disorder is highly treatable with proper care",
+          "Schedule a professional assessment as soon as possible"
         ]
       }
     ],

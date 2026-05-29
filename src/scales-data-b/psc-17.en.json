@@ -164,10 +164,13 @@
         "max": 14,
         "level": "normal",
         "label": "Normal Range",
-        "description": "Total score is within normal range. No significant psychosocial problems detected.",
+        "description": "Total score is within normal range. No significant psychosocial problems detected. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue monitoring your child's mental health",
-          "Maintain good parent-child communication"
+          "Maintain good parent-child communication",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -175,11 +178,13 @@
         "max": 34,
         "level": "elevated",
         "label": "Clinically Significant",
-        "description": "Total score reaches clinically significant level. Further evaluation is recommended.",
+        "description": "Total score reaches clinically significant level. Further evaluation is recommended. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Consult a child mental health professional for detailed evaluation",
           "Review subscale scores to identify specific problem areas",
-          "Communicate with teachers about the child's school behavior"
+          "Communicate with teachers about the child's school behavior",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       }
     ],
@@ -190,14 +195,27 @@
           "max": 4,
           "level": "normal",
           "label": "Normal",
-          "description": "Internalizing problems within normal range."
+          "description": "Internalizing problems within normal range. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 5,
           "max": 10,
           "level": "elevated",
           "label": "Elevated",
-          "description": "Elevated internalizing problems, possible emotional distress."
+          "description": "Elevated internalizing problems, possible emotional distress. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         }
       ],
       "attention": [
@@ -206,14 +224,27 @@
           "max": 6,
           "level": "normal",
           "label": "Normal",
-          "description": "Attention problems within normal range."
+          "description": "Attention problems within normal range. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 7,
           "max": 10,
           "level": "elevated",
           "label": "Elevated",
-          "description": "Elevated attention problems, further evaluation may be needed."
+          "description": "Elevated attention problems, further evaluation may be needed. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         }
       ],
       "externalizing": [
@@ -222,14 +253,27 @@
           "max": 6,
           "level": "normal",
           "label": "Normal",
-          "description": "Externalizing problems within normal range."
+          "description": "Externalizing problems within normal range. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 7,
           "max": 14,
           "level": "elevated",
           "label": "Elevated",
-          "description": "Elevated externalizing problems, possible behavioral issues."
+          "description": "Elevated externalizing problems, possible behavioral issues. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         }
       ]
     }

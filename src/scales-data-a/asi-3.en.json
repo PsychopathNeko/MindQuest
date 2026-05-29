@@ -177,10 +177,13 @@
         "max": 18,
         "level": "low",
         "label": "Low Anxiety Sensitivity",
-        "description": "Your overall anxiety sensitivity is low. You are generally not overly concerned about anxiety-related sensations.",
+        "description": "Your overall anxiety sensitivity is low. You are generally not overly concerned about anxiety-related sensations. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining your balanced perspective on bodily sensations",
-          "Your low anxiety sensitivity is a protective factor"
+          "Your low anxiety sensitivity is a protective factor",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching",
+          "Keep up a regular exercise routine"
         ]
       },
       {
@@ -188,11 +191,13 @@
         "max": 36,
         "level": "moderate",
         "label": "Moderate Anxiety Sensitivity",
-        "description": "You have a moderate level of anxiety sensitivity. Some anxiety-related sensations may cause you concern.",
+        "description": "You have a moderate level of anxiety sensitivity. Some anxiety-related sensations may cause you concern. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Learn about the nature of anxiety and its physical symptoms",
           "Practice relaxation techniques to manage physical sensations",
-          "Challenge catastrophic interpretations of bodily sensations"
+          "Challenge catastrophic interpretations of bodily sensations",
+          "Consider consulting a counselor or psychiatrist",
+          "Cognitive behavioral therapy (CBT) is highly effective for anxiety"
         ]
       },
       {
@@ -200,11 +205,13 @@
         "max": 54,
         "level": "high",
         "label": "High Anxiety Sensitivity",
-        "description": "Your anxiety sensitivity is high. You may frequently misinterpret normal bodily sensations as dangerous.",
+        "description": "Your anxiety sensitivity is high. You may frequently misinterpret normal bodily sensations as dangerous. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Consider consulting a mental health professional",
           "Interoceptive exposure therapy can be very effective",
-          "Cognitive restructuring can help change fearful beliefs about sensations"
+          "Cognitive restructuring can help change fearful beliefs about sensations",
+          "Schedule a professional assessment as soon as possible",
+          "A combination of medication and psychotherapy may be beneficial"
         ]
       },
       {
@@ -212,11 +219,13 @@
         "max": 72,
         "level": "very_high",
         "label": "Very High Anxiety Sensitivity",
-        "description": "Your anxiety sensitivity is very high. This level is strongly associated with panic disorder and other anxiety conditions.",
+        "description": "Your anxiety sensitivity is very high. This level is strongly associated with panic disorder and other anxiety conditions. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional help",
           "Evidence-based treatments are highly effective for anxiety sensitivity",
-          "Discuss cognitive behavioral therapy options with a professional"
+          "Discuss cognitive behavioral therapy options with a professional",
+          "Schedule a professional assessment as soon as possible",
+          "A combination of medication and psychotherapy may be beneficial"
         ]
       }
     ],
@@ -227,28 +236,56 @@
           "max": 6,
           "level": "low",
           "label": "Low",
-          "description": "Low concern about physical anxiety sensations."
+          "description": "Low concern about physical anxiety sensations. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 7,
           "max": 12,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate concern about physical anxiety sensations."
+          "description": "Moderate concern about physical anxiety sensations. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
+          "suggestions": [
+            "Consider consulting a counselor or psychiatrist",
+            "Cognitive behavioral therapy (CBT) is highly effective for anxiety",
+            "Practice relaxation techniques daily and maintain regular exercise",
+            "Identify and reduce avoidance behaviors; gradually face anxiety-provoking situations",
+            "Maintain regular sleep and exercise habits"
+          ]
         },
         {
           "min": 13,
           "max": 18,
           "level": "high",
           "label": "High",
-          "description": "High concern about physical anxiety sensations."
+          "description": "High concern about physical anxiety sensations. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         },
         {
           "min": 19,
           "max": 24,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high concern about physical anxiety sensations."
+          "description": "Very high concern about physical anxiety sensations. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         }
       ],
       "cognitive": [
@@ -257,28 +294,55 @@
           "max": 6,
           "level": "low",
           "label": "Low",
-          "description": "Low concern about cognitive anxiety symptoms."
+          "description": "Low concern about cognitive anxiety symptoms. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 7,
           "max": 12,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate concern about cognitive anxiety symptoms."
+          "description": "Moderate concern about cognitive anxiety symptoms. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 13,
           "max": 18,
           "level": "high",
           "label": "High",
-          "description": "High concern about cognitive anxiety symptoms."
+          "description": "High concern about cognitive anxiety symptoms. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 19,
           "max": 24,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high concern about cognitive anxiety symptoms."
+          "description": "Very high concern about cognitive anxiety symptoms. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "social": [
@@ -287,28 +351,55 @@
           "max": 6,
           "level": "low",
           "label": "Low",
-          "description": "Low concern about social consequences of anxiety."
+          "description": "Low concern about social consequences of anxiety. This indicates that your social functioning and relationships are in good condition, maintaining satisfactory social connections.",
+          "suggestions": [
+            "Continue maintaining your current social relationships",
+            "Keep an open and communicative attitude",
+            "Participate in social activities that interest you",
+            "Focus on the quality rather than quantity of relationships"
+          ]
         },
         {
           "min": 7,
           "max": 12,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate concern about social consequences of anxiety."
+          "description": "Moderate concern about social consequences of anxiety. At this level, social difficulties may cause feelings of isolation or discomfort in interpersonal interactions, affecting life satisfaction.",
+          "suggestions": [
+            "Consider discussing social concerns with a counselor",
+            "Join social skills training or support groups",
+            "Gradually challenge social avoidance behaviors",
+            "Develop one or two deeper friendships",
+            "Focus on building self-worth"
+          ]
         },
         {
           "min": 13,
           "max": 18,
           "level": "high",
           "label": "High",
-          "description": "High concern about social consequences of anxiety."
+          "description": "High concern about social consequences of anxiety. Your social concerns are notable and may be significantly affecting your relationships and quality of life. Professional support is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Professional treatment for social anxiety or loneliness can be very effective",
+            "Start practicing gradually in safe social environments",
+            "Ensure basic interpersonal connections and support",
+            "Develop a social improvement plan under professional guidance"
+          ]
         },
         {
           "min": 19,
           "max": 24,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high concern about social consequences of anxiety."
+          "description": "Very high concern about social consequences of anxiety. Your social concerns are notable and may be significantly affecting your relationships and quality of life. Professional support is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Professional treatment for social anxiety or loneliness can be very effective",
+            "Start practicing gradually in safe social environments",
+            "Ensure basic interpersonal connections and support",
+            "Develop a social improvement plan under professional guidance"
+          ]
         }
       ]
     }

@@ -90,11 +90,13 @@
         "max": 17,
         "level": "minimal",
         "label": "High Psychological Flexibility",
-        "description": "Your experiential avoidance level is very low, indicating high psychological flexibility and effective acceptance of internal experiences.",
+        "description": "Your experiential avoidance level is very low, indicating high psychological flexibility and effective acceptance of internal experiences. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining an open and accepting attitude",
           "Keep practicing mindfulness and self-awareness",
-          "Share your coping strategies to help others"
+          "Share your coping strategies to help others",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -102,11 +104,13 @@
         "max": 24,
         "level": "mild",
         "label": "Mild Experiential Avoidance",
-        "description": "You show mild experiential avoidance tendencies and may sometimes try to escape unpleasant internal experiences.",
+        "description": "You show mild experiential avoidance tendencies and may sometimes try to escape unpleasant internal experiences. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Practice mindfulness meditation to enhance awareness of internal experiences",
           "Try accepting rather than controlling unpleasant thoughts and feelings",
-          "Learn about the basic principles of Acceptance and Commitment Therapy (ACT)"
+          "Learn about the basic principles of Acceptance and Commitment Therapy (ACT)",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       },
       {
@@ -114,12 +118,13 @@
         "max": 32,
         "level": "moderate",
         "label": "Moderate Experiential Avoidance",
-        "description": "You show moderate experiential avoidance. Unpleasant thoughts and feelings may significantly affect your life.",
+        "description": "You show moderate experiential avoidance. Unpleasant thoughts and feelings may significantly affect your life. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Consider trying ACT-based psychological counseling",
           "Learn values-directed action — pursue meaningful activities even with uncomfortable feelings",
           "Reduce over-engagement with negative thoughts",
-          "Practice mindfulness regularly"
+          "Practice mindfulness regularly",
+          "Consider consulting a mental health professional"
         ]
       },
       {
@@ -127,12 +132,13 @@
         "max": 49,
         "level": "severe",
         "label": "High Experiential Avoidance",
-        "description": "Your experiential avoidance level is high, which may severely limit your quality of life and mental health.",
+        "description": "Your experiential avoidance level is high, which may severely limit your quality of life and mental health. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional psychological help",
           "Acceptance and Commitment Therapy (ACT) has shown significant effectiveness for experiential avoidance",
           "Do not face your struggles alone; share your experiences with trusted people",
-          "Gradually practice accepting unpleasant internal experiences under professional guidance"
+          "Gradually practice accepting unpleasant internal experiences under professional guidance",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       }
     ],

@@ -53,11 +53,13 @@
         "max": 2,
         "level": "normal",
         "label": "Normal",
-        "description": "Your score is within the normal range. No significant anxiety symptoms detected by this brief screen.",
+        "description": "Your score is within the normal range. No significant anxiety symptoms detected by this brief screen. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining your current well-being",
           "Practice relaxation activities for general wellness",
-          "Occasional worry is a normal part of life"
+          "Occasional worry is a normal part of life",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching"
         ]
       },
       {
@@ -65,12 +67,13 @@
         "max": 6,
         "level": "moderate",
         "label": "Possible Anxiety",
-        "description": "Your score suggests possible anxiety. This brief screening indicates that further evaluation is recommended.",
+        "description": "Your score suggests possible anxiety. This brief screening indicates that further evaluation is recommended. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Consider completing the full GAD-7 for a more detailed assessment",
           "Consult a healthcare professional for further evaluation",
           "Practice relaxation techniques such as deep breathing or meditation",
-          "Monitor your worry patterns and identify triggers"
+          "Monitor your worry patterns and identify triggers",
+          "Consider consulting a counselor or psychiatrist"
         ]
       }
     ],

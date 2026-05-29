@@ -83,12 +83,13 @@
         "max": 13,
         "level": "severe",
         "label": "Low Resilience",
-        "description": "Your resilience level is low. You may have difficulty recovering from stress and adversity.",
+        "description": "Your resilience level is low. You may have difficulty recovering from stress and adversity. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Learn and practice stress management techniques",
           "Build a social support network and seek help from others",
           "Strengthen resilience through regular exercise, meditation, and other practices",
-          "If you consistently struggle to cope with difficulties, consider professional counseling"
+          "If you consistently struggle to cope with difficulties, consider professional counseling",
+          "Keep up the habits and activities that bring you happiness"
         ]
       },
       {
@@ -96,12 +97,13 @@
         "max": 18,
         "level": "moderate",
         "label": "Below Average Resilience",
-        "description": "Your resilience is below average. You may need more time to recover from adversity in some situations.",
+        "description": "Your resilience is below average. You may need more time to recover from adversity in some situations. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Develop positive coping strategies",
           "Maintain regular sleep and exercise habits",
           "Practice acceptance and mindfulness to reduce overreaction to difficulties",
-          "Find activities and ways to recharge"
+          "Find activities and ways to recharge",
+          "Continue maintaining your positive lifestyle"
         ]
       },
       {
@@ -109,11 +111,13 @@
         "max": 24,
         "level": "mild",
         "label": "Normal Resilience",
-        "description": "You have a normal level of resilience and can recover well from most stressors and adversity.",
+        "description": "You have a normal level of resilience and can recover well from most stressors and adversity. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
         "suggestions": [
           "Continue maintaining and strengthening your resilience resources",
           "Flexibly apply your existing coping strategies when facing new challenges",
-          "Maintain positive social relationships and a healthy lifestyle"
+          "Maintain positive social relationships and a healthy lifestyle",
+          "Increase the frequency of positive social activities",
+          "Develop a hobby that gives you a sense of accomplishment"
         ]
       },
       {
@@ -121,11 +125,13 @@
         "max": 30,
         "level": "minimal",
         "label": "High Resilience",
-        "description": "You have high resilience and can recover quickly and effectively from stress and adversity.",
+        "description": "You have high resilience and can recover quickly and effectively from stress and adversity. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Continue maintaining your strong resilience",
           "Your experience can help and encourage others",
-          "While helping others, remember to also look after your own mental health"
+          "While helping others, remember to also look after your own mental health",
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging"
         ]
       }
     ],

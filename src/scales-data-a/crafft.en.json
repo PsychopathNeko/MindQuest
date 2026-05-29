@@ -56,12 +56,13 @@
         "max": 1,
         "level": "minimal",
         "label": "Low Risk",
-        "description": "Your responses suggest low risk for substance-related problems. Continue making healthy choices.",
+        "description": "Your responses suggest low risk for substance-related problems. Continue making healthy choices. This indicates that your current substance-use-related risk is low and within a healthy range.",
         "suggestions": [
           "Continue making safe and healthy choices regarding substance use",
           "Learn about the risks associated with alcohol and drug use",
           "Know how to say no in peer pressure situations",
-          "Talk to a trusted adult if you have questions about substance use"
+          "Talk to a trusted adult if you have questions about substance use",
+          "Continue maintaining a healthy lifestyle"
         ]
       },
       {
@@ -69,7 +70,7 @@
         "max": 6,
         "level": "severe",
         "label": "High Risk",
-        "description": "Your responses suggest a high risk for substance-related problems. A score of 2 or more indicates a need for further assessment.",
+        "description": "Your responses suggest a high risk for substance-related problems. A score of 2 or more indicates a need for further assessment. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
         "suggestions": [
           "Talk to a trusted adult, school counselor, or healthcare provider about your substance use",
           "Consider seeking a professional assessment",

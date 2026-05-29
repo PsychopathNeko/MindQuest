@@ -118,10 +118,13 @@
         "max": 2,
         "level": "minimal",
         "label": "Normal Range",
-        "description": "Your score is within the normal range, showing no significant autism spectrum traits.",
+        "description": "Your score is within the normal range, showing no significant autism spectrum traits. This indicates that the relevant behavioral characteristics are within the normal range with no significant functional impact.",
         "suggestions": [
           "This result suggests you are unlikely to be on the autism spectrum",
-          "If you still have concerns, consult a professional for a more comprehensive evaluation"
+          "If you still have concerns, consult a professional for a more comprehensive evaluation",
+          "Understand your behavioral characteristics and leverage your strengths",
+          "Maintain your current effective coping strategies",
+          "Seek information and support when needed"
         ]
       },
       {
@@ -129,11 +132,13 @@
         "max": 5,
         "level": "mild",
         "label": "Borderline Range",
-        "description": "Your score is in the borderline range, suggesting some possible autism spectrum traits.",
+        "description": "Your score is in the borderline range, suggesting some possible autism spectrum traits. Mild behavioral differences are common. Understanding your own patterns can help you adapt more effectively to different environments.",
         "suggestions": [
           "This score does not imply a diagnosis, but may warrant further attention",
           "If these traits affect your daily life, consider consulting a professional",
-          "Learning about autism spectrum conditions can help with self-understanding"
+          "Learning about autism spectrum conditions can help with self-understanding",
+          "Learn about your behavioral patterns and characteristics",
+          "Use planners and reminders to help organize daily activities"
         ]
       },
       {
@@ -141,12 +146,13 @@
         "max": 10,
         "level": "moderate",
         "label": "Further Assessment Recommended",
-        "description": "Your score is elevated, suggesting possible autism spectrum traits. A more comprehensive professional assessment is recommended.",
+        "description": "Your score is elevated, suggesting possible autism spectrum traits. A more comprehensive professional assessment is recommended. At this level, behavioral characteristics may have some impact on learning, work, or social interactions. Understanding and adapting strategies can be helpful.",
         "suggestions": [
           "Consider contacting a professional for a comprehensive autism spectrum assessment",
           "This screening result is not a diagnosis and requires professional clinical evaluation",
           "Regardless of the outcome, understanding your characteristics helps develop suitable coping strategies",
-          "Look for local autism support resources and communities"
+          "Look for local autism support resources and communities",
+          "Consider a more comprehensive professional assessment"
         ]
       }
     ],

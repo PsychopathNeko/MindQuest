@@ -160,10 +160,13 @@
         "max": 40,
         "level": "minimal",
         "label": "Low Procrastination",
-        "description": "Your procrastination tendency is low. You manage your time and complete tasks effectively.",
+        "description": "Your procrastination tendency is low. You manage your time and complete tasks effectively. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your good time management habits",
-          "Consider sharing your self-discipline strategies with others"
+          "Consider sharing your self-discipline strategies with others",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -171,12 +174,13 @@
         "max": 60,
         "level": "mild",
         "label": "Moderate Procrastination",
-        "description": "You show some degree of procrastination behavior that occasionally affects your efficiency.",
+        "description": "You show some degree of procrastination behavior that occasionally affects your efficiency. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Try breaking large tasks into smaller steps",
           "Use the Pomodoro Technique to improve focus",
           "Set specific deadlines for yourself",
-          "Reduce environmental distractions"
+          "Reduce environmental distractions",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -184,12 +188,13 @@
         "max": 80,
         "level": "moderate",
         "label": "High Procrastination",
-        "description": "Your procrastination behavior is quite noticeable and likely affects your work, studies, and daily life frequently.",
+        "description": "Your procrastination behavior is quite noticeable and likely affects your work, studies, and daily life frequently. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Consider using task management tools (such as to-do lists)",
           "Find an accountability partner for mutual support",
           "Explore the psychological reasons behind your procrastination (e.g., perfectionism, fear of failure)",
-          "Consider seeking professional counseling"
+          "Consider seeking professional counseling",
+          "Consider consulting a mental health professional"
         ]
       },
       {
@@ -197,12 +202,13 @@
         "max": 100,
         "level": "severe",
         "label": "Severe Procrastination",
-        "description": "Your procrastination problem is very serious and likely has significant negative impacts on your work, relationships, and self-esteem.",
+        "description": "Your procrastination problem is very serious and likely has significant negative impacts on your work, relationships, and self-esteem. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Strongly recommend seeking help from a mental health professional",
           "Cognitive Behavioral Therapy (CBT) is highly effective for procrastination",
           "Start with the smallest tasks to gradually build confidence in task completion",
-          "Pay attention to the emotional burden of procrastination and practice self-compassion"
+          "Pay attention to the emotional burden of procrastination and practice self-compassion",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       }
     ],

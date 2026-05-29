@@ -83,11 +83,13 @@
         "max": 5,
         "level": "minimal",
         "label": "Lower Normal Daytime Sleepiness",
-        "description": "Your daytime sleepiness level is within the normal range. You appear to be well-rested during the day.",
+        "description": "Your daytime sleepiness level is within the normal range. You appear to be well-rested during the day. This indicates that your sleep quality and patterns are in good condition, allowing you to get adequate rest.",
         "suggestions": [
           "Continue maintaining good sleep habits",
           "Keep a regular sleep-wake schedule",
-          "Stay physically active to support sleep quality"
+          "Stay physically active to support sleep quality",
+          "Continue maintaining your good sleep habits",
+          "Keep a consistent sleep schedule"
         ]
       },
       {
@@ -95,12 +97,13 @@
         "max": 10,
         "level": "mild",
         "label": "Higher Normal Daytime Sleepiness",
-        "description": "Your daytime sleepiness level is average, at the higher end of the normal range.",
+        "description": "Your daytime sleepiness level is average, at the higher end of the normal range. Mild sleep difficulties are quite common. Adjusting your sleep habits and environment can often bring improvement.",
         "suggestions": [
           "Ensure you are getting 7-9 hours of sleep per night",
           "Avoid electronic devices before bedtime",
           "Consider whether stress or lifestyle factors affect your sleep",
-          "Consult a doctor if sleepiness affects your daily activities"
+          "Consult a doctor if sleepiness affects your daily activities",
+          "Establish fixed bedtime and wake-up times"
         ]
       },
       {
@@ -108,12 +111,13 @@
         "max": 12,
         "level": "moderate",
         "label": "Mild Excessive Daytime Sleepiness",
-        "description": "Your daytime sleepiness is mildly elevated. There may be an issue with sleep duration or quality.",
+        "description": "Your daytime sleepiness is mildly elevated. There may be an issue with sleep duration or quality. At this level, sleep problems may cause daytime fatigue and affect your concentration and emotional stability.",
         "suggestions": [
           "Evaluate your sleep duration and quality",
           "Rule out factors that may impair sleep (caffeine, alcohol, stress)",
           "Consider consulting a sleep specialist",
-          "Keep a sleep diary to track patterns"
+          "Keep a sleep diary to track patterns",
+          "Consider consulting a doctor to rule out possible sleep disorders"
         ]
       },
       {
@@ -121,12 +125,13 @@
         "max": 15,
         "level": "severe",
         "label": "Moderate Excessive Daytime Sleepiness",
-        "description": "Your daytime sleepiness is moderately elevated. A sleep disorder may be present, and medical evaluation is recommended.",
+        "description": "Your daytime sleepiness is moderately elevated. A sleep disorder may be present, and medical evaluation is recommended. Your sleep difficulties are significant and may be considerably affecting your daytime functioning and overall health. Consulting a sleep specialist is recommended.",
         "suggestions": [
           "Consult a sleep medicine specialist soon",
           "A polysomnography (sleep study) may be recommended",
           "Be cautious when driving or operating machinery",
-          "Avoid tasks requiring high alertness until evaluated"
+          "Avoid tasks requiring high alertness until evaluated",
+          "Consult a sleep specialist for a comprehensive evaluation"
         ]
       },
       {
@@ -134,12 +139,13 @@
         "max": 24,
         "level": "severe",
         "label": "Severe Excessive Daytime Sleepiness",
-        "description": "Your daytime sleepiness is severely elevated. Please seek medical evaluation to rule out sleep apnea, narcolepsy, or other sleep disorders.",
+        "description": "Your daytime sleepiness is severely elevated. Please seek medical evaluation to rule out sleep apnea, narcolepsy, or other sleep disorders. Your sleep difficulties are significant and may be considerably affecting your daytime functioning and overall health. Consulting a sleep specialist is recommended.",
         "suggestions": [
           "Seek immediate medical evaluation from a sleep specialist",
           "Undergo a comprehensive sleep assessment",
           "Avoid driving and hazardous activities until diagnosed and treated",
-          "Inform family members of your condition for safety"
+          "Inform family members of your condition for safety",
+          "Consult a sleep specialist for a comprehensive evaluation"
         ]
       }
     ],

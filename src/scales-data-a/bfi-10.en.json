@@ -168,21 +168,37 @@
           "max": 4,
           "level": "severe",
           "label": "Low",
-          "description": "Low extraversion; tends to be introverted, quiet, and prefers solitude."
+          "description": "Low extraversion; tends to be introverted, quiet, and prefers solitude. This personality dimension score is elevated and may significantly influence your behavior patterns and relationships across various contexts. Further exploration is recommended.",
+          "suggestions": [
+            "Consider discussing the impact of personality traits with a counselor",
+            "Learn effective communication and conflict management skills",
+            "Develop flexible coping strategies",
+            "Focus on personal growth and improving relationships"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "Moderate extraversion; balanced between social interaction and solitude."
+          "description": "Moderate extraversion; balanced between social interaction and solitude. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "minimal",
           "label": "High",
-          "description": "High extraversion; outgoing, sociable, and energized by group activities."
+          "description": "High extraversion; outgoing, sociable, and energized by group activities. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         }
       ],
       "agreeableness": [
@@ -191,21 +207,37 @@
           "max": 4,
           "level": "severe",
           "label": "Low",
-          "description": "Low agreeableness; tends toward independent thinking, competitiveness, and critical analysis."
+          "description": "Low agreeableness; tends toward independent thinking, competitiveness, and critical analysis. This personality dimension score is elevated and may significantly influence your behavior patterns and relationships across various contexts. Further exploration is recommended.",
+          "suggestions": [
+            "Consider discussing the impact of personality traits with a counselor",
+            "Learn effective communication and conflict management skills",
+            "Develop flexible coping strategies",
+            "Focus on personal growth and improving relationships"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "Moderate agreeableness; balanced between cooperation and self-assertion."
+          "description": "Moderate agreeableness; balanced between cooperation and self-assertion. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "minimal",
           "label": "High",
-          "description": "High agreeableness; compassionate, cooperative, and trusting."
+          "description": "High agreeableness; compassionate, cooperative, and trusting. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         }
       ],
       "conscientiousness": [
@@ -214,21 +246,37 @@
           "max": 4,
           "level": "severe",
           "label": "Low",
-          "description": "Low conscientiousness; tends to be flexible and spontaneous, less focused on plans and details."
+          "description": "Low conscientiousness; tends to be flexible and spontaneous, less focused on plans and details. This personality dimension score is elevated and may significantly influence your behavior patterns and relationships across various contexts. Further exploration is recommended.",
+          "suggestions": [
+            "Consider discussing the impact of personality traits with a counselor",
+            "Learn effective communication and conflict management skills",
+            "Develop flexible coping strategies",
+            "Focus on personal growth and improving relationships"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "Moderate conscientiousness; balanced between organization and flexibility."
+          "description": "Moderate conscientiousness; balanced between organization and flexibility. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "minimal",
           "label": "High",
-          "description": "High conscientiousness; reliable, self-disciplined, organized, and goal-oriented."
+          "description": "High conscientiousness; reliable, self-disciplined, organized, and goal-oriented. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         }
       ],
       "neuroticism": [
@@ -237,21 +285,37 @@
           "max": 4,
           "level": "minimal",
           "label": "Low (Emotionally Stable)",
-          "description": "Low neuroticism; emotionally stable, not easily anxious or upset."
+          "description": "Low neuroticism; emotionally stable, not easily anxious or upset. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "Moderate neuroticism; generally manages emotions well."
+          "description": "Moderate neuroticism; generally manages emotions well. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "severe",
           "label": "High",
-          "description": "High neuroticism; more prone to anxiety, tension, and mood swings."
+          "description": "High neuroticism; more prone to anxiety, tension, and mood swings. This personality dimension score is elevated and may significantly influence your behavior patterns and relationships across various contexts. Further exploration is recommended.",
+          "suggestions": [
+            "Consider discussing the impact of personality traits with a counselor",
+            "Learn effective communication and conflict management skills",
+            "Develop flexible coping strategies",
+            "Focus on personal growth and improving relationships"
+          ]
         }
       ],
       "openness": [
@@ -260,21 +324,37 @@
           "max": 4,
           "level": "severe",
           "label": "Low",
-          "description": "Low openness; prefers tradition, practicality, and familiar experiences."
+          "description": "Low openness; prefers tradition, practicality, and familiar experiences. This personality dimension score is elevated and may significantly influence your behavior patterns and relationships across various contexts. Further exploration is recommended.",
+          "suggestions": [
+            "Consider discussing the impact of personality traits with a counselor",
+            "Learn effective communication and conflict management skills",
+            "Develop flexible coping strategies",
+            "Focus on personal growth and improving relationships"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "Moderate openness; balanced between exploring new things and maintaining stability."
+          "description": "Moderate openness; balanced between exploring new things and maintaining stability. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "minimal",
           "label": "High",
-          "description": "High openness; curious, creative, and receptive to new ideas and experiences."
+          "description": "High openness; curious, creative, and receptive to new ideas and experiences. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
+          "suggestions": [
+            "Understanding your personality traits supports personal growth",
+            "Every person has unique strengths and value in their personality",
+            "Flexibly apply your traits in different situations"
+          ]
         }
       ]
     }

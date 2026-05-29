@@ -122,10 +122,13 @@
         "max": 15,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your level of perseverative negative thinking is low. You can recover well from negative events.",
+        "description": "Your level of perseverative negative thinking is low. You can recover well from negative events. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining healthy thinking habits",
-          "Keep up mindfulness practices to sustain psychological resilience"
+          "Keep up mindfulness practices to sustain psychological resilience",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching",
+          "Keep up a regular exercise routine"
         ]
       },
       {
@@ -133,12 +136,13 @@
         "max": 30,
         "level": "mild",
         "label": "Mild Rumination",
-        "description": "You have some degree of repetitive negative thinking and may occasionally get caught in cycles of overthinking.",
+        "description": "You have some degree of repetitive negative thinking and may occasionally get caught in cycles of overthinking. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
         "suggestions": [
           "Learn mindfulness meditation to reduce ruminative thinking",
           "Try shifting your attention to positive activities",
           "Practice acceptance and letting-go techniques",
-          "Maintain regular physical exercise"
+          "Maintain regular physical exercise",
+          "Learn and practice progressive muscle relaxation"
         ]
       },
       {
@@ -146,12 +150,13 @@
         "max": 45,
         "level": "moderate",
         "label": "Moderate Rumination",
-        "description": "Your perseverative negative thinking level is elevated. This may affect your daily functioning and emotional well-being.",
+        "description": "Your perseverative negative thinking level is elevated. This may affect your daily functioning and emotional well-being. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Consider learning cognitive-behavioral techniques to break the rumination cycle",
           "Consider seeking professional counseling",
           "Practice mindfulness and relaxation techniques",
-          "Share your concerns with someone you trust"
+          "Share your concerns with someone you trust",
+          "Consider consulting a counselor or psychiatrist"
         ]
       },
       {
@@ -159,12 +164,13 @@
         "max": 60,
         "level": "severe",
         "label": "Severe Rumination",
-        "description": "Your perseverative negative thinking level is very high. This may significantly affect your mental health and daily life.",
+        "description": "Your perseverative negative thinking level is very high. This may significantly affect your mental health and daily life. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional psychological help",
           "Cognitive-behavioral therapy is very effective in reducing ruminative thinking",
           "Avoid spending time alone overthinking; engage more with others",
-          "Monitor for co-occurring depression or anxiety symptoms"
+          "Monitor for co-occurring depression or anxiety symptoms",
+          "Schedule a professional assessment as soon as possible"
         ]
       }
     ],

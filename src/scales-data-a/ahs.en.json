@@ -135,12 +135,13 @@
         "max": 24,
         "level": "severe",
         "label": "Low Hope",
-        "description": "Your hope level is low. You may lack confidence and pathways when facing difficulties.",
+        "description": "Your hope level is low. You may lack confidence and pathways when facing difficulties. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Try setting small, achievable goals to build confidence",
           "Learn problem-solving skills",
           "Spend time with positive, optimistic people",
-          "Consider seeking counseling to enhance hopefulness"
+          "Consider seeking counseling to enhance hopefulness",
+          "Keep up the habits and activities that bring you happiness"
         ]
       },
       {
@@ -148,12 +149,13 @@
         "max": 40,
         "level": "mild",
         "label": "Below Average Hope",
-        "description": "Your hope is below average. You may occasionally feel lacking in motivation or direction when pursuing goals.",
+        "description": "Your hope is below average. You may occasionally feel lacking in motivation or direction when pursuing goals. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
         "suggestions": [
           "Practice setting specific, measurable goals",
           "Review past successes to boost confidence",
           "Explore multiple pathways to achieve your goals",
-          "Cultivate positive self-talk"
+          "Cultivate positive self-talk",
+          "Increase the frequency of positive social activities"
         ]
       },
       {
@@ -161,11 +163,13 @@
         "max": 56,
         "level": "normal",
         "label": "Above Average Hope",
-        "description": "Your hope is above average. You are generally good at setting goals and finding ways to achieve them.",
+        "description": "Your hope is above average. You are generally good at setting goals and finding ways to achieve them. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Continue maintaining positive goal-directed thinking",
           "Use your hopefulness as motivation when facing challenges",
-          "Help others develop a sense of hope"
+          "Help others develop a sense of hope",
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging"
         ]
       },
       {
@@ -173,11 +177,13 @@
         "max": 64,
         "level": "minimal",
         "label": "High Hope",
-        "description": "Your hope level is very high. You maintain a positive attitude and find multiple solutions when facing difficulties.",
+        "description": "Your hope level is very high. You maintain a positive attitude and find multiple solutions when facing difficulties. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Your high hope is a valuable psychological resource",
           "Continue setting challenging goals",
-          "Use your positive mindset to help and encourage others"
+          "Use your positive mindset to help and encourage others",
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging"
         ]
       }
     ],

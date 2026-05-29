@@ -82,12 +82,13 @@
         "max": 12,
         "level": "severe",
         "label": "Low Need for Cognition",
-        "description": "You tend to prefer tasks that require less cognitive effort. You may find complex thinking somewhat unpleasant or unengaging.",
+        "description": "You tend to prefer tasks that require less cognitive effort. You may find complex thinking somewhat unpleasant or unengaging. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Try small, engaging puzzles or brainteasers to build cognitive enjoyment",
           "Break complex tasks into smaller, manageable steps",
           "Explore topics that genuinely interest you to make thinking more rewarding",
-          "Consider that cognitive engagement can be developed with practice"
+          "Consider that cognitive engagement can be developed with practice",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       },
       {
@@ -95,11 +96,13 @@
         "max": 18,
         "level": "mild",
         "label": "Moderate Need for Cognition",
-        "description": "You have an average tendency toward cognitive engagement. You sometimes enjoy thinking deeply but may prefer simpler tasks at other times.",
+        "description": "You have an average tendency toward cognitive engagement. You sometimes enjoy thinking deeply but may prefer simpler tasks at other times. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Challenge yourself with new learning opportunities",
           "Engage in discussions that require critical thinking",
-          "Read diverse materials to expand intellectual curiosity"
+          "Read diverse materials to expand intellectual curiosity",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       },
       {
@@ -107,11 +110,13 @@
         "max": 24,
         "level": "normal",
         "label": "Above Average Need for Cognition",
-        "description": "You generally enjoy thinking deeply and find intellectual challenges satisfying. You tend to seek out cognitively demanding activities.",
+        "description": "You generally enjoy thinking deeply and find intellectual challenges satisfying. You tend to seek out cognitively demanding activities. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue pursuing intellectually stimulating activities",
           "Share your love of thinking with others through teaching or mentoring",
-          "Balance cognitive engagement with rest and relaxation"
+          "Balance cognitive engagement with rest and relaxation",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -123,7 +128,9 @@
         "suggestions": [
           "Continue embracing your love of learning and thinking",
           "Seek out challenging problems that stretch your abilities",
-          "Remember to be patient with those who may prefer less cognitive effort"
+          "Remember to be patient with those who may prefer less cognitive effort",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       }
     ],

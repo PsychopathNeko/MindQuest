@@ -102,12 +102,13 @@
         "max": 11,
         "level": "at_risk",
         "label": "At Risk for Social Isolation",
-        "description": "Your total score suggests you may be at risk for social isolation. Limited social networks can impact both mental and physical health.",
+        "description": "Your total score suggests you may be at risk for social isolation. Limited social networks can impact both mental and physical health. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Consider reaching out to family or friends more regularly",
           "Look for community activities or groups to join",
           "Talk to a healthcare provider about resources for social engagement",
-          "Volunteering can be a great way to build social connections"
+          "Volunteering can be a great way to build social connections",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -115,11 +116,13 @@
         "max": 17,
         "level": "moderate",
         "label": "Moderate Social Network",
-        "description": "You have a moderate level of social engagement. There may be room to strengthen your social connections.",
+        "description": "You have a moderate level of social engagement. There may be room to strengthen your social connections. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Continue nurturing your existing relationships",
           "Consider expanding your social network",
-          "Maintain regular contact with family and friends"
+          "Maintain regular contact with family and friends",
+          "Consider consulting a mental health professional",
+          "Identify your specific sources of concern"
         ]
       },
       {
@@ -127,11 +130,13 @@
         "max": 30,
         "level": "strong",
         "label": "Strong Social Network",
-        "description": "You have a strong social network with good connections to both family and friends.",
+        "description": "You have a strong social network with good connections to both family and friends. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Continue maintaining your strong social connections",
           "Your social network is a valuable resource for well-being",
-          "Consider supporting others who may be socially isolated"
+          "Consider supporting others who may be socially isolated",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       }
     ],
@@ -142,21 +147,42 @@
           "max": 5,
           "level": "at_risk",
           "label": "At Risk",
-          "description": "Your family network is limited. You may benefit from strengthening family connections."
+          "description": "Your family network is limited. You may benefit from strengthening family connections. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 6,
           "max": 10,
           "level": "moderate",
           "label": "Moderate",
-          "description": "You have a moderate family network."
+          "description": "You have a moderate family network. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 11,
           "max": 15,
           "level": "strong",
           "label": "Strong",
-          "description": "You have a strong and supportive family network."
+          "description": "You have a strong and supportive family network. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         }
       ],
       "friends": [
@@ -165,21 +191,42 @@
           "max": 5,
           "level": "at_risk",
           "label": "At Risk",
-          "description": "Your friend network is limited. You may benefit from building more friendships."
+          "description": "Your friend network is limited. You may benefit from building more friendships. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 6,
           "max": 10,
           "level": "moderate",
           "label": "Moderate",
-          "description": "You have a moderate friend network."
+          "description": "You have a moderate friend network. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 11,
           "max": 15,
           "level": "strong",
           "label": "Strong",
-          "description": "You have a strong and supportive friend network."
+          "description": "You have a strong and supportive friend network. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         }
       ]
     }

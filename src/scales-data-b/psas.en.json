@@ -158,10 +158,13 @@
         "max": 32,
         "level": "minimal",
         "label": "Low Pre-Sleep Arousal",
-        "description": "Your overall pre-sleep arousal is low. You generally feel calm and relaxed when trying to fall asleep.",
+        "description": "Your overall pre-sleep arousal is low. You generally feel calm and relaxed when trying to fall asleep. This indicates that your sleep quality and patterns are in good condition, allowing you to get adequate rest.",
         "suggestions": [
           "Continue maintaining your healthy sleep habits",
-          "Keep a consistent sleep schedule"
+          "Keep a consistent sleep schedule",
+          "Continue maintaining your good sleep habits",
+          "Avoid screen time and stimulating activities before bed",
+          "Create a comfortable sleep environment"
         ]
       },
       {
@@ -169,12 +172,13 @@
         "max": 48,
         "level": "mild",
         "label": "Moderate Pre-Sleep Arousal",
-        "description": "Your pre-sleep arousal is moderate. You experience some degree of mental or physical activation when trying to fall asleep.",
+        "description": "Your pre-sleep arousal is moderate. You experience some degree of mental or physical activation when trying to fall asleep. Mild sleep difficulties are quite common. Adjusting your sleep habits and environment can often bring improvement.",
         "suggestions": [
           "Practice relaxation techniques before bed",
           "Establish a calming bedtime routine",
           "Avoid screens 30-60 minutes before sleep",
-          "Limit caffeine in the afternoon and evening"
+          "Limit caffeine in the afternoon and evening",
+          "Establish fixed bedtime and wake-up times"
         ]
       },
       {
@@ -182,12 +186,13 @@
         "max": 64,
         "level": "moderate",
         "label": "High Pre-Sleep Arousal",
-        "description": "Your pre-sleep arousal is high. You frequently experience significant mental and/or physical activation when trying to fall asleep.",
+        "description": "Your pre-sleep arousal is high. You frequently experience significant mental and/or physical activation when trying to fall asleep. At this level, sleep problems may cause daytime fatigue and affect your concentration and emotional stability.",
         "suggestions": [
           "Consider cognitive behavioral therapy for insomnia (CBT-I)",
           "Practice structured worry time earlier in the evening",
           "Use body scan meditation",
-          "Consider consulting a sleep specialist"
+          "Consider consulting a sleep specialist",
+          "Consider consulting a doctor to rule out possible sleep disorders"
         ]
       },
       {
@@ -195,12 +200,13 @@
         "max": 80,
         "level": "severe",
         "label": "Very High Pre-Sleep Arousal",
-        "description": "Your pre-sleep arousal is very high. You experience intense mental and physical activation at bedtime.",
+        "description": "Your pre-sleep arousal is very high. You experience intense mental and physical activation at bedtime. Your sleep difficulties are significant and may be considerably affecting your daytime functioning and overall health. Consulting a sleep specialist is recommended.",
         "suggestions": [
           "Seek professional help from a sleep specialist or psychologist",
           "CBT-I is the gold standard treatment for insomnia-related arousal",
           "Discuss medication options with a healthcare provider",
-          "Address underlying anxiety or stress through professional therapy"
+          "Address underlying anxiety or stress through professional therapy",
+          "Consult a sleep specialist for a comprehensive evaluation"
         ]
       }
     ],
@@ -211,28 +217,55 @@
           "max": 16,
           "level": "minimal",
           "label": "Low Cognitive Arousal",
-          "description": "Minimal mental activation before sleep. Your mind is generally calm."
+          "description": "Minimal mental activation before sleep. Your mind is generally calm. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 17,
           "max": 24,
           "level": "mild",
           "label": "Moderate Cognitive Arousal",
-          "description": "Some racing thoughts or worry before sleep."
+          "description": "Some racing thoughts or worry before sleep. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 25,
           "max": 32,
           "level": "moderate",
           "label": "High Cognitive Arousal",
-          "description": "Frequent racing thoughts, worry, and mental alertness before sleep."
+          "description": "Frequent racing thoughts, worry, and mental alertness before sleep. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 33,
           "max": 40,
           "level": "severe",
           "label": "Very High Cognitive Arousal",
-          "description": "Intense mental activation with persistent racing thoughts that significantly disrupts sleep onset."
+          "description": "Intense mental activation with persistent racing thoughts that significantly disrupts sleep onset. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "somatic": [
@@ -241,28 +274,54 @@
           "max": 16,
           "level": "minimal",
           "label": "Low Somatic Arousal",
-          "description": "Minimal physical symptoms before sleep."
+          "description": "Minimal physical symptoms before sleep. This indicates that you are currently experiencing minimal physical discomfort, with somatic symptoms within the normal range.",
+          "suggestions": [
+            "Continue maintaining healthy lifestyle habits",
+            "Get regular check-ups to maintain physical health",
+            "Keep up moderate exercise and a balanced diet"
+          ]
         },
         {
           "min": 17,
           "max": 24,
           "level": "mild",
           "label": "Moderate Somatic Arousal",
-          "description": "Some physical tension or bodily symptoms before sleep."
+          "description": "Some physical tension or bodily symptoms before sleep. Mild physical discomfort is common. Rest and healthy lifestyle habits can often help alleviate these symptoms.",
+          "suggestions": [
+            "Pay attention to your body signals and rest when needed",
+            "Maintain regular exercise and healthy eating habits",
+            "Learn relaxation techniques to relieve physical tension",
+            "Ensure adequate sleep",
+            "If symptoms persist, consult a doctor to rule out physical conditions"
+          ]
         },
         {
           "min": 25,
           "max": 32,
           "level": "moderate",
           "label": "High Somatic Arousal",
-          "description": "Frequent physical symptoms such as muscle tension or heart racing before sleep."
+          "description": "Frequent physical symptoms such as muscle tension or heart racing before sleep. At this level, physical symptoms may cause discomfort and affect your daily activities and emotional state.",
+          "suggestions": [
+            "Consider consulting a doctor for a physical examination",
+            "Understand the relationship between mind and body",
+            "Learn stress management and relaxation techniques",
+            "Maintain moderate exercise and social activities",
+            "Keep a symptom diary to help track changes"
+          ]
         },
         {
           "min": 33,
           "max": 40,
           "level": "severe",
           "label": "Very High Somatic Arousal",
-          "description": "Intense physical arousal symptoms that significantly interfere with falling asleep."
+          "description": "Intense physical arousal symptoms that significantly interfere with falling asleep. Your somatic symptom scores are elevated, and these discomforts may be significantly affecting your quality of life. Both medical and psychological evaluation is recommended.",
+          "suggestions": [
+            "Consult a doctor for a comprehensive physical examination as soon as possible",
+            "Consider how physical and mental health may be interconnected",
+            "Develop a comprehensive management plan under professional guidance",
+            "Maintain basic daily self-care routines",
+            "Ensure adequate social support"
+          ]
         }
       ]
     }

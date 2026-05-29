@@ -230,10 +230,13 @@
         "max": 22,
         "level": "minimal",
         "label": "Normal Range",
-        "description": "Your dissociative experience frequency is within the normal range. Most people occasionally have similar experiences.",
+        "description": "Your dissociative experience frequency is within the normal range. Most people occasionally have similar experiences. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
         "suggestions": [
           "These experiences are normal to some extent",
-          "If particularly bothersome, note when and where they occur"
+          "If particularly bothersome, note when and where they occur",
+          "Continue maintaining your good psychological health",
+          "Stay emotionally connected with friends and family",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -241,11 +244,13 @@
         "max": 44,
         "level": "mild",
         "label": "Mild Dissociative Experiences",
-        "description": "Your dissociative experiences are slightly above average and may be related to stress or fatigue.",
+        "description": "Your dissociative experiences are slightly above average and may be related to stress or fatigue. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
         "suggestions": [
           "Monitor your stress levels and sleep quality",
           "Mindfulness and grounding exercises may help reduce dissociation",
-          "If affecting daily functioning, consider consulting a professional"
+          "If affecting daily functioning, consider consulting a professional",
+          "Allow yourself time and space to process your emotions",
+          "Share your feelings with someone you trust"
         ]
       },
       {
@@ -258,7 +263,8 @@
           "Consider consulting a mental health professional for further evaluation",
           "Learn about dissociative disorders",
           "Practice grounding techniques (e.g., 5-4-3-2-1 sensory exercise)",
-          "Maintain regular routines and reduce controllable stressors"
+          "Maintain regular routines and reduce controllable stressors",
+          "Consider consulting a professional trained in trauma therapy"
         ]
       },
       {
@@ -271,7 +277,8 @@
           "Strongly recommend consulting a psychiatrist or clinical psychologist",
           "Dissociation may be related to early traumatic experiences",
           "Trauma-focused therapy may be beneficial",
-          "Do not overlook the impact of these experiences on daily life"
+          "Do not overlook the impact of these experiences on daily life",
+          "Contact a trauma therapy specialist as soon as possible"
         ]
       }
     ],
@@ -282,21 +289,41 @@
           "max": 7,
           "level": "minimal",
           "label": "Low",
-          "description": "Low amnesia-related dissociative experiences."
+          "description": "Low amnesia-related dissociative experiences. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
+          "suggestions": [
+            "Continue maintaining your good psychological health",
+            "Stay emotionally connected with friends and family",
+            "Focus on personal growth and positive experiences",
+            "Remember to seek support if you face difficult events in the future"
+          ]
         },
         {
           "min": 8,
           "max": 14,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some amnesia-related dissociative experiences present."
+          "description": "Some amnesia-related dissociative experiences present. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
+          "suggestions": [
+            "Allow yourself time and space to process your emotions",
+            "Share your feelings with someone you trust",
+            "Maintain routines and structure in your daily life",
+            "Practice grounding techniques (such as focusing on your five senses) to stay present",
+            "Avoid repeated exposure to trauma-related information or content"
+          ]
         },
         {
           "min": 15,
           "max": 28,
           "level": "moderate",
           "label": "High",
-          "description": "Frequent amnesia-related dissociative experiences. Attention recommended."
+          "description": "Frequent amnesia-related dissociative experiences. Attention recommended. At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
+          "suggestions": [
+            "Consider consulting a professional trained in trauma therapy",
+            "Trauma-Focused CBT (TF-CBT) or EMDR may be helpful",
+            "Build a sense of safety and daily routine",
+            "Learn emotional regulation and coping skills",
+            "Avoid using alcohol or substances to cope"
+          ]
         }
       ],
       "depersonalization": [
@@ -305,21 +332,41 @@
           "max": 6,
           "level": "minimal",
           "label": "Low",
-          "description": "Few depersonalization/derealization experiences."
+          "description": "Few depersonalization/derealization experiences. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
+          "suggestions": [
+            "Continue maintaining your good psychological health",
+            "Stay emotionally connected with friends and family",
+            "Focus on personal growth and positive experiences",
+            "Remember to seek support if you face difficult events in the future"
+          ]
         },
         {
           "min": 7,
           "max": 12,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some depersonalization or derealization experiences."
+          "description": "Some depersonalization or derealization experiences. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
+          "suggestions": [
+            "Allow yourself time and space to process your emotions",
+            "Share your feelings with someone you trust",
+            "Maintain routines and structure in your daily life",
+            "Practice grounding techniques (such as focusing on your five senses) to stay present",
+            "Avoid repeated exposure to trauma-related information or content"
+          ]
         },
         {
           "min": 13,
           "max": 24,
           "level": "moderate",
           "label": "High",
-          "description": "Frequent depersonalization/derealization experiences. Professional evaluation recommended."
+          "description": "Frequent depersonalization/derealization experiences. Professional evaluation recommended. At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
+          "suggestions": [
+            "Consider consulting a professional trained in trauma therapy",
+            "Trauma-Focused CBT (TF-CBT) or EMDR may be helpful",
+            "Build a sense of safety and daily routine",
+            "Learn emotional regulation and coping skills",
+            "Avoid using alcohol or substances to cope"
+          ]
         }
       ],
       "absorption": [
@@ -328,21 +375,41 @@
           "max": 8,
           "level": "minimal",
           "label": "Low",
-          "description": "Low absorption/imaginative involvement experiences."
+          "description": "Low absorption/imaginative involvement experiences. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
+          "suggestions": [
+            "Continue maintaining your good psychological health",
+            "Stay emotionally connected with friends and family",
+            "Focus on personal growth and positive experiences",
+            "Remember to seek support if you face difficult events in the future"
+          ]
         },
         {
           "min": 9,
           "max": 16,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some absorption or imaginative involvement experiences."
+          "description": "Some absorption or imaginative involvement experiences. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
+          "suggestions": [
+            "Allow yourself time and space to process your emotions",
+            "Share your feelings with someone you trust",
+            "Maintain routines and structure in your daily life",
+            "Practice grounding techniques (such as focusing on your five senses) to stay present",
+            "Avoid repeated exposure to trauma-related information or content"
+          ]
         },
         {
           "min": 17,
           "max": 32,
           "level": "moderate",
           "label": "High",
-          "description": "Frequent absorption/imaginative involvement experiences."
+          "description": "Frequent absorption/imaginative involvement experiences. At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
+          "suggestions": [
+            "Consider consulting a professional trained in trauma therapy",
+            "Trauma-Focused CBT (TF-CBT) or EMDR may be helpful",
+            "Build a sense of safety and daily routine",
+            "Learn emotional regulation and coping skills",
+            "Avoid using alcohol or substances to cope"
+          ]
         }
       ]
     }

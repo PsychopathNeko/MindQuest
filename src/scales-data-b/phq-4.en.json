@@ -82,11 +82,13 @@
         "max": 2,
         "level": "normal",
         "label": "Normal",
-        "description": "Your total score is within the normal range. No significant psychological distress detected.",
+        "description": "Your total score is within the normal range. No significant psychological distress detected. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Continue maintaining a healthy lifestyle",
           "Keep up regular exercise and social activities",
-          "Practice relaxation techniques for general well-being"
+          "Practice relaxation techniques for general well-being",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy"
         ]
       },
       {
@@ -94,12 +96,13 @@
         "max": 5,
         "level": "mild",
         "label": "Mild Distress",
-        "description": "You may be experiencing mild psychological distress. Review your subscale scores for more specific information.",
+        "description": "You may be experiencing mild psychological distress. Review your subscale scores for more specific information. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
         "suggestions": [
           "Pay attention to your emotional well-being",
           "Practice stress management techniques",
           "Maintain regular sleep and exercise routines",
-          "If symptoms persist, consider consulting a professional"
+          "If symptoms persist, consider consulting a professional",
+          "Try 30 minutes of aerobic exercise daily, such as walking or cycling"
         ]
       },
       {
@@ -107,12 +110,13 @@
         "max": 8,
         "level": "moderate",
         "label": "Moderate Distress",
-        "description": "Your score indicates moderate psychological distress. Consider completing the full PHQ-9 and/or GAD-7 for more detailed assessment.",
+        "description": "Your score indicates moderate psychological distress. Consider completing the full PHQ-9 and/or GAD-7 for more detailed assessment. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
         "suggestions": [
           "Consider completing the full PHQ-9 and GAD-7 assessments",
           "Consult a healthcare professional for further evaluation",
           "Practice daily relaxation and stress management",
-          "Maintain social connections and support networks"
+          "Maintain social connections and support networks",
+          "Consider consulting a mental health counselor for professional guidance"
         ]
       },
       {
@@ -120,12 +124,13 @@
         "max": 12,
         "level": "severe",
         "label": "Severe Distress",
-        "description": "Your score suggests severe psychological distress. Professional evaluation and support are strongly recommended.",
+        "description": "Your score suggests severe psychological distress. Professional evaluation and support are strongly recommended. Your score suggests notable emotional distress that may be significantly affecting your quality of life. Reaching out to a mental health professional is recommended.",
         "suggestions": [
           "Seek consultation with a mental health professional promptly",
           "Complete the full PHQ-9 and GAD-7 for detailed assessment",
           "Ensure you have a reliable support system",
-          "Do not hesitate to seek help; treatment is effective"
+          "Do not hesitate to seek help; treatment is effective",
+          "Schedule an appointment with a mental health professional as soon as possible"
         ]
       }
     ],
@@ -136,14 +141,28 @@
           "max": 2,
           "level": "normal",
           "label": "Normal",
-          "description": "Depression subscale score is within the normal range."
+          "description": "Depression subscale score is within the normal range. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
+          "suggestions": [
+            "Maintain regular social activities and hobbies",
+            "Set aside time each day for activities you enjoy",
+            "Practice gratitude by noting positive moments in your life",
+            "Keep a consistent sleep schedule and exercise routine",
+            "Stay connected with friends and family"
+          ]
         },
         {
           "min": 3,
           "max": 6,
           "level": "moderate",
           "label": "Possible Depression",
-          "description": "Score suggests possible depression. Consider completing the full PHQ-9."
+          "description": "Score suggests possible depression. Consider completing the full PHQ-9. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
+          "suggestions": [
+            "Consider consulting a mental health counselor for professional guidance",
+            "Try self-help exercises based on cognitive behavioral therapy (CBT)",
+            "Wake up at a fixed time each day to establish daily structure",
+            "Set small, achievable daily goals to gradually restore activity levels",
+            "Reduce alcohol intake and avoid unhealthy coping strategies"
+          ]
         }
       ],
       "anxiety": [
@@ -152,14 +171,28 @@
           "max": 2,
           "level": "normal",
           "label": "Normal",
-          "description": "Anxiety subscale score is within the normal range."
+          "description": "Anxiety subscale score is within the normal range. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 3,
           "max": 6,
           "level": "moderate",
           "label": "Possible Anxiety",
-          "description": "Score suggests possible anxiety. Consider completing the full GAD-7."
+          "description": "Score suggests possible anxiety. Consider completing the full GAD-7. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
+          "suggestions": [
+            "Consider consulting a counselor or psychiatrist",
+            "Cognitive behavioral therapy (CBT) is highly effective for anxiety",
+            "Practice relaxation techniques daily and maintain regular exercise",
+            "Identify and reduce avoidance behaviors; gradually face anxiety-provoking situations",
+            "Maintain regular sleep and exercise habits"
+          ]
         }
       ]
     }

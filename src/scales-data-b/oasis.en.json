@@ -72,11 +72,13 @@
         "max": 4,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your anxiety level is within the normal range, with no significant anxiety distress detected.",
+        "description": "Your anxiety level is within the normal range, with no significant anxiety distress detected. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining your current mental health",
           "Keep up regular exercise and relaxation habits",
-          "Maintain a strong social support network"
+          "Maintain a strong social support network",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching"
         ]
       },
       {
@@ -84,12 +86,13 @@
         "max": 9,
         "level": "mild",
         "label": "Mild Anxiety",
-        "description": "Your score suggests mild anxiety. You may occasionally feel tense or worried, but the impact on daily functioning is limited.",
+        "description": "Your score suggests mild anxiety. You may occasionally feel tense or worried, but the impact on daily functioning is limited. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
         "suggestions": [
           "Learn and practice deep breathing and progressive muscle relaxation",
           "Maintain regular physical exercise",
           "Identify and address your anxiety triggers",
-          "Consider consulting a professional if anxiety continues to increase"
+          "Consider consulting a professional if anxiety continues to increase",
+          "Learn and practice progressive muscle relaxation"
         ]
       },
       {
@@ -97,12 +100,13 @@
         "max": 14,
         "level": "moderate",
         "label": "Moderate Anxiety",
-        "description": "Your score suggests moderate anxiety. Anxiety may be noticeably interfering with your work, social life, or daily activities.",
+        "description": "Your score suggests moderate anxiety. Anxiety may be noticeably interfering with your work, social life, or daily activities. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Consider seeking help from a counselor or psychiatrist",
           "Systematically learn anxiety management techniques such as cognitive-behavioral strategies",
           "Avoid excessive use of caffeine and alcohol",
-          "Establish regular routines and dedicated relaxation time"
+          "Establish regular routines and dedicated relaxation time",
+          "Consider consulting a counselor or psychiatrist"
         ]
       },
       {
@@ -110,12 +114,13 @@
         "max": 20,
         "level": "severe",
         "label": "Severe Anxiety",
-        "description": "Your score suggests severe anxiety, which may be significantly impairing your work ability, social functioning, and quality of life.",
+        "description": "Your score suggests severe anxiety, which may be significantly impairing your work ability, social functioning, and quality of life. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Seek professional psychological or psychiatric treatment as soon as possible",
           "Inform family or friends about your condition for support",
           "Avoid avoidance behaviors; try to gradually face anxiety-provoking situations in a safe environment",
-          "If in crisis, please call a mental health crisis hotline"
+          "If in crisis, please call a mental health crisis hotline",
+          "Schedule a professional assessment as soon as possible"
         ]
       }
     ],

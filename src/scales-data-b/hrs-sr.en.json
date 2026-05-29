@@ -88,10 +88,13 @@
         "max": 9,
         "level": "minimal",
         "label": "No Hoarding Problems",
-        "description": "Your hoarding behavior is within normal range with no significant hoarding problems.",
+        "description": "Your hoarding behavior is within normal range with no significant hoarding problems. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Maintain regular habits of organizing belongings",
-          "Mild difficulty discarding is normal"
+          "Mild difficulty discarding is normal",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -99,12 +102,13 @@
         "max": 17,
         "level": "mild",
         "label": "Mild Hoarding",
-        "description": "You show some mild hoarding tendencies that may not yet significantly affect daily life.",
+        "description": "You show some mild hoarding tendencies that may not yet significantly affect daily life. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Develop regular decluttering and organizing habits",
           "Think before purchasing — do you really need this?",
           "Try the 'one in, one out' rule — discard an old item when acquiring a new one",
-          "If difficulties increase, consider consulting a professional"
+          "If difficulties increase, consider consulting a professional",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {

@@ -122,12 +122,13 @@
         "max": 30,
         "level": "severe",
         "label": "Very Low Distress Tolerance",
-        "description": "You have very low tolerance for emotional distress. You may feel overwhelmed when negative emotions arise and have difficulty coping.",
+        "description": "You have very low tolerance for emotional distress. You may feel overwhelmed when negative emotions arise and have difficulty coping. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
         "suggestions": [
           "Consider working with a therapist trained in distress tolerance skills (e.g., DBT)",
           "Learn grounding techniques for moments of acute distress",
           "Practice mindfulness to observe emotions without judgment",
-          "Build a crisis plan with trusted supports"
+          "Build a crisis plan with trusted supports",
+          "Seek professional counseling support"
         ]
       },
       {
@@ -135,12 +136,13 @@
         "max": 45,
         "level": "moderate",
         "label": "Low Distress Tolerance",
-        "description": "You have below-average tolerance for emotional distress. Unpleasant emotions may feel difficult to manage and may lead to avoidance behaviors.",
+        "description": "You have below-average tolerance for emotional distress. Unpleasant emotions may feel difficult to manage and may lead to avoidance behaviors. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
         "suggestions": [
           "Practice accepting uncomfortable emotions as temporary experiences",
           "Try deep breathing or progressive muscle relaxation when upset",
           "Gradually expose yourself to minor discomforts to build tolerance",
-          "Consider therapy focused on emotion regulation skills"
+          "Consider therapy focused on emotion regulation skills",
+          "Consider discussing stress management strategies with a counselor"
         ]
       },
       {
@@ -152,7 +154,9 @@
         "suggestions": [
           "Continue developing your emotion regulation skills",
           "Maintain healthy coping strategies such as exercise and social support",
-          "Practice self-compassion during difficult moments"
+          "Practice self-compassion during difficult moments",
+          "Identify your main sources of stress and try to address them gradually",
+          "Learn time management and prioritization skills"
         ]
       },
       {
@@ -164,7 +168,9 @@
         "suggestions": [
           "Continue maintaining your resilience and coping strategies",
           "Share your strategies with others who may benefit",
-          "Stay aware of your emotional health and seek support when needed"
+          "Stay aware of your emotional health and seek support when needed",
+          "Continue using your effective stress management strategies",
+          "Regularly check in with yourself and engage in relaxation activities"
         ]
       }
     ],

@@ -46,11 +46,13 @@
         "max": 0,
         "level": "minimal",
         "label": "No Alcohol Problems Indicated",
-        "description": "Your responses do not suggest alcohol-related problems.",
+        "description": "Your responses do not suggest alcohol-related problems. This indicates that your current substance-use-related risk is low and within a healthy range.",
         "suggestions": [
           "Continue maintaining healthy drinking habits or abstinence",
           "Stay informed about the risks of excessive alcohol use",
-          "Be mindful of any changes in your drinking patterns"
+          "Be mindful of any changes in your drinking patterns",
+          "Continue maintaining a healthy lifestyle",
+          "Stay informed about risks related to substance use"
         ]
       },
       {
@@ -58,12 +60,13 @@
         "max": 1,
         "level": "mild",
         "label": "Possible Alcohol Problem",
-        "description": "Your response suggests a possible alcohol-related concern. Further evaluation may be helpful.",
+        "description": "Your response suggests a possible alcohol-related concern. Further evaluation may be helpful. A mild risk level suggests it may be helpful to pay attention to your usage patterns and maintain self-awareness.",
         "suggestions": [
           "Reflect on your relationship with alcohol",
           "Consider discussing your drinking habits with a healthcare provider",
           "Monitor your drinking patterns over the coming weeks",
-          "Learn about recommended alcohol intake guidelines"
+          "Learn about recommended alcohol intake guidelines",
+          "Pay attention to your usage patterns and frequency"
         ]
       },
       {
@@ -71,7 +74,7 @@
         "max": 4,
         "level": "severe",
         "label": "Probable Alcohol Problem",
-        "description": "Your responses suggest a probable alcohol use problem. A score of 2 or more is clinically significant and warrants further assessment.",
+        "description": "Your responses suggest a probable alcohol use problem. A score of 2 or more is clinically significant and warrants further assessment. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional evaluation for alcohol use",
           "Consult with a healthcare provider or addiction specialist",

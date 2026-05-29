@@ -92,10 +92,13 @@
         "max": 21,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your gaming behavior is within the normal range with no signs of Internet Gaming Disorder.",
+        "description": "Your gaming behavior is within the normal range with no signs of Internet Gaming Disorder. This indicates that your current substance-use-related risk is low and within a healthy range.",
         "suggestions": [
           "Continue maintaining healthy gaming habits",
-          "Be mindful of balancing gaming time with other activities"
+          "Be mindful of balancing gaming time with other activities",
+          "Continue maintaining a healthy lifestyle",
+          "Stay informed about risks related to substance use",
+          "Maintain the ability to make autonomous choices in social situations"
         ]
       },
       {
@@ -103,12 +106,13 @@
         "max": 30,
         "level": "mild",
         "label": "At Risk",
-        "description": "You may have some unhealthy gaming behavior patterns. Consider monitoring the impact of gaming on your daily life.",
+        "description": "You may have some unhealthy gaming behavior patterns. Consider monitoring the impact of gaming on your daily life. A mild risk level suggests it may be helpful to pay attention to your usage patterns and maintain self-awareness.",
         "suggestions": [
           "Set a daily time limit for gaming",
           "Develop other hobbies and interests",
           "Monitor the impact of gaming on sleep and work/studies",
-          "If you find it hard to control, consider consulting a professional"
+          "If you find it hard to control, consider consulting a professional",
+          "Pay attention to your usage patterns and frequency"
         ]
       },
       {
@@ -116,12 +120,13 @@
         "max": 36,
         "level": "moderate",
         "label": "High Risk",
-        "description": "Your gaming behavior has noticeably impacted your daily life. Seeking professional help is recommended.",
+        "description": "Your gaming behavior has noticeably impacted your daily life. Seeking professional help is recommended. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
         "suggestions": [
           "Consider consulting a mental health professional",
           "Gradually reduce gaming time",
           "Find alternative ways to relax and socialize",
-          "Talk to someone you trust about your gaming habits"
+          "Talk to someone you trust about your gaming habits",
+          "Consider consulting an addiction medicine professional"
         ]
       },
       {
@@ -134,7 +139,8 @@
           "Strongly recommended to consult a psychiatrist or psychotherapist as soon as possible",
           "Consider professional behavioral intervention therapy",
           "Build a support system by letting family and friends know about the situation",
-          "Avoid unrestricted access to gaming devices when alone"
+          "Avoid unrestricted access to gaming devices when alone",
+          "Seek professional addiction treatment as soon as possible"
         ]
       }
     ],

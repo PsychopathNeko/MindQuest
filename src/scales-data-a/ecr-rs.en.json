@@ -149,10 +149,13 @@
         "max": 36,
         "level": "minimal",
         "label": "Secure Attachment",
-        "description": "Your scores suggest a relatively secure attachment style with low avoidance and low anxiety.",
+        "description": "Your scores suggest a relatively secure attachment style with low avoidance and low anxiety. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue nurturing your close relationships",
-          "Your relational patterns appear healthy and adaptive"
+          "Your relational patterns appear healthy and adaptive",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -160,10 +163,13 @@
         "max": 54,
         "level": "mild",
         "label": "Moderate Attachment Concerns",
-        "description": "Your scores suggest some attachment insecurity. Review subscale scores to understand whether avoidance or anxiety is more prominent.",
+        "description": "Your scores suggest some attachment insecurity. Review subscale scores to understand whether avoidance or anxiety is more prominent. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Reflect on which relationships feel most secure and why",
-          "Practice open communication with trusted individuals"
+          "Practice open communication with trusted individuals",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques",
+          "Stay in communication with people you trust"
         ]
       },
       {
@@ -171,10 +177,13 @@
         "max": 84,
         "level": "severe",
         "label": "Significant Attachment Insecurity",
-        "description": "Your scores suggest notable attachment insecurity that may affect relationship functioning.",
+        "description": "Your scores suggest notable attachment insecurity that may affect relationship functioning. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Consider speaking with a therapist about relationship patterns",
-          "Explore attachment-focused therapy approaches"
+          "Explore attachment-focused therapy approaches",
+          "Schedule a mental health professional assessment as soon as possible",
+          "Make sure you have trusted people around you for support",
+          "Follow the treatment plan recommended by your professional"
         ]
       }
     ],
@@ -185,21 +194,41 @@
           "max": 18,
           "level": "normal",
           "label": "Low Avoidance",
-          "description": "You are comfortable with closeness and depending on others."
+          "description": "You are comfortable with closeness and depending on others. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
+          "suggestions": [
+            "Continue maintaining your good psychological health",
+            "Stay emotionally connected with friends and family",
+            "Focus on personal growth and positive experiences",
+            "Remember to seek support if you face difficult events in the future"
+          ]
         },
         {
           "min": 19,
           "max": 30,
           "level": "mild",
           "label": "Moderate Avoidance",
-          "description": "You sometimes find it difficult to open up or depend on others."
+          "description": "You sometimes find it difficult to open up or depend on others. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
+          "suggestions": [
+            "Allow yourself time and space to process your emotions",
+            "Share your feelings with someone you trust",
+            "Maintain routines and structure in your daily life",
+            "Practice grounding techniques (such as focusing on your five senses) to stay present",
+            "Avoid repeated exposure to trauma-related information or content"
+          ]
         },
         {
           "min": 31,
           "max": 42,
           "level": "severe",
           "label": "High Avoidance",
-          "description": "You tend to avoid closeness, self-disclosure, and depending on others."
+          "description": "You tend to avoid closeness, self-disclosure, and depending on others. Your trauma-related reactions are quite pronounced and may be significantly impacting your functioning. Professional trauma-focused support is recommended.",
+          "suggestions": [
+            "Contact a trauma therapy specialist as soon as possible",
+            "Process traumatic memories in a safe environment",
+            "Develop a safety plan and crisis coping strategies",
+            "Ensure you have a supportive social network",
+            "Follow professional guidance for a gradual recovery process"
+          ]
         }
       ],
       "anxiety": [
@@ -208,21 +237,42 @@
           "max": 18,
           "level": "normal",
           "label": "Low Anxiety",
-          "description": "You feel relatively secure and do not worry excessively about relationships."
+          "description": "You feel relatively secure and do not worry excessively about relationships. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 19,
           "max": 30,
           "level": "mild",
           "label": "Moderate Anxiety",
-          "description": "You sometimes worry about being abandoned or unloved."
+          "description": "You sometimes worry about being abandoned or unloved. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
+          "suggestions": [
+            "Learn and practice progressive muscle relaxation",
+            "Try 5-10 minutes of mindfulness meditation daily",
+            "Reduce caffeine and stimulant intake",
+            "Record situations that trigger anxiety and try to analyze them rationally",
+            "Exercise regularly, at least three times a week"
+          ]
         },
         {
           "min": 31,
           "max": 42,
           "level": "severe",
           "label": "High Anxiety",
-          "description": "You frequently worry about rejection, abandonment, and whether others truly care."
+          "description": "You frequently worry about rejection, abandonment, and whether others truly care. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         }
       ]
     }

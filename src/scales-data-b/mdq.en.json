@@ -100,10 +100,13 @@
         "max": 4,
         "level": "minimal",
         "label": "Low Likelihood of Bipolar Disorder",
-        "description": "Your score is below the screening threshold.",
+        "description": "Your score is below the screening threshold. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "If you have mood concerns, you may still consult a professional",
-          "Monitor any changes in mood patterns"
+          "Monitor any changes in mood patterns",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -111,10 +114,13 @@
         "max": 6,
         "level": "mild",
         "label": "Borderline",
-        "description": "Your score is near the screening threshold.",
+        "description": "Your score is near the screening threshold. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Consider consulting a mental health professional for further evaluation",
-          "Track your mood patterns"
+          "Track your mood patterns",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques",
+          "Stay in communication with people you trust"
         ]
       },
       {
@@ -122,11 +128,13 @@
         "max": 13,
         "level": "severe",
         "label": "Possible Bipolar Disorder",
-        "description": "Your score reaches the screening threshold. This is NOT a diagnosis and requires professional evaluation.",
+        "description": "Your score reaches the screening threshold. This is NOT a diagnosis and requires professional evaluation. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Strongly recommended to consult a psychiatrist promptly",
           "Keep a detailed mood diary to share with your clinician",
-          "Do not self-diagnose; follow professional assessment"
+          "Do not self-diagnose; follow professional assessment",
+          "Schedule a mental health professional assessment as soon as possible",
+          "Make sure you have trusted people around you for support"
         ]
       }
     ],

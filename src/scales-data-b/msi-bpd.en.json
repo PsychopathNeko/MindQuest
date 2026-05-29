@@ -85,10 +85,13 @@
         "max": 2,
         "level": "minimal",
         "label": "Low Risk",
-        "description": "Your score is in the low-risk range and does not indicate significant features of Borderline Personality Disorder.",
+        "description": "Your score is in the low-risk range and does not indicate significant features of Borderline Personality Disorder. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
         "suggestions": [
           "Continue maintaining healthy emotional regulation strategies",
-          "Nurture stable interpersonal relationships"
+          "Nurture stable interpersonal relationships",
+          "Understanding your personality traits supports personal growth",
+          "Every person has unique strengths and value in their personality",
+          "Flexibly apply your traits in different situations"
         ]
       },
       {
@@ -96,11 +99,13 @@
         "max": 4,
         "level": "mild",
         "label": "Moderate Risk",
-        "description": "Your score suggests some features associated with BPD may be present, but it is below the clinical screening threshold.",
+        "description": "Your score suggests some features associated with BPD may be present, but it is below the clinical screening threshold. This level of trait expression is slightly above average but within the normal range of individual variation.",
         "suggestions": [
           "Be mindful of your emotional fluctuations and relationship patterns",
           "Learn emotion regulation skills",
-          "If these features affect your daily life, consider seeking a professional assessment"
+          "If these features affect your daily life, consider seeking a professional assessment",
+          "Learn how this trait influences your behavior and relationships",
+          "Leverage the positive aspects of this trait"
         ]
       },
       {
@@ -108,12 +113,13 @@
         "max": 6,
         "level": "moderate",
         "label": "Elevated Risk",
-        "description": "Your score is elevated and may indicate several features associated with Borderline Personality Disorder.",
+        "description": "Your score is elevated and may indicate several features associated with Borderline Personality Disorder. This trait is notably expressed and may influence your interpersonal interactions and self-perception in certain situations.",
         "suggestions": [
           "Consider seeking a professional mental health assessment",
           "Learn Dialectical Behavior Therapy (DBT) skills",
           "Focus on emotion regulation and relationship management",
-          "Avoid impulsive behaviors and develop safe coping strategies"
+          "Avoid impulsive behaviors and develop safe coping strategies",
+          "Gain deeper insight into how this trait affects your relationships"
         ]
       },
       {

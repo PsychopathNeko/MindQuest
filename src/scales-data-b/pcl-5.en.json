@@ -196,11 +196,13 @@
         "max": 19,
         "level": "minimal",
         "label": "Below PTSD Threshold",
-        "description": "Your PTSD symptom score is low, below the clinical diagnostic threshold.",
+        "description": "Your PTSD symptom score is low, below the clinical diagnostic threshold. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
         "suggestions": [
           "If you still feel distressed, professional help is available",
           "Continue healthy coping strategies",
-          "Monitor your emotional state"
+          "Monitor your emotional state",
+          "Continue maintaining your good psychological health",
+          "Stay emotionally connected with friends and family"
         ]
       },
       {
@@ -208,11 +210,13 @@
         "max": 32,
         "level": "mild",
         "label": "Mild PTSD Symptoms",
-        "description": "You have some PTSD symptoms near or at clinical significance.",
+        "description": "You have some PTSD symptoms near or at clinical significance. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
         "suggestions": [
           "Consider consulting a mental health professional",
           "Practice relaxation and grounding techniques",
-          "Maintain your social support network"
+          "Maintain your social support network",
+          "Allow yourself time and space to process your emotions",
+          "Share your feelings with someone you trust"
         ]
       },
       {
@@ -220,12 +224,13 @@
         "max": 52,
         "level": "moderate",
         "label": "Moderate PTSD Symptoms",
-        "description": "Your PTSD symptoms are moderate. The suggested clinical cutoff for PCL-5 is 33.",
+        "description": "Your PTSD symptoms are moderate. The suggested clinical cutoff for PCL-5 is 33. At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
         "suggestions": [
           "Strongly recommended to seek a trauma-specialized therapist",
           "Consider evidence-based trauma treatments (CPT, PE, or EMDR)",
           "Maintain regular daily routines",
-          "Avoid using alcohol or substances to cope"
+          "Avoid using alcohol or substances to cope",
+          "Consider consulting a professional trained in trauma therapy"
         ]
       },
       {
@@ -233,12 +238,13 @@
         "max": 80,
         "level": "severe",
         "label": "Severe PTSD Symptoms",
-        "description": "Your PTSD symptoms are severe and likely significantly impact daily functioning.",
+        "description": "Your PTSD symptoms are severe and likely significantly impact daily functioning. Your trauma-related reactions are quite pronounced and may be significantly impacting your functioning. Professional trauma-focused support is recommended.",
         "suggestions": [
           "Please seek professional trauma treatment immediately",
           "If in crisis, contact 988 Suicide and Crisis Lifeline",
           "Create a safety plan for managing intense distress",
-          "Follow professional treatment recommendations closely"
+          "Follow professional treatment recommendations closely",
+          "Contact a trauma therapy specialist as soon as possible"
         ]
       }
     ],
@@ -249,28 +255,55 @@
           "max": 5,
           "level": "minimal",
           "label": "Low",
-          "description": "Intrusion symptoms are low."
+          "description": "Intrusion symptoms are low. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
+          "suggestions": [
+            "Continue maintaining your good psychological health",
+            "Stay emotionally connected with friends and family",
+            "Focus on personal growth and positive experiences",
+            "Remember to seek support if you face difficult events in the future"
+          ]
         },
         {
           "min": 6,
           "max": 10,
           "level": "mild",
           "label": "Mild",
-          "description": "Some intrusion symptoms present."
+          "description": "Some intrusion symptoms present. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
+          "suggestions": [
+            "Allow yourself time and space to process your emotions",
+            "Share your feelings with someone you trust",
+            "Maintain routines and structure in your daily life",
+            "Practice grounding techniques (such as focusing on your five senses) to stay present",
+            "Avoid repeated exposure to trauma-related information or content"
+          ]
         },
         {
           "min": 11,
           "max": 15,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Notable intrusion symptoms."
+          "description": "Notable intrusion symptoms. At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
+          "suggestions": [
+            "Consider consulting a professional trained in trauma therapy",
+            "Trauma-Focused CBT (TF-CBT) or EMDR may be helpful",
+            "Build a sense of safety and daily routine",
+            "Learn emotional regulation and coping skills",
+            "Avoid using alcohol or substances to cope"
+          ]
         },
         {
           "min": 16,
           "max": 20,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe intrusion symptoms."
+          "description": "Severe intrusion symptoms. Your trauma-related reactions are quite pronounced and may be significantly impacting your functioning. Professional trauma-focused support is recommended.",
+          "suggestions": [
+            "Contact a trauma therapy specialist as soon as possible",
+            "Process traumatic memories in a safe environment",
+            "Develop a safety plan and crisis coping strategies",
+            "Ensure you have a supportive social network",
+            "Follow professional guidance for a gradual recovery process"
+          ]
         }
       ],
       "avoidance": [
@@ -279,28 +312,55 @@
           "max": 2,
           "level": "minimal",
           "label": "Low",
-          "description": "Avoidance symptoms are low."
+          "description": "Avoidance symptoms are low. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
+          "suggestions": [
+            "Continue maintaining your good psychological health",
+            "Stay emotionally connected with friends and family",
+            "Focus on personal growth and positive experiences",
+            "Remember to seek support if you face difficult events in the future"
+          ]
         },
         {
           "min": 3,
           "max": 4,
           "level": "mild",
           "label": "Mild",
-          "description": "Some avoidance symptoms."
+          "description": "Some avoidance symptoms. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
+          "suggestions": [
+            "Allow yourself time and space to process your emotions",
+            "Share your feelings with someone you trust",
+            "Maintain routines and structure in your daily life",
+            "Practice grounding techniques (such as focusing on your five senses) to stay present",
+            "Avoid repeated exposure to trauma-related information or content"
+          ]
         },
         {
           "min": 5,
           "max": 6,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Notable avoidance symptoms."
+          "description": "Notable avoidance symptoms. At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
+          "suggestions": [
+            "Consider consulting a professional trained in trauma therapy",
+            "Trauma-Focused CBT (TF-CBT) or EMDR may be helpful",
+            "Build a sense of safety and daily routine",
+            "Learn emotional regulation and coping skills",
+            "Avoid using alcohol or substances to cope"
+          ]
         },
         {
           "min": 7,
           "max": 8,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe avoidance symptoms."
+          "description": "Severe avoidance symptoms. Your trauma-related reactions are quite pronounced and may be significantly impacting your functioning. Professional trauma-focused support is recommended.",
+          "suggestions": [
+            "Contact a trauma therapy specialist as soon as possible",
+            "Process traumatic memories in a safe environment",
+            "Develop a safety plan and crisis coping strategies",
+            "Ensure you have a supportive social network",
+            "Follow professional guidance for a gradual recovery process"
+          ]
         }
       ],
       "cognition_mood": [
@@ -309,28 +369,55 @@
           "max": 7,
           "level": "minimal",
           "label": "Low",
-          "description": "Negative cognition and mood changes are low."
+          "description": "Negative cognition and mood changes are low. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
+          "suggestions": [
+            "Continue maintaining your good psychological health",
+            "Stay emotionally connected with friends and family",
+            "Focus on personal growth and positive experiences",
+            "Remember to seek support if you face difficult events in the future"
+          ]
         },
         {
           "min": 8,
           "max": 14,
           "level": "mild",
           "label": "Mild",
-          "description": "Some negative changes."
+          "description": "Some negative changes. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
+          "suggestions": [
+            "Allow yourself time and space to process your emotions",
+            "Share your feelings with someone you trust",
+            "Maintain routines and structure in your daily life",
+            "Practice grounding techniques (such as focusing on your five senses) to stay present",
+            "Avoid repeated exposure to trauma-related information or content"
+          ]
         },
         {
           "min": 15,
           "max": 21,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Notable negative changes."
+          "description": "Notable negative changes. At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
+          "suggestions": [
+            "Consider consulting a professional trained in trauma therapy",
+            "Trauma-Focused CBT (TF-CBT) or EMDR may be helpful",
+            "Build a sense of safety and daily routine",
+            "Learn emotional regulation and coping skills",
+            "Avoid using alcohol or substances to cope"
+          ]
         },
         {
           "min": 22,
           "max": 28,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe negative changes."
+          "description": "Severe negative changes. Your trauma-related reactions are quite pronounced and may be significantly impacting your functioning. Professional trauma-focused support is recommended.",
+          "suggestions": [
+            "Contact a trauma therapy specialist as soon as possible",
+            "Process traumatic memories in a safe environment",
+            "Develop a safety plan and crisis coping strategies",
+            "Ensure you have a supportive social network",
+            "Follow professional guidance for a gradual recovery process"
+          ]
         }
       ],
       "arousal": [
@@ -339,28 +426,55 @@
           "max": 6,
           "level": "minimal",
           "label": "Low",
-          "description": "Arousal symptoms are low."
+          "description": "Arousal symptoms are low. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
+          "suggestions": [
+            "Continue maintaining your good psychological health",
+            "Stay emotionally connected with friends and family",
+            "Focus on personal growth and positive experiences",
+            "Remember to seek support if you face difficult events in the future"
+          ]
         },
         {
           "min": 7,
           "max": 12,
           "level": "mild",
           "label": "Mild",
-          "description": "Some arousal symptoms."
+          "description": "Some arousal symptoms. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
+          "suggestions": [
+            "Allow yourself time and space to process your emotions",
+            "Share your feelings with someone you trust",
+            "Maintain routines and structure in your daily life",
+            "Practice grounding techniques (such as focusing on your five senses) to stay present",
+            "Avoid repeated exposure to trauma-related information or content"
+          ]
         },
         {
           "min": 13,
           "max": 18,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Notable arousal symptoms."
+          "description": "Notable arousal symptoms. At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
+          "suggestions": [
+            "Consider consulting a professional trained in trauma therapy",
+            "Trauma-Focused CBT (TF-CBT) or EMDR may be helpful",
+            "Build a sense of safety and daily routine",
+            "Learn emotional regulation and coping skills",
+            "Avoid using alcohol or substances to cope"
+          ]
         },
         {
           "min": 19,
           "max": 24,
           "level": "severe",
           "label": "Severe",
-          "description": "Severe arousal symptoms."
+          "description": "Severe arousal symptoms. Your trauma-related reactions are quite pronounced and may be significantly impacting your functioning. Professional trauma-focused support is recommended.",
+          "suggestions": [
+            "Contact a trauma therapy specialist as soon as possible",
+            "Process traumatic memories in a safe environment",
+            "Develop a safety plan and crisis coping strategies",
+            "Ensure you have a supportive social network",
+            "Follow professional guidance for a gradual recovery process"
+          ]
         }
       ]
     }

@@ -187,10 +187,13 @@
         "max": 25,
         "level": "minimal",
         "label": "Low Burnout",
-        "description": "Your overall burnout level is low.",
+        "description": "Your overall burnout level is low. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
         "suggestions": [
           "Maintain your current work-life balance",
-          "Continue healthy coping strategies"
+          "Continue healthy coping strategies",
+          "Continue using your effective stress management strategies",
+          "Regularly check in with yourself and engage in relaxation activities",
+          "Maintain a healthy work-life balance"
         ]
       },
       {
@@ -198,10 +201,13 @@
         "max": 50,
         "level": "mild",
         "label": "Moderate Burnout",
-        "description": "You are showing signs of moderate burnout.",
+        "description": "You are showing signs of moderate burnout. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
         "suggestions": [
           "Identify the main sources of burnout",
-          "Set boundaries between work and personal life"
+          "Set boundaries between work and personal life",
+          "Identify your main sources of stress and try to address them gradually",
+          "Learn time management and prioritization skills",
+          "Set aside 15-30 minutes daily for relaxation activities"
         ]
       },
       {
@@ -209,10 +215,13 @@
         "max": 76,
         "level": "severe",
         "label": "Severe Burnout",
-        "description": "You are experiencing significant burnout across multiple domains.",
+        "description": "You are experiencing significant burnout across multiple domains. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
         "suggestions": [
           "Seek professional support",
-          "Consider making changes to your work situation"
+          "Consider making changes to your work situation",
+          "Seek professional counseling support",
+          "Evaluate whether adjustments to your current work or life situation are needed",
+          "Learn emergency stress-relief techniques for high-pressure moments"
         ]
       }
     ],
@@ -223,21 +232,42 @@
           "max": 8,
           "level": "normal",
           "label": "Low",
-          "description": "Low personal burnout."
+          "description": "Low personal burnout. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 9,
           "max": 16,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate personal burnout."
+          "description": "Moderate personal burnout. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
+          "suggestions": [
+            "Identify your main sources of stress and try to address them gradually",
+            "Learn time management and prioritization skills",
+            "Set aside 15-30 minutes daily for relaxation activities",
+            "Maintain moderate exercise and healthy eating habits",
+            "Practice saying no and setting reasonable boundaries"
+          ]
         },
         {
           "min": 17,
           "max": 24,
           "level": "severe",
           "label": "High",
-          "description": "Severe personal burnout."
+          "description": "Severe personal burnout. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "work": [
@@ -246,21 +276,42 @@
           "max": 9,
           "level": "normal",
           "label": "Low",
-          "description": "Low work-related burnout."
+          "description": "Low work-related burnout. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 10,
           "max": 19,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate work-related burnout."
+          "description": "Moderate work-related burnout. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
+          "suggestions": [
+            "Identify your main sources of stress and try to address them gradually",
+            "Learn time management and prioritization skills",
+            "Set aside 15-30 minutes daily for relaxation activities",
+            "Maintain moderate exercise and healthy eating habits",
+            "Practice saying no and setting reasonable boundaries"
+          ]
         },
         {
           "min": 20,
           "max": 28,
           "level": "severe",
           "label": "High",
-          "description": "Severe work-related burnout."
+          "description": "Severe work-related burnout. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "client": [
@@ -269,21 +320,42 @@
           "max": 8,
           "level": "normal",
           "label": "Low",
-          "description": "Low client-related burnout."
+          "description": "Low client-related burnout. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 9,
           "max": 16,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate client-related burnout."
+          "description": "Moderate client-related burnout. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
+          "suggestions": [
+            "Identify your main sources of stress and try to address them gradually",
+            "Learn time management and prioritization skills",
+            "Set aside 15-30 minutes daily for relaxation activities",
+            "Maintain moderate exercise and healthy eating habits",
+            "Practice saying no and setting reasonable boundaries"
+          ]
         },
         {
           "min": 17,
           "max": 24,
           "level": "severe",
           "label": "High",
-          "description": "Severe client-related burnout."
+          "description": "Severe client-related burnout. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ]
     }

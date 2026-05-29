@@ -71,11 +71,13 @@
         "max": 5,
         "level": "minimal",
         "label": "Low Stress",
-        "description": "Your perceived stress level is low. You appear to be coping well with life demands.",
+        "description": "Your perceived stress level is low. You appear to be coping well with life demands. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
         "suggestions": [
           "Continue maintaining your current coping strategies",
           "Keep up healthy habits and routines",
-          "Practice preventive stress management techniques"
+          "Practice preventive stress management techniques",
+          "Continue using your effective stress management strategies",
+          "Regularly check in with yourself and engage in relaxation activities"
         ]
       },
       {
@@ -83,12 +85,13 @@
         "max": 10,
         "level": "moderate",
         "label": "Moderate Stress",
-        "description": "Your perceived stress level is moderate. Consider enhancing your stress management strategies.",
+        "description": "Your perceived stress level is moderate. Consider enhancing your stress management strategies. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
         "suggestions": [
           "Identify and address your main sources of stress",
           "Practice relaxation techniques regularly",
           "Maintain work-life balance",
-          "Seek social support when needed"
+          "Seek social support when needed",
+          "Consider discussing stress management strategies with a counselor"
         ]
       },
       {
@@ -96,12 +99,13 @@
         "max": 16,
         "level": "severe",
         "label": "High Stress",
-        "description": "Your perceived stress level is high. This may be affecting your well-being and warrants attention.",
+        "description": "Your perceived stress level is high. This may be affecting your well-being and warrants attention. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
         "suggestions": [
           "Consider completing the full PSS-10 for a more detailed assessment",
           "Consult a mental health professional for stress management support",
           "Implement immediate stress-reduction strategies",
-          "Review and prioritize your commitments"
+          "Review and prioritize your commitments",
+          "Seek professional counseling support"
         ]
       }
     ],

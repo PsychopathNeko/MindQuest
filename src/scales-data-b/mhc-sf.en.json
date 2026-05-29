@@ -157,11 +157,13 @@
         "max": 14,
         "level": "severe",
         "label": "Languishing",
-        "description": "Your positive mental health is low.",
+        "description": "Your positive mental health is low. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Focus on positive experiences",
           "Build meaningful social connections",
-          "Consider consulting a professional"
+          "Consider consulting a professional",
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others"
         ]
       },
       {
@@ -169,11 +171,13 @@
         "max": 42,
         "level": "moderate",
         "label": "Moderate Mental Health",
-        "description": "Your positive mental health is moderate.",
+        "description": "Your positive mental health is moderate. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Review subscale scores",
           "Increase positive social activities",
-          "Practice gratitude and mindfulness"
+          "Practice gratitude and mindfulness",
+          "Continue maintaining your positive lifestyle",
+          "Share your experiences and positive feelings with others"
         ]
       },
       {
@@ -181,10 +185,13 @@
         "max": 70,
         "level": "minimal",
         "label": "Flourishing",
-        "description": "Your positive mental health is high.",
+        "description": "Your positive mental health is high. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Continue maintaining your positive lifestyle",
-          "Share positive energy with others"
+          "Share positive energy with others",
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging",
+          "Explore new interests and activities"
         ]
       }
     ],
@@ -195,21 +202,41 @@
           "max": 5,
           "level": "severe",
           "label": "Low",
-          "description": "Emotional well-being is low."
+          "description": "Emotional well-being is low. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 6,
           "max": 10,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Emotional well-being is moderate."
+          "description": "Emotional well-being is moderate. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 11,
           "max": 15,
           "level": "minimal",
           "label": "High",
-          "description": "Emotional well-being is high."
+          "description": "Emotional well-being is high. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "social": [
@@ -218,21 +245,41 @@
           "max": 8,
           "level": "severe",
           "label": "Low",
-          "description": "Social well-being is low."
+          "description": "Social well-being is low. Your social concerns are notable and may be significantly affecting your relationships and quality of life. Professional support is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Professional treatment for social anxiety or loneliness can be very effective",
+            "Start practicing gradually in safe social environments",
+            "Ensure basic interpersonal connections and support",
+            "Develop a social improvement plan under professional guidance"
+          ]
         },
         {
           "min": 9,
           "max": 17,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Social well-being is moderate."
+          "description": "Social well-being is moderate. At this level, social difficulties may cause feelings of isolation or discomfort in interpersonal interactions, affecting life satisfaction.",
+          "suggestions": [
+            "Consider discussing social concerns with a counselor",
+            "Join social skills training or support groups",
+            "Gradually challenge social avoidance behaviors",
+            "Develop one or two deeper friendships",
+            "Focus on building self-worth"
+          ]
         },
         {
           "min": 18,
           "max": 25,
           "level": "minimal",
           "label": "High",
-          "description": "Social well-being is high."
+          "description": "Social well-being is high. This indicates that your social functioning and relationships are in good condition, maintaining satisfactory social connections.",
+          "suggestions": [
+            "Continue maintaining your current social relationships",
+            "Keep an open and communicative attitude",
+            "Participate in social activities that interest you",
+            "Focus on the quality rather than quantity of relationships"
+          ]
         }
       ],
       "psychological": [
@@ -241,21 +288,40 @@
           "max": 10,
           "level": "severe",
           "label": "Low",
-          "description": "Psychological well-being is low."
+          "description": "Psychological well-being is low. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "suggestions": [
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
+          ]
         },
         {
           "min": 11,
           "max": 20,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Psychological well-being is moderate."
+          "description": "Psychological well-being is moderate. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "suggestions": [
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
+          ]
         },
         {
           "min": 21,
           "max": 30,
           "level": "minimal",
           "label": "High",
-          "description": "Psychological well-being is high."
+          "description": "Psychological well-being is high. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "suggestions": [
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
+          ]
         }
       ]
     }

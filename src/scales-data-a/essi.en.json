@@ -77,7 +77,7 @@
         "max": 12,
         "level": "severe",
         "label": "Low Social Support",
-        "description": "Your score indicates a low level of perceived social support. You may feel that few people are available to help or support you emotionally.",
+        "description": "Your score indicates a low level of perceived social support. You may feel that few people are available to help or support you emotionally. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Consider reaching out to community organizations, support groups, or religious communities",
           "Try reconnecting with old friends or family members",
@@ -91,7 +91,7 @@
         "max": 18,
         "level": "moderate",
         "label": "Moderate Social Support",
-        "description": "Your score indicates a moderate level of social support. You have some support available but may feel it is not always sufficient.",
+        "description": "Your score indicates a moderate level of social support. You have some support available but may feel it is not always sufficient. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Identify areas where you need more support and communicate your needs",
           "Strengthen existing relationships through regular contact",
@@ -105,12 +105,13 @@
         "max": 24,
         "level": "mild",
         "label": "High Social Support",
-        "description": "Your score indicates a high level of social support. You generally feel well-supported by those around you.",
+        "description": "Your score indicates a high level of social support. You generally feel well-supported by those around you. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Continue nurturing your supportive relationships",
           "Express gratitude to those who support you",
           "Consider ways to reciprocate the support you receive",
-          "Maintain regular social contact to keep connections strong"
+          "Maintain regular social contact to keep connections strong",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -118,12 +119,13 @@
         "max": 30,
         "level": "minimal",
         "label": "Very High Social Support",
-        "description": "Your score indicates a very high level of perceived social support. You feel strongly supported in multiple areas of your life.",
+        "description": "Your score indicates a very high level of perceived social support. You feel strongly supported in multiple areas of your life. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your strong social network",
           "Share your social support strategies with others who may be more isolated",
           "Use your support network as a resource during challenging times",
-          "Consider mentoring or supporting others in need"
+          "Consider mentoring or supporting others in need",
+          "Continue maintaining a healthy lifestyle and mental well-being"
         ]
       }
     ],

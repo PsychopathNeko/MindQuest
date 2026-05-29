@@ -165,10 +165,13 @@
         "max": 32,
         "level": "minimal",
         "label": "Low Burnout",
-        "description": "Low levels of burnout.",
+        "description": "Low levels of burnout. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
         "suggestions": [
           "Maintain healthy work habits",
-          "Continue current coping strategies"
+          "Continue current coping strategies",
+          "Continue using your effective stress management strategies",
+          "Regularly check in with yourself and engage in relaxation activities",
+          "Maintain a healthy work-life balance"
         ]
       },
       {
@@ -176,10 +179,13 @@
         "max": 48,
         "level": "mild",
         "label": "Moderate Burnout",
-        "description": "Moderate burnout levels.",
+        "description": "Moderate burnout levels. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
         "suggestions": [
           "Monitor your energy levels",
-          "Consider workload adjustments"
+          "Consider workload adjustments",
+          "Identify your main sources of stress and try to address them gradually",
+          "Learn time management and prioritization skills",
+          "Set aside 15-30 minutes daily for relaxation activities"
         ]
       },
       {
@@ -187,10 +193,13 @@
         "max": 64,
         "level": "severe",
         "label": "High Burnout",
-        "description": "High levels of burnout.",
+        "description": "High levels of burnout. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
         "suggestions": [
           "Seek professional support",
-          "Evaluate your work situation seriously"
+          "Evaluate your work situation seriously",
+          "Seek professional counseling support",
+          "Evaluate whether adjustments to your current work or life situation are needed",
+          "Learn emergency stress-relief techniques for high-pressure moments"
         ]
       }
     ],
@@ -201,21 +210,42 @@
           "max": 16,
           "level": "normal",
           "label": "Low",
-          "description": "Low exhaustion."
+          "description": "Low exhaustion. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 17,
           "max": 24,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate exhaustion."
+          "description": "Moderate exhaustion. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
+          "suggestions": [
+            "Identify your main sources of stress and try to address them gradually",
+            "Learn time management and prioritization skills",
+            "Set aside 15-30 minutes daily for relaxation activities",
+            "Maintain moderate exercise and healthy eating habits",
+            "Practice saying no and setting reasonable boundaries"
+          ]
         },
         {
           "min": 25,
           "max": 32,
           "level": "severe",
           "label": "High",
-          "description": "High exhaustion."
+          "description": "High exhaustion. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "disengagement": [
@@ -224,21 +254,42 @@
           "max": 16,
           "level": "normal",
           "label": "Low",
-          "description": "Low disengagement."
+          "description": "Low disengagement. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 17,
           "max": 24,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate disengagement."
+          "description": "Moderate disengagement. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
+          "suggestions": [
+            "Identify your main sources of stress and try to address them gradually",
+            "Learn time management and prioritization skills",
+            "Set aside 15-30 minutes daily for relaxation activities",
+            "Maintain moderate exercise and healthy eating habits",
+            "Practice saying no and setting reasonable boundaries"
+          ]
         },
         {
           "min": 25,
           "max": 32,
           "level": "severe",
           "label": "High",
-          "description": "High disengagement."
+          "description": "High disengagement. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ]
     }

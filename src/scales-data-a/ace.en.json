@@ -85,10 +85,13 @@
         "max": 0,
         "level": "minimal",
         "label": "No Adverse Experiences",
-        "description": "You reported no adverse childhood experiences. This is a protective factor for long-term health.",
+        "description": "You reported no adverse childhood experiences. This is a protective factor for long-term health. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
         "suggestions": [
           "Continue maintaining healthy relationships and lifestyle",
-          "If you care about others' childhood experiences, learn how to provide support"
+          "If you care about others' childhood experiences, learn how to provide support",
+          "Continue maintaining your good psychological health",
+          "Stay emotionally connected with friends and family",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -96,11 +99,13 @@
         "max": 1,
         "level": "mild",
         "label": "Low Risk",
-        "description": "You reported 1 adverse childhood experience. Research shows even a small number of adverse experiences can have some impact on health.",
+        "description": "You reported 1 adverse childhood experience. Research shows even a small number of adverse experiences can have some impact on health. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
         "suggestions": [
           "Learn about how childhood experiences can affect adult health",
           "Develop healthy coping strategies and support networks",
-          "Consider talking to a professional if needed"
+          "Consider talking to a professional if needed",
+          "Allow yourself time and space to process your emotions",
+          "Share your feelings with someone you trust"
         ]
       },
       {
@@ -108,12 +113,13 @@
         "max": 3,
         "level": "moderate",
         "label": "Moderate Risk",
-        "description": "You reported 2-3 adverse childhood experiences. The cumulative effect of multiple adverse experiences may increase health risks.",
+        "description": "You reported 2-3 adverse childhood experiences. The cumulative effect of multiple adverse experiences may increase health risks. At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
         "suggestions": [
           "Pay attention to your mental health",
           "Learn stress management and emotion regulation techniques",
           "Consider seeking counseling to process past experiences",
-          "Build a strong social support network"
+          "Build a strong social support network",
+          "Consider consulting a professional trained in trauma therapy"
         ]
       },
       {

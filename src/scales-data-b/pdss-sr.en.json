@@ -82,10 +82,13 @@
         "max": 5,
         "level": "minimal",
         "label": "Minimal Panic Symptoms",
-        "description": "Your score suggests minimal or no significant panic disorder symptoms.",
+        "description": "Your score suggests minimal or no significant panic disorder symptoms. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining healthy coping strategies",
-          "Practice regular stress management techniques"
+          "Practice regular stress management techniques",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching",
+          "Keep up a regular exercise routine"
         ]
       },
       {
@@ -93,12 +96,13 @@
         "max": 13,
         "level": "mild",
         "label": "Mild to Moderate Panic",
-        "description": "Your score indicates mild to moderate panic disorder symptoms. You may be experiencing some distress related to panic attacks.",
+        "description": "Your score indicates mild to moderate panic disorder symptoms. You may be experiencing some distress related to panic attacks. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
         "suggestions": [
           "Learn about the nature of panic attacks and their harmlessness",
           "Practice breathing retraining and relaxation techniques",
           "Consider cognitive-behavioral approaches to manage anxiety",
-          "Keep a panic diary to identify triggers"
+          "Keep a panic diary to identify triggers",
+          "Learn and practice progressive muscle relaxation"
         ]
       },
       {
@@ -106,12 +110,13 @@
         "max": 20,
         "level": "moderate",
         "label": "Moderate to Severe Panic",
-        "description": "Your score indicates moderate to severe panic disorder symptoms that are likely impacting your daily life.",
+        "description": "Your score indicates moderate to severe panic disorder symptoms that are likely impacting your daily life. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Strongly consider seeking professional treatment",
           "Cognitive-behavioral therapy (CBT) is highly effective for panic disorder",
           "Discuss medication options with a psychiatrist",
-          "Avoid safety behaviors that maintain the cycle of panic"
+          "Avoid safety behaviors that maintain the cycle of panic",
+          "Consider consulting a counselor or psychiatrist"
         ]
       },
       {
@@ -119,7 +124,7 @@
         "max": 28,
         "level": "severe",
         "label": "Severe Panic",
-        "description": "Your score indicates severe panic disorder symptoms with significant functional impairment.",
+        "description": "Your score indicates severe panic disorder symptoms with significant functional impairment. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Please seek professional help as soon as possible",
           "A combination of CBT and medication is often most effective for severe panic",

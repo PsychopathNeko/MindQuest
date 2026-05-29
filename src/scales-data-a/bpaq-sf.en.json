@@ -148,10 +148,13 @@
         "max": 24,
         "level": "minimal",
         "label": "Low Aggression",
-        "description": "Your aggression level is low. You can control aggressive impulses well.",
+        "description": "Your aggression level is low. You can control aggressive impulses well. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining good emotional management and conflict resolution skills",
-          "Your low aggression contributes to harmonious relationships"
+          "Your low aggression contributes to harmonious relationships",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -159,11 +162,13 @@
         "max": 36,
         "level": "normal",
         "label": "Moderate Aggression",
-        "description": "Your aggression is at a moderate level, within the normal range for most people.",
+        "description": "Your aggression is at a moderate level, within the normal range for most people. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Review subscale scores to understand your aggression patterns",
           "Learn more effective communication and conflict resolution skills",
-          "Practice emotion regulation and anger management"
+          "Practice emotion regulation and anger management",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -171,12 +176,13 @@
         "max": 48,
         "level": "mild",
         "label": "Elevated Aggression",
-        "description": "Your aggression level is elevated. You may have difficulty controlling aggressive behavior in some situations.",
+        "description": "Your aggression level is elevated. You may have difficulty controlling aggressive behavior in some situations. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Learn anger management and conflict resolution techniques",
           "Practice deep breathing and relaxation to manage anger",
           "Consider seeking psychological counseling",
-          "Be aware of how aggression affects your relationships"
+          "Be aware of how aggression affects your relationships",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -184,12 +190,13 @@
         "max": 60,
         "level": "moderate",
         "label": "High Aggression",
-        "description": "Your aggression level is very high. This may significantly impact your relationships and social adjustment.",
+        "description": "Your aggression level is very high. This may significantly impact your relationships and social adjustment. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Consider seeking professional psychological help",
           "Anger management training may be very beneficial",
           "Avoid high-conflict environments and learn calming strategies",
-          "Be aware of potential legal and social consequences of aggressive behavior"
+          "Be aware of potential legal and social consequences of aggressive behavior",
+          "Consider consulting a mental health professional"
         ]
       }
     ],
@@ -200,28 +207,55 @@
           "max": 6,
           "level": "minimal",
           "label": "Low",
-          "description": "Low physical aggression."
+          "description": "Low physical aggression. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 7,
           "max": 9,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate physical aggression."
+          "description": "Moderate physical aggression. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 10,
           "max": 12,
           "level": "moderate",
           "label": "High",
-          "description": "High physical aggression."
+          "description": "High physical aggression. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 13,
           "max": 15,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high physical aggression."
+          "description": "Very high physical aggression. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "verbal": [
@@ -230,28 +264,55 @@
           "max": 6,
           "level": "minimal",
           "label": "Low",
-          "description": "Low verbal aggression."
+          "description": "Low verbal aggression. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 7,
           "max": 9,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate verbal aggression."
+          "description": "Moderate verbal aggression. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 10,
           "max": 12,
           "level": "moderate",
           "label": "High",
-          "description": "High verbal aggression."
+          "description": "High verbal aggression. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 13,
           "max": 15,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high verbal aggression."
+          "description": "Very high verbal aggression. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "anger": [
@@ -260,28 +321,55 @@
           "max": 6,
           "level": "minimal",
           "label": "Low",
-          "description": "Low anger level."
+          "description": "Low anger level. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 7,
           "max": 9,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate anger level."
+          "description": "Moderate anger level. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 10,
           "max": 12,
           "level": "moderate",
           "label": "High",
-          "description": "High anger level."
+          "description": "High anger level. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 13,
           "max": 15,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high anger level."
+          "description": "Very high anger level. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "hostility": [
@@ -290,28 +378,52 @@
           "max": 6,
           "level": "minimal",
           "label": "Low",
-          "description": "Low hostility level."
+          "description": "Low hostility level. This indicates that the relevant behavioral characteristics are within the normal range with no significant functional impact.",
+          "suggestions": [
+            "Understand your behavioral characteristics and leverage your strengths",
+            "Maintain your current effective coping strategies",
+            "Seek information and support when needed"
+          ]
         },
         {
           "min": 7,
           "max": 9,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate hostility level."
+          "description": "Moderate hostility level. Mild behavioral differences are common. Understanding your own patterns can help you adapt more effectively to different environments.",
+          "suggestions": [
+            "Learn about your behavioral patterns and characteristics",
+            "Use planners and reminders to help organize daily activities",
+            "Communicate your needs to others when necessary",
+            "Leverage your unique strengths and creativity"
+          ]
         },
         {
           "min": 10,
           "max": 12,
           "level": "moderate",
           "label": "High",
-          "description": "High hostility level."
+          "description": "High hostility level. At this level, behavioral characteristics may have some impact on learning, work, or social interactions. Understanding and adapting strategies can be helpful.",
+          "suggestions": [
+            "Consider a more comprehensive professional assessment",
+            "Learn specific behavioral management strategies and skills",
+            "Communicate with your school or workplace to obtain appropriate support",
+            "Try establishing structured daily routines",
+            "Consider attending relevant skill-building courses"
+          ]
         },
         {
           "min": 13,
           "max": 15,
           "level": "severe",
           "label": "Very High",
-          "description": "Very high hostility level."
+          "description": "Very high hostility level. Your behavioral characteristic scores are elevated and may be considerably affecting daily functioning. Professional assessment and support is recommended.",
+          "suggestions": [
+            "Seek professional assessment and ongoing support",
+            "A combination of behavioral interventions and other support measures may be needed",
+            "Work with family and relevant organizations to develop a support plan",
+            "Focus on overall physical and mental well-being and quality of life"
+          ]
         }
       ]
     }

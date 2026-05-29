@@ -88,10 +88,13 @@
         "max": 0,
         "level": "minimal",
         "label": "Non-Problem Gambling",
-        "description": "You did not report any signs of problem gambling.",
+        "description": "You did not report any signs of problem gambling. This indicates that your current substance-use-related risk is low and within a healthy range.",
         "suggestions": [
           "Continue maintaining healthy recreational habits",
-          "If you do gamble, set time and money limits"
+          "If you do gamble, set time and money limits",
+          "Continue maintaining a healthy lifestyle",
+          "Stay informed about risks related to substance use",
+          "Maintain the ability to make autonomous choices in social situations"
         ]
       },
       {
@@ -99,11 +102,13 @@
         "max": 2,
         "level": "mild",
         "label": "Low Risk Gambling",
-        "description": "You reported minor gambling-related issues at a low risk level.",
+        "description": "You reported minor gambling-related issues at a low risk level. A mild risk level suggests it may be helpful to pay attention to your usage patterns and maintain self-awareness.",
         "suggestions": [
           "Maintain self-awareness about gambling behavior",
           "Set clear limits on gambling time and money",
-          "Don't use gambling to cope with stress or emotional issues"
+          "Don't use gambling to cope with stress or emotional issues",
+          "Pay attention to your usage patterns and frequency",
+          "Learn about recommended safe-use limits"
         ]
       },
       {
@@ -111,12 +116,13 @@
         "max": 7,
         "level": "moderate",
         "label": "Moderate Risk Gambling",
-        "description": "Your gambling behavior may be causing some negative consequences. Consider taking action.",
+        "description": "Your gambling behavior may be causing some negative consequences. Consider taking action. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
         "suggestions": [
           "Seriously examine how gambling affects your life",
           "Set strict gambling budgets and stick to them",
           "Consider seeking professional help or calling a gambling helpline",
-          "Learn about risk factors for problem gambling"
+          "Learn about risk factors for problem gambling",
+          "Consider consulting an addiction medicine professional"
         ]
       },
       {

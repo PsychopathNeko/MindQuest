@@ -158,11 +158,13 @@
         "max": 32,
         "level": "minimal",
         "label": "Good Memory",
-        "description": "Your overall memory performance appears to be good, with infrequent memory failures in daily life.",
+        "description": "Your overall memory performance appears to be good, with infrequent memory failures in daily life. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your current memory strategies",
           "Keep up mentally stimulating activities",
-          "Maintain healthy lifestyle habits that support cognitive function"
+          "Maintain healthy lifestyle habits that support cognitive function",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -170,12 +172,13 @@
         "max": 48,
         "level": "mild",
         "label": "Average Memory",
-        "description": "Your memory performance is within the average range. You experience occasional memory lapses that are common in daily life.",
+        "description": "Your memory performance is within the average range. You experience occasional memory lapses that are common in daily life. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Use external aids like calendars and reminder apps for important tasks",
           "Establish consistent routines to support prospective memory",
           "Stay mentally active through reading, puzzles, or learning new skills",
-          "Ensure adequate sleep, as it is critical for memory consolidation"
+          "Ensure adequate sleep, as it is critical for memory consolidation",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -183,12 +186,13 @@
         "max": 64,
         "level": "moderate",
         "label": "Poor Memory",
-        "description": "Your score suggests you experience memory failures more frequently than average. This may affect daily functioning.",
+        "description": "Your score suggests you experience memory failures more frequently than average. This may affect daily functioning. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Implement systematic reminder strategies (phone alarms, sticky notes, to-do lists)",
           "Minimize distractions when trying to remember important information",
           "Ensure adequate sleep, as sleep is critical for memory consolidation",
-          "Consider whether stress or multitasking may be contributing to memory lapses"
+          "Consider whether stress or multitasking may be contributing to memory lapses",
+          "Consider consulting a mental health professional"
         ]
       },
       {
@@ -196,12 +200,13 @@
         "max": 80,
         "level": "severe",
         "label": "Very Poor Memory",
-        "description": "Your score indicates frequent memory failures that may significantly impact daily life.",
+        "description": "Your score indicates frequent memory failures that may significantly impact daily life. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Consider consulting a healthcare professional for a thorough memory assessment",
           "Use multiple external memory aids consistently",
           "Simplify routines and reduce cognitive load where possible",
-          "Discuss with a professional whether underlying factors may be involved"
+          "Discuss with a professional whether underlying factors may be involved",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       }
     ],
@@ -212,28 +217,55 @@
           "max": 16,
           "level": "normal",
           "label": "Good Prospective Memory",
-          "description": "You generally remember to carry out planned actions and future intentions."
+          "description": "You generally remember to carry out planned actions and future intentions. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 17,
           "max": 24,
           "level": "mild",
           "label": "Average Prospective Memory",
-          "description": "You occasionally forget to carry out planned actions, which is within the normal range."
+          "description": "You occasionally forget to carry out planned actions, which is within the normal range. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 25,
           "max": 32,
           "level": "moderate",
           "label": "Poor Prospective Memory",
-          "description": "You frequently forget to carry out intended actions. Consider using external reminders."
+          "description": "You frequently forget to carry out intended actions. Consider using external reminders. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 33,
           "max": 40,
           "level": "severe",
           "label": "Very Poor Prospective Memory",
-          "description": "You very frequently forget planned actions. Systematic use of external aids is strongly recommended."
+          "description": "You very frequently forget planned actions. Systematic use of external aids is strongly recommended. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "retrospective": [
@@ -242,28 +274,55 @@
           "max": 16,
           "level": "normal",
           "label": "Good Retrospective Memory",
-          "description": "You generally recall past events and previously learned information well."
+          "description": "You generally recall past events and previously learned information well. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 17,
           "max": 24,
           "level": "mild",
           "label": "Average Retrospective Memory",
-          "description": "You occasionally have difficulty recalling past events, which is within the normal range."
+          "description": "You occasionally have difficulty recalling past events, which is within the normal range. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 25,
           "max": 32,
           "level": "moderate",
           "label": "Poor Retrospective Memory",
-          "description": "You frequently have difficulty remembering past events and information."
+          "description": "You frequently have difficulty remembering past events and information. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 33,
           "max": 40,
           "level": "severe",
           "label": "Very Poor Retrospective Memory",
-          "description": "You very frequently have difficulty recalling past events. Consider seeking professional assessment."
+          "description": "You very frequently have difficulty recalling past events. Consider seeking professional assessment. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ]
     }

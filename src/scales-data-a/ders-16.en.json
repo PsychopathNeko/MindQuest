@@ -180,10 +180,13 @@
         "max": 32,
         "level": "minimal",
         "label": "Low Difficulty",
-        "description": "You have low difficulty in emotion regulation. You generally manage your emotions effectively.",
+        "description": "You have low difficulty in emotion regulation. You generally manage your emotions effectively. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your emotion regulation skills",
-          "Your emotional resilience is a valuable asset in daily life"
+          "Your emotional resilience is a valuable asset in daily life",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -191,12 +194,13 @@
         "max": 48,
         "level": "mild",
         "label": "Moderate Difficulty",
-        "description": "You have moderate difficulty in emotion regulation. You may sometimes struggle to manage intense emotions effectively.",
+        "description": "You have moderate difficulty in emotion regulation. You may sometimes struggle to manage intense emotions effectively. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Practice mindfulness to increase emotional awareness",
           "Learn about cognitive reappraisal strategies",
           "Regular exercise can help improve emotional regulation",
-          "Consider journaling to better understand your emotional patterns"
+          "Consider journaling to better understand your emotional patterns",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -204,12 +208,13 @@
         "max": 64,
         "level": "moderate",
         "label": "High Difficulty",
-        "description": "You have high difficulty in emotion regulation. Intense emotions may significantly interfere with your daily functioning and well-being.",
+        "description": "You have high difficulty in emotion regulation. Intense emotions may significantly interfere with your daily functioning and well-being. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Consider seeking professional support from a therapist",
           "Dialectical Behavior Therapy (DBT) skills can be very helpful",
           "Practice distress tolerance techniques during intense emotions",
-          "Build a support network you can reach out to when overwhelmed"
+          "Build a support network you can reach out to when overwhelmed",
+          "Consider consulting a mental health professional"
         ]
       },
       {
@@ -222,7 +227,8 @@
           "Strongly recommended to seek professional therapy",
           "DBT or emotion-focused therapy can be highly effective",
           "Develop a safety plan for times of extreme emotional distress",
-          "Consistent therapeutic support can lead to significant improvement"
+          "Consistent therapeutic support can lead to significant improvement",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       }
     ],
@@ -233,21 +239,40 @@
           "max": 4,
           "level": "minimal",
           "label": "High Clarity",
-          "description": "Good understanding of your emotions."
+          "description": "Good understanding of your emotions. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average Clarity",
-          "description": "Sometimes difficulty making sense of feelings."
+          "description": "Sometimes difficulty making sense of feelings. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "severe",
           "label": "Low Clarity",
-          "description": "Significant difficulty understanding your emotions."
+          "description": "Significant difficulty understanding your emotions. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "goals": [
@@ -256,21 +281,40 @@
           "max": 6,
           "level": "minimal",
           "label": "Low Impact",
-          "description": "Emotions minimally affect goal-directed behavior."
+          "description": "Emotions minimally affect goal-directed behavior. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 7,
           "max": 10,
           "level": "normal",
           "label": "Moderate Impact",
-          "description": "Emotions sometimes interfere with getting things done."
+          "description": "Emotions sometimes interfere with getting things done. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 11,
           "max": 15,
           "level": "severe",
           "label": "High Impact",
-          "description": "Emotions severely impair task completion and focus."
+          "description": "Emotions severely impair task completion and focus. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "impulse": [
@@ -279,21 +323,40 @@
           "max": 6,
           "level": "minimal",
           "label": "Good Control",
-          "description": "Maintains behavioral control when upset."
+          "description": "Maintains behavioral control when upset. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 7,
           "max": 10,
           "level": "normal",
           "label": "Average Control",
-          "description": "Sometimes difficulty controlling behaviors when upset."
+          "description": "Sometimes difficulty controlling behaviors when upset. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 11,
           "max": 15,
           "level": "severe",
           "label": "Poor Control",
-          "description": "Significant difficulty controlling behavior when emotionally upset."
+          "description": "Significant difficulty controlling behavior when emotionally upset. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "nonacceptance": [
@@ -302,21 +365,40 @@
           "max": 6,
           "level": "minimal",
           "label": "High Acceptance",
-          "description": "Can accept emotional reactions without self-judgment."
+          "description": "Can accept emotional reactions without self-judgment. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 7,
           "max": 10,
           "level": "normal",
           "label": "Average Acceptance",
-          "description": "Sometimes self-critical about emotional reactions."
+          "description": "Sometimes self-critical about emotional reactions. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 11,
           "max": 15,
           "level": "severe",
           "label": "Low Acceptance",
-          "description": "Strong secondary negative reactions to own emotions."
+          "description": "Strong secondary negative reactions to own emotions. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "strategies": [
@@ -325,21 +407,40 @@
           "max": 10,
           "level": "minimal",
           "label": "Rich Strategies",
-          "description": "Multiple effective emotion regulation strategies available."
+          "description": "Multiple effective emotion regulation strategies available. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 11,
           "max": 17,
           "level": "normal",
           "label": "Average Strategies",
-          "description": "Some strategies available but may feel stuck at times."
+          "description": "Some strategies available but may feel stuck at times. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 18,
           "max": 25,
           "level": "severe",
           "label": "Limited Strategies",
-          "description": "Lacks effective coping strategies when emotionally distressed."
+          "description": "Lacks effective coping strategies when emotionally distressed. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ]
     }

@@ -132,21 +132,40 @@
           "max": 18,
           "level": "severe",
           "label": "Low",
-          "description": "You rarely use cognitive reappraisal. This adaptive strategy, when underused, may limit emotional regulation flexibility."
+          "description": "You rarely use cognitive reappraisal. This adaptive strategy, when underused, may limit emotional regulation flexibility. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 19,
           "max": 30,
           "level": "normal",
           "label": "Average",
-          "description": "You use cognitive reappraisal at a moderate frequency."
+          "description": "You use cognitive reappraisal at a moderate frequency. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 31,
           "max": 42,
           "level": "minimal",
           "label": "High",
-          "description": "You frequently use cognitive reappraisal, which is associated with better emotional well-being and interpersonal relationships."
+          "description": "You frequently use cognitive reappraisal, which is associated with better emotional well-being and interpersonal relationships. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "suppression": [
@@ -155,21 +174,40 @@
           "max": 12,
           "level": "minimal",
           "label": "Low",
-          "description": "You rarely suppress emotional expression. Moderate emotional expression is beneficial for relationships and mental health."
+          "description": "You rarely suppress emotional expression. Moderate emotional expression is beneficial for relationships and mental health. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 13,
           "max": 20,
           "level": "normal",
           "label": "Average",
-          "description": "You use expressive suppression at a moderate frequency."
+          "description": "You use expressive suppression at a moderate frequency. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 21,
           "max": 28,
           "level": "severe",
           "label": "High",
-          "description": "You frequently suppress emotional expression. Excessive suppression may be associated with lower well-being and social support. Consider learning more flexible emotion regulation approaches."
+          "description": "You frequently suppress emotional expression. Excessive suppression may be associated with lower well-being and social support. Consider learning more flexible emotion regulation approaches.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ]
     }

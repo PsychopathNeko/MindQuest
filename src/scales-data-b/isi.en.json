@@ -82,10 +82,13 @@
         "max": 7,
         "level": "minimal",
         "label": "No Clinically Significant Insomnia",
-        "description": "Your insomnia severity is very low.",
+        "description": "Your insomnia severity is very low. This indicates that your sleep quality and patterns are in good condition, allowing you to get adequate rest.",
         "suggestions": [
           "Continue maintaining good sleep habits",
-          "Keep a regular sleep-wake schedule"
+          "Keep a regular sleep-wake schedule",
+          "Continue maintaining your good sleep habits",
+          "Keep a consistent sleep schedule",
+          "Avoid screen time and stimulating activities before bed"
         ]
       },
       {
@@ -93,11 +96,13 @@
         "max": 14,
         "level": "mild",
         "label": "Subthreshold Insomnia",
-        "description": "You have mild insomnia that may slightly affect daily life.",
+        "description": "You have mild insomnia that may slightly affect daily life. Mild sleep difficulties are quite common. Adjusting your sleep habits and environment can often bring improvement.",
         "suggestions": [
           "Improve sleep hygiene habits",
           "Avoid screens before bedtime",
-          "Reduce caffeine and alcohol intake"
+          "Reduce caffeine and alcohol intake",
+          "Establish fixed bedtime and wake-up times",
+          "Reduce screen use one hour before bed"
         ]
       },
       {
@@ -105,11 +110,13 @@
         "max": 21,
         "level": "moderate",
         "label": "Clinical Insomnia (Moderate)",
-        "description": "You have moderate insomnia that likely affects daily functioning.",
+        "description": "You have moderate insomnia that likely affects daily functioning. At this level, sleep problems may cause daytime fatigue and affect your concentration and emotional stability.",
         "suggestions": [
           "Consult a sleep medicine professional",
           "Consider cognitive behavioral therapy for insomnia (CBT-I)",
-          "Maintain a regular sleep schedule"
+          "Maintain a regular sleep schedule",
+          "Consider consulting a doctor to rule out possible sleep disorders",
+          "Try Cognitive Behavioral Therapy for Insomnia (CBT-I)"
         ]
       },
       {
@@ -117,10 +124,13 @@
         "max": 28,
         "level": "severe",
         "label": "Clinical Insomnia (Severe)",
-        "description": "You have severe insomnia significantly affecting daily functioning.",
+        "description": "You have severe insomnia significantly affecting daily functioning. Your sleep difficulties are significant and may be considerably affecting your daytime functioning and overall health. Consulting a sleep specialist is recommended.",
         "suggestions": [
           "Seek medical evaluation from a sleep specialist promptly",
-          "Pharmacotherapy combined with psychotherapy may be needed"
+          "Pharmacotherapy combined with psychotherapy may be needed",
+          "Consult a sleep specialist for a comprehensive evaluation",
+          "A sleep study may be needed",
+          "Follow the professionally recommended sleep management plan"
         ]
       }
     ],

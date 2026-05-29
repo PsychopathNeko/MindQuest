@@ -114,11 +114,13 @@
         "max": 4,
         "level": "minimal",
         "label": "Minimal Somatic Severity",
-        "description": "Your somatic symptom score is minimal. No significant physical symptom burden detected.",
+        "description": "Your somatic symptom score is minimal. No significant physical symptom burden detected. This indicates that you are currently experiencing minimal physical discomfort, with somatic symptoms within the normal range.",
         "suggestions": [
           "Continue maintaining a healthy lifestyle",
           "Regular exercise and balanced diet support physical well-being",
-          "Practice stress management to prevent somatic symptoms"
+          "Practice stress management to prevent somatic symptoms",
+          "Continue maintaining healthy lifestyle habits",
+          "Get regular check-ups to maintain physical health"
         ]
       },
       {
@@ -126,12 +128,13 @@
         "max": 9,
         "level": "mild",
         "label": "Low Somatic Severity",
-        "description": "You are experiencing a low level of somatic symptoms. These may be related to stress or other factors.",
+        "description": "You are experiencing a low level of somatic symptoms. These may be related to stress or other factors. Mild physical discomfort is common. Rest and healthy lifestyle habits can often help alleviate these symptoms.",
         "suggestions": [
           "Monitor your symptoms and note any patterns",
           "Practice relaxation techniques such as deep breathing or yoga",
           "Ensure adequate sleep and regular exercise",
-          "If symptoms persist, consult a healthcare provider"
+          "If symptoms persist, consult a healthcare provider",
+          "Pay attention to your body signals and rest when needed"
         ]
       },
       {
@@ -139,12 +142,13 @@
         "max": 14,
         "level": "moderate",
         "label": "Medium Somatic Severity",
-        "description": "Your somatic symptom level is moderate. These symptoms may be affecting your daily functioning.",
+        "description": "Your somatic symptom level is moderate. These symptoms may be affecting your daily functioning. At this level, physical symptoms may cause discomfort and affect your daily activities and emotional state.",
         "suggestions": [
           "Consider consulting a healthcare provider for evaluation",
           "Explore stress management and relaxation strategies",
           "Maintain a symptom diary to identify triggers",
-          "Consider whether psychological factors may be contributing"
+          "Consider whether psychological factors may be contributing",
+          "Consider consulting a doctor for a physical examination"
         ]
       },
       {
@@ -152,12 +156,13 @@
         "max": 30,
         "level": "severe",
         "label": "High Somatic Severity",
-        "description": "Your somatic symptom level is high. This significant symptom burden warrants professional evaluation.",
+        "description": "Your somatic symptom level is high. This significant symptom burden warrants professional evaluation. Your somatic symptom scores are elevated, and these discomforts may be significantly affecting your quality of life. Both medical and psychological evaluation is recommended.",
         "suggestions": [
           "Seek medical evaluation to rule out underlying conditions",
           "Consider consultation with both medical and mental health professionals",
           "Cognitive behavioral therapy can be effective for somatic symptoms",
-          "Avoid excessive self-monitoring that may increase symptom focus"
+          "Avoid excessive self-monitoring that may increase symptom focus",
+          "Consult a doctor for a comprehensive physical examination as soon as possible"
         ]
       }
     ],

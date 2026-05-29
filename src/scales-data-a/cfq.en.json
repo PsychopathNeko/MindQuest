@@ -173,11 +173,13 @@
         "max": 24,
         "level": "minimal",
         "label": "Low Cognitive Failures",
-        "description": "Your score suggests a low frequency of everyday cognitive failures. You appear to maintain good attentional control and memory in daily life.",
+        "description": "Your score suggests a low frequency of everyday cognitive failures. You appear to maintain good attentional control and memory in daily life. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your current level of attentiveness",
           "Keep up healthy habits such as adequate sleep and regular exercise",
-          "Practice mindfulness to sustain cognitive sharpness"
+          "Practice mindfulness to sustain cognitive sharpness",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -185,11 +187,13 @@
         "max": 49,
         "level": "mild",
         "label": "Below Average Cognitive Failures",
-        "description": "Your score is below the population average, indicating a relatively normal frequency of minor cognitive slips.",
+        "description": "Your score is below the population average, indicating a relatively normal frequency of minor cognitive slips. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Consider using checklists or reminders for important tasks",
           "Minimize multitasking when focused attention is needed",
-          "Ensure adequate sleep and manage stress levels"
+          "Ensure adequate sleep and manage stress levels",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       },
       {
@@ -197,7 +201,7 @@
         "max": 74,
         "level": "moderate",
         "label": "Above Average Cognitive Failures",
-        "description": "Your score is above the population average, suggesting you experience cognitive failures more frequently than most people.",
+        "description": "Your score is above the population average, suggesting you experience cognitive failures more frequently than most people. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Develop organizational strategies such as to-do lists and calendars",
           "Reduce distractions in your environment when performing important tasks",
@@ -211,7 +215,7 @@
         "max": 100,
         "level": "severe",
         "label": "High Cognitive Failures",
-        "description": "Your score indicates a high frequency of cognitive failures. This may be associated with stress, fatigue, anxiety, or attentional difficulties.",
+        "description": "Your score indicates a high frequency of cognitive failures. This may be associated with stress, fatigue, anxiety, or attentional difficulties. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Consider consulting a healthcare professional to rule out underlying causes",
           "Implement strong organizational systems (reminders, alarms, checklists)",

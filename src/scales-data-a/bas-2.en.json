@@ -97,12 +97,13 @@
         "max": 20,
         "level": "severe",
         "label": "Low Body Appreciation",
-        "description": "Your body appreciation and acceptance is low. You may have a negative body image.",
+        "description": "Your body appreciation and acceptance is low. You may have a negative body image. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Focus on your body's functionality rather than appearance",
           "Practice self-compassion and body gratitude",
           "Reduce exposure to appearance-related social media content",
-          "If body image concerns significantly affect your life, consider seeking professional help"
+          "If body image concerns significantly affect your life, consider seeking professional help",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       },
       {
@@ -110,12 +111,13 @@
         "max": 30,
         "level": "moderate",
         "label": "Below Average Body Appreciation",
-        "description": "Your body appreciation is below average. You may be dissatisfied with some aspects of your body.",
+        "description": "Your body appreciation is below average. You may be dissatisfied with some aspects of your body. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Try writing down one positive thing about your body each day",
           "Choose activities and clothing that make your body feel comfortable",
           "Reduce comparisons with others' appearances",
-          "Cultivate gratitude for your body's functions"
+          "Cultivate gratitude for your body's functions",
+          "Consider consulting a mental health professional"
         ]
       },
       {
@@ -123,11 +125,13 @@
         "max": 40,
         "level": "mild",
         "label": "Moderate Body Appreciation",
-        "description": "You have a moderate level of body appreciation and acceptance, with a generally positive attitude.",
+        "description": "You have a moderate level of body appreciation and acceptance, with a generally positive attitude. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Continue cultivating a positive attitude toward your body",
           "Maintain regular physical activity and enjoy the pleasure of movement",
-          "Practice intuitive eating and listen to your body's needs"
+          "Practice intuitive eating and listen to your body's needs",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       },
       {
@@ -135,11 +139,13 @@
         "max": 50,
         "level": "minimal",
         "label": "High Body Appreciation",
-        "description": "You have a high level of body appreciation and acceptance, with a positive body image.",
+        "description": "You have a high level of body appreciation and acceptance, with a positive body image. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your positive attitude toward your body",
           "Your body appreciation can serve as a positive example for others",
-          "Continue caring for and respecting your body's needs"
+          "Continue caring for and respecting your body's needs",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       }
     ],

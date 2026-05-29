@@ -111,7 +111,7 @@
         "max": 20,
         "level": "moderate",
         "label": "Moderate Resilience",
-        "description": "Your resilience is at a moderate level. You can handle some challenges but may struggle with more significant stressors or prolonged adversity.",
+        "description": "Your resilience is at a moderate level. You can handle some challenges but may struggle with more significant stressors or prolonged adversity. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Continue building your coping strategies and stress management skills",
           "Practice reframing negative situations in a more positive light",
@@ -125,12 +125,13 @@
         "max": 30,
         "level": "mild",
         "label": "Moderately High Resilience",
-        "description": "Your resilience is moderately high. You generally cope well with challenges and can bounce back from most setbacks.",
+        "description": "Your resilience is moderately high. You generally cope well with challenges and can bounce back from most setbacks. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
         "suggestions": [
           "Continue maintaining your effective coping strategies",
           "Challenge yourself with new experiences to further build resilience",
           "Share your resilience strategies with others who may benefit",
-          "Maintain a balanced lifestyle with adequate rest and recreation"
+          "Maintain a balanced lifestyle with adequate rest and recreation",
+          "Increase the frequency of positive social activities"
         ]
       },
       {
@@ -138,12 +139,13 @@
         "max": 40,
         "level": "minimal",
         "label": "High Resilience",
-        "description": "Your resilience score is high. You demonstrate strong ability to adapt, cope with stress, and recover from adversity.",
+        "description": "Your resilience score is high. You demonstrate strong ability to adapt, cope with stress, and recover from adversity. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Continue your excellent resilience practices",
           "Consider mentoring others in building resilience",
           "Use your resilience as a foundation for pursuing ambitious goals",
-          "Remember to also allow yourself to feel and process difficult emotions"
+          "Remember to also allow yourself to feel and process difficult emotions",
+          "Try doing one fulfilling activity each day"
         ]
       }
     ],

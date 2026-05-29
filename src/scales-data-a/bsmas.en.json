@@ -77,10 +77,13 @@
         "max": 12,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your social media use is within a healthy range.",
+        "description": "Your social media use is within a healthy range. This indicates that your current substance-use-related risk is low and within a healthy range.",
         "suggestions": [
           "Continue maintaining moderate social media usage habits",
-          "Be mindful of your screen time"
+          "Be mindful of your screen time",
+          "Continue maintaining a healthy lifestyle",
+          "Stay informed about risks related to substance use",
+          "Maintain the ability to make autonomous choices in social situations"
         ]
       },
       {
@@ -88,11 +91,13 @@
         "max": 18,
         "level": "mild",
         "label": "Mild Risk",
-        "description": "You may have some unhealthy social media usage patterns.",
+        "description": "You may have some unhealthy social media usage patterns. A mild risk level suggests it may be helpful to pay attention to your usage patterns and maintain self-awareness.",
         "suggestions": [
           "Set daily time limits for social media use",
           "Turn off unnecessary push notifications",
-          "Develop offline social activities and hobbies"
+          "Develop offline social activities and hobbies",
+          "Pay attention to your usage patterns and frequency",
+          "Learn about recommended safe-use limits"
         ]
       },
       {
@@ -100,12 +105,13 @@
         "max": 24,
         "level": "moderate",
         "label": "Moderate Risk",
-        "description": "Social media use may already be affecting your daily life and interpersonal relationships.",
+        "description": "Social media use may already be affecting your daily life and interpersonal relationships. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
         "suggestions": [
           "Consider trying a \"digital detox\"",
           "Use screen time management tools",
           "Reflect on how social media affects your mood",
-          "If you feel distressed, consider consulting a professional"
+          "If you feel distressed, consider consulting a professional",
+          "Consider consulting an addiction medicine professional"
         ]
       },
       {
@@ -113,12 +119,13 @@
         "max": 30,
         "level": "severe",
         "label": "High Risk",
-        "description": "Your social media usage pattern has reached a problematic level and may be seriously affecting daily functioning.",
+        "description": "Your social media usage pattern has reached a problematic level and may be seriously affecting daily functioning. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
         "suggestions": [
           "Strongly recommended to consult a mental health professional",
           "Create a detailed usage restriction plan",
           "Find alternative ways to relax",
-          "Consider temporarily uninstalling your most-used social media apps"
+          "Consider temporarily uninstalling your most-used social media apps",
+          "Seek professional addiction treatment as soon as possible"
         ]
       }
     ],

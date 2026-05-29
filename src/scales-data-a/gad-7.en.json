@@ -78,11 +78,13 @@
         "max": 4,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your anxiety score is within the normal range. No significant anxiety symptoms detected.",
+        "description": "Your anxiety score is within the normal range. No significant anxiety symptoms detected. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining your current well-being",
           "Practice relaxation activities such as deep breathing or meditation",
-          "Keep up a regular exercise routine"
+          "Keep up a regular exercise routine",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching"
         ]
       },
       {
@@ -90,7 +92,7 @@
         "max": 9,
         "level": "mild",
         "label": "Mild Anxiety",
-        "description": "You may be experiencing some mild anxiety symptoms that may slightly affect daily life.",
+        "description": "You may be experiencing some mild anxiety symptoms that may slightly affect daily life. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
         "suggestions": [
           "Learn and practice relaxation techniques (e.g., progressive muscle relaxation, mindfulness meditation)",
           "Maintain regular physical exercise",
@@ -104,7 +106,7 @@
         "max": 14,
         "level": "moderate",
         "label": "Moderate Anxiety",
-        "description": "Your anxiety symptoms are at a moderate level and may noticeably affect work, social life, and daily activities.",
+        "description": "Your anxiety symptoms are at a moderate level and may noticeably affect work, social life, and daily activities. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Consider consulting a counselor or psychiatrist",
           "Cognitive behavioral therapy (CBT) is highly effective for anxiety",
@@ -118,7 +120,7 @@
         "max": 21,
         "level": "severe",
         "label": "Severe Anxiety",
-        "description": "Your anxiety symptoms are quite severe and may significantly affect daily functioning. Please seek professional help promptly.",
+        "description": "Your anxiety symptoms are quite severe and may significantly affect daily functioning. Please seek professional help promptly. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Strongly recommended to seek medical attention from a psychiatrist",
           "Medication combined with psychotherapy may be needed",

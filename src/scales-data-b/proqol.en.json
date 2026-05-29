@@ -258,21 +258,42 @@
           "max": 22,
           "level": "low",
           "label": "Low",
-          "description": "Low compassion satisfaction. You may not feel fulfilled by your helping work."
+          "description": "Low compassion satisfaction. You may not feel fulfilled by your helping work. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 23,
           "max": 41,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate compassion satisfaction."
+          "description": "Moderate compassion satisfaction. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 42,
           "max": 50,
           "level": "high",
           "label": "High",
-          "description": "High compassion satisfaction. You gain significant positive rewards from helping."
+          "description": "High compassion satisfaction. You gain significant positive rewards from helping. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "burnout": [
@@ -281,21 +302,42 @@
           "max": 22,
           "level": "low",
           "label": "Low",
-          "description": "Low burnout levels."
+          "description": "Low burnout levels. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 23,
           "max": 41,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate burnout. Consider stress management strategies."
+          "description": "Moderate burnout. Consider stress management strategies. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 42,
           "max": 50,
           "level": "high",
           "label": "High",
-          "description": "High burnout levels. Seek professional support."
+          "description": "High burnout levels. Seek professional support. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ],
       "secondary_trauma": [
@@ -304,21 +346,42 @@
           "max": 22,
           "level": "low",
           "label": "Low",
-          "description": "Low secondary traumatic stress."
+          "description": "Low secondary traumatic stress. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 23,
           "max": 41,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate secondary traumatic stress."
+          "description": "Moderate secondary traumatic stress. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 42,
           "max": 50,
           "level": "high",
           "label": "High",
-          "description": "High secondary traumatic stress. Seek immediate support."
+          "description": "High secondary traumatic stress. Seek immediate support. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ]
     }

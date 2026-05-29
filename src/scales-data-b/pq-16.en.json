@@ -106,10 +106,13 @@
         "max": 5,
         "level": "minimal",
         "label": "Low Risk",
-        "description": "You reported few psychotic-like experiences, not indicating elevated psychosis risk.",
+        "description": "You reported few psychotic-like experiences, not indicating elevated psychosis risk. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "No particular concern at this time",
-          "If persistent troubling thoughts or feelings occur, consult a professional"
+          "If persistent troubling thoughts or feelings occur, consult a professional",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -117,12 +120,13 @@
         "max": 8,
         "level": "mild",
         "label": "Attention Needed",
-        "description": "You reported some psychotic-like experiences, near the screening threshold (>=6). Monitor changes in these experiences.",
+        "description": "You reported some psychotic-like experiences, near the screening threshold (>=6). Monitor changes in these experiences. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Pay attention to the frequency and intensity of these experiences",
           "Maintain regular routines and social activities",
           "Reduce stress and substance use (e.g., cannabis, alcohol)",
-          "If experiences worsen or affect functioning, consult a psychiatrist"
+          "If experiences worsen or affect functioning, consult a psychiatrist",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -135,7 +139,8 @@
           "Consider consulting a psychiatrist for professional evaluation",
           "Early identification and intervention are important for outcomes",
           "Maintain healthy lifestyle and social connections",
-          "Avoid psychoactive substances"
+          "Avoid psychoactive substances",
+          "Consider consulting a mental health professional"
         ]
       },
       {
@@ -148,7 +153,8 @@
           "Strongly recommend seeing a psychiatrist soon",
           "Early intervention services can provide professional support",
           "Let trusted family or friends know about your situation",
-          "Don't panic — having these experiences doesn't necessarily mean you have a mental illness"
+          "Don't panic — having these experiences doesn't necessarily mean you have a mental illness",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       }
     ],

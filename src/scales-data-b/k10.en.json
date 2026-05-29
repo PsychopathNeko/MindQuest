@@ -97,11 +97,13 @@
         "max": 19,
         "level": "minimal",
         "label": "Likely to Be Well",
-        "description": "Your score suggests you are likely to be well with no significant psychological distress.",
+        "description": "Your score suggests you are likely to be well with no significant psychological distress. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
         "suggestions": [
           "Continue maintaining your current healthy coping strategies",
           "Keep up regular physical activity and social engagement",
-          "Practice stress management techniques as a preventive measure"
+          "Practice stress management techniques as a preventive measure",
+          "Continue using your effective stress management strategies",
+          "Regularly check in with yourself and engage in relaxation activities"
         ]
       },
       {
@@ -109,12 +111,13 @@
         "max": 24,
         "level": "mild",
         "label": "Mild Psychological Distress",
-        "description": "Your score indicates mild levels of psychological distress. You may be experiencing some emotional difficulties.",
+        "description": "Your score indicates mild levels of psychological distress. You may be experiencing some emotional difficulties. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
         "suggestions": [
           "Monitor your emotional state over the coming weeks",
           "Practice relaxation techniques such as deep breathing or mindfulness",
           "Talk to a trusted friend or family member about how you feel",
-          "Consider consulting a healthcare professional if symptoms persist"
+          "Consider consulting a healthcare professional if symptoms persist",
+          "Identify your main sources of stress and try to address them gradually"
         ]
       },
       {
@@ -122,12 +125,13 @@
         "max": 29,
         "level": "moderate",
         "label": "Moderate Psychological Distress",
-        "description": "Your score indicates moderate levels of psychological distress that may be affecting your daily functioning.",
+        "description": "Your score indicates moderate levels of psychological distress that may be affecting your daily functioning. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
         "suggestions": [
           "Consider seeking help from a mental health professional",
           "Maintain regular routines for sleep, exercise, and nutrition",
           "Reduce stressors where possible and prioritize self-care",
-          "Avoid using alcohol or drugs to cope with distress"
+          "Avoid using alcohol or drugs to cope with distress",
+          "Consider discussing stress management strategies with a counselor"
         ]
       },
       {
@@ -135,12 +139,13 @@
         "max": 50,
         "level": "severe",
         "label": "Severe Psychological Distress",
-        "description": "Your score indicates severe psychological distress. It is strongly recommended that you seek professional help.",
+        "description": "Your score indicates severe psychological distress. It is strongly recommended that you seek professional help. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
         "suggestions": [
           "Please consult a mental health professional or your doctor as soon as possible",
           "If you are in crisis, contact a crisis helpline (e.g., 988 Suicide & Crisis Lifeline)",
           "Do not hesitate to reach out to trusted people in your life",
-          "Follow through with professional treatment recommendations"
+          "Follow through with professional treatment recommendations",
+          "Seek professional counseling support"
         ]
       }
     ],

@@ -77,11 +77,13 @@
         "max": 13,
         "level": "minimal",
         "label": "Low Distress",
-        "description": "Your score suggests low levels of psychological distress. You are likely functioning well.",
+        "description": "Your score suggests low levels of psychological distress. You are likely functioning well. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
         "suggestions": [
           "Continue maintaining healthy habits and coping strategies",
           "Stay connected with supportive people in your life",
-          "Practice regular self-care and stress prevention"
+          "Practice regular self-care and stress prevention",
+          "Continue using your effective stress management strategies",
+          "Regularly check in with yourself and engage in relaxation activities"
         ]
       },
       {
@@ -89,12 +91,13 @@
         "max": 18,
         "level": "moderate",
         "label": "Moderate Distress",
-        "description": "Your score indicates moderate psychological distress. You may benefit from additional support.",
+        "description": "Your score indicates moderate psychological distress. You may benefit from additional support. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
         "suggestions": [
           "Consider speaking with a healthcare professional about your emotional well-being",
           "Practice stress management techniques such as mindfulness or exercise",
           "Maintain regular sleep and daily routines",
-          "Reach out to trusted friends or family for support"
+          "Reach out to trusted friends or family for support",
+          "Consider discussing stress management strategies with a counselor"
         ]
       },
       {
@@ -102,12 +105,13 @@
         "max": 30,
         "level": "severe",
         "label": "Severe Distress",
-        "description": "Your score indicates severe psychological distress, which may suggest serious mental illness. Professional evaluation is strongly recommended.",
+        "description": "Your score indicates severe psychological distress, which may suggest serious mental illness. Professional evaluation is strongly recommended. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
         "suggestions": [
           "Please seek help from a mental health professional as soon as possible",
           "If you are in crisis, contact a crisis helpline (e.g., 988 Suicide & Crisis Lifeline)",
           "Talk to someone you trust about how you are feeling",
-          "Follow through with professional treatment and support"
+          "Follow through with professional treatment and support",
+          "Seek professional counseling support"
         ]
       }
     ],

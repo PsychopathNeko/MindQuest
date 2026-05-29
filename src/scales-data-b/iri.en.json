@@ -255,10 +255,13 @@
         "max": 37,
         "level": "minimal",
         "label": "Low Empathy",
-        "description": "Your overall empathy score is below average.",
+        "description": "Your overall empathy score is below average. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Practice active listening",
-          "Try to consider others' perspectives"
+          "Try to consider others' perspectives",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -266,10 +269,13 @@
         "max": 74,
         "level": "mild",
         "label": "Moderate Empathy",
-        "description": "Your empathy score is in the typical range.",
+        "description": "Your empathy score is in the typical range. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Continue developing empathic skills",
-          "Attend to cognitive and emotional empathy"
+          "Attend to cognitive and emotional empathy",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques",
+          "Stay in communication with people you trust"
         ]
       },
       {
@@ -277,10 +283,13 @@
         "max": 112,
         "level": "normal",
         "label": "High Empathy",
-        "description": "Your empathy score is above average.",
+        "description": "Your empathy score is above average. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Be mindful of emotional boundaries",
-          "Channel empathy into prosocial actions"
+          "Channel empathy into prosocial actions",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       }
     ],
@@ -291,21 +300,40 @@
           "max": 9,
           "level": "normal",
           "label": "Low",
-          "description": "Challenging to adopt others' viewpoints."
+          "description": "Challenging to adopt others' viewpoints. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 10,
           "max": 19,
           "level": "mild",
           "label": "Moderate",
-          "description": "Reasonable perspective-taking ability."
+          "description": "Reasonable perspective-taking ability. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 20,
           "max": 28,
           "level": "minimal",
           "label": "High",
-          "description": "Skilled at understanding others' views."
+          "description": "Skilled at understanding others' views. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "fantasy": [
@@ -314,21 +342,40 @@
           "max": 9,
           "level": "normal",
           "label": "Low",
-          "description": "Rarely immerse in fictional scenarios."
+          "description": "Rarely immerse in fictional scenarios. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 10,
           "max": 19,
           "level": "mild",
           "label": "Moderate",
-          "description": "Sometimes identify with fictional characters."
+          "description": "Sometimes identify with fictional characters. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 20,
           "max": 28,
           "level": "minimal",
           "label": "High",
-          "description": "Readily transpose into fictional situations."
+          "description": "Readily transpose into fictional situations. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "empathic_concern": [
@@ -337,21 +384,40 @@
           "max": 9,
           "level": "normal",
           "label": "Low",
-          "description": "Less sympathy for others in distress."
+          "description": "Less sympathy for others in distress. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 10,
           "max": 19,
           "level": "mild",
           "label": "Moderate",
-          "description": "Typical sympathy and concern."
+          "description": "Typical sympathy and concern. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+          "suggestions": [
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
+          ]
         },
         {
           "min": 20,
           "max": 28,
           "level": "minimal",
           "label": "High",
-          "description": "Strong compassion for others."
+          "description": "Strong compassion for others. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "personal_distress": [
@@ -360,21 +426,42 @@
           "max": 9,
           "level": "minimal",
           "label": "Low",
-          "description": "Remain calm in emotional situations."
+          "description": "Remain calm in emotional situations. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 10,
           "max": 19,
           "level": "mild",
           "label": "Moderate",
-          "description": "Some discomfort in tense situations."
+          "description": "Some discomfort in tense situations. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
+          "suggestions": [
+            "Identify your main sources of stress and try to address them gradually",
+            "Learn time management and prioritization skills",
+            "Set aside 15-30 minutes daily for relaxation activities",
+            "Maintain moderate exercise and healthy eating habits",
+            "Practice saying no and setting reasonable boundaries"
+          ]
         },
         {
           "min": 20,
           "max": 28,
           "level": "severe",
           "label": "High",
-          "description": "Significant anxiety in emotional situations."
+          "description": "Significant anxiety in emotional situations. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ]
     }

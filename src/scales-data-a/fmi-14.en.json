@@ -117,12 +117,13 @@
         "max": 25,
         "level": "severe",
         "label": "Low Mindfulness",
-        "description": "Your mindfulness level is low. You may often find yourself on autopilot, reacting impulsively to situations rather than responding with awareness.",
+        "description": "Your mindfulness level is low. You may often find yourself on autopilot, reacting impulsively to situations rather than responding with awareness. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Begin with short daily mindfulness exercises, such as 5 minutes of focused breathing",
           "Practice bringing attention to routine activities like eating or walking",
           "Consider joining a beginner mindfulness or meditation class",
-          "Try using a guided meditation app to build a regular practice"
+          "Try using a guided meditation app to build a regular practice",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       },
       {
@@ -135,7 +136,8 @@
           "Increase the duration and consistency of your mindfulness practice",
           "Practice observing your thoughts and emotions without judgment throughout the day",
           "Try body scan exercises to deepen body awareness",
-          "Explore mindful communication in your relationships"
+          "Explore mindful communication in your relationships",
+          "Consider consulting a mental health professional"
         ]
       },
       {
@@ -148,7 +150,8 @@
           "Continue your mindfulness practice to maintain and deepen your skills",
           "Explore advanced practices such as loving-kindness or insight meditation",
           "Consider how your mindfulness can benefit others around you",
-          "Challenge yourself with mindfulness in more difficult situations"
+          "Challenge yourself with mindfulness in more difficult situations",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -161,7 +164,8 @@
           "Maintain your strong mindfulness practice",
           "Consider sharing your experience through teaching or mentoring others",
           "Continue deepening your practice through retreats or advanced study",
-          "Use your mindfulness skills to support your overall wellbeing and relationships"
+          "Use your mindfulness skills to support your overall wellbeing and relationships",
+          "Continue maintaining a healthy lifestyle and mental well-being"
         ]
       }
     ],

@@ -104,11 +104,13 @@
         "max": 7,
         "level": "minimal",
         "label": "No Concern",
-        "description": "Your responses do not indicate significant eating disorder concerns. Your relationship with food and body image appears to be within a healthy range.",
+        "description": "Your responses do not indicate significant eating disorder concerns. Your relationship with food and body image appears to be within a healthy range. This indicates that your eating attitudes and behaviors are within a healthy range, and your relationship with food is generally positive.",
         "suggestions": [
           "Continue maintaining a healthy and balanced relationship with food",
           "Practice body appreciation and gratitude for what your body can do",
-          "Be mindful of societal pressures regarding body image"
+          "Be mindful of societal pressures regarding body image",
+          "Continue maintaining healthy and balanced eating habits",
+          "Enjoy the pleasure and nutrition that food provides"
         ]
       },
       {
@@ -121,7 +123,8 @@
           "Reflect on your attitudes toward food and your body",
           "Avoid restrictive dieting and focus on balanced nutrition",
           "Practice self-compassion regarding body image",
-          "Consider speaking with a healthcare professional if concerns persist"
+          "Consider speaking with a healthcare professional if concerns persist",
+          "Practice mindful eating, paying attention to physical sensations while eating"
         ]
       },
       {
@@ -134,7 +137,8 @@
           "Consider seeking a professional evaluation for eating concerns",
           "Speak with a healthcare provider about your eating patterns",
           "Look into evidence-based treatments for eating difficulties",
-          "Remember that eating disorders are treatable and recovery is possible"
+          "Remember that eating disorders are treatable and recovery is possible",
+          "Consider consulting a nutritionist or counselor"
         ]
       },
       {

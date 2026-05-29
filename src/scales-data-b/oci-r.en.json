@@ -198,10 +198,13 @@
         "max": 20,
         "level": "minimal",
         "label": "Non-Clinical Range",
-        "description": "Your score is within the non-clinical range.",
+        "description": "Your score is within the non-clinical range. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining healthy routines",
-          "Practice mindfulness"
+          "Practice mindfulness",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching",
+          "Keep up a regular exercise routine"
         ]
       },
       {
@@ -209,12 +212,13 @@
         "max": 30,
         "level": "mild",
         "label": "Mild OCD Symptoms",
-        "description": "Your score suggests mild OCD symptoms. Clinical cutoff is around 21.",
+        "description": "Your score suggests mild OCD symptoms. Clinical cutoff is around 21. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
         "suggestions": [
           "Monitor symptoms",
           "Learn about OCD",
           "Practice response prevention",
-          "Consider consulting a professional"
+          "Consider consulting a professional",
+          "Learn and practice progressive muscle relaxation"
         ]
       },
       {
@@ -222,12 +226,13 @@
         "max": 40,
         "level": "moderate",
         "label": "Moderate OCD Symptoms",
-        "description": "Moderate OCD symptoms causing distress.",
+        "description": "Moderate OCD symptoms causing distress. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Seek professional assessment",
           "ERP is gold standard treatment",
           "Avoid reassurance-seeking",
-          "Consider medication"
+          "Consider medication",
+          "Consider consulting a counselor or psychiatrist"
         ]
       },
       {
@@ -235,7 +240,7 @@
         "max": 72,
         "level": "severe",
         "label": "Severe OCD Symptoms",
-        "description": "Severe OCD symptoms impairing daily functioning.",
+        "description": "Severe OCD symptoms impairing daily functioning. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Seek specialized treatment",
           "ERP therapy most effective",
@@ -252,21 +257,42 @@
           "max": 4,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal hoarding."
+          "description": "Minimal hoarding. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 5,
           "max": 8,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate hoarding."
+          "description": "Moderate hoarding. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
+          "suggestions": [
+            "Learn and practice progressive muscle relaxation",
+            "Try 5-10 minutes of mindfulness meditation daily",
+            "Reduce caffeine and stimulant intake",
+            "Record situations that trigger anxiety and try to analyze them rationally",
+            "Exercise regularly, at least three times a week"
+          ]
         },
         {
           "min": 9,
           "max": 12,
           "level": "severe",
           "label": "High",
-          "description": "Significant hoarding."
+          "description": "Significant hoarding. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         }
       ],
       "checking": [
@@ -275,21 +301,42 @@
           "max": 4,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal checking."
+          "description": "Minimal checking. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 5,
           "max": 8,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate checking."
+          "description": "Moderate checking. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
+          "suggestions": [
+            "Learn and practice progressive muscle relaxation",
+            "Try 5-10 minutes of mindfulness meditation daily",
+            "Reduce caffeine and stimulant intake",
+            "Record situations that trigger anxiety and try to analyze them rationally",
+            "Exercise regularly, at least three times a week"
+          ]
         },
         {
           "min": 9,
           "max": 12,
           "level": "severe",
           "label": "High",
-          "description": "Significant checking."
+          "description": "Significant checking. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         }
       ],
       "ordering": [
@@ -298,21 +345,42 @@
           "max": 4,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal ordering need."
+          "description": "Minimal ordering need. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 5,
           "max": 8,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate ordering need."
+          "description": "Moderate ordering need. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
+          "suggestions": [
+            "Learn and practice progressive muscle relaxation",
+            "Try 5-10 minutes of mindfulness meditation daily",
+            "Reduce caffeine and stimulant intake",
+            "Record situations that trigger anxiety and try to analyze them rationally",
+            "Exercise regularly, at least three times a week"
+          ]
         },
         {
           "min": 9,
           "max": 12,
           "level": "severe",
           "label": "High",
-          "description": "Strong ordering need."
+          "description": "Strong ordering need. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         }
       ],
       "neutralizing": [
@@ -321,21 +389,42 @@
           "max": 4,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal neutralizing."
+          "description": "Minimal neutralizing. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 5,
           "max": 8,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate neutralizing."
+          "description": "Moderate neutralizing. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
+          "suggestions": [
+            "Learn and practice progressive muscle relaxation",
+            "Try 5-10 minutes of mindfulness meditation daily",
+            "Reduce caffeine and stimulant intake",
+            "Record situations that trigger anxiety and try to analyze them rationally",
+            "Exercise regularly, at least three times a week"
+          ]
         },
         {
           "min": 9,
           "max": 12,
           "level": "severe",
           "label": "High",
-          "description": "Significant neutralizing."
+          "description": "Significant neutralizing. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         }
       ],
       "washing": [
@@ -344,21 +433,42 @@
           "max": 4,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal washing."
+          "description": "Minimal washing. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 5,
           "max": 8,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate washing."
+          "description": "Moderate washing. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
+          "suggestions": [
+            "Learn and practice progressive muscle relaxation",
+            "Try 5-10 minutes of mindfulness meditation daily",
+            "Reduce caffeine and stimulant intake",
+            "Record situations that trigger anxiety and try to analyze them rationally",
+            "Exercise regularly, at least three times a week"
+          ]
         },
         {
           "min": 9,
           "max": 12,
           "level": "severe",
           "label": "High",
-          "description": "Significant washing."
+          "description": "Significant washing. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         }
       ],
       "obsessing": [
@@ -367,21 +477,42 @@
           "max": 4,
           "level": "minimal",
           "label": "Low",
-          "description": "Minimal obsessing."
+          "description": "Minimal obsessing. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 5,
           "max": 8,
           "level": "mild",
           "label": "Moderate",
-          "description": "Moderate obsessing."
+          "description": "Moderate obsessing. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
+          "suggestions": [
+            "Learn and practice progressive muscle relaxation",
+            "Try 5-10 minutes of mindfulness meditation daily",
+            "Reduce caffeine and stimulant intake",
+            "Record situations that trigger anxiety and try to analyze them rationally",
+            "Exercise regularly, at least three times a week"
+          ]
         },
         {
           "min": 9,
           "max": 12,
           "level": "severe",
           "label": "High",
-          "description": "Significant obsessing."
+          "description": "Significant obsessing. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         }
       ]
     }

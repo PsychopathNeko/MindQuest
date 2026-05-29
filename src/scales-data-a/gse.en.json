@@ -98,7 +98,8 @@
           "Start with small goals and gradually build up successful experiences",
           "Reflect on past experiences where you successfully overcame difficulties",
           "Learn from people around you who handle challenges well",
-          "Consider seeking help from a counselor if you persistently feel unable to cope"
+          "Consider seeking help from a counselor if you persistently feel unable to cope",
+          "Keep up the habits and activities that bring you happiness"
         ]
       },
       {
@@ -106,12 +107,13 @@
         "max": 30,
         "level": "mild",
         "label": "Moderate Self-Efficacy",
-        "description": "Your self-efficacy is at a moderate level. You have reasonable confidence in most situations but may waver when facing significant challenges.",
+        "description": "Your self-efficacy is at a moderate level. You have reasonable confidence in most situations but may waver when facing significant challenges. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
         "suggestions": [
           "Continue to challenge yourself and expand your comfort zone",
           "Track and acknowledge your achievements and progress",
           "Learn effective problem-solving and stress management strategies",
-          "Cultivate positive self-talk habits"
+          "Cultivate positive self-talk habits",
+          "Increase the frequency of positive social activities"
         ]
       },
       {
@@ -124,7 +126,8 @@
           "Continue maintaining your positive mindset and coping strategies",
           "Share your experience and confidence with others",
           "Set higher goals to continue growing",
-          "Maintain a healthy balance between confidence and humility"
+          "Maintain a healthy balance between confidence and humility",
+          "Try doing one fulfilling activity each day"
         ]
       }
     ],

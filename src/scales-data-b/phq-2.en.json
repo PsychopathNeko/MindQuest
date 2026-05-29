@@ -53,11 +53,13 @@
         "max": 2,
         "level": "normal",
         "label": "Normal",
-        "description": "Your score is within the normal range. No significant depressive symptoms detected by this brief screen.",
+        "description": "Your score is within the normal range. No significant depressive symptoms detected by this brief screen. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Continue maintaining a healthy lifestyle",
           "Keep up regular exercise and social activities",
-          "Occasional mood fluctuations are normal"
+          "Occasional mood fluctuations are normal",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy"
         ]
       },
       {
@@ -65,12 +67,13 @@
         "max": 6,
         "level": "moderate",
         "label": "Possible Depression",
-        "description": "Your score suggests possible depression. This brief screening indicates that further evaluation is recommended.",
+        "description": "Your score suggests possible depression. This brief screening indicates that further evaluation is recommended. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
         "suggestions": [
           "Consider completing the full PHQ-9 for a more detailed assessment",
           "Consult a healthcare professional for a comprehensive evaluation",
           "Pay attention to changes in your mood, sleep, and appetite",
-          "Maintain social connections and engage in activities you enjoy"
+          "Maintain social connections and engage in activities you enjoy",
+          "Consider consulting a mental health counselor for professional guidance"
         ]
       }
     ],

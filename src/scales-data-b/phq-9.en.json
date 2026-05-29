@@ -88,11 +88,13 @@
         "max": 4,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your depression score is within the normal range. No significant depressive symptoms detected.",
+        "description": "Your depression score is within the normal range. No significant depressive symptoms detected. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Continue maintaining a healthy lifestyle",
           "Keep up regular exercise and social activities",
-          "Occasional mood fluctuations are normal; allow yourself time to relax"
+          "Occasional mood fluctuations are normal; allow yourself time to relax",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy"
         ]
       },
       {
@@ -100,12 +102,13 @@
         "max": 9,
         "level": "mild",
         "label": "Mild Depression",
-        "description": "You may be experiencing some mild depressive symptoms that may slightly affect daily life.",
+        "description": "You may be experiencing some mild depressive symptoms that may slightly affect daily life. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
         "suggestions": [
           "Practice self-care and maintain a regular sleep schedule and exercise routine",
           "Try talking to a trusted friend or family member",
           "Learn some relaxation and stress-reduction techniques",
-          "If symptoms persist, consider consulting a professional"
+          "If symptoms persist, consider consulting a professional",
+          "Try 30 minutes of aerobic exercise daily, such as walking or cycling"
         ]
       },
       {
@@ -113,7 +116,7 @@
         "max": 14,
         "level": "moderate",
         "label": "Moderate Depression",
-        "description": "Your depressive symptoms are at a moderate level and may affect work, social life, and daily activities.",
+        "description": "Your depressive symptoms are at a moderate level and may affect work, social life, and daily activities. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
         "suggestions": [
           "Consider consulting a counselor or psychiatrist soon",
           "Maintain a regular daily routine",
@@ -127,12 +130,13 @@
         "max": 19,
         "level": "severe",
         "label": "Moderately Severe Depression",
-        "description": "Your depressive symptoms are quite severe. Daily functioning may be significantly affected. Please seek professional help.",
+        "description": "Your depressive symptoms are quite severe. Daily functioning may be significantly affected. Please seek professional help. Your score suggests notable emotional distress that may be significantly affecting your quality of life. Reaching out to a mental health professional is recommended.",
         "suggestions": [
           "Strongly recommended to seek medical attention from a psychiatrist",
           "Medication combined with psychotherapy may be needed",
           "Ensure you have a trusted support person nearby",
-          "Avoid being alone; stay connected with others"
+          "Avoid being alone; stay connected with others",
+          "Schedule an appointment with a mental health professional as soon as possible"
         ]
       },
       {
@@ -140,12 +144,13 @@
         "max": 27,
         "level": "severe",
         "label": "Severe Depression",
-        "description": "Your depressive symptoms are very severe and may seriously affect daily functioning and quality of life. Please seek immediate professional help.",
+        "description": "Your depressive symptoms are very severe and may seriously affect daily functioning and quality of life. Please seek immediate professional help. Your score suggests notable emotional distress that may be significantly affecting your quality of life. Reaching out to a mental health professional is recommended.",
         "suggestions": [
           "Please contact a psychiatrist or visit a hospital immediately",
           "If you have thoughts of self-harm or suicide, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
           "Do not stay alone; inform family or friends of your situation",
-          "Follow professional treatment plans and take medications as prescribed"
+          "Follow professional treatment plans and take medications as prescribed",
+          "Schedule an appointment with a mental health professional as soon as possible"
         ]
       }
     ],

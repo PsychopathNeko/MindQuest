@@ -95,11 +95,13 @@
         "max": 24,
         "level": "severe",
         "label": "Low Flourishing",
-        "description": "Your psychological flourishing is low.",
+        "description": "Your psychological flourishing is low. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Set small achievable goals",
           "Cultivate supportive relationships",
-          "Consider consulting a mental health professional"
+          "Consider consulting a mental health professional",
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others"
         ]
       },
       {
@@ -107,10 +109,13 @@
         "max": 40,
         "level": "moderate",
         "label": "Moderate Flourishing",
-        "description": "Your flourishing is moderate with room for improvement.",
+        "description": "Your flourishing is moderate with room for improvement. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Reflect on areas for enhancement",
-          "Practice gratitude and optimistic thinking"
+          "Practice gratitude and optimistic thinking",
+          "Continue maintaining your positive lifestyle",
+          "Share your experiences and positive feelings with others",
+          "Helping others is also an effective way to enhance well-being"
         ]
       },
       {
@@ -118,10 +123,13 @@
         "max": 56,
         "level": "minimal",
         "label": "High Flourishing",
-        "description": "Your psychological flourishing is high.",
+        "description": "Your psychological flourishing is high. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Continue your positive lifestyle",
-          "Share positive experiences with others"
+          "Share positive experiences with others",
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging",
+          "Explore new interests and activities"
         ]
       }
     ],

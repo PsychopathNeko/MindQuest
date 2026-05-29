@@ -256,11 +256,13 @@
         "max": 8,
         "level": "normal",
         "label": "Normal",
-        "description": "Your score is within the normal range. No significant depressive symptoms detected.",
+        "description": "Your score is within the normal range. No significant depressive symptoms detected. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Continue taking care of yourself and your baby",
           "Maintain social connections and support networks",
-          "Rest when possible and accept help from others"
+          "Rest when possible and accept help from others",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy"
         ]
       },
       {
@@ -268,12 +270,13 @@
         "max": 11,
         "level": "mild",
         "label": "Possible Depression",
-        "description": "Your score suggests possible depression. Monitoring and further evaluation may be beneficial.",
+        "description": "Your score suggests possible depression. Monitoring and further evaluation may be beneficial. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
         "suggestions": [
           "Talk to your healthcare provider about how you are feeling",
           "Reach out to family or friends for support",
           "Ensure you are getting adequate rest",
-          "Consider repeating this screening in 2-4 weeks"
+          "Consider repeating this screening in 2-4 weeks",
+          "Try 30 minutes of aerobic exercise daily, such as walking or cycling"
         ]
       },
       {
@@ -281,12 +284,13 @@
         "max": 13,
         "level": "moderate",
         "label": "Fairly High Possibility of Depression",
-        "description": "Your score indicates a fairly high possibility of depression. Professional evaluation is recommended.",
+        "description": "Your score indicates a fairly high possibility of depression. Professional evaluation is recommended. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
         "suggestions": [
           "Consult your healthcare provider or a mental health professional",
           "Postnatal depression is treatable and common; seeking help is a sign of strength",
           "Maintain daily routines as much as possible",
-          "Accept help with baby care to ensure you have time for self-care"
+          "Accept help with baby care to ensure you have time for self-care",
+          "Consider consulting a mental health counselor for professional guidance"
         ]
       },
       {
@@ -294,12 +298,13 @@
         "max": 30,
         "level": "severe",
         "label": "Probable Depression",
-        "description": "Your score suggests probable depression. Please seek professional help promptly.",
+        "description": "Your score suggests probable depression. Please seek professional help promptly. Your score suggests notable emotional distress that may be significantly affecting your quality of life. Reaching out to a mental health professional is recommended.",
         "suggestions": [
           "Seek professional help from your healthcare provider as soon as possible",
           "If you have thoughts of harming yourself or your baby, please call a crisis hotline immediately (e.g., 988 Suicide & Crisis Lifeline)",
           "Do not feel ashamed; postnatal depression is a medical condition, not a personal failing",
-          "Effective treatments including therapy and medication are available"
+          "Effective treatments including therapy and medication are available",
+          "Schedule an appointment with a mental health professional as soon as possible"
         ]
       }
     ],

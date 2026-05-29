@@ -120,10 +120,13 @@
         "max": 0,
         "level": "minimal",
         "label": "No Trauma Exposure",
-        "description": "You did not report experiencing any potentially traumatic events.",
+        "description": "You did not report experiencing any potentially traumatic events. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
         "suggestions": [
           "This is a good result",
-          "If you have other mental health concerns, professional help is still available"
+          "If you have other mental health concerns, professional help is still available",
+          "Continue maintaining your good psychological health",
+          "Stay emotionally connected with friends and family",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -131,11 +134,13 @@
         "max": 3,
         "level": "mild",
         "label": "Low Trauma Exposure",
-        "description": "You have experienced a small number of potentially traumatic events.",
+        "description": "You have experienced a small number of potentially traumatic events. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
         "suggestions": [
           "If these events still bother you, consider speaking with a professional",
           "Monitor your mental health",
-          "Practice healthy coping strategies"
+          "Practice healthy coping strategies",
+          "Allow yourself time and space to process your emotions",
+          "Share your feelings with someone you trust"
         ]
       },
       {
@@ -143,11 +148,13 @@
         "max": 8,
         "level": "moderate",
         "label": "Moderate Trauma Exposure",
-        "description": "You have experienced several potentially traumatic events.",
+        "description": "You have experienced several potentially traumatic events. At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
         "suggestions": [
           "Consider a further mental health assessment",
           "If you have PTSD symptoms, consult a professional",
-          "Consider completing the PCL-5 to assess PTSD symptoms"
+          "Consider completing the PCL-5 to assess PTSD symptoms",
+          "Consider consulting a professional trained in trauma therapy",
+          "Trauma-Focused CBT (TF-CBT) or EMDR may be helpful"
         ]
       },
       {
@@ -155,11 +162,13 @@
         "max": 17,
         "level": "severe",
         "label": "High Trauma Exposure",
-        "description": "You have experienced many potentially traumatic events. A detailed mental health evaluation is recommended.",
+        "description": "You have experienced many potentially traumatic events. A detailed mental health evaluation is recommended. Your trauma-related reactions are quite pronounced and may be significantly impacting your functioning. Professional trauma-focused support is recommended.",
         "suggestions": [
           "A comprehensive mental health assessment is strongly recommended",
           "Connect with a trauma-specialized therapist",
-          "If needed, contact a crisis helpline (e.g., 988 Suicide & Crisis Lifeline)"
+          "If needed, contact a crisis helpline (e.g., 988 Suicide & Crisis Lifeline)",
+          "Contact a trauma therapy specialist as soon as possible",
+          "Process traumatic memories in a safe environment"
         ]
       }
     ],

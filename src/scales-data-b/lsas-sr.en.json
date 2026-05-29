@@ -163,10 +163,13 @@
         "max": 29,
         "level": "minimal",
         "label": "No Social Anxiety",
-        "description": "Your score suggests no significant social anxiety. You are generally comfortable in social situations.",
+        "description": "Your score suggests no significant social anxiety. You are generally comfortable in social situations. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining your social confidence",
-          "Keep engaging in social activities that you enjoy"
+          "Keep engaging in social activities that you enjoy",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching",
+          "Keep up a regular exercise routine"
         ]
       },
       {
@@ -174,12 +177,13 @@
         "max": 49,
         "level": "mild",
         "label": "Moderate Social Anxiety",
-        "description": "Your score indicates moderate social anxiety. You may experience noticeable discomfort in certain social situations.",
+        "description": "Your score indicates moderate social anxiety. You may experience noticeable discomfort in certain social situations. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
         "suggestions": [
           "Practice gradual exposure to feared social situations",
           "Learn relaxation techniques such as deep breathing",
           "Consider joining a social skills training group",
-          "Challenge negative thoughts about social evaluation"
+          "Challenge negative thoughts about social evaluation",
+          "Learn and practice progressive muscle relaxation"
         ]
       },
       {
@@ -187,12 +191,13 @@
         "max": 64,
         "level": "moderate",
         "label": "Marked Social Anxiety",
-        "description": "Your score indicates marked social anxiety. Social situations likely cause you significant distress and may interfere with daily functioning.",
+        "description": "Your score indicates marked social anxiety. Social situations likely cause you significant distress and may interfere with daily functioning. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Consider seeking professional help from a therapist experienced in social anxiety",
           "Cognitive-behavioral therapy (CBT) has strong evidence for social anxiety",
           "Practice systematic desensitization with a professional",
-          "Build a support network of understanding friends or family"
+          "Build a support network of understanding friends or family",
+          "Consider consulting a counselor or psychiatrist"
         ]
       },
       {
@@ -200,7 +205,7 @@
         "max": 72,
         "level": "severe",
         "label": "Severe Social Anxiety",
-        "description": "Your score indicates severe social anxiety. Social situations are extremely distressing and likely significantly impair your daily life.",
+        "description": "Your score indicates severe social anxiety. Social situations are extremely distressing and likely significantly impair your daily life. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional treatment",
           "A combination of therapy and medication may be most effective",

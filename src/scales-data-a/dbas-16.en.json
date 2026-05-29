@@ -152,11 +152,13 @@
         "max": 40,
         "level": "minimal",
         "label": "Low Dysfunctional Beliefs",
-        "description": "Your score indicates few dysfunctional beliefs and attitudes about sleep. You generally have realistic expectations and attitudes regarding sleep.",
+        "description": "Your score indicates few dysfunctional beliefs and attitudes about sleep. You generally have realistic expectations and attitudes regarding sleep. This indicates that your sleep quality and patterns are in good condition, allowing you to get adequate rest.",
         "suggestions": [
           "Continue maintaining healthy and realistic attitudes about sleep",
           "Keep practicing good sleep hygiene habits",
-          "Stay informed about evidence-based strategies for good sleep"
+          "Stay informed about evidence-based strategies for good sleep",
+          "Continue maintaining your good sleep habits",
+          "Keep a consistent sleep schedule"
         ]
       },
       {
@@ -169,7 +171,8 @@
           "Learn about the normal variability of sleep and sleep needs",
           "Challenge beliefs that one poor night of sleep will ruin the next day",
           "Avoid excessive monitoring of your sleep patterns",
-          "Consider reading about cognitive behavioral approaches to sleep"
+          "Consider reading about cognitive behavioral approaches to sleep",
+          "Establish fixed bedtime and wake-up times"
         ]
       },
       {

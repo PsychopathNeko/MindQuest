@@ -55,11 +55,13 @@
         "max": 1,
         "level": "minimal",
         "label": "Screen Negative",
-        "description": "Your responses do not suggest a substance use problem. A score below 2 is considered a negative screen.",
+        "description": "Your responses do not suggest a substance use problem. A score below 2 is considered a negative screen. This indicates that your current substance-use-related risk is low and within a healthy range.",
         "suggestions": [
           "Continue maintaining healthy habits regarding alcohol and drug use",
           "Stay informed about the risks of substance misuse",
-          "Be mindful of any changes in your substance use patterns"
+          "Be mindful of any changes in your substance use patterns",
+          "Continue maintaining a healthy lifestyle",
+          "Stay informed about risks related to substance use"
         ]
       },
       {

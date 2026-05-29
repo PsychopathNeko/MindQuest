@@ -1617,9 +1617,12 @@
         "max": 3,
         "level": "normal",
         "label": "Low Risk",
-        "description": "Overall substance use risk is low.",
+        "description": "Overall substance use risk is low. This indicates that your current substance-use-related risk is low and within a healthy range.",
         "suggestions": [
-          "Continue maintaining a healthy lifestyle"
+          "Continue maintaining a healthy lifestyle",
+          "Stay informed about risks related to substance use",
+          "Maintain the ability to make autonomous choices in social situations",
+          "Develop healthy ways to cope with stress"
         ]
       },
       {
@@ -1627,10 +1630,13 @@
         "max": 26,
         "level": "moderate",
         "label": "Moderate Risk",
-        "description": "Moderate substance use risk detected.",
+        "description": "Moderate substance use risk detected. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
         "suggestions": [
           "Consider reducing substance use",
-          "Learn about health effects of substance use"
+          "Learn about health effects of substance use",
+          "Consider consulting an addiction medicine professional",
+          "Evaluate your motivations for use and explore alternatives",
+          "Attend educational programs or support groups"
         ]
       },
       {
@@ -1638,10 +1644,13 @@
         "max": 39,
         "level": "severe",
         "label": "High Risk",
-        "description": "High substance use risk, possible dependence.",
+        "description": "High substance use risk, possible dependence. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
         "suggestions": [
           "Professional help is strongly recommended",
-          "Consult a doctor or mental health professional"
+          "Consult a doctor or mental health professional",
+          "Seek professional addiction treatment as soon as possible",
+          "Consider participating in cessation or harm-reduction programs",
+          "Ensure you have a safe and supportive environment"
         ]
       }
     ],
@@ -1652,21 +1661,41 @@
           "max": 3,
           "level": "normal",
           "label": "Low Risk",
-          "description": "Your Tobacco Products use is at a low risk level."
+          "description": "Your Tobacco Products use is at a low risk level. This indicates that your current substance-use-related risk is low and within a healthy range.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle",
+            "Stay informed about risks related to substance use",
+            "Maintain the ability to make autonomous choices in social situations",
+            "Develop healthy ways to cope with stress"
+          ]
         },
         {
           "min": 4,
           "max": 26,
           "level": "moderate",
           "label": "Moderate Risk",
-          "description": "Your Tobacco Products use poses moderate risk. Consider reducing or stopping use."
+          "description": "Your Tobacco Products use poses moderate risk. Consider reducing or stopping use. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
+          "suggestions": [
+            "Consider consulting an addiction medicine professional",
+            "Evaluate your motivations for use and explore alternatives",
+            "Attend educational programs or support groups",
+            "Seek support from family or friends",
+            "Build a healthy daily life structure"
+          ]
         },
         {
           "min": 27,
           "max": 39,
           "level": "severe",
           "label": "High Risk",
-          "description": "Your Tobacco Products use is at a high risk level. Professional help is strongly recommended."
+          "description": "Your Tobacco Products use is at a high risk level. Professional help is strongly recommended. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
+          "suggestions": [
+            "Seek professional addiction treatment as soon as possible",
+            "Consider participating in cessation or harm-reduction programs",
+            "Ensure you have a safe and supportive environment",
+            "Follow a professionally guided treatment plan",
+            "Join mutual support groups (such as AA or NA)"
+          ]
         }
       ],
       "alcohol": [
@@ -1675,21 +1704,41 @@
           "max": 10,
           "level": "normal",
           "label": "Low Risk",
-          "description": "Your alcohol use is at a low risk level."
+          "description": "Your alcohol use is at a low risk level. This indicates that your current substance-use-related risk is low and within a healthy range.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle",
+            "Stay informed about risks related to substance use",
+            "Maintain the ability to make autonomous choices in social situations",
+            "Develop healthy ways to cope with stress"
+          ]
         },
         {
           "min": 11,
           "max": 26,
           "level": "moderate",
           "label": "Moderate Risk",
-          "description": "Your alcohol use poses moderate risk. Consider reducing your intake."
+          "description": "Your alcohol use poses moderate risk. Consider reducing your intake. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
+          "suggestions": [
+            "Consider consulting an addiction medicine professional",
+            "Evaluate your motivations for use and explore alternatives",
+            "Attend educational programs or support groups",
+            "Seek support from family or friends",
+            "Build a healthy daily life structure"
+          ]
         },
         {
           "min": 27,
           "max": 39,
           "level": "severe",
           "label": "High Risk",
-          "description": "Your alcohol use is at a high risk level. Professional help is strongly recommended."
+          "description": "Your alcohol use is at a high risk level. Professional help is strongly recommended. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
+          "suggestions": [
+            "Seek professional addiction treatment as soon as possible",
+            "Consider participating in cessation or harm-reduction programs",
+            "Ensure you have a safe and supportive environment",
+            "Follow a professionally guided treatment plan",
+            "Join mutual support groups (such as AA or NA)"
+          ]
         }
       ],
       "cannabis": [
@@ -1698,21 +1747,41 @@
           "max": 3,
           "level": "normal",
           "label": "Low Risk",
-          "description": "Your Cannabis use is at a low risk level."
+          "description": "Your Cannabis use is at a low risk level. This indicates that your current substance-use-related risk is low and within a healthy range.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle",
+            "Stay informed about risks related to substance use",
+            "Maintain the ability to make autonomous choices in social situations",
+            "Develop healthy ways to cope with stress"
+          ]
         },
         {
           "min": 4,
           "max": 26,
           "level": "moderate",
           "label": "Moderate Risk",
-          "description": "Your Cannabis use poses moderate risk. Consider reducing or stopping use."
+          "description": "Your Cannabis use poses moderate risk. Consider reducing or stopping use. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
+          "suggestions": [
+            "Consider consulting an addiction medicine professional",
+            "Evaluate your motivations for use and explore alternatives",
+            "Attend educational programs or support groups",
+            "Seek support from family or friends",
+            "Build a healthy daily life structure"
+          ]
         },
         {
           "min": 27,
           "max": 39,
           "level": "severe",
           "label": "High Risk",
-          "description": "Your Cannabis use is at a high risk level. Professional help is strongly recommended."
+          "description": "Your Cannabis use is at a high risk level. Professional help is strongly recommended. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
+          "suggestions": [
+            "Seek professional addiction treatment as soon as possible",
+            "Consider participating in cessation or harm-reduction programs",
+            "Ensure you have a safe and supportive environment",
+            "Follow a professionally guided treatment plan",
+            "Join mutual support groups (such as AA or NA)"
+          ]
         }
       ],
       "cocaine": [
@@ -1721,21 +1790,41 @@
           "max": 3,
           "level": "normal",
           "label": "Low Risk",
-          "description": "Your Cocaine use is at a low risk level."
+          "description": "Your Cocaine use is at a low risk level. This indicates that your current substance-use-related risk is low and within a healthy range.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle",
+            "Stay informed about risks related to substance use",
+            "Maintain the ability to make autonomous choices in social situations",
+            "Develop healthy ways to cope with stress"
+          ]
         },
         {
           "min": 4,
           "max": 26,
           "level": "moderate",
           "label": "Moderate Risk",
-          "description": "Your Cocaine use poses moderate risk. Consider reducing or stopping use."
+          "description": "Your Cocaine use poses moderate risk. Consider reducing or stopping use. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
+          "suggestions": [
+            "Consider consulting an addiction medicine professional",
+            "Evaluate your motivations for use and explore alternatives",
+            "Attend educational programs or support groups",
+            "Seek support from family or friends",
+            "Build a healthy daily life structure"
+          ]
         },
         {
           "min": 27,
           "max": 39,
           "level": "severe",
           "label": "High Risk",
-          "description": "Your Cocaine use is at a high risk level. Professional help is strongly recommended."
+          "description": "Your Cocaine use is at a high risk level. Professional help is strongly recommended. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
+          "suggestions": [
+            "Seek professional addiction treatment as soon as possible",
+            "Consider participating in cessation or harm-reduction programs",
+            "Ensure you have a safe and supportive environment",
+            "Follow a professionally guided treatment plan",
+            "Join mutual support groups (such as AA or NA)"
+          ]
         }
       ],
       "amphetamine": [
@@ -1744,21 +1833,41 @@
           "max": 3,
           "level": "normal",
           "label": "Low Risk",
-          "description": "Your Amphetamine-Type Stimulants use is at a low risk level."
+          "description": "Your Amphetamine-Type Stimulants use is at a low risk level. This indicates that your current substance-use-related risk is low and within a healthy range.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle",
+            "Stay informed about risks related to substance use",
+            "Maintain the ability to make autonomous choices in social situations",
+            "Develop healthy ways to cope with stress"
+          ]
         },
         {
           "min": 4,
           "max": 26,
           "level": "moderate",
           "label": "Moderate Risk",
-          "description": "Your Amphetamine-Type Stimulants use poses moderate risk. Consider reducing or stopping use."
+          "description": "Your Amphetamine-Type Stimulants use poses moderate risk. Consider reducing or stopping use. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
+          "suggestions": [
+            "Consider consulting an addiction medicine professional",
+            "Evaluate your motivations for use and explore alternatives",
+            "Attend educational programs or support groups",
+            "Seek support from family or friends",
+            "Build a healthy daily life structure"
+          ]
         },
         {
           "min": 27,
           "max": 39,
           "level": "severe",
           "label": "High Risk",
-          "description": "Your Amphetamine-Type Stimulants use is at a high risk level. Professional help is strongly recommended."
+          "description": "Your Amphetamine-Type Stimulants use is at a high risk level. Professional help is strongly recommended. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
+          "suggestions": [
+            "Seek professional addiction treatment as soon as possible",
+            "Consider participating in cessation or harm-reduction programs",
+            "Ensure you have a safe and supportive environment",
+            "Follow a professionally guided treatment plan",
+            "Join mutual support groups (such as AA or NA)"
+          ]
         }
       ],
       "inhalants": [
@@ -1767,21 +1876,41 @@
           "max": 3,
           "level": "normal",
           "label": "Low Risk",
-          "description": "Your Inhalants use is at a low risk level."
+          "description": "Your Inhalants use is at a low risk level. This indicates that your current substance-use-related risk is low and within a healthy range.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle",
+            "Stay informed about risks related to substance use",
+            "Maintain the ability to make autonomous choices in social situations",
+            "Develop healthy ways to cope with stress"
+          ]
         },
         {
           "min": 4,
           "max": 26,
           "level": "moderate",
           "label": "Moderate Risk",
-          "description": "Your Inhalants use poses moderate risk. Consider reducing or stopping use."
+          "description": "Your Inhalants use poses moderate risk. Consider reducing or stopping use. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
+          "suggestions": [
+            "Consider consulting an addiction medicine professional",
+            "Evaluate your motivations for use and explore alternatives",
+            "Attend educational programs or support groups",
+            "Seek support from family or friends",
+            "Build a healthy daily life structure"
+          ]
         },
         {
           "min": 27,
           "max": 39,
           "level": "severe",
           "label": "High Risk",
-          "description": "Your Inhalants use is at a high risk level. Professional help is strongly recommended."
+          "description": "Your Inhalants use is at a high risk level. Professional help is strongly recommended. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
+          "suggestions": [
+            "Seek professional addiction treatment as soon as possible",
+            "Consider participating in cessation or harm-reduction programs",
+            "Ensure you have a safe and supportive environment",
+            "Follow a professionally guided treatment plan",
+            "Join mutual support groups (such as AA or NA)"
+          ]
         }
       ],
       "sedatives": [
@@ -1790,21 +1919,41 @@
           "max": 3,
           "level": "normal",
           "label": "Low Risk",
-          "description": "Your Sedatives or Sleeping Pills use is at a low risk level."
+          "description": "Your Sedatives or Sleeping Pills use is at a low risk level. This indicates that your current substance-use-related risk is low and within a healthy range.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle",
+            "Stay informed about risks related to substance use",
+            "Maintain the ability to make autonomous choices in social situations",
+            "Develop healthy ways to cope with stress"
+          ]
         },
         {
           "min": 4,
           "max": 26,
           "level": "moderate",
           "label": "Moderate Risk",
-          "description": "Your Sedatives or Sleeping Pills use poses moderate risk. Consider reducing or stopping use."
+          "description": "Your Sedatives or Sleeping Pills use poses moderate risk. Consider reducing or stopping use. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
+          "suggestions": [
+            "Consider consulting an addiction medicine professional",
+            "Evaluate your motivations for use and explore alternatives",
+            "Attend educational programs or support groups",
+            "Seek support from family or friends",
+            "Build a healthy daily life structure"
+          ]
         },
         {
           "min": 27,
           "max": 39,
           "level": "severe",
           "label": "High Risk",
-          "description": "Your Sedatives or Sleeping Pills use is at a high risk level. Professional help is strongly recommended."
+          "description": "Your Sedatives or Sleeping Pills use is at a high risk level. Professional help is strongly recommended. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
+          "suggestions": [
+            "Seek professional addiction treatment as soon as possible",
+            "Consider participating in cessation or harm-reduction programs",
+            "Ensure you have a safe and supportive environment",
+            "Follow a professionally guided treatment plan",
+            "Join mutual support groups (such as AA or NA)"
+          ]
         }
       ],
       "hallucinogens": [
@@ -1813,21 +1962,41 @@
           "max": 3,
           "level": "normal",
           "label": "Low Risk",
-          "description": "Your Hallucinogens use is at a low risk level."
+          "description": "Your Hallucinogens use is at a low risk level. This indicates that your current substance-use-related risk is low and within a healthy range.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle",
+            "Stay informed about risks related to substance use",
+            "Maintain the ability to make autonomous choices in social situations",
+            "Develop healthy ways to cope with stress"
+          ]
         },
         {
           "min": 4,
           "max": 26,
           "level": "moderate",
           "label": "Moderate Risk",
-          "description": "Your Hallucinogens use poses moderate risk. Consider reducing or stopping use."
+          "description": "Your Hallucinogens use poses moderate risk. Consider reducing or stopping use. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
+          "suggestions": [
+            "Consider consulting an addiction medicine professional",
+            "Evaluate your motivations for use and explore alternatives",
+            "Attend educational programs or support groups",
+            "Seek support from family or friends",
+            "Build a healthy daily life structure"
+          ]
         },
         {
           "min": 27,
           "max": 39,
           "level": "severe",
           "label": "High Risk",
-          "description": "Your Hallucinogens use is at a high risk level. Professional help is strongly recommended."
+          "description": "Your Hallucinogens use is at a high risk level. Professional help is strongly recommended. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
+          "suggestions": [
+            "Seek professional addiction treatment as soon as possible",
+            "Consider participating in cessation or harm-reduction programs",
+            "Ensure you have a safe and supportive environment",
+            "Follow a professionally guided treatment plan",
+            "Join mutual support groups (such as AA or NA)"
+          ]
         }
       ],
       "opioids": [
@@ -1836,21 +2005,41 @@
           "max": 3,
           "level": "normal",
           "label": "Low Risk",
-          "description": "Your Opioids use is at a low risk level."
+          "description": "Your Opioids use is at a low risk level. This indicates that your current substance-use-related risk is low and within a healthy range.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle",
+            "Stay informed about risks related to substance use",
+            "Maintain the ability to make autonomous choices in social situations",
+            "Develop healthy ways to cope with stress"
+          ]
         },
         {
           "min": 4,
           "max": 26,
           "level": "moderate",
           "label": "Moderate Risk",
-          "description": "Your Opioids use poses moderate risk. Consider reducing or stopping use."
+          "description": "Your Opioids use poses moderate risk. Consider reducing or stopping use. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
+          "suggestions": [
+            "Consider consulting an addiction medicine professional",
+            "Evaluate your motivations for use and explore alternatives",
+            "Attend educational programs or support groups",
+            "Seek support from family or friends",
+            "Build a healthy daily life structure"
+          ]
         },
         {
           "min": 27,
           "max": 39,
           "level": "severe",
           "label": "High Risk",
-          "description": "Your Opioids use is at a high risk level. Professional help is strongly recommended."
+          "description": "Your Opioids use is at a high risk level. Professional help is strongly recommended. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
+          "suggestions": [
+            "Seek professional addiction treatment as soon as possible",
+            "Consider participating in cessation or harm-reduction programs",
+            "Ensure you have a safe and supportive environment",
+            "Follow a professionally guided treatment plan",
+            "Join mutual support groups (such as AA or NA)"
+          ]
         }
       ],
       "other": [
@@ -1859,21 +2048,41 @@
           "max": 3,
           "level": "normal",
           "label": "Low Risk",
-          "description": "Your Other Substances use is at a low risk level."
+          "description": "Your Other Substances use is at a low risk level. This indicates that your current substance-use-related risk is low and within a healthy range.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle",
+            "Stay informed about risks related to substance use",
+            "Maintain the ability to make autonomous choices in social situations",
+            "Develop healthy ways to cope with stress"
+          ]
         },
         {
           "min": 4,
           "max": 26,
           "level": "moderate",
           "label": "Moderate Risk",
-          "description": "Your Other Substances use poses moderate risk. Consider reducing or stopping use."
+          "description": "Your Other Substances use poses moderate risk. Consider reducing or stopping use. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
+          "suggestions": [
+            "Consider consulting an addiction medicine professional",
+            "Evaluate your motivations for use and explore alternatives",
+            "Attend educational programs or support groups",
+            "Seek support from family or friends",
+            "Build a healthy daily life structure"
+          ]
         },
         {
           "min": 27,
           "max": 39,
           "level": "severe",
           "label": "High Risk",
-          "description": "Your Other Substances use is at a high risk level. Professional help is strongly recommended."
+          "description": "Your Other Substances use is at a high risk level. Professional help is strongly recommended. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
+          "suggestions": [
+            "Seek professional addiction treatment as soon as possible",
+            "Consider participating in cessation or harm-reduction programs",
+            "Ensure you have a safe and supportive environment",
+            "Follow a professionally guided treatment plan",
+            "Join mutual support groups (such as AA or NA)"
+          ]
         }
       ]
     }

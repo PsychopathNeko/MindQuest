@@ -377,10 +377,13 @@
         "max": 14,
         "level": "normal",
         "label": "Normal",
-        "description": "Your combined anxiety and depression scores are within the normal range.",
+        "description": "Your combined anxiety and depression scores are within the normal range. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Continue maintaining good mental health",
-          "Keep up healthy habits and coping strategies"
+          "Keep up healthy habits and coping strategies",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy",
+          "Practice gratitude by noting positive moments in your life"
         ]
       },
       {
@@ -388,10 +391,13 @@
         "max": 21,
         "level": "borderline",
         "label": "Borderline",
-        "description": "Your combined score suggests some level of emotional distress that may warrant monitoring.",
+        "description": "Your combined score suggests some level of emotional distress that may warrant monitoring. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
         "suggestions": [
           "Review the individual subscale scores for anxiety and depression",
-          "Consider consulting a healthcare provider if symptoms persist"
+          "Consider consulting a healthcare provider if symptoms persist",
+          "Try 30 minutes of aerobic exercise daily, such as walking or cycling",
+          "Maintain a regular sleep schedule and avoid staying up late",
+          "Practice mindfulness meditation or deep breathing exercises"
         ]
       },
       {
@@ -399,10 +405,13 @@
         "max": 42,
         "level": "abnormal",
         "label": "Abnormal",
-        "description": "Your combined score indicates significant emotional distress. Professional evaluation is recommended.",
+        "description": "Your combined score indicates significant emotional distress. Professional evaluation is recommended. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Seek professional help from a healthcare provider",
-          "Review subscale scores to identify whether anxiety, depression, or both are elevated"
+          "Review subscale scores to identify whether anxiety, depression, or both are elevated",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy",
+          "Practice gratitude by noting positive moments in your life"
         ]
       }
     ],
@@ -413,21 +422,42 @@
           "max": 7,
           "level": "normal",
           "label": "Normal",
-          "description": "Anxiety subscale score is within the normal range."
+          "description": "Anxiety subscale score is within the normal range. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "borderline",
           "label": "Borderline Abnormal",
-          "description": "Borderline anxiety level. Monitoring is recommended."
+          "description": "Borderline anxiety level. Monitoring is recommended. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
+          "suggestions": [
+            "Learn and practice progressive muscle relaxation",
+            "Try 5-10 minutes of mindfulness meditation daily",
+            "Reduce caffeine and stimulant intake",
+            "Record situations that trigger anxiety and try to analyze them rationally",
+            "Exercise regularly, at least three times a week"
+          ]
         },
         {
           "min": 11,
           "max": 21,
           "level": "abnormal",
           "label": "Abnormal",
-          "description": "Clinically significant anxiety symptoms. Professional evaluation is recommended."
+          "description": "Clinically significant anxiety symptoms. Professional evaluation is recommended. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         }
       ],
       "depression": [
@@ -436,21 +466,42 @@
           "max": 7,
           "level": "normal",
           "label": "Normal",
-          "description": "Depression subscale score is within the normal range."
+          "description": "Depression subscale score is within the normal range. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
+          "suggestions": [
+            "Maintain regular social activities and hobbies",
+            "Set aside time each day for activities you enjoy",
+            "Practice gratitude by noting positive moments in your life",
+            "Keep a consistent sleep schedule and exercise routine",
+            "Stay connected with friends and family"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "borderline",
           "label": "Borderline Abnormal",
-          "description": "Borderline depression level. Monitoring is recommended."
+          "description": "Borderline depression level. Monitoring is recommended. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
+          "suggestions": [
+            "Try 30 minutes of aerobic exercise daily, such as walking or cycling",
+            "Maintain a regular sleep schedule and avoid staying up late",
+            "Practice mindfulness meditation or deep breathing exercises",
+            "Stay in touch with trusted friends or family members",
+            "Reduce time spent alone and engage in social activities"
+          ]
         },
         {
           "min": 11,
           "max": 21,
           "level": "abnormal",
           "label": "Abnormal",
-          "description": "Clinically significant depressive symptoms. Professional evaluation is recommended."
+          "description": "Clinically significant depressive symptoms. Professional evaluation is recommended. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
+          "suggestions": [
+            "Maintain regular social activities and hobbies",
+            "Set aside time each day for activities you enjoy",
+            "Practice gratitude by noting positive moments in your life",
+            "Keep a consistent sleep schedule and exercise routine",
+            "Stay connected with friends and family"
+          ]
         }
       ]
     }

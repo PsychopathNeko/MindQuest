@@ -221,21 +221,40 @@
           "max": 4,
           "level": "minimal",
           "label": "Low",
-          "description": "You rarely use self-blame as a cognitive strategy."
+          "description": "You rarely use self-blame as a cognitive strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "You sometimes use self-blame, within the normal range."
+          "description": "You sometimes use self-blame, within the normal range. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "severe",
           "label": "High",
-          "description": "You frequently use self-blame, a maladaptive strategy that may affect mental health when overused."
+          "description": "You frequently use self-blame, a maladaptive strategy that may affect mental health when overused. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "acceptance": [
@@ -244,21 +263,40 @@
           "max": 4,
           "level": "severe",
           "label": "Low",
-          "description": "You rarely use acceptance strategies."
+          "description": "You rarely use acceptance strategies. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "You can moderately accept what has happened."
+          "description": "You can moderately accept what has happened. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "minimal",
           "label": "High",
-          "description": "You are good at accepting unchangeable facts, an adaptive strategy."
+          "description": "You are good at accepting unchangeable facts, an adaptive strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "rumination": [
@@ -267,21 +305,40 @@
           "max": 4,
           "level": "minimal",
           "label": "Low",
-          "description": "You rarely engage in ruminative thinking."
+          "description": "You rarely engage in ruminative thinking. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "You sometimes dwell on negative events."
+          "description": "You sometimes dwell on negative events. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "severe",
           "label": "High",
-          "description": "You frequently ruminate, associated with increased depression risk."
+          "description": "You frequently ruminate, associated with increased depression risk. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "positive_refocusing": [
@@ -290,21 +347,40 @@
           "max": 4,
           "level": "severe",
           "label": "Low",
-          "description": "You rarely redirect attention to positive things."
+          "description": "You rarely redirect attention to positive things. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "You sometimes redirect attention to positive things."
+          "description": "You sometimes redirect attention to positive things. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "minimal",
           "label": "High",
-          "description": "You are good at redirecting attention to pleasant things."
+          "description": "You are good at redirecting attention to pleasant things. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "positive_reappraisal": [
@@ -313,21 +389,40 @@
           "max": 4,
           "level": "severe",
           "label": "Low",
-          "description": "You rarely reappraise events positively."
+          "description": "You rarely reappraise events positively. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "You sometimes find positive meaning in negative events."
+          "description": "You sometimes find positive meaning in negative events. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "minimal",
           "label": "High",
-          "description": "You are skilled at finding positive meaning, one of the most protective strategies."
+          "description": "You are skilled at finding positive meaning, one of the most protective strategies. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "putting_into_perspective": [
@@ -336,21 +431,40 @@
           "max": 4,
           "level": "severe",
           "label": "Low",
-          "description": "You rarely put events into perspective."
+          "description": "You rarely put events into perspective. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "You sometimes view events in a broader context."
+          "description": "You sometimes view events in a broader context. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "minimal",
           "label": "High",
-          "description": "You are good at putting events into broader perspective."
+          "description": "You are good at putting events into broader perspective. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "catastrophizing": [
@@ -359,21 +473,40 @@
           "max": 4,
           "level": "minimal",
           "label": "Low",
-          "description": "You rarely catastrophize events."
+          "description": "You rarely catastrophize events. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "You sometimes exaggerate negative impacts."
+          "description": "You sometimes exaggerate negative impacts. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "severe",
           "label": "High",
-          "description": "You frequently catastrophize, closely linked to anxiety and depression."
+          "description": "You frequently catastrophize, closely linked to anxiety and depression. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ],
       "planning": [
@@ -382,21 +515,40 @@
           "max": 4,
           "level": "severe",
           "label": "Low",
-          "description": "You rarely think about how to improve situations."
+          "description": "You rarely think about how to improve situations. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "You sometimes make coping plans."
+          "description": "You sometimes make coping plans. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "minimal",
           "label": "High",
-          "description": "You are skilled at making plans to improve situations."
+          "description": "You are skilled at making plans to improve situations. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "other_blame": [
@@ -405,21 +557,40 @@
           "max": 4,
           "level": "minimal",
           "label": "Low",
-          "description": "You rarely blame others."
+          "description": "You rarely blame others. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 5,
           "max": 7,
           "level": "normal",
           "label": "Average",
-          "description": "You sometimes attribute events to others."
+          "description": "You sometimes attribute events to others. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         },
         {
           "min": 8,
           "max": 10,
           "level": "severe",
           "label": "High",
-          "description": "You frequently blame others, a maladaptive strategy."
+          "description": "You frequently blame others, a maladaptive strategy. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         }
       ]
     }

@@ -193,10 +193,13 @@
         "max": 30,
         "level": "normal",
         "label": "Normal Range",
-        "description": "Your combined depression, anxiety, and stress scores are within the normal range.",
+        "description": "Your combined depression, anxiety, and stress scores are within the normal range. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Continue maintaining good mental health",
-          "Keep up healthy habits and coping strategies"
+          "Keep up healthy habits and coping strategies",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy",
+          "Practice gratitude by noting positive moments in your life"
         ]
       },
       {
@@ -204,10 +207,13 @@
         "max": 60,
         "level": "mild",
         "label": "Mild Distress",
-        "description": "Your combined score indicates some level of emotional distress.",
+        "description": "Your combined score indicates some level of emotional distress. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
         "suggestions": [
           "Review subscale scores to identify the primary source of distress",
-          "Learn stress management and emotion regulation techniques"
+          "Learn stress management and emotion regulation techniques",
+          "Try 30 minutes of aerobic exercise daily, such as walking or cycling",
+          "Maintain a regular sleep schedule and avoid staying up late",
+          "Practice mindfulness meditation or deep breathing exercises"
         ]
       },
       {
@@ -215,10 +221,13 @@
         "max": 126,
         "level": "moderate",
         "label": "Moderate to Severe Distress",
-        "description": "Your combined score is elevated. Consider reviewing individual subscale scores and seeking professional help.",
+        "description": "Your combined score is elevated. Consider reviewing individual subscale scores and seeking professional help. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
         "suggestions": [
           "Consider consulting a mental health professional",
-          "Review subscale scores to identify areas needing the most attention"
+          "Review subscale scores to identify areas needing the most attention",
+          "Consider consulting a mental health counselor for professional guidance",
+          "Try self-help exercises based on cognitive behavioral therapy (CBT)",
+          "Wake up at a fixed time each day to establish daily structure"
         ]
       }
     ],
@@ -229,35 +238,70 @@
           "max": 9,
           "level": "normal",
           "label": "Normal",
-          "description": "Depression subscale score is within the normal range."
+          "description": "Depression subscale score is within the normal range. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
+          "suggestions": [
+            "Maintain regular social activities and hobbies",
+            "Set aside time each day for activities you enjoy",
+            "Practice gratitude by noting positive moments in your life",
+            "Keep a consistent sleep schedule and exercise routine",
+            "Stay connected with friends and family"
+          ]
         },
         {
           "min": 10,
           "max": 13,
           "level": "mild",
           "label": "Mild Depression",
-          "description": "Mild depressive symptoms present. Monitor your mood changes."
+          "description": "Mild depressive symptoms present. Monitor your mood changes. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
+          "suggestions": [
+            "Try 30 minutes of aerobic exercise daily, such as walking or cycling",
+            "Maintain a regular sleep schedule and avoid staying up late",
+            "Practice mindfulness meditation or deep breathing exercises",
+            "Stay in touch with trusted friends or family members",
+            "Reduce time spent alone and engage in social activities"
+          ]
         },
         {
           "min": 14,
           "max": 20,
           "level": "moderate",
           "label": "Moderate Depression",
-          "description": "Notable depressive symptoms. Consider seeking professional help."
+          "description": "Notable depressive symptoms. Consider seeking professional help. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
+          "suggestions": [
+            "Consider consulting a mental health counselor for professional guidance",
+            "Try self-help exercises based on cognitive behavioral therapy (CBT)",
+            "Wake up at a fixed time each day to establish daily structure",
+            "Set small, achievable daily goals to gradually restore activity levels",
+            "Reduce alcohol intake and avoid unhealthy coping strategies"
+          ]
         },
         {
           "min": 21,
           "max": 27,
           "level": "severe",
           "label": "Severe Depression",
-          "description": "Severe depressive symptoms. Strongly recommended to seek medical attention."
+          "description": "Severe depressive symptoms. Strongly recommended to seek medical attention. Your score suggests notable emotional distress that may be significantly affecting your quality of life. Reaching out to a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule an appointment with a mental health professional as soon as possible",
+            "You can call a mental health helpline for immediate support",
+            "Make sure you have someone you trust nearby for companionship and support",
+            "Follow professional recommendations and cooperate with your treatment plan",
+            "Maintain basic daily routines and self-care activities"
+          ]
         },
         {
           "min": 28,
           "max": 42,
           "level": "extremely_severe",
           "label": "Extremely Severe Depression",
-          "description": "Extremely severe depressive symptoms. Please seek professional help immediately."
+          "description": "Extremely severe depressive symptoms. Please seek professional help immediately. Your score suggests notable emotional distress that may be significantly affecting your quality of life. Reaching out to a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule an appointment with a mental health professional as soon as possible",
+            "You can call a mental health helpline for immediate support",
+            "Make sure you have someone you trust nearby for companionship and support",
+            "Follow professional recommendations and cooperate with your treatment plan",
+            "Maintain basic daily routines and self-care activities"
+          ]
         }
       ],
       "anxiety": [
@@ -266,35 +310,70 @@
           "max": 7,
           "level": "normal",
           "label": "Normal",
-          "description": "Anxiety subscale score is within the normal range."
+          "description": "Anxiety subscale score is within the normal range. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
+          "suggestions": [
+            "Continue maintaining your healthy lifestyle and coping strategies",
+            "Practice daily relaxation activities such as deep breathing or stretching",
+            "Keep up a regular exercise routine",
+            "Cultivate mindful awareness habits",
+            "Maintain strong social connections"
+          ]
         },
         {
           "min": 8,
           "max": 9,
           "level": "mild",
           "label": "Mild Anxiety",
-          "description": "Mild anxiety symptoms present. Consider practicing relaxation techniques."
+          "description": "Mild anxiety symptoms present. Consider practicing relaxation techniques. Mild tension or worry is common in everyday life. Simple self-regulation techniques can often help manage these feelings.",
+          "suggestions": [
+            "Learn and practice progressive muscle relaxation",
+            "Try 5-10 minutes of mindfulness meditation daily",
+            "Reduce caffeine and stimulant intake",
+            "Record situations that trigger anxiety and try to analyze them rationally",
+            "Exercise regularly, at least three times a week"
+          ]
         },
         {
           "min": 10,
           "max": 14,
           "level": "moderate",
           "label": "Moderate Anxiety",
-          "description": "Notable anxiety symptoms. Consider seeking professional help."
+          "description": "Notable anxiety symptoms. Consider seeking professional help. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
+          "suggestions": [
+            "Consider consulting a counselor or psychiatrist",
+            "Cognitive behavioral therapy (CBT) is highly effective for anxiety",
+            "Practice relaxation techniques daily and maintain regular exercise",
+            "Identify and reduce avoidance behaviors; gradually face anxiety-provoking situations",
+            "Maintain regular sleep and exercise habits"
+          ]
         },
         {
           "min": 15,
           "max": 19,
           "level": "severe",
           "label": "Severe Anxiety",
-          "description": "Severe anxiety symptoms. Strongly recommended to seek medical attention."
+          "description": "Severe anxiety symptoms. Strongly recommended to seek medical attention. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         },
         {
           "min": 20,
           "max": 42,
           "level": "extremely_severe",
           "label": "Extremely Severe Anxiety",
-          "description": "Extremely severe anxiety symptoms. Please seek professional help immediately."
+          "description": "Extremely severe anxiety symptoms. Please seek professional help immediately. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
+          "suggestions": [
+            "Schedule a professional assessment as soon as possible",
+            "A combination of medication and psychotherapy may be beneficial",
+            "Learn to recognize and manage panic attacks",
+            "Avoid avoidance behavior; gradually face fears under professional guidance",
+            "Ensure you have a reliable support system"
+          ]
         }
       ],
       "stress": [
@@ -303,35 +382,70 @@
           "max": 14,
           "level": "normal",
           "label": "Normal",
-          "description": "Stress subscale score is within the normal range."
+          "description": "Stress subscale score is within the normal range. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
+          "suggestions": [
+            "Continue using your effective stress management strategies",
+            "Regularly check in with yourself and engage in relaxation activities",
+            "Maintain a healthy work-life balance",
+            "Cultivate hobbies and interests that bring you joy",
+            "Nurture healthy social relationships"
+          ]
         },
         {
           "min": 15,
           "max": 18,
           "level": "mild",
           "label": "Mild Stress",
-          "description": "Mild stress symptoms present. Consider learning stress management techniques."
+          "description": "Mild stress symptoms present. Consider learning stress management techniques. Mild stress is a normal part of life. Learning stress management techniques can help you handle it more effectively.",
+          "suggestions": [
+            "Identify your main sources of stress and try to address them gradually",
+            "Learn time management and prioritization skills",
+            "Set aside 15-30 minutes daily for relaxation activities",
+            "Maintain moderate exercise and healthy eating habits",
+            "Practice saying no and setting reasonable boundaries"
+          ]
         },
         {
           "min": 19,
           "max": 25,
           "level": "moderate",
           "label": "Moderate Stress",
-          "description": "Notable stress symptoms. Consider adjusting your pace of life and seeking support."
+          "description": "Notable stress symptoms. Consider adjusting your pace of life and seeking support. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
+          "suggestions": [
+            "Consider discussing stress management strategies with a counselor",
+            "Evaluate and adjust major stressors in your work or personal life",
+            "Build daily habits of relaxation and self-care",
+            "Consider reducing unnecessary commitments and responsibilities",
+            "Ensure adequate sleep time"
+          ]
         },
         {
           "min": 26,
           "max": 33,
           "level": "severe",
           "label": "Severe Stress",
-          "description": "Severe stress symptoms. Strongly recommended to seek professional support."
+          "description": "Severe stress symptoms. Strongly recommended to seek professional support. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         },
         {
           "min": 34,
           "max": 42,
           "level": "extremely_severe",
           "label": "Extremely Severe Stress",
-          "description": "Extremely severe stress symptoms. Please seek professional help immediately."
+          "description": "Extremely severe stress symptoms. Please seek professional help immediately. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
+          "suggestions": [
+            "Seek professional counseling support",
+            "Evaluate whether adjustments to your current work or life situation are needed",
+            "Learn emergency stress-relief techniques for high-pressure moments",
+            "Ensure basic needs for sleep, nutrition, and rest are met",
+            "Consider temporarily reducing workload or seeking help to share responsibilities"
+          ]
         }
       ]
     }

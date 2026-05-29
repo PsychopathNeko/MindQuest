@@ -135,10 +135,13 @@
         "max": 39,
         "level": "minimal",
         "label": "Low Worry",
-        "description": "Your worry level is low. Generalized anxiety is unlikely.",
+        "description": "Your worry level is low. Generalized anxiety is unlikely. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining your current mental health",
-          "Moderate worry is a normal coping mechanism"
+          "Moderate worry is a normal coping mechanism",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching",
+          "Keep up a regular exercise routine"
         ]
       },
       {
@@ -146,11 +149,13 @@
         "max": 59,
         "level": "moderate",
         "label": "Moderate Worry",
-        "description": "You have a moderate tendency to worry, and may worry excessively in some situations.",
+        "description": "You have a moderate tendency to worry, and may worry excessively in some situations. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Learn mindfulness meditation techniques to manage worry",
           "Practice distinguishing productive from unproductive worry",
-          "Set designated 'worry time' to limit overthinking"
+          "Set designated 'worry time' to limit overthinking",
+          "Consider consulting a counselor or psychiatrist",
+          "Cognitive behavioral therapy (CBT) is highly effective for anxiety"
         ]
       },
       {
@@ -158,11 +163,13 @@
         "max": 80,
         "level": "severe",
         "label": "High Worry",
-        "description": "You have a severe tendency to worry, consistent with features of generalized anxiety disorder.",
+        "description": "You have a severe tendency to worry, consistent with features of generalized anxiety disorder. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Consider seeking professional psychological counseling or therapy",
           "Cognitive Behavioral Therapy (CBT) is highly effective for excessive worry",
-          "Discuss medication options with a healthcare provider"
+          "Discuss medication options with a healthcare provider",
+          "Schedule a professional assessment as soon as possible",
+          "A combination of medication and psychotherapy may be beneficial"
         ]
       }
     ],

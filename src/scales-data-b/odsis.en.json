@@ -72,11 +72,13 @@
         "max": 4,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your depression level is within the normal range, with no significant depressive distress detected.",
+        "description": "Your depression level is within the normal range, with no significant depressive distress detected. This indicates that your mood has been relatively stable recently, with no significant signs of persistent sadness or loss of interest.",
         "suggestions": [
           "Continue maintaining your current mental health",
           "Keep up an active lifestyle and social activities",
-          "Maintain regular exercise and good sleep habits"
+          "Maintain regular exercise and good sleep habits",
+          "Maintain regular social activities and hobbies",
+          "Set aside time each day for activities you enjoy"
         ]
       },
       {
@@ -84,12 +86,13 @@
         "max": 9,
         "level": "mild",
         "label": "Mild Depression",
-        "description": "Your score suggests mild depression. You may occasionally feel low in mood or lack interest, but the impact on daily functioning is limited.",
+        "description": "Your score suggests mild depression. You may occasionally feel low in mood or lack interest, but the impact on daily functioning is limited. These mild symptoms may occasionally affect your energy and motivation, but they typically do not interfere significantly with daily functioning.",
         "suggestions": [
           "Increase engagement in pleasurable activities and social interactions",
           "Maintain regular physical exercise",
           "Pay attention to sleep hygiene and balanced nutrition",
-          "Consider consulting a professional if symptoms persist or worsen"
+          "Consider consulting a professional if symptoms persist or worsen",
+          "Try 30 minutes of aerobic exercise daily, such as walking or cycling"
         ]
       },
       {
@@ -97,12 +100,13 @@
         "max": 14,
         "level": "moderate",
         "label": "Moderate Depression",
-        "description": "Your score suggests moderate depression. Depressed mood may be noticeably interfering with your work, social life, or daily activities.",
+        "description": "Your score suggests moderate depression. Depressed mood may be noticeably interfering with your work, social life, or daily activities. At this level, feelings of low mood may cause persistent fatigue and reduced interest in activities, potentially affecting daily life and relationships.",
         "suggestions": [
           "Consider seeking help from a counselor or psychiatrist",
           "Try evidence-based psychological treatments such as cognitive-behavioral therapy",
           "Maintain a daily activity schedule and avoid prolonged isolation",
-          "Inform a trusted family member or friend about your condition"
+          "Inform a trusted family member or friend about your condition",
+          "Consider consulting a mental health counselor for professional guidance"
         ]
       },
       {
@@ -110,12 +114,13 @@
         "max": 20,
         "level": "severe",
         "label": "Severe Depression",
-        "description": "Your score suggests severe depression, which may be significantly impairing your work ability, social functioning, and quality of life.",
+        "description": "Your score suggests severe depression, which may be significantly impairing your work ability, social functioning, and quality of life. Your score suggests notable emotional distress that may be significantly affecting your quality of life. Reaching out to a mental health professional is recommended.",
         "suggestions": [
           "Seek professional psychological or psychiatric treatment as soon as possible",
           "Inform family or friends about your condition for support",
           "If you have thoughts of self-harm or suicide, please call a crisis hotline immediately",
-          "Do not suffer alone; professional help can effectively alleviate depression"
+          "Do not suffer alone; professional help can effectively alleviate depression",
+          "Schedule an appointment with a mental health professional as soon as possible"
         ]
       }
     ],

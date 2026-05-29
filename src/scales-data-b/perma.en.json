@@ -274,11 +274,13 @@
         "max": 76,
         "level": "minimal",
         "label": "Low Well-being",
-        "description": "Your overall PERMA score is low, suggesting significant room for improvement in well-being.",
+        "description": "Your overall PERMA score is low, suggesting significant room for improvement in well-being. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Try keeping a daily gratitude journal to cultivate positive emotions",
           "Seek activities that fully engage your attention and skills",
-          "Consider professional counseling for support"
+          "Consider professional counseling for support",
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging"
         ]
       },
       {
@@ -286,11 +288,13 @@
         "max": 153,
         "level": "moderate",
         "label": "Moderate Well-being",
-        "description": "Your well-being is at a moderate level, with some dimensions having room for growth.",
+        "description": "Your well-being is at a moderate level, with some dimensions having room for growth. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Focus on improving dimensions where you scored lower",
           "Strengthen social connections and relationship quality",
-          "Identify sources of meaning and purpose in your life"
+          "Identify sources of meaning and purpose in your life",
+          "Continue maintaining your positive lifestyle",
+          "Share your experiences and positive feelings with others"
         ]
       },
       {
@@ -298,11 +302,13 @@
         "max": 230,
         "level": "high",
         "label": "High Well-being",
-        "description": "Your overall well-being is high, with balanced development across dimensions.",
+        "description": "Your overall well-being is high, with balanced development across dimensions. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue maintaining your positive lifestyle",
           "Helping others can further enhance your own well-being",
-          "Continue monitoring balance across all dimensions"
+          "Continue monitoring balance across all dimensions",
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others"
         ]
       }
     ],
@@ -313,21 +319,40 @@
           "max": 10,
           "level": "low",
           "label": "Low",
-          "description": "You experience few positive emotions in daily life."
+          "description": "You experience few positive emotions in daily life. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "suggestions": [
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
+          ]
         },
         {
           "min": 11,
           "max": 20,
           "level": "moderate",
           "label": "Moderate",
-          "description": "You experience some positive emotions, with room for growth."
+          "description": "You experience some positive emotions, with room for growth. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "suggestions": [
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
+          ]
         },
         {
           "min": 21,
           "max": 30,
           "level": "high",
           "label": "High",
-          "description": "You frequently experience positive emotions, feeling joyful and content."
+          "description": "You frequently experience positive emotions, feeling joyful and content. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "suggestions": [
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
+          ]
         }
       ],
       "engagement": [
@@ -336,21 +361,40 @@
           "max": 10,
           "level": "low",
           "label": "Low",
-          "description": "You lack engagement and immersion in daily activities."
+          "description": "You lack engagement and immersion in daily activities. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "suggestions": [
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
+          ]
         },
         {
           "min": 11,
           "max": 20,
           "level": "moderate",
           "label": "Moderate",
-          "description": "You feel engaged in some activities, but not consistently."
+          "description": "You feel engaged in some activities, but not consistently. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "suggestions": [
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
+          ]
         },
         {
           "min": 21,
           "max": 30,
           "level": "high",
           "label": "High",
-          "description": "You frequently experience flow and full engagement in activities."
+          "description": "You frequently experience flow and full engagement in activities. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "suggestions": [
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
+          ]
         }
       ],
       "relationships": [
@@ -359,21 +403,40 @@
           "max": 10,
           "level": "low",
           "label": "Low",
-          "description": "Your relationships are weak, lacking supportive social connections."
+          "description": "Your relationships are weak, lacking supportive social connections. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "suggestions": [
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
+          ]
         },
         {
           "min": 11,
           "max": 20,
           "level": "moderate",
           "label": "Moderate",
-          "description": "You have some social relationships, but closeness and support could be strengthened."
+          "description": "You have some social relationships, but closeness and support could be strengthened. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "suggestions": [
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
+          ]
         },
         {
           "min": 21,
           "max": 30,
           "level": "high",
           "label": "High",
-          "description": "You have strong relationships and feel loved and supported."
+          "description": "You have strong relationships and feel loved and supported. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "suggestions": [
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
+          ]
         }
       ],
       "meaning": [
@@ -382,21 +445,40 @@
           "max": 10,
           "level": "low",
           "label": "Low",
-          "description": "You rarely feel that your life has meaning and purpose."
+          "description": "You rarely feel that your life has meaning and purpose. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "suggestions": [
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
+          ]
         },
         {
           "min": 11,
           "max": 20,
           "level": "moderate",
           "label": "Moderate",
-          "description": "You have some sense of meaning, but it is not fully clear."
+          "description": "You have some sense of meaning, but it is not fully clear. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "suggestions": [
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
+          ]
         },
         {
           "min": 21,
           "max": 30,
           "level": "high",
           "label": "High",
-          "description": "You strongly feel that your life is meaningful with clear purpose."
+          "description": "You strongly feel that your life is meaningful with clear purpose. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "suggestions": [
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
+          ]
         }
       ],
       "accomplishment": [
@@ -405,21 +487,40 @@
           "max": 10,
           "level": "low",
           "label": "Low",
-          "description": "You rarely feel you are making progress or achieving goals."
+          "description": "You rarely feel you are making progress or achieving goals. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "suggestions": [
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
+          ]
         },
         {
           "min": 11,
           "max": 20,
           "level": "moderate",
           "label": "Moderate",
-          "description": "You have some sense of accomplishment, with room for growth."
+          "description": "You have some sense of accomplishment, with room for growth. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "suggestions": [
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
+          ]
         },
         {
           "min": 21,
           "max": 30,
           "level": "high",
           "label": "High",
-          "description": "You frequently feel you are progressing and achieving meaningful goals."
+          "description": "You frequently feel you are progressing and achieving meaningful goals. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "suggestions": [
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
+          ]
         }
       ],
       "negative_emotion": [
@@ -428,21 +529,40 @@
           "max": 10,
           "level": "low",
           "label": "Low",
-          "description": "You experience few negative emotions. Your emotional state is positive."
+          "description": "You experience few negative emotions. Your emotional state is positive. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "suggestions": [
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
+          ]
         },
         {
           "min": 11,
           "max": 20,
           "level": "moderate",
           "label": "Moderate",
-          "description": "You experience some negative emotions. Attention to emotional regulation is recommended."
+          "description": "You experience some negative emotions. Attention to emotional regulation is recommended. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "suggestions": [
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
+          ]
         },
         {
           "min": 21,
           "max": 30,
           "level": "high",
           "label": "High",
-          "description": "You experience frequent negative emotions. Emotion management techniques or professional help is recommended."
+          "description": "You experience frequent negative emotions. Emotion management techniques or professional help is recommended. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "suggestions": [
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
+          ]
         }
       ],
       "health": [
@@ -451,21 +571,40 @@
           "max": 10,
           "level": "low",
           "label": "Low",
-          "description": "Your subjective health perception is poor."
+          "description": "Your subjective health perception is poor. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "suggestions": [
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
+          ]
         },
         {
           "min": 11,
           "max": 20,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Your health is fair. Attention to physical wellness is recommended."
+          "description": "Your health is fair. Attention to physical wellness is recommended. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "suggestions": [
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
+          ]
         },
         {
           "min": 21,
           "max": 30,
           "level": "high",
           "label": "High",
-          "description": "Your subjective health perception is good and positive."
+          "description": "Your subjective health perception is good and positive. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "suggestions": [
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
+          ]
         }
       ],
       "loneliness": [
@@ -474,21 +613,40 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low loneliness. Your social connections are good."
+          "description": "Low loneliness. Your social connections are good. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "suggestions": [
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
+          ]
         },
         {
           "min": 4,
           "max": 6,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Some loneliness is present. Consider expanding your social circle."
+          "description": "Some loneliness is present. Consider expanding your social circle. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "suggestions": [
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
+          ]
         },
         {
           "min": 7,
           "max": 10,
           "level": "high",
           "label": "High",
-          "description": "Significant loneliness. Actively seeking social support is recommended."
+          "description": "Significant loneliness. Actively seeking social support is recommended. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "suggestions": [
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
+          ]
         }
       ],
       "happiness": [
@@ -497,21 +655,40 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Overall happiness is low with limited life satisfaction."
+          "description": "Overall happiness is low with limited life satisfaction. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "suggestions": [
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
+          ]
         },
         {
           "min": 4,
           "max": 6,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Some happiness is present, with room for improvement."
+          "description": "Some happiness is present, with room for improvement. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "suggestions": [
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
+          ]
         },
         {
           "min": 7,
           "max": 10,
           "level": "high",
           "label": "High",
-          "description": "Overall happiness is high. You feel satisfied and joyful about life."
+          "description": "Overall happiness is high. You feel satisfied and joyful about life. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "suggestions": [
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
+          ]
         }
       ]
     }

@@ -101,10 +101,13 @@
         "max": 10,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your psychological distress level is within the normal range.",
+        "description": "Your psychological distress level is within the normal range. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining good mental health",
-          "Keep up healthy habits and social activities"
+          "Keep up healthy habits and social activities",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -112,12 +115,13 @@
         "max": 20,
         "level": "mild",
         "label": "Mild Distress",
-        "description": "You are experiencing some psychological distress that may have a mild impact on daily life.",
+        "description": "You are experiencing some psychological distress that may have a mild impact on daily life. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Pay attention to your emotional changes",
           "Learn stress management and relaxation techniques",
           "Maintain social connections",
-          "Consider seeking professional help if distress persists"
+          "Consider seeking professional help if distress persists",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -125,12 +129,13 @@
         "max": 30,
         "level": "moderate",
         "label": "Moderate Distress",
-        "description": "Your psychological distress level is elevated and may noticeably affect work and daily functioning.",
+        "description": "Your psychological distress level is elevated and may noticeably affect work and daily functioning. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Consider seeking counseling or therapy",
           "Share your feelings with someone you trust",
           "Maintain regular routines and physical exercise",
-          "Avoid unhealthy coping mechanisms"
+          "Avoid unhealthy coping mechanisms",
+          "Consider consulting a mental health professional"
         ]
       },
       {
@@ -138,12 +143,13 @@
         "max": 40,
         "level": "severe",
         "label": "Severe Distress",
-        "description": "Your psychological distress level is very high. Daily functioning may be significantly affected.",
+        "description": "Your psychological distress level is very high. Daily functioning may be significantly affected. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional mental health help immediately",
           "If you have thoughts of self-harm, please contact a crisis helpline",
           "Ensure you have trusted people around for support",
-          "Seeking help is a sign of strength, not weakness"
+          "Seeking help is a sign of strength, not weakness",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       }
     ],

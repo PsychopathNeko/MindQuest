@@ -149,11 +149,13 @@
         "max": 36,
         "level": "severe",
         "label": "Low Social Support",
-        "description": "Your perceived social support is low.",
+        "description": "Your perceived social support is low. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Try reaching out to family and friends more often",
           "Consider joining interest groups or community organizations",
-          "If feeling isolated, consult a professional"
+          "If feeling isolated, consult a professional",
+          "Schedule a mental health professional assessment as soon as possible",
+          "Make sure you have trusted people around you for support"
         ]
       },
       {
@@ -161,10 +163,13 @@
         "max": 60,
         "level": "moderate",
         "label": "Moderate Social Support",
-        "description": "Your perceived social support is moderate.",
+        "description": "Your perceived social support is moderate. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Check subscale scores to see which area needs strengthening",
-          "Actively strengthen connections with family and friends"
+          "Actively strengthen connections with family and friends",
+          "Consider consulting a mental health professional",
+          "Identify your specific sources of concern",
+          "Maintain a structured daily routine"
         ]
       },
       {
@@ -172,11 +177,13 @@
         "max": 84,
         "level": "minimal",
         "label": "High Social Support",
-        "description": "Your perceived social support is high.",
+        "description": "Your perceived social support is high. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining your social network",
           "Do not hesitate to seek help when needed",
-          "Also provide support to others"
+          "Also provide support to others",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       }
     ],
@@ -187,21 +194,41 @@
           "max": 12,
           "level": "severe",
           "label": "Low",
-          "description": "Perceived family support is low."
+          "description": "Perceived family support is low. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 13,
           "max": 20,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Perceived family support is moderate."
+          "description": "Perceived family support is moderate. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 21,
           "max": 28,
           "level": "minimal",
           "label": "High",
-          "description": "Perceived family support is high."
+          "description": "Perceived family support is high. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "friends": [
@@ -210,21 +237,41 @@
           "max": 12,
           "level": "severe",
           "label": "Low",
-          "description": "Perceived friend support is low."
+          "description": "Perceived friend support is low. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 13,
           "max": 20,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Perceived friend support is moderate."
+          "description": "Perceived friend support is moderate. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 21,
           "max": 28,
           "level": "minimal",
           "label": "High",
-          "description": "Perceived friend support is high."
+          "description": "Perceived friend support is high. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ],
       "significant_other": [
@@ -233,21 +280,41 @@
           "max": 12,
           "level": "severe",
           "label": "Low",
-          "description": "Perceived significant other support is low."
+          "description": "Perceived significant other support is low. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "suggestions": [
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
+          ]
         },
         {
           "min": 13,
           "max": 20,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Perceived significant other support is moderate."
+          "description": "Perceived significant other support is moderate. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "suggestions": [
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
+          ]
         },
         {
           "min": 21,
           "max": 28,
           "level": "minimal",
           "label": "High",
-          "description": "Perceived significant other support is high."
+          "description": "Perceived significant other support is high. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "suggestions": [
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
+          ]
         }
       ]
     }

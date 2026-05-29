@@ -72,11 +72,13 @@
         "max": 5,
         "level": "minimal",
         "label": "Normal",
-        "description": "Your score is within the normal range, with no indication of significant manic symptoms.",
+        "description": "Your score is within the normal range, with no indication of significant manic symptoms. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Maintain regular sleep and daily routines",
           "Continue a healthy lifestyle",
-          "Monitor your mood periodically with self-assessments if you experience mood fluctuations"
+          "Monitor your mood periodically with self-assessments if you experience mood fluctuations",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences"
         ]
       },
       {
@@ -89,7 +91,8 @@
           "Monitor your mood changes and sleep patterns closely",
           "Avoid excessive stimulation and risky behaviors",
           "Maintain a regular daily routine",
-          "Consider consulting a psychiatrist for further evaluation"
+          "Consider consulting a psychiatrist for further evaluation",
+          "Focus on self-care with good routines and regular exercise"
         ]
       },
       {
@@ -97,12 +100,13 @@
         "max": 15,
         "level": "moderate",
         "label": "Moderate Mania",
-        "description": "Your score suggests moderate manic symptoms. You may be experiencing noticeable mood elevation, hyperactivity, and decreased need for sleep.",
+        "description": "Your score suggests moderate manic symptoms. You may be experiencing noticeable mood elevation, hyperactivity, and decreased need for sleep. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Consult a psychiatrist as soon as possible",
           "Avoid making major decisions or acting impulsively",
           "Inform a trusted family member or friend about your condition",
-          "Maintain regular sleep hours and avoid stimulating substances"
+          "Maintain regular sleep hours and avoid stimulating substances",
+          "Consider consulting a mental health professional"
         ]
       },
       {
@@ -110,12 +114,13 @@
         "max": 20,
         "level": "severe",
         "label": "Severe Mania",
-        "description": "Your score suggests severe manic symptoms, which may include extremely elevated mood, significant sleep reduction, and loss of behavioral control.",
+        "description": "Your score suggests severe manic symptoms, which may include extremely elevated mood, significant sleep reduction, and loss of behavioral control. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
         "suggestions": [
           "Seek immediate professional psychiatric treatment",
           "Have a family member or friend accompany you to a medical appointment",
           "Avoid all major decisions and high-risk behaviors",
-          "If currently in treatment, contact your treating physician immediately"
+          "If currently in treatment, contact your treating physician immediately",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       }
     ],

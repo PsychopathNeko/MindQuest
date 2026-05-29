@@ -185,10 +185,13 @@
         "max": 9,
         "level": "minimal",
         "label": "Normal Range",
-        "description": "Your eating attitudes are within the normal range with no abnormal eating behavior patterns.",
+        "description": "Your eating attitudes are within the normal range with no abnormal eating behavior patterns. This indicates that your eating attitudes and behaviors are within a healthy range, and your relationship with food is generally positive.",
         "suggestions": [
           "Continue maintaining healthy eating habits",
-          "Focus on nutritional balance rather than weight numbers"
+          "Focus on nutritional balance rather than weight numbers",
+          "Continue maintaining healthy and balanced eating habits",
+          "Enjoy the pleasure and nutrition that food provides",
+          "Maintain a positive attitude toward your body"
         ]
       },
       {
@@ -196,11 +199,13 @@
         "max": 19,
         "level": "mild",
         "label": "Mild Concern",
-        "description": "You show some concern about eating and weight, but not yet at a clinical level.",
+        "description": "You show some concern about eating and weight, but not yet at a clinical level. Mild eating-related concerns are fairly common. Paying attention to your eating patterns and feelings can help maintain a healthy relationship with food.",
         "suggestions": [
           "Be careful not to overly restrict your diet",
           "Cultivate a healthy relationship with food",
-          "If eating concerns affect quality of life, consider consulting a professional"
+          "If eating concerns affect quality of life, consider consulting a professional",
+          "Practice mindful eating, paying attention to physical sensations while eating",
+          "Avoid extreme dietary restrictions"
         ]
       },
       {
@@ -208,12 +213,13 @@
         "max": 39,
         "level": "moderate",
         "label": "Further Evaluation Recommended",
-        "description": "Your score reaches the clinical concern level and may indicate eating disorder risk. Professional evaluation is recommended.",
+        "description": "Your score reaches the clinical concern level and may indicate eating disorder risk. Professional evaluation is recommended. Your score suggests that eating attitudes or behaviors may be affecting your physical and emotional well-being to some extent.",
         "suggestions": [
           "Strongly recommended to consult an eating disorder specialist",
           "This score suggests possible eating disorder risk",
           "Watch for extreme dieting or exercise behaviors",
-          "Monitor physical health indicators"
+          "Monitor physical health indicators",
+          "Consider consulting a nutritionist or counselor"
         ]
       },
       {
@@ -221,12 +227,13 @@
         "max": 78,
         "level": "severe",
         "label": "High Concern",
-        "description": "Your score is very high, strongly suggesting eating disorder-related attitudes and behaviors. Please seek professional help promptly.",
+        "description": "Your score is very high, strongly suggesting eating disorder-related attitudes and behaviors. Please seek professional help promptly. Your eating-related concerns are notable and may be significantly affecting your nutritional status and mental health. Consulting a professional is recommended.",
         "suggestions": [
           "Please seek eating disorder treatment immediately",
           "Eating disorders are serious but treatable conditions",
           "Do not face this alone; inform family or friends",
-          "Monitor physical health; avoid extreme dietary restriction or compensatory behaviors"
+          "Monitor physical health; avoid extreme dietary restriction or compensatory behaviors",
+          "Consult a professional eating disorder treatment team as soon as possible"
         ]
       }
     ],

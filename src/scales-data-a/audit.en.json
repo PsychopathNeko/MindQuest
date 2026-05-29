@@ -280,11 +280,13 @@
         "max": 7,
         "level": "minimal",
         "label": "Low-Risk Drinking",
-        "description": "Your drinking pattern is within the low-risk range.",
+        "description": "Your drinking pattern is within the low-risk range. This indicates that your current substance-use-related risk is low and within a healthy range.",
         "suggestions": [
           "Continue maintaining moderate or non-drinking habits",
           "Be aware of safe drinking limits",
-          "Avoid alcohol in specific situations (e.g., driving, taking medication)"
+          "Avoid alcohol in specific situations (e.g., driving, taking medication)",
+          "Continue maintaining a healthy lifestyle",
+          "Stay informed about risks related to substance use"
         ]
       },
       {
@@ -292,12 +294,13 @@
         "max": 15,
         "level": "mild",
         "label": "Hazardous Drinking",
-        "description": "Your drinking pattern carries some risk and may be causing harm to your health.",
+        "description": "Your drinking pattern carries some risk and may be causing harm to your health. A mild risk level suggests it may be helpful to pay attention to your usage patterns and maintain self-awareness.",
         "suggestions": [
           "Consider reducing your drinking amount and frequency",
           "Learn about the health effects of excessive drinking",
           "Set and follow weekly drinking limits",
-          "If reducing on your own is difficult, consult a doctor or professional"
+          "If reducing on your own is difficult, consult a doctor or professional",
+          "Pay attention to your usage patterns and frequency"
         ]
       },
       {
@@ -305,12 +308,13 @@
         "max": 19,
         "level": "moderate",
         "label": "Harmful Drinking",
-        "description": "Your drinking pattern may already be causing physical and/or psychological harm.",
+        "description": "Your drinking pattern may already be causing physical and/or psychological harm. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
         "suggestions": [
           "Seek professional help for a brief intervention",
           "Seriously consider reducing or stopping alcohol use",
           "Examine whether alcohol is affecting your work, relationships, and health",
-          "Consult a doctor about possible alcohol-related health issues"
+          "Consult a doctor about possible alcohol-related health issues",
+          "Consider consulting an addiction medicine professional"
         ]
       },
       {
@@ -318,7 +322,7 @@
         "max": 40,
         "level": "severe",
         "label": "Possible Alcohol Dependence",
-        "description": "Your score suggests possible alcohol dependence, a serious health condition requiring professional treatment.",
+        "description": "Your score suggests possible alcohol dependence, a serious health condition requiring professional treatment. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional treatment immediately",
           "Consult an addiction medicine specialist or visit an alcohol treatment program",

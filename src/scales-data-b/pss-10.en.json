@@ -103,11 +103,13 @@
         "max": 13,
         "level": "minimal",
         "label": "Low Stress",
-        "description": "Your perceived stress level is low. You appear to be managing life demands well.",
+        "description": "Your perceived stress level is low. You appear to be managing life demands well. This indicates that your current stress levels are manageable and you are coping well with daily challenges.",
         "suggestions": [
           "Continue maintaining your current coping strategies",
           "Keep up healthy habits such as regular exercise and adequate sleep",
-          "Practice mindfulness or relaxation techniques for ongoing well-being"
+          "Practice mindfulness or relaxation techniques for ongoing well-being",
+          "Continue using your effective stress management strategies",
+          "Regularly check in with yourself and engage in relaxation activities"
         ]
       },
       {
@@ -115,7 +117,7 @@
         "max": 26,
         "level": "moderate",
         "label": "Moderate Stress",
-        "description": "Your perceived stress level is moderate. You may benefit from enhanced stress management strategies.",
+        "description": "Your perceived stress level is moderate. You may benefit from enhanced stress management strategies. At this level, stress may cause persistent tension, mood fluctuations, and reduced work efficiency or rest quality.",
         "suggestions": [
           "Identify your main sources of stress and address them proactively",
           "Practice stress management techniques (deep breathing, meditation, exercise)",
@@ -129,7 +131,7 @@
         "max": 40,
         "level": "severe",
         "label": "High Stress",
-        "description": "Your perceived stress level is high. This level of stress may be affecting your physical and mental health.",
+        "description": "Your perceived stress level is high. This level of stress may be affecting your physical and mental health. Your stress level is elevated and may be significantly affecting your physical and mental health. Seeking support and making adjustments is recommended.",
         "suggestions": [
           "Consider consulting a mental health professional for support",
           "Implement immediate stress-reduction strategies (exercise, relaxation, social support)",

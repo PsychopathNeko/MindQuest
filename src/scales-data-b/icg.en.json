@@ -142,11 +142,13 @@
         "max": 19,
         "level": "minimal",
         "label": "Normal Grief Response",
-        "description": "Your grief level is within the normal range. Sadness after losing a loved one is a natural emotional response.",
+        "description": "Your grief level is within the normal range. Sadness after losing a loved one is a natural emotional response. This indicates that you are not currently showing significant post-traumatic stress reactions, and your psychological recovery is progressing well.",
         "suggestions": [
           "Allow yourself to fully feel and express your grief",
           "Maintain connections with friends and family for support",
-          "Take care of your basic daily needs"
+          "Take care of your basic daily needs",
+          "Continue maintaining your good psychological health",
+          "Stay emotionally connected with friends and family"
         ]
       },
       {
@@ -154,12 +156,13 @@
         "max": 29,
         "level": "mild",
         "label": "Grief Needing Attention",
-        "description": "Your grief symptoms deserve attention. The grieving process varies for everyone, but if it continues to trouble you, consider seeking help.",
+        "description": "Your grief symptoms deserve attention. The grieving process varies for everyone, but if it continues to trouble you, consider seeking help. Mild trauma-related reactions are normal after experiencing stressful events and typically diminish over time.",
         "suggestions": [
           "Consider sharing your feelings with loved ones or a support group",
           "Maintain the basic rhythm of daily life",
           "Allow yourself to grieve in your own way and at your own pace",
-          "If distress persists beyond 6 months, consider consulting a professional"
+          "If distress persists beyond 6 months, consider consulting a professional",
+          "Allow yourself time and space to process your emotions"
         ]
       },
       {
@@ -167,12 +170,13 @@
         "max": 49,
         "level": "moderate",
         "label": "Possible Complicated Grief",
-        "description": "Your score exceeds the screening threshold (>=30), suggesting possible complicated/prolonged grief disorder. Professional evaluation is recommended.",
+        "description": "Your score exceeds the screening threshold (>=30), suggesting possible complicated/prolonged grief disorder. Professional evaluation is recommended. At this level, trauma responses may include flashbacks, avoidance behaviors, or emotional numbness that affect daily life and relationships.",
         "suggestions": [
           "Consider consulting a professional counselor or psychiatrist",
           "Learn about complicated grief/prolonged grief disorder",
           "Grief-focused therapy (e.g., Complicated Grief Treatment) may help",
-          "Don't bear this alone — seek professional and social support"
+          "Don't bear this alone — seek professional and social support",
+          "Consider consulting a professional trained in trauma therapy"
         ]
       },
       {

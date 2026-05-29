@@ -266,11 +266,13 @@
         "max": 3,
         "level": "minimal",
         "label": "Low Narcissism",
-        "description": "Your score indicates a low level of narcissistic traits. You tend to be modest and may undervalue your own qualities.",
+        "description": "Your score indicates a low level of narcissistic traits. You tend to be modest and may undervalue your own qualities. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
         "suggestions": [
           "Your modesty is admirable, but ensure you also recognize your strengths",
           "Practice healthy self-assertion when appropriate",
-          "Balance humility with confidence in your abilities"
+          "Balance humility with confidence in your abilities",
+          "Understanding your personality traits supports personal growth",
+          "Every person has unique strengths and value in their personality"
         ]
       },
       {
@@ -278,11 +280,13 @@
         "max": 6,
         "level": "normal",
         "label": "Below Average",
-        "description": "Your narcissism score is below the average range. You demonstrate a healthy balance of self-regard.",
+        "description": "Your narcissism score is below the average range. You demonstrate a healthy balance of self-regard. This indicates that this personality dimension falls within the typical range commonly seen in the general population.",
         "suggestions": [
           "Continue maintaining a balanced perspective on yourself",
           "Your self-awareness is a positive quality",
-          "Feel free to acknowledge your accomplishments"
+          "Feel free to acknowledge your accomplishments",
+          "Understanding your personality traits supports personal growth",
+          "Every person has unique strengths and value in their personality"
         ]
       },
       {
@@ -290,11 +294,13 @@
         "max": 9,
         "level": "mild",
         "label": "Average",
-        "description": "Your narcissism score falls within the average range. Most people score in this range, reflecting typical levels of self-confidence.",
+        "description": "Your narcissism score falls within the average range. Most people score in this range, reflecting typical levels of self-confidence. This level of trait expression is slightly above average but within the normal range of individual variation.",
         "suggestions": [
           "Your level of self-regard is within the normal range",
           "Continue to balance confidence with empathy for others",
-          "Be mindful of how your self-confidence is perceived by others"
+          "Be mindful of how your self-confidence is perceived by others",
+          "Learn how this trait influences your behavior and relationships",
+          "Leverage the positive aspects of this trait"
         ]
       },
       {
@@ -302,12 +308,13 @@
         "max": 12,
         "level": "moderate",
         "label": "Above Average",
-        "description": "Your score is above average, suggesting relatively elevated narcissistic traits such as self-importance and need for admiration.",
+        "description": "Your score is above average, suggesting relatively elevated narcissistic traits such as self-importance and need for admiration. This trait is notably expressed and may influence your interpersonal interactions and self-perception in certain situations.",
         "suggestions": [
           "Practice active listening and showing genuine interest in others",
           "Seek honest feedback from trusted people in your life",
           "Reflect on how your behavior may affect those around you",
-          "Consider whether your expectations of others are reasonable"
+          "Consider whether your expectations of others are reasonable",
+          "Gain deeper insight into how this trait affects your relationships"
         ]
       },
       {
@@ -320,7 +327,8 @@
           "Consider reflecting on your relationships and how others respond to you",
           "Practice empathy by considering situations from others' perspectives",
           "A counselor or therapist can help explore these traits in a supportive environment",
-          "Work on developing genuine reciprocity in your relationships"
+          "Work on developing genuine reciprocity in your relationships",
+          "Consider discussing the impact of personality traits with a counselor"
         ]
       }
     ],

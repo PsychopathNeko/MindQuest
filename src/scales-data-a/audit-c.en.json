@@ -107,11 +107,13 @@
         "max": 3,
         "level": "minimal",
         "label": "Low Risk",
-        "description": "Your alcohol consumption is within a low-risk range. No significant concerns about drinking habits detected.",
+        "description": "Your alcohol consumption is within a low-risk range. No significant concerns about drinking habits detected. This indicates that your current substance-use-related risk is low and within a healthy range.",
         "suggestions": [
           "Continue maintaining moderate or no drinking habits",
           "Be mindful of situations where alcohol use may increase",
-          "Stay informed about recommended drinking limits"
+          "Stay informed about recommended drinking limits",
+          "Continue maintaining a healthy lifestyle",
+          "Stay informed about risks related to substance use"
         ]
       },
       {
@@ -119,12 +121,13 @@
         "max": 7,
         "level": "mild",
         "label": "Hazardous Drinking",
-        "description": "Your drinking pattern suggests hazardous alcohol use that may increase risk of health problems.",
+        "description": "Your drinking pattern suggests hazardous alcohol use that may increase risk of health problems. A mild risk level suggests it may be helpful to pay attention to your usage patterns and maintain self-awareness.",
         "suggestions": [
           "Consider reducing the amount and frequency of your drinking",
           "Track your alcohol consumption to become more aware of your habits",
           "Set personal limits before you start drinking",
-          "Consider speaking with a healthcare provider about your drinking habits"
+          "Consider speaking with a healthcare provider about your drinking habits",
+          "Pay attention to your usage patterns and frequency"
         ]
       },
       {
@@ -132,7 +135,7 @@
         "max": 12,
         "level": "severe",
         "label": "Harmful or Dependent Drinking",
-        "description": "Your drinking pattern suggests harmful alcohol use or possible dependence. This level of consumption carries significant health risks.",
+        "description": "Your drinking pattern suggests harmful alcohol use or possible dependence. This level of consumption carries significant health risks. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
         "suggestions": [
           "Strongly recommended to consult a healthcare provider about your alcohol use",
           "Consider seeking specialized help for alcohol-related concerns",

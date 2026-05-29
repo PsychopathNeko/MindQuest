@@ -79,11 +79,13 @@
         "max": 0,
         "level": "minimal",
         "label": "No Problems Reported",
-        "description": "Your responses do not indicate any drug-related problems.",
+        "description": "Your responses do not indicate any drug-related problems. This indicates that your current substance-use-related risk is low and within a healthy range.",
         "suggestions": [
           "Continue to maintain a drug-free lifestyle",
           "Stay informed about the risks of drug use",
-          "Support friends or family members who may be struggling"
+          "Support friends or family members who may be struggling",
+          "Continue maintaining a healthy lifestyle",
+          "Stay informed about risks related to substance use"
         ]
       },
       {
@@ -91,11 +93,13 @@
         "max": 2,
         "level": "mild",
         "label": "Low Level",
-        "description": "Your responses suggest a low level of drug-related problems. Monitoring is recommended.",
+        "description": "Your responses suggest a low level of drug-related problems. Monitoring is recommended. A mild risk level suggests it may be helpful to pay attention to your usage patterns and maintain self-awareness.",
         "suggestions": [
           "Be aware of your drug use patterns and their consequences",
           "Consider discussing your drug use with a healthcare provider",
-          "Learn about healthy coping strategies for stress"
+          "Learn about healthy coping strategies for stress",
+          "Pay attention to your usage patterns and frequency",
+          "Learn about recommended safe-use limits"
         ]
       },
       {
@@ -103,12 +107,13 @@
         "max": 5,
         "level": "moderate",
         "label": "Moderate Level",
-        "description": "Your responses suggest a moderate level of drug-related problems. Professional evaluation is recommended.",
+        "description": "Your responses suggest a moderate level of drug-related problems. Professional evaluation is recommended. Your score suggests that substance use may already be affecting certain areas of your life. Further evaluation is recommended.",
         "suggestions": [
           "Consider seeking a professional assessment for drug use",
           "Explore counseling or therapy options",
           "Identify triggers and develop alternative coping strategies",
-          "Talk to someone you trust about your concerns"
+          "Talk to someone you trust about your concerns",
+          "Consider consulting an addiction medicine professional"
         ]
       },
       {
@@ -116,12 +121,13 @@
         "max": 8,
         "level": "severe",
         "label": "Substantial Level",
-        "description": "Your responses suggest a substantial level of drug-related problems. Intensive assessment and intervention are strongly recommended.",
+        "description": "Your responses suggest a substantial level of drug-related problems. Intensive assessment and intervention are strongly recommended. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
         "suggestions": [
           "Seek professional treatment for drug use as soon as possible",
           "Consider an intensive outpatient or inpatient treatment program",
           "Inform trusted family members or friends for support",
-          "Avoid situations and people that trigger drug use"
+          "Avoid situations and people that trigger drug use",
+          "Seek professional addiction treatment as soon as possible"
         ]
       },
       {
@@ -129,12 +135,13 @@
         "max": 10,
         "level": "severe",
         "label": "Severe Level",
-        "description": "Your responses suggest a severe level of drug-related problems. Immediate professional intervention is necessary.",
+        "description": "Your responses suggest a severe level of drug-related problems. Immediate professional intervention is necessary. Your score indicates elevated substance-use-related risk. Speaking with a professional for personalized support and guidance is recommended.",
         "suggestions": [
           "Seek immediate professional help for drug dependence",
           "Contact an addiction treatment center or hospital",
           "Do not attempt to stop suddenly without medical supervision",
-          "Reach out to crisis hotlines if you are in distress"
+          "Reach out to crisis hotlines if you are in distress",
+          "Seek professional addiction treatment as soon as possible"
         ]
       }
     ],

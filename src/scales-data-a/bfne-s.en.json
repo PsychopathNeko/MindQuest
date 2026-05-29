@@ -87,10 +87,13 @@
         "max": 8,
         "level": "low",
         "label": "Low Fear of Negative Evaluation",
-        "description": "Your fear of negative evaluation is low. You are generally not overly concerned about others judgments.",
+        "description": "Your fear of negative evaluation is low. You are generally not overly concerned about others judgments. This indicates that your anxiety levels are within the normal range, and your psychological state is relatively calm.",
         "suggestions": [
           "Continue maintaining your healthy perspective on social evaluation",
-          "Your confidence in social situations is a strength"
+          "Your confidence in social situations is a strength",
+          "Continue maintaining your healthy lifestyle and coping strategies",
+          "Practice daily relaxation activities such as deep breathing or stretching",
+          "Keep up a regular exercise routine"
         ]
       },
       {
@@ -98,11 +101,13 @@
         "max": 16,
         "level": "moderate",
         "label": "Moderate Fear of Negative Evaluation",
-        "description": "You have a moderate level of concern about being negatively evaluated by others.",
+        "description": "You have a moderate level of concern about being negatively evaluated by others. At this level, you may find it difficult to relax, experience frequent worry, and notice effects on sleep or concentration.",
         "suggestions": [
           "Practice self-compassion when worrying about others opinions",
           "Challenge negative thoughts about social evaluation",
-          "Consider whether your concerns are proportionate to the situation"
+          "Consider whether your concerns are proportionate to the situation",
+          "Consider consulting a counselor or psychiatrist",
+          "Cognitive behavioral therapy (CBT) is highly effective for anxiety"
         ]
       },
       {
@@ -110,11 +115,13 @@
         "max": 24,
         "level": "high",
         "label": "High Fear of Negative Evaluation",
-        "description": "You have a high level of fear of negative evaluation, which may be affecting your social functioning.",
+        "description": "You have a high level of fear of negative evaluation, which may be affecting your social functioning. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Consider consulting a mental health professional",
           "Cognitive behavioral therapy (CBT) can be very effective for social anxiety",
-          "Practice gradual exposure to feared social situations"
+          "Practice gradual exposure to feared social situations",
+          "Schedule a professional assessment as soon as possible",
+          "A combination of medication and psychotherapy may be beneficial"
         ]
       },
       {
@@ -122,11 +129,13 @@
         "max": 32,
         "level": "very_high",
         "label": "Very High Fear of Negative Evaluation",
-        "description": "Your fear of negative evaluation is very high and is likely significantly impacting your daily life and social interactions.",
+        "description": "Your fear of negative evaluation is very high and is likely significantly impacting your daily life and social interactions. Your anxiety level is elevated and may be accompanied by physical discomfort and persistent tension. Speaking with a professional is recommended.",
         "suggestions": [
           "Strongly recommended to seek professional help",
           "Social anxiety is highly treatable with evidence-based therapies",
-          "Discuss both therapy and medication options with a professional"
+          "Discuss both therapy and medication options with a professional",
+          "Schedule a professional assessment as soon as possible",
+          "A combination of medication and psychotherapy may be beneficial"
         ]
       }
     ],

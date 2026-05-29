@@ -91,10 +91,13 @@
         "max": 18,
         "level": "minimal",
         "label": "No Body Shape Concern",
-        "description": "Your body shape concern is within the normal range with no significant body image distress.",
+        "description": "Your body shape concern is within the normal range with no significant body image distress. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Continue maintaining a healthy body image",
-          "Appreciate your body for its functionality rather than just appearance"
+          "Appreciate your body for its functionality rather than just appearance",
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities"
         ]
       },
       {
@@ -102,11 +105,13 @@
         "max": 25,
         "level": "mild",
         "label": "Mild Body Shape Concern",
-        "description": "You have mild body shape concerns and occasional dissatisfaction with your body.",
+        "description": "You have mild body shape concerns and occasional dissatisfaction with your body. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Be mindful of the impact of social media and culture on body image",
           "Cultivate a positive attitude toward your body",
-          "Choose clothing and activities that make you feel comfortable"
+          "Choose clothing and activities that make you feel comfortable",
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques"
         ]
       },
       {
@@ -114,12 +119,13 @@
         "max": 33,
         "level": "moderate",
         "label": "Moderate Body Shape Concern",
-        "description": "You have moderate body shape concerns and dissatisfaction, which may affect daily life and self-esteem.",
+        "description": "You have moderate body shape concerns and dissatisfaction, which may affect daily life and self-esteem. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
         "suggestions": [
           "Pay attention to mental health related to body image",
           "Reduce frequent body checking with scales and mirrors",
           "Consider discussing body image issues with a counselor",
-          "Practice mindfulness to cultivate body acceptance"
+          "Practice mindfulness to cultivate body acceptance",
+          "Consider consulting a mental health professional"
         ]
       },
       {
@@ -132,7 +138,8 @@
           "Strongly recommended to seek professional psychological help",
           "Body image distress may be related to eating disorders; a comprehensive evaluation is recommended",
           "Avoid extreme dieting or exercise behaviors",
-          "Seek supportive social environments and communities"
+          "Seek supportive social environments and communities",
+          "Schedule a mental health professional assessment as soon as possible"
         ]
       }
     ],
