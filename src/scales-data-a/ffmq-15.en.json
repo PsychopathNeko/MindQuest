@@ -182,13 +182,16 @@
         "max": 35,
         "level": "severe",
         "label": "Low Mindfulness",
-        "description": "Your mindfulness level is low. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "description": "Your mindfulness level is low. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Try 5-10 minutes of mindfulness meditation daily",
           "Consider a Mindfulness-Based Stress Reduction program",
           "Practice deliberate attention to everyday activities",
-          "Keep up the habits and activities that bring you happiness",
-          "Share your positive experiences with others"
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging",
+          "Explore new interests and activities",
+          "Practice a gratitude journal, focusing on positive aspects of life",
+          "If you consistently feel unmotivated, consider consulting a professional"
         ]
       },
       {
@@ -196,13 +199,16 @@
         "max": 55,
         "level": "moderate",
         "label": "Moderate Mindfulness",
-        "description": "Your mindfulness is moderate with room for growth. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+        "description": "Your mindfulness is moderate with room for growth. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
         "suggestions": [
           "Review subscale scores for improvement areas",
           "Continue regular mindfulness practice",
           "Practice observing thoughts without judgment",
-          "Continue maintaining your positive lifestyle",
-          "Share your experiences and positive feelings with others"
+          "Increase the frequency of positive social activities",
+          "Develop a hobby that gives you a sense of accomplishment",
+          "Focus on your strengths and existing resources",
+          "Set meaningful personal goals",
+          "Maintain regular exercise and outdoor activities"
         ]
       },
       {
@@ -210,13 +216,15 @@
         "max": 75,
         "level": "minimal",
         "label": "High Mindfulness",
-        "description": "Your mindfulness level is high. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "description": "Your mindfulness level is high. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue your mindfulness practice",
           "Explore advanced mindfulness techniques",
           "Integrate mindfulness into more daily activities",
-          "Try doing one fulfilling activity each day",
-          "Stay connected with friends and family to build a sense of belonging"
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others",
+          "Maintain gratitude and mindfulness practices",
+          "Focus on continued growth and deepening life meaning"
         ]
       }
     ],
@@ -227,12 +235,13 @@
           "max": 7,
           "level": "severe",
           "label": "Low",
-          "description": "Low awareness of sensory experiences. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Low awareness of sensory experiences. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         },
         {
@@ -240,12 +249,13 @@
           "max": 11,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Sometimes notices sensory experiences. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Sometimes notices sensory experiences. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Increase the frequency of positive social activities",
+            "Develop a hobby that gives you a sense of accomplishment",
+            "Focus on your strengths and existing resources",
+            "Set meaningful personal goals",
+            "Maintain regular exercise and outdoor activities"
           ]
         },
         {
@@ -253,13 +263,12 @@
           "max": 15,
           "level": "minimal",
           "label": "High",
-          "description": "Skilled at noticing sensory experiences. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Skilled at noticing sensory experiences. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         }
       ],
@@ -269,12 +278,13 @@
           "max": 7,
           "level": "severe",
           "label": "Low",
-          "description": "Difficulty putting inner experiences into words. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Difficulty putting inner experiences into words. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         },
         {
@@ -282,12 +292,13 @@
           "max": 11,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Able to describe inner experiences to some extent. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Able to describe inner experiences to some extent. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Increase the frequency of positive social activities",
+            "Develop a hobby that gives you a sense of accomplishment",
+            "Focus on your strengths and existing resources",
+            "Set meaningful personal goals",
+            "Maintain regular exercise and outdoor activities"
           ]
         },
         {
@@ -295,13 +306,12 @@
           "max": 15,
           "level": "minimal",
           "label": "High",
-          "description": "Skilled at articulating feelings and thoughts. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Skilled at articulating feelings and thoughts. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         }
       ],
@@ -311,12 +321,13 @@
           "max": 7,
           "level": "severe",
           "label": "Low",
-          "description": "Often on autopilot or distracted. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Often on autopilot or distracted. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         },
         {
@@ -324,12 +335,13 @@
           "max": 11,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Sometimes able to focus on present activities. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Sometimes able to focus on present activities. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Increase the frequency of positive social activities",
+            "Develop a hobby that gives you a sense of accomplishment",
+            "Focus on your strengths and existing resources",
+            "Set meaningful personal goals",
+            "Maintain regular exercise and outdoor activities"
           ]
         },
         {
@@ -337,13 +349,12 @@
           "max": 15,
           "level": "minimal",
           "label": "High",
-          "description": "Maintains high awareness during daily activities. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Maintains high awareness during daily activities. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         }
       ],
@@ -353,12 +364,13 @@
           "max": 7,
           "level": "severe",
           "label": "Low",
-          "description": "Frequently judges own thoughts negatively. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Frequently judges own thoughts negatively. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         },
         {
@@ -366,12 +378,13 @@
           "max": 11,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Sometimes accepts inner experiences without judgment. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Sometimes accepts inner experiences without judgment. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Increase the frequency of positive social activities",
+            "Develop a hobby that gives you a sense of accomplishment",
+            "Focus on your strengths and existing resources",
+            "Set meaningful personal goals",
+            "Maintain regular exercise and outdoor activities"
           ]
         },
         {
@@ -379,13 +392,12 @@
           "max": 15,
           "level": "minimal",
           "label": "High",
-          "description": "Approaches inner experiences with openness. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Approaches inner experiences with openness. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         }
       ],
@@ -395,12 +407,13 @@
           "max": 7,
           "level": "severe",
           "label": "Low",
-          "description": "Easily carried away by inner experiences. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Easily carried away by inner experiences. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         },
         {
@@ -408,12 +421,13 @@
           "max": 11,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Sometimes maintains distance from inner experiences. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Sometimes maintains distance from inner experiences. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Increase the frequency of positive social activities",
+            "Develop a hobby that gives you a sense of accomplishment",
+            "Focus on your strengths and existing resources",
+            "Set meaningful personal goals",
+            "Maintain regular exercise and outdoor activities"
           ]
         },
         {
@@ -421,13 +435,12 @@
           "max": 15,
           "level": "minimal",
           "label": "High",
-          "description": "Observes inner experiences without being caught up. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Observes inner experiences without being caught up. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         }
       ]

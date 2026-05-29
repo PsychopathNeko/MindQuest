@@ -1,0 +1,152 @@
+{
+  "descriptions": {
+    "zh": {
+      "wellbeing": {
+        "severe": "您当前的幸福感和积极体验处于较高水平，反映出良好的心理健康和生活适应。",
+        "moderate": "此水平反映出较好的心理健康状态，您在多数时候能够感受到生活的意义和满足感。",
+        "normal": "这表明您当前的幸福感和生活满意度处于较低水平，可能需要关注自我关爱和生活调整。",
+        "mild": "您的幸福感处于一般水平，提升积极体验和社交连接可能有助于改善整体感受。"
+      },
+      "general": {
+        "normal": "这表明您当前的心理健康状态良好，各方面功能运作正常。",
+        "mild": "轻度的心理困扰在生活中是常见的，关注自我关爱和调节有助于保持良好状态。",
+        "severe": "当前心理健康困扰较为突出，可能已影响到您的日常功能，建议与专业人士交流获得帮助。",
+        "moderate": "此水平的心理困扰可能已对您的日常生活产生一定影响，建议关注并采取积极的应对措施。"
+      }
+    },
+    "en": {
+      "wellbeing": {
+        "severe": "Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "moderate": "This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+        "normal": "This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "mild": "Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment."
+      },
+      "general": {
+        "normal": "This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+        "mild": "Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
+        "severe": "Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+        "moderate": "At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options."
+      }
+    }
+  },
+  "suggestions": {
+    "zh": {
+      "wellbeing": {
+        "severe": [
+          "继续保持带给你幸福感的习惯和活动",
+          "将你的积极经验与他人分享",
+          "保持感恩和正念的练习",
+          "关注持续成长和生活意义的深化"
+        ],
+        "moderate": [
+          "继续保持现有的积极生活方式",
+          "分享你的经验和积极感受",
+          "帮助他人也是提升幸福感的有效方式",
+          "持续发展个人兴趣和社交网络"
+        ],
+        "normal": [
+          "尝试每天做一件让自己感到满足的事情",
+          "与亲友保持联系，培养社交归属感",
+          "探索新的兴趣和活动",
+          "练习感恩日记，关注生活中的积极面",
+          "如持续感到缺乏动力，可以考虑咨询专业人士"
+        ],
+        "mild": [
+          "增加积极社交活动的频率",
+          "培养一项能带来成就感的爱好",
+          "关注自身优势和已有的资源",
+          "设定有意义的个人目标",
+          "保持适当的运动和户外活动"
+        ]
+      },
+      "general": {
+        "normal": [
+          "继续保持健康的生活方式和心理状态",
+          "关注自我成长和积极体验",
+          "保持规律的运动和社交活动",
+          "如遇到困难，记得寻求支持"
+        ],
+        "mild": [
+          "关注自我关爱，保持良好的作息和运动",
+          "学习简单的放松和减压技巧",
+          "与信任的人保持沟通",
+          "如症状持续或加重，可以考虑咨询专业人士",
+          "保持积极的生活态度"
+        ],
+        "moderate": [
+          "考虑咨询专业人士获得支持",
+          "识别您具体的困扰来源",
+          "保持规律的日常作息",
+          "尝试适合自己的放松和应对方式",
+          "参与有意义的活动和社交互动"
+        ],
+        "severe": [
+          "建议尽快预约专业人士的评估",
+          "确保身边有信赖的人给予支持",
+          "遵循专业建议的治疗方案",
+          "保持基本的日常自我照顾",
+          "如感到不堪重负，可拨打心理援助热线"
+        ]
+      }
+    },
+    "en": {
+      "wellbeing": {
+        "severe": [
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others",
+          "Maintain gratitude and mindfulness practices",
+          "Focus on continued growth and deepening life meaning"
+        ],
+        "moderate": [
+          "Continue maintaining your positive lifestyle",
+          "Share your experiences and positive feelings with others",
+          "Helping others is also an effective way to enhance well-being",
+          "Continue developing personal interests and social networks"
+        ],
+        "normal": [
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging",
+          "Explore new interests and activities",
+          "Practice a gratitude journal, focusing on positive aspects of life",
+          "If you consistently feel unmotivated, consider consulting a professional"
+        ],
+        "mild": [
+          "Increase the frequency of positive social activities",
+          "Develop a hobby that gives you a sense of accomplishment",
+          "Focus on your strengths and existing resources",
+          "Set meaningful personal goals",
+          "Maintain regular exercise and outdoor activities"
+        ]
+      },
+      "general": {
+        "normal": [
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities",
+          "Remember to seek support when facing difficulties"
+        ],
+        "mild": [
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques",
+          "Stay in communication with people you trust",
+          "If symptoms persist or worsen, consider consulting a professional",
+          "Maintain a positive outlook on life"
+        ],
+        "moderate": [
+          "Consider consulting a mental health professional",
+          "Identify your specific sources of concern",
+          "Maintain a structured daily routine",
+          "Try relaxation and coping methods that suit you",
+          "Engage in meaningful activities and social interactions"
+        ],
+        "severe": [
+          "Schedule a mental health professional assessment as soon as possible",
+          "Make sure you have trusted people around you for support",
+          "Follow the treatment plan recommended by your professional",
+          "Maintain basic daily self-care routines",
+          "If you feel overwhelmed, call a mental health helpline for immediate support"
+        ]
+      }
+    }
+  }
+}

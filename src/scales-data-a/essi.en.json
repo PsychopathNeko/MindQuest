@@ -77,13 +77,18 @@
         "max": 12,
         "level": "severe",
         "label": "Low Social Support",
-        "description": "Your score indicates a low level of perceived social support. You may feel that few people are available to help or support you emotionally. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "description": "Your score indicates a low level of perceived social support. You may feel that few people are available to help or support you emotionally. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Consider reaching out to community organizations, support groups, or religious communities",
           "Try reconnecting with old friends or family members",
           "Volunteer or join clubs to expand your social network",
           "Consider talking to a counselor about building social connections",
-          "Online communities can also provide valuable support"
+          "Online communities can also provide valuable support",
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging",
+          "Explore new interests and activities",
+          "Practice a gratitude journal, focusing on positive aspects of life",
+          "If you consistently feel unmotivated, consider consulting a professional"
         ]
       },
       {
@@ -91,13 +96,18 @@
         "max": 18,
         "level": "moderate",
         "label": "Moderate Social Support",
-        "description": "Your score indicates a moderate level of social support. You have some support available but may feel it is not always sufficient. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+        "description": "Your score indicates a moderate level of social support. You have some support available but may feel it is not always sufficient. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
         "suggestions": [
           "Identify areas where you need more support and communicate your needs",
           "Strengthen existing relationships through regular contact",
           "Explore joining interest-based groups or activities",
           "Practice asking for help when you need it",
-          "Consider couples or family counseling to improve close relationships"
+          "Consider couples or family counseling to improve close relationships",
+          "Increase the frequency of positive social activities",
+          "Develop a hobby that gives you a sense of accomplishment",
+          "Focus on your strengths and existing resources",
+          "Set meaningful personal goals",
+          "Maintain regular exercise and outdoor activities"
         ]
       },
       {
@@ -105,13 +115,16 @@
         "max": 24,
         "level": "mild",
         "label": "High Social Support",
-        "description": "Your score indicates a high level of social support. You generally feel well-supported by those around you. Your well-being is at a moderate level. Increasing positive experiences and social connections may help improve your overall sense of fulfillment.",
+        "description": "Your score indicates a high level of social support. You generally feel well-supported by those around you. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Continue nurturing your supportive relationships",
           "Express gratitude to those who support you",
           "Consider ways to reciprocate the support you receive",
           "Maintain regular social contact to keep connections strong",
-          "Increase the frequency of positive social activities"
+          "Continue maintaining your positive lifestyle",
+          "Share your experiences and positive feelings with others",
+          "Helping others is also an effective way to enhance well-being",
+          "Continue developing personal interests and social networks"
         ]
       },
       {
@@ -119,13 +132,16 @@
         "max": 30,
         "level": "minimal",
         "label": "Very High Social Support",
-        "description": "Your score indicates a very high level of perceived social support. You feel strongly supported in multiple areas of your life. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "description": "Your score indicates a very high level of perceived social support. You feel strongly supported in multiple areas of your life. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue maintaining your strong social network",
           "Share your social support strategies with others who may be more isolated",
           "Use your support network as a resource during challenging times",
           "Consider mentoring or supporting others in need",
-          "Try doing one fulfilling activity each day"
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others",
+          "Maintain gratitude and mindfulness practices",
+          "Focus on continued growth and deepening life meaning"
         ]
       }
     ],

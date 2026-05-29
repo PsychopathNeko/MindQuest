@@ -213,12 +213,13 @@
           "max": 20,
           "level": "severe",
           "label": "Low PA",
-          "description": "Low positive affect. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Low positive affect. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         },
         {
@@ -240,13 +241,12 @@
           "max": 50,
           "level": "minimal",
           "label": "High PA",
-          "description": "High positive affect. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "High positive affect. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         }
       ],

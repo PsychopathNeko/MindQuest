@@ -117,13 +117,17 @@
         "max": 25,
         "level": "severe",
         "label": "Low Mindfulness",
-        "description": "Your mindfulness level is low. You may often find yourself on autopilot, reacting impulsively to situations rather than responding with awareness. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "description": "Your mindfulness level is low. You may often find yourself on autopilot, reacting impulsively to situations rather than responding with awareness. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Begin with short daily mindfulness exercises, such as 5 minutes of focused breathing",
           "Practice bringing attention to routine activities like eating or walking",
           "Consider joining a beginner mindfulness or meditation class",
           "Try using a guided meditation app to build a regular practice",
-          "Keep up the habits and activities that bring you happiness"
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging",
+          "Explore new interests and activities",
+          "Practice a gratitude journal, focusing on positive aspects of life",
+          "If you consistently feel unmotivated, consider consulting a professional"
         ]
       },
       {
@@ -137,7 +141,11 @@
           "Practice observing your thoughts and emotions without judgment throughout the day",
           "Try body scan exercises to deepen body awareness",
           "Explore mindful communication in your relationships",
-          "Continue maintaining your positive lifestyle"
+          "Increase the frequency of positive social activities",
+          "Develop a hobby that gives you a sense of accomplishment",
+          "Focus on your strengths and existing resources",
+          "Set meaningful personal goals",
+          "Maintain regular exercise and outdoor activities"
         ]
       },
       {
@@ -151,7 +159,10 @@
           "Explore advanced practices such as loving-kindness or insight meditation",
           "Consider how your mindfulness can benefit others around you",
           "Challenge yourself with mindfulness in more difficult situations",
-          "Increase the frequency of positive social activities"
+          "Continue maintaining your positive lifestyle",
+          "Share your experiences and positive feelings with others",
+          "Helping others is also an effective way to enhance well-being",
+          "Continue developing personal interests and social networks"
         ]
       },
       {
@@ -165,7 +176,10 @@
           "Consider sharing your experience through teaching or mentoring others",
           "Continue deepening your practice through retreats or advanced study",
           "Use your mindfulness skills to support your overall wellbeing and relationships",
-          "Try doing one fulfilling activity each day"
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others",
+          "Maintain gratitude and mindfulness practices",
+          "Focus on continued growth and deepening life meaning"
         ]
       }
     ],

@@ -310,13 +310,15 @@
         "max": 56,
         "level": "low",
         "label": "Low Coping Engagement",
-        "description": "You report relatively low use of coping strategies overall. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+        "description": "You report relatively low use of coping strategies overall. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
         "suggestions": [
           "Consider exploring different coping strategies",
           "Even small coping efforts can make a difference",
-          "Try doing one fulfilling activity each day",
-          "Stay connected with friends and family to build a sense of belonging",
-          "Explore new interests and activities"
+          "Focus on self-care with good routines and regular exercise",
+          "Learn simple relaxation and stress-relief techniques",
+          "Stay in communication with people you trust",
+          "If symptoms persist or worsen, consider consulting a professional",
+          "Maintain a positive outlook on life"
         ]
       },
       {
@@ -324,13 +326,14 @@
         "max": 84,
         "level": "moderate",
         "label": "Moderate Coping Engagement",
-        "description": "You report moderate use of coping strategies. Review the subscale scores. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+        "description": "You report moderate use of coping strategies. Review the subscale scores. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Examine which coping strategies are most helpful for you",
           "Consider whether your coping mix includes enough adaptive strategies",
-          "Continue maintaining your positive lifestyle",
-          "Share your experiences and positive feelings with others",
-          "Helping others is also an effective way to enhance well-being"
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities",
+          "Remember to seek support when facing difficulties"
         ]
       },
       {
@@ -338,13 +341,14 @@
         "max": 112,
         "level": "high",
         "label": "High Coping Engagement",
-        "description": "You report high use of coping strategies. Check the subscale breakdown. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+        "description": "You report high use of coping strategies. Check the subscale breakdown. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
         "suggestions": [
           "Review subscale scores to ensure you rely more on adaptive strategies",
           "High substance use or avoidance scores may warrant professional consultation",
-          "Keep up the habits and activities that bring you happiness",
-          "Share your positive experiences with others",
-          "Maintain gratitude and mindfulness practices"
+          "Continue maintaining a healthy lifestyle and mental well-being",
+          "Focus on personal growth and positive experiences",
+          "Maintain regular exercise and social activities",
+          "Remember to seek support when facing difficulties"
         ]
       }
     ],
@@ -355,13 +359,12 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of self-distraction as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of self-distraction as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -369,12 +372,12 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of self-distraction as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of self-distraction as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -382,12 +385,12 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of self-distraction as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of self-distraction as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -395,12 +398,12 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of self-distraction as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of self-distraction as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         }
       ],
@@ -410,13 +413,13 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of active coping as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of active coping as a coping strategy. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
           ]
         },
         {
@@ -424,12 +427,12 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of active coping as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of active coping as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -437,12 +440,12 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of active coping as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of active coping as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -450,12 +453,12 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of active coping as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of active coping as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         }
       ],
@@ -465,13 +468,12 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of denial as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of denial as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -479,12 +481,13 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of denial as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of denial as a coping strategy. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
           ]
         },
         {
@@ -492,12 +495,13 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of denial as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of denial as a coping strategy. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
           ]
         },
         {
@@ -505,12 +509,13 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of denial as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of denial as a coping strategy. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
           ]
         }
       ],
@@ -520,13 +525,12 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of substance use as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of substance use as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -534,12 +538,13 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of substance use as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of substance use as a coping strategy. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
           ]
         },
         {
@@ -547,12 +552,13 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of substance use as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of substance use as a coping strategy. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
           ]
         },
         {
@@ -560,12 +566,13 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of substance use as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of substance use as a coping strategy. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
           ]
         }
       ],
@@ -575,13 +582,13 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of emotional support as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of emotional support as a coping strategy. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
           ]
         },
         {
@@ -589,12 +596,12 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of emotional support as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of emotional support as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -602,12 +609,12 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of emotional support as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of emotional support as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -615,12 +622,12 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of emotional support as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of emotional support as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         }
       ],
@@ -630,13 +637,12 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of behavioral disengagement as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of behavioral disengagement as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -644,12 +650,13 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of behavioral disengagement as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of behavioral disengagement as a coping strategy. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
           ]
         },
         {
@@ -657,12 +664,13 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of behavioral disengagement as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of behavioral disengagement as a coping strategy. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
           ]
         },
         {
@@ -670,12 +678,13 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of behavioral disengagement as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of behavioral disengagement as a coping strategy. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
           ]
         }
       ],
@@ -685,13 +694,13 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of positive reframing as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of positive reframing as a coping strategy. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
           ]
         },
         {
@@ -699,12 +708,12 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of positive reframing as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of positive reframing as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -712,12 +721,12 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of positive reframing as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of positive reframing as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -725,12 +734,12 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of positive reframing as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of positive reframing as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         }
       ],
@@ -740,13 +749,12 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of venting as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of venting as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -754,12 +762,12 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of venting as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of venting as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -767,12 +775,12 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of venting as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of venting as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -780,12 +788,12 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of venting as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of venting as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         }
       ],
@@ -795,13 +803,13 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of instrumental support as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of instrumental support as a coping strategy. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
           ]
         },
         {
@@ -809,12 +817,12 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of instrumental support as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of instrumental support as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -822,12 +830,12 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of instrumental support as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of instrumental support as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -835,12 +843,12 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of instrumental support as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of instrumental support as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         }
       ],
@@ -850,13 +858,12 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of self-blame as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of self-blame as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -864,12 +871,13 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of self-blame as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of self-blame as a coping strategy. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
           ]
         },
         {
@@ -877,12 +885,13 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of self-blame as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of self-blame as a coping strategy. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Consider consulting a mental health professional",
+            "Identify your specific sources of concern",
+            "Maintain a structured daily routine",
+            "Try relaxation and coping methods that suit you",
+            "Engage in meaningful activities and social interactions"
           ]
         },
         {
@@ -890,12 +899,13 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of self-blame as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of self-blame as a coping strategy. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Schedule a mental health professional assessment as soon as possible",
+            "Make sure you have trusted people around you for support",
+            "Follow the treatment plan recommended by your professional",
+            "Maintain basic daily self-care routines",
+            "If you feel overwhelmed, call a mental health helpline for immediate support"
           ]
         }
       ],
@@ -905,13 +915,13 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of planning as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of planning as a coping strategy. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
           ]
         },
         {
@@ -919,12 +929,12 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of planning as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of planning as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -932,12 +942,12 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of planning as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of planning as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -945,12 +955,12 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of planning as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of planning as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         }
       ],
@@ -960,13 +970,12 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of humor as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of humor as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -974,12 +983,12 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of humor as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of humor as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -987,12 +996,12 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of humor as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of humor as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -1000,12 +1009,12 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of humor as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of humor as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         }
       ],
@@ -1015,13 +1024,12 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of acceptance as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of acceptance as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -1029,12 +1037,12 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of acceptance as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of acceptance as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -1042,12 +1050,12 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of acceptance as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of acceptance as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -1055,12 +1063,12 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of acceptance as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of acceptance as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         }
       ],
@@ -1070,13 +1078,12 @@
           "max": 3,
           "level": "low",
           "label": "Low",
-          "description": "Low use of religion as a coping strategy. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "Low use of religion as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -1084,12 +1091,12 @@
           "max": 5,
           "level": "moderate",
           "label": "Moderate",
-          "description": "Moderate use of religion as a coping strategy. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "Moderate use of religion as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -1097,12 +1104,12 @@
           "max": 7,
           "level": "high",
           "label": "High",
-          "description": "High use of religion as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "High use of religion as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -1110,12 +1117,12 @@
           "max": 8,
           "level": "very_high",
           "label": "Very High",
-          "description": "Very high use of religion as a coping strategy. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "Very high use of religion as a coping strategy. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         }
       ]
