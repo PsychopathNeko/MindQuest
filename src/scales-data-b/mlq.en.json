@@ -222,13 +222,12 @@
           "max": 15,
           "level": "minimal",
           "label": "Low Search",
-          "description": "You are not actively searching for meaning in life. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
+          "description": "You are not actively searching for meaning in life. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Try doing one fulfilling activity each day",
-            "Stay connected with friends and family to build a sense of belonging",
-            "Explore new interests and activities",
-            "Practice a gratitude journal, focusing on positive aspects of life",
-            "If you consistently feel unmotivated, consider consulting a professional"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -236,12 +235,12 @@
           "max": 25,
           "level": "normal",
           "label": "Moderate Search",
-          "description": "You are moderately exploring the meaning of life. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
+          "description": "You are moderately exploring the meaning of life. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
           "suggestions": [
-            "Continue maintaining your positive lifestyle",
-            "Share your experiences and positive feelings with others",
-            "Helping others is also an effective way to enhance well-being",
-            "Continue developing personal interests and social networks"
+            "Continue maintaining a healthy lifestyle and mental well-being",
+            "Focus on personal growth and positive experiences",
+            "Maintain regular exercise and social activities",
+            "Remember to seek support when facing difficulties"
           ]
         },
         {
@@ -249,12 +248,13 @@
           "max": 35,
           "level": "mild",
           "label": "High Search",
-          "description": "You are actively searching for and exploring the meaning of life. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
+          "description": "You are actively searching for and exploring the meaning of life. Mild psychological concerns are common in life. Focusing on self-care and healthy coping strategies can help maintain well-being.",
           "suggestions": [
-            "Keep up the habits and activities that bring you happiness",
-            "Share your positive experiences with others",
-            "Maintain gratitude and mindfulness practices",
-            "Focus on continued growth and deepening life meaning"
+            "Focus on self-care with good routines and regular exercise",
+            "Learn simple relaxation and stress-relief techniques",
+            "Stay in communication with people you trust",
+            "If symptoms persist or worsen, consider consulting a professional",
+            "Maintain a positive outlook on life"
           ]
         }
       ]

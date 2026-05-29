@@ -132,13 +132,13 @@
         "max": 17,
         "level": "low",
         "label": "Low Work Engagement",
-        "description": "Your work engagement level is low. You may lack enthusiasm and motivation at work. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+        "description": "Your work engagement level is low. You may lack enthusiasm and motivation at work. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
         "suggestions": [
           "Reflect on whether your work aligns with your personal values",
           "Discuss work content adjustments with your supervisor",
           "Identify aspects of your work that bring a sense of achievement",
-          "Continue maintaining a healthy lifestyle and mental well-being",
-          "Focus on personal growth and positive experiences"
+          "Try doing one fulfilling activity each day",
+          "Stay connected with friends and family to build a sense of belonging"
         ]
       },
       {
@@ -146,13 +146,13 @@
         "max": 35,
         "level": "moderate",
         "label": "Moderate Work Engagement",
-        "description": "Your work engagement is at a moderate level. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+        "description": "Your work engagement is at a moderate level. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
         "suggestions": [
           "Try setting challenging goals at work",
           "Develop social relationships in the workplace",
           "Seek more autonomy and growth opportunities",
-          "Consider consulting a mental health professional",
-          "Identify your specific sources of concern"
+          "Continue maintaining your positive lifestyle",
+          "Share your experiences and positive feelings with others"
         ]
       },
       {
@@ -160,13 +160,13 @@
         "max": 54,
         "level": "high",
         "label": "High Work Engagement",
-        "description": "Your work engagement is high. You are full of vigor, dedication, and absorption in your work. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+        "description": "Your work engagement is high. You are full of vigor, dedication, and absorption in your work. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
         "suggestions": [
           "Continue maintaining high work engagement",
           "Be mindful of work-life balance to prevent burnout",
           "Help colleagues enhance their work engagement",
-          "Schedule a mental health professional assessment as soon as possible",
-          "Make sure you have trusted people around you for support"
+          "Keep up the habits and activities that bring you happiness",
+          "Share your positive experiences with others"
         ]
       }
     ],
@@ -177,12 +177,13 @@
           "max": 6,
           "level": "low",
           "label": "Low Vigor",
-          "description": "You lack energy and vitality at work, possibly feeling exhausted and unmotivated. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "description": "You lack energy and vitality at work, possibly feeling exhausted and unmotivated. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Continue maintaining a healthy lifestyle and mental well-being",
-            "Focus on personal growth and positive experiences",
-            "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         },
         {
@@ -190,13 +191,12 @@
           "max": 12,
           "level": "moderate",
           "label": "Moderate Vigor",
-          "description": "You have some energy at work, though it may fluctuate. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "description": "You have some energy at work, though it may fluctuate. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
           "suggestions": [
-            "Consider consulting a mental health professional",
-            "Identify your specific sources of concern",
-            "Maintain a structured daily routine",
-            "Try relaxation and coping methods that suit you",
-            "Engage in meaningful activities and social interactions"
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
           ]
         },
         {
@@ -204,13 +204,12 @@
           "max": 18,
           "level": "high",
           "label": "High Vigor",
-          "description": "You are full of energy, vitality, and resilience at work. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "description": "You are full of energy, vitality, and resilience at work. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Schedule a mental health professional assessment as soon as possible",
-            "Make sure you have trusted people around you for support",
-            "Follow the treatment plan recommended by your professional",
-            "Maintain basic daily self-care routines",
-            "If you feel overwhelmed, call a mental health helpline for immediate support"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         }
       ],
@@ -220,12 +219,13 @@
           "max": 6,
           "level": "low",
           "label": "Low Dedication",
-          "description": "You lack enthusiasm and identification with your work, possibly feeling it is meaningless. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "description": "You lack enthusiasm and identification with your work, possibly feeling it is meaningless. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Continue maintaining a healthy lifestyle and mental well-being",
-            "Focus on personal growth and positive experiences",
-            "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         },
         {
@@ -233,13 +233,12 @@
           "max": 12,
           "level": "moderate",
           "label": "Moderate Dedication",
-          "description": "You have some enthusiasm and commitment to your work, with room for growth. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "description": "You have some enthusiasm and commitment to your work, with room for growth. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
           "suggestions": [
-            "Consider consulting a mental health professional",
-            "Identify your specific sources of concern",
-            "Maintain a structured daily routine",
-            "Try relaxation and coping methods that suit you",
-            "Engage in meaningful activities and social interactions"
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
           ]
         },
         {
@@ -247,13 +246,12 @@
           "max": 18,
           "level": "high",
           "label": "High Dedication",
-          "description": "You are passionate and proud of your work, finding it highly meaningful. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "description": "You are passionate and proud of your work, finding it highly meaningful. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Schedule a mental health professional assessment as soon as possible",
-            "Make sure you have trusted people around you for support",
-            "Follow the treatment plan recommended by your professional",
-            "Maintain basic daily self-care routines",
-            "If you feel overwhelmed, call a mental health helpline for immediate support"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         }
       ],
@@ -263,12 +261,13 @@
           "max": 6,
           "level": "low",
           "label": "Low Absorption",
-          "description": "You find it difficult to concentrate at work and are easily distracted. This indicates that your overall mental health is in good condition, with all areas of functioning working well.",
+          "description": "You find it difficult to concentrate at work and are easily distracted. This indicates that your current sense of well-being and life satisfaction is relatively low. Focusing on self-care and lifestyle adjustments may be beneficial.",
           "suggestions": [
-            "Continue maintaining a healthy lifestyle and mental well-being",
-            "Focus on personal growth and positive experiences",
-            "Maintain regular exercise and social activities",
-            "Remember to seek support when facing difficulties"
+            "Try doing one fulfilling activity each day",
+            "Stay connected with friends and family to build a sense of belonging",
+            "Explore new interests and activities",
+            "Practice a gratitude journal, focusing on positive aspects of life",
+            "If you consistently feel unmotivated, consider consulting a professional"
           ]
         },
         {
@@ -276,13 +275,12 @@
           "max": 12,
           "level": "moderate",
           "label": "Moderate Absorption",
-          "description": "You can maintain some focus at work, though occasional distractions occur. At this level, psychological concerns may be affecting your daily life. It is recommended to take active steps and consider available support options.",
+          "description": "You can maintain some focus at work, though occasional distractions occur. This level reflects a generally positive psychological state, where you can experience meaning and satisfaction in most aspects of life.",
           "suggestions": [
-            "Consider consulting a mental health professional",
-            "Identify your specific sources of concern",
-            "Maintain a structured daily routine",
-            "Try relaxation and coping methods that suit you",
-            "Engage in meaningful activities and social interactions"
+            "Continue maintaining your positive lifestyle",
+            "Share your experiences and positive feelings with others",
+            "Helping others is also an effective way to enhance well-being",
+            "Continue developing personal interests and social networks"
           ]
         },
         {
@@ -290,13 +288,12 @@
           "max": 18,
           "level": "high",
           "label": "High Absorption",
-          "description": "You are highly focused and immersed in your work, fully engaged. Your mental health concerns are notable and may be impacting daily functioning. Speaking with a mental health professional is recommended.",
+          "description": "You are highly focused and immersed in your work, fully engaged. Your well-being and positive experiences are at a high level, reflecting strong psychological health and life adaptation.",
           "suggestions": [
-            "Schedule a mental health professional assessment as soon as possible",
-            "Make sure you have trusted people around you for support",
-            "Follow the treatment plan recommended by your professional",
-            "Maintain basic daily self-care routines",
-            "If you feel overwhelmed, call a mental health helpline for immediate support"
+            "Keep up the habits and activities that bring you happiness",
+            "Share your positive experiences with others",
+            "Maintain gratitude and mindfulness practices",
+            "Focus on continued growth and deepening life meaning"
           ]
         }
       ]
