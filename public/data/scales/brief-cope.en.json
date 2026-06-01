@@ -182,7 +182,8 @@
           0,
           18
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "neutral"
       },
       {
         "id": "active_coping",
@@ -191,7 +192,8 @@
           1,
           6
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "adaptive"
       },
       {
         "id": "denial",
@@ -200,7 +202,8 @@
           2,
           7
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "maladaptive"
       },
       {
         "id": "substance_use",
@@ -209,7 +212,8 @@
           3,
           10
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "maladaptive"
       },
       {
         "id": "emotional_support",
@@ -218,7 +222,8 @@
           4,
           14
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "adaptive"
       },
       {
         "id": "behavioral_disengagement",
@@ -227,7 +232,8 @@
           5,
           15
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "maladaptive"
       },
       {
         "id": "positive_reframing",
@@ -236,7 +242,8 @@
           11,
           16
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "adaptive"
       },
       {
         "id": "venting",
@@ -245,7 +252,8 @@
           8,
           20
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "neutral"
       },
       {
         "id": "instrumental_support",
@@ -254,7 +262,8 @@
           9,
           22
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "adaptive"
       },
       {
         "id": "self_blame",
@@ -263,7 +272,8 @@
           12,
           25
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "maladaptive"
       },
       {
         "id": "planning",
@@ -272,7 +282,8 @@
           13,
           24
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "adaptive"
       },
       {
         "id": "humor",
@@ -281,7 +292,8 @@
           17,
           27
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "adaptive"
       },
       {
         "id": "acceptance",
@@ -290,7 +302,8 @@
           19,
           23
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "adaptive"
       },
       {
         "id": "religion",
@@ -299,7 +312,8 @@
           21,
           26
         ],
-        "maxScore": 8
+        "maxScore": 8,
+        "valence": "adaptive"
       }
     ]
   },

@@ -15,6 +15,8 @@ const props = defineProps({
   maxScore: { type: Number, required: true },
   minScore: { type: Number, default: 0 },
   showSubscales: { type: Boolean, default: true },
+  hideTotal: { type: Boolean, default: false },
+  multiplier: { type: Number, default: 1 },
 })
 
 const { t } = useLocale()
@@ -29,13 +31,13 @@ const dataPoints = computed(() => {
     const date = `${d.getMonth() + 1}/${d.getDate()} ${pad(d.getHours())}:${pad(d.getMinutes())}`
     const point = {
       date,
-      total: item.data.scores?.total ?? 0,
+      total: (item.data.scores?.total ?? 0) * props.multiplier,
       level: item.data.report?.level ?? 'unknown',
     }
     if (props.showSubscales && item.data.scores?.subscales) {
       point.subscales = item.data.scores.subscales.map((sub) => ({
         name: sub.name,
-        score: sub.score,
+        score: sub.score * props.multiplier,
       }))
     }
     return point
@@ -43,7 +45,7 @@ const dataPoints = computed(() => {
 })
 
 const option = computed(() =>
-  createTimelineOption(dataPoints.value, props.maxScore, props.minScore),
+  createTimelineOption(dataPoints.value, props.maxScore, props.minScore, props.hideTotal),
 )
 </script>
 

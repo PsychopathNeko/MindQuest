@@ -139,7 +139,6 @@
     "method": "subscale",
     "maxTotal": 126,
     "maxItemScore": 3,
-    "multiplier": 2,
     "subscales": [
       {
         "id": "depression",

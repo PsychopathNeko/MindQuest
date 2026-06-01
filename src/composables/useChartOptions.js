@@ -34,7 +34,7 @@ export function useChartOptions() {
     createGaugeOption: (score, maxScore, label, color, minScore) => createGaugeOption(score, maxScore, label, color, minScore, chartColors()),
     createBarOption: (subscales, subscaleReports) => createBarOption(subscales, subscaleReports, t, chartColors()),
     createRadarOption: (subscales, subscaleReports) => createRadarOption(subscales, subscaleReports, t, chartColors()),
-    createTimelineOption: (dataPoints, maxScore, minScore) => createTimelineOption(dataPoints, maxScore, minScore, t, chartColors()),
+    createTimelineOption: (dataPoints, maxScore, minScore, hideTotal) => createTimelineOption(dataPoints, maxScore, minScore, t, chartColors(), hideTotal),
   }
 }
 
@@ -137,7 +137,10 @@ function createBarOption(subscales, subscaleReports, t, colors = {}) {
 
   const barColors = subscales.map((s) => {
     const report = reportMap[s.id]
-    return report ? getSeverityColor(report.level) : '#7da2f7'
+    if (report) return getSeverityColor(report.level)
+    if (s.valence === 'adaptive') return '#10b981'
+    if (s.valence === 'maladaptive') return '#f97316'
+    return '#7da2f7'
   })
 
   // Determine max axis value
@@ -313,7 +316,7 @@ function createRadarOption(subscales, subscaleReports, t, colors = {}) {
  * @param {Function} t - Translation function
  * @returns {Object} ECharts option
  */
-function createTimelineOption(dataPoints, maxScore, minScore, t, colors = {}) {
+function createTimelineOption(dataPoints, maxScore, minScore, t, colors = {}, hideTotal = false) {
   const dates = dataPoints.map((d) => d.date)
   const totals = dataPoints.map((d) => d.total)
 
@@ -340,7 +343,7 @@ function createTimelineOption(dataPoints, maxScore, minScore, t, colors = {}) {
 
   const subscaleColors = ['#e8a0bf', '#a5bfff', '#f5c6d8', '#8dd1c1', '#c4b5fd', '#fbbf24']
 
-  const series = [
+  const series = hideTotal ? [] : [
     {
       name: t('timeline.total'),
       type: 'line',

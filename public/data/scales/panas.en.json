@@ -136,7 +136,7 @@
   ],
   "scoring": {
     "method": "subscale",
-    "maxTotal": 100,
+    "maxTotal": null,
     "maxItemScore": 5,
     "subscales": [
       {
@@ -179,27 +179,13 @@
     "ranges": [
       {
         "min": 20,
-        "max": 50,
-        "level": "mild",
-        "label": "Low Overall Affect",
-        "description": "Your overall emotional engagement appears reduced, with lower levels of both positive and negative affect. This pattern may reflect emotional numbing, disengagement, or a period of low emotional intensity. Exploring activities that promote emotional vitality may be helpful.",
-        "suggestions": [
-          "Engage in activities that have previously brought you joy or excitement",
-          "Practice identifying and labeling your emotions throughout the day",
-          "Consider whether this reflects a temporary state or a persistent pattern worth exploring with a professional",
-          "Try novel experiences to stimulate emotional engagement"
-        ]
-      },
-      {
-        "min": 51,
         "max": 100,
-        "level": "normal",
-        "label": "Moderate to High Affect",
-        "description": "Your emotional engagement is within a typical range. Review your positive and negative affect subscale scores for a more nuanced picture of your emotional balance. The ideal pattern involves high positive affect combined with low negative affect.",
+        "level": "unknown",
+        "label": "See subscales",
+        "description": "The PANAS total score is the sum of Positive Affect and Negative Affect, which does not have a straightforward clinical interpretation on its own. Please review the Positive Affect (PA) and Negative Affect (NA) subscale scores below for a meaningful assessment of your emotional state.",
         "suggestions": [
-          "Review your subscale scores — aim for high positive affect and low negative affect",
-          "Practice activities that boost positive emotions such as exercise, socializing, and pursuing hobbies",
-          "If negative affect is elevated, consider stress management techniques like deep breathing or progressive relaxation"
+          "Review the Positive Affect and Negative Affect subscale scores to understand your emotional profile",
+          "The ideal emotional pattern combines high positive affect with low negative affect"
         ]
       }
     ],

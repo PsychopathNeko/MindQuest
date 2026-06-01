@@ -45,8 +45,10 @@ const gaugeMax = computed(() => { if (!scaleReport.value?.gaugeConfig) return ma
 const timelineMax = computed(() => {
   if (scaleReport.value?.gaugeConfig?.max) return scaleReport.value.gaugeConfig.max
   if (scale.value?.scoring?.maxTotal) return scale.value.scoring.maxTotal
-  // For profile scales (maxTotal: null), compute from subscale maxScores
   if (scores.value?.subscales) {
+    if (scale.value?.scoring?.method === 'mean_subscale') {
+      return Math.max(...scores.value.subscales.map(s => s.maxScore))
+    }
     return scores.value.subscales.reduce((sum, s) => sum + s.maxScore, 0)
   }
   return 100
@@ -71,6 +73,16 @@ const lookupTotal = computed(() => {
   if (!scores.value || scores.value.total == null) return 0
   const multiplier = scale.value?.interpretation?.multiplier ?? 1
   return scores.value.total * multiplier
+})
+
+const enrichedSubscales = computed(() => {
+  if (!scores.value?.subscales || !scale.value?.scoring?.subscales) return scores.value?.subscales ?? []
+  const valenceMap = {}
+  scale.value.scoring.subscales.forEach(s => { if (s.valence) valenceMap[s.id] = s.valence })
+  return scores.value.subscales.map(s => {
+    if (valenceMap[s.id]) return { ...s, valence: valenceMap[s.id] }
+    return s
+  })
 })
 
 const breadcrumbItems = computed(() => [
@@ -161,32 +173,32 @@ function handlePrint() { if (typeof window !== 'undefined') window.print() }
         <p v-if="scale && scale.meta && scale.meta.author" class="scale-meta-line">{{ scale.meta.author }}<template v-if="scale.meta.population"> · {{ scale.meta.population }}</template></p>
       </template>
 
-      <ScoreSummary v-if="showTotalScore && !charts.includes('gauge')" :score="scores.total" :max-score="gaugeMax" :label="report.label" :level="report.level" :color="totalColor" />
+      <ScoreSummary v-if="showTotalScore && !charts.includes('gauge')" :score="lookupTotal" :max-score="gaugeMax" :label="report.label" :level="report.level" :color="totalColor" />
 
       <CrisisAlert v-if="showCrisisAlert" />
 
-      <div v-if="charts.includes('gauge')" class="chart-section">
-        <GaugeChart :score="scores.total" :max-score="gaugeMax" :min-score="gaugeMin" :label="report.label" :color="totalColor" />
+      <div v-if="showTotalScore && charts.includes('gauge')" class="chart-section">
+        <GaugeChart :score="lookupTotal" :max-score="gaugeMax" :min-score="gaugeMin" :label="report.label" :color="totalColor" />
       </div>
 
       <SeverityRangeBar v-if="interpretationRanges.length > 1 && report && report.level !== 'unknown'" :ranges="interpretationRanges" :current-level="report.level" :current-score="lookupTotal" />
 
-      <InterpretationCard v-if="report.level !== 'unknown' && report.description" :title="t('report.overallInterpretation')" :description="report.description" :level="report.level" />
+      <InterpretationCard v-if="report && report.description" :title="t('report.overallInterpretation')" :description="report.description" :level="report.level" />
       <div v-else-if="hasSubscales" class="no-total-hint">
         <p>{{ t('report.noTotalInterpretation') }}</p>
       </div>
-      <TimelineChart :assessments="scaleHistory" :max-score="timelineMax" :min-score="timelineMin" :show-subscales="hasSubscales" />
+      <TimelineChart :assessments="scaleHistory" :max-score="timelineMax" :min-score="timelineMin" :show-subscales="hasSubscales" :hide-total="scale?.scoring?.method === 'mean_subscale' || !scale?.scoring?.maxTotal" :multiplier="scale?.interpretation?.multiplier ?? 1" />
 
       <template v-if="hasSubscales">
         <div class="section-divider"><h2 class="section-title">{{ t('report.subscaleDetails') }}</h2></div>
-        <div v-if="charts.includes('bar')" class="chart-section"><BarChart :subscales="scores.subscales" :subscale-reports="report.subscaleReports" /></div>
-        <div v-if="charts.includes('radar')" class="chart-section"><RadarChart :subscales="scores.subscales" :subscale-reports="report.subscaleReports" /></div>
-        <div v-if="report.subscaleReports" class="subscale-cards">
+        <div v-if="charts.includes('bar')" class="chart-section"><BarChart :subscales="enrichedSubscales" :subscale-reports="report.subscaleReports" /></div>
+        <div v-if="charts.includes('radar')" class="chart-section"><RadarChart :subscales="enrichedSubscales" :subscale-reports="report.subscaleReports" /></div>
+        <div v-if="report && report.subscaleReports" class="subscale-cards">
           <InterpretationCard v-for="sub in report.subscaleReports" :key="sub.id" :title="sub.name + ' ' + sub.displayScore + '/' + sub.maxScore + ' — ' + sub.label" :description="sub.description" :level="sub.level" />
         </div>
       </template>
 
-      <SuggestionCard :suggestions="report.suggestions" />
+      <SuggestionCard :suggestions="report?.suggestions" />
 
       <div class="action-buttons no-print">
         <button class="btn btn-outline" @click="handleRetake">{{ t('report.retake') }}</button>
