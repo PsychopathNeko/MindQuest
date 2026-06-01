@@ -2,7 +2,7 @@
 import { onMounted, ref, computed } from 'vue'
 import { useHead } from '@unhead/vue'
 import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
-import { useRouter } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { useHistory } from '@/composables/useHistory'
 import { exportAllData, importData } from '@/utils/storage'
 import { useScaleLoader } from '@/composables/useScaleLoader'
@@ -11,6 +11,7 @@ import { useLocalizedRouter } from '@/composables/useLocalizedRouter'
 import { getSeverityColor } from '@/engine/reportEngine'
 
 const router = useRouter()
+const route = useRoute()
 const { push: localizedPush } = useLocalizedRouter()
 const { records, loading, loadRecords, removeRecord, clearAll, formatDate } = useHistory()
 const { t } = useLocale()
@@ -41,7 +42,7 @@ useHead({
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           'itemListElement': [
-            { '@type': 'ListItem', 'position': 1, 'name': 'MindQuest', 'item': siteOrigin + '/' },
+            { '@type': 'ListItem', 'position': 1, 'name': 'MindQuest', 'item': route.params.lang === 'en' ? siteOrigin + '/en' : siteOrigin + '/' },
             { '@type': 'ListItem', 'position': 2, 'name': t('nav.history') }
           ]
         })
