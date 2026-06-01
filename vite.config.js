@@ -37,10 +37,12 @@ export default defineConfig({
     async onFinished() {
       const { writeFileSync, readFileSync } = await import('node:fs')
       // SPA fallback for GitHub Pages (non-prerendered routes like /assessment/:id)
-      // Inject noindex to prevent search engines from indexing 404 as duplicate content
-      let html404 = readFileSync('dist/index.html', 'utf-8')
-      html404 = html404.replace('<meta name="robots" content="index, follow">', '<meta name="robots" content="noindex">')
-      writeFileSync('dist/404.html', html404)
+      // Only needed for GitHub Pages; Vercel uses rewrites in vercel.json
+      if (process.env.GITHUB_ACTIONS) {
+        let html404 = readFileSync('dist/index.html', 'utf-8')
+        html404 = html404.replace('<meta name="robots" content="index, follow">', '<meta name="robots" content="noindex">')
+        writeFileSync('dist/404.html', html404)
+      }
       // Sitemap for search engines
       const origin = process.env.GITHUB_ACTIONS
         ? 'https://psychopathneko.github.io/MindQuest'
