@@ -30,6 +30,24 @@ useHead({
     { name: 'twitter:title', content: computed(() => `${t('nav.history')} - MindQuest`) },
     { name: 'twitter:description', content: computed(() => t('history.metaDescription') || t('nav.history')) },
   ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: computed(() => {
+        const siteOrigin = import.meta.env.BASE_URL === '/MindQuest/'
+          ? 'https://psychopathneko.github.io/MindQuest'
+          : 'https://mindquest-neko.vercel.app'
+        return JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          'itemListElement': [
+            { '@type': 'ListItem', 'position': 1, 'name': 'MindQuest', 'item': siteOrigin + '/' },
+            { '@type': 'ListItem', 'position': 2, 'name': t('nav.history') }
+          ]
+        })
+      })
+    }
+  ],
 })
 
 const selectedGroup = ref('')

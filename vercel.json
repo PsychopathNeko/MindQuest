@@ -7,6 +7,7 @@
     { "source": "/en/history", "destination": "/en/history.html" },
     { "source": "/scale/:id", "destination": "/scale/:id.html" },
     { "source": "/en/scale/:id", "destination": "/en/scale/:id.html" },
+    { "source": "/en/:path*", "destination": "/en.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

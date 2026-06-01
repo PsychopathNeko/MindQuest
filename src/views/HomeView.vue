@@ -17,12 +17,33 @@ const { selectedTags, filteredScales, recommendedTags, toggleTag, clearTags } = 
 const { t, locale } = useLocale()
 const { addToQueue, isInQueue, updateQueueNames } = useQueue()
 
+const siteOrigin = import.meta.env.BASE_URL === '/MindQuest/'
+  ? 'https://psychopathneko.github.io/MindQuest'
+  : 'https://mindquest-neko.vercel.app'
+
 useHead({
   title: computed(() => t('meta.title')),
   meta: [
     { name: 'description', content: computed(() => t('meta.description')) },
     { property: 'og:title', content: computed(() => t('meta.title')) },
     { property: 'og:description', content: computed(() => t('meta.description')) },
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: computed(() => JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        'name': 'MindQuest',
+        'url': siteOrigin + '/',
+        'description': t('meta.description'),
+        'potentialAction': {
+          '@type': 'SearchAction',
+          'target': siteOrigin + '/?q={search_term_string}',
+          'query-input': 'required name=search_term_string'
+        }
+      }))
+    }
   ],
 })
 

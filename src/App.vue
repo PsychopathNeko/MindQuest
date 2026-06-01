@@ -34,6 +34,7 @@ useHead({
   meta: [
     { property: 'og:url', content: computed(() => `${siteOrigin}${route.path}`) },
     { property: 'og:locale', content: computed(() => locale.value === 'zh' ? 'zh_CN' : 'en_US') },
+    { property: 'og:site_name', content: 'MindQuest' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: computed(() => t('meta.title')) },
     { name: 'twitter:description', content: computed(() => t('meta.description')) },

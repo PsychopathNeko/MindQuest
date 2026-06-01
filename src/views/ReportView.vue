@@ -16,6 +16,7 @@ import TimelineChart from '@/components/report/TimelineChart.vue'
 import { getAssessmentsForScale } from '@/utils/storage'
 import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
 import { useLocalizedRouter } from '@/composables/useLocalizedRouter'
+import { useHead } from '@unhead/vue'
 import CrisisAlert from '@/components/common/CrisisAlert.vue'
 import SeverityRangeBar from '@/components/report/SeverityRangeBar.vue'
 
@@ -34,6 +35,14 @@ const loadError = ref(null)
 const scores = computed(() => assessment.value?.scores ?? null)
 const report = computed(() => assessment.value?.report ?? null)
 const scaleName = computed(() => assessment.value?.scaleName ?? '')
+
+useHead({
+  title: computed(() => scaleName.value ? `${scaleName.value} - MindQuest` : 'MindQuest'),
+  meta: [
+    { name: 'robots', content: 'noindex, nofollow' },
+  ],
+})
+
 const scaleReport = computed(() => scale.value?.report ?? null)
 const hasSubscales = computed(() => !!scores.value?.subscales && scores.value.subscales.length > 0)
 const charts = computed(() => scaleReport.value?.charts ?? [])

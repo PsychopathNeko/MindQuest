@@ -10,6 +10,7 @@ import QuestionRenderer from '@/components/questions/QuestionRenderer.vue'
 import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
 import { useQueue } from '@/composables/useQueue'
 import { useLocalizedRouter } from '@/composables/useLocalizedRouter'
+import { useHead } from '@unhead/vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -20,6 +21,13 @@ const { t } = useLocale()
 
 const scale = ref(null)
 const scaleId = computed(() => route.params.id)
+
+useHead({
+  title: computed(() => scale.value ? `${scale.value.meta.name} - MindQuest` : 'MindQuest'),
+  meta: [
+    { name: 'robots', content: 'noindex, nofollow' },
+  ],
+})
 
 const {
   currentIndex, answers, isComplete, progress, currentQuestion,
