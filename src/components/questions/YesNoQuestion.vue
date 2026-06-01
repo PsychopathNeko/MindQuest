@@ -58,4 +58,9 @@ function select(value) {
   .question-text { font-size: var(--font-size-lg); }
   .yesno-btn { min-height: 56px; }
 }
+
+.yesno-btn:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
 </style>

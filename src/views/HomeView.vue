@@ -89,7 +89,12 @@ const visibleScales = computed(() => {
 
 function goPage(page) {
   currentPage.value = Math.max(1, Math.min(page, totalPages.value))
-  if (typeof window !== 'undefined') window.scrollTo({ top: 0, behavior: 'smooth' })
+  if (typeof window !== 'undefined') {
+    const grid = document.querySelector('.scale-grid')
+    if (grid) {
+      grid.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }
 }
 
 function startScale(scaleId) {
@@ -120,6 +125,8 @@ function handleSearchKeydown(e) {
     e.preventDefault()
     if (highlightedIndex.value >= 0 && highlightedIndex.value < searchResults.value.length) {
       startScale(searchResults.value[highlightedIndex.value].id)
+    } else if (searchResults.value.length > 0) {
+      startScale(searchResults.value[0].id)
     }
   } else if (e.key === 'Escape') {
     e.preventDefault()
@@ -201,6 +208,10 @@ watch(locale, async () => {
               :placeholder="t('search.placeholder')"
               @focus="searchFocused = true"
               @keydown="handleSearchKeydown"
+              role="combobox"
+              aria-autocomplete="list"
+              aria-haspopup="listbox"
+              :aria-expanded="showDropdown"
               :aria-activedescendant="showDropdown && highlightedIndex >= 0 ? 'search-option-' + highlightedIndex : undefined"
             />
             <button v-if="rawQuery" class="search-clear" @click="rawQuery = ''; debouncedQuery = ''" :aria-label="t('a11y.clearSearch')">
@@ -374,7 +385,7 @@ watch(locale, async () => {
 }
 
 .search-clear:hover {
-  background-color: rgba(0, 0, 0, 0.06);
+  background-color: var(--color-surface);
   color: var(--color-text-primary);
 }
 
@@ -410,7 +421,7 @@ watch(locale, async () => {
   justify-content: space-between;
   gap: var(--spacing-3);
   padding: var(--spacing-3) var(--spacing-4);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  border-bottom: 1px solid var(--color-border);
   transition: background-color var(--transition);
 }
 

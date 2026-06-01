@@ -1,7 +1,11 @@
 <script setup>
+import { computed } from 'vue'
 import { useLocale } from '@/composables/useLocale'
+import { useLocalizedRouter } from '@/composables/useLocalizedRouter'
 import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
 const { t } = useLocale()
+const { currentLang } = useLocalizedRouter()
+const homeTo = computed(() => ({ name: 'home', params: currentLang.value ? { lang: currentLang.value } : {} }))
 </script>
 
 <template>
@@ -10,7 +14,7 @@ const { t } = useLocale()
     <div class="not-found-content">
       <h1 class="not-found-code">404</h1>
       <p class="not-found-message">{{ t('notFound.message') }}</p>
-      <router-link to="/" class="not-found-link">{{ t('notFound.backHome') }}</router-link>
+      <router-link :to="homeTo" class="not-found-link">{{ t('notFound.backHome') }}</router-link>
     </div>
   </div>
 </template>

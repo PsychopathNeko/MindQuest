@@ -1,7 +1,7 @@
 <script setup>
-import { useRouter } from 'vue-router'
 import { useQueue } from '@/composables/useQueue'
 import { useLocale } from '@/composables/useLocale'
+import { useLocalizedRouter } from '@/composables/useLocalizedRouter'
 
 const props = defineProps({
   scale: {
@@ -10,12 +10,12 @@ const props = defineProps({
   },
 })
 
-const router = useRouter()
+const { push: localizedPush } = useLocalizedRouter()
 const { addToQueue, isInQueue } = useQueue()
 const { t } = useLocale()
 
 function navigateToScale() {
-  router.push({ name: 'scale-detail', params: { id: props.scale.id } })
+  localizedPush({ name: 'scale-detail', params: { id: props.scale.id } })
 }
 
 function handleAddToQueue(e) {

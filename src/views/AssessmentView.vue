@@ -31,8 +31,8 @@ useHead({
 
 const {
   currentIndex, answers, isComplete, progress, currentQuestion,
-  canGoBack, canGoForward, selectAnswer, goNext, goPrev, goTo, getResults, cleanup,
-} = useAssessment(scale)
+  canGoBack, canGoForward, selectAnswer, goNext, goPrev, goTo, getResults, cleanup, clearProgress,
+} = useAssessment(scale, scaleId)
 
 const slideDirection = ref('left')
 const showInstruction = ref(true)
@@ -59,17 +59,22 @@ function handleNext() { slideDirection.value = 'left'; goNext() }
 function handleDotClick(index) { slideDirection.value = index > currentIndex.value ? 'left' : 'right'; goTo(index) }
 
 function handleKeydown(e) {
-  if (e.key >= '0' && e.key <= '9') {
-    const num = parseInt(e.key)
+  if (e.key >= '1' && e.key <= '9') {
+    const idx = parseInt(e.key) - 1
     const choices = currentChoices.value
-    const match = choices.find((c) => c.value === num)
-    if (match) { handleAnswerSelect(match.value); return }
-    if (num >= 1 && num <= choices.length) { handleAnswerSelect(choices[num - 1].value); return }
+    if (idx < choices.length) { handleAnswerSelect(choices[idx].value); return }
   }
   if (e.key === 'ArrowLeft' && canGoBack.value) handlePrev()
   else if (e.key === 'ArrowRight' && canGoForward.value) handleNext()
 }
 
+function handleBeforeUnload(e) {
+  const answered = Object.keys(answers.value).length
+  if (answered > 0 && !isComplete.value) {
+    e.preventDefault()
+    e.returnValue = ''
+  }
+}
 function submitResults() {
   if (submitting.value) return
   submitting.value = true
@@ -87,6 +92,7 @@ function submitResults() {
     try { umami.track('scale_completed', { scaleId: scaleId.value, scaleName: scale.value.meta.name }) } catch (_) {}
   }
   fetch('https://api.counterapi.dev/v1/mindquest-psychopathneko/scale_completed/up').catch(() => {})
+  clearProgress()
   removeFromQueue(scaleId.value)
   localizedPush({ name: 'report', params: { id: scaleId.value }, query: { key } })
 }
@@ -113,10 +119,12 @@ onMounted(async () => {
     // loading/error states from useScaleLoader handle display
   }
   document.addEventListener('keydown', handleKeydown)
+  window.addEventListener('beforeunload', handleBeforeUnload)
 })
 
 onBeforeUnmount(() => {
   document.removeEventListener('keydown', handleKeydown)
+  window.removeEventListener('beforeunload', handleBeforeUnload)
   cleanup()
 })
 </script>
@@ -164,7 +172,7 @@ onBeforeUnmount(() => {
           <div class="nav-section">
             <div class="nav-buttons">
               <button class="btn btn-outline" :disabled="!canGoBack" @click="handlePrev">{{ t('assess.prev') }}</button>
-              <button v-if="!isComplete" class="btn btn-primary" :disabled="!canGoForward" @click="handleNext">{{ t('assess.next') }}</button>
+              <button v-if="!isComplete" class="btn btn-primary" :disabled="!canGoForward" :title="!canGoForward ? t('assess.selectFirst') : ''" @click="handleNext">{{ t('assess.next') }}</button>
               <button v-else class="btn btn-primary btn-submit" :disabled="submitting" @click="submitResults">{{ t('assess.viewResults') }}</button>
             </div>
           </div>
@@ -208,6 +216,15 @@ onBeforeUnmount(() => {
 .dots-section { margin-top: var(--spacing-6); padding-top: var(--spacing-4); }
 .dots-container { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--spacing-2); }
 .dot { width: 12px; height: 12px; border-radius: var(--border-radius-full); border: 2px solid var(--color-border); background-color: transparent; cursor: pointer; transition: all 0.2s ease; padding: 0; position: relative; }
+.dot::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+}
 .dot:hover { border-color: var(--color-primary-light); }
 .dot.answered { background-color: var(--color-primary); border-color: var(--color-primary); }
 .dot.current { border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(125, 162, 247, 0.3); }
@@ -224,15 +241,6 @@ onBeforeUnmount(() => {
   .instruction-banner { font-size: var(--font-size-xs); padding: var(--spacing-2) var(--spacing-3); }
   .dots-container { gap: var(--spacing-1); }
   .dot { width: 10px; height: 10px; }
-  .dot::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 28px;
-    height: 28px;
-  }
 }
 
 @media (max-width: 374px) {

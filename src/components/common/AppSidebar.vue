@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, onMounted, onBeforeUnmount, ref, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useQueue } from '@/composables/useQueue'
 import { useLocale } from '@/composables/useLocale'
@@ -8,11 +8,11 @@ import { useRecommendation } from '@/composables/useRecommendation'
 import { useLocalizedRouter } from '@/composables/useLocalizedRouter'
 import { getAssessments } from '@/utils/storage'
 
-defineProps({ open: { type: Boolean, default: false } })
+const props = defineProps({ open: { type: Boolean, default: false } })
 const emit = defineEmits(['close'])
 const router = useRouter()
 const route = useRoute()
-const { queue, removeFromQueue, clearQueue } = useQueue()
+const { queue, removeFromQueue, clearQueue, updateQueueNames } = useQueue()
 const { push: localizedPush } = useLocalizedRouter()
 const showQueueClearConfirm = ref(false)
 const { t, locale } = useLocale()
@@ -24,13 +24,30 @@ function refreshAssessments() {
   assessments.value = getAssessments()
 }
 
+function handleKeydown(e) {
+  if (e.key === 'Escape' && props.open) {
+    emit('close')
+  }
+}
+
 onMounted(() => {
   refreshAssessments()
   loadIndex()
+  document.addEventListener('keydown', handleKeydown)
+})
+
+onBeforeUnmount(() => {
+  document.removeEventListener('keydown', handleKeydown)
 })
 
 // Refresh assessments when route changes (e.g., after completing assessment)
 watch(() => route.path, refreshAssessments)
+
+// Update queue names when locale changes (even on non-home pages)
+watch(locale, async () => {
+  await loadIndex()
+  updateQueueNames(scales.value)
+})
 
 // Recommendation engine
 const { recommendations } = useRecommendation(scales, assessments)

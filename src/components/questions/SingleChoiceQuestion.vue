@@ -134,4 +134,9 @@ function select(value) {
     font-size: var(--font-size-lg);
   }
 }
+
+.radio-option:focus-within {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
 </style>

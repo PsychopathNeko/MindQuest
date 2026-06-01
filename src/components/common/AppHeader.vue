@@ -109,6 +109,7 @@ const homeTo = computed(() => ({ name: 'home', params: currentLang.value ? { lan
   z-index: 100;
   border-bottom: 1px solid var(--color-pink-border);
   backdrop-filter: blur(8px);
+  background-color: var(--color-background);
   background-color: color-mix(in srgb, var(--color-background) 92%, transparent);
 }
 

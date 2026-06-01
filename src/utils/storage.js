@@ -103,6 +103,12 @@ export function exportAllData() {
  */
 export function importData(jsonStr) {
   const result = { imported: 0, skipped: 0, errors: 0 }
+
+  // Size check: reject files over 10MB
+  if (jsonStr.length > 10 * 1024 * 1024) {
+    throw new Error('File too large (max 10MB)')
+  }
+
   let payload
   try {
     payload = JSON.parse(jsonStr)
@@ -112,6 +118,17 @@ export function importData(jsonStr) {
   if (!payload.assessments || !Array.isArray(payload.assessments)) {
     throw new Error('Invalid data format: missing assessments array')
   }
+
+  // Version check
+  if (payload.version && payload.version > 1) {
+    throw new Error('Unsupported data version')
+  }
+
+  // Count check: limit to 10000 assessments
+  if (payload.assessments.length > 10000) {
+    throw new Error('Too many assessments (max 10000)')
+  }
+
   const existing = new Set(getAssessments().map(a => `${a.data.scaleId}_${a.data.timestamp}`))
   for (const item of payload.assessments) {
     if (!item.scaleId || !item.timestamp || typeof item.answers !== 'object' || typeof item.scores !== 'object') { result.errors++; continue }

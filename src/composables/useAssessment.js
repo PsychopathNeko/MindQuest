@@ -6,12 +6,59 @@ import { generateReport } from '@/engine/reportEngine'
  * State machine composable for managing the assessment flow.
  *
  * @param {import('vue').Ref} scale — reactive ref to the loaded scale JSON
+ * @param {import('vue').Ref} [scaleId] — optional reactive ref to the scale identifier (used for sessionStorage key)
  * @returns assessment state and methods
  */
-export function useAssessment(scale) {
+export function useAssessment(scale, scaleId) {
   const currentIndex = ref(0)
   const answers = ref({})
   let autoAdvanceTimer = null
+  let disposed = false
+
+  const STORAGE_PREFIX = 'mindquest_progress_'
+
+  function getStorageKey() {
+    const id = scaleId?.value || scale.value?.meta?.id
+    return id ? STORAGE_PREFIX + id : null
+  }
+
+  function saveProgress() {
+    if (typeof sessionStorage === 'undefined') return
+    const key = getStorageKey()
+    if (!key) return
+    try {
+      sessionStorage.setItem(key, JSON.stringify({
+        currentIndex: currentIndex.value,
+        answers: answers.value
+      }))
+    } catch {}
+  }
+
+  function restoreProgress() {
+    if (typeof sessionStorage === 'undefined') return
+    const key = getStorageKey()
+    if (!key) return
+    try {
+      const raw = sessionStorage.getItem(key)
+      if (raw) {
+        const saved = JSON.parse(raw)
+        if (saved.answers && typeof saved.answers === 'object') {
+          answers.value = saved.answers
+        }
+        if (typeof saved.currentIndex === 'number' && saved.currentIndex >= 0) {
+          currentIndex.value = saved.currentIndex
+        }
+      }
+    } catch {}
+  }
+
+  function clearProgress() {
+    if (typeof sessionStorage === 'undefined') return
+    const key = getStorageKey()
+    if (key) {
+      try { sessionStorage.removeItem(key) } catch {}
+    }
+  }
 
   const questions = computed(() => {
     return scale.value?.questions ?? []
@@ -56,12 +103,15 @@ export function useAssessment(scale) {
     // Auto-advance after 300ms
     autoAdvanceTimer = setTimeout(() => {
       autoAdvanceTimer = null
+      if (disposed) return
       const nextUnanswered = findNextUnanswered(currentIndex.value)
       if (nextUnanswered !== -1) {
         currentIndex.value = nextUnanswered
       }
       // If all answered, stay on current question
     }, 300)
+
+    saveProgress()
   }
 
   /**
@@ -85,18 +135,21 @@ export function useAssessment(scale) {
   function goNext() {
     if (currentIndex.value < questions.value.length - 1) {
       currentIndex.value++
+      saveProgress()
     }
   }
 
   function goPrev() {
     if (currentIndex.value > 0) {
       currentIndex.value--
+      saveProgress()
     }
   }
 
   function goTo(index) {
     if (index >= 0 && index < questions.value.length) {
       currentIndex.value = index
+      saveProgress()
     }
   }
 
@@ -122,22 +175,30 @@ export function useAssessment(scale) {
   /**
    * Clean up any pending auto-advance timer.
    * Should be called when the component unmounts.
+   * Does NOT clear storage — user might come back.
    */
   function cleanup() {
+    disposed = true
     if (autoAdvanceTimer) {
       clearTimeout(autoAdvanceTimer)
       autoAdvanceTimer = null
     }
   }
 
-  // Cleanup timer when scale changes (component unmount scenario)
-  watch(scale, () => {
+  // Handle scale changes: restore on first load, reset on scale switch
+  watch(scale, (newVal, oldVal) => {
     if (autoAdvanceTimer) {
       clearTimeout(autoAdvanceTimer)
       autoAdvanceTimer = null
     }
-    currentIndex.value = 0
-    answers.value = {}
+    if (oldVal == null && newVal) {
+      // First load — try to restore saved progress
+      restoreProgress()
+    } else {
+      // Scale actually changed — reset
+      currentIndex.value = 0
+      answers.value = {}
+    }
   })
 
   return {
@@ -154,5 +215,6 @@ export function useAssessment(scale) {
     goTo,
     getResults,
     cleanup,
+    clearProgress,
   }
 }

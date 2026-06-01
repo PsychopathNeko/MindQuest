@@ -130,4 +130,9 @@ function select(value) {
     padding: var(--spacing-3) var(--spacing-4);
   }
 }
+
+.choice-card:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
 </style>

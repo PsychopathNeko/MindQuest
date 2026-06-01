@@ -34,7 +34,7 @@ const loadError = ref(null)
 
 const scores = computed(() => assessment.value?.scores ?? null)
 const report = computed(() => assessment.value?.report ?? null)
-const scaleName = computed(() => assessment.value?.scaleName ?? '')
+const scaleName = computed(() => scale.value?.meta?.name || assessment.value?.scaleName || '')
 
 useHead({
   title: computed(() => scaleName.value ? `${scaleName.value} - MindQuest` : 'MindQuest'),

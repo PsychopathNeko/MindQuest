@@ -157,8 +157,8 @@ function getSubscales(record) { const subs = record.data?.report?.subscaleReport
 </script>
 <template>
   <div class="history-view">
-    <BreadcrumbNav :items="breadcrumbItems" />
     <div class="container">
+      <BreadcrumbNav :items="breadcrumbItems" />
       <div class="page-header">
         <h1 class="page-title">{{ t('history.title') }}</h1>
         <p class="page-subtitle">{{ t('history.subtitle') }}</p>
@@ -282,7 +282,7 @@ function getSubscales(record) { const subs = record.data?.report?.subscaleReport
 .record-actions { display: flex; align-items: center; gap: var(--spacing-2); padding-top: var(--spacing-3); border-top: 1px solid var(--color-border); }
 .btn-action { padding: var(--spacing-1) var(--spacing-3); font-size: var(--font-size-xs); }
 .btn-ghost { background: transparent; color: var(--color-text-secondary); border: 1px solid transparent; border-radius: var(--border-radius-sm); cursor: pointer; font-family: var(--font-family); font-weight: 500; transition: all var(--transition); }
-.btn-ghost:hover { color: var(--color-text-primary); background-color: rgba(0, 0, 0, 0.04); }
+.btn-ghost:hover { color: var(--color-text-primary); background-color: var(--color-surface); }
 .btn-delete:hover { color: var(--color-danger); background-color: rgba(239, 68, 68, 0.06); }
 .btn-danger-solid { background-color: var(--color-danger); color: var(--color-text-inverse); border: 1px solid var(--color-danger); border-radius: var(--border-radius-sm); cursor: pointer; font-family: var(--font-family); font-weight: 500; transition: all var(--transition); }
 .btn-danger-solid:hover { background-color: #dc2626; border-color: #dc2626; }
