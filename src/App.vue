@@ -16,9 +16,24 @@ const siteOrigin = import.meta.env.BASE_URL === '/MindQuest/'
 
 useHead({
   htmlAttrs: { lang: computed(() => locale.value === 'zh' ? 'zh-CN' : 'en') },
-  link: [{ rel: 'canonical', href: computed(() => `${siteOrigin}${route.path}`) }],
+  link: [
+    { rel: 'canonical', href: computed(() => `${siteOrigin}${route.path}`) },
+    { rel: 'alternate', hreflang: 'zh', href: computed(() => {
+      const p = route.path.startsWith('/en') ? route.path.replace(/^\/en/, '') || '/' : route.path
+      return `${siteOrigin}${p}`
+    }) },
+    { rel: 'alternate', hreflang: 'en', href: computed(() => {
+      const base = route.path.startsWith('/en') ? route.path.replace(/^\/en/, '') || '/' : route.path
+      return `${siteOrigin}/en${base === '/' ? '' : base}`
+    }) },
+    { rel: 'alternate', hreflang: 'x-default', href: computed(() => {
+      const p = route.path.startsWith('/en') ? route.path.replace(/^\/en/, '') || '/' : route.path
+      return `${siteOrigin}${p}`
+    }) },
+  ],
   meta: [
     { property: 'og:url', content: computed(() => `${siteOrigin}${route.path}`) },
+    { property: 'og:locale', content: computed(() => locale.value === 'zh' ? 'zh_CN' : 'en_US') },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: computed(() => t('meta.title')) },
     { name: 'twitter:description', content: computed(() => t('meta.description')) },

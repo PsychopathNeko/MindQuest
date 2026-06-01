@@ -65,13 +65,13 @@ useHead({
               '@type': 'ListItem',
               'position': 1,
               'name': 'MindQuest',
-              'item': `${siteOrigin}/`
+              'item': route.params.lang === 'en' ? `${siteOrigin}/en` : `${siteOrigin}/`
             },
             {
               '@type': 'ListItem',
               'position': 2,
               'name': scale.value.meta.name,
-              'item': `${siteOrigin}/scale/${scaleId.value}`
+              'item': `${siteOrigin}${route.params.lang === 'en' ? '/en' : ''}/scale/${scaleId.value}`
             }
           ]
         })
