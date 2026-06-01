@@ -1,13 +1,32 @@
 <script setup>
-import { RouterLink, useRoute } from 'vue-router'
+import { computed } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import { useLocale } from '@/composables/useLocale'
 import { useTheme } from '@/composables/useTheme'
 
 const route = useRoute()
-const { t, toggleLocale, locale } = useLocale()
+const router = useRouter()
+const { t, locale } = useLocale()
 const { theme, cycleTheme } = useTheme()
 
 const emit = defineEmits(['toggle-sidebar'])
+
+const currentLang = computed(() => route.params.lang || undefined)
+
+function toggleLocale() {
+  const newLang = currentLang.value === 'en' ? undefined : 'en'
+  const params = { ...route.params }
+  if (newLang) {
+    params.lang = newLang
+  } else {
+    delete params.lang
+  }
+  router.push({ name: route.name || 'home', params, query: route.query })
+}
+
+const homePath = computed(() => currentLang.value === 'en' ? 'en' : '/')
+const historyTo = computed(() => ({ name: 'history', params: currentLang.value ? { lang: currentLang.value } : {} }))
+const homeTo = computed(() => ({ name: 'home', params: currentLang.value ? { lang: currentLang.value } : {} }))
 </script>
 
 <template>
@@ -26,7 +45,7 @@ const emit = defineEmits(['toggle-sidebar'])
             <line x1="3" y1="18" x2="21" y2="18"/>
           </svg>
         </button>
-        <RouterLink to="/" class="header-logo">
+        <RouterLink :to="homeTo" class="header-logo">
           <svg class="logo-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 2a7 7 0 0 1 7 7c0 3-2 5.5-4 7.5L12 20l-3-3.5C7 14.5 5 12 5 9a7 7 0 0 1 7-7z"/>
             <circle cx="12" cy="9" r="2.5"/>
@@ -35,14 +54,14 @@ const emit = defineEmits(['toggle-sidebar'])
         </RouterLink>
       </div>
       <nav class="header-nav">
-        <RouterLink to="/" class="nav-link" exact-active-class="nav-link-active">
+        <RouterLink :to="homeTo" class="nav-link" exact-active-class="nav-link-active">
           <svg class="nav-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
             <polyline points="9 22 9 12 15 12 15 22"/>
           </svg>
           <span>{{ t('nav.home') }}</span>
         </RouterLink>
-        <RouterLink to="/history" class="nav-link" active-class="nav-link-active">
+        <RouterLink :to="historyTo" class="nav-link" active-class="nav-link-active">
           <svg class="nav-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="10"/>
             <polyline points="12 6 12 12 16 14"/>

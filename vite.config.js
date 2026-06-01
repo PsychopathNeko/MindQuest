@@ -10,6 +10,7 @@ import legacy from '@vitejs/plugin-legacy'
 const indexPath = fileURLToPath(new URL('./public/data/scales/_index.json', import.meta.url))
 const index = JSON.parse(readFileSync(indexPath, 'utf-8'))
 const scaleRoutes = index.scales.map(s => `/scale/${s.id}`)
+const enScaleRoutes = index.scales.map(s => `/en/scale/${s.id}`)
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -31,7 +32,7 @@ export default defineConfig({
   },
   ssgOptions: {
     includedRoutes() {
-      return ['/', '/history', ...scaleRoutes]
+      return ['/', '/history', ...scaleRoutes, '/en', '/en/history', ...enScaleRoutes]
     },
     async onFinished() {
       const { writeFileSync, readFileSync } = await import('node:fs')
@@ -45,28 +46,46 @@ export default defineConfig({
         ? 'https://psychopathneko.github.io/MindQuest'
         : 'https://mindquest-neko.vercel.app'
       const today = new Date().toISOString().slice(0, 10)
-      const urls = ['/', ...scaleRoutes]
-      const urlEntries = urls.map(u => {
+      const zhUrls = ['/', '/history', ...scaleRoutes]
+      const enUrls = ['/en', '/en/history', ...enScaleRoutes]
+      const allUrls = [...zhUrls, ...enUrls]
+
+      function getAlternate(u) {
+        const isEn = u.startsWith('/en')
+        const base = isEn ? u.replace(/^\/en/, '') || '/' : u
+        const zhHref = `${origin}${base}`
+        const enHref = `${origin}/en${base === '/' ? '' : base}`
+        return { zhHref, enHref }
+      }
+
+      const urlEntries = allUrls.map(u => {
         let priority, changefreq
-        if (u === '/') {
+        if (u === '/' || u === '/en') {
           priority = '1.0'
+          changefreq = 'weekly'
+        } else if (u === '/history' || u === '/en/history') {
+          priority = '0.4'
           changefreq = 'weekly'
         } else {
           priority = '0.8'
           changefreq = 'monthly'
         }
+        const { zhHref, enHref } = getAlternate(u)
         return [
           '  <url>',
           `    <loc>${origin}${u}</loc>`,
           `    <lastmod>${today}</lastmod>`,
           `    <changefreq>${changefreq}</changefreq>`,
           `    <priority>${priority}</priority>`,
+          `    <xhtml:link rel="alternate" hreflang="zh" href="${zhHref}"/>`,
+          `    <xhtml:link rel="alternate" hreflang="en" href="${enHref}"/>`,
+          `    <xhtml:link rel="alternate" hreflang="x-default" href="${zhHref}"/>`,
           '  </url>',
         ].join('\n')
       })
       const sitemap = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">',
         ...urlEntries,
         '</urlset>',
       ].join('\n')

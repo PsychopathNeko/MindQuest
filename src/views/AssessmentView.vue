@@ -9,10 +9,12 @@ import ProgressBar from '@/components/common/ProgressBar.vue'
 import QuestionRenderer from '@/components/questions/QuestionRenderer.vue'
 import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
 import { useQueue } from '@/composables/useQueue'
+import { useLocalizedRouter } from '@/composables/useLocalizedRouter'
 
 const route = useRoute()
 const router = useRouter()
 const { removeFromQueue } = useQueue()
+const { push: localizedPush } = useLocalizedRouter()
 const { loading, error, loadScale } = useScaleLoader()
 const { t } = useLocale()
 
@@ -78,13 +80,13 @@ function submitResults() {
   }
   fetch('https://api.counterapi.dev/v1/mindquest-psychopathneko/scale_completed/up').catch(() => {})
   removeFromQueue(scaleId.value)
-  router.push({ name: 'report', params: { id: scaleId.value }, query: { key } })
+  localizedPush({ name: 'report', params: { id: scaleId.value }, query: { key } })
 }
 
 function confirmExit() {
   const answered = Object.keys(answers.value).length
-  if (answered === 0) { router.push({ name: 'scale-detail', params: { id: scaleId.value } }); return }
-  if (confirm(t('assess.confirmExit'))) { router.push({ name: 'scale-detail', params: { id: scaleId.value } }) }
+  if (answered === 0) { localizedPush({ name: 'scale-detail', params: { id: scaleId.value } }); return }
+  if (confirm(t('assess.confirmExit'))) { localizedPush({ name: 'scale-detail', params: { id: scaleId.value } }) }
 }
 
 onBeforeRouteLeave((_to, _from, next) => {
@@ -120,7 +122,7 @@ onBeforeUnmount(() => {
 
       <div v-else-if="error || !scale" class="error-state">
         <p class="error-text">{{ error || t('assess.loadError') }}</p>
-        <button class="btn btn-primary" @click="router.push({ name: 'home' })">{{ t('assess.backHome') }}</button>
+        <button class="btn btn-primary" @click="localizedPush({ name: 'home' })">{{ t('assess.backHome') }}</button>
       </div>
 
       <template v-else>
@@ -202,9 +204,6 @@ onBeforeUnmount(() => {
 .dot.answered { background-color: var(--color-primary); border-color: var(--color-primary); }
 .dot.current { border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(125, 162, 247, 0.3); }
 .dot.current.answered { background-color: var(--color-primary); }
-.loading-state { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-4); padding: var(--spacing-12) 0; color: var(--color-text-secondary); }
-.spinner { width: 36px; height: 36px; border: 3px solid var(--color-border); border-top-color: var(--color-primary); border-radius: 50%; animation: spin 0.8s linear infinite; }
-@keyframes spin { to { transform: rotate(360deg); } }
 .error-state { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-4); padding: var(--spacing-12) 0; text-align: center; }
 .error-text { color: var(--color-danger); }
 @media (max-width: 640px) {

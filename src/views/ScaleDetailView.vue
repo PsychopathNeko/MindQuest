@@ -4,6 +4,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { useScaleLoader } from '@/composables/useScaleLoader'
 import { useLocale } from '@/composables/useLocale'
 import { useQueue } from '@/composables/useQueue'
+import { useLocalizedRouter } from '@/composables/useLocalizedRouter'
 import { useHead } from '@unhead/vue'
 import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
 
@@ -12,9 +13,13 @@ const router = useRouter()
 const { loading, error, loadScale } = useScaleLoader()
 const { t, locale } = useLocale()
 const { addToQueue, isInQueue } = useQueue()
+const { push: localizedPush, alternatePath } = useLocalizedRouter()
 
 const scale = ref(null)
 const scaleId = computed(() => route.params.id)
+const siteOrigin = import.meta.env.BASE_URL === '/MindQuest/'
+  ? 'https://psychopathneko.github.io/MindQuest'
+  : 'https://mindquest-neko.vercel.app'
 
 useHead({
   title: computed(() =>
@@ -43,7 +48,6 @@ useHead({
         scale.value ? scale.value.meta.description : ''
       ),
     },
-    { property: 'og:url', content: computed(() => `https://psychopathneko.github.io/MindQuest/scale/${scaleId.value}`) },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: computed(() => scale.value ? `${scale.value.meta.name} - MindQuest` : 'MindQuest') },
     { name: 'twitter:description', content: computed(() => scale.value ? scale.value.meta.description : '') },
@@ -61,18 +65,23 @@ useHead({
               '@type': 'ListItem',
               'position': 1,
               'name': 'MindQuest',
-              'item': 'https://psychopathneko.github.io/MindQuest/'
+              'item': `${siteOrigin}/`
             },
             {
               '@type': 'ListItem',
               'position': 2,
               'name': scale.value.meta.name,
-              'item': `https://psychopathneko.github.io/MindQuest/scale/${scaleId.value}`
+              'item': `${siteOrigin}/scale/${scaleId.value}`
             }
           ]
         })
       })
     }
+  ],
+  link: [
+    { rel: 'alternate', hreflang: 'zh', href: computed(() => `${siteOrigin}/scale/${scaleId.value}`) },
+    { rel: 'alternate', hreflang: 'en', href: computed(() => `${siteOrigin}/en/scale/${scaleId.value}`) },
+    { rel: 'alternate', hreflang: 'x-default', href: computed(() => `${siteOrigin}/scale/${scaleId.value}`) },
   ],
 })
 
@@ -107,11 +116,11 @@ watch(locale, async () => {
 })
 
 function startAssessment() {
-  router.push({ name: 'assessment', params: { id: scaleId.value } })
+  localizedPush({ name: 'assessment', params: { id: scaleId.value } })
 }
 
 function goHome() {
-  router.push({ name: 'home' })
+  localizedPush({ name: 'home' })
 }
 
 function estimateTime(questionCount) {

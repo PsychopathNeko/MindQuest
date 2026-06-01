@@ -7,9 +7,11 @@ import { useHistory } from '@/composables/useHistory'
 import { exportAllData, importData } from '@/utils/storage'
 import { useScaleLoader } from '@/composables/useScaleLoader'
 import { useLocale } from '@/composables/useLocale'
+import { useLocalizedRouter } from '@/composables/useLocalizedRouter'
 import { getSeverityColor } from '@/engine/reportEngine'
 
 const router = useRouter()
+const { push: localizedPush } = useLocalizedRouter()
 const { records, loading, loadRecords, removeRecord, clearAll, formatDate } = useHistory()
 const { t } = useLocale()
 const { scales, tagGroups, loadIndex: loadScaleIndex } = useScaleLoader()
@@ -40,7 +42,7 @@ const importMessage = ref('')
 onMounted(() => { loadRecords(); loadScaleIndex() })
 
 function viewReport(record) {
-  router.push({ name: 'report', params: { id: record.data.scaleId }, query: { key: record.key } })
+  localizedPush({ name: 'report', params: { id: record.data.scaleId }, query: { key: record.key } })
 }
 function confirmDelete(key) { pendingDeleteKey.value = key }
 function cancelDelete() { pendingDeleteKey.value = null }
@@ -48,7 +50,7 @@ function executeDelete() { if (pendingDeleteKey.value) { removeRecord(pendingDel
 function confirmClearAll() { showClearConfirm.value = true }
 function cancelClearAll() { showClearConfirm.value = false }
 function executeClearAll() { clearAll(); showClearConfirm.value = false }
-function goHome() { router.push({ name: 'home' }) }
+function goHome() { localizedPush({ name: 'home' }) }
 function selectGroup(groupId) { selectedGroup.value = selectedGroup.value === groupId ? '' : groupId }
 
 function handleExport() {
@@ -131,7 +133,7 @@ const filteredRecords = computed(() => {
 function getBorderColor(record) { const level = record.data?.report?.level; return level ? getSeverityColor(level) : '#e2e8f0' }
 function getLevelLabel(record) { return record.data?.report?.label ?? '--' }
 function getLevelColor(record) { const level = record.data?.report?.level; return level ? getSeverityColor(level) : '#6b7280' }
-function getTotalScore(record) { const total = record.data?.scores?.total; return total != null ? total : '--' }
+function getTotalScore(record) { const total = record.data?.scores?.total; if (total == null) return '--'; const level = record.data?.report?.level; if (level === 'unknown') return '--'; return total }
 function getSubscales(record) { const subs = record.data?.report?.subscaleReports; if (!subs || subs.length === 0) return null; return subs }
 </script>
 <template>
@@ -187,7 +189,7 @@ function getSubscales(record) { const subs = record.data?.report?.subscaleReport
               </div>
               <div v-if="getSubscales(record)" class="subscale-list">
                 <span v-for="sub in getSubscales(record)" :key="sub.id" class="subscale-tag" :style="{ borderColor: getSeverityColor(sub.level) + '40', color: getSeverityColor(sub.level) }">
-                  {{ sub.name }}: {{ sub.score }}{{ t('history.scoreSuffix') }} ({{ sub.label }})
+                  {{ sub.name }}: {{ sub.displayScore ?? sub.score }}{{ t('history.scoreSuffix') }} ({{ sub.label }})
                 </span>
               </div>
               <div class="record-actions">

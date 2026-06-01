@@ -346,3 +346,5 @@ function toggleLocale() {
 export function useLocale() {
   return { locale, t, setLocale, toggleLocale }
 }
+
+export { locale, setLocale }

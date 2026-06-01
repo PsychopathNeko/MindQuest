@@ -1,4 +1,4 @@
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { useLocale } from './useLocale'
 
 const isClient = typeof window !== 'undefined'
@@ -34,7 +34,8 @@ export function useScaleLoader() {
   const scales = ref([])
   const tags = ref([])
   const tagGroups = ref([])
-  const loading = ref(false)
+  const _loadCount = ref(0)
+  const loading = computed(() => _loadCount.value > 0)
   const error = ref(null)
 
   function resolveIndex(rawData, lang) {
@@ -62,7 +63,7 @@ export function useScaleLoader() {
   }
 
   async function loadIndex() {
-    loading.value = true
+    _loadCount.value++
     error.value = null
 
     try {
@@ -81,7 +82,7 @@ export function useScaleLoader() {
       console.error('Failed to load scale index:', err)
       return null
     } finally {
-      loading.value = false
+      _loadCount.value--
     }
   }
 
@@ -91,7 +92,7 @@ export function useScaleLoader() {
       return scaleCache.get(cacheKey)
     }
 
-    loading.value = true
+    _loadCount.value++
     error.value = null
 
     try {
@@ -103,7 +104,7 @@ export function useScaleLoader() {
       console.error(`Failed to load scale "${id}":`, err)
       return null
     } finally {
-      loading.value = false
+      _loadCount.value--
     }
   }
 

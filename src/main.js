@@ -2,6 +2,7 @@ import { ViteSSG } from 'vite-ssg'
 import App from './App.vue'
 import { routes } from './router'
 import './assets/styles/global.css'
+import { setLocale } from './composables/useLocale'
 
 export const createApp = ViteSSG(
   App,
@@ -14,8 +15,13 @@ export const createApp = ViteSSG(
   },
   ({ router, isClient }) => {
     router.beforeEach((to, from, next) => {
+      // Set locale from URL: /en/... = English, otherwise Chinese
+      const routeLang = to.params.lang === 'en' ? 'en' : 'zh'
+      setLocale(routeLang)
+
+      // Validate scale ID format for routes that require it
       if (['scale-detail', 'assessment', 'report'].includes(to.name)) {
-        if (!to.params.id || to.params.id.trim() === '') {
+        if (!to.params.id || !/^[a-z0-9]([a-z0-9-]*[a-z0-9])?$/.test(to.params.id)) {
           next({ name: 'home' })
           return
         }

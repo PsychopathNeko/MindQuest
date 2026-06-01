@@ -1,5 +1,5 @@
 const isClient = typeof window !== 'undefined'
-const STORAGE_PREFIX = 'assessment_'
+export const STORAGE_PREFIX = 'assessment_'
 
 /**
  * Save an assessment result to localStorage.
@@ -114,7 +114,7 @@ export function importData(jsonStr) {
   }
   const existing = new Set(getAssessments().map(a => `${a.data.scaleId}_${a.data.timestamp}`))
   for (const item of payload.assessments) {
-    if (!item.scaleId || !item.timestamp) { result.errors++; continue }
+    if (!item.scaleId || !item.timestamp || typeof item.answers !== 'object' || typeof item.scores !== 'object') { result.errors++; continue }
     const id = `${item.scaleId}_${item.timestamp}`
     if (existing.has(id)) { result.skipped++; continue }
     try {

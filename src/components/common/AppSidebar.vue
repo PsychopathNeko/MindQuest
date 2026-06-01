@@ -5,6 +5,7 @@ import { useQueue } from '@/composables/useQueue'
 import { useLocale } from '@/composables/useLocale'
 import { useScaleLoader } from '@/composables/useScaleLoader'
 import { useRecommendation } from '@/composables/useRecommendation'
+import { useLocalizedRouter } from '@/composables/useLocalizedRouter'
 import { getAssessments } from '@/utils/storage'
 
 defineProps({ open: { type: Boolean, default: false } })
@@ -12,6 +13,8 @@ const emit = defineEmits(['close'])
 const router = useRouter()
 const route = useRoute()
 const { queue, removeFromQueue, clearQueue } = useQueue()
+const { push: localizedPush } = useLocalizedRouter()
+const showQueueClearConfirm = ref(false)
 const { t, locale } = useLocale()
 const { scales, loadIndex } = useScaleLoader()
 
@@ -61,7 +64,7 @@ const estimatedMinutes = computed(() => {
 })
 
 function startScale(scaleId) {
-  router.push({ name: 'scale-detail', params: { id: scaleId } })
+  localizedPush({ name: 'scale-detail', params: { id: scaleId } })
   emit('close')
 }
 
@@ -72,17 +75,17 @@ function startNext() {
 }
 
 function viewReport(key, scaleId) {
-  router.push({ name: 'report', params: { id: scaleId }, query: { key } })
+  localizedPush({ name: 'report', params: { id: scaleId }, query: { key } })
   emit('close')
 }
 
 function viewAllHistory() {
-  router.push({ name: 'history' })
+  localizedPush({ name: 'history' })
   emit('close')
 }
 
 function goHome() {
-  router.push({ name: 'home' })
+  localizedPush({ name: 'home' })
   emit('close')
 }
 </script>
@@ -191,7 +194,13 @@ function goHome() {
             <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
             {{ t('sidebar.startNext') }}
           </button>
-          <button class="btn-clear" @click="clearQueue">{{ t('queue.clear') }}</button>
+          <template v-if="!showQueueClearConfirm">
+            <button class="btn-clear" @click="showQueueClearConfirm = true">{{ t('queue.clear') }}</button>
+          </template>
+          <template v-else>
+            <button class="btn-clear btn-clear-confirm" @click="clearQueue(); showQueueClearConfirm = false">{{ t('history.confirmClear') }}</button>
+            <button class="btn-clear" @click="showQueueClearConfirm = false">{{ t('history.cancel') }}</button>
+          </template>
         </div>
       </template>
     </div>
@@ -588,6 +597,12 @@ function goHome() {
 .btn-clear:hover {
   color: var(--color-danger);
   opacity: 1;
+}
+
+.btn-clear-confirm {
+  color: var(--color-danger);
+  opacity: 1;
+  font-weight: 600;
 }
 
 /* Footer */

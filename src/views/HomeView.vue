@@ -5,14 +5,26 @@ import { useScaleLoader } from '@/composables/useScaleLoader'
 import { useTagFilter } from '@/composables/useTagFilter'
 import { useLocale } from '@/composables/useLocale'
 import { useQueue } from '@/composables/useQueue'
+import { useLocalizedRouter } from '@/composables/useLocalizedRouter'
+import { useHead } from '@unhead/vue'
 import TagFilter from '@/components/common/TagFilter.vue'
 import ScaleCard from '@/components/common/ScaleCard.vue'
 
 const router = useRouter()
+const { push: localizedPush } = useLocalizedRouter()
 const { scales, tags, tagGroups, loading, error, loadIndex } = useScaleLoader()
 const { selectedTags, filteredScales, recommendedTags, toggleTag, clearTags } = useTagFilter(scales)
 const { t, locale } = useLocale()
 const { addToQueue, isInQueue, updateQueueNames } = useQueue()
+
+useHead({
+  title: computed(() => t('meta.title')),
+  meta: [
+    { name: 'description', content: computed(() => t('meta.description')) },
+    { property: 'og:title', content: computed(() => t('meta.title')) },
+    { property: 'og:description', content: computed(() => t('meta.description')) },
+  ],
+})
 
 const rawQuery = ref('')
 const debouncedQuery = ref('')
@@ -63,7 +75,7 @@ function startScale(scaleId) {
   rawQuery.value = ''
   debouncedQuery.value = ''
   searchFocused.value = false
-  router.push({ name: 'scale-detail', params: { id: scaleId } })
+  localizedPush({ name: 'scale-detail', params: { id: scaleId } })
 }
 
 function addScale(scale) {
@@ -488,9 +500,6 @@ watch(locale, async () => {
 .scale-grid { display: grid; grid-template-columns: 1fr; gap: var(--spacing-4); }
 @media (min-width: 640px) { .scale-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1024px) { .scale-grid { grid-template-columns: repeat(3, 1fr); } }
-.loading-state { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-4); padding: var(--spacing-12) 0; color: var(--color-text-secondary); }
-.spinner { width: 36px; height: 36px; border: 3px solid var(--color-border); border-top-color: var(--color-primary); border-radius: 50%; animation: spin 0.8s linear infinite; }
-@keyframes spin { to { transform: rotate(360deg); } }
 .error-state { text-align: center; padding: var(--spacing-12) 0; color: var(--color-danger); }
 .error-state .btn { margin-top: var(--spacing-4); }
 .pagination { display: flex; align-items: center; justify-content: center; gap: var(--spacing-4); padding: var(--spacing-8) 0 var(--spacing-4); }

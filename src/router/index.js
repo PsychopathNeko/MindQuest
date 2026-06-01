@@ -2,27 +2,27 @@ import NotFoundView from '@/views/NotFoundView.vue'
 
 export const routes = [
   {
-    path: '/',
+    path: '/:lang(en)?',
     name: 'home',
     component: () => import('@/views/HomeView.vue'),
   },
   {
-    path: '/scale/:id',
+    path: '/:lang(en)?/scale/:id',
     name: 'scale-detail',
     component: () => import('@/views/ScaleDetailView.vue'),
   },
   {
-    path: '/assessment/:id',
+    path: '/:lang(en)?/assessment/:id',
     name: 'assessment',
     component: () => import('@/views/AssessmentView.vue'),
   },
   {
-    path: '/report/:id',
+    path: '/:lang(en)?/report/:id',
     name: 'report',
     component: () => import('@/views/ReportView.vue'),
   },
   {
-    path: '/history',
+    path: '/:lang(en)?/history',
     name: 'history',
     component: () => import('@/views/HistoryView.vue'),
   },

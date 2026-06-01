@@ -15,11 +15,13 @@ import SuggestionCard from '@/components/report/SuggestionCard.vue'
 import TimelineChart from '@/components/report/TimelineChart.vue'
 import { getAssessmentsForScale } from '@/utils/storage'
 import BreadcrumbNav from '@/components/common/BreadcrumbNav.vue'
+import { useLocalizedRouter } from '@/composables/useLocalizedRouter'
 import CrisisAlert from '@/components/common/CrisisAlert.vue'
 import SeverityRangeBar from '@/components/report/SeverityRangeBar.vue'
 
 const route = useRoute()
 const router = useRouter()
+const { push: localizedPush } = useLocalizedRouter()
 const { loading: scaleLoading, error: scaleError, loadScale } = useScaleLoader()
 const { t, locale } = useLocale()
 
@@ -146,8 +148,8 @@ watch(locale, async () => {
   }
 })
 
-function handleRetake() { router.push({ name: 'assessment', params: { id: scaleId.value } }) }
-function handleHome() { router.push({ name: 'home' }) }
+function handleRetake() { localizedPush({ name: 'assessment', params: { id: scaleId.value } }) }
+function handleHome() { localizedPush({ name: 'home' }) }
 function handlePrint() { if (typeof window !== 'undefined') window.print() }
 </script>
 <template>

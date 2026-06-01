@@ -1,9 +1,8 @@
 import { ref } from 'vue'
-import { getAssessments, deleteAssessment } from '@/utils/storage'
+import { getAssessments, deleteAssessment, STORAGE_PREFIX } from '@/utils/storage'
 import { useLocale } from './useLocale'
 
 const isClient = typeof window !== 'undefined'
-const STORAGE_PREFIX = 'assessment_'
 
 export function useHistory() {
   const { locale } = useLocale()
