@@ -27,6 +27,7 @@ function toggleLocale() {
 const homePath = computed(() => currentLang.value === 'en' ? 'en' : '/')
 const historyTo = computed(() => ({ name: 'history', params: currentLang.value ? { lang: currentLang.value } : {} }))
 const homeTo = computed(() => ({ name: 'home', params: currentLang.value ? { lang: currentLang.value } : {} }))
+const aboutTo = computed(() => ({ name: 'about', params: currentLang.value ? { lang: currentLang.value } : {} }))
 </script>
 
 <template>
@@ -67,6 +68,14 @@ const homeTo = computed(() => ({ name: 'home', params: currentLang.value ? { lan
             <polyline points="12 6 12 12 16 14"/>
           </svg>
           <span>{{ t('nav.history') }}</span>
+        </RouterLink>
+        <RouterLink :to="aboutTo" class="nav-link" active-class="nav-link-active">
+          <svg class="nav-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+            <line x1="12" y1="8" x2="12" y2="12"/>
+            <line x1="12" y1="16" x2="12.01" y2="16"/>
+          </svg>
+          <span>{{ t('nav.about') }}</span>
         </RouterLink>
         <button
           v-if="route.name !== 'assessment'"
