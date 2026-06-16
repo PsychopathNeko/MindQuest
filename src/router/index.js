@@ -27,6 +27,11 @@ export const routes = [
     component: () => import('@/views/HistoryView.vue'),
   },
   {
+    path: '/:lang(en)?/about',
+    name: 'about',
+    component: () => import('@/views/AboutView.vue'),
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'not-found',
     component: NotFoundView,

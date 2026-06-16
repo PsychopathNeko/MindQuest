@@ -32,7 +32,7 @@ export default defineConfig({
   },
   ssgOptions: {
     includedRoutes() {
-      return ['/', '/history', ...scaleRoutes, '/en', '/en/history', ...enScaleRoutes]
+      return ['/', '/history', '/about', ...scaleRoutes, '/en', '/en/history', '/en/about', ...enScaleRoutes]
     },
     async onFinished() {
       const { writeFileSync, readFileSync } = await import('node:fs')
@@ -48,8 +48,8 @@ export default defineConfig({
         ? 'https://psychopathneko.github.io/MindQuest'
         : 'https://mindquest-neko.vercel.app'
       const today = new Date().toISOString().slice(0, 10)
-      const zhUrls = ['/', '/history', ...scaleRoutes]
-      const enUrls = ['/en', '/en/history', ...enScaleRoutes]
+      const zhUrls = ['/', '/history', '/about', ...scaleRoutes]
+      const enUrls = ['/en', '/en/history', '/en/about', ...enScaleRoutes]
       const allUrls = [...zhUrls, ...enUrls]
 
       function getAlternate(u) {
@@ -65,6 +65,9 @@ export default defineConfig({
         if (u === '/' || u === '/en') {
           priority = '1.0'
           changefreq = 'weekly'
+        } else if (u === '/about' || u === '/en/about') {
+          priority = '0.5'
+          changefreq = 'monthly'
         } else if (u === '/history' || u === '/en/history') {
           priority = '0.4'
           changefreq = 'weekly'

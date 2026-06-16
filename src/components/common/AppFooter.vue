@@ -1,8 +1,14 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
 import { useLocale } from '@/composables/useLocale'
 
 const { t } = useLocale()
+const route = useRoute()
+const aboutTo = computed(() => {
+  const lang = route.params.lang
+  return { name: 'about', params: lang ? { lang } : {} }
+})
 
 const completionCount = ref(null)
 
@@ -23,6 +29,9 @@ onMounted(() => {
       <p class="footer-copyright">
         &copy; {{ new Date().getFullYear() }} MindQuest · All rights reserved
       </p>
+      <RouterLink :to="aboutTo" class="footer-about">
+        {{ t('nav.about') }}
+      </RouterLink>
       <a
         href="https://cloud.umami.is/share/7xR84re9wujOCkSu"
         target="_blank"
@@ -61,6 +70,21 @@ onMounted(() => {
   font-size: var(--font-size-xs);
   color: var(--color-text-secondary);
   opacity: 0.6;
+}
+
+.footer-about {
+  display: inline-block;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  margin-top: var(--spacing-2);
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.footer-about:hover {
+  opacity: 0.8;
+  color: var(--color-primary);
 }
 
 .footer-analytics {

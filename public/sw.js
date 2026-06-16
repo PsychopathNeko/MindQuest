@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mindquest-v4'
+const CACHE_NAME = 'mindquest-v5'
 
 self.addEventListener('install', (event) => {
   self.skipWaiting()
